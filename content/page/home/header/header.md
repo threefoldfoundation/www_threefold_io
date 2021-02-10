@@ -1,11 +1,11 @@
 ---
 id: home_header
-title: title
-subtitle: SUBTITLE
-btn1: Button
+title: ''
+subtitle: Welcome to ThreeFold
+btn1: The Vision
 link1: '' #link for button
-btn2: Button
+btn2: Know P2P Better
 link2: '' #link for button
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+We are building the next generation peer-to-peer internet infrastructure. After creating a powerful and super sustainable operating system that can host all of humanity's digital needs and data in smart contracts, we are now creating a fair, equal and private Internet experience to free humanity from the tech giants that exploit our data.

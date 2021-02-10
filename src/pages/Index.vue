@@ -48,14 +48,19 @@
       :card="card"
     /> -->
 
-    <CallToAction 
-      v-if="$page.markdownPage.cta" 
-      :cta="$page.markdownPage.cta" 
-    />
-
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
+    />
+    
+    <g-image class="m-auto my-4" 
+      v-if="$page.markdownPage.solution_image2"
+      :src="$page.markdownPage.solution_image2.src"
+    />
+
+    <CallToAction 
+      v-if="$page.markdownPage.cta" 
+      :cta="$page.markdownPage.cta" 
     />
 
     <!-- <InTheNews
@@ -82,6 +87,7 @@
         button
         link
         solution_image
+        solution_image2
         header{
          title
          subtitle

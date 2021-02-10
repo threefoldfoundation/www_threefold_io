@@ -1,5 +1,5 @@
 ---
 id: logo5
-image: ./logo.png
-url: '/'
+image: ./green_edge.png
+url: ''
 ---
