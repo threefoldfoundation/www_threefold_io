@@ -9,7 +9,7 @@ navLinks:
   - name: Dropdown
     link: /dropdown
     external: false
-    expandable: true
+    expandable: false
     submenu:
       - title: Page2
         path: /page2
@@ -20,18 +20,12 @@ navLinks:
   - name: People
     link: /people
     external: false
-    expandable: true
-    submenu:
-      - title: Team
-        path: /team
-
-      - title: Partners
-        path: /partners
+    expandable: 
 
   - name: More
     link: /more
     external: false
-    expandable: true
+    expandable: false
     submenu:
       - title: NewsRoom
         path: /news

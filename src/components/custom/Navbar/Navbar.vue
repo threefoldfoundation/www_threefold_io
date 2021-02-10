@@ -214,7 +214,7 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header> 
   </div>
 </template>
 

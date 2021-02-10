@@ -1,6 +1,6 @@
 ---
 id: footer
-description: SLOGAN
+description: ''
 linkedin: '#' #replace # with a link 
 facebook: '#'
 twitter: '#'
@@ -10,44 +10,20 @@ youtube: '#'
 github: '#'
 telegram: '#'
 items:
- - title: TITLE
+ - title: ''
    links:
-    - name: Link
+    - name: ''
       link: '#'
-    - name: Link
-      link: '#'
-    - name: Link
-      link: '#'
-    - name: Link
-      link: '#' #add as many links as you like
- - title: TITLE
+ - title: ''
    links:
-    - name: Link
+    - name: ''
       link: '#'
-    - name: Link
-      link: '#'
-    - name: Link
-      link: '#'
-    - name: Link
-      link: '#'
- - title: TITLE
+ - title: ''
    links:
-    - name: Link
+    - name: ''
       link: '#'
-    - name: Link
-      link: '#'
-    - name: Link
-      link: '#'
-    - name: Link
-      link: '#'
- - title: TITLE
+ - title: ''
    links:
-    - name: Link
-      link: '#'
-    - name: Link
-      link: '#'
-    - name: Link
-      link: '#'
-    - name: Link
+    - name: ''
       link: '#'
 ---
