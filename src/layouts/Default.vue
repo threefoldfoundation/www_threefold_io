@@ -1,10 +1,10 @@
 <template>
-  <div class="container mx-auto">
-    <NavBar
+  <div class="">
+    <!-- <NavBar
       :navigation="$static.navigation"
       @setTheme="setTheme"
       :theme="this.theme"
-    />
+    /> -->
     <slot />
     <Footer 
       :record="$static.footer"

@@ -1,18 +1,20 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-   <Header
+      <g-image
+      v-if="$page.markdownPage.solution_image"
+      :src="$page.markdownPage.solution_image.src"
+    />
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+   <!-- <Header
       :title="$page.markdownPage.header_title"
       :image="$page.markdownPage.header_image"
       :altImg="$page.markdownPage.header_altImg"
       :excerpt="$page.markdownPage.header_excerpt"
       :button="$page.markdownPage.button"
       :link="$page.markdownPage.link"
-    /> 
+    />  -->
 
-    <g-image class="m-auto my-4" 
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
-    />
+  
 
     <SolutionsHeader
       v-if="$page.markdownPage.header"
@@ -72,6 +74,7 @@
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
     /> -->
+    </div>
   </Layout>
 </template>
 
