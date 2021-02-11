@@ -55,15 +55,8 @@
       :logos="$page.markdownPage.logos"
     />
     
-    <g-image
-      v-if="$page.markdownPage.solution_image2"
-      :src="$page.markdownPage.solution_image2.src"
-    />
+  
 
-    <CallToAction 
-      v-if="$page.markdownPage.cta" 
-      :cta="$page.markdownPage.cta" 
-    />
 
     <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
@@ -75,6 +68,14 @@
       :signup="$page.markdownPage.signup"
     /> -->
     </div>
+      <g-image
+      v-if="$page.markdownPage.solution_image2"
+      :src="$page.markdownPage.solution_image2.src"
+    />
+     <CallToAction 
+      v-if="$page.markdownPage.cta" 
+      :cta="$page.markdownPage.cta" 
+    />
   </Layout>
 </template>
 
@@ -126,7 +127,12 @@
           title
           content
           button
+          button2
+          button3
           link
+          link2
+          link3
+          image
         }
         comparisonMain{
           id
