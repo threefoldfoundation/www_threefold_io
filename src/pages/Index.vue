@@ -14,8 +14,6 @@
       :link="$page.markdownPage.link"
     />  -->
 
-  
-
     <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
@@ -54,9 +52,6 @@
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
     />
-    
-  
-
 
     <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
@@ -67,12 +62,14 @@
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
     /> -->
+
     </div>
       <g-image
       v-if="$page.markdownPage.solution_image2"
       :src="$page.markdownPage.solution_image2.src"
     />
-     <CallToAction 
+
+    <CallToAction 
       v-if="$page.markdownPage.cta" 
       :cta="$page.markdownPage.cta" 
     />
