@@ -6,12 +6,12 @@
     <p class="text-gray-600">{{ main.description }}</p>
     <div class="flex flex-wrap items-center -mx-8 mt-12 mb-2">
       <div
-        class="lg:w-1/3 px-8 mb-8"
+        class="lg:w-1/3 px-6 mb-2"
         v-for="(section, index) in sections"
         :key="index"
       >
         <g-image
-          class="w-1/2 mx-auto mb-8 h-32"
+          class="mx-auto mb-8"
           :src="section.svg.src"
           :alt="section.title"
         />
