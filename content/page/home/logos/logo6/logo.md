@@ -1,5 +1,5 @@
 ---
 id: logo6
 image: ./digibyte.png
-url: ''
+url: '/partners/digibyte_foundation'
 ---

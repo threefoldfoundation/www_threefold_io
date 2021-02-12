@@ -2,11 +2,11 @@
 id: home_cta
 title: Join the Movement!
 button: Support us by purchasing Tokens
-link: '' #Add button link here
+link: 'https://app.liquid.com/exchange/TFTBTC' #Add button link here
 button2: Spread Our Message
-link2: '' #Add button link here
-button3: Joine Our Community
-link3: '' #Add button link here
+link2: 'https://wiki.threefold.io/#/getinvolved' #Add button link here
+button3: Join Our Community
+link3: 'https://t.me/threefoldnews' #Add button link here
 image: ./bottom_cta.png
 ---
 
