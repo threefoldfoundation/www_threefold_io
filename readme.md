@@ -1,5 +1,5 @@
 
-# This is ThreeFold Main umbrella website
+# This is ThreeFold umbrella website
 
 ### how to get started
 
