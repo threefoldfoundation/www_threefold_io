@@ -14,19 +14,19 @@
 
 
        <g-link
-          class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full" 
+          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full" 
           v-if="cta.button"
           :to="cta.link"
           >{{ cta.button }}</g-link
         >
         <g-link
-          class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
+          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
           v-if="cta.button2"
           :to="cta.link2"
           >{{ cta.button2 }}</g-link
         >
          <g-link
-          class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
+          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
           v-if="cta.button3"
           :to="cta.link3"
           >{{ cta.button3 }}</g-link

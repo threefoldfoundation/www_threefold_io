@@ -109,6 +109,7 @@
          title
          content
          image
+         url
        }
         cards{
           id

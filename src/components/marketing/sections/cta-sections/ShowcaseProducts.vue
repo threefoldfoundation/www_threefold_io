@@ -8,21 +8,22 @@
     </div>
 
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-      <div
+
+        <g-link
         v-for="(product, idx) in products"
         :key="idx"
-        class="p-2 sm:p-0 text-center cursor-pointer"
-      >
-        <div
-          class="m-auto rounded overflow-hidden hover:bg-white transition duration-500"
+        :to="product.url"
+          class="m-auto rounded overflow-hidden transition duration-500"
         >
+        
           <div class="px-2 py-2">
             <g-image class="py-4" :src="img(product.image)" />
             <!-- <div class="font-bold text-xl mb-2">{{ product.title }}</div> -->
             <p v-html="product.content" class="text-gray-700 text-base"></p>
           </div>
-        </div>
-      </div>
+          
+        </g-link>
+      
     </div>
   </div>
 </template>
