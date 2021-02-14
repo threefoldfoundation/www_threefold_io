@@ -4,10 +4,10 @@
       class="container sm:pxi-0 mx-auto"
       :style="{ 'min-height': contentHeight + 'px' }"
     >
-      <img
+      <g-image
         v-if="loading"
         class="m-auto"
-        src="/img/loader.gif"
+        :src="require(`!!assets-loader!@images/loader.gif`)"
         alt=""
       />
       <div

@@ -6,6 +6,7 @@
 
 module.exports = {
     siteName: 'Threefold Webstack',
+    pathPrefix: 'threefold',
     plugins: [
 
         // Local models
