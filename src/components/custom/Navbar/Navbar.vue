@@ -10,36 +10,19 @@
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
-            <img
-              :src="require(`!!assets-loader!@images/TFN_black.svg`)"
-              class="mr-3 fill-current"
-              width="180"
-              v-if="theme == 'light'"
-              alt=""
-            />
-
-            <img
-              :src="require(`!!assets-loader!@images/TFN_black.svg`)"
-              class="mr-3 fill-current"
-              width="180"
-              v-else
-              alt=""
-            />
-
-            <!-- <g-image
-              v-if="theme == 'light'"
-              width="180"
-              class="mr-3 fill-current"
-              :src="require(`!!assets-loader!@images/TFN_black.svg`)"
-              alt=""
-            />
             <g-image
-              v-else
-              width="180"
-              class="mr-3 fill-current"
-              :src="require(`!!assets-loader!@images/TFN_white.svg`)"
+              :src="require(`!!assets-loader!@images/TFN_black.svg`)"
+              class="mr-3 fill-current w-3/5"
+              v-if="theme == 'light'"
               alt=""
-            /> -->
+            />
+
+            <g-image
+              :src="require(`!!assets-loader!@images/TFN_black.svg`)"
+              class="mr-3 fill-current w-3/5"
+              v-else
+              alt=""
+            />
 
             <!-- <span
               class="hidden md:block font-semibold text-xl tracking-tight"
