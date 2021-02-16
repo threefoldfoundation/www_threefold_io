@@ -12,10 +12,10 @@ navLinks:
     expandable: false
     submenu:
       - title: Page2
-        path: /threefold/page2
+        path: /page2
 
       - title: Page3
-        path: /threefold/page3
+        path: /page3
 
   - name: People
     link: /people
@@ -28,10 +28,10 @@ navLinks:
     expandable: false
     submenu:
       - title: NewsRoom
-        path: /threefold/news
+        path: /news
 
       - title: Blog
-        path: /threefold/blog
+        path: /blog
 
       - title: Community
         path: https://forums.threefold.io/
