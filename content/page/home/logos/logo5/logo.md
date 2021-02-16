@@ -1,6 +1,5 @@
 ---
 id: logo5
-image: ./presearch_logo.png
-
-
+image: ./green_edge.png
+url: '/partners/green_edge'
 ---

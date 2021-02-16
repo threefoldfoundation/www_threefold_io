@@ -1,6 +1,5 @@
 ---
 id: logo4
-image: ./vlinder.png
-
-
+image: ./flowgen.png
+url: '/partners/flowgen'
 ---

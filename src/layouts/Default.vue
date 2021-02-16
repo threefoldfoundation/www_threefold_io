@@ -1,15 +1,15 @@
 <template>
-  <div class="container mx-auto">
-    <NavBar
+  <div class="">
+    <!-- <NavBar
       :navigation="$static.navigation"
       @setTheme="setTheme"
       :theme="this.theme"
-    />
+    /> -->
     <slot />
-    <Footer 
+    <!-- <Footer 
       :record="$static.footer"
       @setTheme="setTheme"
-      :theme="this.theme" />
+      :theme="this.theme" /> -->
   </div>
 </template>
 
@@ -77,8 +77,15 @@ query {
 </static-query>
 
 <style>
+
+  @font-face {
+    font-family: Futura Book font;
+    src: url('../assets/Futura Book font.ttf');
+    font-weight: normal;
+  }
+
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: Futura Book font,
     "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   line-height: 1.5;

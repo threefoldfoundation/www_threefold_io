@@ -18,29 +18,21 @@
         v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
       />
 
+      <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
+      />
+      
+      <g-image class="m-auto my-4" 
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
+      
+
       <NewCard
         v-for="card in $page.markdownPage.cards"
         :key="card.id"
         :card="card"
-      />
-
-     <ShowcaseProducts
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
-      />
-
-      <GetInTouch
-        :contacts="$page.markdownPage.contactData"
-        v-if="$page.markdownPage.contactData.length > 0"
-      />
-
-      <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
       />
 
       <HowItWorks
@@ -48,46 +40,30 @@
         :HIWData="$page.markdownPage.howItWorks"
         :main="$page.markdownPage.howItWorksMain"
       />
-      <template>
-        <ClientOnly>
-          <Features
-            v-if="$page.markdownPage.features.length > 0"
-            :main="$page.markdownPage.featuresMain"
-            :features="$page.markdownPage.features"
-          />
-        </ClientOnly>
-      </template>
 
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :logos="$page.markdownPage.logos"
+      <Features
+        v-if="$page.markdownPage.features.length > 0"
+        :main="$page.markdownPage.featuresMain"
+        :features="$page.markdownPage.features"
       />
 
-      <template>
-        <ClientOnly>
-          <CallToAction
-            v-if="$page.markdownPage.cta"
-            :cta="$page.markdownPage.cta"
-          />
-          <SignUp
-            v-if="$page.markdownPage.signup"
-            :signup="$page.markdownPage.signup"
-          />
-        </ClientOnly>
-      </template>
+      <Comparison
+        v-if="
+          $page.markdownPage.comparisonSecs &&
+          $page.markdownPage.comparisonSecs.length > 0
+        "
+        :main="$page.markdownPage.comparisonMain"
+        :sections="$page.markdownPage.comparisonSecs"
+      />
 
-      <template>
-        <ClientOnly>
-          <Comparison
-            v-if="
-              $page.markdownPage.comparisonSecs &&
-              $page.markdownPage.comparisonSecs.length > 0
-            "
-            :main="$page.markdownPage.comparisonMain"
-            :sections="$page.markdownPage.comparisonSecs"
-          />
-        </ClientOnly>
-      </template>
+      <ShowcaseProducts
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+      />
 
       <Roadmap
         v-if="$page.markdownPage.roadmap.length > 0"
@@ -105,9 +81,29 @@
         :plans="$page.markdownPage.plans"
       />
 
-       <BrandPanel
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :logos="$page.markdownPage.logos"
+      />
+
+      <BrandPanel
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
+      />
+
+      <CallToAction
+        v-if="$page.markdownPage.cta"
+        :cta="$page.markdownPage.cta"
+      />
+
+      <SignUp
+        v-if="$page.markdownPage.signup"
+        :signup="$page.markdownPage.signup"
+      />
+
+      <GetInTouch
+        :contacts="$page.markdownPage.contactData"
+        v-if="$page.markdownPage.contactData.length > 0"
       />
     </div>
   </Layout>
@@ -123,6 +119,7 @@
         header_altImg
         header_title
         header_image
+        solution_image
         slides{
           id
           title
@@ -130,21 +127,6 @@
           image
           order
         }
-        cards{
-          id
-          title
-          image
-          button
-          link
-          order
-          content
-        }
-       contactData{
-         id
-         title
-         mail
-         phone
-       }
        header{
          title
          subtitle
@@ -154,6 +136,15 @@
          btn2
          link2
        }
+        cards{
+          id
+          title
+          image
+          button
+          link
+          order
+          content
+        }
        howItWorks{
          id
          title
@@ -168,21 +159,12 @@
           id
           title
           subtitle
-          image
+      #    image
         }
        productData{
          id
          title
          content
-         image
-       }
-       brandPanel{
-         id
-         title
-         subtitle
-         excerpt(length: 2000)
-         sourceUrl
-         btnTxt
          image
        }
         featuresMain{
@@ -192,30 +174,11 @@
           link
           content
         }
-        logos{
-          id
-          image
-        }
         features{
           id
           title 
           svg
           content
-        }
-        cta{
-          id
-          title
-          content
-          button
-          link
-        }
-        signup{
-          id
-          title
-          button1
-          link1
-          button2
-          link2
         }
         comparisonMain{
           id
@@ -263,6 +226,40 @@
             thirdCol
           }
         }
+        logos{
+          id
+          image
+        }
+        cta{
+          id
+          title
+          content
+          button
+          link
+        }
+        signup{
+          id
+          title
+          button1
+          link1
+          button2
+          link2
+        }
+        brandPanel{
+         id
+         title
+         subtitle
+         excerpt(length: 2000)
+         sourceUrl
+         btnTxt
+         image
+       }
+        contactData{
+         id
+         title
+         mail
+         phone
+       }
     }
   }
 
@@ -312,7 +309,7 @@ export default {
     };
   },
   mounted() {
-    // console.log(this.$page.markdownPage.plans);
+    console.log(this.$page.markdownPage);
   },
 };
 </script>

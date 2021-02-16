@@ -1,6 +1,5 @@
 ---
 id: logo6
-image: ./presearch_logo.png
-
-
+image: ./digibyte.png
+url: '/partners/digibyte_foundation'
 ---
