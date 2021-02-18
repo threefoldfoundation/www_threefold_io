@@ -3,6 +3,8 @@
 
 <head>
     ${head}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body ${bodyAttrs}>
@@ -10,8 +12,8 @@
     <script>
         // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
         // for this starter, i used the code from gridsome.org
-        (function() {
-            window.__onThemeChange = function() {};
+        (function () {
+            window.__onThemeChange = function () { };
 
             function setTheme(newTheme) {
 
@@ -25,18 +27,18 @@
             var preferredTheme;
             try {
                 preferredTheme = localStorage.getItem('theme');
-            } catch (err) {}
+            } catch (err) { }
 
-            window.__setPreferredTheme = function(newTheme) {
+            window.__setPreferredTheme = function (newTheme) {
                 setTheme(newTheme);
                 try {
                     localStorage.setItem('theme', newTheme);
-                } catch (err) {}
+                } catch (err) { }
             }
 
             var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-            darkQuery.addListener(function(e) {
+            darkQuery.addListener(function (e) {
                 window.__setPreferredTheme(e.matches ? 'dark' : 'light');
             });
 

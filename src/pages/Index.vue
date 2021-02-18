@@ -212,11 +212,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-h2 {
-  font-family: Futura Book font !important;
-}
-p {
-  font-family: Futura Book font !important;
-}
-</style>
