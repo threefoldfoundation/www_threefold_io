@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-20 px-4 bg-cover text-center" :style="img">
+  <section class="pb-20 px-4 bg-cover text-center" :style="cta.img">
     <br>
     <br>
     <br>
