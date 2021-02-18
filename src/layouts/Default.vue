@@ -80,7 +80,7 @@ query {
 
   @font-face {
     font-family: Futura Book font;
-    src: url('../assets/Futura Book font.ttf');
+    src: url('../assets/Futura_Book_font.ttf');
     font-weight: normal;
   }
 
