@@ -149,7 +149,7 @@
          id
          title
          subtitle
-         excerpt(length: 2000)
+         content
          sourceUrl
          btnTxt
          image
