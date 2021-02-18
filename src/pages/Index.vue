@@ -130,7 +130,6 @@
           link
           link2
           link3
-          image
         }
         comparisonMain{
           id

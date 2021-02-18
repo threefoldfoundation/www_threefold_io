@@ -7,7 +7,7 @@ button2: Spread Our Message
 link2: 'https://wiki.threefold.io/#/getinvolved' #Add button link here
 button3: Join Our Community
 link3: 'https://t.me/threefoldnews' #Add button link here
-image: ./bottom_cta.png
+
 ---
 
 Be part of a better tomorrow, today.

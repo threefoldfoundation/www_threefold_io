@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-20 px-4 bg-cover text-center" :style="img">
+  <section class="pb-20 px-4 bg-cover text-center bg-hero">
     <br>
     <br>
     <br>
@@ -39,13 +39,11 @@
 
 <script>
 export default {
-  computed: {
-    img: function () {
-      if (this.cta.image.src)
-        return "background-image:url(" + this.cta.image.src + ")";
-      return this.cta.image;
-    },
-  },
   props: ["cta"],
 };
 </script>
+<style scoped>
+.bg-hero {
+        background-image: url("~@/assets/images/bottom_cta.png");
+    }
+</style>
