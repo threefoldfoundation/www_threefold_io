@@ -78,11 +78,6 @@ query {
 
 <style>
 
-  @font-face {
-    font-family: Futura Book font;
-    src: url('../assets/Futura Book font.ttf');
-    font-weight: normal;
-  }
 
 body {
   font-family: Futura Book font,

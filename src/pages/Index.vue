@@ -130,7 +130,6 @@
           link
           link2
           link3
-          image
         }
         comparisonMain{
           id
@@ -149,7 +148,7 @@
          id
          title
          subtitle
-         excerpt(length: 2000)
+         content
          sourceUrl
          btnTxt
          image

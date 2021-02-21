@@ -16,13 +16,13 @@
                 brand.subtitle
               }}</span>
             </h2>
-            <p class="py-6 mt-4 text-lg leading-6 text-white">
-              {{ brand.excerpt }}
-            </p>
+            <div
+              class="py-6 mt-4 text-lg leading-6 text-white"
+              v-html="brand.content"
+            ></div>
             <g-link
               :to="brand.sourceUrl"
               class="bg-teal-300 text-sm learn-button hover:bg-teal-400 text-gray-900 px-12 py-2 mr-3 rounded shadow rounded-full"
-              
               >{{ brand.btnTxt }}</g-link
             >
           </div>
