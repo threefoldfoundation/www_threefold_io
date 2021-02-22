@@ -130,7 +130,7 @@
       }
     }
 
-    allProjectTag(filter: { title: {in: ["farming"]}}){
+    allProjectTag(filter: { title: {in: ["tech", "foundation"]}}){
      edges{
       node{
         id
