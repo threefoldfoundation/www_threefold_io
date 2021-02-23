@@ -5,15 +5,6 @@
       :src="$page.markdownPage.solution_image.src"
     />
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-   <!-- <Header
-      :title="$page.markdownPage.header_title"
-      :image="$page.markdownPage.header_image"
-      :altImg="$page.markdownPage.header_altImg"
-      :excerpt="$page.markdownPage.header_excerpt"
-      :button="$page.markdownPage.button"
-      :link="$page.markdownPage.link"
-    />  -->
-
     <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
@@ -26,6 +17,14 @@
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
         "
+    />
+    <Header
+      :title="$page.markdownPage.header_title"
+      :image="$page.markdownPage.header_image"
+      :altImg="$page.markdownPage.header_altImg"
+      :excerpt="$page.markdownPage.header_excerpt"
+      :button="$page.markdownPage.button"
+      :link="$page.markdownPage.link"
     />
     
     <Comparison
