@@ -13,38 +13,9 @@
         :excerpt="$page.markdownPage.header_excerpt"
       />
 
-      <VerticalNav
-        :slides="$page.markdownPage.slides"
-        v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
-      />
-
-      <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
-      />
-      
-      <g-image class="m-auto my-4" 
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
-      />
-      
-
-      <NewCard
-        v-for="card in $page.markdownPage.cards"
-        :key="card.id"
-        :card="card"
-      />
-
-      <HowItWorks
-        v-if="$page.markdownPage.howItWorks.length > 0"
-        :HIWData="$page.markdownPage.howItWorks"
-        :main="$page.markdownPage.howItWorksMain"
-      />
-
-      <Features
-        v-if="$page.markdownPage.features.length > 0"
-        :main="$page.markdownPage.featuresMain"
-        :features="$page.markdownPage.features"
+      <SignUp
+        v-if="$page.markdownPage.signup"
+        :signup="$page.markdownPage.signup"
       />
 
       <Comparison
@@ -56,54 +27,14 @@
         :sections="$page.markdownPage.comparisonSecs"
       />
 
-      <ShowcaseProducts
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
-      />
-
-      <Roadmap
-        v-if="$page.markdownPage.roadmap.length > 0"
-        :roadmap="$page.markdownPage.roadmap"
-      />
-
-      <FourTiersWithToggle
-        v-if="$page.markdownPage.pricingPlans.length > 0"
-        :main="$page.markdownPage.pricing_plansMain"
-        :pricingPlans="$page.markdownPage.pricingPlans"
-      />
-
-      <WithComparisonTable
-        v-if="$page.markdownPage.plans.length > 0"
-        :plans="$page.markdownPage.plans"
-      />
-
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :logos="$page.markdownPage.logos"
-      />
-
-      <BrandPanel
-        :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel"
-      />
-
       <CallToAction
         v-if="$page.markdownPage.cta"
         :cta="$page.markdownPage.cta"
       />
-
-      <SignUp
-        v-if="$page.markdownPage.signup"
-        :signup="$page.markdownPage.signup"
-      />
-
-      <GetInTouch
-        :contacts="$page.markdownPage.contactData"
-        v-if="$page.markdownPage.contactData.length > 0"
+      
+      <g-image 
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
       />
     </div>
   </Layout>
@@ -120,66 +51,11 @@
         header_title
         header_image
         solution_image
-        slides{
-          id
-          title
-          excerpt
-          image
-          order
-        }
-       header{
-         title
-         subtitle
-         content
-         btn1
-         link1
-         btn2
-         link2
-       }
-        cards{
-          id
-          title
-          image
-          button
-          link
-          order
-          content
-        }
-       howItWorks{
-         id
-         title
-         content
-       }
-       howItWorksMain{
-         id
-         title
-         image
-       }
-       productsMain{
-          id
-          title
-          subtitle
-      #    image
-        }
        productData{
          id
          title
-         content
          image
        }
-        featuresMain{
-          id
-          title 
-          btn 
-          link
-          content
-        }
-        features{
-          id
-          title 
-          svg
-          content
-        }
         comparisonMain{
           id
           title
@@ -193,39 +69,6 @@
           title
           content
         }
-        roadmap{
-          id
-          title
-          excerpt
-        }
-        pricing_plansMain{
-          id
-          title
-          button1
-          button2
-          excerpt
-        }
-        pricingPlans{
-          id
-          title
-          excerpt
-          price
-          duration
-          button
-          link
-          includeTitle
-          options
-        }
-        plans{
-          id
-          title
-          rows {
-            title
-            firstCol
-            secCol
-            thirdCol
-          }
-        }
         logos{
           id
           image
@@ -237,28 +80,14 @@
           button
           link
         }
-        signup{
-          id
-          title
-          button1
-          link1
-          button2
-          link2
-        }
         brandPanel{
          id
          title
          subtitle
-         excerpt(length: 2000)
+         content
          sourceUrl
          btnTxt
          image
-       }
-        contactData{
-         id
-         title
-         mail
-         phone
        }
     }
   }
@@ -272,7 +101,6 @@ import VerticalNav from "~/components/custom/Navbar/VerticalNav.vue";
 import GetInTouch from "~/components/custom/Navbar/Getintouch.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import HowItWorks from "~/components/custom/sections/HowItWorks.vue";
-import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 import Features from "~/components/custom/sections/Features.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
@@ -291,7 +119,6 @@ export default {
     GetInTouch,
     SolutionsHeader,
     HowItWorks,
-    ShowcaseProducts,
     Features,
     logoShowcase,
     CallToAction,
@@ -305,11 +132,15 @@ export default {
 
   metaInfo() {
     return {
-      title: this.$page.markdownPage.title,
+      title: this.pageName,
     };
   },
-  mounted() {
-    console.log(this.$page.markdownPage);
+  computed: {
+    pageName() {
+      let path = this.$route.path.substring(1);
+      let name = path[0].toUpperCase() + path.slice(1);
+      return name;
+    },
   },
 };
 </script>
