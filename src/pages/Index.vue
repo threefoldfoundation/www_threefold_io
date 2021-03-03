@@ -9,6 +9,11 @@
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
     />
+
+    <logoShowcase
+      v-if="$page.markdownPage.logos.length > 0"
+      :logos="$page.markdownPage.logos"
+    />
     
     <ShowcaseProducts
         :main="$page.markdownPage.productsMain"
@@ -18,6 +23,7 @@
           $page.markdownPage.productData.length > 0
         "
     />
+
     <Header
       :title="$page.markdownPage.header_title"
       :image="$page.markdownPage.header_image"
@@ -46,11 +52,6 @@
       :key="card.id"
       :card="card"
     /> -->
-
-    <logoShowcase
-      v-if="$page.markdownPage.logos.length > 0"
-      :logos="$page.markdownPage.logos"
-    />
 
     <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
