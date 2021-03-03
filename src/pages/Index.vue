@@ -1,78 +1,74 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-      <g-image
+    <g-image
       v-if="$page.markdownPage.solution_image"
       :src="$page.markdownPage.solution_image.src"
     />
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-    <SolutionsHeader
-      v-if="$page.markdownPage.header"
-      :header="$page.markdownPage.header"
-    />
+      <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
+      />
 
-    <logoShowcase
-      v-if="$page.markdownPage.logos.length > 0"
-      :logos="$page.markdownPage.logos"
-    />
-    
-    <ShowcaseProducts
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :logos="$page.markdownPage.logos"
+      />
+
+      <ShowcaseProducts
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
         "
-    />
+      />
 
-    <Header
-      :title="$page.markdownPage.header_title"
-      :image="$page.markdownPage.header_image"
-      :altImg="$page.markdownPage.header_altImg"
-      :excerpt="$page.markdownPage.header_excerpt"
-      :button="$page.markdownPage.button"
-      :link="$page.markdownPage.link"
-    />
-    
-    <Comparison
+      <Header
+        :title="$page.markdownPage.header_title"
+        :image="$page.markdownPage.header_image"
+        :altImg="$page.markdownPage.header_altImg"
+        :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
+      />
+
+      <Comparison
         v-if="
           $page.markdownPage.comparisonSecs &&
           $page.markdownPage.comparisonSecs.length > 0
         "
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
-    />
-      
-    <BrandPanel
+      />
+
+      <BrandPanel
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
-    />
+      />
 
-    <!-- <NewCard
+      <!-- <NewCard
       v-for="card in $page.markdownPage.cards"
       :key="card.id"
       :card="card"
     /> -->
 
-    <!-- <InTheNews
+      <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
       :news="$page.markdownPage.inTheNews"
     /> -->
 
-    <!-- <SignUp
+      <!-- <SignUp
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
     /> -->
-
     </div>
-      <g-image
+    <g-image
       v-if="$page.markdownPage.solution_image2"
       :src="$page.markdownPage.solution_image2.src"
     />
 
-    <CallToAction 
-      v-if="$page.markdownPage.cta" 
-      :cta="$page.markdownPage.cta" 
-    />
+    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
   </Layout>
 </template>
 

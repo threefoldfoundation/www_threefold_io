@@ -112,6 +112,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'ComparisonMain',
+                path: './content/page/**/comparison/main/main.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'Comparison',
                 path: './content/page/**/comparison/**/*.md',
             }
@@ -176,7 +184,7 @@ module.exports = {
                     logos: 'Logo',
                     cta: 'Cta',
                     signup: 'SignUp',
-                    comparisonMain: 'Comparison',
+                    comparisonMain: 'ComparisonMain',
                     comparisonSecs: 'Comparison',
                     howItWorksMain_2: 'HowItWorks_2',
                     howItWorks_2: 'HowItWorks_2',
@@ -186,7 +194,7 @@ module.exports = {
                     plans: 'Plans',
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
-                    allSlides : 'About'
+                    allSlides: 'About'
                 }
             }
         },
@@ -250,7 +258,7 @@ module.exports = {
         },
 
         {
-             use: '@gridsome/source-filesystem',
+            use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'News',
                 path: './content/news/**/*.md',
@@ -345,7 +353,7 @@ module.exports = {
         {
             use: 'gridsome-plugin-matomo',
             options: {
-		host: 'https://analytics.threefold.io',
+                host: 'https://analytics.threefold.io',
                 siteId: 5
             }
         }
