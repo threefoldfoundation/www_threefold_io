@@ -3,6 +3,7 @@ id: home
 header_altImg: ''
 solution_image: ./home_header.png
 header: home_header
+logos: [logo1, logo2, logo3, logo4, logo5, logo6] #you can continue adding logos as needed
 productsMain: product
 productData: [product1, product6, product3, product2, product5, product4]
 header_title: Join the P2P Economy
@@ -13,7 +14,6 @@ link: https://farming.threefold.io/token #link for button
 comparisonMain: comparison
 comparisonSecs: [section1, section2, section3]
 brandPanel: brand_panel
-logos: [logo1, logo2, logo3, logo4, logo5, logo6] #you can continue adding logos as needed
 solution_image2: ./cta_image.png
 cta: home_cta
 ---
