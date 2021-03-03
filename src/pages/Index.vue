@@ -88,11 +88,6 @@
         header{
          title
          subtitle
-         content
-         btn1
-         link1
-         btn2
-         link2
         }
         productsMain{
           id
