@@ -23,6 +23,7 @@
           $page.markdownPage.productData.length > 0
         "
     />
+
     <Header
       :title="$page.markdownPage.header_title"
       :image="$page.markdownPage.header_image"
