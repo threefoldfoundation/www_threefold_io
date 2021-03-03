@@ -2,6 +2,10 @@
 id: home_header
 title: ''
 subtitle: Welcome to ThreeFold
+btn1: ''
+link1: ''
+btn2: ''
+link2: ''
 ---
 
 With our game-changing technology and incredible partners, together we are building a better Internet – for humanity and for our planet. 
