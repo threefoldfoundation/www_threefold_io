@@ -113,7 +113,7 @@ module.exports = {
             use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'ComparisonMain',
-                path: './content/page/**/comparison/main/*.md',
+                path: './content/page/**/comparison/main/main.md',
             }
         },
 
