@@ -14,6 +14,7 @@ link: https://farming.threefold.io/token #link for button
 comparisonMain: comparison
 comparisonSecs: [section1, section2, section3]
 brandPanel: brand_panel
+inTheNews: in_the_news
 solution_image2: ./cta_image.png
 cta: home_cta
 ---
