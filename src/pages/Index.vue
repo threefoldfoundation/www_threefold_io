@@ -47,18 +47,18 @@
         v-if="$page.markdownPage.brandPanel"
       />
 
-    <!-- <NewCard
+      <!-- <NewCard
       v-for="card in $page.markdownPage.cards"
       :key="card.id"
       :card="card"
     /> -->
 
-    <InTheNews
-      v-if="$page.markdownPage.inTheNews"
-      :news="$page.markdownPage.inTheNews"
-    />
+      <InTheNews
+        v-if="$page.markdownPage.inTheNews"
+        :news="$page.markdownPage.inTheNews"
+      />
 
-    <!-- <SignUp
+      <!-- <SignUp
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
     /> -->
@@ -156,7 +156,7 @@
         }
         inTheNews {
           id
-          excerpt
+          content
           partners {
             path
             logo
