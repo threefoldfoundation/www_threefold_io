@@ -1,9 +1,11 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
-    />
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      <g-image
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
+    </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <SolutionsHeader
         v-if="$page.markdownPage.header"
@@ -63,12 +65,17 @@
       :signup="$page.markdownPage.signup"
     /> -->
     </div>
-    <g-image
-      v-if="$page.markdownPage.solution_image2"
-      :src="$page.markdownPage.solution_image2.src"
-    />
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      <g-image
+        v-if="$page.markdownPage.solution_image2"
+        :src="$page.markdownPage.solution_image2.src"
+      />
 
-    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
+      <CallToAction
+        v-if="$page.markdownPage.cta"
+        :cta="$page.markdownPage.cta"
+      />
+    </div>
   </Layout>
 </template>
 
@@ -207,3 +214,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.container-fluid {
+  max-width: 100% !important;
+}
+</style>
