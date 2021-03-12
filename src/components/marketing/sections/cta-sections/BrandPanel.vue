@@ -22,7 +22,7 @@
             ></div>
             <g-link
               :to="brand.sourceUrl"
-              class="bg-teal-300 text-sm learn-button hover:bg-teal-400 text-gray-900 px-12 py-2 mr-3 rounded shadow rounded-full"
+              class="bg-teal-300 text-sm learn-button hover:bg-57EEF8-400 text-gray-900 px-12 py-2 mr-3 rounded shadow rounded-full"
               >{{ brand.btnTxt }}</g-link
             >
           </div>
