@@ -55,6 +55,11 @@
       :card="card"
     /> -->
 
+    <!-- <SolutionsHeader
+        v-if="$page.markdownPage.headerSolution"
+        :header="$page.markdownPage.headerSolution"
+    /> -->
+
       <InTheNews
         v-if="$page.markdownPage.inTheNews"
         :news="$page.markdownPage.inTheNews"
@@ -161,6 +166,10 @@
           image
           url
         }
+        headerSolution{
+         subtitle
+         content
+       }
         inTheNews {
           id
           content
