@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div
         v-html="news.content"
-        class="text-center text-base leading-6 font-semibold uppercase text-gray-600 tracking-wider"
+        class="text-center text-base text-4xl leading-6 font-semibold uppercase text-gray-600 tracking-wider"
       ></div>
       <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         <g-link
