@@ -1,41 +1,72 @@
 ---
 id: navigation
 navLinks:
-  - name: Page1
-    link: /page1
+  - name: PRODUCTS
+    link: ''
     external: false
-    expandable: false
-
-  - name: Dropdown
-    link: /dropdown
-    external: false
-    expandable: false
+    expandable: true
     submenu:
-      - title: Page2
-        path: /page2
+      - title: Be The Internet
+        path: /farming
 
-      - title: Page3
-        path: /page3
+      - title: P2P Cloud
+        path: /cloud
 
-  - name: People
-    link: /people
+      - title: P2P Marketplace
+        path: /marketplace
+
+      - title: Digital Twin
+        path: /twin
+
+      - title: ThreeFold Token
+        path: /farming/token
+
+  - name: LEARN
+    link: '' # /dropdown
     external: false
-    expandable: 
-
-  - name: More
-    link: /more
-    external: false
-    expandable: false
+    expandable: true
     submenu:
-      - title: NewsRoom
-        path: /news
+      - title: Knowledge Base
+        path: /info/threefold
 
       - title: Blog
         path: /blog
 
-      - title: Community
-        path: https://forums.threefold.io/
+      - title: Forum
+        path: https://forum.threefold.io/
+
+  - name: ECOSYSTEM
+    link: ''
+    external: false
+    expandable: true
+    submenu:
+      - title: Team
+        path: /team
+
+      - title: Partners
+        path: /partners
+
+      - title: Conscious Internet
+        path: /aci
         external: true
+
+      - title: ThreeFold Tech
+        path: https://threefold.tech/
+        external: true
+
+  - name: MORE
+    link: ''
+    external: false
+    expandable: true
+    submenu:
+      - title: Community
+        path: https://t.me/threefoldnews
+
+      - title: NewsRoom
+        path: /news
+
+      - title: Contact Us
+        path: 'mailto:info@threefold.io'
 
 social:
   - icon: telegram-plane
