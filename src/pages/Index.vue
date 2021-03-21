@@ -1,6 +1,6 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+    <div class="container-fluid pt-16 sm:pxi-0 mx-auto overflow-x-hidden">
       <g-image
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"

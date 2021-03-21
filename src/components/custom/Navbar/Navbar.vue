@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 h-16 bg-white">
+  <div class="fixed inset-0 h-16 bg-teal-200">
     <header
       class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
       :class="{
@@ -12,14 +12,14 @@
           <a href="/" class="flex">
             <g-image
               :src="require(`!!assets-loader!@images/TFN_black.svg`)"
-              class="mr-3 fill-current w-3/5"
+              class="mr-3 fill-current logo"
               v-if="theme == 'light'"
               alt=""
             />
 
             <g-image
               :src="require(`!!assets-loader!@images/TFN_black.svg`)"
-              class="mr-3 fill-current w-3/5"
+              class="mr-3 fill-current logo"
               v-else
               alt=""
             />
@@ -53,9 +53,9 @@
         </div>
         <div class="text-gray-400 sm:block md:hidden">
           <ul class="list-none flex justify-center md:justify-end">
-            <li class="mr-0 sm:mr-6">
+            <!-- <li class="mr-0 sm:mr-6">
               <theme-switcher v-on="$listeners" :theme="theme" />
-            </li>
+            </li> -->
             <li
               :key="element.name"
               v-for="(element, index) in navigation.social"
@@ -80,7 +80,7 @@
 
       <nav
         :class="isOpen ? 'block' : 'hidden'"
-        class="navbar md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 sm:w-100 bg-white"
+        class="navbar md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 sm:w-100 bg-teal-200"
       >
         <div
           :key="index"
@@ -194,9 +194,9 @@
           />
         </div> -->
         <ul class="list-none inline-flex justify-center md:justify-end">
-          <li class="mr-0 sm:mr-6">
+          <!-- <li class="mr-0 sm:mr-6">
             <ThemeSwitcher v-on="$listeners" :theme="theme" />
-          </li>
+          </li> -->
           <li
             :key="element.name"
             v-for="(element, index) in navigation.social"
@@ -310,6 +310,9 @@ a.active--exact.active {
 
 .navbar {
   width: auto;
+}
+.logo {
+  max-width: 180px;
 }
 @media (max-width: 768px) {
   .navbar {

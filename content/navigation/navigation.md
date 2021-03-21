@@ -7,19 +7,24 @@ navLinks:
     expandable: true
     submenu:
       - title: Be The Internet
-        path: /farming
+        path: https://new.threefold.io/farming
+        external: true
 
       - title: P2P Cloud
-        path: /cloud
+        path: https://new.threefold.io/cloud
+        external: true
 
       - title: P2P Marketplace
-        path: /marketplace
+        path: https://new.threefold.io/marketplace
+        external: true
 
       - title: Digital Twin
-        path: /twin
+        path: https://new.threefold.io/twin
+        external: true
 
       - title: ThreeFold Token
-        path: /farming/token
+        path: https://new.threefold.io/farming/token
+        external: true
 
   - name: LEARN
     link: '' # /dropdown
@@ -27,13 +32,15 @@ navLinks:
     expandable: true
     submenu:
       - title: Knowledge Base
-        path: /info/threefold
+        path: https://new.threefold.io/info/threefold
+        external: true
 
       - title: Blog
         path: /blog
 
       - title: Forum
         path: https://forum.threefold.io/
+        external: true
 
   - name: ECOSYSTEM
     link: ''
@@ -47,7 +54,7 @@ navLinks:
         path: /partners
 
       - title: Conscious Internet
-        path: /aci
+        path: https://new.threefold.io/aci
         external: true
 
       - title: ThreeFold Tech
@@ -70,8 +77,7 @@ navLinks:
 
 social:
   - icon: telegram-plane
-    link: '' #telegaram link
+    link: 'https://t.me/threefoldnews' #telegaram link
 
-  - icon: linkedin
-    link: '' #linkedin link
+  
 ---

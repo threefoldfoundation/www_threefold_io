@@ -17,22 +17,22 @@ items:
     - name: Store TFT
       link: https://new.threefold.io/info/threefold#/threefold__storing_tft
     - name: Be The Internet
-      link: /farming
+      link: https://new.threefold.io/farming
     - name: P2P Cloud
-      link: /cloud
+      link: https://new.threefold.io/cloud
     - name: P2P Marketplace
-      link: /marketplace
+      link: https://new.threefold.io/marketplace
     - name: Digital Twin
-      link: /twin
+      link: https://new.threefold.io/twin
  
  - title: LEARN
    links:
     - name: What is ThreeFold?
-      link: /info/threefold
+      link: https://new.threefold.io/info/threefold
     - name: What is TFT?
-      link: /farming/token
+      link: https://new.threefold.io/farming/token
     - name: Knowledge Base
-      link: /info/threefold
+      link: https://new.threefold.io/info/threefold#/
     - name: Manuals
       link: https://new.threefold.io/info/threefold#/tftech__tf_manuals?id=threefold-manuals
     - name: ThreeFold Foundation
@@ -60,7 +60,7 @@ items:
     - name: Partners
       link: /partners
     - name: Conscious Internet
-      link: /aci
+      link: https://new.threefold.io/aci
     - name: ThreeFold Tech
       link: https://threefold.tech/
 
@@ -75,7 +75,7 @@ items:
 ---
 
 
-[Terms & Conditions](https://new.threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://new.threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()
+<!-- [Terms & Conditions](https://new.threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://new.threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()
 
 <br/>
-&#xA9; 2021 ThreeFold, All rights reserved.
+&#xA9; 2021 ThreeFold, All rights reserved. -->
