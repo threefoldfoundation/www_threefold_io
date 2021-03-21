@@ -2,7 +2,7 @@
 id: brand_panel
 title: IF NOT NOW, WHEN? IF NOT US, WHO?
 subtitle: ''
-sourceUrl: https://farming.threefold.io/team #link for button
+sourceUrl: /team #link for button
 btnTxt: Meet Us
 image: teamcollage.png # Please add image in src/assets/brandPanel/
 ---
