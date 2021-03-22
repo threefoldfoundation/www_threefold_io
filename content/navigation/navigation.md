@@ -7,23 +7,23 @@ navLinks:
     expandable: true
     submenu:
       - title: Be The Internet
-        path: /farming
+        path: https://new.threefold.io/farming
         external: true
 
       - title: P2P Cloud
-        path: /cloud
+        path: https://new.threefold.io/cloud
         external: true
 
       - title: P2P Marketplace
-        path: /marketplace
+        path: https://new.threefold.io/marketplace
         external: true
 
       - title: Digital Twin
-        path: /twin
+        path: https://new.threefold.io/twin
         external: true
 
       - title: ThreeFold Token
-        path: /farming/token
+        path: https://new.threefold.io/farming/token
         external: true
 
   - name: LEARN
@@ -32,7 +32,7 @@ navLinks:
     expandable: true
     submenu:
       - title: Knowledge Base
-        path: /info/threefold
+        path: https://new.threefold.io/info/threefold
         external: true
 
       - title: Blog
