@@ -2,11 +2,11 @@
 id: home_cta
 title: Join the Movement!
 button: Support Us By Purchasing Tokens
-link: 'https://wiki.threefold.io/#/how_to_buy_and_sell' #Add button link here
+link: /info/threefold#/how_to_buy_and_sell
 button2: Stay Updated
-link2: 'https://t.me/threefoldnews' #Add button link here
+link2: https://t.me/threefoldnews
 button3: Join Our Community
-link3: 'https://forum.threefold.io' #Add button link here
+link3: https://forum.threefold.io
 
 ---
 
