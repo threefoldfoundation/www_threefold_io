@@ -9,10 +9,10 @@
 
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
 
-        <g-link
+        <a
         v-for="(product, idx) in products"
         :key="idx"
-        :to="product.url"
+        :href="product.url"
           class="m-auto rounded overflow-hidden transition duration-500"
         >
         
@@ -22,7 +22,7 @@
             <p v-html="product.content" class="text-gray-700 text-base"></p>
           </div>
           
-        </g-link>
+        </a>
       
     </div>
   </div>

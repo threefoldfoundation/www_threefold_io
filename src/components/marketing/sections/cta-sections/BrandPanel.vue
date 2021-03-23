@@ -20,10 +20,10 @@
               class="py-6 mt-4 text-lg leading-6 text-white"
               v-html="brand.content"
             ></div>
-            <g-link
-              :to="brand.sourceUrl"
+            <a
+              :href="brand.sourceUrl"
               class="bg-teal-300 text-sm learn-button hover:bg-57EEF8-400 text-gray-900 px-12 py-2 mr-3 rounded shadow rounded-full"
-              >{{ brand.btnTxt }}</g-link
+              >{{ brand.btnTxt }}</a
             >
           </div>
         </div>

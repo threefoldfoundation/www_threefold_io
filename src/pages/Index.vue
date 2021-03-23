@@ -32,7 +32,7 @@
         :altImg="$page.markdownPage.header_altImg"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
-        :link="$url($page.markdownPage.link)"
+        :link="$page.markdownPage.link"
       />
 
       <Comparison

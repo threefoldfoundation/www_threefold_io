@@ -7,14 +7,14 @@
       <p class="text-gray-400 leading-relaxed"></p>
     </div>
     <div class="flex flex-wrap -mx-8">
-      <g-link
+      <a
         v-for="(logo, idx) in logos"
         :key="idx"
-        :to="logo.url"
+        :href="logo.url"
         class="w-1/2 md:w-1/6 px-8 mb-8"
       >
         <g-image :src="img(logo.image)" />
-      </g-link>
+      </a>
     </div>
   </section>
 </template>
