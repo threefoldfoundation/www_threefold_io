@@ -7,7 +7,7 @@ header_excerpt: Welcome to the world’s largest Peer-to-Peer internet, formed b
 button: TAKE PART
 link: /farming/token
 productsMain: product
-productData: [product1, product6, product3, product2, product5, product4]
+productData: [tokens, nodes, storage]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 brandPanel: brand_panel
 comparisonMain: comparison

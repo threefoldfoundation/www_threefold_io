@@ -1,5 +1,5 @@
 ---
 id: product
-title: The building blocks of the P2P Internet
-subtitle: ''
+title: TAKE PART
+subtitle: Start your P2P journey and help expand the network.
 ---
