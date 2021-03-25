@@ -1,10 +1,10 @@
 ---
 id: home
-header_title: Join the P2P Economy
-header_image: ./token.png
+header_title: YOU ARE THE NEW INTERNET
+header_image: ./home_header.png
 header_altImg: threefold
-header_excerpt: TFT fuels the ThreeFold ecosystem and represents a unit of compute and storage capacity on the ThreeFold Grid. Get your TFT now to start your journey on the new Internet.
-button: More about TFT
+header_excerpt: Welcome to the world’s largest Peer-to-Peer internet, formed by people who want to make a difference, by people who care, by people just like you.
+button: TAKE PART
 link: /farming/token
 productsMain: product
 productData: [product1, product6, product3, product2, product5, product4]
