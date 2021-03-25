@@ -1,5 +1,5 @@
 ---
 id: logo6
-image: ./digibyte.png
+image: ./digibyte.svg
 url: /partners/digibyte
 ---

@@ -1,5 +1,5 @@
 ---
 id: logo3
-image: ./kleos.png
+image: ./kleos.svg
 url: /partners/kleos
 ---
