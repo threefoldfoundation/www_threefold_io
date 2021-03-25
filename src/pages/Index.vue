@@ -49,7 +49,7 @@
       :card="card"
       /> -->
 
-    <!-- <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"
         :header="$page.markdownPage.headerSolution"
     /> -->
@@ -208,10 +208,9 @@ export default {
     InTheNews,
     SignUp,
   },
-  metaInfo() {
-    return {
-      title: this.$page.markdownPage.title,
-    };
+  metaInfo: {
+    title: "",
+    titleTemplate: "ThreeFold | Welcome",
   },
 };
 </script>
