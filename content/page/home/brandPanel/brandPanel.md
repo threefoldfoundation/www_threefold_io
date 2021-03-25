@@ -1,10 +1,15 @@
 ---
-id: brand_panel
-title: IF NOT NOW, WHEN? IF NOT US, WHO?
+id: fix_internet
+title: WE NEED TO FIX TODAY'S INTERNET
 subtitle: ''
-sourceUrl: /team #link for button
-btnTxt: Meet Us
-image: teamcollage.png # Please add image in src/assets/brandPanel/
+sourceUrl: ''
+btnTxt: ''
+image: internet_is_broken.svg # src/assets/brandPanel/..
 ---
 
-We believe in digital freedom, equal opportunities for all, and sustainable solutions for our planet. We are building a new internet that serves people and our planet.
+The Internet is controlled by large corporations. This centralized approach is highly inefficient, extermely costly, and unsustainable.
+
+<br/>
+Our data isn't owned by us,
+<br/>
+and it isn't safe.

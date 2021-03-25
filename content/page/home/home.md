@@ -9,7 +9,7 @@ link: /farming/token
 productsMain: product
 productData: [tokens, nodes, storage]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
-brandPanel: brand_panel
+brandPanel: fix_internet
 comparisonMain: comparison
 comparisonSecs: [section1, section2, section3]
 inTheNews: in_the_news

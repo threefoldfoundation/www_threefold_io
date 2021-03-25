@@ -9,7 +9,7 @@
         >
           <div class="lg:self-center">
             <h2
-              class="text-3xl leading-9 font-extrabold text-white sm:text-3xl sm:leading-10"
+              class="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10"
             >
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
@@ -20,11 +20,11 @@
               class="py-6 mt-4 text-lg leading-6 text-white"
               v-html="brand.content"
             ></div>
-            <a
+            <!-- <a
               :href="brand.sourceUrl"
               class="bg-teal-300 text-sm learn-button hover:bg-57EEF8-400 text-gray-900 px-12 py-2 mr-3 rounded shadow rounded-full"
               >{{ brand.btnTxt }}</a
-            >
+            > -->
           </div>
         </div>
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">
