@@ -1,6 +1,6 @@
 ---
 id: section2
-svg: ./equality.png
+svg: ./equal.svg
 title: ''
 ---
 

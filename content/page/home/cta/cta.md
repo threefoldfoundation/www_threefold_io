@@ -1,6 +1,6 @@
 ---
 id: home_cta
-title: Join the Movement!
+title: JOIN THE MOVEMENT
 button: Support Us By Purchasing Tokens
 link: /info/threefold#/how_to_buy_and_sell
 button2: Stay Updated

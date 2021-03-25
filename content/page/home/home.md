@@ -13,7 +13,7 @@ brandPanel: fix_internet
 comparisonMain: comparison
 comparisonSecs: [section1, section2, section3]
 inTheNews: in_the_news
-solution_image: ./cta_image.png
+solution_image: ./cta_image.svg
 cta: home_cta
 ---
 

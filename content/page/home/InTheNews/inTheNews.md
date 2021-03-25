@@ -20,4 +20,4 @@ partners:
     logo: ./logos/btc.png
 ---
 
-In The News
+IN THE NEWS

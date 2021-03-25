@@ -1,5 +1,5 @@
 ---
 id: section1
-svg: ./privacy.png
+svg: ./private.svg
 title: ''
 ---
