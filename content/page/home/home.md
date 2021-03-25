@@ -1,6 +1,7 @@
 ---
 id: home
-header_title: YOU ARE THE NEW INTERNET
+header_slogan: YOU
+header_title: ARE THE NEW INTERNET
 header_image: ./home_header.png
 header_altImg: threefold
 header_excerpt: Welcome to the world’s largest Peer-to-Peer internet, formed by people who want to make a difference, by people who care, by people just like you.
@@ -16,7 +17,6 @@ inTheNews: in_the_news
 solution_image: ./cta_image.svg
 cta: home_cta
 ---
-
 
 <!-- header: home_header
 solution_image: ./home_header.png -->

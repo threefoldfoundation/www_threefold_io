@@ -3,21 +3,21 @@
     <div class="flex flex-wrap items-center text-center lg:text-left -mx-2">
       <div class="lg:w-1/2 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none">
         <h2 class="text-6xl mb-6 leading-tight font-bold font-heading">
-          {{ title }}
+          <span class="text-teal-200">{{ slogan }}</span
+          > {{ title }}
         </h2>
         <div class="mb-8 text-gray-700 leading-relaxed" v-html="excerpt"></div>
         <div v-if="button">
           <a
             v-if="link.includes('http')"
             target="_blank"
-            class="inline-block py-4 px-8 mr-6 leading-none text-white bg-gray-900 hover:bg-gray-700 font-semibold rounded shadow"
+            class="inline-block bg-gray-700 text-sm font-bold learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
-
           <a
             v-else
-            class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="inline-block bg-gray-700 text-sm font-bold learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  props: ["title", "excerpt", "altImg", "image", "button", "link"],
+  props: ["title", "slogan", "excerpt", "altImg", "image", "button", "link"],
   computed: {
     img: function () {
       if (!this.image) return "";

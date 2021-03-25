@@ -8,6 +8,7 @@
 
       <Header
         :title="$page.markdownPage.header_title"
+        :slogan="$page.markdownPage.header_slogan"
         :image="$page.markdownPage.header_image"
         :altImg="$page.markdownPage.header_altImg"
         :excerpt="$page.markdownPage.header_excerpt"
@@ -82,6 +83,7 @@
     markdownPage(id: "home") {
         id
         path
+        header_slogan
         header_title
         header_image
         header_excerpt
