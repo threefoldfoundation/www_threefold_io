@@ -1,20 +1,18 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
-      <g-image
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
-      />
-    </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
-      />
+      /> -->
 
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :logos="$page.markdownPage.logos"
+      <Header
+        :title="$page.markdownPage.header_title"
+        :image="$page.markdownPage.header_image"
+        :altImg="$page.markdownPage.header_altImg"
+        :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
       />
 
       <ShowcaseProducts
@@ -26,13 +24,14 @@
         "
       />
 
-      <Header
-        :title="$page.markdownPage.header_title"
-        :image="$page.markdownPage.header_image"
-        :altImg="$page.markdownPage.header_altImg"
-        :excerpt="$page.markdownPage.header_excerpt"
-        :button="$page.markdownPage.button"
-        :link="$page.markdownPage.link"
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :logos="$page.markdownPage.logos"
+      />
+
+      <BrandPanel
+        :brand="$page.markdownPage.brandPanel"
+        v-if="$page.markdownPage.brandPanel"
       />
 
       <Comparison
@@ -44,16 +43,11 @@
         :sections="$page.markdownPage.comparisonSecs"
       />
 
-      <BrandPanel
-        :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel"
-      />
-
       <!-- <NewCard
       v-for="card in $page.markdownPage.cards"
       :key="card.id"
       :card="card"
-    /> -->
+      /> -->
 
     <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"
@@ -68,12 +62,11 @@
       <!-- <SignUp
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
-    /> -->
-    </div>
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      /> -->
+
       <g-image
-        v-if="$page.markdownPage.solution_image2"
-        :src="$page.markdownPage.solution_image2.src"
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
       />
 
       <CallToAction
@@ -96,7 +89,6 @@
         button
         link
         solution_image
-        solution_image2
         header{
          title
          subtitle
@@ -228,3 +220,11 @@ export default {
   max-width: 100% !important;
 }
 </style>
+
+
+<!--    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      <g-image
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
+    </div> -->
