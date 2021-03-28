@@ -5,11 +5,11 @@
         class="brandpanel rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4"
       >
         <div
-          class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
+          class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-15"
         >
           <div class="lg:self-center">
             <h2
-              class="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10"
+              class="text-3xl leading-9 font-extrabold text-white sm:leading-10"
             >
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
@@ -29,7 +29,7 @@
         </div>
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">
           <g-image
-            class="absolute brandpanel inset-0 w-full h-full transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
+            class="absolute brandpanel inset-0 w-full h-full transform translate-x-0 translate-y-6 rounded-md object-fill object-left-top sm:translate-x-0 lg:translate-y-20"
             :src="image"
             :alt="brand.title"
           />

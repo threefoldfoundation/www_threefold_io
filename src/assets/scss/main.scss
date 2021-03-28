@@ -91,6 +91,10 @@ ul {
     background-color: #C2AEEC;
 }
 
+.text-3xl {
+    font-size: 2.50rem
+}
+
 .no-border {
     border-width: 0px !important;
 }
@@ -139,7 +143,11 @@ button:focus {
     font-size: 5rem;
     line-height: 1;
 }
-
+@media (min-width: 375px) {
+    .text-3xl {
+        font-size: 2.25rem
+    }
+}
 @media (min-width: 768px) {
     .with-large>.flex-post:nth-child(5n),
     .with-large>.flex-post:nth-child(5n-1) {
@@ -196,6 +204,9 @@ button:focus {
         .post-card-excerpt {
             @apply text-xl;
         }
+    }
+    .text-3xl {
+        font-size: 2.50rem
     }
     // .news>.flex-post:nth-child(9n+1),
     // .news>.flex-post:nth-child(9n+2) {
