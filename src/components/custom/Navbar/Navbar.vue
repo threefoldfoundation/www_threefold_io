@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 h-16">
+  <div class="fixed inset-0 h-16 bg-white">
     <header
       class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
       :class="{
