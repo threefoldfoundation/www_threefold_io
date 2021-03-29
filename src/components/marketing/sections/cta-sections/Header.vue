@@ -11,13 +11,13 @@
           <a
             v-if="link.includes('http')"
             target="_blank"
-            class="inline-block bg-gray-700 text-sm font-bold learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="nline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
           <a
             v-else
-            class="inline-block bg-gray-700 text-sm font-bold learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="nline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
