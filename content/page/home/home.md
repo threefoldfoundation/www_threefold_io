@@ -4,7 +4,7 @@ header_slogan: YOU
 header_title: ARE THE NEW INTERNET
 header_image: ./home_header.png
 header_altImg: threefold
-header_excerpt: Welcome to the world’s largest Peer-to-Peer internet, formed by people who want to make a difference, by people who care, by people just like you.
+header_excerpt: Welcome to the world’s largest peer-to-peer internet, formed by people who want to make a difference, by people who care, by people just like you.
 button: TAKE PART
 link: /farming/token
 productsMain: product
