@@ -21,7 +21,7 @@
             v-else
           />
 
-          <p class="text-gray-500 text-base leading-6">
+          <p class="text-gray-500 font-bold text-base leading-6">
             {{ record.description }}
           </p>
           <div class="flex space-x-6">
