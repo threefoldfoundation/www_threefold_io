@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 h-16 bg-teal-200">
+  <div class="fixed inset-0 h-16">
     <header
       class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
       :class="{
@@ -101,7 +101,7 @@
 
       <nav
         :class="isOpen ? 'block' : 'hidden'"
-        class="navbar md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 sm:w-100 bg-teal-200"
+        class="navbar md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 sm:w-100"
       >
         <div
           :key="index"
