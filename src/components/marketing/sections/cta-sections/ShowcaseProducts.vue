@@ -2,7 +2,7 @@
   <div class="py-12 mb-5">
     <div class="w-full text-center">
       <h2 v-if="main !== null" class="text-4xl font-semibold leading-tight font-heading">
-        {{ main.title }}
+        {{ main.title }} 
       </h2>
       <p v-if="main !== null" class="mb-6 text-m tracking-widest text-gray-800">{{ main.subtitle }}</p>
     </div>
