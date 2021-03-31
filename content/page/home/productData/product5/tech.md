@@ -1,7 +1,7 @@
 ---
-id: product5
+id: tech
 title: ''
-image : ./grid_card.png
+image : ./tech.png
 url : https://threefold.tech
 ---
 

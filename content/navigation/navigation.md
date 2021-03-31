@@ -8,18 +8,23 @@ navLinks:
     submenu:
       - title: Be The Internet
         path: /farming
+        external: true
 
       - title: P2P Cloud
         path: /cloud
+        external: true
 
       - title: P2P Marketplace
         path: /marketplace
+        external: true
 
       - title: Digital Twin
         path: /twin
+        external: true
 
       - title: ThreeFold Token
         path: /farming/token
+        external: true
 
   - name: LEARN
     link: '' # /dropdown
@@ -28,6 +33,7 @@ navLinks:
     submenu:
       - title: Knowledge Base
         path: /info/threefold
+        external: true
 
       - title: Blog
         path: /blog
@@ -49,6 +55,7 @@ navLinks:
 
       - title: Conscious Internet
         path: /aci
+        external: true
 
       - title: ThreeFold Tech
         path: https://threefold.tech/

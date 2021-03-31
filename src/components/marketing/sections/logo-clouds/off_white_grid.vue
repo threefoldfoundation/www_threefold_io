@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-2">
       <div
         v-html="news.content"
         class="text-center text-4xl font-semibold leading-tight font-heading"
