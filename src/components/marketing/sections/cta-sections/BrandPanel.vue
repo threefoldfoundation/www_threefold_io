@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="max-w-screen-xl mx-auto py-16">
+    <div class="max-w-screen-xl mx-auto py-24">
       <div
         class="brandpanel bg-gray-900 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4"
       >
