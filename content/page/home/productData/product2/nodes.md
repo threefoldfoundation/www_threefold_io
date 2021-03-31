@@ -2,6 +2,6 @@
 id: nodes
 title: ''
 image : ./nodes.png
-url : /farming/3node
+url : https://new.threefold.io/farming/3node
 ---
 

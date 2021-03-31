@@ -2,6 +2,6 @@
 id: storage
 title: ''
 image : ./storage.png
-url : /cloud
+url : https://new.threefold.io/cloud
 ---
 

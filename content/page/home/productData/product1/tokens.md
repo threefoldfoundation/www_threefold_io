@@ -2,6 +2,6 @@
 id: tokens
 title: ''
 image : ./tokens.png
-url : /farming/token
+url : https://new.threefold.io/farming/token
 ---
 

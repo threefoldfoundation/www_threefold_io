@@ -11,6 +11,7 @@
 
         <a
         v-for="(product, idx) in products"
+        target="_blank"
         :key="idx"
         :href="product.url"
           class="m-auto rounded overflow-hidden transition duration-500"
