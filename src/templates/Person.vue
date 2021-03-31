@@ -87,11 +87,11 @@
         content
         name
         rank
-        memberships{
-          id
-          title
-          path
-        }
+      #  memberships{
+      #    id
+      #    title
+      #    path
+      #  }
         projects{
           id
           title
@@ -144,16 +144,16 @@
       }
     }
 
-     memberships: allMembership(filter: {title: {in: ["foundation", "tech"]}}){
-     edges{
-      node{
-        id
-        title
-        path
-      }
-    }
-  }
-  }
+#     memberships: allMembership(filter: {title: {in: ["foundation", "tech"]}}){
+#     edges{
+#      node{
+#        id
+#        title
+#        path
+#      }
+#    }
+#  }
+}
 </page-query>
 
 <script>
