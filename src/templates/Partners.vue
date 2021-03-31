@@ -16,7 +16,7 @@
 
 <page-query>
 query ($private: Int){
-  entries: allProject (sortBy: "rank", order: DESC, filter: { private: { ne: $private }, tags: { id: {in: ["tech", "foundation"]}}}){
+  entries: allProject (sortBy: "rank", order: DESC, filter: { private: { ne: $private }, tags: { id: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}}){
     totalCount
     edges {
       node {
@@ -39,16 +39,15 @@ query ($private: Int){
     }
   }
   
-  tags: allProjectTag (filter: { title: {in: ["tech", "foundation"]}}) {
+  tags: allProjectTag (filter: { title: {in: ["foundation"]}}) {
      edges{
       node{
         id
         title
         path
       }
+    }
   }
-}
-
 }
 </page-query>
 
@@ -70,8 +69,5 @@ export default {
       return res;
     },
   },
-  mounted(){
-    console.log(this.$page)
-  }
 };
 </script>
