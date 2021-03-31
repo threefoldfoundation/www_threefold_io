@@ -2,8 +2,8 @@
   <section class="py-12 px-4">
     <div class="flex flex-wrap items-center text-center lg:text-left -mx-2">
       <div class="lg:w-1/2 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none">
-        <h2 class="text-6xl mb-6 leading-tight font-bold font-heading">
-          <span class="text-teal-200">{{ slogan }}</span
+        <h2 class="text-6xl mb-6 leading-none font-extrabold font-heading">
+          <span class="text-blue-600">{{ slogan }}</span
           > {{ title }}
         </h2>
         <div class="mb-8 text-gray-700 leading-relaxed" v-html="excerpt"></div>
