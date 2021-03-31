@@ -8,7 +8,7 @@ header_excerpt: Welcome to the world’s largest peer-to-peer internet, formed b
 button: ''
 link: ''
 productsMain: product
-productData: [tokens, nodes, storage]
+productData: [farming, cloud, marketplace, twin, tech, aci]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 brandPanel: fix_internet
 comparisonMain: comparison

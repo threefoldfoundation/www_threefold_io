@@ -5,7 +5,7 @@
         {{ main.title }} 
       </h2>
       <p v-if="main !== null" class="mb-6 text-m tracking-widest text-gray-800">{{ main.subtitle }}</p>
-    </div>
+    </div> 
 
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
 
