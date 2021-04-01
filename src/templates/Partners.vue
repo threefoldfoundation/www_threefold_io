@@ -39,7 +39,7 @@ query ($private: Int){
     }
   }
   
-  tags: allProjectTag (filter: { title: {in: ["foundation"]}}) {
+  tags: allProjectTag (filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}) {
      edges{
       node{
         id

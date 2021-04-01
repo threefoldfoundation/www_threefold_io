@@ -129,7 +129,7 @@
       }
     }
 
-    allProjectTag(filter: { title: {in: ["tech", "foundation"]}}){
+    allProjectTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}){
      edges{
       node{
         id
@@ -139,7 +139,7 @@
     }
     }
 
-    allNewsTag{
+    allNewsTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}){
      edges{
       node{
         id
@@ -149,7 +149,7 @@
     }
     }
 
-    allBlogTag{
+    allBlogTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}){
      edges{
       node{
         id
