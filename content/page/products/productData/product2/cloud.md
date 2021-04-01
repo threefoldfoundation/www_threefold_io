@@ -1,7 +1,7 @@
 ---
 id: cloud
 title: ''
-image : ./tokens.png
+image : ./cloud.png
 url : /token
 ---
 

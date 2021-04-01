@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 mb-5" id="take_part">
+  <div class="py-12 mb-5">
     <div class="w-full text-center">
       <h2 v-if="main !== null" class="text-4xl font-semibold leading-tight font-heading">
         {{ main.title }} 

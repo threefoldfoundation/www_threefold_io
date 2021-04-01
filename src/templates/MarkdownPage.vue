@@ -36,6 +36,15 @@
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       />
+
+       <ShowcaseProducts
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+      />
     </div>
   </Layout>
 </template>
@@ -51,10 +60,18 @@
         header_title
         header_image
         solution_image
+       productsMain{
+          id
+          title
+          subtitle
+       #  image
+        }
        productData{
          id
          title
+         content
          image
+         url
        }
         comparisonMain{
           id
@@ -99,6 +116,7 @@ import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import VerticalNav from "~/components/custom/Navbar/VerticalNav.vue";
 import GetInTouch from "~/components/custom/Navbar/Getintouch.vue";
+import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import HowItWorks from "~/components/custom/sections/HowItWorks.vue";
 import Features from "~/components/custom/sections/Features.vue";
@@ -118,6 +136,7 @@ export default {
     VerticalNav,
     GetInTouch,
     SolutionsHeader,
+    ShowcaseProducts,
     HowItWorks,
     Features,
     logoShowcase,

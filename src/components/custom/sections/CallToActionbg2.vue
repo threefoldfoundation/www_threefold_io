@@ -1,12 +1,16 @@
 <template>
-  <section class="pb-20 px-4 bg-cover text-center">
+  <section class="pb-20 px-4 bg-cover bg-hero text-center">
     <br>
-    <br
+    <br>
     <br>
     <div class="w-full max-w-7xl mx-auto">
-      <h2 class="text-4xl leading-tight font-semibold font-heading">
-        {{ cta.title }}
-      </h2>
+      <h3 class="uppercase">{{ cta.subtitle }}</h3>
+     <h2 class="text-6xl mb-6 leading-none font-extrabold font-heading uppercase">
+          <span class="text-blue-600">{{ cta.slogan }}</span
+          > {{ cta.title1 }}
+          <br>
+          {{ cta.title2 }}
+        </h2>
       <div
         v-html="cta.content"
         class="mt-6 mb-8 text-gray-700 leading-relaxed"
@@ -43,3 +47,8 @@ export default {
   props: ["cta"],
 };
 </script>
+<style scoped>
+.bg-hero {
+        background-image: url("~@/assets/images/bg2.png");
+    }
+</style>

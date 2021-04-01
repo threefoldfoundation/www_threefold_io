@@ -1,15 +1,15 @@
 <template>
-  <section class="pb-20 px-4 bg-cover text-center">
-    <br>
-    <br
-    <br>
-    <div class="w-full max-w-7xl mx-auto">
-      <h2 class="text-4xl leading-tight font-semibold font-heading">
-        {{ cta.title }}
+  <section class="pt-10 pb-10 px-4 bg-cover bg-hero text-center">
+ 
+    <div class="w-full  py-10 max-w-7xl mx-auto">
+      <h2 class="text-4xl text-white leading-tight font-semibold font-heading uppercase">
+        {{ cta.title1 }} 
+        <br>
+        {{ cta.title2 }}
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 text-gray-700 leading-relaxed"
+        class="mt-6 mb-20 text-white leading-relaxed "
       ></div>
 
 
@@ -43,3 +43,8 @@ export default {
   props: ["cta"],
 };
 </script>
+<style scoped>
+.bg-hero {
+        background-image: url("~@/assets/images/bg1.png");
+    }
+</style>

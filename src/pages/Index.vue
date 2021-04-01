@@ -16,6 +16,16 @@
         :link="$page.markdownPage.link"
       />
 
+      <g-image class="m-auto w-2/4"
+        v-if="$page.markdownPage.solution_image2"
+        :src="$page.markdownPage.solution_image2.src"
+      />
+
+       <CallToAction
+        v-if="$page.markdownPage.cta2"
+        :cta="$page.markdownPage.cta2"
+      />
+
       <ShowcaseProducts
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
@@ -25,15 +35,31 @@
         "
       />
 
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :logos="$page.markdownPage.logos"
+       <CallToActionbg1
+        v-if="$page.markdownPage.cta3"
+        :cta="$page.markdownPage.cta3"
       />
 
-      <BrandPanel
+       <CallToActionbg2
+        v-if="$page.markdownPage.cta4"
+        :cta="$page.markdownPage.cta4"
+      />
+
+         <g-image
+        v-if="$page.markdownPage.solution_image3"
+        :src="$page.markdownPage.solution_image3.src"
+      />
+
+      <CallToAction
+        v-if="$page.markdownPage.cta5"
+        :cta="$page.markdownPage.cta5"
+      />
+     
+
+      <!-- <BrandPanel
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
-      />
+      /> -->
 
       <Comparison
         v-if="
@@ -65,7 +91,12 @@
       :signup="$page.markdownPage.signup"
       /> -->
 
-      <g-image
+       <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :logos="$page.markdownPage.logos"
+      />
+
+      <g-image class="m-auto w-3/4"
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       />
@@ -91,6 +122,8 @@
         button
         link
         solution_image
+        solution_image2
+        solution_image3
         header{
          title
          subtitle
@@ -123,6 +156,56 @@
           content
         }
         cta{
+          id
+          title
+          content
+          button
+          button2
+          button3
+          link
+          link2
+          link3
+        }
+
+        cta2{
+          id
+          title
+          content
+          button
+          button2
+          button3
+          link
+          link2
+          link3
+        }
+        cta3{
+          id
+          title1
+          title2
+          content
+          button
+          button2
+          button3
+          link
+          link2
+          link3
+        }
+        cta4{
+          id
+          title1
+          title2
+          subtitle
+          slogan
+          content
+          button
+          button2
+          button3
+          link
+          link2
+          link3
+        }
+
+        cta5{
           id
           title
           content
@@ -193,6 +276,8 @@ import Comparison from "~/components/custom/sections/Comparison.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
+import CallToActionbg1 from "~/components/custom/sections/CallToActionbg1.vue";
+import CallToActionbg2 from "~/components/custom/sections/CallToActionbg2.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
@@ -207,6 +292,8 @@ export default {
     BrandPanel,
     logoShowcase,
     CallToAction,
+    CallToActionbg1,
+    CallToActionbg2,
     InTheNews,
     SignUp,
   },

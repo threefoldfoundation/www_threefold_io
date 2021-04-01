@@ -1,7 +1,7 @@
 ---
 id: home_cta
 title: JOIN THE MOVEMENT
-button: Support Us By Purchasing Tokens
+button: Buy TFT
 link: https://threefold.io/info/threefold#/how_to_buy_and_sell
 button2: Stay Updated
 link2: https://t.me/threefoldnews

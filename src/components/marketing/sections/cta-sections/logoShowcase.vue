@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-8 px-4 text-center">
+  <section class="py-8 pb-20 px-4 text-center">
     <div class="max-w-2xl mx-auto mb-8">
       <h2 class="text-4xl leading-tight mb-6 font-bold font-heading">
         WORK WITH AWESOME PARTNERS

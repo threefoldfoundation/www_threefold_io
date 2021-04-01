@@ -105,6 +105,38 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Cta',
+                path: './content/page/**/cta2/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Cta',
+                path: './content/page/**/cta3/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Cta',
+                path: './content/page/**/cta4/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Cta',
+                path: './content/page/**/cta5/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'SignUp',
                 path: './content/page/**/signup/*.md',
             }
@@ -192,6 +224,10 @@ module.exports = {
                     features: 'Features',
                     logos: 'Logo',
                     cta: 'Cta',
+                    cta2: 'Cta',
+                    cta3: 'Cta',
+                    cta4: 'Cta',
+                    cta5: 'Cta',
                     signup: 'SignUp',
                     comparisonMain: 'ComparisonMain',
                     comparisonSecs: 'Comparison',

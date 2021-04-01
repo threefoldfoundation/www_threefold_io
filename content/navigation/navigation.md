@@ -2,29 +2,10 @@
 id: navigation
 navLinks:
   - name: PRODUCTS
-    link: ''
+    link: '/products'
     external: false
-    expandable: true
-    submenu:
-      - title: Be The Internet
-        path: /farming
-        external: true
+    expandable: false
 
-      - title: P2P Cloud
-        path: /cloud
-        external: true
-
-      - title: P2P Marketplace
-        path: /marketplace
-        external: true
-
-      - title: Digital Twin
-        path: /twin
-        external: true
-
-      - title: ThreeFold Token
-        path: /farming/token
-        external: true
 
   - name: LEARN
     link: '' # /dropdown

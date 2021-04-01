@@ -1,7 +1,7 @@
 ---
 id: farming
 title: ''
-image : ./nodes.png
+image : ./farming.png
 url : /farming
 ---
 

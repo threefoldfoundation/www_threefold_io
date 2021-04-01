@@ -1,7 +1,7 @@
 ---
 id: marketplace
 title: ''
-image : ./storage.png
+image : ./marketplace.png
 url : /cloud
 ---
 
