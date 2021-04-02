@@ -81,6 +81,11 @@
         :header="$page.markdownPage.headerSolution"
     /> -->
 
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :logos="$page.markdownPage.logos"
+      />
+
       <InTheNews
         v-if="$page.markdownPage.inTheNews"
         :news="$page.markdownPage.inTheNews"
@@ -90,11 +95,6 @@
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
       /> -->
-
-       <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :logos="$page.markdownPage.logos"
-      />
 
       <g-image class="m-auto w-3/4"
         v-if="$page.markdownPage.solution_image"
