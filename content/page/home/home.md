@@ -11,6 +11,8 @@ solution_image2: ./video_play.png
 cta2: home_cta2
 productsMain: product
 productData: [nodes_home, tokens_home, storage_home]
+brandPanel: fix_internet
+brandPanel2: grid_solution
 cta3: home_cta3
 cta4: home_cta4
 solution_image3: ./bg3.png
@@ -25,4 +27,4 @@ cta: home_cta
 
 <!-- header: home_header
 solution_image: ./home_header.png -->
-<!-- brandPanel: fix_internet -->
+<!--  -->

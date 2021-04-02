@@ -35,31 +35,35 @@
         "
       />
 
-       <CallToActionbg1
+      <!-- <CallToActionbg1
         v-if="$page.markdownPage.cta3"
         :cta="$page.markdownPage.cta3"
-      />
+      /> -->
 
-       <CallToActionbg2
+      <!-- <CallToActionbg2
         v-if="$page.markdownPage.cta4"
         :cta="$page.markdownPage.cta4"
-      />
+      /> -->
 
-         <g-image
+      <!-- <g-image
         v-if="$page.markdownPage.solution_image3"
         :src="$page.markdownPage.solution_image3.src"
-      />
+      /> -->
 
-      <CallToAction
+      <!-- <CallToAction
         v-if="$page.markdownPage.cta5"
         :cta="$page.markdownPage.cta5"
-      />
-     
+      /> -->
 
-      <!-- <BrandPanel
+      <BrandPanel
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
-      /> -->
+      />
+
+      <BrandPanel2
+        :brand="$page.markdownPage.brandPanel2"
+        v-if="$page.markdownPage.brandPanel2"
+      />
 
       <Comparison
         v-if="
@@ -238,6 +242,17 @@
          btnTxt
          image
        }
+        brandPanel2{
+         id
+         title
+         subtitle
+         content
+         sourceUrl
+         btnTxt
+         sourceUrl2
+         btnTxt2
+         image
+       }
         logos{
           id
           image
@@ -275,6 +290,7 @@ import ShowcaseProducts from "~/components/marketing/sections/cta-sections/Showc
 import Comparison from "~/components/custom/sections/Comparison.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
+import BrandPanel2 from "~/components/marketing/sections/cta-sections/BrandPanel2.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import CallToActionbg1 from "~/components/custom/sections/CallToActionbg1.vue";
 import CallToActionbg2 from "~/components/custom/sections/CallToActionbg2.vue";
@@ -290,6 +306,7 @@ export default {
     Comparison,
     NewCard,
     BrandPanel,
+    BrandPanel2,
     logoShowcase,
     CallToAction,
     CallToActionbg1,
