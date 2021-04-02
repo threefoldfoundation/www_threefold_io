@@ -271,7 +271,7 @@
 <script>
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
-import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
+import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProductsHome.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";

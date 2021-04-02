@@ -2,11 +2,13 @@
 id: navigation
 navLinks:
   - name: PRODUCTS
-    link: '/products'
+    link: /products
     external: false
     expandable: false
-
-
+  - name: TOKEN
+    link: /token
+    external: true
+    expandable: false
   - name: LEARN
     link: '' # /dropdown
     external: false
