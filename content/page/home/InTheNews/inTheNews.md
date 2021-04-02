@@ -2,10 +2,10 @@
 id: in_the_news
 partners:
   - path: https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/?fbclid=IwAR1WKCpqLcWPRWg5bPD6RCQE5JJjRPt6ey5vbEnu3db2FvJnp6-YKeVZNW8#79aa340e6798'
-    logo: ./logos/forbers.png
+    logo: ./logos/forbes.png
 
   - path: https://cointelegraph.com/news/peer-to-peer-internet-has-lofty-goal-to-bring-true-decentralization
-    logo: ./logos/thecointel.png
+    logo: ./logos/cointelegraph.png
 
   - path: https://hackernoon.com/is-it-possible-to-create-a-decentralized-internet-this-startup-and-its-farmers-think-so-ey2e3ycf
     logo: ./logos/hackernoon.png
