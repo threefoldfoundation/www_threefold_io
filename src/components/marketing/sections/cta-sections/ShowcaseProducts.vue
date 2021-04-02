@@ -7,7 +7,7 @@
       <p v-if="main !== null" class="mb-6 text-m tracking-widest text-gray-800">{{ main.subtitle }}</p>
     </div> 
 
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
 
         <a
         v-for="(product, idx) in products"

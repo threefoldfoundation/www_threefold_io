@@ -10,7 +10,7 @@ link3: ''
 
 ---
 
-Get to Know the threeFold Vision better.
+Get to know the ThreeFold vision better.
 
 <!-- button2: Spread our Message
 link: ''
