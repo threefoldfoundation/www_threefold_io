@@ -41,6 +41,15 @@
         :cta="$page.markdownPage.cta"
       />
 
+      <div class="container sm:pxi-0 mx-auto mt-8 overflow-x-hidden">
+        <AppListItem
+          :products="$page.markdownPage.productData"
+          :main="$page.markdownPage.productsMain"
+        />
+      </div>
+    </div>
+
+    <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -49,7 +58,7 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-    </div>
+    </div> -->
   </Layout>
 </template>
 
@@ -68,7 +77,8 @@
        productsMain{
           id
           title
-          subtitle
+          slogan
+          content
        #  image
         }
        productData{
@@ -76,7 +86,7 @@
          title
          content
          image
-         url
+         link
        }
         comparisonMain{
           id
@@ -134,6 +144,7 @@ import Roadmap from "~/components/custom/sections/Roadmap.vue";
 import FourTiersWithToggle from "~/components/marketing/sections/pricing/four_tiers_with_toggle.vue";
 import WithComparisonTable from "~/components/marketing/sections/pricing/with_comparison_table.vue";
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
+import AppListItem from "~/components/AppListItem.vue";
 
 export default {
   components: {
@@ -153,6 +164,7 @@ export default {
     FourTiersWithToggle,
     WithComparisonTable,
     BrandPanel,
+    AppListItem,
   },
 
   metaInfo() {
