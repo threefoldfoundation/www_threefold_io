@@ -37,6 +37,7 @@
       />
 
       <CallToAction
+        :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta"
         :cta="$page.markdownPage.cta"
       />
@@ -96,7 +97,6 @@
           image
         }
         cta{
-          id
           title
           slogan
           content
