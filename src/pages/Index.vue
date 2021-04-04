@@ -175,6 +175,8 @@
           id
           title
           content
+          video_button
+          video_link
           button
           button2
           button3

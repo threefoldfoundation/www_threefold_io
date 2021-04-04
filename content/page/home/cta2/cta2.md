@@ -1,13 +1,12 @@
 ---
 id: home_cta2
-title: ''
-button: Watch Our Video
-link: https://vimeo.com/438190961
-button2: ''
-link2: ''
-button3: ''
-link3: ''
-
+title: ""
+video_button: Watch Our Video
+video_link: https://player.vimeo.com/video/438190961
+button: ""
+link: ""
+button2: ""
+link2: ""
 ---
 
 Get to know the ThreeFold vision better.
