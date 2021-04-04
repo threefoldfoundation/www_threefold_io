@@ -18,7 +18,7 @@
         </span>
 
         <div
-          class="mb-8 text-center text-2xl text-gray-800"
+          class="mb-8 text-center text-lg mx-10 text-gray-800"
           v-html="excerpt"
         ></div>
         <div v-if="button">
