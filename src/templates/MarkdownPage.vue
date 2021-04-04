@@ -1,18 +1,21 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
           $page.markdownPage.header_title &&
           $page.markdownPage.header_title != ''
         "
+        :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
+        :slogan="$page.markdownPage.header_slogan"
         :image="$page.markdownPage.header_image"
         :altImg="$page.markdownPage.header_altImg"
         :excerpt="$page.markdownPage.header_excerpt"
       />
-
+    </div>
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
@@ -27,23 +30,24 @@
         :sections="$page.markdownPage.comparisonSecs"
       />
 
-      <CallToAction
-        v-if="$page.markdownPage.cta"
-        :cta="$page.markdownPage.cta"
-      />
-      
-      <g-image 
+      <g-image
+        class="w-3/4 mx-auto mt-10"
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       />
 
-       <ShowcaseProducts
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
+      <CallToAction
+        v-if="$page.markdownPage.cta"
+        :cta="$page.markdownPage.cta"
+      />
+
+      <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
         "
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
       />
     </div>
   </Layout>
@@ -59,6 +63,7 @@
         header_altImg
         header_title
         header_image
+        header_slogan
         solution_image
        productsMain{
           id
@@ -93,6 +98,7 @@
         cta{
           id
           title
+          slogan
           content
           button
           link

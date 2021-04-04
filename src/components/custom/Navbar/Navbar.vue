@@ -1,7 +1,7 @@
 <template>
   <div class="fixed inset-0 h-16 bg-white">
     <header
-      class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
+      class="inline-flex items-center justify-between flex-wrap container-fluid mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
       :class="{
         'opacity-100': !disableScroll && scrollPosition > headerHeight,
         'opacity-0': !disableScroll && scrollPosition < headerHeight,
@@ -336,6 +336,13 @@ export default {
 };
 </script>
 <style scoped>
+.container-fluid {
+  width: 100%;
+  padding-right: 160px;
+  padding-left: 160px;
+  margin-right: auto;
+  margin-left: auto;
+}
 input:focus,
 button:focus {
   outline: 0;
@@ -360,6 +367,11 @@ a.active--exact.active {
 @media (max-width: 768px) {
   .navbar {
     width: 100%;
+  }
+
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 </style>

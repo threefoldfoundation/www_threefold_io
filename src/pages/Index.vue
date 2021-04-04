@@ -1,23 +1,22 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-     <div class="container-fluid mx-20 sm:pxi-0 overflow-x-hidden">
-        <Header
-          :title="$page.markdownPage.header_title"
-          :slogan="$page.markdownPage.header_slogan"
-          :image="$page.markdownPage.header_image"
-          :altImg="$page.markdownPage.header_altImg"
-          :excerpt="$page.markdownPage.header_excerpt"
-          :button="$page.markdownPage.button"
-          :link="$page.markdownPage.link"
-        />
-      </div>
+    <div class="container-fluid mx-20 sm:pxi-0 overflow-x-hidden">
+      <Header
+        :id="$page.markdownPage.id"
+        :title="$page.markdownPage.header_title"
+        :slogan="$page.markdownPage.header_slogan"
+        :image="$page.markdownPage.header_image"
+        :altImg="$page.markdownPage.header_altImg"
+        :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
+      />
+    </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <!-- <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       /> -->
-
-     
 
       <g-image
         class="m-auto w-2/4"

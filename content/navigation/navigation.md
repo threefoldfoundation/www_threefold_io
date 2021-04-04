@@ -5,12 +5,16 @@ navLinks:
     link: /products
     external: false
     expandable: false
+  - name: WHY
+    link: /why
+    external: false
+    expandable: false
   - name: TOKEN
     link: /token
     external: true
     expandable: false
   - name: LEARN
-    link: '' # /dropdown
+    link: "" # /dropdown
     external: false
     expandable: true
     submenu:
@@ -26,7 +30,7 @@ navLinks:
         external: true
 
   - name: ECOSYSTEM
-    link: ''
+    link: ""
     external: false
     expandable: true
     submenu:
@@ -45,7 +49,7 @@ navLinks:
         external: true
 
   - name: MORE
-    link: ''
+    link: ""
     external: false
     expandable: true
     submenu:
@@ -57,12 +61,10 @@ navLinks:
         path: /news
 
       - title: Contact Us
-        path: 'mailto:info@threefold.io'
+        path: "mailto:info@threefold.io"
         external: true
 
 social:
   - icon: telegram-plane
-    link: 'https://t.me/threefoldnews'
-
-  
+    link: "https://t.me/threefoldnews"
 ---
