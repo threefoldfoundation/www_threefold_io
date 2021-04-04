@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="flex flex-wrap text-center lg:text-left -mx-2" v-else>
+    <div class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 -mx-2" v-else>
       <div class="lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
         <h2
           class="text-8xl mb-6 mt-20 leading-none font-extrabold font-heading"

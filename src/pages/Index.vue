@@ -18,8 +18,8 @@
         :header="$page.markdownPage.header"
       /> -->
 
-      <g-image
-        class="m-auto w-2/4"
+      <g-image 
+        class="m-auto w-2/4 lg:mt-20"
         v-if="$page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
       />
