@@ -244,6 +244,8 @@ module.exports = {
                     howItWorksMain: 'HowItWorks',
                     productsMain: 'ProductTitle',
                     productData: 'Product',
+                    appsMain: 'ProductTitle',
+                    appData: 'Product',
                     featuresMain: 'Features',
                     features: 'Features',
                     logos: 'Logo',

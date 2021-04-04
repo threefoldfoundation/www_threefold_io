@@ -5,8 +5,8 @@ header_title: ARE THE NEW INTERNET
 header_image: ./home_header.png
 header_altImg: threefold
 header_excerpt: Welcome to the world’s largest peer-to-peer internet, formed by people who want to make a difference, by people who care, by people just like you.
-button: 'Take Part'
-link: ''
+button: "Take Part"
+link: "#home"
 solution_image2: ./video_play.png
 cta2: home_cta2
 productsMain: product

@@ -7,10 +7,11 @@ header_altImg: threefold
 header_excerpt: Our mission is accelerate the transition of the data economy to a decentralized P2P model and make it possible for every person to learn, partake and succeed.
 solution_image: ./404.png
 cta: why_cta
-productsMain: "product_main"
-productData: [peer_to_peer, internet_available, better_solution]
+appsMain: product_main
+appData: [peer_to_peer, internet_available, better_solution]
 partenershipsMain: partenerships_main
 partnerships: [solidaridad, tag, kleos, threefold]
+cta2: why_cta2
 ---
 
 <!-- header: home_header

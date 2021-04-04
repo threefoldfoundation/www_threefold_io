@@ -45,11 +45,10 @@
       <div class="container sm:pxi-0 mx-auto mt-8 overflow-x-hidden">
         <AppListItem
           v-if="
-            $page.markdownPage.productData &&
-            $page.markdownPage.productData.length > 0
+            $page.markdownPage.appData && $page.markdownPage.appData.length > 0
           "
-          :products="$page.markdownPage.productData"
-          :main="$page.markdownPage.productsMain"
+          :products="$page.markdownPage.appData"
+          :main="$page.markdownPage.appsMain"
         />
       </div>
       <Partenerships
@@ -62,7 +61,13 @@
       />
     </div>
 
-    <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <CallToAction
+      :id="$page.markdownPage.id"
+      v-if="$page.markdownPage.cta2"
+      :cta="$page.markdownPage.cta2"
+    />
+
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -71,7 +76,7 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-    </div> -->
+    </div>
   </Layout>
 </template>
 
@@ -90,11 +95,26 @@
        productsMain{
           id
           title
-          slogan
+          subtitle
           content
        #  image
         }
        productData{
+         id
+         title
+         content
+         image
+         link
+       }
+
+      appsMain{
+          id
+          title
+          slogan
+          content
+       #  image
+        }
+       appData{
          id
          title
          content
@@ -119,6 +139,13 @@
           image
         }
         cta{
+          title
+          slogan
+          content
+          button
+          link
+        }
+        cta2{
           title
           slogan
           content
