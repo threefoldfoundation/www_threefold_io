@@ -21,7 +21,7 @@
           :key="partnership.id"
         >
           <img
-            class="mx-auto rounded-full"
+            class="mx-auto"
             :src="partnership.img.src"
             :alt="partnership.id"
           />
