@@ -9,6 +9,8 @@ solution_image: ./404.png
 cta: why_cta
 productsMain: "product_main"
 productData: [peer_to_peer, internet_available, better_solution]
+partenershipsMain: partenerships_main
+partnerships: [solidaridad, tag, kleos, threefold]
 ---
 
 <!-- header: home_header

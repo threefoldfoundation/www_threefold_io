@@ -216,6 +216,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'PartenershipsMain',
+                path: './content/page/**/partenerships/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Partenerships',
+                path: './content/page/**/partenerships/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -248,7 +264,9 @@ module.exports = {
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
                     brandPanel2: 'BrandPanel2',
-                    allSlides: 'About'
+                    allSlides: 'About',
+                    partenershipsMain: 'PartenershipsMain',
+                    partnerships: 'Partenerships'
                 }
             }
         },

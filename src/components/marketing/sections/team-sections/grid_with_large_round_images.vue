@@ -1,0 +1,47 @@
+<template>
+  <div
+    class="max-w-screen-xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24"
+  >
+    <div class="space-y-12">
+      <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+        <h1 class="text-3xl text-gray-900 font-light sm:text-9xl sm:leading-10">
+          {{ main.title }} <span class="font-extrabold">{{ main.slogan }}</span>
+        </h1>
+        <div
+          class="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-700 sm:mt-4"
+          v-html="main.content"
+        ></div>
+      </div>
+      <div
+        class="mx-auto grid-cols-2 sm:grid sm:grid-cols-1 lg:grid-cols-2 lg:max-w-5xl"
+      >
+        <div
+          class="my-5 mx-5"
+          v-for="partnership in partnerships"
+          :key="partnership.id"
+        >
+          <img
+            class="mx-auto rounded-full"
+            :src="partnership.img.src"
+            :alt="partnership.id"
+          />
+          <div class="space-y-2">
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h4>{{ partnership.title }}</h4>
+              <div
+                class="text-base text-gray-700"
+                v-html="partnership.content"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ["partnerships", "main"],
+};
+</script>

@@ -44,10 +44,22 @@
 
       <div class="container sm:pxi-0 mx-auto mt-8 overflow-x-hidden">
         <AppListItem
+          v-if="
+            $page.markdownPage.productData &&
+            $page.markdownPage.productData.length > 0
+          "
           :products="$page.markdownPage.productData"
           :main="$page.markdownPage.productsMain"
         />
       </div>
+      <Partenerships
+        v-if="
+          $page.markdownPage.partnerships &&
+          $page.markdownPage.partnerships.length > 0
+        "
+        :main="$page.markdownPage.partenershipsMain"
+        :partnerships="$page.markdownPage.partnerships"
+      />
     </div>
 
     <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
@@ -122,6 +134,18 @@
          btnTxt
          image
        }
+       partenershipsMain{
+         id
+         title
+         slogan
+         content
+       }
+       partnerships {
+         id
+         title
+         img
+         content
+       }
     }
   }
 
@@ -145,6 +169,7 @@ import FourTiersWithToggle from "~/components/marketing/sections/pricing/four_ti
 import WithComparisonTable from "~/components/marketing/sections/pricing/with_comparison_table.vue";
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
 import AppListItem from "~/components/AppListItem.vue";
+import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
 
 export default {
   components: {
@@ -165,6 +190,7 @@ export default {
     WithComparisonTable,
     BrandPanel,
     AppListItem,
+    Partenerships,
   },
 
   metaInfo() {
