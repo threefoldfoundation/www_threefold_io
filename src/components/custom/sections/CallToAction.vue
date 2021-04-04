@@ -3,7 +3,7 @@
     <div class="w-full max-w-2xl mx-auto" v-if="id == 'why'">
       <h2
         v-if="cta.title"
-        class="text-6xl text-center uppercase mb-2 leading-none font-light font-heading"
+        class="text-5xl text-center uppercase mb-2 leading-none font-light font-heading"
       >
         {{ cta.title }}
       </h2>
@@ -23,12 +23,12 @@
           >{{ cta.video_button }}</a
         >
       </div>
-      <a
+      <g-link
         class="inline-block bg-gray-900 text-md learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         target="_blank"
         v-if="cta.button"
-        :href="cta.link"
-        >{{ cta.button }}</a
+        :to="cta.link"
+        >{{ cta.button }}</g-link
       >
       <g-link
         class="inline-block bg-gray-900 text-sm learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"

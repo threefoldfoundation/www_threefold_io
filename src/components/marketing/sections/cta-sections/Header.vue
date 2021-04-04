@@ -1,18 +1,18 @@
 <template>
   <section class="py-15 mb-10 px-4 lg:mx-40">
     <div
-      class="flex flex-wrap text-center lg:text-left -mx-2"
+      class="flex flex-wrap text-center lg:mt-10 lg:text-left -mx-2"
       v-if="id == 'why'"
     >
-      <div class="lg:w-3/5 px-2"><g-image :src="img" :alt="altImg" /></div>
-      <div class="lg:w-2/5 px-2 py-20 lg:pr-20 lg:mt-10 order-1 lg:order-none">
+      <div class="lg:w-1/2 px-2"><g-image :src="img" :alt="altImg" /></div>
+      <div class="lg:w-1/2 px-2 py-20 lg:pr-20 px-10 lg:mt-10 order-1 lg:order-none">
         <h1
-          class="flex text-center uppercase mb-6 mt-20 leading-none text-5xl font-light font-heading"
+          class="flex text-center uppercase mb-6 mt-10 leading-none text-5xl font-light font-heading"
         >
           {{ title }}
         </h1>
         <span
-          class="flex text-center uppercase mb-6 leading-none text-5xl font-black font-heading"
+          class="flex text-center uppercase mb-6 leading-none text-6xl font-black font-heading"
         >
           {{ slogan }}
         </span>
