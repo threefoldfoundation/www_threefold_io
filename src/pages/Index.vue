@@ -1,27 +1,31 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
+     <div class="container-fluid mx-20 sm:pxi-0 overflow-x-hidden">
+        <Header
+          :title="$page.markdownPage.header_title"
+          :slogan="$page.markdownPage.header_slogan"
+          :image="$page.markdownPage.header_image"
+          :altImg="$page.markdownPage.header_altImg"
+          :excerpt="$page.markdownPage.header_excerpt"
+          :button="$page.markdownPage.button"
+          :link="$page.markdownPage.link"
+        />
+      </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <!-- <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       /> -->
 
-      <Header
-        :title="$page.markdownPage.header_title"
-        :slogan="$page.markdownPage.header_slogan"
-        :image="$page.markdownPage.header_image"
-        :altImg="$page.markdownPage.header_altImg"
-        :excerpt="$page.markdownPage.header_excerpt"
-        :button="$page.markdownPage.button"
-        :link="$page.markdownPage.link"
-      />
+     
 
-      <g-image class="m-auto w-2/4"
+      <g-image
+        class="m-auto w-2/4"
         v-if="$page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
       />
 
-       <CallToAction
+      <CallToAction
         v-if="$page.markdownPage.cta2"
         :cta="$page.markdownPage.cta2"
       />
@@ -100,7 +104,8 @@
       :signup="$page.markdownPage.signup"
       /> -->
 
-      <g-image class="m-auto w-3/4"
+      <g-image
+        class="m-auto w-3/4"
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       />
@@ -324,7 +329,11 @@ export default {
 </script>
 <style scoped>
 .container-fluid {
-  max-width: 100% !important;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 </style>
 

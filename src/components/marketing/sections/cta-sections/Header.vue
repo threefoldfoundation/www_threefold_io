@@ -1,8 +1,8 @@
 <template>
-  <section class="py-12 px-4">
-    <div class="flex flex-wrap items-center text-center lg:text-left -mx-2">
-      <div class="lg:w-1/2 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none">
-        <h2 class="text-6xl mb-6 leading-none font-extrabold font-heading">
+  <section class="py-20 mb-10 px-4 lg:mx-40">
+    <div class="flex flex-wrap text-center lg:text-left -mx-2">
+      <div class="lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
+        <h2 class="text-8xl mb-6 mt-20 leading-none font-extrabold font-heading">
           <span class="text-blue-600">{{ slogan }}</span
           > {{ title }}
         </h2>
@@ -17,7 +17,7 @@
           >
           <a
             v-else
-            class="nline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="nline-block bg-blue-900 text-md learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
