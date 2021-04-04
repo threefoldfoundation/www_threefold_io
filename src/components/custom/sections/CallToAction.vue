@@ -1,9 +1,57 @@
 <template>
   <section class="pb-20 px-4 bg-cover text-center">
-    <br />
-    <br />
-    <br />
-    <div class="w-full max-w-7xl mx-auto">
+   
+    <div class="w-full max-w-7xl mx-auto"
+    v-if="id == 'why'"
+    >
+      <h2
+        v-if="cta.title"
+        class="text-5xl text-center uppercase mb-0 leading-none font-light font-heading"
+      >
+        {{ cta.title }}
+      </h2>
+       <span
+          class="text-center uppercase mb-6 leading-none text-5xl font-black font-heading"
+        >
+          {{ cta.slogan }}
+        </span>
+      <div
+        v-html="cta.content"
+        class="mb-8 text-center text-md mt-4 text-gray-800"
+      ></div>
+      <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
+        <a
+          @click="toggleModal"
+          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+          >{{ cta.video_button }}</a
+        >
+      </div>
+      <a
+        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        target="_blank"
+        v-if="cta.button"
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+      <g-link
+        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        v-if="cta.button2"
+        :to="cta.link2"
+        >{{ cta.button2 }}</g-link
+      >
+      <g-link
+        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        v-if="cta.button3"
+        :to="cta.link3"
+        >{{ cta.button3 }}</g-link
+      >
+    </div>
+
+    
+
+
+
+     <div class="w-full max-w-7xl mx-auto" v-else>
       <h2
         v-if="cta.title"
         class="text-4xl leading-tight font-semibold font-heading"
@@ -53,7 +101,7 @@
 import Modal from "~/components/custom/Modal.vue";
 
 export default {
-  props: ["cta"],
+  props: ["cta" , "id"],
   data() {
     return {
       showModal: false,
@@ -70,5 +118,8 @@ export default {
       this.showModal = false;
     },
   },
+  mounted(){
+    console.log(this.id)
+  }
 };
 </script>
