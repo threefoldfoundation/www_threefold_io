@@ -17,7 +17,7 @@
         </span>
       <div
         v-html="cta.content"
-        class="mb-8 text-center text-md mt-4 text-gray-800"
+        class="mb-8 text-center text-lg text-gray-800"
       ></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a

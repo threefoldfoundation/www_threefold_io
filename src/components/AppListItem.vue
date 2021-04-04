@@ -5,7 +5,7 @@
         {{ main.title }} <span class="font-extrabold">{{ main.slogan }}</span>
       </h1>
       <div
-        class="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-700 sm:mt-4"
+        class="mt-3 max-w-2xl mx-auto text-lg leading-7 text-gray-700 sm:mt-4"
         v-html="main.content"
       ></div>
     </div>
