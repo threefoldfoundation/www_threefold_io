@@ -13,6 +13,8 @@
         :image="$page.markdownPage.header_image"
         :altImg="$page.markdownPage.header_altImg"
         :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
       />
     </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
@@ -91,6 +93,8 @@
         header_title
         header_image
         header_slogan
+        button
+        link
         solution_image
        productsMain{
           id
