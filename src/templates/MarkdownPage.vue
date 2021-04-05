@@ -61,15 +61,6 @@
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
       />
-    </div>
-
-    <CallToAction
-      :id="$page.markdownPage.id"
-      v-if="$page.markdownPage.cta2"
-      :cta="$page.markdownPage.cta2"
-    />
-
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -79,6 +70,14 @@
         :products="$page.markdownPage.productData"
       />
     </div>
+
+    <CallToAction
+      :id="$page.markdownPage.id"
+      v-if="$page.markdownPage.cta2"
+      :cta="$page.markdownPage.cta2"
+    />
+
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"></div>
   </Layout>
 </template>
 
@@ -101,6 +100,8 @@
           title
           subtitle
           content
+          button
+          link
        #  image
         }
        productData{
@@ -234,9 +235,6 @@ export default {
       let name = path[0].toUpperCase() + path.slice(1);
       return name;
     },
-  },
-  mounted() {
-    console.log(this.$page.markdownPage);
   },
 };
 </script>

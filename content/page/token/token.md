@@ -12,4 +12,6 @@ comparisonSecs: [expand_grid, invest_token, earn_more]
 partenershipsMain: cryptocurrency_main
 partnerships:
   [be_ur_bank, secure, transact_p2p, backed, decentralized, lives_stellar]
+productsMain: token_product
+productData: [swiptft, spendft, earn_interst]
 ---
