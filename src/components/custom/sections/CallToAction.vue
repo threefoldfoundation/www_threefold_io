@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-20 px-4 bg-cover text-center">
+  <section class="pb-10 px-4 bg-cover text-center">
     <div class="w-full max-w-2xl mx-auto" v-if="id == 'why'">
       <h2
         v-if="cta.title"

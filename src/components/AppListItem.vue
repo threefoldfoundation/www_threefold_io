@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-    <div class="text-center mx-auto my-10">
+    <div class="text-center mx-auto my-4">
       <h1 class="text-3xl text-gray-900 font-light sm:text-9xl sm:leading-10">
         {{ main.title }} <span class="font-extrabold">{{ main.slogan }}</span>
       </h1>
