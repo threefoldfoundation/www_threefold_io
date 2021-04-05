@@ -47,7 +47,7 @@ items:
     - name: SDK
       link: https://threefold.io/info/sdk
     - name: P2P Cloud
-      link: https://new.threefold.io/info/cloud
+      link: https://threefold.io/info/cloud
     - name: GitHub
       link: https://github.com/threefoldfoundation
  
