@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 mb-5">
+  <div class="py-0 mb-5">
     <div class="w-full text-center">
       <h2
         v-if="main !== null"
