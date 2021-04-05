@@ -235,6 +235,9 @@ export default {
       return name;
     },
   },
+  mounted() {
+    console.log(this.$page.markdownPage);
+  },
 };
 </script>
 <style scoped>
