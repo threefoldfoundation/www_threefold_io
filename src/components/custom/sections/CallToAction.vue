@@ -111,8 +111,5 @@ export default {
       this.showModal = false;
     },
   },
-  mounted() {
-    console.log(this.id);
-  },
 };
 </script>

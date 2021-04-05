@@ -66,7 +66,7 @@
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">
           <g-image
             class="absolute brandpanel inset-0 w-full h-full transform translate-x-0 translate-y-6 rounded-md object-fill object-left-top sm:translate-x-0 lg:translate-y-20"
-            :src="brand.img.src"
+            :src="img(brand.img)"
             :alt="brand.title"
           />
         </div>
@@ -78,12 +78,12 @@
 <script>
 export default {
   props: ["brand", "id"],
-  // computed: {
-  //   image() {
-  //     return this.brand.image.src
-  //       ? this.brand.image.src
-  //       : require(`!!assets-loader!@images/brandPanel/${this.brand.image}`);
-  //   },
-  // },
+  methods: {
+    img(image) {
+      if (!image) return "";
+      if (image.src) return image.src;
+      return image;
+    },
+  },
 };
 </script>

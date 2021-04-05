@@ -15,4 +15,6 @@ partnerships:
 productsMain: token_product
 productData: [swiptft, spendft, earn_interst]
 brandPanel: dive_TFT
+cta: token_cta
+cta2: token_cta2
 ---

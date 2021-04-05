@@ -40,7 +40,7 @@
 
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta"
+        v-if="$page.markdownPage.cta && $page.markdownPage.id == 'why'"
         :cta="$page.markdownPage.cta"
       />
 
@@ -61,6 +61,24 @@
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
       />
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel"
+        v-if="$page.markdownPage.brandPanel"
+      />
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta"
+        :cta="$page.markdownPage.cta"
+      />
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta2"
+        :cta="$page.markdownPage.cta2"
+      />
+    </div>
+
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -69,21 +87,7 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-
-      <BrandPanel
-        :id="$page.markdownPage.id"
-        :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel"
-      />
     </div>
-
-    <CallToAction
-      :id="$page.markdownPage.id"
-      v-if="$page.markdownPage.cta2"
-      :cta="$page.markdownPage.cta2"
-    />
-
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"></div>
   </Layout>
 </template>
 
