@@ -5,7 +5,7 @@
       v-if="id == 'why'"
     >
       <div class="lg:w-1/2 px-2"><g-image :src="img" :alt="altImg" /></div>
-      <div class="lg:w-1/2 px-2 py-20 lg:pr-20 px-10 lg:mt-10 order-1 lg:order-none">
+      <div class="lg:w-1/2 px-2 py-20 lg:pr-20 lg:mt-10 order-1 lg:order-none">
         <h1
           class="flex text-center uppercase mb-6 mt-10 leading-none text-5xl font-light font-heading"
         >
@@ -41,9 +41,9 @@
     </div>
 
     <div class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 -mx-2" v-else>
-      <div class="lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
+      <div class="lg:w-2/5 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
         <h2
-          class="text-8xl mb-6 mt-20 leading-none font-extrabold font-heading"
+          class="text-6xl mb-6 mt-20 leading-none font-extrabold font-heading"
         >
           <span class="text-blue-600">{{ slogan }}</span> {{ title }}
         </h2>
@@ -65,7 +65,7 @@
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
         </div>
       </div>
-      <div class="lg:w-1/2 px-2"><g-image :src="img" :alt="altImg" /></div>
+      <div class="lg:w-3/5 px-2"><g-image :src="img" :alt="altImg" /></div>
     </div>
   </section>
 </template>
