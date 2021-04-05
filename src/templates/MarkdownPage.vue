@@ -61,6 +61,15 @@
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
       />
+      <ShowcaseProducts
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+      />
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel"
@@ -78,16 +87,7 @@
       />
     </div>
 
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <ShowcaseProducts
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-      />
-    </div>
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"></div>
   </Layout>
 </template>
 
