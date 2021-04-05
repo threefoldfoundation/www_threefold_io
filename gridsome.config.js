@@ -6,7 +6,8 @@
 
 module.exports = {
     siteName: 'ThreeFold',
-    plugins: [
+    pathPrefix: "threefold",
+	plugins: [
 
         // Local models
         {
@@ -493,7 +494,8 @@ module.exports = {
             externalLinksTarget: '_blank',
             externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
             anchorClassName: 'icon icon-link',
-            plugins: [
+            pathPrefix: "threefold",
+	plugins: [
                 ['gridsome-plugin-remark-prismjs-all', {
                         highlightClassName: "gridsome-highlight",
                         codeTitleClassName: "gridsome-code-title",

@@ -15,7 +15,7 @@
       :key="product.id"
     >
       <div class="post-card-image-link px-1">
-        <g-link :href="product.link">
+        <g-link :to="product.link">
           <g-image
             :src="img(product.image)"
             :alt="product.title"

@@ -11,7 +11,7 @@ navLinks:
     expandable: false
   - name: TOKEN
     link: /token
-    external: true
+    external: false
     expandable: false
   - name: LEARN
     link: "" # /dropdown
