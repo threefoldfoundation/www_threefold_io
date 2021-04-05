@@ -110,7 +110,6 @@
          image
          link
        }
-
       appsMain{
           id
           title
