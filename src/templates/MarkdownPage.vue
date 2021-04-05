@@ -69,6 +69,12 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel"
+        v-if="$page.markdownPage.brandPanel"
+      />
     </div>
 
     <CallToAction
@@ -163,7 +169,7 @@
          content
          sourceUrl
          btnTxt
-         image
+         img
        }
        partenershipsMain{
          id

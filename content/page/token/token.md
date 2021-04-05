@@ -14,4 +14,5 @@ partnerships:
   [be_ur_bank, secure, transact_p2p, backed, decentralized, lives_stellar]
 productsMain: token_product
 productData: [swiptft, spendft, earn_interst]
+brandPanel: dive_TFT
 ---
