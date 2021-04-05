@@ -4,7 +4,7 @@
   >
     <div class="space-y-12">
       <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-        <h1 class="text-3xl text-gray-900 font-light sm:text-9xl sm:leading-10">
+        <h1 class="text-4xl mb-2 leading-tight font-semibold font-heading">
           {{ main.title }} <span class="font-extrabold">{{ main.slogan }}</span>
         </h1>
         <div

@@ -18,8 +18,16 @@ For TFT holders, TFT is valuable because it is worth actual compute and storage 
 
 <br />
 
-Today, TFT is becoming valuable to developers and enterprises deploying their solutions on the ThreeFold Grid. That's because you can use TFT to reserve fully private and secure capacity in the most technologically advanced Internet architecture.
+Today, TFT is becoming valuable to developers and enterprises deploying their solutions on
+<br />
+the ThreeFold Grid. That's because you can use TFT to reserve fully private and secure capacity
+<br />
+in the most technologically advanced Internet architecture.
 
 <br />
 
-Of course many also see it as an investment, similar to Bitcoin or other cryptocurrencies. But it shouldn’t be seen as an investment vehicle or way for short term gains or speculation as it is just a way to participate in the p2p Internet.
+Of course many also see it as an investment, similar to Bitcoin or other cryptocurrencies. 
+<br />
+But it shouldn’t be seen as an investment vehicle or way for short term gains or speculation 
+<br />
+as it is just a way to participate in the p2p Internet.

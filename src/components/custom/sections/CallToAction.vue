@@ -47,13 +47,13 @@
     <div class="w-full max-w-7xl mx-auto" v-else>
       <h2
         v-if="cta.title"
-        class="text-4xl leading-tight font-semibold font-heading"
+        class="text-4xl mb-2 leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 text-gray-700 leading-relaxed"
+        class="mt-6 mb-8 text-lg text-gray-700 leading-relaxed"
       ></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
