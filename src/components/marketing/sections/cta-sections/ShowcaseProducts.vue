@@ -9,7 +9,7 @@
       </h2>
       <p
         v-if="main !== null && main.subtitle"
-        class="mb-6 text-m tracking-widest text-gray-800"
+        class="mb-6 text-gray-600"
       >
         {{ main.subtitle }}
       </p>
@@ -29,7 +29,7 @@
         <div class="px-2 py-2">
           <g-image class="py-4" :src="img(product.image)" />
           <div class="font-bold text-xl mb-2">{{ product.title }}</div>
-          <div v-html="product.content" class="text-gray-700 text-base"></div>
+          <div v-html="product.content" class="text-gray-600"></div>
         </div>
       </a>
     </div>
@@ -61,13 +61,13 @@
         v-if="main.link.includes('http')"
         target="_blank"
         :href="main.link"
-        class="bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
+        class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
         >{{ main.button }}</a
       >
       <g-link
         v-else
         :href="main.link"
-        class="bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
+        class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
         >{{ main.button }}</g-link
       >
     </div>
