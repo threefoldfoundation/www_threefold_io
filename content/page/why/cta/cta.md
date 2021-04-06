@@ -12,8 +12,6 @@ link3: ""
 
 The Internet is controlled by large corporations.
 
-This centralized approach is highly inefficient, 
+This centralized approach is highly inefficient, extremely costly, 
 
-extremely costly, and unsustainable. Our data 
-
-isn't owned by us, and it isn't safe.
+and unsustainable. Our data isn't owned by us, and it isn't safe.

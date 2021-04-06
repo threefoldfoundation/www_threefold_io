@@ -3,12 +3,12 @@
     <div class="w-full max-w-2xl mx-auto" v-if="id == 'why'">
       <h2
         v-if="cta.title"
-        class="text-5xl text-center uppercase mb-2 leading-none font-light font-heading"
+        class="text-4xl text-center uppercase mb-2 leading-none font-light font-heading"
       >
         {{ cta.title }}
       </h2>
       <span
-        class="text-center uppercase leading-none text-5xl text-gray-800 font-black font-heading"
+        class="text-center uppercase leading-none text-4xl text-gray-800 font-black font-heading"
       >
         {{ cta.slogan }}
       </span>
