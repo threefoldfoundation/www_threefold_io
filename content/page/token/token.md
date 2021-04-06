@@ -8,7 +8,7 @@ header_excerpt: The ThreeFold Token is the currency of the fastest growing P2P i
 button: Get Tokens
 link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
 comparisonMain: token_comparison
-comparisonSecs: [expand_grid, invest_token, earn_more]
+comparisonSecs: [expand_grid, invest_token]
 productsMain: token_product
 productData: [swiptft, spendft, earn_interst]
 partenershipsMain: cryptocurrency_main
