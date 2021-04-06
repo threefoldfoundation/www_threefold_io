@@ -1,8 +1,12 @@
 ---
 id: navigation
 navLinks:
-  - name: PRODUCTS
-    link: /products
+  - name: HOME
+    link: /
+    external: false
+    expandable: false
+  - name: UNIVERSE
+    link: /universe
     external: false
     expandable: false
   - name: WHY
@@ -36,17 +40,8 @@ navLinks:
     submenu:
       - title: Team
         path: /team
-
       - title: Partners
         path: /partners
-
-      - title: Conscious Internet
-        path: /aci
-        external: true
-
-      - title: ThreeFold Tech
-        path: https://threefold.tech/
-        external: true
 
   - name: MORE
     link: ""
