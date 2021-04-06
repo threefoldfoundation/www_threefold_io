@@ -23,7 +23,7 @@
               }}</span>
             </h2>
             <div
-              class="py-6 mt-4 text-lg leading-6"
+              class="py-6 mt-4 text-gray-600"
               v-html="brand.content"
             ></div>
             <a
@@ -54,7 +54,7 @@
               }}</span>
             </h2>
             <div
-              class="py-6 mt-4 text-lg leading-6 text-white"
+              class="py-6 mt-4 mx-4 text-white"
               v-html="brand.content"
             ></div>
             <!-- <a

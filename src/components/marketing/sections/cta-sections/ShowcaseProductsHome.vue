@@ -7,7 +7,7 @@
       >
         {{ main.title }}
       </h2>
-      <p v-if="main !== null" class="mb-6 text-m tracking-widest text-gray-800">
+      <p v-if="main !== null" class="mb-6 text-gray-600">
         {{ main.subtitle }}
       </p>
     </div>
