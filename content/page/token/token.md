@@ -9,11 +9,11 @@ button: Get Tokens
 link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
 comparisonMain: token_comparison
 comparisonSecs: [expand_grid, invest_token, earn_more]
+productsMain: token_product
+productData: [swiptft, spendft, earn_interst]
 partenershipsMain: cryptocurrency_main
 partnerships:
   [be_ur_bank, secure, transact_p2p, backed, decentralized, lives_stellar]
-productsMain: token_product
-productData: [swiptft, spendft, earn_interst]
 brandPanel: dive_TFT
 cta: token_cta
 cta2: token_cta2

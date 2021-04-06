@@ -62,14 +62,6 @@
           :main="$page.markdownPage.appsMain"
         />
       </div>
-      <Partenerships
-        v-if="
-          $page.markdownPage.partnerships &&
-          $page.markdownPage.partnerships.length > 0
-        "
-        :main="$page.markdownPage.partenershipsMain"
-        :partnerships="$page.markdownPage.partnerships"
-      />
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -78,6 +70,14 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
+      />
+      <Partenerships
+        v-if="
+          $page.markdownPage.partnerships &&
+          $page.markdownPage.partnerships.length > 0
+        "
+        :main="$page.markdownPage.partenershipsMain"
+        :partnerships="$page.markdownPage.partnerships"
       />
       <BrandPanel
         :id="$page.markdownPage.id"
