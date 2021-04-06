@@ -189,6 +189,10 @@
          title
          slogan
          content
+         link
+         link2
+         button
+         button2
        }
        partnerships {
          id
