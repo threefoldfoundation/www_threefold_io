@@ -178,12 +178,12 @@
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
             >{{ element.name }}</a
           >
-         <g-link
+         <a
             v-else
-            :to="element.link"
+            :href="element.link"
             @click.native="clicked"
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
-            >{{ element.name }}</g-link
+            >{{ element.name }}</a
           >
         </div>
         <!-- <div
