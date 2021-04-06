@@ -18,7 +18,7 @@ cta4: home_cta4
 solution_image3: ./bg3.png
 cta5: home_cta5
 comparisonMain: comparison
-comparisonSecs: [section1, section2, section3]
+comparisonSecs: [private, equal, sustainable]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 inTheNews: in_the_news
 solution_image: ./cta_image.svg

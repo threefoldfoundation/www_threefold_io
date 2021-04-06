@@ -25,19 +25,21 @@
           <h3 class="font-bold text-2xl">{{ product.title }}</h3>
           <div v-html="product.content" class="pb-8 px-5 text-gray-600"></div>
 
-          <a
-            v-if="product.url.includes('http')"
-            target="_blank"
-            :href="product.url"
-            class="bg-gray-800 text-lg text-bold learn-button hover:bg-gray-700 text-gray-100 px-12 py-2 mr-5 shadow rounded-full transition duration-500 ease-in-out"
-            >{{ product.button }}</a
-          >
-          <g-link
-            v-else
-            :href="product.url"
-            class="bg-gray-800 text-lg text-bold learn-button hover:bg-gray-700 text-gray-100 px-12 py-2 mr-5 shadow rounded-full transition duration-500 ease-in-out"
-            >{{ product.button }}</g-link
-          >
+          <div v-if="product.button">
+            <a
+              v-if="product.url.includes('http')"
+              target="_blank"
+              :href="product.url"
+              class="bg-gray-800 text-lg text-bold learn-button hover:bg-gray-700 text-gray-100 px-12 py-2 mr-5 shadow rounded-full transition duration-500 ease-in-out"
+              >{{ product.button }}</a
+            >
+            <g-link
+              v-else
+              :href="product.url"
+              class="bg-gray-800 text-lg text-bold learn-button hover:bg-gray-700 text-gray-100 px-12 py-2 mr-5 shadow rounded-full transition duration-500 ease-in-out"
+              >{{ product.button }}</g-link
+            >
+          </div>
         </div>
       </a>
     </div>
