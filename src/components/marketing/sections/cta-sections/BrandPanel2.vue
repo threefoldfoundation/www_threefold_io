@@ -9,7 +9,7 @@
         >
           <div class="lg:self-center">
             <h2
-              class="text-3xl leading-9 font-extrabold sm:leading-10"
+              class="text-4xl mb-2 uppercase leading-tight font-semibold font-heading"
             >
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
@@ -17,7 +17,7 @@
               }}</span>
             </h2>
             <div
-              class="py-6 mt-4 text-lg leading-6"
+              class="py-6 mt-4 text-gray-600"
               v-html="brand.content"
             ></div>
             <a

@@ -16,14 +16,14 @@
           class="pt-10 pb-10 px-6 sm:pt-16 sm:px-10 lg:py-16 lg:pr-0 xl:py-20 xl:px-15"
         >
           <div class="lg:self-center">
-            <h2 class="text-3xl leading-9 font-extrabold sm:leading-10">
+            <h2 class="text-4xl mb-2 uppercase leading-tight font-semibold font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
               }}</span>
             </h2>
             <div
-              class="py-6 mt-4 text-lg leading-6"
+              class="py-6 mt-4 text-gray-600"
               v-html="brand.content"
             ></div>
             <a
@@ -54,7 +54,7 @@
               }}</span>
             </h2>
             <div
-              class="py-6 mt-4 text-lg leading-6 text-white"
+              class="py-6 mt-4 mx-4 text-white"
               v-html="brand.content"
             ></div>
             <!-- <a

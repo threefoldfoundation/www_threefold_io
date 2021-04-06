@@ -6,11 +6,11 @@
           class="space-y-5 text-center sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none"
         >
           <h2
-            class="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl"
+            class="text-4xl mb-2 leading-tight font-semibold font-heading"
           >
             {{ main.title }}
           </h2>
-          <p class="text-xl leading-7 text-black-500">
+          <p class="text-gray-600">
             {{ main.description }}
           </p>
         </div>
