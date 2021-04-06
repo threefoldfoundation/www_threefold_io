@@ -19,25 +19,25 @@
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
-          class="inline-block bg-gray-900 text-sm learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+          class="inline-block bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
           >{{ cta.video_button }}</a
         >
       </div>
       <g-link
-        class="inline-block bg-gray-900 text-md learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        class="inline-block bg-blue-900 lowercase text-md learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         target="_blank"
         v-if="cta.button"
         :to="cta.link"
         >{{ cta.button }}</g-link
       >
       <g-link
-        class="inline-block bg-gray-900 text-sm learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        class="inline-block bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         v-if="cta.button2"
         :to="cta.link2"
         >{{ cta.button2 }}</g-link
       >
       <g-link
-        class="inline-block bg-gray-900 text-sm learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        class="inline-block bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         v-if="cta.button3"
         :to="cta.link3"
         >{{ cta.button3 }}</g-link
@@ -58,25 +58,25 @@
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
-          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+          class="inline-block bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
           >{{ cta.video_button }}</a
         >
       </div>
       <a
-        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        class="inline-block lowercase bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         target="_blank"
         v-if="cta.button"
         :href="cta.link"
         >{{ cta.button }}</a
       >
       <g-link
-        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        class="inline-block lowercase bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         v-if="cta.button2"
         :to="cta.link2"
         >{{ cta.button2 }}</g-link
       >
       <g-link
-        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        class="inline-block lowercase bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         v-if="cta.button3"
         :to="cta.link3"
         >{{ cta.button3 }}</g-link

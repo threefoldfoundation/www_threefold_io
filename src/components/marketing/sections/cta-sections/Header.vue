@@ -25,13 +25,13 @@
           <a
             v-if="link.includes('http')"
             target="_blank"
-            class="nline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="nline-block bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
           <a
             v-else
-            class="nline-block bg-blue-900 text-md learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="nline-block bg-blue-900 lowercase text-md learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
@@ -47,10 +47,10 @@
       <div class="lg:w-1/2 px-2 lg:pr-10 lg:mt-10 order-1 lg:order-none">
         <h1
           v-if="id == 'token'"
-          class="text-center uppercase mb-6 mt-10 leading-none text-5xl font-light font-heading"
+          class="text-center uppercase mb-6 mt-10 leading-none text-4xl font-light font-heading"
         >
           {{ title }} <br />
-          <span class="text-center uppercase mb-6 leading-none text-6xl font-black font-heading">{{ slogan }}</span>
+          <span class="text-center uppercase mb-6 leading-none text-4xl font-black font-heading">{{ slogan }}</span>
         </h1>
         <div
           class="mb-8 text-center text-gray-700 leading-relaxed"
@@ -60,13 +60,13 @@
           <a
             v-if="link.includes('http')"
             target="_blank"
-            class="bg-gray-900 text-md learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mb-4 shadow rounded-full"
+            class="bg-blue-900 text-md lowercase learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mb-4 shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
           <a
             v-else
-            class="bg-gray-900 text-md learn-button hover:bg-gray-800 text-gray-100 px-12 py-2 mb-4 shadow rounded-full"
+            class="bg-blue-900 text-md  lowercase learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mb-4 shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
@@ -91,13 +91,13 @@
           <a
             v-if="link.includes('http')"
             target="_blank"
-            class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="inline-block lowercase bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >
           <a
             v-else
-            class="inline-block bg-blue-900 text-md learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="inline-block lowercase bg-blue-900 text-md learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :href="link"
             >{{ button }}</a
           >

@@ -30,7 +30,7 @@
               v-if="brand.btnTxt"
               target="_blank"
               :href="brand.sourceUrl"
-              class="bg-gray-800 text-sm learn-button hover:bg-57EEF8-400 text-white px-12 py-2 mr-3 shadow rounded-full"
+              class="bg-blue-900 lowercase text-sm learn-button hover:bg-blue-800 text-white px-12 py-2 mr-3 shadow rounded-full"
               >{{ brand.btnTxt }}</a
             >
           </div>
