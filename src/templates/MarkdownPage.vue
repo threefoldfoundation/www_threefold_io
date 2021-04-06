@@ -86,8 +86,8 @@
       />
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta"
-        :cta="$page.markdownPage.cta"
+        v-if="$page.markdownPage.cta3"
+        :cta="$page.markdownPage.cta3"
       />
       <CallToAction
         :id="$page.markdownPage.id"
@@ -170,6 +170,13 @@
           link
         }
         cta2{
+          title
+          slogan
+          content
+          button
+          link
+        }
+        cta3{
           title
           slogan
           content
