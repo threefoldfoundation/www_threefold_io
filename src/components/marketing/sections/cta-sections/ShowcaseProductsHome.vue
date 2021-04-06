@@ -20,10 +20,24 @@
         :href="product.url"
         class="m-auto rounded overflow-hidden transition duration-500"
       >
-        <div class="px-2 py-2">
-          <g-image class="py-4" :src="img(product.image)" />
-          <!-- <div class="font-bold text-xl mb-2">{{ product.title }}</div> -->
-          <div v-html="product.content" class="text-gray-600"></div>
+        <div class="take_apart text-center pb-8 my-5">
+          <g-image :src="img(product.image)" />
+          <h3 class="font-bold text-2xl">{{ product.title }}</h3>
+          <div v-html="product.content" class="pb-8 px-5 text-gray-600"></div>
+
+          <a
+            v-if="product.url.includes('http')"
+            target="_blank"
+            :href="product.url"
+            class="bg-gray-800 text-lg text-bold learn-button hover:bg-gray-700 text-gray-100 px-12 py-2 mr-5 shadow rounded-full transition duration-500 ease-in-out"
+            >{{ product.button }}</a
+          >
+          <g-link
+            v-else
+            :href="product.url"
+            class="bg-gray-800 text-lg text-bold learn-button hover:bg-gray-700 text-gray-100 px-12 py-2 mr-5 shadow rounded-full transition duration-500 ease-in-out"
+            >{{ product.button }}</g-link
+          >
         </div>
       </a>
     </div>
@@ -46,5 +60,9 @@ export default {
 <style scoped>
 .bannerFondo {
   height: 400px;
+}
+
+.take_apart {
+  background-color: #f5f5f5;
 }
 </style>
