@@ -23,7 +23,16 @@
         :signup="$page.markdownPage.signup"
       />
 
-      <Comparison
+      <!-- <Comparison
+        v-if="
+          $page.markdownPage.comparisonSecs &&
+          $page.markdownPage.comparisonSecs.length > 0
+        "
+        :main="$page.markdownPage.comparisonMain"
+        :sections="$page.markdownPage.comparisonSecs"
+      /> -->
+
+      <TFTFuel
         v-if="
           $page.markdownPage.comparisonSecs &&
           $page.markdownPage.comparisonSecs.length > 0
@@ -205,6 +214,7 @@ import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowc
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
+import TFTFuel from "~/components/marketing/sections/team-sections/with_large_images.vue";
 import Roadmap from "~/components/custom/sections/Roadmap.vue";
 import FourTiersWithToggle from "~/components/marketing/sections/pricing/four_tiers_with_toggle.vue";
 import WithComparisonTable from "~/components/marketing/sections/pricing/with_comparison_table.vue";
@@ -226,6 +236,7 @@ export default {
     CallToAction,
     SignUp,
     Comparison,
+    TFTFuel,
     Roadmap,
     FourTiersWithToggle,
     WithComparisonTable,
