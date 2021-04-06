@@ -1,8 +1,8 @@
 ---
-id: spendft
-title: SPEND TFT
-image : ./spendft.png
+id: swap_tft
+title: SWAP TFT
+image : ./swap_tft.png
 url :
 ---
 
-Purchase products and services on the threefold grid.
+Exchange your TFT with other tokens including Bitcoin.

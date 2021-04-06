@@ -1,8 +1,8 @@
 ---
-id: swiptft
-title: SWAP TFT
-image: ./swiptft.png
+id: buy_tft
+title: BUY TFT
+image: ./buy_tft.png
 url:
 ---
 
-Exchange your TFT with other tokens including Bitcoin.
+Get your hands on the currency of the new P2P Internet.

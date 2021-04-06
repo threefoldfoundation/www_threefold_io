@@ -10,7 +10,7 @@ link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
 comparisonMain: token_comparison
 comparisonSecs: [expand_grid, invest_token]
 productsMain: token_product
-productData: [swiptft, spendft, earn_interst]
+productData: [buy_tft, swap_tft, spend_tft]
 partenershipsMain: cryptocurrency_main
 partnerships:
   [be_ur_bank, secure, transact_p2p, backed, decentralized, lives_stellar]

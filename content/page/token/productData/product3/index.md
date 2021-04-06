@@ -1,10 +1,8 @@
 ---
-id: earn_interst
-title: BUY TFT
-image : ./earn_interst.png
+id: spend_tft
+title: SPEND TFT
+image : ./spend_tft.png
 url :
 ---
 
-Earn even more by vesting your TFTs.
-
-Coming in 2021.
+Purchase products and services on the ThreeFold Grid.
