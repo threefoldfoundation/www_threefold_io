@@ -4,4 +4,4 @@ svg: ./expand_grid.png
 title: EXPAND WITH THE GRID
 ---
 
-The ThreeFold Token becomes more valuable as more people and organizations add decentralized storage and compute to expand the ThreeFold Grid.
+ThreeFold Tokens are created only when people and organizations add capacity to the ThreeFold Grid. The token economy is limited at 4 Billion TFT.
