@@ -7,10 +7,7 @@
       >
         {{ main.title }}
       </h2>
-      <p
-        v-if="main !== null && main.subtitle"
-        class="mb-6 text-gray-600"
-      >
+      <p v-if="main !== null && main.subtitle" class="mb-6 text-gray-600">
         {{ main.subtitle }}
       </p>
     </div>
@@ -32,6 +29,45 @@
           <div v-html="product.content" class="text-gray-600"></div>
         </div>
       </a>
+    </div>
+
+    <div
+      class="grid grid-cols-1 gap-4 sm:grid-cols-2 text-center"
+      v-else-if="id == 'universe'"
+    >
+      <div
+        v-for="(product, idx) in products"
+        target="_blank"
+        :key="idx"
+        :href="product.link"
+        class="m-auto rounded overflow-hidden transition duration-500"
+      >
+        <div>
+          <g-image :src="img(product.image)" />
+          <div class="bg-gray-100 font-bold text-xl pt-5">
+            {{ product.title }}
+          </div>
+          <div
+            v-html="product.content"
+            class="bg-gray-100 py-2 text-gray-600"
+          ></div>
+          <div v-if="product.button" class="bg-gray-100 mb-2 py-5 text-center">
+            <a
+              v-if="product.link.includes('http')"
+              target="_blank"
+              :href="product.link"
+              class="bg-transparent text-sm learn-button border-gray-900 text-gray-900 px-12 py-2 mr-5 shadow rounded-full"
+              >{{ product.button }}</a
+            >
+            <g-link
+              v-else
+              :href="product.link"
+              class="bg-transparent text-sm learn-button border-gray-900 text-gray-900 px-12 py-2 mr-5 shadow rounded-full"
+              >{{ product.button }}</g-link
+            >
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 text-center" v-else>
@@ -84,6 +120,9 @@ export default {
       if (image.src) return image.src;
       return image;
     },
+  },
+  mounted() {
+    console.log(this.products);
   },
 };
 </script>
