@@ -173,17 +173,17 @@
           <a
             v-else-if="element.external"
             :href="element.link"
-            @click="clicked"
+            @click.native="clicked"
             target="_blank"
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
             >{{ element.name }}</a
           >
-          <a
+         <g-link
             v-else
-            :href="element.link"
-            @click="clicked"
+            :to="element.link"
+            @click.native="clicked"
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
-            >{{ element.name }}</a
+            >{{ element.name }}</g-link
           >
         </div>
         <!-- <div
