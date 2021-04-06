@@ -44,13 +44,13 @@
             v-if="main.link.includes('http')"
             target="_blank"
             :href="main.link"
-            class="bg-blue-900 uppercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+            class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
             >{{ main.button }}</a
           >
           <g-link
             v-else
             :href="main.link"
-            class="bg-blue-900 uppercase text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+            class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
             >{{ main.button }}</g-link
           >
         </div>
