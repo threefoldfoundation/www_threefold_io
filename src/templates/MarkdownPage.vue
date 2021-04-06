@@ -182,7 +182,7 @@
          content
          sourceUrl
          btnTxt
-         img
+         image
        }
        partenershipsMain{
          id
