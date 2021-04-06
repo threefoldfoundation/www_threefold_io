@@ -18,7 +18,7 @@
         </span>
 
         <div
-          class="mb-8 text-center text-lg mx-10 text-gray-800"
+          class="mb-8 text-center text-md mx-10 text-gray-600"
           v-html="excerpt"
         ></div>
         <div v-if="button">
@@ -53,7 +53,7 @@
           <span class="text-center uppercase mb-6 leading-none text-4xl font-black font-heading">{{ slogan }}</span>
         </h1>
         <div
-          class="mb-8 text-center text-gray-700 leading-relaxed"
+          class="mb-8 text-center text-gray-600 leading-relaxed"
           v-html="excerpt"
         ></div>
         <div v-if="button" class="block text-center">
