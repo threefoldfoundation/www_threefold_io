@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
     <div class="text-center mx-auto my-4">
-      <h1 class="text-3xl text-gray-900 font-light sm:text-9xl sm:leading-10">
+      <h1 class="text-4xl text-gray-900 font-light sm:text-9xl sm:leading-10">
         {{ main.title }} <span class="font-extrabold">{{ main.slogan }}</span>
       </h1>
       <div
-        class="mt-3 max-w-2xl mx-auto text-lg leading-7 text-gray-700 sm:mt-4"
+        class="mt-3 max-w-2xl mx-auto text-gray-600 sm:mt-4"
         v-html="main.content"
       ></div>
     </div>

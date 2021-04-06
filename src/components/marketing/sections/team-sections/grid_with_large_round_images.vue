@@ -8,7 +8,7 @@
           {{ main.title }} <span class="font-extrabold">{{ main.slogan }}</span>
         </h1>
         <div
-          class="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-700 sm:mt-4"
+          class="mt-3 max-w-2xl mx-auto text-gray-600 sm:mt-4"
           v-html="main.content"
         ></div>
       </div>
@@ -29,7 +29,7 @@
             <div class="text-lg leading-6 font-medium space-y-1">
               <h4>{{ partnership.title }}</h4>
               <div
-                class="text-base text-gray-700"
+                class="text-base text-gray-600"
                 v-html="partnership.content"
               ></div>
             </div>

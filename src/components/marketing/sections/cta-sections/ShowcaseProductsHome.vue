@@ -23,7 +23,7 @@
         <div class="px-2 py-2">
           <g-image class="py-4" :src="img(product.image)" />
           <!-- <div class="font-bold text-xl mb-2">{{ product.title }}</div> -->
-          <div v-html="product.content" class="text-gray-700 text-base"></div>
+          <div v-html="product.content" class="text-gray-600"></div>
         </div>
       </a>
     </div>

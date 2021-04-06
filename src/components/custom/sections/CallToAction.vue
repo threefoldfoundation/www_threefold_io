@@ -14,7 +14,7 @@
       </span>
       <div
         v-html="cta.content"
-        class="mb-8 mt-10 text-center text-lg text-gray-800"
+        class="mt-6 mb-8 text-gray-600"
       ></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
@@ -46,13 +46,13 @@
     <div class="w-full max-w-7xl mx-auto" v-else>
       <h2
         v-if="cta.title"
-        class="text-4xl mb-2 leading-tight font-semibold font-heading"
+        class="text-4xl mb-2 uppercase leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 text-lg text-gray-700 leading-relaxed"
+        class="mt-6 mb-8 text-gray-600"
       ></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
