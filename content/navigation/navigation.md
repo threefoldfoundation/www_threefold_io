@@ -11,7 +11,7 @@ navLinks:
     expandable: true
     submenu:
       - title: Universe Home
-        path: /universe
+        path: https://threefold.io/threefold/universe
 
       - title: ThreeFold Token
         path: /token
@@ -115,9 +115,11 @@ navLinks:
     submenu:
       - title: Blog
         path: /blog
+        external: false
 
       - title: NewsRoom
         path: /news
+        external: false
 
       - title: Forum
         path: https://forum.threefold.io
@@ -125,6 +127,7 @@ navLinks:
 
       - title: Team
         path: /team
+        external: false
 
       - title: Contact Us
         path: "mailto:info@threefold.io"
