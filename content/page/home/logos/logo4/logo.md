@@ -1,5 +1,5 @@
 ---
 id: logo4
-image: ./dash.png
-url: /partners/dash
+image: ./digibyte.svg
+url: /partners/digibyte
 ---
