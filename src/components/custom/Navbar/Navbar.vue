@@ -158,12 +158,12 @@
                     target="_blank"
                     >{{ link.title }}</a
                   >
-                  <g-link
+                  <a
                     v-else
                     class="block px-4 py-1 text-sm bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                     @click="open = false"
-                    :to="link.path"
-                    >{{ link.title }}</g-link
+                    :href="link.path"
+                    >{{ link.title }}</a
                   >
                 </div>
               </div>
@@ -178,12 +178,12 @@
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
             >{{ element.name }}</a
           >
-          <a
+          <g-link
             v-else
-            :href="element.link"
+            :to="element.link"
             @click="clicked"
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
-            >{{ element.name }}</a
+            >{{ element.name }}</g-link
           >
         </div>
         <!-- <div
