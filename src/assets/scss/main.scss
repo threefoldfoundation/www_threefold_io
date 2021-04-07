@@ -11,7 +11,6 @@ blockquote {
     }
 }
 
-
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -26,7 +25,7 @@ h1 {
 
 body {
     padding-top: 60px;
-  }
+}
 
 body p {
     font-family: 'Lato', sans-serif;
@@ -96,7 +95,6 @@ ul {
     height: 30px;
 }
 
-
 .text-3xl {
     font-size: 2.50rem
 }
@@ -111,7 +109,8 @@ ul {
     @apply flex-col;
     @apply w-full;
     .post-card-image {
-        @apply h-56;
+        // @apply h-56;
+        @apply h-full;
         @apply w-full;
         @apply object-cover;
         @apply rounded;
@@ -141,15 +140,12 @@ button:focus {
 
 .post-content a {
     color: #4ec48f;
-    
-    
-  }
-  
+}
+
 .text-8xl {
     font-size: 5rem;
     line-height: 1;
     font-family: 'Lato', sans-serif !important;
-    
 }
 
 text-6xl {
@@ -160,12 +156,12 @@ text-5xl {
     font-family: 'Lato', sans-serif !important;
 }
 
-
 @media (min-width: 375px) {
     .text-3xl {
         font-size: 2.25rem
     }
 }
+
 @media (min-width: 768px) {
     .with-large>.flex-post:nth-child(5n),
     .with-large>.flex-post:nth-child(5n-1) {
