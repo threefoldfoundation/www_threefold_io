@@ -135,7 +135,7 @@
       appsMain{
           id
           title
-          slogan
+       # slogan
           content
        #  image
         }
