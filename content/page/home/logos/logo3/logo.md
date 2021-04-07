@@ -1,5 +1,5 @@
 ---
 id: logo3
-image: ./kleos.svg
-url: /partners/kleos
+image: ./casperlabs.png
+url: /partners/casperlabs
 ---
