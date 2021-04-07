@@ -115,7 +115,7 @@
           >
             <button
               @click="setActive(index)"
-              class="flex flex-row items-center w-full md:w-auto md:inline md:mt-0 md:ml-4 animated-link"
+              class="flex flex-row items-center w-full mr-4 md:w-auto md:inline md:mt-0 md:ml-4 animated-link"
             >
               <span class="uppercase py-1 pl-2">{{ element.name }}</span>
               <svg
@@ -145,7 +145,7 @@
               x-transition:leave-end="transform opacity-0 scale-95"
               class="absolute w-auto mt-2 origin-top-right rounded-md shadow-lg md:w-48 z-30"
             >
-              <div
+               <div
                 v-if="open"
                 class="px-2 py-2 bg-white rounded-md shadow dark:bg-gray-700"
               >
@@ -173,15 +173,15 @@
           <a
             v-else-if="element.external"
             :href="element.link"
-            @click.native="clicked"
+            @click="clicked"
             target="_blank"
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
             >{{ element.name }}</a
           >
-         <a
+          <a
             v-else
             :href="element.link"
-            @click.native="clicked"
+            @click="clicked"
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
             >{{ element.name }}</a
           >
