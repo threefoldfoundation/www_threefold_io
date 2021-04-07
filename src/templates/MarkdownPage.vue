@@ -71,6 +71,11 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel"
+        v-if="$page.markdownPage.brandPanel"
+      />
       <Partenerships
         v-if="
           $page.markdownPage.partnerships &&
@@ -79,11 +84,7 @@
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
       />
-      <BrandPanel
-        :id="$page.markdownPage.id"
-        :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel"
-      />
+
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta3"

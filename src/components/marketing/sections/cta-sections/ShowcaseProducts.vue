@@ -12,6 +12,7 @@
       </p>
     </div>
 
+    <!-- token -->
     <div
       class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center"
       v-if="id == 'token'"
@@ -31,6 +32,7 @@
       </a>
     </div>
 
+    <!-- universe -->
     <div
       class="grid grid-cols-1 gap-4 sm:grid-cols-2 text-center"
       v-else-if="id == 'universe'"
@@ -63,6 +65,46 @@
               v-else
               :href="product.link"
               class="bg-transparent text-sm learn-button border-gray-900 text-gray-900 px-12 py-2 mr-5 shadow rounded-full"
+              >{{ product.button }}</g-link
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- why -->
+    <div
+      class="grid grid-cols-1 gap-4 sm:grid-cols-2 text-center"
+      v-else-if="id == 'why'"
+    >
+      <div
+        v-for="(product, idx) in products"
+        target="_blank"
+        :key="idx"
+        :href="product.link"
+        class="m-auto rounded overflow-hidden transition duration-500"
+      >
+        <div>
+          <g-image :src="img(product.image)" />
+          <div class="product font-bold text-2xl pt-5">
+            {{ product.title }}
+          </div>
+          <div
+            v-html="product.content"
+            class="product p-5 text-gray-600"
+          ></div>
+          <div v-if="product.button" class="product mb-3 py-5 text-center">
+            <a
+              v-if="product.link.includes('http')"
+              target="_blank"
+              :href="product.link"
+              class="bg-gray-800 text-sm learn-button border-gray-900 text-white px-12 py-2 mr-5 shadow rounded-full"
+              >{{ product.button }}</a
+            >
+            <g-link
+              v-else
+              :href="product.link"
+              class="bg-gray-800 text-sm learn-button border-gray-900 text-white px-12 py-2 mr-5 shadow rounded-full"
               >{{ product.button }}</g-link
             >
           </div>
@@ -121,14 +163,14 @@ export default {
       return image;
     },
   },
-  mounted() {
-    console.log(this.products);
-  },
 };
 </script>
 
 <style scoped>
 .bannerFondo {
   height: 400px;
+}
+.product {
+  background-color: #ebfefd;
 }
 </style>
