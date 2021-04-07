@@ -10,66 +10,71 @@ youtube: 'https://www.youtube.com/threefoldfoundation'
 github: 'https://github.com/threefoldfoundation'
 telegram: 'https://t.me/threefoldnews'
 items:
- - title: PARTICIPATE
+ - title: UNIVERSE
    links:
-    - name: Get TFT
-      link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
-    - name: Store TFT
-      link: https://threefold.io/info/threefold#/threefold__storing_tft
-    - name: Be The Internet
+    - name: Universe Home
+      link: /universe
+    - name: ThreeFold Token
+      link: /token
+    - name: ThreeFold Grid
       link: https://threefold.io/farming
     - name: P2P Cloud
       link: https://threefold.io/cloud
     - name: P2P Marketplace
       link: https://threefold.io/marketplace
     - name: Digital Twin
-      link: https://threefold.io/twin
+      link: https://mydigital.twin.io
+    - name: Conscious Internet
+      link: https://threefold.io/aci
+    - name: ThreeFold Tech
+      link: https://threefold.tech
+  
+ - title: PARTICIPATE
+   links:
+    - name: Buy TFT
+      link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+    - name: Be the Internet
+      link: https://threefold.io/farming
+    - name: P2P Cloud
+      link: https://threefold.io/cloud
+    - name: P2P Marketplace
+      link: https://threefold.io/marketplace
+    - name: SDK
+      link: https://threefold.io/info/sdk
+    - name: Testing Community
+      link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
  
  - title: LEARN
    links:
     - name: What is ThreeFold?
       link: https://threefold.io/info/threefold
+    - name: The ThreeFold Grid
+      link: https://threefold.io/farming/tech
+    - name: Live Capacity
+      link: https://explorer.threefold.io
     - name: What is TFT?
-      link: https://threefold.io/farming/token
-    - name: Knowledge Base
-      link: https://threefold.io/info/threefold#/
-    - name: Manuals
-      link: https://threefold.io/info/threefold#/tftech__tf_manuals?id=threefold-manuals
-    - name: ThreeFold Foundation
-      link: https://threefold.io/info/threefold#/threefold__threefold_foundation
+      link: https://threefold.io/token
+    - name: Why a P2P Internet?
+      link: https://threefold.io/info/threefold#/threefold__grid_why
+    - name: What is P2P?
+      link: https://www.threefold.io/info/threefold#/threefold__grid_compare
     - name: ThreeFold Glossary
       link: https://threefold.io/info/threefold#/threefold__defs
 
- - title: DEVELOPERS
-   links:
-    - name: Get Started
-      link: https://threefold.io/info/threefold#/tftech__tf_manuals?id=threefold-manuals
-    - name: SDK
-      link: https://threefold.io/info/sdk
-    - name: P2P Cloud
-      link: https://threefold.io/info/cloud
-    - name: GitHub
-      link: https://github.com/threefoldfoundation
- 
- - title: ECOSYSTEM
-   links:
-    - name: Community
-      link: https://t.me/threefoldnews
-    - name: Team
-      link: /team
-    - name: Partners
-      link: /partners
-    - name: Conscious Internet
-      link: https://threefold.io/aci
-    - name: ThreeFold Tech
-      link: https://threefold.io/tftech
-
- - title: ABOUT
+ - title: ABOUT US
    links:
     - name: ThreeFold
       link: https://threefold.io/info/threefold
+    - name: Our Partners
+      link: /partners
+    - name: Blog
+      link: /blog
+    - name: NewsRoom
+      link: /news
     - name: Forum
       link: https://forum.threefold.io/
+    - name: Team
+      link: /team
     - name: Contact Us
       link: 'mailto:info@threefold.io'
 ---
