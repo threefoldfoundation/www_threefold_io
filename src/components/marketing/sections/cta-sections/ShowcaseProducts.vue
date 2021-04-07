@@ -1,6 +1,15 @@
 <template>
   <div class="py-0 mb-5">
-    <div class="w-full text-center">
+    <div class="text-center mx-auto my-4" v-if="id == 'why'">
+      <h1 class="text-4xl text-gray-900 font-light sm:text-9xl sm:leading-10">
+        {{ main.title }} <span class="font-extrabold">{{ main.subtitle }}</span>
+      </h1>
+      <div
+        class="mt-3 max-w-2xl mx-auto text-gray-600 sm:mt-4"
+        v-html="main.content"
+      ></div>
+    </div>
+    <div class="w-full text-center" v-else>
       <h2
         v-if="main !== null && main.title"
         class="text-4xl font-semibold leading-tight font-heading"
@@ -89,10 +98,7 @@
           <div class="product font-bold text-2xl pt-5">
             {{ product.title }}
           </div>
-          <div
-            v-html="product.content"
-            class="product p-5 text-gray-600"
-          ></div>
+          <div v-html="product.content" class="product p-5 text-gray-600"></div>
           <div v-if="product.button" class="product mb-3 py-5 text-center">
             <a
               v-if="product.link.includes('http')"
