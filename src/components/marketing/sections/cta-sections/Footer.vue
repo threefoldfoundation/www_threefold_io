@@ -143,7 +143,7 @@
           </div>
         </div>
         <div
-          class="mt-12 grid md:grid-cols-5 sm:grid-cols-2 xl:mt-0 xl:col-span-3"
+          class="mt-12 grid md:grid-cols-4 sm:grid-cols-2 xl:mt-0 xl:col-span-3"
         >
           <!-- class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2" -->
 
