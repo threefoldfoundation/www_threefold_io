@@ -23,7 +23,7 @@ items:
     - name: P2P Marketplace
       link: https://threefold.io/marketplace
     - name: Digital Twin
-      link: https://mydigital.twin.io
+      link: https://mydigitaltwin.io
     - name: Conscious Internet
       link: https://threefold.io/aci
     - name: ThreeFold Tech

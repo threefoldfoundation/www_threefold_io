@@ -2,7 +2,7 @@
 id: better_solution
 title: A better solution for our planet.
 subtitle:
-sourceUrl:
+sourceUrl: /blog/post/for_our_planet/
 btnTxt: Learn More
 image: better_solution.png
 ---

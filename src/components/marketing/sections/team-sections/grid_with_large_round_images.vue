@@ -36,35 +36,35 @@
           </div>
         </div>
       </div>
-        <div v-if="main.button || main.button2">
-            <a
-              v-if="main.link.includes('http')"
-              target="_blank"
-              :href="main.link"
-              class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-              >{{ main.button }}</a
-            >
-            <g-link
-              v-else
-              :href="main.link"
-              class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-              >{{ main.button }}</g-link
-            >
+      <div v-if="main.button || main.button2">
+        <a
+          v-if="main.link.includes('http')"
+          target="_blank"
+          :href="main.link"
+          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+          >{{ main.button }}</a
+        >
+        <a
+          v-else
+          :href="main.link"
+          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+          >{{ main.button }}</a
+        >
 
-            <a
-              v-if="main.link2.includes('http')"
-              target="_blank"
-              :href="main.link2"
-              class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-              >{{ main.button2 }}</a
-            >
-            <g-link
-              v-else
-              :href="main.link2"
-              class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-              >{{ main.button2 }}</g-link
-            >
-          </div>
+        <a
+          v-if="main.link2.includes('http')"
+          target="_blank"
+          :href="main.link2"
+          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+          >{{ main.button2 }}</a
+        >
+        <a
+          v-else
+          :href="main.link2"
+          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+          >{{ main.button2 }}</a
+        >
+      </div>
     </div>
   </div>
 </template>

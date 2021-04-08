@@ -10,7 +10,7 @@
         v-for="(section, index) in sections"
         :key="index"
       >
-        <g-link :to="section.link">
+        <!-- <g-link :to="section.link"> -->
           <g-image
             class="mx-auto"
             :src="section.svg.src"
@@ -29,7 +29,7 @@
               v-html="section.content"
             ></div>
           </div>
-        </g-link>
+        <!-- </g-link> -->
       </div>
     </div>
 
@@ -63,11 +63,11 @@
         class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
         >{{ main.button }}</a
       >
-      <g-link
+      <a
         v-else
         :href="main.link"
         class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
-        >{{ main.button }}</g-link
+        >{{ main.button }}</a
       >
     </div>
   </section>

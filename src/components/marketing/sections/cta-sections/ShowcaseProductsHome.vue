@@ -33,11 +33,11 @@
               class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
               >{{ product.button }}</a
             >
-            <g-link
+            <a
               v-else
               :href="product.url"
               class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
-              >{{ product.button }}</g-link
+              >{{ product.button }}</a
             > 
           </div>
         </div>

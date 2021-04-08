@@ -70,11 +70,11 @@
               class="bg-transparent text-sm learn-button border-gray-900 text-gray-900 px-12 py-2 mr-5 shadow rounded-full"
               >{{ product.button }}</a
             >
-            <g-link
+            <a
               v-else
               :href="product.link"
               class="bg-transparent text-sm learn-button border-gray-900 text-gray-900 px-12 py-2 mr-5 shadow rounded-full"
-              >{{ product.button }}</g-link
+              >{{ product.button }}</a
             >
           </div>
         </div>
@@ -107,11 +107,11 @@
               class="bg-gray-800 text-sm learn-button border-gray-900 text-white px-12 py-2 mr-5 shadow rounded-full"
               >{{ product.button }}</a
             >
-            <g-link
+            <a
               v-else
               :href="product.link"
               class="bg-gray-800 text-sm learn-button border-gray-900 text-white px-12 py-2 mr-5 shadow rounded-full"
-              >{{ product.button }}</g-link
+              >{{ product.button }}</a
             >
           </div>
         </div>
@@ -148,11 +148,11 @@
         class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
         >{{ main.button }}</a
       >
-      <g-link
+      <a
         v-else
         :href="main.link"
         class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
-        >{{ main.button }}</g-link
+        >{{ main.button }}</a
       >
     </div>
   </div>

@@ -101,7 +101,7 @@
 
       <nav
         :class="isOpen ? 'block' : 'hidden'"
-        class="navbar md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 sm:w-100"
+        class="navbar md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 sm:w-100 bg-white"
       >
         <div
           :key="index"

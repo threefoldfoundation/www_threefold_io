@@ -16,16 +16,29 @@
                 brand.subtitle
               }}</span>
             </h2>
-            <div
-              class="py-6 mt-4 text-gray-600"
-              v-html="brand.content"
-            ></div>
+            <div class="py-6 mt-4 text-gray-600" v-html="brand.content"></div>
             <a
+              v-if="brand.sourceUrl.includes('http')"
+              target="_blank"
               :href="brand.sourceUrl"
               class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
               >{{ brand.btnTxt }}</a
             >
             <a
+              v-else
+              :href="brand.sourceUrl"
+              class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+              >{{ brand.btnTxt }}</a
+            >
+            <a
+              v-if="brand.sourceUrl2.includes('http')"
+              target="_blank"
+              :href="brand.sourceUrl2"
+              class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+              >{{ brand.btnTxt2 }}</a
+            >
+            <a
+              v-else
               :href="brand.sourceUrl2"
               class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
               >{{ brand.btnTxt2 }}</a

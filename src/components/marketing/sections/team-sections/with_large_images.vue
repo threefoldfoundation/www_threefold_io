@@ -5,9 +5,7 @@
         <div
           class="space-y-5 text-center sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none"
         >
-          <h2
-            class="text-4xl mb-2 leading-tight font-semibold font-heading"
-          >
+          <h2 class="text-4xl mb-2 leading-tight font-semibold font-heading">
             {{ main.title }}
           </h2>
           <p class="text-gray-600">
@@ -47,11 +45,11 @@
             class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
             >{{ main.button }}</a
           >
-          <g-link
+          <a
             v-else
             :href="main.link"
             class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
-            >{{ main.button }}</g-link
+            >{{ main.button }}</a
           >
         </div>
       </div>
