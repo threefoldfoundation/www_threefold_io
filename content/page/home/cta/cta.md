@@ -1,12 +1,12 @@
 ---
 id: home_cta
 title: JOIN THE MOVEMENT
-button: Buy ThreeFold Tokens
-link: https://threefold.io/info/threefold#/how_to_buy_and_sell
-button2: Stay Updated
-link2: https://t.me/threefoldnews
+button: Start Your P2P Journey
+link: https://threefold.io/universe
+button2: Buy ThreeFold Tokens
+link2: https://threefold.io/token
 button3: Join Our Community
-link3: https://forum.threefold.io
+link3: https://t.me/threefoldnews
 
 ---
 
