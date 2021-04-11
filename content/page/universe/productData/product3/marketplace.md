@@ -1,6 +1,6 @@
 ---
 id: marketplace
-title: THE THREEFOLD MARKETPLACE
+title: THREEFOLD MARKETPLACE
 image: ./marketplace.png
 button: Tell Me More!
 link: /marketplace

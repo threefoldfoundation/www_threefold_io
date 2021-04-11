@@ -1,9 +1,9 @@
 ---
 id: tech
-title: THE THREEFOLD TECH
+title: THREEFOLD TECH
 image: ./tech.png
 button: Tell Me More!
 link: https://threefold.tech
 ---
 
-Dig deeper into the technology behind the TF Grid.
+Dive deeper into the technology behind the ThreeFold Grid.

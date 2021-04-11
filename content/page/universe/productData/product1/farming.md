@@ -1,6 +1,6 @@
 ---
 id: farming
-title: THE 3NODE
+title: BE THE INTERNET
 image: ./farming.png
 button: Tell Me More!
 link: /farming

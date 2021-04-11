@@ -1,9 +1,9 @@
 ---
 id: twin
-title: THE DIGITAL TWIN
+title: DIGITAL TWIN
 image: ./twin.png
 button: Tell Me More!
 link: https://mydigitaltwin.io/
 ---
 
-Your private and secure access to the P2P internet.
+Your gateway to a private and secure digital life on the P2P Internet.
