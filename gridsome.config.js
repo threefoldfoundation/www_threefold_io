@@ -6,9 +6,9 @@
 
 module.exports = {
     siteName: 'ThreeFold',
-    
-	pathPrefix: "threefold",
-	plugins: [
+
+    pathPrefix: "threefold",
+    plugins: [
 
         // Local models
         {
@@ -460,7 +460,7 @@ module.exports = {
         }],
 
         Membership: [{
-            path: '/team/memberships/:id',
+            path: '/people/memberships/:id',
             component: '~/templates/Membership.vue'
         }],
 
@@ -475,11 +475,11 @@ module.exports = {
         }],
 
         Person: [{
-            path: '/team/:id',
+            path: '/people/:id',
             component: '~/templates/Person.vue'
         }],
         PersonTag: [{
-            path: '/team/tags/:id',
+            path: '/people/tags/:id',
             component: '~/templates/Tag.vue'
         }],
 
@@ -495,9 +495,9 @@ module.exports = {
             externalLinksTarget: '_blank',
             externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
             anchorClassName: 'icon icon-link',
-            
-	pathPrefix: "threefold",
-	plugins: [
+
+            pathPrefix: "threefold",
+            plugins: [
                 ['gridsome-plugin-remark-prismjs-all', {
                         highlightClassName: "gridsome-highlight",
                         codeTitleClassName: "gridsome-code-title",

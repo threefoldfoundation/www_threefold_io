@@ -123,8 +123,8 @@ navLinks:
         path: https://forum.threefold.io
         external: true
 
-      - title: Team
-        path: /team
+      - title: People
+        path: /people
 
       - title: Contact Us
         path: "mailto:info@threefold.io"

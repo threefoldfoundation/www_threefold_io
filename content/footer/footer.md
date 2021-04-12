@@ -73,8 +73,8 @@ items:
       link: /news
     - name: Forum
       link: https://forum.threefold.io/
-    - name: Team
-      link: /team
+    - name: People
+      link: /people
     - name: Contact Us
       link: 'mailto:info@threefold.io'
 ---
