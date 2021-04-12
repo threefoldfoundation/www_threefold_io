@@ -1,5 +1,5 @@
 <template>
-  <div class="py-0 mb-5">
+  <div class="py-0 mb-5 mx-4">
     <div class="text-center mx-auto my-4" v-if="id == 'why'">
       <h1 class="text-4xl text-gray-900 font-light sm:text-9xl sm:leading-10">
         {{ main.title }} <span class="font-extrabold">{{ main.subtitle }}</span>
@@ -51,29 +51,29 @@
         target="_blank"
         :key="idx"
         :href="product.link"
-        class="m-auto rounded overflow-hidden transition duration-500"
+        class="m-auto rounded overflow-hidden transition duration-500 bg-gray-100"
       >
         <div>
           <g-image :src="img(product.image)" />
-          <div class="bg-gray-100 font-bold text-xl pt-5">
+          <div class="font-bold text-xl pt-5 mx-4">
             {{ product.title }}
           </div>
           <div
             v-html="product.content"
-            class="bg-gray-100 py-2 text-gray-600"
+            class="py-2 text-gray-600 mx-4"
           ></div>
-          <div v-if="product.button" class="bg-gray-100 mb-2 py-5 text-center">
+          <div v-if="product.button" class="mb-2 py-5 text-center">
             <a
               v-if="product.link.includes('http')"
               target="_blank"
               :href="product.link"
-              class="bg-transparent text-sm learn-button border-gray-900 text-gray-900 px-12 py-2 mr-5 shadow rounded-full"
+              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
               >{{ product.button }}</a
             >
             <a
               v-else
               :href="product.link"
-              class="bg-transparent text-sm learn-button border-gray-900 text-gray-900 px-12 py-2 mr-5 shadow rounded-full"
+              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
               >{{ product.button }}</a
             >
           </div>
