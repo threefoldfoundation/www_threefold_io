@@ -11,9 +11,9 @@
           :key="partner.id"
           :to="partner.path"
           target="_blank"
-          class="col-span-1 flex justify-center py-8 px-8 m-1 bg-gray-100"
+          class="col-span-1 flex justify-center m-1 bg-gray-100"
         >
-          <img class="max-h-12" :src="img(partner.logo)" />
+          <img class="" :src="img(partner.logo)" />
         </g-link>
       </div>
     </div>
