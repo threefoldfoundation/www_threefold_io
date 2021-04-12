@@ -20,7 +20,9 @@
           :record="post.node"
         />
       </div>
-
+      <div class="text-center" v-if="blogs.edges.length == 0">
+        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">No results</h2>
+      </div>
       <div class="pagination flex justify-center mb-8">
         <Pagination
           :baseUrl="baseurl"
@@ -36,7 +38,7 @@
 <page-query>
 
 query($page: Int){
-  entries: allBlog(perPage: 10, page: $page, sortBy: "created", order: DESC, filter: {category: { id: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}}) @paginate{
+  entries: allBlog(perPage: 10, page: $page, sortBy: "created", order: DESC, filter: {category: { contains: ["foundation"]}}) @paginate{
     totalCount
     pageInfo {
       totalPages
@@ -69,7 +71,7 @@ query($page: Int){
     }
   }
 
-   topics: allBlogTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}) {
+   topics: allBlogTag {
     edges{
       node{
 				title        

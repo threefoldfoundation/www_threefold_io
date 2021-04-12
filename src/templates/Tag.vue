@@ -12,9 +12,7 @@
           {{ tags.title }}
         </h1>
         <p class="text-gray-700 text-xl">
-          <span class="self-center"
-            >{{ tags.belongsTo.totalCount }} {{ item }}</span
-          >
+          <span class="self-center">{{ items.length }} {{ item }}</span>
         </p>
       </div>
 
@@ -22,6 +20,7 @@
 
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
+          :showtags="true"
           v-for="edge in tags.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
@@ -60,7 +59,11 @@
               image(width:800)
               path
               datetime : created
-              
+              tags{
+                id
+                path
+                title
+              }
             }
           }
         }
@@ -139,7 +142,7 @@
     }
     }
 
-    allNewsTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}){
+    allNewsTag{
      edges{
       node{
         id
@@ -149,7 +152,7 @@
     }
     }
 
-    allBlogTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}){
+    allBlogTag{
      edges{
       node{
         id
@@ -218,6 +221,18 @@ export default {
         if (plural) return "posts";
         return "post";
       }
+    },
+    items() {
+      let foundationItems = [];
+      this.tags.belongsTo.edges.map((edge) => {
+        if (Array.isArray(edge.node.category)) {
+          if (edge.node.category.includes("foundation"))
+            foundationItems.push(edge.node);
+        } else {
+          foundationItems.push(edge.node);
+        }
+      });
+      return foundationItems;
     },
   },
 

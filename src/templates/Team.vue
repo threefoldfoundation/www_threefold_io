@@ -1,9 +1,14 @@
 <template>
   <Layout>
-    <TagFilterHeader :tags="memberships" selected="all" v-if="$page.memberships.edges.length > 1"/>
+    <TagFilterHeader
+      :tags="memberships"
+      selected="all"
+      v-if="$page.memberships.edges.length > 1"
+    />
     <div class="container sm:pxi-0 mx-auto mt-8 overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
+          :showtags="true"
           v-for="person in $page.entries.edges"
           :key="person.id"
           :record="person.node"
@@ -15,7 +20,7 @@
 
 <page-query>
 query ($private: Int){
-  entries: allPerson (sortBy: "rank", order: ASC, filter: { private: { ne: $private }, category: { contains: ["foundation"]}, memberships: { id: {in: ["cofounders", "tech", "foundation", "ambassadors", "matchmakers", "farmers", "aci_members", "partners", "wisdom_council", "technology_council", "grid_guardians"]}}}){
+  entries: allPerson (sortBy: "rank", order: ASC, filter: { private: { ne: $private }, category: { contains: ["foundation"]}}){
     totalCount
     edges {
       node {
@@ -31,11 +36,16 @@ query ($private: Int){
         cities
         image(width:800)
         private
+        memberships {
+          id
+          path
+          title
+        }
       }
     }
   }
 
-  memberships: allMembership(filter: {title: {in:["cofounders", "tech", "foundation", "ambassadors", "matchmakers", "farmers", "aci_members", "partners", "wisdom_council", "technology_council", "grid_guardians"]}}){
+   memberships: allMembership(filter: {title: {in: ["cofounders", "tech", "foundation", "ambassadors", "matchmakers", "farmers", "aci_members", "partners", "wisdom_council", "technology_council", "grid_guardians"]}}){
      edges{
       node{
         id
