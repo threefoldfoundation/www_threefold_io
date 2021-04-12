@@ -47,7 +47,7 @@
         >
           <div class="lg:self-center text-center">
             <h2
-              class="text-5xl leading-9 font-semibold text-black sm:leading-10"
+              class="text-4xl mb-2 uppercase leading-tight font-semibold font-heading"
             >
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
