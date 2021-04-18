@@ -6,5 +6,6 @@ button: Expand ThreeFold
 link: https://threefold.io/farming
 ---
 
-<!-- button 2: use threefold
-link: https://info.threefold.io/#/threefold__use_tfgrid -->
+<!-- 
+button2: Use ThreeFold
+link2: https://info.threefold.io/#/threefold__use_tfgrid -->
