@@ -9,8 +9,6 @@ button: "Take Part"
 link: "#home"
 solution_image2: ./video_play.png
 cta2: home_cta2
-solution_image3: ./carbon_neutral.png
-header: carbon_neutral
 productsMain: product
 productData: [tokens_home, nodes_home, storage_home]
 brandPanel: fix_internet
@@ -29,3 +27,6 @@ cta: home_cta
 <!-- header: home_header
 solution_image: ./home_header.png -->
 <!--  -->
+
+<!-- solution_image3: ./carbon_neutral.png
+header: carbon_neutral -->

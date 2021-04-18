@@ -24,16 +24,16 @@
         :cta="$page.markdownPage.cta2"
       />
 
-      <g-image
+      <!-- <g-image
         class="m-auto w-2/4 lg:mt-20"
         v-if="$page.markdownPage.solution_image3"
         :src="$page.markdownPage.solution_image3.src"
-      />
+      /> -->
 
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
-      />
+      /> -->
 
       <ShowcaseProducts
         :main="$page.markdownPage.productsMain"
