@@ -1,35 +1,21 @@
 <template>
-  <div>
+  <div @click="handleClose">
     <div
       v-if="showModal"
-      class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex"
+      class="fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex"
     >
-      <div class="relative w-auto my-6 mx-auto max-w-6xl">
-        <button
-          class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-          @click="handleClose"
-        >
-          <span
-            class="bg-transparent text-white opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none"
-          >
-            ×
-          </span>
-        </button>
-        <div
-          class="border-0 rounded-lg relative flex flex-col w-full outline-none focus:outline-none"
-        >
-          <div class="relative flex-auto">
-            <iframe
-              width="800"
-              height="450"
-              :src="link"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope;
-            picture-in-picture"
-              allowfullscreen
-            />
-          </div>
-        </div>
+      <div
+        class="iframe-container relative h-0 w-1/2"
+        style="padding-bottom: 56.25%"
+      >
+        <iframe
+          :src="link"
+          frameborder="0"
+          width="640"
+          height="360"
+          allowfullscreen
+          class="absolute top-0 left-0 w-full h-full"
+        ></iframe>
       </div>
     </div>
     <div v-if="showModal" class="opacity-75 fixed inset-0 z-40 bg-black"></div>
@@ -47,3 +33,10 @@ export default {
   },
 };
 </script>
+<style scoped>
+@media (max-width: 768px) {
+  .iframe-container {
+    width: 100%;
+  }
+}
+</style>

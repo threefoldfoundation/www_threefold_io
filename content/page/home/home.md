@@ -15,7 +15,6 @@ brandPanel: fix_internet
 brandPanel2: grid_solution
 cta3: home_cta3
 cta4: home_cta4
-solution_image3: ./bg3.png
 cta5: home_cta5
 comparisonMain: comparison
 comparisonSecs: [private, equal, sustainable]
@@ -28,3 +27,6 @@ cta: home_cta
 <!-- header: home_header
 solution_image: ./home_header.png -->
 <!--  -->
+
+<!-- solution_image3: ./carbon_neutral.png
+header: carbon_neutral -->

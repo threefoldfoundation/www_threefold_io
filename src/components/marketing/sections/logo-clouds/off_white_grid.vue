@@ -13,7 +13,7 @@
           target="_blank"
           class="col-span-1 flex justify-center m-1 bg-gray-100"
         >
-          <img class="" :src="img(partner.logo)" />
+          <img :src="img(partner.logo)" />
         </g-link>
       </div>
     </div>
