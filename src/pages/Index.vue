@@ -133,7 +133,7 @@
         link
         solution_image
         solution_image2
-        solution_image3
+     #  solution_image3
         header{
          title
          subtitle
