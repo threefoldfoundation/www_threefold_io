@@ -13,11 +13,6 @@
       />
     </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <!-- <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
-      /> -->
-
       <g-image
         class="m-auto w-2/4 lg:mt-20"
         v-if="$page.markdownPage.solution_image2"
@@ -27,6 +22,17 @@
       <CallToAction
         v-if="$page.markdownPage.cta2"
         :cta="$page.markdownPage.cta2"
+      />
+
+      <g-image
+        class="m-auto w-2/4 lg:mt-20"
+        v-if="$page.markdownPage.solution_image3"
+        :src="$page.markdownPage.solution_image3.src"
+      />
+
+      <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
       />
 
       <ShowcaseProducts
@@ -46,11 +52,6 @@
       <!-- <CallToActionbg2
         v-if="$page.markdownPage.cta4"
         :cta="$page.markdownPage.cta4"
-      /> -->
-
-      <!-- <g-image
-        v-if="$page.markdownPage.solution_image3"
-        :src="$page.markdownPage.solution_image3.src"
       /> -->
 
       <!-- <CallToAction
@@ -345,4 +346,4 @@ export default {
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       />
-    </div> -->
+    </div> --> 
