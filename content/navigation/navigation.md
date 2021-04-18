@@ -1,10 +1,6 @@
 ---
 id: navigation
 navLinks:
-  - name: HOME
-    link: /
-    external: false
-    expandable: false
   - name: UNIVERSE
     link: "" # /dropdown
     external: false
@@ -41,6 +37,10 @@ navLinks:
         external: true
   - name: WHY
     link: /why
+    external: false
+    expandable: false
+  - name: TOKEN
+    link: /token
     external: false
     expandable: false
   - name: PARTICIPATE
