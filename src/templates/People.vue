@@ -45,6 +45,11 @@ query ($private: Int){
     }
   }
 
+    markdownPage(id: "home") {
+        id
+        metaImg
+  }
+
    memberships: allMembership(filter: {title: {in: ["cofounders", "tech", "foundation", "ambassadors", "matchmakers", "farmers", "aci_members", "partners", "wisdom_council", "technology_council", "grid_guardians"]}}){
      edges{
       node{
@@ -66,6 +71,49 @@ export default {
     PostListItem,
     TagFilterHeader,
   },
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | People",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: "ThreeFold | People",
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: "ThreeFold | People",
+        },
+      ],
+    };
+  },
   computed: {
     memberships() {
       var res = [{ title: "All", path: "/people" }];
@@ -73,6 +121,13 @@ export default {
         res.push({ title: edge.node.title, path: edge.node.path })
       );
       return res;
+    },
+    getImg() {
+      let img = "";
+      if (process.isClient) {
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+      }
+      return img;
     },
   },
 };

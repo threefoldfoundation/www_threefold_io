@@ -1,5 +1,8 @@
 ---
 id: home
+metaTitle: ThreeFold | Home
+metaDesc: Welcome to the world’s largest peer-to-peer Internet, formed by people who want to make a difference, by people who care, by people just like you.
+metaImg: ./home_header.png
 header_slogan: YOU
 header_title: ARE THE NEW INTERNET
 header_image: ./home_header.png

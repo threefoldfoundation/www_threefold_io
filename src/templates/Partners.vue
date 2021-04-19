@@ -49,6 +49,11 @@ query ($private: Int){
       }
     }
   }
+
+  markdownPage(id: "home") {
+        id
+        metaImg
+  }
   
   tags: allProjectTag (filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}) {
      edges{
@@ -79,6 +84,59 @@ export default {
       );
       return res;
     },
+    getImg() {
+      let img = "";
+      if (process.isClient) {
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+      }
+      return img;
+    },
+  },
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | Partners",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content:
+            "Meet the incredible organizations co-creating the peer-to-peer alongside the ThreeFold Foundation.",
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: "ThreeFold | Partners",
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content:
+            "Meet the incredible organizations co-creating the peer-to-peer alongside the ThreeFold Foundation.",
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content:
+            "Meet the incredible organizations co-creating the peer-to-peer alongside the ThreeFold Foundation.",
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: "ThreeFold | Partners",
+        },
+      ],
+    };
   },
 };
 </script>

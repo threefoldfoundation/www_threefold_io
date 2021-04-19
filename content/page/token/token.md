@@ -1,5 +1,8 @@
 ---
 id: token
+metaTitle: ThreeFold | Token (TFT)
+metaDesc: The ThreeFold Token is the currency of the fastest growing P2P internet network on the planet.
+metaImg: ./token_header.png
 header_slogan: WE ARE GROWING NOW
 header_title: YOU GROW WHEN THE THREEFOLD GRID GROWS
 header_image: ./token_header.png

@@ -65,6 +65,10 @@ query($page: Int){
       }
     }
   }
+  markdownPage(id: "home") {
+        id
+        metaImg
+  }
 
   topics:  allNewsTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}) {
     edges{
@@ -115,8 +119,48 @@ export default {
     };
   },
 
-  metaInfo: {
-    title: "Newsroom",
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | News",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: "Updates and announcements from the ThreeFold Foundation.",
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: "ThreeFold | News",
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: "Updates and announcements from the ThreeFold Foundation.",
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: "Updates and announcements from the ThreeFold Foundation.",
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: "ThreeFold | News",
+        },
+      ],
+    };
   },
   components: {
     PostListItem,
@@ -254,6 +298,13 @@ export default {
       if (process.isClient) {
         return window.innerHeight - 570;
       }
+    },
+    getImg() {
+      let img = "";
+      if (process.isClient) {
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+      }
+      return img;
     },
   },
 };

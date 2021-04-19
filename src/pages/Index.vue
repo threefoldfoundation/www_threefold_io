@@ -123,6 +123,9 @@
     markdownPage(id: "home") {
         id
         path
+        metaTitle
+        metaDesc
+        metaImg
         header_slogan
         header_title
         header_image
@@ -292,6 +295,13 @@
 
 </page-query>
 
+<static-query>
+  query {
+    metadata {
+      siteUrl
+    }
+  }
+</static-query>
 <script>
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
@@ -323,9 +333,57 @@ export default {
     InTheNews,
     SignUp,
   },
-  metaInfo: {
-    title: "",
-    titleTemplate: "ThreeFold | Welcome",
+  computed: {
+    getImg() {
+      let img = "";
+      if (process.isClient) {
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+      }
+      return img;
+    },
+  },
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | Welcome",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+      ],
+    };
   },
 };
 </script>

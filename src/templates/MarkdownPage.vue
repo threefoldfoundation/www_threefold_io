@@ -107,6 +107,9 @@
         id
         path
         excerpt
+        metaTitle
+        metaDesc
+        metaImg
         header_excerpt
         header_altImg
         header_title
@@ -257,18 +260,65 @@ export default {
     AppListItem,
     Partenerships,
   },
-
-  metaInfo() {
-    return {
-      title: this.pageName,
-    };
-  },
   computed: {
+    getImg() {
+      let img = "";
+      if (process.isClient) {
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+      }
+      return img;
+    },
     pageName() {
       let path = this.$route.path.substring(1);
       let name = path[0].toUpperCase() + path.slice(1);
       return name;
     },
+  },
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: this.$page.markdownPage.metaTitle,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+      ],
+    };
+  },
+  mounted() {
+    console.log(this.getImg);
   },
 };
 </script>

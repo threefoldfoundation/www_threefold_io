@@ -1,5 +1,8 @@
 ---
 id: why
+metaTitle: ThreeFold | Why
+metaDesc:  Our mission is to accelerate the transition of the data economy to a decentralized P2P model and make it possible for every person to learn, partake and succeed.
+metaImg: ./why-home.jpg
 header_slogan: We need a way of achieving it
 header_title: We do not need a reason to want a better future
 header_image: ./why-home.jpg

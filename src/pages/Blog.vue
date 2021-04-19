@@ -71,6 +71,11 @@ query($page: Int){
     }
   }
 
+  markdownPage(id: "home") {
+        id
+        metaImg
+  }
+
    topics: allBlogTag {
     edges{
       node{
@@ -119,8 +124,51 @@ export default {
     };
   },
 
-  metaInfo: {
-    title: "Blog",
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | Blog",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content:
+            "A collection of posts from the ThreeFold Foundation team about our products, our technology, our ecosystem, our why, and more.",
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: "ThreeFold | Blog",
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content:
+            "A collection of posts from the ThreeFold Foundation team about our products, our technology, our ecosystem, our why, and more.",
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content:
+            "A collection of posts from the ThreeFold Foundation team about our products, our technology, our ecosystem, our why, and more.",
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: "ThreeFold | Blog",
+        },
+      ],
+    };
   },
   components: {
     PostListItem,
@@ -197,6 +245,13 @@ export default {
       if (process.isClient) {
         return window.innerHeight - 100;
       }
+    },
+    getImg() {
+      let img = "";
+      if (process.isClient) {
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+      }
+      return img;
     },
 
     blogs() {
