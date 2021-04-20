@@ -38,19 +38,37 @@
           </div>
         </div>
         <div class="text-center">
-          <a
-            v-if="main.link.includes('http')"
-            target="_blank"
-            :href="main.link"
-            class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
-            >{{ main.button }}</a
-          >
-          <a
-            v-else
-            :href="main.link"
-            class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
-            >{{ main.button }}</a
-          >
+          <div class="inline-flex" v-if="main.button">
+            <a
+              v-if="urlChecker(main.link)"
+              target="_blank"
+              :href="main.link"
+              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              >{{ main.button }}</a
+            >
+            <a
+              v-else
+              :href="main.link"
+              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              >{{ main.button }}</a
+            >
+          </div>
+
+          <div class="inline-flex" v-if="main.button2">
+            <a
+              v-if="urlChecker(main.link2)"
+              target="_blank"
+              :href="main.link2"
+              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              >{{ main.button2 }}</a
+            >
+            <a
+              v-else
+              :href="main.link2"
+              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              >{{ main.button2 }}</a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -65,6 +83,15 @@ export default {
       if (!image) return "";
       if (image.src) return image.src;
       return image;
+    },
+    urlChecker(link) {
+      var urlCheck = new RegExp(
+        "([a-zA-Zd]+://)?(w+:w+@)?([a-zA-Zd.-]+.[A-Za-z]{2,4})(:d+)?(/.*)?",
+        "i"
+      );
+      if (urlCheck.test(link)) {
+        return link;
+      }
     },
   },
 };

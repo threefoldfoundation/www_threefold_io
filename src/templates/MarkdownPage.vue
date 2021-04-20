@@ -155,6 +155,8 @@
           description
           button
           link
+          button2
+          link2
         }
         comparisonSecs{
           id
@@ -316,9 +318,6 @@ export default {
         },
       ],
     };
-  },
-  mounted() {
-    console.log(this.getImg);
   },
 };
 </script>

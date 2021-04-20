@@ -85,11 +85,17 @@ export default {
       return res;
     },
     getImg() {
-      let img = "";
+      let image = "";
       if (process.isClient) {
-        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+        image = `${window.location.origin}${this.img}`;
       }
-      return img;
+      return image;
+    },
+    img() {
+      if (!this.$page.markdownPage.metaImg) return "";
+      if (this.$page.markdownPage.metaImg.src)
+        return this.$page.markdownPage.metaImg.src;
+      return this.$page.markdownPage.metaImg;
     },
   },
   metaInfo() {
