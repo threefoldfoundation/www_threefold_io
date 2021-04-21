@@ -7,7 +7,7 @@ btnTxt: ''
 image: internet_is_broken.svg # src/assets/brandPanel/..
 ---
 
-The Internet is controlled by large corporations. This centralized approach is highly inefficient, extermely costly, and unsustainable.
+The Internet is controlled by large corporations. This centralized approach is highly inefficient, extremely costly, and unsustainable.
 
 <br/>
 Our data isn't owned by us,
