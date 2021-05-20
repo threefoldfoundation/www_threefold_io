@@ -11,18 +11,11 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <g-image
-              :src="require(`!!assets-loader!@images/TFN_black.png`)"
+              :src="require(`!!assets-loader!@images/tfn_black.svg`)"
               class="mr-3 fill-current logo"
-              v-if="theme == 'light'"
               alt=""
             />
 
-            <g-image
-              :src="require(`!!assets-loader!@images/TFN_black.png`)"
-              class="mr-3 fill-current logo"
-              v-else
-              alt=""
-            />
             <!-- <span
               class="hidden md:block font-semibold text-xl tracking-tight"
               >{{ $static.metadata.siteName }}</span
