@@ -43,6 +43,19 @@
           v-html="section.content"
         ></div>
         <g-image :src="img(section.image)" :alt="section.title" />
+            <div class="mx-auto mt-4">
+      <g-link
+        class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        :to="section.link1"
+        >{{ section.btn1 }}
+        </g-link>
+              <g-link
+        class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+        :to="section.link2"
+        >{{ section.btn2 }}</g-link
+      >
+      <!-- <div v-html="main.content" class="text-sm text-gray-400 mt-5"></div> -->
+    </div>
       </div>
     </div>
   </section>
