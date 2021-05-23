@@ -4,11 +4,11 @@
   >
     <div class="space-y-12">
       <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-        <h1 class="text-4xl mb-2 leading-tight font-semibold font-heading">
+        <h2 class="text-4xl leading-tight mb-6 font-bold font-heading uppercase">
           {{ main.title }} <span class="font-extrabold">{{ main.slogan }}</span>
-        </h1>
+        </h2>
         <div
-          class="mt-3 max-w-2xl mx-auto text-gray-600 sm:mt-4"
+          class="mt-3 text-gray-700 sm:mt-4"
           v-html="main.content"
         ></div>
       </div>
@@ -28,7 +28,7 @@
           />
           <div class="space-y-2">
             <div class="text-lg leading-6 font-medium space-y-1">
-              <h4>{{ partnership.title }}</h4>
+              <h5>{{ partnership.title }}</h5>
               <div
                 class="text-base text-gray-600"
                 v-html="partnership.content"
