@@ -40,7 +40,7 @@ features2:
 
   ]
 partenershipsMain: home_partenerships_main
-partnerships: [solidaridad, tag, threefold]
+partnerships: [tag, solidaridad , threefold]
 BlogsMain: blog_main
 blogs: [blog1, blog2, blog3]
 ---
