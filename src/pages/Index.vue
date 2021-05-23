@@ -35,14 +35,14 @@
         :header="$page.markdownPage.header"
       /> -->
 
-      <ShowcaseProducts
+      <!-- <ShowcaseProducts
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
         "
-      />
+      /> -->
 
       <!-- <CallToActionbg1
         v-if="$page.markdownPage.cta3"
