@@ -245,6 +245,14 @@ module.exports = {
                 path: './content/page/**/videoPanel/*.md',
             }
         },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Stats',
+                path: './content/page/**/stats/*.md',
+            }
+        },
+
 
         {
             use: '@gridsome/source-filesystem',
@@ -288,6 +296,7 @@ module.exports = {
                     allSlides: 'About',
                     partenershipsMain: 'PartenershipsMain',
                     partnerships: 'Partenerships',
+                    stats: 'Stats',
                     videoPanel: 'VideoPanel'
                 }
             }
