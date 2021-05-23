@@ -59,6 +59,9 @@
         v-if="$page.markdownPage.cta5"
         :cta="$page.markdownPage.cta5"
       /> -->
+      </div>
+    <Map v-if="$page.markdownPage.stats" :section="$page.markdownPage.stats" />
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
 
       <Features
         :id="$page.markdownPage.id"
@@ -345,6 +348,14 @@
          img
          content
        }
+       stats {
+          id
+          title
+          content
+          button
+          link
+          image
+        }
     }  
   }
 
@@ -363,6 +374,7 @@ import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.v
 import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProductsHome.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
 import Features from "~/components/custom/sections/Features.vue";
+import Map from "~/components/marketing/sections/cta-sections/StateMap.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
 import BrandPanel2 from "~/components/marketing/sections/cta-sections/BrandPanel2.vue";
@@ -379,6 +391,7 @@ export default {
   components: {
     Header,
     Features,
+    Map,
     SolutionsHeader,
     ShowcaseProducts,
     Comparison,

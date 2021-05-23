@@ -26,6 +26,7 @@ inTheNews: in_the_news
 solution_image: ./cta_image.svg
 cta: home_cta
 videoPanel: home_videoPanel
+stats: stats
 featuresMain2: Features_home_2
 features2:
   [
