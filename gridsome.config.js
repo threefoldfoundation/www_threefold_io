@@ -253,6 +253,21 @@ module.exports = {
             }
         },
 
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Blogs',
+                path: './content/page/**/blogs/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'BlogsMain',
+                path: './content/page/**/blogs/main/*.md',
+            }
+        },
 
         {
             use: '@gridsome/source-filesystem',
@@ -297,7 +312,9 @@ module.exports = {
                     partenershipsMain: 'PartenershipsMain',
                     partnerships: 'Partenerships',
                     stats: 'Stats',
-                    videoPanel: 'VideoPanel'
+                    videoPanel: 'VideoPanel',
+                    blogs: 'Blogs',
+                    BlogsMain: "BlogsMain"
                 }
             }
         },
