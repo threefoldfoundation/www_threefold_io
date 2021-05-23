@@ -259,6 +259,8 @@
           subtitle
           btn 
           link
+          btn2
+          link2
           content
         }
         features2{
