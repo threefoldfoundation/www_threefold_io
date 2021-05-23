@@ -25,6 +25,7 @@ logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 inTheNews: in_the_news
 solution_image: ./cta_image.svg
 cta: home_cta
+videoPanel: home_videoPanel
 ---
 
 <!-- header: home_header

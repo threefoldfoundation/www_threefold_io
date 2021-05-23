@@ -13,7 +13,7 @@
       />
     </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <g-image
+      <!-- <g-image
         class="m-auto w-2/4 lg:mt-20"
         v-if="$page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
@@ -22,7 +22,8 @@
       <CallToAction
         v-if="$page.markdownPage.cta2"
         :cta="$page.markdownPage.cta2"
-      />
+      /> -->
+      <VideoPanel :card="$page.markdownPage.videoPanel" />
 
       <!-- <g-image
         class="m-auto w-2/4 lg:mt-20"
@@ -291,6 +292,12 @@
           button2
           link2
         }
+        videoPanel {
+          id
+          video
+          title
+          content
+        }
     }  
   }
 
@@ -317,6 +324,7 @@ import CallToActionbg2 from "~/components/custom/sections/CallToActionbg2.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
+import VideoPanel from "~/components/custom/VideoPanel.vue";
 
 export default {
   components: {
@@ -333,6 +341,7 @@ export default {
     CallToActionbg2,
     InTheNews,
     SignUp,
+    VideoPanel,
   },
   computed: {
     getImg() {
