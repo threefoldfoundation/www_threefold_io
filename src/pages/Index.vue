@@ -356,6 +356,10 @@
           content
           button
           link
+          btn1 
+          link1
+          btn2
+          link2
           image
         }
     }  

@@ -4,6 +4,10 @@ title: TOGETHER WE CO-CREATE THE NEW INTERNET
 button: More Stats
 link: https://explorer.threefold.io
 image: ./map.png
+btn1: Become a Farmer
+link1: https://threefold.io/info/threefold#/threefold__farming_hardware_overview?id=plug-amp-farm-3nodes
+btn2: What is Internet Capacity?
+link2: https://threefold.io/info/threefold#/threefold__farming_hardware_overview?id=plug-amp-farm-3nodes
 ---
 
 The ThreeFold Grid is formed by a global network of independent Farmers – people  <br />
