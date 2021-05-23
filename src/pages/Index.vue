@@ -59,6 +59,12 @@
         :cta="$page.markdownPage.cta5"
       /> -->
 
+      <Features
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.featuresMain2"
+        :features="$page.markdownPage.features2"
+      />
+
       <BrandPanel
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
@@ -232,6 +238,20 @@
           link2
           link3
         }
+        featuresMain2{
+          id
+          title 
+          subtitle
+          btn 
+          link
+          content
+        }
+        features2{
+          id
+          title 
+          svg
+          content
+        }
         comparisonMain{
           id
           title
@@ -308,6 +328,7 @@ import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProductsHome.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
+import Features from "~/components/custom/sections/Features.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
 import BrandPanel2 from "~/components/marketing/sections/cta-sections/BrandPanel2.vue";
@@ -321,6 +342,7 @@ import SignUp from "~/components/custom/sections/SignUp.vue";
 export default {
   components: {
     Header,
+    Features,
     SolutionsHeader,
     ShowcaseProducts,
     Comparison,

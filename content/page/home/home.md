@@ -25,6 +25,18 @@ logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 inTheNews: in_the_news
 solution_image: ./cta_image.svg
 cta: home_cta
+featuresMain2: Features_home_2
+features2:
+  [
+
+    decentralize_the_internet,
+    make_data_safe,
+    earn_passive_income,
+    connect_the_world,
+    empty,
+    features2_sustainability
+
+  ]
 ---
 
 <!-- header: home_header

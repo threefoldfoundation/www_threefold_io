@@ -91,6 +91,13 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Features2',
+                path: './content/page/**/features2/**/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'Logo',
                 path: './content/page/**/logos/**/*.md',
             }
@@ -250,6 +257,8 @@ module.exports = {
                     appData: 'Product',
                     featuresMain: 'Features',
                     features: 'Features',
+                    featuresMain2: 'Features2',
+                    features2: 'Features2',
                     logos: 'Logo',
                     cta: 'Cta',
                     cta2: 'Cta',
