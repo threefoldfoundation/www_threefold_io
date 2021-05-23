@@ -17,12 +17,8 @@
         class="m-auto w-2/4 lg:mt-20"
         v-if="$page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
-      />
+      />  -->
 
-      <CallToAction
-        v-if="$page.markdownPage.cta2"
-        :cta="$page.markdownPage.cta2"
-      /> -->
       <VideoPanel :card="$page.markdownPage.videoPanel" />
 
       <!-- <g-image
@@ -59,10 +55,9 @@
         v-if="$page.markdownPage.cta5"
         :cta="$page.markdownPage.cta5"
       /> -->
-      </div>
+    </div>
     <Map v-if="$page.markdownPage.stats" :section="$page.markdownPage.stats" />
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-
       <Features
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.featuresMain2"
@@ -90,6 +85,11 @@
         v-if="$page.markdownPage.brandPanel"
       />
 
+      <CallToAction
+        v-if="$page.markdownPage.cta2"
+        :cta="$page.markdownPage.cta2"
+        :id="$page.markdownPage.id"
+      />
       <!-- <BrandPanel2
         :brand="$page.markdownPage.brandPanel2"
         v-if="$page.markdownPage.brandPanel2"
