@@ -1,6 +1,6 @@
 <template>
-  <div class="lg:py-12 lg:flex lg:justify-center flex flex-col">
-    <div class="bg-white lg:flex lg:rounded-lg lg:px-40">
+  <div class="video_bg lg:py-12 lg:flex lg:justify-center flex flex-col">
+    <div class="lg:flex lg:rounded-lg lg:px-40">
       <div class="lg:w-1/2">
         <div class="aspect-w-16 aspect-h-9">
           <iframe
@@ -13,7 +13,7 @@
           ></iframe>
         </div>
       </div>
-      <div class="py-6 px-6 lg:w-1/2">
+      <div class="px-6 lg:w-1/2">
         <h2
           class="text-4xl leading-tight mb-6 font-bold font-heading uppercase"
         >
@@ -30,3 +30,11 @@ export default {
   props: ["card"],
 };
 </script>
+<style scoped>
+
+.video_bg{
+
+background-color: #ebfefd;
+}
+
+</style>
