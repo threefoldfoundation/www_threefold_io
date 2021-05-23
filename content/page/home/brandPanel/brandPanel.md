@@ -1,15 +1,14 @@
 ---
 id: fix_internet
-title: WE NEED TO FIX TODAY'S INTERNET
+title: Join the ThreeFold Movement
 subtitle: ''
 sourceUrl: ''
 btnTxt: ''
-image: internet_is_broken.svg # src/assets/brandPanel/..
+image: token_header.png # src/assets/brandPanel/..
 ---
 
-The Internet is controlled by large corporations. This centralized approach is highly inefficient, extremely costly, and unsustainable.
-
-<br/>
-Our data isn't owned by us,
-<br/>
-and it isn't safe.
+* Become a part of a collaborative community
+* Earn income for connecting sovereign capacity
+* Regenerate our planet with every sale and purchase
+* Reserve capacity without any intermediaries
+* Receive grants for regenerative initiatives

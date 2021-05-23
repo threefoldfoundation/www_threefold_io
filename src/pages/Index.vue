@@ -76,17 +76,23 @@
         :id="$page.markdownPage.id"
       />
 
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :logos="$page.markdownPage.logos"
+      />
+
       <BrandPanel
         :brand="$page.markdownPage.brandPanel"
+        :id="$page.markdownPage.id"
         v-if="$page.markdownPage.brandPanel"
       />
 
-      <BrandPanel2
+      <!-- <BrandPanel2
         :brand="$page.markdownPage.brandPanel2"
         v-if="$page.markdownPage.brandPanel2"
-      />
+      /> -->
 
-      <Comparison
+      <!-- <Comparison
         v-if="
           $page.markdownPage.comparisonSecs &&
           $page.markdownPage.comparisonSecs.length > 0
@@ -94,7 +100,7 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
-      />
+      /> -->
 
       <!-- <NewCard
       v-for="card in $page.markdownPage.cards"
@@ -106,11 +112,6 @@
         v-if="$page.markdownPage.headerSolution"
         :header="$page.markdownPage.headerSolution"
     /> -->
-
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :logos="$page.markdownPage.logos"
-      />
 
       <InTheNews
         v-if="$page.markdownPage.inTheNews"
