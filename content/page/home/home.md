@@ -38,6 +38,8 @@ features2:
     features2_sustainability
 
   ]
+partenershipsMain: home_partenerships_main
+partnerships: [solidaridad, tag, threefold]
 ---
 
 <!-- header: home_header

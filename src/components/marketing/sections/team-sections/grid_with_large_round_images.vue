@@ -13,6 +13,33 @@
         ></div>
       </div>
       <div
+        v-if="id == 'home'"
+        class="mx-auto grid-cols-3 sm:grid sm:grid-cols-1 lg:grid-cols-3 lg:max-w-5xl"
+      >
+        <div
+          class="my-5 mx-5"
+          v-for="partnership in partnerships"
+          :key="partnership.id"
+        >
+          <img
+            class="mx-auto"
+            :src="partnership.img.src"
+            :alt="partnership.id"
+          />
+          <div class="space-y-2">
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h4>{{ partnership.title }}</h4>
+              <div
+                class="text-base text-gray-600"
+                v-html="partnership.content"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        v-else
         class="mx-auto grid-cols-2 sm:grid sm:grid-cols-1 lg:grid-cols-2 lg:max-w-5xl"
       >
         <div
@@ -71,6 +98,6 @@
 
 <script>
 export default {
-  props: ["partnerships", "main"],
+  props: ["id", "partnerships", "main"],
 };
 </script>

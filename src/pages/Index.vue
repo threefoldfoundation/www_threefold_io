@@ -66,6 +66,16 @@
         :features="$page.markdownPage.features2"
       />
 
+      <Partenerships
+        v-if="
+          $page.markdownPage.partnerships &&
+          $page.markdownPage.partnerships.length > 0
+        "
+        :main="$page.markdownPage.partenershipsMain"
+        :partnerships="$page.markdownPage.partnerships"
+        :id="$page.markdownPage.id"
+      />
+
       <BrandPanel
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
@@ -318,6 +328,22 @@
           title
           content
         }
+        partenershipsMain{
+         id
+         title
+         slogan
+         content
+         link
+         link2
+         button
+         button2
+       }
+       partnerships {
+         id
+         title
+         img
+         content
+       }
     }  
   }
 
@@ -346,6 +372,7 @@ import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowc
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import VideoPanel from "~/components/custom/VideoPanel.vue";
+import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
 
 export default {
   components: {
@@ -364,6 +391,7 @@ export default {
     InTheNews,
     SignUp,
     VideoPanel,
+    Partenerships,
   },
   computed: {
     getImg() {
