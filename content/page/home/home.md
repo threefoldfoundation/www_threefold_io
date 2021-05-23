@@ -1,14 +1,14 @@
 ---
 id: home
 metaTitle: ThreeFold | Home
-metaDesc: Welcome to the world’s largest peer-to-peer Internet, formed by people who want to make a difference, by people who care, by people just like you.
+metaDesc: ThreeFold is the engine for a planet positive and data sovereign Internet. A collaborative movement of people who care about a better future.
 metaImg: ./home_header.png
-header_slogan: YOU
-header_title: ARE THE NEW INTERNET
+header_slogan: BE
+header_title: THE INTERNET
 header_image: ./home_header.png
 header_altImg: threefold
 header_excerpt: Welcome to the world’s largest peer-to-peer internet, formed by people who want to make a difference, by people who care, by people just like you.
-button: "Take Part"
+button: "We invite you to join in!"
 link: "#home"
 solution_image2: ./video_play.png
 cta2: home_cta2
@@ -26,6 +26,18 @@ inTheNews: in_the_news
 solution_image: ./cta_image.svg
 cta: home_cta
 videoPanel: home_videoPanel
+featuresMain2: Features_home_2
+features2:
+  [
+
+    decentralize_the_internet,
+    make_data_safe,
+    earn_passive_income,
+    connect_the_world,
+    empty,
+    features2_sustainability
+
+  ]
 ---
 
 <!-- header: home_header
