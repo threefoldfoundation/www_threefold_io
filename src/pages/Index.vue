@@ -11,52 +11,15 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
+
+      <VideoPanel :card="$page.markdownPage.videoPanel" />
+
+      <Map
+        v-if="$page.markdownPage.stats"
+        :section="$page.markdownPage.stats"
+      />
     </div>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <!-- <g-image
-        class="m-auto w-2/4 lg:mt-20"
-        v-if="$page.markdownPage.solution_image2"
-        :src="$page.markdownPage.solution_image2.src"
-      />  -->
 
-      <!-- <g-image
-        class="m-auto w-2/4 lg:mt-20"
-        v-if="$page.markdownPage.solution_image3"
-        :src="$page.markdownPage.solution_image3.src"
-      /> -->
-
-      <!-- <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
-      /> -->
-
-      <!-- <ShowcaseProducts
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
-      /> -->
-
-      <!-- <CallToActionbg1
-        v-if="$page.markdownPage.cta3"
-        :cta="$page.markdownPage.cta3"
-      /> -->
-
-      <!-- <CallToActionbg2
-        v-if="$page.markdownPage.cta4"
-        :cta="$page.markdownPage.cta4"
-      /> -->
-
-      <!-- <CallToAction
-        v-if="$page.markdownPage.cta5"
-        :cta="$page.markdownPage.cta5"
-      /> -->
-    </div>
-    <VideoPanel :card="$page.markdownPage.videoPanel" />
-
-    <Map v-if="$page.markdownPage.stats" :section="$page.markdownPage.stats" />
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Features
         :id="$page.markdownPage.id"
@@ -90,31 +53,17 @@
         :cta="$page.markdownPage.cta2"
         :id="$page.markdownPage.id"
       />
-      <!-- <BrandPanel2
-        :brand="$page.markdownPage.brandPanel2"
-        v-if="$page.markdownPage.brandPanel2"
-      /> -->
 
-      <!-- <Comparison
-        v-if="
-          $page.markdownPage.comparisonSecs &&
-          $page.markdownPage.comparisonSecs.length > 0
-        "
+      <g-image
+        v-if="$page.markdownPage.solution_image2"
+        :src="$page.markdownPage.solution_image2.src"
+      />
+
+      <CallToAction
+        v-if="$page.markdownPage.cta3"
+        :cta="$page.markdownPage.cta3"
         :id="$page.markdownPage.id"
-        :main="$page.markdownPage.comparisonMain"
-        :sections="$page.markdownPage.comparisonSecs"
-      /> -->
-
-      <!-- <NewCard
-      v-for="card in $page.markdownPage.cards"
-      :key="card.id"
-      :card="card"
-      /> -->
-
-      <!-- <SolutionsHeader
-        v-if="$page.markdownPage.headerSolution"
-        :header="$page.markdownPage.headerSolution"
-    /> -->
+      />
 
       <InTheNews
         v-if="$page.markdownPage.inTheNews"
