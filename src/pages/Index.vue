@@ -19,8 +19,6 @@
         :src="$page.markdownPage.solution_image2.src"
       />  -->
 
-      <VideoPanel :card="$page.markdownPage.videoPanel" />
-
       <!-- <g-image
         class="m-auto w-2/4 lg:mt-20"
         v-if="$page.markdownPage.solution_image3"
@@ -56,6 +54,8 @@
         :cta="$page.markdownPage.cta5"
       /> -->
     </div>
+    <VideoPanel :card="$page.markdownPage.videoPanel" />
+
     <Map v-if="$page.markdownPage.stats" :section="$page.markdownPage.stats" />
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Features
@@ -356,10 +356,6 @@
           content
           button
           link
-          btn1 
-          link1
-          btn2
-          link2
           image
         }
     }  
