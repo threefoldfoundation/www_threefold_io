@@ -44,16 +44,16 @@
 
     <!-- home -->
     <div
-      class="w-full max-w-7xl mx-auto bg-gray-900 mt-10 p-16"
+      class="w-full max-w-7xl mx-auto mt-10 p-16"
       v-else-if="id == 'home'"
     >
       <h2
         v-if="cta.title"
-        class="text-3xl mb-2 uppercase text-white leading-tight font-semibold font-heading"
+        class="text-3xl mb-2 uppercase leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 text-gray-400"></div>
+      <div v-html="cta.content" class="mt-6 mb-8 text-gray-800"></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
