@@ -2,7 +2,7 @@
   <section class="py-12 px-2">
     <div class="flex flex-wrap blue p-12 text-center lg:text-left -mx-2">
       <div
-        class="lg:w-1/4 light-blue text-center rounded-lg mt-10 lg:mt-0 order-1 lg:order-none"
+        class="lg:w-1/4 light-blue text-center rounded-lg py-20 mt-10 lg:mt-0 order-1 lg:order-none"
       >
         <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <dl class="">
@@ -74,9 +74,9 @@ export default {
       let hru = (results.data.hru / 1000000).toFixed();
       this.stats.push(
         { countries: results.data.countries },
-        { "cores online": results.data.cru },
-        { "SSD storage capacity": sru },
-        { "HDD storage capacity": hru }
+        { "Internet Farms": results.data.cru },
+        // { "SSD storage capacity": sru },
+        { "storage capacity": hru }
       );
     } catch (error) {
       console.log(error);
