@@ -55,6 +55,7 @@
       />
     </div>
     <g-image
+      class="w-3/4 mx-auto"
       v-if="$page.markdownPage.solution_image2"
       :src="$page.markdownPage.solution_image2.src"
     />
