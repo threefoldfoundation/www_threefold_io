@@ -1,7 +1,7 @@
 <template>
   <section class="pb-10 px-4 bg-cover text-center">
     <!-- why -->
-    <div class="w-full max-w-2xl mx-auto" v-if="id == 'why'">
+    <div class="w-full max-w-2xl mx-auto py-12" v-if="id == 'why'">
       <h2
         v-if="cta.title"
         class="text-4xl text-center uppercase mb-2 leading-none font-light font-heading"
