@@ -94,7 +94,7 @@
         </div>
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">
           <g-image
-            class="absolute brandpanel inset-0 w-full h-full transform rounded-md object-fill"
+            class="relative brandpanel inset-0 transform rounded-md object-fill"
             :src="image"
             :alt="brand.title"
           />

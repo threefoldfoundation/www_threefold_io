@@ -53,12 +53,12 @@
         :cta="$page.markdownPage.cta2"
         :id="$page.markdownPage.id"
       />
-
-      <g-image
-        v-if="$page.markdownPage.solution_image2"
-        :src="$page.markdownPage.solution_image2.src"
-      />
-
+    </div>
+    <g-image
+      v-if="$page.markdownPage.solution_image2"
+      :src="$page.markdownPage.solution_image2.src"
+    />
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <CallToAction
         v-if="$page.markdownPage.cta3"
         :cta="$page.markdownPage.cta3"
