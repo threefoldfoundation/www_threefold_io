@@ -1,5 +1,5 @@
 ---
 id: logo4
-image: ./digibyte.svg
-url: /partners/digibyte
+image: ./skale.png
+url: /partners/skale_labs
 ---

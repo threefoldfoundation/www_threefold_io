@@ -2,8 +2,8 @@
 id: fix_internet
 title: Join the ThreeFold Movement
 subtitle: ''
-sourceUrl: ''
-btnTxt: ''
+sourceUrl: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+btnTxt: Get TF Tokens
 image: token_header.png # src/assets/brandPanel/..
 ---
 

@@ -85,11 +85,11 @@
               }}</span>
             </h2>
             <div class="mt-4 mx-4 text-black" v-html="brand.content"></div>
-            <!-- <a
+            <a
               :href="brand.sourceUrl"
               class="bg-teal-300 text-sm learn-button hover:bg-57EEF8-400 text-gray-900 px-12 py-2 mr-3 shadow rounded-full"
               >{{ brand.btnTxt }}</a
-            > -->
+            >
           </div>
         </div>
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">
