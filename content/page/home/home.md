@@ -7,9 +7,9 @@ header_slogan: BE
 header_title: THE INTERNET
 header_image: ./home_header.png
 header_altImg: threefold
-header_excerpt: Welcome to the world’s largest peer-to-peer internet, formed by people who want to make a difference, by people who care, by people just like you.
-button: "We invite you to join in!"
-link: "#home"
+header_excerpt: ThreeFold is the engine for a planet positive and data sovereign Internet. A collaborative movement of people who care about a better future.
+button: ''
+link: ''
 solution_image2: ./quentum_safe.jpg
 cta2: home_cta2
 productsMain: product
@@ -21,7 +21,7 @@ cta4: home_cta4
 cta5: home_cta5
 comparisonMain: comparison
 comparisonSecs: [private, equal, sustainable]
-logos: [logo1, logo2, logo3, logo4, logo5, logo6]
+logos: [logo1, logo3, logo5]
 inTheNews: in_the_news
 solution_image: ./cta_image.svg
 cta: home_cta
