@@ -6,23 +6,6 @@
       >
         <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <dl class="">
-            <div class="flex flex-col p-6 text-center">
-              <dd
-                class="text-5xl leading-none font-bold green-color green"
-                aria-describedby="item-1"
-              >
-                243
-              </dd>
-              <dt
-                class="mt-2 text-lg leading-6 font-medium text-white uppercase"
-                id="item-1"
-              >
-                Farms
-              </dt>
-            </div>
-          </dl>
-
-          <dl class="">
             <div
               v-for="(item, index) in stats"
               :key="index"
@@ -94,11 +77,19 @@ export default {
   },
   async mounted() {
     try {
+      const getFarms = await axios.get(
+        "https://explorer.threefold.io/api/farms?network=all"
+      );
       const results = await axios.get(
         "https://explorer.threefold.io/api/stats"
       );
+      let farms = getFarms.data.length;
       let hru = (results.data.hru / 1000000).toFixed();
-      this.stats.push({ "HDD PB": hru }, { countries: results.data.countries });
+      this.stats.push(
+        { farms: farms },
+        { "HDD PB": hru },
+        { countries: results.data.countries }
+      );
     } catch (error) {
       console.log(error);
     }
