@@ -38,24 +38,21 @@
         >
           {{ section.title }}
         </h2>
-        <div
-          class="text-white mt-4 "
-          v-html="section.content"
-        ></div>
+        <div class="text-white mt-4" v-html="section.content"></div>
         <g-image :src="img(section.image)" :alt="section.title" />
-            <div class="mx-auto mt-10">
-      <g-link
-        class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-        :to="section.link1"
-        >{{ section.btn1 }}
-        </g-link>
-              <g-link
-        class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-        :to="section.link2"
-        >{{ section.btn2 }}</g-link
-      >
-      <!-- <div v-html="main.content" class="text-sm text-gray-400 mt-5"></div> -->
-    </div>
+        <div class="mx-auto mt-10">
+          <g-link
+            class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            :to="section.link1"
+            >{{ section.btn1 }}
+          </g-link>
+          <g-link
+            class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            :to="section.link2"
+            >{{ section.btn2 }}</g-link
+          >
+          <!-- <div v-html="main.content" class="text-sm text-gray-400 mt-5"></div> -->
+        </div>
       </div>
     </div>
   </section>
@@ -88,8 +85,8 @@ export default {
       this.stats.push(
         { countries: results.data.countries },
         { "Internet Farms": results.data.cru },
-        // { "SSD storage capacity": sru },
-        { "storage capacity": hru }
+        // { "SSD TB": sru },
+        { "HDD PB": hru }
       );
     } catch (error) {
       console.log(error);
