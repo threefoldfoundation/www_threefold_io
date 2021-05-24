@@ -4,16 +4,15 @@
   >
     <div class="space-y-12">
       <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-        <h2 class="text-4xl leading-tight mb-6 font-bold font-heading uppercase">
+        <h2
+          class="text-4xl leading-tight mb-6 font-bold font-heading uppercase"
+        >
           {{ main.title }} <span class="font-extrabold">{{ main.slogan }}</span>
         </h2>
-        <div
-          class="mt-3 text-gray-700 sm:mt-4"
-          v-html="main.content"
-        ></div>
+        <div class="mt-3 text-gray-700 sm:mt-4" v-html="main.content"></div>
       </div>
       <div
-        v-if="id == 'home' || id == 'why'"
+        v-if="id == 'home'"
         class="mx-auto grid-cols-3 sm:grid sm:grid-cols-1 lg:grid-cols-3 lg:max-w-5xl"
       >
         <div
