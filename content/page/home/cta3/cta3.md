@@ -3,7 +3,7 @@ id: home_cta3
 title1:
 title2: 
 button: Explore the ThreeFold Universe
-link: ''
+link: /universe
 button2: ''
 link2: ''
 button3: ''
