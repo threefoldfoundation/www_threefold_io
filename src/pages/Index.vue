@@ -65,6 +65,12 @@
         :id="$page.markdownPage.id"
       />
 
+      <Blogs
+        v-if="$page.markdownPage.blogs || $page.markdownPage.BlogsMain"
+        :main="$page.markdownPage.BlogsMain"
+        :blogs="$page.markdownPage.blogs"
+      />
+
       <InTheNews
         v-if="$page.markdownPage.inTheNews"
         :news="$page.markdownPage.inTheNews"
@@ -153,7 +159,23 @@
           link3
           link4
         }
-
+BlogsMain{
+          id
+          title
+          content
+        }
+        blogs{
+          id
+          image
+          tagUrl
+          tag
+          blogUrl
+          title
+          authorUrl
+          authorImg
+          author
+          content
+        }
         cta2{
           id
           title
@@ -331,6 +353,7 @@ import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProductsHome.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
+import Blogs from "~/components/marketing/sections/blog-sections/3_column_cards.vue";
 import Features from "~/components/custom/sections/Features.vue";
 import Map from "~/components/marketing/sections/cta-sections/StateMap.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
@@ -362,6 +385,7 @@ export default {
     CallToActionbg2,
     InTheNews,
     SignUp,
+    Blogs,
     VideoPanel,
     Partenerships,
   },
