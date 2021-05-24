@@ -2,7 +2,7 @@
   <section class="px-2">
     <div class="flex flex-wrap blue p-12 text-center lg:text-left -mx-2">
       <div
-        class="lg:w-1/4 light-blue text-center rounded-lg py-20 mt-10 lg:mt-0 order-1 lg:order-none"
+        class="lg:w-1/4 light-blue text-center rounded-lg py-10 mt-10 lg:mt-0 order-1 lg:order-none"
       >
         <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <dl class="">
@@ -39,8 +39,8 @@
           {{ section.title }}
         </h2>
         <div class="text-white mt-4" v-html="section.content"></div>
-        <g-image :src="img(section.image)" :alt="section.title" />
-        <div class="mx-auto mt-10">
+        <g-image class="lg:w-3/4 mx-auto" :src="img(section.image)" :alt="section.title" />
+        <div class="mx-auto mt-6">
           <g-link
             class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
             :to="section.link1"
@@ -107,12 +107,12 @@ export default {
 }
 
 dd {
-  height: 200px;
-  width: 200px;
+  height: 140px;
+  width: 140px;
   margin: auto;
   border-radius: 50%;
-  line-height: 180px;
-  border: 10px solid #847fc2;
+  line-height: 130px;
+  border: 3px solid #847fc2;
   background-color: #313f92;
   color: #dacef5;
 }
