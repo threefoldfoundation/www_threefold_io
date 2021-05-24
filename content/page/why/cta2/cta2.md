@@ -3,7 +3,7 @@ id: why_cta2
 title: THE INTERNET CHANGES LIVES
 slogan: A BETTER INTERNET CHANGES THE WORLD
 button: "Join the movement"
-link: "#home"
+link: https://threefold.io/farming
 button2: ""
 link2: ""
 button3: ""

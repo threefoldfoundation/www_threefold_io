@@ -2,9 +2,9 @@
 id: home_cta
 title: Join the ThreeFold Movement
 button: TF Connect
-link: https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en&gl=US
+link: https://threefold.io/info/threefold#/internet4__threefold_wallets?id=the-threefold-connect-app
 button2: Buy the token
-link2: https://threefold.io/token
+link2: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
 button3: Grow the grid
 link3: https://threefold.io/farming
 button4: Join the community
