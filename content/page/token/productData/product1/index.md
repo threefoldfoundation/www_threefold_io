@@ -1,8 +1,8 @@
 ---
 id: buy_tft
-title: BUY TFT
+title: Get TFT 
 image: ./buy_tft.png
 url:
 ---
 
-Get your hands on the currency of the new P2P Internet.
+Get your hands on a currency that has a real impact.

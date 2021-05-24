@@ -1,8 +1,8 @@
 ---
 id: swap_tft
-title: SWAP TFT
+title: Swap TFT
 image : ./swap_tft.png
 url :
 ---
 
-Exchange your TFT with other tokens including Bitcoin.
+Exchange TFT with other tokens via our cross-chain integrations.

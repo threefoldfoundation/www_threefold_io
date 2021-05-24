@@ -1,8 +1,7 @@
 ---
 id: spend_tft
-title: SPEND TFT
+title: Use TFT
 image : ./spend_tft.png
 url :
 ---
-
-Purchase products and services on the ThreeFold Grid.
+Store your data and run IT workloads on the ThreeFold Grid.

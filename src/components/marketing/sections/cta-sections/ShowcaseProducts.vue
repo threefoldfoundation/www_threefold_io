@@ -12,7 +12,7 @@
     <div class="w-full text-center" v-else>
       <h2
         v-if="main !== null && main.title"
-        class="text-4xl font-semibold leading-tight font-heading"
+        class="text-4xl font-semibold leading-tight font-heading uppercase"
       >
         {{ main.title }}
       </h2>
@@ -35,7 +35,9 @@
       >
         <div class="px-2 py-2">
           <g-image class="py-4" :src="img(product.image)" />
-          <div class="font-bold text-xl mb-2">{{ product.title }}</div>
+          <div class="font-bold text-xl mb-2 uppercase">
+            {{ product.title }}
+          </div>
           <div v-html="product.content" class="text-gray-600"></div>
         </div>
       </a>
@@ -58,10 +60,7 @@
           <div class="font-bold text-xl pt-5 mx-4">
             {{ product.title }}
           </div>
-          <div
-            v-html="product.content"
-            class="py-2 text-gray-600 mx-4"
-          ></div>
+          <div v-html="product.content" class="py-2 text-gray-600 mx-4"></div>
           <div v-if="product.button" class="mb-2 py-5 text-center">
             <a
               v-if="product.link.includes('http')"

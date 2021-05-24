@@ -7,4 +7,4 @@ btnTxt: Learn More
 image: dive-into.png
 ---
 
-TFT represents a unit of compute and storage capacity (CPU, RAM, SDD/HDD) on the ThreeFold Grid. From our favourite application to our chats and videos, everything we use digitally needs compute and storage to be live.
+TFT is the official medium of exchange on ThreeFold, representing a unit of storage and/or compute capacity. From our favorite applications to our precious memories and chats, all that lives digitally needs storage and/or compute.

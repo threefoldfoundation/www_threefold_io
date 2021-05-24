@@ -1,7 +1,7 @@
 ---
 id: be_ur_bank
 img: ./be_ur_bank.png
-title: Control Your Own Funds
+title: Control your own funds 
 ---
 
-You can control your own funds with your wallets as proof of ownership – no third parties needed.
+You control your own funds with your wallets as proof of ownership – no third parties needed.

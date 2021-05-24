@@ -1,8 +1,7 @@
 ---
 id: transact_p2p
 img: ./transact_p2p.png
-title: Transact Peer-to-Peer
+title: Transact peer-to-peer
 ---
 
-You can send your TFT directly to your contacts, without any intermediaries such as banks. It's like handing cash over in-person,
-but you can do it securely with anyone, anywhere ,anytime.
+Sending TFT to your contacts is like exchanging cash in-person. There are no intermediaries such as banks, and you can do it with anyone, anywhere.

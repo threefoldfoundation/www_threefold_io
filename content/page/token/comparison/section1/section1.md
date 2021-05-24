@@ -1,7 +1,7 @@
 ---
 id: expand_grid
 svg: ./expand_grid.png
-title: EXPAND WITH THE GRID
+title: Expand the Grid 
 ---
 
-ThreeFold Tokens are created only when people and organizations add capacity to the ThreeFold Grid. The token economy is limited at 4 Billion TFT.
+ThreeFold Tokens are created when people and organizations add capacity to the ThreeFold Grid. The token economy is limited to 4 Billion TFT.

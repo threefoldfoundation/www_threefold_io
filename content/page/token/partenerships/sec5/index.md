@@ -1,7 +1,7 @@
 ---
 id: decentralized
 img: ./decentralized.png
-title: Be Decentralized
+title: Be decentralized
 ---
 
-TFT is decentralized and global. There's no company or bank that can decide to print more TFT, or change the terms of use. The maximum supply for TFT is capped at 4 billion. More tokens can never be created.
+TFT is decentralized and global. There’s no company or bank that can print more of them or change the terms of usage. The TFT economy is capped at 4 Billion.

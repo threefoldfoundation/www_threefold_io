@@ -31,7 +31,9 @@
 
             <div class="space-y-2">
               <div class="text-center leading-6 space-y-1">
-                <h4 class="text-xl font-normal">{{ section.title }}</h4>
+                <h4 class="text-xl font-normal uppercase">
+                  {{ section.title }}
+                </h4>
                 <div v-html="section.content"></div>
               </div>
             </div>

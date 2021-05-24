@@ -1,7 +1,7 @@
 ---
 id: lives_stellar
 img: ./lives_stellar.png
-title: Lives on Stellar
+title: Have an Impact
 ---
 
-Using Stellar as the transactional blockchain gives TFT holders access to a wide range of proven wallets and exchange opportunities. More blockchains are to be integrated in 2021.
+TFT supports a data sovereign and planet positive Internet. People own their data and by using ThreeFold, they help regenerate the earth.

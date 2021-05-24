@@ -1,13 +1,13 @@
 ---
 id: token
 metaTitle: ThreeFold | Token (TFT)
-metaDesc: The ThreeFold Token is the currency of the fastest growing P2P internet network on the planet.
+metaDesc: The Threefold Token is the official currency of ThreeFold – the engine for a planet positive and data sovereign Internet. Now is the perfect time to get involved.
 metaImg: ./token_header.png
 header_slogan: WE ARE GROWING NOW
 header_title: YOU GROW WHEN THE THREEFOLD GRID GROWS
 header_image: ./token_header.png
 header_altImg: ThreeFold Token
-header_excerpt: The ThreeFold Token is the currency of the ThreeFold Grid - the new P2P Internet. The perfect time to get involved in our growth is now.
+header_excerpt: The Threefold Token is the official currency of ThreeFold – the engine for a planet positive and data sovereign Internet. Now is the perfect time to get involved.
 button: Get Tokens
 link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
 comparisonMain: token_comparison
