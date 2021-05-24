@@ -13,7 +13,7 @@
         ></div>
       </div>
       <div
-        v-if="id == 'home'"
+        v-if="id == 'home' || id == 'why'"
         class="mx-auto grid-cols-3 sm:grid sm:grid-cols-1 lg:grid-cols-3 lg:max-w-5xl"
       >
         <div

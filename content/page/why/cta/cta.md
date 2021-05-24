@@ -10,8 +10,8 @@ button3: ""
 link3: ""
 ---
 
-The Internet is controlled by large corporations.
+The Internet is not neutral anymore. 
 
-This centralized approach is highly inefficient, extremely costly, 
+It is owned by large corporations that build highly-inefficient, costly, and unsustainable data centers.
 
-and unsustainable. Our data isn't owned by us, and it isn't safe.
+Free applications and platforms collect our data and turn us into products.

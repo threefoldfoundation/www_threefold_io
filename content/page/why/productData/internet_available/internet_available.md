@@ -6,4 +6,4 @@ button: Learn More
 link: /blog/post/more_inclusive_internet/
 ---
 
-Only 57% of the world is connected to the Internet today, despite Internet access being a human right. This is not acceptable, as digital access represents a gateway to information, knowledge, and economic opportunities. We bring a more affordable and accessible Internet solution to the world.
+Despite Internet access being a human right, about 40% of the world remains unconnected. ThreeFold incentivizes Farmers to expand planet positive and data sovereign capacity to new regions, and with our partners we’re developing solutions to provide education, financial inclusion, and Internet access at a price affordable to all.

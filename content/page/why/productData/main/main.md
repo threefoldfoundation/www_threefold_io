@@ -4,4 +4,4 @@ title: "WE TACKLE "
 subtitle: "THE ROOT ISSUES"
 ---
 
-This is not a ﬁxed internet. It is a new Internet. One that is safer, more private, more accessible and keeps our planet’s well-being in mind.
+This is not just an upgraded Internet, it’s a new Internet – built from the ground up to offer real data sovereignty, security, and performance, while regenerating our planet.

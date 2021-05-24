@@ -81,6 +81,7 @@
           $page.markdownPage.partnerships &&
           $page.markdownPage.partnerships.length > 0
         "
+        :id="$page.markdownPage.id"
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
       />
