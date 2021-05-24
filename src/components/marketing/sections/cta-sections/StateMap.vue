@@ -84,7 +84,7 @@ export default {
       let hru = (results.data.hru / 1000000).toFixed();
       this.stats.push(
         { countries: results.data.countries },
-        { "Internet Farms": results.data.cru },
+        { "Cores online": results.data.cru },
         // { "SSD TB": sru },
         { "HDD PB": hru }
       );
