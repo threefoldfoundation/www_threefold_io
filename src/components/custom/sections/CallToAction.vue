@@ -43,7 +43,8 @@
     </div>
 
     <!-- home -->
-    <div class="w-full max-w-7xl mx-auto mt-10 p-16" v-else-if="id == 'home'">
+
+    <div class="w-full max-w-7xl mx-auto mt-10 px-16" v-else-if="id == 'home'">
       <h2
         v-if="cta.title"
         class="text-3xl mb-2 uppercase leading-tight font-semibold font-heading"

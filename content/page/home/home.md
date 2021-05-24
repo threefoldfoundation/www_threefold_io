@@ -10,7 +10,7 @@ header_altImg: threefold
 header_excerpt: Welcome to the world’s largest peer-to-peer internet, formed by people who want to make a difference, by people who care, by people just like you.
 button: "We invite you to join in!"
 link: "#home"
-solution_image2: ./header_solution.jpg
+solution_image2: ./quentum_safe.jpg
 cta2: home_cta2
 productsMain: product
 productData: [tokens_home, nodes_home, storage_home]

@@ -77,7 +77,7 @@
         >
           <div class="lg:self-center">
             <h2
-              class="text-3xl py-10 leading-9 font-extrabold text-black sm:leading-10"
+              class="text-4xl leading-tight mb-6 font-bold font-heading uppercase"
             >
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
@@ -94,7 +94,7 @@
         </div>
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">
           <g-image
-            class="absolute brandpanel inset-0 w-full h-full transform translate-x-0 translate-y-6 rounded-md object-fill object-left-top sm:translate-x-0 lg:translate-y-20"
+            class="absolute brandpanel inset-0 w-full h-full transform rounded-md object-fill"
             :src="image"
             :alt="brand.title"
           />

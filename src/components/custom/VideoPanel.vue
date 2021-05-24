@@ -1,5 +1,5 @@
 <template>
-  <div class="video_bg lg:py-20 lg:flex lg:justify-center flex flex-col">
+  <div class="lg:py-20 lg:flex lg:justify-center flex flex-col">
     <div class="lg:flex lg:rounded-lg lg:px-40">
       <div class="lg:w-1/2">
         <div class="aspect-w-16 aspect-h-9">

@@ -65,16 +65,15 @@
         :id="$page.markdownPage.id"
       />
 
-      <Blogs
-        v-if="$page.markdownPage.blogs || $page.markdownPage.BlogsMain"
-        :main="$page.markdownPage.BlogsMain"
-        :blogs="$page.markdownPage.blogs"
-      />
-
       <InTheNews
         v-if="$page.markdownPage.inTheNews"
         :news="$page.markdownPage.inTheNews"
       />
+
+      <!-- <SignUp
+      v-if="$page.markdownPage.signup"
+      :signup="$page.markdownPage.signup"
+      /> -->
 
       <g-image
         class="m-auto w-3/4 mt-8"
@@ -315,23 +314,6 @@
           link2
           image
         }
-        BlogsMain{
-          id
-          title
-          content
-        }
-        blogs{
-          id
-          image
-          tagUrl
-          tag
-          blogUrl
-          title
-          authorUrl
-          authorImg
-          author
-          content
-        }
     }  
   }
 
@@ -362,7 +344,6 @@ import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_gri
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import VideoPanel from "~/components/custom/VideoPanel.vue";
 import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
-import Blogs from "~/components/marketing/sections/blog-sections/3_column_cards.vue";
 
 export default {
   components: {
@@ -383,7 +364,6 @@ export default {
     SignUp,
     VideoPanel,
     Partenerships,
-    Blogs,
   },
   computed: {
     getImg() {
