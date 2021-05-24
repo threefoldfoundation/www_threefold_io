@@ -84,6 +84,7 @@
 
       <CallToAction
         v-if="$page.markdownPage.cta"
+        :id="$page.markdownPage.id"
         :cta="$page.markdownPage.cta"
       />
     </div>
@@ -147,9 +148,11 @@
           button
           button2
           button3
+          button4
           link
           link2
           link3
+          link4
         }
 
         cta2{
