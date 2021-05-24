@@ -44,7 +44,7 @@
 
     <!-- home -->
     <div
-      class="w-full max-w-7xl mx-auto mt-10 p-16"
+      class="w-full max-w-7xl mx-auto mt-10 px-16"
       v-else-if="id == 'home'"
     >
       <h2

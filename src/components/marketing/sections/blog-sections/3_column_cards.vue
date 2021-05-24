@@ -8,12 +8,12 @@
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
         <h2
-          class="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10"
+          class="text-4xl leading-tight mb-6 font-bold font-heading uppercase sm:text-4xl sm:leading-10"
         >
           {{ main.title }}
         </h2>
         <div
-          class="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-600 sm:mt-4"
+          class="mt-3 max-w-2xl mx-auto text-gray-700 sm:mt-4"
           v-html="main.content"
         ></div>
       </div>
