@@ -121,7 +121,7 @@ navLinks:
         path: /people
 
       - title: Alliance
-        path: /
+        path: /aci
         external: true
 
 
