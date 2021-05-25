@@ -160,7 +160,7 @@
           link3
           link4
         }
-BlogsMain{
+        BlogsMain{
           id
           title
           content
@@ -168,14 +168,14 @@ BlogsMain{
         blogs{
           id
           image
-          tagUrl
-          tag
-          blogUrl
+          tags
           title
-          authorUrl
-          authorImg
+          path
           author
-          content
+          autherUrl
+          authorImg
+          excerpt
+          created
         }
         cta2{
           id

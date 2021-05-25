@@ -28,7 +28,7 @@
           <div class="flex-shrink-0">
             <g-image
               class="h-48 w-full object-cover"
-              :src="blog.image"
+              :src="img(blog.image)"
               alt=""
             />
           </div>
@@ -39,12 +39,12 @@
                   {{ blog.tag }}
                 </a>
               </p> -->
-              <a :href="blog.blogUrl" class="block">
+              <a :href="path(blog)" class="block">
                 <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
                   {{ blog.title }}
                 </h3>
                 <div
-                  v-html="blog.content"
+                  v-html="blog.excerpt"
                   class="mt-3 text-base leading-6 text-gray-500"
                 ></div>
               </a>
@@ -54,7 +54,7 @@
                 <a :href="blog.autherUrl">
                   <g-image
                     class="h-10 w-10 rounded-full"
-                    :src="blog.authorImg"
+                    :src="img(blog.authorImg)"
                     alt=""
                   />
                 </a>
@@ -66,7 +66,7 @@
                   </a>
                 </p>
                 <!-- <div class="flex text-sm leading-5 text-gray-500">
-                  <time datetime="2020-03-16"> Mar 16, 2020 </time>
+                  <time :datetime="blog.created"> {{ blog.created }} </time>
                   <span class="mx-1"> &#xB7; </span>
                   <span> 6 min read </span>
                 </div> -->
@@ -82,5 +82,19 @@
 <script>
 export default {
   props: ["main", "blogs"],
+  methods: {
+    path(blog) {
+      if (this.pathPrefix) return this.pathPrefix + "/" + blog.id;
+      return blog.path;
+    },
+    img(image) {
+      if (!image) return "";
+      if (image.src) return image.src;
+      return image;
+    },
+  },
+  mounted() {
+    console.log(this.blogs);
+  },
 };
 </script>

@@ -42,7 +42,7 @@ features2:
 partenershipsMain: home_partenerships_main
 partnerships: [tag, solidaridad , threefold]
 BlogsMain: blog_main
-blogs: [blog1, blog2, blog3]
+blogs: [zero_os_blog, smart_contract_blog, threefold_regenerates]
 ---
 
 <!-- header: home_header
