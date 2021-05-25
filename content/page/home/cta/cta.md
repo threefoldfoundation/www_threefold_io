@@ -1,7 +1,7 @@
 ---
 id: home_cta
 title: Join the ThreeFold Movement
-button: TF Connect
+button: ThreeFold Connect
 link: https://threefold.io/info/threefold#/internet4__threefold_wallets?id=the-threefold-connect-app
 button2: Buy the token
 link2: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
