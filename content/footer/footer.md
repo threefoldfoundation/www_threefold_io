@@ -10,17 +10,17 @@ youtube: 'https://www.youtube.com/threefoldfoundation'
 github: 'https://github.com/threefoldfoundation'
 telegram: 'https://t.me/threefoldnews'
 items:
- - title: UNIVERSE
+ - title: TF Universe
    links:
     - name: Universe Home
       link: /universe
     - name: ThreeFold Token
       link: /token
-    - name: ThreeFold Grid
+    - name: ThreeFold Farming
       link: https://threefold.io/farming
-    - name: P2P Cloud
+    - name: ThreeFold Kube Cloud
       link: https://threefold.io/cloud
-    - name: P2P Marketplace
+    - name: ThreeFold Marketplace
       link: https://threefold.io/marketplace
     - name: Digital Twin
       link: https://mydigitaltwin.io
@@ -31,50 +31,55 @@ items:
   
  - title: PARTICIPATE
    links:
-    - name: Buy TFT
-      link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
-    - name: Be the Internet
-      link: https://threefold.io/farming
-    - name: P2P Cloud
+    - name: Start Farming
+      link: https://threefold.io/farming/get_3node
+    - name: Buy the Token
+      link: /token
+    - name: Test the Cloud
       link: https://threefold.io/cloud
-    - name: P2P Marketplace
+    - name: Try the Marketplace
       link: https://threefold.io/marketplace
-    - name: SDK
+    - name: Build with the SDK
       link: https://threefold.io/info/sdk
     - name: Testing Community
       link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
  
  - title: LEARN
    links:
-    - name: What is ThreeFold?
-      link: https://threefold.io/info/threefold
-    - name: The ThreeFold Grid
-      link: https://threefold.io/farming/tech
-    - name: Live Capacity
-      link: https://explorer.threefold.io
+    - name: About Farming
+      link: https://threefold.io/farming
+    - name: How Farming works
+      link: https://threefold.io/farming/how_it_works
     - name: What is TFT?
       link: https://threefold.io/token
-    - name: Why a P2P Internet?
-      link: https://threefold.io/info/threefold#/threefold__grid_why
-    - name: What is P2P?
-      link: https://www.threefold.io/info/threefold#/threefold__grid_compare
+    - name: Live Capacity
+      link: https://explorer.threefold.io
+    - name: What is the Internet?
+      link: https://info.threefold.io/info/threefold#/threefold__grid_intro
+    - name: Planet Positive
+      link: /
+    - name: Peer-to-Peer
+      link: /blog/post/what_is_peer_to_peer
+    - name: Data Sovereignty
+      link: /
     - name: ThreeFold Glossary
-      link: https://threefold.io/info/threefold#/threefold__defs
+      link: /
 
  - title: ABOUT US
    links:
     - name: ThreeFold
       link: https://threefold.io/info/threefold
-    - name: Our Partners
+    - name: Partners
       link: /partners
+    - name: People
+      link: /people
     - name: Blog
       link: /blog
     - name: NewsRoom
       link: /news
     - name: Forum
       link: https://forum.threefold.io/
-    - name: People
-      link: /people
+ 
     - name: Contact Us
       link: 'mailto:info@threefold.io'
 ---

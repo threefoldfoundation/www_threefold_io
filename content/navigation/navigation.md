@@ -1,7 +1,7 @@
 ---
 id: navigation
 navLinks:
-  - name: UNIVERSE
+  - name: TF Universe
     link: "" # /dropdown
     external: false
     expandable: true
@@ -9,18 +9,18 @@ navLinks:
       - title: Universe Home
         path: /universe
 
+      - title: ThreeFold Farming
+        path: /farming
+        external: true
+
       - title: ThreeFold Token
         path: /token
 
-      - title: ThreeFold Grid
-        path: /farming/tech
-        external: true
-
-      - title: P2P Cloud
+      - title: ThreeFold Kube Cloud
         path: /cloud
         external: true
 
-      - title: P2P Marketplace
+      - title: ThreeFold Marketplace
         path: /marketplace
         external: true
 
@@ -48,67 +48,85 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: Buy TFT
-        path: /info/threefold#/threefold__how_to_buy_and_sell
+      - title: Start Farming
+        path: /farming/get_3node
         external: true
 
-      - title: Be the Internet
-        path: /farming
-        external: true
+      - title: Buy the Token
+        path: /token
 
-      - title: P2P Cloud
+      - title: Test the Cloud
         path: /cloud
         external: true
 
-      - title: P2P Marketplace
+      - title: Try the Marketplace
         path: /marketplace
         external: true
 
-      - title: SDK
+      - title: Build with the SDK
         path: /info/sdk
         external: true
 
-      - title: Testing Community
-        path: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
-        external: true
 
   - name: LEARN
     link: "" # /dropdown
     external: false
     expandable: true
     submenu:
-      - title: What is ThreeFold?
-        path: /info/threefold
+      - title: About Farming
+        path: /farming
         external: true
 
-      - title: The ThreeFold Grid
-        path: /farming/tech
-        external: true
-
-      - title: Live Capacity
-        path: https://explorer.threefold.io/
+      - title: How Farming works
+        path: /farming/how_it_works
         external: true
 
       - title: What is TFT?
         path: /token
 
-      - title: Why a P2P Internet?
-        path: /info/threefold#/threefold__grid_why
+      - title: Live Capacity
+        path: https://explorer.threefold.io/
         external: true
 
-      - title: What is P2P?
-        path: /info/threefold#/threefold__grid_compare
+      - title: What is the Internet?
+        path: https://info.threefold.io/info/threefold#/threefold__grid_intro
+        external: true
+
+      
+      - title: Planet Positive
+        path: /
+        external: true
+
+      - title: Peer-to-Peer
+        path: /blog/post/what_is_peer_to_peer/
+
+      - title: Data Sovereignty
+        path: /
         external: true
 
       - title: ThreeFold Glossary
-        path: /info/threefold#/threefold__defs
+        path: /
         external: true
 
-  - name: PARTNERS
-    link: /partners
+
+  - name: Collaborators
+    link: "" # /dropdown
     external: false
-    expandable: false
-  - name: ABOUT US
+    expandable: true
+    submenu:
+      - title: PARTNERS
+        path: /partners
+
+      - title: People
+        path: /people
+
+      - title: Alliance
+        path: /
+        external: true
+
+
+
+  - name: More Info
     link: "" # /dropdown
     external: false
     expandable: true
@@ -122,9 +140,6 @@ navLinks:
       - title: Forum
         path: https://forum.threefold.io
         external: true
-
-      - title: People
-        path: /people
 
       - title: Contact Us
         path: "mailto:info@threefold.io"
