@@ -1,6 +1,6 @@
 ---
 id: lives_stellar
-img: ./lives_stellar.png
+img: ./sustainable.png
 title: Have an Impact
 ---
 
