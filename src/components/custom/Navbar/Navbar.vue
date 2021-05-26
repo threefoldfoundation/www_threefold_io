@@ -108,7 +108,7 @@
           >
             <button
               @click="setActive(index)"
-              class="flex flex-row items-center w-full mr-4 md:w-auto md:inline md:mt-0 md:ml-4 animated-link"
+              class="flex flex-row items-center w-full mr-2 md:w-auto md:inline md:mt-0 md:ml-2 animated-link"
             >
               <span class="uppercase py-1 pl-2">{{ element.name }}</span>
               <svg
@@ -168,14 +168,14 @@
             :href="element.link"
             @click="clicked"
             target="_blank"
-            class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
+            class="inline-flex sm:flex uppercase p-2 mr-2 animated-link"
             >{{ element.name }}</a
           >
           <a
             v-else
             :href="element.link"
             @click="clicked"
-            class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
+            class="inline-flex sm:flex uppercase p-2 mr-2 animated-link"
             >{{ element.name }}</a
           >
         </div>
@@ -207,7 +207,7 @@
             @keyup.enter="result"
           />
         </div> -->
-        <ul class="list-none inline-flex justify-center md:justify-end">
+        <ul class="list-none inline-flex justify-center md:ml-0 md:justify-end">
           <!-- <li class="mr-0 sm:mr-2">
             <ThemeSwitcher v-on="$listeners" :theme="theme" />
           </li> -->
