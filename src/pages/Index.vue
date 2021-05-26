@@ -337,6 +337,8 @@
           btn2
           link1
           link2
+          link3
+          btn3
           image
         }
     }  
