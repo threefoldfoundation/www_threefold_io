@@ -236,6 +236,8 @@
           link
           btn2
           link2
+          btn3
+          link3
           content
         }
         features2{
