@@ -94,7 +94,7 @@
 
       <nav
         :class="isOpen ? 'block' : 'hidden'"
-        class="navbar md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 sm:w-100 bg-white"
+        class="bg-white navbar md:order-2 px-2 pt-2 ml-auto pb-4 sm:flex sm:p-0 sm:w-100 xs:bg-transparent"
       >
         <div
           :key="index"
@@ -138,7 +138,7 @@
               x-transition:leave-end="transform opacity-0 scale-95"
               class="absolute w-auto mt-2 origin-top-right rounded-md shadow-lg md:w-48 z-30"
             >
-               <div
+              <div
                 v-if="open"
                 class="px-2 py-2 bg-white rounded-md shadow dark:bg-gray-700"
               >
