@@ -1,9 +1,9 @@
 ---
 id: fix_internet
-title: Join the ThreeFold Movement
+title: Join the ThreeFold Community
 subtitle: ''
-sourceUrl: /token
-btnTxt: Discover the ThreeFold Token
+sourceUrl: https://t.me/threefold
+btnTxt: Join the community
 image: token_header.png # src/assets/brandPanel/..
 ---
 

@@ -2,7 +2,7 @@
 id: better_solution
 title: A solution to regenerate our planet
 subtitle:
-sourceUrl: /blog/post/for_our_planet/
+sourceUrl: /blog/post/what_is_peer_to_peer/
 btnTxt: Learn More
 image: better_solution.png
 ---

@@ -84,8 +84,19 @@
                 brand.subtitle
               }}</span>
             </h2>
-            <div class="mt-4 mx-4 mb-10 text-black" v-html="brand.content"></div>
+            <div
+              class="mt-4 mx-4 mb-10 text-black"
+              v-html="brand.content"
+            ></div>
             <a
+              v-if="brand.sourceUrl.includes('http')"
+              :href="brand.sourceUrl"
+              target="_blank"
+              class="bg-teal-300 text-sm learn-button hover:bg-57EEF8-400 text-gray-900 px-12 py-2 mr-3 shadow rounded-full"
+              >{{ brand.btnTxt }}</a
+            >
+            <a
+              v-else
               :href="brand.sourceUrl"
               class="bg-teal-300 text-sm learn-button hover:bg-57EEF8-400 text-gray-900 px-12 py-2 mr-3 shadow rounded-full"
               >{{ brand.btnTxt }}</a

@@ -10,5 +10,4 @@ btn2: What is Internet Capacity?
 link2: https://threefold.io/info/threefold#/threefold__grid_intro
 ---
 
-The ThreeFold Grid is formed by a global network of independent Farmers – people 
-and organizations who expand the Internet capacity to where it is needed the most.
+The ThreeFold Grid is formed by a global network of independent Farmers – people and organizations who expand Internet capacity to where it is needed the most.

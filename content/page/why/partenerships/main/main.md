@@ -2,9 +2,9 @@
 id: partenerships_main
 title: ACHIEVING GOALS THROUGH
 slogan: PARTNERSHIPS
-button : See Our Partners
+button : Meet our Partners
 link : /partners
-button2 : ACI
+button2 : Meet the Alliance
 link2 : https://threefold.io/aci
 ---
 

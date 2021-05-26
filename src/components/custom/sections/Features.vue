@@ -20,7 +20,7 @@
 
         <div v-else>
           <span v-if="index !== 4" class="img-border"></span>
-          <h5>
+          <h5 class="capitalize">
             {{ feature.title }}
           </h5>
           <div
