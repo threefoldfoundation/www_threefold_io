@@ -3,7 +3,7 @@ id: fix_internet
 title: Join the ThreeFold Community
 subtitle: ''
 sourceUrl: https://t.me/threefold
-btnTxt: Join the community
+btnTxt: Join the Community
 image: token_header.png # src/assets/brandPanel/..
 ---
 

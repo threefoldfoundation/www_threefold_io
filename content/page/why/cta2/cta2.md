@@ -2,7 +2,7 @@
 id: why_cta2
 title: THE INTERNET CHANGES LIVES
 slogan: A BETTER INTERNET CHANGES THE WORLD
-button: Join the Movement
+button: Join the Community
 link: https://t.me/threefold
 button2: ""
 link2: ""
