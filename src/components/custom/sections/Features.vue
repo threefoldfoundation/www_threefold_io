@@ -3,9 +3,11 @@
     <h2 class="text-4xl leading-tight mb-6 font-bold font-heading uppercase">
       {{ main.title }}
     </h2>
-    <p v-if="main.subtitle" class="mb-6 text-gray-700">
-      {{ main.subtitle }}
-    </p>
+    <div
+      v-if="main.content"
+      class="mb-6 text-gray-700"
+      v-html="main.content"
+    ></div>
     <div class="flex flex-wrap items-center -mx-4 mb-6">
       <div
         v-for="(feature, index) in features"
@@ -23,10 +25,7 @@
           <h5 class="capitalize">
             {{ feature.title }}
           </h5>
-          <div
-            v-html="feature.content"
-            class="text-gray-700"
-          ></div>
+          <div v-html="feature.content" class="text-gray-700"></div>
         </div>
       </div>
     </div>
@@ -35,8 +34,8 @@
         class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         :to="main.link"
         >{{ main.btn }}
-        </g-link>
-              <g-link
+      </g-link>
+      <g-link
         class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
         :to="main.link2"
         >{{ main.btn2 }}</g-link
@@ -49,7 +48,10 @@
     <h2 class="text-4xl text-center mb-12 font-normal font-heading">
       {{ main.title }}
     </h2>
-     <p v-if="main.subtitle" class="mb-6 text-2xl text-center font-ligh text-gray-800">
+    <p
+      v-if="main.subtitle"
+      class="mb-6 text-2xl text-center font-ligh text-gray-800"
+    >
       {{ main.subtitle }}
     </p>
     <div class="flex flex-wrap -mx-4 mb-6">
