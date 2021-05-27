@@ -49,6 +49,10 @@ navLinks:
     expandable: true
     submenu:
       - title: Start Farming
+        path: /farming
+        external: true
+
+      - title: Get a 3Node
         path: /farming/get_3node
         external: true
 
@@ -73,6 +77,10 @@ navLinks:
     external: false
     expandable: true
     submenu:
+      - title: The ThreeFold Grid
+        path: /farming/about
+        external: true
+
       - title: About Farming
         path: /farming
         external: true
