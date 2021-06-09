@@ -8,4 +8,3 @@ url: https://threefold.io/info/cloud#/cloud__threefold_filesystem
 
 Your digital avatar that gives you access to secure and private communication, socials and office tools.
 
-<br>

@@ -13,7 +13,7 @@ link: ''
 solution_image2: ./qsfs.svg
 cta2: home_cta2
 productsMain: product
-productData: [tokens_home, nodes_home, storage_home]
+productData: [nodes_home, tokens_home, storage_home]
 brandPanel: fix_internet
 brandPanel2: grid_solution
 cta3: home_cta3
