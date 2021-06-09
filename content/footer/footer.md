@@ -49,7 +49,7 @@ items:
     - name: About Farming
       link: https://threefold.io/farming
     - name: How Farming works
-      link: https://threefold.io/farming/how_it_works
+      link: https://threefold.io/farming/farming
     - name: What is TFT?
       link: https://threefold.io/token
     - name: Live Capacity

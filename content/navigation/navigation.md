@@ -77,16 +77,13 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: The ThreeFold Grid
-        path: /farming/about
-        external: true
 
       - title: About Farming
         path: /farming
         external: true
 
       - title: How Farming works
-        path: /farming/how_it_works
+        path: /farming/farming
         external: true
 
       - title: What is TFT?
