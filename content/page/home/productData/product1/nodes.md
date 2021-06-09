@@ -1,9 +1,11 @@
 ---
 id: nodes_home
-title: SET UP A NODE
-image: ./nodes.png
-button: Let's Do This!
-url: https://threefold.io/farming/3node
+title:  Kubernetes Cloud
+image: ./kubernetes_cloud.png
+button: Learn More
+url: https://threefold.io/info/cloud#/cloud__evdc
 ---
 
-Plug in a 3Node and earn income by selling decentralized storage to people looking for a more secure hosting space.
+First Peer-to-Peer Kubernetes compatible cloud solution on the market. Comes with Docker and other developer favorites.
+
+<br>

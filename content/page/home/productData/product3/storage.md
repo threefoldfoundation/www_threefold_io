@@ -1,9 +1,11 @@
 ---
 id: storage_home
-title: GET STORAGE
-image: ./storage.png
-button: Make Me Safer!
-url: https://threefold.io/cloud
+title: Digital Twin
+image: ./digita_twin.png
+button: Learn More
+url: https://threefold.io/info/cloud#/cloud__threefold_filesystem
 ---
 
-Say goodbye to security concerns and move all your workloads easily to a more secure and private decentralized cloud.
+Your digital avatar that gives you access to secure and private communication, socials and office tools.
+
+<br>

@@ -27,7 +27,7 @@
         :features="$page.markdownPage.features2"
       />
 
-      <Partenerships
+      <Partenerships class="lg:mt-20"
         v-if="
           $page.markdownPage.partnerships &&
           $page.markdownPage.partnerships.length > 0
@@ -48,23 +48,33 @@
         v-if="$page.markdownPage.brandPanel"
       />
 
-      <CallToAction
+      <!-- <CallToAction
         v-if="$page.markdownPage.cta2"
         :cta="$page.markdownPage.cta2"
         :id="$page.markdownPage.id"
+      /> -->
+
+       <ShowcaseProducts
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
       />
     </div>
-    <g-image
+    <!-- <g-image
       class="mx-auto"
       v-if="$page.markdownPage.solution_image2"
       :src="$page.markdownPage.solution_image2.src"
-    />
+    /> -->
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <CallToAction
+      <!-- <CallToAction
         v-if="$page.markdownPage.cta3"
         :cta="$page.markdownPage.cta3"
         :id="$page.markdownPage.id"
-      />
+      /> -->
 
       <Blogs
         v-if="$page.markdownPage.blogs || $page.markdownPage.BlogsMain"

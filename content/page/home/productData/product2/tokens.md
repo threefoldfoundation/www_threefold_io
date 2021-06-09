@@ -1,9 +1,11 @@
 ---
 id: tokens_home
-title: GET TOKEN
-image: ./tokens.png
-button: Yes Please!
-url: /token
+title: Quantum-Safe Storage
+image: ./quantum_safe_storage.png
+button: Learn More
+url: https://threefold.io/info/cloud#/cloud__threefold_filesystem
 ---
 
-Get your hands on the ThreeFold Token (TFT), the only digital currency backed by the world’s fastest growing P2P network.
+An unbreakable Filestystem compatible with all storage protocols and tools for app data, videos, public datasets, security archives and more.
+
+
