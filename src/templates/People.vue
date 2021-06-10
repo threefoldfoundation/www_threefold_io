@@ -14,14 +14,30 @@
           :record="person.node"
         />
       </div>
+      <div class="text-center" v-if="$page.entries.edges.length == 0">
+        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">No results</h2>
+      </div>
+    </div>
+    <div class="pagination flex justify-center mb-8">
+      <Pagination
+        :baseUrl="baseurl"
+        :currentPage="$page.entries.pageInfo.currentPage"
+        :totalPages="$page.entries.pageInfo.totalPages"
+        :maxVisibleButtons="5"
+        v-if="$page.entries.pageInfo.totalPages > 1 && $page.entries.edges.length > 0"
+      />
     </div>
   </Layout>
 </template>
 
 <page-query>
-query ($private: Int){
-  entries: allPerson (sortBy: "rank", order: ASC, filter: { private: { ne: $private }, category: { contains: ["foundation"]}}){
+query($page: Int){
+  entries: allPerson (perPage: 25, page: $page, sortBy: "rank", order: ASC, filter: {category: { contains: ["foundation"]}}) @paginate{
     totalCount
+    pageInfo {
+      totalPages
+      currentPage
+    }
     edges {
       node {
         path
@@ -65,11 +81,13 @@ query ($private: Int){
 <script>
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
 import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
+import Pagination from "~/components/custom/Pagination.vue";
 
 export default {
   components: {
     PostListItem,
     TagFilterHeader,
+    Pagination
   },
   metaInfo() {
     return {
@@ -128,6 +146,9 @@ export default {
         img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
       }
       return img;
+    },
+    baseurl: function () {
+      return "/people/";
     },
   },
 };
