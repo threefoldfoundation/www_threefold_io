@@ -57,7 +57,7 @@ navLinks:
         external: true
 
       - title: Buy the Token
-        path: /token
+        path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
 
       - title: Test the Cloud
         path: /cloud

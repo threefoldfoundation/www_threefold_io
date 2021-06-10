@@ -34,7 +34,7 @@ items:
     - name: Start Farming
       link: https://threefold.io/farming/get_3node
     - name: Buy the Token
-      link: /token
+      link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
     - name: Test the Cloud
       link: https://threefold.io/cloud
     - name: Try the Marketplace
