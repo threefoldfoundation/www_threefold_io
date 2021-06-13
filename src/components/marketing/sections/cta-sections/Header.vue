@@ -104,7 +104,7 @@
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
         </div>
       </div>
-      <div class="lg:w-3/5 px-2"><g-image :src="img" :alt="altImg" /></div>
+      <div class="lg:w-3/5 px-2 self-center	"><g-image :src="img" :alt="altImg" /></div>
     </div>
   </section>
 </template>
