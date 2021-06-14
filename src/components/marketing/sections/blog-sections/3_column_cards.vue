@@ -1,6 +1,16 @@
 <template>
   <div
-    class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"
+    class="
+      relative
+      bg-gray-50
+      pt-16
+      pb-20
+      px-4
+      sm:px-6
+      lg:pt-24
+      lg:pb-28
+      lg:px-8
+    "
   >
     <div class="absolute inset-0">
       <div class="bg-white h-1/3 sm:h-2/3"></div>
@@ -8,7 +18,15 @@
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
         <h2
-          class="text-4xl leading-tight mb-6 font-bold font-heading uppercase sm:text-4xl sm:leading-10"
+          class="
+            text-4xl
+            leading-tight
+            mb-6
+            font-bold font-heading
+            uppercase
+            sm:text-4xl
+            sm:leading-10
+          "
         >
           {{ main.title }}
         </h2>
@@ -92,9 +110,6 @@ export default {
       if (image.src) return image.src;
       return image;
     },
-  },
-  mounted() {
-    console.log(this.blogs);
   },
 };
 </script>

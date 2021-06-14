@@ -272,6 +272,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'FAQMain',
+                path: './content/page/**/faq/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'FAQContent',
+                path: './content/page/**/faq/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -314,7 +330,9 @@ module.exports = {
                     stats: 'Stats',
                     videoPanel: 'VideoPanel',
                     blogs: 'Blogs',
-                    BlogsMain: "BlogsMain"
+                    BlogsMain: "BlogsMain",
+                    faqMain: 'FAQMain',
+                    faqContent: 'FAQContent'
                 }
             }
         },

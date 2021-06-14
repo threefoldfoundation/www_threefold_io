@@ -27,7 +27,8 @@
         :features="$page.markdownPage.features2"
       />
 
-      <Partenerships class="lg:mt-20"
+      <Partenerships
+        class="lg:mt-20"
         v-if="
           $page.markdownPage.partnerships &&
           $page.markdownPage.partnerships.length > 0
@@ -54,7 +55,7 @@
         :id="$page.markdownPage.id"
       /> -->
 
-       <ShowcaseProducts
+      <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
@@ -87,6 +88,11 @@
         :news="$page.markdownPage.inTheNews"
       />
 
+      <CenteredAccordion
+        v-if="$page.markdownPage.faqContent"
+        :main="$page.markdownPage.faqMain"
+        :faqs="$page.markdownPage.faqContent"
+      />
       <!-- <SignUp
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
@@ -351,6 +357,15 @@
           btn3
           image
         }
+        faqMain{
+          id
+          title
+        }
+        faqContent{
+          id
+          question
+          content
+        }
     }  
   }
 
@@ -382,6 +397,7 @@ import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_gri
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import VideoPanel from "~/components/custom/VideoPanel.vue";
 import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
+import CenteredAccordion from "~/components/marketing/sections/faq-sections/CenteredAccordion.vue";
 
 export default {
   components: {
@@ -403,6 +419,7 @@ export default {
     Blogs,
     VideoPanel,
     Partenerships,
+    CenteredAccordion,
   },
   computed: {
     getImg() {
