@@ -70,7 +70,7 @@
             <div class="mt-6 flex items-center">
               <div class="flex-shrink-0">
                 <a :href="blog.autherUrl">
-                  <g-image
+                  <img
                     class="h-10 w-10 rounded-full"
                     :src="img(blog.authorImg)"
                     alt=""
