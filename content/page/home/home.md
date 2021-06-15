@@ -43,8 +43,6 @@ partenershipsMain: home_partenerships_main
 partnerships: [tag, solidaridad , threefold]
 BlogsMain: blog_main
 blogs: [zero_os_blog, smart_contract_blog, threefold_regenerates]
-faqMain: homeFAQ
-faqContent: [q1, q2, q3, q4, q5, q6]
 ---
 
 <!-- header: home_header

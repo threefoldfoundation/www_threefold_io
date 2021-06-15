@@ -146,6 +146,10 @@ navLinks:
         path: https://forum.threefold.io
         external: true
 
+      - title: FAQ
+        path: /faq
+        external: false
+
       - title: Contact Us
         path: "mailto:info@threefold.io"
         external: true

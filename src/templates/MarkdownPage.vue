@@ -30,7 +30,7 @@
         "
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
-      /> -->
+      /> --> 
 
       <TFTFuel
         v-if="
@@ -84,6 +84,12 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
+      />
+
+      <CenteredAccordion
+        v-if="$page.markdownPage.faqContent"
+        :main="$page.markdownPage.faqMain"
+        :faqs="$page.markdownPage.faqContent"
       />
 
       <CallToAction
@@ -216,6 +222,15 @@
          img
          content
        }
+      faqMain{
+          id
+          title
+      }
+      faqContent{
+          id
+          question
+          content
+      }
     }
   }
 
@@ -241,6 +256,7 @@ import WithComparisonTable from "~/components/marketing/sections/pricing/with_co
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
 import AppListItem from "~/components/AppListItem.vue";
 import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
+import CenteredAccordion from "~/components/marketing/sections/faq-sections/CenteredAccordion.vue";
 
 export default {
   components: {
@@ -263,6 +279,7 @@ export default {
     BrandPanel,
     AppListItem,
     Partenerships,
+    CenteredAccordion,
   },
   computed: {
     getImg() {
