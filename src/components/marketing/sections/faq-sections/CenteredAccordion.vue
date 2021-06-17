@@ -67,9 +67,9 @@
                   </span>
                 </button>
               </dt>
-              <dd class="mt-2 pr-12" v-if="active == index">
+              <dd class="mt-6 pr-12" v-if="active == index">
                 <div
-                  class="text-base leading-6 text-gray-700 post-content"
+                  class="text-base leading-6 text-gray-600 post-content"
                   v-html="faq.content"
                 ></div>
               </dd>
