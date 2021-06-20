@@ -10,7 +10,7 @@ header_altImg: threefold
 header_excerpt: ThreeFold is the engine for a planet positive and data sovereign Internet. A collaborative movement of people who care about a better future.
 button: ''
 link: ''
-solution_image2: ./qsfs.svg
+
 cta2: home_cta2
 productsMain: product
 productData: [nodes_home, tokens_home, storage_home]
@@ -23,7 +23,7 @@ comparisonMain: comparison
 comparisonSecs: [private, equal, sustainable]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 inTheNews: in_the_news
-solution_image: ./cta_image.svg
+solution_image: ./cta_image.png
 cta: home_cta
 videoPanel: home_videoPanel
 stats: stats
@@ -51,3 +51,5 @@ solution_image: ./home_header.png -->
 
 <!-- solution_image3: ./carbon_neutral.png
 header: carbon_neutral -->
+
+<!-- solution_image2: ./qsfs.svg -->
