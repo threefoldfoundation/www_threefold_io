@@ -17,7 +17,7 @@ RUN sudo apt-get clean && sudo rm -rf /var/cache/apt/* && sudo rm -rf /var/lib/a
 RUN whoami
 RUN pwd && ls -lah
 
-RUN cd /tmp && wget https://raw.githubusercontent.com/hossnys/www_threefold_io/development/sites.json && sudo publishtools install || echo "try 1"
+RUN cd /tmp && wget https://raw.githubusercontent.com/threefoldfoundation/www_threefold_io/development/sites.json && sudo publishtools install || echo "try 1"
 USER root
 RUN cd /tmp &&  sudo publishtools install --reset
 
