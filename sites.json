@@ -1,0 +1,55 @@
+[{
+		"name":	"www_threefold_io",
+		"url":	"https://github.com/threefoldfoundation/www_threefold_io",
+		"branch":	"",
+		"pull":	false,
+		"reset":	false,
+		"cat":	2,
+		"shortname":	"threefold",
+		"path_code":	"",
+		"domains":	["www.threefold.io", "www.threefold.me", "threefold.me", "new.threefold.io", "staging.threefold.io", "threefold.io"],
+		"descr":	"is our entry point for everyone, redirect to the detailed websites underneith.",
+		"groups":	[{
+				"name":	"tf1",
+				"members_users":	["kristof", "adnan", "rob"],
+				"members_groups":	[]
+			}, {
+				"name":	"tf2",
+				"members_users":	["polleke"],
+				"members_groups":	["tf1"]
+			}],
+		"acl":	[],
+		"trackingid":	"",
+		"opengraph":	{
+			"title":	"",
+			"description":	"",
+			"url":	"",
+			"type_":	"article",
+			"image":	"",
+			"image_width":	"1200",
+			"image_height":	"630"
+		}
+	}, {
+		"name":	"data_threefold",
+		"url":	"https://github.com/threefoldfoundation/data_threefold",
+		"branch":	"",
+		"pull":	false,
+		"reset":	false,
+		"cat":	1,
+		"shortname":	"data",
+		"path_code":	"",
+		"domains":	[],
+		"descr":	"",
+		"groups":	[],
+		"acl":	[],
+		"trackingid":	"",
+		"opengraph":	{
+			"title":	"",
+			"description":	"",
+			"url":	"",
+			"type_":	"article",
+			"image":	"",
+			"image_width":	"1200",
+			"image_height":	"630"
+		}
+	}]
