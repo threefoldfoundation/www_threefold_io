@@ -11,7 +11,7 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: Introduction
+      - title: Grid Introduction
         path: https://threefold.io/farming/
         external: true
       - title: Start Farming
@@ -29,15 +29,15 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: Introduction
+      - title: Token Introduction
         path: /token
-      - title: Buy TFT
+      - title: How to buy TFT
         path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
         external: true
-      - title: Tokenomics
+      - title: ThreeFold Tokenomics
         path: https://threefold.io/info/threefold#/threefold__tokenomics
         external: true
-      - title: Distribution
+      - title: Token Distribution
         path: https://threefold.io/info/threefold#/threefold__token_overview
         external: true
       - title: FAQ
@@ -55,7 +55,7 @@ navLinks:
       - title: Quantum-Safe Storage
         path: https://threefold.io/info/cloud#/cloud__threefold_filesystem
         external: true
-      - title: Marketplace
+      - title: ThreeFold Marketplace
         path: https://threefold.io/marketplace
         external: true
       - title: Digital Twin
@@ -67,13 +67,10 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: Web2/Web3/P2P
-        path: https://threefold.io/info/threefold#/threefold__grid_compare
-        external: true
       - title: Grid Technology
         path: https://threefold.io/info/threefold#/internet4__zos_3node_tfgrid_intro
         external: true
-      - title: Operating System
+      - title: Zero-OS
         path: https://threefold.io/info/threefold#/internet4__tfgrid_primitives
         external: true
       - title: Smart Contract for IT
@@ -81,6 +78,9 @@ navLinks:
         external: true
       - title: P2P Network
         path: https://threefold.io/info/threefold#/internet4__planetary_network
+        external: true
+      - title: Web2 vs Web3 vs P2P
+        path: https://threefold.io/info/threefold#/threefold__grid_compare
         external: true
       - title: FAQ
         path: https://forum.threefold.io/c/technical-discussion/technical-faq/55
