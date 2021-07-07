@@ -321,6 +321,8 @@
           video
           title
           content
+          btn
+          link
         }
         partenershipsMain{
          id
