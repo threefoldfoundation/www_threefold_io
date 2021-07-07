@@ -12,8 +12,6 @@ telegram: 'https://t.me/threefoldnews'
 items:
  - title: TF Universe
    links:
-    - name: Universe Home
-      link: /universe
     - name: ThreeFold Token
       link: /token
     - name: ThreeFold Farming
@@ -46,22 +44,20 @@ items:
  
  - title: LEARN
    links:
-    - name: About Farming
-      link: https://threefold.io/farming
-    - name: How Farming works
-      link: https://threefold.io/farming/farming
-    - name: What is TFT?
-      link: https://threefold.io/token
-    - name: Live Capacity
-      link: https://explorer.threefold.io
-    - name: What is the Internet?
-      link: https://info.threefold.io/info/threefold#/threefold__grid_intro
-    - name: Planet Positive
-      link: /blog/post/threefold_regenerates/
-    - name: Peer-to-Peer
-      link: /blog/post/what_is_peer_to_peer
-    - name: Data Sovereignty
-      link: /blog/post/threefold_data_sovereignty/
+    - name: The Grid
+      link: https://threefold.io/info/threefold#/threefold__grid_home
+    - name: Technology
+      link: https://threefold.io/info/threefold#/internet4__technology
+    - name: Farming
+      link: https://threefold.io/info/threefold#/threefold__farming_home
+    - name: Token
+      link: https://threefold.io/info/threefold#/threefold__token_home
+    - name: Carbon Double Win
+      link: https://threefold.io/info/threefold#/threefold__energy_savings
+    - name: Manuals
+      link: https://threefold.io/info/threefold#/threefold__wiki_overview
+    - name: Releases
+      link: https://threefold.io/info/threefold#/threefold__release_mgmt
     - name: ThreeFold Glossary
       link: https://threefold.io/info/threefold#/threefold__defs
 

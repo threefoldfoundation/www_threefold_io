@@ -101,11 +101,6 @@ navLinks:
         path: /aci
         external: true
 
-  - name: Participate
-    link: /universe 
-    external: false
-    expandable: false
-
   - name: More Info
     link: "" # /dropdown
     external: false
