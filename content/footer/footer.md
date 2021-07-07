@@ -27,7 +27,7 @@ items:
     - name: ThreeFold Tech
       link: https://threefold.tech
   
- - title: PARTICIPATE
+ - title: Participate
    links:
     - name: Start Farming
       link: https://threefold.io/farming/get_3node
@@ -42,7 +42,7 @@ items:
     - name: Testing Community
       link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
  
- - title: LEARN
+ - title: Learn
    links:
     - name: The Grid
       link: https://threefold.io/info/threefold#/threefold__grid_home
@@ -61,7 +61,7 @@ items:
     - name: ThreeFold Glossary
       link: https://threefold.io/info/threefold#/threefold__defs
 
- - title: ABOUT US
+ - title: About Us
    links:
     - name: ThreeFold
       link: https://threefold.io/info/threefold
@@ -75,7 +75,6 @@ items:
       link: /news
     - name: Forum
       link: https://forum.threefold.io/
- 
     - name: Contact Us
       link: 'mailto:info@threefold.io'
 ---
