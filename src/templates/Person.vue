@@ -221,12 +221,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.post-card-excerpt,
-.post-content-text,
-.post-content-text h2 {
-  font-family: "Poppins", sans-serif !important;
-  line-height: 1.5;
-}
-</style>
