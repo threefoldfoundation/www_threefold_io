@@ -88,7 +88,7 @@
           "
         >
           <div
-            class="post-content-text text-xl"
+            class="post-content-text text-lg"
             v-html="$page.blog.content"
           ></div>
         </section>
