@@ -24,7 +24,15 @@
                     <g-image
                       :src="author.image"
                       :alt="author.name"
-                      class="h-8 w-8 sm:h-10 sm:w-10 rounded-full bg-gray-200 border-2 border-white"
+                      class="
+                        h-8
+                        w-8
+                        sm:h-10
+                        sm:w-10
+                        rounded-full
+                        bg-gray-200
+                        border-2 border-white
+                      "
                     />
                   </g-link>
                 </li>
@@ -70,7 +78,14 @@
 
       <div class="py-12">
         <section
-          class="post-content container mx-auto relative font-serif text-gray-700"
+          class="
+            post-content
+            container
+            mx-auto
+            relative
+            font-serif
+            text-gray-700
+          "
         >
           <div
             class="post-content-text text-xl"
@@ -83,7 +98,19 @@
             v-for="tag in $page.blog.tags"
             :key="tag.id"
             :to="tag.path"
-            class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+            class="
+              text-xs
+              bg-transparent
+              hover:text-blue-700
+              py-2
+              px-4
+              mr-2
+              border
+              hover:border-blue-500
+              border-gray-600
+              text-gray-700
+              rounded-full
+            "
             >{{ tag.title }}</g-link
           >
         </section>
@@ -167,15 +194,11 @@
         path
       }
     }
-
-
-    
   }
 </page-query>
 
 <script>
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
-
 
 export default {
   components: {
@@ -186,15 +209,14 @@ export default {
       title: this.$page.blog.title,
     };
   },
-
 };
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .post-card-excerpt,
-.post-content-text {
-  font-family: "Roboto", sans-serif !important;
-  line-height: 1.2;
+.post-content-text,
+.post-content-text h2 {
+  font-family: "Poppins", sans-serif !important;
+  line-height: 1.5;
 }
 </style>

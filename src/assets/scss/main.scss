@@ -7,6 +7,8 @@
   font-display: swap;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
 blockquote {
   @apply border-l;
   @apply border-l-4;
@@ -23,20 +25,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-body h2 {
-  font-family: "Roboto", sans-serif;
-}
-
 h1 {
   font-family: "Roboto", sans-serif;
 }
 
 body {
   padding-top: 60px;
-}
-
-body p {
-  font-family: "Roboto", sans-serif;
 }
 
 .act-link {

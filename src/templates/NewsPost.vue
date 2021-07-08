@@ -186,10 +186,10 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .post-card-excerpt,
-.post-content-text {
-  font-family: "Roboto", sans-serif !important;
-  line-height: 1.2;
+.post-content-text,
+.post-content-text h2 {
+  font-family: "Poppins", sans-serif !important;
+  line-height: 1.5;
 }
 </style>
