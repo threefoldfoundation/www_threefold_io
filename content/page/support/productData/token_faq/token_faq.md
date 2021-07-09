@@ -1,7 +1,7 @@
 ---
 id: token_faq
 title: Token FAQ
-image: ./q.png
+image: ./placeholder.png
 button: FAQ
 url: https://mydigitaltwin.io/
 ---
