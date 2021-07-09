@@ -16,7 +16,7 @@
 
       <Map
         v-if="$page.markdownPage.stats"
-        :section="$page.markdownPage.stats"
+        :section="$page.markdownPage.stats" 
       />
     </div>
 

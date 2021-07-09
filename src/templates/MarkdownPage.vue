@@ -103,6 +103,47 @@
         v-if="$page.markdownPage.cta2"
         :cta="$page.markdownPage.cta2"
       />
+
+      <ShowcaseProducts
+        v-if="
+          $page.markdownPage.productData2 &&
+          $page.markdownPage.productData2.length > 0
+        "
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.productsMain2"
+        :products="$page.markdownPage.productData2"
+      />
+
+      <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
+      />
+
+      <g-image
+        v-if="$page.markdownPage.solution_image2"
+        :src="$page.markdownPage.solution_image2.src"
+      />
+
+      <SolutionsHeader
+        v-if="$page.markdownPage.header2"
+        :header="$page.markdownPage.header2"
+      />
+
+      <SolutionsHeader
+        v-if="$page.markdownPage.header3"
+        :header="$page.markdownPage.header3"
+      />
+
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :logos="$page.markdownPage.logos"
+      />
+
+      <GetInTouch
+        :contacts="$page.markdownPage.contactData"
+        v-if="$page.markdownPage.contactData.length > 0"
+      />
+
     </div>
 
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"></div>
@@ -126,6 +167,34 @@
         button
         link
         solution_image
+        solution_image2
+        header{
+         title
+         subtitle
+         content
+         btn1
+         link1
+         btn2
+         link2
+       }
+        header2{
+         title
+         subtitle
+         content
+         btn1
+         link1
+         btn2
+         link2
+       }
+        header3{
+         title
+         subtitle
+         content
+         btn1
+         link1
+         btn2
+         link2
+       }
        productsMain{
           id
           title
@@ -136,6 +205,23 @@
        #  image
         }
        productData{
+         id
+         title
+         content
+         image
+         button
+         link
+       }
+       productsMain2{
+          id
+          title
+          subtitle
+          content
+          button
+          link
+       #  image
+        }
+       productData2{
          id
          title
          content
@@ -175,6 +261,7 @@
         logos{
           id
           image
+          url
         }
         cta{
           title
@@ -230,6 +317,12 @@
           id
           question
           content
+      }
+      contactData{
+         id
+         title
+         mail
+         phone
       }
     }
   }

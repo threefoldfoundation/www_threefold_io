@@ -1,6 +1,6 @@
 <template>
   <div class="py-0 mb-5 mx-4">
-    <div class="text-center mx-auto my-4" v-if="id == 'why'">
+    <div class="text-center mx-auto my-4" v-if="id == 'why'"> 
       <h1 class="text-4xl text-gray-900 font-light sm:text-9xl sm:leading-10">
         {{ main.title }} <span class="font-extrabold">{{ main.subtitle }}</span>
       </h1>
@@ -26,7 +26,7 @@
       class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center"
       v-if="id == 'token'"
     >
-      <a
+      <a 
         v-for="(product, idx) in products"
         target="_blank"
         :key="idx"
@@ -117,7 +117,7 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 text-center" v-else>
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center" v-else>
       <a
         v-for="(product, idx) in products"
         target="_blank"
@@ -132,13 +132,14 @@
         </div>
       </a>
     </div>
+    
     <div v-if="main.button" class="my-10 text-center">
-      <!-- <a
+      <a
         v-if="main.button"
         class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
         :href="main.link"
         >{{ main.button }}</a
-      > -->
+      >
 
       <a
         v-if="main.link.includes('http')"

@@ -14,7 +14,7 @@
 
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
       <a
-        v-for="(product, idx) in products"
+        v-for="(product, idx) in products"  
         target="_blank"
         :key="idx"
         :href="product.url"
