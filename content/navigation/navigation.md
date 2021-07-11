@@ -13,19 +13,19 @@ navLinks:
     submenu:
       - title: Token Introduction
         path: /token
-      - title: How to buy TFT
+      - title: Buy TFT
         path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
         external: true
-      - title: ThreeFold Tokenomics
+      - title: Tokenomics
         path: https://threefold.io/info/threefold#/threefold__tokenomics
         external: true
-      - title: Token Distribution
+      - title: Distribution
         path: https://threefold.io/info/threefold#/threefold__token_overview
         external: true
       - title: FAQ
         path: https://forum.threefold.io/c/threefold-token/tft-faq/57
         external: true
-
+  
   - name: Farming
     link: "" # /dropdown
     external: false
