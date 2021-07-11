@@ -102,7 +102,7 @@ navLinks:
         path: https://forum.threefold.io/c/technical-discussion/technical-faq/55
         external: true
 
-  - name: Collaborators
+  - name: Community
     link: "" # /dropdown
     external: false
     expandable: true
