@@ -1,10 +1,16 @@
-FROM threefolddev/publishtools:latest
 
-ENV DEBIAN_FRONTEND=noninteractive
+
+FROM gitpod/workspace-full:latest
+
+USER root
+RUN apt-get update && apt-get install -y mc
+
+ADD gitpod/install.sh /tmp/install.sh
+
+RUN bash /tmp/install.sh
+
+# RUN apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
+
 USER gitpod
 
-RUN cd /tmp && wget https://raw.githubusercontent.com/threefoldfoundation/www_threefold_io/development/sites.json && sudo publishtools update && sudo publishtools install || echo "try 1"
-USER root
-RUN cd /tmp &&  sudo publishtools install --reset
-
-ENTRYPOINT [ "entrypoint.sh" ]
+# ENTRYPOINT [ "/usr/bin/bash" ]
