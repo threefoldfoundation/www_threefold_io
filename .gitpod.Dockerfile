@@ -6,7 +6,7 @@ USER root
 RUN apt-get update && apt-get install -y mc rsync 
 
 ADD gitpod/install_docker.sh /tmp/install_docker.sh
-ADD gitpod/package.json /tmp/package.json
+ADD package.json /tmp/package.json
 
 RUN bash /tmp/install_docker.sh
 
