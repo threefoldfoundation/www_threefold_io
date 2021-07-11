@@ -18,6 +18,8 @@ rm -rf .cache
 nvm install --lts
 nvm use --lts
 
+npm install --global @gridsome/cli
+
 cd /workspace
 git clone https://github.com/threefoldfoundation/data_threefold
 

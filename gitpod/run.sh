@@ -19,7 +19,9 @@ rm -f yarn.lock
 rm -rf .cache
 
 #copy from the docker image to speedup
-rsync -rav --delete $base/node_modules/ node_modules/ 
+echo "sync node modules to website"
+rsync -ra --delete $base/node_modules/ node_modules/ 
+echo "done"
 
 #make sure all modules are there
 npm install
