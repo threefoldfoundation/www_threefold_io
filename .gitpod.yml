@@ -3,7 +3,11 @@ image:
 # # Commands to start on workspace startup
 tasks:
     # - init: bash /workspace/www_threefold_io/gitpod/install.sh
-    - command: bash /workspace/www_threefold_io/gitpod/install.sh && bash /workspace/www_threefold_io/gitpod/run.sh
+    - command: rm -f /tmp/install.sh \
+        && curl -s -o /tmp/install.sh  https://raw.githubusercontent.com/threefoldfoundation/data_threefold/development/install.sh \
+        && bash /tmp/install.sh \
+        && bash /workspace/data_threefold/gitpod_scripts/install.sh
+        && bash /workspace/data_threefold/gitpod_scripts/run.sh
 ports:
   - port: 8080
     onOpen: open-browser
