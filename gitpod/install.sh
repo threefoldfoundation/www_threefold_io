@@ -41,4 +41,13 @@ then
 fi
 
 
+rm -f ../content/blog
+ln -s /workspace/data_threefold/content/blog ../content/blog
+rm -f ../content/news
+ln -s /workspace/data_threefold/content/news ../content/news
+rm -f ../content/person
+ln -s /workspace/data_threefold/content/person ../content/person
+rm -f ../content/project
+ln -s /workspace/data_threefold/content/project ../content/project
+
 
