@@ -109,13 +109,14 @@ navLinks:
     submenu:
       - title: Partners
         path: /partners
-
       - title: People
         path: /people
-
       - title: Alliance
         path: /aci
         external: true
+      - title: Telegram
+        path: https://t.me/threefoldnews
+        external: true        
 
   - name: More Info
     link: "" # /dropdown
