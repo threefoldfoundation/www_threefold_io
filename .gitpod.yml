@@ -2,8 +2,8 @@ image:
   file: .gitpod.Dockerfile
 # # Commands to start on workspace startup
 tasks:
-    - init: bash /workspace/www_threefold_io/gitpod/install.sh
-    - command: bash /workspace/www_threefold_io/gitpod/run.sh
+    # - init: bash /workspace/www_threefold_io/gitpod/install.sh
+    - command: bash /workspace/www_threefold_io/gitpod/install.sh && bash /workspace/www_threefold_io/gitpod/run.sh
 ports:
   - port: 8080
     onOpen: open-browser
