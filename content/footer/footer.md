@@ -10,25 +10,24 @@ youtube: 'https://www.youtube.com/threefoldfoundation'
 github: 'https://github.com/threefoldfoundation'
 telegram: 'https://t.me/threefoldnews'
 items:
- - title: TF Universe
+ - title: Threefold Universe
    links:
     - name: ThreeFold Token
       link: /token
     - name: ThreeFold Farming
       link: https://threefold.io/farming
-    - name: Kubernetes Cloud
+    - name: ThreeFold Cloud
       link: https://threefold.io/cloud
-    - name: Quantum-Safe Storage
-      link: https://threefold.io/info/cloud#/cloud__threefold_filesystem
+    - name: Grid Explorer
+      link: https://explorer.threefold.io/      
     - name: ThreeFold Marketplace
       link: https://threefold.io/marketplace
     - name: Digital Twin
       link: https://mydigitaltwin.io
     - name: Alliance
       link: https://threefold.io/aci
-    - name: ThreeFold Tech
-      link: https://threefold.tech
-  
+
+        
  - title: Participate
    links:
     - name: Start Farming
@@ -37,21 +36,19 @@ items:
       link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
     - name: Test the Cloud
       link: https://threefold.io/cloud
-    - name: Try the Marketplace
-      link: https://threefold.io/marketplace
-    - name: Build with the SDK
+    - name: Develop with the SDK (advanced)
       link: https://threefold.io/info/sdk
     - name: Testing Community
       link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
  
- - title: Learn
+ - title: Knowledgebase
    links:
     - name: ThreeFold Grid
       link: https://threefold.io/info/threefold#/threefold__grid_home
     - name: ThreeFold Technology
       link: https://threefold.io/info/threefold#/internet4__technology
     - name: ThreeFold Farming
-      link: https://threefold.io/info/threefold#/threefold__farming_home
+      link: https://threefold.io/info/threefold#/threefold__farming_intro
     - name: ThreeFold Token
       link: https://threefold.io/info/threefold#/threefold__token_home
     - name: Carbon Double Win
@@ -81,8 +78,7 @@ items:
       link: 'mailto:info@threefold.io'
 ---
 
-
-<!-- [Terms & Conditions](https://threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()
+[Terms & Conditions](https://threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()
 
 <br/>
-&#xA9; 2021 ThreeFold, All rights reserved. -->
+&#xA9; 2021 ThreeFold, All rights reserved.

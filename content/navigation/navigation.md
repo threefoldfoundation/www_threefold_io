@@ -43,6 +43,9 @@ navLinks:
       - title: FAQ
         path: https://forum.threefold.io/c/farming/farming-faq/53
         external: true
+      - title: Explorer
+        path: https://explorer.threefold.io/
+        external: true            
   
   - name: Use
     link: "https://cloud.threefold.io/"
@@ -51,10 +54,10 @@ navLinks:
     submenu:
       - title: Partners
         path: /partners    
-      - title: ThreeFold Cloud
+      - title: Cloud
         path: https://cloud.threefold.io
         external: true      
-      - title: ThreeFold Marketplace
+      - title: Marketplace
         path: https://threefold.io/marketplace
         external: true
       - title: Digital Twin
@@ -119,6 +122,9 @@ navLinks:
     external: false
     expandable: true
     submenu:
+      - title: KnowledgeBase
+        path: https://wiki.threefold.io
+        external: true         
       - title: Blog
         path: /blog
       - title: NewsRoom
@@ -129,9 +135,9 @@ navLinks:
       - title: FAQ
         path: /faq
         external: false
-      - title: Contact Us
-        path: "mailto:info@threefold.io"
-        external: true
+      - title: Explorer
+        path: https://explorer.threefold.io/
+        external: true    
 
 social:
   - icon: telegram-plane
