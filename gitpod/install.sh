@@ -1,24 +1,20 @@
-set -ex
-sudo chown gitpod:gitpod -R /tmp
+set -e
+
 
 export base=/nodejs
-export lts=14.17.3
 
-echo $base
-sudo mkdir -p $base
-sudo chown gitpod:gitpod -R $base
+export PATH=$base/bin:$PATH
+
+source $base/nvm.sh
+
 cd $base
 
-rm -f $base/nvm.sh
-curl -s -o nvm.sh https://raw.githubusercontent.com/nvm-sh/nvm/master/nvm.sh
-bash nvm.sh
+rm -f yarn.lock
+rm -rf .cache		
 
-export NVM_DIR=$base
-source $base/nvm.sh
 nvm install --lts
 nvm use --lts
 
-cp /tmp/package.json .
+cd /workspace
+git clone https://github.com/threefoldfoundation/data_threefold
 
-npm install --global @gridsome/cli
-npm install

@@ -16,3 +16,5 @@ yarn.lock
 .installed
 package-lock.json
 dist
+.temp
+
