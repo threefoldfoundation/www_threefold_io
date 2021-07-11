@@ -1,7 +1,10 @@
 set -e
 
 
+
 export base=/nodejs
+
+sudo chown gitpod:gitpod -R $base
 
 export PATH=$base/bin:$PATH
 

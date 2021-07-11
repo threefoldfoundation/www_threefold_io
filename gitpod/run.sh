@@ -3,6 +3,8 @@ set -e
 
 export base=/nodejs
 
+
+
 export PATH=$base/bin:$PATH
 
 source $base/nvm.sh
