@@ -15,7 +15,7 @@ bash nvm.sh
 
 export NVM_DIR=$base
 source $base/nvm.sh
-nvm install $lts
+nvm install --lts
 nvm use --lts
 
 cp /tmp/package.json .

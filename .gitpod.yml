@@ -2,7 +2,7 @@ image:
   file: .gitpod.Dockerfile
 # # Commands to start on workspace startup
 tasks:
-    - command: sudo /etc/init.d/redis-server start && sudo publishtools develop --repo www_threefold_io   
+    - command: run.sh
 ports:
   - port: 8080
     onOpen: open-browser
