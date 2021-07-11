@@ -6,7 +6,27 @@ navLinks:
     external: false
     expandable: false
 
-  - name: Grid
+  - name: Token
+    link: ""
+    external: false
+    expandable: true
+    submenu:
+      - title: Token Introduction
+        path: /token
+      - title: Buy TFT
+        path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+        external: true
+      - title: Tokenomics
+        path: https://threefold.io/info/threefold#/threefold__tokenomics
+        external: true
+      - title: Distribution
+        path: https://threefold.io/info/threefold#/threefold__token_overview
+        external: true
+      - title: FAQ
+        path: https://forum.threefold.io/c/threefold-token/tft-faq/57
+        external: true
+  
+  - name: Farming
     link: "" # /dropdown
     external: false
     expandable: true
@@ -24,43 +44,36 @@ navLinks:
         path: https://forum.threefold.io/c/farming/farming-faq/53
         external: true
   
-  - name: Token
-    link: ""
-    external: false
-    expandable: true
-    submenu:
-      - title: Token Introduction
-        path: /token
-      - title: How to buy TFT
-        path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
-        external: true
-      - title: ThreeFold Tokenomics
-        path: https://threefold.io/info/threefold#/threefold__tokenomics
-        external: true
-      - title: Token Distribution
-        path: https://threefold.io/info/threefold#/threefold__token_overview
-        external: true
-      - title: FAQ
-        path: https://forum.threefold.io/c/threefold-token/tft-faq/57
-        external: true
-
   - name: Use
-    link: ""
-    external: false
+    link: "https://cloud.threefold.io/"
+    external: true
     expandable: true
     submenu:
-      - title: Kubernetes Cloud
-        path: https://threefold.io/info/cloud#/cloud__evdc
-        external: true
-      - title: Quantum-Safe Storage
-        path: https://threefold.io/info/cloud#/cloud__threefold_filesystem
-        external: true
+      - title: Partners
+        path: /partners    
+      - title: ThreeFold Cloud
+        path: https://cloud.threefold.io
+        external: true      
       - title: ThreeFold Marketplace
         path: https://threefold.io/marketplace
         external: true
       - title: Digital Twin
         path: https://mydigitaltwin.io/
         external: true
+      - title: Developers (SDK)
+        path: https://sdk.threefold.io/
+        external: true
+      # - title: Kubernetes Cloud
+      #   path: https://threefold.io/info/cloud#/cloud__evdc
+      #   external: true
+      # - title: Quantum-Safe Storage
+      #   path: https://threefold.io/info/cloud#/cloud__threefold_filesystem
+      #   external: true
+
+  # - name: Partners
+  #   link: "/partners" # /dropdown
+  #   external: false
+  #   expandable: false
 
   - name: Technology
     link: "" # /dropdown
@@ -68,7 +81,7 @@ navLinks:
     expandable: true
     submenu:
       - title: Grid Technology
-        path: https://threefold.io/info/threefold#/internet4__zos_3node_tfgrid_intro
+        path: https://threefold.io/info/threefold#/internet4__technology
         external: true
       - title: Zero-OS
         path: https://threefold.io/info/threefold#/internet4__tfgrid_primitives
@@ -82,7 +95,7 @@ navLinks:
       - title: Web2 vs Web3 vs P2P
         path: https://threefold.io/info/threefold#/threefold__grid_compare
         external: true
-      - title: FAQ
+      - title: FAQ / Forum
         path: https://forum.threefold.io/c/technical-discussion/technical-faq/55
         external: true
 
