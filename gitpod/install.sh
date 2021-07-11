@@ -20,9 +20,6 @@ nvm use --lts
 
 npm install --global @gridsome/cli
 
-cd /workspace
-git clone https://github.com/threefoldfoundation/data_threefold
-
 #go to the website
 cd /workspace/www_threefold_io
 
@@ -36,3 +33,12 @@ echo "done"
 
 #make sure all modules are there
 npm install
+
+cd /workspace
+if ! [ -d "/workspace/data_threefold" ]
+then
+    git clone https://github.com/threefoldfoundation/data_threefold
+fi
+
+
+
