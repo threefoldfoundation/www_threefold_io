@@ -82,7 +82,7 @@
     >
       <div class="lg:w-2/5 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
         <h2
-          class="text-6xl mb-6 mt-20 leading-none font-extrabold font-heading"
+          class="text-6xl mb-6 mt-20 leading-none font-heading"
         >
           <span class="text-blue-600">{{ slogan }}</span> {{ title }}
         </h2>
