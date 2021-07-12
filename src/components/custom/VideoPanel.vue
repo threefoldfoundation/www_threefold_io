@@ -1,6 +1,6 @@
 <template>
-  <div class="lg:py-20 lg:flex lg:justify-center flex flex-col">
-    <div class="lg:flex lg:rounded-lg lg:px-40">
+  <div class="lg:flex lg:justify-center flex flex-col">
+    <div class="lg:flex lg:rounded-lg">
       <div class="lg:w-1/2">
         <div class="aspect-w-16 aspect-h-9">
           <iframe
@@ -20,14 +20,27 @@
           {{ card.title }}
         </h2>
         <div class="mt-4 text-gray-700" v-html="card.content"></div>
-         <div class="mx-auto mt-6 mb-6" v-if="card.btn">
-      <g-link
-        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-        :to="card.link"
-        >{{ card.btn }}
-      </g-link>
-     
-    </div>
+        <div class="mx-auto mt-6 mb-6" v-if="card.btn">
+          <g-link
+            class="
+              inline-block
+              bg-blue-900
+              text-sm
+              learn-button
+              hover:bg-blue-800
+              text-gray-100
+              px-12
+              py-2
+              mr-5
+              mb-4
+              rounded
+              shadow
+              rounded-full
+            "
+            :to="card.link"
+            >{{ card.btn }}
+          </g-link>
+        </div>
       </div>
     </div>
   </div>
@@ -39,10 +52,7 @@ export default {
 };
 </script>
 <style scoped>
-
-.video_bg{
-
-background-color: #ebfefd;
+.video_bg {
+  background-color: #ebfefd;
 }
-
 </style>

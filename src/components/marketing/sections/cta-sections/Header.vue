@@ -1,5 +1,5 @@
 <template>
-  <section class="py-15 mb-10 px-4 lg:mx-40">
+  <section class="py-15 mb-10 px-4">
     <div
       class="flex flex-wrap text-center items-center lg:mt-20 pb-20 lg:text-left -mx-2"
       v-if="id == 'why'"

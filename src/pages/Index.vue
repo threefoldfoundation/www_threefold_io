@@ -1,6 +1,6 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container-fluid mx-20 sm:pxi-0 overflow-x-hidden">
+    <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
       <Header
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -13,9 +13,7 @@
       />
 
       <VideoPanel :card="$page.markdownPage.videoPanel" />
-    </div>
 
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Map
         v-if="$page.markdownPage.stats"
         :section="$page.markdownPage.stats"
@@ -63,13 +61,11 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-    </div>
     <!-- <g-image
       class="mx-auto"
       v-if="$page.markdownPage.solution_image2"
       :src="$page.markdownPage.solution_image2.src"
     /> -->
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <!-- <CallToAction
         v-if="$page.markdownPage.cta3"
         :cta="$page.markdownPage.cta3"
