@@ -22,7 +22,7 @@ navLinks:
       - title: Distribution
         path: https://threefold.io/info/threefold#/threefold__token_overview
         external: true
-      - title: FAQ
+      - title: FAQ / Forum
         path: https://forum.threefold.io/c/threefold-token/tft-faq/57
         external: true
   
@@ -40,7 +40,7 @@ navLinks:
       - title: Get a 3Node
         path: https://threefold.io/farming/get_3node
         external: true
-      - title: FAQ
+      - title: FAQ / Forum
         path: https://forum.threefold.io/c/farming/farming-faq/53
         external: true
       - title: Explorer
