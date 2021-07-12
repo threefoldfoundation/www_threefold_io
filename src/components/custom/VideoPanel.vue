@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:flex lg:justify-center flex flex-col">
+  <div class="py-10 lg:flex lg:justify-center flex flex-col">
     <div class="lg:flex lg:rounded-lg">
       <div class="lg:w-1/2">
         <div class="aspect-w-16 aspect-h-9">
@@ -19,8 +19,8 @@
         >
           {{ card.title }}
         </h2>
-        <div class="mt-4 text-gray-700" v-html="card.content"></div>
-        <div class="mx-auto mt-6 mb-6" v-if="card.btn">
+        <div class="mt-2 text-gray-700" v-html="card.content"></div>
+        <div class="mx-auto mt-4 mb-6" v-if="card.btn">
           <g-link
             class="
               inline-block
