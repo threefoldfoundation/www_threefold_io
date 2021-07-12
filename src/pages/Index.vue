@@ -13,14 +13,13 @@
       />
 
       <VideoPanel :card="$page.markdownPage.videoPanel" />
-
-      <Map
-        v-if="$page.markdownPage.stats"
-        :section="$page.markdownPage.stats" 
-      />
     </div>
 
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+      <Map
+        v-if="$page.markdownPage.stats"
+        :section="$page.markdownPage.stats"
+      />
       <Features
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.featuresMain2"

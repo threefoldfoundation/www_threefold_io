@@ -1,8 +1,18 @@
 <template>
   <section class="px-2">
-    <div class="flex flex-wrap blue p-12 text-center lg:text-left -mx-2">
+    <div class="flex blue flex-wrap p-12 text-center lg:text-left -mx-2">
       <div
-        class="lg:w-1/4 light-blue text-center rounded-lg py-10 mt-10 lg:mt-0 order-1 lg:order-none"
+        class="
+          lg:w-1/4
+          light-blue
+          text-center
+          rounded-lg
+          py-10
+          mt-10
+          lg:mt-0
+          order-1
+          lg:order-none
+        "
       >
         <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <dl class="">
@@ -19,10 +29,7 @@
                 >
                   {{ value }}
                 </dd>
-                <dt
-                  class="mt-2 text-lg leading-6 font-medium text-white uppercase"
-                  id="item-1"
-                >
+                <dt class="mt-2 leading-6 text-white uppercase" id="item-1">
                   {{ key }}
                 </dt>
               </div>
@@ -31,10 +38,25 @@
         </div>
       </div>
       <div
-        class="lg:w-3/4 text-center rounded lg:px-6 mt-10 lg:mt-0 order-1 lg:order-none"
+        class="
+          lg:w-3/4
+          text-center
+          rounded
+          lg:px-6
+          mt-10
+          lg:mt-0
+          order-1
+          lg:order-none
+        "
       >
         <h2
-          class="text-4xl text-white leading-tight mb-6 font-bold font-heading uppercase"
+          class="
+            text-4xl text-white
+            leading-tight
+            mb-6
+            font-bold font-heading
+            uppercase
+          "
         >
           {{ section.title }}
         </h2>
@@ -46,17 +68,59 @@
         />
         <div class="mx-auto mt-6">
           <g-link
-            class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="
+              inline-block
+              green
+              text-sm
+              learn-button
+              hover:bg-blue-800
+              text-gray-100
+              px-12
+              py-2
+              mr-5
+              mb-4
+              rounded
+              shadow
+              rounded-full
+            "
             :to="section.link1"
             >{{ section.btn1 }}
           </g-link>
           <g-link
-            class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="
+              inline-block
+              green
+              text-sm
+              learn-button
+              hover:bg-blue-800
+              text-gray-100
+              px-12
+              py-2
+              mr-5
+              mb-4
+              rounded
+              shadow
+              rounded-full
+            "
             :to="section.link2"
             >{{ section.btn2 }}</g-link
           >
           <g-link
-            class="inline-block green text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
+            class="
+              inline-block
+              green
+              text-sm
+              learn-button
+              hover:bg-blue-800
+              text-gray-100
+              px-12
+              py-2
+              mr-5
+              mb-4
+              rounded
+              shadow
+              rounded-full
+            "
             :to="section.link3"
             >{{ section.btn3 }}</g-link
           >
@@ -94,11 +158,11 @@ export default {
       );
       let farms = getFarms.data.length;
       let hru = (results.data.hru / 1000).toFixed();
-      let cru = (results.data.cru ).toFixed();
+      let cru = results.data.cru.toFixed();
       this.stats.push(
         { farms: farms },
         { "Storage TB": hru },
-        { "Compute Cores": cru}
+        { "Compute Cores": cru }
       );
     } catch (error) {
       console.log(error);
@@ -117,28 +181,19 @@ export default {
 }
 
 dd {
-  height: 120;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   margin: auto;
   border-radius: 50%;
-  line-height: 120px;
+  line-height: 100px;
   border: 3px solid #847fc2;
   background-color: #313f92;
   color: #dacef5;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .green {
   background-color: #92f5d9;
   color: #313f92;
-}
-
-@media only screen and (min-width: 1800px) {
-  dd {
-  height: 180px;
-  width: 180px;
-  line-height: 180px;
-  font-size: 3rem;
- }
 }
 </style>
