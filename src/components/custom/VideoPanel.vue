@@ -15,7 +15,7 @@
       </div>
       <div class="px-6 lg:w-1/2">
         <h2
-          class="text-4xl leading-tight mb-6 font-bold font-heading uppercase"
+          class="text-4xl leading-tight my-0 font-bold font-heading uppercase"
         >
           {{ card.title }}
         </h2>

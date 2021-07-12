@@ -1,6 +1,6 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
@@ -16,8 +16,6 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
-    </div>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
@@ -30,7 +28,7 @@
         "
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
-      /> --> 
+      /> -->
 
       <TFTFuel
         v-if="
@@ -53,15 +51,13 @@
         :cta="$page.markdownPage.cta"
       />
 
-      <div class="container sm:pxi-0 mx-auto mt-8 overflow-x-hidden">
-        <AppListItem
-          v-if="
-            $page.markdownPage.appData && $page.markdownPage.appData.length > 0
-          "
-          :products="$page.markdownPage.appData"
-          :main="$page.markdownPage.appsMain"
-        />
-      </div>
+      <AppListItem
+        v-if="
+          $page.markdownPage.appData && $page.markdownPage.appData.length > 0
+        "
+        :products="$page.markdownPage.appData"
+        :main="$page.markdownPage.appsMain"
+      />
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -93,7 +89,7 @@
       />
 
       <CallToAction
-      class="mt-20"
+        class="mt-20"
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta3"
         :cta="$page.markdownPage.cta3"
@@ -143,10 +139,7 @@
         :contacts="$page.markdownPage.contactData"
         v-if="$page.markdownPage.contactData.length > 0"
       />
-
     </div>
-
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"></div>
   </Layout>
 </template>
 
