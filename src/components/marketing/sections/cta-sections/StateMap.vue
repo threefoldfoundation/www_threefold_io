@@ -13,7 +13,7 @@
             >
               <div v-for="(value, key) in item" :key="key">
                 <dd
-                  class="text-5xl leading-none font-bold green-color"
+                  class="leading-none font-bold green-color"
                   :class="{ green: index % 2 !== 0 }"
                   aria-describedby="item-1"
                 >
@@ -117,18 +117,28 @@ export default {
 }
 
 dd {
-  height: 180;
-  width: 180px;
+  height: 120;
+  width: 120px;
   margin: auto;
   border-radius: 50%;
-  line-height: 180px;
+  line-height: 120px;
   border: 3px solid #847fc2;
   background-color: #313f92;
   color: #dacef5;
+  font-size: 2rem;
 }
 
 .green {
   background-color: #92f5d9;
   color: #313f92;
+}
+
+@media only screen and (min-width: 1800px) {
+  dd {
+  height: 180px;
+  width: 180px;
+  line-height: 180px;
+  font-size: 3rem;
+ }
 }
 </style>
