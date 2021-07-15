@@ -13,7 +13,7 @@
         >
           {{ main.title }}
         </h1>
-        <p class="mt-5 text-xl leading-7 text-gray-500 sm:text-center">
+        <p class="mb-8 text-gray-700 leading-relaxed text-center">
           {{ main.excerpt }}
         </p>
         <!-- <div
@@ -62,7 +62,7 @@
             <h2 class="text-lg leading-6 font-medium text-gray-900">
               {{ plan.title }}
             </h2>
-            <p class="mt-4 text-sm leading-5 text-gray-500">
+            <p class="mb-8 text-gray-700 leading-relaxed">
               {{ plan.excerpt }}
             </p>
             <!-- <p class="mt-8">
