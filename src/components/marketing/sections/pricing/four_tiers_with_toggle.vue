@@ -51,10 +51,10 @@
           "
         >
           <div class="p-6">
-            <h2 class="text-lg leading-6 font-medium text-gray-900">
+            <h2 class="text-lg leading-6 font-medium font-extrabold text-gray-900">
               {{ plan.title }}
             </h2>
-            <p class="mb-8 text-gray-700 leading-relaxed">
+            <p class="mb-8 text-gray-600 leading-relaxed">
               {{ plan.excerpt }}
             </p>
             <!-- <p class="mt-8">
@@ -68,25 +68,7 @@
             <g-link
               type="button"
               :to="plan.link"
-              class="
-                mt-8
-                w-full
-                text-center
-                bg-gray-800
-                border border-gray-800
-                rounded-md
-                py-2
-                text-sm
-                leading-5
-                font-semibold
-                text-white
-                hover:bg-gray-700
-                focus:outline-none
-                focus:shadow-outline-gray
-                transition
-                duration-150
-                ease-in-out
-              "
+              class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-8 py-2 mr-2 my-0 rounded shadow rounded-full"
             >
               {{ plan.button }}
             </g-link>
