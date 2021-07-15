@@ -16,7 +16,7 @@
         </div>
       </div>
       <section class="post-content mx-auto relative font-serif text-gray-700">
-        <div class="mt-6 mb-8 text-gray-600" v-html="$page.job.content"></div>
+        <div class="mt-6 mb-8 text-gray-900" v-html="$page.job.content"></div>
       </section>
     </div>
   </Layout>
