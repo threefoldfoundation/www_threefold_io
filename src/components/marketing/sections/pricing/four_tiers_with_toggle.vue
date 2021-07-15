@@ -29,7 +29,7 @@
         class="
           mt-12
           space-y-4
-          sm:mt-16
+          sm:mt-8
           sm:space-y-0
           sm:grid sm:grid-cols-2
           sm:gap-6
