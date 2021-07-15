@@ -1,6 +1,9 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <div
+      class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5"
+      v-if="$page.markdownPage.id == 'careers'"
+    >
       <g-image
         class="w-100 mx-auto"
         v-if="$page.markdownPage.solution_image"
@@ -44,6 +47,15 @@
         "
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
+      />
+
+      <g-image
+        v-if="
+          $page.markdownPage.id !== 'careers' &&
+          $page.markdownPage.solution_image
+        "
+        class="w-3/4 mx-auto mt-10"
+        :src="$page.markdownPage.solution_image.src"
       />
 
       <CallToAction
