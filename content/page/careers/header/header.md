@@ -2,7 +2,7 @@
 id: join_us
 title: ''
 subtitle: ''
-btn1: ''
+btn1: 'Join Us'
 link1: ''
 btn2: ''
 link2: ''
