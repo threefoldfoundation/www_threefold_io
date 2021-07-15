@@ -134,11 +134,11 @@
         v-if="$page.markdownPage.logos.length > 0"
         :logos="$page.markdownPage.logos"
       />
-      
+
       <FourTiersWithToggle
-        v-if="$page.markdownPage.pricingPlans.length > 0"
-        :main="$page.markdownPage.pricing_plansMain"
-        :pricingPlans="$page.markdownPage.pricingPlans"
+        v-if="$page.markdownPage.jobs.length > 0"
+        :pricingPlans="$page.markdownPage.jobs"
+        :main="$page.markdownPage.jobsMain"
       />
 
       <GetInTouch
@@ -317,14 +317,14 @@
           question
           content
       }
-      pricing_plansMain{
+      jobsMain{
           id
           title
           button1
           button2
           excerpt
       }
-      pricingPlans{
+      jobs{
           id
           title
           excerpt

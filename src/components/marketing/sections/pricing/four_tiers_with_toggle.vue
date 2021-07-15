@@ -1,9 +1,15 @@
 <template>
   <div class="bg-white">
     <div class="max-w-screen-xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
-      <div class="sm:flex sm:flex-col sm:align-center">
+      <div class="sm:flex sm:flex-col sm:align-center" v-if="main">
         <h1
-          class="text-5xl leading-none font-extrabold text-gray-900 sm:text-center"
+          class="
+            text-5xl
+            leading-none
+            font-extrabold
+            text-gray-900
+            sm:text-center
+          "
         >
           {{ main.title }}
         </h1>
@@ -28,12 +34,29 @@
         </div> -->
       </div>
       <div
-        class="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4"
+        class="
+          mt-12
+          space-y-4
+          sm:mt-16
+          sm:space-y-0
+          sm:grid sm:grid-cols-2
+          sm:gap-6
+          lg:max-w-4xl
+          lg:mx-auto
+          xl:max-w-none
+          xl:mx-0
+          xl:grid-cols-4
+        "
       >
         <div
           v-for="(plan, index) in pricingPlans"
           :key="index"
-          class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200"
+          class="
+            border border-gray-200
+            rounded-lg
+            shadow-sm
+            divide-y divide-gray-200
+          "
         >
           <div class="p-6">
             <h2 class="text-lg leading-6 font-medium text-gray-900">
@@ -53,43 +76,66 @@
             <g-link
               type="button"
               :to="plan.link"
-              class="mt-8 w-full text-center bg-gray-800 border border-gray-800 rounded-md py-2 text-sm leading-5 font-semibold text-white hover:bg-gray-700 focus:outline-none focus:shadow-outline-gray transition duration-150 ease-in-out"
+              class="
+                mt-8
+                w-full
+                text-center
+                bg-gray-800
+                border border-gray-800
+                rounded-md
+                py-2
+                text-sm
+                leading-5
+                font-semibold
+                text-white
+                hover:bg-gray-700
+                focus:outline-none
+                focus:shadow-outline-gray
+                transition
+                duration-150
+                ease-in-out
+              "
             >
               {{ plan.button }}
             </g-link>
           </div>
           <!-- <div class="pt-6 pb-8 px-6"> -->
-            <h3
-              class="text-xs leading-4 font-medium text-gray-900 tracking-wide uppercase"
+          <h3
+            v-if="plan.includeTitle"
+            class="
+              text-xs
+              leading-4
+              font-medium
+              text-gray-900
+              tracking-wide
+              uppercase
+            "
+          >
+            {{ plan.includeTitle }}
+          </h3>
+          <ul class="mt-6 space-y-4" v-if="plan.options.length > 0">
+            <li
+              class="flex space-x-3"
+              v-for="option in plan.options"
+              :key="option.id"
             >
-              {{ plan.includeTitle }}
-            </h3>
-            <ul class="mt-6 space-y-4">
-              <li
-                class="flex space-x-3"
-                v-for="option in plan.options"
-                :key="option.id"
+              <!-- Heroicon name: check -->
+              <svg
+                class="flex-shrink-0 h-5 w-5 text-green-500"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
               >
-                <!-- Heroicon name: check -->
-                <svg
-                  class="flex-shrink-0 h-5 w-5 text-green-500"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <span class="text-sm leading-5 text-gray-500">{{
-                  option
-                }}</span>
-              </li>
-            </ul>
-          </div> 
+                <path
+                  fill-rule="evenodd"
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="text-sm leading-5 text-gray-500">{{ option }}</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ title: Technical Community Manager
 price: ''
 duration: ''
 button: See Position
-link: /tech_community_manager
+link: /careers/tech_community_manager
 includeTitle: '' #Must Have
 options: ''
 ---

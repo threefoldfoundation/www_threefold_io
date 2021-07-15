@@ -1,21 +1,11 @@
 ---
 id: tech_community_manager
 title: Technical Community Manager & Team Lead, TFGrid 3.0 SDK
-button: ''
-link: ''
-button2: ''
-link2: ''
-button3: ''
-link3: ''
-button4: ''
-link4: ''
 ---
-
-# Technical Community Manager & Team Lead, TFGrid 3.0 SDK
 
 We are looking for a **Technical Community Manager & Team Lead** to help our community grow.
 
-## Job Description
+### Job Description
 
 - Be a Team Lead for x nr of other community managers, help them to be effective and grow in their human and technical skills.
 - Motivate your global team of contributors to spread the word and achieve our goals.
@@ -24,7 +14,7 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
 - Organize video conference meetings as well as Virtual Reality meetings (we have our own tools running on the TFGrid).
 - Create example scripts and example solutions, be able to train people on the creations you have made.
 
-## Requirements
+### Requirements
 
 - Technical skills:
   - Fluent in at least 2 development languages
@@ -40,12 +30,12 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
   - Be at least level 'wolf' in [the skill levels we use, we look at them in a different way](https://threefold.io/info/threefold#/threefold__p2p_awareness_level).
 
 
-## Remuneration
+### Remuneration
 
 - Work for our company in Dubai remotely
 - Paid in TFT and BTC (or other digital currency of choice)
 
-## More Info
+### More Info
 
 - [Technology](https://threefold.io/info/threefold#/internet4__technology)
 

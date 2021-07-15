@@ -318,6 +318,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Jobs',
+                path: './content/page/careers/jobs/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'JobsMain',
+                path: './content/page/**/jobs/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -354,6 +370,7 @@ module.exports = {
                     roadmap: 'Roadmap',
                     pricing_plansMain: 'PricingPlans',
                     pricingPlans: 'PricingPlans',
+                    jobsMain: 'JobsMain',
                     plans: 'Plans',
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
@@ -366,7 +383,8 @@ module.exports = {
                     blogs: 'Blogs',
                     BlogsMain: "BlogsMain",
                     faqMain: 'FAQMain',
-                    faqContent: 'FAQContent'
+                    faqContent: 'FAQContent',
+                    jobs: 'Jobs'
                 }
             }
         },
@@ -403,6 +421,14 @@ module.exports = {
                     },
                     projects: 'Project'
                 },
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Job',
+                path: './content/page/careers/job/**/*.md',
             }
         },
         {
@@ -543,6 +569,10 @@ module.exports = {
         Project: [{
             path: '/partners/:id',
             component: '~/templates/Project.vue'
+        }],
+        Job: [{
+            path: '/careers/:id',
+            component: '~/templates/Job.vue'
         }],
     },
 
