@@ -1,6 +1,8 @@
 ---
 id: tech_community_manager
 title: Technical Community Manager & Team Lead, TFGrid 3.0 SDK
+button: Apply
+link: ''
 ---
 
 We are looking for a **Technical Community Manager & Team Lead** to help our community grow.

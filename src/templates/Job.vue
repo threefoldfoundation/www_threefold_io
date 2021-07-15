@@ -17,6 +17,29 @@
       </div>
       <section class="post-content mx-auto relative font-serif text-gray-700">
         <div class="mt-6 mb-8 text-gray-900" v-html="$page.job.content"></div>
+        <a
+          :href="$page.job.link"
+          target="_blank"
+          aria-current="page"
+          class="
+            inline-block
+            bg-blue-900
+            text-sm
+            learn-button
+            hover:bg-blue-800
+            px-8
+            py-2
+            mr-2
+            my-0
+            rounded
+            shadow
+            rounded-full
+            active--exact active
+          "
+          type="button"
+        >
+          {{ $page.job.button }}
+        </a>
       </section>
     </div>
   </Layout>
@@ -28,6 +51,8 @@
         id
         title
         content
+        button
+        link
       }
     }
 </page-query>
@@ -47,11 +72,15 @@ export default {
   font-family: "Roboto", sans-serif !important;
 }
 
-h3{
+h3 {
   color: black !important;
 }
 
 ul li {
   list-style-type: disc !important;
+}
+
+.learn-button {
+  color: white;
 }
 </style>
