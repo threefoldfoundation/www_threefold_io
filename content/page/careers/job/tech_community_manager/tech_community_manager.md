@@ -16,12 +16,15 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
 
 ### Requirements
 
-- Technical skills:
+**Technical skills:**
   - Fluent in at least 2 development languages
   - Fluent with Linux
   - Fluent with github, agile processes
   - Good knowledge about docker/kubernetes
-- Professional skills 
+  
+<br />
+
+**Professional skills** 
   - Fluent in English
   - Good communicator
   - Understand and follow Pareto 20/80 rule
