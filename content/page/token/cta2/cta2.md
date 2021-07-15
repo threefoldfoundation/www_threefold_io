@@ -2,8 +2,8 @@
 id: token_cta2
 title: Why does TFT have value?
 slogan:
-button:
-link:
+button: Get Tokens
+link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
 button2:
 link2:
 button3:
