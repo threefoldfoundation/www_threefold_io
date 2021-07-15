@@ -134,6 +134,12 @@
         v-if="$page.markdownPage.logos.length > 0"
         :logos="$page.markdownPage.logos"
       />
+      
+      <FourTiersWithToggle
+        v-if="$page.markdownPage.pricingPlans.length > 0"
+        :main="$page.markdownPage.pricing_plansMain"
+        :pricingPlans="$page.markdownPage.pricingPlans"
+      />
 
       <GetInTouch
         :contacts="$page.markdownPage.contactData"
@@ -310,6 +316,24 @@
           id
           question
           content
+      }
+      pricing_plansMain{
+          id
+          title
+          button1
+          button2
+          excerpt
+      }
+      pricingPlans{
+          id
+          title
+          excerpt
+          price
+          duration
+          button
+          link
+          includeTitle
+          options
       }
       contactData{
          id

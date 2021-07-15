@@ -10,7 +10,7 @@
         <p class="mt-5 text-xl leading-7 text-gray-500 sm:text-center">
           {{ main.excerpt }}
         </p>
-        <div
+        <!-- <div
           class="relative self-center mt-6 bg-gray-100 rounded-lg p-0.5 flex sm:mt-8"
         >
           <button
@@ -25,7 +25,7 @@
           >
             {{ main.button2 }}
           </button>
-        </div>
+        </div> -->
       </div>
       <div
         class="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4"
@@ -42,14 +42,14 @@
             <p class="mt-4 text-sm leading-5 text-gray-500">
               {{ plan.excerpt }}
             </p>
-            <p class="mt-8">
+            <!-- <p class="mt-8">
               <span class="text-4xl leading-10 font-extrabold text-gray-900">{{
                 plan.price
               }}</span>
               <span class="text-base leading-6 font-medium text-gray-500"
                 >/{{ plan.duration }}</span
               >
-            </p>
+            </p> -->
             <g-link
               type="button"
               :to="plan.link"
@@ -58,7 +58,7 @@
               {{ plan.button }}
             </g-link>
           </div>
-          <div class="pt-6 pb-8 px-6">
+          <!-- <div class="pt-6 pb-8 px-6"> -->
             <h3
               class="text-xs leading-4 font-medium text-gray-900 tracking-wide uppercase"
             >
@@ -89,7 +89,7 @@
                 }}</span>
               </li>
             </ul>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
