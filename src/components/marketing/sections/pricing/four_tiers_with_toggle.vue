@@ -2,15 +2,7 @@
   <div class="bg-white">
     <div class="max-w-screen-xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
       <div class="sm:flex sm:flex-col sm:align-center" v-if="main">
-        <h1
-          class="
-            text-5xl
-            leading-none
-            font-extrabold
-            text-gray-900
-            sm:text-center
-          "
-        >
+        <h1 class="text-4xl mt-2 mb-6 leading-tight font-heading text-center">
           {{ main.title }}
         </h1>
         <p class="mb-8 text-gray-700 leading-relaxed text-center">
