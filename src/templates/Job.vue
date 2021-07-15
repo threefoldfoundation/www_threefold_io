@@ -47,7 +47,11 @@ export default {
   font-family: "Roboto", sans-serif !important;
 }
 
-ul li{
+h3{
+  color: black !important;
+}
+
+ul li {
   list-style-type: disc !important;
 }
 </style>

@@ -1,5 +1,12 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5">
+      <g-image
+        class="w-100 mx-auto mt-10"
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
+    </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Header
         v-if="
@@ -37,12 +44,6 @@
         "
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
-      />
-
-      <g-image
-        class="w-3/4 mx-auto mt-10"
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
       />
 
       <CallToAction
