@@ -58,6 +58,7 @@ pre {
   @apply overflow-x-auto;
 }
 
+@tailwind base;
 ol {
   @apply list-decimal;
   @apply ml-5;
@@ -73,7 +74,6 @@ ul {
   @apply text-base;
 }
 
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 @responsive {
