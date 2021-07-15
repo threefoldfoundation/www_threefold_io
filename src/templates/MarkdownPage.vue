@@ -2,7 +2,7 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <g-image
-        class="w-100 mx-auto mt-10"
+        class="w-100 mx-auto"
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       />
