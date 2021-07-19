@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="max-w-screen-xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-screen-xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
       <div class="sm:flex sm:flex-col sm:align-center" v-if="main">
         <h1 class="text-4xl mt-2 mb-6 leading-tight font-heading text-center">
           {{ main.title }}

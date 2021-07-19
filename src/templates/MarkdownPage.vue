@@ -26,10 +26,10 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
-      <SignUp
+      <!-- <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
-      />
+      /> -->
 
       <!-- <Comparison
         v-if="
@@ -157,6 +157,11 @@
       <GetInTouch
         :contacts="$page.markdownPage.contactData"
         v-if="$page.markdownPage.contactData.length > 0"
+      />
+
+      <SignUp
+        v-if="$page.markdownPage.signup"
+        :signup="$page.markdownPage.signup"
       />
     </div>
   </Layout>
@@ -353,6 +358,14 @@
          title
          mail
          phone
+      }
+      signup{
+          id
+          title
+          button1
+          link1
+          button2
+          link2
       }
     }
   }

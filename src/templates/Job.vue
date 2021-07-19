@@ -23,10 +23,10 @@
           aria-current="page"
           class="
             inline-block
-            bg-blue-900
+            bg-green-500
             text-sm
             learn-button
-            hover:bg-blue-800
+            hover:bg-green-600
             px-8
             py-2
             mr-2

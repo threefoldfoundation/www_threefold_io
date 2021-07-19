@@ -11,7 +11,7 @@
       ></div>
       <div>
         <g-link
-          class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 my-2 rounded shadow rounded-full" 
+          class="inline-block bg-green-500 text-sm text-white learn-button hover:bg-green-600 px-8 py-2 mr-2 my-0 rounded shadow rounded-full active--exact active"
           v-if="header.btn1" 
           :to="header.link1"
           >{{ header.btn1 }}</g-link

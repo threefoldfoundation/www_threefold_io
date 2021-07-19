@@ -1,13 +1,30 @@
 ---
 id: tech_community_manager
-title: Technical Community Manager & Team Lead, TFGrid 3.0 SDK
+title: Technical Community Manager & Team Lead
 button: Apply
-link: ''
+link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 ---
+
+**The ThreeFold** is a global community with an aim to create an upgraded Internet by the people for the people. We base our work on sustainability, passion and strong values.
+
+<br/>
+
+**Values:**
+  - Understand what it means to work in a successfully growing project and endorse this way of working.
+  - Resonate with [a blog once written about values & collaboration (2017)](https://threefold.io/info/threefold#/threefold__kristof_build_a_better_world_values_collaboration?id=change-is-good).
+
+<br/>
+
+**Passion:**
+  - Be passionate and willing to bring a positive change to the world.
+  - Understand it won't be a 9-5 job. We are changing the world, it takes courage and perseverance.
+  - Be willing to travel and stay at other locations for some time to collaborate with the team, or be part of our offsite working retreats e.g. in Egypt (Nile, Gouna) or Dubai.
+
+<br/>
 
 We are looking for a **Technical Community Manager & Team Lead** to help our community grow.
 
-### Job Description
+## Job Description
 
 - Be a Team Lead for x nr of other community managers, help them to be effective and grow in their human and technical skills.
 - Motivate your global team of contributors to spread the word and achieve our goals.
@@ -16,7 +33,7 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
 - Organize video conference meetings as well as Virtual Reality meetings (we have our own tools running on the TFGrid).
 - Create example scripts and example solutions, be able to train people on the creations you have made.
 
-### Requirements
+## Requirements
 
 **Technical skills:**
   - Fluent in at least 2 development languages
@@ -26,21 +43,21 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
   
 <br />
 
-**Professional skills** 
+**Professional skills:** 
   - Fluent in English
   - Good communicator
   - Understand and follow Pareto 20/80 rule
   - A good teacher
   - Understand what it means to be a team_lead
-  - Be at least level 'wolf' in [the skill levels we use, we look at them in a different way](https://threefold.io/info/threefold#/threefold__p2p_awareness_level).
+  - Be at least level 'wolf' in [the skill levels](https://threefold.io/info/threefold#/threefold__p2p_awareness_level) we use.
 
 
-### Remuneration
+## Remuneration
 
-- Work for our company in Dubai remotely
-- Paid in TFT and BTC (or other digital currency of choice)
+- Work remotely for our company that's based in Dubai.
+- Paid in TFT and BTC (or other digital currency of choice).
 
-### More Info
+## More Info
 
 - [Technology](https://threefold.io/info/threefold#/internet4__technology)
 
