@@ -4,7 +4,7 @@ title: TFGrid Operations Manager
 price: ''
 duration: ''
 button: See Position
-link: ''
+link: /careers/grid_operations_manager
 includeTitle: '' #Must Have
 options: ''
 ---

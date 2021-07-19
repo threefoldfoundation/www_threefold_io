@@ -1,10 +1,10 @@
 ---
 id: plan4
-title: Master Architect for Digital Twin
+title: Master Architect of Digital Twin
 price: ''
 duration: ''
 button: See Position
-link: ''
+link: /careers/master_architect_dt
 includeTitle: '' # Must Have
 options: ''
 ---

@@ -3,7 +3,7 @@ id: join_us
 title: WE ARE LOOKING FOR COLLABORATORS TO HELP US BUILD A SOVEREIGN INTENRNET BY THE PEOPLE FOR THE PEOPLE
 subtitle: ''
 btn1: Apply
-link1: ''
+link1: https://06gdrqp39yz.typeform.com/to/FffDv61M
 btn2: ''
 link2: ''
 ---

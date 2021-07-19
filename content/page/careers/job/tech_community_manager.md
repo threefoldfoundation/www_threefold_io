@@ -49,7 +49,7 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
   - Understand and follow Pareto 20/80 rule
   - A good teacher
   - Understand what it means to be a team_lead
-  - Be at least level 'wolf' in [the skill levels](https://threefold.io/info/threefold#/threefold__p2p_awareness_level) we use.
+  - Be at least level 'wolf' in [the skill levels](https://threefold.io/info/threefold#/threefold__p2p_awareness_level) we use
 
 
 ## Remuneration
