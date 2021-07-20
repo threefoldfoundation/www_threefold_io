@@ -1,6 +1,6 @@
 ---
 id: join_us
-title: WE ARE LOOKING FOR COLLABORATORS TO HELP US BUILD A SOVEREIGN INTENRNET BY THE PEOPLE FOR THE PEOPLE
+title: ''
 subtitle: ''
 btn1: Apply
 link1: https://06gdrqp39yz.typeform.com/to/FffDv61M
