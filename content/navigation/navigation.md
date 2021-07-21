@@ -138,10 +138,7 @@ navLinks:
         external: false
       - title: Explorer
         path: https://explorer.threefold.io/
-        external: true 
-      - title: Careers
-        path: /careers
-        external: false
+        external: true
 
 social:
   - icon: telegram-plane
