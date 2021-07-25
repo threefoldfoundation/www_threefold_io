@@ -69,6 +69,18 @@
                 </g-link>
               </p>
             </div>
+
+            <share-it
+              icons
+              :targets="['twitter', 'linkedin', 'facebook']"
+              class="ml-auto"
+            />
+
+            <font-awesome
+              :icon="['fas', 'link']"
+              class="cursor-pointer"
+              @click="copyLink"
+            />
           </div>
         </section>
       </div>
@@ -208,6 +220,16 @@ export default {
     return {
       title: this.$page.blog.title,
     };
+  },
+  methods: {
+    copyLink() {
+      const el = document.createElement("input");
+      el.value = window.location.href;
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand("copy");
+      document.body.removeChild(el);
+    },
   },
 };
 </script>

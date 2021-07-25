@@ -24,7 +24,15 @@
                     <g-image
                       :src="author.image"
                       :alt="author.name"
-                      class="h-8 w-8 sm:h-10 sm:w-10 rounded-full bg-gray-200 border-2 border-white"
+                      class="
+                        h-8
+                        w-8
+                        sm:h-10
+                        sm:w-10
+                        rounded-full
+                        bg-gray-200
+                        border-2 border-white
+                      "
                     />
                   </g-link>
                 </li>
@@ -61,6 +69,16 @@
                 </g-link>
               </p>
             </div>
+            <share-it
+              icons
+              :targets="['twitter', 'linkedin', 'facebook']"
+              class="ml-auto"
+            />
+            <font-awesome
+              :icon="['fas', 'link']"
+              class="cursor-pointer"
+              @click="copyLink"
+            />
           </div>
         </section>
       </div>
@@ -70,7 +88,14 @@
 
       <div class="py-12">
         <section
-          class="post-content container mx-auto relative font-serif text-gray-700"
+          class="
+            post-content
+            container
+            mx-auto
+            relative
+            font-serif
+            text-gray-700
+          "
         >
           <div
             class="post-content-text text-xl"
@@ -83,7 +108,19 @@
             v-for="tag in $page.news.tags"
             :key="tag.id"
             :to="tag.path"
-            class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+            class="
+              text-xs
+              bg-transparent
+              hover:text-blue-700
+              py-2
+              px-4
+              mr-2
+              border
+              hover:border-blue-500
+              border-gray-600
+              text-gray-700
+              rounded-full
+            "
             >{{ tag.title }}</g-link
           >
         </section>
@@ -171,8 +208,6 @@
 
 <script>
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
-
-
 export default {
   components: {
     PostListItem,
@@ -181,6 +216,16 @@ export default {
     return {
       title: this.$page.news.title,
     };
+  },
+  methods: {
+    copyLink() {
+      const el = document.createElement("input");
+      el.value = window.location.href;
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand("copy");
+      document.body.removeChild(el);
+    },
   },
 };
 </script>
