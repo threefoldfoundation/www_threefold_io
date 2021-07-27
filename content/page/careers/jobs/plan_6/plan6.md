@@ -9,4 +9,4 @@ includeTitle: '' # Must Have
 options: ''
 ---
 
-You will take ownership on the overall testing of both the low level technology components of our TFGrid as well as the Digital Twin.
+ThreeFold is developing infrastructures and products like never before. Join the testing team and ensure optimum tech releases.

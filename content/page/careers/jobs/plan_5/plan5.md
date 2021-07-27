@@ -9,4 +9,4 @@ includeTitle: '' # Must Have
 options: ''
 ---
 
-You will be focusing on further developing either our new operating system Zero-OS, Dital Twin, blockchain layers or other products we are building.
+Join the core developer team working on our operating system Zero-OS, Dital Twin, blockchain layers or other products we are building.
