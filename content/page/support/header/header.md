@@ -1,7 +1,7 @@
 ---
 id: forum
 title: ''
-subtitle: VISIT FORUM 
+subtitle: Find popular topics on our Forum
 btn1: ''
 link1: ''
 btn2: ''

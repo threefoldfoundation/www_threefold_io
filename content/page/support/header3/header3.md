@@ -1,7 +1,7 @@
 ---
 id: telegram
 title: ''
-subtitle: ASK COMMUNITIES ON TELEGRAM
+subtitle: Join our communities on Telegram
 btn1: ''
 link1: ''
 btn2: ''

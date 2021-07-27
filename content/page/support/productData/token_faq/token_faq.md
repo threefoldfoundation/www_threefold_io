@@ -1,10 +1,9 @@
 ---
 id: token_faq
-title: Token FAQ
+title: ThreeFold Token FAQ
 image: ./placeholder.png
 button: FAQ
-url: https://mydigitaltwin.io/
+url: ''
 ---
 
-Your digital avatar that gives you access to secure and private communication, socials and office tools.
-
+Understand what the ThreeFold Token is, it's utility in the ThreeFold ecosystem and how to charge your wallet.
