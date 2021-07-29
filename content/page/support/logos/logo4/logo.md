@@ -1,5 +1,5 @@
 ---
 id: tele_4
 image: ./tf_farming.png
-url: ''
+url: https://t.me/threefoldfarmers
 ---
