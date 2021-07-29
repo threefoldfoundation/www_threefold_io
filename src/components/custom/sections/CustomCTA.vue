@@ -6,12 +6,6 @@
         <font-awesome :icon="['fas', 'long-arrow-alt-right']" />
       </h2>
     </div>
-    <!-- <div
-      class="back"
-      :style="{
-        backgroundImage: require(`!!assets-loader!@images/threefold_people.png`),
-      }"
-    ></div> -->
   </g-link>
 </template>
 <script>
