@@ -1,8 +1,8 @@
 ---
 id: positions
-title:
-button1:
-button2:
+title: ''
+button1: ''
+button2: ''
 ---
 
 <!-- <br/>

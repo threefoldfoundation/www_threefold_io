@@ -42,6 +42,9 @@
         </a>
       </section>
     </div>
+    <div class="container-fluid mx-auto pt-24">
+      <CustomCTA link="/" title="Join our community" />
+    </div>
   </Layout>
 </template>
 
@@ -54,11 +57,15 @@
         button
         link
       }
-    }
+}
 </page-query>
 
 <script>
+import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
 export default {
+  components: {
+    CustomCTA,
+  },
   metaInfo() {
     return {
       title: this.$page.job.title,

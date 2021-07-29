@@ -342,6 +342,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'CustomCTA',
+                path: './content/page/**/customCTA/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -393,7 +401,8 @@ module.exports = {
                     BlogsMain: "BlogsMain",
                     faqMain: 'FAQMain',
                     faqContent: 'FAQContent',
-                    jobs: 'Jobs'
+                    jobs: 'Jobs',
+                    customCTA: 'CustomCTA'
                 }
             }
         },
