@@ -1,5 +1,5 @@
 ---
 id: tele_5
-image: ./telegram_token.png
+image: ./tf_token.png
 url: ''
 ---
