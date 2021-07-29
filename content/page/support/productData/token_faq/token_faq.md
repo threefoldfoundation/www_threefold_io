@@ -1,7 +1,7 @@
 ---
 id: token_faq
 title: ThreeFold Token FAQ
-image: ./placeholder.png
+image: ./token_faq.png
 button: FAQ
 url: ''
 ---

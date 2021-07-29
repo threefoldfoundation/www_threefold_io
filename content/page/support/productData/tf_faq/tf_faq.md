@@ -1,7 +1,7 @@
 ---
 id: tf_faq
 title:  Main ThreeFold FAQ
-image: ./placeholder.png
+image: ./threefold_faq.png
 button: FAQ
 url: /faq
 ---
