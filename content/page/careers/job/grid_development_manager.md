@@ -9,26 +9,20 @@ link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 
 <br/>
 
-**Values:**
+**Values & Passion:**
+
   - Understand what it means to work in a successfully growing project and endorse this way of working.
   - Resonate with [a blog once written about values & collaboration (2017)](https://threefold.io/info/threefold#/threefold__kristof_build_a_better_world_values_collaboration?id=change-is-good).
-
-<br/>
-
-**Passion:**
   - Be passionate and willing to bring a positive change to the world.
   - Understand it won't be a 9-5 job. We are changing the world, it takes courage and perseverance.
-  - Be willing to travel and stay at other locations for some time to collaborate with the team, or be part of our offsite working retreats e.g. in Egypt (Nile, Gouna) or Dubai.
+  - Be willing to travel and stay at other locations for some time to work directly with the team.
 
-<br/>
+## Introduction
 
 TFGrid will eventually have millions of nodes, we need to find best ways how to operate and interact with such a network of capacity.
-
-<br/>
-
 We are looking for a **TF Grid Development Manager** who will take ownership over the development of our low level technology components of our TFgrid.
 
-<br/>
+## Role
 
 Our components are low level and required high technical skill. Your main responsibilies would be around making sure our code of the TFGrid is:
 - Of best possible quality
@@ -36,7 +30,7 @@ Our components are low level and required high technical skill. Your main respon
 - Well documented & tested
 - Reliable and understandable
 
-## Job Description
+<br/>
 
 - Work in agile way (github), make sure processes are followed.
 - Work with development team leads and story/project owners.
@@ -59,7 +53,7 @@ Components you will manage:
 - Jumpscale automation framework
 
 
-## Requirements
+## Skills
 
 **Technical skills:**
   - Understand what it takes to develop a large scale high tech infrastructure product
@@ -82,13 +76,7 @@ Components you will manage:
   - Be at least level 'wolf' in [the skill levels](https://threefold.io/info/threefold#/threefold__p2p_awareness_level) we use
 
 
-## Remuneration
+## What we offer
 
 - Work remotely for our company that's based in Dubai.
 - Paid in TFT and BTC (or other digital currency of choice).
-
-## More Info
-
-- [Technology](https://threefold.io/info/threefold#/internet4__technology)
-
-

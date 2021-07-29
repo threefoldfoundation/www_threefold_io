@@ -1,6 +1,6 @@
 ---
 id: plan4
-title: Digital Twin Master Architect
+title: Master Technical Architect
 price: ''
 duration: ''
 button: See Position

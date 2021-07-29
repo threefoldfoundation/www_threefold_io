@@ -9,22 +9,19 @@ link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 
 <br/>
 
-**Values:**
+**Values & Passion:**
+
   - Understand what it means to work in a successfully growing project and endorse this way of working.
   - Resonate with [a blog once written about values & collaboration (2017)](https://threefold.io/info/threefold#/threefold__kristof_build_a_better_world_values_collaboration?id=change-is-good).
-
-<br/>
-
-**Passion:**
   - Be passionate and willing to bring a positive change to the world.
   - Understand it won't be a 9-5 job. We are changing the world, it takes courage and perseverance.
-  - Be willing to travel and stay at other locations for some time to collaborate with the team, or be part of our offsite working retreats e.g. in Egypt (Nile, Gouna) or Dubai.
+  - Be willing to travel and stay at other locations for some time to work directly with the team.
 
-<br/>
+## Introduction
 
 We are looking for a **Technical Community Manager & Team Lead** to help our community grow.
 
-## Job Description
+## Role
 
 - Be a Team Lead for x nr of other community managers, help them to be effective and grow in their human and technical skills.
 - Motivate your global team of contributors to spread the word and achieve our goals.
@@ -33,7 +30,7 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
 - Organize video conference meetings as well as Virtual Reality meetings (we have our own tools running on the TFGrid).
 - Create example scripts and example solutions, be able to train people on the creations you have made.
 
-## Requirements
+## Skills
 
 **Technical skills:**
   - Fluent in at least 2 development languages
@@ -52,13 +49,9 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
   - Be at least level 'wolf' in [the skill levels](https://threefold.io/info/threefold#/threefold__p2p_awareness_level) we use
 
 
-## Remuneration
+## What we offer
 
 - Work remotely for our company that's based in Dubai.
 - Paid in TFT and BTC (or other digital currency of choice).
-
-## More Info
-
-- [Technology](https://threefold.io/info/threefold#/internet4__technology)
 
 

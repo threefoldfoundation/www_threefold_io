@@ -9,31 +9,26 @@ link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 
 <br/>
 
-**Values:**
+**Values & Passion:**
+<br/>
+
   - Understand what it means to work in a successfully growing project and endorse this way of working.
   - Resonate with [a blog once written about values & collaboration (2017)](https://threefold.io/info/threefold#/threefold__kristof_build_a_better_world_values_collaboration?id=change-is-good).
-
-<br/>
-
-**Passion:**
   - Be passionate and willing to bring a positive change to the world.
   - Understand it won't be a 9-5 job. We are changing the world, it takes courage and perseverance.
-  - Be willing to travel and stay at other locations for some time to collaborate with the team, or be part of our offsite working retreats e.g. in Egypt (Nile, Gouna) or Dubai.
+  - Be willing to travel and stay at other locations for some time to work directly with the team.
 
-<br/>
+## Introduction
 
 We believe  that sovereign digital identity (Digital Twin) is the future of IT, see also [the Internet 4 (web4) comparison](https://threefold.io/info/threefold#/threefold__grid_compare?id=web20-vs-web30-vs-threefold-grid).
 The Digital Twin can set us free, create our digital future without boundaries where we 100% own our data and digital processes.
 
-<br/>
+## Role
 
 We are looking for **Master Technical Architect** who can help us design the future of Digital Twin and make sure that our distributed network of contributors is following a well defined path.
-
-<br/>
-
 As a Master Technical Architect you will work closely with Kristof de Spiegeleer. Travelling will be required especially on the first year.
 
-## Job Description
+<br/>
 
 - Design & document our future of our digital life.
 - Work on prototypes to proof it works, mainly vlang.
@@ -44,7 +39,7 @@ As a Master Technical Architect you will work closely with Kristof de Spiegeleer
 - Train new Architects and/or Developers.
 - Improve our Manuals and Knowledge Base.
 
-## Requirements
+## Skills
 
 **Personal skills:**
   - Able to question the status quo
@@ -72,14 +67,9 @@ As a Master Technical Architect you will work closely with Kristof de Spiegeleer
   - A good teacher
   - Be at least level 'wolf' in [the skill levels](https://threefold.io/info/threefold#/threefold__p2p_awareness_level) we use
 
-## Remuneration
+## What we offer
 
 - You will be working for our tech company **TFTech** that is based in Belgium.
 - We all work remote using github, video conferencing, agile methods, ..
 - You will be paid in EUR, TFT and/or BTC (or other digital currency of your choice).
-
-## More Info
-
-- [Technology](https://threefold.io/info/threefold#/internet4__technology)
-
 
