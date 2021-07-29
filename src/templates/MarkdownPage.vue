@@ -362,9 +362,9 @@
       }
       contactData{
          id
-        # title
-        # mail
-        # phone
+         title
+         mail
+         phone
       }
       signup{
           id
