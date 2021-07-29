@@ -96,7 +96,7 @@
       />
 
       <CenteredAccordion
-        v-if="$page.markdownPage.faqContent && id == 'faq'"
+        v-if="$page.markdownPage.faqContent && $page.markdownPage.id == 'faq'"
         :main="$page.markdownPage.faqMain"
         :faqs="$page.markdownPage.faqContent"
       />
