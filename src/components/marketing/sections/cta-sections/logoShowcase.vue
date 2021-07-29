@@ -1,9 +1,9 @@
 <template>
   <section class="py-10 pb-8 px-4 text-center">
-    <div class="max-w-2xl mx-auto mb-8">
-      <!-- <h2 class="text-4xl leading-tight mb-6 font-bold font-heading">
-        WORK WITH AWESOME PARTNERS
-      </h2> -->
+    <div class="max-w-2xl mx-auto mb-8" v-if="main">
+      <h2 class="text-4xl leading-tight mb-6 font-bold font-heading">
+        {{ main.title }}
+      </h2>
       <p class="text-gray-400 leading-relaxed"></p>
     </div>
     <div class="flex flex-wrap -mx-8">
@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  props: ["logos"],
+  props: ["logos", "main"],
   methods: {
     img(image) {
       if (!image) return "";

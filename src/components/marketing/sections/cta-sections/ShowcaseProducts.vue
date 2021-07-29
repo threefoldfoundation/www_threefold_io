@@ -1,6 +1,6 @@
 <template>
   <div class="py-0 mb-5 mx-4">
-    <div class="text-center mx-auto my-4" v-if="id == 'why'"> 
+    <div class="text-center mx-auto my-4" v-if="id == 'why'">
       <h1 class="text-4xl text-gray-900 font-light sm:text-9xl sm:leading-10">
         {{ main.title }} <span class="font-extrabold">{{ main.subtitle }}</span>
       </h1>
@@ -26,7 +26,7 @@
       class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center"
       v-if="id == 'token'"
     >
-      <a 
+      <a
         v-for="(product, idx) in products"
         target="_blank"
         :key="idx"
@@ -53,7 +53,14 @@
         target="_blank"
         :key="idx"
         :href="product.link"
-        class="m-auto rounded overflow-hidden transition duration-500 bg-gray-100"
+        class="
+          m-auto
+          rounded
+          overflow-hidden
+          transition
+          duration-500
+          bg-gray-100
+        "
       >
         <div>
           <g-image :src="img(product.image)" />
@@ -66,13 +73,35 @@
               v-if="product.link.includes('http')"
               target="_blank"
               :href="product.link"
-              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              class="
+                bg-blue-900
+                text-sm
+                learn-button
+                hover:bg-blue-800
+                text-gray-100
+                px-12
+                py-2
+                mr-5
+                shadow
+                rounded-full
+              "
               >{{ product.button }}</a
             >
             <a
               v-else
               :href="product.link"
-              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              class="
+                bg-blue-900
+                text-sm
+                learn-button
+                hover:bg-blue-800
+                text-gray-100
+                px-12
+                py-2
+                mr-5
+                shadow
+                rounded-full
+              "
               >{{ product.button }}</a
             >
           </div>
@@ -103,18 +132,100 @@
               v-if="product.link.includes('http')"
               target="_blank"
               :href="product.link"
-              class="bg-gray-800 text-sm learn-button border-gray-900 text-white px-12 py-2 mr-5 shadow rounded-full"
+              class="
+                bg-gray-800
+                text-sm
+                learn-button
+                border-gray-900
+                text-white
+                px-12
+                py-2
+                mr-5
+                shadow
+                rounded-full
+              "
               >{{ product.button }}</a
             >
             <a
               v-else
               :href="product.link"
-              class="bg-gray-800 text-sm learn-button border-gray-900 text-white px-12 py-2 mr-5 shadow rounded-full"
+              class="
+                bg-gray-800
+                text-sm
+                learn-button
+                border-gray-900
+                text-white
+                px-12
+                py-2
+                mr-5
+                shadow
+                rounded-full
+              "
               >{{ product.button }}</a
             >
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Support -->
+
+    <div
+      class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center"
+      v-else-if="id == 'support'"
+    >
+      <a
+        v-for="(product, idx) in products"
+        target="_blank"
+        :key="idx"
+        :href="product.url"
+        class="m-auto rounded overflow-hidden transition duration-500"
+      >
+        <div class="px-2 py-2">
+          <g-image class="py-4" :src="img(product.image)" />
+          <div class="font-bold text-xl mb-2">{{ product.title }}</div>
+          <div v-html="product.content" class="text-gray-700 text-base"></div>
+          <div v-if="product.button" class="my-5 text-center">
+            <a
+              v-if="product.link.includes('http')"
+              target="_blank"
+              :href="product.link"
+              class="
+                bg-blue-900
+                text-sm
+                learn-button
+                hover:bg-blue-800
+                text-gray-100
+                px-12
+                py-2
+                mr-5
+                rounded
+                shadow
+                rounded-full
+              "
+              >{{ product.button }}</a
+            >
+            <a
+              v-else
+              :href="product.link"
+              class="
+                bg-blue-900
+                text-sm
+                learn-button
+                hover:bg-blue-800
+                text-gray-100
+                px-12
+                py-2
+                mr-5
+                rounded
+                shadow
+                rounded-full
+              "
+              >{{ product.button }}</a
+            >
+          </div>
+        </div>
+      </a>
     </div>
 
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center" v-else>
@@ -132,7 +243,7 @@
         </div>
       </a>
     </div>
-    
+
     <div v-if="main.button" class="my-10 text-center">
       <!-- <a
         v-if="main.button"
@@ -145,13 +256,37 @@
         v-if="main.link.includes('http')"
         target="_blank"
         :href="main.link"
-        class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
+        class="
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          rounded
+          shadow
+          rounded-full
+        "
         >{{ main.button }}</a
       >
       <a
         v-else
         :href="main.link"
-        class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
+        class="
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          rounded
+          shadow
+          rounded-full
+        "
         >{{ main.button }}</a
       >
     </div>

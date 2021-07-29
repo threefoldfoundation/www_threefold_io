@@ -96,7 +96,7 @@
       />
 
       <CenteredAccordion
-        v-if="$page.markdownPage.faqContent"
+        v-if="$page.markdownPage.faqContent && id == 'faq'"
         :main="$page.markdownPage.faqMain"
         :faqs="$page.markdownPage.faqContent"
       />
@@ -114,6 +114,7 @@
       />
 
       <ShowcaseProducts
+        class="my-20"
         v-if="
           $page.markdownPage.productData2 &&
           $page.markdownPage.productData2.length > 0
@@ -124,6 +125,7 @@
       />
 
       <SolutionsHeader
+        class="mt-20"
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
@@ -146,6 +148,7 @@
       <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :logos="$page.markdownPage.logos"
+        :main="$page.markdownPage.logosMain"
       />
 
       <FourTiersWithToggle
@@ -156,7 +159,7 @@
 
       <GetInTouch
         :contacts="$page.markdownPage.contactData"
-        v-if="$page.markdownPage.contactData.length > 0"
+        v-if="$page.markdownPage.contactData"
       />
 
       <SignUp
@@ -275,6 +278,10 @@
           title
           content
         }
+        logosMain {
+          id
+          title
+        }
         logos{
           id
           image
@@ -355,9 +362,9 @@
       }
       contactData{
          id
-         title
-         mail
-         phone
+        # title
+        # mail
+        # phone
       }
       signup{
           id
