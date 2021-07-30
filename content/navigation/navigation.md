@@ -130,15 +130,12 @@ navLinks:
         path: /blog
       - title: NewsRoom
         path: /news
-      - title: Forum
-        path: https://forum.threefold.io
-        external: true
-      - title: FAQ
-        path: /faq
-        external: false
       - title: Explorer
         path: https://explorer.threefold.io/
         external: true
+      - title: Support
+        path: /support
+        external: false
 
 social:
   - icon: telegram-plane
