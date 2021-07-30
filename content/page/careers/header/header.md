@@ -2,8 +2,8 @@
 id: join_us
 title: ''
 subtitle: Join us on our mission to build a planet-positive and data sovereign Internet owned by the people.
-btn1: Apply
-link1: https://06gdrqp39yz.typeform.com/to/FffDv61M
+btn1: '' #Apply
+link1: '' #https://06gdrqp39yz.typeform.com/to/FffDv61M
 btn2: ''
 link2: ''
 ---

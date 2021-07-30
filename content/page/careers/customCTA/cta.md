@@ -1,6 +1,6 @@
 ---
 id: customCTA
-link: ''
-title: Join our community
+link: /community
+title: Join our Community
 img: ./threefold_people.png
 ---
