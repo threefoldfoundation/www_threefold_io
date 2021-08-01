@@ -147,6 +147,7 @@
 
       <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
       />

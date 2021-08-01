@@ -6,7 +6,18 @@
       </h2>
       <p class="text-gray-400 leading-relaxed"></p>
     </div>
-    <div class="flex flex-wrap -mx-8">
+    <div v-if="id == 'support'" class="flex flex-wrap -mx-8">
+      <a
+        v-for="(logo, idx) in logos"
+        :key="idx"
+        :href="logo.url"
+        class="w-1/2 md:w-1/4 px-8 mb-8"
+      >
+        <g-image :src="img(logo.image)" />
+      </a>
+    </div>
+
+    <div v-else class="flex flex-wrap -mx-8">
       <a
         v-for="(logo, idx) in logos"
         :key="idx"
@@ -21,7 +32,7 @@
 
 <script>
 export default {
-  props: ["logos", "main"],
+  props: ["id", "logos", "main"],
   methods: {
     img(image) {
       if (!image) return "";
