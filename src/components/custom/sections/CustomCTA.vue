@@ -6,11 +6,15 @@
         <font-awesome :icon="['fas', 'long-arrow-alt-right']" />
       </h2>
     </div>
+    <div
+      class="back"
+      :style="{ 'background-image': 'url(' + image.src + ')' }"
+    ></div>
   </g-link>
 </template>
 <script>
 export default {
-  props: ["link", "title"],
+  props: ["link", "title", "image"],
 };
 </script>
 
@@ -20,6 +24,7 @@ export default {
   margin: 0;
   padding: 120px 0;
   text-align: center;
+  position: relative;
   display: block;
   color: #fff !important;
   letter-spacing: 0.5px;
@@ -60,10 +65,6 @@ export default {
   transition: 1.5s;
 }
 
-/* .banner.banner-careers .back {
-  background-image: url(images/holo-team-banner.jpg)
-} */
-
 .banner:hover {
   background: #4b3a92;
 }
@@ -78,7 +79,7 @@ export default {
 }
 
 .banner:hover .back {
-  /* transform: scale(1.03) */
+  transform: scale(1.03);
 }
 
 @media (max-width: 640px) {

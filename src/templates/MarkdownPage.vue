@@ -179,6 +179,7 @@
         v-if="edge.node.id == $page.markdownPage.id"
         :title="edge.node.title"
         :link="edge.node.link"
+        :image="edge.node.image"
       />
     </div>
   </Layout>
@@ -395,6 +396,7 @@
           id
           title
           link
+          image
         }
       }
     }
