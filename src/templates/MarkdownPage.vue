@@ -48,16 +48,16 @@
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
       />
-
+    </div>
       <g-image
         v-if="
           $page.markdownPage.id !== 'careers' &&
           $page.markdownPage.solution_image
         "
-        class="w-3/4 mx-auto mt-10"
+        class="mx-auto mt-10"
         :src="$page.markdownPage.solution_image.src"
       />
-
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta && $page.markdownPage.id == 'why'"
