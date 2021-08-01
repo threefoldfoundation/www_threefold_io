@@ -159,8 +159,11 @@
       />
 
       <GetInTouch
+        v-if="
+          $page.markdownPage.contactData &&
+          $page.markdownPage.contactData.length > 0
+        "
         :contacts="$page.markdownPage.contactData"
-        v-if="$page.markdownPage.contactData"
       />
 
       <SignUp
