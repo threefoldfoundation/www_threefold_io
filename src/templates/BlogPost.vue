@@ -231,5 +231,48 @@ export default {
       document.body.removeChild(el);
     },
   },
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: `ThreeFold | ${this.$page.blog.title}`,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.blog.excerpt,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.blog.title,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.blog.excerpt,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.$page.blog.image.src,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.blog.excerpt,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.$page.blog.image.src,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.blog.title,
+        },
+      ],
+    };
+  },
 };
 </script>
