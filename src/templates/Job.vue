@@ -43,7 +43,12 @@
       </section>
     </div>
     <div class="container-fluid mx-auto pt-24">
-      <CustomCTA link="/" title="Join our community" />
+      <CustomCTA
+        v-for="edge in $page.allCustomCta.edges"
+        :key="edge.node.id"
+        :title="edge.node.title"
+        :link="edge.node.link"
+      />
     </div>
   </Layout>
 </template>
@@ -56,6 +61,15 @@
         content
         button
         link
+      }
+    allCustomCta {
+        edges {
+          node {
+            id
+            title
+            link
+          }
+        }
       }
 }
 </page-query>

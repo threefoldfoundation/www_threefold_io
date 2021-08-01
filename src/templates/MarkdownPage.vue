@@ -49,14 +49,13 @@
         :sections="$page.markdownPage.comparisonSecs"
       />
     </div>
-      <g-image
-        v-if="
-          $page.markdownPage.id !== 'careers' &&
-          $page.markdownPage.solution_image
-        "
-        class="mx-auto mt-10"
-        :src="$page.markdownPage.solution_image.src"
-      />
+    <g-image
+      v-if="
+        $page.markdownPage.id !== 'careers' && $page.markdownPage.solution_image
+      "
+      class="mx-auto mt-10"
+      :src="$page.markdownPage.solution_image.src"
+    />
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <CallToAction
         :id="$page.markdownPage.id"
@@ -169,6 +168,17 @@
       <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
+      />
+    </div>
+    <div
+      class="container-fluid mx-auto"
+      v-for="edge in $page.allCustomCta.edges"
+      :key="edge.node.id"
+    >
+      <CustomCTA
+        v-if="edge.node.id == $page.markdownPage.id"
+        :title="edge.node.title"
+        :link="edge.node.link"
       />
     </div>
   </Layout>
@@ -379,6 +389,15 @@
           link2
       }
     }
+    allCustomCta {
+      edges {
+        node {
+          id
+          title
+          link
+        }
+      }
+    }
   }
 
 </page-query>
@@ -404,6 +423,7 @@ import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.
 import AppListItem from "~/components/AppListItem.vue";
 import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
 import CenteredAccordion from "~/components/marketing/sections/faq-sections/CenteredAccordion.vue";
+import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
 
 export default {
   components: {
@@ -427,6 +447,7 @@ export default {
     AppListItem,
     Partenerships,
     CenteredAccordion,
+    CustomCTA,
   },
   computed: {
     getImg() {
