@@ -10,7 +10,7 @@
         :src="$page.markdownPage.solution_image.src"
       />
     </div>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <div class="">
       <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
@@ -124,7 +124,7 @@
       />
 
       <SolutionsHeader
-        class="mt-20"
+        class="mt-0"
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />

@@ -2,5 +2,5 @@
 id: careers
 link: /community
 title: Join our Community
-image: ./threefold_people.png
+image: ./tf_people.png
 ---
