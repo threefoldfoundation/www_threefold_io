@@ -136,6 +136,9 @@ navLinks:
       - title: Support
         path: /support
         external: false
+      - title: Join Us
+        path: /careers
+        external: false
 
 social:
   - icon: telegram-plane

@@ -69,7 +69,9 @@ As a Master Technical Architect you will work closely with Kristof de Spiegeleer
 
 ## What we offer
 
-- You will be working for our tech company **TFTech** that is based in Belgium.
-- We all work remote using github, video conferencing, agile methods, ..
-- You will be paid in EUR, TFT and/or BTC (or other digital currency of your choice).
+- A desk in our Belgian office
+- A competitive wage
+- Flexible hours
+- Great teamspirit
+- Yearly team trips abroad
 

@@ -78,5 +78,7 @@ Components you will manage:
 
 ## What we offer
 
-- Work remotely for our company that's based in Dubai.
-- Paid in TFT and BTC (or other digital currency of choice).
+- Flexible hours working remotely for our company based in Dubai
+- A competitive wage
+- Great teamspirit
+- Yearly team trips abroad
