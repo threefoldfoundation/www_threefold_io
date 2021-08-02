@@ -78,6 +78,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Header',
+                path: './content/page/**/header4/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'SolutionsHeader',
                 path: './content/page/**/headerSolution/*.md',
             }
@@ -359,6 +367,7 @@ module.exports = {
                     header: 'Header',
                     header2: 'Header',
                     header3: 'Header',
+                    header4: 'Header',
                     headerSolution: 'SolutionsHeader',
                     howItWorks: 'HowItWorks',
                     howItWorksMain: 'HowItWorks',

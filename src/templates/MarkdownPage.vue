@@ -156,6 +156,12 @@
         :pricingPlans="$page.markdownPage.jobs"
         :main="$page.markdownPage.jobsMain"
       />
+      
+      <SolutionsHeader
+        class="mt-0"
+        v-if="$page.markdownPage.header4"
+        :header="$page.markdownPage.header4"
+      />
 
       <GetInTouch
         v-if="
@@ -222,6 +228,15 @@
          link2
        }
         header3{
+         title
+         subtitle
+         content
+         btn1
+         link1
+         btn2
+         link2
+       }
+        header4{
          title
          subtitle
          content

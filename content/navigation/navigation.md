@@ -136,7 +136,7 @@ navLinks:
       - title: Support
         path: /support
         external: false
-      - title: Join Us
+      - title: Careers
         path: /careers
         external: false
 
