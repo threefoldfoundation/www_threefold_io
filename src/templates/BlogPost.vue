@@ -216,11 +216,6 @@ export default {
   components: {
     PostListItem,
   },
-  metaInfo() {
-    return {
-      title: this.$page.blog.title,
-    };
-  },
   methods: {
     copyLink() {
       const el = document.createElement("input");
