@@ -1,5 +1,5 @@
 ---
 id: faqMain
-title: FAQ
-subtitle: See some of the Most Freaquently Asked Questions answered in FAQs. You might already find what you're looking for.
+title: Did you try our FAQ yet?
+subtitle: ThreeFold's FAQs bring together the most essential answers to the most common questions. You might already find what you're looking for in one of them.
 ---

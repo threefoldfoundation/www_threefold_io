@@ -8,7 +8,7 @@ btn2: ''
 link2: ''
 ---
 
-**ThreeFold** ecosystem is a global community of developers, creators, leaders and community builders who together join forces to build an open, autonomous and regenerative Internet. We believe that everyone should own their data, and no one else, not even ThreeFold. Our Peer-to-Peer technology allows every user to be autonomous -  giving them 100% control over their data. 
+**The ThreeFold** ecosystem is a global community of developers, creators, leaders and community builders who together join forces to build an open, autonomous and regenerative Internet. We believe that everyone should own their data, and no one else, not even ThreeFold. Our Peer-to-Peer technology allows every user to be autonomous -  giving them 100% control over their data. 
 <br/>
 <br/>
 

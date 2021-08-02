@@ -4,7 +4,7 @@ metaTitle: ThreeFold | Support
 metaDesc: See some of the Most Freaquently Asked Questions, support groups, contacts to help find answers you're looking for.
 metaImg: support
 header_slogan: ''
-header_title: Get our expert and community support
+header_title: Find the answers to your questions
 header_image: ./support_header.png
 header_altImg: support
 header_excerpt: ''
