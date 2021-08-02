@@ -10,7 +10,7 @@
         :src="$page.markdownPage.solution_image.src"
       />
     </div>
-    <div class="">
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&

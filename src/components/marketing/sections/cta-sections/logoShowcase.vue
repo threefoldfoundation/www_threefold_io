@@ -16,7 +16,7 @@
         <g-image :src="img(logo.image)" />
       </a>
     </div>
-    <div v-if="id == 'community'" class="flex flex-wrap mx-2">
+    <div v-else-if="id == 'community'" class="flex flex-wrap mx-2">
       <a
         v-for="(logo, idx) in logos"
         :key="idx"
