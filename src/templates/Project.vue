@@ -5,7 +5,15 @@
         <div class="w-full md:w-1/6 mx-auto sm:mx-0">
           <g-image
             :src="$page.project.logo"
-            class="rounded-full bg-gray-200 w-32 h-32 border-4 border-gray-400 mx-auto md:mx-0"
+            class="
+              rounded-full
+              bg-gray-200
+              w-32
+              h-32
+              border-4 border-gray-400
+              mx-auto
+              md:mx-0
+            "
           ></g-image>
         </div>
         <div class="w-full md:w-5/6 text-center md:text-left md:pl-8 lg:pl-0">
@@ -39,7 +47,13 @@
                           <g-image
                             :src="member.image"
                             :alt="member.name"
-                            class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
+                            class="
+                              w-8
+                              h-8
+                              rounded-full
+                              bg-gray-200
+                              border-2 border-white
+                            "
                           />
                         </g-link>
                       </li>
@@ -82,7 +96,19 @@
                 v-for="tag in $page.project.tags"
                 :key="tag.id"
                 :to="tag.path"
-                class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+                class="
+                  text-xs
+                  bg-transparent
+                  hover:text-blue-700
+                  py-2
+                  px-4
+                  mr-2
+                  border
+                  hover:border-blue-500
+                  border-gray-600
+                  text-gray-700
+                  rounded-full
+                "
                 >{{ tag.title }}</g-link
               >
             </section>
@@ -198,7 +224,45 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.project.title,
+      title: "",
+      titleTemplate: `ThreeFold | ${this.$page.project.title}`,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.project.excerpt,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.project.title,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.project.excerpt,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.$page.project.image.src,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.project.excerpt,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.$page.project.image.src,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.project.title,
+        },
+      ],
     };
   },
 };

@@ -214,7 +214,45 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.news.title,
+      title: "",
+      titleTemplate: `ThreeFold | ${this.$page.news.title}`,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.news.excerpt,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.news.title,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.news.excerpt,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.$page.news.image.src,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.news.excerpt,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.$page.news.image.src,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.news.title,
+        },
+      ],
     };
   },
   methods: {
