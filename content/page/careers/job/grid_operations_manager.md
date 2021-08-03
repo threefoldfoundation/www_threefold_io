@@ -1,6 +1,6 @@
 ---
 id: grid_operations_manager
-title: TFGrid Operations Manager
+title: ThreeFold Grid Operations Lead
 button: Apply
 link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 ---
