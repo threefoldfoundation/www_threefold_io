@@ -52,7 +52,7 @@ items:
     - name: ThreeFold Token
       link: https://threefold.io/info/threefold#/threefold__token_home
     - name: Carbon Double Win
-      link: https://threefold.io/info/threefold#/threefold__energy_savings
+      link: https://threefold.io/info/threefold#/internet4__energy_savings
     - name: Manuals
       link: https://threefold.io/info/threefold#/threefold__wiki_overview
     - name: Releases
