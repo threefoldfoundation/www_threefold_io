@@ -8,7 +8,7 @@
       <div
         v-if="header.content"
         v-html="header.content"
-        class="mb-8 text-gray-700 leading-relaxed"
+        class="post-content mb-8 text-gray-700 leading-relaxed"
       ></div>
       <div>
         <g-link
@@ -60,5 +60,3 @@ export default {
   props: ["header"],
 };
 </script>
-<style scoped>
-</style>
