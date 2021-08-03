@@ -8,6 +8,7 @@ btn2: ''
 link2: ''
 ---
 
-In case of an energency please find our Live Support Chat - a blue bubble at the bottom right corner of our websites.
+For questions and assistance, please use the chat function (blue chat bubble) on the bottom right corner of our website 
 <br/>
-Someone from our kind support team is there 24/7 ready to help.
+
+or 'Support' function in the [ThreeFold Connect app](https://threefold.io/info/threefold#/threefold__threefold_connect).

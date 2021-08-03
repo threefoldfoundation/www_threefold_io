@@ -9,4 +9,4 @@ includeTitle: '' # Must Have
 options: ''
 ---
 
-Join the core developer team working on our operating system Zero-OS, Dital Twin, blockchain layers or other products we are building.
+Join the core developer team working on our operating system Zero-OS, Digital Twin, blockchain layers or other products we are building.

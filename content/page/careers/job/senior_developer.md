@@ -5,7 +5,7 @@ button: Apply
 link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 ---
 
-**The ThreeFold** is a global community with an aim to create an upgraded Internet by the people for the people. We base our work on sustainability, passion and strong values.
+**ThreeFold** is a global community with an aim to create an upgraded Internet by the people for the people. We base our work on sustainability, passion and strong values.
 
 <br/>
 
@@ -19,7 +19,7 @@ link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 
 ## Introduction
 
-We have developed a new operating system called Zero-OS, Dital Twin and more, and we are looking for **Senior Developers** to further develop our products.
+We have developed a new operating system called Zero-OS, Digital Twin and more, and we are looking for **Senior Developers** to further develop our products.
 
 
 ## Role
@@ -57,7 +57,7 @@ We have developed a new operating system called Zero-OS, Dital Twin and more, an
 - A desk in our Belgian office
 - A competitive wage
 - Flexible hours
-- Great teamspirit
+- Great team spirit
 - Yearly team trips abroad
 
 

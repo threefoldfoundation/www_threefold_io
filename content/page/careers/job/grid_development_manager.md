@@ -5,7 +5,7 @@ button: Apply
 link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 ---
 
-**The ThreeFold** is a global community with an aim to create an upgraded Internet by the people for the people. We base our work on sustainability, passion and strong values.
+**ThreeFold** is a global community with an aim to create an upgraded Internet by the people for the people. We base our work on sustainability, passion and strong values.
 
 <br/>
 
@@ -80,5 +80,5 @@ Components you will manage:
 
 - Flexible hours working remotely for our company based in Dubai
 - A competitive wage
-- Great teamspirit
+- Great team spirit
 - Yearly team trips abroad

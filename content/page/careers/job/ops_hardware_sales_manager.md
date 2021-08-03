@@ -5,7 +5,7 @@ button: Apply
 link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 ---
 
-**The ThreeFold** is a global community with an aim to create an upgraded Internet by the people for the people. We base our work on sustainability, passion and strong values.
+**ThreeFold** is a global community with an aim to create an upgraded Internet by the people for the people. We base our work on sustainability, passion and strong values.
 
 <br/>
 
@@ -55,5 +55,5 @@ We would require you to have:
 - Consumption vouchers
 - Hospitalization insurance + dental plan
 - Flexible hours
-- Great teamspirit
+- Great team spirit
 - Yearly team trips abroad
