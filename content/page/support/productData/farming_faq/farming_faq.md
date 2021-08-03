@@ -1,7 +1,7 @@
 ---
 id: farming_faq
 title: ThreeFold Farming FAQ
-image: ./farming_faq.png
+image: ./farming_faq1.png
 button: FAQ
 link: https://threefold.io/farming/faq
 ---
