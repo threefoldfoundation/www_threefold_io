@@ -5,70 +5,85 @@ button: Apply
 link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 ---
 
-**ThreeFold** is a global community with an aim to create an upgraded Internet by the people for the people. We base our work on sustainability, passion and strong values.
+We are looking for a detail-oriented individual to join our Engineering department as a Quality Engineer. You will be primarily responsible for checking and managing the quality standards of the development process. You will also be responsible for maintaining the quality control systems and ensuring that all processes adhere to production quality standards.
+<br/>
+<br/>
+
+As a Quality Engineer, you should be able to prepare and implement the quality control guidelines. Besides, you should also be able to identify any problems in the production process and suggest improvements. You should be able to prepare detailed and accurate reports on the development findings.
+<br/>
+<br/>
+
+To excel in this job role, you will have a complete onboarding on our quality processes, tools, and code. Ideally, you should hold a valid QA certification and have relevant experience in the Engineering department. Furthermore, you should display strong analytical and problem-solving abilities. Your ability to handle stressful situations will be advantageous.
 
 <br/>
 
-**Values & Passion:**
+## Values & Passion
 
-  - Understand what it means to work in a successfully growing project and endorse this way of working.
-  - Resonate with [a blog once written about values & collaboration (2017)](https://threefold.io/info/threefold#/threefold__kristof_build_a_better_world_values_collaboration?id=change-is-good).
-  - Be passionate and willing to bring a positive change to the world.
-  - Understand it won't be a 9-5 job. We are changing the world, it takes courage and perseverance.
-  - Be willing to travel and stay at other locations for some time to work directly with the team.
+- Understand what it means to work in a growing agile project and ecosystem.
+- Resonate with our values & collaboration manifesto (2017).
+- Be passionate and willing to bring a positive change to our world.
+- Understand it won't be a 9-5 job. We are changing the world, it takes courage and perseverance.
+- Be willing to travel and to other locations to work directly with our global team.
 
-## Introduction
-
-TFGrid will eventually have millions of nodes so it’s very important to develop an extensive QA program. Our components are low level and required high technical skill.
-We are looking for a  **QA Engineer** who will take ownership on the overall testing of both the low level technology components of the TFGrid, as well as the Digital Twin.
+<br/>
 
 ## Role
 
-Your main responsibility will be around testing our code of both the ThreeFold Grid and the Digital Twin making sure it is of best possible quality, and test scenarios, test cases and test execution are well documented.
-
+The ThreeFold Grid will eventually have millions of nodes, and it’s very important to develop an extensive QA program. Our components are low-level and require highly technical people to overlook the push from testnet to production. We are looking for a QA Engineer who will take ownership of the overall testing of both the low-level technology components of the ThreeFold Grid primitives and applications built on top of it.
+<br/>
 <br/>
 
-- Work on end-to-end testing of the newest technologies.
-- Testing in an Agile project setup.
+Your main responsibility will be to test the code behind the ThreeFold Grid and making sure that it adheres to the highest possible quality through testing scenarios, test cases, and executing upon findings. Also building a new Internet involves educating the world on how it works, so documentation will be a crucial part of your process too.
+<br/>
+<br/>
+
+- Test our latest technologies end-to-end.
+- Test in an agile project setup.
 - Develop and execute exploratory and automated tests to ensure product quality.
 - Work in our international team.
-- We are not just looking for a test engineer, we are looking for people who believe that the world needs a new internet and we make it happen.
-
+- Be an ambassador of our ethos, why we do what we do, and why we will make it happen.
+<br/>
 <br/>
 
-We are working on:
-- A federated, decentralized operating system
-- Digital Twin
-- Blockchain technology to build trust 
+What you will be overlooking:
+- A peer-to-peer operating system
+- A peer-to-peer virtual system administrator
+- Blockchain technology
 - Smart Contract for IT
+
+<br/>
 
 ## Skills
 
-**Personal skills:**
+**Personal:**
+
 - Able to question the status quo
-- Understand the world need a new operating system for the internet
-- Be smart & agile
+- Out-of-the-box thinking
+- Smart & agile
 - Fast learner
 
 <br/>
 
-**Technical skills:**
-- Able to think conceptual about data models, IT architecture, business requirements, to be translated into test cases
-- Fluent with github, agile processes
-- Proven work experience in software quality assurance
-- Technically skilled to understand cloud from a user perspective
+**Technical:**
+
+- Able to think conceptually about data models, IT architecture, and business requirements
+- Fluent with GitHub and agile processes
+- Proven work experience in software quality assurance
+- Technically skilled to understand how a cloud should work from a user perspective
 
 <br/>
 
-**Professional skills:**
+**Professional:**
+
 - Fluent in English
-- Good communicator, also in an international environment
+- Good communicator
 - Understand and follow Pareto 20/80 rule
-- Not afraid to be a teacher for others
-- Flexible out of the box thinker, +- everything you will be working on is not following existing paradigms
-- Don’t be afraid of changes
-- Understand that quality is important
-- Be at least level 'wolf' in [the skill levels](https://threefold.io/info/threefold#/threefold__p2p_awareness_level) we use
+- Be a good teacher
+- Flexible out-of-the-box thinker
+- Understand what it means to be a team lead
+- Be at least level 'wolf' in the skill levels we use
+
+<br/>
 
 ## What we offer
 
@@ -78,3 +93,4 @@ We are working on:
 - Great team spirit
 - Yearly team trips abroad
 
+<br/>

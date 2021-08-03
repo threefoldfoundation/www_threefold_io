@@ -1,6 +1,6 @@
 ---
 id: plan3
-title: Grid Development Manager
+title: ThreeFold Grid Developer Lead
 price: ''
 duration: ''
 button: See Position
