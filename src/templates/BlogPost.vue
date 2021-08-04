@@ -2,6 +2,7 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-20 px-4">
       <div class="pt-8">
+        <Alert v-if="showAlert" @clicked="linkCopied" />
         <section class="post-header container mx-auto px-0 mb-4 border-b">
           <h1 class="text-5xl font-medium leading-none mt-0">
             {{ $page.blog.title }}
@@ -211,10 +212,16 @@
 
 <script>
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
-
+import Alert from "~/components/custom/Alert.vue";
 export default {
   components: {
     PostListItem,
+    Alert,
+  },
+  data() {
+    return {
+      showAlert: false,
+    };
   },
   methods: {
     copyLink() {
@@ -224,6 +231,10 @@ export default {
       el.select();
       document.execCommand("copy");
       document.body.removeChild(el);
+      this.showAlert = true;
+    },
+    linkCopied(val) {
+      this.showAlert = val;
     },
   },
   metaInfo() {
