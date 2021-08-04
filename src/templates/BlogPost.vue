@@ -266,6 +266,11 @@ export default {
           property: "twitter:title",
           content: this.$page.blog.title,
         },
+        {
+          key: "twitter:card",
+          name: "twitter:card",
+          content: this.$page.blog.image.src,
+        },
       ],
     };
   },
