@@ -217,7 +217,7 @@ export default {
   metaInfo() {
     return {
       title: "",
-      titleTemplate: `ThreeFold | ${this.$page.person.title}`,
+      titleTemplate: `ThreeFold | ${this.$page.person.name}`,
       meta: [
         {
           key: "description",
@@ -227,7 +227,7 @@ export default {
         {
           key: "og:title",
           property: "og:title",
-          content: this.$page.person.title,
+          content: this.$page.person.name,
         },
         {
           key: "og:description",
@@ -252,7 +252,7 @@ export default {
         {
           key: "twitter:title",
           property: "twitter:title",
-          content: this.$page.person.title,
+          content: this.$page.person.name,
         },
       ],
     };
