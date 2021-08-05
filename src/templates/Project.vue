@@ -222,6 +222,13 @@ export default {
       return pluralize("post", this.$page.project.belongsTo.totalCount);
     },
   },
+  methods: {
+    img(image) {
+      if (!image) return "";
+      if (image.src) return image.src;
+      return image;
+    },
+  },
   metaInfo() {
     return {
       title: "",
@@ -245,7 +252,7 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.$page.project.image.src,
+          content: this.img(this.$page.project.image),
         },
         {
           key: "twitter:description",
@@ -255,12 +262,17 @@ export default {
         {
           key: "twitter:image",
           property: "twitter:image",
-          content: this.$page.project.image.src,
+          content: this.img(this.$page.project.image),
         },
         {
           key: "twitter:title",
           property: "twitter:title",
           content: this.$page.project.title,
+        },
+        {
+          key: "twitter:card",
+          name: "twitter:card",
+          content: this.$page.project.excerpt,
         },
       ],
     };

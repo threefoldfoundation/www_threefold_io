@@ -236,6 +236,11 @@ export default {
     linkCopied(val) {
       this.showAlert = val;
     },
+    img(image) {
+      if (!image) return "";
+      if (image.src) return image.src;
+      return image;
+    },
   },
   metaInfo() {
     return {
@@ -260,7 +265,7 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.$page.blog.image.src,
+          content: this.img(this.$page.blog.image),
         },
         {
           key: "twitter:description",
@@ -270,7 +275,7 @@ export default {
         {
           key: "twitter:image",
           property: "twitter:image",
-          content: this.$page.blog.image.src,
+          content: this.img(this.$page.blog.image),
         },
         {
           key: "twitter:title",
@@ -280,7 +285,7 @@ export default {
         {
           key: "twitter:card",
           name: "twitter:card",
-          content: this.$page.blog.image.src,
+          content: this.$page.blog.excerpt,
         },
       ],
     };
