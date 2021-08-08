@@ -242,6 +242,7 @@ export default {
       return image;
     },
   },
+
   metaInfo() {
     return {
       title: "",
@@ -273,7 +274,7 @@ export default {
           content: this.$page.blog.excerpt,
         },
         {
-          key: "twitter:image",
+          key: "twitter:image:src",
           property: "twitter:image:src",
           content: this.img(this.$page.blog.image),
         },
