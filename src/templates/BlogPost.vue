@@ -274,7 +274,7 @@ export default {
         },
         {
           key: "twitter:image",
-          property: "twitter:image",
+          property: "twitter:image:src",
           content: this.img(this.$page.blog.image),
         },
         {
