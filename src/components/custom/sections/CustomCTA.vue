@@ -50,6 +50,7 @@ export default {
 .header {
   height: auto;
   background: none;
+  padding: 200px 0;
 }
 
 .banner h2,
@@ -93,7 +94,7 @@ export default {
 .header .back {
   filter: none;
   opacity: 1;
-  background-position: top;
+  background-position: center;
 
   background-size: cover;
   background-repeat: no-repeat;
