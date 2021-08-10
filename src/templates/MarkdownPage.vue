@@ -2,15 +2,31 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <div
       class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5"
-      v-if="$page.markdownPage.id == 'careers'"
+      v-if="
+        $page.markdownPage.id == 'careers' ||
+        $page.markdownPage.id == 'community'
+      "
     >
-      <g-image
-        class="w-100 mx-auto"
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
+      <CustomCTA
+        :header="true"
+        :image="$page.markdownPage.pageHeader.image"
+        :title="$page.markdownPage.pageHeader.title"
       />
+      <!-- <div class="singlePic">
+        <g-image
+          class="w-100 mx-auto"
+          v-if="$page.markdownPage.solution_image"
+          :src="$page.markdownPage.solution_image.src"
+        />
+      </div> -->
     </div>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <div
+      class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"
+      v-if="
+        $page.markdownPage.id !== 'careers' &&
+        $page.markdownPage.id !== 'community'
+      "
+    >
       <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
@@ -49,13 +65,13 @@
         :sections="$page.markdownPage.comparisonSecs"
       />
     </div>
-    <g-image
+    <!-- <g-image
       v-if="
         $page.markdownPage.id !== 'careers' && $page.markdownPage.solution_image
       "
       class="mx-auto mt-10"
       :src="$page.markdownPage.solution_image.src"
-    />
+    /> -->
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <CallToAction
         :id="$page.markdownPage.id"
@@ -156,7 +172,7 @@
         :pricingPlans="$page.markdownPage.jobs"
         :main="$page.markdownPage.jobsMain"
       />
-      
+
       <SolutionsHeader
         class="mt-0"
         v-if="$page.markdownPage.header4"
@@ -404,6 +420,11 @@
           button2
           link2
       }
+     pageHeader {
+      id
+      title
+      image
+    }
     }
     allCustomCta {
       edges {
@@ -465,6 +486,9 @@ export default {
     Partenerships,
     CenteredAccordion,
     CustomCTA,
+  },
+  mounted() {
+    console.log(this.$page.markdownPage.careersHeader);
   },
   computed: {
     getImg() {
@@ -568,4 +592,4 @@ export default {
 .gridsome-highlight pre[class*="language-"].line-numbers {
   padding-left: 2.8em;
 }
-</style> >
+</style>

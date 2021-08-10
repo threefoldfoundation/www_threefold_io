@@ -358,6 +358,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'PageHeader',
+                path: './content/page/**/pageHeader/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -411,7 +419,8 @@ module.exports = {
                     faqMain: 'FAQMain',
                     faqContent: 'FAQContent',
                     jobs: 'Jobs',
-                    customCTA: 'CustomCTA'
+                    customCTA: 'CustomCTA',
+                    pageHeader: 'PageHeader'
                 }
             }
         },
