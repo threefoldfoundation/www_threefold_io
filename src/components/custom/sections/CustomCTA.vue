@@ -134,7 +134,7 @@ export default {
   }
 
   .header h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .banner h2 svg {
