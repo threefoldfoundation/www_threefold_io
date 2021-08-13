@@ -1,12 +1,13 @@
+
 {
-  "name": "my-blog",
-  "private": true,
-  "scripts": {
+"name": "www_threefold_io",
+"private": true,
+"scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
-  },
-  "dependencies": {
+},
+"dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -25,17 +26,17 @@
     "gridsome-source-graphql": "^1.0.2",
     "gridsome-source-static-meta": "github:noxify/gridsome-source-static-meta#master",
     "lodash": "^4.17.20",
-    "node-sass": "^5.0.0",
     "pluralize": "^8.0.0",
     "sass-loader": "^10.0.2",
-    "tailwindcss": "^1.8.4",
+    "tailwindcss": "^2.0.0",
     "tailwindcss-gradients": "^3.0.0",
     "tailwindcss-tables": "^0.4.0",
     "v-tooltip": "^2.0.3",
     "vue-markdown": "^2.1.2",
+    "isexe": "^2.0.0",
     "vue-share-it": "^1.1.4"
-  },
-  "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.0"
-  }
+    },
+    "devDependencies": {
+        "@tailwindcss/aspect-ratio": "^0.2.0"
+    }
 }
