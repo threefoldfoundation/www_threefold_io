@@ -1,14 +1,14 @@
 
 
 set -e
-cd /home/gitpod/codewww/github/threefoldfoundation/www_threefold_io/development
+cd /workspace/code//github/threefoldfoundation/www_threefold_io
 
 #set +e
-#source /home/gitpod/.publisher/nvm.sh
+#source /workspace/codewiki/nvm.sh
 #set -e
 #nvm use --lts
 
-export PATH=/home/gitpod/.publisher/versions/node/v14.17.0/bin:$PATH
+#export PATH=/bin:$PATH
 
 set +e
 if [ -f vue.config.js ]; then
@@ -19,10 +19,10 @@ fi
 
 set -e
 
-mkdir -p /home/gitpod/.publisher/publish/www_threefold_io
-rsync -ra --delete /home/gitpod/codewww/github/threefoldfoundation/www_threefold_io/development/dist/ /home/gitpod/.publisher/publish/www_threefold_io/
+mkdir -p /workspace/codewiki/publish/www_threefold_io
+rsync -ra --delete /workspace/code//github/threefoldfoundation/www_threefold_io/dist/ /workspace/codewiki/publish/www_threefold_io/
 
-cd /home/gitpod/codewww/github/threefoldfoundation/www_threefold_io/development/dist
+cd /workspace/code//github/threefoldfoundation/www_threefold_io/dist
 
 #echo go to http://localhost:9999/
  #python3 -m http.server 9999

@@ -1,14 +1,14 @@
 
 
 set -e
-cd /home/gitpod/codewww/github/threefoldfoundation/www_threefold_io/development
+cd /workspace/code//github/threefoldfoundation/www_threefold_io
 
 #set +e
-#source /home/gitpod/.publisher/nvm.sh
+#source /workspace/codewiki/nvm.sh
 #set -e
 #nvm use --lts
 
-export PATH=/home/gitpod/.publisher/versions/node/v14.17.0/bin:$PATH
+#export PATH=/bin:$PATH
 
 if [ -f vue.config.js ]; then
     npm run-script serve
