@@ -274,14 +274,8 @@
         </div>
         <div
           class="
-            pt-10
-            pb-10
             px-6
-            sm:pt-16
             sm:px-10
-            lg:py-16
-            lg:pr-0
-            xl:py-20
             xl:px-15
           "
         >
