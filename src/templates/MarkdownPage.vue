@@ -115,6 +115,13 @@
         :slides="$page.markdownPage.carousel"
         :main="$page.markdownPage.sliderMain"
       />
+
+      <TFTFuel
+        v-if="$page.markdownPage.tftUses.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.useTftMain"
+        :sections="$page.markdownPage.tftUses"
+      />
       <Partenerships
         v-if="
           $page.markdownPage.partnerships &&
@@ -461,6 +468,15 @@
        button
        link
      }
+     useTftMain {
+       id
+       image
+     }
+     tftUses{
+       id
+       title
+       content
+     }
     }
     allCustomCta {
       edges {
@@ -499,6 +515,7 @@ import Partenerships from "~/components/marketing/sections/team-sections/grid_wi
 import CenteredAccordion from "~/components/marketing/sections/faq-sections/CenteredAccordion.vue";
 import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
 import Slider from "~/components/custom/Slider.vue";
+
 export default {
   components: {
     NewCard,

@@ -390,6 +390,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'TftUsesMain',
+                path: './content/page/**/tftUses/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'TftUses',
+                path: './content/page/**/tftUses/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -447,7 +463,9 @@ module.exports = {
                     pageHeader: 'PageHeader',
                     card: 'Card',
                     carousel: 'Carousel',
-                    sliderMain: 'CarouselMain'
+                    sliderMain: 'CarouselMain',
+                    useTftMain: 'TftUsesMain',
+                    tftUses: 'TftUses'
                 }
             }
         },

@@ -1,9 +1,65 @@
 <template>
   <div class="bg-white">
-    <div class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24">
+    <div
+      v-if="id == 'tft'"
+      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24"
+    >
+      <!-- <div
+          class="
+            space-y-5
+            text-center
+            sm:space-y-4
+            md:max-w-xl
+            lg:max-w-3xl
+            xl:max-w-none
+          "
+        >
+          <h2 class="text-4xl mb-2 leading-tight font-semibold font-heading">
+            {{ main.title }}
+          </h2>
+          <p class="text-gray-600">
+            {{ main.description }}
+          </p>
+        </div> -->
+      <div
+        class="
+          sm:grid sm:grid-cols-3
+          sm:gap-x-6 sm:gap-y-12
+          sm:space-y-0
+          lg:grid-cols-3
+          lg:gap-x-8
+        "
+      >
+        <div v-for="(section, index) in sections" :key="index" class="p-5">
+          <div class="leading-6">
+            <h2 class="text-8xl font-bold uppercase" v-if="section.title">
+              {{ section.title }}
+            </h2>
+            <div
+              v-if="section.content"
+              class="text-2xl"
+              v-html="section.content"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <g-image class="mt-0" :src="main.image" />
+    </div>
+
+    <div
+      v-else
+      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24"
+    >
       <div class="space-y-12">
         <div
-          class="space-y-5 text-center sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none"
+          class="
+            space-y-5
+            text-center
+            sm:space-y-4
+            md:max-w-xl
+            lg:max-w-3xl
+            xl:max-w-none
+          "
         >
           <h2 class="text-4xl mb-2 leading-tight font-semibold font-heading">
             {{ main.title }}
@@ -13,7 +69,14 @@
           </p>
         </div>
         <div
-          class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8"
+          class="
+            space-y-12
+            sm:grid sm:grid-cols-2
+            sm:gap-x-6 sm:gap-y-12
+            sm:space-y-0
+            lg:grid-cols-2
+            lg:gap-x-8
+          "
         >
           <div
             v-for="(section, index) in sections"
@@ -45,13 +108,35 @@
               v-if="urlChecker(main.link)"
               target="_blank"
               :href="main.link"
-              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              class="
+                bg-blue-900
+                text-sm
+                learn-button
+                hover:bg-blue-800
+                text-gray-100
+                px-12
+                py-2
+                mr-5
+                shadow
+                rounded-full
+              "
               >{{ main.button }}</a
             >
             <a
               v-else
               :href="main.link"
-              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              class="
+                bg-blue-900
+                text-sm
+                learn-button
+                hover:bg-blue-800
+                text-gray-100
+                px-12
+                py-2
+                mr-5
+                shadow
+                rounded-full
+              "
               >{{ main.button }}</a
             >
           </div>
@@ -61,13 +146,35 @@
               v-if="urlChecker(main.link2)"
               target="_blank"
               :href="main.link2"
-              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              class="
+                bg-blue-900
+                text-sm
+                learn-button
+                hover:bg-blue-800
+                text-gray-100
+                px-12
+                py-2
+                mr-5
+                shadow
+                rounded-full
+              "
               >{{ main.button2 }}</a
             >
             <a
               v-else
               :href="main.link2"
-              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 shadow rounded-full"
+              class="
+                bg-blue-900
+                text-sm
+                learn-button
+                hover:bg-blue-800
+                text-gray-100
+                px-12
+                py-2
+                mr-5
+                shadow
+                rounded-full
+              "
               >{{ main.button2 }}</a
             >
           </div>
@@ -79,7 +186,7 @@
 
 <script>
 export default {
-  props: ["main", "sections"],
+  props: ["id", "main", "sections"],
   methods: {
     img(image) {
       if (!image) return "";
