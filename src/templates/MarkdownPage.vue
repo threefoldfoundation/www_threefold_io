@@ -75,7 +75,10 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta && $page.markdownPage.id == 'why'"
+        v-if="
+          ($page.markdownPage.cta && $page.markdownPage.id == 'why') ||
+          $page.markdownPage.id == 'tft'
+        "
         :cta="$page.markdownPage.cta"
       />
 
@@ -99,6 +102,12 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
+      />
+
+      <NewCard
+        v-if="$page.markdownPage.card"
+        :id="$page.markdownPage.id"
+        :card="$page.markdownPage.card"
       />
       <Partenerships
         v-if="
@@ -424,7 +433,16 @@
       id
       title
       image
-    }
+     }
+
+     card{
+       id
+       img
+       title
+       content
+       button
+       link
+     }
     }
     allCustomCta {
       edges {
@@ -486,9 +504,6 @@ export default {
     Partenerships,
     CenteredAccordion,
     CustomCTA,
-  },
-  mounted() {
-    console.log(this.$page.markdownPage.careersHeader);
   },
   computed: {
     getImg() {

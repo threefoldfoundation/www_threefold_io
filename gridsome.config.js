@@ -366,6 +366,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Card',
+                path: './content/page/**/card/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -420,7 +428,8 @@ module.exports = {
                     faqContent: 'FAQContent',
                     jobs: 'Jobs',
                     customCTA: 'CustomCTA',
-                    pageHeader: 'PageHeader'
+                    pageHeader: 'PageHeader',
+                    card: 'Card'
                 }
             }
         },
