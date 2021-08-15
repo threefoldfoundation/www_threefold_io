@@ -245,7 +245,7 @@
       <!-- tft -->
       <div
         v-else-if="id == 'tft'"
-        class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10"
+        class="flex flex-wrap text-center lg:text-left "
         
       >
         <div class="lg:w-1/2 px-2 self-center">
