@@ -13,4 +13,6 @@ link: /
 cta: tft_cta
 brandPanel: tft_brandPanel
 card: tft_card
+carousel: [slide1, slide2, slide3, slide4, slide5, slide6 , slide7]
+sliderMain: slider_main
 ---

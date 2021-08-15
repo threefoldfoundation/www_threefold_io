@@ -374,6 +374,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Carousel',
+                path: './content/page/**/carousel/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'CarouselMain',
+                path: './content/page/**/carousel/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -429,7 +445,9 @@ module.exports = {
                     jobs: 'Jobs',
                     customCTA: 'CustomCTA',
                     pageHeader: 'PageHeader',
-                    card: 'Card'
+                    card: 'Card',
+                    carousel: 'Carousel',
+                    sliderMain: 'CarouselMain'
                 }
             }
         },

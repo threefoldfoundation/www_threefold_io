@@ -72,7 +72,7 @@
       class="mx-auto mt-10"
       :src="$page.markdownPage.solution_image.src"
     /> -->
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="
@@ -108,6 +108,12 @@
         v-if="$page.markdownPage.card"
         :id="$page.markdownPage.id"
         :card="$page.markdownPage.card"
+      />
+
+      <Slider
+        v-if="$page.markdownPage.carousel"
+        :slides="$page.markdownPage.carousel"
+        :main="$page.markdownPage.sliderMain"
       />
       <Partenerships
         v-if="
@@ -435,6 +441,18 @@
       image
      }
 
+     carousel {
+        id
+        img
+      }
+
+      sliderMain {
+        id
+        title
+        subtitle
+        content
+      }
+
      card{
        id
        img
@@ -480,7 +498,7 @@ import AppListItem from "~/components/AppListItem.vue";
 import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
 import CenteredAccordion from "~/components/marketing/sections/faq-sections/CenteredAccordion.vue";
 import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
-
+import Slider from "~/components/custom/Slider.vue";
 export default {
   components: {
     NewCard,
@@ -504,6 +522,7 @@ export default {
     Partenerships,
     CenteredAccordion,
     CustomCTA,
+    Slider,
   },
   computed: {
     getImg() {
