@@ -1,8 +1,8 @@
 <template>
   <div class="my-20">
-    <div v-if="main" class="text-center">
-      <h2 class="text-7xl">{{ main.title }}</h2>
-      <h2 v-if="main.subtitle" class="text-7xl">{{ main.subtitle }}</h2>
+    <div v-if="main" class="text-center mx-2">
+      <h2 class="text-4xl uppercase leading-tight font-semibold font-heading my-0">{{ main.title }}</h2>
+      <h2 v-if="main.subtitle" class="text-4xl uppercase leading-tight font-semibold font-heading mt-0">{{ main.subtitle }}</h2>
       <div
         class="my-10 max-w-2xl text-xl mx-auto text-gray-600 sm:mt-4"
         v-html="main.content"
