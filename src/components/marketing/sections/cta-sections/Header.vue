@@ -183,7 +183,6 @@
               text-gray-100
               px-12
               py-2
-              mr-5
               mb-4
               shadow
               rounded-full
@@ -202,7 +201,6 @@
               text-gray-100
               px-12
               py-2
-              mr-5
               mb-4
               shadow
               rounded-full

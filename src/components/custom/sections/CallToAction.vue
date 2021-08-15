@@ -227,14 +227,14 @@
     </div>
 
     <!-- tft -->
-    <div class="w-full max-w-7xl mx-auto lg:mt-20 px-16" v-else-if="id == 'tft'">
+    <div class="w-full max-w-7xl mx-auto lg:mt-20 lg:px-16" v-else-if="id == 'tft'">
       <h2
         v-if="cta.title"
         class="text-4xl mb-2 uppercase leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 text-2xl text-gray-800"></div>
+      <div v-html="cta.content" class="mt-6 mb-8 text-xl text-gray-800"></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
@@ -266,7 +266,6 @@
           text-gray-100
           px-12
           py-2
-          mr-5
           mb-4
           shadow
           rounded-full
