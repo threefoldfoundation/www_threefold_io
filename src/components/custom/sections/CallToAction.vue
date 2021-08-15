@@ -227,7 +227,7 @@
     </div>
 
     <!-- tft -->
-    <div class="w-full max-w-7xl mx-auto mt-10 px-16" v-else-if="id == 'tft'">
+    <div class="w-full max-w-7xl mx-auto lg:mt-20 px-16" v-else-if="id == 'tft'">
       <h2
         v-if="cta.title"
         class="text-4xl mb-2 uppercase leading-tight font-semibold font-heading"
