@@ -165,7 +165,7 @@
       class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 -mx-2"
       v-else-if="id == 'tft'"
     >
-      <div class="lg:w-2/5 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
+      <div class="lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
         <h2 class="text-6xl mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
@@ -183,7 +183,6 @@
               text-gray-100
               px-12
               py-2
-              mr-5
               mb-4
               shadow
               rounded-full
@@ -202,7 +201,6 @@
               text-gray-100
               px-12
               py-2
-              mr-5
               mb-4
               shadow
               rounded-full
@@ -213,7 +211,7 @@
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
         </div>
       </div>
-      <div class="lg:w-3/5 px-2 self-center">
+      <div class="lg:w-1/2 px-2 self-center">
         <g-image :src="img" :alt="altImg" />
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="max-w-screen-xl mx-auto py-24">
+    <div class="max-w-screen-xl mx-auto py-10">
       <!-- token -->
       <div
         v-if="id == 'token'"
@@ -245,44 +245,19 @@
       <!-- tft -->
       <div
         v-else-if="id == 'tft'"
-        class="
-          brandpanel
-          rounded-lg
-          overflow-hidden
-          lg:grid lg:grid-cols-2
-          lg:gap-4
-        "
+        class="flex flex-wrap text-center lg:text-left "
+        
       >
-        <div class="relative pb-3/5 -mt-6 md:pb-1/2">
+        <div class="lg:w-1/2 px-2 self-center">
           <g-image
-            class="
-              absolute
-              brandpanel
-              inset-0
-              w-full
-              h-full
-              sm:h-auto
-              translate-x-0 translate-y-center
-              rounded-md
-              object-fill object-left-top
-              sm:translate-x-0
-              lg:translate-y-20
-            "
+            
             :src="image"
             :alt="brand.title"
           />
         </div>
         <div
           class="
-            pt-10
-            pb-10
-            px-6
-            sm:pt-16
-            sm:px-10
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
+            lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none
           "
         >
           <div class="lg:self-center">
