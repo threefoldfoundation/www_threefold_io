@@ -13,7 +13,7 @@ cta: why_cta
 productsMain: product_main
 productData: [peer_to_peer, internet_available]
 partenershipsMain: partenerships_main
-partnerships: [solidaridad, tag, kleos, threefold]
+partnerships: [why_solidaridad, why_tag, why_kleos, why_threefold]
 cta2: why_cta2
 brandPanel: better_solution
 ---
