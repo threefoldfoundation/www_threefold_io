@@ -406,6 +406,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'FarmingProcessMain',
+                path: './content/page/**/farmingProcess/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'FarmingProcess',
+                path: './content/page/**/farmingProcess/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -465,7 +481,9 @@ module.exports = {
                     carousel: 'Carousel',
                     sliderMain: 'CarouselMain',
                     useTftMain: 'TftUsesMain',
-                    tftUses: 'TftUses'
+                    tftUses: 'TftUses',
+                    farmingMain: 'FarmingProcessMain',
+                    farmingProcess: 'FarmingProcess'
                 }
             }
         },

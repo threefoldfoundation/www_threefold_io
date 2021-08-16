@@ -121,7 +121,17 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.useTftMain"
         :sections="$page.markdownPage.tftUses"
+        :farmingProcess="false"
       />
+
+      <TFTFuel
+        v-if="$page.markdownPage.farmingProcess.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.farmingMain"
+        :sections="$page.markdownPage.farmingProcess"
+        :farmingProcess="true"
+      />
+
       <Partenerships
         v-if="
           $page.markdownPage.partnerships &&
@@ -475,6 +485,16 @@
      tftUses{
        id
        title
+       content
+     }
+     farmingMain {
+       id
+       title
+       subtitle
+     }
+     farmingProcess{
+       id
+       image
        content
      }
     }

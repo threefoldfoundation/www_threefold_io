@@ -17,4 +17,6 @@ carousel: [slide1, slide2, slide3, slide4, slide5, slide6 , slide7]
 sliderMain: slider_main
 useTftMain: useTft_main
 tftUses: [col1, col2, col3]
+farmingMain: FP_main
+farmingProcess: [process_1, process_2, process_3]
 ---
