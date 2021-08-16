@@ -1,5 +1,5 @@
 ---
-id: tag
+id: why_tag
 img: ./tag_img.png
 title: Empowering Global Education
 ---
