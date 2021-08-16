@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div
       v-if="id == 'tft' && !farmingProcess"
-      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24"
+      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24 tft_section"
     >
       <div
         class="
@@ -15,12 +15,12 @@
       >
         <div v-for="(section, index) in sections" :key="index" class="p-5">
           <div class="leading-6">
-            <h2 class="text-8xl font-bold uppercase" v-if="section.title">
+            <h2 class="text-8xl font-bold uppercase mt-0" v-if="section.title">
               {{ section.title }}
             </h2>
             <div
               v-if="section.content"
-              class="text-2xl"
+              class="text-2xl tft_subtitle tracking-wide"
               v-html="section.content"
             ></div>
           </div>
