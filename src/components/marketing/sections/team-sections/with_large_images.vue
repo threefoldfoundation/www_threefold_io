@@ -40,7 +40,7 @@
 
     <div
       v-else-if="id == 'tft' && (farmingProcess || cultivationProcess)"
-      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24"
+      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24 tft_section"
     >
       <div class="space-y-12">
         <div
@@ -53,12 +53,12 @@
             xl:max-w-none
           "
         >
-          <h2 class="text-4xl mb-2 leading-tight font-semibold font-heading">
+          <h2 class="text-5xl mb-2 leading-tight font-heading">
             {{ main.title }}
           </h2>
-          <h1 class="text-6xl mb-2 leading-tight font-extrabold font-heading">
+          <h2 class="text-8xl mb-2 leading-tight font-heading">
             {{ main.subtitle }}
-          </h1>
+          </h2>
         </div>
         <div
           class="
@@ -89,7 +89,7 @@
                 <h4 class="text-xl font-normal uppercase">
                   {{ section.title }}
                 </h4>
-                <div v-html="section.content"></div>
+                <div class="text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="section.content"></div>
               </div>
             </div>
           </div>
