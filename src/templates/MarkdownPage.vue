@@ -24,7 +24,8 @@
       class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"
       v-if="
         $page.markdownPage.id !== 'careers' &&
-        $page.markdownPage.id !== 'community'
+        $page.markdownPage.id !== 'community' &&
+        $page.markdownPage.id !== 'tft'
       "
     >
       <Header
@@ -72,32 +73,33 @@
       class="mx-auto mt-10"
       :src="$page.markdownPage.solution_image.src"
     /> -->
-    <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
+
+    <!-- tft page -->
+     <div
+      class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5"
+       v-if="$page.markdownPage.id == 'tft'"
+   >
+     <Header
+        v-if="
+          
+          $page.markdownPage.header_title &&
+          $page.markdownPage.header_title != ''
+        "
+        :id="$page.markdownPage.id"
+        :title="$page.markdownPage.header_title"
+        :slogan="$page.markdownPage.header_slogan"
+        :image="$page.markdownPage.header_image"
+        :altImg="$page.markdownPage.header_altImg"
+        :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
+      />
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="
-          ($page.markdownPage.cta && $page.markdownPage.id == 'why') ||
-          $page.markdownPage.id == 'tft'
-        "
+        v-if="$page.markdownPage.id == 'tft'"
         :cta="$page.markdownPage.cta"
       />
 
-      <AppListItem
-        v-if="
-          $page.markdownPage.appData && $page.markdownPage.appData.length > 0
-        "
-        :products="$page.markdownPage.appData"
-        :main="$page.markdownPage.appsMain"
-      />
-      <ShowcaseProducts
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
-        :id="$page.markdownPage.id"
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-      />
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel"
@@ -110,7 +112,7 @@
         :card="$page.markdownPage.card"
       />
 
-      <Slider
+            <Slider
         v-if="$page.markdownPage.carousel"
         :slides="$page.markdownPage.carousel"
         :main="$page.markdownPage.sliderMain"
@@ -131,6 +133,38 @@
         :sections="$page.markdownPage.farmingProcess"
         :farmingProcess="true"
       />
+
+      </div>
+
+    <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="
+        $page.markdownPage.cta && $page.markdownPage.id == 'why'
+         
+        "
+        :cta="$page.markdownPage.cta"
+      />
+
+      <AppListItem
+        v-if="
+          $page.markdownPage.appData && $page.markdownPage.appData.length > 0
+        "
+        :products="$page.markdownPage.appData"
+        :main="$page.markdownPage.appsMain"
+      />
+      <ShowcaseProducts
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+      />
+
+
+
 
       <Partenerships
         v-if="
