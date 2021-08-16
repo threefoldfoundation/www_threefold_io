@@ -263,7 +263,7 @@
           <div class="lg:self-center">
             <h2
               class="
-                text-5xl mb-6 uppercase leading-none font-heading
+                text-6xl mb-6 uppercase leading-none font-heading
               "
             >
               <span class="block">{{ brand.title }}</span>
@@ -271,7 +271,7 @@
                 brand.subtitle
               }}</span>
             </h2>
-            <div class="py-6 mt-4 text-gray-900 text-xl tft_subtitle tracking-wide" v-html="brand.content"></div>
+            <div class="py-6 mt-4 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
             <a
               v-if="brand.btnTxt"
               target="_blank"

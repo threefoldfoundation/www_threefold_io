@@ -2,11 +2,11 @@
   <div class="lg:py-12 lg:flex lg:justify-center flex flex-col">
     <div
       v-if="id == 'tft'"
-      class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:rounded-lg tft_section"
+      class="bg-white lg:mx-8 lg:flex lg:rounded-lg tft_section lg:py-20"
     >
-      <div class="py-2 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 text-center">
-        <h2 class="text-6xl mb-6 leading-none font-heading">{{ card.title }}</h2>
-        <div class="mt-4 text-gray-900 text-xl tft_subtitle tracking-wide" v-html="card.content"></div>
+      <div class="py-2 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 text-center ">
+        <h2 class="text-8xl mb-6 leading-none font-heading">{{ card.title }}</h2>
+        <div class="mt-4 text-gray-900 text-2xl tft_subtitle tracking-wide" v-html="card.content"></div>
         <div class="mt-8" v-if="card.button">
           <a
             v-if="card.link.includes('http')"
@@ -15,7 +15,7 @@
             class="
               inline-block
               bg-gray-900
-              text-xl
+              text-2xl
               learn-button
               hover:bg-gray-800
               text-gray-100
@@ -35,7 +35,7 @@
             class="
               inline-block
               bg-gray-900
-              text-xl
+              text-2xl
               learn-button
               hover:bg-gray-800
               text-gray-100
@@ -51,7 +51,7 @@
           >
         </div>
       </div>
-      <div class="lg:w-1/2">
+      <div class="lg:w-3/4">
         <div
           class="h-64 bg-cover lg:rounded-lg lg:h-full"
           :style="{ 'background-image': 'url(' + img(card.img) + ')' }"
@@ -122,9 +122,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-  .tft_section {
-    margin: auto;
-  }
-</style>
