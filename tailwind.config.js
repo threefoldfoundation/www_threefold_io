@@ -82,6 +82,21 @@ module.exports = {
           '@screen xl': {
             maxWidth: '1040px',
           },
+        },
+        '.container_tft': {
+          maxWidth: '100%',
+          '@screen sm': {
+            maxWidth: '640px',
+          },
+          '@screen md': {
+            maxWidth: '768px',
+          },
+          '@screen lg': {
+            maxWidth: '1024px',
+          },
+          '@screen xl': {
+            maxWidth: '1496px',
+          },
         }
       })
     },

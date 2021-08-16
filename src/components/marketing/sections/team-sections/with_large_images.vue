@@ -238,9 +238,6 @@
 <script>
 export default {
   props: ["id", "farmingProcess", "cultivationProcess", "main", "sections"],
-  mounted() {
-    console.log(this.sections);
-  },
   methods: {
     img(image) {
       if (!image) return "";

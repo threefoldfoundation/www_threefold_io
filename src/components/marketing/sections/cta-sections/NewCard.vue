@@ -122,3 +122,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .tft_section {
+    margin: auto;
+  }
+</style>
