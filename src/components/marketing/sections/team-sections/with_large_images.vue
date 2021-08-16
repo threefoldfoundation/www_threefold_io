@@ -24,12 +24,12 @@
       >
         <div v-for="(section, index) in sections" :key="index" class="p-5">
           <div class="leading-6">
-            <h2 class="text-8xl font-bold uppercase mt-0" v-if="section.title">
+            <h2 class="text-9xl font-bold uppercase mt-0" v-if="section.title">
               {{ section.title }}
             </h2>
             <div
               v-if="section.content"
-              class="text-2xl tft_subtitle tracking-wide"
+              class="text-2xl tft_subtitle tracking-wide leading-9"
               v-html="section.content"
             ></div>
           </div>

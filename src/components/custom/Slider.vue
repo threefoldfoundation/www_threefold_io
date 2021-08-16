@@ -1,8 +1,8 @@
 <template>
   <div class="my-20 tft_section">
     <div v-if="main" class="text-center mx-2">
-      <h2 class="text-6xl uppercase leading-none font-heading my-0">{{ main.title }}</h2>
-      <h2 v-if="main.subtitle" class="text-6xl uppercase leading-none font-heading mt-0">{{ main.subtitle }}</h2>
+      <h2 class="text-8xl uppercase leading-none font-heading my-0">{{ main.title }}</h2>
+      <h2 v-if="main.subtitle" class="text-8xl uppercase leading-none font-heading mt-0">{{ main.subtitle }}</h2>
       <div
         class="my-10 text-2xl mx-auto text-gray-800 sm:mt-4 tft_subtitle"
         v-html="main.content"
