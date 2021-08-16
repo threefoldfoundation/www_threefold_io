@@ -422,6 +422,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'CultivationProcessMain',
+                path: './content/page/**/cultivationProcess/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'CultivationProcess',
+                path: './content/page/**/cultivationProcess/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -483,7 +499,9 @@ module.exports = {
                     useTftMain: 'TftUsesMain',
                     tftUses: 'TftUses',
                     farmingMain: 'FarmingProcessMain',
-                    farmingProcess: 'FarmingProcess'
+                    farmingProcess: 'FarmingProcess',
+                    cultivationMain: 'CultivationProcessMain',
+                    cultivationProcess: 'CultivationProcess'
                 }
             }
         },

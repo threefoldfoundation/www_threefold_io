@@ -1,8 +1,17 @@
 <template>
   <div class="bg-white">
     <div
-      v-if="id == 'tft' && !farmingProcess"
-      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24 tft_section"
+      v-if="id == 'tft' && !farmingProcess && !cultivationProcess"
+      class="
+        mx-auto
+        py-12
+        px-4
+        max-w-screen-xl
+        sm:px-6
+        lg:px-8
+        lg:py-24
+        tft_section
+      "
     >
       <div
         class="
@@ -30,7 +39,7 @@
     </div>
 
     <div
-      v-else-if="id == 'tft' && farmingProcess"
+      v-else-if="id == 'tft' && (farmingProcess || cultivationProcess)"
       class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24"
     >
       <div class="space-y-12">
@@ -83,83 +92,6 @@
                 <div v-html="section.content"></div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="text-center">
-          <div class="inline-flex" v-if="main.button">
-            <a
-              v-if="urlChecker(main.link)"
-              target="_blank"
-              :href="main.link"
-              class="
-                bg-blue-900
-                text-sm
-                learn-button
-                hover:bg-blue-800
-                text-gray-100
-                px-12
-                py-2
-                mr-5
-                shadow
-                rounded-full
-              "
-              >{{ main.button }}</a
-            >
-            <a
-              v-else
-              :href="main.link"
-              class="
-                bg-blue-900
-                text-sm
-                learn-button
-                hover:bg-blue-800
-                text-gray-100
-                px-12
-                py-2
-                mr-5
-                shadow
-                rounded-full
-              "
-              >{{ main.button }}</a
-            >
-          </div>
-
-          <div class="inline-flex" v-if="main.button2">
-            <a
-              v-if="urlChecker(main.link2)"
-              target="_blank"
-              :href="main.link2"
-              class="
-                bg-blue-900
-                text-sm
-                learn-button
-                hover:bg-blue-800
-                text-gray-100
-                px-12
-                py-2
-                mr-5
-                shadow
-                rounded-full
-              "
-              >{{ main.button2 }}</a
-            >
-            <a
-              v-else
-              :href="main.link2"
-              class="
-                bg-blue-900
-                text-sm
-                learn-button
-                hover:bg-blue-800
-                text-gray-100
-                px-12
-                py-2
-                mr-5
-                shadow
-                rounded-full
-              "
-              >{{ main.button2 }}</a
-            >
           </div>
         </div>
       </div>
@@ -305,7 +237,10 @@
 
 <script>
 export default {
-  props: ["id", "farmingProcess", "main", "sections"],
+  props: ["id", "farmingProcess", "cultivationProcess", "main", "sections"],
+  mounted() {
+    console.log(this.sections);
+  },
   methods: {
     img(image) {
       if (!image) return "";

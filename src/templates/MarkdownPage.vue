@@ -132,6 +132,19 @@
         :farmingProcess="true"
       />
 
+      <TFTFuel
+        v-if="$page.markdownPage.cultivationProcess.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.cultivationMain"
+        :sections="$page.markdownPage.cultivationProcess"
+        :cultivationProcess="true"
+      />
+
+      <g-image
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image"
+      />
+
       <Partenerships
         v-if="
           $page.markdownPage.partnerships &&
@@ -493,6 +506,17 @@
        subtitle
      }
      farmingProcess{
+       id
+       image
+       content
+     }
+
+     cultivationMain {
+       id
+       title
+       subtitle
+     }
+     cultivationProcess{
        id
        image
        content
