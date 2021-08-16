@@ -182,11 +182,12 @@
               hover:bg-gray-800
               text-gray-100
               px-16
-              py-2
+              py-1
               mb-4
               shadow
               rounded-full
               tft_subtitle
+              tracking-wide
             "
             :href="link"
             >{{ button }}</a
@@ -201,11 +202,12 @@
               hover:bg-gray-800
               text-gray-100
               px-16
-              py-2
+              py-1
               mb-4
               shadow
               rounded-full
               tft_subtitle
+              tracking-wide
             "
             :href="link"
             >{{ button }}</a

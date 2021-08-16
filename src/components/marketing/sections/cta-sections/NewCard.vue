@@ -2,25 +2,30 @@
   <div class="lg:py-12 lg:flex lg:justify-center flex flex-col">
     <div
       v-if="id == 'tft'"
-      class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:rounded-lg"
+      class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:rounded-lg tft_section"
     >
-      <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
-        <h2 class="text-3xl text-gray-700 font-bold">{{ card.title }}</h2>
-        <div class="mt-4 text-gray-700" v-html="card.content"></div>
+      <div class="py-2 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 text-center">
+        <h2 class="text-6xl mb-6 leading-none font-heading">{{ card.title }}</h2>
+        <div class="mt-4 text-gray-900 text-xl tft_subtitle tracking-wide" v-html="card.content"></div>
         <div class="mt-8" v-if="card.button">
           <a
             v-if="card.link.includes('http')"
             target="_blank"
             :href="card.link"
             class="
-              bg-blue-900
+              inline-block
+              bg-gray-900
+              text-xl
               learn-button
-              hover:bg-blue-700
+              hover:bg-gray-800
               text-gray-100
-              px-5
-              py-3
-              font-semibold
-              rounded
+              px-16
+              py-1
+              mb-4
+              shadow
+              rounded-full
+              tft_subtitle
+              tracking-wide
             "
             >{{ card.button }}</a
           >
@@ -28,14 +33,19 @@
             v-else
             :href="card.link"
             class="
-              bg-blue-900
+              inline-block
+              bg-gray-900
+              text-xl
               learn-button
-              hover:bg-blue-700
+              hover:bg-gray-800
               text-gray-100
-              px-5
-              py-3
-              font-semibold
-              rounded
+              px-16
+              py-1
+              mb-4
+              shadow
+              rounded-full
+              tft_subtitle
+              tracking-wide
             "
             >{{ card.button }}</a
           >

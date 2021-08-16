@@ -245,7 +245,7 @@
       <!-- tft -->
       <div
         v-else-if="id == 'tft'"
-        class="flex flex-wrap text-center lg:text-left "
+        class="flex flex-wrap text-center tft_section lg:text-left "
         
       >
         <div class="lg:w-1/2 px-2 self-center">
@@ -257,17 +257,13 @@
         </div>
         <div
           class="
-            lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none
+            lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-center
           "
         >
           <div class="lg:self-center">
             <h2
               class="
-                text-4xl
-                mb-2
-                uppercase
-                leading-tight
-                font-semibold font-heading
+                text-5xl mb-6 uppercase leading-none font-heading
               "
             >
               <span class="block">{{ brand.title }}</span>
@@ -275,7 +271,7 @@
                 brand.subtitle
               }}</span>
             </h2>
-            <div class="py-6 mt-4 text-gray-600" v-html="brand.content"></div>
+            <div class="py-6 mt-4 text-gray-900 text-xl tft_subtitle tracking-wide" v-html="brand.content"></div>
             <a
               v-if="brand.btnTxt"
               target="_blank"

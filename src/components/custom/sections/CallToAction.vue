@@ -227,49 +227,51 @@
     </div>
 
     <!-- tft -->
-    <div class="w-full max-w-7xl mx-auto lg:mt-20 lg:px-16" v-else-if="id == 'tft'">
+    <div class="w-full max-w-7xl mx-auto lg:mt-20 lg:px-16 tft_section" v-else-if="id == 'tft'">
       <h2
         v-if="cta.title"
-        class="text-4xl mb-2 uppercase leading-tight font-semibold font-heading"
+        class="lg:w-1/2 text-6xl mb-6 mt-20 leading-none font-heading mx-auto"
       >
         {{ cta.title }}
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 text-xl text-gray-800"></div>
+      <div v-html="cta.content" class="mt-6 mb-8 text-xl tracking-wide tft_subtitle text-gray-800"></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
-          class="
-            inline-block
-            cursor-pointer
-            bg-blue-900
-            text-sm
-            learn-button
-            hover:bg-blue-800
-            text-gray-100
-            px-12
-            py-2
-            mr-5
-            mb-4
-            shadow
-            rounded-full
-          "
+           class="
+              inline-block
+              bg-gray-900
+              text-xl
+              learn-button
+              hover:bg-gray-800
+              text-gray-100
+              px-16
+              py-1
+              mb-4
+              shadow
+              rounded-full
+              tft_subtitle
+              tracking-wide
+            "
           >{{ cta.video_button }}</a
         >
       </div>
       <a
         class="
-          inline-block
-          bg-blue-900
-          text-sm
-          learn-button
-          hover:bg-blue-800
-          text-gray-100
-          px-12
-          py-2
-          mb-4
-          shadow
-          rounded-full
-        "
+              inline-block
+              bg-gray-900
+              text-xl
+              learn-button
+              hover:bg-gray-800
+              text-gray-100
+              px-16
+              py-1
+              mb-4
+              shadow
+              rounded-full
+              tft_subtitle
+              tracking-wide
+            "
         target="_blank"
         v-if="cta.button"
         :href="cta.link"
