@@ -22,11 +22,11 @@
           lg:gap-x-8
         "
       >
-        <div v-for="(section, index) in sections" :key="index" class="p-5">
+        <div v-for="(section, index) in sections" :key="index" class="p-6">
           <div class="leading-6">
-            <h2 class="text-9xl font-bold uppercase mt-0" v-if="section.title">
+            <h1 class="text-9xl font-bold uppercase mt-0" v-if="section.title">
               {{ section.title }}
-            </h2>
+            </h1>
             <div
               v-if="section.content"
               class="text-2xl tft_subtitle tracking-wide leading-9"
