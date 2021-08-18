@@ -20,7 +20,7 @@
     >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div class="inline-flex items-center flex-shrink-0">
-          <a href="/" class="flex">
+          <a href="/">
             <g-image
               :src="require(`!!assets-loader!@images/tfn_black.svg`)"
               class="mr-3 fill-current logo"
