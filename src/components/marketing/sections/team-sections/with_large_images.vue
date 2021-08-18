@@ -53,9 +53,9 @@
             xl:max-w-none
           "
         >
-          <h2 class="text-5xl mb-2 leading-tight font-heading">
+          <h3 class="text-4xl mb-2 leading-tight font-heading">
             {{ main.title }}
-          </h2>
+          </h3>
           <h2 class="text-8xl mb-2 leading-tight font-heading">
             {{ main.subtitle }}
           </h2>
