@@ -242,7 +242,6 @@ export default {
       return image;
     },
   },
-
   metaInfo() {
     return {
       title: "",
@@ -286,10 +285,9 @@ export default {
         {
           name: "twitter:card",
           property: "twitter:card",
-          content: this.$page.blog.excerpt,
+          content: "summary_large_image",
         },
       ],
-      script: [{ src: "https://platform.twitter.com/widgets.js", async: true }],
     };
   },
 };
