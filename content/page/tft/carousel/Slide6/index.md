@@ -1,4 +1,4 @@
 ---
 id: slide6
-img: ./bg_6.jpg
+img: ./matic.png
 ---

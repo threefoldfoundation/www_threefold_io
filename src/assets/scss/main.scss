@@ -206,6 +206,16 @@ text-5xl {
   }
 }
 
+@media (max-width: 480px) {
+
+  .tft_section h1{
+    font-size: 4rem;
+  }
+  .tft_section h2{
+    font-size: 3rem;
+  }
+}
+
 @media (min-width: 768px) {
   .with-large > .flex-post:nth-child(5n),
   .with-large > .flex-post:nth-child(5n-1) {
