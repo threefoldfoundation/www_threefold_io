@@ -242,13 +242,6 @@ export default {
       return image;
     },
   },
-  computed: {
-    metaImg() {
-      if (process.isClient) {
-        return window.location.origin + this.img(this.$page.blog.image);
-      }
-    },
-  },
   metaInfo() {
     return {
       title: "",
@@ -272,7 +265,7 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.metaImg,
+          content: this.img(this.$page.blog.image),
         },
         {
           name: "twitter:description",
@@ -282,7 +275,7 @@ export default {
         {
           name: "twitter:image",
           property: "twitter:image",
-          content: this.metaImg,
+          content: this.img(this.$page.blog.image),
         },
         {
           name: "twitter:title",
@@ -295,6 +288,7 @@ export default {
           content: "summary_large_image",
         },
       ],
+      script: [{ src: "https://platform.twitter.com/widgets.js", async: true }],
     };
   },
 };
