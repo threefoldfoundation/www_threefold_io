@@ -265,7 +265,8 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.img(this.$page.blog.image),
+          content:
+            `${window.location.origin}` + this.img(this.$page.blog.image),
         },
         {
           name: "twitter:description",
@@ -275,7 +276,8 @@ export default {
         {
           name: "twitter:image",
           property: "twitter:image",
-          content: this.img(this.$page.blog.image),
+          content:
+            `${window.location.origin}` + this.img(this.$page.blog.image),
         },
         {
           name: "twitter:title",
@@ -285,7 +287,7 @@ export default {
         {
           name: "twitter:card",
           property: "twitter:card",
-          content: "summary",
+          content: "summary_large_image",
         },
       ],
     };
