@@ -285,7 +285,7 @@ export default {
         {
           name: "twitter:card",
           property: "twitter:card",
-          content: "summary_large_image",
+          content: "summary",
         },
       ],
     };
