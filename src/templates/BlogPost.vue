@@ -269,26 +269,27 @@ export default {
           content: this.img(this.$page.blog.image),
         },
         {
-          key: "twitter:description",
           name: "twitter:description",
+          property: "twitter:description",
           content: this.$page.blog.excerpt,
         },
         {
-          key: "twitter:image:src",
-          property: "twitter:image:src",
+          name: "twitter:image",
+          property: "twitter:image",
           content: this.img(this.$page.blog.image),
         },
         {
-          key: "twitter:title",
+          name: "twitter:title",
           property: "twitter:title",
           content: this.$page.blog.title,
         },
         {
-          key: "twitter:card",
           name: "twitter:card",
+          property: "twitter:card",
           content: this.$page.blog.excerpt,
         },
       ],
+      script: [{ src: "https://platform.twitter.com/widgets.js", async: true }],
     };
   },
 };
