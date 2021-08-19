@@ -34,7 +34,7 @@ h1, h2 {
 
 .tft_section h1{
   font-family: 'Oswald', sans-serif !important;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .tft_section h2{
@@ -203,6 +203,16 @@ text-5xl {
 @media (min-width: 375px) {
   .text-3xl {
     font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .tft_section h1{
+    font-size: 4rem;
+  }
+  .tft_section h2{
+    font-size: 3rem;
   }
 }
 

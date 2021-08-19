@@ -1,4 +1,4 @@
 ---
 id: slide2
-img: ./bg_2.jpg
+img: ./hpe.png
 ---

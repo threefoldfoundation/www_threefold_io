@@ -1,4 +1,4 @@
 ---
 id: slide1
-img: ./bg_1.jpg
+img: ./solidaridad.png
 ---

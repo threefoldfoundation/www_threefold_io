@@ -1,5 +1,5 @@
 <template>
-  <div class="my-20 tft_section">
+  <div class="my-20 tft_section px-10">
     <div v-if="main" class="text-center mx-2">
       <h2 class="text-8xl uppercase leading-none font-heading my-0">{{ main.title }}</h2>
       <h2 v-if="main.subtitle" class="text-8xl uppercase leading-none font-heading mt-0">{{ main.subtitle }}</h2>
