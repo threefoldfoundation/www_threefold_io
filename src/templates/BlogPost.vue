@@ -242,6 +242,13 @@ export default {
       return image;
     },
   },
+  computed: {
+    metaImg() {
+      if (process.isClient) {
+        return window.location.origin + this.img(this.$page.blog.image);
+      }
+    },
+  },
   metaInfo() {
     return {
       title: "",
@@ -265,8 +272,7 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content:
-            `${window.location.origin}` + this.img(this.$page.blog.image),
+          content: this.metaImg(),
         },
         {
           name: "twitter:description",
@@ -276,8 +282,7 @@ export default {
         {
           name: "twitter:image",
           property: "twitter:image",
-          content:
-            `${window.location.origin}` + this.img(this.$page.blog.image),
+          content: this.metaImg(),
         },
         {
           name: "twitter:title",
