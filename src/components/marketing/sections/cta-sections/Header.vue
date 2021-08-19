@@ -166,9 +166,9 @@
       v-else-if="id == 'tft'"
     >
       <div class="lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none text-center">
-        <h2 class="text-8xl mb-6 mt-20 leading-none font-heading">
+        <h1 class="text-8xl mb-6 mt-20 leading-none font-heading">
           {{ title }}
-        </h2>
+        </h1>
         <div class="mb-8 text-gray-800 text-3xl tft_subtitle" v-html="excerpt"></div>
         <div v-if="button">
           <a
