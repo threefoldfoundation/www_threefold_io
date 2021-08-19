@@ -272,7 +272,7 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.metaImg(),
+          content: this.metaImg,
         },
         {
           name: "twitter:description",
@@ -282,7 +282,7 @@ export default {
         {
           name: "twitter:image",
           property: "twitter:image",
-          content: this.metaImg(),
+          content: this.metaImg,
         },
         {
           name: "twitter:title",
