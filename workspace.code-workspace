@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "../../home/gitpod/codewiki"
 		},
 		{
-			"path": "../data_threefold"
+			"path": "wiki_cmd"
 		}
 	],
 	"settings": {}
