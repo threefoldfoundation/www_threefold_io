@@ -42,10 +42,13 @@
         </a>
       </section>
     </div>
-    <div class="container-fluid mx-auto pt-24">
+    <div
+      class="container-fluid mx-auto pt-24"
+      v-for="edge in $page.allCustomCta.edges"
+      :key="edge.node.id"
+    >
       <CustomCTA
-        v-for="edge in $page.allCustomCta.edges"
-        :key="edge.node.id"
+        v-if="edge.node.id == 'careers'"
         :title="edge.node.title"
         :link="edge.node.link"
         :image="edge.node.image"

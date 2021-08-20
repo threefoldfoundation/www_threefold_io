@@ -1,20 +1,34 @@
 <template>
-  <g-link :to="link" class="section banner">
-    <div class="center">
-      <h2 class="h1">
-        <strong>{{ title }}</strong>
-        <font-awesome :icon="['fas', 'long-arrow-alt-right']" />
-      </h2>
+  <div>
+    <div class="header section banner" v-if="header">
+      <div class="center">
+        <h1 class="text-8xl">
+          <strong>{{ title }}</strong>
+        </h1>
+      </div>
+      <div
+        class="back"
+        :style="{ 'background-image': 'url(' + image.src + ')' }"
+      ></div>
     </div>
-    <div
-      class="back"
-      :style="{ 'background-image': 'url(' + image.src + ')' }"
-    ></div>
-  </g-link>
+
+    <g-link :to="link" class="section banner" v-else>
+      <div class="center">
+        <h2 class="h1">
+          <strong>{{ title }}</strong>
+          <font-awesome :icon="['fas', 'long-arrow-alt-right']" />
+        </h2>
+      </div>
+      <div
+        class="back"
+        :style="{ 'background-image': 'url(' + image.src + ')' }"
+      ></div>
+    </g-link>
+  </div>
 </template>
 <script>
 export default {
-  props: ["link", "title", "image"],
+  props: ["link", "title", "image", "header"],
 };
 </script>
 
@@ -33,7 +47,14 @@ export default {
   transition: 1.5s;
 }
 
-.banner .h1 {
+.header {
+  height: auto;
+  background: none;
+  padding: 200px 0;
+}
+
+.banner h2,
+.header h1 {
   margin: auto;
   color: #fff;
   position: relative;
@@ -42,7 +63,12 @@ export default {
   white-space: nowrap;
 }
 
-.banner .h1 svg {
+.header h1 {
+  color: #000;
+  transition: none;
+}
+
+.banner h2 svg {
   font-size: 40px;
   margin-left: 15px;
   position: absolute;
@@ -65,35 +91,60 @@ export default {
   transition: 1.5s;
 }
 
+.header .back {
+  filter: none;
+  opacity: 1;
+  background-position: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .banner:hover {
   background: #4b3a92;
 }
 
-.banner:hover .h1 svg {
+.header:hover {
+  background: none;
+}
+
+.banner:hover h2 svg {
   transform: translateY(-50%) scale(1);
   opacity: 1;
 }
 
-.banner:hover .h1 {
+.banner:hover h2 {
   padding-right: 40px;
+}
+
+.header:hover h1 {
+  padding-right: 0;
 }
 
 .banner:hover .back {
   transform: scale(1.03);
 }
 
+.header:hover .back {
+  transform: none;
+}
 @media (max-width: 640px) {
-  .banner .h1 {
+  .banner h2 {
     font: 600 7vw/10vw;
   }
 
-  .banner .h1 svg {
+  .header h1 {
+    font-size: 35px;
+  }
+
+  .banner h2 svg {
     font-size: 30px;
   }
 }
 
 @media (max-width: 480px) {
-  .banner {
+  .banner,
+  .header {
     padding: 80px 0;
   }
 }

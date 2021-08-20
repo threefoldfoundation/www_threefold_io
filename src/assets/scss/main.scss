@@ -7,9 +7,11 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600&display=swap');
 
 blockquote {
-  @apply border-l;
+  // @apply border-l;
   @apply border-l-4;
   @apply border-l-blue-500;
   @apply pl-4;
@@ -26,6 +28,29 @@ body {
 
 h1, h2 {
   font-family: "Roboto", sans-serif !important;
+}
+
+// tft page
+
+.tft_section h1{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 5rem;
+}
+
+.tft_section h2{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 4rem;
+}
+
+.tft_section h3{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 3rem;
+}
+
+.tft_subtitle{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400 !important;
+  
 }
 
 .post-card-excerpt,
@@ -48,7 +73,7 @@ body {
 }
 
 pre {
-  @apply border-l;
+  // @apply border-l;
   @apply border-l-2;
   @apply border-l-gray-500;
   @apply pl-4;
@@ -117,7 +142,7 @@ ul {
 }
 
 .flex-post {
-  @apply border-b;
+  // @apply border-b;
   @apply border-b-gray-300;
   @apply flex-col;
   @apply w-full;
@@ -161,6 +186,12 @@ button:focus {
   font-family: "Roboto", sans-serif !important;
 }
 
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+  
+}
+
 text-6xl {
   font-family: "Roboto", sans-serif !important;
 }
@@ -172,6 +203,16 @@ text-5xl {
 @media (min-width: 375px) {
   .text-3xl {
     font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .tft_section h1{
+    font-size: 4rem;
+  }
+  .tft_section h2{
+    font-size: 3rem;
   }
 }
 

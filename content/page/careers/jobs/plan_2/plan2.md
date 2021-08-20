@@ -1,6 +1,6 @@
 ---
 id: plan2
-title: Grid Operations Manager
+title: ThreeFold Grid Operations Lead
 price: ''
 duration: ''
 button: See Position

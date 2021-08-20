@@ -1,5 +1,5 @@
 ---
-id: kleos
+id: why_kleos
 img: ./kleos_img.png
 title: Connecting the Unconnected
 ---

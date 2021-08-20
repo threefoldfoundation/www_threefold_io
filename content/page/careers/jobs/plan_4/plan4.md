@@ -9,6 +9,6 @@ includeTitle: '' # Must Have
 options: ''
 ---
 
-Digital Twin will define a new paradigm for the tech industry. Take the lead on the architectural design of the digital twin tech and ecosystem.
+Take the lead on the architectural design of the Digital Twin tech and ecosystem defining a new paradigm for the tech industry.
 
 <!-- Passion at bringing a positive change to the world, Fluency in at least 2 dev languages, Understanding of what it takes to develop a large scale high tech infrastructure product, Fluent in English, Understand & follow Pareto 20/80 rule -->

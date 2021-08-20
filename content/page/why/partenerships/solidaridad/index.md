@@ -1,5 +1,5 @@
 ---
-id: solidaridad
+id: why_solidaridad
 img: ./solidaridad_img.png
 title: Bringing Fair Data to Farmers
 ---

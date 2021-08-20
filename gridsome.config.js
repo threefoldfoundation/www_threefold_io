@@ -78,6 +78,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Header',
+                path: './content/page/**/header4/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'SolutionsHeader',
                 path: './content/page/**/headerSolution/*.md',
             }
@@ -350,6 +358,86 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'PageHeader',
+                path: './content/page/**/pageHeader/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Card',
+                path: './content/page/**/card/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Carousel',
+                path: './content/page/**/carousel/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'CarouselMain',
+                path: './content/page/**/carousel/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'TftUsesMain',
+                path: './content/page/**/tftUses/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'TftUses',
+                path: './content/page/**/tftUses/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'FarmingProcessMain',
+                path: './content/page/**/farmingProcess/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'FarmingProcess',
+                path: './content/page/**/farmingProcess/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'CultivationProcessMain',
+                path: './content/page/**/cultivationProcess/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'CultivationProcess',
+                path: './content/page/**/cultivationProcess/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -359,6 +447,7 @@ module.exports = {
                     header: 'Header',
                     header2: 'Header',
                     header3: 'Header',
+                    header4: 'Header',
                     headerSolution: 'SolutionsHeader',
                     howItWorks: 'HowItWorks',
                     howItWorksMain: 'HowItWorks',
@@ -402,7 +491,17 @@ module.exports = {
                     faqMain: 'FAQMain',
                     faqContent: 'FAQContent',
                     jobs: 'Jobs',
-                    customCTA: 'CustomCTA'
+                    customCTA: 'CustomCTA',
+                    pageHeader: 'PageHeader',
+                    card: 'Card',
+                    carousel: 'Carousel',
+                    sliderMain: 'CarouselMain',
+                    useTftMain: 'TftUsesMain',
+                    tftUses: 'TftUses',
+                    farmingMain: 'FarmingProcessMain',
+                    farmingProcess: 'FarmingProcess',
+                    cultivationMain: 'CultivationProcessMain',
+                    cultivationProcess: 'CultivationProcess'
                 }
             }
         },

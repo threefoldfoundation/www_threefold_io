@@ -2,6 +2,7 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-20 px-4">
       <div class="pt-8">
+        <Alert v-if="showAlert" @clicked="linkCopied" />
         <section class="post-header container mx-auto px-0 mb-4 border-b">
           <h1 class="text-5xl font-medium leading-none mt-0">
             {{ $page.blog.title }}
@@ -211,14 +212,15 @@
 
 <script>
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
-
+import Alert from "~/components/custom/Alert.vue";
 export default {
   components: {
     PostListItem,
+    Alert,
   },
-  metaInfo() {
+  data() {
     return {
-      title: this.$page.blog.title,
+      showAlert: false,
     };
   },
   methods: {
@@ -229,6 +231,15 @@ export default {
       el.select();
       document.execCommand("copy");
       document.body.removeChild(el);
+      this.showAlert = true;
+    },
+    linkCopied(val) {
+      this.showAlert = val;
+    },
+    img(image) {
+      if (!image) return "";
+      if (image.src) return image.src;
+      return image;
     },
   },
   metaInfo() {
@@ -254,24 +265,30 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.$page.blog.image.src,
+          content: this.img(this.$page.blog.image),
         },
         {
-          key: "twitter:description",
           name: "twitter:description",
+          property: "twitter:description",
           content: this.$page.blog.excerpt,
         },
         {
-          key: "twitter:image",
+          name: "twitter:image",
           property: "twitter:image",
-          content: this.$page.blog.image.src,
+          content: this.img(this.$page.blog.image),
         },
         {
-          key: "twitter:title",
+          name: "twitter:title",
           property: "twitter:title",
           content: this.$page.blog.title,
         },
+        {
+          name: "twitter:card",
+          property: "twitter:card",
+          content: "summary_large_image",
+        },
       ],
+      script: [{ src: "https://platform.twitter.com/widgets.js", async: true }],
     };
   },
 };

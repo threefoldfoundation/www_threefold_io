@@ -64,6 +64,7 @@ query {
       twitter
       dribbble
       instagram
+      telegram
       description
       items{
         title

@@ -1,7 +1,18 @@
 <template>
   <div class="fixed inset-0 h-16 bg-white">
     <header
-      class="inline-flex items-center justify-between flex-wrap container-fluid mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
+      class="
+        inline-flex
+        items-center
+        justify-between
+        flex-wrap
+        container-fluid
+        mx-auto
+        px-
+        sm:px-0
+        py-4
+        transition-all transition-500
+      "
       :class="{
         'opacity-100': !disableScroll && scrollPosition > headerHeight,
         'opacity-0': !disableScroll && scrollPosition < headerHeight,
@@ -9,7 +20,7 @@
     >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div class="inline-flex items-center flex-shrink-0">
-          <a href="/" class="flex">
+          <a href="/">
             <g-image
               :src="require(`!!assets-loader!@images/tfn_black.svg`)"
               class="mr-3 fill-current logo"
@@ -23,11 +34,11 @@
           </a>
         </div>
 
-        <div class="sm:hidden ml-auto">
+        <div class="lg:hidden ml-auto">
           <button
             @click="isOpen = !isOpen"
             type="button"
-            class="block text-gray-900 focus:outline-none"
+            class="block ml-auto text-gray-900 focus:outline-none"
           >
             <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
               <path
@@ -94,7 +105,19 @@
 
       <nav
         :class="isOpen ? 'block' : 'hidden'"
-        class="bg-white navbar md:order-2 px-2 pt-2 ml-auto pb-4 sm:flex sm:p-0 sm:w-100 xs:bg-transparent"
+        class="
+        bg-white
+          navbar
+          xl:order-2
+          px-2
+          pt-2
+          ml-auto
+          pb-4
+          lg:flex
+          lg:p-0
+          lg:w-100
+          xs:bg-transparent
+        "
       >
         <div
           :key="index"
@@ -108,9 +131,19 @@
           >
             <button
               @click="setActive(index)"
-              class="flex flex-row items-center w-full mr-2 md:w-auto md:inline md:mt-0 md:ml-2 animated-link"
+              class="
+                flex flex-row
+                items-center
+                w-full
+                mr-1
+                md:w-auto
+                md:inline
+                md:mt-0
+                md:ml-2
+                animated-link
+              "
             >
-              <span class="uppercase py-1 pl-2">{{ element.name }}</span>
+              <span class="uppercase py-1">{{ element.name }}</span>
               <svg
                 fill="currentColor"
                 viewBox="0 0 20 20"
@@ -118,7 +151,17 @@
                   'rotate-180': active == index,
                   'rotate-0': active == !index,
                 }"
-                class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"
+                class="
+                  inline
+                  w-4
+                  h-4
+                  mt-1
+                  ml-1
+                  transition-transform
+                  duration-200
+                  transform
+                  md:-mt-1
+                "
               >
                 <path
                   fill-rule="evenodd"
@@ -136,7 +179,16 @@
               x-transition:leave="transition ease-in duration-75"
               x-transition:leave-start="transform opacity-100 scale-100"
               x-transition:leave-end="transform opacity-0 scale-95"
-              class="absolute w-auto mt-2 origin-top-right rounded-md shadow-lg md:w-48 z-30"
+              class="
+                absolute
+                w-auto
+                mt-2
+                origin-top-right
+                rounded-md
+                shadow-lg
+                md:w-48
+                z-30
+              "
             >
               <div
                 v-if="open"
@@ -145,7 +197,27 @@
                 <div v-for="(link, i) in element.submenu" :key="i">
                   <a
                     v-if="link.external"
-                    class="block px-4 py-1 text-sm bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                    class="
+                      block
+                      px-4
+                      py-1
+                      text-sm
+                      bg-transparent
+                      rounded-lg
+                      dark:bg-transparent
+                      dark:hover:bg-gray-600
+                      dark-:focus:bg-gray-600
+                      dark:focus:text-white
+                      dark:hover:text-white
+                      dark:text-gray-200
+                      md:mt-0
+                      hover:text-gray-900
+                      focus:text-gray-900
+                      hover:bg-gray-200
+                      focus:bg-gray-200
+                      focus:outline-none
+                      focus:shadow-outline
+                    "
                     @click="open = false"
                     :href="link.path"
                     target="_blank"
@@ -153,7 +225,27 @@
                   >
                   <a
                     v-else
-                    class="block px-4 py-1 text-sm bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                    class="
+                      block
+                      px-4
+                      py-1
+                      text-sm
+                      bg-transparent
+                      rounded-lg
+                      dark:bg-transparent
+                      dark:hover:bg-gray-600
+                      dark-:focus:bg-gray-600
+                      dark:focus:text-white
+                      dark:hover:text-white
+                      dark:text-gray-200
+                      md:mt-0
+                      hover:text-gray-900
+                      focus:text-gray-900
+                      hover:bg-gray-200
+                      focus:bg-gray-200
+                      focus:outline-none
+                      focus:shadow-outline
+                    "
                     @click="open = false"
                     :href="link.path"
                     >{{ link.title }}</a
@@ -194,7 +286,7 @@
           />
         </div> -->
       </nav>
-      <div class="hidden md:ml-auto md:inline-block md:order-last">
+      <div class="hidden ml-0 md:ml-auto md:inline-block md:order-last">
         <!-- <div class="inline-flex rounded-full border-2 border-gray-200 w-1/2">
           <span class="w-auto flex justify-end items-center p-2">
             <font-awesome :icon="['fas', 'search']" />
@@ -362,6 +454,26 @@ a.active--exact.active {
     width: 100%;
   }
 
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    width: auto;
+  }
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+  }
   .container-fluid {
     padding-right: 15px;
     padding-left: 15px;

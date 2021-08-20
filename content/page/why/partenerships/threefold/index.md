@@ -1,5 +1,5 @@
 ---
-id: threefold
+id: why_threefold
 img: ./threefold_img.png
 title: Decentralizing Everything
 ---

@@ -2,15 +2,32 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <div
       class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5"
-      v-if="$page.markdownPage.id == 'careers'"
+      v-if="
+        $page.markdownPage.id == 'careers' ||
+        $page.markdownPage.id == 'community'
+      "
     >
-      <g-image
-        class="w-100 mx-auto"
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
+      <CustomCTA
+        :header="true"
+        :image="$page.markdownPage.pageHeader.image"
+        :title="$page.markdownPage.pageHeader.title"
       />
+      <!-- <div class="singlePic">
+        <g-image
+          class="w-100 mx-auto"
+          v-if="$page.markdownPage.solution_image"
+          :src="$page.markdownPage.solution_image.src"
+        />
+      </div> -->
     </div>
-    <div class="">
+    <div
+      class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"
+      v-if="
+        $page.markdownPage.id !== 'careers' &&
+        $page.markdownPage.id !== 'community' &&
+        $page.markdownPage.id !== 'tft'
+      "
+    >
       <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
@@ -49,17 +66,96 @@
         :sections="$page.markdownPage.comparisonSecs"
       />
     </div>
-    <g-image
+    <!-- <g-image
       v-if="
         $page.markdownPage.id !== 'careers' && $page.markdownPage.solution_image
       "
       class="mx-auto mt-10"
       :src="$page.markdownPage.solution_image.src"
-    />
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    /> -->
+
+    <!-- tft page -->
+     <div
+      class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5"
+       v-if="$page.markdownPage.id == 'tft'"
+   >
+     <Header
+        v-if="
+          
+          $page.markdownPage.header_title &&
+          $page.markdownPage.header_title != ''
+        "
+        :id="$page.markdownPage.id"
+        :title="$page.markdownPage.header_title"
+        :slogan="$page.markdownPage.header_slogan"
+        :image="$page.markdownPage.header_image"
+        :altImg="$page.markdownPage.header_altImg"
+        :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
+      />
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta && $page.markdownPage.id == 'why'"
+        v-if="$page.markdownPage.id == 'tft'"
+        :cta="$page.markdownPage.cta"
+      />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel"
+        v-if="$page.markdownPage.brandPanel"
+      />
+
+      <NewCard
+        v-if="$page.markdownPage.card"
+        :id="$page.markdownPage.id"
+        :card="$page.markdownPage.card"
+      />
+
+            <Slider
+        v-if="$page.markdownPage.carousel"
+        :slides="$page.markdownPage.carousel"
+        :main="$page.markdownPage.sliderMain"
+      />
+
+      <TFTFuel
+        v-if="$page.markdownPage.tftUses.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.useTftMain"
+        :sections="$page.markdownPage.tftUses"
+        :farmingProcess="false"
+      />
+
+      <TFTFuel
+        v-if="$page.markdownPage.farmingProcess.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.farmingMain"
+        :sections="$page.markdownPage.farmingProcess"
+        :farmingProcess="true"
+      />
+
+      <TFTFuel
+        v-if="$page.markdownPage.cultivationProcess.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.cultivationMain"
+        :sections="$page.markdownPage.cultivationProcess"
+        :cultivationProcess="true"
+      />
+
+      <g-image
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image"
+      />
+
+      </div>
+
+    <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="
+        $page.markdownPage.cta && $page.markdownPage.id == 'why'
+         
+        "
         :cta="$page.markdownPage.cta"
       />
 
@@ -79,11 +175,10 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-      <BrandPanel
-        :id="$page.markdownPage.id"
-        :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel"
-      />
+
+
+
+
       <Partenerships
         v-if="
           $page.markdownPage.partnerships &&
@@ -157,6 +252,12 @@
         :main="$page.markdownPage.jobsMain"
       />
 
+      <SolutionsHeader
+        class="mt-0"
+        v-if="$page.markdownPage.header4"
+        :header="$page.markdownPage.header4"
+      />
+
       <GetInTouch
         v-if="
           $page.markdownPage.contactData &&
@@ -222,6 +323,15 @@
          link2
        }
         header3{
+         title
+         subtitle
+         content
+         btn1
+         link1
+         btn2
+         link2
+       }
+        header4{
          title
          subtitle
          content
@@ -389,6 +499,62 @@
           button2
           link2
       }
+     pageHeader {
+      id
+      title
+      image
+     }
+
+     carousel {
+        id
+        img
+      }
+
+      sliderMain {
+        id
+        title
+        subtitle
+        content
+      }
+
+     card{
+       id
+       img
+       title
+       content
+       button
+       link
+     }
+     useTftMain {
+       id
+       image
+     }
+     tftUses{
+       id
+       title
+       content
+     }
+     farmingMain {
+       id
+       title
+       subtitle
+     }
+     farmingProcess{
+       id
+       image
+       content
+     }
+
+     cultivationMain {
+       id
+       title
+       subtitle
+     }
+     cultivationProcess{
+       id
+       image
+       content
+     }
     }
     allCustomCta {
       edges {
@@ -426,6 +592,7 @@ import AppListItem from "~/components/AppListItem.vue";
 import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
 import CenteredAccordion from "~/components/marketing/sections/faq-sections/CenteredAccordion.vue";
 import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
+import Slider from "~/components/custom/Slider.vue";
 
 export default {
   components: {
@@ -450,6 +617,7 @@ export default {
     Partenerships,
     CenteredAccordion,
     CustomCTA,
+    Slider,
   },
   computed: {
     getImg() {
@@ -553,4 +721,4 @@ export default {
 .gridsome-highlight pre[class*="language-"].line-numbers {
   padding-left: 2.8em;
 }
-</style> >
+</style>

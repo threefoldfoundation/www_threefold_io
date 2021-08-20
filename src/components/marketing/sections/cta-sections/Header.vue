@@ -162,6 +162,65 @@
     </div>
 
     <div
+      class="flex flex-wrap text-center tft_section lg:text-left lg:mt-10 lg:py-10 -mx-2"
+      v-else-if="id == 'tft'"
+    >
+      <div class="lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none text-center">
+        <h1 class="text-8xl mb-6 mt-20 leading-none font-heading">
+          {{ title }}
+        </h1>
+        <div class="mb-8 text-gray-800 text-3xl tft_subtitle" v-html="excerpt"></div>
+        <div v-if="button">
+          <a
+            v-if="link.includes('http')"
+            target="_blank"
+            class="
+              inline-block
+              bg-gray-900
+              text-2xl
+              learn-button
+              hover:bg-gray-800
+              text-gray-100
+              px-16
+              py-1
+              mb-4
+              shadow
+              rounded-full
+              tft_subtitle
+              tracking-wide
+            "
+            :href="link"
+            >{{ button }}</a
+          >
+          <a
+            v-else
+            class="
+              inline-block
+              bg-gray-900
+              text-2xl
+              learn-button
+              hover:bg-gray-800
+              text-gray-100
+              px-16
+              py-1
+              mb-4
+              shadow
+              rounded-full
+              tft_subtitle
+              tracking-wide
+            "
+            :href="link"
+            >{{ button }}</a
+          >
+          <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
+        </div>
+      </div>
+      <div class="lg:w-1/2 px-2 self-center">
+        <g-image :src="img" :alt="altImg" />
+      </div>
+    </div>
+
+    <div
       class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 -mx-2"
       v-else
     >
