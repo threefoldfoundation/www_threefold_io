@@ -202,9 +202,10 @@
         path
       }
     }
-
-
-    
+   
+    metadata {
+      siteUrl
+    } 
   }
 </page-query>
 
@@ -246,7 +247,7 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.$page.news.image.src,
+          content: this.getCoverImage,
         },
         {
           key: "twitter:description",
@@ -256,7 +257,7 @@ export default {
         {
           key: "twitter:image",
           property: "twitter:image",
-          content: this.$page.news.image.src,
+          content: this.getCoverImage,
         },
         {
           key: "twitter:title",
@@ -278,6 +279,19 @@ export default {
     },
     linkCopied(val) {
       this.showAlert = val;
+    },
+  },
+  computed: {
+    getCoverImage() {
+      let coverImage = "";
+      const cover = this.$page.news.image;
+      if (cover != null) {
+        coverImage = `${this.getBaseUrl}${this.$page.news.image.src}`;
+      }
+      return coverImage;
+    },
+    getBaseUrl() {
+      return this.$page.metadata.siteUrl;
     },
   },
 };

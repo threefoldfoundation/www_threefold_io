@@ -6,7 +6,7 @@
 
 module.exports = {
     siteName: 'ThreeFold',
-
+    siteUrl: 'https://threefold.io',
     pathPrefix: "threefold",
     plugins: [
 

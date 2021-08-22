@@ -207,6 +207,9 @@
         path
       }
     }
+    metadata {
+      siteUrl
+    }
   }
 </page-query>
 
@@ -242,6 +245,19 @@ export default {
       return image;
     },
   },
+  computed: {
+    getCoverImage() {
+      let coverImage = "";
+      const cover = this.$page.blog.image;
+      if (cover != null) {
+        coverImage = `${this.getBaseUrl}${this.$page.blog.image.src}`;
+      }
+      return coverImage;
+    },
+    getBaseUrl() {
+      return this.$page.metadata.siteUrl;
+    },
+  },
   metaInfo() {
     return {
       title: "",
@@ -265,7 +281,7 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.img(this.$page.blog.image),
+          content: this.getCoverImage,
         },
         {
           name: "twitter:description",
@@ -275,7 +291,7 @@ export default {
         {
           name: "twitter:image",
           property: "twitter:image",
-          content: this.img(this.$page.blog.image),
+          content: this.getCoverImage,
         },
         {
           name: "twitter:title",
@@ -288,7 +304,6 @@ export default {
           content: "summary_large_image",
         },
       ],
-      script: [{ src: "https://platform.twitter.com/widgets.js", async: true }],
     };
   },
 };
