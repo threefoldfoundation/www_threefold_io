@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <NewsFilterHeader
+    <!-- <NewsFilterHeader
       @selectedTopic="setTopic"
       @selectedYear="setYear"
       @selectedMonth="setMonth"
@@ -8,20 +8,51 @@
       :topics="topics"
       :years="years"
       :months="months"
-    />
+    /> -->
     <div
       class="container sm:pxi-0 mx-auto mt-8"
       :style="{ 'min-height': contentHeight + 'px' }"
     >
-      <div class="flex flex-wrap news pt-12 mt-8 pb-8 mx-4 sm:-mx-4">
+      <div class="flex">
+        <FilterDropdown
+          class="xs:w-1/2"
+          @selectedTopic="setTopic"
+          :topics="topics"
+        />
+        <SearchBox class="xs:w-1/2" v-model="search" />
+      </div>
+
+      <div v-if="search !== ''">
+        <div v-if="searchResults.length > 0">
+          <div class="flex flex-wrap news pt-12 pb-8 mt-8 mx-4 sm:-mx-4">
+            <PostListItem
+              v-for="post in searchResults"
+              :key="post.node.id"
+              :record="post.node"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div v-else class="flex flex-wrap news pt-12 pb-8 mt-8 mx-4 sm:-mx-4">
         <PostListItem
           v-for="post in blogs.edges"
           :key="post.node.id"
           :record="post.node"
         />
       </div>
-      <div class="text-center" v-if="blogs.edges.length == 0">
-        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">No results</h2>
+
+      <div
+        class="text-center"
+        v-if="
+          blogs.edges.length == 0 ||
+          searchResults.length == 0 ||
+          searchResults == ''
+        "
+      >
+        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">
+          Your search didn't return any results. Please try again.
+        </h2>
       </div>
       <div class="pagination flex justify-center mb-8">
         <Pagination
@@ -29,7 +60,7 @@
           :currentPage="blogs.pageInfo.currentPage"
           :totalPages="blogs.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="blogs.pageInfo.totalPages > 1 && blogs.edges.length > 0"
+          v-if="searchResults.length > 7 && blogs.edges.length > 7"
         />
       </div>
     </div>
@@ -90,7 +121,8 @@ query($page: Int){
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
 import Pagination from "~/components/custom/Pagination.vue";
 import NewsFilterHeader from "~/components/custom/NewsFilterHeader.vue";
-
+import SearchBox from "~/components/custom/SearchBox.vue";
+import FilterDropdown from "~/components/custom/FilterDropdown.vue";
 export default {
   data() {
     const allMonths = [
@@ -114,13 +146,14 @@ export default {
     r.forEach((year) => years.push(String(year)));
 
     return {
-      selectedTopic: "All Topics",
+      selectedTopic: "Popular Topics",
       selectedYear: "All Years",
       selectedMonth: "All Months",
       months: allMonths,
       years: years,
       listArchive: false,
       archiveButtonText: "Archive",
+      search: "",
     };
   },
 
@@ -174,6 +207,8 @@ export default {
     PostListItem,
     Pagination,
     NewsFilterHeader,
+    SearchBox,
+    FilterDropdown,
   },
   methods: {
     setTopic: function (topic) {
@@ -186,7 +221,7 @@ export default {
       this.selectedMonth = month;
     },
     resetAll() {
-      this.selectedTopic = "All Topics";
+      this.selectedTopic = "Popular Topics";
       this.selectedYear = "All Years";
       this.selectedMonth = "All Months";
     },
@@ -237,7 +272,7 @@ export default {
   },
   computed: {
     topics: function () {
-      var res = ["All Topics"];
+      var res = ["Popular Topics"];
       this.$page.topics.edges.forEach((edge) => res.push(edge.node.title));
       return res;
     },
@@ -265,7 +300,7 @@ export default {
         var node = old.edges[i].node;
 
         // Now check topic
-        var topics = ["All Topics"];
+        var topics = ["Popular Topics"];
         node.tags.forEach((tag) => topics.push(tag.title));
 
         var nodeDate = new Date(node.datetime);
@@ -285,6 +320,13 @@ export default {
     },
     baseurl() {
       return "/blog/";
+    },
+    searchResults() {
+      return this.$page.entries.edges.filter((blog) => {
+        return blog.node.title
+          .toLowerCase()
+          .includes(this.search.toLowerCase().trim());
+      });
     },
   },
 };
