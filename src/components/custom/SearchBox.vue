@@ -1,5 +1,5 @@
 <template>
-  <div class="inline-flex rounded-full border-grey-light test">
+  <div class="inline-flex rounded-full border-grey-light test m-auto lg:m-0">
     <button>
       <span class="w-auto inline-flex justify-end items-center text-grey p-2">
         <font-awesome :icon="['fas', 'search']" />

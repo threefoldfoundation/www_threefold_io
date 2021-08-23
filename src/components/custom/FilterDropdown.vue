@@ -1,5 +1,5 @@
 <template>
-  <div class="inline-flex ml-auto">
+  <div class="inline-flex md:ml-auto">
     <header
       class="
         inline-flex

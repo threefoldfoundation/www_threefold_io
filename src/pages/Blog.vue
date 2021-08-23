@@ -10,10 +10,10 @@
       :months="months"
     /> -->
     <div
-      class="container sm:pxi-0 mx-auto mt-8"
+      class="container sm:pxi-0 mx-auto overflow-hidden"
       :style="{ 'min-height': contentHeight + 'px' }"
     >
-      <div class="flex">
+      <div class="flex flex-wrap my-5">
         <FilterDropdown
           class="xs:w-1/2"
           @selectedTopic="setTopic"
