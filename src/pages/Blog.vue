@@ -9,17 +9,14 @@
       :years="years"
       :months="months"
     /> -->
-    <div
-      class="container sm:pxi-0 mx-auto overflow-hidden"
-      :style="{ 'min-height': contentHeight + 'px' }"
-    >
-      <div class="flex flex-wrap my-5">
+    <div class="container sm:pxi-0 mx-auto overflow-hidden">
+      <div class="flex my-5">
         <FilterDropdown
-          class="xs:w-1/2"
+          class="xs:w-2/3"
           @selectedTopic="setTopic"
           :topics="topics"
         />
-        <SearchBox class="xs:w-1/2" v-model="search" />
+        <SearchBox class="xs:w-1/3" v-model="search" />
       </div>
 
       <div v-if="search !== ''">

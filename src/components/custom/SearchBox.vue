@@ -1,12 +1,12 @@
 <template>
-  <div class="inline-flex rounded-full border-grey-light test m-auto lg:m-0">
+  <div class="inline-flex rounded-full border-grey-light test m-auto lg:m-0 mr-5">
     <button>
       <span class="w-auto inline-flex justify-end items-center text-grey p-2">
         <font-awesome :icon="['fas', 'search']" />
       </span>
     </button>
     <input
-      class="rounded mr-4"
+      class="w-full rounded mr-4"
       type="text"
       placeholder="Search"
       :value="value"

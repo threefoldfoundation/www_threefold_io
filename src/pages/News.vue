@@ -14,9 +14,13 @@
       class="container sm:pxi-0 mx-auto overflow-hidden"
       :style="{ 'min-height': contentHeight + 'px' }"
     >
-      <div class="flex flex-wrap my-5">
-        <FilterDropdown @selectedTopic="setTopic" :topics="topics" />
-        <SearchBox v-model="search" />
+      <div class="flex my-5">
+        <FilterDropdown
+          class="xs:w-2/3"
+          @selectedTopic="setTopic"
+          :topics="topics"
+        />
+        <SearchBox class="xs:w-1/3" v-model="search" />
       </div>
 
       <div v-if="search !== ''">
