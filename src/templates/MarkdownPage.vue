@@ -147,6 +147,12 @@
         :src="$page.markdownPage.solution_image"
       />
 
+       <CallToActionbg1
+        v-if="$page.markdownPage.cta4"
+        :cta="$page.markdownPage.cta4"
+        :id="$page.markdownPage.id"
+      /> 
+
       </div>
 
     <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
@@ -433,6 +439,15 @@
           button
           link
         }
+         cta4{
+          title1
+          title2
+          slogan
+          content
+          button
+          link
+        }
+
         brandPanel{
          id
          title
@@ -581,6 +596,7 @@ import HowItWorks from "~/components/custom/sections/HowItWorks.vue";
 import Features from "~/components/custom/sections/Features.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
+import CallToActionbg1 from "~/components/custom/sections/CallToActionbg1.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
 import TFTFuel from "~/components/marketing/sections/team-sections/with_large_images.vue";
@@ -606,6 +622,7 @@ export default {
     Features,
     logoShowcase,
     CallToAction,
+    CallToActionbg1,
     SignUp,
     Comparison,
     TFTFuel,

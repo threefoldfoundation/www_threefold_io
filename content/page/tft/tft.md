@@ -12,6 +12,7 @@ solution_image: ./tft_limited.jpg
 button: Get TFT
 link: /
 cta: tft_cta
+cta4: tft_cta4
 brandPanel: tft_brandPanel
 card: tft_card
 carousel: [slide1, slide2, slide3, slide4, slide5, slide6 , slide7 , slide8 , slide9 , slide10]
