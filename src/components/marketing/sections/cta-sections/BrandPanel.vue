@@ -244,7 +244,7 @@
 
       <!-- tft -->
       <div
-        v-else-if="id == 'tft'"
+        v-else-if="id == 'tft' && !diveInto"
         class="flex flex-wrap text-center tft_section lg:text-left "
         
       >
@@ -287,6 +287,60 @@
                 mr-3
                 shadow
                 rounded-full
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+      </div>
+
+        <div
+        v-else-if="id == 'tft' && diveInto"
+        class="flex flex-wrap text-center tft_section lg:text-left lg:pt-16 "
+        
+      >
+        <div class="lg:w-1/2 px-2 self-center">
+          <g-image
+            
+            :src="image"
+            :alt="brand.title"
+          />
+        </div>
+        <div
+          class="
+            lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-center
+          "
+        >
+          <div class="lg:self-center">
+            <h2
+              class="
+                text-6xl mb-6 lg:px-10 uppercase leading-none font-heading
+              "
+            >
+              <span class="block">{{ brand.title }}</span>
+              <span class="block" v-if="brand.subtitle">{{
+                brand.subtitle
+              }}</span>
+            </h2>
+            <div class="py-6 mt-4 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+              bg-gray-900
+              text-2xl
+              learn-button
+              hover:bg-gray-800
+              text-gray-100
+              px-16
+              py-1
+              mb-4
+              shadow
+              rounded-full
+              tft_subtitle
+              tracking-widev
               "
               >{{ brand.btnTxt }}</a
             >
@@ -362,7 +416,7 @@
 
 <script>
 export default {
-  props: ["brand", "id"],
+  props: ["brand", "id" , "diveInto"],
   computed: {
     image() {
       return this.brand.image.src

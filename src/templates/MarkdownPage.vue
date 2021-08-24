@@ -104,6 +104,7 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
+        :diveInto="false"
       />
 
       <NewCard
@@ -145,6 +146,13 @@
       <g-image
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image"
+      />
+
+       <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel2"
+        v-if="$page.markdownPage.brandPanel2"
+        :diveInto="true"
       />
 
        <CallToActionbg1
@@ -449,6 +457,15 @@
         }
 
         brandPanel{
+         id
+         title
+         subtitle
+         content
+         sourceUrl
+         btnTxt
+         image
+       }
+         brandPanel2{
          id
          title
          subtitle
