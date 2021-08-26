@@ -9,7 +9,6 @@ tasks:
         publtools_check
         cd config
         publishtools install 
-        cd ..
         echo ' - do "publishtools run" to run website.'
         echo ' - do "open workspace.code-workspace" to open all relevant dirs in your editor.'
 ports:
