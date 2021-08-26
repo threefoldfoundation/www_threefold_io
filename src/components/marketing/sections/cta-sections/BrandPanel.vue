@@ -308,13 +308,13 @@
         </div>
         <div
           class="
-            lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-center
+            lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none
           "
         >
           <div class="lg:self-center">
             <h2
               class="
-                text-6xl mb-6 lg:px-10 uppercase leading-none font-heading
+                text-6xl mb-8 uppercase leading-none font-heading
               "
             >
               <span class="block">{{ brand.title }}</span>
@@ -322,7 +322,7 @@
                 brand.subtitle
               }}</span>
             </h2>
-            <div class="pb-4 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
+            <div class="pb-6 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
             <a
               v-if="brand.btnTxt"
               target="_blank"
