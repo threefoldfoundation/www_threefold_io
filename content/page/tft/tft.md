@@ -8,7 +8,7 @@ header_title: THE WORLD IS USING A NEW INTERNET
 header_image: ./tft_header.jpg
 header_altImg: TFT
 header_excerpt: It runs on TFT
-solution_image: ./tft_limited.jpg
+solution_image: ./limited.jpg
 button: Get TFT
 link: /
 cta: tft_cta

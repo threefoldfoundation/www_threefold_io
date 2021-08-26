@@ -322,7 +322,7 @@
                 brand.subtitle
               }}</span>
             </h2>
-            <div class="py-6 mt-4 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
+            <div class="pb-4 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
             <a
               v-if="brand.btnTxt"
               target="_blank"

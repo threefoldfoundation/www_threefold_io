@@ -1,5 +1,5 @@
 ---
 id: CP_process_1
-image: ./tft_solution2.png
+image: ./tft_farmers_earn2.png
 ---
-Solution Providers create experiences on the ThreeFold Grid.
+TFT is used by users to reserve current or future Internet capacity on the ThreeFold Grid.
