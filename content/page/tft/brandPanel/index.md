@@ -1,13 +1,13 @@
 ---
 id: tft_brandPanel
-title: decentralized DATA NEEDED A CURRENCY
-subtitle: IT NOW HAS ONE
+title: decentralized DATA NEEDED A CURRENCY.
+subtitle: IT NOW HAS ONE.
 sourceUrl: ''
 btnTxt: 
 image: tft_decentralized.jpg # src/assets/brandPanel/..
 ---
-The ThreeFold Token (TFT) is a utility token that allows you to hold current and future Internet capacity on the fully DECENTRALIZED THREEFOLD GRID, the fastest growing P2P network on the planet.
+TFT is a utility token that allows people to hold current and future Internet capacity on the ThreeFold Grid. It incentivises an open system where anyone can provide, sell and utilize Internet capacity without any intermediaries.
 
 <br />
 
-With rising demand for Internet infrastructure to hold the most valuable asset on earth, data --  TFT is your gateway to enter the largest and fastest growing economy in the world.
+With rising demand for Internet capacity to hold the most valuable data on earth, data - TFT is the gateway to enter the largest and fastest growing economy in the world.

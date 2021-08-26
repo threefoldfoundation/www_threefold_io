@@ -1,4 +1,4 @@
 ---
 id: col3
 ---
-Developers and solution providers also use TFT to purchase capacity, storage or compute on the ThreeFold Grid.
+Developers and solutions use TFT to reserve current or future Internet capacity on the ThreeFold Grid.
