@@ -6,10 +6,10 @@ sourceUrl: ''
 btnTxt: Know More
 image: dive_into2.jpg # src/assets/brandPanel/..
 ---
-Tokenomics
+* Tokenomics
 
-Scarcity model
+* Scarcity model
 
-Staking
+* Staking
 
-Development plan
+* Development plan
