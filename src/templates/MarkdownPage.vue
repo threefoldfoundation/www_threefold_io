@@ -143,7 +143,7 @@
         :cultivationProcess="true"
       />
 
-      <g-image
+      <g-image class ="lg:py-10"
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image"
       />

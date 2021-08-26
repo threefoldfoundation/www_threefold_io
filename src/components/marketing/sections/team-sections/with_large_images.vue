@@ -4,12 +4,11 @@
       v-if="id == 'tft' && !farmingProcess && !cultivationProcess"
       class="
         mx-auto
-        py-12
+        lg:py-16
         px-4
         max-w-screen-xl
         sm:px-6
         lg:px-8
-        lg:py-24
         tft_section
       "
     >
@@ -40,7 +39,7 @@
 
     <div
       v-else-if="id == 'tft' && (farmingProcess || cultivationProcess)"
-      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24 tft_section"
+      class="mx-auto lg:py-16 px-4 max-w-screen-xl sm:px-6 lg:px-8 tft_section"
     >
       <div class="space-y-12">
         <div
@@ -99,7 +98,7 @@
 
     <div
       v-else
-      class="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24"
+      class="mx-auto py-10 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24"
     >
       <div class="space-y-12">
         <div
