@@ -296,7 +296,7 @@
 
         <div
         v-else-if="id == 'tft' && diveInto"
-        class="flex flex-wrap text-center tft_section lg:text-left lg:pt-16 "
+        class="flex flex-wrap tft_section lg:text-left lg:pt-16 px-4 "
         
       >
         <div class="lg:w-1/2 px-2 self-center">

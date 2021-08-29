@@ -1,7 +1,7 @@
 ---
 id: tft_brandPanel
-title: decentralized DATA NEEDED A CURRENCY.
-subtitle: IT NOW HAS ONE.
+title: DECENTRALIZED CLOUD NEEDED A CURRENCY. 
+subtitle:  IT NOW HAS ONE.
 sourceUrl: ''
 btnTxt: 
 image: tft_decentralized.jpg # src/assets/brandPanel/..
