@@ -233,7 +233,7 @@
             >
           </div>
         </div>
-        <div class="relative pb-3/5 -mt-6 md:pb-1/2">
+        <div class="relative -mt-6">
           <g-image
             class="relative brandpanel inset-0 transform rounded-md object-fill"
             :src="image"
