@@ -134,7 +134,7 @@
             class="tft_fuel space-y-4 p-5"
             :class="{ active: index % 2 !== 0 }"
           >
-            <div class="relative pb-2/3">
+            <div class="relative">
               <g-image
                 class="object-cover mb-8 h-full w-full"
                 :src="img(section.svg)"
