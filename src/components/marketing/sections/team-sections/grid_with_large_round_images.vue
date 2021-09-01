@@ -13,7 +13,7 @@
       </div>
       <div
         v-if="id == 'home'"
-        class="mx-auto grid-cols-3 sm:grid sm:grid-cols-1 lg:grid-cols-3 lg:max-w-5xl"
+        class="mx-auto grid-cols-2 sm:grid sm:grid-cols-1 lg:grid-cols-2 lg:max-w-5xl"
       >
         <div
           class="my-5 mx-5"
