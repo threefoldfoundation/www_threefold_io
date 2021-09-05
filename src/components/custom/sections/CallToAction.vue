@@ -135,7 +135,6 @@
             py-2
             mr-5
             mb-4
-            rounded
             shadow
             rounded-full
           "
@@ -154,16 +153,15 @@
           py-2
           mr-5
           mb-4
-          rounded
           shadow
           rounded-full
         "
         target="_blank"
-        v-if="cta.button"
+        v-if="cta.button && cta.link.includes('http')"
         :href="cta.link"
         >{{ cta.button }}</a
       >
-      <g-link
+      <a
         class="
           inline-block
           bg-blue-900
@@ -175,15 +173,14 @@
           py-2
           mr-5
           mb-4
-          rounded
           shadow
           rounded-full
         "
-        v-if="cta.button2"
-        :to="cta.link2"
-        >{{ cta.button2 }}</g-link
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
       >
-      <g-link
+      <a
         class="
           inline-block
           bg-blue-900
@@ -195,16 +192,15 @@
           py-2
           mr-5
           mb-4
-          rounded
           shadow
           rounded-full
         "
-        v-if="cta.button3"
-        :to="cta.link3"
-        >{{ cta.button3 }}</g-link
+        target="_blank"
+        v-if="cta.button2 && cta.link2.includes('http')"
+        :href="cta.link2"
+        >{{ cta.button2 }}</a
       >
-
-      <g-link
+      <a
         class="
           inline-block
           bg-blue-900
@@ -216,62 +212,161 @@
           py-2
           mr-5
           mb-4
-          rounded
           shadow
           rounded-full
         "
-        v-if="cta.button4"
-        :to="cta.link4"
-        >{{ cta.button4 }}</g-link
+        v-else
+        :href="cta.link2"
+        >{{ cta.button2 }}</a
+      >
+      <a
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        target="_blank"
+        v-if="cta.button3 && cta.link3.includes('http')"
+        :href="cta.link3"
+        >{{ cta.button3 }}</a
+      >
+      <a
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        v-else
+        :href="cta.link3"
+        >{{ cta.button3 }}</a
+      >
+      <a
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        target="_blank"
+        v-if="cta.button4 && cta.link4.includes('http')"
+        :href="cta.link4"
+        >{{ cta.button4 }}</a
+      >
+      <a
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        v-else
+        :href="cta.link4"
+        >{{ cta.button4 }}</a
       >
     </div>
 
     <!-- tft -->
-    <div class="w-full lg:max-w-4xl mx-auto lg:mt-20 lg:px-16 lg:py-10 tft_section" v-else-if="id == 'tft'">
+    <div
+      class="w-full lg:max-w-4xl mx-auto lg:mt-20 lg:px-16 lg:py-10 tft_section"
+      v-else-if="id == 'tft'"
+    >
       <h2
         v-if="cta.title"
-        class="lg:max-w-lg text-8xl mb-6 mt-20 leading-none font-heading mx-auto"
+        class="
+          lg:max-w-lg
+          text-8xl
+          mb-6
+          mt-20
+          leading-none
+          font-heading
+          mx-auto
+        "
       >
         {{ cta.title }}
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 text-2xl leading-tight tracking-wide tft_subtitle text-gray-800"></div>
+      <div
+        v-html="cta.content"
+        class="
+          mt-6
+          mb-8
+          text-2xl
+          leading-tight
+          tracking-wide
+          tft_subtitle
+          text-gray-800
+        "
+      ></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
-           class="
-              inline-block
-              bg-gray-900
-              text-2xl
-              learn-button
-              hover:bg-gray-800
-              text-gray-100
-              px-16
-              py-1
-              mb-4
-              shadow
-              rounded-full
-              tft_subtitle
-              tracking-wide
-            "
+          class="
+            inline-block
+            bg-gray-900
+            text-2xl
+            learn-button
+            hover:bg-gray-800
+            text-gray-100
+            px-16
+            py-1
+            mb-4
+            shadow
+            rounded-full
+            tft_subtitle
+            tracking-wide
+          "
           >{{ cta.video_button }}</a
         >
       </div>
       <a
         class="
-              inline-block
-              bg-gray-900
-              text-2xl
-              learn-button
-              hover:bg-gray-800
-              text-gray-100
-              px-16
-              py-1
-              mb-4
-              shadow
-              rounded-full
-              tft_subtitle
-              tracking-wide
-            "
+          inline-block
+          bg-gray-900
+          text-2xl
+          learn-button
+          hover:bg-gray-800
+          text-gray-100
+          px-16
+          py-1
+          mb-4
+          shadow
+          rounded-full
+          tft_subtitle
+          tracking-wide
+        "
         target="_blank"
         v-if="cta.button"
         :href="cta.link"

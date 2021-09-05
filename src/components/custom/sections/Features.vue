@@ -30,21 +30,128 @@
       </div>
     </div>
     <div class="mx-auto mt-20" v-if="main.btn">
-      <g-link
-        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-        :to="main.link"
+      <a
+        v-if="main.link.includes('http')"
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        :href="main.link"
+        target="_blank"
         >{{ main.btn }}
-      </g-link>
-      <g-link
-        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-        :to="main.link2"
-        >{{ main.btn2 }}</g-link
-      >
-      <g-link
-        class="inline-block bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 mb-4 rounded shadow rounded-full"
-        :to="main.link3"
-        >{{ main.btn3 }}</g-link
-      >
+      </a>
+
+      <a
+        v-else
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        :href="main.link"
+        >{{ main.btn }}
+      </a>
+
+      <a
+        v-if="main.link2.includes('http')"
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        :href="main.link2"
+        target="_blank"
+        >{{ main.btn2 }}
+      </a>
+
+      <a
+        v-else
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        :href="main.link2"
+        >{{ main.btn2 }}
+      </a>
+
+      <a
+        v-if="main.link3.includes('http')"
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        :href="main.link3"
+        target="_blank"
+        >{{ main.btn3 }}
+      </a>
+
+      <a
+        v-else
+        class="
+          inline-block
+          bg-blue-900
+          text-sm
+          learn-button
+          hover:bg-blue-800
+          text-gray-100
+          px-12
+          py-2
+          mr-5
+          mb-4
+          shadow
+          rounded-full
+        "
+        :href="main.link3"
+        >{{ main.btn3 }}
+      </a>
       <!-- <div v-html="main.content" class="text-sm text-gray-400 mt-5"></div> -->
     </div>
   </section>
@@ -82,7 +189,18 @@
     </div>
     <div class="text-center" v-if="main.btn">
       <g-link
-        class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow"
+        class="
+          bg-gray-900
+          learn-button
+          hover:bg-gray-700
+          text-gray-100
+          px-5
+          py-3
+          mr-3
+          font-semibold
+          rounded
+          shadow
+        "
         :to="main.link"
         >{{ main.btn }}</g-link
       >

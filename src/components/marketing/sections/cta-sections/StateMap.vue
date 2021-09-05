@@ -67,7 +67,8 @@
           :alt="section.title"
         />
         <div class="mx-auto mt-6">
-          <g-link
+          <a
+            v-if="section.link1.includes('http')"
             class="
               inline-block
               green
@@ -79,14 +80,15 @@
               py-2
               mr-5
               mb-4
-              rounded
               shadow
               rounded-full
             "
-            :to="section.link1"
+            :href="section.link1"
+            target="_blank"
             >{{ section.btn1 }}
-          </g-link>
-          <g-link
+          </a>
+          <a
+            v-else
             class="
               inline-block
               green
@@ -98,14 +100,15 @@
               py-2
               mr-5
               mb-4
-              rounded
               shadow
               rounded-full
             "
-            :to="section.link2"
-            >{{ section.btn2 }}</g-link
+            :href="section.link1"
+            >{{ section.btn1 }}</a
           >
-          <g-link
+
+          <a
+            v-if="section.link2.includes('http')"
             class="
               inline-block
               green
@@ -117,12 +120,71 @@
               py-2
               mr-5
               mb-4
-              rounded
               shadow
               rounded-full
             "
-            :to="section.link3"
-            >{{ section.btn3 }}</g-link
+            :href="section.link2"
+            target="_blank"
+            >{{ section.btn2 }}
+          </a>
+          <a
+            v-else
+            class="
+              inline-block
+              green
+              text-sm
+              learn-button
+              hover:bg-blue-800
+              text-gray-100
+              px-12
+              py-2
+              mr-5
+              mb-4
+              shadow
+              rounded-full
+            "
+            :href="section.link2"
+            >{{ section.btn2 }}</a
+          >
+
+          <a
+            v-if="section.link3.includes('http')"
+            class="
+              inline-block
+              green
+              text-sm
+              learn-button
+              hover:bg-blue-800
+              text-gray-100
+              px-12
+              py-2
+              mr-5
+              mb-4
+              shadow
+              rounded-full
+            "
+            :href="section.link3"
+            target="_blank"
+            >{{ section.btn3 }}
+          </a>
+          <a
+            v-else
+            class="
+              inline-block
+              green
+              text-sm
+              learn-button
+              hover:bg-blue-800
+              text-gray-100
+              px-12
+              py-2
+              mr-5
+              mb-4
+              shadow
+              rounded-full
+            "
+            :href="section.link3"
+            >{{ section.btn3 }}</a
           >
           <!-- <div v-html="main.content" class="text-sm text-gray-400 mt-5"></div> -->
         </div>

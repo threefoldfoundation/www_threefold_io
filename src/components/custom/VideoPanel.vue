@@ -21,7 +21,8 @@
         </h2>
         <div class="mt-2 text-gray-700" v-html="card.content"></div>
         <div class="mx-auto mt-4 mb-6" v-if="card.btn">
-          <g-link
+          <a
+            v-if="card.link.includes('http')"
             class="
               inline-block
               bg-blue-900
@@ -33,13 +34,33 @@
               py-2
               mr-5
               mb-4
-              rounded
               shadow
               rounded-full
             "
-            :to="card.link"
+            :href="card.link"
+            target="_blank"
             >{{ card.btn }}
-          </g-link>
+          </a>
+
+          <a
+            v-else
+            class="
+              inline-block
+              bg-blue-900
+              text-sm
+              learn-button
+              hover:bg-blue-800
+              text-gray-100
+              px-12
+              py-2
+              mr-5
+              mb-4
+              shadow
+              rounded-full
+            "
+            :href="card.link"
+            >{{ card.btn }}
+          </a>
         </div>
       </div>
     </div>
