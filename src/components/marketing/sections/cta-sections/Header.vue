@@ -223,7 +223,7 @@
     </div>
 
     <div
-      class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 -mx-2"
+      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
       v-else
     >
       <div class="px-2 lg:py-40 lg:mt-10 order-1 lg:order-none mx-auto text-center">

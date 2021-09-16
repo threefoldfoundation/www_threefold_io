@@ -20,6 +20,7 @@
     <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
       <!-- <VideoPanel :card="$page.markdownPage.videoPanel" /> -->
 
+      <!-- <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" /> -->
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -30,10 +31,6 @@
         :products="$page.markdownPage.productData"
       />
 
-      <Map
-        v-if="$page.markdownPage.stats"
-        :section="$page.markdownPage.stats"
-      />
       <Features
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.featuresMain2"
@@ -332,10 +329,10 @@
          img
          content
        }
-       stats {
+       map {
           id
           title
-          content
+          subtitle
           button
           link
           btn1
@@ -365,7 +362,7 @@ import ShowcaseProducts from "~/components/marketing/sections/cta-sections/Showc
 import Comparison from "~/components/custom/sections/Comparison.vue";
 import Blogs from "~/components/marketing/sections/blog-sections/3_column_cards.vue";
 import Features from "~/components/custom/sections/Features.vue";
-import Map from "~/components/marketing/sections/cta-sections/StateMap.vue";
+import Map from "~/components/marketing/sections/cta-sections/Map.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
 import BrandPanel2 from "~/components/marketing/sections/cta-sections/BrandPanel2.vue";

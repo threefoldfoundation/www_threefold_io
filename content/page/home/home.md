@@ -33,7 +33,7 @@ inTheNews: in_the_news
 solution_image: ./cta_image.png
 cta: home_cta
 videoPanel: home_videoPanel
-stats: stats
+map: map
 featuresMain2: Features_home_2
 features2:
   [

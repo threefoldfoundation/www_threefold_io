@@ -21,7 +21,7 @@
         class="m-auto rounded overflow-hidden transition duration-500"
       >
         <div class="part text-center pb-8 my-5"
-        :class="{ active: index  !== 1 }"
+        :class="{ active: idx  !== 1 }"
         >
           <g-image :src="img(product.image)" />
           <h3 class="font-bold text-2xl">{{ product.title }}</h3>

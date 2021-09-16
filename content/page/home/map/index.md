@@ -1,6 +1,7 @@
 ---
-id: stats
-title: TOGETHER WE CO-CREATE THE NEW INTERNET 
+id: map
+title: THE THREEFOLD GRID
+subtitle: NOW OPERATIONAL
 button: More Stats
 link: https://explorer.threefold.io
 image: ./map.png
