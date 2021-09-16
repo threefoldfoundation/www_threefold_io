@@ -224,12 +224,12 @@
       <ShowcaseProducts
         class="my-20"
         v-if="
-          $page.markdownPage.productData2 &&
-          $page.markdownPage.productData2.length > 0
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
         "
         :id="$page.markdownPage.id"
-        :main="$page.markdownPage.productsMain2"
-        :products="$page.markdownPage.productData2"
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
       />
 
       <SolutionsHeader
@@ -248,10 +248,10 @@
         :header="$page.markdownPage.header2"
       />
 
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.header3"
         :header="$page.markdownPage.header3"
-      />
+      /> -->
 
       <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
@@ -336,15 +336,6 @@
          btn2
          link2
        }
-        header3{
-         title
-         subtitle
-         content
-         btn1
-         link1
-         btn2
-         link2
-       }
         header4{
          title
          subtitle
@@ -369,37 +360,6 @@
          content
          image
          button
-         link
-       }
-       productsMain2{
-          id
-          title
-          subtitle
-          content
-          button
-          link
-       #  image
-        }
-       productData2{
-         id
-         title
-         content
-         image
-         button
-         link
-       }
-      appsMain{
-          id
-          title
-       # slogan
-          content
-       #  image
-        }
-       appData{
-         id
-         title
-         content
-         image
          link
        }
         comparisonMain{
@@ -442,7 +402,6 @@
         }
         cta3{
           title
-          slogan
           content
           button
           link
@@ -522,14 +481,6 @@
          title
          mail
          phone
-      }
-      signup{
-          id
-          title
-          button1
-          link1
-          button2
-          link2
       }
      pageHeader {
       id

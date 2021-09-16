@@ -1,9 +1,9 @@
 ---
 id: forum_button
 title: ''
-subtitle: 
+subtitle: ''
 btn1: ThreeFold Forum
-link1: https://forum.threefold.io/
+link1: 'https://forum.threefold.io/'
 btn2: ''
 link2: ''
 ---

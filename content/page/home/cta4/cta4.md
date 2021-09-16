@@ -1,9 +1,9 @@
 ---
 id: home_cta4
-title1: 'is the'
-title2: 'only solution'
-slogan : 'this'
-subtitle : 'the threefold grid' 
+title: is the
+title2: only solution
+slogan : this
+subtitle : the threefold grid
 button: ''
 link: ''
 button2: ''

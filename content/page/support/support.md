@@ -10,12 +10,11 @@ header_altImg: support
 header_excerpt: ''
 button: ''
 link: ''
-productsMain2: faqMain
-productData2: [tf_faq, farming_faq, token_faq]
+productsMain: faqMain
+productData: [tf_faq, farming_faq, token_faq]
 header: forum
 solution_image2: ./forum.png
 header2: forum_button
-header3: telegram
 logosMain: support_logosMain
 logos: [support_tele_1, support_tele_4, support_tele_3, support_tele_2]
 header4: live_chat
