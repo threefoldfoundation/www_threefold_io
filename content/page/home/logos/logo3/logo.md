@@ -1,5 +1,5 @@
 ---
 id: logo3
-image: ./casper_labs.png
+image: ./digitalbyte.png
 url: /partners/casperlabs
 ---

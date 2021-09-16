@@ -1,5 +1,5 @@
 ---
 id: logo6
-image: ./presearch.png
+image: ./matic.png
 url: /partners/presearch
 ---

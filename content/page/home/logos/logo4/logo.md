@@ -1,5 +1,5 @@
 ---
 id: logo4
-image: ./skale.png
+image: ./dash.png
 url: /partners/skale_labs
 ---

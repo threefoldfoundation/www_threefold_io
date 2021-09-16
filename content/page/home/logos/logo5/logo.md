@@ -1,5 +1,5 @@
 ---
 id: logo5
-image: ./dash.png
+image: ./saspelabs.png
 url: /partners/dash
 ---

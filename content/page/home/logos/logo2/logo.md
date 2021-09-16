@@ -1,5 +1,5 @@
 ---
 id: logo2
-image: ./harmony.png
+image: ./hpe.png
 url: /partners/harmony
 ---
