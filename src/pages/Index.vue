@@ -144,15 +144,6 @@
          button
          url
        }
-        cards{
-          id
-          title
-          image
-          button
-          link
-          order
-          content
-        }
         cta{
           id
           title
@@ -198,7 +189,7 @@
         }
         cta3{
           id
-          title1
+          title
           title2
           content
           button
@@ -210,7 +201,7 @@
         }
         cta4{
           id
-          title1
+          title
           title2
           subtitle
           slogan
@@ -291,10 +282,6 @@
           image
           url
         }
-        headerSolution{
-         subtitle
-         content
-       }
         inTheNews {
           id
           content
@@ -302,14 +289,6 @@
             path
             logo
           }
-        }
-        signup{
-          id
-          title
-          button1
-          link1
-          button2
-          link2
         }
         videoPanel {
           id
