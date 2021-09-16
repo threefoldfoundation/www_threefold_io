@@ -10,7 +10,6 @@
         mx-auto
         px-
         sm:px-0
-        py-4
         transition-all transition-500
       "
       :class="{
@@ -106,7 +105,7 @@
       <nav
         :class="isOpen ? 'block' : 'hidden'"
         class="
-        bg-white
+          bg-white
           navbar
           xl:order-2
           px-2
@@ -143,7 +142,7 @@
                 animated-link
               "
             >
-              <span class="uppercase py-1">{{ element.name }}</span>
+              <span class="uppercase py-1 px-2">{{ element.name }}</span>
               <svg
                 fill="currentColor"
                 viewBox="0 0 20 20"
@@ -286,7 +285,7 @@
           />
         </div> -->
       </nav>
-      <div class="hidden ml-0 md:ml-auto md:inline-block md:order-last">
+      <div class="hidden ml-0 md:inline-block md:order-last">
         <!-- <div class="inline-flex rounded-full border-2 border-gray-200 w-1/2">
           <span class="w-auto flex justify-end items-center p-2">
             <font-awesome :icon="['fas', 'search']" />
@@ -299,7 +298,7 @@
             @keyup.enter="result"
           />
         </div> -->
-        <ul class="list-none inline-flex justify-center md:ml-0 md:justify-end">
+        <ul class="list-none inline-flex">
           <!-- <li class="mr-0 sm:mr-2">
             <ThemeSwitcher v-on="$listeners" :theme="theme" />
           </li> -->
