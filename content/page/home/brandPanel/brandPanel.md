@@ -1,14 +1,10 @@
 ---
 id: fix_internet
-title: Join the ThreeFold Community
+title: ZERO OS
 subtitle: ''
 sourceUrl: https://t.me/threefold
-btnTxt: Join the Community
-image: token_header.png # src/assets/brandPanel/..
+btnTxt: Get a Node
+image: zero_os.png # src/assets/brandPanel/..
 ---
 
-* Become a part of a collaborative community
-* Earn income for connecting sovereign capacity
-* Regenerate our planet with every sale and purchase
-* Reserve capacity without any intermediaries
-* Receive grants for regenerative initiatives
+Zero-OS is an autonomous open-source operating system that supports the peer-to-peer cloud and the deployment of inﬁnitely scalable digital workloads with unparalleled levels of security and privacy. 

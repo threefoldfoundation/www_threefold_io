@@ -144,17 +144,18 @@
       <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
+          bo
           px-12
-          py-2
+          py-1
           mr-5
           mb-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         target="_blank"
         v-if="cta.button && cta.link.includes('http')"
@@ -164,17 +165,18 @@
       <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
+          bo
           px-12
-          py-2
+          py-1
           mr-5
           mb-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         v-else
         :href="cta.link"
@@ -183,17 +185,18 @@
       <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
+          bo
           px-12
-          py-2
+          py-1
           mr-5
           mb-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         target="_blank"
         v-if="cta.button2 && cta.link2.includes('http')"
@@ -203,17 +206,18 @@
       <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
+          bo
           px-12
-          py-2
+          py-1
           mr-5
           mb-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         v-else
         :href="cta.link2"
@@ -222,17 +226,18 @@
       <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
+          bo
           px-12
-          py-2
+          py-1
           mr-5
           mb-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         target="_blank"
         v-if="cta.button3 && cta.link3.includes('http')"
@@ -242,17 +247,18 @@
       <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
+          bo
           px-12
-          py-2
+          py-1
           mr-5
           mb-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         v-else
         :href="cta.link3"
@@ -261,17 +267,18 @@
       <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
+          bo
           px-12
-          py-2
+          py-1
           mr-5
           mb-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         target="_blank"
         v-if="cta.button4 && cta.link4.includes('http')"
@@ -281,17 +288,18 @@
       <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
+          bo
           px-12
-          py-2
+          py-1
           mr-5
           mb-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         v-else
         :href="cta.link4"

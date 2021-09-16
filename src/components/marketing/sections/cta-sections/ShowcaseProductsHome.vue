@@ -20,23 +20,25 @@
         :href="product.url"
         class="m-auto rounded overflow-hidden transition duration-500"
       >
-        <div class="take_apart text-center pb-8 my-5">
+        <div class="part text-center pb-8 my-5"
+        :class="{ active: index  !== 1 }"
+        >
           <g-image :src="img(product.image)" />
           <h3 class="font-bold text-2xl">{{ product.title }}</h3>
-          <div v-html="product.content" class="pb-4 px-5 text-gray-600"></div>
+          <div v-html="product.content" class="pb-4 px-5 "></div>
 
           <div v-if="product.button">
             <a
               v-if="product.url.includes('http')"
               target="_blank"
               :href="product.url"
-              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mb-5 shadow rounded-full"
+              class="bg-white text-sm learn-button hover:bg-gray-400 px-12 py-2 mb-5 shadows border-black border-2"
               >{{ product.button }}</a
             >
             <a
               v-else
               :href="product.url"
-              class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mb-5 shadow rounded-full"
+              class="bg-white text-sm learn-button hover:bg-gray-400 px-12 py-2 mb-5 shadows border-black border-2"
               >{{ product.button }}</a
             >
           </div>
@@ -64,8 +66,21 @@ export default {
   height: 400px;
 }
 
-.take_apart {
+/* .take_apart {
   background-color: #f5f5f5;
   max-height: 570px;
+} */
+
+.part {
+  max-height: 570px;
+  background-color: #ea1ff7;
+  
+  
+}
+
+.active {
+  
+  background-color: #70dfc9;
+  
 }
 </style>

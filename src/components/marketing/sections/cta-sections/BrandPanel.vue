@@ -164,114 +164,77 @@
       </div>
 
       <!-- home -->
-      <div v-else-if="id == 'home'" class="brandpanel lg:grid lg:grid-cols-2">
-        <div
-          class="
-            py-12
-            px-6
-            sm:pt-16
-            sm:px-16
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
-          "
-        >
+      <div
+        v-else-if="id == 'home'"
+        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+      >
+        <div class="lg:w-1/3 lg:px-6 self-center">
+          <g-image :src="image" :alt="brand.title" />
+        </div>
+        <div class="lg:w-2/3 lg:px-10 order-1 lg:order-none">
           <div class="lg:self-center">
-            <h2
-              class="
-                text-4xl
-                leading-tight
-                mb-6
-                font-bold font-heading
-                uppercase
-              "
-            >
+            <h2 class="text-5xl mb-8 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
-              <span class="block" v-if="brand.subtitle">{{
+              <!-- <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
-              }}</span>
+              }}</span> -->
             </h2>
             <div
-              class="mt-4 mx-4 mb-10 text-black"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
-              v-if="brand.sourceUrl.includes('http')"
-              :href="brand.sourceUrl"
+              v-if="brand.btnTxt"
               target="_blank"
-              class="
-                bg-teal-300
-                text-sm
-                learn-button
-                hover:bg-57EEF8-400
-                text-gray-900
-                px-12
-                py-2
-                mr-3
-                shadow
-                rounded-full
-              "
-              >{{ brand.btnTxt }}</a
-            >
-            <a
-              v-else
               :href="brand.sourceUrl"
               class="
-                bg-teal-300
+                inline-block
+                bg-white
                 text-sm
                 learn-button
-                hover:bg-57EEF8-400
-                text-gray-900
+                hover:bg-gray-400
+                bo
                 px-12
-                py-2
-                mr-3
+                py-1
+                mr-5
+                mb-4
+                border-2
                 shadow
-                rounded-full
+                border-black
               "
               >{{ brand.btnTxt }}</a
             >
           </div>
-        </div>
-        <div class="relative -mt-6">
-          <g-image
-            class="relative brandpanel inset-0 transform rounded-md object-fill"
-            :src="image"
-            :alt="brand.title"
-          />
         </div>
       </div>
 
       <!-- tft -->
       <div
         v-else-if="id == 'tft' && !diveInto"
-        class="flex flex-wrap text-center tft_section lg:text-left "
-        
+        class="flex flex-wrap text-center tft_section lg:text-left"
       >
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image
-            
-            :src="image"
-            :alt="brand.title"
-          />
+          <g-image :src="image" :alt="brand.title" />
         </div>
-        <div
-          class="
-            lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-center
-          "
-        >
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-center">
           <div class="lg:self-center">
-            <h2
-              class="
-                text-6xl mb-6 uppercase leading-none font-heading
-              "
-            >
+            <h2 class="text-6xl mb-6 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
               }}</span>
             </h2>
-            <div class="py-6 mt-4 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
+            <div
+              class="
+                py-6
+                mt-4
+                text-gray-900 text-2xl
+                leading-tight
+                tft_subtitle
+                tracking-wide
+              "
+              v-html="brand.content"
+            ></div>
             <a
               v-if="brand.btnTxt"
               target="_blank"
@@ -294,53 +257,49 @@
         </div>
       </div>
 
-        <div
+      <div
         v-else-if="id == 'tft' && diveInto"
-        class="flex flex-wrap tft_section lg:text-left lg:pt-16 px-4 "
-        
+        class="flex flex-wrap tft_section lg:text-left lg:pt-16 px-4"
       >
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image
-            
-            :src="image"
-            :alt="brand.title"
-          />
+          <g-image :src="image" :alt="brand.title" />
         </div>
-        <div
-          class="
-            lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none
-          "
-        >
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
           <div class="lg:self-center">
-            <h2
-              class="
-                text-6xl mb-8 uppercase leading-none font-heading
-              "
-            >
+            <h2 class="text-6xl mb-8 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
               }}</span>
             </h2>
-            <div class="pb-6 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
+            <div
+              class="
+                pb-6
+                text-gray-900 text-2xl
+                leading-tight
+                tft_subtitle
+                tracking-wide
+              "
+              v-html="brand.content"
+            ></div>
             <a
               v-if="brand.btnTxt"
               target="_blank"
               :href="brand.sourceUrl"
               class="
                 inline-block
-              bg-gray-900
-              text-2xl
-              learn-button
-              hover:bg-gray-800
-              text-gray-100
-              px-16
-              py-1
-              mb-4
-              shadow
-              rounded-full
-              tft_subtitle
-              tracking-widev
+                bg-gray-900
+                text-2xl
+                learn-button
+                hover:bg-gray-800
+                text-gray-100
+                px-16
+                py-1
+                mb-4
+                shadow
+                rounded-full
+                tft_subtitle
+                tracking-widev
               "
               >{{ brand.btnTxt }}</a
             >
@@ -416,7 +375,7 @@
 
 <script>
 export default {
-  props: ["brand", "id" , "diveInto"],
+  props: ["brand", "id", "diveInto"],
   computed: {
     image() {
       return this.brand.image.src

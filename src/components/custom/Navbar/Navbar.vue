@@ -22,7 +22,7 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/">
             <g-image
-              :src="require(`!!assets-loader!@images/tfn_black.svg`)"
+              :src="require(`!!assets-loader!@images/tft_color_logo.svg`)"
               class="mr-3 fill-current logo"
               alt=""
             />
@@ -447,7 +447,7 @@ a.active--exact.active {
   width: auto;
 }
 .logo {
-  max-width: 180px;
+  max-width: 80px;
 }
 @media (max-width: 768px) {
   .navbar {

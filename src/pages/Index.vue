@@ -1,6 +1,6 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <Header
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -9,10 +9,26 @@
         :altImg="$page.markdownPage.header_altImg"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
+        :button2="$page.markdownPage.button2"
+        :button3="$page.markdownPage.button3"
         :link="$page.markdownPage.link"
+        :link2="$page.markdownPage.link2"
+        :link3="$page.markdownPage.link3"
       />
+    </div>
 
-      <VideoPanel :card="$page.markdownPage.videoPanel" />
+    <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
+      <!-- <VideoPanel :card="$page.markdownPage.videoPanel" /> -->
+
+      <ShowcaseProducts
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+      />
 
       <Map
         v-if="$page.markdownPage.stats"
@@ -37,7 +53,9 @@
 
       <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
+        :main="$page.markdownPage.logosMain"
       />
 
       <BrandPanel
@@ -52,16 +70,7 @@
         :id="$page.markdownPage.id"
       /> -->
 
-      <ShowcaseProducts
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
-        :id="$page.markdownPage.id"
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-      />
-    <!-- <g-image
+      <!-- <g-image
       class="mx-auto"
       v-if="$page.markdownPage.solution_image2"
       :src="$page.markdownPage.solution_image2.src"
@@ -118,6 +127,11 @@
         header_altImg
         button
         link
+        button2
+        link2
+        button3
+        link3
+
         solution_image
      #   solution_image2
      #  solution_image3
@@ -286,6 +300,10 @@
          btnTxt2
          image
        }
+       logosMain {
+          id
+          title
+        }
         logos{
           id
           image
