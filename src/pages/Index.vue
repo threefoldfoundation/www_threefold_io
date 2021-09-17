@@ -18,9 +18,9 @@
     </div>
 
     <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
+      <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
       <!-- <VideoPanel :card="$page.markdownPage.videoPanel" /> -->
 
-      <!-- <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" /> -->
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -31,13 +31,13 @@
         :products="$page.markdownPage.productData"
       />
 
-      <Features
+      <!-- <Features
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.featuresMain2"
         :features="$page.markdownPage.features2"
-      />
+      /> -->
 
-      <Partenerships
+      <!-- <Partenerships
         class="lg:mt-20"
         v-if="
           $page.markdownPage.partnerships &&
@@ -46,7 +46,7 @@
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
         :id="$page.markdownPage.id"
-      />
+      /> -->
 
       <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
@@ -54,13 +54,22 @@
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
       />
+    </div>
 
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      <CallToAction
+        v-if="$page.markdownPage.cta"
+        :id="$page.markdownPage.id"
+        :cta="$page.markdownPage.cta"
+      />
+    </div>
+
+    <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
       <BrandPanel
         :brand="$page.markdownPage.brandPanel"
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.brandPanel"
       />
-
       <!-- <CallToAction
         v-if="$page.markdownPage.cta2"
         :cta="$page.markdownPage.cta2"
@@ -84,27 +93,27 @@
         :blogs="$page.markdownPage.blogs"
       />
 
-      <InTheNews
+      <!-- <InTheNews
         v-if="$page.markdownPage.inTheNews"
         :news="$page.markdownPage.inTheNews"
-      />
+      /> -->
 
       <!-- <SignUp
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
       /> -->
 
-      <g-image
+      <!-- <g-image
         class="m-auto w-3/4 mt-8"
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
-      />
+      /> -->
 
-      <CallToAction
+      <!-- <CallToAction
         v-if="$page.markdownPage.cta"
         :id="$page.markdownPage.id"
         :cta="$page.markdownPage.cta"
-      />
+      /> -->
     </div>
   </Layout>
 </template>
@@ -158,32 +167,30 @@
         cta{
           id
           title
+          subtitle
+          image
           content
           button
           button2
           button3
           button4
+          button5
+          button6
           link
           link2
           link3
           link4
+          link5
+          link6
         }
         BlogsMain{
           id
           title
-          content
         }
         blogs{
           id
           image
-          tags
-          title
-          path
-          author
-          autherUrl
-          authorImg
-          excerpt
-          created
+          content
         }
         cta2{
           id
@@ -275,6 +282,8 @@
          content
          sourceUrl
          btnTxt
+         button2
+         link2
          image
        }
         brandPanel2{

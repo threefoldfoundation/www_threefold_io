@@ -4,6 +4,8 @@ title: ZERO OS
 subtitle: ''
 sourceUrl: https://t.me/threefold
 btnTxt: Get a Node
+button2: Learn More
+link2: '#'
 image: zero_os.png # src/assets/brandPanel/..
 ---
 

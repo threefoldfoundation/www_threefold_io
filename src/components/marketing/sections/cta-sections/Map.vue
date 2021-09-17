@@ -1,6 +1,6 @@
 <template>
   <section
-    class="px-2 h-auto object-fi"
+    class="px-2 h-auto bg-center bg-contain"
     :style="{ 'background-image': 'url(' + img(section.image) + ')' }"
   >
     <div class="flex flex-wrap p-12 text-center -mx-auto t">
@@ -26,28 +26,69 @@
           {{ section.subtitle }}
         </h2>
 
-        <div class="rounded-lg py-10 mt-10 lg:mt-0">
-          <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-            <dl class="">
-              <div
-                v-for="(item, index) in stats"
-                :key="index"
-                class="flex flex-col p-6 text-center"
-              >
-                <div v-for="(value, key) in item" :key="key">
-                  <dd
-                    class="leading-none font-bold green-color"
-                    :class="{ green: index % 2 !== 0 }"
-                    aria-describedby="item-1"
-                  >
-                    {{ value }}
-                  </dd>
-                  <dt class="mt-2 leading-6 text-black uppercase" id="item-1">
-                    {{ key }}
-                  </dt>
-                </div>
+        <div class="my-10 grid grid-cols-3 gap-4">
+          <div class="..."></div>
+          <div class="...">
+            <!-- capacity -->
+            <div class="leading-none font-extrabold text-6xl">
+              {{
+                stats[0].capacity
+                  .toString()
+                  .replace(/\B(?=(\d{2})+(?!\d))/g, ",")
+              }}
+              PB
+              <span class="block text-3xl uppercase">capacity</span>
+            </div>
+          </div>
+
+          <div class="..."></div>
+          <div class="...">
+            <!-- Nodes -->
+            <div
+              class="
+                rounded-full
+                h-60
+                w-60
+                inline-flex
+                items-center
+                justify-center
+                bg-green
+              "
+            >
+              <div class="leading-none font-extrabold text-6xl">
+                {{ stats[1].nodes }}
+                <span class="block text-2xl uppercase">nodes</span>
               </div>
-            </dl>
+            </div>
+          </div>
+          <div class="..."></div>
+          <div class="...">
+            <div
+              class="
+                rounded-full
+                h-60
+                w-60
+                inline-flex
+                items-center
+                justify-center
+                bg-pink
+              "
+            >
+              <div class="leading-none font-extrabold text-6xl">
+                {{ stats[3].countries }}
+                <span class="block text-2xl uppercase">countries</span>
+              </div>
+            </div>
+          </div>
+          <div class="..."></div>
+          <div class="...">
+            <!-- capacity -->
+            <div class="leading-none font-extrabold text-6xl">
+              {{
+                stats[2].cores.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+              }}
+              <span class="block text-5xl uppercase">cores</span>
+            </div>
           </div>
         </div>
       </div>
@@ -74,26 +115,25 @@ export default {
   },
   async mounted() {
     try {
-      const getFarms = await axios.get(
-        "https://explorer.threefold.io/api/farms?network=all"
-      );
+      // const getFarms = await axios.get(
+      //   "https://explorer.threefold.io/api/farms?network=all"
+      // );
       const results = await axios.get(
         "https://explorer.threefold.io/api/stats"
       );
-      console.log(results.data);
-      let farms = getFarms.data.length;
+      // let farms = getFarms.data.length;
       let nodes = results.data.onlinenodes;
-      let hru = (results.data.hru / 1000).toFixed(); // To TB
-      let sru = results.data.sru.toFixed();
-      let capacity = hru + sru;
+      let hru = (results.data.hru / 10000).toFixed(); // To TB
+      let sru = (results.data.sru / 10000).toFixed();
+      let capacity = ((hru + sru) / 1000).toFixed();
       let cru = results.data.cru.toFixed();
       let countries = results.data.countries;
       this.stats.push(
-        { farms: farms },
-        { Nodes: nodes },
-        { "Storage TB": capacity },
-        { "Compute Cores": cru },
-        { Countries: countries }
+        // { farms: farms },
+        { capacity: capacity },
+        { nodes: nodes },
+        { cores: cru },
+        { countries: countries }
       );
     } catch (error) {
       console.log(error);
@@ -103,28 +143,18 @@ export default {
 </script>
 
 <style scoped>
-.blue {
-  background-color: #313f92;
-}
-
-.light-blue {
-  background-color: #48489f;
-}
-
 dd {
-  height: 100px;
-  width: 100px;
+  display: inline-block;
   margin: auto;
   border-radius: 50%;
   line-height: 100px;
-  border: 3px solid #847fc2;
-  background-color: #313f92;
-  color: #dacef5;
-  font-size: 1.5rem;
 }
 
-.green {
-  background-color: #92f5d9;
-  color: #313f92;
+.bg-green {
+  background-color: #70dfc9;
+}
+
+.bg-pink {
+  background-color: #ea1ff7;
 }
 </style>

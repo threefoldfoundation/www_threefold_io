@@ -204,6 +204,49 @@
               "
               >{{ brand.btnTxt }}</a
             >
+
+            <a
+              v-if="brand.button2 && brand.link2.includes('http')"
+              target="_blank"
+              :href="brand.link2"
+              class="
+                inline-block
+                bg-white
+                text-sm
+                learn-button
+                hover:bg-gray-400
+                bo
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.button2 }}</a
+            >
+
+            <a
+              v-else
+              :href="brand.link2"
+              class="
+                inline-block
+                bg-white
+                text-sm
+                learn-button
+                hover:bg-gray-400
+                bo
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.button2 }}</a
+            >
           </div>
         </div>
       </div>

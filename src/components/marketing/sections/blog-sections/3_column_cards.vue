@@ -50,12 +50,12 @@
                   {{ blog.title }}
                 </h3>
                 <div
-                  v-html="blog.excerpt"
-                  class="mt-3 text-base leading-6 text-gray-500"
+                  v-html="blog.content"
+                  class="mt-3 text-base leading-6 text-center text-gray-800"
                 ></div>
               </a>
             </div>
-            <div class="mt-6 flex items-center">
+            <div class="mt-6 flex items-center" v-if="blog.authorImg">
               <div class="flex-shrink-0">
                 <a :href="blog.autherUrl">
                   <img
@@ -65,7 +65,7 @@
                   />
                 </a>
               </div>
-              <div class="ml-3">
+              <div class="ml-3" v-if="blog.author">
                 <p class="text-sm leading-5 font-medium text-gray-900">
                   <a :href="blog.autherUrl" class="hover:underline">
                     {{ blog.author }}
