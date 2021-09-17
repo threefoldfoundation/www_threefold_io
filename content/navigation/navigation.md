@@ -64,7 +64,7 @@ navLinks:
         path: https://mydigitaltwin.io/
         external: true
       - title: Developers (SDK)
-        path: https://sdk.threefold.io/
+        path: https://library.threefold.me/info/sdk/
         external: true
       # - title: Kubernetes Cloud
       #   path: https://threefold.io/info/cloud#/cloud__evdc
@@ -124,7 +124,7 @@ navLinks:
     expandable: true
     submenu:
       - title: KnowledgeBase
-        path: https://wiki.threefold.io
+        path: https://library.threefold.me/info/tfgrid
         external: true         
       - title: Blog
         path: /blog
