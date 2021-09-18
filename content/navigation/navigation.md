@@ -14,7 +14,7 @@ navLinks:
       - title: Token Introduction
         path: /token
       - title: Buy TFT
-        path: https://library.threefold.me/info/threefold#/threefold__how_to_buy_and_sell
+        path: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
         external: true
       - title: Tokenomics
         path: https://library.threefold.me/info/tfgrid/#/tokens/tokenomics
@@ -161,7 +161,7 @@ social:
         external: true
 
       - title: Buy the Token
-        path: https://library.threefold.me/info/threefold#/threefold__how_to_buy_and_sell
+        path: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
 
       - title: Test the Cloud
         path: /cloud

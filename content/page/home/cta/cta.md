@@ -4,7 +4,7 @@ title: Join the ThreeFold Movement
 button: ThreeFold Connect
 link: https://library.threefold.me/info/tfgrid/#/threefold__threefold_connect
 button2: Buy the Token
-link2: https://library.threefold.me/info/threefold#/threefold__how_to_buy_and_sell
+link2: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
 button3: Grow the Grid
 link3: https://threefold.io/farming
 button4: Stay Updated

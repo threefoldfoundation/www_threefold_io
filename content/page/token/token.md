@@ -9,7 +9,7 @@ header_image: ./token_header.png
 header_altImg: ThreeFold Token
 header_excerpt: The Threefold Token is the official currency of ThreeFold – the engine for a planet positive and data sovereign Internet. Now is the perfect time to get involved.
 button: Get Tokens
-link: https://library.threefold.me/info/threefold#/threefold__how_to_buy_and_sell
+link: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
 comparisonMain: token_comparison
 comparisonSecs: [expand_grid, invest_token]
 productsMain: token_product
