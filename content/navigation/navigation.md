@@ -17,7 +17,7 @@ navLinks:
         path: https://library.threefold.me/info/threefold#/threefold__how_to_buy_and_sell
         external: true
       - title: Tokenomics
-        path: https://library.threefold.me/info/threefold#/threefold__tokenomics
+        path: https://library.threefold.me/info/tfgrid/#/tokens/tokenomics
         external: true
       - title: Distribution
         path: https://library.threefold.me/info/threefold#/threefold__token_overview
