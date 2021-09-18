@@ -2,7 +2,7 @@
 id: grid_solution
 title: THE THREEFOLD GRID IS THE ONLY TRUE SOLUTION
 subtitle: ''
-sourceUrl: https://threefold.io/info/threefold#/threefold__grid_why
+sourceUrl: https://library.threefold.me/info/threefold#/threefold__grid_why
 btnTxt: Know More
 sourceUrl2: https://explorer.threefold.io/
 btnTxt2: Live Stats

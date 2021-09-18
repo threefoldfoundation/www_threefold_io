@@ -12,7 +12,7 @@ link: https://06gdrqp39yz.typeform.com/to/FffDv61M
 **Values & Passion:**
 
   - Understand what it means to work in a successfully growing project and endorse this way of working.
-  - Resonate with [a blog once written about values & collaboration (2017)](https://threefold.io/info/threefold#/threefold__kristof_build_a_better_world_values_collaboration?id=change-is-good).
+  - Resonate with [a blog once written about values & collaboration (2017)](https://library.threefold.me/info/threefold#/threefold__kristof_build_a_better_world_values_collaboration?id=change-is-good).
   - Be passionate and willing to bring a positive change to the world.
   - Understand it won't be a 9-5 job. We are changing the world, it takes courage and perseverance.
   - Be willing to travel and stay at other locations for some time to work directly with the team.
@@ -46,7 +46,7 @@ We are looking for a **Technical Community Manager & Team Lead** to help our com
   - Understand and follow Pareto 20/80 rule
   - A good teacher
   - Understand what it means to be a team_lead
-  - Be at least level 'wolf' in [the skill levels](https://threefold.io/info/threefold#/threefold__p2p_awareness_level) we use
+  - Be at least level 'wolf' in [the skill levels](https://library.threefold.me/info/threefold#/threefold__p2p_awareness_level) we use
 
 
 ## What we offer

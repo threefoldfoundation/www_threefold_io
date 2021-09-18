@@ -14,13 +14,13 @@ navLinks:
       - title: Token Introduction
         path: /token
       - title: Buy TFT
-        path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+        path: https://library.threefold.me/info/threefold#/threefold__how_to_buy_and_sell
         external: true
       - title: Tokenomics
-        path: https://threefold.io/info/threefold#/threefold__tokenomics
+        path: https://library.threefold.me/info/threefold#/threefold__tokenomics
         external: true
       - title: Distribution
-        path: https://threefold.io/info/threefold#/threefold__token_overview
+        path: https://library.threefold.me/info/threefold#/threefold__token_overview
         external: true
       - title: FAQ / Forum
         path: https://forum.threefold.io/c/threefold-token/tft-faq/57
@@ -67,10 +67,10 @@ navLinks:
         path: https://library.threefold.me/info/sdk/
         external: true
       # - title: Kubernetes Cloud
-      #   path: https://threefold.io/info/cloud#/cloud__evdc
+      #   path: https://library.threefold.me/info/cloud#/cloud__evdc
       #   external: true
       # - title: Quantum-Safe Storage
-      #   path: https://threefold.io/info/cloud#/cloud__threefold_filesystem
+      #   path: https://library.threefold.me/info/cloud#/cloud__threefold_filesystem
       #   external: true
 
   # - name: Partners
@@ -84,19 +84,19 @@ navLinks:
     expandable: true
     submenu:
       - title: Grid Technology
-        path: https://threefold.io/info/threefold#/internet4__technology
+        path: https://library.threefold.me/info/threefold#/internet4__technology
         external: true
       - title: Zero-OS
-        path: https://threefold.io/info/threefold#/internet4__tfgrid_primitives
+        path: https://library.threefold.me/info/threefold#/internet4__tfgrid_primitives
         external: true
       - title: Smart Contract for IT
-        path: https://threefold.io/info/threefold#/internet4__smartcontract_it
+        path: https://library.threefold.me/info/threefold#/internet4__smartcontract_it
         external: true
       - title: P2P Network
-        path: https://threefold.io/info/threefold#/internet4__planetary_network
+        path: https://library.threefold.me/info/threefold#/internet4__planetary_network
         external: true
       - title: Web2 vs Web3 vs P2P
-        path: https://threefold.io/info/threefold#/threefold__grid_compare
+        path: https://library.threefold.me/info/threefold#/threefold__grid_compare
         external: true
       - title: FAQ / Forum
         path: https://forum.threefold.io/c/technical-discussion/technical-faq/55
@@ -161,7 +161,7 @@ social:
         external: true
 
       - title: Buy the Token
-        path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+        path: https://library.threefold.me/info/threefold#/threefold__how_to_buy_and_sell
 
       - title: Test the Cloud
         path: /cloud

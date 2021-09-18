@@ -33,37 +33,37 @@ items:
     - name: Start Farming
       link: https://threefold.io/farming/get_3node
     - name: Buy the Token
-      link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+      link: https://library.threefold.me/info/threefold#/threefold__how_to_buy_and_sell
     - name: Test the Cloud
       link: https://threefold.io/cloud
     - name: Develop with the SDK (advanced)
-      link: https://threefold.io/info/sdk
+      link: https://library.threefold.me/info/sdk
     - name: Testing Community
       link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
  
  - title: Knowledgebase
    links:
     - name: ThreeFold Grid
-      link: https://threefold.io/info/threefold#/threefold__grid_home
+      link: https://library.threefold.me/info/threefold#/threefold__grid_home
     - name: ThreeFold Technology
-      link: https://threefold.io/info/threefold#/internet4__technology
+      link: https://library.threefold.me/info/threefold#/internet4__technology
     - name: ThreeFold Farming
-      link: https://threefold.io/info/threefold#/threefold__farming_intro
+      link: https://library.threefold.me/info/threefold#/threefold__farming_intro
     - name: ThreeFold Token
-      link: https://threefold.io/info/threefold#/threefold__token_home
+      link: https://library.threefold.me/info/threefold#/threefold__token_home
     - name: Carbon Double Win
-      link: https://threefold.io/info/threefold#/internet4__energy_savings
+      link: https://library.threefold.me/info/threefold#/internet4__energy_savings
     - name: Manuals
-      link: https://threefold.io/info/threefold#/threefold__wiki_overview
+      link: https://library.threefold.me/info/threefold#/threefold__wiki_overview
     - name: Releases
-      link: https://threefold.io/info/threefold#/threefold__release_mgmt
+      link: https://library.threefold.me/info/threefold#/threefold__release_mgmt
     - name: ThreeFold Glossary
-      link: https://threefold.io/info/threefold#/threefold__defs
+      link: https://library.threefold.me/info/threefold#/threefold__defs
 
  - title: About Us
    links:
     - name: ThreeFold
-      link: https://threefold.io/info/threefold
+      link: https://library.threefold.me/info/threefold
     - name: Partners
       link: /partners
     - name: People
@@ -78,7 +78,7 @@ items:
       link: /support
 ---
 
-[Terms & Conditions](https://threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()
+[Terms & Conditions](https://library.threefold.me/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://library.threefold.me/info/legal#/legal__privacypolicy) | [Impressum]()
 
 <br/>
 &#xA9; 2021 ThreeFold, All rights reserved.

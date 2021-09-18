@@ -9,7 +9,7 @@ link1: https://threefold.io/farming
 btn2: Explore Live Capacity
 link2: https://explorer.threefold.io/
 btn3: Behind the New Internet
-link3: https://threefold.io/info/threefold#/threefold__grid_concepts
+link3: https://library.threefold.me/info/threefold#/threefold__grid_concepts
 ---
 
 The ThreeFold Grid is formed by a global network of independent Farmers – people and organizations who expand Internet capacity to where it is needed the most.
