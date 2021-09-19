@@ -476,6 +476,47 @@
           </div>
         </div>
       </div>
+
+      <div
+        v-else-if="id == 'grid' && brandPanel3"
+        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+      >
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
+          <div class="lg:self-center">
+            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
+              {{ brand.title }}
+            </h2>
+            <div
+              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                text-sm
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+        <div class="lg:w-1/2 px-2 self-center">
+          <g-image :src="image" :alt="brand.title" />
+        </div>
+      </div>
+
       <div
         v-else
         class="

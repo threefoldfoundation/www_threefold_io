@@ -339,6 +339,8 @@
        brandPanel3{
          id
          title
+         btnTxt
+         sourceUrl
          content
          image
        }         

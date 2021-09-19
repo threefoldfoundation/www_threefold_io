@@ -13,4 +13,5 @@ button: Take Part
 link: "#"
 brandPanel: grid_brandPanel
 brandPanel2: grid_brandPanel2
+brandPanel3: grid_brandPanel3
 ---
