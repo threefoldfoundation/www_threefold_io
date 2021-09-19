@@ -221,7 +221,7 @@
         :cta="$page.markdownPage.cta2"
       />
 
-      <ShowcaseProducts
+      <!-- <ShowcaseProducts
         class="my-20"
         v-if="
           $page.markdownPage.productData &&
@@ -230,7 +230,7 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
-      />
+      /> -->
 
       <SolutionsHeader
         class="mt-0"
