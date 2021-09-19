@@ -6,6 +6,11 @@ navLinks:
     external: false
     expandable: false
 
+  - name: Grid
+    link: /grid
+    external: false
+    expandable: false
+
   - name: Token
     link: ""
     external: false

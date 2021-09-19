@@ -50,7 +50,7 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta"
+        v-if="$page.markdownPage.cta && $page.markdownPage.id !== 'grid'"
         :cta="$page.markdownPage.cta"
       />
 
@@ -86,6 +86,11 @@
     </div>
 
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta && $page.markdownPage.id == 'grid'"
+        :cta="$page.markdownPage.cta"
+      />
       <RoadMap
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.roadmap"
@@ -299,6 +304,8 @@
           image
           button
           link
+          button2
+          link2
         }
         cta2{
           title

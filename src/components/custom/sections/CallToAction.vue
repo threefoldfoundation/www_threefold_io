@@ -469,6 +469,107 @@
         >
       </div>
     </div>
+
+    <!-- grid -->
+    <div class="w-full max-w-3xl mx-auto py-12" v-else-if="id == 'grid'">
+      <g-image :src="cta.image" class="mx-auto w-1/2 my-5" />
+      <h2
+        v-if="cta.title"
+        class="
+          lg:text-5xl
+          text-center
+          uppercase
+          my-2
+          leading-none
+          font-bold font-heading
+        "
+      >
+        {{ cta.title }}
+      </h2>
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+      ></div>
+      <a
+        class="
+          inline-block
+          bg-white
+          text-sm
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button && cta.link.includes('http')"
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+      <a
+        class="
+          inline-block
+          bg-white
+          text-sm
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-sm
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button2 && cta.link2.includes('http')"
+        :href="cta.link2"
+        >{{ cta.button2 }}</a
+      >
+      <a
+        class="
+          inline-block
+          bg-white
+          text-sm
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link2"
+        >{{ cta.button2 }}</a
+      >
+    </div>
     <!-- tft -->
     <div
       class="w-full lg:max-w-4xl mx-auto lg:mt-20 lg:px-16 lg:py-10 tft_section"
