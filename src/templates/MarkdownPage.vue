@@ -22,6 +22,12 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel"
+        v-if="$page.markdownPage.brandPanel"
+      />
       <!-- <CustomCTA
         :header="true"
         :image="$page.markdownPage.pageHeader.image"
@@ -35,29 +41,7 @@
         />
       </div> -->
     </div>
-    <div
-      class="container sm:pxi-0 mx-auto overflow-x-hidden py-5"
-      v-if="
-        $page.markdownPage.id !== 'careers' &&
-        $page.markdownPage.id !== 'community' &&
-        $page.markdownPage.id !== 'about-us'
-      "
-    >
-      <Header
-        v-if="
-          $page.markdownPage.id !== 'contact' &&
-          $page.markdownPage.header_title &&
-          $page.markdownPage.header_title != ''
-        "
-        :id="$page.markdownPage.id"
-        :title="$page.markdownPage.header_title"
-        :slogan="$page.markdownPage.header_slogan"
-        :image="$page.markdownPage.header_image"
-        :altImg="$page.markdownPage.header_altImg"
-        :excerpt="$page.markdownPage.header_excerpt"
-        :button="$page.markdownPage.button"
-        :link="$page.markdownPage.link"
-      />
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <!-- <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
@@ -119,12 +103,6 @@
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
         :diveInto="false"
-      />
-
-      <NewCard
-        v-if="$page.markdownPage.card"
-        :id="$page.markdownPage.id"
-        :card="$page.markdownPage.card"
       />
 
       <Slider

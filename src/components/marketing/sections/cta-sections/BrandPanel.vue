@@ -252,16 +252,13 @@
       </div>
 
       <!-- tft -->
-      <div
-        v-else-if="id == 'tft' && !diveInto"
-        class="flex flex-wrap text-center tft_section lg:text-left"
-      >
+      <div v-else-if="id == 'about-us'" class="flex flex-wrap text-left">
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image :src="image" :alt="brand.title" />
+          <g-image class="mx-auto" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-center">
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-left">
           <div class="lg:self-center">
-            <h2 class="text-6xl mb-6 uppercase leading-none font-heading">
+            <h2 class="text-3xl mb-6 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
@@ -273,7 +270,6 @@
                 mt-4
                 text-gray-900 text-2xl
                 leading-tight
-                tft_subtitle
                 tracking-wide
               "
               v-html="brand.content"

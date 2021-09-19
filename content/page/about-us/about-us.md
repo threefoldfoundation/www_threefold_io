@@ -11,4 +11,5 @@ header_excerpt: To build the world’s most decentralized, secure and scalable d
 solution_image: 
 button: The Digital Future
 link: "#"
+brandPanel: about_brandPanel
 ---
