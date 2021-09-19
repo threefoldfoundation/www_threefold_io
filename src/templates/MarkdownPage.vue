@@ -34,18 +34,6 @@
         v-if="$page.markdownPage.brandPanel3"
         :brandPanel3="true"
       />
-      <!-- <CustomCTA
-        :header="true"
-        :image="$page.markdownPage.pageHeader.image"
-        :title="$page.markdownPage.pageHeader.title"
-      /> -->
-      <!-- <div class="singlePic">
-        <g-image
-          class="w-100 mx-auto"
-          v-if="$page.markdownPage.solution_image"
-          :src="$page.markdownPage.solution_image.src"
-        />
-      </div> -->
     </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <CallToAction
@@ -59,6 +47,13 @@
         v-if="$page.markdownPage.cta2"
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
+      />
+
+      <MarketInfo
+        v-if="$page.markdownPage.marketInfo.length > 0"
+        :main="$page.markdownPage.marketInfoMain"
+        :mainItem="$page.markdownPage.mainItem"
+        :marketInfo="$page.markdownPage.marketInfo"
       />
 
       <!-- <SignUp
@@ -460,6 +455,21 @@
        image
        content
      }
+     marketInfoMain{
+       id
+       title
+       content
+     }
+     mainItem{
+       id
+       image
+       content
+     }
+     marketInfo {
+       id
+       image
+       content
+     }
     }
     allCustomCta {
       edges {
@@ -500,7 +510,7 @@ import CenteredAccordion from "~/components/marketing/sections/faq-sections/Cent
 import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
 import Slider from "~/components/custom/Slider.vue";
 import RoadMap from "~/components/custom/Roadmap.vue";
-
+import MarketInfo from "~/components/custom/MarketInfo.vue";
 export default {
   components: {
     NewCard,
@@ -527,6 +537,7 @@ export default {
     CustomCTA,
     Slider,
     RoadMap,
+    MarketInfo,
   },
   computed: {
     getImg() {
