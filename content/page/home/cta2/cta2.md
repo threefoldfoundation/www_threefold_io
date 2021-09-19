@@ -1,16 +1,15 @@
 ---
 id: home_cta2
-title: Technology for humanity to thrive and heal our planet
-video_button: ""
-video_link: ""
-button: ""
-link: ""
-button2: ""
-link2: ""
+title: Join the ThreeFold Movement
+image: ./cta_image.png
+button: ThreeFold Connect
+link: https://library.threefold.me/info/tfgrid/#/threefold__threefold_connect
+button2: Buy the Token
+link2: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
+button3: Grow the Grid
+link3: https://threefold.io/farming
+button4: Stay Updated
+link4: https://t.me/threefoldnews
 ---
 
-The ThreeFold Movement is building a new peer-to-peer digital world – starting with compute and storage developer solutions and communication tools to empower humans with ultra-secure, scalable, and affordable technologies.
-<!-- button2: Spread our Message
-link: ''
-button3: Join our Community
-link: '' -->
+We are not a company, but more like humans helping other humans. Our mission is bold and motivates every step we take

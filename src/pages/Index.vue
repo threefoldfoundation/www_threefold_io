@@ -109,11 +109,12 @@
         :src="$page.markdownPage.solution_image.src"
       /> -->
 
-      <!-- <CallToAction
-        v-if="$page.markdownPage.cta"
+      <CallToAction
+        v-if="$page.markdownPage.cta2"
         :id="$page.markdownPage.id"
-        :cta="$page.markdownPage.cta"
-      /> -->
+        :cta="$page.markdownPage.cta2"
+        :lastCta="true"
+      />
     </div>
   </Layout>
 </template>
@@ -193,17 +194,18 @@
           content
         }
         cta2{
-          id
+         id
           title
+          image
           content
-          video_button
-          video_link
           button
           button2
           button3
+          button4
           link
           link2
           link3
+          link4
         }
         cta3{
           id

@@ -7,7 +7,6 @@ header_slogan: from zero
 header_title: to one
 header_image: ./home_bg.jpg
 
-
 header_altImg: threefold
 header_excerpt: The digital infrastructure for an interconnected world.
 button: Expand the network
