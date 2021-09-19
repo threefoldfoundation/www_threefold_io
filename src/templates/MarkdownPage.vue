@@ -28,6 +28,13 @@
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
       />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel2"
+        v-if="$page.markdownPage.brandPanel2"
+        :brandPanel2="true"
+      />
       <!-- <CustomCTA
         :header="true"
         :image="$page.markdownPage.pageHeader.image"
@@ -418,7 +425,7 @@
          sourceUrl
          btnTxt
          image
-       }
+       }         
        partenershipsMain{
          id
          title
