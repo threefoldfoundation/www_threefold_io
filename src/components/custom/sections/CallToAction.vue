@@ -6,7 +6,10 @@
     }"
   >
     <!-- about-us -->
-    <div class="w-full max-w-2xl mx-auto py-12" v-if="id == 'about-us'">
+    <div
+      class="w-full max-w-2xl mx-auto py-12"
+      v-if="id == 'about-us' && !textOnly"
+    >
       <h2
         v-if="cta.title"
         class="
@@ -86,6 +89,29 @@
         :href="cta.link"
         >{{ cta.button }}</a
       >
+    </div>
+
+    <div
+      class="w-full max-w-2xl mx-auto py-12"
+      v-else-if="id == 'about-us' && textOnly"
+    >
+      <h2
+        v-if="cta.title"
+        class="
+          lg:text-5xl
+          text-center
+          uppercase
+          mb-2
+          leading-none
+          font-bold font-heading
+        "
+      >
+        {{ cta.title }}
+      </h2>
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+      ></div>
     </div>
 
     <!-- home -->
@@ -603,7 +629,7 @@
 import Modal from "~/components/custom/Modal.vue";
 
 export default {
-  props: ["cta", "id"],
+  props: ["cta", "id", "textOnly"],
   data() {
     return {
       showModal: false,

@@ -15,4 +15,5 @@ brandPanel: about_brandPanel
 brandPanel2: about_brandPanel2
 brandPanel3: about_brandPanel3
 cta: about_cta
+cta2: about_cta2
 ---

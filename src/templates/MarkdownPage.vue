@@ -57,8 +57,15 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.id == 'about-us'"
+        v-if="$page.markdownPage.cta"
         :cta="$page.markdownPage.cta"
+      />
+
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta2"
+        :cta="$page.markdownPage.cta2"
+        :textOnly="true"
       />
       <!-- <SignUp
         v-if="$page.markdownPage.signup"
@@ -213,11 +220,6 @@
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta3"
         :cta="$page.markdownPage.cta3"
-      />
-      <CallToAction
-        :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta2"
-        :cta="$page.markdownPage.cta2"
       />
 
       <ShowcaseProducts
@@ -394,10 +396,7 @@
         }
         cta2{
           title
-          slogan
           content
-          button
-          link
         }
         cta3{
           title
