@@ -55,6 +55,11 @@
       </div> -->
     </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.id == 'about-us'"
+        :cta="$page.markdownPage.cta"
+      />
       <!-- <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
@@ -104,11 +109,6 @@
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
-      />
-      <CallToAction
-        :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.id == 'tft'"
-        :cta="$page.markdownPage.cta"
       />
 
       <BrandPanel
@@ -387,8 +387,8 @@
         }
         cta{
           title
-          slogan
           content
+          image
           button
           link
         }

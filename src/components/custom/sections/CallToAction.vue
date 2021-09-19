@@ -5,32 +5,27 @@
       pink: id == 'home',
     }"
   >
-    <!-- why -->
-    <div class="w-full max-w-2xl mx-auto py-12" v-if="id == 'why'">
+    <!-- about-us -->
+    <div class="w-full max-w-2xl mx-auto py-12" v-if="id == 'about-us'">
       <h2
         v-if="cta.title"
         class="
-          text-4xl text-center
+          lg:text-5xl
+          text-center
           uppercase
           mb-2
           leading-none
-          font-light font-heading
+          font-bold font-heading
         "
       >
         {{ cta.title }}
       </h2>
-      <span
-        class="
-          text-center
-          uppercase
-          leading-none
-          text-4xl text-gray-800
-          font-black font-heading
-        "
-      >
-        {{ cta.slogan }}
-      </span>
-      <div v-html="cta.content" class="mt-6 mb-8 text-gray-600"></div>
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+      ></div>
+      <g-image :src="cta.image" class="my-10" />
+
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
@@ -45,73 +40,51 @@
             py-2
             mr-5
             mb-4
-            rounded
             shadow
             rounded-full
           "
           >{{ cta.video_button }}</a
         >
       </div>
-      <g-link
+      <a
         class="
           inline-block
-          bg-blue-900
-          text-md
+          bg-white
+          text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
           px-12
-          py-2
+          py-1
           mr-5
-          mb-4
-          rounded
+          my-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
         target="_blank"
-        v-if="cta.button"
-        :to="cta.link"
-        >{{ cta.button }}</g-link
+        v-if="cta.button && cta.link.includes('http')"
+        :href="cta.link"
+        >{{ cta.button }}</a
       >
-      <g-link
+
+      <a
         class="
           inline-block
-          bg-blue-900
+          bg-white
           text-sm
           learn-button
-          hover:bg-blue-800
-          text-gray-100
+          hover:bg-gray-400
           px-12
-          py-2
+          py-1
           mr-5
-          mb-4
-          rounded
+          my-4
+          border-2
           shadow
-          rounded-full
+          border-black
         "
-        v-if="cta.button2"
-        :to="cta.link2"
-        >{{ cta.button2 }}</g-link
-      >
-      <g-link
-        class="
-          inline-block
-          bg-blue-900
-          text-sm
-          learn-button
-          hover:bg-blue-800
-          text-gray-100
-          px-12
-          py-2
-          mr-5
-          mb-4
-          rounded
-          shadow
-          rounded-full
-        "
-        v-if="cta.button3"
-        :to="cta.link3"
-        >{{ cta.button3 }}</g-link
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
       >
     </div>
 
