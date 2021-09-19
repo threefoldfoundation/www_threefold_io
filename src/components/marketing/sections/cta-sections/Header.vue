@@ -108,7 +108,14 @@
           {{ title }}
         </h1>
         <div
-          class="mb-8 px-10 text-center lg:text-5xl text-extrabold leading-tight"
+          class="
+            mb-8
+            px-10
+            text-center
+            lg:text-5xl
+            text-extrabold
+            leading-tight
+          "
           v-html="excerpt"
         ></div>
         <div v-if="button" class="block text-center">
@@ -160,6 +167,7 @@
     </div>
 
     <div
+      v-else-if="id == 'tft'"
       class="
         flex flex-wrap
         text-center
@@ -169,7 +177,6 @@
         lg:py-10
         -mx-2
       "
-      v-else-if="id == 'tft'"
     >
       <div
         class="
@@ -339,6 +346,61 @@
       </div> -->
     </div>
 
+    <div
+      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
+      v-else-if="id == 'grid'"
+    >
+      <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
+        <h2 class="lg:text-5xl uppercase mb-6 mt-20 leading-none font-heading">
+          {{ title }}
+        </h2>
+        <div
+          class="mb-8 text-lg max-w-2xl leading-relaxed"
+          v-html="excerpt"
+        ></div>
+
+        <a
+          v-if="link.includes('http')"
+          target="_blank"
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+        <a
+          v-else
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+      </div>
+      <g-image class="order-2 lg:order-none" :src="img" :alt="altImg" />
+    </div>
     <div class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2" v-else>
       <div
         class="px-2 lg:py-40 lg:mt-10 order-1 lg:order-none mx-auto text-center"

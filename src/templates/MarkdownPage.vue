@@ -1,13 +1,6 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div
-      class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden"
-      v-if="
-        $page.markdownPage.id == 'careers' ||
-        $page.markdownPage.id == 'community' ||
-        $page.markdownPage.id == 'about-us'
-      "
-    >
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <Header
         v-if="
           $page.markdownPage.header_title &&
@@ -82,14 +75,14 @@
         :sections="$page.markdownPage.comparisonSecs"
       /> -->
 
-      <TFTFuel
+      <!-- <TFTFuel
         v-if="
           $page.markdownPage.comparisonSecs &&
           $page.markdownPage.comparisonSecs.length > 0
         "
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
-      />
+      /> -->
     </div>
 
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
@@ -114,14 +107,14 @@
     /> -->
 
     <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
-      <AppListItem
+      <!-- <AppListItem
         v-if="
           $page.markdownPage.appData && $page.markdownPage.appData.length > 0
         "
         :products="$page.markdownPage.appData"
         :main="$page.markdownPage.appsMain"
-      />
-      <ShowcaseProducts
+      /> -->
+      <!-- <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
@@ -129,9 +122,9 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
-      />
+      /> -->
 
-      <Partenerships
+      <!-- <Partenerships
         v-if="
           $page.markdownPage.partnerships &&
           $page.markdownPage.partnerships.length > 0
@@ -139,15 +132,15 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
-      />
+      /> -->
 
-      <CenteredAccordion
+      <!-- <CenteredAccordion
         v-if="$page.markdownPage.faqContent && $page.markdownPage.id == 'faq'"
         :main="$page.markdownPage.faqMain"
         :faqs="$page.markdownPage.faqContent"
-      />
+      /> -->
 
-      <ShowcaseProducts
+      <!-- <ShowcaseProducts
         class="my-20"
         v-if="
           $page.markdownPage.productData &&
@@ -156,73 +149,60 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
-      />
+      /> -->
 
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         class="mt-0"
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
-      />
+      /> -->
 
-      <g-image
+      <!-- <g-image
         v-if="$page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
-      />
+      /> -->
 
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.header2"
         :header="$page.markdownPage.header2"
-      />
+      /> -->
 
       <!-- <SolutionsHeader
         v-if="$page.markdownPage.header3"
         :header="$page.markdownPage.header3"
       /> -->
 
-      <logoShowcase
+      <!-- <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
-      />
+      /> -->
 
-      <FourTiersWithToggle
+      <!-- <FourTiersWithToggle
         v-if="$page.markdownPage.jobs.length > 0"
         :pricingPlans="$page.markdownPage.jobs"
         :main="$page.markdownPage.jobsMain"
-      />
+      /> -->
 
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         class="mt-0"
         v-if="$page.markdownPage.header4"
         :header="$page.markdownPage.header4"
-      />
+      /> -->
 
-      <GetInTouch
+      <!-- <GetInTouch
         v-if="
           $page.markdownPage.contactData &&
           $page.markdownPage.contactData.length > 0
         "
         :contacts="$page.markdownPage.contactData"
-      />
+      /> -->
 
-      <SignUp
+      <!-- <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
-      />
-    </div>
-
-    <div
-      class="container-fluid mx-auto"
-      v-for="edge in $page.allCustomCta.edges"
-      :key="edge.node.id"
-    >
-      <CustomCTA
-        v-if="edge.node.id == $page.markdownPage.id"
-        :title="edge.node.title"
-        :link="edge.node.link"
-        :image="edge.node.image"
-      />
+      /> -->
     </div>
   </Layout>
 </template>
