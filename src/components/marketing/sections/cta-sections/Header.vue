@@ -1,7 +1,11 @@
 <template>
   <section
     class="mb-10 bg-no-repeats bg-cover"
-    :class="{ 'bg-home': id == 'home' }"
+    :style="[
+      id == 'home'
+        ? { background: 'url(' + img + ') center no-repeat' }
+        : { background: transparent },
+    ]"
   >
     <div
       class="flex flex-wrap text-center items-center pb-20 lg:text-left -mx-2"
