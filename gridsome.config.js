@@ -389,6 +389,7 @@ module.exports = {
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
                     brandPanel2: 'BrandPanel2',
+                    brandPanel3: 'BrandPanel3',
                     partenershipsMain: 'PartenershipsMain',
                     partnerships: 'Partenerships',
                     stats: 'Stats',

@@ -35,6 +35,12 @@
         v-if="$page.markdownPage.brandPanel2"
         :brandPanel2="true"
       />
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel3"
+        v-if="$page.markdownPage.brandPanel3"
+        :brandPanel3="true"
+      />
       <!-- <CustomCTA
         :header="true"
         :image="$page.markdownPage.pageHeader.image"
@@ -411,19 +417,19 @@
         brandPanel{
          id
          title
-         subtitle
          content
-         sourceUrl
-         btnTxt
          image
        }
-         brandPanel2{
+        brandPanel2{
          id
          title
-         subtitle
          content
-         sourceUrl
-         btnTxt
+         image
+       } 
+       brandPanel3{
+         id
+         title
+         content
          image
        }         
        partenershipsMain{
