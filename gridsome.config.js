@@ -364,6 +364,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Roadmap',
+                path: './content/page/**/roadmap/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -410,7 +418,8 @@ module.exports = {
                     farmingProcess: 'FarmingProcess',
                     cultivationMain: 'CultivationProcessMain',
                     cultivationProcess: 'CultivationProcess',
-                    map: 'Map'
+                    map: 'Map',
+                    roadmap: 'Roadmap'
                 }
             }
         },

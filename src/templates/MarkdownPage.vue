@@ -67,6 +67,7 @@
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
       />
+
       <!-- <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
@@ -88,6 +89,14 @@
         "
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
+      />
+    </div>
+
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      <RoadMap
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.roadmap"
+        :roadmap="$page.markdownPage.roadmap"
       />
     </div>
     <!-- <g-image
@@ -286,6 +295,7 @@
         :signup="$page.markdownPage.signup"
       />
     </div>
+
     <div
       class="container-fluid mx-auto"
       v-for="edge in $page.allCustomCta.edges"
@@ -536,6 +546,10 @@
        image
        content
      }
+     roadmap {
+       image
+       content
+     }
     }
     allCustomCta {
       edges {
@@ -575,6 +589,7 @@ import Partenerships from "~/components/marketing/sections/team-sections/grid_wi
 import CenteredAccordion from "~/components/marketing/sections/faq-sections/CenteredAccordion.vue";
 import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
 import Slider from "~/components/custom/Slider.vue";
+import RoadMap from "~/components/custom/Roadmap.vue";
 
 export default {
   components: {
@@ -601,6 +616,7 @@ export default {
     CenteredAccordion,
     CustomCTA,
     Slider,
+    RoadMap,
   },
   computed: {
     getImg() {
