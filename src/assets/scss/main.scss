@@ -1,14 +1,4 @@
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.googleapis.com/css2?family=Roboto");
-  font-display: swap;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 blockquote {
   // @apply border-l;
@@ -23,49 +13,49 @@ blockquote {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1, h2 {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 // tft page
 
 .tft_section h1{
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   font-size: 5rem;
 }
 
 .tft_section h2{
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   font-size: 4rem;
 }
 
 .tft_section2 h2{
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   
 }
 
 .tft_section h3{
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   font-size: 3rem;
 }
 
 .tft_subtitle{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400 !important;
   
 }
 
 .post-card-excerpt,
 .post-content-text {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
   line-height: 1.7;
 }
 
 .post-content-text h2 {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
   line-height: 1.5;
 }
 
@@ -189,7 +179,7 @@ button:focus {
 .text-8xl {
   font-size: 5rem;
   line-height: 1;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 .text-9xl {
@@ -199,11 +189,11 @@ button:focus {
 }
 
 .text-6xl {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 .text-5xl {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 @media (min-width: 375px) {
