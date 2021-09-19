@@ -1,8 +1,8 @@
 ---
 id: navigation
 navLinks:
-  - name: Why
-    link: /why
+  - name: About Us
+    link: /about-us
     external: false
     expandable: false
 

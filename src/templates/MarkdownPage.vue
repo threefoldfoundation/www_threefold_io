@@ -1,17 +1,32 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
     <div
-      class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden py-5"
+      class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden"
       v-if="
         $page.markdownPage.id == 'careers' ||
-        $page.markdownPage.id == 'community'
+        $page.markdownPage.id == 'community' ||
+        $page.markdownPage.id == 'about-us'
       "
     >
-      <CustomCTA
+      <Header
+        v-if="
+          $page.markdownPage.header_title &&
+          $page.markdownPage.header_title != ''
+        "
+        :id="$page.markdownPage.id"
+        :title="$page.markdownPage.header_title"
+        :slogan="$page.markdownPage.header_slogan"
+        :image="$page.markdownPage.header_image"
+        :altImg="$page.markdownPage.header_altImg"
+        :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
+      />
+      <!-- <CustomCTA
         :header="true"
         :image="$page.markdownPage.pageHeader.image"
         :title="$page.markdownPage.pageHeader.title"
-      />
+      /> -->
       <!-- <div class="singlePic">
         <g-image
           class="w-100 mx-auto"
@@ -25,7 +40,7 @@
       v-if="
         $page.markdownPage.id !== 'careers' &&
         $page.markdownPage.id !== 'community' &&
-        $page.markdownPage.id !== 'tft'
+        $page.markdownPage.id !== 'about-us'
       "
     >
       <Header
@@ -75,13 +90,12 @@
     /> -->
 
     <!-- tft page -->
-     <div
+    <div
       class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5"
-       v-if="$page.markdownPage.id == 'tft'"
-   >
-     <Header
+      v-if="$page.markdownPage.id == 'tft'"
+    >
+      <Header
         v-if="
-          
           $page.markdownPage.header_title &&
           $page.markdownPage.header_title != ''
         "
@@ -113,7 +127,7 @@
         :card="$page.markdownPage.card"
       />
 
-            <Slider
+      <Slider
         v-if="$page.markdownPage.carousel"
         :slides="$page.markdownPage.carousel"
         :main="$page.markdownPage.sliderMain"
@@ -143,33 +157,30 @@
         :cultivationProcess="true"
       />
 
-      <g-image class ="lg:py-10"
+      <g-image
+        class="lg:py-10"
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image"
       />
 
-       <BrandPanel
+      <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
         v-if="$page.markdownPage.brandPanel2"
         :diveInto="true"
       />
 
-       <CallToActionbg1
+      <CallToActionbg1
         v-if="$page.markdownPage.cta4"
         :cta="$page.markdownPage.cta4"
         :id="$page.markdownPage.id"
-      /> 
-
-      </div>
+      />
+    </div>
 
     <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="
-        $page.markdownPage.cta && $page.markdownPage.id == 'why'
-         
-        "
+        v-if="$page.markdownPage.cta && $page.markdownPage.id == 'why'"
         :cta="$page.markdownPage.cta"
       />
 
@@ -189,9 +200,6 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-
-
-
 
       <Partenerships
         v-if="

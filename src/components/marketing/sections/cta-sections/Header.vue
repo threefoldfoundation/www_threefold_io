@@ -1,6 +1,7 @@
 <template>
-  <section class="mb-10 px-4 bg-no-repeats bg-cover"
-  :style="{ 'background-image': 'url(' + image.src + ')' }"
+  <section
+    class="mb-10 bg-no-repeats bg-cover"
+    :class="{ 'bg-home': id == 'home' }"
   >
     <div
       class="flex flex-wrap text-center items-center pb-20 lg:text-left -mx-2"
@@ -89,36 +90,25 @@
 
     <div
       class="flex flex-wrap text-center items-center lg:text-left lg:mt-4 -mx-2"
-      v-else-if="id == 'token'"
+      v-else-if="id == 'about-us'"
     >
       <div class="lg:w-1/2 px-2 lg:pr-10 lg:mt-10 order-1 lg:order-none">
         <h1
-          v-if="id == 'token'"
+          v-if="id == 'about-us'"
           class="
             text-center
             uppercase
             mb-6
             mt-10
             leading-none
-            text-4xl
-            font-light font-heading
+            text-6xl
+            font-extrabold font-heading
           "
         >
-          {{ title }} <br />
-          <span
-            class="
-              text-center
-              uppercase
-              mb-6
-              leading-none
-              text-4xl
-              font-black font-heading
-            "
-            >{{ slogan }}</span
-          >
+          {{ title }}
         </h1>
         <div
-          class="mb-8 text-center text-gray-600 leading-relaxed"
+          class="mb-8 px-10 text-center lg:text-5xl text-extrabold leading-tight"
           v-html="excerpt"
         ></div>
         <div v-if="button" class="block text-center">
@@ -126,16 +116,19 @@
             v-if="link.includes('http')"
             target="_blank"
             class="
-              bg-blue-900
-              text-md
+              inline-block
+              bg-white
+              text-sm
               learn-button
-              hover:bg-blue-800
-              text-gray-100
+              hover:bg-gray-400
+              bo
               px-12
-              py-2
+              py-1
+              mr-5
               mb-4
+              border-2
               shadow
-              rounded-full
+              border-black
             "
             :href="link"
             >{{ button }}</a
@@ -143,16 +136,19 @@
           <a
             v-else
             class="
-              bg-blue-900
-              text-md
+              inline-block
+              bg-white
+              text-sm
               learn-button
-              hover:bg-blue-800
-              text-gray-100
+              hover:bg-gray-400
+              bo
               px-12
-              py-2
+              py-1
+              mr-5
               mb-4
+              border-2
               shadow
-              rounded-full
+              border-black
             "
             :href="link"
             >{{ button }}</a
@@ -164,14 +160,35 @@
     </div>
 
     <div
-      class="flex flex-wrap text-center tft_section lg:text-left lg:mt-10 lg:py-10 -mx-2"
+      class="
+        flex flex-wrap
+        text-center
+        tft_section
+        lg:text-left
+        lg:mt-10
+        lg:py-10
+        -mx-2
+      "
       v-else-if="id == 'tft'"
     >
-      <div class="lg:w-1/2 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none text-center">
+      <div
+        class="
+          lg:w-1/2
+          px-2
+          lg:pr-20
+          lg:mt-10
+          order-1
+          lg:order-none
+          text-center
+        "
+      >
         <h1 class="text-8xl mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h1>
-        <div class="mb-8 text-gray-800 text-3xl tft_subtitle" v-html="excerpt"></div>
+        <div
+          class="mb-8 text-gray-800 text-3xl tft_subtitle"
+          v-html="excerpt"
+        ></div>
         <div v-if="button">
           <a
             v-if="link.includes('http')"
@@ -224,105 +241,195 @@
 
     <div
       class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
-      v-else
+      v-else-if="id == 'home'"
     >
-      <div class="px-2 lg:py-40 lg:mt-10 order-1 lg:order-none mx-auto text-center">
+      <div
+        class="px-2 lg:py-40 lg:mt-10 order-1 lg:order-none mx-auto text-center"
+      >
         <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
-          <span class="">{{ slogan }}</span><br> 
+          <span class="">{{ slogan }}</span
+          ><br />
           {{ title }}
         </h2>
         <div class="mb-8 text-lg leading-relaxed" v-html="excerpt"></div>
-        
-          <a
-            v-if="link.includes('http')"
-            target="_blank"
-            class="
-              inline-block
-              bg-white
-              text-sm
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-4
-              border-2
-              shadow
-              border-black
-              
-            "
-            :href="link"
-            >{{ button }}</a
-          >
-          <a
-            v-else
-            class="
-              inline-block
-              bg-white
-              text-sm
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-4
-              border-2
-              shadow
-              border-black
-              
-            "
-            :href="link"
-            >{{ button }}</a
 
-          >
-          <a
-            
-            class="
-              inline-block
-              bg-white
-              text-sm
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-4
-              border-2
-              shadow
-              border-black
-              
-            "
-            :href="link2"
-            >{{ button2 }}</a
-            
-          >
-          <a
-            
-            class="
-              inline-block
-              bg-white
-              text-sm
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-4
-              border-2
-              shadow
-              border-black
-              
-            "
-            :href="link3"
-            >{{ button3 }}</a
-            
-          >
-          <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
-        
+        <a
+          v-if="link.includes('http')"
+          target="_blank"
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+        <a
+          v-else
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+        <a
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link2"
+          >{{ button2 }}</a
+        >
+        <a
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link3"
+          >{{ button3 }}</a
+        >
+        <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
+      </div>
+      <!-- <div class="lg:w-3/5 px-2 self-center">
+        <g-image :src="img" :alt="altImg" />
+      </div> -->
+    </div>
+
+    <div class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2" v-else>
+      <div
+        class="px-2 lg:py-40 lg:mt-10 order-1 lg:order-none mx-auto text-center"
+      >
+        <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
+          <span class="">{{ slogan }}</span
+          ><br />
+          {{ title }}
+        </h2>
+        <div class="mb-8 text-lg leading-relaxed" v-html="excerpt"></div>
+
+        <a
+          v-if="link.includes('http')"
+          target="_blank"
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+        <a
+          v-else
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+        <a
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link2"
+          >{{ button2 }}</a
+        >
+        <a
+          class="
+            inline-block
+            bg-white
+            text-sm
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link3"
+          >{{ button3 }}</a
+        >
+        <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
       </div>
       <!-- <div class="lg:w-3/5 px-2 self-center">
         <g-image :src="img" :alt="altImg" />
@@ -357,3 +464,10 @@ export default {
 };
 </script>
 
+<style scoped>
+.bg-home {
+  background: #70dfc9;
+  background: -webkit-linear-gradient(to bottom, #ea1ff7, #70dfc9);
+  background: linear-gradient(to bottom, #ea1ff7, #70dfc9);
+}
+</style>
