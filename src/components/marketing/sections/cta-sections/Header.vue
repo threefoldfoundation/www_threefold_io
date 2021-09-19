@@ -93,7 +93,7 @@
     </div>
 
     <div
-      class="flex flex-wrap text-center items-center lg:text-left lg:mt-4 -mx-2"
+      class="flex flex-wrap text-center items-center lg:text-left lg:mb-10 lg:mt-4 -mx-2"
       v-else-if="id == 'about-us'"
     >
       <div class="lg:w-1/2 px-2 lg:pr-10 lg:mt-10 order-1 lg:order-none">
@@ -116,9 +116,11 @@
             mb-8
             px-10
             text-center
-            lg:text-xl
+            text-xl
             text-extrabold
             leading-tight
+            lg:max-w-2xl
+            mx-auto
           "
           v-html="excerpt"
         ></div>
@@ -129,7 +131,7 @@
             class="
               inline-block
               bg-white
-              text-sm
+              text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -149,7 +151,7 @@
             class="
               inline-block
               bg-white
-              text-sm
+              text-lg
               learn-button
               hover:bg-gray-400
               bo
