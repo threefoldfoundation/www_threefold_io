@@ -12,4 +12,5 @@ solution_image:
 button: Take Part
 link: "#"
 brandPanel: grid_brandPanel
+brandPanel2: grid_brandPanel2
 ---
