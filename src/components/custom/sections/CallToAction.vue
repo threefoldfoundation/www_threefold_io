@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pb-10 px-4 bg-cover text-center"
+    class="lg:pb-20 px-4 bg-cover text-center"
     :class="{
       pink: id == 'home' && !lastCta,
       green: id == 'about-us' && lastCta,
@@ -199,14 +199,14 @@
     >
       <h2
         v-if="cta.title"
-        class="text-3xl uppercase leading-tight font-semibold font-heading"
+        class="text-5xl uppercase mb-0 leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
 
       <h2
         v-if="cta.subtitle"
-        class="text-3xl uppercase leading-tight font-semibold font-heading"
+        class="text-5xl uppercase mt-0 leading-tight font-semibold font-heading"
       >
         {{ cta.subtitle }}
       </h2>
@@ -480,7 +480,7 @@
       <g-image :src="cta.image" />
       <h2
         v-if="cta.title"
-        class="text-3xl mb-2 uppercase leading-tight font-semibold font-heading"
+        class="text-5xl mb-2 uppercase leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>

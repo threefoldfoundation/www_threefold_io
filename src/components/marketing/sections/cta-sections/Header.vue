@@ -42,7 +42,7 @@
         </span>
 
         <div
-          class="mb-8 text-center text-md mx-10 text-gray-600"
+          class="mb-8 text-center text-xl mx-10 text-gray-600"
           v-html="excerpt"
         ></div>
         <div v-if="button">
@@ -116,7 +116,7 @@
             mb-8
             px-10
             text-center
-            lg:text-5xl
+            lg:text-xl
             text-extrabold
             leading-tight
           "
@@ -262,7 +262,7 @@
           ><br />
           {{ title }}
         </h2>
-        <div class="mb-8 text-lg leading-relaxed" v-html="excerpt"></div>
+        <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
 
         <a
           v-if="link.includes('http')"

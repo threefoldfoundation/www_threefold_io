@@ -11,9 +11,9 @@ header_altImg: threefold
 header_excerpt: The digital infrastructure for an interconnected world.
 button: Expand the network
 link: /
-button2: Expand the network2
+button2: Peer-to-Peer Cloud
 link2: /
-button3: Expand the network3
+button3: How it Works
 link3: /
 
 cta2: home_cta2
