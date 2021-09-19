@@ -11,4 +11,5 @@ header_excerpt: The ThreeFold Grid is an open system which allows anyone to beco
 solution_image: 
 button: Take Part
 link: "#"
+brandPanel: grid_brandPanel
 ---
