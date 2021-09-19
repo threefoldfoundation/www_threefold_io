@@ -7,12 +7,11 @@
       <div class="text-center">
         <h2
           class="
-            text-4xl
+            text-5xl
             leading-tight
             mb-6
             font-bold font-heading
             uppercase
-            sm:text-4xl
             sm:leading-10
           "
         >

@@ -3,11 +3,11 @@
     <div class="w-full max-w-7xl mx-auto mt-10 px-16 text-center">
       <h2
         v-if="main !== null"
-        class="text-4xl font-semibold leading-tight font-heading"
+        class="text-5xl font-semibold leading-tight font-heading"
       >
         {{ main.title }}
       </h2>
-      <p v-if="main !== null" class="mb-6 text-gray-700">
+      <p v-if="main !== null" class="mb-6 text-xl">
         {{ main.subtitle }}
       </p>
     </div>

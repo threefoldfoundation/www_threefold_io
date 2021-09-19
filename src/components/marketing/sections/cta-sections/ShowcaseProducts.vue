@@ -1,7 +1,7 @@
 <template>
   <div class="py-0 mb-5 mx-4">
     <div class="text-center mx-auto my-4" v-if="id == 'why'">
-      <h1 class="text-4xl text-gray-900 font-light sm:text-9xl sm:leading-10">
+      <h1 class="text-5xl text-gray-900 font-light sm:text-9xl sm:leading-10">
         {{ main.title }} <span class="font-extrabold">{{ main.subtitle }}</span>
       </h1>
       <div
@@ -12,7 +12,7 @@
     <div class="w-full text-center" v-else>
       <h2
         v-if="main !== null && main.title"
-        class="text-4xl font-semibold leading-tight font-heading"
+        class="text-5xl font-semibold leading-tight font-heading"
       >
         {{ main.title }}
       </h2>

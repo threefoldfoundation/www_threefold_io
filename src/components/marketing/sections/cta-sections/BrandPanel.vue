@@ -254,7 +254,7 @@
       <!-- About us -->
       <div
         v-else-if="id == 'about-us' && !brandPanel2 && !brandPanel3"
-        class="flex flex-wrap text-left"
+        class="flex flex-wrap text-left lg:my-10"
       >
         <div class="lg:w-1/2 px-2 self-center">
           <g-image class="mx-auto" :src="image" :alt="brand.title" />
@@ -271,7 +271,7 @@
               class="
                 py-6
                 mt-4
-                text-gray-900 text-2xl
+                text-xl
                 leading-tight
                 tracking-wide
               "
@@ -301,7 +301,7 @@
 
       <div
         v-else-if="id == 'about-us' && brandPanel2"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+        class="flex flex-wrap lg:text-left lg:pt-16 px-4 lg:mb-20"
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
           <div class="lg:self-center">
@@ -345,7 +345,7 @@
 
       <div
         v-else-if="id == 'about-us' && brandPanel3"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+        class="flex flex-wrap lg:text-left lg:py-12 px-4"
       >
         <div class="lg:w-1/2 px-2 self-center">
           <g-image :src="image" :alt="brand.title" />
@@ -359,7 +359,7 @@
               }}</span>
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a

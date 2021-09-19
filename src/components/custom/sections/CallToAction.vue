@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pb-10 px-4 bg-cover text-center"
+    class="px-4 bg-cover text-center"
     :class="{
       pink: id == 'home' && !lastCta,
       green: id == 'about-us' && lastCta,
@@ -8,7 +8,7 @@
   >
     <!-- about-us -->
     <div
-      class="w-full max-w-2xl mx-auto py-12"
+      class="w-full max-w-2xl mx-auto lg:py-20"
       v-if="id == 'about-us' && !textOnly && !lastCta"
     >
       <h2
@@ -26,7 +26,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
       <g-image :src="cta.image" class="my-10" />
 
@@ -54,7 +54,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-xl
           learn-button
           hover:bg-gray-400
           px-12
@@ -75,7 +75,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-xl
           learn-button
           hover:bg-gray-400
           px-12
@@ -111,7 +111,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
     </div>
 
@@ -147,13 +147,13 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
       <a
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           px-12
@@ -174,7 +174,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           px-12
@@ -199,14 +199,14 @@
     >
       <h2
         v-if="cta.title"
-        class="text-3xl uppercase leading-tight font-semibold font-heading"
+        class="text-5xl uppercase mb-0 leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
 
       <h2
         v-if="cta.subtitle"
-        class="text-3xl uppercase leading-tight font-semibold font-heading"
+        class="text-5xl uppercase mt-0 leading-tight font-semibold font-heading"
       >
         {{ cta.subtitle }}
       </h2>
@@ -480,7 +480,7 @@
       <g-image :src="cta.image" />
       <h2
         v-if="cta.title"
-        class="text-3xl mb-2 uppercase leading-tight font-semibold font-heading"
+        class="text-5xl mb-2 uppercase leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
