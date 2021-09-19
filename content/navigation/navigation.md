@@ -16,6 +16,31 @@ navLinks:
     external: false
     expandable: false
 
+  - name: oldToken
+    link: ""
+    external: false
+    expandable: true
+    submenu:
+      - title: Token Introduction
+        path: /oldtoken
+      - title: Buy TFT
+        path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+        external: true
+      - title: Tokenomics
+        path: https://threefold.io/info/threefold#/threefold__tokenomics
+        external: true
+      - title: Distribution
+        path: https://threefold.io/info/threefold#/threefold__token_overview
+        external: true
+      - title: FAQ / Forum
+        path: https://forum.threefold.io/c/threefold-token/tft-faq/57
+        external: true
+  
+  - name: Farming
+    link: "" # /dropdown
+    external: false
+    expandable: false
+
   
   - name: Community
     link: "" # /dropdown
