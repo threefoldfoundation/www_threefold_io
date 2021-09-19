@@ -98,6 +98,12 @@
         v-if="$page.markdownPage.roadmap"
         :roadmap="$page.markdownPage.roadmap"
       />
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta3"
+        :cta="$page.markdownPage.cta3"
+        :lastCta="true"
+      />
     </div>
     <!-- <g-image
       v-if="
@@ -107,90 +113,7 @@
       :src="$page.markdownPage.solution_image.src"
     /> -->
 
-    <!-- tft page -->
-    <div
-      class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5"
-      v-if="$page.markdownPage.id == 'tft'"
-    >
-      <Header
-        v-if="
-          $page.markdownPage.header_title &&
-          $page.markdownPage.header_title != ''
-        "
-        :id="$page.markdownPage.id"
-        :title="$page.markdownPage.header_title"
-        :slogan="$page.markdownPage.header_slogan"
-        :image="$page.markdownPage.header_image"
-        :altImg="$page.markdownPage.header_altImg"
-        :excerpt="$page.markdownPage.header_excerpt"
-        :button="$page.markdownPage.button"
-        :link="$page.markdownPage.link"
-      />
-
-      <BrandPanel
-        :id="$page.markdownPage.id"
-        :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel"
-        :diveInto="false"
-      />
-
-      <Slider
-        v-if="$page.markdownPage.carousel"
-        :slides="$page.markdownPage.carousel"
-        :main="$page.markdownPage.sliderMain"
-      />
-
-      <TFTFuel
-        v-if="$page.markdownPage.tftUses.length > 0"
-        :id="$page.markdownPage.id"
-        :main="$page.markdownPage.useTftMain"
-        :sections="$page.markdownPage.tftUses"
-        :farmingProcess="false"
-      />
-
-      <TFTFuel
-        v-if="$page.markdownPage.farmingProcess.length > 0"
-        :id="$page.markdownPage.id"
-        :main="$page.markdownPage.farmingMain"
-        :sections="$page.markdownPage.farmingProcess"
-        :farmingProcess="true"
-      />
-
-      <TFTFuel
-        v-if="$page.markdownPage.cultivationProcess.length > 0"
-        :id="$page.markdownPage.id"
-        :main="$page.markdownPage.cultivationMain"
-        :sections="$page.markdownPage.cultivationProcess"
-        :cultivationProcess="true"
-      />
-
-      <g-image
-        class="lg:py-10"
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image"
-      />
-
-      <BrandPanel
-        :id="$page.markdownPage.id"
-        :brand="$page.markdownPage.brandPanel2"
-        v-if="$page.markdownPage.brandPanel2"
-        :diveInto="true"
-      />
-
-      <CallToActionbg1
-        v-if="$page.markdownPage.cta4"
-        :cta="$page.markdownPage.cta4"
-        :id="$page.markdownPage.id"
-      />
-    </div>
-
     <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
-      <CallToAction
-        :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta && $page.markdownPage.id == 'why'"
-        :cta="$page.markdownPage.cta"
-      />
-
       <AppListItem
         v-if="
           $page.markdownPage.appData && $page.markdownPage.appData.length > 0
@@ -222,13 +145,6 @@
         v-if="$page.markdownPage.faqContent && $page.markdownPage.id == 'faq'"
         :main="$page.markdownPage.faqMain"
         :faqs="$page.markdownPage.faqContent"
-      />
-
-      <CallToAction
-        class="mt-20"
-        :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta3"
-        :cta="$page.markdownPage.cta3"
       />
 
       <ShowcaseProducts
@@ -410,6 +326,7 @@
         }
         cta3{
           title
+          subtitle
           content
           button
           link

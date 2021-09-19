@@ -3,12 +3,13 @@
     class="pb-10 px-4 bg-cover text-center"
     :class="{
       pink: id == 'home',
+      green: id == 'about-us' && lastCta,
     }"
   >
     <!-- about-us -->
     <div
       class="w-full max-w-2xl mx-auto py-12"
-      v-if="id == 'about-us' && !textOnly"
+      v-if="id == 'about-us' && !textOnly && !lastCta"
     >
       <h2
         v-if="cta.title"
@@ -29,7 +30,7 @@
       ></div>
       <g-image :src="cta.image" class="my-10" />
 
-      <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
+      <!-- <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
           class="
@@ -48,7 +49,7 @@
           "
           >{{ cta.video_button }}</a
         >
-      </div>
+      </div> -->
       <a
         class="
           inline-block
@@ -112,6 +113,82 @@
         v-html="cta.content"
         class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
+    </div>
+
+    <div
+      class="w-full max-w-3xl mx-auto py-20"
+      v-else-if="id == 'about-us' && lastCta"
+    >
+      <h2
+        v-if="cta.title"
+        class="
+          lg:text-5xl
+          text-center
+          uppercase
+          mb-2
+          leading-none
+          font-bold font-heading
+        "
+      >
+        {{ cta.title }}
+      </h2>
+      <h2
+        v-if="cta.subtitle"
+        class="
+          lg:text-5xl
+          text-center
+          uppercase
+          mb-2
+          leading-none
+          font-bold font-heading
+        "
+      >
+        {{ cta.subtitle }}
+      </h2>
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+      ></div>
+      <a
+        class="
+          inline-block
+          bg-white
+          text-sm
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button && cta.link.includes('http')"
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-sm
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
     </div>
 
     <!-- home -->
@@ -629,7 +706,7 @@
 import Modal from "~/components/custom/Modal.vue";
 
 export default {
-  props: ["cta", "id", "textOnly"],
+  props: ["cta", "id", "textOnly", "lastCta"],
   data() {
     return {
       showModal: false,
@@ -651,5 +728,9 @@ export default {
 <style scoped>
 .pink {
   background-color: #ea1ff7;
+}
+
+.green {
+  background-color: #70dfc9;
 }
 </style>
