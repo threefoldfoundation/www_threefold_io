@@ -105,8 +105,8 @@
             mb-6
             mt-10
             leading-none
-            text-6xl
-            font-extrabold font-heading
+            text-8xl
+            font-heading
           "
         >
           {{ title }}
@@ -376,7 +376,7 @@
           {{ title }}
         </h2>
         <div
-          class="mb-8 text-lg max-w-2xl leading-relaxed"
+          class="mb-8 text-xl max-w-2xl leading-relaxed"
           v-html="excerpt"
         ></div>
 
@@ -386,7 +386,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             px-12
@@ -405,7 +405,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             px-12

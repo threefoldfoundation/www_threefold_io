@@ -417,7 +417,7 @@
               class="
                 inline-block
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
@@ -460,7 +460,7 @@
               class="
                 inline-block
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
@@ -497,7 +497,7 @@
               class="
                 inline-block
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
