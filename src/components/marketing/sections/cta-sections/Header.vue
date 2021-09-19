@@ -4,7 +4,7 @@
     :style="[
       id == 'home'
         ? { background: 'url(' + img + ') center no-repeat' }
-        : { background: transparent },
+        : { background: 'transparent' },
     ]"
   >
     <div

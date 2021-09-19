@@ -372,6 +372,30 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'MarketInfoMain',
+                path: './content/page/**/marketInfo/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'MarketInfo',
+                path: './content/page/**/marketInfo/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'MainItem',
+                path: './content/page/**/marketInfo/mainItem/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -419,7 +443,10 @@ module.exports = {
                     cultivationMain: 'CultivationProcessMain',
                     cultivationProcess: 'CultivationProcess',
                     map: 'Map',
-                    roadmap: 'Roadmap'
+                    roadmap: 'Roadmap',
+                    marketInfoMain: 'MarketInfoMain',
+                    marketInfo: 'MarketInfo',
+                    mainItem:'MainItem'
                 }
             }
         },
