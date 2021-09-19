@@ -12,12 +12,17 @@ navLinks:
     expandable: false
 
   - name: Token
+    link: /token
+    external: false
+    expandable: false
+
+  - name: oldToken
     link: ""
     external: false
     expandable: true
     submenu:
       - title: Token Introduction
-        path: /token
+        path: /oldtoken
       - title: Buy TFT
         path: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
         external: true
