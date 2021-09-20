@@ -368,15 +368,15 @@
     </div>
 
     <div
-      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
+      class="flex flex-wrap text-center lg:text-left lg:pt-4 -mx-2"
       v-else-if="id == 'grid'"
     >
       <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
-        <h2 class="lg:text-5xl uppercase mb-6 mt-20 leading-none font-heading">
+        <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
         <div
-          class="mb-8 text-xl max-w-2xl leading-relaxed"
+          class="mb-8 text-xl max-w-xl mx-auto leading-relaxed"
           v-html="excerpt"
         ></div>
 
