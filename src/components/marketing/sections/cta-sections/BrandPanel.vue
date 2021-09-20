@@ -283,7 +283,7 @@
               :href="brand.sourceUrl"
               class="
                 bg-blue-900
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-blue-800
                 text-white
@@ -312,7 +312,7 @@
               }}</span>
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -322,7 +322,7 @@
               class="
                 inline-block
                 bg-gray-900
-                text-2xl
+                text-xl
                 learn-button
                 hover:bg-gray-800
                 text-gray-100
@@ -393,8 +393,8 @@
         class="flex flex-wrap text-left"
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-left">
-          <div class="lg:self-center">
-            <h2 class="text-3xl mb-6 uppercase leading-none font-heading">
+          <div class="px-2 lg:self-center">
+            <h2 class="text-5xl mb-6 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
@@ -404,7 +404,7 @@
               class="
                 py-6
                 mt-4
-                text-gray-900 text-2xl
+                text-gray-900 text-xl
                 leading-tight
                 tracking-wide
               "
@@ -433,7 +433,7 @@
           </div>
         </div>
         <div class="lg:w-1/2 px-2">
-          <g-image class="mx-auto w-3/4" :src="image" :alt="brand.title" />
+          <g-image class="mx-auto lg:w-3/4" :src="image" :alt="brand.title" />
         </div>
       </div>
 
@@ -442,15 +442,15 @@
         class="flex flex-wrap lg:text-left lg:pt-16 px-4"
       >
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image class="mx-auto" :src="image" :alt="brand.title" />
+          <g-image class="lg:w-3/4" :src="image" :alt="brand.title" />
         </div>
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
-          <div class="px-10 lg:self-center">
-            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
+          <div class="px-2 lg:self-center">
+            <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -460,7 +460,7 @@
               class="
                 inline-block
                 bg-white
-                text-lg
+                lg:text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
@@ -483,11 +483,11 @@
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
           <div class="lg:self-center">
-            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
+            <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -513,7 +513,7 @@
           </div>
         </div>
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image :src="image" :alt="brand.title" />
+          <g-image class=" mx-auto lg:w-3/4" :src="image" :alt="brand.title" />
         </div>
       </div>
 

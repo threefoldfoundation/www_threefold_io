@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 h-16 bg-white">
+  <div class="fixed inset-0 h-20 bg-white">
     <header
       class="
         inline-flex
@@ -8,16 +8,17 @@
         flex-wrap
         container-fluid
         mx-auto
-        px-
+        py-2
         sm:px-0
         transition-all transition-500
+        
       "
       :class="{
         'opacity-100': !disableScroll && scrollPosition > headerHeight,
         'opacity-0': !disableScroll && scrollPosition < headerHeight,
       }"
     >
-      <div class="flex items-center justify-between px-4 lg:py-3 sm:p-0">
+      <div class="flex items-center justify-between px-4 sm:p-0">
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/">
             <g-image
