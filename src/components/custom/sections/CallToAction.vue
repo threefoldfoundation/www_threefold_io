@@ -787,14 +787,14 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 max-w-3xl mx-auto lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 max-w-3xl mx-auto lg:text-xl text-gray-800"
       ></div>
       <g-image :src="cta.image" class="mx-auto w-full my-10" />
       <a
         class="
           inline-block
           bg-white
-          text-lg
+          lg:text-lg
           learn-button
           hover:bg-gray-400
           px-12
@@ -814,7 +814,7 @@
         class="
           inline-block
           bg-white
-          text-lg
+          lg:text-lg
           learn-button
           hover:bg-gray-400
           px-12

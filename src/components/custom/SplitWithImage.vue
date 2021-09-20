@@ -23,16 +23,13 @@
         <div class="px-4 lg:w-1/2 lg:ml-auto sm:px-8 xl:pr-16">
           <h2
             class="
-              text-xl
               tracking-tight
               leading-10
               font-bold
               text-gray-900
-              sm:text-5xl
               sm:leading-none
-              md:text-6xl
               lg:text-5xl
-              xl:text-6xl
+              max-w-2xl
             "
           >
             {{ tft.title }}

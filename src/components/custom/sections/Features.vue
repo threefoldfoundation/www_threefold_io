@@ -316,13 +316,13 @@
   <section class="py-24 px-4 text-center" v-else-if="id == 'token'">
     <h2
       class="
-        text-4xl
-        lg:max-w-sm
+        text-5xl
         mx-auto
         leading-tight
         mb-6
         font-bold font-heading
         uppercase
+        lg:max-w-2xl
       "
     >
       {{ main.title }}
