@@ -393,6 +393,15 @@ module.exports = {
             }
         },
 
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'AboutTft',
+                path: './content/page/**/aboutTft/*.md',
+            }
+        },
+
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -446,7 +455,8 @@ module.exports = {
                     roadmap: 'Roadmap',
                     marketInfoMain: 'MarketInfoMain',
                     marketInfo: 'MarketInfo',
-                    mainItem:'MainItem'
+                    mainItem: 'MainItem',
+                    tft: 'AboutTft'
                 }
             }
         },

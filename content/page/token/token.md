@@ -15,4 +15,5 @@ marketInfoMain: marketMain
 mainItem: sec1
 marketInfo: [sec2, sec3, sec4]
 cta: token_cta
+tft: decentralized_cloud
 ---

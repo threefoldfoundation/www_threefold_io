@@ -45,7 +45,6 @@
         "
         :cta="$page.markdownPage.cta"
       />
-
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta2"
@@ -92,6 +91,11 @@
           $page.markdownPage.id == 'token'
         "
         :cta="$page.markdownPage.cta"
+      />
+      <SplitWithImage
+        v-if="$page.markdownPage.tft"
+        :id="$page.markdownPage.id"
+        :tft="$page.markdownPage.tft"
       />
       <RoadMap
         :id="$page.markdownPage.id"
@@ -477,6 +481,15 @@
        image
        content
      }
+     tft {
+       id
+       image
+       title
+       subtitle
+       content
+       button
+       link
+     }
     }
     allCustomCta {
       edges {
@@ -518,6 +531,8 @@ import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
 import Slider from "~/components/custom/Slider.vue";
 import RoadMap from "~/components/custom/Roadmap.vue";
 import MarketInfo from "~/components/custom/MarketInfo.vue";
+import SplitWithImage from "~/components/custom/SplitWithImage.vue";
+
 export default {
   components: {
     NewCard,
@@ -545,6 +560,7 @@ export default {
     Slider,
     RoadMap,
     MarketInfo,
+    SplitWithImage,
   },
   computed: {
     getImg() {
