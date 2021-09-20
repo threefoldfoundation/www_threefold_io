@@ -31,27 +31,17 @@
     </div>
 
     <!-- Column Content -->
-    <div class="flex my-5 lg:my-14 mx-5" v-for="info in marketInfo" :key="info">
-      <div class="flex-shrink-0">
-        <div
-          class="
-            flex
-            items-center
-            justify-center
-            h-24
-            w-24
-            rounded-md
-            text-white
-          "
-        >
-          <g-image :src="info.image" class="w-full" />
+    <div class="flex flex-col my-1 px-1 lg:w-1/2 overflow-hidden">
+      <div class="flex my-10" v-for="info in marketInfo" :key="info.id">
+        <div class="flex-shrink-0">
+          <g-image :src="info.image" class="h-24 w-24" />
         </div>
-      </div>
-      <div class="ml-4">
-        <div
-          class="mt-4 text-lg lg:text-2xl max-w-md leading-6 text-gray-900"
-          v-html="info.content"
-        ></div>
+        <div class="ml-4">
+          <div
+            class="mt-5 text-xl leading-6 text-gray-900"
+            v-html="info.content"
+          ></div>
+        </div>
       </div>
     </div>
   </div>
