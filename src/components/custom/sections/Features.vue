@@ -313,6 +313,42 @@
     </div>
   </section>
 
+  <section class="py-24 px-4 text-center" v-else-if="id == 'token'">
+    <h2
+      class="
+        text-4xl
+        lg:max-w-sm
+        mx-auto
+        leading-tight
+        mb-6
+        font-bold font-heading
+        uppercase
+      "
+    >
+      {{ main.title }}
+    </h2>
+    <div class="flex flex-wrap items-center -mx-4 mb-6">
+      <div
+        v-for="(feature, index) in features"
+        :key="index"
+        class="lg:w-1/3 mt-5 lg:mt-0 feature px-4 text-center"
+      >
+        <div v-if="index == 1">
+          <div class="w-full h-auto mx-auto px-2 order-1">
+            <g-image :src="feature.image" :alt="feature.title" />
+          </div>
+        </div>
+
+        <div v-else class="max-w-xs mx-auto">
+          <h5 class="lg:text-6xl capitalize font-light">
+            {{ feature.title }}
+          </h5>
+          <div v-html="feature.content" class="lg:text-xl text-gray-800"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="py-12 px-4" v-else>
     <h2 class="text-4xl text-center mb-12 font-normal font-heading">
       {{ main.title }}

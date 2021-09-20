@@ -405,6 +405,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'NetworkMain',
+                path: './content/page/**/openNetwork/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Network',
+                path: './content/page/**/openNetwork/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -456,7 +472,9 @@ module.exports = {
                     marketInfoMain: 'MarketInfoMain',
                     marketInfo: 'MarketInfo',
                     mainItem: 'MainItem',
-                    tft: 'AboutTft'
+                    tft: 'AboutTft',
+                    networkMain: 'NetworkMain',
+                    network: 'Network'
                 }
             }
         },

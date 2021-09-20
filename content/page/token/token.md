@@ -16,4 +16,6 @@ mainItem: sec1
 marketInfo: [sec2, sec3, sec4]
 cta: token_cta
 tft: decentralized_cloud
+networkMain: open_network
+network: [nw1, nw2, nw3]
 ---

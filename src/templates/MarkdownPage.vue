@@ -83,7 +83,7 @@
       /> -->
     </div>
 
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-visible">
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="
@@ -96,6 +96,12 @@
         v-if="$page.markdownPage.tft"
         :id="$page.markdownPage.id"
         :tft="$page.markdownPage.tft"
+      />
+      <Features
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.network.length > 0"
+        :main="$page.markdownPage.networkMain"
+        :features="$page.markdownPage.network"
       />
       <RoadMap
         :id="$page.markdownPage.id"
@@ -489,6 +495,16 @@
        content
        button
        link
+     }
+     networkMain{
+       id
+       title
+     }
+     network{
+       id
+       title
+       image
+       content
      }
     }
     allCustomCta {
