@@ -666,7 +666,7 @@
 
     <!-- grid -->
     <div class="w-full max-w-3xl mx-auto py-12" v-else-if="id == 'grid'">
-      <g-image :src="cta.image" class="mx-auto lg:w-80 my-10" />
+      <g-image :src="cta.image" class="mx-auto lg:w-1/3 my-10" />
       <h2
         v-if="cta.title"
         class="
@@ -682,7 +682,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
       <a
         class="

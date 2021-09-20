@@ -393,7 +393,7 @@
         class="flex flex-wrap text-left"
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-left">
-          <div class="lg:self-center">
+          <div class="px-2 lg:self-center">
             <h2 class="text-5xl mb-6 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
@@ -445,7 +445,7 @@
           <g-image class="lg:w-3/4" :src="image" :alt="brand.title" />
         </div>
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
-          <div class="px-10 lg:self-center">
+          <div class="px-2 lg:self-center">
             <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
@@ -460,7 +460,7 @@
               class="
                 inline-block
                 bg-white
-                text-lg
+                lg:text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
