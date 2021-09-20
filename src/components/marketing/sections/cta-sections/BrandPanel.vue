@@ -283,7 +283,7 @@
               :href="brand.sourceUrl"
               class="
                 bg-blue-900
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-blue-800
                 text-white
@@ -312,7 +312,7 @@
               }}</span>
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -322,7 +322,7 @@
               class="
                 inline-block
                 bg-gray-900
-                text-2xl
+                text-xl
                 learn-button
                 hover:bg-gray-800
                 text-gray-100
