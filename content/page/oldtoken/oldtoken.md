@@ -19,5 +19,5 @@ partnerships:
   [be_ur_bank, secure, transact_p2p, backed, decentralized, lives_stellar]
 brandPanel: dive_TFT
 cta3: token_cta3
-cta2: token_cta2
+cta2: oldtoken_cta2
 ---

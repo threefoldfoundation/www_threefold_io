@@ -1,9 +1,9 @@
 <template>
   <div :class="{ 'bg-about': id == 'about-us' && brandPanel3 }">
     <div class="max-w-screen-xl mx-auto py-10">
-      <!-- token -->
+      <!-- oldtoken -->
       <div
-        v-if="id == 'token'"
+        v-if="id == 'oldtoken'"
         class="
           brandpanel
           rounded-lg
@@ -268,13 +268,7 @@
               }}</span>
             </h2>
             <div
-              class="
-                py-6
-                mt-4
-                text-xl
-                leading-tight
-                tracking-wide
-              "
+              class="py-6 mt-4 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -513,7 +507,118 @@
           </div>
         </div>
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image class=" mx-auto lg:w-3/4" :src="image" :alt="brand.title" />
+          <g-image class="mx-auto lg:w-3/4" :src="image" :alt="brand.title" />
+        </div>
+      </div>
+
+      <!-- token -->
+      <div
+        v-else-if="id == 'token' && !brandPanel2 && !brandPanel3"
+        class="flex flex-wrap text-left mt-24"
+      >
+        <div class="lg:w-1/2 px-2 lg:mt-5 order-1 lg:order-none text-left">
+          <div class="px-2 lg:self-center">
+            <h2 class="lg:text-5xl mb-6 uppercase leading-none font-heading">
+              <span class="block">{{ brand.title }}</span>
+              <span class="block" v-if="brand.subtitle">{{
+                brand.subtitle
+              }}</span>
+            </h2>
+            <div
+              class="
+                py-6
+                mt-4
+                max-w-md
+                text-gray-900 text-xl
+                leading-tight
+                tracking-wide
+              "
+              v-html="brand.content"
+            ></div>
+          </div>
+        </div>
+        <div class="lg:w-1/2 px-2">
+          <g-image class="mx-auto lg:w-3/4" :src="image" :alt="brand.title" />
+        </div>
+      </div>
+
+      <div
+        v-else-if="id == 'token' && brandPanel2"
+        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+      >
+        <div class="lg:w-1/2 px-2 self-center">
+          <g-image class="lg:w-3/4" :src="image" :alt="brand.title" />
+        </div>
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
+          <div class="px-2 lg:self-center">
+            <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
+              {{ brand.title }}
+            </h2>
+            <div
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                lg:text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        v-else-if="id == 'token' && brandPanel3"
+        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+      >
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
+          <div class="lg:self-center">
+            <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
+              {{ brand.title }}
+            </h2>
+            <div
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+        <div class="lg:w-1/2 px-2 self-center">
+          <g-image class="mx-auto lg:w-3/4" :src="image" :alt="brand.title" />
         </div>
       </div>
 

@@ -18,20 +18,26 @@
 
       <BrandPanel
         :id="$page.markdownPage.id"
+        v-if="
+          $page.markdownPage.brandPanel && $page.markdownPage.id !== 'token'
+        "
         :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel"
       />
 
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
-        v-if="$page.markdownPage.brandPanel2"
+        v-if="
+          $page.markdownPage.brandPanel2 && $page.markdownPage.id !== 'token'
+        "
         :brandPanel2="true"
       />
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
-        v-if="$page.markdownPage.brandPanel3"
+        v-if="
+          $page.markdownPage.brandPanel3 && $page.markdownPage.id !== 'token'
+        "
         :brandPanel3="true"
       />
     </div>
@@ -47,7 +53,7 @@
       />
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta2"
+        v-if="$page.markdownPage.cta2 && $page.markdownPage.id !== 'token'"
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
       />
@@ -103,6 +109,37 @@
         :main="$page.markdownPage.networkMain"
         :features="$page.markdownPage.network"
       />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel"
+        v-if="$page.markdownPage.brandPanel && $page.markdownPage.id == 'token'"
+      />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel2"
+        v-if="
+          $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'token'
+        "
+        :brandPanel2="true"
+      />
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel3"
+        v-if="
+          $page.markdownPage.brandPanel3 && $page.markdownPage.id == 'token'
+        "
+        :brandPanel3="true"
+      />
+
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'token'"
+        :cta="$page.markdownPage.cta2"
+        :lastCta="true"
+      />
+
       <RoadMap
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.roadmap"
@@ -124,6 +161,12 @@
     /> -->
 
     <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
+        :logos="$page.markdownPage.logos"
+        :main="$page.markdownPage.logosMain"
+      />
       <!-- <AppListItem
         v-if="
           $page.markdownPage.appData && $page.markdownPage.appData.length > 0
@@ -321,6 +364,9 @@
         }
         cta2{
           title
+          image
+          button
+          link
           content
         }
         cta3{

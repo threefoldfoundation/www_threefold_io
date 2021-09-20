@@ -1,5 +1,5 @@
 ---
-id: token_cta2
+id: oldtoken_cta2
 title: Why does TFT have value?
 slogan:
 button: Get Tokens

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="px-4 bg-cover text-center"
+    class="bg-cover text-center"
     :class="{
       pink: id == 'home' && !lastCta,
       green: id == 'about-us' && lastCta,
@@ -766,7 +766,10 @@
     </div>
 
     <!-- token -->
-    <div class="w-full max-w-6xl mx-auto py-12" v-else-if="id == 'token'">
+    <div
+      class="w-full max-w-6xl mx-auto py-12"
+      v-else-if="id == 'token' && !lastCta"
+    >
       <h2
         v-if="cta.title"
         class="
@@ -826,6 +829,70 @@
         :href="cta.link"
         >{{ cta.button }}</a
       >
+    </div>
+
+    <div class="w-full mx-auto lg:py-20" v-else-if="id == 'token' && lastCta">
+      <h2
+        v-if="cta.title"
+        class="
+          max-w-2xl
+          mx-auto
+          lg:text-5xl
+          text-center
+          uppercase
+          mb-2
+          leading-none
+          font-bold font-heading
+        "
+      >
+        {{ cta.title }}
+      </h2>
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
+      ></div>
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button && cta.link.includes('http')"
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+      <g-image :src="cta.image" class="w-full my-10" />
     </div>
 
     <!-- tft -->
