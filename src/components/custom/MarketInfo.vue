@@ -4,11 +4,12 @@
       <h1
         class="
           text-md
-          lg:text-6xl
+          lg:text-5xl
           text-gray-900
           font-bold
           sm:text-9xl
           leading-tight
+          lg:max-w-2xl
         "
       >
         {{ main.title }}
@@ -18,12 +19,12 @@
         v-html="main.content"
       ></div>
     </div>
-    <div class="flex flex-col my-1 px-1 lg:w-1/2 overflow-hidden">
+    <div class="flex flex-col my-1 lg:px-4 lg:w-1/2 overflow-hidden">
       <g-image :src="mainItem.image" class="w-3/4 mx-auto" />
       <div class="flex-1 bg-white p-6 flex flex-col justify-between">
         <div class="flex-1">
           <div
-            class="mt-3 text-lg lg:text-2xl leading-tight text-gray-800"
+            class="mt-3 text-lg lg:text-xl leading-tight text-gray-800"
             v-html="mainItem.content"
           ></div>
         </div>
@@ -31,14 +32,14 @@
     </div>
 
     <!-- Column Content -->
-    <div class="flex flex-col my-1 px-1 lg:w-1/2 overflow-hidden">
+    <div class="flex flex-col my-1 px-4 lg:w-1/2 overflow-hidden">
       <div class="flex my-10" v-for="info in marketInfo" :key="info.id">
         <div class="flex-shrink-0">
-          <g-image :src="info.image" class="h-24 w-24" />
+          <g-image :src="info.image" class="h-28 w-28" />
         </div>
         <div class="ml-4">
           <div
-            class="mt-5 text-xl leading-6 text-gray-900"
+            class="mt-5 lg:mx-10 text-xl leading-6 text-gray-900"
             v-html="info.content"
           ></div>
         </div>
