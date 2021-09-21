@@ -49,6 +49,7 @@ partenershipsMain: home_partenerships_main
 partnerships: [tag, solidaridad]
 BlogsMain: blog_main
 blogs: [zero_os_blog, smart_contract_blog, threefold_regenerates]
+subscribe: home_subscribe
 ---
 
 <!-- header: home_header

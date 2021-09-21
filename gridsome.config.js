@@ -421,6 +421,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Subscribe',
+                path: './content/page/**/subscribe/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -474,7 +482,8 @@ module.exports = {
                     mainItem: 'MainItem',
                     tft: 'AboutTft',
                     networkMain: 'NetworkMain',
-                    network: 'Network'
+                    network: 'Network',
+                    subscribe: 'Subscribe'
                 }
             }
         },

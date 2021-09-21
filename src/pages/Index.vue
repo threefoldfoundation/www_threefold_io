@@ -108,7 +108,15 @@
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       /> -->
-
+    </div>
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      <SplitWithForm
+        v-if="$page.markdownPage.subscribe"
+        :id="$page.markdownPage.id"
+        :subscribe="$page.markdownPage.subscribe"
+      />
+    </div>
+    <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
       <CallToAction
         v-if="$page.markdownPage.cta2"
         :id="$page.markdownPage.id"
@@ -354,6 +362,16 @@
           btn3
           image
         }
+
+        subscribe {
+          id
+          title
+          placeHolder
+          content
+          button
+          link
+          image
+        }
     }  
   }
 
@@ -385,7 +403,7 @@ import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_gri
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import VideoPanel from "~/components/custom/VideoPanel.vue";
 import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
-
+import SplitWithForm from "~/components/custom/SplitWithForm.vue";
 export default {
   components: {
     Header,
@@ -406,6 +424,7 @@ export default {
     Blogs,
     VideoPanel,
     Partenerships,
+    SplitWithForm,
   },
   computed: {
     getImg() {
