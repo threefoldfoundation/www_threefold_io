@@ -1,9 +1,9 @@
 <template>
   <section
-    class="mb-10 bg-no-repeats bg-cover"
+    class="mb-10 bg-no-repeats bg-home"
     :style="[
       id == 'home'
-        ? { background: 'url(' + img + ') center no-repeat' }
+        ? { background: 'url(' + img + ') no-repeat' }
         : { background: 'transparent' },
     ]"
   >
@@ -360,23 +360,23 @@
         <div class="w-1/2 mx-auto px-2 self-center">
           <g-image :src="img" :alt="altImg" />
         </div>
-        <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
+        <h2 class="lg:text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
-        <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
+        <div class="mb-8 text-2xl leading-relaxed" v-html="excerpt"></div>
       </div>
     </div>
 
     <div
-      class="flex flex-wrap text-center lg:text-left lg:pt-4 -mx-2"
+      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
       v-else-if="id == 'grid'"
     >
       <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
-        <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
+        <h2 class="lg:text-8xl lg:text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
         <div
-          class="mb-8 text-xl max-w-xl mx-auto leading-relaxed"
+          class="mb-8 text-xl max-w-xl leading-relaxed"
           v-html="excerpt"
         ></div>
 
@@ -552,5 +552,6 @@ export default {
   background: #70dfc9;
   background: -webkit-linear-gradient(to bottom, #ea1ff7, #70dfc9);
   background: linear-gradient(to bottom, #ea1ff7, #70dfc9);
+  background-size: cover !important;
 }
 </style>

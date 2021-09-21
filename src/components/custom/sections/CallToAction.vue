@@ -233,7 +233,7 @@
           >{{ cta.video_button }}</a
         >
       </div> -->
-      <div class="max-w-7xl mx-auto grid grid-cols-3 gap-4">
+      <div class="max-w-7xl mx-auto grid lg:grid-cols-3 gap-4">
         <a
           class="
             inline-block
@@ -244,7 +244,8 @@
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
+            mx-2
             border-2
             shadow
             border-black
@@ -263,8 +264,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -283,7 +285,8 @@
             bo
             px-12
             py-1
-            mr-5
+            mx-2
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -302,8 +305,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -321,8 +325,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -341,8 +346,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -360,8 +366,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -380,8 +387,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -400,8 +408,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -420,8 +429,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -440,8 +450,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -460,8 +471,9 @@
             hover:bg-gray-400
             bo
             px-12
+            mx-2
             py-1
-            mr-5
+            lg:mr-5
             border-2
             shadow
             border-black
@@ -499,7 +511,7 @@
             px-12
             py-2
             mr-5
-            mb-4
+            my-2
             shadow
             rounded-full
           "
@@ -517,6 +529,7 @@
           px-12
           py-1
           mr-5
+          my-2
           border-2
           shadow
           border-black
@@ -537,6 +550,7 @@
           px-12
           py-1
           mr-5
+          my-2
           border-2
           shadow
           border-black
@@ -556,6 +570,7 @@
           px-12
           py-1
           mr-5
+          my-2
           border-2
           shadow
           border-black
@@ -576,6 +591,7 @@
           px-12
           py-1
           mr-5
+          my-2
           border-2
           shadow
           border-black
@@ -595,6 +611,7 @@
           px-12
           py-1
           mr-5
+          my-2
           border-2
           shadow
           border-black
@@ -615,6 +632,7 @@
           px-12
           py-1
           mr-5
+          my-2
           border-2
           shadow
           border-black
@@ -634,6 +652,7 @@
           px-12
           py-1
           mr-5
+          my-2
           border-2
           shadow
           border-black
@@ -654,6 +673,7 @@
           px-12
           py-1
           mr-5
+          my-2
           border-2
           shadow
           border-black
