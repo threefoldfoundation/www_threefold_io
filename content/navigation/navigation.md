@@ -15,6 +15,12 @@ navLinks:
     link: /token
     external: false
     expandable: false
+
+  - name: How It Works
+    link: /how-it-works
+    external : false
+    expandble : false
+
   
   - name: Community
     link: "" # /dropdown

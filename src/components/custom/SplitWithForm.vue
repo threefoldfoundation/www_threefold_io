@@ -1,37 +1,29 @@
 <template>
-  <section class="text-gray-600 body-font">
+  <section class="body-font">
     <div class="mx-auto flex py-24 md:flex-row flex-col items-center">
       <div
         class="
           lg:pl-24
-          md:w-1/2
-          lg:pr-24
-          md:pr-16
+          lg:w-1/2
           flex flex-col
           md:items-start
           md:text-left
           mb-16
           md:mb-0
+          mx-4
           items-center
           text-center
         "
       >
         <h1
           class="
-            max-w-xs
-            title-font
-            sm:text-4xl
-            text-3xl
-            mb-4
-            font-bold
-            uppercase
-            text-gray-900
+            text-5xl uppercase mb-0 leading-tight font-semibold font-heading
           "
         >
           {{ subscribe.title }}
         </h1>
         <div
-          class="max-w-md mb-8 leading-relaxed"
+          class="my-8 lg:text-xl"
           v-html="subscribe.content"
         ></div>
         <div class="flex w-full md:justify-start justify-center items-end">
