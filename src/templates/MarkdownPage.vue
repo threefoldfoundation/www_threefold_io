@@ -174,7 +174,7 @@
         :products="$page.markdownPage.appData"
         :main="$page.markdownPage.appsMain"
       /> -->
-      <!-- <ShowcaseProducts
+      <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
@@ -182,7 +182,7 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
-      /> -->
+      />
 
       <!-- <Partenerships
         v-if="

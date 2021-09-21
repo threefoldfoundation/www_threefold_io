@@ -1,5 +1,5 @@
 ---
-id: peer_to_peer
+id: oldpeer_to_peer
 title: Peer-to-Peer puts people back in control
 image: ./peer_to_peer.png
 button: Learn More

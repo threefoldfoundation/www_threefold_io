@@ -109,6 +109,35 @@
       </div>
     </div>
 
+    <!-- How it works -->
+    <div
+      class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center"
+      v-else-if="id == 'how-it-works'"
+    >
+      <div
+        v-for="(product, idx) in products"
+        target="_blank"
+        :key="idx"
+        :href="product.link"
+        class="
+          mx-auto
+          my-3
+          rounded
+          overflow-hidden
+          transition
+          duration-500
+          bg-gray-100
+        "
+      >
+        <a :href="product.link">
+          <g-image :src="img(product.image)" />
+          <div class="font-bold text-xl py-5 mx-4">
+            {{ product.title }}
+          </div>
+        </a>
+      </div>
+    </div>
+
     <!-- why -->
     <div
       class="grid grid-cols-1 gap-4 sm:grid-cols-2 text-center"
