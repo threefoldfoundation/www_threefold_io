@@ -36,7 +36,7 @@
                 learn-button
                 hover:bg-gray-400
                 px-12
-                py-2
+                py-1
                 mb-5
                 shadows
                 border-black border-2
@@ -52,7 +52,7 @@
                 learn-button
                 hover:bg-gray-400
                 px-12
-                py-2
+                py-1
                 mb-5
                 shadows
                 border-black border-2
@@ -90,7 +90,7 @@ export default {
 } */
 
 .part {
-  max-height: 570px;
+  
   background-color: #70dfc9;
 }
 

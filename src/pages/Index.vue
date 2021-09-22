@@ -108,15 +108,13 @@
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       /> -->
-    </div>
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+   
       <SplitWithForm
         v-if="$page.markdownPage.subscribe"
         :id="$page.markdownPage.id"
         :subscribe="$page.markdownPage.subscribe"
       />
-    </div>
-    <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
+      
       <CallToAction
         v-if="$page.markdownPage.cta2"
         :id="$page.markdownPage.id"

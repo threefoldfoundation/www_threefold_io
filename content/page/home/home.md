@@ -2,10 +2,10 @@
 id: home
 metaTitle: ThreeFold | Home
 metaDesc: ThreeFold is the engine for a planet positive and data sovereign Internet. A collaborative movement of people who care about a better future.
-metaImg: ./home_bg.jpg
+metaImg: ./home-bg_new.jpg
 header_slogan: from zero
 header_title: to one
-header_image: ./home_bg.jpg
+header_image: ./home-bg_new.jpg
 
 header_altImg: threefold
 header_excerpt: The digital infrastructure for an interconnected world.

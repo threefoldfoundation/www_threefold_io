@@ -259,9 +259,9 @@
         <div class="lg:w-1/2 px-2 self-center">
           <g-image class="mx-auto" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-left">
+        <div class="lg:w-1/2 lg:mt-10 order-1 lg:order-none text-left">
           <div class="lg:self-center">
-            <h2 class="text-3xl mb-6 uppercase leading-none font-heading">
+            <h2 class="text-5xl mb-6 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
@@ -299,7 +299,7 @@
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
           <div class="lg:self-center">
-            <h2 class="text-3xl mb-8 uppercase leading-none font-heading">
+            <h2 class="text-5xl mb-8 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
@@ -346,7 +346,7 @@
         </div>
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
           <div class="lg:self-center">
-            <h2 class="text-3xl mb-8 uppercase leading-none font-heading">
+            <h2 class="text-5xl mb-8 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
