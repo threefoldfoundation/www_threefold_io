@@ -1,5 +1,5 @@
 ---
 id: nw1
-title: PoC
+title: proof-of-capacity
 ---
-PoC: By connecting cloud capacity to the Threefold Grid, people earn TFT on a monthly basis as income.
+By connecting cloud capacity to the Threefold Grid, people earn TFT on a monthly basis as income.

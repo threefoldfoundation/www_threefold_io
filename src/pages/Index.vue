@@ -6,6 +6,7 @@
         :title="$page.markdownPage.header_title"
         :slogan="$page.markdownPage.header_slogan"
         :image="$page.markdownPage.header_image"
+        :img2="$page.markdownPage.header_img2"
         :altImg="$page.markdownPage.header_altImg"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
@@ -139,6 +140,7 @@
         header_slogan
         header_title
         header_image
+        header_img2
         header_excerpt
         header_altImg
         button

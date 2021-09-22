@@ -253,17 +253,21 @@
     </div>
 
     <div
-      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
+      class="flex flex-wrap lg:text-left lg:pt-10 -mx-2"
       v-else-if="id == 'home'"
     >
       <div
         class="px-2 lg:py-40 lg:mt-10 order-1 lg:order-none mx-auto text-center"
       >
-        <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
+      <div class="px-2 mt-20">
+        <g-image :src="img2" :alt="altImg" />
+      </div>
+        <!-- <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           <span class="">{{ slogan }}</span
           ><br />
           {{ title }}
-        </h2>
+        </h2> -->
+
         <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
 
         <a
@@ -530,6 +534,7 @@ export default {
     "excerpt",
     "altImg",
     "image",
+    "img2",
     "button",
     "button2",
     "button3",

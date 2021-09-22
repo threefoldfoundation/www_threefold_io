@@ -6,6 +6,7 @@ metaImg: ./home-bg_new.jpg
 header_slogan: from zero
 header_title: to one
 header_image: ./home-bg_new.jpg
+header_img2 : ./from_zero.png
 
 header_altImg: threefold
 header_excerpt: The digital infrastructure for an interconnected world.
