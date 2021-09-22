@@ -360,7 +360,7 @@
         <div class="w-1/2 mx-auto px-2 self-center">
           <g-image :src="img" :alt="altImg" />
         </div>
-        <h2 class="lg:text-8xl uppercase mb-6 mt-20 leading-none font-heading">
+        <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
         <div class="mb-8 text-2xl leading-relaxed" v-html="excerpt"></div>
@@ -372,11 +372,11 @@
       v-else-if="id == 'grid'"
     >
       <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
-        <h2 class="lg:text-8xl lg:text-8xl uppercase mb-6 mt-20 leading-none font-heading">
+        <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
         <div
-          class="mb-8 text-xl max-w-xl leading-relaxed"
+          class="mb-8 mx-auto text-xl max-w-xl leading-relaxed"
           v-html="excerpt"
         ></div>
 
