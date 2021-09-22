@@ -31,13 +31,7 @@
           <div class="...">
             <!-- capacity -->
             <div class="leading-none font-extrabold text-6xl">
-              {{
-                stats[0].capacity
-                  .slice(0, 4)
-                  .toString()
-                  .replace(/\B(?=(\d{2})+(?!\d))/g, ",")
-              }}
-              PB
+              {{ stats[0] }}PB
               <span class="block text-3xl uppercase">capacity</span>
             </div>
           </div>
@@ -57,7 +51,7 @@
               "
             >
               <div class="leading-none font-extrabold text-6xl">
-                {{ stats[1].nodes }}
+                {{ stats[1] }}
                 <span class="block text-2xl uppercase">nodes</span>
               </div>
             </div>
@@ -76,18 +70,16 @@
               "
             >
               <div class="leading-none font-extrabold text-6xl">
-                {{ stats[3].countries }}
+                {{ stats[3] }}
                 <span class="block text-2xl uppercase">countries</span>
               </div>
             </div>
           </div>
           <div class="..."></div>
           <div class="...">
-            <!-- capacity -->
+            <!-- cores -->
             <div class="leading-none font-extrabold text-6xl">
-              {{
-                stats[2].cores.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-              }}
+              {{ stats[2] }}
               <span class="block text-5xl uppercase">cores</span>
             </div>
           </div>
@@ -126,16 +118,17 @@ export default {
       let nodes = results.data.onlinenodes;
       let hru = parseInt(results.data.hru);
       let sru = parseInt(results.data.sru) / 1000; // To TB
-      let capacity = (hru + sru).toFixed();
-      let cru = results.data.cru.toFixed();
+      let capacity = (hru + sru)
+        .toFixed()
+        .slice(0, 4)
+        .toString()
+        .replace(/\B(?=(\d{2})+(?!\d))/g, ",");
+      let cores = results.data.cru
+        .toFixed()
+        .toString()
+        .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
       let countries = results.data.countries;
-      this.stats.push(
-        // { farms: farms },
-        { capacity: capacity },
-        { nodes: nodes },
-        { cores: cru },
-        { countries: countries }
-      );
+      this.stats.push(capacity, nodes, cores, countries);
     } catch (error) {
       console.log(error);
     }
