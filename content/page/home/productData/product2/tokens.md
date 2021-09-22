@@ -1,12 +1,12 @@
 ---
 id: tokens_home
-title: Quantum-Safe Storage
-image: ./quantum_safe_storage.png
+title: Cloud
+image: ./cloud_logo.png
 button: Learn More
 url: https://threefold.io/info/cloud#/cloud__threefold_filesystem
 ---
 
-An ubreakeable FileSystem compatible with all storage protocols and tools such as IPFS and S3.
+ThreeFold Cloud is the first fully comprehensive peer-to-peer cloud integrated with industry standards.
 
 <br>
 

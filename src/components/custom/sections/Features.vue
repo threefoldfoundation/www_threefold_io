@@ -340,7 +340,7 @@
         </div>
 
         <div v-else class="max-w-xs mx-auto">
-          <h5 class="lg:text-6xl capitalize font-light">
+          <h5 class="text-4xl capitalize font-light">
             {{ feature.title }}
           </h5>
           <div v-html="feature.content" class="lg:text-xl text-gray-800"></div>
