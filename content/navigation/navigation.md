@@ -84,7 +84,7 @@ navLinks:
     expandable: true
     submenu:
       - title: Grid Technology
-        path: https://library.threefold.me/info/threefold#/internet4__technology
+        path: https://library.threefold.me/info/tfgrid/#/technology/tfgrid_primitives
         external: true
       - title: Zero-OS
         path: https://library.threefold.me/info/threefold#/internet4__tfgrid_primitives
@@ -96,7 +96,7 @@ navLinks:
         path: https://library.threefold.me/info/threefold#/internet4__planetary_network
         external: true
       - title: Web2 vs Web3 vs P2P
-        path: https://library.threefold.me/info/threefold#/threefold__grid_compare
+        path: https://library.threefold.me/info/cloud/#/cloudcompare/cloud_compare.md
         external: true
       - title: FAQ / Forum
         path: https://forum.threefold.io/c/technical-discussion/technical-faq/55

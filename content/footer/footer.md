@@ -44,13 +44,13 @@ items:
  - title: Knowledgebase
    links:
     - name: ThreeFold Grid
-      link: https://library.threefold.me/info/threefold#/threefold__grid_home
+      link: https://library.threefold.me/info/cloud/#/cloudcompare/cloud_compare.md
     - name: ThreeFold Technology
-      link: https://library.threefold.me/info/threefold#/internet4__technology
+      link: https://library.threefold.me/info/tfgrid/#/technology/tfgrid_primitives
     - name: ThreeFold Farming
       link: https://library.threefold.me/info/threefold#/threefold__farming_intro
     - name: ThreeFold Token
-      link: https://library.threefold.me/info/threefold#/threefold__token_home
+      link: https://library.threefold.me/info/tfgrid/#/tokens/tokens_home.md
     - name: Carbon Double Win
       link: https://library.threefold.me/info/threefold#/internet4__energy_savings
     - name: Manuals
