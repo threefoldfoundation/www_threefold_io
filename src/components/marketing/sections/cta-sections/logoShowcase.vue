@@ -29,7 +29,7 @@
         v-for="(logo, idx) in logos"
         :key="idx"
         :href="logo.url"
-        class="w-1/2 md:w-1/6 px-8 mb-8"
+        class="px-8 mb-8"
       >
         <g-image :src="img(logo.image)" />
       </a>
