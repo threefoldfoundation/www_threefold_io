@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col mt-5 p-auto">
-    <h1 class="flex py-5 mx-auto uppercase font-bold text-4xl text-gray-800">
+  <div class="lg:my-20 flex flex-col mt-5 p-auto">
+    <h1 class="flex py-2 mx-auto uppercase font-bold text-5xl">
       {{ team.title }}
     </h1>
     <div

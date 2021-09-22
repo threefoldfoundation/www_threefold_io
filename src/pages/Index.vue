@@ -66,7 +66,7 @@
     </div>
 
     <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
-      <BrandPanel
+      <BrandPanel class="my-20"
         :brand="$page.markdownPage.brandPanel"
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.brandPanel"
