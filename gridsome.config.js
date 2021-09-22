@@ -429,6 +429,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Team',
+                path: './content/page/**/team/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -483,7 +491,8 @@ module.exports = {
                     tft: 'AboutTft',
                     networkMain: 'NetworkMain',
                     network: 'Network',
-                    subscribe: 'Subscribe'
+                    subscribe: 'Subscribe',
+                    team: 'Team'
                 }
             }
         },

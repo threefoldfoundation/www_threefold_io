@@ -86,7 +86,10 @@
         :cta="$page.markdownPage.cta3"
         :id="$page.markdownPage.id"
       /> -->
-
+      <HorizontalScroll
+        :team="$page.markdownPage.team"
+        :people="$page.entries.edges"
+      />
       <Blogs
         v-if="$page.markdownPage.blogs || $page.markdownPage.BlogsMain"
         :main="$page.markdownPage.BlogsMain"
@@ -108,13 +111,13 @@
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       /> -->
-   
+
       <SplitWithForm
         v-if="$page.markdownPage.subscribe"
         :id="$page.markdownPage.id"
         :subscribe="$page.markdownPage.subscribe"
       />
-      
+
       <CallToAction
         v-if="$page.markdownPage.cta2"
         :id="$page.markdownPage.id"
@@ -370,8 +373,23 @@
           link
           image
         }
+        team{
+          id
+          title
+          content
+        }
     }  
+  entries: allPerson (sortBy: "rank", order: ASC, filter: {memberships: { contains: ["foundation"]}}){
+    edges {
+      node {
+        path
+        name
+        image
+      }
+    }
   }
+}
+
 
 </page-query>
 
@@ -402,6 +420,7 @@ import SignUp from "~/components/custom/sections/SignUp.vue";
 import VideoPanel from "~/components/custom/VideoPanel.vue";
 import Partenerships from "~/components/marketing/sections/team-sections/grid_with_large_round_images.vue";
 import SplitWithForm from "~/components/custom/SplitWithForm.vue";
+import HorizontalScroll from "~/components/custom/HorizontalScroll.vue";
 export default {
   components: {
     Header,
@@ -423,6 +442,7 @@ export default {
     VideoPanel,
     Partenerships,
     SplitWithForm,
+    HorizontalScroll,
   },
   computed: {
     getImg() {
