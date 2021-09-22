@@ -33,6 +33,7 @@
             <div class="leading-none font-extrabold text-6xl">
               {{
                 stats[0].capacity
+                  .slice(0, 4)
                   .toString()
                   .replace(/\B(?=(\d{2})+(?!\d))/g, ",")
               }}
@@ -123,9 +124,9 @@ export default {
       );
       // let farms = getFarms.data.length;
       let nodes = results.data.onlinenodes;
-      let hru = (results.data.hru / 10000).toFixed(); // To TB
-      let sru = (results.data.sru / 10000).toFixed();
-      let capacity = ((hru + sru) / 1000).toFixed();
+      let hru = parseInt(results.data.hru);
+      let sru = parseInt(results.data.sru) / 1000; // To TB
+      let capacity = (hru + sru).toFixed();
       let cru = results.data.cru.toFixed();
       let countries = results.data.countries;
       this.stats.push(
