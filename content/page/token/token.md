@@ -22,6 +22,6 @@ brandPanel: token_brandPanel
 brandPanel2: token_brandPanel2
 brandPanel3: token_brandPanel3
 cta2: token_cta2
-logos: [partner1, partner2, partner3, partner4, partner5, partner6]
+logos: [partner1]
 logosMain : partnersMain
 ---

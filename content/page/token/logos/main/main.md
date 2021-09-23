@@ -1,5 +1,5 @@
 ---
 id: partnersMain
-title: Our Partners
+title: Believers in TFT
 ---
 

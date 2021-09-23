@@ -1,5 +1,5 @@
 ---
 id: partner1
-image: ./solidaridad.png
+image: ./our_partners.png
 url: /partners/hpe
 ---
