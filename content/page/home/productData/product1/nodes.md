@@ -1,7 +1,7 @@
 ---
 id: nodes_home
-title:  Uhuru
-image: ./uhuru_logo.png
+title:  ''
+image: ./uhuru_logo_color.png
 button: Learn More
 url: https://threefold.io/info/cloud#/cloud__evdc
 ---

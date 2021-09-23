@@ -1,6 +1,6 @@
 ---
 id: tokens_home
-title: Cloud
+title: ''
 image: ./cloud_logo.png
 button: Learn More
 url: https://threefold.io/info/cloud#/cloud__threefold_filesystem

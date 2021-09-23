@@ -91,10 +91,10 @@ export default {
 
 .part {
   
-  background-color: #70dfc9;
+  background-color: #fff;
 }
 
 .active {
-  background-color: #ea1ff7;
+  background-color: #fff;
 }
 </style>

@@ -1,7 +1,7 @@
 ---
 id: storage_home
-title: Freeflow
-image: ./fflow_logo.png
+title: ''
+image: ./fflow_logo_black.png
 button: Learn More
 url: https://mydigitaltwin.io/
 ---
