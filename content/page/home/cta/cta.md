@@ -9,7 +9,7 @@ button2: Expand the grid
 link2: '#'
 button3: Peer-to-peer cloud
 link3: '#'
-button4: Developer Grants
+button4: Developer Grants(coming soon)
 link4: '#'
 button5: The ThreeFold Token
 link5: '#'
