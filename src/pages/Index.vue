@@ -199,10 +199,17 @@
           id
           title
         }
-        blogs{
+         blogs{
           id
           image
-          content
+          tags
+          title
+          path
+          author
+          autherUrl
+          authorImg
+          excerpt
+          created
         }
         cta2{
          id
