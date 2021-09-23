@@ -1173,7 +1173,7 @@ export default {
 </script>
 <style scoped>
 .pink {
-  background-color: #ea1ff7;
+  background-color: #fff;
 }
 
 .green {
