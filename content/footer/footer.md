@@ -52,11 +52,11 @@ items:
     - name: ThreeFold Token
       link: https://library.threefold.me/info/tfgrid/#/tokens/tokens_home.md
     - name: Carbon Double Win
-      link: https://library.threefold.me/info/threefold#/internet4__energy_savings
+      link: https://library.threefold.me/info/tfgrid/#/tfgrid__energy_savings
     - name: Manuals
       link: https://library.threefold.me/info/threefold#/threefold__wiki_overview
     - name: Releases
-      link: https://library.threefold.me/info/threefold#/threefold__release_mgmt
+      link: https://library.threefold.me/info/cloud/#/cloud__roadmap
     - name: ThreeFold Glossary
       link: https://library.threefold.me/info/threefold#/threefold__defs
 
