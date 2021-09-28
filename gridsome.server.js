@@ -102,8 +102,8 @@ module.exports = function(api) {
 
     api.createPages(async({ graphql, createPage }) => {
         const { data } = await graphql(`{
-          allProjectTag(filter: { title: {in: ["tech", "foundation"]}}) {
-            edges {
+      allProjectTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}) {
+        edges {
           node {
             id
             path
@@ -184,8 +184,8 @@ module.exports = function(api) {
 
     api.createPages(({ createPage }) => {
         createPage({
-            path: '/team',
-            component: './src/templates/Team.vue',
+            path: '/people',
+            component: './src/templates/People.vue',
             context: {
                 private: private
             }

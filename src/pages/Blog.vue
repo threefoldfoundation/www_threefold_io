@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <NewsFilterHeader
+    <!-- <NewsFilterHeader
       @selectedTopic="setTopic"
       @selectedYear="setYear"
       @selectedMonth="setMonth"
@@ -8,12 +8,30 @@
       :topics="topics"
       :years="years"
       :months="months"
-    />
-    <div
-      class="container sm:pxi-0 mx-auto mt-8"
-      :style="{ 'min-height': contentHeight + 'px' }"
-    >
-      <div class="flex flex-wrap news pt-12 mt-8 pb-8 mx-4 sm:-mx-4">
+    /> -->
+    <div class="container sm:pxi-0 mx-auto overflow-hidden">
+      <div class="flex my-5">
+        <FilterDropdown
+          class="xs:w-2/3"
+          @selectedTopic="setTopic"
+          :topics="topics"
+        />
+        <SearchBox class="xs:w-1/3" v-model="search" />
+      </div>
+
+      <div v-if="search !== ''">
+        <div v-if="searchResults.length > 0">
+          <div class="flex flex-wrap news pt-12 pb-8 mt-8 mx-4 sm:-mx-4">
+            <PostListItem
+              v-for="post in searchResults"
+              :key="post.node.id"
+              :record="post.node"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div v-else class="flex flex-wrap news pt-12 pb-8 mt-8 mx-4 sm:-mx-4">
         <PostListItem
           v-for="post in blogs.edges"
           :key="post.node.id"
@@ -21,13 +39,25 @@
         />
       </div>
 
+      <div
+        class="text-center"
+        v-if="
+          blogs.edges.length == 0 ||
+          searchResults.length == 0 ||
+          searchResults == ''
+        "
+      >
+        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">
+          Your search didn't return any results. Please try again.
+        </h2>
+      </div>
       <div class="pagination flex justify-center mb-8">
         <Pagination
           :baseUrl="baseurl"
           :currentPage="blogs.pageInfo.currentPage"
           :totalPages="blogs.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="blogs.pageInfo.totalPages > 1 && blogs.edges.length > 0"
+          v-if="searchResults.length > 7 && blogs.edges.length > 7"
         />
       </div>
     </div>
@@ -36,7 +66,7 @@
 <page-query>
 
 query($page: Int){
-  entries: allBlog(perPage: 10, page: $page, sortBy: "created", order: DESC, filter: {category: { id: {in: ["tech", "foundation"]}}}) @paginate{
+  entries: allBlog(perPage: 10, page: $page, sortBy: "created", order: DESC, filter: {category: { contains: ["foundation"]}}) @paginate{
     totalCount
     pageInfo {
       totalPages
@@ -69,7 +99,12 @@ query($page: Int){
     }
   }
 
-   topics:  allBlogTag{
+  markdownPage(id: "home") {
+        id
+        metaImg
+  }
+
+   topics: allBlogTag {
     edges{
       node{
 				title        
@@ -83,7 +118,8 @@ query($page: Int){
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
 import Pagination from "~/components/custom/Pagination.vue";
 import NewsFilterHeader from "~/components/custom/NewsFilterHeader.vue";
-
+import SearchBox from "~/components/custom/SearchBox.vue";
+import FilterDropdown from "~/components/custom/FilterDropdown.vue";
 export default {
   data() {
     const allMonths = [
@@ -107,23 +143,69 @@ export default {
     r.forEach((year) => years.push(String(year)));
 
     return {
-      selectedTopic: "All Topics",
+      selectedTopic: "Popular Topics",
       selectedYear: "All Years",
       selectedMonth: "All Months",
       months: allMonths,
       years: years,
       listArchive: false,
       archiveButtonText: "Archive",
+      search: "",
     };
   },
 
-  metaInfo: {
-    title: "Blog",
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | Blog",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content:
+            "A collection of posts from the ThreeFold Foundation team about our products, our technology, our ecosystem, our why, and more.",
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: "ThreeFold | Blog",
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content:
+            "A collection of posts from the ThreeFold Foundation team about our products, our technology, our ecosystem, our why, and more.",
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content:
+            "A collection of posts from the ThreeFold Foundation team about our products, our technology, our ecosystem, our why, and more.",
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: "ThreeFold | Blog",
+        },
+      ],
+    };
   },
   components: {
     PostListItem,
     Pagination,
     NewsFilterHeader,
+    SearchBox,
+    FilterDropdown,
   },
   methods: {
     setTopic: function (topic) {
@@ -136,7 +218,7 @@ export default {
       this.selectedMonth = month;
     },
     resetAll() {
-      this.selectedTopic = "All Topics";
+      this.selectedTopic = "Popular Topics";
       this.selectedYear = "All Years";
       this.selectedMonth = "All Months";
     },
@@ -187,7 +269,7 @@ export default {
   },
   computed: {
     topics: function () {
-      var res = ["All Topics"];
+      var res = ["Popular Topics"];
       this.$page.topics.edges.forEach((edge) => res.push(edge.node.title));
       return res;
     },
@@ -195,6 +277,13 @@ export default {
       if (process.isClient) {
         return window.innerHeight - 100;
       }
+    },
+    getImg() {
+      let img = "";
+      if (process.isClient) {
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+      }
+      return img;
     },
 
     blogs() {
@@ -208,7 +297,7 @@ export default {
         var node = old.edges[i].node;
 
         // Now check topic
-        var topics = ["All Topics"];
+        var topics = ["Popular Topics"];
         node.tags.forEach((tag) => topics.push(tag.title));
 
         var nodeDate = new Date(node.datetime);
@@ -228,6 +317,13 @@ export default {
     },
     baseurl() {
       return "/blog/";
+    },
+    searchResults() {
+      return this.$page.entries.edges.filter((blog) => {
+        return blog.node.title
+          .toLowerCase()
+          .includes(this.search.toLowerCase().trim());
+      });
     },
   },
 };

@@ -5,7 +5,7 @@
 <template>
   <footer class="bg-white">
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div class="xl:grid xl:grid-cols-4 xl:gap-2">
         <div class="space-y-8 xl:col-span-1">
           <g-image
             class="h-10"
@@ -21,7 +21,7 @@
             v-else
           />
 
-          <p class="text-gray-500 text-base leading-6">
+          <p class="text-gray-500 font-bold text-base leading-6">
             {{ record.description }}
           </p>
           <div class="flex space-x-6">
@@ -99,6 +99,30 @@
                 />
               </svg>
             </a>
+                        <a
+              v-if="record.telegram != '#'"
+              :href="record.telegram"
+              class="text-gray-400 hover:text-gray-500"
+            >
+              <span class="sr-only">telegram</span>
+              <!-- <svg
+                class="h-6 w-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd"
+                />
+              </svg> -->
+             <svg 
+             xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+            <path 
+             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+            </svg>
+            </a>
             <a
               v-if="record.dribbble != '#'"
               :href="record.dribbble"
@@ -118,21 +142,43 @@
                 />
               </svg>
             </a>
+
+            <a
+              class="text-gray-400 hover:text-gray-500"
+              href="javascript:;"
+              onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="far"
+                data-icon="envelope"
+                class="h-5 w-5 mt-0"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+                ></path>
+              </svg>
+            </a>
           </div>
         </div>
         <div
-          class="mt-12 grid md:grid-cols-4 sm:grid-cols-2 xl:mt-0 xl:col-span-2"
+          class="mt-12 grid md:grid-cols-4 sm:grid-cols-2 xl:mt-0 xl:col-span-3"
         >
           <!-- class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2" -->
 
           <div
             v-for="footerLink in record.items"
             :key="footerLink.title"
-            class="md:grid md:grid-cols-3"
+            class=""
           >
             <div>
               <h4
-                class="text-sm leading-5 font-semibold text-gray-400 tracking-wider uppercase"
+                class="text-sm leading-5 font-semibold text-gray-600 tracking-wider uppercase"
               >
                 {{ footerLink.title }}
               </h4>
@@ -142,14 +188,14 @@
                     v-if="item.link.includes('http')"
                     :href="item.link"
                     target="_blank"
-                    class="text-base leading-6 text-gray-500 hover:text-gray-900"
+                    class="text-base leading-5 text-gray-500 hover:text-gray-900"
                   >
                     {{ item.name }}
                   </a>
                   <a
                     v-else
                     :href="item.link"
-                    class="text-base leading-6 text-gray-500 hover:text-gray-900"
+                    class="text-base leading-5 text-gray-500 hover:text-gray-900"
                   >
                     {{ item.name }}
                   </a>
@@ -162,6 +208,24 @@
       <div class="mt-12 border-t border-gray-200 pt-8">
         <p class="text-base leading-6 text-gray-400 xl:text-center">
           &#xA9; 2021 ThreeFold, All rights reserved.
+          <a
+            class="leading-6 text-gray-500 hover:text-gray-900"
+            target="_blank"
+            href="https://threefold.io/info/legal#/legal__terms_conditions_websites"
+            >Terms & Conditions |
+          </a>
+          <a
+            class="leading-6 text-gray-500 hover:text-gray-900"
+            target="_blank"
+            href="https://threefold.io/info/legal#/legal__privacypolicy"
+            >Privacy Policy |
+          </a>
+          <a
+            class="leading-6 text-gray-500 hover:text-gray-900"
+            target="_blank"
+            href="#"
+            >Impressum</a
+          >
         </p>
       </div>
     </div>
@@ -177,5 +241,5 @@ export default {
 <style scoped>
 ul {
   list-style-type: none;
-};
+}
 </style>

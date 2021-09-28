@@ -1,7 +1,8 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-20">
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-20 px-4">
       <div class="pt-8">
+        <Alert v-if="showAlert" @clicked="linkCopied" />
         <section class="post-header container mx-auto px-0 mb-4 border-b">
           <h1 class="text-5xl font-medium leading-none mt-0">
             {{ $page.blog.title }}
@@ -24,7 +25,15 @@
                     <g-image
                       :src="author.image"
                       :alt="author.name"
-                      class="h-8 w-8 sm:h-10 sm:w-10 rounded-full bg-gray-200 border-2 border-white"
+                      class="
+                        h-8
+                        w-8
+                        sm:h-10
+                        sm:w-10
+                        rounded-full
+                        bg-gray-200
+                        border-2 border-white
+                      "
                     />
                   </g-link>
                 </li>
@@ -61,6 +70,18 @@
                 </g-link>
               </p>
             </div>
+
+            <share-it
+              icons
+              :targets="['twitter', 'linkedin', 'facebook']"
+              class="ml-auto"
+            />
+
+            <font-awesome
+              :icon="['fas', 'link']"
+              class="cursor-pointer"
+              @click="copyLink"
+            />
           </div>
         </section>
       </div>
@@ -70,10 +91,17 @@
 
       <div class="py-12">
         <section
-          class="post-content container mx-auto relative font-serif text-gray-700"
+          class="
+            post-content
+            container
+            mx-auto
+            relative
+            font-serif
+            text-gray-700
+          "
         >
           <div
-            class="post-content-text text-xl"
+            class="post-content-text text-lg"
             v-html="$page.blog.content"
           ></div>
         </section>
@@ -83,7 +111,19 @@
             v-for="tag in $page.blog.tags"
             :key="tag.id"
             :to="tag.path"
-            class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+            class="
+              text-xs
+              bg-transparent
+              hover:text-blue-700
+              py-2
+              px-4
+              mr-2
+              border
+              hover:border-blue-500
+              border-gray-600
+              text-gray-700
+              rounded-full
+            "
             >{{ tag.title }}</g-link
           >
         </section>
@@ -167,34 +207,104 @@
         path
       }
     }
-
-
-    
+    metadata {
+      siteUrl
+    }
   }
 </page-query>
 
 <script>
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
-
-
+import Alert from "~/components/custom/Alert.vue";
 export default {
   components: {
     PostListItem,
+    Alert,
+  },
+  data() {
+    return {
+      showAlert: false,
+    };
+  },
+  methods: {
+    copyLink() {
+      const el = document.createElement("input");
+      el.value = window.location.href;
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand("copy");
+      document.body.removeChild(el);
+      this.showAlert = true;
+    },
+    linkCopied(val) {
+      this.showAlert = val;
+    },
+    img(image) {
+      if (!image) return "";
+      if (image.src) return image.src;
+      return image;
+    },
+  },
+  computed: {
+    getCoverImage() {
+      let coverImage = "";
+      const cover = this.$page.blog.image;
+      if (cover != null) {
+        coverImage = `${this.getBaseUrl}${this.$page.blog.image.src}`;
+      }
+      return coverImage;
+    },
+    getBaseUrl() {
+      return this.$page.metadata.siteUrl;
+    },
   },
   metaInfo() {
     return {
-      title: this.$page.blog.title,
+      title: "",
+      titleTemplate: `ThreeFold | ${this.$page.blog.title}`,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.blog.excerpt,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.blog.title,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.blog.excerpt,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getCoverImage,
+        },
+        {
+          name: "twitter:description",
+          property: "twitter:description",
+          content: this.$page.blog.excerpt,
+        },
+        {
+          name: "twitter:image",
+          property: "twitter:image",
+          content: this.getCoverImage,
+        },
+        {
+          name: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.blog.title,
+        },
+        {
+          name: "twitter:card",
+          property: "twitter:card",
+          content: "summary_large_image",
+        },
+      ],
     };
   },
-
 };
 </script>
-
-<style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-.post-card-excerpt,
-.post-content-text {
-  font-family: "Roboto", sans-serif !important;
-  line-height: 1.2;
-}
-</style>

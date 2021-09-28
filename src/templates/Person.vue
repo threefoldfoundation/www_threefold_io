@@ -1,17 +1,28 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto min-h-screen overflow-x-hidden pt-24">
+    <div
+      class="container sm:pxi-0 mx-auto min-h-screen overflow-x-hidden pt-24"
+    >
       <div class="flex flex-row flex-wrap items-center mx-4 sm:mx-0">
         <div class="w-full md:w-1/6 mx-auto sm:mx-0">
           <g-image
             :src="$page.person.image"
-            class="rounded-full bg-gray-200 w-32 h-32 border-4 border-gray-400 mx-auto md:mx-0"
+            class="
+              rounded-full
+              bg-gray-200
+              w-32
+              h-32
+              border-4 border-gray-400
+              mx-auto
+              md:mx-0
+            "
           ></g-image>
         </div>
         <div class="w-full md:w-5/6 text-center md:text-left md:pl-8 lg:pl-0">
           <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">
             {{ $page.person.name }}
             <a
+              v-if="$page.person.linkedin"
               :href="$page.person.linkedin"
               target="_blank"
               rel="noopener noreferrer"
@@ -24,33 +35,55 @@
           <p class="text-gray-700 text-xl" v-if="$page.person.bio">
             {{ $page.person.bio }}
           </p>
-          <div class="author-social">
-            
-          </div>
-                <section>
-        <div class="avatars">
-          <div class="flex items-center">
-            <div class="flex justify-between items-center">
-              <ul class="list-none flex author-list m-0 py-2">
-                <li
-                  v-for="project in $page.person.projects"
-                  :key="project.id"
-                  class="author-list-item"
-                >
-                  <g-link :to="project.path" v-tooltip="project.title">
-                    <g-image
-                      :src="project.logo"
-                      :alt="project.title"
-                      class="w-20 h-20 rounded-full bg-gray-200 border-2 border-white"
-                    />
-                  </g-link>
-                </li>
-              </ul>
+          <div class="author-social"></div>
+          <section>
+            <div class="avatars">
+              <div class="flex items-center">
+                <div class="flex justify-between items-center">
+                  <ul class="list-none flex author-list m-0 py-2">
+                    <li
+                      v-for="project in $page.person.projects"
+                      :key="project.id"
+                      class="author-list-item"
+                    >
+                      <g-link :to="project.path" v-tooltip="project.title">
+                        <g-image
+                          :src="project.logo"
+                          :alt="project.title"
+                          class="
+                            w-20
+                            h-20
+                            rounded-full
+                            bg-gray-200
+                            border-2 border-white
+                          "
+                        />
+                      </g-link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            
-          </div>
-        </div>
-      </section>
+            <g-link
+              v-for="membership in $page.person.memberships"
+              :key="membership.id"
+              :to="membership.path"
+              class="
+                text-xs
+                bg-transparent
+                hover:text-blue-700
+                py-2
+                px-4
+                mr-2
+                border
+                hover:border-blue-500
+                border-gray-600
+                text-gray-700
+                rounded-full
+              "
+              >{{ membership.title }}</g-link
+            >
+          </section>
         </div>
       </div>
 
@@ -66,16 +99,14 @@
       </section>
 
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
-
+      <!-- 
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
           v-for="edge in $page.person.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
-      </div>
-
-   
+      </div> -->
     </div>
   </Layout>
 </template>
@@ -144,7 +175,7 @@
       }
     }
 
-     memberships: allMembership(filter: {title: {in: ["foundation", "tech"]}}){
+     memberships: allMembership{
      edges{
       node{
         id
@@ -171,21 +202,59 @@ export default {
       return pluralize("post", this.$page.person.belongsTo.totalCount);
     },
 
-    memberships(){
-      var all = []
-      this.$page.memberships.edges.forEach((edgs) => all.push(edge.node.title))
-      var res = []
-      this.$page.person.memberships.forEach(function(membership){
-        if (all.includes(membership.title)){
-          res.push(membership)
+    memberships() {
+      var all = [];
+      this.$page.memberships.edges.forEach((edgs) => all.push(edge.node.title));
+      var res = [];
+      this.$page.person.memberships.forEach(function (membership) {
+        if (all.includes(membership.title)) {
+          res.push(membership);
         }
       });
-      return res
-    }
+      return res;
+    },
   },
   metaInfo() {
     return {
-      title: this.$page.person.name,
+      title: "",
+      titleTemplate: `ThreeFold | ${this.$page.person.name}`,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.person.excerpt,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.person.name,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.person.excerpt,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.$page.person.image.src,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.person.excerpt,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.$page.person.image.src,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.person.name,
+        },
+      ],
     };
   },
 };

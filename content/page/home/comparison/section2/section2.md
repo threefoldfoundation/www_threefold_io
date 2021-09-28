@@ -1,6 +1,8 @@
 ---
-id: section2
-svg: ./equality.png
-title: ''
+id: equal
+svg: ./equal.png
+title: IT IS EQUAL
+link:
 ---
 
+Scalable everywhere and to everyone.

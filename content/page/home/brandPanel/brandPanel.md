@@ -1,10 +1,12 @@
 ---
-id: brand_panel
-title: IF NOT NOW, WHEN? IF NOT US, WHO?
+id: fix_internet
+title: ZERO OS
 subtitle: ''
-sourceUrl: https://farming.threefold.io/team #link for button
-btnTxt: Meet Us
-image: teamcollage.png # Please add image in src/assets/brandPanel/
+sourceUrl: https://www.farming.threefold.io/get_3node
+btnTxt: Get a Node
+button2: Learn More
+link2: /grid
+image: zero_os.png # src/assets/brandPanel/..
 ---
 
-We believe in digital freedom, equal opportunities for all, and sustainable solutions for our planet. We are building a new internet that serves people and our planet.
+An autonomous open-source operating system that supports the peer-to-peer cloud and the deployment of inﬁnitely scalable digital workloads with unparalleled levels of security and privacy. 

@@ -1,28 +1,48 @@
 <template>
   <Layout>
-    <div
-      class="container sm:pxi-0 mx-auto overflow-x-hidden"
-      :style="{ 'min-height': contentHeight + 'px' }"
-    >
+    <TagFilterHeader
+      :tags="memberships"
+      selected="all"
+      v-if="$page.memberships.edges.length > 1"
+    />
+    <div class="container sm:pxi-0 mx-auto mt-8 overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
-          v-for="edge in $page.entries.edges"
-          :key="edge.node.id"
-          :record="edge.node"
+          :showtags="true"
+          v-for="person in $page.entries.edges"
+          :key="person.id"
+          :record="person.node"
         />
       </div>
+      <div class="text-center" v-if="$page.entries.edges.length == 0">
+        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">No results</h2>
+      </div>
+    </div>
+    <div class="pagination flex justify-center mb-8">
+      <Pagination
+        :baseUrl="baseurl"
+        :currentPage="$page.entries.pageInfo.currentPage"
+        :totalPages="$page.entries.pageInfo.totalPages"
+        :maxVisibleButtons="5"
+        v-if="$page.entries.pageInfo.totalPages > 1 && $page.entries.edges.length > 0"
+      />
     </div>
   </Layout>
 </template>
 
 <page-query>
-query ($private: Int){
-  entries: allPerson (sortBy: "rank", order: DESC, filter: { private: { ne: $private }}){
+query($page: Int){
+  entries: allPerson (perPage: 25, page: $page, sortBy: "rank", order: ASC, filter: {category: { contains: ["foundation"]}}) @paginate{
     totalCount
+    pageInfo {
+      totalPages
+      currentPage
+    }
     edges {
       node {
         path
-        content 
+        content
+        excerpt
         name
         rank
         bio
@@ -32,11 +52,21 @@ query ($private: Int){
         cities
         image(width:800)
         private
+        memberships {
+          id
+          path
+          title
+        }
       }
     }
   }
 
-  memberships: allMembership{
+    markdownPage(id: "home") {
+        id
+        metaImg
+  }
+
+   memberships: allMembership(filter: {title: {in: ["cofounders", "tech", "foundation", "ambassadors", "matchmakers", "farmers", "aci_members", "partners", "wisdom_council", "technology_council", "grid_guardians"]}}){
      edges{
       node{
         id
@@ -46,29 +76,79 @@ query ($private: Int){
     }
   }
 }
-
 </page-query>
 
 <script>
-import Pagination from "~/components/Pagination.vue";
-import PostListItem from "~/components/PostListItem.vue";
+import PostListItem from "~/components/custom/Cards/PostListItem.vue";
+import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
+import Pagination from "~/components/custom/Pagination.vue";
 
 export default {
-  metaInfo: {
-    title: "People",
-  },
   components: {
     PostListItem,
-    Pagination,
+    TagFilterHeader,
+    Pagination
+  },
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | People",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: "ThreeFold | People",
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: "ThreeFold | People",
+        },
+      ],
+    };
   },
   computed: {
+    memberships() {
+      var res = [{ title: "All", path: "/people" }];
+      this.$page.memberships.edges.forEach((edge) =>
+        res.push({ title: edge.node.title, path: edge.node.path })
+      );
+      return res;
+    },
+    getImg() {
+      let img = "";
+      if (process.isClient) {
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+      }
+      return img;
+    },
     baseurl: function () {
       return "/people/";
-    },
-    contentHeight() {
-      if (process.isClient) {
-        return window.innerHeight - 100;
-      }
     },
   },
 };

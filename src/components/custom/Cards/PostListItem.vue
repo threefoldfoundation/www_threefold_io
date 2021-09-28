@@ -3,29 +3,29 @@
     class="flex flex-post px-0 sm:px-4 pb-8 mb-8"
     v-bind:class="{ 'no-border': !border }"
   >
-    <g-link :to="path" class="post-card-image-link">
+    <a :href="path" class="post-card-image-link">
       <g-image
         :src="img(record.image)"
         :alt="record.title"
         class="post-card-image"
       ></g-image>
-    </g-link>
+    </a>
     <div>
-      <g-link :to="path">
+      <a :href="path">
         <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt text-gray-700">{{ record.excerpt }}</p>
         <section
           class="flex flex-wrap post-tags container mx-auto relative py-1"
         >
-          <g-link
-            v-for="membership in memberships"
+          <a
+            v-for="membership in record.memberships"
             :key="membership.id"
-            :to="membership.path"
+            :href="membership.path"
             class="text-xs bg-transparent hover:text-blue-700 py-1 px-2 mr-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full mb-2"
-            >{{ membership.title }}</g-link
+            >{{ membership.title }}</a
           >
         </section>
-      </g-link>
+      </a>
 
       <div class="w-full post-card-meta pt-2">
         <div class="avatars">
@@ -37,31 +37,31 @@
                   :key="author.id"
                   class="author-list-item"
                 >
-                  <g-link :to="author.path" v-tooltip="author.name">
+                  <a :href="author.path" v-tooltip="author.name">
                     <g-image
                       :src="img(author.image)"
                       :alt="author.name"
                       class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
                     />
-                  </g-link>
+                  </a>
                 </li>
               </ul>
             </div>
 
             <div class="flex flex-col text-xs leading-none uppercase">
               <p>
-                <g-link :to="path">
+                <a :href="path">
                   <time :datetime="record.datetime">{{
                     record.humanTime
                   }}</time>
-                </g-link>
+                </a>
               </p>
               <p>
-                <g-link :to="path">
+                <a :href="path">
                   <time :datetime="record.datetime">{{
                     record.startDate
                   }}</time>
-                </g-link>
+                </a>
                 {{ record.status }}
               </p>
             </div>
@@ -70,12 +70,12 @@
             class="post-tags container mx-auto relative py-3"
             v-if="displaytags()"
           >
-            <g-link
+            <a
               v-for="tag in record.tags"
               :key="tag.id"
-              :to="tag.path"
-              class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
-              >{{ tag.title }}</g-link
+              :href="tag.path"
+              class="inline-block text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+              >{{ tag.title.replace("_", " ") }}</a
             >
           </section>
         </div>
@@ -101,20 +101,6 @@ export default {
       if (this.pathPrefix) return this.pathPrefix + "/" + this.record.id;
       return this.record.path;
     },
-
-    memberships() {
-      var res = [];
-      var memberships = this.record.memberships;
-      if (!memberships) {
-        return [];
-      }
-      memberships.forEach(function (membership) {
-        if(["foundation", "tech", "cofounders"].includes(membership.title)){
-          res.push(membership);
-        }
-      });
-      return res;
-    },
   },
   methods: {
     displaytags() {
@@ -130,7 +116,6 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .post-card-excerpt {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;

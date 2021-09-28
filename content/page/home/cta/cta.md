@@ -1,18 +1,18 @@
 ---
 id: home_cta
-title: Join the Movement!
-button: Support Us By Purchasing Tokens
-link: 'https://wiki.threefold.io/#/how_to_buy_and_sell' #Add button link here
-button2: Stay Updated
-link2: 'https://t.me/threefoldnews' #Add button link here
-button3: Join Our Community
-link3: 'https://forum.threefold.io' #Add button link here
-
+title: THE SOURCE CODE FOR 
+subtitle: A PEOPLE’S INTERNET
+image: ./number_bg2.jpg
+button: How It Works
+link: /how-it-works
+button2: Expand The Grid
+link2: /grid
+button3: Peer-To-Peer Cloud
+link3: https://cloud.threefold.io/
+button4:  Developer Grants (coming soon)
+link4: '#'
+button5: The ThreeFold Token
+link5: /token
+button6: Community Forum
+link6: https://forum.threefold.io/
 ---
-
-Be part of a better tomorrow, today.
-
-<!-- button2: Spread our Message
-link: ''
-button3: Join our Community
-link: '' -->

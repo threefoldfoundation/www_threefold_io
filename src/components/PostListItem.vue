@@ -21,7 +21,20 @@
             v-for="membership in record.memberships"
             :key="membership.id"
             :to="membership.path"
-            class="text-xs bg-transparent hover:text-blue-700 py-1 px-2 mr-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full mb-2"
+            class="
+              text-xs
+              bg-transparent
+              hover:text-blue-700
+              py-1
+              px-2
+              mr-1
+              border
+              hover:border-blue-500
+              border-gray-600
+              text-gray-700
+              rounded-full
+              mb-2
+            "
             >{{ membership.title }}</g-link
           >
         </section>
@@ -41,7 +54,13 @@
                     <g-image
                       :src="author.image"
                       :alt="author.name"
-                      class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
+                      class="
+                        w-8
+                        h-8
+                        rounded-full
+                        bg-gray-200
+                        border-2 border-white
+                      "
                     />
                   </g-link>
                 </li>
@@ -66,12 +85,27 @@
               </p>
             </div>
           </div>
-          <section class="post-tags container mx-auto relative py-3" v-if="displaytags()">
-            <g-link 
+          <section
+            class="post-tags container mx-auto relative py-3"
+            v-if="displaytags()"
+          >
+            <g-link
               v-for="tag in record.tags"
               :key="tag.id"
               :to="tag.path"
-              class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+              class="
+                text-xs
+                bg-transparent
+                hover:text-blue-700
+                py-2
+                px-4
+                mr-2
+                border
+                hover:border-blue-500
+                border-gray-600
+                text-gray-700
+                rounded-full
+              "
               >{{ tag.title }}</g-link
             >
           </section>
@@ -92,15 +126,14 @@ export default {
     },
   },
   methods: {
-    displaytags(){
-      return this.showtags
-    }
-  }
-}
+    displaytags() {
+      return this.showtags;
+    },
+  },
+};
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .post-card-excerpt {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;

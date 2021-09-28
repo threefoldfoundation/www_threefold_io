@@ -1,9 +1,14 @@
 <template>
   <Layout>
-    <TagFilterHeader :tags="tags" selected="all" v-if="$page.tags.edges.length > 1"/>
+    <TagFilterHeader
+      :tags="tags"
+      selected="all"
+      v-if="$page.tags.edges.length > 1"
+    />
     <div class="container mt-8 sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
+          :showtags="true"
           v-for="partner in $page.entries.edges"
           :key="partner.id"
           :record="partner.node"
@@ -16,7 +21,7 @@
 
 <page-query>
 query ($private: Int){
-  entries: allProject (sortBy: "rank", order: DESC, filter: { private: { ne: $private }, tags: { id: {in: ["tech", "foundation"]}}}){
+  entries: allProject (sortBy: "rank", order: ASC, filter: { private: { ne: $private }, category: { contains: ["foundation"]}}){
     totalCount
     edges {
       node {
@@ -35,20 +40,30 @@ query ($private: Int){
         image(width:800)
         timeToRead
         logo
+        category
+        tags{
+          id
+          path
+          title
+        }
       }
     }
   }
+
+  markdownPage(id: "home") {
+        id
+        metaImg
+  }
   
-  tags: allProjectTag (filter: { title: {in: ["tech", "foundation"]}}) {
+  tags: allProjectTag (filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}) {
      edges{
       node{
         id
         title
         path
       }
+    }
   }
-}
-
 }
 </page-query>
 
@@ -69,9 +84,65 @@ export default {
       );
       return res;
     },
+    getImg() {
+      let image = "";
+      if (process.isClient) {
+        image = `${window.location.origin}${this.img}`;
+      }
+      return image;
+    },
+    img() {
+      if (!this.$page.markdownPage.metaImg) return "";
+      if (this.$page.markdownPage.metaImg.src)
+        return this.$page.markdownPage.metaImg.src;
+      return this.$page.markdownPage.metaImg;
+    },
   },
-  mounted(){
-    console.log(this.$page)
-  }
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | Partners",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content:
+            "Meet the incredible organizations co-creating the peer-to-peer alongside the ThreeFold Foundation.",
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: "ThreeFold | Partners",
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content:
+            "Meet the incredible organizations co-creating the peer-to-peer alongside the ThreeFold Foundation.",
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content:
+            "Meet the incredible organizations co-creating the peer-to-peer alongside the ThreeFold Foundation.",
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: "ThreeFold | Partners",
+        },
+      ],
+    };
+  },
 };
 </script>
