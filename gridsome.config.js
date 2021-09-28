@@ -6,17 +6,46 @@
 
 module.exports = {
     siteName: 'ThreeFold',
-    siteUrl: 'https://threefold.io',
-    pathPrefix: "threefold",
     plugins: [
 
         // Local models
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Card',
+                path: './content/page/**/cards/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Slide',
+                path: './content/page/**/sliders/**/*.md',
+            }
+        },
 
         {
             use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'Contact',
                 path: './content/page/**/contactData/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'HowItWorks',
+                path: './content/page/**/how_it_works/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'HowItWorks_2',
+                path: './content/page/**/how_it_works_2/**/*.md',
             }
         },
 
@@ -31,31 +60,6 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'Header2',
-                path: './content/page/**/header2/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Header3',
-                path: './content/page/**/header3/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Header4',
-                path: './content/page/**/header4/*.md',
-            }
-        },
-
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
                 typeName: 'Product',
                 path: './content/page/**/productData/**/*.md',
             }
@@ -63,32 +67,17 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'ProductMain',
-                path: './content/page/**/productData/main/*.md',
+                typeName: 'ProductTitle',
+                path: './content/page/**/productData/**/*.md',
             }
         },
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'FeaturesMain2',
-                path: './content/page/**/features2/main/*.md',
+                typeName: 'Features',
+                path: './content/page/**/features/**/*.md',
             }
         },
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Features2',
-                path: './content/page/**/features2/**/*.md',
-            }
-        },
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'LogosMain',
-                path: './content/page/**/logos/main/*.md',
-            }
-        },
-
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -108,32 +97,15 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'Cta2',
-                path: './content/page/**/cta2/*.md',
+                typeName: 'SignUp',
+                path: './content/page/**/signup/*.md',
             }
         },
-
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'Cta3',
-                path: './content/page/**/cta3/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Cta4',
-                path: './content/page/**/cta4/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Cta5',
-                path: './content/page/**/cta5/*.md',
+                typeName: 'About',
+                path: './content/about/**/*.md',
             }
         },
 
@@ -153,20 +125,35 @@ module.exports = {
             }
         },
 
-
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'BrandPanel',
-                path: './content/page/**/brandPanel/*.md',
+                typeName: 'Roadmap',
+                path: './content/page/**/roadmap/*.md',
             }
         },
 
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'BrandPanel2',
-                path: './content/page/**/brandPanel2/*.md',
+                typeName: 'PricingPlans',
+                path: './content/page/**/pricing_plans/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Plans',
+                path: './content/page/**/withComparisonTable/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'BrandPanel',
+                path: './content/page/**/brandPanel/*.md',
             }
         },
 
@@ -181,218 +168,33 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'PartenershipsMain',
-                path: './content/page/**/partenerships/main/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Partenerships',
-                path: './content/page/**/partenerships/**/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'VideoPanel',
-                path: './content/page/**/videoPanel/*.md',
-            }
-        },
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Stats',
-                path: './content/page/**/stats/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Blogs',
-                path: './content/page/**/blogs/**/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'BlogsMain',
-                path: './content/page/**/blogs/main/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'FAQMain',
-                path: './content/page/**/faq/main/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'FAQContent',
-                path: './content/page/**/faq/**/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Jobs',
-                path: './content/page/careers/jobs/**/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'JobsMain',
-                path: './content/page/**/jobs/main/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'CustomCTA',
-                path: './content/page/**/customCTA/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'PageHeader',
-                path: './content/page/**/pageHeader/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Card',
-                path: './content/page/**/card/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Carousel',
-                path: './content/page/**/carousel/**/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'CarouselMain',
-                path: './content/page/**/carousel/main/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'TftUsesMain',
-                path: './content/page/**/tftUses/main/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'TftUses',
-                path: './content/page/**/tftUses/**/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'FarmingProcessMain',
-                path: './content/page/**/farmingProcess/main/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'FarmingProcess',
-                path: './content/page/**/farmingProcess/**/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'CultivationProcessMain',
-                path: './content/page/**/cultivationProcess/main/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'CultivationProcess',
-                path: './content/page/**/cultivationProcess/**/*.md',
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
+                    cards: 'Card',
+                    slides: 'Slide',
                     contactData: 'Contact',
                     header: 'Header',
-                    header2: 'Header2',
-                    header3: 'Header3',
-                    header4: 'Header4',
-                    productsMain: 'ProductMain',
+                    howItWorks: 'HowItWorks',
+                    howItWorksMain: 'HowItWorks',
+                    productsMain: 'ProductTitle',
                     productData: 'Product',
-                    featuresMain2: 'FeaturesMain2',
-                    features2: 'Features2',
+                    featuresMain: 'Features',
+                    features: 'Features',
                     logos: 'Logo',
-                    logosMain: 'LogosMain',
                     cta: 'Cta',
-                    cta2: 'Cta2',
-                    cta3: 'Cta3',
-                    cta4: 'Cta4',
-                    cta5: 'Cta5',
+                    signup: 'SignUp',
                     comparisonMain: 'ComparisonMain',
                     comparisonSecs: 'Comparison',
-                    jobsMain: 'JobsMain',
+                    howItWorksMain_2: 'HowItWorks_2',
+                    howItWorks_2: 'HowItWorks_2',
+                    roadmap: 'Roadmap',
+                    pricing_plansMain: 'PricingPlans',
+                    pricingPlans: 'PricingPlans',
+                    plans: 'Plans',
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
-                    brandPanel2: 'BrandPanel2',
-                    partenershipsMain: 'PartenershipsMain',
-                    partnerships: 'Partenerships',
-                    stats: 'Stats',
-                    videoPanel: 'VideoPanel',
-                    blogs: 'Blogs',
-                    BlogsMain: "BlogsMain",
-                    faqMain: 'FAQMain',
-                    faqContent: 'FAQContent',
-                    jobs: 'Jobs',
-                    customCTA: 'CustomCTA',
-                    pageHeader: 'PageHeader',
-                    card: 'Card',
-                    carousel: 'Carousel',
-                    sliderMain: 'CarouselMain',
-                    useTftMain: 'TftUsesMain',
-                    tftUses: 'TftUses',
-                    farmingMain: 'FarmingProcessMain',
-                    farmingProcess: 'FarmingProcess',
-                    cultivationMain: 'CultivationProcessMain',
-                    cultivationProcess: 'CultivationProcess'
+                    allSlides: 'About'
                 }
             }
         },
@@ -429,14 +231,6 @@ module.exports = {
                     },
                     projects: 'Project'
                 },
-            }
-        },
-
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'Job',
-                path: './content/page/careers/job/**/*.md',
             }
         },
         {
@@ -517,6 +311,45 @@ module.exports = {
                 shouldPurgeUnusedKeyframes: true,
             }
         },
+
+        // Full Text search
+        {
+            use: 'gridsome-plugin-flexsearch',
+            options: {
+                searchFields: ['title', 'name', 'content', 'status', 'linkedin', 'excerpt', 'cities', 'countries', 'websites'],
+                collections: [{
+                        typeName: 'Blog',
+                        indexName: 'Blog',
+                        fields: ['path']
+                    },
+
+                    {
+                        typeName: 'Project',
+                        indexName: 'Project',
+                        fields: ['path']
+                    },
+
+                    {
+                        typeName: 'Person',
+                        indexName: 'Person',
+                        fields: ['path']
+                    },
+
+                    {
+                        typeName: 'News',
+                        indexName: 'News',
+                        fields: ['path']
+                    },
+
+                    {
+                        typeName: 'MarkdownPage',
+                        indexName: 'MarkdownPage',
+                        fields: ['path']
+                    },
+
+                ]
+            }
+        },
         {
             use: 'gridsome-plugin-matomo',
             options: {
@@ -551,7 +384,7 @@ module.exports = {
         }],
 
         Membership: [{
-            path: '/people/memberships/:id',
+            path: '/team/memberships/:id',
             component: '~/templates/Membership.vue'
         }],
 
@@ -566,21 +399,17 @@ module.exports = {
         }],
 
         Person: [{
-            path: '/people/:id',
+            path: '/team/:id',
             component: '~/templates/Person.vue'
         }],
         PersonTag: [{
-            path: '/people/tags/:id',
+            path: '/team/tags/:id',
             component: '~/templates/Tag.vue'
         }],
 
         Project: [{
             path: '/partners/:id',
             component: '~/templates/Project.vue'
-        }],
-        Job: [{
-            path: '/careers/:id',
-            component: '~/templates/Job.vue'
         }],
     },
 
@@ -590,23 +419,21 @@ module.exports = {
             externalLinksTarget: '_blank',
             externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
             anchorClassName: 'icon icon-link',
-
-            pathPrefix: "threefold",
             plugins: [
                 ['gridsome-plugin-remark-prismjs-all', {
-                    highlightClassName: "gridsome-highlight",
-                    codeTitleClassName: "gridsome-code-title",
-                    classPrefix: 'language-',
-                    aliases: {},
-                    noInlineHighlight: false,
-                    showLineNumbers: false, //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
-                    languageExtensions: [],
-                    prompt: { //  `require("prismjs/plugins/command-line/prism-command-line.css");`
-                        user: `root`,
-                        host: `localhost`,
-                        global: false,
-                    }
-                },
+                        highlightClassName: "gridsome-highlight",
+                        codeTitleClassName: "gridsome-code-title",
+                        classPrefix: 'language-',
+                        aliases: {},
+                        noInlineHighlight: false,
+                        showLineNumbers: false, //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
+                        languageExtensions: [],
+                        prompt: { //  `require("prismjs/plugins/command-line/prism-command-line.css");`
+                            user: `root`,
+                            host: `localhost`,
+                            global: false,
+                        }
+                    },
                     // '@noxify/gridsome-remark-table-align', ['@noxify/gridsome-remark-classes', {
                     //     'table': 'table table-striped',
                     //     'tableCell[align=center]': 'text-center',

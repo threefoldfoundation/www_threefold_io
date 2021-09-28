@@ -60,7 +60,7 @@ query ($private: Int){
     }
   }
 
-  people: allPerson(filter: { private: { ne: $private }}) {   
+  people: allPerson(filter: { private: { ne: $private }, memberships: { id: {in: ["foundation", "tech"]}}}) {   
      edges {
       node {
         id
@@ -69,11 +69,11 @@ query ($private: Int){
         content
         name
         rank
-      #   memberships{
-      #    id
-      #    title
-      #    path
-      #  }
+         memberships{
+          id
+          title
+          path
+        }
         bio
         linkedin
         websites

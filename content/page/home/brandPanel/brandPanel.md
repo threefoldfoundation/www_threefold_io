@@ -1,14 +1,10 @@
 ---
-id: fix_internet
-title: Join the ThreeFold Community
+id: brand_panel
+title: IF NOT NOW, WHEN? IF NOT US, WHO?
 subtitle: ''
-sourceUrl: https://t.me/threefold
-btnTxt: Join the Community
-image: token_header.png # src/assets/brandPanel/..
+sourceUrl: https://farming.threefold.io/team #link for button
+btnTxt: Meet Us
+image: teamcollage.png # Please add image in src/assets/brandPanel/
 ---
 
-* Become a part of a collaborative community
-* Earn income for connecting sovereign capacity
-* Regenerate our planet with every sale and purchase
-* Reserve capacity without any intermediaries
-* Receive grants for regenerative initiatives
+We believe in digital freedom, equal opportunities for all, and sustainable solutions for our planet. We are building a new internet that serves people and our planet.

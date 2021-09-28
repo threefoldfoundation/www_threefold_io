@@ -1,9 +1,9 @@
 <template>
   <div class="bg-white">
-    <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-2">
+    <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div
         v-html="news.content"
-        class="text-center text-4xl font-semibold leading-tight font-heading"
+        class="text-center text-base leading-6 font-semibold uppercase text-gray-600 tracking-wider"
       ></div>
       <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         <g-link
@@ -11,9 +11,9 @@
           :key="partner.id"
           :to="partner.path"
           target="_blank"
-          class="col-span-1 flex justify-center m-1 bg-gray-100"
+          class="col-span-1 flex justify-center py-8 px-8 m-1 bg-gray-100"
         >
-          <img :src="img(partner.logo)" />
+          <img class="max-h-12" :src="img(partner.logo)" />
         </g-link>
       </div>
     </div>

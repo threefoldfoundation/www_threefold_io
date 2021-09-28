@@ -1,17 +1,15 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <TagFilterHeader
-      :tags="memberships"
-      :selected="$page.membership.title"
-      v-if="$page.allMembership.edges.length > 1"
-    />
+    <TagFilterHeader :tags="memberships" :selected="$page.membership.title" v-if="$page.allMembership.edges.length > 1"/>
     <div class="container sm:pxi-0 mx-auto mt-8 overflow-x-hidden">
       <div class="mx-4 sm:mx-0">
         <h1 class="pb-0 mb-0 text-5xl font-medium capitalize">
-          {{ $page.membership.title.replace("_", " ") }}
+          {{ $page.membership.title }}
         </h1>
         <p class="text-gray-700 text-xl">
-          <span class="self-center">{{ items.length }} People</span>
+          <span class="self-center"
+            >{{ $page.membership.belongsTo.totalCount }} People</span
+          >
         </p>
       </div>
 
@@ -19,10 +17,9 @@
 
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
-          :showtags="true"
-          v-for="item in items"
-          :key="item.id"
-          :record="item"
+          v-for="edge in $page.membership.belongsTo.edges"
+          :key="edge.node.id"
+          :record="edge.node"
         />
       </div>
     </div>
@@ -56,14 +53,13 @@
               cities
               private
               image
-              category
             }
           }
         }
       }
     }  
 
-    allMembership(filter: {title: {in: ["cofounders", "tech", "foundation", "ambassadors", "matchmakers", "farmers", "aci_members", "partners", "wisdom_council", "technology_council", "grid_guardians"]}}){
+    allMembership(filter: {title: {in: ["foundation", "tech"]}}){
      edges{
       node{
         id
@@ -88,19 +84,11 @@ export default {
 
   computed: {
     memberships() {
-      var res = [{ title: "All", path: "/people" }];
+      var res = [{ title: "All", path: "/team" }];
       this.$page.allMembership.edges.forEach((edge) =>
         res.push({ title: edge.node.title, path: edge.node.path })
       );
       return res;
-    },
-    items() {
-      let foundationItems = [];
-      this.$page.membership.belongsTo.edges.map((edge) => {
-        if (edge.node.category.includes("foundation"))
-          foundationItems.push(edge.node);
-      });
-      return foundationItems;
     },
   },
 

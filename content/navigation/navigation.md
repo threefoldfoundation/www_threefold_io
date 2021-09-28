@@ -1,213 +1,46 @@
 ---
 id: navigation
 navLinks:
-  - name: Why
-    link: /why
+  - name: Page1
+    link: /page1
     external: false
     expandable: false
 
-  - name: Token
-    link: ""
+  - name: Dropdown
+    link: /dropdown
     external: false
-    expandable: true
+    expandable: false
     submenu:
-      - title: Token Introduction
-        path: /token
-      - title: Buy TFT
-        path: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
-        external: true
-      - title: Tokenomics
-        path: https://library.threefold.me/info/tfgrid/#/tokens/tokenomics
-        external: true
-      - title: Distribution
-        path: https://library.threefold.me/info/threefold#/threefold__token_overview
-        external: true
-      - title: FAQ / Forum
-        path: https://forum.threefold.io/c/threefold-token/tft-faq/57
-        external: true
-  
-  - name: Farming
-    link: "" # /dropdown
-    external: false
-    expandable: true
-    submenu:
-      - title: Grid Introduction
-        path: https://threefold.io/farming/
-        external: true
-      - title: Start Farming
-        path: https://threefold.io/farming/farming
-        external: true
-      - title: Get a 3Node
-        path: https://threefold.io/farming/get_3node
-        external: true
-      - title: FAQ / Forum
-        path: https://forum.threefold.io/c/farming/farming-faq/53
-        external: true
-      - title: Explorer
-        path: https://explorer.threefold.io/
-        external: true            
-  
-  - name: Use
-    link: "https://cloud.threefold.io/"
-    external: true
-    expandable: true
-    submenu:
-      - title: Partners
-        path: /partners    
-      - title: Cloud
-        path: https://cloud.threefold.io
-        external: true      
-      - title: Marketplace
-        path: https://threefold.io/marketplace
-        external: true
-      - title: Digital Twin
-        path: https://mydigitaltwin.io/
-        external: true
-      - title: Developers (SDK)
-        path: https://library.threefold.me/info/sdk/
-        external: true
-      # - title: Kubernetes Cloud
-      #   path: https://library.threefold.me/info/cloud#/cloud__evdc
-      #   external: true
-      # - title: Quantum-Safe Storage
-      #   path: https://library.threefold.me/info/cloud#/cloud__threefold_filesystem
-      #   external: true
+      - title: Page2
+        path: /page2
 
-  # - name: Partners
-  #   link: "/partners" # /dropdown
-  #   external: false
-  #   expandable: false
+      - title: Page3
+        path: /page3
 
-  - name: Technology
-    link: "" # /dropdown
+  - name: People
+    link: /people
     external: false
-    expandable: true
-    submenu:
-      - title: Grid Technology
-        path: https://library.threefold.me/info/tfgrid/#/technology/tfgrid_primitives
-        external: true
-      - title: Zero-OS
-        path: https://library.threefold.me/info/threefold#/internet4__tfgrid_primitives
-        external: true
-      - title: Smart Contract for IT
-        path: https://library.threefold.me/info/threefold#/internet4__smartcontract_it
-        external: true
-      - title: P2P Network
-        path: https://library.threefold.me/info/threefold#/internet4__planetary_network
-        external: true
-      - title: Web2 vs Web3 vs P2P
-        path: https://library.threefold.me/info/cloud/#/cloudcompare/cloud_compare.md
-        external: true
-      - title: FAQ / Forum
-        path: https://forum.threefold.io/c/technical-discussion/technical-faq/55
-        external: true
+    expandable: 
 
-  - name: Community
-    link: "" # /dropdown
+  - name: More
+    link: /more
     external: false
-    expandable: true
+    expandable: false
     submenu:
-      - title: Partners
-        path: /partners
-      - title: People
-        path: /people
-      - title: Alliance
-        path: /aci
-        external: true
-      - title: Telegram
-        path: https://t.me/threefoldnews
-        external: true        
-
-  - name: More Info
-    link: "" # /dropdown
-    external: false
-    expandable: true
-    submenu:
-      - title: KnowledgeBase
-        path: https://library.threefold.me/info/tfgrid
-        external: true         
-      - title: Blog
-        path: /blog
       - title: NewsRoom
         path: /news
-      - title: Explorer
-        path: https://explorer.threefold.io/
+
+      - title: Blog
+        path: /blog
+
+      - title: Community
+        path: https://forums.threefold.io/
         external: true
-      - title: Support
-        path: /support
-        external: false
-      - title: Careers
-        path: /careers
-        external: false
 
 social:
   - icon: telegram-plane
-    link: "https://t.me/threefoldnews"
+    link: '' #telegaram link
+
+  - icon: linkedin
+    link: '' #linkedin link
 ---
-
-
-
-<!--   - name: PARTICIPATE
-    link: /universe 
-    external: false
-    expandable: false
-    submenu:
-      - title: Start Farming
-        path: /farming
-        external: true
-
-      - title: Get a 3Node
-        path: /farming/get_3node
-        external: true
-
-      - title: Buy the Token
-        path: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
-
-      - title: Test the Cloud
-        path: /cloud
-        external: true
-
-      - title: Try the Marketplace
-        path: /marketplace
-        external: true
-
-      - title: Build with the SDK
-        path: /info/sdk
-        external: true -->
-
-
-
-<!--   - name: TF Universe
-    link: "" # /dropdown
-    external: false
-    expandable: true
-    submenu:
-      - title: Universe Home
-        path: /universe
-
-      - title: ThreeFold Farming
-        path: /farming
-        external: true
-
-      - title: ThreeFold Token
-        path: /token
-
-      - title: ThreeFold Kube Cloud
-        path: /cloud
-        external: true
-
-      - title: ThreeFold Marketplace
-        path: /marketplace
-        external: true
-
-      - title: Digital Twin
-        path: https://mydigitaltwin.io
-        external: true
-
-      - title: Conscious Internet
-        path: /aci
-        external: true
-
-      - title: ThreeFold Tech
-        path: https://threefold.tech
-        external: true -->

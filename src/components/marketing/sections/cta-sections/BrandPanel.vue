@@ -1,191 +1,15 @@
 <template>
-  <div class="">
-    <div class="max-w-screen-xl mx-auto py-10">
-      <!-- token -->
+  <div class="bg-white">
+    <div class="max-w-screen-xl mx-auto py-16">
       <div
-        v-if="id == 'token'"
-        class="
-          brandpanel
-          rounded-lg
-          shadow-xl
-          overflow-hidden
-          lg:grid lg:grid-cols-2
-          lg:gap-4
-        "
+        class="brandpanel rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4"
       >
-        <div class="relative pb-3/5 -mt-6 md:pb-1/2">
-          <g-image
-            class="
-              absolute
-              brandpanel
-              inset-0
-              w-full
-              h-full
-              translate-x-0 translate-y-center
-              rounded-md
-              object-fill object-left-top
-              sm:translate-x-0
-              lg:translate-y-20
-            "
-            :src="image"
-            :alt="brand.title"
-          />
-        </div>
         <div
-          class="
-            pt-10
-            pb-10
-            px-6
-            sm:pt-16
-            sm:px-10
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
-          "
+          class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
         >
           <div class="lg:self-center">
             <h2
-              class="
-                text-4xl
-                mb-2
-                uppercase
-                leading-tight
-                font-semibold font-heading
-              "
-            >
-              <span class="block">{{ brand.title }}</span>
-              <span class="block" v-if="brand.subtitle">{{
-                brand.subtitle
-              }}</span>
-            </h2>
-            <div class="py-6 mt-4 text-gray-600" v-html="brand.content"></div>
-            <a
-              v-if="brand.btnTxt"
-              target="_blank"
-              :href="brand.sourceUrl"
-              class="
-                bg-blue-900
-                text-sm
-                learn-button
-                hover:bg-blue-800
-                text-white
-                px-12
-                py-2
-                mr-3
-                shadow
-                rounded-full
-              "
-              >{{ brand.btnTxt }}</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <!-- why -->
-      <div
-        v-else-if="id == 'why'"
-        class="
-          whybrand
-          brandpanel
-          rounded-lg
-          shadow-xl
-          overflow-hidden
-          lg:grid lg:grid-cols-2
-          lg:gap-4
-        "
-      >
-        <div
-          class="
-            pt-10
-            pb-12
-            px-6
-            sm:pt-16
-            sm:px-16
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
-          "
-        >
-          <div class="lg:self-center text-center">
-            <h2
-              class="
-                text-4xl
-                mb-2
-                uppercase
-                leading-tight
-                font-semibold font-heading
-              "
-            >
-              <span class="block">{{ brand.title }}</span>
-              <span class="block" v-if="brand.subtitle">{{
-                brand.subtitle
-              }}</span>
-            </h2>
-            <div class="py-6 mt-4 mx-4 text-black" v-html="brand.content"></div>
-            <a
-              :href="brand.sourceUrl"
-              class="
-                bg-gray-700
-                text-sm
-                learn-button
-                hover:bg-57EEF8-400
-                text-white
-                px-12
-                py-2
-                mr-3
-                shadow
-                rounded-full
-              "
-              >{{ brand.btnTxt }}</a
-            >
-          </div>
-        </div>
-        <div class="relative pb-3/5 -mt-6 md:pb-1/2">
-          <g-image
-            class="
-              absolute
-              brandpanel
-              inset-0
-              w-full
-              h-full
-              transform
-              translate-x-0 translate-y-6
-              rounded-md
-              object-fill object-left-top
-              sm:translate-x-0
-              lg:translate-y-20
-            "
-            :src="image"
-            :alt="brand.title"
-          />
-        </div>
-      </div>
-
-      <!-- home -->
-      <div v-else-if="id == 'home'" class="brandpanel lg:grid lg:grid-cols-2">
-        <div
-          class="
-            py-12
-            px-6
-            sm:pt-16
-            sm:px-16
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
-          "
-        >
-          <div class="lg:self-center">
-            <h2
-              class="
-                text-4xl
-                leading-tight
-                mb-6
-                font-bold font-heading
-                uppercase
-              "
+              class="text-3xl leading-9 font-extrabold text-white sm:text-3xl sm:leading-10"
             >
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
@@ -193,218 +17,19 @@
               }}</span>
             </h2>
             <div
-              class="mt-4 mx-4 mb-10 text-black"
+              class="py-6 mt-4 text-lg leading-6 text-white"
               v-html="brand.content"
             ></div>
-            <a
-              v-if="brand.sourceUrl.includes('http')"
-              :href="brand.sourceUrl"
-              target="_blank"
-              class="
-                bg-teal-300
-                text-sm
-                learn-button
-                hover:bg-57EEF8-400
-                text-gray-900
-                px-12
-                py-2
-                mr-3
-                shadow
-                rounded-full
-              "
-              >{{ brand.btnTxt }}</a
-            >
-            <a
-              v-else
-              :href="brand.sourceUrl"
-              class="
-                bg-teal-300
-                text-sm
-                learn-button
-                hover:bg-57EEF8-400
-                text-gray-900
-                px-12
-                py-2
-                mr-3
-                shadow
-                rounded-full
-              "
-              >{{ brand.btnTxt }}</a
-            >
-          </div>
-        </div>
-        <div class="relative -mt-6">
-          <g-image
-            class="relative brandpanel inset-0 transform rounded-md object-fill"
-            :src="image"
-            :alt="brand.title"
-          />
-        </div>
-      </div>
-
-      <!-- tft -->
-      <div
-        v-else-if="id == 'tft' && !diveInto"
-        class="flex flex-wrap text-center tft_section lg:text-left "
-        
-      >
-        <div class="lg:w-1/2 px-2 self-center">
-          <g-image
-            
-            :src="image"
-            :alt="brand.title"
-          />
-        </div>
-        <div
-          class="
-            lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-center
-          "
-        >
-          <div class="lg:self-center">
-            <h2
-              class="
-                text-6xl mb-6 uppercase leading-none font-heading
-              "
-            >
-              <span class="block">{{ brand.title }}</span>
-              <span class="block" v-if="brand.subtitle">{{
-                brand.subtitle
-              }}</span>
-            </h2>
-            <div class="py-6 mt-4 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
-            <a
-              v-if="brand.btnTxt"
-              target="_blank"
-              :href="brand.sourceUrl"
-              class="
-                bg-blue-900
-                text-sm
-                learn-button
-                hover:bg-blue-800
-                text-white
-                px-12
-                py-2
-                mr-3
-                shadow
-                rounded-full
-              "
-              >{{ brand.btnTxt }}</a
-            >
-          </div>
-        </div>
-      </div>
-
-        <div
-        v-else-if="id == 'tft' && diveInto"
-        class="flex flex-wrap tft_section lg:text-left lg:pt-16 px-4 "
-        
-      >
-        <div class="lg:w-1/2 px-2 self-center">
-          <g-image
-            
-            :src="image"
-            :alt="brand.title"
-          />
-        </div>
-        <div
-          class="
-            lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none
-          "
-        >
-          <div class="lg:self-center">
-            <h2
-              class="
-                text-6xl mb-8 uppercase leading-none font-heading
-              "
-            >
-              <span class="block">{{ brand.title }}</span>
-              <span class="block" v-if="brand.subtitle">{{
-                brand.subtitle
-              }}</span>
-            </h2>
-            <div class="pb-6 text-gray-900 text-2xl leading-tight tft_subtitle tracking-wide" v-html="brand.content"></div>
-            <a
-              v-if="brand.btnTxt"
-              target="_blank"
-              :href="brand.sourceUrl"
-              class="
-                inline-block
-              bg-gray-900
-              text-2xl
-              learn-button
-              hover:bg-gray-800
-              text-gray-100
-              px-16
-              py-1
-              mb-4
-              shadow
-              rounded-full
-              tft_subtitle
-              tracking-widev
-              "
-              >{{ brand.btnTxt }}</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <div
-        v-else
-        class="
-          brandpanel
-          bg-gray-900
-          rounded-lg
-          shadow-xl
-          overflow-hidden
-          lg:grid lg:grid-cols-2
-          lg:gap-4
-        "
-      >
-        <div
-          class="
-            pt-10
-            pb-12
-            px-6
-            sm:pt-16
-            sm:px-16
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
-          "
-        >
-          <div class="lg:self-center">
-            <h2
-              class="text-3xl leading-9 font-extrabold text-white sm:leading-10"
-            >
-              <span class="block">{{ brand.title }}</span>
-              <span class="block" v-if="brand.subtitle">{{
-                brand.subtitle
-              }}</span>
-            </h2>
-            <div class="py-6 mt-4 mx-4 text-white" v-html="brand.content"></div>
-            <!-- <a
-              :href="brand.sourceUrl"
+            <g-link
+              :to="brand.sourceUrl"
               class="bg-teal-300 text-sm learn-button hover:bg-57EEF8-400 text-gray-900 px-12 py-2 mr-3 rounded shadow rounded-full"
-              >{{ brand.btnTxt }}</a
-            > -->
+              >{{ brand.btnTxt }}</g-link
+            >
           </div>
         </div>
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">
           <g-image
-            class="
-              absolute
-              brandpanel
-              inset-0
-              w-full
-              h-full
-              transform
-              translate-x-0 translate-y-6
-              rounded-md
-              object-fill object-left-top
-              sm:translate-x-0
-              lg:translate-y-20
-            "
+            class="absolute brandpanel inset-0 w-full h-full transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
             :src="image"
             :alt="brand.title"
           />
@@ -416,7 +41,7 @@
 
 <script>
 export default {
-  props: ["brand", "id" , "diveInto"],
+  props: ["brand"],
   computed: {
     image() {
       return this.brand.image.src
@@ -426,9 +51,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.whybrand {
-  background-image: linear-gradient(#c2aeef, #82f3fe);
-}
-</style>

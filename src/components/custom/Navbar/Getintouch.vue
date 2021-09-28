@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 gap-16">
         <div class="lg:grid lg:grid-cols-3 lg:gap-8">
           <h2 class="text-4xl mb-6 leading-tight font-semibold font-heading">
-            E-mail us
+            Get in touch
           </h2>
           <div
             class="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2"

@@ -1,8 +1,6 @@
 ---
-id: sustainable
-svg: ./sustainable.png
-title: IT IS SUSTAINABLE
-link:
+id: section3
+svg: ./sustainability.png
+title: ''
 ---
 
-We must rethink our resource consumption if we want to save our planet.

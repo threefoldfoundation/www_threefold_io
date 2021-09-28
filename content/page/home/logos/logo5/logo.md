@@ -1,5 +1,5 @@
 ---
 id: logo5
-image: ./dash.png
-url: /partners/dash
+image: ./green_edge.png
+url: https://farming.threefold.io/partners/green_edge
 ---

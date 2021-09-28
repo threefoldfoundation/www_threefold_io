@@ -1,5 +1,5 @@
 ---
 id: logo4
-image: ./skale.png
-url: /partners/skale_labs
+image: ./flowgen.png
+url: https://farming.threefold.io/partners/flowgen
 ---

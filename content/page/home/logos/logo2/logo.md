@@ -1,5 +1,5 @@
 ---
 id: logo2
-image: ./harmony.png
-url: /partners/harmony
+image: ./solidaridad.png
+url: https://farming.threefold.io/partners/solidaridad
 ---

@@ -1,5 +1,5 @@
 ---
 id: logo6
-image: ./presearch.png
-url: /partners/presearch
+image: ./digibyte.png
+url: https://farming.threefold.io/partners/digibyte
 ---

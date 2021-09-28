@@ -1,5 +1,5 @@
 ---
 id: logo3
-image: ./casper_labs.png
-url: /partners/casperlabs
+image: ./kleos.png
+url: https://farming.threefold.io/partners/kleos
 ---

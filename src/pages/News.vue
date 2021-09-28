@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <!-- <NewsFilterHeader
+    <NewsFilterHeader
       @selectedTopic="setTopic"
       @selectedYear="setYear"
       @selectedMonth="setMonth"
@@ -8,47 +8,22 @@
       :topics="topics"
       :years="years"
       :months="months"
-    /> -->
+    />
 
     <div
       class="container sm:pxi-0 mx-auto overflow-hidden"
       :style="{ 'min-height': contentHeight + 'px' }"
     >
-      <div class="flex my-5">
-        <FilterDropdown
-          class="xs:w-2/3"
-          @selectedTopic="setTopic"
-          :topics="topics"
-        />
-        <SearchBox class="xs:w-1/3" v-model="search" />
-      </div>
-
-      <div v-if="search !== ''">
-        <div v-if="searchResults.length > 0">
-          <div class="flex flex-wrap news pt-12 pb-8 mt-8 mx-4 sm:-mx-4">
-            <PostListItem
-              v-for="post in searchResults"
-              :key="post.node.id"
-              :record="post.node"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div v-else class="flex flex-wrap news pt-12 mt-8 pb-8 mx-4 sm:-mx-4">
+      <div class="flex flex-wrap news pt-12 mt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
+          :showtags="true"
           v-for="edge in news.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
       </div>
-      <div
-        class="text-center"
-        v-if="news.edges.length == 0 || searchResults.length == 0"
-      >
-        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">
-          Your search didn't return any results. Please try again.
-        </h2>
+      <div class="text-center" v-if="news.edges.length == 0">
+        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">No results</h2>
       </div>
     </div>
     <div class="pagination flex justify-center mb-8">
@@ -57,7 +32,7 @@
         :currentPage="$page.entries.pageInfo.currentPage"
         :totalPages="$page.entries.pageInfo.totalPages"
         :maxVisibleButtons="5"
-        v-if="searchResults.length > 7 && news.edges.length > 7"
+        v-if="$page.entries.pageInfo.totalPages > 1 && news.edges.length > 0"
       />
     </div>
   </Layout>
@@ -65,7 +40,7 @@
 
 <page-query>
 query($page: Int){
-  entries: allNews(perPage: 10, page: $page, sortBy: "created", order: DESC, filter: {category: { contains: ["foundation"]}}) @paginate{
+  entries: allNews(perPage: 10, page: $page, sortBy: "created", order: DESC, filter: {category: { id: {in: ["tech", "foundation"]}}}) @paginate{
     totalCount
     pageInfo {
       totalPages
@@ -91,12 +66,8 @@ query($page: Int){
       }
     }
   }
-  markdownPage(id: "home") {
-        id
-        metaImg
-  }
 
-  topics:  allNewsTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}) {
+  topics:  allNewsTag {
     edges{
       node{
 				title        
@@ -111,8 +82,7 @@ query($page: Int){
 import NewsFilterHeader from "~/components/custom/NewsFilterHeader.vue";
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
 import Pagination from "~/components/custom/Pagination.vue";
-import SearchBox from "~/components/custom/SearchBox.vue";
-import FilterDropdown from "~/components/custom/FilterDropdown.vue";
+
 export default {
   data() {
     const allMonths = [
@@ -136,66 +106,23 @@ export default {
     r.forEach((year) => years.push(String(year)));
 
     return {
-      selectedTopic: "Popular Topics",
+      selectedTopic: "All Topics",
       selectedYear: "All Years",
       selectedMonth: "All Months",
       months: allMonths,
       years: years,
       listArchive: false,
       archiveButtonText: "Archive",
-      search: "",
     };
   },
 
-  metaInfo() {
-    return {
-      title: "",
-      titleTemplate: "ThreeFold | News",
-      meta: [
-        {
-          key: "description",
-          name: "description",
-          content: "Updates and announcements from the ThreeFold Foundation.",
-        },
-        {
-          key: "og:title",
-          property: "og:title",
-          content: "ThreeFold | News",
-        },
-        {
-          key: "og:description",
-          property: "og:description",
-          content: "Updates and announcements from the ThreeFold Foundation.",
-        },
-        {
-          key: "og:image",
-          property: "og:image",
-          content: this.getImg,
-        },
-        {
-          key: "twitter:description",
-          name: "twitter:description",
-          content: "Updates and announcements from the ThreeFold Foundation.",
-        },
-        {
-          key: "twitter:image",
-          property: "twitter:image",
-          content: this.getImg,
-        },
-        {
-          key: "twitter:title",
-          property: "twitter:title",
-          content: "ThreeFold | News",
-        },
-      ],
-    };
+  metaInfo: {
+    title: "Newsroom",
   },
   components: {
     PostListItem,
     Pagination,
     NewsFilterHeader,
-    SearchBox,
-    FilterDropdown,
   },
   methods: {
     setTopic: function (topic) {
@@ -208,7 +135,7 @@ export default {
       this.selectedMonth = month;
     },
     resetAll() {
-      this.selectedTopic = "Popular Topics";
+      this.selectedTopic = "All Topics";
       this.selectedYear = "All Years";
       this.selectedMonth = "All Months";
     },
@@ -275,7 +202,7 @@ export default {
   },
   computed: {
     topics: function () {
-      var res = ["Popular Topics"];
+      var res = ["All Topics"];
       this.$page.topics.edges.forEach((edge) => res.push(edge.node.title));
       return res;
     },
@@ -307,7 +234,7 @@ export default {
         // if (!selected) continue;
 
         // Now check topic
-        var topics = ["Popular Topics"];
+        var topics = ["All Topics"];
         node.tags.forEach((tag) => topics.push(tag.title));
 
         if (!topics.includes(this.selectedTopic)) continue;
@@ -328,20 +255,6 @@ export default {
       if (process.isClient) {
         return window.innerHeight - 570;
       }
-    },
-    getImg() {
-      let img = "";
-      if (process.isClient) {
-        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
-      }
-      return img;
-    },
-    searchResults() {
-      return this.$page.entries.edges.filter((post) => {
-        return post.node.excerpt
-          .toLowerCase()
-          .includes(this.search.toLowerCase().trim());
-      });
     },
   },
 };

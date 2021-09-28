@@ -1,10 +1,13 @@
 
-# ThreeFold main website
+# This is ThreeFold umbrella website
 
-### Follow working board on Circles tool: https://circles.threefold.me/project/despiegk-product_web_threefold/wiki/home
+### how to get started
 
-If you have any input, a cool idea, or would like to see additions feel free to list an issue [HERE](https://github.com/threefoldfoundation/www_threefold_io/issues/new), or on Circles tool (**mandatory for internal team**) and we'll make sure to try and get it in there.
+see [getting started doc](https://github.com/threefoldfoundation/www_examplesite/blob/development/manual/install.md)
 
-If you have questions or need any support please visit [our website](https://www.threefold.io) and use the chat function (blue chat bubble) on the bottom right corneror 'Support' function in the [ThreeFold Connect app](https://library.threefold.me/info/threefold#/threefold__threefold_connect).
+### contribute
 
-Enjoy exploring our websites! 🙂
+see [best practices](https://github.com/threefoldfoundation/www_examplesite/blob/development/manual/contribute.md)
+
+> please make sure you work in line with instructions above
+

@@ -1,8 +1,5 @@
 ---
-id: private
-svg: ./private.png
-title: IT IS PRIVATE
-link:
+id: section1
+svg: ./privacy.png
+title: ''
 ---
-
-A tamper-proof experience that allows security to coexist with efficiency.
