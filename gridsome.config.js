@@ -181,6 +181,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'BrandPanel4',
+                path: './content/page/**/brandPanel4/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'InTheNews',
                 path: './content/page/**/InTheNews/*.md',
             }
@@ -254,6 +262,14 @@ module.exports = {
             options: {
                 typeName: 'Jobs',
                 path: './content/page/careers/jobs/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Info',
+                path: './content/page/how-it-works/info/**/*.md',
             }
         },
 
@@ -463,6 +479,7 @@ module.exports = {
                     brandPanel: 'BrandPanel',
                     brandPanel2: 'BrandPanel2',
                     brandPanel3: 'BrandPanel3',
+                    brandPanel4: 'BrandPanel4',
                     partenershipsMain: 'PartenershipsMain',
                     partnerships: 'Partenerships',
                     stats: 'Stats',
@@ -492,7 +509,8 @@ module.exports = {
                     networkMain: 'NetworkMain',
                     network: 'Network',
                     subscribe: 'Subscribe',
-                    team: 'Team'
+                    team: 'Team',
+                    info:'Info'
                 }
             }
         },
@@ -681,6 +699,10 @@ module.exports = {
         Job: [{
             path: '/careers/:id',
             component: '~/templates/Job.vue'
+        }],
+        Info: [{
+            path: '/how-it-works/:id',
+            component: '~/templates/Info.vue'
         }],
     },
 

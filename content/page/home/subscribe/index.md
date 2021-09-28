@@ -6,4 +6,4 @@ button: Subscribe
 link: '#'
 image: ./6.png
 ---
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aut sed libero ratione reprehenderit pariatur quae corrupti suscipit
+Stay informed and never miss a ThreeFold update.

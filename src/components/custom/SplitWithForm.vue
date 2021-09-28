@@ -15,15 +15,15 @@
           text-center
         "
       >
-        <h1
+        <h2
           class="
-            text-5xl uppercase mb-0 leading-tight font-semibold font-heading
+            lg:text-6xl uppercase mb-0 leading-tight font-semibold font-heading
           "
         >
           {{ subscribe.title }}
-        </h1>
+        </h2>
         <div
-          class="my-8 lg:text-xl"
+          class="my-8 lg:text-2xl"
           v-html="subscribe.content"
         ></div>
         <div class="flex w-full md:justify-start justify-center items-end">

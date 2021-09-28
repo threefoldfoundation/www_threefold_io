@@ -1,6 +1,6 @@
 ---
-id: zflist
+id: prod5
 title: ZFlist
 image: ./zflist.jpg
-link: '#'
+link: /how-it-works/zflist
 ---

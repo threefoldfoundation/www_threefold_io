@@ -4,7 +4,8 @@
       <Header
         v-if="
           $page.markdownPage.header_title &&
-          $page.markdownPage.header_title != ''
+          $page.markdownPage.header_title != '' &&
+          $page.markdownPage.id !== 'support'
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -32,6 +33,7 @@
         "
         :brandPanel2="true"
       />
+
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
@@ -40,8 +42,37 @@
         "
         :brandPanel3="true"
       />
+
+    
+
+      <CustomCTA
+        :header="true"
+        v-if="$page.markdownPage.pageHeader"
+        :image="$page.markdownPage.pageHeader.image"
+        :title="$page.markdownPage.pageHeader.title"
+      />
+
+    
     </div>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
+      <Header
+        v-if="
+          $page.markdownPage.id !== 'contact' &&
+          $page.markdownPage.header_title &&
+          $page.markdownPage.header_title != '' &&
+          $page.markdownPage.id !== 'about-us' &&
+          $page.markdownPage.id !== 'grid' &&
+          $page.markdownPage.id !== 'token'
+        "
+        :id="$page.markdownPage.id"
+        :title="$page.markdownPage.header_title"
+        :slogan="$page.markdownPage.header_slogan"
+        :image="$page.markdownPage.header_image"
+        :altImg="$page.markdownPage.header_altImg"
+        :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
+      />
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="
@@ -98,6 +129,15 @@
         "
         :cta="$page.markdownPage.cta"
       />
+
+          <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel4"
+        v-if="
+          $page.markdownPage.brandPanel4 && $page.markdownPage.id !== 'token'
+        "
+        :brandPanel4="true"
+      />
       <SplitWithImage
         v-if="$page.markdownPage.tft"
         :id="$page.markdownPage.id"
@@ -152,28 +192,15 @@
         :lastCta="true"
       />
     </div>
-    <!-- <g-image
+    <g-image
       v-if="
         $page.markdownPage.id !== 'careers' && $page.markdownPage.solution_image
       "
       class="mx-auto mt-10"
       :src="$page.markdownPage.solution_image.src"
-    /> -->
+    />
 
-    <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
-        :main="$page.markdownPage.logosMain"
-      />
-      <!-- <AppListItem
-        v-if="
-          $page.markdownPage.appData && $page.markdownPage.appData.length > 0
-        "
-        :products="$page.markdownPage.appData"
-        :main="$page.markdownPage.appsMain"
-      /> -->
+    <div class="container_tft sm:pxi-0 mx-auto py-5 overflow-visible">
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -183,8 +210,15 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
+      <AppListItem
+        v-if="
+          $page.markdownPage.appData && $page.markdownPage.appData.length > 0
+        "
+        :products="$page.markdownPage.appData"
+        :main="$page.markdownPage.appsMain"
+      />
 
-      <!-- <Partenerships
+      <Partenerships
         v-if="
           $page.markdownPage.partnerships &&
           $page.markdownPage.partnerships.length > 0
@@ -192,13 +226,13 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.partenershipsMain"
         :partnerships="$page.markdownPage.partnerships"
-      /> -->
+      />
 
-      <!-- <CenteredAccordion
+      <CenteredAccordion
         v-if="$page.markdownPage.faqContent && $page.markdownPage.id == 'faq'"
         :main="$page.markdownPage.faqMain"
         :faqs="$page.markdownPage.faqContent"
-      /> -->
+      />
 
       <!-- <ShowcaseProducts
         class="my-20"
@@ -210,59 +244,68 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       /> -->
-
-      <!-- <SolutionsHeader
+      <SolutionsHeader
         class="mt-0"
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
-      /> -->
-
-      <!-- <g-image
+      />
+      <g-image
         v-if="$page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
-      /> -->
-
-      <!-- <SolutionsHeader
+      />
+      <SolutionsHeader
         v-if="$page.markdownPage.header2"
         :header="$page.markdownPage.header2"
-      /> -->
+      />
 
-      <!-- <SolutionsHeader
+      <SolutionsHeader
         v-if="$page.markdownPage.header3"
         :header="$page.markdownPage.header3"
-      /> -->
+      />
 
-      <!-- <logoShowcase
+      <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
-      /> -->
+      />
 
-      <!-- <FourTiersWithToggle
+      <FourTiersWithToggle
         v-if="$page.markdownPage.jobs.length > 0"
         :pricingPlans="$page.markdownPage.jobs"
         :main="$page.markdownPage.jobsMain"
-      /> -->
+      />
 
-      <!-- <SolutionsHeader
+      <SolutionsHeader
         class="mt-0"
         v-if="$page.markdownPage.header4"
         :header="$page.markdownPage.header4"
-      /> -->
+      />
 
-      <!-- <GetInTouch
+      <GetInTouch
         v-if="
           $page.markdownPage.contactData &&
           $page.markdownPage.contactData.length > 0
         "
         :contacts="$page.markdownPage.contactData"
-      /> -->
+      />
 
-      <!-- <SignUp
+      <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
-      /> -->
+      />
+    </div>
+    <div
+      class="container-fluid mx-auto"
+      v-for="edge in $page.allCustomCta.edges"
+      :key="edge.node.id"
+    >
+      <CustomCTA
+        v-if="edge.node.id == $page.markdownPage.id"
+        :title="edge.node.title"
+        :link="edge.node.link"
+        :image="edge.node.image"
+      />
     </div>
   </Layout>
 </template>
@@ -347,6 +390,8 @@
         logosMain {
           id
           title
+          button
+          link
         }
         logos{
           id
@@ -406,9 +451,21 @@
          title
          btnTxt
          sourceUrl
+         btnTxt2
+         sourceUrl2
          content
          image
-       }         
+       } 
+        brandPanel4{
+         id
+         title
+         btnTxt
+         sourceUrl
+         btnTxt2
+         sourceUrl2
+         content
+         image
+       }                 
        partenershipsMain{
          id
          title

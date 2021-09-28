@@ -1,6 +1,6 @@
 ---
-id: zdbfs
+id: prod4
 title: Zdbfs
 image: ./zdbfs.jpg
-link: '#'
+link: /how-it-works/zdbfs
 ---

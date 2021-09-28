@@ -1,13 +1,13 @@
 <template>
   <section
-    class="px-2 h-auto bg-center bg-contain"
+    class="px-2 h-auto bg-center bg-contain bg-no-repeat"
     :style="{ 'background-image': 'url(' + img(section.image) + ')' }"
   >
-    <div class="flex flex-wrap p-12 text-center -mx-auto t">
+    <div class="flex flex-wrap lg:p-12 text-center -mx-auto">
       <div class="text-center rounded lg:px-6 mt-10 lg:mt-0 mx-auto">
         <h2
           class="
-            text-2xl text-black
+            text-3xl text-black
             leading-tight
             font-light font-heading
             uppercase
@@ -17,7 +17,7 @@
         </h2>
         <h2
           class="
-            text-5xl text-black
+            lg:text-6xl text-black
             leading-tight
             font-bold font-heading
             uppercase
@@ -26,7 +26,7 @@
           {{ section.subtitle }}
         </h2>
 
-        <div class="my-10 grid grid-cols-3 gap-4">
+        <div class="my-10 grid lg:grid-cols-3 lg:gap-8">
           <div class="..."></div>
           <div class="...">
             <!-- capacity -->
@@ -42,8 +42,8 @@
             <div
               class="
                 rounded-full
-                h-60
-                w-60
+                h-60 
+                w-60 
                 inline-flex
                 items-center
                 justify-center

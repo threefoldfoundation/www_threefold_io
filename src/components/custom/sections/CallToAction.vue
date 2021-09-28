@@ -8,13 +8,13 @@
   >
     <!-- about-us -->
     <div
-      class="w-full max-w-2xl mx-auto lg:py-20"
+      class="w-full mx-auto lg:py-20"
       v-if="id == 'about-us' && !textOnly && !lastCta"
     >
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -26,9 +26,9 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
-      <g-image :src="cta.image" class="my-10" />
+      <g-image :src="cta.image" class="my-10 mx-auto" />
 
       <!-- <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
@@ -93,13 +93,13 @@
     </div>
 
     <div
-      class="w-full max-w-2xl mx-auto py-12"
+      class="w-full max-w-3xl mx-auto py-12"
       v-else-if="id == 'about-us' && textOnly"
     >
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -111,7 +111,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
     </div>
 
@@ -122,7 +122,7 @@
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -135,7 +135,7 @@
       <h2
         v-if="cta.subtitle"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -147,7 +147,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
       <a
         class="
@@ -199,14 +199,14 @@
     >
       <h2
         v-if="cta.title"
-        class="text-5xl uppercase mb-0 leading-tight font-semibold font-heading"
+        class="lg:text-6xl uppercase mb-0 leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
 
       <h2
         v-if="cta.subtitle"
-        class="text-5xl uppercase mt-0 leading-tight font-semibold font-heading"
+        class="lg:text-6xl uppercase mt-0 leading-tight font-semibold font-heading"
       >
         {{ cta.subtitle }}
       </h2>
@@ -238,7 +238,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -259,7 +259,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -279,7 +279,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -300,7 +300,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -320,7 +320,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -341,7 +341,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -361,7 +361,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -382,7 +382,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -403,7 +403,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -424,7 +424,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -445,7 +445,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -459,14 +459,14 @@
           "
           target="_blank"
           v-if="cta.button6 && cta.link6.includes('http')"
-          :href="cta.link4"
+          :href="cta.link6"
           >{{ cta.button6 }}</a
         >
         <a
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -486,17 +486,17 @@
     </div>
 
     <div
-      class="w-full max-w-7xl mx-auto mt-10 px-16"
+      class="w-full max-w-7xl mx-auto mt-10 px-2"
       v-else-if="id == 'home' && lastCta"
     >
-      <g-image :src="cta.image" />
+      <g-image class="mx-auto" :src="cta.image" />
       <h2
         v-if="cta.title"
-        class="text-5xl mb-2 uppercase leading-tight font-semibold font-heading"
+        class="lg:text-6xl mb-2 uppercase leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 text-gray-800"></div>
+      <div v-html="cta.content" class="mt-6 mb-8 mx-auto text-2xl text-gray-800"></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
@@ -504,7 +504,7 @@
             inline-block
             cursor-pointer
             bg-blue-900
-            text-sm
+            text-lg
             learn-button
             hover:bg-blue-800
             text-gray-100
@@ -522,7 +522,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -543,7 +543,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -563,7 +563,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -584,7 +584,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -604,7 +604,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -625,7 +625,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -645,7 +645,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -666,7 +666,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -685,12 +685,12 @@
     </div>
 
     <!-- grid -->
-    <div class="w-full max-w-3xl mx-auto py-12" v-else-if="id == 'grid'">
+    <div id="zero_os" class="w-full max-w-3xl mx-auto py-12" v-else-if="id == 'grid'">
       <g-image :src="cta.image" class="mx-auto lg:w-1/3 my-10" />
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           my-2
@@ -702,7 +702,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
       <a
         class="
@@ -787,13 +787,13 @@
 
     <!-- token -->
     <div
-      class="w-full max-w-6xl mx-auto py-12"
+      class="w-full max-w-6xl mx-auto lg:my-20"
       v-else-if="id == 'token' && !lastCta"
     >
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           max-w-3xl
           mx-auto
           text-center
@@ -807,7 +807,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 max-w-3xl mx-auto lg:text-xl text-gray-800"
+        class="mt-6 mb-8 max-w-3xl mx-auto lg:text-2xl text-gray-800"
       ></div>
       <g-image :src="cta.image" class="mx-auto w-full my-10" />
       <a
@@ -857,7 +857,7 @@
         class="
           max-w-2xl
           mx-auto
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -869,7 +869,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
 
       <a

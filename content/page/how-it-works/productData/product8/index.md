@@ -1,6 +1,6 @@
 ---
-id: planetary_network
+id: prod8
 title: Planetary Network
 image: ./planetary_network.jpg
-link: '#'
+link: /how-it-works/planetary-network
 ---

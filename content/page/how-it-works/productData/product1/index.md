@@ -1,6 +1,6 @@
 ---
-id: zero_os
+id: prod1
 title: Zero-OS
 image: ./zero_os.jpg
-link: '#'
+link: /how-it-works/zero-os
 ---

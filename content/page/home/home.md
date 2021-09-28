@@ -11,11 +11,11 @@ header_img2 : ./from_zero.png
 header_altImg: threefold
 header_excerpt: The digital infrastructure for an interconnected world.
 button: Expand the network
-link: /
+link: /grid
 button2: Peer-to-Peer Cloud
-link2: /
+link2: https://cloud.threefold.io/ 
 button3: How it Works
-link3: /
+link3: /how-it-works
 
 cta2: home_cta2
 productsMain: product

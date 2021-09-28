@@ -2,7 +2,7 @@
   <div>
     <div class="header section banner" v-if="header">
       <div class="center">
-        <h1 class="text-8xl">
+        <h1 class="text-8xl uppercase">
           <strong>{{ title }}</strong>
         </h1>
       </div>

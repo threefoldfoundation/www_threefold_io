@@ -2,8 +2,8 @@
 id: token_cta
 title: THE POTENTIAL IS ENDLESS
 image: ./potental.png
-button:  How ThreeFold compares with the industry
-link: '#'
+button:  How ThreeFold Compares With The Industry
+link: https://forum.threefold.io/t/threefold-is-the-substrate-for-decloud/1295 
 button2: 
 link2: 
 ---

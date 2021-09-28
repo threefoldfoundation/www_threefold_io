@@ -1,12 +1,12 @@
 ---
 id: storage_home
 title: ''
-image: ./fflow_logo_black.png
+image: ./artheon_logo.png
 button: Learn More
-url: https://mydigitaltwin.io/
+url: /partners/artheon
 ---
 
-Freeflow represents a complete alternative to the current web. A new conscious digital world.
+Artheon is redefining access to global art, history and culture by building the world’s largest VR museum.
 
 <br>
 

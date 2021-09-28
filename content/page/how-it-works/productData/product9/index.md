@@ -1,6 +1,6 @@
 ---
-id: web_gateway
+id: prod9
 title: Web Gateway
 image: ./web_gateway.jpg
-link: '#'
+link: /how-it-works/web-gateway
 ---

@@ -1,13 +1,13 @@
 <template>
   <div class="py-10 mb-5" id="home">
-    <div class="w-full max-w-7xl mx-auto mt-10 px-16 text-center">
+    <div class="w-full max-w-7xl mx-auto mt-10 px-4 text-center">
       <h2
         v-if="main !== null"
-        class="text-5xl font-semibold leading-tight font-heading"
+        class="lg:text-6xl font-semibold leading-tight font-heading"
       >
         {{ main.title }}
       </h2>
-      <p v-if="main !== null" class="mb-6 text-xl">
+      <p v-if="main !== null" class="mb-6 text-2xl">
         {{ main.subtitle }}
       </p>
     </div>
@@ -21,9 +21,9 @@
         class="m-auto rounded overflow-hidden transition duration-500"
       >
         <div class="part text-center pb-8 my-5" :class="{ active: idx !== 1 }">
-          <g-image :src="img(product.image)" />
+          <g-image class="mx-auto" :src="img(product.image)" />
           <h3 class="font-bold text-2xl">{{ product.title }}</h3>
-          <div v-html="product.content" class="pb-4 px-5"></div>
+          <div v-html="product.content" class="text-xl pb-4 px-5"></div>
 
           <div v-if="product.button">
             <a
@@ -32,7 +32,7 @@
               :href="product.url"
               class="
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
@@ -48,7 +48,7 @@
               :href="product.url"
               class="
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12

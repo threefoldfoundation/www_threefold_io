@@ -12,11 +12,14 @@
     <div class="w-full text-center" v-else>
       <h2
         v-if="main !== null && main.title"
-        class="text-5xl font-semibold leading-tight font-heading"
+        class="lg:text-6xl uppercase font-semibold leading-tight font-heading"
       >
         {{ main.title }}
       </h2>
-      <p v-if="main !== null && main.subtitle" class="mb-6 text-gray-600">
+      <p
+        v-if="main !== null && main.subtitle"
+        class="mb-6 text-2xl max-w-2xl mx-auto"
+      >
         {{ main.subtitle }}
       </p>
     </div>
@@ -220,17 +223,19 @@
               target="_blank"
               :href="product.link"
               class="
-                bg-blue-900
-                text-sm
+                inline-block
+                bg-white
+                text-lg
                 learn-button
-                hover:bg-blue-800
-                text-gray-100
+                hover:bg-gray-400
+                bo
                 px-12
-                py-2
+                py-1
                 mr-5
-                rounded
+                mb-4
+                border-2
                 shadow
-                rounded-full
+                border-black
               "
               >{{ product.button }}</a
             >
@@ -238,17 +243,19 @@
               v-else
               :href="product.link"
               class="
-                bg-blue-900
-                text-sm
+                inline-block
+                bg-white
+                text-lg
                 learn-button
-                hover:bg-blue-800
-                text-gray-100
+                hover:bg-gray-400
+                bo
                 px-12
-                py-2
+                py-1
                 mr-5
-                rounded
+                mb-4
+                border-2
                 shadow
-                rounded-full
+                border-black
               "
               >{{ product.button }}</a
             >

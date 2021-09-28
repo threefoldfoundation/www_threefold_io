@@ -1,6 +1,6 @@
 ---
-id: zdb
+id: prod2
 title: ZDB
 image: ./zdb.jpg
-link: '#'
+link: /how-it-works/zdb
 ---

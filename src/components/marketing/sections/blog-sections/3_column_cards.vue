@@ -1,5 +1,5 @@
 <template>
-  <div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+  <div class="relative pt-16 lg:pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
     <div class="absolute inset-0">
       <div class="bg-white h-1/3 sm:h-2/3"></div>
     </div>
@@ -7,12 +7,12 @@
       <div class="text-center">
         <h2
           class="
-            text-5xl
+            lg:text-6xl
             leading-tight
-            mb-6
             font-bold font-heading
             uppercase
             sm:leading-10
+            lg:pb-10
           "
         >
           {{ main.title }}
@@ -45,12 +45,12 @@
                 </a>
               </p> -->
               <a :href="path(blog)" class="block">
-                <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                <h3 class="mt-2 text-2xl leading-7 font-semibold text-gray-900">
                   {{ blog.title }}
                 </h3>
                 <div
                   v-html="blog.excerpt"
-                  class="mt-3 text-base leading-6 text-gray-500"
+                  class="mt-3 text-base leading-6 text-gray-700 text-xl" 
                 ></div>
               </a>
             </div>

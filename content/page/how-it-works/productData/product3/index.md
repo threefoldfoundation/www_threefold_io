@@ -1,6 +1,6 @@
 ---
-id: zstor
+id: prod3
 title: Zstor
 image: ./zstor.jpg
-link: '#'
+link: /how-it-works/zstor
 ---

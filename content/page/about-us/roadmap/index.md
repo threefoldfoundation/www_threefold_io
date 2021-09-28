@@ -10,4 +10,4 @@ democratized, secure and scalable digital infrastructure to
 <br />
 support a truly interconnected world. Our mission is bold 
 <br />
-and motivates every step we make
+and motivates every step we make.

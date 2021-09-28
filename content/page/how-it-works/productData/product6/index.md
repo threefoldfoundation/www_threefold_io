@@ -1,6 +1,6 @@
 ---
-id: smart_contract
+id: prod6
 title: Smart Contract for IT
 image: ./smart_contract.jpg
-link: '#'
+link: /how-it-works/smart-contract
 ---
