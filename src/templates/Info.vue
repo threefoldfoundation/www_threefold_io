@@ -218,7 +218,7 @@ export default {
   metaInfo() {
     return {
       title: "",
-      titleTemplate: `ThreeFold | ${this.$page.info.title}`,
+      titleTemplate: `ThreeFold | ${this.$page.info.id}`,
       meta: [
         {
           key: "description",
