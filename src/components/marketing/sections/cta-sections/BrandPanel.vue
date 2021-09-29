@@ -408,6 +408,7 @@
             <a
               
               class="
+              capitalize
                 inline-block
                 bg-white
                 text-lg
@@ -429,6 +430,7 @@
             <a
               
               class="
+              capitalize
                 inline-block
                 bg-white
                 text-lg
@@ -469,14 +471,13 @@
               class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
-            <a
-              v-if="brand.btnTxt"
-              target="_blank"
-              :href="brand.sourceUrl"
+             <a
+              
               class="
+              capitalize
                 inline-block
                 bg-white
-                lg:text-lg
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
@@ -487,6 +488,30 @@
                 shadow
                 border-black
               "
+              v-if="brand.btnTxt && brand.sourceUrl.includes('http')"
+              target="_blank"
+              :href="brand.sourceUrl"
+              >{{ brand.btnTxt }}</a
+            >
+            <a
+              
+              class="
+              capitalize
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              v-else
+              :href="brand.sourceUrl"
               >{{ brand.btnTxt }}</a
             >
           </div>
@@ -511,6 +536,7 @@
               target="_blank"
               :href="brand.sourceUrl"
               class="
+              capitalize
                 inline-block
                 bg-white
                 text-lg
@@ -531,6 +557,7 @@
               target="_blank"
               :href="brand.sourceUrl2"
               class="
+              capitalize
                 inline-block
                 bg-white
                 text-lg
@@ -570,6 +597,7 @@
               v-if="brand.btnTxt"
               :href="brand.sourceUrl"
               class="
+              capitalize
                 inline-block
                 bg-white
                 text-lg
@@ -589,6 +617,7 @@
               v-if="brand.btnTxt2"
               :href="brand.sourceUrl2"
               class="
+              capitalize
                 inline-block
                 bg-white
                 text-lg
