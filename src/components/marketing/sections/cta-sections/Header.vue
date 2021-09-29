@@ -60,7 +60,6 @@
               py-2
               mr-5
               mb-4
-              rounded
               shadow
               rounded-full
             "
@@ -80,7 +79,6 @@
               py-2
               mr-5
               mb-4
-              rounded
               shadow
               rounded-full
             "
@@ -276,129 +274,137 @@
 
         <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
 
-        <a
-          v-if="link.includes('http')"
-          target="_blank"
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            py-1
-            mr-5
-            mb-4
-            border-2
-            shadow
-            border-black
-          "
-          :href="link"
-          >{{ button }}</a
-        >
-        <a
-          v-else
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            py-1
-            mr-5
-            mb-4
-            border-2
-            shadow
-            border-black
-          "
-          :href="link"
-          >{{ button }}</a
-        >
-        <a
-          v-if="link2.includes('http')"
-          target="_blank"
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            py-1
-            mr-5
-            mb-4
-            border-2
-            shadow
-            border-black
-          "
-          :href="link2"
-          >{{ button2 }}</a
-        >
-        <a
-          v-else
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            py-1
-            mr-5
-            mb-4
-            border-2
-            shadow
-            border-black
-          "
-          :href="link2"
-          >{{ button2 }}</a
-        >
-       <a
-          v-if="link3.includes('http')"
-          target="_blank"
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            py-1
-            mr-5
-            mb-4
-            border-2
-            shadow
-            border-black
-          "
-          :href="link3"
-          >{{ button3 }}</a
-        >
-        <a
-          v-else
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            py-1
-            mr-5
-            mb-4
-            border-2
-            shadow
-            border-black
-          "
-          :href="link3"
-          >{{ button3 }}</a
-        >
+        <div v-if="link" class="inline-block">
+          <a
+            v-if="link.includes('http')"
+            target="_blank"
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link"
+            >{{ button }}</a
+          >
+          <a
+            v-else
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link"
+            >{{ button }}</a
+          >
+        </div>
+
+        <div v-if="link2" class="inline-block">
+          <a
+            v-if="link2.includes('http')"
+            target="_blank"
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link2"
+            >{{ button2 }}</a
+          >
+          <a
+            v-else
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link2"
+            >{{ button2 }}</a
+          >
+        </div>
+
+        <div v-if="link3" class="inline-block">
+          <a
+            v-if="link3.includes('http')"
+            target="_blank"
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link3"
+            >{{ button3 }}</a
+          >
+          <a
+            v-else
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link3"
+            >{{ button3 }}</a
+          >
+        </div>
         <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
       </div>
       <!-- <div class="lg:w-3/5 px-2 self-center">
@@ -477,8 +483,18 @@
       class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 lg:mx-40"
       v-else
     >
-      <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none ">
-        <h2 class="text-8xl mb-6 mt-20 uppercase leading-none font-heading lg:max-w-xl">
+      <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
+        <h2
+          class="
+            text-8xl
+            mb-6
+            mt-20
+            uppercase
+            leading-none
+            font-heading
+            lg:max-w-xl
+          "
+        >
           <span class="text-blue-600">{{ slogan }}</span> {{ title }}
         </h2>
         <div class="mb-8 text-gray-700 leading-relaxed" v-html="excerpt"></div>
