@@ -8,8 +8,8 @@
       <div class="xl:grid xl:grid-cols-4 xl:gap-2">
         <div class="space-y-8 xl:col-span-1">
           <g-image
-            class="h-10"
-            :src="require(`!!assets-loader!@images/tf_icon_black.svg`)"
+            class="w-24"
+            :src="require(`!!assets-loader!@images/footer_logo2.png`)"
             alt="Company name"
             v-if="theme == 'light'"
           />
@@ -21,9 +21,9 @@
             v-else
           />
 
-          <p class="text-gray-500 font-bold text-base leading-6">
+          <!-- <p class="text-gray-500 font-bold text-base leading-6">
             {{ record.description }}
-          </p>
+          </p> -->
           <div class="flex space-x-6">
             <a
               v-if="record.facebook != '#'"

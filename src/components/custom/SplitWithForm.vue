@@ -27,10 +27,10 @@
           v-html="subscribe.content"
         ></div>
         <div class="flex w-full md:justify-start justify-center items-end">
-          <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
-            <!-- <label for="hero-field" class="leading-7 text-sm text-gray-600"
+          <!-- <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
+            <label for="hero-field" class="leading-7 text-sm text-gray-600"
               >Placeholder</label
-            > -->
+            >
             <input
               type="text"
               id="hero-field"
@@ -54,21 +54,22 @@
                 ease-in-out
               "
             />
-          </div>
+          </div> -->
 
           <a
-            :href="subscribe.link"
+            href="javascript:;"
+                onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
             class="
               inline-flex
               bg-white
               border-2
-              py-2
-              px-6
+              py-1
+              px-12
               learn-button
               hover:bg-gray-400
               shadow
               border-black
-              text-black text-sm
+              text-black text-lg
               cursor-pointer
             "
           >
