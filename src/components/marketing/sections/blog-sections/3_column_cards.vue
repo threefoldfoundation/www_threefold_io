@@ -44,7 +44,22 @@
                   {{ blog.tag }}
                 </a>
               </p> -->
-              <a :href="path(blog)" class="block">
+              <a 
+              target="_blank"
+              v-if="path(blog).includes('http')"
+              :href="path(blog)" class="block">
+                <h3 class="mt-2 text-2xl leading-7 font-semibold text-gray-900">
+                  {{ blog.title }}
+                </h3>
+                <div
+                  v-html="blog.excerpt"
+                  class="mt-3 text-base leading-6 text-gray-700 text-xl" 
+                ></div>
+              </a>
+               <a 
+              
+              v-else
+              :href="path(blog)" class="block">
                 <h3 class="mt-2 text-2xl leading-7 font-semibold text-gray-900">
                   {{ blog.title }}
                 </h3>
