@@ -93,7 +93,15 @@
     </div>
 
     <div
-      class="flex flex-wrap text-center items-center lg:text-left lg:mb-10 lg:mt-4 -mx-2"
+      class="
+        flex flex-wrap
+        text-center
+        items-center
+        lg:text-left
+        lg:mb-10
+        lg:mt-4
+        -mx-2
+      "
       v-else-if="id == 'about-us'"
     >
       <div class="lg:w-1/2 px-2 lg:pr-10 lg:mt-10 order-1 lg:order-none">
@@ -115,9 +123,7 @@
           class="
             mb-8
             px-10
-            text-center
-            text-2xl
-            text-extrabold
+            text-center text-2xl text-extrabold
             leading-tight
             lg:max-w-2xl
             mx-auto
@@ -259,16 +265,16 @@
       <div
         class="px-2 lg:py-40 lg:mt-10 order-1 lg:order-none mx-auto text-center"
       >
-      <div class="px-2 mt-20">
-        <g-image :src="img2" :alt="altImg" />
-      </div>
+        <div class="px-2 mt-20">
+          <g-image :src="img2" :alt="altImg" />
+        </div>
         <!-- <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           <span class="">{{ slogan }}</span
           ><br />
           {{ title }}
         </h2> -->
 
-        <div class="mb-8 text-2xl leading-relaxed" v-html="excerpt"></div>
+        <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
 
         <a
           v-if="link.includes('http')"
@@ -367,7 +373,7 @@
         <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
-        <div class="mb-8 text-2xl leading-relaxed" v-html="excerpt"></div>
+        <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
       </div>
     </div>
 
@@ -379,10 +385,7 @@
         <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
-        <div
-          class="mb-8 mx-auto text-2xl max-w-xl"
-          v-html="excerpt"
-        ></div>
+        <div class="mb-8 mx-auto text-xl max-w-xl" v-html="excerpt"></div>
 
         <a
           v-if="link.includes('http')"
@@ -427,11 +430,11 @@
       <g-image class="order-2 lg:order-none" :src="img" :alt="altImg" />
     </div>
     <div
-      class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 -mx-2"
+      class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 lg:mx-40"
       v-else
     >
-      <div class="lg:w-2/5 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
-        <h2 class="text-6xl mb-6 mt-20 uppercase leading-none font-heading">
+      <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none ">
+        <h2 class="text-8xl mb-6 mt-20 uppercase leading-none font-heading lg:max-w-xl">
           <span class="text-blue-600">{{ slogan }}</span> {{ title }}
         </h2>
         <div class="mb-8 text-gray-700 leading-relaxed" v-html="excerpt"></div>
@@ -480,7 +483,7 @@
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
         </div>
       </div>
-      <div class="lg:w-3/5 px-2 self-center">
+      <div class="lg:w-1/2 px-2 self-center">
         <g-image :src="img" :alt="altImg" />
       </div>
     </div>

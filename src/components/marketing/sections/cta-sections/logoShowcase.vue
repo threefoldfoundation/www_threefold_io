@@ -1,6 +1,6 @@
 <template>
   <section class="py-10 pb-8 px-4 text-center">
-    <div class="max-w-2xl mx-auto mb-4" v-if="main">
+    <div class="max-w-4xl mx-auto mb-4" v-if="main">
       <h2 class="lg:text-6xl uppercase leading-tight mb-6 font-bold font-heading">
         {{ main.title }}
       </h2>
@@ -9,7 +9,7 @@
     </div>
     <div
       v-if="id == 'support' || id == 'community'"
-      class="flex flex-wrap mx-2"
+      class="flex flex-wrap lg:mx-40"
     >
       <div
         v-for="(logo, idx) in logos"

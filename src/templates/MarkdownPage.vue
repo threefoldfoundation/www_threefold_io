@@ -16,7 +16,8 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
-
+    </div>
+    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <BrandPanel
         :id="$page.markdownPage.id"
         v-if="
@@ -33,7 +34,8 @@
         "
         :brandPanel2="true"
       />
-
+    </div>
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
@@ -43,8 +45,6 @@
         :brandPanel3="true"
       />
 
-    
-
       <CustomCTA
         :header="true"
         v-if="$page.markdownPage.pageHeader"
@@ -52,9 +52,6 @@
         :title="$page.markdownPage.pageHeader.title"
       />
 
-    
-    </div>
-    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
@@ -129,8 +126,9 @@
         "
         :cta="$page.markdownPage.cta"
       />
-
-          <BrandPanel
+    </div>
+    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
+      <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel4"
         v-if="
@@ -138,11 +136,15 @@
         "
         :brandPanel4="true"
       />
+    </div>
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-visible">
       <SplitWithImage
         v-if="$page.markdownPage.tft"
         :id="$page.markdownPage.id"
         :tft="$page.markdownPage.tft"
       />
+    </div>
+    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Features
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.network.length > 0"
@@ -173,6 +175,13 @@
         :brandPanel3="true"
       />
 
+      <RoadMap
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.roadmap"
+        :roadmap="$page.markdownPage.roadmap"
+      />
+    </div>
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-visible">
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'token'"
@@ -180,11 +189,6 @@
         :lastCta="true"
       />
 
-      <RoadMap
-        :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.roadmap"
-        :roadmap="$page.markdownPage.roadmap"
-      />
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta3"
@@ -249,7 +253,7 @@
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
-      <g-image
+      <g-image class="w-3/4 mx-auto"
         v-if="$page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
       />

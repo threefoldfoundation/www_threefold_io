@@ -7,18 +7,18 @@
           lg:text-6xl
           font-bold
           leading-tight
-          lg:max-w-3xl
+          lg:max-w-5xl
         "
       >
         {{ main.title }}
       </h2>
       <div
-        class="my-5 max-w-2xl text-lg lg:text-2xl mx-auto text-gray-900 sm:mt-4"
+        class="my-5 max-w-xl text-lg lg:text-xl mx-auto text-gray-900 sm:mt-4"
         v-html="main.content"
       ></div>
     </div>
     <div class="flex flex-col my-1 lg:w-1/2 overflow-hidden">
-      <g-image :src="mainItem.image" class="w-1/2 mx-auto" />
+      <g-image :src="mainItem.image" class="w-80 mx-auto" />
       <div class="flex-1 bg-white p-6 flex flex-col justify-between">
         <div class="flex-1">
           <div

@@ -1,6 +1,6 @@
 <template>
   <section class="body-font">
-    <div class="mx-auto flex py-24 md:flex-row flex-col items-center">
+    <div class="mx-auto flex py-20 md:flex-row flex-col items-center lg:px-10">
       <div
         class="
           lg:pl-24
@@ -23,7 +23,7 @@
           {{ subscribe.title }}
         </h2>
         <div
-          class="my-8 lg:text-2xl"
+          class="my-8 lg:text-xl"
           v-html="subscribe.content"
         ></div>
         <div class="flex w-full md:justify-start justify-center items-end">
@@ -147,7 +147,7 @@
       </div>
       <div class="md:w-1/2 hidden md:flex">
         <g-image
-          class="object-cover object-center rounded"
+          class="object-cover w-3/4 mx-auto object-center rounded"
           :alt="subscribe.title"
           :src="subscribe.image"
         />

@@ -166,10 +166,10 @@
       <!-- home -->
       <div
         v-else-if="id == 'home'"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
       >
         <div class="lg:w-1/2 lg:px-6 self-center">
-          <g-image :src="image" :alt="brand.title" />
+          <g-image class="w-1/2 mx-auto" :src="image" :alt="brand.title" />
         </div>
         <div class="lg:w-1/2 lg:px-10 order-1 lg:order-none lg:self-center">
           <div class="">
@@ -180,7 +180,7 @@
               }}</span> -->
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -254,7 +254,7 @@
       <!-- About us -->
       <div
         v-else-if="id == 'about-us' && !brandPanel2 && !brandPanel3"
-        class="flex flex-wrap text-left lg:my-10 lg:px-20"
+        class="flex flex-wrap text-left lg:my-10 lg:px-16"
       >
         <div class="lg:w-1/2 px-2 self-center">
           <g-image class="lg:w-2/3 mx-auto" :src="image" :alt="brand.title" />
@@ -268,7 +268,7 @@
               }}</span>
             </h2>
             <div
-              class="py-6 mt-4 text-2xl leading-tight tracking-wide"
+              class="py-6 mt-4 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -295,7 +295,7 @@
 
       <div
         v-else-if="id == 'about-us' && brandPanel2"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-4 lg:mb-20 lg:px-20"
+        class="flex flex-wrap lg:text-left lg:pt-16 px-4 lg:mb-20 lg:px-16"
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
           <div class="lg:self-center">
@@ -306,7 +306,7 @@
               }}</span>
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -353,7 +353,7 @@
               }}</span>
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -385,9 +385,9 @@
       
       <div
         v-else-if="id == 'grid' && !brandPanel2 && !brandPanel3"
-        class="flex flex-wrap text-left"
+        class="flex flex-wrap text-left lg:px-16"
       >
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none text-left lg:self-center lg:px-32">
+        <div class="lg:w-1/2 lg:mt-10 order-1 lg:order-none text-left lg:self-center">
           <div class="px-2">
             <h2 class="lg:text-6xl mb-6 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
@@ -399,7 +399,7 @@
               class="
                 py-6
                 mt-4
-                text-gray-900 text-2xl
+                text-gray-900 text-xl
                 leading-tight
                 tracking-wide
               "
@@ -449,24 +449,24 @@
           </div>
         </div>
         <div class="lg:w-1/2">
-          <g-image class="mx-auto" :src="image" :alt="brand.title" />
+          <g-image class="mx-auto w-3/4" :src="image" :alt="brand.title" />
         </div>
       </div>
 
       <div
         v-else-if="id == 'grid' && brandPanel2"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-2"
+        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
       >
         <div class="lg:w-1/2 self-center">
-          <g-image class="" :src="image" :alt="brand.title" />
+          <g-image class="w-3/4" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:px-32 lg:self-center">
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center  ">
           <div class="px-2">
             <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -495,15 +495,15 @@
 
       <div
         v-else-if="id == 'grid' && brandPanel3"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-2"
+        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
       >
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:px-32 lg:self-center">
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center">
           <div class="">
             <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -548,22 +548,22 @@
             >
           </div>
         </div>
-        <div class="lg:w-1/2 px-2 self-center">
-          <g-image class="mx-auto" :src="image" :alt="brand.title" />
+        <div class="lg:w-1/2">
+          <g-image class="w-3/4 mx-auto" :src="image" :alt="brand.title" />
         </div>
       </div>
 
        <div
         v-else-if="id == 'grid' && brandPanel4"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-2"
+        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
       >
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:px-32 lg:self-center">
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center">
           <div class="">
-            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
+            <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -607,16 +607,16 @@
           </div>
         </div>
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image class="mx-auto" :src="image" :alt="brand.title" />
+          <g-image class="w-3/4 mx-auto" :src="image" :alt="brand.title" />
         </div>
       </div>
 
       <!-- token -->
       <div
         v-else-if="id == 'token' && !brandPanel2 && !brandPanel3"
-        class="flex flex-wrap text-left mt-24"
+        class="flex flex-wrap text-left mt-24 lg:px-16"
       >
-        <div class="lg:w-1/2 lg:px-32 lg:mt-5 order-1 lg:order-none text-left lg:self-center">
+        <div class="lg:w-1/2 lg:mt-5 order-1 lg:order-none text-left lg:self-center">
           <div class="px-2">
             <h2 class="lg:text-6xl mb-6 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
@@ -628,8 +628,7 @@
               class="
                 py-6
                 mt-4
-                max-w-md
-                text-gray-900 text-2xl
+                text-xl
                 leading-tight
                 tracking-wide
               "
@@ -638,24 +637,24 @@
           </div>
         </div>
         <div class="lg:w-1/2">
-          <g-image class="mx-auto" :src="image" :alt="brand.title" />
+          <g-image class="mx-auto w-3/4" :src="image" :alt="brand.title" />
         </div>
       </div>
 
       <div
         v-else-if="id == 'token' && brandPanel2"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+        class="flex flex-wrap lg:text-left lg:pt-16 px-4 lg:px-16"
       >
         <div class="lg:w-1/2 self-center">
-          <g-image class="" :src="image" :alt="brand.title" />
+          <g-image class="mx-auto w-3/4" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:px-32 lg:self-center">
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center">
           <div class="px-2">
             <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -684,15 +683,15 @@
 
       <div
         v-else-if="id == 'token' && brandPanel3"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-2"
+        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
       >
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center lg:px-32">
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center">
           <div class="">
             <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -718,7 +717,7 @@
           </div>
         </div>
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image class="mx-auto" :src="image" :alt="brand.title" />
+          <g-image class="mx-auto w-3/4" :src="image" :alt="brand.title" />
         </div>
       </div>
 

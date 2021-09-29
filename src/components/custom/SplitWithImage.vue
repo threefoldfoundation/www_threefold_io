@@ -38,10 +38,8 @@
           <div
             class="
               mt-3
-              max-w-md
-              text-2xl text-gray-900
+              text-xl 
               md:mt-5
-              md:max-w-xl
             "
             v-html="tft.content"
           ></div>

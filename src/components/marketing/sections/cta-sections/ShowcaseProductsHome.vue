@@ -7,12 +7,12 @@
       >
         {{ main.title }}
       </h2>
-      <p v-if="main !== null" class="mb-6 text-2xl">
+      <p v-if="main !== null" class="mb-6 text-xl">
         {{ main.subtitle }}
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:px-40">
       <a
         v-for="(product, idx) in products"
         target="_blank"

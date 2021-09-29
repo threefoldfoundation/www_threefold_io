@@ -26,7 +26,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
       <g-image :src="cta.image" class="my-10 mx-auto" />
 
@@ -99,7 +99,7 @@
       <h2
         v-if="cta.title"
         class="
-          lg:text-6xl
+          lg:text-5xl
           text-center
           uppercase
           mb-2
@@ -111,7 +111,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
     </div>
 
@@ -122,7 +122,7 @@
       <h2
         v-if="cta.title"
         class="
-          lg:text-6xl
+          lg:text-5xl
           text-center
           uppercase
           mb-2
@@ -135,7 +135,7 @@
       <h2
         v-if="cta.subtitle"
         class="
-          lg:text-6xl
+          lg:text-5xl
           text-center
           uppercase
           mb-2
@@ -147,7 +147,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
       <a
         class="
@@ -486,7 +486,7 @@
     </div>
 
     <div
-      class="w-full max-w-7xl mx-auto mt-10 px-2"
+      class="w-full max-w-7xl mx-auto mt-10 px-2 py-16"
       v-else-if="id == 'home' && lastCta"
     >
       <g-image class="mx-auto" :src="cta.image" />
@@ -496,7 +496,7 @@
       >
         {{ cta.title }}
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 mx-auto text-2xl text-gray-800"></div>
+      <div v-html="cta.content" class="mt-6 mb-8 mx-auto text-xl text-gray-800"></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
@@ -685,7 +685,7 @@
     </div>
 
     <!-- grid -->
-    <div id="zero_os" class="w-full max-w-3xl mx-auto py-12" v-else-if="id == 'grid'">
+    <div id="zero_os" class="w-full max-w-3xl mx-auto lg:py-20" v-else-if="id == 'grid'">
       <g-image :src="cta.image" class="mx-auto lg:w-1/3 my-10" />
       <h2
         v-if="cta.title"
@@ -702,7 +702,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
       <a
         class="
@@ -807,7 +807,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 max-w-3xl mx-auto lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 max-w-3xl mx-auto lg:text-xl text-gray-800"
       ></div>
       <g-image :src="cta.image" class="mx-auto w-full my-10" />
       <a
@@ -855,7 +855,7 @@
       <h2
         v-if="cta.title"
         class="
-          max-w-2xl
+          lg:max-w-3xl
           mx-auto
           lg:text-6xl
           text-center
@@ -869,7 +869,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-2xl text-gray-800"
+        class="mt-6 mb-8 lg:text-xl text-gray-800"
       ></div>
 
       <a

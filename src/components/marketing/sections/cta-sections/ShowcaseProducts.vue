@@ -18,7 +18,7 @@
       </h2>
       <p
         v-if="main !== null && main.subtitle"
-        class="mb-6 text-2xl max-w-2xl mx-auto"
+        class="mb-6 text-xl max-w-2xl mx-auto"
       >
         {{ main.subtitle }}
       </p>
@@ -203,7 +203,7 @@
     <!-- Support -->
 
     <div
-      class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center"
+      class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center lg:px-20"
       v-else-if="id == 'support'"
     >
       <a
@@ -214,8 +214,8 @@
         class="m-auto rounded overflow-hidden transition duration-500"
       >
         <div class="px-2 py-2">
-          <g-image class="py-4" :src="img(product.image)" />
-          <div class="font-bold text-xl mb-2">{{ product.title }}</div>
+          <g-image class="py-4 w-2/3 mx-auto" :src="img(product.image)" />
+          <div class="font-bold text-2xl mb-2">{{ product.title }}</div>
           <div v-html="product.content" class="text-gray-700 text-base"></div>
           <div v-if="product.button" class="my-5 text-center">
             <a
