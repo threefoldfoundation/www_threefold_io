@@ -318,6 +318,8 @@
           >{{ button }}</a
         >
         <a
+          v-if="link2.includes('http')"
+          target="_blank"
           class="
             inline-block
             bg-white
@@ -337,6 +339,48 @@
           >{{ button2 }}</a
         >
         <a
+          v-else
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link2"
+          >{{ button2 }}</a
+        >
+       <a
+          v-if="link3.includes('http')"
+          target="_blank"
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link3"
+          >{{ button3 }}</a
+        >
+        <a
+          v-else
           class="
             inline-block
             bg-white

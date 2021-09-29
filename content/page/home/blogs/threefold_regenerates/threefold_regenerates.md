@@ -1,6 +1,6 @@
 ---
 id: threefold_regenerates
-title: ThreeFold Explained In 2min
+title: ThreeFold Explained in 2 Minutes
 tags: [threefold_grid, digital_twin, why, technology, farming]
 category: [farming, cloud, foundation, aci, twin]
 image: ./tft_vedio.jpg

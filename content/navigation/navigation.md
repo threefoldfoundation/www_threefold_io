@@ -32,7 +32,7 @@ navLinks:
       - title: People
         path: /people
       - title: Alliance
-        path: /aci
+        path: https://consciousinternet.org
         external: true
       - title: Telegram
         path: https://t.me/threefoldnews

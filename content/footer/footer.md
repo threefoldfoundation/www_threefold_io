@@ -25,7 +25,7 @@ items:
     - name: Digital Twin
       link: https://mydigitaltwin.io
     - name: Alliance
-      link: https://threefold.io/aci
+      link: https://consciousinternet.org
 
         
  - title: Participate

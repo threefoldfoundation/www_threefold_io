@@ -9,7 +9,7 @@ button2: Expand The Grid
 link2: /grid
 button3: Peer-To-Peer Cloud
 link3: https://cloud.threefold.io/
-button4:  Developer Grants (coming soon)
+button4:  Developer Grants (Coming Soon)
 link4: '#'
 button5: The ThreeFold Token
 link5: /token

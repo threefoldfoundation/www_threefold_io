@@ -10,7 +10,7 @@ header_img2 : ./from_zero.png
 
 header_altImg: threefold
 header_excerpt: The digital infrastructure for an interconnected world.
-button: Expand the network
+button: Expand the Network
 link: /grid
 button2: Peer-to-Peer Cloud
 link2: https://cloud.threefold.io/ 
