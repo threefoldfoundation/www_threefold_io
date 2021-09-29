@@ -1,5 +1,5 @@
 <template>
-  <div class="left-0 z-50 mb-5 h-16 bg-gray-200 w-full rounded shadow">
+  <div class="left-0 z-50 mb-5 h-16 bg-gray-200 mt-6 w-full rounded shadow">
     <header
       class="
         flex
