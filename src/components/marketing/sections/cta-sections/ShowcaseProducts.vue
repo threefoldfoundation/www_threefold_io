@@ -12,7 +12,7 @@
     <div class="w-full text-center" v-else>
       <h2
         v-if="main !== null && main.title"
-        class="lg:text-6xl uppercase font-semibold leading-tight font-heading"
+        class="lg:text-6xl pb-10 uppercase font-semibold leading-tight font-heading"
       >
         {{ main.title }}
       </h2>
@@ -114,7 +114,7 @@
 
     <!-- How it works -->
     <div
-      class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center"
+      class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center lg:px-40"
       v-else-if="id == 'how-it-works'"
     >
       <div
