@@ -1,12 +1,14 @@
 <template>
   <section class="py-10 pb-8 px-4 text-center">
-    <div class="max-w-4xl mx-auto mb-4" v-if="main">
+    <div class="mx-auto mb-4" v-if="main">
       <h2
         class="lg:text-6xl uppercase leading-tight mb-6 font-bold font-heading"
       >
         {{ main.title }}
       </h2>
       <p class="text-gray-400 leading-relaxed"></p>
+
+      <g-image :src="img(main.image)" class="w-3/4 mx-auto" />
     </div>
     <div
       v-if="id == 'support' || id == 'community'"
