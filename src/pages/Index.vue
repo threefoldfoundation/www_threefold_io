@@ -18,9 +18,9 @@
       />
     </div>
 
-    <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
+    <!-- <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
-      <!-- <VideoPanel :card="$page.markdownPage.videoPanel" /> -->
+     
 
       <ShowcaseProducts
         v-if="
@@ -32,22 +32,7 @@
         :products="$page.markdownPage.productData"
       />
 
-      <!-- <Features
-        :id="$page.markdownPage.id"
-        :main="$page.markdownPage.featuresMain2"
-        :features="$page.markdownPage.features2"
-      /> -->
-
-      <!-- <Partenerships
-        class="lg:mt-20"
-        v-if="
-          $page.markdownPage.partnerships &&
-          $page.markdownPage.partnerships.length > 0
-        "
-        :main="$page.markdownPage.partenershipsMain"
-        :partnerships="$page.markdownPage.partnerships"
-        :id="$page.markdownPage.id"
-      /> -->
+      
 
       <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
@@ -72,22 +57,7 @@
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.brandPanel"
       />
-      <!-- <CallToAction
-        v-if="$page.markdownPage.cta2"
-        :cta="$page.markdownPage.cta2"
-        :id="$page.markdownPage.id"
-      /> -->
-
-      <!-- <g-image
-      class="mx-auto"
-      v-if="$page.markdownPage.solution_image2"
-      :src="$page.markdownPage.solution_image2.src"
-    /> -->
-      <!-- <CallToAction
-        v-if="$page.markdownPage.cta3"
-        :cta="$page.markdownPage.cta3"
-        :id="$page.markdownPage.id"
-      /> -->
+     
       <HorizontalScroll
         :team="$page.markdownPage.team"
         :people="$page.entries.edges"
@@ -98,21 +68,7 @@
         :blogs="$page.markdownPage.blogs"
       />
 
-      <!-- <InTheNews
-        v-if="$page.markdownPage.inTheNews"
-        :news="$page.markdownPage.inTheNews"
-      /> -->
-
-      <!-- <SignUp
-      v-if="$page.markdownPage.signup"
-      :signup="$page.markdownPage.signup"
-      /> -->
-
-      <!-- <g-image
-        class="m-auto w-3/4 mt-8"
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
-      /> -->
+      
 
       <SplitWithForm
         v-if="$page.markdownPage.subscribe"
@@ -126,7 +82,7 @@
         :cta="$page.markdownPage.cta2"
         :lastCta="true"
       />
-    </div>
+    </div> -->
   </Layout>
 </template>
 
