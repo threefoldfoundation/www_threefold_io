@@ -47,8 +47,6 @@
       />
     </div>
       
-    </div>
-
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <CallToAction
         v-if="$page.markdownPage.cta"
@@ -194,14 +192,8 @@
           title
           image
           content
-          button
-          button2
-          button3
-          button4
           link
-          link2
-          link3
-          link4
+          button
         }
         cta4{
           id
