@@ -394,6 +394,7 @@
         logosMain {
           id
           title
+          image
           button
           link
         }

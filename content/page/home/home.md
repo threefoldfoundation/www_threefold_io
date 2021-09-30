@@ -27,8 +27,7 @@ cta4: home_cta4
 cta5: home_cta5
 comparisonMain: comparison
 comparisonSecs: [private, equal, sustainable]
-logos: logo1
-logosMain : logo_home
+
 inTheNews: in_the_news
 solution_image: ./cta_image.png
 cta: home_cta
@@ -62,3 +61,6 @@ solution_image: ./home_header.png -->
 header: carbon_neutral -->
 
 <!-- solution_image2: ./qsfs.svg -->
+
+<!-- logos: logo1
+logosMain : logo_home -->

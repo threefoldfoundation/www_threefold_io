@@ -31,12 +31,18 @@
         :products="$page.markdownPage.productData"
       />
 
-      <logoShowcase
+      <!-- <logoShowcase
         v-if="$page.markdownPage.logos"
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
+      /> -->
+      <CallToActionbg1
+        v-if="$page.markdownPage.cta3"
+        :id="$page.markdownPage.id"
+        :cta="$page.markdownPage.cta3"
       />
+    </div>
       
     </div>
 
@@ -181,14 +187,16 @@
         cta3{
           id
           title
-          title2
+          image
           content
           button
           button2
           button3
+          button4
           link
           link2
           link3
+          link4
         }
         cta4{
           id
