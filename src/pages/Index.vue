@@ -42,13 +42,13 @@
       />
     </div>
 
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+    <!-- <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <CallToAction
         v-if="$page.markdownPage.cta"
         :id="$page.markdownPage.id"
         :cta="$page.markdownPage.cta"
       />
-    </div>
+    </div> -->
 
     <!-- <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
       <BrandPanel
