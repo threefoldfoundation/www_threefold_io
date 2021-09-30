@@ -28,33 +28,51 @@
         </a>
       </div>
     </div>
-    <div v-else class="flex flex-wrap -mx-8">
-    
-        <g-image class="mx-auto"
-        v-for="(logo, idx) in logos"
-        :key="idx" 
-        :src="img(logo.image)" />
-      
+
+    <div v-else-if="id == 'home'" class="flex flex-wrap lg:mx-40">
+      <div v-for="logo in logos" class="w-1/2 md:w-1/6" :key="logo.node.id">
+        <a
+          v-if="logo.node.path.includes('http')"
+          target="_blank"
+          :href="logo.node.path"
+        >
+          <g-image :src="img(logo.node.logo)" class="w-1/2 mx-auto" />
+        </a>
+
+        <a v-else :href="logo.node.path">
+          <g-image :src="img(logo.node.logo)" class="w-1/2 mx-auto" />
+        </a>
+      </div>
     </div>
-    <a
-      class="
-        inline-block
-        bg-white
-        text-lg
-        learn-button
-        hover:bg-gray-400
-        px-12
-        py-1
-        mr-5
-        my-4
-        border-2
-        shadow
-        border-black
-      "
-      v-if="main.button"
-      :href="main.link"
-      >{{ main.button }}</a
-    >
+    <div v-else class="flex flex-wrap -mx-8">
+      <g-image
+        class="mx-auto"
+        v-for="(logo, idx) in logos"
+        :key="idx"
+        :src="img(logo.image)"
+      />
+    </div>
+    <div v-if="main.button" class="my-10">
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-10
+          border-2
+          shadow
+          border-black
+        "
+        v-if="main.button"
+        :href="main.link"
+        >{{ main.button }}</a
+      >
+    </div>
   </section>
 </template>
 

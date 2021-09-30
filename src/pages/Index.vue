@@ -34,17 +34,17 @@
 
       
 
-      <!-- <logoShowcase
+      <logoShowcase
         v-if="$page.markdownPage.logos"
         :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
+        :logos="$page.allProject.edges"
         :main="$page.markdownPage.logosMain"
-      /> -->
-      <CallToActionbg1
+      />
+      <!-- <CallToActionbg1
         v-if="$page.markdownPage.cta3"
         :id="$page.markdownPage.id"
         :cta="$page.markdownPage.cta3"
-      />
+      /> -->
     </div>
       
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
@@ -358,9 +358,19 @@
       }
     }
   }
+
+  allProject (sortBy: "rank", order: ASC, filter: { category: { contains: ["foundation"]}}){
+    edges {
+      node {
+        id
+        title
+        path
+        rank
+        logo
+      }
+    }
+  }
 }
-
-
 </page-query>
 
 <static-query>
@@ -423,49 +433,49 @@ export default {
       return img;
     },
   },
-  metaInfo() {
-    return {
-      title: "",
-      titleTemplate: "ThreeFold | Welcome",
-      meta: [
-        {
-          key: "description",
-          name: "description",
-          content: this.$page.markdownPage.metaDesc,
-        },
-        {
-          key: "og:title",
-          property: "og:title",
-          content: this.$page.markdownPage.metaTitle,
-        },
-        {
-          key: "og:description",
-          property: "og:description",
-          content: this.$page.markdownPage.metaDesc,
-        },
-        {
-          key: "og:image",
-          property: "og:image",
-          content: this.getImg,
-        },
-        {
-          key: "twitter:description",
-          name: "twitter:description",
-          content: this.$page.markdownPage.metaDesc,
-        },
-        {
-          key: "twitter:image",
-          property: "twitter:image",
-          content: this.getImg,
-        },
-        {
-          key: "twitter:title",
-          property: "twitter:title",
-          content: this.$page.markdownPage.metaTitle,
-        },
-      ],
-    };
-  },
+  // metaInfo() {
+  //   return {
+  //     title: "",
+  //     titleTemplate: "ThreeFold | Welcome",
+  //     meta: [
+  //       {
+  //         key: "description",
+  //         name: "description",
+  //         content: this.$page.markdownPage.metaDesc,
+  //       },
+  //       {
+  //         key: "og:title",
+  //         property: "og:title",
+  //         content: this.$page.markdownPage.metaTitle,
+  //       },
+  //       {
+  //         key: "og:description",
+  //         property: "og:description",
+  //         content: this.$page.markdownPage.metaDesc,
+  //       },
+  //       {
+  //         key: "og:image",
+  //         property: "og:image",
+  //         content: this.getImg,
+  //       },
+  //       {
+  //         key: "twitter:description",
+  //         name: "twitter:description",
+  //         content: this.$page.markdownPage.metaDesc,
+  //       },
+  //       {
+  //         key: "twitter:image",
+  //         property: "twitter:image",
+  //         content: this.getImg,
+  //       },
+  //       {
+  //         key: "twitter:title",
+  //         property: "twitter:title",
+  //         content: this.$page.markdownPage.metaTitle,
+  //       },
+  //     ],
+  //   };
+  // },
 };
 </script>
 <style scoped>
