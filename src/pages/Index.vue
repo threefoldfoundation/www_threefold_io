@@ -34,12 +34,7 @@
 
       
 
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
-        :main="$page.markdownPage.logosMain"
-      />
+     
     </div>
       
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
@@ -56,6 +51,13 @@
         :brand="$page.markdownPage.brandPanel"
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.brandPanel"
+      />
+      
+       <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
+        :logos="$page.markdownPage.logos"
+        :main="$page.markdownPage.logosMain"
       />
      
       <HorizontalScroll
