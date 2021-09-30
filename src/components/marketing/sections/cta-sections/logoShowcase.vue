@@ -29,14 +29,12 @@
       </div>
     </div>
     <div v-else class="flex flex-wrap -mx-8">
-      <a
+    
+        <g-image class="mx-auto"
         v-for="(logo, idx) in logos"
-        :key="idx"
-        :href="logo.url"
-        class="px-8 mb-8 mx-auto"
-      >
-        <g-image :src="img(logo.image)" />
-      </a>
+        :key="idx" 
+        :src="img(logo.image)" />
+      
     </div>
     <a
       class="

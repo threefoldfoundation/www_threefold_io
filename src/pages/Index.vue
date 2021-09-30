@@ -40,6 +40,13 @@
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
       /> -->
+      <CallToActionbg1
+        v-if="$page.markdownPage.cta3"
+        :id="$page.markdownPage.id"
+        :cta="$page.markdownPage.cta3"
+      />
+    </div>
+      
     </div>
 
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
@@ -185,14 +192,16 @@
         cta3{
           id
           title
-          title2
+          image
           content
           button
           button2
           button3
+          button4
           link
           link2
           link3
+          link4
         }
         cta4{
           id
