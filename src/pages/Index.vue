@@ -18,7 +18,7 @@
       />
     </div>
 
-    <!-- <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
+    <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
      
 
@@ -32,9 +32,9 @@
         :products="$page.markdownPage.productData"
       />
 
-      
+      </div>
 
-      <logoShowcase
+      <!-- <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
