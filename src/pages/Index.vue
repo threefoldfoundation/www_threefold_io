@@ -32,9 +32,9 @@
         :products="$page.markdownPage.productData"
       />
 
-      </div>
+      
 
-      <!-- <logoShowcase
+      <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
@@ -50,7 +50,7 @@
       />
     </div>
 
-    <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
+    <!-- <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
       <BrandPanel
         class="my-20"
         :brand="$page.markdownPage.brandPanel"
