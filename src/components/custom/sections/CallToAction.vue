@@ -199,14 +199,26 @@
     >
       <h2
         v-if="cta.title"
-        class="lg:text-6xl uppercase mb-0 leading-tight font-semibold font-heading"
+        class="
+          lg:text-6xl
+          uppercase
+          mb-0
+          leading-tight
+          font-semibold font-heading
+        "
       >
         {{ cta.title }}
       </h2>
 
       <h2
         v-if="cta.subtitle"
-        class="lg:text-6xl uppercase mt-0 leading-tight font-semibold font-heading"
+        class="
+          lg:text-6xl
+          uppercase
+          mt-0
+          leading-tight
+          font-semibold font-heading
+        "
       >
         {{ cta.subtitle }}
       </h2>
@@ -234,254 +246,266 @@
         >
       </div> -->
       <div class="max-w-7xl mx-auto grid lg:grid-cols-3 gap-4">
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            py-1
-            lg:mr-5
-            mx-2
-            border-2
-            shadow
-            border-black
-          "
-          target="_blank"
-          v-if="cta.button && cta.link.includes('http')"
-          :href="cta.link"
-          >{{ cta.button }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          v-else
-          :href="cta.link"
-          >{{ cta.button }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            py-1
-            mx-2
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          target="_blank"
-          v-if="cta.button2 && cta.link2.includes('http')"
-          :href="cta.link2"
-          >{{ cta.button2 }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          v-else
-          :href="cta.link2"
-          >{{ cta.button2 }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          target="_blank"
-          v-if="cta.button3 && cta.link3.includes('http')"
-          :href="cta.link3"
-          >{{ cta.button3 }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          v-else
-          :href="cta.link3"
-          >{{ cta.button3 }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          target="_blank"
-          v-if="cta.button4 && cta.link4.includes('http')"
-          :href="cta.link4"
-          >{{ cta.button4 }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          v-else
-          :href="cta.link4"
-          >{{ cta.button4 }}</a
-        >
+        <div v-if="cta.button">
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              lg:mr-5
+              mx-2
+              border-2
+              shadow
+              border-black
+            "
+            target="_blank"
+            v-if="cta.button && cta.link.includes('http')"
+            :href="cta.link"
+            >{{ cta.button }}</a
+          >
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            v-else
+            :href="cta.link"
+            >{{ cta.button }}</a
+          >
+        </div>
+        <div v-if="cta.button2">
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mx-2
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            target="_blank"
+            v-if="cta.button2 && cta.link2.includes('http')"
+            :href="cta.link2"
+            >{{ cta.button2 }}</a
+          >
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            v-else
+            :href="cta.link2"
+            >{{ cta.button2 }}</a
+          >
+        </div>
+        <div v-if="cta.button3">
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            target="_blank"
+            v-if="cta.button3 && cta.link3.includes('http')"
+            :href="cta.link3"
+            >{{ cta.button3 }}</a
+          >
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            v-else
+            :href="cta.link3"
+            >{{ cta.button3 }}</a
+          >
+        </div>
+        <div v-if="cta.button4">
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            target="_blank"
+            v-if="cta.button4 && cta.link4.includes('http')"
+            :href="cta.link4"
+            >{{ cta.button4 }}</a
+          >
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            v-else
+            :href="cta.link4"
+            >{{ cta.button4 }}</a
+          >
+        </div>
 
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          target="_blank"
-          v-if="cta.button5 && cta.link5.includes('http')"
-          :href="cta.link5"
-          >{{ cta.button5 }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          v-else
-          :href="cta.link5"
-          >{{ cta.button5 }}</a
-        >
+        <div v-if="cta.button5">
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            target="_blank"
+            v-if="cta.button5 && cta.link5.includes('http')"
+            :href="cta.link5"
+            >{{ cta.button5 }}</a
+          >
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            v-else
+            :href="cta.link5"
+            >{{ cta.button5 }}</a
+          >
+        </div>
 
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          target="_blank"
-          v-if="cta.button6 && cta.link6.includes('http')"
-          :href="cta.link6"
-          >{{ cta.button6 }}</a
-        >
-        <a
-          class="
-            inline-block
-            bg-white
-            text-lg
-            learn-button
-            hover:bg-gray-400
-            bo
-            px-12
-            mx-2
-            py-1
-            lg:mr-5
-            border-2
-            shadow
-            border-black
-          "
-          v-else
-          :href="cta.link6"
-          >{{ cta.button6 }}</a
-        >
+        <div v-if="cta.button6">
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            target="_blank"
+            v-if="cta.button6 && cta.link6.includes('http')"
+            :href="cta.link6"
+            >{{ cta.button6 }}</a
+          >
+          <a
+            class="
+              block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              mx-2
+              py-1
+              lg:mr-5
+              border-2
+              shadow
+              border-black
+            "
+            v-else
+            :href="cta.link6"
+            >{{ cta.button6 }}</a
+          >
+        </div>
       </div>
     </div>
 
@@ -492,11 +516,20 @@
       <g-image class="mx-auto" :src="cta.image" />
       <h2
         v-if="cta.title"
-        class="lg:text-6xl mb-2 uppercase leading-tight font-semibold font-heading"
+        class="
+          lg:text-6xl
+          mb-2
+          uppercase
+          leading-tight
+          font-semibold font-heading
+        "
       >
         {{ cta.title }}
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 mx-auto text-xl text-gray-800"></div>
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 mx-auto text-xl text-gray-800"
+      ></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
@@ -518,174 +551,186 @@
           >{{ cta.video_button }}</a
         >
       </div>
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          bo
-          px-12
-          py-1
-          mr-5
-          my-2
-          border-2
-          shadow
-          border-black
-        "
-        target="_blank"
-        v-if="cta.button && cta.link.includes('http')"
-        :href="cta.link"
-        >{{ cta.button }}</a
-      >
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          bo
-          px-12
-          py-1
-          mr-5
-          my-2
-          border-2
-          shadow
-          border-black
-        "
-        v-else
-        :href="cta.link"
-        >{{ cta.button }}</a
-      >
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          bo
-          px-12
-          py-1
-          mr-5
-          my-2
-          border-2
-          shadow
-          border-black
-        "
-        target="_blank"
-        v-if="cta.button2 && cta.link2.includes('http')"
-        :href="cta.link2"
-        >{{ cta.button2 }}</a
-      >
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          bo
-          px-12
-          py-1
-          mr-5
-          my-2
-          border-2
-          shadow
-          border-black
-        "
-        v-else
-        :href="cta.link2"
-        >{{ cta.button2 }}</a
-      >
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          bo
-          px-12
-          py-1
-          mr-5
-          my-2
-          border-2
-          shadow
-          border-black
-        "
-        target="_blank"
-        v-if="cta.button3 && cta.link3.includes('http')"
-        :href="cta.link3"
-        >{{ cta.button3 }}</a
-      >
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          bo
-          px-12
-          py-1
-          mr-5
-          my-2
-          border-2
-          shadow
-          border-black
-        "
-        v-else
-        :href="cta.link3"
-        >{{ cta.button3 }}</a
-      >
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          bo
-          px-12
-          py-1
-          mr-5
-          my-2
-          border-2
-          shadow
-          border-black
-        "
-        target="_blank"
-        v-if="cta.button4 && cta.link4.includes('http')"
-        :href="cta.link4"
-        >{{ cta.button4 }}</a
-      >
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          bo
-          px-12
-          py-1
-          mr-5
-          my-2
-          border-2
-          shadow
-          border-black
-        "
-        v-else
-        :href="cta.link4"
-        >{{ cta.button4 }}</a
-      >
+      <div v-if="cta.button">
+        <a
+          class="
+            block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            my-2
+            border-2
+            shadow
+            border-black
+          "
+          target="_blank"
+          v-if="cta.button && cta.link.includes('http')"
+          :href="cta.link"
+          >{{ cta.button }}</a
+        >
+        <a
+          class="
+            block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            my-2
+            border-2
+            shadow
+            border-black
+          "
+          v-else
+          :href="cta.link"
+          >{{ cta.button }}</a
+        >
+      </div>
+      <div v-if="cta.button2">
+        <a
+          class="
+            block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            my-2
+            border-2
+            shadow
+            border-black
+          "
+          target="_blank"
+          v-if="cta.button2 && cta.link2.includes('http')"
+          :href="cta.link2"
+          >{{ cta.button2 }}</a
+        >
+        <a
+          class="
+            block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            my-2
+            border-2
+            shadow
+            border-black
+          "
+          v-else
+          :href="cta.link2"
+          >{{ cta.button2 }}</a
+        >
+      </div>
+      <div v-if="cta.button3">
+        <a
+          class="
+            block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            my-2
+            border-2
+            shadow
+            border-black
+          "
+          target="_blank"
+          v-if="cta.button3 && cta.link3.includes('http')"
+          :href="cta.link3"
+          >{{ cta.button3 }}</a
+        >
+        <a
+          class="
+            block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            my-2
+            border-2
+            shadow
+            border-black
+          "
+          v-else
+          :href="cta.link3"
+          >{{ cta.button3 }}</a
+        >
+      </div>
+      <div v-if="cta.button4">
+        <a
+          class="
+            block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            my-2
+            border-2
+            shadow
+            border-black
+          "
+          target="_blank"
+          v-if="cta.button4 && cta.link4.includes('http')"
+          :href="cta.link4"
+          >{{ cta.button4 }}</a
+        >
+        <a
+          class="
+            block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            my-2
+            border-2
+            shadow
+            border-black
+          "
+          v-else
+          :href="cta.link4"
+          >{{ cta.button4 }}</a
+        >
+      </div>
     </div>
 
     <!-- grid -->
-    <div id="zero_os" class="w-full max-w-3xl mx-auto lg:py-20" v-else-if="id == 'grid'">
+    <div
+      id="zero_os"
+      class="w-full max-w-3xl mx-auto lg:py-20"
+      v-else-if="id == 'grid'"
+    >
       <g-image :src="cta.image" class="mx-auto lg:w-1/3 my-10" />
       <h2
         v-if="cta.title"
