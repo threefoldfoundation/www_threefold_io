@@ -551,10 +551,10 @@
           >{{ cta.video_button }}</a
         >
       </div>
-      <div v-if="cta.button">
+      <div v-if="cta.button" class="inline-block">
         <a
           class="
-            block
+            inline-block
             bg-white
             text-lg
             learn-button
@@ -575,7 +575,7 @@
         >
         <a
           class="
-            block
+            inline-block
             bg-white
             text-lg
             learn-button
@@ -594,10 +594,10 @@
           >{{ cta.button }}</a
         >
       </div>
-      <div v-if="cta.button2">
+      <div v-if="cta.button2" class="inline-block">
         <a
           class="
-            block
+            inline-block
             bg-white
             text-lg
             learn-button
@@ -618,7 +618,7 @@
         >
         <a
           class="
-            block
+            inline-block
             bg-white
             text-lg
             learn-button
@@ -637,10 +637,10 @@
           >{{ cta.button2 }}</a
         >
       </div>
-      <div v-if="cta.button3">
+      <div v-if="cta.button3" class="inline-block">
         <a
           class="
-            block
+            inline-block
             bg-white
             text-lg
             learn-button
@@ -661,7 +661,7 @@
         >
         <a
           class="
-            block
+            inline-block
             bg-white
             text-lg
             learn-button
@@ -680,10 +680,10 @@
           >{{ cta.button3 }}</a
         >
       </div>
-      <div v-if="cta.button4">
+      <div v-if="cta.button4" class="inline-block">
         <a
           class="
-            block
+            inline-block
             bg-white
             text-lg
             learn-button
@@ -704,7 +704,7 @@
         >
         <a
           class="
-            block
+            inline-block
             bg-white
             text-lg
             learn-button
