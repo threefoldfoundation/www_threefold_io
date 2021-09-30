@@ -16,7 +16,6 @@ button2: Peer-to-Peer Cloud
 link2: https://cloud.threefold.io/ 
 button3: How it Works
 link3: /how-it-works
-logosMain : logo_home
 cta2: home_cta2
 productsMain: product
 productData: [nodes_home, tokens_home, storage_home]
@@ -27,7 +26,8 @@ cta4: home_cta4
 cta5: home_cta5
 comparisonMain: comparison
 comparisonSecs: [private, equal, sustainable]
-
+logos: [partner1]
+logosMain : partnersMain
 inTheNews: in_the_news
 solution_image: ./cta_image.png
 cta: home_cta

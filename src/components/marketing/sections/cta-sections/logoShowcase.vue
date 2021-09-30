@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div v-else-if="id == 'home'" class="flex flex-wrap lg:mx-40">
+    <!-- <div v-else-if="id == 'home'" class="flex flex-wrap lg:mx-40">
       <div v-for="logo in logos" class="w-1/2 md:w-1/6" :key="logo.node.id">
         <a
           v-if="logo.node.path.includes('http')"
@@ -43,7 +43,7 @@
           <g-image :src="img(logo.node.logo)" class="w-1/2 mx-auto" />
         </a>
       </div>
-    </div>
+    </div> -->
     <div v-else class="flex flex-wrap -mx-8">
       <g-image
         class="mx-auto"

@@ -35,16 +35,11 @@
       
 
       <logoShowcase
-        v-if="$page.markdownPage.logos"
+        v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
-        :logos="$page.allProject.edges"
+        :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
       />
-      <!-- <CallToActionbg1
-        v-if="$page.markdownPage.cta3"
-        :id="$page.markdownPage.id"
-        :cta="$page.markdownPage.cta3"
-      /> -->
     </div>
       
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
@@ -275,7 +270,7 @@
          btnTxt2
          image
        }
-       logosMain {
+        logosMain {
           id
           title
           image
