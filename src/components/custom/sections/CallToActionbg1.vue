@@ -16,7 +16,7 @@
       >
         {{ cta.title }}
       </h2>
-      <g-image class="mx-auto" :src="cta.image" />
+      <g-image class="mx-auto w-3/4" :src="cta.image" />
      
       <div
         v-html="cta.content"
