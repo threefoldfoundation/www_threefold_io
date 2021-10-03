@@ -257,20 +257,26 @@
     </div>
 
     <div
-      class="flex flex-wrap lg:text-left lg:pt-10 -mx-2"
+      class="flex flex-wrap lg:pt-10 pb-10"
       v-else-if="id == 'home'"
     >
       <div
-        class="px-2 lg:py-40 lg:mt-10 order-1 lg:order-none mx-auto text-center"
+        class="lg:py-40 px-2 lg:mt-10 order-1 lg:order-none text-center mx-auto"
       >
-        <div class="px-2 mt-20">
+        <!-- <div class="px-2 mt-20">
           <g-image :src="img2" :alt="altImg" />
-        </div>
-        <!-- <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
-          <span class="">{{ slogan }}</span
-          ><br />
+        </div> -->
+        <h2 class="text-9xl uppercase mt-10 mb-0 leading-none font-normal text-left
+        ">
+          {{ slogan }}
+          <span class="font-extrabold">{{ slogan2 }}</span>
+       
+        </h2>
+        <h2 class="text-9xl uppercase mb-6 mt-0 leading-none font-normal text-right 
+        ">
           {{ title }}
-        </h2> -->
+          <span class="font-extrabold">{{ title2 }}</span>
+        </h2>
 
         <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
 
@@ -281,14 +287,14 @@
             class="
               inline-block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
               px-12
               py-1
               mr-5
-              mb-4
+              mb-2
               border-2
               shadow
               border-black
@@ -301,14 +307,14 @@
             class="
               inline-block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
               px-12
               py-1
               mr-5
-              mb-4
+              mb-2
               border-2
               shadow
               border-black
@@ -325,14 +331,14 @@
             class="
               inline-block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
               px-12
               py-1
               mr-5
-              mb-4
+              mb-2
               border-2
               shadow
               border-black
@@ -345,14 +351,14 @@
             class="
               inline-block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
               px-12
               py-1
               mr-5
-              mb-4
+              mb-2
               border-2
               shadow
               border-black
@@ -369,14 +375,14 @@
             class="
               inline-block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
               px-12
               py-1
               mr-5
-              mb-4
+              mb-2
               border-2
               shadow
               border-black
@@ -389,14 +395,14 @@
             class="
               inline-block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
               px-12
               py-1
               mr-5
-              mb-4
+              mb-2
               border-2
               shadow
               border-black
@@ -554,8 +560,10 @@
 export default {
   props: [
     "title",
+    "title2",
     "id",
     "slogan",
+    "slogan2",
     "excerpt",
     "altImg",
     "image",
