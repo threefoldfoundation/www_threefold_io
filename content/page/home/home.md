@@ -62,7 +62,7 @@ solution_image: ./home_header.png -->
 <!-- solution_image3: ./carbon_neutral.png
 header: carbon_neutral -->
 
-<!-- solution_image2: ./qsfs.svg -->
+
 
 <!-- logos: logo1
 logosMain : logo_home -->
