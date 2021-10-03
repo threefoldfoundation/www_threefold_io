@@ -251,7 +251,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -272,7 +272,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -294,7 +294,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -315,7 +315,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -337,7 +337,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -358,7 +358,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -380,7 +380,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -401,7 +401,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -424,7 +424,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -445,7 +445,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -468,7 +468,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -489,7 +489,7 @@
             class="
               block
               bg-white
-              text-lg
+              lg:text-lg
               learn-button
               hover:bg-gray-400
               bo
@@ -510,7 +510,7 @@
     </div>
 
     <div
-      class="w-full max-w-7xl mx-auto mt-10 px-2 py-16"
+      class="w-full max-w-7xl mx-auto mt-10 px-2 lg:py-16"
       v-else-if="id == 'home' && lastCta"
     >
       <g-image class="mx-auto" :src="cta.image" />
@@ -537,13 +537,13 @@
             inline-block
             cursor-pointer
             bg-blue-900
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-blue-800
             text-gray-100
             px-12
             py-2
-            mr-5
+            lg:mr-5
             my-2
             shadow
             rounded-full
@@ -556,13 +556,13 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
             my-2
             border-2
             shadow
@@ -577,13 +577,13 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
             my-2
             border-2
             shadow
@@ -599,13 +599,13 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
             my-2
             border-2
             shadow
@@ -620,13 +620,13 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
             my-2
             border-2
             shadow
@@ -642,13 +642,13 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
             my-2
             border-2
             shadow
@@ -663,13 +663,13 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
             my-2
             border-2
             shadow
@@ -685,13 +685,13 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
             my-2
             border-2
             shadow
@@ -706,13 +706,13 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             bo
             px-12
             py-1
-            mr-5
+            lg:mr-5
             my-2
             border-2
             shadow

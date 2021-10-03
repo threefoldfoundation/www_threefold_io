@@ -8,7 +8,7 @@
       </h2>
       <p class="text-gray-400 leading-relaxed"></p>
 
-      <g-image :src="img(main.image)" class="w-3/4 mx-auto" />
+      <g-image :src="img(main.image)" class="lg:w-2/3 mx-auto" />
     </div>
     <div
       v-if="id == 'support' || id == 'community'"
@@ -52,18 +52,17 @@
         :src="img(logo.image)"
       />
     </div>
-    <div v-if="main.button" class="my-10">
+    <div v-if="main.button" class="my-4">
       <a
         class="
           inline-block
           bg-white
-          text-lg
+          lg:text-lg
           learn-button
           hover:bg-gray-400
           px-12
           py-1
           mr-5
-          my-10
           border-2
           shadow
           border-black

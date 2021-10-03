@@ -166,7 +166,7 @@
       <!-- home -->
       <div
         v-else-if="id == 'home'"
-        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
+        class="flex flex-wrap lg:text-left text-center lg:pt-16 lg:px-16"
       >
         <div class="lg:w-1/2 lg:px-6 self-center">
           <g-image class="w-1/2 mx-auto" :src="image" :alt="brand.title" />
@@ -190,7 +190,7 @@
               class="
                 inline-block
                 bg-white
-                text-lg
+                lg:text-lg
                 learn-button
                 hover:bg-gray-400
                 bo
@@ -212,13 +212,13 @@
               class="
                 inline-block
                 bg-white
-                text-lg
+                lg:text-lg
                 learn-button
                 hover:bg-gray-400
                 bo
                 px-12
                 py-1
-                mr-5
+                lg:mr-5
                 mb-4
                 border-2
                 shadow
@@ -233,13 +233,13 @@
               class="
                 inline-block
                 bg-white
-                text-lg
+                lg:text-lg
                 learn-button
                 hover:bg-gray-400
                 bo
                 px-12
                 py-1
-                mr-5
+                lg:mr-5
                 mb-4
                 border-2
                 shadow
@@ -277,7 +277,7 @@
               :href="brand.sourceUrl"
               class="
                 bg-blue-900
-                text-lg
+                lg:text-lg
                 learn-button
                 hover:bg-blue-800
                 text-white
@@ -600,7 +600,7 @@
               capitalize
                 inline-block
                 bg-white
-                text-lg
+                lg:text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
@@ -620,7 +620,7 @@
               capitalize
                 inline-block
                 bg-white
-                text-lg
+                lg:text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
