@@ -20,7 +20,6 @@
 
     <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
-     
 
       <ShowcaseProducts
         v-if="
@@ -31,12 +30,8 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-
-      
-
-     
     </div>
-      
+
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <CallToAction
         v-if="$page.markdownPage.cta"
@@ -52,14 +47,14 @@
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.brandPanel"
       />
-      
-       <logoShowcase
+
+      <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
       />
-     
+
       <HorizontalScroll
         :team="$page.markdownPage.team"
         :people="$page.entries.edges"
@@ -69,8 +64,6 @@
         :main="$page.markdownPage.BlogsMain"
         :blogs="$page.markdownPage.blogs"
       />
-
-      
 
       <SplitWithForm
         v-if="$page.markdownPage.subscribe"
@@ -430,56 +423,56 @@ export default {
       return img;
     },
   },
-  // metaInfo() {
-  //   return {
-  //     title: "",
-  //     titleTemplate: "ThreeFold | Welcome",
-  //     meta: [
-  //       {
-  //         key: "description",
-  //         name: "description",
-  //         content: this.$page.markdownPage.metaDesc,
-  //       },
-  //       {
-  //         key: "og:title",
-  //         property: "og:title",
-  //         content: this.$page.markdownPage.metaTitle,
-  //       },
-  //       {
-  //         key: "og:description",
-  //         property: "og:description",
-  //         content: this.$page.markdownPage.metaDesc,
-  //       },
-  //       {
-  //         key: "og:image",
-  //         property: "og:image",
-  //         content: this.getImg,
-  //       },
-  //       {
-  //         key: "twitter:description",
-  //         name: "twitter:description",
-  //         content: this.$page.markdownPage.metaDesc,
-  //       },
-  //       {
-  //         key: "twitter:image",
-  //         property: "twitter:image",
-  //         content: this.getImg,
-  //       },
-  //       {
-  //         key: "twitter:title",
-  //         property: "twitter:title",
-  //         content: this.$page.markdownPage.metaTitle,
-  //       },
-  //     ],
-  //   };
-  // },
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: "ThreeFold | Welcome",
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+      ],
+    };
+  },
 };
 </script>
 <style scoped>
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }

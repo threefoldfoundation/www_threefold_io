@@ -584,4 +584,9 @@ export default {
   background: linear-gradient(to bottom, #ea1ff7, #70dfc9);
   background-size: cover !important;
 }
+@media (max-width: 640px) {
+  .bg-home {
+    background-position: center !important;
+  }
+}
 </style>

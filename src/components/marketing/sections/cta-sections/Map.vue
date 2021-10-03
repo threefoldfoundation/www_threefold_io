@@ -17,7 +17,8 @@
         </h2>
         <h2
           class="
-            lg:text-6xl text-black
+            lg:text-6xl
+            text-black
             leading-tight
             font-bold font-heading
             uppercase
@@ -28,61 +29,63 @@
 
         <div class="my-10 grid lg:grid-cols-3 lg:gap-8">
           <div class="..."></div>
-          <div class="...">
-            <!-- capacity -->
-            <div class="leading-none font-extrabold text-6xl">
-              {{ stats[0] }}PB
-              <span class="block text-3xl uppercase">capacity</span>
-            </div>
-          </div>
 
-          <div class="..."></div>
-          <div class="...">
-            <!-- Nodes -->
-            <div
-              class="
-                rounded-full
-                h-60 
-                w-60 
-                inline-flex
-                items-center
-                justify-center
-                bg-green
-              "
-            >
-              <div class="leading-none font-extrabold text-6xl">
-                {{ stats[1] }}
-                <span class="block text-2xl uppercase">nodes</span>
-              </div>
-            </div>
+          <!-- capacity -->
+          <div class="leading-none font-extrabold text-6xl">
+            {{ stats[0] }}PB
+            <span class="block text-3xl uppercase">capacity</span>
           </div>
           <div class="..."></div>
-          <div class="...">
-            <div
-              class="
-                rounded-full
-                h-60
-                w-60
-                inline-flex
-                items-center
-                justify-center
-                bg-pink
-              "
-            >
-              <div class="leading-none font-extrabold text-6xl">
-                {{ stats[3] }}
-                <span class="block text-2xl uppercase">countries</span>
-              </div>
+
+          <!-- Nodes -->
+          <div
+            class="
+              mx-auto
+              rounded-full
+              h-32
+              w-32
+              lg:h-60
+              lg:w-60
+              inline-flex
+              items-center
+              justify-center
+              bg-green
+            "
+          >
+            <div class="leading-none font-extrabold md:text-6xl">
+              {{ stats[1] }}
+              <span class="block md:text-2xl uppercase">nodes</span>
             </div>
           </div>
-          <div class="..."></div>
-          <div class="...">
-            <!-- cores -->
-            <div class="leading-none font-extrabold text-6xl">
-              {{ stats[2] }}
-              <span class="block text-5xl uppercase">cores</span>
+          <div class="hidden md:block"></div>
+
+          <!-- countries -->
+          <div
+            class="
+              mx-auto
+              rounded-full
+              h-32
+              w-32
+              lg:h-60
+              lg:w-60
+              inline-flex
+              items-center
+              justify-center
+              bg-pink
+            "
+          >
+            <div class="leading-none font-extrabold md:text-6xl">
+              {{ stats[3] }}
+              <span class="block md:text-2xl uppercase">countries</span>
             </div>
           </div>
+        </div>
+        <div class="..."></div>
+
+        <!-- cores -->
+        <div class="leading-none font-extrabold text-6xl">
+          {{ stats[2] }}
+          <span class="block text-2xl uppercase">cores</span>
         </div>
       </div>
     </div>
