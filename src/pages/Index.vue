@@ -5,6 +5,8 @@
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
         :slogan="$page.markdownPage.header_slogan"
+        :title2="$page.markdownPage.header_title2"
+        :slogan2="$page.markdownPage.header_slogan2"
         :image="$page.markdownPage.header_image"
         :img2="$page.markdownPage.header_img2"
         :altImg="$page.markdownPage.header_altImg"
@@ -91,6 +93,8 @@
         metaImg
         header_slogan
         header_title
+        header_slogan2
+        header_title2
         header_image
         header_img2
         header_excerpt
