@@ -2,14 +2,14 @@
   <div
     v-if="id == 'home'"
     class="
-      max-w-screen-xl
+      max-w-screen-2xl
       mx-auto
       py-12
-      px-4
+      lg:px-4
       text-center
       sm:px-6
       lg:px-8
-      lg:py-0
+      lg:py-20
     "
   >
     <div class="space-y-12">
@@ -30,7 +30,7 @@
           grid-cols-2
           sm:grid sm:grid-cols-1
           lg:grid-cols-2
-          lg:max-w-5xl
+          
         "
       >
         <div
@@ -40,12 +40,12 @@
         >
           <div class="space-y-2">
             <div class="text-lg font-medium space-y-1">
-              <h2 class="font-light leading-none">
+              <h2 class="lg:text-5xl uppercase leading-tight font-light">
                 {{ partnership.title }}
                 <span class="block font-bold"> {{ partnership.subtitle }}</span>
               </h2>
               <div
-                class="text-base px-5 mb-5 text-gray-800"
+                class="mx-auto text-xl px-5 mb-5 "
                 v-html="partnership.content"
               ></div>
             </div>
@@ -56,7 +56,7 @@
                 :href="partnership.link"
                 class="
                   inline-block
-                  text-lg
+                  lg:text-lg
                   learn-button
                   hover:bg-gray-400
                   px-12
@@ -66,6 +66,7 @@
                   border-2
                   shadow
                   border-black
+                  capitalize
                 "
                 >{{ partnership.button }}</a
               >
@@ -74,7 +75,7 @@
                 :href="partnership.link"
                 class="
                   inline-block
-                  text-lg
+                  lg:text-lg
                   learn-button
                   hover:bg-gray-400
                   px-12
@@ -84,13 +85,14 @@
                   border-2
                   shadow
                   border-black
+                  capitalize
                 "
                 >{{ partnership.button }}</a
               >
             </div>
           </div>
           <g-image
-            class="mx-auto"
+            class="mx-auto w-full "
             :src="partnership.img.src"
             :alt="partnership.id"
           />

@@ -40,7 +40,7 @@
       />
 
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
-      <ShowcaseProducts
+      <!-- <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
@@ -48,12 +48,12 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
-      />
-      <CallToAction
+      /> -->
+      <!-- <CallToAction
         v-if="$page.markdownPage.cta"
         :id="$page.markdownPage.id"
         :cta="$page.markdownPage.cta"
-      />
+      /> -->
 
       <LogoShowcase
         v-if="$page.markdownPage.logos.length > 0"
@@ -62,12 +62,12 @@
         :main="$page.markdownPage.logosMain"
       />
 
-      <BrandPanel
+      <!-- <BrandPanel
         class="my-20"
         :brand="$page.markdownPage.brandPanel"
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.brandPanel"
-      />
+      /> -->
 
       <HorizontalScroll
         :team="$page.markdownPage.team"

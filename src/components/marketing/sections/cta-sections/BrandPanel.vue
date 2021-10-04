@@ -258,11 +258,11 @@
         <div class="lg:w-1/2 lg:px-6 self-center">
           <g-image class="w-1/2 mx-auto" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 lg:px-10 order-1 lg:order-none lg:self-center">
+        <div class="lg:w-1/2 lg:px-20 order-1 lg:order-none lg:self-center">
           <div class="text-center">
             <h2
               class="
-                lg:text-5xl
+                lg:text-6xl
                 mb-8
                 font-light
                 uppercase
@@ -329,11 +329,11 @@
         v-else-if="id == 'home' && brandPanel3"
         class="flex flex-wrap lg:text-left text-center lg:pt-16 lg:px-16"
       >
-        <div class="lg:w-1/2 lg:px-10 order-1 lg:order-none lg:self-center">
+        <div class="lg:w-1/2 lg:px-20 order-1 lg:order-none lg:self-center">
           <div class="text-center">
             <h2
               class="
-                lg:text-5xl
+                lg:text-6xl
                 mb-8
                 font-light
                 uppercase
