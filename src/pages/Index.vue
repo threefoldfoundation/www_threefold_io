@@ -22,7 +22,6 @@
 
     <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
-
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
@@ -31,6 +30,12 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
+      />
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
+        :logos="$page.markdownPage.logos"
+        :main="$page.markdownPage.logosMain"
       />
     </div>
 
@@ -48,13 +53,6 @@
         :brand="$page.markdownPage.brandPanel"
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.brandPanel"
-      />
-
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
-        :main="$page.markdownPage.logosMain"
       />
 
       <HorizontalScroll
