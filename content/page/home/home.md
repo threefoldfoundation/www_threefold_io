@@ -22,8 +22,7 @@ cta4: home_cta4
 cta5: home_cta5
 comparisonMain: comparison
 comparisonSecs: [private, equal, sustainable]
-logos: [partner1]
-logosMain : partnersMain
+logosMain : logos
 inTheNews: in_the_news
 solution_image: ./cta_image.png
 cta: home_cta

@@ -68,9 +68,8 @@
       />
 
       <LogoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
+        v-if="$page.markdownPage.logosMain"
         :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
       />
       <InTheNews
@@ -295,11 +294,11 @@
           button
           link
         }
-        logos{
-          id
-          image
-          url
-        }
+        #logos{
+        #  id
+        #  image
+        #  url
+        #}
         inTheNews {
           id
           content
