@@ -93,11 +93,11 @@
         lg:mt-4
         -mx-2
       "
-      v-else-if="id == 'about-us'"
+      v-else-if="id == 'mission'"
     >
       <div class="lg:w-1/2 px-2 lg:pr-10 lg:mt-10 order-1 lg:order-none">
         <h1
-          v-if="id == 'about-us'"
+          v-if="id == 'mission'"
           class="
             text-center
             uppercase
@@ -251,7 +251,7 @@
 
     <div
       class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
-      v-else-if="id == 'token'"
+      v-else-if="id == 'tft'"
     >
       <div class="px-2 lg:mt-10 order-1 lg:order-none mx-auto text-center">
         <div class="w-1/2 mx-auto px-2 self-center">

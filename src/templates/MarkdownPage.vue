@@ -21,7 +21,7 @@
       <BrandPanel
         :id="$page.markdownPage.id"
         v-if="
-          $page.markdownPage.brandPanel && $page.markdownPage.id !== 'token'
+          $page.markdownPage.brandPanel && $page.markdownPage.id !== 'tft'
         "
         :brand="$page.markdownPage.brandPanel"
       />
@@ -30,7 +30,7 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
         v-if="
-          $page.markdownPage.brandPanel2 && $page.markdownPage.id !== 'token'
+          $page.markdownPage.brandPanel2 && $page.markdownPage.id !== 'tft'
         "
         :brandPanel2="true"
       />
@@ -40,7 +40,7 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
         v-if="
-          $page.markdownPage.brandPanel3 && $page.markdownPage.id !== 'token'
+          $page.markdownPage.brandPanel3 && $page.markdownPage.id !== 'tft'
         "
         :brandPanel3="true"
       />
@@ -59,7 +59,7 @@
           $page.markdownPage.header_title != '' &&
           $page.markdownPage.id !== 'about-us' &&
           $page.markdownPage.id !== 'grid' &&
-          $page.markdownPage.id !== 'token'
+          $page.markdownPage.id !== 'tft'
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -75,13 +75,13 @@
         v-if="
           $page.markdownPage.cta &&
           $page.markdownPage.id !== 'grid' &&
-          $page.markdownPage.id !== 'token'
+          $page.markdownPage.id !== 'tft'
         "
         :cta="$page.markdownPage.cta"
       />
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta2 && $page.markdownPage.id !== 'token'"
+        v-if="$page.markdownPage.cta2 && $page.markdownPage.id !== 'tft'"
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
       />
@@ -122,7 +122,7 @@
         :id="$page.markdownPage.id"
         v-if="
           ($page.markdownPage.cta && $page.markdownPage.id == 'grid') ||
-          $page.markdownPage.id == 'token'
+          $page.markdownPage.id == 'tft'
         "
         :cta="$page.markdownPage.cta"
       />
@@ -132,7 +132,7 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel4"
         v-if="
-          $page.markdownPage.brandPanel4 && $page.markdownPage.id !== 'token'
+          $page.markdownPage.brandPanel4 && $page.markdownPage.id !== 'tft'
         "
         :brandPanel4="true"
       />
@@ -155,14 +155,14 @@
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel && $page.markdownPage.id == 'token'"
+        v-if="$page.markdownPage.brandPanel && $page.markdownPage.id == 'tft'"
       />
 
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
         v-if="
-          $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'token'
+          $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'tft'
         "
         :brandPanel2="true"
       />
@@ -170,7 +170,7 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
         v-if="
-          $page.markdownPage.brandPanel3 && $page.markdownPage.id == 'token'
+          $page.markdownPage.brandPanel3 && $page.markdownPage.id == 'tft'
         "
         :brandPanel3="true"
       />
@@ -184,7 +184,7 @@
     <div class="container-fluid sm:pxi-0 mx-auto overflow-visible">
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'token'"
+        v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'tft'"
         :cta="$page.markdownPage.cta2"
         :lastCta="true"
       />
@@ -394,6 +394,8 @@
         logosMain {
           id
           title
+          title2
+          subtitle
           image
           button
           link

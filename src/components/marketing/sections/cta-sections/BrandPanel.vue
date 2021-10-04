@@ -1,9 +1,9 @@
 <template>
-  <div :class="{ 'bg-about': id == 'about-us' && brandPanel3 }">
+  <div :class="{ 'bg-about': id == 'mission' && brandPanel3 }">
     <div class="mx-auto py-10">
-      <!-- oldtoken -->
+      <!-- oldtft -->
       <div
-        v-if="id == 'oldtoken'"
+        v-if="id == 'oldtft'"
         class="
           brandpanel
           rounded-lg
@@ -401,7 +401,7 @@
 
       <!-- About us -->
       <div
-        v-else-if="id == 'about-us' && !brandPanel2 && !brandPanel3"
+        v-else-if="id == 'mission' && !brandPanel2 && !brandPanel3"
         class="flex flex-wrap text-left lg:my-10 lg:px-16"
       >
         <div class="lg:w-1/2 px-2 self-center">
@@ -442,7 +442,7 @@
       </div>
 
       <div
-        v-else-if="id == 'about-us' && brandPanel2"
+        v-else-if="id == 'mission' && brandPanel2"
         class="flex flex-wrap lg:text-left lg:pt-16 px-4 lg:mb-20 lg:px-16"
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
@@ -486,7 +486,7 @@
       </div>
 
       <div
-        v-else-if="id == 'about-us' && brandPanel3"
+        v-else-if="id == 'mission' && brandPanel3"
         class="flex flex-wrap lg:text-left lg:p-20 px-4"
       >
         <div class="lg:w-1/2 px-2 self-center">
@@ -799,9 +799,9 @@
         </div>
       </div>
 
-      <!-- token -->
+      <!-- tft -->
       <div
-        v-else-if="id == 'token' && !brandPanel2 && !brandPanel3"
+        v-else-if="id == 'tft' && !brandPanel2 && !brandPanel3"
         class="flex flex-wrap text-left mt-24 lg:px-16"
       >
         <div
@@ -833,7 +833,7 @@
       </div>
 
       <div
-        v-else-if="id == 'token' && brandPanel2"
+        v-else-if="id == 'tft' && brandPanel2"
         class="flex flex-wrap lg:text-left lg:pt-16 px-4 lg:px-16"
       >
         <div class="lg:w-1/2 self-center">
@@ -875,7 +875,7 @@
       </div>
 
       <div
-        v-else-if="id == 'token' && brandPanel3"
+        v-else-if="id == 'tft' && brandPanel3"
         class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
       >
         <div

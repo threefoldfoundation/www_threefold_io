@@ -1,15 +1,6 @@
 ---
-id: tft_brandPanel2
-title: DIVE INTO THREEFOLD TOKENOMICS
-subtitle: ''
-sourceUrl: https://forum.threefold.io/t/tft-development-plan/1149
-btnTxt: Know More
-image: dive_into2.jpg # src/assets/brandPanel/..
+id: token_brandPanel2
+title: A SCARCE TOKEN TO REPRESENT A SCARCE RESOURCE
+image: scarce_token_big.jpg # src/assets/brandPanel/..
 ---
-* Tokenomics
-
-* Scarcity model
-
-* Staking
-
-* Development plan
+TFTs are created only when active Internet capacity is added to the ThreeFold Grid, and a limited supply of 4B TFT has been set to keep the currency scarce. This ensures its value holds steady for the years to come and rewards early adopters for their commitment.

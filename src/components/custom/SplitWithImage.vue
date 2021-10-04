@@ -1,5 +1,5 @@
 <template>
-  <div class="relative" :class="{ 'bg-token': id == 'token' }">
+  <div class="relative" :class="{ 'bg-token': id == 'tft' }">
     <main class="lg:relative">
       <div class="relative w-full lg:absolute lg:left-0 lg:w-1/2 lg:h-auto">
         <g-image

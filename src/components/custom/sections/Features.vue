@@ -313,7 +313,7 @@
     </div>
   </section>
 
-  <section class="py-24 px-4 text-center" v-else-if="id == 'token'">
+  <section class="py-24 px-4 text-center" v-else-if="id == 'tft'">
     <h2
       class="
         lg:text-6xl

@@ -3,13 +3,13 @@
     class="bg-cover text-center"
     :class="{
       pink: id == 'home' && !lastCta,
-      green: id == 'about-us' && lastCta,
+      green: id == 'mission' && lastCta,
     }"
   >
-    <!-- about-us -->
+    <!-- mission -->
     <div
       class="w-full mx-auto lg:py-20"
-      v-if="id == 'about-us' && !textOnly && !lastCta"
+      v-if="id == 'mission' && !textOnly && !lastCta"
     >
       <h2
         v-if="cta.title"
@@ -94,7 +94,7 @@
 
     <div
       class="w-full max-w-3xl mx-auto py-12"
-      v-else-if="id == 'about-us' && textOnly"
+      v-else-if="id == 'mission' && textOnly"
     >
       <h2
         v-if="cta.title"
@@ -117,7 +117,7 @@
 
     <div
       class="w-full max-w-3xl mx-auto py-20"
-      v-else-if="id == 'about-us' && lastCta"
+      v-else-if="id == 'mission' && lastCta"
     >
       <h2
         v-if="cta.title"
@@ -830,10 +830,10 @@
       >
     </div>
 
-    <!-- token -->
+    <!-- tft -->
     <div
       class="w-full max-w-6xl mx-auto lg:my-20"
-      v-else-if="id == 'token' && !lastCta"
+      v-else-if="id == 'tft' && !lastCta"
     >
       <h2
         v-if="cta.title"
@@ -896,7 +896,7 @@
       >
     </div>
 
-    <div class="w-full mx-auto lg:py-20" v-else-if="id == 'token' && lastCta">
+    <div class="w-full mx-auto lg:py-20" v-else-if="id == 'tft' && lastCta">
       <h2
         v-if="cta.title"
         class="

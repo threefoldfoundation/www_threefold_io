@@ -24,10 +24,10 @@
       </p>
     </div>
 
-    <!-- token -->
+    <!-- tft -->
     <div
       class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center"
-      v-if="id == 'token'"
+      v-if="id == 'tft'"
     >
       <a
         v-for="(product, idx) in products"
@@ -112,10 +112,10 @@
       </div>
     </div>
 
-    <!-- How it works -->
+    <!-- Tech -->
     <div
       class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center lg:px-40"
-      v-else-if="id == 'how-it-works'"
+      v-else-if="id == 'tech'"
     >
       <div
         v-for="(product, idx) in products"

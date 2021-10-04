@@ -1,6 +1,6 @@
 ---
-id: about-us
-metaTitle: ThreeFold | About Us
+id: mission
+metaTitle: ThreeFold | Mission
 metaDesc:  To transform the future of the Internet by unlocking the limitless potential of emerging technologies and creating borderless opportunities for humanity.
 metaImg: ./about_header.png
 header_slogan: '' 

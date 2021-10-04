@@ -1,34 +1,46 @@
 ---
 id: navigation
 navLinks:
-  - name: About Us
-    link: /about-us
+  - name: Home
+    link: /
     external: false
     expandable: false
 
-  - name: ThreeFold Grid
+  - name: Mission
+    link: /mission
+    external: false
+    expandable: false
+
+  - name: Grid
     link: /grid
     external: false
     expandable: false
 
-  - name: Token
-    link: /token
+  - name: Farm
+    link: 'https://threefold.io/farming'
+    external: true
+    expandable: false
+
+  - name: TFT
+    link: /tft
     external: false
     expandable: false
 
-  - name: How It Works
-    link: /how-it-works
+  - name: Tech
+    link: /tech
     external : false
     expandble : false
 
-  
+  - name: Partners
+    link: /partners
+    external : false
+    expandble : false
+
   - name: Community
     link: "" # /dropdown
     external: false
     expandable: true
     submenu:
-      - title: Partners
-        path: /partners
       - title: People
         path: /people
       - title: Alliance

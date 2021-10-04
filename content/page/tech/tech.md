@@ -1,6 +1,6 @@
 ---
-id: how-it-works
-metaTitle: ThreeFold | How It Works
+id: tech
+metaTitle: ThreeFold | Tech
 metaDesc: Be part of a better tomorrow by expanding the peer-to-peer Internet and set yourself free from the centralized applications and services that exploit your data today.
 metaImg: ./universe_header.png
 productsMain: product_page
