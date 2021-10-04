@@ -55,13 +55,6 @@
         :cta="$page.markdownPage.cta"
       /> -->
 
-      <!-- <LogoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
-        :main="$page.markdownPage.logosMain"
-      /> -->
-
       <!-- <BrandPanel
         class="my-20"
         :brand="$page.markdownPage.brandPanel"
@@ -74,6 +67,12 @@
         :people="$page.entries.edges"
       />
 
+      <LogoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
+        :logos="$page.markdownPage.logos"
+        :main="$page.markdownPage.logosMain"
+      />
       <InTheNews
         v-if="$page.markdownPage.inTheNews"
         :news="$page.markdownPage.inTheNews"
