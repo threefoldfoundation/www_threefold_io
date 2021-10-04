@@ -5,13 +5,13 @@
         v-html="news.content"
         class="text-center text-6xl font-semibold leading-tight font-heading"
       ></div>
-      <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+      <div class="mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:mt-10 ">
         <g-link
           v-for="partner in news.partners"
           :key="partner.id"
           :to="partner.path"
           target="_blank"
-          class="col-span-1 flex justify-center m-1 bg-gray-100"
+          class="col-span-1 flex justify-center m-1"
         >
           <img :src="img(partner.logo)" />
         </g-link>
