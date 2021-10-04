@@ -1,5 +1,8 @@
 <template>
-  <section class="px-2 h-auto bg-center bg-contain bg-no-repeat">
+  <section
+    class="px-2 h-auto bg-center bg-contain bg-no-repeat"
+    :style="{ 'background-image': 'url(' + img(section.image) + ')' }"
+  >
     <div class="flex flex-wrap lg:p-12 text-center -mx-auto">
       <div class="text-center rounded lg:px-6 mt-10 lg:mt-0 mx-auto">
         <h3
@@ -23,8 +26,8 @@
         >
           {{ section.subtitle }}
         </h2>
-        <g-image :src="img(section.image)" />
-        <div class="grid lg:grid-cols-3 lg:gap-8">
+
+        <div class="my-10 grid lg:grid-cols-3 lg:gap-8">
           <div class="..."></div>
 
           <!-- capacity -->
