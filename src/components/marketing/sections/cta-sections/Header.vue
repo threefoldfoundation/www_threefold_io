@@ -169,7 +169,7 @@
       <div class="lg:w-1/2 px-2"><g-image :src="img" :alt="altImg" /></div>
     </div>
 
-    <div
+    <!-- <div
       v-else-if="id == 'tft'"
       class="
         flex flex-wrap
@@ -241,17 +241,17 @@
             :href="link"
             >{{ button }}</a
           >
-          <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
+          
         </div>
       </div>
       <div class="lg:w-1/2 px-2 self-center">
         <g-image :src="img" :alt="altImg" />
       </div>
-    </div>
+    </div> -->
 
     <div
       class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
-      v-else-if="id == 'tft'"
+      v-if="id == 'tft'"
     >
       <div class="px-2 lg:mt-10 order-1 lg:order-none mx-auto text-center">
         <div class="w-1/2 mx-auto px-2 self-center">
