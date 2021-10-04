@@ -31,19 +31,13 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-      <logoShowcase
+      <LogoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
       />
     </div>
-    <logoShowcase
-      v-if="$page.markdownPage.logos.length > 0"
-      :id="$page.markdownPage.id"
-      :logos="$page.markdownPage.logos"
-      :main="$page.markdownPage.logosMain"
-    />
 
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <CallToAction
@@ -392,7 +386,7 @@ import BrandPanel2 from "~/components/marketing/sections/cta-sections/BrandPanel
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import CallToActionbg1 from "~/components/custom/sections/CallToActionbg1.vue";
 import CallToActionbg2 from "~/components/custom/sections/CallToActionbg2.vue";
-import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
+import LogoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import VideoPanel from "~/components/custom/VideoPanel.vue";
@@ -410,7 +404,7 @@ export default {
     NewCard,
     BrandPanel,
     BrandPanel2,
-    logoShowcase,
+    LogoShowcase,
     CallToAction,
     CallToActionbg1,
     CallToActionbg2,
