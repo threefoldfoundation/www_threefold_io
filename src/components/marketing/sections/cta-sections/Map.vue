@@ -31,7 +31,7 @@
           <div class="..."></div>
 
           <!-- capacity -->
-          <div class="leading-none font-extrabold text-6xl">
+          <div class="leading-none font-extrabold text-5xl">
             {{ stats[0] }}PB
             <span class="block text-3xl uppercase">capacity</span>
           </div>
@@ -50,6 +50,7 @@
               items-center
               justify-center
               bg-green
+              my-4
             "
           >
             <div class="leading-none font-extrabold md:text-6xl">
@@ -83,7 +84,7 @@
         <div class="..."></div>
 
         <!-- cores -->
-        <div class="leading-none font-extrabold text-6xl">
+        <div class="leading-none font-extrabold text-5xl">
           {{ stats[2] }}
           <span class="block text-2xl uppercase">cores</span>
         </div>

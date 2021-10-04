@@ -38,6 +38,12 @@
         :main="$page.markdownPage.logosMain"
       />
     </div>
+    <logoShowcase
+      v-if="$page.markdownPage.logos.length > 0"
+      :id="$page.markdownPage.id"
+      :logos="$page.markdownPage.logos"
+      :main="$page.markdownPage.logosMain"
+    />
 
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <CallToAction

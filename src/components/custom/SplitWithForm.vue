@@ -1,6 +1,6 @@
 <template>
   <section class="body-font">
-    <div class="mx-auto flex py-20 md:flex-row flex-col items-center lg:px-10">
+    <div class="mx-auto flex  py-10 lg:py-20 md:flex-row flex-col items-center lg:px-10">
       <div
         class="
           lg:pl-24
