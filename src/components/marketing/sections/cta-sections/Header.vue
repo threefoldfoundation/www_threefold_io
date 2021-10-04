@@ -324,7 +324,7 @@
       <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
         <h2
           class="
-            text-8xl
+            lg:text-6xl
             font-light
             uppercase
             mb-6
@@ -337,7 +337,7 @@
           <span class="block leading-none font-bold">{{ title2 }}</span>
         </h2>
 
-        <h3 class="text-5xl leading-none font-light">{{ slogan }}</h3>
+        <h3 class="text-4xl leading-none font-light">{{ slogan }}</h3>
         <div class="mb-8 mx-auto text-xl max-w-2xl" v-html="excerpt"></div>
 
         <a
@@ -346,7 +346,7 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             px-12
@@ -356,6 +356,7 @@
             border-2
             shadow
             border-black
+            capitalize
           "
           :href="link"
           >{{ button }}</a
@@ -365,7 +366,7 @@
           class="
             inline-block
             bg-white
-            text-lg
+            lg:text-lg
             learn-button
             hover:bg-gray-400
             px-12
@@ -375,6 +376,7 @@
             border-2
             shadow
             border-black
+            capitalize
           "
           :href="link"
           >{{ button }}</a

@@ -5,16 +5,16 @@
   >
     <div class="flex flex-wrap lg:p-12 text-center -mx-auto">
       <div class="text-center rounded lg:px-6 mt-10 lg:mt-0 mx-auto">
-        <h2
+        <h3
           class="
-            text-3xl text-black
+            text-4xl text-black
             leading-tight
             font-light font-heading
             uppercase
           "
         >
           {{ section.title }}
-        </h2>
+        </h3>
         <h2
           class="
             lg:text-6xl
