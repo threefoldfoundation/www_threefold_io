@@ -1,13 +1,13 @@
 ---
 id: grid
 metaTitle: ThreeFold | Grid
-metaDesc: The ThreeFold Grid is an open system which allows anyone to become a node in the emerging digital economy. It opens a new Internet era free from censorship, user tracking and privacy breaches.
+metaDesc: Powered by the ThreeFold Blockchain, anyone can now provide and utilize cloud capacity without any intermediaries. A new cloud era has arrived, one governed by the people.
 metaImg: ./grid_header.png
 header_slogan: 
 header_title: THE THREEFOLD GRID
 header_image: ./grid_header.png
 header_altImg: threefold
-header_excerpt: The ThreeFold Grid is an open system which allows anyone to become a node in the emerging digital economy. It opens a new Internet era free from censorship, user tracking and privacy breaches.
+header_excerpt: Powered by the ThreeFold Blockchain, anyone can now provide and utilize cloud capacity without any intermediaries. A new cloud era has arrived, one governed by the people.
 solution_image: 
 button: Take Part
 link: "#zero_os"

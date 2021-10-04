@@ -1,13 +1,13 @@
 ---
 id: tft
 metaTitle: ThreeFold | TFT
-metaDesc:  A digital currency that enables a peer-to-peer digital economy.
+metaDesc:  The ThreeFold Token (TFT) is a digital currency and utility token that enables a peer-to-peer cloud ecosystem.
 metaImg: ./token_header.png
 header_slogan: 
 header_title: INSPIRED BY AUTONOMY
 header_image: ./token_header.png
 header_altImg: threefold
-header_excerpt: A digital currency that enables a peer-to-peer digital economy.
+header_excerpt: The ThreeFold Token (TFT) is a digital currency and utility token that enables a peer-to-peer cloud ecosystem.
 solution_image: 
 button: 
 link: 

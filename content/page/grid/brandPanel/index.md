@@ -1,8 +1,8 @@
 ---
 id: grid_brandPanel
-title: AN ENDLESSLY SCALABLE DIGITAL NETWORK
+title: an endlessly scalable cloud network
 btnTxt: Learn about TFT
 sourceUrl: /token
 image: endless.png # src/assets/brandPanel/..
 ---
-By connecting compute, storage and network capacity to the ThreeFold Grid, anyone can join an open and inclusive Internet ecosystem that supports the realization of a truly inter-connected world, and earn income in the form of TFT.
+The ThreeFold Grid is formed by an incentivized ecosystem of people that connect cloud capacity anywhere electricity and bandwidth is present. Together they support the realization of a democratized cloud infrastructure and earn income in the form of TFT.
