@@ -2,7 +2,7 @@
 id: zero_os
 title: POWERED BY A 
 subtitle: NEW OPERATING SYSTEM
-sourceUrl: '#'
+sourceUrl: /how-it-works
 btnTxt: Know More
 image: zero_os.jpg # src/assets/brandPanel/..
 ---
