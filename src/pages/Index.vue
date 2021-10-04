@@ -18,14 +18,20 @@
         :link2="$page.markdownPage.link2"
         :link3="$page.markdownPage.link3"
       />
-    </div>
 
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <Partenerships
         v-if="$page.markdownPage.partnerships.length > 0"
         :id="$page.markdownPage.id"
         :partnerships="$page.markdownPage.partnerships"
       />
+
+      <BrandPanel
+        :brand="$page.markdownPage.brandPanel2"
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.brandPanel2"
+        :brandPanel2="true"
+      />
+
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
       <ShowcaseProducts
         v-if="
@@ -41,9 +47,7 @@
         :id="$page.markdownPage.id"
         :cta="$page.markdownPage.cta"
       />
-    </div>
 
-    <div class="container-fluid mx-auto sm:pxi-0 overflow-x-hidden">
       <LogoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
@@ -265,8 +269,6 @@
          content
          sourceUrl
          btnTxt
-         sourceUrl2
-         btnTxt2
          image
        }
         logosMain {
