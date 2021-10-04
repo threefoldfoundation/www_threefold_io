@@ -277,6 +277,8 @@
         logosMain {
           id
           title
+          title2
+          subtitle
           image
           button
           link

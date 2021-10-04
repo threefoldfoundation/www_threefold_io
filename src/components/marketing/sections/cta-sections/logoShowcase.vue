@@ -2,11 +2,16 @@
   <section class="py-10 pb-8 px-4 text-center">
     <div class="mx-auto mb-4" v-if="main">
       <h2
-        class="lg:text-6xl uppercase leading-tight mb-6 font-bold font-heading"
+        class="lg:text-6xl uppercase leading-tight mb-0 font-light"
       >
         {{ main.title }}
       </h2>
-      <p class="text-gray-400 leading-relaxed"></p>
+      <h2
+        class="lg:text-6xl uppercase leading-tight mt-0 mb-4 font-bold"
+      >
+        {{ main.title2 }}
+      </h2>
+      <p class="text-xl leading-tight tracking-wide mb-10">{{ main.subtitle }}</p>
 
       <g-image :src="img(main.image)" class="lg:w-2/3 mx-auto" />
     </div>
