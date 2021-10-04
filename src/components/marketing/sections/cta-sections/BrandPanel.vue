@@ -165,7 +165,7 @@
 
       <!-- home -->
       <div
-        v-else-if="id == 'home' && !brandPanel2"
+        v-else-if="id == 'home' && !brandPanel2 && !brandPanel3"
         class="flex flex-wrap lg:text-left text-center lg:pt-16 lg:px-16"
       >
         <div class="lg:w-1/2 lg:px-6 self-center">
@@ -322,6 +322,80 @@
               >{{ brand.btnTxt }}</a
             >
           </div>
+        </div>
+      </div>
+
+      <div
+        v-else-if="id == 'home' && brandPanel3"
+        class="flex flex-wrap lg:text-left text-center lg:pt-16 lg:px-16"
+      >
+        <div class="lg:w-1/2 lg:px-10 order-1 lg:order-none lg:self-center">
+          <div class="text-center">
+            <h2
+              class="
+                lg:text-5xl
+                mb-8
+                font-light
+                uppercase
+                leading-none
+                font-heading
+              "
+            >
+              {{ brand.title }}
+              <span class="block font-bold" v-if="brand.subtitle">{{
+                brand.subtitle
+              }}</span>
+            </h2>
+            <div
+              class="pb-6 text-xl leading-tight tracking-wide"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt.includes('http')"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                lg:text-lg
+                learn-button
+                hover:bg-gray-400
+                bo
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+
+            <a
+              v-else
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                lg:text-lg
+                learn-button
+                hover:bg-gray-400
+                bo
+                px-12
+                py-1
+                lg:mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+        <div class="lg:w-1/2 lg:px-6 self-center">
+          <g-image class="mx-auto" :src="image" :alt="brand.title" />
         </div>
       </div>
 

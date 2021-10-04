@@ -32,6 +32,13 @@
         :brandPanel2="true"
       />
 
+      <BrandPanel
+        :brand="$page.markdownPage.brandPanel3"
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.brandPanel3"
+        :brandPanel3="true"
+      />
+
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
       <ShowcaseProducts
         v-if="
@@ -263,6 +270,15 @@
          image
        }
         brandPanel2{
+         id
+         title
+         subtitle
+         content
+         sourceUrl
+         btnTxt
+         image
+       }
+      brandPanel3{
          id
          title
          subtitle
