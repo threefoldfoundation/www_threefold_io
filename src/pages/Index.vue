@@ -31,12 +31,6 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-      <LogoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
-        :main="$page.markdownPage.logosMain"
-      />
     </div>
 
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
@@ -48,6 +42,13 @@
     </div>
 
     <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
+      <LogoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
+        :logos="$page.markdownPage.logos"
+        :main="$page.markdownPage.logosMain"
+      />
+
       <BrandPanel
         class="my-20"
         :brand="$page.markdownPage.brandPanel"
@@ -59,6 +60,12 @@
         :team="$page.markdownPage.team"
         :people="$page.entries.edges"
       />
+
+      <InTheNews
+        v-if="$page.markdownPage.inTheNews"
+        :news="$page.markdownPage.inTheNews"
+      />
+
       <Blogs
         v-if="$page.markdownPage.blogs || $page.markdownPage.BlogsMain"
         :main="$page.markdownPage.BlogsMain"
@@ -71,12 +78,12 @@
         :subscribe="$page.markdownPage.subscribe"
       />
 
-      <CallToAction
+      <!-- <CallToAction
         v-if="$page.markdownPage.cta2"
         :id="$page.markdownPage.id"
         :cta="$page.markdownPage.cta2"
         :lastCta="true"
-      />
+      /> -->
     </div>
   </Layout>
 </template>
