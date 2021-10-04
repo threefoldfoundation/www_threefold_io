@@ -458,7 +458,6 @@
          title
          btnTxt
          sourceUrl
-         btnTxt2
          sourceUrl2
          content
          image
