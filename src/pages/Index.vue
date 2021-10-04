@@ -98,19 +98,12 @@
         metaImg
         header_slogan
         header_title
-        header_slogan2
         header_title2
         header_image
-        header_img2
         header_excerpt
         header_altImg
         button
         link
-        button2
-        link2
-        button3
-        link3
-
         solution_image
      #   solution_image2
      #  solution_image3

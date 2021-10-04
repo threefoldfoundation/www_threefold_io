@@ -1,12 +1,5 @@
 <template>
-  <section
-    class="mb-10 bg-no-repeats bg-home"
-    :style="[
-      id == 'home'
-        ? { background: 'url(' + img + ') no-repeat' }
-        : { background: 'transparent' },
-    ]"
-  >
+  <section class="mb-10 bg-no-repeats">
     <div
       class="flex flex-wrap text-center items-center pb-20 lg:text-left -mx-2"
       v-if="id == 'why'"
@@ -257,168 +250,6 @@
     </div>
 
     <div
-      class="flex flex-wrap lg:pt-10 pb-10"
-      v-else-if="id == 'home'"
-    >
-      <div
-        class="lg:py-40 px-2 lg:mt-10 order-1 lg:order-none text-center mx-auto"
-      >
-        <!-- <div class="px-2 mt-20">
-          <g-image :src="img2" :alt="altImg" />
-        </div> -->
-        <h2 class="text-9xl uppercase mt-10 mb-0 leading-none font-normal text-left
-        ">
-          {{ slogan }}
-          <span class="font-extrabold">{{ slogan2 }}</span>
-       
-        </h2>
-        <h2 class="text-9xl uppercase mb-6 mt-0 leading-none font-normal text-right 
-        ">
-          {{ title }}
-          <span class="font-extrabold">{{ title2 }}</span>
-        </h2>
-
-        <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
-
-        <div v-if="link" class="inline-block">
-          <a
-            v-if="link.includes('http')"
-            target="_blank"
-            class="
-              inline-block
-              bg-white
-              lg:text-lg
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-2
-              border-2
-              shadow
-              border-black
-            "
-            :href="link"
-            >{{ button }}</a
-          >
-          <a
-            v-else
-            class="
-              inline-block
-              bg-white
-              lg:text-lg
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-2
-              border-2
-              shadow
-              border-black
-            "
-            :href="link"
-            >{{ button }}</a
-          >
-        </div>
-
-        <div v-if="link2" class="inline-block">
-          <a
-            v-if="link2.includes('http')"
-            target="_blank"
-            class="
-              inline-block
-              bg-white
-              lg:text-lg
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-2
-              border-2
-              shadow
-              border-black
-            "
-            :href="link2"
-            >{{ button2 }}</a
-          >
-          <a
-            v-else
-            class="
-              inline-block
-              bg-white
-              lg:text-lg
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-2
-              border-2
-              shadow
-              border-black
-            "
-            :href="link2"
-            >{{ button2 }}</a
-          >
-        </div>
-
-        <div v-if="link3" class="inline-block">
-          <a
-            v-if="link3.includes('http')"
-            target="_blank"
-            class="
-              inline-block
-              bg-white
-              lg:text-lg
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-2
-              border-2
-              shadow
-              border-black
-            "
-            :href="link3"
-            >{{ button3 }}</a
-          >
-          <a
-            v-else
-            class="
-              inline-block
-              bg-white
-              lg:text-lg
-              learn-button
-              hover:bg-gray-400
-              bo
-              px-12
-              py-1
-              mr-5
-              mb-2
-              border-2
-              shadow
-              border-black
-            "
-            :href="link3"
-            >{{ button3 }}</a
-          >
-        </div>
-        <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
-      </div>
-      <!-- <div class="lg:w-3/5 px-2 self-center">
-        <g-image :src="img" :alt="altImg" />
-      </div> -->
-    </div>
-
-    <div
       class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
       v-else-if="id == 'token'"
     >
@@ -485,6 +316,73 @@
       </div>
       <g-image class="order-2 lg:order-none" :src="img" :alt="altImg" />
     </div>
+
+    <div
+      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
+      v-else-if="id == 'home'"
+    >
+      <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
+        <h2
+          class="
+            text-8xl
+            font-light
+            uppercase
+            mb-6
+            mt-20
+            leading-none
+            font-heading
+          "
+        >
+          {{ title }}
+          <span class="block leading-none font-bold">{{ title2 }}</span>
+        </h2>
+
+        <h3 class="text-5xl leading-none font-light">{{ slogan }}</h3>
+        <div class="mb-8 mx-auto text-xl max-w-2xl" v-html="excerpt"></div>
+
+        <a
+          v-if="link.includes('http')"
+          target="_blank"
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+        <a
+          v-else
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+      </div>
+      <g-image class="order-2 lg:order-none" :src="img" :alt="altImg" />
+    </div>
+
     <div
       class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 lg:mx-40"
       v-else

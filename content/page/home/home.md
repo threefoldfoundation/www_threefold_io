@@ -1,23 +1,16 @@
 ---
 id: home
 metaTitle: ThreeFold | Home
-metaDesc: ThreeFold is the engine for a planet positive and data sovereign Internet. A collaborative movement of people who care about a better future.
-metaImg: ./home-bg_new.jpg
-header_slogan: from 
-header_slogan2: zero
-header_title: to 
-header_title2: one
-header_image: ./home-bg_new.jpg
-header_img2 : ./from_zero.png
-
+metaDesc: The world’s most advanced peer-to-peer and fully decentralized Internet infrastructure, now ready to host the world’s data and workloads.
+metaImg: ./new_home_header.jpg
+header_slogan: Ready to serve all of humanity
+header_title: WELCOME TO THE 
+header_title2: THREEFOLD GRID
+header_image: ./new_home_header.jpg
 header_altImg: threefold
-header_excerpt: The digital infrastructure for an interconnected world.
-button: Expand the Network
-link: /grid
-button2: Peer-to-Peer Cloud
-link2: https://cloud.threefold.io/ 
-button3: How it Works
-link3: /how-it-works
+header_excerpt: The world’s most advanced peer-to-peer and fully decentralized Internet infrastructure, now ready to host the world’s data and workloads.
+button: Get Involved
+link: '#'
 cta2: home_cta2
 productsMain: product
 productData: [nodes_home, tokens_home, storage_home]
@@ -61,8 +54,6 @@ solution_image: ./home_header.png -->
 
 <!-- solution_image3: ./carbon_neutral.png
 header: carbon_neutral -->
-
-
 
 <!-- logos: logo1
 logosMain : logo_home -->
