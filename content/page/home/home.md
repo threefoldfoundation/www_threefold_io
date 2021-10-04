@@ -10,7 +10,7 @@ header_image: ./new_home_header.jpg
 header_altImg: threefold
 header_excerpt: The world’s most advanced peer-to-peer and fully decentralized Internet infrastructure, now ready to host the world’s data and workloads.
 button: Get Involved
-link: '#'
+link: /grid
 cta2: home_cta2
 productsMain: product
 productData: [nodes_home, tokens_home, storage_home]
