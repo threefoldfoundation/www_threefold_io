@@ -40,8 +40,7 @@ features2:
     features2_sustainability
 
   ]
-partenershipsMain: home_partenerships_main
-partnerships: [tag, solidaridad]
+partnerships: [become_farmer, network]
 BlogsMain: blog_main
 blogs: [zero_os_blog, smart_contract_blog, threefold_regenerates]
 subscribe: home_subscribe

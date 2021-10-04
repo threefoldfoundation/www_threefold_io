@@ -20,7 +20,12 @@
       />
     </div>
 
-    <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+      <Partenerships
+        v-if="$page.markdownPage.partnerships.length > 0"
+        :id="$page.markdownPage.id"
+        :partnerships="$page.markdownPage.partnerships"
+      />
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
       <ShowcaseProducts
         v-if="
@@ -31,9 +36,6 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
-    </div>
-
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <CallToAction
         v-if="$page.markdownPage.cta"
         :id="$page.markdownPage.id"
@@ -41,7 +43,7 @@
       />
     </div>
 
-    <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
+    <div class="container-fluid mx-auto sm:pxi-0 overflow-x-hidden">
       <LogoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
@@ -297,20 +299,13 @@
           btn
           link
         }
-        partenershipsMain{
-         id
-         title
-         slogan
-         content
-         link
-         link2
-         button
-         button2
-       }
        partnerships {
          id
          title
+         subtitle
          img
+         button
+         link
          content
        }
        map {
