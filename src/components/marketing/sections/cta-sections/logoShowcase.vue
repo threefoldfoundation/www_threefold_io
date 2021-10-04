@@ -1,5 +1,5 @@
 <template>
-  <section class="py-10 pb-8 px-4 text-center">
+  <section class="lg:py-20 pb-8 px-4 text-center">
     <div class="mx-auto mb-4" v-if="main">
       <h2
         class="lg:text-6xl uppercase leading-tight mb-0 font-light"

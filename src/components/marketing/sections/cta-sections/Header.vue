@@ -318,7 +318,7 @@
     </div>
 
     <div
-      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
+      class="flex flex-wrap text-center lg:text-left lg:pt-10 lg:pb-10 -mx-2"
       v-else-if="id == 'home'"
     >
       <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">

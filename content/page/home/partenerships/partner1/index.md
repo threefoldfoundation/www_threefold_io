@@ -7,4 +7,4 @@ button: Become a Farmer
 link: https://threefold.io/farming/farming
 ---
 
-Help us expand the network even further by becoming a ThreeFold Farmer and earn ThreeFold Tokens (TFT), the currency of decentralized data
+Help us expand the network even further by becoming a ThreeFold Farmer and earn ThreeFold Tokens (TFT), the currency of decentralized data.

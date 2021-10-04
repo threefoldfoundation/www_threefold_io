@@ -1,10 +1,10 @@
 <template>
-  <div class="lg:my-20 flex flex-col mt-5 p-auto lg:px-40">
+  <div class="lg:my-32 flex flex-col mt-5 p-auto lg:px-40">
     <h2 class="flex py-2 mx-auto uppercase font-bold lg:text-6xl">
       {{ team.title }}
     </h2>
     <div
-      class="lg:max-w-6xl text-xl text-center mb-8 mx-auto leading-relaxed"
+      class="lg:max-w-4xl text-xl text-center mb-8 mx-auto leading-relaxed"
       v-html="team.content"
     ></div>
     <div class="flex overflow-x-scroll pb-10 scrollable">
