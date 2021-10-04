@@ -57,7 +57,7 @@
           $page.markdownPage.id !== 'contact' &&
           $page.markdownPage.header_title &&
           $page.markdownPage.header_title != '' &&
-          $page.markdownPage.id !== 'about-us' &&
+          $page.markdownPage.id !== 'mission' &&
           $page.markdownPage.id !== 'grid' &&
           $page.markdownPage.id !== 'tft'
         "

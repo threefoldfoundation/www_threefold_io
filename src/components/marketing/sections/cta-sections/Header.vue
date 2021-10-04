@@ -78,7 +78,7 @@
             :href="link"
             >{{ button }}</a
           >
-          <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
+          
         </div>
       </div>
     </div>
@@ -93,11 +93,11 @@
         lg:mt-4
         -mx-2
       "
-      v-else-if="id == 'mission'"
+      v-if="id == 'mission'"
     >
       <div class="lg:w-1/2 px-2 lg:pr-10 lg:mt-10 order-1 lg:order-none">
         <h1
-          v-if="id == 'mission'"
+          
           class="
             text-center
             uppercase
@@ -385,7 +385,7 @@
       <g-image class="order-2 lg:order-none" :src="img" :alt="altImg" />
     </div>
 
-    <div
+    <!-- <div
       class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 lg:mx-40"
       v-else
     >
@@ -446,13 +446,13 @@
             :href="link"
             >{{ button }}</a
           >
-          <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
+         
         </div>
       </div>
       <div class="lg:w-1/2 px-2 self-center">
         <g-image :src="img" :alt="altImg" />
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
 
