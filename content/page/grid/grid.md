@@ -10,7 +10,7 @@ header_altImg: threefold
 header_excerpt: Powered by the ThreeFold Blockchain, anyone can now provide and utilize cloud capacity without any intermediaries. A new cloud era has arrived, one governed by the people.
 solution_image: 
 button: Take Part
-link: "#zero_os"
+link: https://farming.threefold.io/farming
 brandPanel: grid_brandPanel
 brandPanel2: grid_brandPanel2
 brandPanel3: grid_brandPanel3
