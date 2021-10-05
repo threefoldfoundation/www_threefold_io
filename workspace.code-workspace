@@ -1,10 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "/home/gitpod/publisher"
-		},
-		{
-			"path": "/home/gitpod/code/crystaltools"
+			"path": "/home/gitpod/code/github/freeflowuniverse/crystaltools/"
 		},
 		{
 			"path": "."

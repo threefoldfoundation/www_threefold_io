@@ -2,12 +2,12 @@
     "name": "local",
     "prefix": "local",
     "git_url": "",
-    "fs_path": "..",
+    "fs_path": "../",
     "pull": false,
     "reset": false,
     "cat": "web",
     "domains": [
-        "www.local.io"
+        "local"
     ],
     "descr": "is our entry point for everyone, redirect to the detailed websites underneith.",
     "groups": [],
