@@ -2,7 +2,7 @@
 id: smart-contract
 image: ./smart.png
 button : Explore other tech components
-link : /how-it-works
+link : /tech
 ---
 
 # Smart Contract for IT

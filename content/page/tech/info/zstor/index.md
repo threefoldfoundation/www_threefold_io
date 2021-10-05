@@ -2,7 +2,7 @@
 id: zstor
 image: ./zstor.png
 button : Explore other tech components
-link : /how-it-works
+link : /tech
 ---
 # ZStor
 

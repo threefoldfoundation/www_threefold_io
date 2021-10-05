@@ -2,7 +2,7 @@
 id: tf-chain
 image: ./tfchain.png
 button : Explore other tech components
-link : /how-it-works
+link : /tech
 ---
 
 # TF Chain
