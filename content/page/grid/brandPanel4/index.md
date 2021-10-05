@@ -2,7 +2,7 @@
 id: grid_brandPanel4
 title: DISCOVER THE TOKEN THAT POWERS THE THREEFOLD GRID 
 btnTxt: Learn more about TFT
-sourceUrl: /token
+sourceUrl: /tft
 btnTxt2: ''
 sourceUrl2: ''
 image: utility.jpg # src/assets/brandPanel/..
