@@ -3,7 +3,7 @@ id: Features_home_2
 title: Introducing 3Node
 subtitle: ''
 btn: How it works 
-link: https://farming.threefold.io/farming 
+link: https://farming.threefold.io/farm
 btn2: Order your 3Node 
 link2: https://farming.threefold.io/get_3node 
 btn3: Discover Zero-OS
