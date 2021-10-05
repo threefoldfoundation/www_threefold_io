@@ -17,7 +17,7 @@ navLinks:
     expandable: false
 
   - name: Farm
-    link: 'https://farming.threefold.io/'
+    link: 'https://farming.threefold.io/farming'
     external: true
     expandable: false
 

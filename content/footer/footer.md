@@ -14,8 +14,6 @@ items:
    links:
     - name: ThreeFold Token
       link: /tft
-    - name: ThreeFold Farming
-      link: https://farming.threefold.io/
     - name: ThreeFold Cloud
       link: https://cloud.threefold.io/
     - name: Grid Explorer
@@ -31,7 +29,7 @@ items:
  - title: Participate
    links:
     - name: Start Farming
-      link: https://farming.threefold.io/get_3node
+      link: https://farming.threefold.io/farming
     - name: Buy the Token
       link: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
     - name: Test the Cloud
