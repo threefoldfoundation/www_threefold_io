@@ -2,7 +2,7 @@
 id: fix_internet
 title: ZERO OS
 subtitle: ''
-sourceUrl: https://threefold.io/farming/get_3node
+sourceUrl: https://farming.threefold.io/get_3node
 btnTxt: Get a Node
 button2: Learn More
 link2: /grid

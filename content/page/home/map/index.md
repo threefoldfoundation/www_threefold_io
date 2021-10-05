@@ -6,7 +6,7 @@ button: More Stats
 link: https://explorer.threefold.io
 image: ./map.png
 btn1: Become a Farmer
-link1: https://threefold.io/farming
+link1: https://farming.threefold.io/
 btn2: Explore Live Capacity
 link2: https://explorer.threefold.io/
 btn3: Behind the New Internet
