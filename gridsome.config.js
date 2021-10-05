@@ -269,7 +269,7 @@ module.exports = {
             use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'Info',
-                path: './content/page/how-it-works/info/**/*.md',
+                path: './content/page/tech/info/**/*.md',
             }
         },
 
@@ -701,7 +701,7 @@ module.exports = {
             component: '~/templates/Job.vue'
         }],
         Info: [{
-            path: '/how-it-works/:id',
+            path: '/tech/:id',
             component: '~/templates/Info.vue'
         }],
     },
