@@ -56,7 +56,7 @@ navLinks:
     expandable: true
     submenu:
       - title: KnowledgeBase
-        path: https://wiki.threefold.io
+        path: https://library.threefold.me/info/threefold#/
         external: true         
       - title: Blog
         path: /blog
