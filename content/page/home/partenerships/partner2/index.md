@@ -7,6 +7,6 @@ button: Deploy
 link: https://cloud.threefold.io/
 ---
 
-In just a few steps, achieve unparalleled privacy and endless scalability on our peer-to-peer cloud. Our prices will truly shock you!
+In just a few steps, achieve unparalleled privacy and endless scalability on our peer-to-peer cloud. Our prices will shock you!
 
 
