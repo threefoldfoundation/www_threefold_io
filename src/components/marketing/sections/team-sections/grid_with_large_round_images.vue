@@ -24,15 +24,7 @@
         </h2>
         <div class="mt-3 text-gray-700 sm:mt-4" v-html="main.content"></div>
       </div>
-      <div
-        class="
-          mx-auto
-          grid-cols-2
-          sm:grid sm:grid-cols-1
-          lg:grid-cols-2
-          
-        "
-      >
+      <div class="mx-auto grid-cols-2 sm:grid sm:grid-cols-1 lg:grid-cols-2">
         <div
           class="my-5 mx-5 pt-10 bg-gray"
           v-for="partnership in partnerships"
@@ -40,12 +32,12 @@
         >
           <div class="space-y-2">
             <div class="text-lg font-medium space-y-1">
-              <h2 class="lg:text-5xl uppercase leading-tight font-light">
+              <h2 class="h2 uppercase leading-tight font-light">
                 {{ partnership.title }}
                 <span class="block font-bold"> {{ partnership.subtitle }}</span>
               </h2>
               <div
-                class="mx-auto text-xl px-5 mb-5 "
+                class="mx-auto text-xl px-5 mb-5"
                 v-html="partnership.content"
               ></div>
             </div>
@@ -92,7 +84,7 @@
             </div>
           </div>
           <g-image
-            class="mx-auto w-full "
+            class="mx-auto w-full"
             :src="partnership.img.src"
             :alt="partnership.id"
           />
