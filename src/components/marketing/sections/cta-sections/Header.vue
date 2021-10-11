@@ -385,9 +385,9 @@
       <g-image class="order-2 lg:order-none" :src="img" :alt="altImg" />
     </div>
 
-    <!-- <div
+    <div
       class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 lg:mx-40"
-      v-else
+      v-else-if="id == 'support'"
     >
       <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
         <h2
@@ -452,7 +452,7 @@
       <div class="lg:w-1/2 px-2 self-center">
         <g-image :src="img" :alt="altImg" />
       </div>
-    </div> -->
+    </div>
   </section>
 </template>
 
