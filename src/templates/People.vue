@@ -19,13 +19,7 @@
       </div>
     </div>
     <div class="pagination flex justify-center mb-8">
-      <Pagination
-        :baseUrl="baseurl"
-        :currentPage="$page.entries.pageInfo.currentPage"
-        :totalPages="$page.entries.pageInfo.totalPages"
-        :maxVisibleButtons="5"
-        v-if="$page.entries.pageInfo.totalPages > 1 && $page.entries.edges.length > 0"
-      />
+      <Pager :info="$page.entries.pageInfo" range="10" linkClass="pager-link" />
     </div>
   </Layout>
 </template>
@@ -82,12 +76,14 @@ query($page: Int){
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
 import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
 import Pagination from "~/components/custom/Pagination.vue";
+import { Pager } from "gridsome";
 
 export default {
   components: {
     PostListItem,
     TagFilterHeader,
-    Pagination
+    Pagination,
+    Pager,
   },
   metaInfo() {
     return {
@@ -97,7 +93,8 @@ export default {
         {
           key: "description",
           name: "description",
-          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+          content:
+            "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
         },
         {
           key: "og:title",
@@ -107,7 +104,8 @@ export default {
         {
           key: "og:description",
           property: "og:description",
-          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+          content:
+            "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
         },
         {
           key: "og:image",
@@ -117,7 +115,8 @@ export default {
         {
           key: "twitter:description",
           name: "twitter:description",
-          content: "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
+          content:
+            "Meet the wide range of passionate and dedicated individuals involved in the ThreeFold movement.",
         },
         {
           key: "twitter:image",
@@ -153,3 +152,21 @@ export default {
   },
 };
 </script>
+<style>
+.pagination {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+.pagination a {
+  text-align: center;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+}
+.active {
+  background-color: #70dfc9;
+  color: white;
+}
+</style>

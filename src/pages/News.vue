@@ -52,13 +52,7 @@
       </div>
     </div>
     <div class="pagination flex justify-center mb-8">
-      <Pagination
-        :baseUrl="baseurl"
-        :currentPage="$page.entries.pageInfo.currentPage"
-        :totalPages="$page.entries.pageInfo.totalPages"
-        :maxVisibleButtons="5"
-        v-if="searchResults.length > 7 && news.edges.length > 7"
-      />
+      <Pager :info="$page.entries.pageInfo" range="10" linkClass="pager-link" />
     </div>
   </Layout>
 </template>
@@ -110,7 +104,7 @@ query($page: Int){
 <script>
 import NewsFilterHeader from "~/components/custom/NewsFilterHeader.vue";
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
-import Pagination from "~/components/custom/Pagination.vue";
+import { Pager } from "gridsome";
 import SearchBox from "~/components/custom/SearchBox.vue";
 import FilterDropdown from "~/components/custom/FilterDropdown.vue";
 export default {
@@ -192,7 +186,7 @@ export default {
   },
   components: {
     PostListItem,
-    Pagination,
+    Pager,
     NewsFilterHeader,
     SearchBox,
     FilterDropdown,
@@ -347,3 +341,21 @@ export default {
 };
 </script>
 
+<style>
+.pagination {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+.pagination a {
+  text-align: center;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+}
+.active {
+  background-color: #70dfc9;
+  color: white;
+}
+</style>
