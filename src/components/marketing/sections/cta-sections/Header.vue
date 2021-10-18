@@ -314,7 +314,7 @@
           >{{ button }}</a
         >
       </div>
-      <g-image class="order-2 lg:order-none" :src="img" :alt="altImg" />
+      <g-image class="order-2 lg:order-none mx-auto w-full" :src="img" :alt="altImg" />
     </div>
 
     <div
@@ -382,7 +382,7 @@
           >{{ button }}</a
         >
       </div>
-      <g-image class="order-2 lg:order-none" :src="img" :alt="altImg" />
+      <g-image class="order-2 lg:order-none mx-auto w-full" :src="img" :alt="altImg" />
     </div>
 
     <div
