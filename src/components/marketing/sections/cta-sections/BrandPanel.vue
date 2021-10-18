@@ -402,12 +402,12 @@
       <!-- About us -->
       <div
         v-else-if="id == 'mission' && !brandPanel2 && !brandPanel3"
-        class="flex flex-wrap text-left lg:my-10 lg:px-16"
+        class="flex flex-wrap text-left lg:my-10 lg:px-20"
       >
         <div class="lg:w-1/2 px-2 self-center">
           <g-image class="lg:w-2/3 mx-auto" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 lg:mt-10 order-1 lg:order-none text-left px-4">
+        <div class="lg:w-1/2 lg:mt-10 order-1 lg:order-none lg:text-left text-center px-4">
           <div class="lg:self-center">
             <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
@@ -443,7 +443,7 @@
 
       <div
         v-else-if="id == 'mission' && brandPanel2"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-4 lg:mb-20 lg:px-16"
+        class="flex flex-wrap lg:text-left text-center lg:pt-16 px-4 lg:mb-20 lg:px-20"
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
           <div class="lg:self-center">
@@ -487,7 +487,7 @@
 
       <div
         v-else-if="id == 'mission' && brandPanel3"
-        class="flex flex-wrap lg:text-left lg:p-20 px-4"
+        class="flex flex-wrap lg:text-left text-center lg:p-20 px-4"
       >
         <div class="lg:w-1/2 px-2 self-center">
           <g-image class="lg:w-2/3 mx-auto" :src="image" :alt="brand.title" />
@@ -533,7 +533,7 @@
 
       <div
         v-else-if="id == 'grid' && !brandPanel2 && !brandPanel3"
-        class="flex flex-wrap text-left lg:px-16"
+        class="flex flex-wrap text-left lg:px-24"
       >
         <div
           class="
@@ -612,7 +612,7 @@
 
       <div
         v-else-if="id == 'grid' && brandPanel2"
-        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
+        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-24"
       >
         <div class="lg:w-1/2 self-center">
           <g-image class="w-3/4" :src="image" :alt="brand.title" />
@@ -675,7 +675,7 @@
 
       <div
         v-else-if="id == 'grid' && brandPanel3"
-        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
+        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-24"
       >
         <div
           class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center"
@@ -739,7 +739,7 @@
 
       <div
         v-else-if="id == 'grid' && brandPanel4"
-        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
+        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-24"
       >
         <div
           class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center"
@@ -810,8 +810,9 @@
             lg:mt-5
             order-1
             lg:order-none
-            text-left
+            lg:text-left
             lg:self-center
+            text-center
           "
         >
           <div class="px-2">
@@ -834,7 +835,7 @@
 
       <div
         v-else-if="id == 'tft' && brandPanel2"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-4 lg:px-16"
+        class="flex flex-wrap lg:text-left text-center lg:pt-16 px-4 lg:px-16"
       >
         <div class="lg:w-1/2 self-center">
           <g-image class="mx-auto w-3/4" :src="image" :alt="brand.title" />
@@ -876,7 +877,7 @@
 
       <div
         v-else-if="id == 'tft' && brandPanel3"
-        class="flex flex-wrap lg:text-left lg:pt-16 lg:px-16"
+        class="flex flex-wrap lg:text-left text-center lg:pt-16 lg:px-16"
       >
         <div
           class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center"

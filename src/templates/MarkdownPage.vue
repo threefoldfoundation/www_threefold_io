@@ -16,8 +16,7 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
-    </div>
-    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
+   
       <BrandPanel
         :id="$page.markdownPage.id"
         v-if="
@@ -34,8 +33,7 @@
         "
         :brandPanel2="true"
       />
-    </div>
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
+
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
@@ -115,9 +113,7 @@
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
       /> -->
-    </div>
-
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-visible">
+ 
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="
@@ -126,8 +122,7 @@
         "
         :cta="$page.markdownPage.cta"
       />
-    </div>
-    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
+ 
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel4"
@@ -136,16 +131,14 @@
         "
         :brandPanel4="true"
       />
-    </div>
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-visible">
+    
       <SplitWithImage
         v-if="$page.markdownPage.tft"
         :id="$page.markdownPage.id"
         :tft="$page.markdownPage.tft"
       />
-    </div>
-    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <Features
+    
+      <Features class="lg:my-20"
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.network.length > 0"
         :main="$page.markdownPage.networkMain"
@@ -180,8 +173,7 @@
         v-if="$page.markdownPage.roadmap"
         :roadmap="$page.markdownPage.roadmap"
       />
-    </div>
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-visible">
+   
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'tft'"
@@ -204,7 +196,7 @@
       :src="$page.markdownPage.solution_image.src"
     />
 
-    <div class="container_tft sm:pxi-0 mx-auto py-5 overflow-visible">
+    <div class="container-fluid sm:pxi-0 mx-auto py-5 overflow-visible">
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&

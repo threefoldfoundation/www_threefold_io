@@ -253,11 +253,11 @@
       class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
       v-if="id == 'tft'"
     >
-      <div class="px-2 lg:mt-10 order-1 lg:order-none mx-auto text-center">
+      <div class="px-2 mt-10 order-1 lg:order-none mx-auto text-center">
         <div class="w-1/2 mx-auto px-2 self-center">
           <g-image :src="img" :alt="altImg" />
         </div>
-        <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
+        <h2 class="text-8xl uppercase mb-6 lg:mt-20 leading-none font-heading">
           {{ title }}
         </h2>
         <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>

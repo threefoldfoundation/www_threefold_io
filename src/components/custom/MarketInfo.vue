@@ -4,16 +4,17 @@
       <h2
         class="
           text-md
-          lg:text-6xl
+          lg:text-5xl
           font-bold
           leading-tight
-          lg:max-w-5xl
+          max-w-2xl
+          inline
         "
       >
         {{ main.title }}
       </h2>
       <div
-        class="my-5 max-w-xl text-lg lg:text-xl mx-auto text-gray-900 sm:mt-4"
+        class="my-5 max-w-3xl text-lg lg:text-xl mx-auto text-gray-900 sm:mt-4"
         v-html="main.content"
       ></div>
     </div>

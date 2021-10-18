@@ -327,7 +327,7 @@
     >
       {{ main.title }}
     </h2>
-    <div class="flex flex-wrap items-center -mx-4 lg:mb-20">
+    <div class="flex flex-wrap items-center lg:-mx-4 lg:mb-20">
       <div
         v-for="(feature, index) in features"
         :key="index"
@@ -359,7 +359,7 @@
     >
       {{ main.subtitle }}
     </p>
-    <div class="flex flex-wrap -mx-4 mb-6">
+    <div class="flex flex-wrap lg:-mx-4 mb-6">
       <div
         v-for="feature in features"
         :key="feature.id"
