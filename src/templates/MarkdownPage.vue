@@ -130,6 +130,8 @@
         :sections="$page.markdownPage.comparisonSecs"
       /> -->
 
+      
+
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="
@@ -235,6 +237,22 @@
         :brand="$page.markdownPage.brandPanel3"
         v-if="$page.markdownPage.brandPanel3 && $page.markdownPage.id == 'farm'"
         :brandPanel3="true"
+      />
+
+      <TFTFuel
+        v-if="$page.markdownPage.farmingProcess.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.farmingMain"
+        :sections="$page.markdownPage.farmingProcess"
+        :farmingProcess="true"
+      />
+
+      <TFTFuel
+        v-if="$page.markdownPage.cultivationProcess.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.cultivationMain"
+        :sections="$page.markdownPage.cultivationProcess"
+        :cultivationProcess="true"
       />
 
       <CallToAction

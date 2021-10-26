@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <div
-      v-if="id == 'tft' && !farmingProcess && !cultivationProcess"
+      v-if="id == 'farm' && !farmingProcess && !cultivationProcess"
       class="
         mx-auto
         lg:py-16
@@ -38,7 +38,7 @@
     </div>
 
     <div
-      v-else-if="id == 'tft' && (farmingProcess || cultivationProcess)"
+      v-else-if="id == 'farm' && (farmingProcess || cultivationProcess)"
       class="mx-auto lg:py-16 px-4 max-w-screen-xl sm:px-6 lg:px-8 tft_section"
     >
       <div class="space-y-12">

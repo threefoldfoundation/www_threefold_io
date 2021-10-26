@@ -18,4 +18,8 @@ cta2: farm_cta2
 brandPanel: farm_brandPanel
 brandPanel3: farm_brandPanel3
 brandPanel2 : farm_brandPanel2
+farmingMain: FP_main
+farmingProcess: [process_1, process_2, process_3]
+cultivationMain: CP_main
+cultivationProcess: [CP_process_1, CP_process_2, CP_process_3]
 ---
