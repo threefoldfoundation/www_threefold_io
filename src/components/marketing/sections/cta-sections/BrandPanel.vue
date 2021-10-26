@@ -1,5 +1,12 @@
 <template>
-  <div :class="{ 'bg-about': id == 'mission' && brandPanel3 }">
+  <div 
+  class="bg-cover"
+  :class="{ 
+    
+     bg: id == 'mission' && brandPanel3,
+     gry: id == 'farm' && brandPanel3, 
+    }"
+  >
     <div class="mx-auto py-10">
       <!-- oldtft -->
       <div
@@ -9,8 +16,7 @@
           rounded-lg
           shadow-xl
           overflow-hidden
-          lg:grid lg:grid-cols-2
-          lg:gap-4
+          lg:grid lg:grid-cols-2 lg:gap-4
         "
       >
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">
@@ -36,12 +42,9 @@
             pt-10
             pb-10
             px-6
-            sm:pt-16
-            sm:px-10
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
+            sm:pt-16 sm:px-10
+            lg:py-16 lg:pr-0
+            xl:py-20 xl:px-15
           "
         >
           <div class="lg:self-center">
@@ -91,8 +94,7 @@
           rounded-lg
           shadow-xl
           overflow-hidden
-          lg:grid lg:grid-cols-2
-          lg:gap-4
+          lg:grid lg:grid-cols-2 lg:gap-4
         "
       >
         <div
@@ -100,12 +102,9 @@
             pt-10
             pb-12
             px-6
-            sm:pt-16
-            sm:px-16
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
+            sm:pt-16 sm:px-16
+            lg:py-16 lg:pr-0
+            xl:py-20 xl:px-15
           "
         >
           <div class="lg:self-center text-center">
@@ -399,7 +398,154 @@
         </div>
       </div>
 
-      <!-- About us -->
+      <!-- farm -->
+      <div
+        v-else-if="id == 'farm' && !brandPanel2 && !brandPanel3"
+        class="flex flex-wrap lg:text-left lg:my-10"
+      >
+        <div
+          class="
+            lg:w-1/2 lg:mt-10
+            order-1
+            lg:order-none lg:text-left
+            text-center
+            lg:px-56
+            self-center
+           
+          "
+        >
+          <div class="lg:self-center">
+            <h2 class="text-9xl mb-8 uppercase leading-none font-heading">
+              <span class="block">{{ brand.title }}</span>
+              <span class="block" v-if="brand.subtitle">{{
+                brand.subtitle
+              }}</span>
+            </h2>
+            <div
+              class="py-6 mt-4 text-xl leading-tight tracking-wide"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                my-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+        <div class="lg:w-1/2 px-2 self-center text-right">
+          <g-image class="lg:ml-60 mx-auto" :src="image" :alt="brand.title" />
+        </div>
+      </div>
+
+       <div
+        v-else-if="id == 'farm' && brandPanel2"
+        class="
+          flex flex-wrap
+          lg:text-left
+          text-center
+          lg:pt-16
+          px-4
+          lg:mb-20 lg:px-20
+        "
+      >
+        <div class="lg:w-1/2 px-2 self-center">
+          <g-image class="mx-auto" :src="image" :alt="brand.title" />
+        </div>
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none self-center">
+          <div class="lg:self-center">
+            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-light">
+              <span class="block font-normal">{{ brand.title }}</span>
+              <span class="block font-bold" v-if="brand.subtitle">{{
+                brand.subtitle
+              }}</span>
+            </h2>
+            <div
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide lg:max-w-2xl"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                my-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        v-else-if="id == 'farm' && brandPanel3"
+        class="flex flex-wrap lg:text-left text-center lg:p-20 px-4"
+      >
+        <div class="lg:w-1/2 px-2 self-center">
+          <g-image class="lg:w-3/4 mx-auto" :src="image" :alt="brand.title" />
+        </div>
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
+          <div class="lg:self-center">
+            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-light">
+              <span class="block font-normal">{{ brand.title }}</span>
+              <span class="block font-bold" v-if="brand.subtitle">{{
+                brand.subtitle
+              }}</span>
+            </h2>
+            <div
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide lg:max-w-2xl"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                my-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- mission -->
       <div
         v-else-if="id == 'mission' && !brandPanel2 && !brandPanel3"
         class="flex flex-wrap text-left lg:my-10 lg:px-20"
@@ -407,7 +553,15 @@
         <div class="lg:w-1/2 px-2 self-center">
           <g-image class="lg:w-2/3 mx-auto" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 lg:mt-10 order-1 lg:order-none lg:text-left text-center px-4">
+        <div
+          class="
+            lg:w-1/2 lg:mt-10
+            order-1
+            lg:order-none lg:text-left
+            text-center
+            px-4
+          "
+        >
           <div class="lg:self-center">
             <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
@@ -443,7 +597,14 @@
 
       <div
         v-else-if="id == 'mission' && brandPanel2"
-        class="flex flex-wrap lg:text-left text-center lg:pt-16 px-4 lg:mb-20 lg:px-20"
+        class="
+          flex flex-wrap
+          lg:text-left
+          text-center
+          lg:pt-16
+          px-4
+          lg:mb-20 lg:px-20
+        "
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
           <div class="lg:self-center">
@@ -537,8 +698,7 @@
       >
         <div
           class="
-            lg:w-1/2
-            lg:mt-10
+            lg:w-1/2 lg:mt-10
             order-1
             lg:order-none
             text-left
@@ -806,12 +966,9 @@
       >
         <div
           class="
-            lg:w-1/2
-            lg:mt-5
+            lg:w-1/2 lg:mt-5
             order-1
-            lg:order-none
-            lg:text-left
-            lg:self-center
+            lg:order-none lg:text-left lg:self-center
             text-center
           "
         >
@@ -925,8 +1082,7 @@
           rounded-lg
           shadow-xl
           overflow-hidden
-          lg:grid lg:grid-cols-2
-          lg:gap-4
+          lg:grid lg:grid-cols-2 lg:gap-4
         "
       >
         <div
@@ -934,12 +1090,9 @@
             pt-10
             pb-12
             px-6
-            sm:pt-16
-            sm:px-16
-            lg:py-16
-            lg:pr-0
-            xl:py-20
-            xl:px-15
+            sm:pt-16 sm:px-16
+            lg:py-16 lg:pr-0
+            xl:py-20 xl:px-15
           "
         >
           <div class="lg:self-center">
@@ -997,9 +1150,13 @@ export default {
 </script>
 
 <style scoped>
-.bg-about {
+.bg {
   background: #70dfc9;
   background: -webkit-linear-gradient(to right, #70dfc9, #ea1ff7);
   background: linear-gradient(to right, #70dfc9, #ea1ff7);
 }
+.gry{
+  background: #f2f2f2;
+}
+
 </style>

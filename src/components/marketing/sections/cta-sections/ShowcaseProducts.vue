@@ -1,11 +1,12 @@
 <template>
-  <div class="py-0 mb-5 mx-4">
-    <div class="text-center mx-auto my-4" v-if="id == 'why'">
-      <h1 class="text-5xl text-gray-900 font-light sm:text-9xl sm:leading-10">
-        {{ main.title }} <span class="font-extrabold">{{ main.subtitle }}</span>
+  <div class="my-5 lg:mx-40">
+    <div class="text-center mx-auto my-20" v-if="id == 'farm'">
+      <h1 class="text-9xl uppercase leading-none font-heading">
+        {{ main.title }}
       </h1>
+      <span class="text-3xl font-normal">{{ main.subtitle }}</span>
       <div
-        class="mt-3 max-w-2xl mx-auto text-gray-600 sm:mt-4"
+        class="max-w-3xl mb-10 py-2 text-xl mx-auto leading-tight tracking-wide"
         v-html="main.content"
       ></div>
     </div>
@@ -143,8 +144,8 @@
 
     <!-- why -->
     <div
-      class="grid grid-cols-1 gap-4 sm:grid-cols-2 text-center"
-      v-else-if="id == 'why'"
+      class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center max-w-7xl mx-auto"
+      v-else-if="id == 'farm'"
     >
       <div
         v-for="(product, idx) in products"
@@ -158,7 +159,7 @@
           <div class="product font-bold text-2xl pt-5">
             {{ product.title }}
           </div>
-          <div v-html="product.content" class="product p-5 text-gray-600"></div>
+          <div v-html="product.content" class="product py-10 font-light text-xl px-2"></div>
           <div v-if="product.button" class="product mb-3 py-5 text-center">
             <a
               v-if="product.link.includes('http')"
@@ -348,6 +349,6 @@ export default {
   height: 400px;
 }
 .product {
-  background-color: #ebfefd;
+  background-color: #f2f2f2;
 }
 </style>

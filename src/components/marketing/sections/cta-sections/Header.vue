@@ -78,7 +78,6 @@
             :href="link"
             >{{ button }}</a
           >
-          
         </div>
       </div>
     </div>
@@ -88,16 +87,13 @@
         flex flex-wrap
         text-center
         items-center
-        lg:text-left
-        lg:mb-10
-        lg:mt-4
+        lg:text-left lg:mb-10 lg:mt-4
         -mx-2
       "
       v-if="id == 'mission'"
     >
       <div class="lg:w-1/2 px-2 lg:pr-10 lg:mt-10 order-1 lg:order-none">
         <h1
-          
           class="
             text-center
             uppercase
@@ -166,7 +162,95 @@
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
         </div>
       </div>
+      <div class="lg:w-1/2 px-2">
+        <g-image class="mx-auto" :src="img" :alt="altImg" />
+      </div>
+    </div>
+
+    <!-- Farm -->
+    <div
+      class="
+        flex flex-wrap
+        text-center
+        items-center
+        lg:text-left lg:mb-20 lg:mt-24 lg:mx-40
+        
+      "
+      v-if="id == 'farm'"
+    >
       <div class="lg:w-1/2 px-2"><g-image :src="img" :alt="altImg" /></div>
+      <div class="lg:w-1/2 px-10 lg:mt-10 order-1 lg:order-none lg:max-w-2xl lg:mx-10">
+        <h1
+          class="
+            lg:text-left lg:text-6xl
+            font-normal
+            uppercase
+            mb-6
+            mt-20
+            leading-none
+            font-heading
+          "
+        >
+          {{ title }}
+          <br />
+          <span class="block leading-none font-bold">{{ title2 }}</span>
+        </h1>
+        <div
+          class="
+            mb-8
+            text-center text-2xl text-extrabold
+            lg:text-left
+            leading-tight
+            mx-auto
+            
+          "
+          v-html="excerpt"
+        ></div>
+        <div v-if="button" class="block lg:text-left text-center">
+          <a
+            v-if="link.includes('http')"
+            target="_blank"
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link"
+            >{{ button }}</a
+          >
+          <a
+            v-else
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link"
+            >{{ button }}</a
+          >
+          <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
+        </div>
+      </div>
     </div>
 
     <!-- <div
@@ -314,7 +398,11 @@
           >{{ button }}</a
         >
       </div>
-      <g-image class="order-2 lg:order-none mx-auto w-full" :src="img" :alt="altImg" />
+      <g-image
+        class="order-2 lg:order-none mx-auto w-full"
+        :src="img"
+        :alt="altImg"
+      />
     </div>
 
     <div
@@ -382,7 +470,11 @@
           >{{ button }}</a
         >
       </div>
-      <g-image class="order-2 lg:order-none mx-auto w-full" :src="img" :alt="altImg" />
+      <g-image
+        class="order-2 lg:order-none mx-auto w-full"
+        :src="img"
+        :alt="altImg"
+      />
     </div>
 
     <div
@@ -446,7 +538,6 @@
             :href="link"
             >{{ button }}</a
           >
-         
         </div>
       </div>
       <div class="lg:w-1/2 px-2 self-center">

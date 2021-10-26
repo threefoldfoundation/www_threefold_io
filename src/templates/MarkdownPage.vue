@@ -9,6 +9,7 @@
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
+        :title2="$page.markdownPage.header_title2"
         :slogan="$page.markdownPage.header_slogan"
         :image="$page.markdownPage.header_image"
         :altImg="$page.markdownPage.header_altImg"
@@ -16,11 +17,14 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
-   
+
       <BrandPanel
         :id="$page.markdownPage.id"
         v-if="
-          $page.markdownPage.brandPanel && $page.markdownPage.id !== 'tft'
+          $page.markdownPage.brandPanel &&
+          $page.markdownPage.id !== 'tft' &&
+          $page.markdownPage.brandPanel &&
+          $page.markdownPage.id !== 'farm'
         "
         :brand="$page.markdownPage.brandPanel"
       />
@@ -29,7 +33,10 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
         v-if="
-          $page.markdownPage.brandPanel2 && $page.markdownPage.id !== 'tft'
+          $page.markdownPage.brandPanel2 &&
+          $page.markdownPage.id !== 'tft' &&
+          $page.markdownPage.brandPanel2 &&
+          $page.markdownPage.id !== 'farm'
         "
         :brandPanel2="true"
       />
@@ -38,7 +45,10 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
         v-if="
-          $page.markdownPage.brandPanel3 && $page.markdownPage.id !== 'tft'
+          $page.markdownPage.brandPanel3 &&
+          $page.markdownPage.id !== 'tft' &&
+          $page.markdownPage.brandPanel3 &&
+          $page.markdownPage.id !== 'farm'
         "
         :brandPanel3="true"
       />
@@ -56,6 +66,7 @@
           $page.markdownPage.header_title &&
           $page.markdownPage.header_title != '' &&
           $page.markdownPage.id !== 'mission' &&
+          $page.markdownPage.id !== 'farm' &&
           $page.markdownPage.id !== 'grid' &&
           $page.markdownPage.id !== 'tft'
         "
@@ -73,13 +84,18 @@
         v-if="
           $page.markdownPage.cta &&
           $page.markdownPage.id !== 'grid' &&
-          $page.markdownPage.id !== 'tft'
+          $page.markdownPage.id !== 'tft' &&
+          $page.markdownPage.id !== 'farm'
         "
         :cta="$page.markdownPage.cta"
       />
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta2 && $page.markdownPage.id !== 'tft'"
+        v-if="
+          $page.markdownPage.cta2 &&
+          $page.markdownPage.id !== 'tft' &&
+          $page.markdownPage.id !== 'farm'
+        "
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
       />
@@ -113,7 +129,7 @@
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
       /> -->
- 
+
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="
@@ -122,23 +138,22 @@
         "
         :cta="$page.markdownPage.cta"
       />
- 
+
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel4"
-        v-if="
-          $page.markdownPage.brandPanel4 && $page.markdownPage.id !== 'tft'
-        "
+        v-if="$page.markdownPage.brandPanel4 && $page.markdownPage.id !== 'tft'"
         :brandPanel4="true"
       />
-    
+
       <SplitWithImage
         v-if="$page.markdownPage.tft"
         :id="$page.markdownPage.id"
         :tft="$page.markdownPage.tft"
       />
-    
-      <Features class="lg:my-20"
+
+      <Features
+        class="lg:my-20"
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.network.length > 0"
         :main="$page.markdownPage.networkMain"
@@ -154,17 +169,13 @@
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
-        v-if="
-          $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'tft'
-        "
+        v-if="$page.markdownPage.brandPanel2 && $page.markdownPage.id == 'tft'"
         :brandPanel2="true"
       />
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
-        v-if="
-          $page.markdownPage.brandPanel3 && $page.markdownPage.id == 'tft'
-        "
+        v-if="$page.markdownPage.brandPanel3 && $page.markdownPage.id == 'tft'"
         :brandPanel3="true"
       />
 
@@ -173,7 +184,7 @@
         v-if="$page.markdownPage.roadmap"
         :roadmap="$page.markdownPage.roadmap"
       />
-   
+
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'tft'"
@@ -206,6 +217,40 @@
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
+
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta && $page.markdownPage.id == 'farm'"
+        :cta="$page.markdownPage.cta"
+      />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel"
+        v-if="$page.markdownPage.brandPanel && $page.markdownPage.id == 'farm'"
+      />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel3"
+        v-if="$page.markdownPage.brandPanel3 && $page.markdownPage.id == 'farm'"
+        :brandPanel3="true"
+      />
+
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'farm'"
+        :cta="$page.markdownPage.cta2"
+        :lastCta="true"
+      />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel2"
+        v-if="$page.markdownPage.brandPanel2 && $page.markdownPage.id == 'farm'"
+        :brandPanel2="true"
+      />
+
       <AppListItem
         v-if="
           $page.markdownPage.appData && $page.markdownPage.appData.length > 0
@@ -245,7 +290,8 @@
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
-      <g-image class="w-3/4 mx-auto"
+      <g-image
+        class="w-3/4 mx-auto"
         v-if="$page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
       />
@@ -318,6 +364,7 @@
         header_excerpt
         header_altImg
         header_title
+        header_title2
         header_image
         header_slogan
         button
@@ -408,6 +455,7 @@
         }
         cta2{
           title
+          subtitle
           image
           button
           link
@@ -440,6 +488,7 @@
         brandPanel2{
          id
          title
+         subtitle
          btnTxt
          sourceUrl
          content
@@ -449,6 +498,7 @@
          id
          title
          btnTxt
+         subtitle
          sourceUrl
          sourceUrl2
          content

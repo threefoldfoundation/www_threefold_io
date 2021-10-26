@@ -17,8 +17,8 @@ navLinks:
     expandable: false
 
   - name: Farm
-    link: 'https://farming.threefold.io/farm'
-    external: true
+    link: /farm
+    external: false
     expandable: false
 
   - name: TFT
