@@ -1,5 +1,5 @@
 ---
 id: CP_process_1
-image: ./tft_farmers_earn2.png
+image: ./left_dev.png
 ---
-TFT is used by users to reserve current or future Internet capacity on the ThreeFold Grid.
+Users, developers  and  organizations pay cultivation fees (using TFT) for using compute, storage and network capacity.

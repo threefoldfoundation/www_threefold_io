@@ -1,7 +1,7 @@
 ---
 id: farm_product1
 title: ''
-image: ./plug.png
+image: ./farm_plug.png
 button: ''
 link: ''
 ---

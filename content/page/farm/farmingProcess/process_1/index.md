@@ -1,5 +1,5 @@
 ---
 id: process_1
-image: ./tft_hardware2.png
+image: ./left_people.png
 ---
-Anyone can download ThreeFold's OS and connect hardware and to the ThreeFold Grid and become a Farmer.
+A TFT is crearted everytime someone adds capacity to the ThreeFold Grid.  This is rewarded to the person adding the capacity.

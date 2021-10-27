@@ -1,7 +1,7 @@
 ---
 id: farm_product2
 title: ''
-image: ./offer.png
+image: ./farm_offer.png
 button: ''
 link: ''
 ---

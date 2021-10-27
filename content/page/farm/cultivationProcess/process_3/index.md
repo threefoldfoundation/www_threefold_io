@@ -1,5 +1,5 @@
 ---
 id: CP_process_3
-image: ./tft_solution2.png
+image: ./right_person.png
 ---
-Internet capacity can be used to store data, run workloads and use peer-to-peer applications.
+Farmers earn more TFT when the 3Nodes get used. The more data is hosted on a 3Node, the more TFT is earned.
