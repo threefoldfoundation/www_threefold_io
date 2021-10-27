@@ -204,10 +204,11 @@
           uppercase
           mb-2
           leading-none
-          font-bold font-heading
+          font-normal font-heading
         "
       >
         {{ cta.title }}
+        <span class="font-bold">{{ cta.title2 }}</span>
       </h2>
       <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl"></div>
       <g-image :src="cta.image" class="lg:my-20 mx-auto" />

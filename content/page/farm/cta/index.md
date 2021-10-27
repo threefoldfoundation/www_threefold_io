@@ -1,6 +1,7 @@
 ---
 id: farm_cta
-title: JOIN A WORLD OF FARMERS
+title: JOIN A 
+title2: WORLD OF FARMERS
 image: ./farm_map.png
 button: ''
 link: ''

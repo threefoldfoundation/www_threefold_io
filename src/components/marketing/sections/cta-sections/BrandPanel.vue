@@ -498,6 +498,26 @@
               "
               >{{ brand.btnTxt }}</a
             >
+            <a
+              v-if="brand.btnTxt2"
+              target="_blank"
+              :href="brand.sourceUrl2"
+              class="
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                my-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt2 }}</a
+            >
           </div>
         </div>
       </div>

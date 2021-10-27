@@ -9,7 +9,7 @@
         max-w-screen-xl
         sm:px-6
         lg:px-8
-        tft_section
+        
       "
     >
       <div
@@ -39,7 +39,7 @@
 
     <div
       v-else-if="id == 'farm' && (farmingProcess || cultivationProcess)"
-      class="mx-auto lg:py-16 px-4 max-w-screen-xl sm:px-6 lg:px-8 tft_section"
+      class="mx-auto lg:py-16 px-4 lg:max-w-screen-2xl sm:px-6 lg:px-8"
     >
       <div class="space-y-12">
         <div
@@ -52,10 +52,19 @@
             xl:max-w-none
           "
         >
-          <h3 class="text-4xl mb-2 leading-tight font-heading">
+        <div class="my-10 pb-10">
+        <h2 class="text-6xl font-normal">
+            {{ main.title2 }}
+            <span class="font-bold">{{ main.subtitle2 }}</span>
+          </h2>
+          <p class="text-xl font-normal">
+            {{ main.subtext }}
+          </p>
+        </div>
+          <h3 class="text-2xl font-normal">
             {{ main.title }}
           </h3>
-          <h2 class="text-8xl mb-2 leading-tight font-heading">
+          <h2 class="text-4xl font-bold">
             {{ main.subtitle }}
           </h2>
         </div>

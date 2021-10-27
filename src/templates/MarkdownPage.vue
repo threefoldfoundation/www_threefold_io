@@ -464,6 +464,7 @@
         }
         cta{
           title
+          title2
           content
           image
           button
@@ -509,6 +510,8 @@
          subtitle
          btnTxt
          sourceUrl
+         btnTxt2
+         sourceUrl2
          content
          image
        } 
@@ -620,6 +623,10 @@
        id
        title
        subtitle
+       title2
+       subtitle2
+       subtext
+
      }
      farmingProcess{
        id

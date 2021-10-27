@@ -29,7 +29,7 @@ items:
  - title: Participate
    links:
     - name: Start Farming
-      link: https://farming.threefold.io/farm
+      link: /farm
     - name: Buy the Token
       link: https://library.threefold.me/info/tfgrid/#/tokens/how_to_buy
     - name: Test the Cloud
