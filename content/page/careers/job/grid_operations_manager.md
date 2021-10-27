@@ -52,7 +52,7 @@ Your main responsibilities will be around making sure the ThreeFold Grid is:
 
 **Technical:**
 
-- Understand how to run a large-scale cloud infrastructure involving many actors.
+- Understand how to run a large-scale cloud infrastructure involving many factors.
 - Know what it takes to keep a large network of servers running, lots of what we do has never been done before
 - Fluent in at least 2 development languages (scripting ok)
 - Fluent with Linux
@@ -68,13 +68,12 @@ Your main responsibilities will be around making sure the ThreeFold Grid is:
 - Understand and follow Pareto 20/80 rule
 - Be a good teacher
 - Understand what it means to be a team lead
-- Be at least level 'wolf' in the skill levels we use
 
 <br/>
 
 ## What we offer
 
-- Flexible hours working remotely for our company based in Dubai
+- Flexible hours working remotely for our company based in Belgium
 - A competitive wage
 - Great team spirit
 - Yearly team trips abroad
