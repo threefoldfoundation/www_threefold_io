@@ -179,10 +179,10 @@
       v-if="id == 'farm'"
     >
       <div class="lg:w-1/2 px-2"><g-image :src="img" :alt="altImg" /></div>
-      <div class="lg:w-1/2 px-10 lg:mt-10 order-1 lg:order-none lg:max-w-2xl lg:mx-10">
-        <h1
+      <div class="lg:w-1/2 px-10 lg:mt-10 order-1 lg:order-none lg:max-w-2xl">
+        <h2
           class="
-            lg:text-left lg:text-6xl
+            lg:text-left lg:text-7xl
             font-normal
             uppercase
             mb-6
@@ -194,7 +194,7 @@
           {{ title }}
           <br />
           <span class="block leading-none font-bold">{{ title2 }}</span>
-        </h1>
+        </h2>
         <div
           class="
             mb-8

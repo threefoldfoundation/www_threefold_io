@@ -10,7 +10,7 @@ header_image: ./farm_header.jpg
 button: Become a Farmer
 link: https://shop.threefold.tech/index.php?route=product/category&path=59
 header_altImg: threefold
-header_excerpt: Farming TFT is done by connection a node or server to the ThreeFold Grid. Yes, it's that simple. Join thousands that make the Internet of tomorrow possible.
+header_excerpt: Farming TFT is done by connecting a node or server to the ThreeFold Grid. Yes, it’s that simple. Join thousands that make the Internet of tomorrow possible.
 productsMain: product_farm
 productData: [farm_product1, farm_product2, farm_product3]
 cta: farm_cta
