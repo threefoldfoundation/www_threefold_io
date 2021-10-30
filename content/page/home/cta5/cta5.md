@@ -2,7 +2,7 @@
 id: home_cta5
 title: ''
 button: Know More
-link: 'https://threefold.io/info/threefold#/threefold__grid_why'
+link: 'https://library.threefold.me/info/threefold#/threefold__why_intro'
 button2: Live Stats
 link2: 'https://explorer.threefold.io/'
 button3: ''

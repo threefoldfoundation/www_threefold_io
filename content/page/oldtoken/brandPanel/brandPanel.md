@@ -2,7 +2,7 @@
 id: dive_TFT
 title: Dive Deeper into TFT
 subtitle:
-sourceUrl: https://wiki.threefold.io/#/threefold__token_what
+sourceUrl: https://library.threefold.me/info/threefold/#/tokens/threefold__tokens_home
 btnTxt: Learn More
 image: dive-into.png
 ---
