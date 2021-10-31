@@ -7,7 +7,5 @@ btnTxt : Start Testing
 sourceUrl : https://forum.threefold.io/t/diy-nodes-guide/837
 ---
 We have different use cases for you to take ThreeFold’s technology on a test drive. 
-
 <br>
-
 From zero to hero –- are you ready for the challenge?

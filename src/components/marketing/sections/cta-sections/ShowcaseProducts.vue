@@ -1,5 +1,5 @@
 <template>
-  <div class="my-5 lg:mx-40">
+  <div class="my-5 lg:my-40 lg:mx-40">
     <div class="text-center mx-auto my-20" v-if="id == 'farm'">
       <h1 class="text-9xl uppercase leading-none font-heading">
         {{ main.title }}
@@ -13,7 +13,7 @@
     <div class="w-full text-center" v-else>
       <h2
         v-if="main !== null && main.title"
-        class="lg:text-6xl pb-10 uppercase font-semibold leading-tight font-heading"
+        class="lg:text-6xl uppercase font-semibold leading-tight font-heading"
       >
         {{ main.title }}
       </h2>
@@ -23,6 +23,10 @@
       >
         {{ main.subtitle }}
       </p>
+      <div
+        class="max-w-4xl mb-10 py-2 text-xl mx-auto leading-tight tracking-wide"
+        v-html="main.content"
+      ></div>
     </div>
 
     <!-- tft -->
@@ -117,6 +121,36 @@
     <div
       class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center lg:px-40"
       v-else-if="id == 'tech'"
+    >
+      <div
+        v-for="(product, idx) in products"
+        target="_blank"
+        :key="idx"
+        :href="product.link"
+        class="
+          mx-auto
+          my-3
+          rounded
+          overflow-hidden
+          transition
+          duration-500
+          bg-gray-100
+        "
+      >
+        <a :href="product.link">
+          <g-image :src="img(product.image)" />
+          <div class="font-bold text-xl py-5 mx-4">
+            {{ product.title }}
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+     <!-- developer -->
+    <div
+      class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center lg:px-40"
+      v-else-if="id == 'developer'"
     >
       <div
         v-for="(product, idx) in products"
