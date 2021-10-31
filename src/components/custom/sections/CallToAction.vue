@@ -334,7 +334,7 @@
     <!-- developer -->
     <div
       class="w-full mx-auto lg:mt-20 lg:p-20"
-      v-else-if="id == 'developer'"
+      v-else-if="id == 'developer' && lastCta"
     >
       <h2
         v-if="cta.title"
@@ -348,10 +348,10 @@
         "
       >
         {{ cta.title }}
-        <span class="font-bold">{{ cta.title2 }}</span>
+        <span class="font-bold">{{ cta.subtitle }}</span>
       </h2>
       <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl max-w-4xl mx-auto"></div>
-      <g-image :src="cta.image" class="lg:my-20 mx-auto" />
+      
       <a
         class="
           inline-block

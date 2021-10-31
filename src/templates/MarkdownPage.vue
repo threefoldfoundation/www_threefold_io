@@ -201,7 +201,7 @@
 
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta3"
+        v-if="$page.markdownPage.cta3 && $page.markdownPage.id !== 'developer'"
         :cta="$page.markdownPage.cta3"
         :lastCta="true"
       />
@@ -282,7 +282,12 @@
         v-if="$page.markdownPage.brandPanel3 && $page.markdownPage.id == 'developer'"
         :brandPanel3="true"
       />
-
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.cta3 && $page.markdownPage.id == 'developer'"
+        :cta="$page.markdownPage.cta3"
+        :lastCta="true"
+      />
     
       <BrandPanel
         :id="$page.markdownPage.id"

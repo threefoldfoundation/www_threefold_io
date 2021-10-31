@@ -13,6 +13,6 @@ header_altImg: threefold
 header_excerpt: A builder’s manual for ThreeFold. Built by visionaries, for visionaries.
 brandPanel3: developer_brandPanel3
 brandPanel2 : developer_brandPanel2
-cta: developer_cta2
+cta3 : developer_cta3
 
 ---
