@@ -1,6 +1,6 @@
 ---
 id: farm
-metaTitle: ThreeFold | Mission
+metaTitle: ThreeFold | Farm
 metaDesc: Farming TFT is done by connection a node or server to the ThreeFold Grid. Yes, it's that simple. Join thousands that make the Internet of tomorrow possible.
 metaImg: ./farm_header.jpg
 header_slogan: '' 

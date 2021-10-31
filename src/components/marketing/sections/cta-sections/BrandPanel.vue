@@ -1,10 +1,11 @@
 <template>
   <div 
-  class="bg-cover"
+  class="bg-cover lg:my-20"
   :class="{ 
     
      bg: id == 'mission' && brandPanel3,
-     gry: id == 'farm' && brandPanel3, 
+     gry: id == 'farm' && brandPanel3 ,
+     gry2: id == 'developer' && brandPanel3  
     }"
   >
     <div class="mx-auto py-10">
@@ -530,6 +531,121 @@
           <g-image class="lg:w-3/4 mx-auto" :src="image" :alt="brand.title" />
         </div>
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
+          <div class="lg:self-center">
+            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-light">
+              <span class="block font-normal">{{ brand.title }}</span>
+              <span class="block font-bold" v-if="brand.subtitle">{{
+                brand.subtitle
+              }}</span>
+            </h2>
+            <div
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide lg:max-w-2xl"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                my-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+          </div>
+        </div>
+      </div>
+
+       <!-- developer -->
+
+       <div
+        v-else-if="id == 'developer' && brandPanel2"
+        class="
+          flex flex-wrap
+          lg:text-left
+          text-center
+          lg:pt-16
+          px-4
+          lg:mb-20 lg:px-20
+        "
+      >
+        <div class="lg:w-1/2 px-2 self-center">
+          <g-image class="mx-auto" :src="image" :alt="brand.title" />
+        </div>
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none self-center">
+          <div class="lg:self-center">
+            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-light">
+              <span class="block font-normal">{{ brand.title }}</span>
+              <span class="block font-bold" v-if="brand.subtitle">{{
+                brand.subtitle
+              }}</span>
+            </h2>
+            <div
+              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide lg:max-w-2xl"
+              v-html="brand.content"
+            ></div>
+            <a
+              v-if="brand.btnTxt"
+              target="_blank"
+              :href="brand.sourceUrl"
+              class="
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                my-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt }}</a
+            >
+            <a
+              v-if="brand.btnTxt2"
+              target="_blank"
+              :href="brand.sourceUrl2"
+              class="
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                my-4
+                border-2
+                shadow
+                border-black
+              "
+              >{{ brand.btnTxt2 }}</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        v-else-if="id == 'developer' && brandPanel3"
+        class="flex flex-wrap lg:text-left text-center lg:p-20 px-4"
+      >
+        <div class="lg:w-1/2 px-2 self-center">
+          <g-image class="lg:w-2/3 mx-auto" :src="image" :alt="brand.title" />
+        </div>
+        <div class="lg:w-1/2 px-2 lg:mt-20 order-1 lg:order-none">
           <div class="lg:self-center">
             <h2 class="lg:text-6xl mb-8 uppercase leading-none font-light">
               <span class="block font-normal">{{ brand.title }}</span>
@@ -1176,6 +1292,10 @@ export default {
   background: linear-gradient(to right, #70dfc9, #ea1ff7);
 }
 .gry{
+  background: #f2f2f2;
+}
+
+.gry2{
   background: #f2f2f2;
 }
 

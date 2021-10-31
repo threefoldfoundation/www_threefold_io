@@ -4,6 +4,7 @@
     :class="{
       pink: id == 'home' && !lastCta,
       green: id == 'mission' && lastCta,
+      gry: id == 'developer'
     }"
   >
     <!-- mission -->
@@ -328,6 +329,69 @@
         :href="cta.link"
         >{{ cta.button }}</a
       > -->
+    </div>
+
+    <!-- developer -->
+    <div
+      class="w-full mx-auto lg:mt-20 lg:p-20"
+      v-else-if="id == 'developer'"
+    >
+      <h2
+        v-if="cta.title"
+        class="
+          lg:text-6xl
+          text-center
+          uppercase
+          mb-2
+          leading-none
+          font-normal font-heading
+        "
+      >
+        {{ cta.title }}
+        <span class="font-bold">{{ cta.title2 }}</span>
+      </h2>
+      <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl max-w-4xl mx-auto"></div>
+      <g-image :src="cta.image" class="lg:my-20 mx-auto" />
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button && cta.link.includes('http')"
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
     </div>
 
     <!-- home -->
@@ -1362,5 +1426,9 @@ export default {
 
 .green {
   background-color: #70dfc9;
+}
+
+.gry{
+  background: #f2f2f2;
 }
 </style>

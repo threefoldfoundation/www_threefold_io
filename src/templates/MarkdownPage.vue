@@ -24,7 +24,8 @@
           $page.markdownPage.brandPanel &&
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.brandPanel &&
-          $page.markdownPage.id !== 'farm'
+          $page.markdownPage.id !== 'farm' &&
+          $page.markdownPage.id !== 'developer'
         "
         :brand="$page.markdownPage.brandPanel"
       />
@@ -36,7 +37,8 @@
           $page.markdownPage.brandPanel2 &&
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.brandPanel2 &&
-          $page.markdownPage.id !== 'farm'
+          $page.markdownPage.id !== 'farm' &&
+          $page.markdownPage.id !== 'developer'
         "
         :brandPanel2="true"
       />
@@ -48,7 +50,8 @@
           $page.markdownPage.brandPanel3 &&
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.brandPanel3 &&
-          $page.markdownPage.id !== 'farm'
+          $page.markdownPage.id !== 'farm' &&
+          $page.markdownPage.id !== 'developer' 
         "
         :brandPanel3="true"
       />
@@ -68,6 +71,7 @@
           $page.markdownPage.id !== 'mission' &&
           $page.markdownPage.id !== 'farm' &&
           $page.markdownPage.id !== 'grid' &&
+          $page.markdownPage.id !== 'developer' &&
           $page.markdownPage.id !== 'tft'
         "
         :id="$page.markdownPage.id"
@@ -85,7 +89,8 @@
           $page.markdownPage.cta &&
           $page.markdownPage.id !== 'grid' &&
           $page.markdownPage.id !== 'tft' &&
-          $page.markdownPage.id !== 'farm'
+          $page.markdownPage.id !== 'farm' 
+          
         "
         :cta="$page.markdownPage.cta"
       />
@@ -94,7 +99,7 @@
         v-if="
           $page.markdownPage.cta2 &&
           $page.markdownPage.id !== 'tft' &&
-          $page.markdownPage.id !== 'farm'
+          $page.markdownPage.id !== 'farm' 
         "
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
@@ -268,6 +273,24 @@
         v-if="$page.markdownPage.brandPanel2 && $page.markdownPage.id == 'farm'"
         :brandPanel2="true"
       />
+
+      <!-- developer page -->
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel3"
+        v-if="$page.markdownPage.brandPanel3 && $page.markdownPage.id == 'developer'"
+        :brandPanel3="true"
+      />
+
+    
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel2"
+        v-if="$page.markdownPage.brandPanel2 && $page.markdownPage.id == 'developer'"
+        :brandPanel2="true"
+      />
+
 
       <AppListItem
         v-if="

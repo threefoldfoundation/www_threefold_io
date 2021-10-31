@@ -61,9 +61,10 @@ query {
   footer(id: "footer"){
       facebook
       github
+      github_tech
       twitter
-      dribbble
-      instagram
+      #dribbble
+      #instagram
       telegram
       description
       items{

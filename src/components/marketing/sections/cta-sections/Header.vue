@@ -174,7 +174,6 @@
         text-center
         items-center
         lg:text-left lg:mb-20 lg:mt-24 lg:mx-40
-        
       "
       v-if="id == 'farm'"
     >
@@ -202,7 +201,6 @@
             lg:text-left
             leading-tight
             mx-auto
-            
           "
           v-html="excerpt"
         ></div>
@@ -251,6 +249,79 @@
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
         </div>
       </div>
+    </div>
+
+    <!-- developer -->
+    <div
+      class="flex flex-wrap text-center items-center lg:mb-20 lg:mt-24 lg:mx-40"
+      v-if="id == 'developer'"
+    >
+      <div class="lg:w-1/2 px-10 lg:mt-10 order-1 lg:order-none lg:max-w-2xl">
+        <h2
+          class="
+            lg:text-7xl
+            font-normal
+            uppercase
+            mb-6
+            mt-20
+            leading-none
+            font-heading
+          "
+        >
+          {{ title }}
+          <br />
+          <span class="block leading-none font-bold">{{ title2 }}</span>
+        </h2>
+        <div
+          class="mb-8 text-center text-2xl text-extrabold leading-tight mx-auto lg:max-w-md"
+          v-html="excerpt"
+        ></div>
+        <div v-if="button" class="block text-center">
+          <a
+            v-if="link.includes('http')"
+            target="_blank"
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link"
+            >{{ button }}</a
+          >
+          <a
+            v-else
+            class="
+              inline-block
+              bg-white
+              text-lg
+              learn-button
+              hover:bg-gray-400
+              bo
+              px-12
+              py-1
+              mr-5
+              mb-4
+              border-2
+              shadow
+              border-black
+            "
+            :href="link"
+            >{{ button }}</a
+          >
+          <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
+        </div>
+      </div>
+      <div class="lg:w-1/2 px-2"><g-image :src="img" :alt="altImg" /></div>
     </div>
 
     <!-- <div
