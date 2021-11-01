@@ -15,7 +15,7 @@ items:
  - title: Threefold Universe
    links:
     - name: ThreeFold Token
-      link: https://www.threefold.io/tft
+      link: /tft
     - name: ThreeFold Cloud
       link: https://library.threefold.me/info/threefold/#/cloud/threefold__cloud_home
     - name: Grid Explorer
@@ -29,7 +29,7 @@ items:
  - title: Participate
    links:
     - name: Start Farming
-      link: /farm
+      link: https://farming.threefold.io/farm
     - name: Buy the Token
       link: https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy
     - name: Use the Cloud
@@ -40,7 +40,7 @@ items:
  - title: Knowledgebase
    links:
     - name: ThreeFold Grid
-      link: https://www.threefold.io/grid
+      link: /grid
     - name: ThreeFold Technology
       link: https://library.threefold.me/info/threefold/#/cloud/threefold__cloud_home
     - name: ThreeFold Farming
@@ -55,19 +55,19 @@ items:
  - title: About Us
    links:
     - name: ThreeFold
-      link: https://www.threefold.io/mission
+      link: /mission
     - name: Partners
-      link: https://www.threefold.io/partners
+      link: /partners
     - name: People
-      link: https://www.threefold.io/people
+      link: /people
     - name: Blog
-      link: https://www.threefold.io/blog
+      link: /blog
     - name: NewsRoom
-      link: https://www.threefold.io/news
+      link: /news
     - name: Forum
       link: https://forum.threefold.io/
     - name: Support
-      link: https://www.threefold.io/support
+      link: /support
 ---
 
 [Terms & Conditions](https://library.threefold.me/info/legal/#/legal__terms_conditions_websites) | [Privacy Policy](https://library.threefold.me/info/legal/#/legal__privacypolicy) | [Impressum]()
