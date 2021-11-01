@@ -29,7 +29,7 @@ items:
  - title: Participate
    links:
     - name: Start Farming
-      link: https://farming.threefold.io/farm
+      link: /farm
     - name: Buy the Token
       link: https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy
     - name: Use the Cloud
