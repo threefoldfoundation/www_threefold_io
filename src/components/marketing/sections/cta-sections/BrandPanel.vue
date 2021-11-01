@@ -1,6 +1,6 @@
 <template>
   <div 
-  class="bg-cover lg:my-20"
+  class="bg-cover lg:my-10"
   :class="{ 
     
      bg: id == 'mission' && brandPanel3,
@@ -574,9 +574,8 @@
           flex flex-wrap
           lg:text-left
           text-center
-          lg:pt-16
           px-4
-          lg:mb-20 lg:px-20
+          lg:px-20
         "
       >
         <div class="lg:w-1/2 px-2 self-center">

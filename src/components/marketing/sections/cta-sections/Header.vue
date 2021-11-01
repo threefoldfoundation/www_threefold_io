@@ -253,7 +253,7 @@
 
     <!-- developer -->
     <div
-      class="flex flex-wrap text-center items-center lg:mb-20 lg:mt-24 mt-10 lg:mx-40"
+      class="flex flex-wrap text-center items-center lg:mb-40 lg:mt-24 mt-10 lg:mx-40"
       v-if="id == 'developer'"
     >
       <div class="lg:w-1/2 px-10 lg:mt-10 order-1 lg:order-none lg:max-w-2xl">
