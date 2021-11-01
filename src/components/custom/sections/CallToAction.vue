@@ -333,7 +333,7 @@
 
     <!-- developer -->
     <div
-      class="w-full mx-auto lg:mt-20 lg:p-20"
+      class="w-full mx-auto lg:mt-20 py-10 lg:p-20"
       v-else-if="id == 'developer' && lastCta"
     >
       <h2
@@ -350,7 +350,7 @@
         {{ cta.title }}
         <span class="font-bold">{{ cta.subtitle }}</span>
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl max-w-4xl mx-auto"></div>
+      <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4 "></div>
       
       <a
         class="

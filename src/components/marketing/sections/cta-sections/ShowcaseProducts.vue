@@ -1,5 +1,5 @@
 <template>
-  <div class="my-5 lg:my-40 lg:mx-40">
+  <div class="my-5 lg:my-40 lg:mx-40 mx-4">
     <div class="text-center mx-auto my-20" v-if="id == 'farm'">
       <h1 class="text-9xl uppercase leading-none font-heading">
         {{ main.title }}

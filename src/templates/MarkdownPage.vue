@@ -301,12 +301,10 @@
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
-        v-if="
-          $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'developer'
-        "
+        v-if="$page.markdownPage.brandPanel2 && $page.markdownPage.id == 'developer'"
         :brandPanel2="true"
       />
-
+      
       <AppListItem
         v-if="
           $page.markdownPage.appData && $page.markdownPage.appData.length > 0
