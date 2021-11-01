@@ -214,7 +214,7 @@
     <div class="container-fluid sm:pxi-0 mx-auto py-5 overflow-visible">
       <ShowcaseProducts
         v-if="
-          $page.markdownPage.productData &&
+          $page.markdownPage.productData > 0 &&
           $page.markdownPage.id !== 'developer'
         "
         :id="$page.markdownPage.id"
@@ -284,7 +284,7 @@
 
       <ShowcaseProducts
         v-if="
-          $page.markdownPage.productData && $page.markdownPage.id == 'developer'
+          $page.markdownPage.productData > 0 && $page.markdownPage.id == 'developer'
         "
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
