@@ -2,7 +2,7 @@
 id: farm_brandPanel3
 title: SET UP YOUR 
 subtitle : OWN NODE
-image: setup_nodes .png # src/assets/brandPanel/..
+image: setup_nodes.png # src/assets/brandPanel/..
 btnTxt : See Requirements
 sourceUrl : https://forum.threefold.io/t/diy-nodes-guide/837
 ---
