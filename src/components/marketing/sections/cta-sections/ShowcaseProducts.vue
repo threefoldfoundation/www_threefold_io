@@ -146,8 +146,7 @@
       </div>
     </div>
 
-
-     <!-- developer -->
+    <!-- developer -->
     <div
       class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center lg:px-40"
       v-else-if="id == 'developer'"
@@ -178,7 +177,14 @@
 
     <!-- why -->
     <div
-      class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center max-w-7xl mx-auto"
+      class="
+        grid grid-cols-1
+        gap-4
+        sm:grid-cols-3
+        text-center
+        max-w-7xl
+        mx-auto
+      "
       v-else-if="id == 'farm'"
     >
       <div
@@ -193,7 +199,10 @@
           <div class="product font-bold text-2xl pt-5">
             {{ product.title }}
           </div>
-          <div v-html="product.content" class="product py-10 font-light text-xl px-2"></div>
+          <div
+            v-html="product.content"
+            class="product py-10 font-light text-xl px-2"
+          ></div>
           <div v-if="product.button" class="product mb-3 py-5 text-center">
             <a
               v-if="product.link.includes('http')"

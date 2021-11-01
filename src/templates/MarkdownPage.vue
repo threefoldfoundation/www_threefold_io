@@ -214,7 +214,8 @@
     <div class="container-fluid sm:pxi-0 mx-auto py-5 overflow-visible">
       <ShowcaseProducts
         v-if="
-          $page.markdownPage.productData > 0 &&
+          $page.markdownPage.productData.length > 0 &&
+          $page.markdownPage.productData &&
           $page.markdownPage.id !== 'developer'
         "
         :id="$page.markdownPage.id"
@@ -284,12 +285,25 @@
 
       <ShowcaseProducts
         v-if="
-          $page.markdownPage.productData > 0 && $page.markdownPage.id == 'developer'
+          $page.markdownPage.productData.length > 0 &&
+          $page.markdownPage.productData &&
+          $page.markdownPage.id == 'developer'
         "
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
       />
+
+      <!-- <ShowcaseProducts
+        class="my-20"
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+      /> -->
 
       <CallToAction
         :id="$page.markdownPage.id"
@@ -301,10 +315,12 @@
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
-        v-if="$page.markdownPage.brandPanel2 && $page.markdownPage.id == 'developer'"
+        v-if="
+          $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'developer'
+        "
         :brandPanel2="true"
       />
-      
+
       <AppListItem
         v-if="
           $page.markdownPage.appData && $page.markdownPage.appData.length > 0
