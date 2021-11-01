@@ -21,7 +21,7 @@ items:
     - name: Grid Explorer
       link: https://explorer.threefold.io/      
     - name: ThreeFold Marketplace 2.0
-      link: https://threefold.io/marketplace
+      link: https://marketplace.threefold.io/
     - name: Alliance
       link: https://consciousinternet.org
 
