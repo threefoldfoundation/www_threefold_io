@@ -17,7 +17,7 @@ items:
     - name: ThreeFold Token
       link: /tft
     - name: ThreeFold Cloud
-      link: https://library.threefold.me/info/threefold/#/cloud/threefold__cloud_home
+      link: https://cloud.threefold.io/
     - name: Grid Explorer
       link: https://explorer.threefold.io/      
     - name: ThreeFold Marketplace 2.0

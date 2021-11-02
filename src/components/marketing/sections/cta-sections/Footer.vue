@@ -29,6 +29,7 @@
               v-if="record.facebook != '#'"
               :href="record.facebook"
               class="text-gray-400 hover:text-gray-500"
+              target="_blank"
             >
               <span class="sr-only">Facebook</span>
               <svg
@@ -67,6 +68,7 @@
               v-if="record.twitter != '#'"
               :href="record.twitter"
               class="text-gray-400 hover:text-gray-500"
+              target="_blank"
             >
               <span class="sr-only">Twitter</span>
               <svg
@@ -84,6 +86,7 @@
               v-if="record.github != '#'"
               :href="record.github"
               class="text-gray-400 hover:text-gray-500"
+              target="_blank"
             >
               <span class="sr-only">GitHub</span>
               <svg
@@ -104,6 +107,7 @@
               v-if="record.github_tech != '#'"
               :href="record.github_tech"
               class="text-gray-400 hover:text-gray-500"
+              target="_blank"
             >
               <span class="sr-only">GitHub</span>
               <svg
@@ -123,6 +127,7 @@
               v-if="record.telegram != '#'"
               :href="record.telegram"
               class="text-gray-400 hover:text-gray-500"
+              target="_blank"
             >
               <span class="sr-only">telegram</span>
               <!-- <svg
