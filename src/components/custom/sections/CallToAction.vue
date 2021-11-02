@@ -394,6 +394,133 @@
       >
     </div>
 
+     <!-- newcommunity -->
+     <div
+      class="w-full mx-auto py-6 lg:py-10"
+      v-else-if="id == 'newcommunity' && !textOnly"
+    >
+      <h2
+        v-if="cta.title"
+        class="
+          lg:text-6xl
+          text-center
+          uppercase
+          mb-2
+          leading-none
+          font-normal font-heading
+        "
+      >
+        {{ cta.title }}
+        <br>
+        <span class="font-bold">{{ cta.subtitle }}</span>
+      </h2>
+      <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4 "></div>
+      
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button && cta.link.includes('http')"
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+    </div>
+
+    <div
+      class="w-full mx-auto lg:mt-20 py-10 lg:p-20"
+      v-else-if="id == 'newcommunity' && textOnly"
+    >
+      <h2
+        v-if="cta.title"
+        class="
+          lg:text-6xl
+          text-center
+          uppercase
+          mb-2
+          leading-none
+          font-normal font-heading
+        "
+      >
+        {{ cta.title }}
+        <span class="font-bold">{{ cta.subtitle }}</span>
+      </h2>
+      <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4 "></div>
+      
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button && cta.link.includes('http')"
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+    </div>
+
+
     <!-- home -->
 
     <div

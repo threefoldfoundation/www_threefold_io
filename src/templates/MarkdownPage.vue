@@ -38,7 +38,8 @@
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.brandPanel2 &&
           $page.markdownPage.id !== 'farm' &&
-          $page.markdownPage.id !== 'developer'
+          $page.markdownPage.id !== 'developer' &&
+          $page.markdownPage.id !== 'newcommunity'
         "
         :brandPanel2="true"
       />
@@ -51,7 +52,8 @@
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.brandPanel3 &&
           $page.markdownPage.id !== 'farm' &&
-          $page.markdownPage.id !== 'developer'
+          $page.markdownPage.id !== 'developer' &&
+          $page.markdownPage.id !== 'newcommunity'
         "
         :brandPanel3="true"
       />
@@ -74,7 +76,6 @@
           $page.markdownPage.id !== 'developer' &&
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.id !== 'newcommunity'
-
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -100,7 +101,8 @@
         v-if="
           $page.markdownPage.cta2 &&
           $page.markdownPage.id !== 'tft' &&
-          $page.markdownPage.id !== 'farm'
+          $page.markdownPage.id !== 'farm' &&
+          $page.markdownPage.id !== 'newcommunity'
         "
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
@@ -200,7 +202,11 @@
 
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.cta3 && $page.markdownPage.id !== 'developer'"
+        v-if="
+          $page.markdownPage.cta3 &&
+          $page.markdownPage.id !== 'developer' &&
+          $page.markdownPage.id !== 'newcommunity'
+        "
         :cta="$page.markdownPage.cta3"
         :lastCta="true"
       />
@@ -329,6 +335,44 @@
         "
         :products="$page.markdownPage.appData"
         :main="$page.markdownPage.appsMain"
+      />
+
+      <!-- newcommunity page -->
+
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="
+          $page.markdownPage.cta2 && $page.markdownPage.id == 'newcommunity'
+        "
+        :cta="$page.markdownPage.cta2"
+      />
+
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel3"
+        v-if="
+          $page.markdownPage.brandPanel3 &&
+          $page.markdownPage.id == 'newcommunity'
+        "
+        :brandPanel3="true"
+      />
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel2"
+        v-if="
+          $page.markdownPage.brandPanel2 &&
+          $page.markdownPage.id == 'newcommunity'
+        "
+        :brandPanel2="true"
+      />
+
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="
+          $page.markdownPage.cta3 && $page.markdownPage.id == 'newcommunity'
+        "
+        :cta="$page.markdownPage.cta3"
+        :textOnly="true"
       />
 
       <Partenerships

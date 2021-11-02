@@ -11,7 +11,10 @@ header_altImg: newcommunity
 header_excerpt: A 100% open-source and community-driven project that is building the critical infrastructure for a decentralized world. Anyone can contribute to ThreeFold. And there are many ways to get involved.
 button: ''
 link: ''
-
+cta2: newcommunity_cta2
+cta3: newcommunity_cta3
+brandPanel3: newcommunity_brandPanel3
+brandPanel2 : newcommunity_brandPanel2
 ---
 
 
