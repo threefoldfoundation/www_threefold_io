@@ -72,7 +72,9 @@
           $page.markdownPage.id !== 'farm' &&
           $page.markdownPage.id !== 'grid' &&
           $page.markdownPage.id !== 'developer' &&
-          $page.markdownPage.id !== 'tft'
+          $page.markdownPage.id !== 'tft' &&
+          $page.markdownPage.id !== 'newcommunity'
+
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"

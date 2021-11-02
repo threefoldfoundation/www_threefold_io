@@ -427,7 +427,7 @@
         <h2 class="text-8xl uppercase mb-6 mt-20 leading-none font-heading">
           {{ title }}
         </h2>
-        <div class="mb-8 mx-auto text-xl max-w-xl" v-html="excerpt"></div>
+        <div class="mb-8 mx-auto lg:text-2xl max-w-2xl" v-html="excerpt"></div>
 
         <a
           v-if="link.includes('http')"
@@ -484,10 +484,10 @@
         <h2
           class="
             lg:text-6xl
-            font-light
+            font-normal
             uppercase
             mb-6
-            mt-20
+            mt-10
             leading-none
             font-heading
           "
@@ -497,10 +497,10 @@
         </h2>
 
         <h3 class="text-4xl leading-none font-light">{{ slogan }}</h3>
-        <div class="mb-8 mx-auto text-xl max-w-2xl" v-html="excerpt"></div>
+        <div class="mb-8 mx-auto lg:text-2xl text-xl max-w-3xl" v-html="excerpt"></div>
 
         <a
-          v-if="link.includes('http')"
+          v-if="button && link.includes('http')"
           target="_blank"
           class="
             inline-block
@@ -521,7 +521,81 @@
           >{{ button }}</a
         >
         <a
-          v-else
+          v-else-if="button"
+          class="
+            inline-block
+            bg-white
+            lg:text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+            capitalize
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+      </div>
+      <g-image
+        class="order-2 lg:order-none mx-auto w-full"
+        :src="img"
+        :alt="altImg"
+      />
+    </div>
+
+<!-- newcommunity -->
+    <div
+      class="flex flex-wrap text-center lg:text-left lg:pt-10 lg:pb-10 -mx-2"
+      v-else-if="id == 'newcommunity'"
+    >
+      <div class="px-6 lg:mt-2 order-1 lg:order-none mx-auto text-center">
+        <h2
+          class="
+            lg:text-6xl
+            font-normal
+            uppercase
+            mb-2
+            lg:mt-4
+            mt-10
+            leading-none
+            font-heading
+          "
+        >
+          {{ title }}
+          <span class="block leading-none font-bold">{{ title2 }}</span>
+        </h2>
+
+        <h3 class="text-4xl leading-none font-light">{{ slogan }}</h3>
+        <div class="mb-8 mx-auto lg:text-2xl text-xl lg:max-w-3xl" v-html="excerpt"></div>
+
+        <a
+          v-if="button && link.includes('http')"
+          target="_blank"
+          class="
+            inline-block
+            bg-white
+            lg:text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+            capitalize
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+        <a
+          v-else-if="button"
           class="
             inline-block
             bg-white
