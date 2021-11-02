@@ -338,6 +338,11 @@
       />
 
       <!-- newcommunity page -->
+      <InTheNews
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.inTheNews"
+        :news="$page.markdownPage.inTheNews"
+      />
 
       <CallToAction
         :id="$page.markdownPage.id"
@@ -559,6 +564,14 @@
           id
           image
           url
+        }
+         inTheNews {
+          id
+          content
+          partners {
+            path
+            logo
+          }
         }
         cta{
           title
@@ -804,6 +817,7 @@ import ShowcaseProducts from "~/components/marketing/sections/cta-sections/Showc
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import HowItWorks from "~/components/custom/sections/HowItWorks.vue";
 import Features from "~/components/custom/sections/Features.vue";
+import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import CallToActionbg1 from "~/components/custom/sections/CallToActionbg1.vue";
@@ -833,6 +847,7 @@ export default {
     ShowcaseProducts,
     HowItWorks,
     Features,
+    InTheNews,
     logoShowcase,
     CallToAction,
     CallToActionbg1,

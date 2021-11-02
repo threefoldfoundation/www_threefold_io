@@ -15,6 +15,7 @@ cta2: newcommunity_cta2
 cta3: newcommunity_cta3
 brandPanel3: newcommunity_brandPanel3
 brandPanel2 : newcommunity_brandPanel2
+inTheNews: newcommunity_social
 ---
 
 
