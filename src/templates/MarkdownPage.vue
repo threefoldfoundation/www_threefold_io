@@ -597,6 +597,12 @@
           content
           button
           link
+          faqbutton 
+          faqlink
+          faqbutton2
+          faqlink2 
+          faqbutton3 
+          faqlink3 
         }
          cta4{
           title1

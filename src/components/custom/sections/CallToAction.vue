@@ -4,7 +4,7 @@
     :class="{
       pink: id == 'home' && !lastCta,
       green: id == 'mission' && lastCta,
-      gry: id == 'developer'
+      gry: id == 'developer',
     }"
   >
     <!-- mission -->
@@ -350,8 +350,11 @@
         {{ cta.title }}
         <span class="font-bold">{{ cta.subtitle }}</span>
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4 "></div>
-      
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4"
+      ></div>
+
       <a
         class="
           inline-block
@@ -394,8 +397,8 @@
       >
     </div>
 
-     <!-- newcommunity -->
-     <div
+    <!-- newcommunity -->
+    <div
       class="w-full mx-auto py-6 lg:py-10"
       v-else-if="id == 'newcommunity' && !textOnly"
     >
@@ -411,11 +414,14 @@
         "
       >
         {{ cta.title }}
-        <br>
+        <br />
         <span class="font-bold">{{ cta.subtitle }}</span>
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4 "></div>
-      
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4"
+      ></div>
+
       <a
         class="
           inline-block
@@ -474,10 +480,61 @@
         "
       >
         {{ cta.title }}
+        <br />
         <span class="font-bold">{{ cta.subtitle }}</span>
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4 "></div>
-      
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4"
+      ></div>
+      <div>
+        <a
+          class="
+            inline-block
+            bg-gray-200
+            text-lg
+            hover:bg-gray-400
+            px-12
+            py-1
+            mx-3
+            my-4
+          "
+          target="_blank"
+          :href="cta.faqlink"
+          >{{ cta.faqbutton }}</a
+        >
+        <a
+          class="
+            inline-block
+            bg-gray-200
+            text-lg
+            hover:bg-gray-400
+            px-12
+            py-1
+            mx-3
+            my-4
+          "
+          target="_blank"
+          :href="cta.faqlink2"
+          >{{ cta.faqbutton2 }}</a
+        >
+        <a
+          class="
+            inline-block
+            bg-gray-200
+            text-lg
+            hover:bg-gray-400
+            px-12
+            py-1
+            mx-3
+            my-4
+          "
+          target="_blank"
+          :href="cta.faqlink3"
+          >{{ cta.faqbutton3 }}</a
+        >
+      </div>
+
       <a
         class="
           inline-block
@@ -487,7 +544,6 @@
           hover:bg-gray-400
           px-12
           py-1
-          mr-5
           my-4
           border-2
           shadow
@@ -508,7 +564,6 @@
           hover:bg-gray-400
           px-12
           py-1
-          mr-5
           my-4
           border-2
           shadow
@@ -519,7 +574,6 @@
         >{{ cta.button }}</a
       >
     </div>
-
 
     <!-- home -->
 
@@ -1555,7 +1609,7 @@ export default {
   background-color: #70dfc9;
 }
 
-.gry{
+.gry {
   background: #f2f2f2;
 }
 </style>

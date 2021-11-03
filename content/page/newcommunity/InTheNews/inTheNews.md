@@ -1,40 +1,40 @@
 ---
 id: newcommunity_social
 partners:
-  - path: https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/?fbclid=IwAR1WKCpqLcWPRWg5bPD6RCQE5JJjRPt6ey5vbEnu3db2FvJnp6-YKeVZNW8#79aa340e6798'
+  - path: https://forum.threefold.io/
     logo: ./logos/forum.png
 
-  - path: https://cointelegraph.com/news/peer-to-peer-internet-has-lofty-goal-to-bring-true-decentralization
+  - path: https://github.com/threefoldfoundation
     logo: ./logos/github.png
 
-  - path: https://news.yahoo.com/news/threefold-set-disrupt-status-quo-051457787.html?guccounter=1
+  - path: ''
     logo: ./logos/documentation.png
 
-  - path: https://hackernoon.com/is-it-possible-to-create-a-decentralized-internet-this-startup-and-its-farmers-think-so-ey2e3ycf
+  - path: https://twitter.com/threefold_io
     logo: ./logos/twitter.png
 
-  - path: https://smartereum.com/189750/threefold-is-audaciously-building-a-new-decentralized-internet/
+  - path: https://t.me/threefoldnews
     logo: ./logos/telegram_new.png
 
-  - path: https://tgdaily.com/web/6-dfinity-threefold-are-leading-an-internet-decentralization-revolution/
+  - path: https://t.me/threefold
     logo: ./logos/telegram_chat.png
 
-  - path: https://cointelegraph-com.cdn.ampproject.org/c/s/cointelegraph.com/news/is-a-new-decentralized-internet-or-web-3-0-possible/amp
+  - path: ''
     logo: ./logos/telegram_farmers.png
 
-  - path: https://www.banklesstimes.com/2021/06/14/threefolds-green-technology-strategy-to-a-fairer-more-sustainable-world/
+  - path: ''
     logo: ./logos/telegram_chattester.png
 
-  - path: https://gritdaily.com/belarus-governments-control-internet/
+  - path: https://www.reddit.com/r/threefold/
     logo: ./logos/reddit.png
 
-  - path: https://cointelegraph-com.cdn.ampproject.org/c/s/cointelegraph.com/news/is-a-new-decentralized-internet-or-web-3-0-possible/amp
+  - path: https://www.youtube.com/threefoldfoundation
     logo: ./logos/youtube.png
 
-  - path: https://www.banklesstimes.com/2021/06/14/threefolds-green-technology-strategy-to-a-fairer-more-sustainable-world/
+  - path: ''
     logo: ./logos/mail_list.png
 
-  - path: https://gritdaily.com/belarus-governments-control-internet/
+  - path: https://www.linkedin.com/company/threefold-foundation/
     logo: ./logos/linkedin.png
 
   
