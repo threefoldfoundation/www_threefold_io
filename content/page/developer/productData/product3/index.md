@@ -2,5 +2,5 @@
 id: developer3
 title: Developer Tooling
 image: ./tooling.png
-link: ''
+link: https://github.com/threefoldtech/terraform-provider-grid
 ---

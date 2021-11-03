@@ -153,7 +153,7 @@
     >
       <div
         v-for="(product, idx) in products"
-        target="_blank"
+        
         :key="idx"
         :href="product.link"
         class="
@@ -166,7 +166,7 @@
           bg-gray-100
         "
       >
-        <a :href="product.link">
+        <a :href="product.link" target="_blank">
           <g-image :src="img(product.image)" />
           <div class="font-bold text-xl py-5 mx-4">
             {{ product.title }}

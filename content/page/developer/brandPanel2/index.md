@@ -4,7 +4,7 @@ title: JOIN US IN MAKING
 subtitle : THREEFOLD BETTER 
 image: join_us_developer.jpg # src/assets/brandPanel/..
 btnTxt : Contribute 
-sourceUrl : https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_home
+sourceUrl : https://github.com/threefoldfoundation/info_threefold_pub
 btnTxt2 : ''
 sourceUrl2 : ''
 ---

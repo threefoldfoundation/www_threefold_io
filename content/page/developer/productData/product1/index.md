@@ -2,5 +2,5 @@
 id: developer1
 title: Operating System
 image: ./operating_system.png
-link: ''
+link: https://github.com/threefoldtech/zos
 ---
