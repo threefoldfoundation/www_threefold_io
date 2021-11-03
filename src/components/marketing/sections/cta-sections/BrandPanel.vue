@@ -791,7 +791,6 @@
             ></div>
             <a
               v-if="brand.btnTxt"
-              target="_blank"
               :href="brand.sourceUrl"
               class="
                 inline-block

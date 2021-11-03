@@ -23,7 +23,7 @@ items:
       link: https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy 
     - name: How billing works
       link: https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_billing
-    - name: Getting Started
+    - name: Deploy workloads
       link: https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__manual3_getstarted_home 
     - name: Infrastructure as Code
       link: https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__manual3_iac_home 

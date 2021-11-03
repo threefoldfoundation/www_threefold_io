@@ -1,6 +1,6 @@
 ---
 id: developer6
-title: Software Development Kits
-image: ./sdk.png
+title: Planetary Network
+image: ./planetary_network.jpg
 link: https://github.com/threefoldtech/js-sdk
 ---

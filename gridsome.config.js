@@ -161,7 +161,14 @@ module.exports = {
                 path: './content/page/**/brandPanel/*.md',
             }
         },
-
+    
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'footersMain',
+                path: './content/page/**/footers/main/*.md',
+            }
+        },
 
         {
             use: '@gridsome/source-filesystem',
@@ -482,6 +489,7 @@ module.exports = {
                     cta4: 'Cta4',
                     cta5: 'Cta5',
                     footers : 'footers',
+                    footersMain: 'footersMain',
                     comparisonMain: 'ComparisonMain',
                     comparisonSecs: 'Comparison',
                     jobsMain: 'JobsMain',

@@ -6,10 +6,7 @@ button: Explore Documentation
 link: https://library.threefold.me/info/threefold/#/
 ---
 ThreeFold is here to build the open-source Internet and Cloud infrastructure. 
-
-<br>
-
-The documentation helps you build on ThreeFold by introducing you to some foundational concepts as well as our  development stacks. We’re also building tutorials to get you up and running.
+The documentation helps you build on ThreeFold by introducing you to some foundational concepts as well as our  development stacks.
 
 <br>
 

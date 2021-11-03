@@ -330,9 +330,10 @@
       />
 
       <LinkTable
-        :id="$page.markdownPage.id"
         v-if="$page.markdownPage.footers"
+        :id="$page.markdownPage.id"
         :record="$page.markdownPage.footers"
+        :main="$page.markdownPage.footersMain"
       />
 
       <AppListItem
@@ -570,6 +571,12 @@
           id
           image
           url
+        }
+
+        footersMain {
+          id
+          title1
+          title2
         }
         footers{
           id
