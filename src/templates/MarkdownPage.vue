@@ -329,6 +329,12 @@
         :brandPanel2="true"
       />
 
+      <LinkTable
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.footers"
+        :record="$page.markdownPage.footers"
+      />
+
       <AppListItem
         v-if="
           $page.markdownPage.appData && $page.markdownPage.appData.length > 0
@@ -565,6 +571,16 @@
           image
           url
         }
+        footers{
+          id
+      items{
+        title
+        links{
+          name
+          link
+        }
+      }
+    }
          inTheNews {
           id
           content
@@ -841,12 +857,14 @@ import CustomCTA from "~/components/custom/sections/CustomCTA.vue";
 import Slider from "~/components/custom/Slider.vue";
 import RoadMap from "~/components/custom/Roadmap.vue";
 import MarketInfo from "~/components/custom/MarketInfo.vue";
+import LinkTable from "~/components/marketing/sections/cta-sections/Link_Table.vue";
 import SplitWithImage from "~/components/custom/SplitWithImage.vue";
 
 export default {
   components: {
     NewCard,
     Header,
+    LinkTable,
     VerticalNav,
     GetInTouch,
     SolutionsHeader,

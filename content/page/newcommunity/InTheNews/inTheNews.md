@@ -4,10 +4,10 @@ partners:
   - path: https://forum.threefold.io/
     logo: ./logos/forum.png
 
-  - path: https://github.com/threefoldfoundation
+  - path: https://github.com/threefoldtech
     logo: ./logos/github.png
 
-  - path: ''
+  - path: https://library.threefold.me/info/threefold#/
     logo: ./logos/documentation.png
 
   - path: https://twitter.com/threefold_io
@@ -19,10 +19,10 @@ partners:
   - path: https://t.me/threefold
     logo: ./logos/telegram_chat.png
 
-  - path: ''
+  - path: https://t.me/threefoldfarmers
     logo: ./logos/telegram_farmers.png
 
-  - path: ''
+  - path: https://t.me/threefoldtesting 
     logo: ./logos/telegram_chattester.png
 
   - path: https://www.reddit.com/r/threefold/

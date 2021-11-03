@@ -16,5 +16,6 @@ brandPanel2 : developer_brandPanel2
 cta3 : developer_cta3
 productsMain: developer_page
 productData: [developer1, developer2, developer3, developer4, developer5, developer6]
+footers : footers
 
 ---

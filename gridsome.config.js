@@ -162,6 +162,15 @@ module.exports = {
             }
         },
 
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'footers',
+                path: './content/page/**/footers/*.md',
+            }
+        },
+
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -472,6 +481,7 @@ module.exports = {
                     cta3: 'Cta3',
                     cta4: 'Cta4',
                     cta5: 'Cta5',
+                    footers : 'footers',
                     comparisonMain: 'ComparisonMain',
                     comparisonSecs: 'Comparison',
                     jobsMain: 'JobsMain',
