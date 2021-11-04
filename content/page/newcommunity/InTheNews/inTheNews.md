@@ -31,7 +31,7 @@ partners:
   - path: https://www.youtube.com/threefoldfoundation
     logo: ./logos/youtube.png
 
-  - path: ''
+  - path: '#subscribe'
     logo: ./logos/mail_list.png
 
   - path: https://www.linkedin.com/company/threefold-foundation/

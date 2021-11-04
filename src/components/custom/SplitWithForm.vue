@@ -1,5 +1,5 @@
 <template>
-  <section class="body-font">
+  <section class="body-font" id="subscribe">
     <div class="mx-auto flex  py-10 lg:py-20 md:flex-row flex-col items-center lg:px-10">
       <div
         class="
