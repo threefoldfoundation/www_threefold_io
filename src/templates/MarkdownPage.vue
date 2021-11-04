@@ -205,7 +205,8 @@
         v-if="
           $page.markdownPage.cta3 &&
           $page.markdownPage.id !== 'developer' &&
-          $page.markdownPage.id !== 'newcommunity'
+          $page.markdownPage.id !== 'newcommunity' &&
+          $page.markdownPage.id !== 'newsupport'
         "
         :cta="$page.markdownPage.cta3"
         :lastCta="true"
@@ -349,6 +350,15 @@
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.inTheNews"
         :news="$page.markdownPage.inTheNews"
+      />
+
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="
+          $page.markdownPage.cta3 && $page.markdownPage.id == 'newsupport'
+        "
+        :cta="$page.markdownPage.cta3"
+        :textOnly="true"
       />
 
       <CallToAction
@@ -620,12 +630,17 @@
           content
           button
           link
+          image
           faqbutton 
           faqlink
           faqbutton2
           faqlink2 
           faqbutton3 
-          faqlink3 
+          faqlink3
+          smalltitle
+          smalltitle2
+          button2
+          link2 
         }
          cta4{
           title1
