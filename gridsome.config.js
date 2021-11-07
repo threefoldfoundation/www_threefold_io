@@ -161,7 +161,7 @@ module.exports = {
                 path: './content/page/**/brandPanel/*.md',
             }
         },
-    
+
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -286,6 +286,14 @@ module.exports = {
             options: {
                 typeName: 'Info',
                 path: './content/page/tech/info/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Dev',
+                path: './content/page/developer/dev/**/*.md',
             }
         },
 
@@ -488,7 +496,7 @@ module.exports = {
                     cta3: 'Cta3',
                     cta4: 'Cta4',
                     cta5: 'Cta5',
-                    footers : 'footers',
+                    footers: 'footers',
                     footersMain: 'footersMain',
                     comparisonMain: 'ComparisonMain',
                     comparisonSecs: 'Comparison',
@@ -528,7 +536,8 @@ module.exports = {
                     network: 'Network',
                     subscribe: 'Subscribe',
                     team: 'Team',
-                    info:'Info'
+                    info: 'Info',
+                    dev: 'Dev'
                 }
             }
         },
@@ -721,6 +730,10 @@ module.exports = {
         Info: [{
             path: '/tech/:id',
             component: '~/templates/Info.vue'
+        }],
+        Dev: [{
+            path: '/developer/:id',
+            component: '~/templates/Dev.vue'
         }],
     },
 

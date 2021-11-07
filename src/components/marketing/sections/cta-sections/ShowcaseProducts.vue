@@ -120,7 +120,7 @@
     <!-- Tech -->
     <div
       class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center lg:px-40"
-      v-else-if="id == 'tech'"
+      v-else-if="id == 'tech' || id == 'developer'"
     >
       <div
         v-for="(product, idx) in products"
@@ -138,35 +138,6 @@
         "
       >
         <a :href="product.link">
-          <g-image :src="img(product.image)" />
-          <div class="font-bold text-xl py-5 mx-4">
-            {{ product.title }}
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <!-- developer -->
-    <div
-      class="grid sm:grid-cols-1 gap-4 lg:grid-cols-2 text-center lg:px-40"
-      v-else-if="id == 'developer'"
-    >
-      <div
-        v-for="(product, idx) in products"
-        
-        :key="idx"
-        :href="product.link"
-        class="
-          mx-auto
-          my-3
-          rounded
-          overflow-hidden
-          transition
-          duration-500
-          bg-gray-100
-        "
-      >
-        <a :href="product.link" target="_blank">
           <g-image :src="img(product.image)" />
           <div class="font-bold text-xl py-5 mx-4">
             {{ product.title }}
