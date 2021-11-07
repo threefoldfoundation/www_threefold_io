@@ -7,8 +7,8 @@ header_slogan: ''
 header_title: THREEFOLD
 header_title2: DEVELOPER RESOURCES
 header_image: ./developer_head.jpg
-button: ''
-link: ''
+button:  Join The Developer Community
+link: https://t.me/threefoldtesting
 header_altImg: threefold
 header_excerpt: A builder’s manual for ThreeFold. Built by visionaries, for visionaries.
 brandPanel3: developer_brandPanel3
