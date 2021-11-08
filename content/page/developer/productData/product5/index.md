@@ -1,6 +1,6 @@
 ---
 id: developer5
-title: ThreeFold Bloackchain
+title: ThreeFold Blockchain
 image: ./blockchain.png
 link: /developer/blockchain
 ---

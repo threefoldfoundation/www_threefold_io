@@ -1,8 +1,12 @@
 ---
 id: blockchain
-title: blockchain
+title: Blockchain
 image: ./blockchain.png
 button : Explore Other Developer Components
 link : /developer
 ---
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iure quaerat sunt dolorem ducimus. Provident, quos qui dicta consequuntur omnis perferendis aliquam impedit? Pariatur itaque vitae non earum, facilis aliquam?
+<br>
+
+# ThreeFold Blockchain 
+
+Accelerate you cloud transformation journey with ThreeFold's autonomous and decentralized infrastructure. With self-healing and self-driving capabilities, the ThreeFold Grid allows developers and enterprises to discover, migrate and manage applications and IT infrastructures across their full cloud lifecycle in a self-service model.
