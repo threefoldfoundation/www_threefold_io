@@ -2,7 +2,12 @@
 id: tooling
 title: tooling
 image: ./tooling.png
-button : Explore other tech components
+button : Explore Other Developer Components
 link : /developer
 ---
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iure quaerat sunt dolorem ducimus. Provident, quos qui dicta consequuntur omnis perferendis aliquam impedit? Pariatur itaque vitae non earum, facilis aliquam?
+<br>
+
+## Developer tooling
+
+ThreeFold's Internet and cloud infrastructure is designed to power the transition from the web2 to the web3 era seamlessly.
+TerraForm's infrastructure as code, Kubernetes and Docker are 100% supported by ThreeFold's decentralized cloud computing environment.  Also threeFold built the first quantum safe Internet storage system in the world, a sustainable, souvereign, private and secure alternative to centralised clouds.

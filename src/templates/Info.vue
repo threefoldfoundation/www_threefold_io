@@ -124,6 +124,7 @@
             border-2
             shadow
             border-black
+            capitalize
           "
           :href="$page.info.link"
           >{{ $page.info.button }}</a

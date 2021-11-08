@@ -36,6 +36,7 @@
             border-2
             shadow
             border-black
+            capitalize
           "
           :href="$page.dev.link"
           >{{ $page.dev.button }}</a
