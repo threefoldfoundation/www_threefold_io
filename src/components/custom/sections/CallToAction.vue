@@ -577,45 +577,6 @@
           >{{ cta.faqbutton3 }}</a
         >
       </div>
-
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          px-12
-          py-1
-          my-4
-          border-2
-          shadow
-          border-black
-        "
-        target="_blank"
-        v-if="cta.button && cta.link.includes('http')"
-        :href="cta.link"
-        >{{ cta.button }}</a
-      >
-
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          px-12
-          py-1
-          my-4
-          border-2
-          shadow
-          border-black
-        "
-        v-else
-        :href="cta.link"
-        >{{ cta.button }}</a
-      >
     </div>
 
     <!-- support -->
@@ -1439,7 +1400,8 @@
       <h2
         v-if="cta.title"
         class="
-          lg:text-6xl
+          text-base
+          lg:text-5xl
           max-w-3xl
           mx-auto
           text-center

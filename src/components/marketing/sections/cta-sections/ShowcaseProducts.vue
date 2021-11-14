@@ -167,12 +167,12 @@
       >
         <div>
           <g-image :src="img(product.image)" />
-          <div class="product font-bold text-2xl pt-5">
+          <div class="product font-bold text-2xl">
             {{ product.title }}
           </div>
           <div
             v-html="product.content"
-            class="product py-10 font-light text-xl px-2"
+            class="product py-5 font-light text-xl px-2"
           ></div>
           <div v-if="product.button" class="product mb-3 py-5 text-center">
             <a

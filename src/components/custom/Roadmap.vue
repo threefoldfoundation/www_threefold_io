@@ -4,7 +4,7 @@
       <g-image class="lg:w-3/4 mx-auto" :src="roadmap.image" />
       <div
         v-html="roadmap.content"
-        class="mt-10 mb-8 lg:text-xl text-gray-900"
+        class="mt-10 mb-8 lg:text-xl max-w-3xl mx-auto text-gray-900"
       ></div>
     </div>
   </section>

@@ -405,7 +405,8 @@
       <CenteredAccordion
         v-if="
           ($page.markdownPage.faqContent && $page.markdownPage.id == 'faq') ||
-          $page.markdownPage.id == 'farmFAQ'
+          $page.markdownPage.id == 'farmfaq' ||
+          $page.markdownPage.id == 'tftfaq'
         "
         :main="$page.markdownPage.faqMain"
         :faqs="$page.markdownPage.faqContent"

@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div
       v-if="id == 'community'"
-      class="max-w-screen-2xl mx-auto py-6 px-4 sm:px-6 lg:py-12 lg:px-2"
+      class="max-w-screen-xl mx-auto py-6 px-4 sm:px-6 lg:py-12 lg:px-2"
     >
       <div
         v-html="news.content"

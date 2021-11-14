@@ -447,8 +447,8 @@
             >
           </div>
         </div>
-        <div class="lg:w-1/2 px-2 self-center text-right">
-          <g-image class="lg:ml-60 mx-auto" :src="image" :alt="brand.title" />
+        <div class="lg:w-1/2 px-2 self-top text-right">
+          <g-image class="lg:ml-40 mx-auto" :src="image" :alt="brand.title" />
         </div>
       </div>
 
@@ -506,7 +506,6 @@
             >
             <a
               v-if="brand.btnTxt2"
-              target="_blank"
               :href="brand.sourceUrl2"
               class="
                 inline-block

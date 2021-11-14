@@ -447,11 +447,8 @@
           v-html="excerpt"
         ></div>
         <div class="quicklinks">
-          <a :href="link" target="_blank"
-            ><g-image :src="buttonImg" /></a
-          ><a :href="link2" target="_blank"
-            ><g-image :src="buttonImg2"
-          /></a>
+          <a :href="link" target="_blank"><g-image :src="buttonImg"  style="width:200px"/></a
+          ><a :href="link2" target="_blank"><g-image :src="buttonImg2" style="width:150px"/></a>
         </div>
       </div>
     </div>
@@ -792,6 +789,7 @@ export default {
 }
 .quicklinks img {
   height: auto;
+  /* max-width: 150px; */
   display: inline-block;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
