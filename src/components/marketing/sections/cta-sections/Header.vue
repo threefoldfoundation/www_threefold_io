@@ -173,7 +173,9 @@
         flex flex-wrap
         text-center
         items-center
-        lg:text-left lg:mb-20 lg:mt-24 mt-10 lg:mx-40
+        lg:text-left lg:mb-20 lg:mt-24
+        mt-10
+        lg:mx-40
       "
       v-if="id == 'farm'"
     >
@@ -253,7 +255,14 @@
 
     <!-- developer -->
     <div
-      class="flex flex-wrap text-center items-center lg:mb-40 lg:mt-24 mt-10 lg:mx-40"
+      class="
+        flex flex-wrap
+        text-center
+        items-center
+        lg:mb-10 lg:mt-24
+        mt-10
+        lg:mx-40
+      "
       v-if="id == 'developer'"
     >
       <div class="lg:w-1/2 px-10 lg:mt-10 order-1 lg:order-none lg:max-w-2xl">
@@ -273,7 +282,13 @@
           <span class="block leading-none font-bold">{{ title2 }}</span>
         </h2>
         <div
-          class="mb-8 text-center text-2xl text-extrabold leading-tight mx-auto lg:max-w-md"
+          class="
+            mb-8
+            text-center text-2xl text-extrabold
+            leading-tight
+            mx-auto
+            lg:max-w-md
+          "
           v-html="excerpt"
         ></div>
         <div v-if="button" class="block text-center">
@@ -410,12 +425,34 @@
     >
       <div class="px-2 mt-10 order-1 lg:order-none mx-auto text-center">
         <div class="w-1/2 mx-auto px-2 self-center">
-          <g-image :src="img" :alt="altImg" />
+          <g-image :src="img" class="w-3/4 mx-auto" :alt="altImg" />
         </div>
-        <h2 class="text-8xl uppercase mb-6 lg:mt-20 leading-none font-heading">
+        <h2
+          class="
+            h2
+            text-5xl
+            max-w-2xl
+            mx-auto
+            uppercase
+            mb-6
+            lg:mt-20
+            leading-none
+            font-heading
+          "
+        >
           {{ title }}
         </h2>
-        <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
+        <div
+          class="mb-8 text-xl max-w-2xl mx-auto leading-relaxed"
+          v-html="excerpt"
+        ></div>
+        <div class="quicklinks">
+          <a :href="link" target="_blank"
+            ><g-image :src="buttonImg" /></a
+          ><a :href="link2" target="_blank"
+            ><g-image :src="buttonImg2"
+          /></a>
+        </div>
       </div>
     </div>
 
@@ -497,7 +534,10 @@
         </h2>
 
         <h3 class="text-4xl leading-none font-light">{{ slogan }}</h3>
-        <div class="mb-8 mx-auto lg:text-2xl text-xl max-w-3xl" v-html="excerpt"></div>
+        <div
+          class="mb-8 mx-auto lg:text-2xl text-xl max-w-3xl"
+          v-html="excerpt"
+        ></div>
 
         <a
           v-if="button && link.includes('http')"
@@ -548,10 +588,10 @@
       />
     </div>
 
-<!-- newcommunity -->
+    <!-- community -->
     <div
       class="flex flex-wrap text-center lg:text-left lg:pt-10 lg:pb-10 -mx-2"
-      v-else-if="id == 'newcommunity'"
+      v-else-if="id == 'community'"
     >
       <div class="px-6 lg:mt-2 order-1 lg:order-none mx-auto text-center">
         <h2
@@ -571,7 +611,10 @@
         </h2>
 
         <h3 class="text-4xl leading-none font-light">{{ slogan }}</h3>
-        <div class="mb-8 mx-auto lg:text-2xl text-xl lg:max-w-3xl" v-html="excerpt"></div>
+        <div
+          class="mb-8 mx-auto lg:text-2xl text-xl lg:max-w-3xl"
+          v-html="excerpt"
+        ></div>
 
         <a
           v-if="button && link.includes('http')"
@@ -624,7 +667,7 @@
 
     <div
       class="flex flex-wrap text-center lg:text-left lg:mt-10 lg:pt-10 lg:mx-40"
-      v-else-if="id == 'support'"
+      v-else-if="id == 'oldsupport'"
     >
       <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
         <h2
@@ -710,6 +753,8 @@ export default {
     "link",
     "link2",
     "link3",
+    "buttonImg",
+    "buttonImg2",
   ],
   computed: {
     img: function () {
@@ -728,6 +773,43 @@ export default {
   background: linear-gradient(to bottom, #ea1ff7, #70dfc9);
   background-size: cover !important;
 }
+.quicklinks {
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 30px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.quicklinks img {
+  height: auto;
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: relative;
+  margin-right: 30px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  opacity: 0.5;
+}
+
+.quicklinks img:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
 @media (max-width: 640px) {
   .bg-home {
     background-position: center !important;

@@ -16,7 +16,7 @@
       <g-image :src="img(main.image)" class="lg:w-2/3 mx-auto" />
     </div>
     <div
-      v-if="id == 'support' || id == 'community'"
+      v-if="id == 'oldsupport' || id == 'oldcommunity'"
       class="flex flex-wrap lg:mx-40"
     >
       <div

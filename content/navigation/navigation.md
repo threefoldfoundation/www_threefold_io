@@ -21,6 +21,11 @@ navLinks:
     external: false
     expandable: false
 
+  - name: Developer
+    link: /developer
+    external: false
+    expandable: false
+
   - name: TFT
     link: /tft
     external: false

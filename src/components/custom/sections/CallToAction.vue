@@ -354,53 +354,96 @@
         v-html="cta.content"
         class="mt-6 mb-8 lg:text-2xl lg:max-w-4xl mx-auto px-4"
       ></div>
+      <div class="inline-block" v-if="cta.button">
+        <a
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            my-4
+            border-2
+            shadow
+            border-black
+          "
+          target="_blank"
+          v-if="cta.button && cta.link.includes('http')"
+          :href="cta.link"
+          >{{ cta.button }}</a
+        >
 
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          px-12
-          py-1
-          mr-5
-          my-4
-          border-2
-          shadow
-          border-black
-        "
-        target="_blank"
-        v-if="cta.button && cta.link.includes('http')"
-        :href="cta.link"
-        >{{ cta.button }}</a
-      >
+        <a
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            my-4
+            border-2
+            shadow
+            border-black
+          "
+          v-else
+          :href="cta.link"
+          >{{ cta.button }}</a
+        >
+      </div>
+      <div class="inline-block" v-if="cta.button2">
+        <a
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            my-4
+            border-2
+            shadow
+            border-black
+          "
+          target="_blank"
+          v-if="cta.button2 && cta.link2.includes('http')"
+          :href="cta.link2"
+          >{{ cta.button2 }}</a
+        >
 
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          px-12
-          py-1
-          mr-5
-          my-4
-          border-2
-          shadow
-          border-black
-        "
-        v-else
-        :href="cta.link"
-        >{{ cta.button }}</a
-      >
+        <a
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            my-4
+            border-2
+            shadow
+            border-black
+          "
+          v-else
+          :href="cta.link2"
+          >{{ cta.button2 }}</a
+        >
+      </div>
     </div>
 
-    <!-- newcommunity -->
+    <!-- community -->
     <div
       class="w-full mx-auto py-6 lg:py-10"
-      v-else-if="id == 'newcommunity' && !textOnly"
+      v-else-if="id == 'community' && !textOnly"
     >
       <h2
         v-if="cta.title"
@@ -466,7 +509,7 @@
 
     <div
       class="w-full mx-auto lg:mt-20 py-10 lg:p-20"
-      v-else-if="id == 'newcommunity' && textOnly"
+      v-else-if="id == 'community' && textOnly"
     >
       <h2
         v-if="cta.title"
@@ -575,10 +618,10 @@
       >
     </div>
 
-    <!-- newsupport -->
+    <!-- support -->
     <div
       class="w-full mx-auto lg:mt-20 py-10"
-      v-else-if="id == 'newsupport' && textOnly"
+      v-else-if="id == 'support' && textOnly"
     >
       <div class="gray py-10 lg:py-20">
         <h2
@@ -626,7 +669,6 @@
               mx-3
               my-4
             "
-            target="_blank"
             :href="cta.faqlink2"
             >{{ cta.faqbutton2 }}</a
           >
@@ -689,7 +731,7 @@
       <div class="relative lg:mt-48 mt-28">
         <g-image
           :src="cta.image"
-          class="lg:my-16 mx-auto absolute inset-x-0 bottom-0 h-60 w-60 "
+          class="lg:my-16 mx-auto absolute inset-x-0 bottom-0 h-60 w-60"
         />
       </div>
       <div class="mt-40">

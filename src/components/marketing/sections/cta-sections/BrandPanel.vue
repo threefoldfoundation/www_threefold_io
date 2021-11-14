@@ -5,7 +5,7 @@
       bg: id == 'mission' && brandPanel3,
       gry: id == 'farm' && brandPanel3,
       gry2: id == 'developer' && brandPanel3,
-      gry3: id == 'newcommunity' && brandPanel3,
+      gry3: id == 'community' && brandPanel3,
     }"
   >
     <div class="mx-auto py-10">
@@ -697,9 +697,9 @@
         </div>
       </div>
 
-      <!-- newcommunity -->
+      <!-- community -->
       <div
-        v-else-if="id == 'newcommunity' && brandPanel2"
+        v-else-if="id == 'community' && brandPanel2"
         class="flex flex-wrap lg:text-left text-center px-4 lg:p-20"
       >
         <div class="lg:w-1/2 px-2 self-center">
@@ -768,7 +768,7 @@
       </div>
 
       <div
-        v-else-if="id == 'newcommunity' && brandPanel3"
+        v-else-if="id == 'community' && brandPanel3"
         class="flex flex-wrap lg:text-left text-center lg:py-20 lg:px-32 px-4"
       >
         <div class="lg:w-1/2 px-2 lg:mt-20 order-1 lg:order-none">

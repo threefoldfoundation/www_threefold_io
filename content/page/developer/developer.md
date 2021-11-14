@@ -1,6 +1,6 @@
 ---
 id: developer
-metaTitle: ThreeFold | developer
+metaTitle: ThreeFold | Developer
 metaDesc: A builder’s manual for ThreeFold. Built by visionaries, for visionaries.
 metaImg: ./developer_head.jpg
 header_slogan: '' 

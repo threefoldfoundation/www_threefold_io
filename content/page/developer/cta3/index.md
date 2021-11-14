@@ -4,6 +4,8 @@ title: OUR
 subtitle : DEVELOPER RESOURCES
 button: Explore Documentation
 link: https://library.threefold.me/info/threefold/#/
+button2: Offer Feedback
+link2: /
 ---
 ThreeFold is here to build the open-source Internet and Cloud infrastructure. 
 The documentation helps you build on ThreeFold by introducing you to some foundational concepts as well as our  development stacks.

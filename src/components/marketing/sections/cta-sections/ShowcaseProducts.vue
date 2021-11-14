@@ -215,11 +215,11 @@
       </div>
     </div>
 
-    <!-- Support -->
+    <!-- oldSupport -->
 
     <div
       class="grid grid-cols-1 gap-4 sm:grid-cols-3 text-center lg:px-20"
-      v-else-if="id == 'support'"
+      v-else-if="id == 'oldsupport'"
     >
       <a
         v-for="(product, idx) in products"

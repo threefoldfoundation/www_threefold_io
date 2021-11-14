@@ -7,7 +7,7 @@ link: ''
 faqbutton : ThreeFold FAQs
 faqlink : /faq
 faqbutton2 : Grid FAQs
-faqlink2 : https://farming.threefold.io/faq/
+faqlink2 : /farmFAQ
 faqbutton3 : Token FAQs
 faqlink3 : https://forum.threefold.io/c/threefold-token/tft-faq/57
 image: ./question_mark.png
@@ -16,10 +16,5 @@ smalltitle2: BUILDING ON THREEFOLD?
 button2: Create Forum Post
 link2: https://forum.threefold.io/
 
-
-
 ---
-Check out the Thre FAQs .
-
-
-
+Check out the most common questions from the community. There's a good chance your answer is there already!

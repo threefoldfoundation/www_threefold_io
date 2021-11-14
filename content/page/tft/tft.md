@@ -1,16 +1,18 @@
 ---
 id: tft
 metaTitle: ThreeFold | TFT
-metaDesc:  The ThreeFold Token (TFT) is a digital currency and utility token that enables a peer-to-peer cloud ecosystem.
+metaDesc:  The decentralized cloud economy is here
 metaImg: ./token_header.png
 header_slogan: 
-header_title: INSPIRED BY AUTONOMY
+header_title: The decentralized cloud economy is here
 header_image: ./token_header.png
 header_altImg: threefold
-header_excerpt: The ThreeFold Token (TFT) is a digital currency and utility token that enables a peer-to-peer cloud ecosystem.
+header_excerpt: The ThreeFold Grid creates an entirely new decentralized cloud ecosystem that flips the current cloud infrastructure on its head.
 solution_image: 
-button: 
-link: 
+buttonImg: ./coinmarketcapblack.png
+link: https://coinmarketcap.com/currencies/helium/
+buttonImg2: ./coingeckoblack.png
+link2: https://www.coingecko.com/en/coins/helium
 marketInfoMain: marketMain
 mainItem: sec1
 marketInfo: [sec2, sec3, sec4]

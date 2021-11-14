@@ -5,7 +5,7 @@
         v-if="
           $page.markdownPage.header_title &&
           $page.markdownPage.header_title != '' &&
-          $page.markdownPage.id !== 'support'
+          $page.markdownPage.id !== 'oldsupport'
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -16,6 +16,9 @@
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
+        :link2="$page.markdownPage.link2"
+        :buttonImg="$page.markdownPage.buttonImg"
+        :buttonImg2="$page.markdownPage.buttonImg2"
       />
 
       <BrandPanel
@@ -39,7 +42,7 @@
           $page.markdownPage.brandPanel2 &&
           $page.markdownPage.id !== 'farm' &&
           $page.markdownPage.id !== 'developer' &&
-          $page.markdownPage.id !== 'newcommunity'
+          $page.markdownPage.id !== 'community'
         "
         :brandPanel2="true"
       />
@@ -53,7 +56,7 @@
           $page.markdownPage.brandPanel3 &&
           $page.markdownPage.id !== 'farm' &&
           $page.markdownPage.id !== 'developer' &&
-          $page.markdownPage.id !== 'newcommunity'
+          $page.markdownPage.id !== 'community'
         "
         :brandPanel3="true"
       />
@@ -75,7 +78,7 @@
           $page.markdownPage.id !== 'grid' &&
           $page.markdownPage.id !== 'developer' &&
           $page.markdownPage.id !== 'tft' &&
-          $page.markdownPage.id !== 'newcommunity'
+          $page.markdownPage.id !== 'community'
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -102,7 +105,7 @@
           $page.markdownPage.cta2 &&
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.id !== 'farm' &&
-          $page.markdownPage.id !== 'newcommunity'
+          $page.markdownPage.id !== 'community'
         "
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
@@ -205,8 +208,8 @@
         v-if="
           $page.markdownPage.cta3 &&
           $page.markdownPage.id !== 'developer' &&
-          $page.markdownPage.id !== 'newcommunity' &&
-          $page.markdownPage.id !== 'newsupport'
+          $page.markdownPage.id !== 'community' &&
+          $page.markdownPage.id !== 'support'
         "
         :cta="$page.markdownPage.cta3"
         :lastCta="true"
@@ -345,7 +348,7 @@
         :main="$page.markdownPage.appsMain"
       />
 
-      <!-- newcommunity page -->
+      <!-- community page -->
       <InTheNews
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.inTheNews"
@@ -354,18 +357,14 @@
 
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="
-          $page.markdownPage.cta3 && $page.markdownPage.id == 'newsupport'
-        "
+        v-if="$page.markdownPage.cta3 && $page.markdownPage.id == 'support'"
         :cta="$page.markdownPage.cta3"
         :textOnly="true"
       />
 
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="
-          $page.markdownPage.cta2 && $page.markdownPage.id == 'newcommunity'
-        "
+        v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'community'"
         :cta="$page.markdownPage.cta2"
       />
 
@@ -373,8 +372,7 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
         v-if="
-          $page.markdownPage.brandPanel3 &&
-          $page.markdownPage.id == 'newcommunity'
+          $page.markdownPage.brandPanel3 && $page.markdownPage.id == 'community'
         "
         :brandPanel3="true"
       />
@@ -382,17 +380,14 @@
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel2"
         v-if="
-          $page.markdownPage.brandPanel2 &&
-          $page.markdownPage.id == 'newcommunity'
+          $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'community'
         "
         :brandPanel2="true"
       />
 
       <CallToAction
         :id="$page.markdownPage.id"
-        v-if="
-          $page.markdownPage.cta3 && $page.markdownPage.id == 'newcommunity'
-        "
+        v-if="$page.markdownPage.cta3 && $page.markdownPage.id == 'community'"
         :cta="$page.markdownPage.cta3"
         :textOnly="true"
       />
@@ -408,7 +403,10 @@
       />
 
       <CenteredAccordion
-        v-if="$page.markdownPage.faqContent && $page.markdownPage.id == 'faq'"
+        v-if="
+          ($page.markdownPage.faqContent && $page.markdownPage.id == 'faq') ||
+          $page.markdownPage.id == 'farmFAQ'
+        "
         :main="$page.markdownPage.faqMain"
         :faqs="$page.markdownPage.faqContent"
       />
@@ -506,7 +504,10 @@
         header_image
         header_slogan
         button
+        buttonImg
         link
+        buttonImg2
+        link2
         solution_image
         solution_image2
         header{
@@ -630,6 +631,8 @@
           content
           button
           link
+          button2
+          link2
           image
           faqbutton 
           faqlink
