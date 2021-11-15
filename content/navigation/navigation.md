@@ -38,7 +38,7 @@ navLinks:
     submenu:
       - title: Our Partners
         path: /partners
-      - title: Conscious Internet Alliance
+      - title: Alliance
         path: https://consciousinternet.org
         external: true
 
@@ -47,10 +47,10 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: ThreeFold Community
-        path: /community
       - title: Our People
         path: /people
+      - title: ThreeFold Community
+        path: /community
       - title: Developer Resources
         path: /developer
       # - title: Telegram
