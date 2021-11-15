@@ -9,7 +9,7 @@ faqlink : /faq
 faqbutton2 : Farm FAQ
 faqlink2 : /farmfaq
 faqbutton3 : TFT FAQ
-faqlink3 : https://forum.threefold.io/c/threefold-token/tft-faq/57
+faqlink3 : /tftfaq
 image: ./question_mark.png
 smalltitle: HAVE A QUESTION ABOUT
 smalltitle2: BUILDING ON THREEFOLD?
