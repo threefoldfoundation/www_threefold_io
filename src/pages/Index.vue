@@ -433,7 +433,7 @@ export default {
     getImg() {
       let img = "";
       if (process.isClient) {
-        img = `${window.location.origin}${this.$page.markdownPage.metaImg.src}`;
+        img = `${window.location.origin}${this.$page.markdownPage.metaImg}`;
       }
       return img;
     },

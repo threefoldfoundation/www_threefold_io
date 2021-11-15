@@ -44,9 +44,6 @@
 <script>
 export default {
   props: ["id", "team", "people"],
-  mounted() {
-    console.log(this.people);
-  },
 };
 </script>
 <style>

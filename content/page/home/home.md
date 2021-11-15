@@ -2,7 +2,7 @@
 id: home
 metaTitle: Join the ThreeFold Movement
 metaDesc: ThreeFold is giving the world a new Internet with a much-needed and better infrastructure.
-metaImg: ./1.png
+metaImg: ./home_meta_header.png
 header_slogan: Ready to serve all of humanity
 header_title: WELCOME TO THE 
 header_title2: THREEFOLD GRID
