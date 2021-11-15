@@ -375,16 +375,11 @@
       }
     }
   }
+  metadata {
+    siteUrl
+  }
 }
 </page-query>
-
-<static-query>
-  query {
-    metadata {
-      siteUrl
-    }
-  }
-</static-query>
 <script>
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
@@ -430,12 +425,16 @@ export default {
     HorizontalScroll,
   },
   computed: {
-    getImg() {
-      let img = "";
-      if (process.isClient) {
-        img = `${window.location.origin}${this.$page.markdownPage.metaImg}`;
+    getCoverImage() {
+      let coverImage = "";
+      const cover = this.$page.markdownPage.metaImg;
+      if (cover != null) {
+        coverImage = `${this.getBaseUrl}${this.$page.markdownPage.metaImg}`;
       }
-      return img;
+      return coverImage;
+    },
+    getBaseUrl() {
+      return this.$page.metadata.siteUrl;
     },
   },
   metaInfo() {
@@ -461,22 +460,27 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.getImg,
+          content: this.getCoverImage,
         },
         {
-          key: "twitter:description",
           name: "twitter:description",
+          property: "twitter:description",
           content: this.$page.markdownPage.metaDesc,
         },
         {
-          key: "twitter:image",
+          name: "twitter:image",
           property: "twitter:image",
-          content: this.getImg,
+          content: this.getCoverImage,
         },
         {
-          key: "twitter:title",
+          name: "twitter:title",
           property: "twitter:title",
           content: this.$page.markdownPage.metaTitle,
+        },
+        {
+          name: "twitter:card",
+          property: "twitter:card",
+          content: "summary_large_image",
         },
       ],
     };
