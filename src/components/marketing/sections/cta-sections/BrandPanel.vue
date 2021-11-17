@@ -704,7 +704,7 @@
         <div class="lg:w-1/2 px-2 self-center">
           <g-image class="mx-auto" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none self-center">
+        <div class="lg:w-1/2 lg:px-10 px-2 lg:mt-10 order-1 lg:order-none self-center">
           <div class="lg:self-center">
             <h2 class="lg:text-6xl mb-8 uppercase leading-none font-light">
               <span class="block font-normal">{{ brand.title }}</span>

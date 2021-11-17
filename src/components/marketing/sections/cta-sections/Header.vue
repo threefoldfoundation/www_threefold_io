@@ -265,10 +265,10 @@
       "
       v-if="id == 'developer'"
     >
-      <div class="lg:w-1/2 px-10 lg:mt-10 order-1 lg:order-none lg:max-w-2xl">
+      <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:max-w-2xl">
         <h2
           class="
-            lg:text-7xl
+            lg:text-6xl
             font-normal
             uppercase
             mb-6
