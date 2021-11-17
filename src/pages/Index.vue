@@ -426,11 +426,7 @@ export default {
   },
   computed: {
     getCoverImage() {
-      let coverImage = "";
-      const cover = this.$page.markdownPage.metaImg;
-      if (cover != null) {
-        coverImage = `${this.getBaseUrl}${this.$page.markdownPage.metaImg}`;
-      }
+      let coverImage = require(`!!assets-loader!@images/${this.$page.markdownPage.metaImg}`);
       return coverImage;
     },
     getBaseUrl() {
@@ -460,7 +456,7 @@ export default {
         {
           key: "og:image",
           property: "og:image",
-          content: this.getCoverImage,
+          content: this.getCoverImage.src,
         },
         {
           name: "twitter:description",
@@ -470,7 +466,7 @@ export default {
         {
           name: "twitter:image",
           property: "twitter:image",
-          content: this.getCoverImage,
+          content: this.getCoverImage.src,
         },
         {
           name: "twitter:title",
@@ -496,11 +492,3 @@ export default {
   margin-left: auto;
 }
 </style>
-
-
-<!--    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
-      <g-image
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
-      />
-    </div> --> 
