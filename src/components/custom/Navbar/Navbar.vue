@@ -11,7 +11,6 @@
         py-2
         sm:px-0
         transition-all transition-500
-        
       "
       :class="{
         'opacity-100': !disableScroll && scrollPosition > headerHeight,
@@ -26,11 +25,6 @@
               class="mr-3 fill-current logo"
               alt=""
             />
-
-            <!-- <span
-              class="hidden md:block font-semibold text-xl tracking-tight"
-              >{{ $static.metadata.siteName }}</span
-            > -->
           </a>
         </div>
 
@@ -77,7 +71,7 @@
                 </a>
               </span>
             </li>
-            <li class="mr-2">
+            <li class="mr-4">
               <a
                 href="javascript:;"
                 onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
@@ -99,7 +93,19 @@
                 </svg>
               </a>
             </li>
+            <li>
+               
+            <a href="https://gettft.com/gettft/" target="_blank">
+              <g-image
+                :src="require(`!!assets-loader!@images/gettft_white.png`)"
+                class="mr-5 logo2"
+                alt=""
+              />
+            </a>
+          
+            </li>
           </ul>
+        
         </div>
       </div>
 
@@ -108,14 +114,12 @@
         class="
           bg-white
           navbar
+          ml-auto
           xl:order-2
           px-2
           pt-2
-          ml-auto
           pb-4
-          lg:flex
-          lg:p-0
-          lg:w-100
+          lg:flex lg:p-0 lg:w-100
           xs:bg-transparent
         "
       >
@@ -136,10 +140,7 @@
                 items-center
                 w-full
                 mr-1
-                md:w-auto
-                md:inline
-                md:mt-0
-                md:ml-2
+                md:w-auto md:inline md:mt-0 md:ml-2
                 animated-link
               "
             >
@@ -204,8 +205,7 @@
                       text-sm
                       bg-transparent
                       rounded-lg
-                      dark:bg-transparent
-                      dark:hover:bg-gray-600
+                      dark:bg-transparent dark:hover:bg-gray-600
                       dark-:focus:bg-gray-600
                       dark:focus:text-white
                       dark:hover:text-white
@@ -214,9 +214,7 @@
                       hover:text-gray-900
                       focus:text-gray-900
                       hover:bg-gray-200
-                      focus:bg-gray-200
-                      focus:outline-none
-                      focus:shadow-outline
+                      focus:bg-gray-200 focus:outline-none focus:shadow-outline
                     "
                     @click="open = false"
                     :href="link.path"
@@ -232,8 +230,7 @@
                       text-sm
                       bg-transparent
                       rounded-lg
-                      dark:bg-transparent
-                      dark:hover:bg-gray-600
+                      dark:bg-transparent dark:hover:bg-gray-600
                       dark-:focus:bg-gray-600
                       dark:focus:text-white
                       dark:hover:text-white
@@ -242,9 +239,7 @@
                       hover:text-gray-900
                       focus:text-gray-900
                       hover:bg-gray-200
-                      focus:bg-gray-200
-                      focus:outline-none
-                      focus:shadow-outline
+                      focus:bg-gray-200 focus:outline-none focus:shadow-outline
                     "
                     @click="open = false"
                     :href="link.path"
@@ -286,27 +281,17 @@
           />
         </div> -->
       </nav>
-      <div class="hidden ml-0 md:inline-block md:order-last">
-        <!-- <div class="inline-flex rounded-full border-2 border-gray-200 w-1/2">
-          <span class="w-auto flex justify-end items-center p-2">
-            <font-awesome :icon="['fas', 'search']" />
-          </span>
-          <input
-            class="w-full rounded mr-4 bg-white"
-            type="text"
-            placeholder="Search..."
-            v-model="search"
-            @keyup.enter="result"
-          />
-        </div> -->
-        <ul class="list-none inline-flex">
-          <!-- <li class="mr-0 sm:mr-2">
+      <div class="hidden md:inline-block md:order-last">
+        <div class="inline-flex">
+          <ul class="list-none inline-flex mt-4 mr-4 mx-auto">
+            <!-- <li class="mr-0 sm:mr-2">
             <ThemeSwitcher v-on="$listeners" :theme="theme" />
           </li> -->
-          <li
+
+            <!-- <li
             :key="element.name"
             v-for="(element, index) in navigation.social"
-            class="mr-1 sm:block"
+            class="mr-8 mb-2 sm:block"
             v-bind:class="{
               'mr-2': index != Object.keys(navigation.social).length - 1,
             }"
@@ -316,30 +301,60 @@
                 <font-awesome :icon="['fab', element.icon]" />
               </a>
             </span>
-          </li>
-          <li class="ml-4 mt-1">
-            <a
-              href="javascript:;"
-              onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
-            >
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="far"
-                data-icon="envelope"
-                class="h-5 w-5"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
+          </li> -->
+            <li class="ml-4">
+              <a
+                href="https://t.me/threefoldnews" target="_blank"
+                
               >
-                <path
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
                   fill="currentColor"
-                  d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
-                ></path>
-              </svg>
+                  class="bi bi-telegram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <li class="ml-4">
+              <a
+                href="javascript:;"
+                onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
+              >
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="far"
+                  data-icon="envelope"
+                  class="h-5 w-5"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="rounded-full border-2 border-gray-400">
+            <a href="https://gettft.com/gettft/" target="_blank">
+              <g-image
+                :src="require(`!!assets-loader!@images/gettft_white.png`)"
+                class="mr-5"
+                alt=""
+              />
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </header>
   </div>
@@ -448,6 +463,10 @@ a.active--exact.active {
 }
 .logo {
   max-width: 80px;
+}
+
+.logo2 {
+  max-width: 90px;
 }
 @media (max-width: 768px) {
   .navbar {
