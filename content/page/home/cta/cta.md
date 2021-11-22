@@ -8,7 +8,7 @@ link: /tech
 button2: Expand The Grid
 link2: /grid
 button3: Peer-To-Peer Cloud
-link3: https://cloud.threefold.io/
+link3: https://library.threefold.me/info/manual/#/manual__manual3_home_new
 button4:  Developer Grants (Coming Soon)
 link4: '#'
 button5: The ThreeFold Token
