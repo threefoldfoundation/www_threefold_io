@@ -94,18 +94,15 @@
               </a>
             </li>
             <li>
-               
-            <a href="https://gettft.com/gettft/" target="_blank">
-              <g-image
-                :src="require(`!!assets-loader!@images/gettft_white.png`)"
-                class="mr-5 logo2"
-                alt=""
-              />
-            </a>
-          
+              <a href="/tft">
+                <g-image
+                  :src="require(`!!assets-loader!@images/gettft_white.png`)"
+                  class="mr-5 logo2"
+                  alt=""
+                />
+              </a>
             </li>
           </ul>
-        
         </div>
       </div>
 
@@ -303,10 +300,7 @@
             </span>
           </li> -->
             <li class="ml-4">
-              <a
-                href="https://t.me/threefoldnews" target="_blank"
-                
-              >
+              <a href="https://t.me/threefoldnews" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -346,7 +340,7 @@
             </li>
           </ul>
           <div class="rounded-full border-2 border-gray-400">
-            <a href="https://gettft.com/gettft/" target="_blank">
+            <a href="/tft">
               <g-image
                 :src="require(`!!assets-loader!@images/gettft_white.png`)"
                 class="mr-5"
