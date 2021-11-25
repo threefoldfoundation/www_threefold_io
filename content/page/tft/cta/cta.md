@@ -1,7 +1,7 @@
 ---
 id: token_cta
 title: THE POTENTIAL IS ENDLESS
-image: ./potental.png
+image: ./Comparison_Graph.png
 button:  How ThreeFold Compares With The Industry
 link: https://threefold.io/blog/post/quest_decentralize_internet/
 button2: '' 
