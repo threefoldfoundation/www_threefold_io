@@ -4,7 +4,7 @@ title: GOT QUESTIONS
 subtitle : FUTURE FARMER? 
 image: farm_future.jpg # src/assets/brandPanel/..
 btnTxt : Farming Library 
-sourceUrl : https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_home
+sourceUrl : https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro
 btnTxt2 : Farming FAQs 
 sourceUrl2 : /farmfaq
 ---
