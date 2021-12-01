@@ -255,7 +255,7 @@
       > -->
     </div>
 
-    <div class="w-full mx-auto py-20" v-else-if="id == 'farm' && lastCta">
+    <div class="w-full mx-auto py-16" v-else-if="id == 'farm' && lastCta">
       <h2
         v-if="cta.title"
         class="
@@ -288,7 +288,7 @@
         v-html="cta.content"
         class="mt-6 mb-8 text-xl max-w-6xl mx-auto"
       ></div>
-      <g-image :src="cta.image" class="lg:my-20 mx-auto" />
+      <g-image :src="cta.image" class="lg:my-20 lg:w-3/4 mx-auto" />
       <!-- <a
         class="
           inline-block
