@@ -3,4 +3,4 @@ id: token_brandPanel3
 title: BURN AND FARM EQUILIBRIUM 
 image: burn_token_big.jpg # src/assets/brandPanel/..
 ---
-Having a burning mechanism ensures there is always room for the ThreeFold Grid to grow further as well as continuous rewards for current and future nodes.
+ A burning mechanism removes a certain amount of TFT from the circulating supply when the the ThreeFold Grid is used, ensuring there is always room to reward all current and future nodes.

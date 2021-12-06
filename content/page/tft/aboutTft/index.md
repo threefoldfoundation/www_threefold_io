@@ -1,7 +1,7 @@
 ---
 id: decentralized_cloud
-title: DECENTRALIZED INTERNET NEEDED A CURRENCY.
-subtitle: IT NOW HAS ONE
+title: THE DECENTRALIZED INTERNET NOW HAS A CURRENCY
+subtitle: ''
 image: ./decenterlize_cloud.png
 button: Learn about TFT
 link: https://library.threefold.me/info/tfgrid/#/tokens/tokens_home.md

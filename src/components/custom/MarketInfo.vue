@@ -36,7 +36,7 @@
         <div class="flex-shrink-0">
           <g-image :src="info.image" class="h-32 w-32" />
         </div>
-        <div class="lg:mx-20">
+        <div class="lg:mx-10">
           <div
             class="mt-5 lg:mx-10 text-xl leading-6 text-gray-900"
             v-html="info.content"

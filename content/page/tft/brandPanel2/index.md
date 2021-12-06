@@ -1,6 +1,6 @@
 ---
 id: token_brandPanel2
-title: A SCARCE TOKEN TO REPRESENT A SCARCE RESOURCE
+title: A TOKEN WITH REAL UTILITY
 image: scarce_token_big.jpg # src/assets/brandPanel/..
 ---
-TFTs are created only when active Internet capacity is added to the ThreeFold Grid, and a limited supply of 4B TFT has been set to keep the currency scarce. This ensures its value holds steady for the years to come and rewards early adopters for their commitment.
+TFT is minted only when new decentralized Internet capacity is added to the ThreeFold Grid. A limited supply of 4 Billion TFT has been set to create a scarce economy and ensure the value of the ecosystem keeps steady for the years to come.
