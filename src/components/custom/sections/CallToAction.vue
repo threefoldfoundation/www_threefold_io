@@ -1463,7 +1463,7 @@
       <h2
         v-if="cta.title"
         class="
-          lg:max-w-3xl
+          lg:max-w-5xl
           mx-auto
           lg:text-6xl
           text-center
@@ -1519,6 +1519,47 @@
         v-else
         :href="cta.link"
         >{{ cta.button }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button2 && cta.link2.includes('http')"
+        :href="cta.link2"
+        >{{ cta.button2 }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link2"
+        >{{ cta.button2 }}</a
       >
       <g-image :src="cta.image" class="w-full my-10" />
     </div>
