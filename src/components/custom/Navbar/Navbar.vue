@@ -94,7 +94,7 @@
               </a>
             </li>
             <li>
-              <a href="/tft">
+              <a href="/tft/#gettft">
                 <g-image
                   :src="require(`!!assets-loader!@images/gettft_white.png`)"
                   class="mr-5 logo2"
