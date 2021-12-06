@@ -340,7 +340,7 @@
             </li>
           </ul>
           <div class="rounded-full border-2 border-gray-400">
-            <a href="/tft">
+            <a href="/tft/#gettft">
               <g-image
                 :src="require(`!!assets-loader!@images/gettft_white.png`)"
                 class="mr-5"

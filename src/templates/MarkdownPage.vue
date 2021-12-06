@@ -627,6 +627,8 @@
           button2
           link2
           content
+          image2
+          image3
         }
         cta3{
           title

@@ -1459,7 +1459,7 @@
       >
     </div>
 
-    <div class="w-full mx-auto lg:py-20" v-else-if="id == 'tft' && lastCta">
+    <div  id="gettft" class="w-full mx-auto lg:py-20" v-else-if="id == 'tft' && lastCta">
       <h2
         v-if="cta.title"
         class="
@@ -1477,10 +1477,15 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 mx-2 lg:text-xl text-gray-800"
       ></div>
 
-      <a
+       <div class="quicklinks">
+          <a :href="cta.link" target="_blank"><g-image class="py-2 my-2 px-5 border-2 border-black" :src="cta.image2"  /></a
+          ><a  :href="cta.link2" target="_blank"><g-image class="py-2 my-2 px-5 border-2 border-black" :src="cta.image3" /></a>
+        </div>
+
+      <!-- <a
         class="
           inline-block
           bg-white
@@ -1560,7 +1565,7 @@
         v-else
         :href="cta.link2"
         >{{ cta.button2 }}</a
-      >
+      > -->
       <g-image :src="cta.image" class="w-full my-10" />
     </div>
 
@@ -1831,5 +1836,42 @@ export default {
 
 .gray {
   background: #f2f2f2;
+}
+
+.quicklinks {
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.quicklinks img {
+  height: auto;
+  /* max-width: 150px; */
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: relative;
+  margin-right: 30px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  opacity: 0.5;
+}
+
+.quicklinks img:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 </style>
