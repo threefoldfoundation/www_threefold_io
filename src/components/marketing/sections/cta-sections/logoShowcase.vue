@@ -13,7 +13,7 @@
       </h2>
       <p class="text-xl leading-tight tracking-wide mb-10">{{ main.subtitle }}</p>
 
-      <g-image :src="img(main.image)" class="lg:w-2/3 mx-auto" />
+      <g-image :src="img(main.image)" class="lg:w-3/4 mx-auto" />
     </div>
     <div
       v-if="id == 'oldsupport' || id == 'oldcommunity'"
