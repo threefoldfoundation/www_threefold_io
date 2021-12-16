@@ -1,10 +1,7 @@
 ---
 id: about_cta3
-title: WHAT ARE YOU WAITING FOR?
-subtitle: JOIN THE MOVEMENT 
-button:  Join The Movement
+title: Start the Internet revolution
+button: Join the Fold
 link: https://t.me/threefold
 ---
-Meet our community, join our conversations and 
-<br />
-collaborate with our value-driven and collaborative teams.
+Connect, share and collaborate with our open community to expand the horizons of the People’s Internet. Bring your ideas and let’s co-create together!

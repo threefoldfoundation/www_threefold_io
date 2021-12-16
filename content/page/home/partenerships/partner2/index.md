@@ -7,6 +7,4 @@ button: Deploy
 link: https://library.threefold.me/info/manual/#/manual__manual3_home_new
 ---
 
-In just a few steps, achieve unparalleled privacy and endless scalability on our peer-to-peer cloud. Our prices will shock you!
-
-
+Companies and developers have already started using ThreeFold for it’s autonomous, decentralization and privacy features.

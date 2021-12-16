@@ -1,6 +1,6 @@
 ---
 id: token_brandPanel
-title: HOLD TFT AND EARN DISCOUNTS 
+title: Loyalty rewards
 image: stake_token_big.jpg # src/assets/brandPanel/..
 ---
-By buying TFT and holding them in your ThreeFold wallet, you get rewarded with discounts on decentralized Internet capacity. The more TFT you hold across time, the higher the discounts. 
+The ThreeFold blockchain automatically scans wallets and provides up-to 60% discounts on the utilization of the ThreeFold Grid. The more TFT you hold across time, the higher the discounts. 

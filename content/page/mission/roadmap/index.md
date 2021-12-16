@@ -2,4 +2,5 @@
 id: about_roadmap
 image: ./about_roadmap.png
 ---
-And we’re nowhere done as we’re aiming for new heights. We continue to work towards our mission of a truly democratized, secure and scalable Internet infrastructure to support a truly interconnected world. Our mission is bold and motivates every step we make.
+And we’re aiming for new heights. The People’s Internet will turn into a DAO in 2022, inviting developers and enterprises from all around the world to collaborate on the decentralization of everything that is digital, and beyond. 
+

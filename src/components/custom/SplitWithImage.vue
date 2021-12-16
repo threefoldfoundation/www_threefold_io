@@ -16,14 +16,14 @@
           pt-16
           pb-20
           text-center
-          lg:py-48
-          lg:text-left
+          lg:py-48 lg:text-left
         "
       >
         <div class="px-4 lg:w-1/2 lg:ml-auto sm:px-8 xl:pr-16">
           <h2
             class="
               tracking-tight
+              uppercase
               leading-10
               font-bold
               text-gray-900
@@ -35,14 +35,7 @@
             <br class="xl:hidden" />
             <span class="block">{{ tft.subtitle }}</span>
           </h2>
-          <div
-            class="
-              mt-3
-              text-xl 
-              md:mt-5
-            "
-            v-html="tft.content"
-          ></div>
+          <div class="mt-3 text-xl md:mt-5" v-html="tft.content"></div>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <a
               :href="tft.link"

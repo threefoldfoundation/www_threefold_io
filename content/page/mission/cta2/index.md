@@ -1,5 +1,5 @@
 ---
 id: about_cta2
-title: WE’VE COME A LONG WAY, AND WE’RE JUST GETTING STARTED
+title: We’ve come a long way, and we’re just getting started
 ---
-Our founding team has been setting world records for building the most powerful digital infrastructures throughout the past 20+ years. After many successful exits, they decided to start from scratch on the Linux kernel and build a new operating system to power the decentralized Internet era.
+After setting world records in Internet storage and cloud automation technologies throughout the past 20 years, some of our co-founders decided to start from scratch and build a new Internet infrastructure that is universally open source and peer-to-peer. 

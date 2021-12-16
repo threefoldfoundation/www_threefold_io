@@ -6,4 +6,4 @@ button: ''
 link: ''
 ---
 
-The Internet capacity you provide gets registered in the blockchain automatically.
+The 3Node’s Internet capacity is automatically registered in the blockchain.

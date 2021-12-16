@@ -1,5 +1,5 @@
 ---
 id: marketMain
-title: JOIN THE MOST VALUABLE MARKET IN THE WORLD
+title: Meeting Emerging Demand
 ---
-With rising demand for Internet capacity to hold the most valuable commodity on earth, data, TFT is the gateway for anyone to enter the largest and fastest growing industry in the world – the Internet.
+Data has become the most valuable commodity on earth, the Internet infrastructure is experiencing significant growth. While the current centralized model is facing limitations, ThreeFold can scale to the edge to service the emerging demand. 

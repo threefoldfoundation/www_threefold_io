@@ -1,10 +1,10 @@
 ---
 id: token_cta
-title: THE POTENTIAL IS ENDLESS
+title: A holistic approach
 image: ./Comparison_Graph.png
 button:  How ThreeFold Compares With The Industry
 link: https://threefold.io/blog/post/quest_decentralize_internet/
 button2: '' 
 link2: '' 
 ---
-Many projects created bits and pieces of what a decentralized Internet would look like, each with their own protocol and tools, making the industry more complicated than ever. With TFT, people can access the most comprehensive digital network ever created.
+While many projects have created bits and pieces of what a decentralized Internet would look like, ThreeFold is decentralizing the entire Internet model. TFT is the only utility token that gives access to decentralized compute, storage, network and more.

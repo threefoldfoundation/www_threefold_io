@@ -6,4 +6,4 @@ button: ''
 link: ''
 ---
 
-Earn TFT for connecting and offering planet positive capacity.
+Every month, you earn TFT for keeping the 3Node connected to the network. 

@@ -2,4 +2,4 @@
 id: nw3
 title: proof-of-utilization
 ---
-By charging your wallet with TFT, store ﬁles and run applications on the ThreeFold Grid autonomously and in full privacy.
+People buy TFT to store data and run applications privately on a peer-to-peer Internet infrastructure.

@@ -1,10 +1,10 @@
 ---
 id: p4p
-title: BUILT BY AND FOR
-subtitle: HUMANITY
+title: Built by the people, 
+subtitle: FOR HUMANITY
 sourceUrl: /grid
 btnTxt: Learn More
 image: p4p_new.png # src/assets/brandPanel/..
 ---
 
-The ThreeFold Grid is formed by farmers, people that connect Internet capacity to the network. Together, they have achieved a new globally distributed Internet that flips the traditional IT model on it's head and allows for a new paradigm – by the people, for the people.
+The People’s Internet is formed by independent people from all around the world who connect Internet capacity to a new Planetary Network. Together they form a collective that brings a new paradigm – an open-source peer-to-peer Internet owned by humanity.

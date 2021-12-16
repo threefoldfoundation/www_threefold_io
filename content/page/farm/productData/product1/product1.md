@@ -6,4 +6,5 @@ button: ''
 link: ''
 ---
 
-All you need to get started is electricity, a network connection, and a 3Node.
+All you need to get started is a 3Node, electricity and a network connection.    
+

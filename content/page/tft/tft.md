@@ -1,13 +1,13 @@
 ---
 id: tft
 metaTitle: ThreeFold | TFT
-metaDesc:  THE DECENTRALIZED INTERNET ECONOMY IS HERE
+metaDesc: Decentralizing the Internet Economy
 metaImg: ./token_header.png
 header_slogan: 
-header_title: THE DECENTRALIZED INTERNET ECONOMY IS HERE
+header_title: Decentralizing the Internet Economy
 header_image: ./token_header.png
 header_altImg: threefold
-header_excerpt: With rising demand for Internet capacity to hold the most valuable commodity on earth, data, TFT is the gateway for anyone to enter the largest and fastest growing industry in the world – the Internet.
+header_excerpt: The People’s Internet creates an entirely new decentralized Internet economy that allows anyone to join the world’s fastest growing market – the Internet. 
 solution_image: 
 buttonImg: ./coinmarketcapblack.png
 link: https://coinmarketcap.com/currencies/threefold/

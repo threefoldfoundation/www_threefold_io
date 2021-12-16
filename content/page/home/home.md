@@ -3,13 +3,12 @@ id: home
 metaTitle: Join the ThreeFold Movement
 metaDesc: ThreeFold is giving the world a new Internet with a much-needed and better infrastructure.
 metaImg: home_meta_header.png
-header_slogan: Ready to serve all of humanity
+header_slogan: Join the peer-to-peer revolution
 header_title: WELCOME TO THE 
-header_title2: THREEFOLD GRID
+header_title2: People’s Internet
 header_image: ./new_home_header.jpg
 header_altImg: threefold
-header_excerpt: The world's most advanced and fully decentralized peer-to-peer Internet infrastructure is now ready to host the world's data and workloads.
-button: Get Involved
+header_excerpt: Powered by the ThreeFold blockchain, the People’s Internet is the layer 0 infrastructure for an open source peer-to-peer Internet owned by humanity. 
 link: /grid
 cta2: home_cta2
 productsMain: product

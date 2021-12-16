@@ -1,15 +1,15 @@
 ---
 id: mission
 metaTitle: ThreeFold | Mission
-metaDesc:  To transform the future of the Internet by unlocking the limitless potential of peer-to-peer technologies and creating borderless opportunities for humanity.
+metaDesc: To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems.
 metaImg: ./about_header.png
 header_slogan: '' 
 header_title: OUR MISSION
 header_image: ./about_header.png
 header_altImg: threefold
-header_excerpt: To transform the future of the Internet by unlocking the limitless potential of peer-to-peer technologies and creating borderless opportunities for humanity.
+header_excerpt: To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems.
 solution_image: 
-button: The Digital Future
+button: The collective dream
 link: /blog/post/tf_grid_peoples_internet/
 brandPanel: about_brandPanel
 brandPanel2: about_brandPanel2
