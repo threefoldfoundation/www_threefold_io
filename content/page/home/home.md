@@ -8,7 +8,7 @@ header_title: WELCOME TO THE
 header_title2: People’s Internet
 header_image: ./new_home_header.jpg
 header_altImg: threefold
-header_excerpt: Powered by the ThreeFold blockchain, the People’s Internet is the layer 0 infrastructure for an open source peer-to-peer Internet owned by humanity. 
+header_excerpt: Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infrastructure for an open source P2P Internet owned by humanity. 
 link: /grid
 cta2: home_cta2
 productsMain: product

@@ -1,7 +1,8 @@
 ---
 id: p4p
-title: Built by the people, 
-subtitle: FOR HUMANITY
+title: Built by 
+subtitle: the people
+subtitle2: FOR HUMANITY
 sourceUrl: /grid
 btnTxt: Learn More
 image: p4p_new.png # src/assets/brandPanel/..

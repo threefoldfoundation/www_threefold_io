@@ -6,5 +6,5 @@ image: ./farm_map.png
 button: ''
 link: ''
 ---
-We are growing fast.
+We are growing fast
 

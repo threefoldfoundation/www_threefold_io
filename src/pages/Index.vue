@@ -271,6 +271,7 @@
          id
          title
          subtitle
+         subtitle2
          content
          sourceUrl
          btnTxt
