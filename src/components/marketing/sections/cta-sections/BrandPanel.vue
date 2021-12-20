@@ -332,7 +332,7 @@
         v-else-if="id == 'home' && brandPanel3"
         class="flex flex-wrap lg:text-left text-center lg:py-20 lg:px-16"
       >
-        <div class="lg:w-1/2 lg:px-20 order-1 lg:order-none lg:self-center">
+        <div class="lg:w-1/2 lg:px-10 order-1 lg:order-none lg:self-center">
           <div class="text-center">
             <h2
               class="
@@ -1062,7 +1062,7 @@
           class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center"
         >
           <div class="px-2">
-            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
+            <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
