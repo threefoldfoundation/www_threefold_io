@@ -413,7 +413,7 @@
             order-1
             lg:order-none lg:text-left
             text-center
-            lg:px-56
+            lg:px-40
             self-center
           "
         >
@@ -451,7 +451,7 @@
           </div>
         </div>
         <div class="lg:w-1/2 px-2 self-top text-right">
-          <g-image class="lg:ml-40 mx-auto" :src="image" :alt="brand.title" />
+          <g-image class=" mx-auto" :src="image" :alt="brand.title" />
         </div>
       </div>
 
