@@ -477,6 +477,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'ConversationsMain',
+                path: './content/page/**/upTalks/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Conversations',
+                path: './content/page/**/upTalks/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -537,7 +553,9 @@ module.exports = {
                     subscribe: 'Subscribe',
                     team: 'Team',
                     info: 'Info',
-                    dev: 'Dev'
+                    dev: 'Dev',
+                    conversationsMain: 'ConversationsMain',
+                    conversations: 'Conversations'
                 }
             }
         },

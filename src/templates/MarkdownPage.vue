@@ -78,7 +78,8 @@
           $page.markdownPage.id !== 'grid' &&
           $page.markdownPage.id !== 'developer' &&
           $page.markdownPage.id !== 'tft' &&
-          $page.markdownPage.id !== 'community'
+          $page.markdownPage.id !== 'community' &&
+          $page.markdownPage.id !== 'conversations'
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -95,7 +96,8 @@
           $page.markdownPage.cta &&
           $page.markdownPage.id !== 'grid' &&
           $page.markdownPage.id !== 'tft' &&
-          $page.markdownPage.id !== 'farm'
+          $page.markdownPage.id !== 'farm' &&
+          $page.markdownPage.id !== 'conversations'
         "
         :cta="$page.markdownPage.cta"
       />
@@ -105,7 +107,8 @@
           $page.markdownPage.cta2 &&
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.id !== 'farm' &&
-          $page.markdownPage.id !== 'community'
+          $page.markdownPage.id !== 'community' &&
+          $page.markdownPage.id !== 'conversations'
         "
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
@@ -215,6 +218,30 @@
         :lastCta="true"
       />
     </div>
+    <div class="container mx-auto">
+      <ConversationSec
+        v-if="
+          $page.markdownPage.conversations &&
+          $page.markdownPage.conversations.length > 0
+        "
+        :main="$page.markdownPage.conversationsMain"
+        :conversations="$page.markdownPage.conversations"
+      />
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="
+          $page.markdownPage.cta && $page.markdownPage.id == 'conversations'
+        "
+        :cta="$page.markdownPage.cta"
+      />
+      <CallToAction
+        :id="$page.markdownPage.id"
+        v-if="
+          $page.markdownPage.cta2 && $page.markdownPage.id == 'conversations'
+        "
+        :cta="$page.markdownPage.cta2"
+      />
+    </div>
     <g-image
       v-if="
         $page.markdownPage.id !== 'careers' && $page.markdownPage.solution_image
@@ -224,6 +251,11 @@
     />
 
     <div class="container-fluid sm:pxi-0 mx-auto py-5 overflow-visible">
+      <SplitWithForm
+        v-if="$page.markdownPage.subscribe"
+        :id="$page.markdownPage.id"
+        :subscribe="$page.markdownPage.subscribe"
+      />
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData.length > 0 &&
@@ -602,6 +634,7 @@
     }
          inTheNews {
           id
+          title
           content
           partners {
             path
@@ -845,6 +878,29 @@
        image
        content
      }
+     conversationsMain {
+       id
+       title
+     }
+     conversations {
+       id
+       day
+       month
+       time
+       title
+       hosts
+       button
+       link
+       content
+     }
+    subscribe {
+      id
+      title
+      content
+      button
+      link
+      image
+      }
     }
     allCustomCta {
       edges {
@@ -889,6 +945,8 @@ import RoadMap from "~/components/custom/Roadmap.vue";
 import MarketInfo from "~/components/custom/MarketInfo.vue";
 import LinkTable from "~/components/marketing/sections/cta-sections/Link_Table.vue";
 import SplitWithImage from "~/components/custom/SplitWithImage.vue";
+import ConversationSec from "~/components/custom/ConversationSec.vue";
+import SplitWithForm from "~/components/custom/SplitWithForm.vue";
 
 export default {
   components: {
@@ -920,6 +978,8 @@ export default {
     RoadMap,
     MarketInfo,
     SplitWithImage,
+    ConversationSec,
+    SplitWithForm,
   },
   computed: {
     getImg() {

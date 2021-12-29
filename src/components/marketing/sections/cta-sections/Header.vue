@@ -447,8 +447,11 @@
           v-html="excerpt"
         ></div>
         <div class="quicklinks">
-          <a :href="link" target="_blank"><g-image :src="buttonImg"  style="width:200px"/></a
-          ><a :href="link2" target="_blank"><g-image :src="buttonImg2" style="width:150px"/></a>
+          <a :href="link" target="_blank"
+            ><g-image :src="buttonImg" style="width: 200px" /></a
+          ><a :href="link2" target="_blank"
+            ><g-image :src="buttonImg2" style="width: 150px"
+          /></a>
         </div>
       </div>
     </div>
@@ -584,7 +587,63 @@
         :alt="altImg"
       />
     </div>
+    <!-- conversation -->
+    <div
+      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
+      v-else-if="id == 'conversations'"
+    >
+      <g-image
+        class="order-2 lg:order-none mx-auto w-1/2"
+        :src="img"
+        :alt="altImg"
+      />
+      <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
+        <h2 class="md:text-6xl uppercase mb-6 mt-20 leading-none font-heading">
+          {{ title }}
+        </h2>
+        <div class="mb-8 mx-auto lg:text-2xl max-w-2xl" v-html="excerpt"></div>
 
+        <a
+          v-if="link.includes('http')"
+          target="_blank"
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+        <a
+          v-else
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+          "
+          :href="link"
+          >{{ button }}</a
+        >
+      </div>
+    </div>
     <!-- community -->
     <div
       class="flex flex-wrap text-center lg:text-left lg:pt-10 lg:pb-10 -mx-2"

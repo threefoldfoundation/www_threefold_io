@@ -28,6 +28,8 @@ items:
         
  - title: Participate
    links:
+    - name: Conversations
+      link: /conversations
     - name: Start Farming
       link: /farm
     - name: Buy the Token

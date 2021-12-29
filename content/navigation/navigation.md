@@ -47,6 +47,8 @@ navLinks:
     external: false
     expandable: true
     submenu:
+      - title: Conversations
+        path: /conversations
       - title: Our People
         path: /people
       - title: ThreeFold Community

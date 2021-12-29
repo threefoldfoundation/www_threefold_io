@@ -1,9 +1,21 @@
 <template>
   <div class="bg-white">
     <div
-      v-if="id == 'community'"
+      v-if="id == 'community' || id == 'conversations'"
       class="max-w-screen-xl mx-auto py-6 px-4 sm:px-6 lg:py-12 lg:px-10"
     >
+      <h2
+        v-if="id == 'conversations'"
+        class="
+          lg:text-6xl
+          mb-0
+          leading-tight
+          text-center
+          font-semibold font-heading
+        "
+      >
+        {{ news.title }}
+      </h2>
       <div
         v-html="news.content"
         class="text-center text-6xl font-semibold leading-tight font-heading"

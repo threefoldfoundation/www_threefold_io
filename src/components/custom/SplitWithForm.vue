@@ -1,13 +1,23 @@
 <template>
-  <section class="body-font" id="subscribe">
-    <div class="mx-auto flex  py-10 lg:py-20 md:flex-row flex-col items-center lg:px-10">
+  <section class="body-font">
+    <div
+      class="
+        mx-auto
+        flex
+        py-10
+        lg:py-20
+        md:flex-row
+        flex-col
+        items-center
+        lg:px-10
+      "
+      v-if="id == 'subscribe'"
+    >
       <div
         class="
-          lg:pl-24
-          lg:w-1/2
+          lg:pl-24 lg:w-1/2
           flex flex-col
-          md:items-start
-          md:text-left
+          md:items-start md:text-left
           mb-16
           md:mb-0
           mx-4
@@ -17,15 +27,16 @@
       >
         <h2
           class="
-            lg:text-6xl uppercase mb-0 leading-tight font-semibold font-heading
+            lg:text-6xl
+            uppercase
+            mb-0
+            leading-tight
+            font-semibold font-heading
           "
         >
           {{ subscribe.title }}
         </h2>
-        <div
-          class="my-8 lg:text-xl"
-          v-html="subscribe.content"
-        ></div>
+        <div class="my-8 lg:text-xl" v-html="subscribe.content"></div>
         <div class="flex w-full md:justify-start justify-center items-end">
           <!-- <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
             <label for="hero-field" class="leading-7 text-sm text-gray-600"
@@ -58,7 +69,7 @@
 
           <a
             href="javascript:;"
-                onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
+            onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
             class="
               inline-flex
               bg-white
@@ -150,6 +161,73 @@
           class="object-cover w-3/4 mx-auto object-center rounded"
           :alt="subscribe.title"
           :src="subscribe.image"
+        />
+      </div>
+    </div>
+    <div
+      v-else-if="id == 'conversations'"
+      class="
+        mx-auto
+        flex
+        py-10
+        lg:py-20
+        md:flex-row
+        flex-col
+        items-center
+        lg:px-10
+      "
+    >
+      <div
+        class="
+          lg:pl-24 lg:w-1/2
+          flex flex-col
+          md:items-start md:text-left
+          mb-16
+          md:mb-0
+          mx-4
+          items-center
+          text-center
+        "
+      >
+        <h2
+          class="
+            lg:text-6xl
+            uppercase
+            mb-0
+            leading-tight
+            font-semibold font-heading
+          "
+        >
+          {{ subscribe.title }}
+        </h2>
+        <div class="my-8 lg:text-xl" v-html="subscribe.content"></div>
+        <div class="flex w-full md:justify-start justify-center items-end">
+          <a
+            href="javascript:;"
+            onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
+            class="
+              inline-flex
+              bg-white
+              border-2
+              py-1
+              px-12
+              learn-button
+              hover:bg-gray-400
+              shadow
+              border-black
+              text-black text-lg
+              cursor-pointer
+            "
+          >
+            {{ subscribe.button }}
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/2 hidden md:flex">
+        <g-image
+          class="object-cover w-3/4 mx-auto object-center rounded"
+          :alt="subscribe.title"
+          :src="subscribe.image.src"
         />
       </div>
     </div>

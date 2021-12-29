@@ -1459,7 +1459,11 @@
       >
     </div>
 
-    <div  id="gettft" class="w-full mx-auto lg:py-20" v-else-if="id == 'tft' && lastCta">
+    <div
+      id="gettft"
+      class="w-full mx-auto lg:py-20"
+      v-else-if="id == 'tft' && lastCta"
+    >
       <h2
         v-if="cta.title"
         class="
@@ -1480,10 +1484,17 @@
         class="mt-6 mb-8 mx-2 lg:text-xl text-gray-800"
       ></div>
 
-       <div class="quicklinks">
-          <a :href="cta.link" target="_blank"><g-image class="py-2 my-2 px-5 border-2 border-black" :src="cta.image2"  /></a
-          ><a  :href="cta.link2" target="_blank"><g-image class="py-2 my-2 px-5 border-2 border-black" :src="cta.image3" /></a>
-        </div>
+      <div class="quicklinks">
+        <a :href="cta.link" target="_blank"
+          ><g-image
+            class="py-2 my-2 px-5 border-2 border-black"
+            :src="cta.image2" /></a
+        ><a :href="cta.link2" target="_blank"
+          ><g-image
+            class="py-2 my-2 px-5 border-2 border-black"
+            :src="cta.image3"
+        /></a>
+      </div>
 
       <!-- <a
         class="
@@ -1702,6 +1713,67 @@
       >
     </div>
 
+    <!-- conversations -->
+    <div class="w-full mx-auto lg:py-20" v-else-if="id == 'conversations'">
+      <h2
+        v-if="cta.title"
+        class="
+          lg:text-6xl
+          text-center
+          uppercase
+          mb-2
+          leading-none
+          font-bold font-heading
+        "
+      >
+        {{ cta.title }}
+      </h2>
+      <div
+        v-html="cta.content"
+        class="mt-6 mb-8 lg:text-xl text-gray-800 max-w-2xl mx-auto"
+      ></div>
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="cta.button && cta.link.includes('http')"
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="cta.link"
+        >{{ cta.button }}</a
+      >
+    </div>
+
     <div class="w-full max-w-7xl mx-auto" v-else>
       <h2
         v-if="cta.title"
@@ -1725,7 +1797,6 @@
             py-2
             mr-5
             mb-4
-            rounded
             shadow
             rounded-full
           "
@@ -1785,7 +1856,6 @@
           py-2
           mr-5
           mb-4
-          rounded
           shadow
           rounded-full
         "
