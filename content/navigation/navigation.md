@@ -47,14 +47,14 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: Conversations
-        path: /conversations
       - title: Our People
         path: /people
       - title: ThreeFold Community
         path: /community
       - title: Developer Resources
         path: /developer
+      - title: Conversations
+        path: /conversations
       # - title: Telegram
       #   path: https://t.me/threefoldnews
       #   external: true        

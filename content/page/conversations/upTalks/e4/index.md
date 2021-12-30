@@ -5,6 +5,7 @@ month: January 26TH
 time: Not confirmed yet..
 title: "Episode 4: Farming: The new way to provide Internet"
 hosts: Richard, Andreas, Michael, Scott
+speakers: ''
 button: Reserve Your Spot
 link: "#"
 ---

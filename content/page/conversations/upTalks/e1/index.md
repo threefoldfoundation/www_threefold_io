@@ -5,6 +5,7 @@ month: January 5TH
 time: 6pm CET / 12pm EST
 title: "Episode 1: From Zero to One"
 hosts: Richard, Kristof, Weynand, Adnan, Andreas …
+speakers: ''
 button: Reserve Your Spot
 link: "#"
 ---

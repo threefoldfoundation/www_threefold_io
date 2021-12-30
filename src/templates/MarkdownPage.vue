@@ -889,6 +889,7 @@
        time
        title
        hosts
+       speakers
        button
        link
        content

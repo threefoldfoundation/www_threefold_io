@@ -28,8 +28,6 @@ items:
         
  - title: Participate
    links:
-    - name: Conversations
-      link: /conversations
     - name: Start Farming
       link: /farm
     - name: Buy the Token
@@ -38,6 +36,8 @@ items:
       link: https://library.threefold.me/info/threefold/#/cloud/threefold__cloud_home
     - name: Testing Community
       link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
+    - name: Conversations
+      link: /conversations
  
  - title: Knowledgebase
    links:

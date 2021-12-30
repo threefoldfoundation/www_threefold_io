@@ -5,6 +5,7 @@ month: January 19TH
 time: Not confirmed yet..
 title: "Episode 3: Tokenomics Overview"
 hosts: Richard, Kristof, Adnan, …
+speakers: ''
 button: Reserve Your Spot
 link: "#"
 ---

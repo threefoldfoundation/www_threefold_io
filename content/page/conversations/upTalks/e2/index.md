@@ -5,6 +5,7 @@ month: January 12TH
 time: Not confirmed yet..
 title: "Episode 2: Powering the next Digital Era"
 hosts: Richard, Adnan, Weynand
+speakers: ''
 button: Reserve Your Spot
 link: "#"
 ---

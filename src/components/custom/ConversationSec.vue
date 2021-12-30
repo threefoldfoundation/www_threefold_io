@@ -13,7 +13,7 @@
     >
       {{ main.title }}
     </h2>
-    
+
     <article
       class="flex my-20 text-center px-10 md:text-left flex-col md:flex-row"
       v-for="conversation in conversations"
@@ -38,7 +38,8 @@
         <h3 class="mb-3 text-4xl font-medium uppercase leading-9">
           {{ conversation.title }}
         </h3>
-        <p class="mb-4"><b>Hosts:</b> {{ conversation.hosts }}</p>
+        <p class=""><b>Host:</b> {{ conversation.hosts }}</p>
+        <p class="mb-4"><b>Speakers:</b> {{ conversation.speakers }}</p>
         <div
           class="font-lg post-content leading-6"
           v-html="conversation.content"

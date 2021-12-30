@@ -5,6 +5,7 @@ month: February 2ND
 time: Not confirmed yet..
 title: "Episode 5: A regenerative and inclusive Internet"
 hosts: Richard, Sacha, Koen, Jennifer
+speakers: ''
 button: Reserve Your Spot
 link: "#"
 ---

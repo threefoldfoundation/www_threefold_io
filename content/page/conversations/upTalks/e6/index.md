@@ -5,6 +5,7 @@ month: February 9TH
 time: Not confirmed yet..
 title: "Episode 6: Meet Quantum Safe Filesystem"
 hosts: Richard, Weynand, … 
+speakers: ''
 button: Reserve Your Spot
 link: "#"
 ---
