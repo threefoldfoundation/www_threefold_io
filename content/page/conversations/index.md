@@ -7,7 +7,7 @@ header_slogan: Limited spaces available.
 header_title: ThreeFold Conversations
 header_image: ./SAMAsset 3.png
 button: Propose a Talk
-link: '#'
+link: '#reserve'
 header_altImg: Threefold Conversations
 header_excerpt: Join live ThreeFold sessions to discuss ongoing contributions to the People’s Internet horizon. 
 conversationsMain: conversationsMain
