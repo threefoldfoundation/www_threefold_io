@@ -589,16 +589,16 @@
     </div>
     <!-- conversation -->
     <div
-      class="flex flex-wrap text-center lg:text-left lg:pt-10 -mx-2"
+      class="w-full max-w-6xl mx-auto lg:my-10"
       v-else-if="id == 'conversations'"
     >
       <g-image
-        class="order-2 lg:order-none mx-auto w-1/2"
+        class="mx-auto lg:w-4/6 my-2 px-4"
         :src="img"
         :alt="altImg"
       />
-      <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
-        <h2 class="md:text-6xl uppercase mb-6 mt-20 leading-none font-heading">
+      <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center lg:mb-20">
+        <h2 class="md:text-6xl uppercase mb-2 mt-4 leading-none font-heading">
           {{ title }}
         </h2>
         <div class="mb-8 mx-auto lg:text-2xl max-w-2xl" v-html="excerpt"></div>
