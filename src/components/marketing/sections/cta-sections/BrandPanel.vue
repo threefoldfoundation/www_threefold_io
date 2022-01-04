@@ -286,6 +286,7 @@
               v-if="brand.btnTxt.includes('http')"
               target="_blank"
               :href="brand.sourceUrl"
+              onclick="_paq.push(['trackEvent', 'Button clicked', 'Click', 'Learn More']);"
               class="
                 inline-block
                 bg-white
@@ -307,6 +308,7 @@
             <a
               v-else
               :href="brand.sourceUrl"
+              onclick="_paq.push(['trackEvent', 'Button clicked', 'Click', 'Learn More']);"
               class="
                 inline-block
                 bg-white
