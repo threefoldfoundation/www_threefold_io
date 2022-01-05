@@ -308,17 +308,22 @@
         target="_blank"
         :href="main.link"
         class="
-          bg-blue-900
-          text-sm
-          learn-button
-          hover:bg-blue-800
-          text-gray-100
-          px-12
-          py-2
-          mr-5
-          rounded
-          shadow
-          rounded-full
+          
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+            capitalize
+          
         "
         >{{ main.button }}</a
       >
@@ -326,17 +331,22 @@
         v-else
         :href="main.link"
         class="
-          bg-blue-900
-          text-sm
-          learn-button
-          hover:bg-blue-800
-          text-gray-100
-          px-12
-          py-2
-          mr-5
-          rounded
-          shadow
-          rounded-full
+          
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+            capitalize
+          
         "
         >{{ main.button }}</a
       >

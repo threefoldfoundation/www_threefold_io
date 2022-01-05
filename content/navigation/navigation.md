@@ -53,8 +53,8 @@ navLinks:
         path: /community
       - title: Developer Resources
         path: /developer
-      - title: Conversations
-        path: /conversations
+      # - title: Conversations
+      #   path: /conversations
       # - title: Telegram
       #   path: https://t.me/threefoldnews
       #   external: true        
