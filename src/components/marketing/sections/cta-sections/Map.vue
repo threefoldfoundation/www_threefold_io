@@ -44,8 +44,7 @@
               rounded-full
               h-32
               w-32
-              lg:h-60
-              lg:w-60
+              lg:h-60 lg:w-60
               inline-flex
               items-center
               justify-center
@@ -67,8 +66,7 @@
               rounded-full
               h-32
               w-32
-              lg:h-60
-              lg:w-60
+              lg:h-60 lg:w-60
               inline-flex
               items-center
               justify-center
@@ -88,8 +86,32 @@
           {{ stats[2] }}
           <span class="block text-2xl uppercase">cores</span>
         </div>
+       
       </div>
+      
     </div>
+     <div class="my-4 mx-auto text-center">
+          <a
+            :href="section.link"
+            target="_blank"
+            class="
+            
+            
+              inline-block
+              bg-white
+              lg:text-lg
+              learn-button
+              hover:bg-gray-400
+              px-12
+              py-1
+              mr-5
+              border-2
+              shadow
+              border-black
+            "
+            >{{ section.button }}</a
+          >
+        </div>
   </section>
 </template>
 

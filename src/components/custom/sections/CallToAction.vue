@@ -213,7 +213,7 @@
       </h2>
       <div v-html="cta.content" class="mt-6 mb-8 lg:text-2xl"></div>
       <g-image :src="cta.image" class="lg:my-20 mx-auto" />
-      <!-- <a
+      <a
         class="
           inline-block
           bg-white
@@ -252,7 +252,7 @@
         v-else
         :href="cta.link"
         >{{ cta.button }}</a
-      > -->
+      >
     </div>
 
     <div class="w-full mx-auto py-16" v-else-if="id == 'farm' && lastCta">

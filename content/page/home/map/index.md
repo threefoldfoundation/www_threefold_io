@@ -2,7 +2,7 @@
 id: map
 title: THE THREEFOLD GRID
 subtitle: NOW OPERATIONAL
-button: More Stats
+button: Explore ThreeFold Grid Capacity
 link: https://explorer.threefold.io
 image: ./map.png
 btn1: Become a Farmer
