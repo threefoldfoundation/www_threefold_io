@@ -15,15 +15,15 @@ header_link2: /compute
 button: '' #Learn More
 link: '' #link for button
 blogs: [storage, compute, network]
-cta: home_cta
+#cta: cloud_cta
 brandPanel: limitless_possibilities
 brandPanel2: explore
 features: [digithree, own_cloud, hpe, solidaridad]
 workloadsMain: workloadMain
 workloads: [workload1, workload2, workload3, workload4]
 stats: stats
-cta2: home_cta2
-cta3: cloud_cta
+cta2: cloud_cta2
+cta3: cloud_cta3
 logos: [logo1, logo7, logo8, logo4, logo2, logo3, logo5, logo6]
 
 # signup: home_signup

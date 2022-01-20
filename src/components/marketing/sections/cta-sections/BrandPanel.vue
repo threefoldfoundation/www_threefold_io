@@ -1436,6 +1436,89 @@
         </div>
       </div>
 
+      <div v-else-if="id == 'cloud' && lastBrand">
+        <div class="max-w-screen-3xl mx-auto py-16">
+          <div
+            class="rounded-lg overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4"
+          >
+            <div
+              class="
+                flex
+                content-center
+                pb-12
+                px-6
+                sm:px-16
+                lg:pr-0
+                xl:py-10 xl:px-20
+              "
+            >
+              <div class="lg:self-center">
+                <h2 class="lg:text-5xl leading-none text-black">
+                  {{ brand.title }}
+                </h2>
+                <div
+                  class="mt-4 text-xl lg:text-2xl leading-normal text-black"
+                  v-html="brand.content"
+                ></div>
+                <div class="my-10">
+                  <a
+                    :href="brand.link"
+                    v-if="brand.button"
+                    class="
+                      text-center
+                      inline-block
+                      green
+                      bg-green-300
+                      lg:text-2xl
+                      text-lg
+                      font-extrabold
+                      px-12
+                      hover:bg-green-200
+                      rounded-lg
+                      py-4
+                      mb-4
+                      lg:mr-4
+                      shadow
+                    "
+                    >{{ brand.button }}</a
+                  >
+                  <a
+                    :href="brand.link2"
+                    v-if="brand.button2"
+                    class="
+                      text-center
+                      inline-block
+                      green
+                      bg-green-300
+                      lg:text-2xl
+                      text-lg
+                      font-extrabold
+                      px-12
+                      hover:bg-green-200
+                      rounded-lg
+                      py-4
+                      mb-4
+                      shadow
+                    "
+                    >{{ brand.button2 }}</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="relative lg:mt-14">
+              <g-image
+                class="inset-0 mx-auto object-cover"
+                :class="{
+                  'w-3/4': id == 'cloud',
+                }"
+                :src="image"
+                :alt="brand.title"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div
         v-else
         class="

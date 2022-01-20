@@ -1,4 +1,4 @@
 ---
-id: home_cta
+id: cloud_cta
 image: ./cloud_icons.png
 ---

@@ -122,7 +122,8 @@
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.id !== 'farm' &&
           $page.markdownPage.id !== 'community' &&
-          $page.markdownPage.id !== 'conversations'
+          $page.markdownPage.id !== 'conversations' &&
+          $page.markdownPage.id !== 'cloud'
         "
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
@@ -260,6 +261,20 @@
         :id="$page.markdownPage.id"
         v-if="$page.markdownPage.stats"
         :info="$page.markdownPage.stats"
+      />
+      <CallToAction
+        v-if="$page.markdownPage.cta2"
+        :id="$page.markdownPage.id"
+        :cta="$page.markdownPage.cta2"
+        :textOnly="true"
+      />
+
+      <BrandPanel
+        class="my-20"
+        :brand="$page.markdownPage.brandPanel2"
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.brandPanel2"
+        :lastBrand="true"
       />
     </div>
     <div class="container mx-auto">
@@ -766,6 +781,10 @@
          sourceUrl2
          content
          image
+         button
+         link
+         button2
+         link2
        } 
        brandPanel3{
          id

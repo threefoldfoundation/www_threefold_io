@@ -5,6 +5,7 @@
       pink: id == 'home' && !lastCta,
       green: id == 'mission' && lastCta,
       gray: id == 'developer',
+      'to-black': id == 'cloud' && textOnly,
     }"
   >
     <!-- mission -->
@@ -1291,7 +1292,7 @@
     <div
       id="zero_os"
       class="w-full max-w-3xl mx-auto lg:py-20"
-      v-else-if="id == 'grid' || id == 'cloud'"
+      v-else-if="id == 'grid' || (id == 'cloud' && !textOnly)"
     >
       <g-image :src="cta.image" class="mx-auto lg:w-1/3 my-10" />
       <h2
@@ -1774,6 +1775,57 @@
       >
     </div>
 
+    <div
+      v-else-if="id == 'cloud' && textOnly"
+      class="w-full py-20 max-w-3xl mx-auto"
+    >
+      <h2 class="text-5xl text-white leading-tight font-semibold font-heading">
+        {{ cta.title }}
+        <span class="text-pink">{{ cta.subtitle }}</span>
+      </h2>
+      <div
+        v-html="cta.content"
+        class="text-2xl text-white leading-normal py-10"
+      ></div>
+      <a
+        v-if="cta.link.includes('http')"
+        target="_blank"
+        :href="cta.link"
+        class="
+          green
+          bg-green-300
+          lg:text-2xl
+          text-lg
+          font-extrabold
+          px-12
+          hover:bg-green-200
+          rounded-lg
+          py-4
+          mb-4
+          shadow
+        "
+        >{{ cta.button }}</a
+      >
+      <a
+        v-else
+        :href="cta.link"
+        class="
+          green
+          bg-green-300
+          lg:text-2xl
+          text-lg
+          font-extrabold
+          px-12
+          hover:bg-green-200
+          rounded-lg
+          py-4
+          mb-4
+          shadow
+        "
+        >{{ cta.button }}</a
+      >
+    </div>
+
     <div class="w-full max-w-7xl mx-auto" v-else>
       <h2
         v-if="cta.title"
@@ -1943,5 +1995,26 @@ export default {
   transition: all 0.2s ease;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+.to-black {
+  background: #000;
+  background: -webkit-linear-gradient(to right, #000, #323232);
+  background: linear-gradient(to right, #000, #323232);
+}
+.to-black-bottom {
+  background: #000;
+  background: -webkit-linear-gradient(to bottom, #000, #323232);
+  background: linear-gradient(to bottom, #000, #323232);
+}
+.bg-gray {
+  background-color: #e6e6e6;
+}
+
+.green {
+  /* background-color: #70dfc9; */
+  font-family: "Orbitron", sans-serif !important;
+}
+.text-pink {
+  color: #ea1ff7;
 }
 </style>
