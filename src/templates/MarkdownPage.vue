@@ -38,7 +38,8 @@
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.brandPanel &&
           $page.markdownPage.id !== 'farm' &&
-          $page.markdownPage.id !== 'developer'
+          $page.markdownPage.id !== 'developer' &&
+          $page.markdownPage.id !== 'cloud'
         "
         :brand="$page.markdownPage.brandPanel"
       />
@@ -52,7 +53,8 @@
           $page.markdownPage.brandPanel2 &&
           $page.markdownPage.id !== 'farm' &&
           $page.markdownPage.id !== 'developer' &&
-          $page.markdownPage.id !== 'community'
+          $page.markdownPage.id !== 'community' &&
+          $page.markdownPage.id !== 'cloud'
         "
         :brandPanel2="true"
       />
@@ -66,7 +68,8 @@
           $page.markdownPage.brandPanel3 &&
           $page.markdownPage.id !== 'farm' &&
           $page.markdownPage.id !== 'developer' &&
-          $page.markdownPage.id !== 'community'
+          $page.markdownPage.id !== 'community' &&
+          $page.markdownPage.id !== 'cloud'
         "
         :brandPanel3="true"
       />
@@ -184,11 +187,24 @@
         :main="$page.markdownPage.networkMain"
         :features="$page.markdownPage.network"
       />
-
+    </div>
+    <div class="container mx-auto">
+      <LogoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
+        :logos="$page.markdownPage.logos"
+      />
+    </div>
+    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel && $page.markdownPage.id == 'tft'"
+        v-if="
+          $page.markdownPage.brandPanel &&
+          $page.markdownPage.id == 'tft' &&
+          $page.markdownPage.id !== 'cloud'
+        "
+        :lastBrand="false"
       />
 
       <BrandPanel
@@ -215,6 +231,12 @@
         v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'tft'"
         :cta="$page.markdownPage.cta2"
         :lastCta="true"
+      />
+      <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel"
+        :lastBrand="false"
+        v-if="$page.markdownPage.brandPanel && $page.markdownPage.id == 'cloud'"
       />
 
       <CallToAction
@@ -252,11 +274,6 @@
         "
         :cta="$page.markdownPage.cta2"
       />
-      <LogoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
-      />
     </div>
     <g-image
       v-if="
@@ -292,7 +309,12 @@
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel && $page.markdownPage.id == 'farm'"
+        :lastBrand="false"
+        v-if="
+          $page.markdownPage.brandPanel &&
+          $page.markdownPage.id == 'farm' &&
+          $page.markdownPage.id !== 'cloud'
+        "
       />
 
       <BrandPanel

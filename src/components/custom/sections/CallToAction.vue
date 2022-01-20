@@ -1291,7 +1291,7 @@
     <div
       id="zero_os"
       class="w-full max-w-3xl mx-auto lg:py-20"
-      v-else-if="id == 'grid'"
+      v-else-if="id == 'grid' || id == 'cloud'"
     >
       <g-image :src="cta.image" class="mx-auto lg:w-1/3 my-10" />
       <h2

@@ -8,7 +8,86 @@
       gry3: id == 'community' && brandPanel3,
     }"
   >
-    <div class="mx-auto py-10">
+    <div v-if="id == 'cloud' && !lastBrand" class="to-black">
+      <div class="max-w-screen-2xl mx-auto py-20">
+        <div class="rounded-lg overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
+          <div
+            class="
+              pt-10
+              pb-12
+              px-6
+              sm:pt-16 sm:px-16
+              lg:py-16 lg:pr-0
+              xl:py-20 xl:px-10
+            "
+          >
+            <div class="lg:self-center">
+              <h2
+                class="leading-none font-extrabold mb-10 text-white"
+                :class="{
+                  'lg:text-5xl leading-none': id == 'home',
+                  'lg:text-5xl ': id == 'network',
+                }"
+              >
+                {{ brand.title }}
+              </h2>
+              <div
+                class="mt-4 lg:text-2xl text-xl leading-normal text-white"
+                v-html="brand.content"
+              ></div>
+              <div class="my-10" v-if="brand.button">
+                <a
+                  v-if="brand.link.includes('http')"
+                  target="_blank"
+                  :href="brand.link"
+                  class="
+                    inline-block
+                    green
+                    uppercase
+                    text-2xl text-black
+                    font-extrabold
+                    px-8
+                    py-3
+                    mr-5
+                    my-2
+                    shadow
+                    rounded-lg
+                  "
+                  >{{ brand.button }}</a
+                >
+                <a
+                  v-else
+                  :href="brand.link"
+                  class="
+                    inline-block
+                    green
+                    uppercase
+                    text-2xl text-black
+                    font-extrabold
+                    px-8
+                    py-3
+                    mr-5
+                    my-2
+                    shadow
+                    rounded-lg
+                  "
+                  >{{ brand.button }}</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <g-image
+              class="inset-0 mx-auto object-cover"
+              :class="{ 'w-3/4': id == 'network' }"
+              :src="image"
+              :alt="brand.title"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div v-else class="mx-auto py-10">
       <!-- oldtft -->
       <div
         v-if="id == 'oldtft'"
@@ -453,7 +532,7 @@
           </div>
         </div>
         <div class="lg:w-1/2 px-2 self-top text-right">
-          <g-image class=" mx-auto" :src="image" :alt="brand.title" />
+          <g-image class="mx-auto" :src="image" :alt="brand.title" />
         </div>
       </div>
 
@@ -1421,7 +1500,14 @@
 
 <script>
 export default {
-  props: ["brand", "id", "brandPanel2", "brandPanel3"],
+  props: [
+    "brand",
+    "id",
+    "brandPanel2",
+    "brandPanel3",
+    "lastBrand",
+    "textFirst",
+  ],
   computed: {
     image() {
       return this.brand.image.src
@@ -1448,5 +1534,15 @@ export default {
 
 .gry3 {
   background: #f2f2f2;
+}
+
+.to-black {
+  background: #000;
+  background: -webkit-linear-gradient(to right, #000, #323232);
+  background: linear-gradient(to right, #000, #323232);
+}
+.green {
+  /* background-color: #70dfc9; */
+  font-family: "Orbitron", sans-serif !important;
 }
 </style>
