@@ -69,15 +69,12 @@
       </div>
     </div>
   </div>
-  <div
-    v-else
-    class="relative pt-16 lg:pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"
-  >
+  <div v-else class="relative pt-16 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
     <div class="absolute inset-0">
       <div class="bg-white h-1/3 sm:h-2/3"></div>
     </div>
     <div class="relative max-w-7xl mx-auto">
-      <div class="text-center">
+      <div class="text-center" v-if="main">
         <h2
           class="
             lg:text-6xl
@@ -117,7 +114,7 @@
                   {{ blog.tag }}
                 </a>
               </p> -->
-              <a
+              <!-- <a
                 target="_blank"
                 v-if="path(blog).includes('http')"
                 :href="path(blog)"
@@ -139,7 +136,7 @@
                   v-html="blog.excerpt"
                   class="mt-3 text-base leading-6 text-gray-700 text-xl"
                 ></div>
-              </a>
+              </a> -->
             </div>
             <!-- <div class="mt-6 flex items-center">
               <div class="flex-shrink-0">
