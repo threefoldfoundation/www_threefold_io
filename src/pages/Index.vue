@@ -144,21 +144,21 @@
         cta{
           id
           title
-          subtitle
+        #  subtitle
           image
           content
           button
           button2
           button3
-          button4
-          button5
-          button6
+        #  button4
+        #  button5
+        #  button6
           link
           link2
           link3
-          link4
-          link5
-          link6
+        #  link4
+        #  link5
+        #  link6
         }
         BlogsMain{
           id
@@ -184,11 +184,11 @@
           button
           button2
           button3
-          button4
+        #  button4
           link
           link2
           link3
-          link4
+        #  link4
         }
         cta3{
           id

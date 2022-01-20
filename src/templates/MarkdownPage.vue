@@ -19,6 +19,10 @@
         :link2="$page.markdownPage.link2"
         :buttonImg="$page.markdownPage.buttonImg"
         :buttonImg2="$page.markdownPage.buttonImg2"
+        :text1="$page.markdownPage.header_link1_txt"
+        :link1="$page.markdownPage.header_link1"
+        :text2="$page.markdownPage.header_link2_txt"
+        :linkheader2="$page.markdownPage.header_link2"
       />
 
       <BrandPanel
@@ -79,7 +83,8 @@
           $page.markdownPage.id !== 'developer' &&
           $page.markdownPage.id !== 'tft' &&
           $page.markdownPage.id !== 'community' &&
-          $page.markdownPage.id !== 'conversations'
+          $page.markdownPage.id !== 'conversations' &&
+          $page.markdownPage.id !== 'cloud'
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -543,6 +548,10 @@
         link2
         solution_image
         solution_image2
+        header_link1_txt
+        header_link1
+        header_link2_txt
+        header_link2
         header{
          title
          subtitle

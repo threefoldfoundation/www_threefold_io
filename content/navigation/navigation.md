@@ -11,8 +11,8 @@ navLinks:
     external: false
     expandable: false
 
-  - name: Grid
-    link: /grid
+  - name: Cloud
+    link: /cloud
     external: false
     expandable: false
 

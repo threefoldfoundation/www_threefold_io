@@ -592,12 +592,10 @@
       class="w-full max-w-6xl mx-auto lg:my-10"
       v-else-if="id == 'conversations'"
     >
-      <g-image
-        class="mx-auto lg:w-4/6 my-2 px-4"
-        :src="img"
-        :alt="altImg"
-      />
-      <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center lg:mb-20">
+      <g-image class="mx-auto lg:w-4/6 my-2 px-4" :src="img" :alt="altImg" />
+      <div
+        class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center lg:mb-20"
+      >
         <h2 class="md:text-6xl uppercase mb-2 mt-4 leading-none font-heading">
           {{ title }}
         </h2>
@@ -788,6 +786,51 @@
         <g-image :src="img" :alt="altImg" />
       </div>
     </div>
+    <div
+      class="flex flex-wrap text-center mx-4 lg:pt-4 pb-10"
+      v-else-if="id == 'cloud'"
+    >
+      <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
+        <h2
+          class="
+            lg:text-5xl
+            uppercase
+            mb-6
+            leading-none
+            font-black font-heading
+          "
+        >
+          {{ title }}
+          <br />
+          <span>{{ title2 }}</span>
+        </h2>
+        <div
+          class="mb-8 mx-auto lg:text-2xl text-xl lg:max-w-4xl leading-normal"
+          v-html="excerpt"
+        ></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 mx-auto items-center">
+        <div class="w-full mb-4 border-b border-gray-600">
+          <div class="arrow_up"></div>
+          <g-link :to="link1" class="text-5xl font-extrabold">{{
+            text1
+          }}</g-link>
+        </div>
+        <div class="mb-4">
+          <g-image
+            class="mx-auto sm:w-1/2 lg:w-full"
+            :src="img"
+            :alt="altImg"
+          />
+        </div>
+        <div class="w-full mb-4 border-b border-gray-600">
+          <g-link :to="linkheader2" class="text-5xl font-extrabold">{{
+            text2
+          }}</g-link>
+          <div class="arrow_down"></div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -811,6 +854,10 @@ export default {
     "link3",
     "buttonImg",
     "buttonImg2",
+    "text1",
+    "link1",
+    "text2",
+    "linkheader2",
   ],
   computed: {
     img: function () {
@@ -865,6 +912,33 @@ export default {
   transition: all 0.2s ease;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+
+.arrow_up,
+.arrow_down {
+  display: inline-block;
+  margin-right: 10px;
+  width: 0;
+  height: 0;
+  border-width: 0 12.5px 30px 12.5px;
+  border-color: transparent transparent #000000 transparent;
+  border-style: solid;
+}
+.arrow_down {
+  margin-left: 10px;
+
+  border-width: 35px 12.5px 0 12.5px;
+  border-color: #000000 transparent transparent transparent;
+}
+
+a {
+  font-family: "Orbitron", sans-serif !important;
+}
+hr {
+  height: 1px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
 }
 
 @media (max-width: 640px) {
