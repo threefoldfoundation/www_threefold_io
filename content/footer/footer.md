@@ -42,9 +42,9 @@ items:
  - title: Knowledgebase
    links:
     - name: ThreeFold Grid
-      link: /grid
+      link: https://library.threefold.me/info/threefold#/tfgrid/threefold__tfgrid_home
     - name: ThreeFold Technology
-      link: https://library.threefold.me/info/threefold/#/cloud/threefold__cloud_home
+      link: https://library.threefold.me/info/threefold/#/technology/threefold__zos
     - name: ThreeFold Farming
       link: https://library.threefold.me/info/threefold/#/tfgrid/farming/threefold__farming_home
     - name: ThreeFold Token
