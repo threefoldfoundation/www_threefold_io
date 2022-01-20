@@ -250,6 +250,17 @@
         :cta="$page.markdownPage.cta3"
         :lastCta="true"
       />
+      <SimpleColumns
+        v-if="$page.markdownPage.workloads.length > 0"
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.workloadsMain"
+        :sections="$page.markdownPage.workloads"
+      />
+      <Stats
+        :id="$page.markdownPage.id"
+        v-if="$page.markdownPage.stats"
+        :info="$page.markdownPage.stats"
+      />
     </div>
     <div class="container mx-auto">
       <ConversationSec
@@ -953,6 +964,25 @@
       title
       content
       }
+    workloadsMain {
+         id
+         title
+         button
+         link
+       }
+       workloads{
+         id
+         title
+         image
+         content
+       }
+    stats{
+         id
+         title
+         content
+         button
+         link
+       }
     }
     allCustomCta {
       edges {
@@ -1000,6 +1030,8 @@ import SplitWithImage from "~/components/custom/SplitWithImage.vue";
 import ConversationSec from "~/components/custom/ConversationSec.vue";
 import SplitWithForm from "~/components/custom/SplitWithForm.vue";
 import Blogs from "~/components/marketing/sections/blog-sections/3_column_cards.vue";
+import SimpleColumns from "~/components/marketing/sections/feature-sections/SimpleColumns.vue";
+import Stats from "~/components/marketing/sections/stats-sections/SimpleInCard.vue";
 
 export default {
   components: {
@@ -1034,6 +1066,8 @@ export default {
     ConversationSec,
     SplitWithForm,
     Blogs,
+    SimpleColumns,
+    Stats,
   },
   computed: {
     getImg() {

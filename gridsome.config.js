@@ -489,6 +489,20 @@ module.exports = {
                 path: './content/page/**/upTalks/**/*.md',
             }
         },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'WorkloadsMain',
+                path: './content/page/**/workloads/main/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Workloads',
+                path: './content/page/**/workloads/**/*.md',
+            }
+        },
 
         {
             use: '@gridsome/source-filesystem',
@@ -555,7 +569,9 @@ module.exports = {
                     info: 'Info',
                     dev: 'Dev',
                     conversationsMain: 'ConversationsMain',
-                    conversations: 'Conversations'
+                    conversations: 'Conversations',
+                    workloadsMain: 'WorkloadsMain',
+                    workloads: 'Workloads',
                 }
             }
         },
