@@ -56,14 +56,14 @@
         <p class="text-gray-400 leading-relaxed"></p>
       </div>
       <div class="flex flex-wrap -mx-8">
-        <g-link
+        <a
           v-for="(logo, idx) in logos"
           :key="idx"
-          :to="logo.url"
+          :href="logo.url"
           class="md:w-1/4 px-8 mb-5"
         >
           <g-image :src="img(logo.image)" />
-        </g-link>
+        </a>
       </div>
     </div>
     <div v-else class="flex flex-wrap -mx-8">
