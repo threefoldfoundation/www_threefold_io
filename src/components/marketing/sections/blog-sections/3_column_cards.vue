@@ -1,5 +1,78 @@
 <template>
-  <div class="relative pt-16 lg:pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+  <div
+    v-if="id == 'cloud'"
+    class="relative lg:py-28 py-10 px-4 sm:px-6 lg:px-8"
+  >
+    <div class="absolute inset-0">
+      <div class="bg-white h-1/3 sm:h-2/3"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto">
+      <div class="text-center" v-if="main">
+        <h2
+          class="
+            text-5xl
+            leading-tight
+            mb-6
+            font-bold font-heading
+            uppercase
+            sm:leading-10
+          "
+        >
+          {{ main.title }}
+        </h2>
+        <div
+          class="mt-3 max-w-2xl mx-auto text-gray-700 sm:mt-4"
+          v-html="main.content"
+        ></div>
+      </div>
+      <div
+        class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none"
+      >
+        <div
+          class="flex flex-col text-center overflow-hidden"
+          v-for="blog in blogs"
+          :key="blog.id"
+        >
+          <div class="flex-shrink-0">
+            <g-image
+              class="w-full object-cover"
+              :src="img(blog.image)"
+              alt=""
+            />
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <h2
+                class="
+                  text-3xl
+                  uppercase
+                  mb-6
+                  leading-none
+                  font-black font-heading
+                "
+              >
+                {{ blog.title }}
+              </h2>
+              <div
+                v-html="blog.content"
+                class="
+                  mt-3
+                  text-base text-xl
+                  lg:text-2xl
+                  leading-normal
+                  text-gray-800
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    v-else
+    class="relative pt-16 lg:pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"
+  >
     <div class="absolute inset-0">
       <div class="bg-white h-1/3 sm:h-2/3"></div>
     </div>
@@ -44,28 +117,27 @@
                   {{ blog.tag }}
                 </a>
               </p> -->
-              <a 
-              target="_blank"
-              v-if="path(blog).includes('http')"
-              :href="path(blog)" class="block">
+              <a
+                target="_blank"
+                v-if="path(blog).includes('http')"
+                :href="path(blog)"
+                class="block"
+              >
                 <h3 class="mt-2 text-2xl leading-7 font-semibold text-gray-900">
                   {{ blog.title }}
                 </h3>
                 <div
                   v-html="blog.excerpt"
-                  class="mt-3 text-base leading-6 text-gray-700 text-xl" 
+                  class="mt-3 text-base leading-6 text-gray-700 text-xl"
                 ></div>
               </a>
-               <a 
-              
-              v-else
-              :href="path(blog)" class="block">
+              <a v-else :href="path(blog)" class="block">
                 <h3 class="mt-2 text-2xl leading-7 font-semibold text-gray-900">
                   {{ blog.title }}
                 </h3>
                 <div
                   v-html="blog.excerpt"
-                  class="mt-3 text-base leading-6 text-gray-700 text-xl" 
+                  class="mt-3 text-base leading-6 text-gray-700 text-xl"
                 ></div>
               </a>
             </div>
@@ -101,7 +173,7 @@
 
 <script>
 export default {
-  props: ["main", "blogs"],
+  props: ["id", "main", "blogs"],
   methods: {
     path(blog) {
       if (this.pathPrefix) return this.pathPrefix + "/" + blog.id;

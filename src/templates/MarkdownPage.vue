@@ -25,6 +25,12 @@
         :linkheader2="$page.markdownPage.header_link2"
       />
 
+      <Blogs
+        v-if="$page.markdownPage.blogs"
+        :id="$page.markdownPage.id"
+        :blogs="$page.markdownPage.blogs"
+      />
+
       <BrandPanel
         :id="$page.markdownPage.id"
         v-if="
@@ -245,6 +251,11 @@
           $page.markdownPage.cta2 && $page.markdownPage.id == 'conversations'
         "
         :cta="$page.markdownPage.cta2"
+      />
+      <LogoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :id="$page.markdownPage.id"
+        :logos="$page.markdownPage.logos"
       />
     </div>
     <g-image
@@ -479,8 +490,11 @@
         :header="$page.markdownPage.header3"
       />
 
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
+      <LogoShowcase
+        v-if="
+          $page.markdownPage.logos.length > 0 &&
+          $page.markdownPage.id !== 'cloud'
+        "
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
         :main="$page.markdownPage.logosMain"
@@ -911,6 +925,12 @@
       link
       image
       }
+    blogs{
+      id
+      image
+      title
+      content
+      }
     }
     allCustomCta {
       edges {
@@ -936,7 +956,7 @@ import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.v
 import HowItWorks from "~/components/custom/sections/HowItWorks.vue";
 import Features from "~/components/custom/sections/Features.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
-import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
+import LogoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import CallToActionbg1 from "~/components/custom/sections/CallToActionbg1.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
@@ -957,6 +977,7 @@ import LinkTable from "~/components/marketing/sections/cta-sections/Link_Table.v
 import SplitWithImage from "~/components/custom/SplitWithImage.vue";
 import ConversationSec from "~/components/custom/ConversationSec.vue";
 import SplitWithForm from "~/components/custom/SplitWithForm.vue";
+import Blogs from "~/components/marketing/sections/blog-sections/3_column_cards.vue";
 
 export default {
   components: {
@@ -970,7 +991,7 @@ export default {
     HowItWorks,
     Features,
     InTheNews,
-    logoShowcase,
+    LogoShowcase,
     CallToAction,
     CallToActionbg1,
     SignUp,
@@ -990,6 +1011,7 @@ export default {
     SplitWithImage,
     ConversationSec,
     SplitWithForm,
+    Blogs,
   },
   computed: {
     getImg() {

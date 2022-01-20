@@ -1,17 +1,15 @@
 <template>
   <section class="lg:py-20 pb-8 px-4 text-center">
     <div class="mx-auto mb-4" v-if="main">
-      <h2
-        class="lg:text-6xl uppercase leading-tight mb-0 font-light"
-      >
+      <h2 class="lg:text-6xl uppercase leading-tight mb-0 font-light">
         {{ main.title }}
       </h2>
-      <h2
-        class="lg:text-6xl uppercase leading-tight mt-0 mb-4 font-bold"
-      >
+      <h2 class="lg:text-6xl uppercase leading-tight mt-0 mb-4 font-bold">
         {{ main.title2 }}
       </h2>
-      <p class="text-xl leading-tight tracking-wide mb-10">{{ main.subtitle }}</p>
+      <p class="text-xl leading-tight tracking-wide mb-10">
+        {{ main.subtitle }}
+      </p>
 
       <g-image :src="img(main.image)" class="lg:w-3/4 mx-auto" />
     </div>
@@ -49,6 +47,25 @@
         </a>
       </div>
     </div> -->
+
+    <div class="pt-8 px-4 text-center" v-else-if="id == 'cloud'">
+      <div class="max-w-2xl mx-auto mb-8" v-if="main">
+        <h2 class="text-4xl leading-tight mb-6 font-semibold font-heading">
+          {{ title }}
+        </h2>
+        <p class="text-gray-400 leading-relaxed"></p>
+      </div>
+      <div class="flex flex-wrap -mx-8">
+        <g-link
+          v-for="(logo, idx) in logos"
+          :key="idx"
+          :to="logo.url"
+          class="md:w-1/4 px-8 mb-5"
+        >
+          <g-image :src="img(logo.image)" />
+        </g-link>
+      </div>
+    </div>
     <div v-else class="flex flex-wrap -mx-8">
       <g-image
         class="mx-auto"
@@ -57,7 +74,7 @@
         :src="img(logo.image)"
       />
     </div>
-    <div v-if="main.button" class="my-4">
+    <div v-if="main" class="my-4">
       <a
         class="
           inline-block
@@ -72,7 +89,7 @@
           shadow
           border-black
         "
-        v-if="main.button"
+        v-if="main"
         :href="main.link"
         >{{ main.button }}</a
       >
