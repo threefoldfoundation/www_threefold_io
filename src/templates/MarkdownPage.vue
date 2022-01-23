@@ -189,9 +189,12 @@
         :features="$page.markdownPage.network"
       />
     </div>
-    <div class="container mx-auto">
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <LogoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
+        v-if="
+          $page.markdownPage.logos.length > 0 &&
+          $page.markdownPage.id == 'cloud'
+        "
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
       />
@@ -263,7 +266,7 @@
         :info="$page.markdownPage.stats"
       />
       <CallToAction
-        v-if="$page.markdownPage.cta2"
+        v-if="$page.markdownPage.cta2 && $page.markdownPage.id == 'cloud'"
         :id="$page.markdownPage.id"
         :cta="$page.markdownPage.cta2"
         :textOnly="true"
@@ -273,11 +276,13 @@
         class="my-20"
         :brand="$page.markdownPage.brandPanel2"
         :id="$page.markdownPage.id"
-        v-if="$page.markdownPage.brandPanel2"
+        v-if="
+          $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'cloud'
+        "
         :lastBrand="true"
       />
     </div>
-    <div class="container mx-auto">
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <ConversationSec
         v-if="
           $page.markdownPage.conversations &&
