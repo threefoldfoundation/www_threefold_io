@@ -2,7 +2,7 @@
 id: zero_os
 title: POWERED BY A 
 subtitle: decentralized OS 
-sourceUrl: /tech
+sourceUrl: /farm
 btnTxt: Learn More
 image: zero_os.jpg # src/assets/brandPanel/..
 ---
