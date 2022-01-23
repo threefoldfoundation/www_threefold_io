@@ -512,7 +512,7 @@
         :alt="altImg"
       />
     </div>
-
+<!-- home -->
     <div
       class="flex flex-wrap text-center lg:text-left lg:pt-10 lg:pb-10 -mx-2"
       v-else-if="id == 'home'"
@@ -787,25 +787,27 @@
       </div>
     </div>
     <div
-      class="flex flex-wrap text-center mx-4 lg:pt-4 pb-10"
+      class="flex flex-wrap text-center mx-4 lg:pt-4 mt-10 lg:mx-10  lg:mt-4 pb-10"
       v-else-if="id == 'cloud'"
     >
       <div class="px-3 lg:mt-5 order-1 lg:order-none mx-auto text-center">
         <h2
           class="
             lg:text-5xl
+            font-normal
             uppercase
             mb-6
+            mt-10
             leading-none
-            font-black font-heading
+            font-heading
           "
         >
           {{ title }}
           <br />
-          <span>{{ title2 }}</span>
+          <span class="block leading-none font-bold">{{ title2 }}</span>
         </h2>
         <div
-          class="mb-8 mx-auto lg:text-2xl text-xl lg:max-w-4xl leading-normal"
+          class="mb-8 mx-auto lg:text-2xl text-xl lg:max-w-5xl leading-normal"
           v-html="excerpt"
         ></div>
       </div>

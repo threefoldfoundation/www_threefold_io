@@ -1777,32 +1777,35 @@
 
     <div
       v-else-if="id == 'cloud' && textOnly"
-      class="w-full py-20 max-w-3xl mx-auto"
+      class="w-full py-20 max-w-3xl mx-auto lg:my-20"
     >
-      <h2 class="text-5xl text-white leading-tight font-semibold font-heading">
+      <h2 class="text-6xl text-white leading-tight font-semibold font-heading">
         {{ cta.title }}
         <span class="text-pink">{{ cta.subtitle }}</span>
       </h2>
       <div
         v-html="cta.content"
-        class="text-2xl text-white leading-normal py-10"
+        class="text-xl text-white leading-normal py-10"
       ></div>
       <a
         v-if="cta.link.includes('http')"
         target="_blank"
         :href="cta.link"
         class="
-          green
-          bg-green-300
-          lg:text-2xl
-          text-lg
-          font-extrabold
-          px-12
-          hover:bg-green-200
-          rounded-lg
-          py-4
-          mb-4
-          shadow
+          
+        inline-block
+        bg-white
+        text-lg
+        learn-button
+        hover:bg-gray-400
+        px-12
+        py-1
+        mr-5
+        my-4
+        border-2
+        shadow
+        border-black
+      
         "
         >{{ cta.button }}</a
       >
@@ -1810,17 +1813,20 @@
         v-else
         :href="cta.link"
         class="
-          green
-          bg-green-300
-          lg:text-2xl
-          text-lg
-          font-extrabold
-          px-12
-          hover:bg-green-200
-          rounded-lg
-          py-4
-          mb-4
-          shadow
+          
+        inline-block
+        bg-white
+        text-lg
+        learn-button
+        hover:bg-gray-400
+        px-12
+        py-1
+        mr-5
+        my-4
+        border-2
+        shadow
+        border-black
+      
         "
         >{{ cta.button }}</a
       >

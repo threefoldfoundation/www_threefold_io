@@ -9,7 +9,7 @@
     }"
   >
     <div v-if="id == 'cloud' && !lastBrand" class="to-black">
-      <div class="max-w-screen-2xl mx-auto py-20">
+      <div class="max-w-screen-2xl mx-auto lg:p-20">
         <div class="rounded-lg overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
           <div
             class="
@@ -23,7 +23,7 @@
           >
             <div class="lg:self-center">
               <h2
-                class="leading-none font-extrabold mb-10 text-white"
+                class="leading-none font-extrabold mb-10 text-white lg:text-6xl"
                 :class="{
                   'lg:text-5xl leading-none': id == 'home',
                   'lg:text-5xl ': id == 'network',
@@ -32,7 +32,7 @@
                 {{ brand.title }}
               </h2>
               <div
-                class="mt-4 lg:text-2xl text-xl leading-normal text-white"
+                class="mt-4 text-xl leading-normal text-white"
                 v-html="brand.content"
               ></div>
               <div class="my-10" v-if="brand.button">
@@ -78,7 +78,7 @@
           </div>
           <div class="relative">
             <g-image
-              class="inset-0 mx-auto object-cover"
+              class="inset-0 w-3/4 mx-auto object-cover"
               :class="{ 'w-3/4': id == 'network' }"
               :src="image"
               :alt="brand.title"
@@ -1453,11 +1453,11 @@
               "
             >
               <div class="lg:self-center">
-                <h2 class="lg:text-5xl leading-none text-black">
+                <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
                   {{ brand.title }}
                 </h2>
                 <div
-                  class="mt-4 text-xl lg:text-2xl leading-normal text-black"
+                  class="mt-4 text-xl leading-normal text-black"
                   v-html="brand.content"
                 ></div>
                 <div class="my-10">
@@ -1465,20 +1465,19 @@
                     :href="brand.link"
                     v-if="brand.button"
                     class="
-                      text-center
                       inline-block
-                      green
-                      bg-green-300
-                      lg:text-2xl
+                      bg-white
                       text-lg
-                      font-extrabold
+                      learn-button
+                      hover:bg-gray-400
+                      bo
                       px-12
-                      hover:bg-green-200
-                      rounded-lg
-                      py-4
+                      py-1
+                      mr-5
                       mb-4
-                      lg:mr-4
+                      border-2
                       shadow
+                      border-black
                     "
                     >{{ brand.button }}</a
                   >
@@ -1486,19 +1485,19 @@
                     :href="brand.link2"
                     v-if="brand.button2"
                     class="
-                      text-center
                       inline-block
-                      green
-                      bg-green-300
-                      lg:text-2xl
+                      bg-white
                       text-lg
-                      font-extrabold
+                      learn-button
+                      hover:bg-gray-400
+                      bo
                       px-12
-                      hover:bg-green-200
-                      rounded-lg
-                      py-4
+                      py-1
+                      mr-5
                       mb-4
+                      border-2
                       shadow
+                      border-black
                     "
                     >{{ brand.button2 }}</a
                   >

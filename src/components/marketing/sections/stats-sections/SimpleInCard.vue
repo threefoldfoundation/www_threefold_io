@@ -4,12 +4,14 @@
       <div class="lg:max-w-xl mx-auto text-center">
         <h2
           class="
-            lg:text-5xl
-            uppercase
-            mb-6
-            leading-none
-            font-black font-heading
-            mx-auto
+            
+          lg:text-6xl
+          text-center
+          uppercase
+          my-2
+          leading-none
+          font-bold font-heading
+        
           "
         >
           {{ info.title }}
@@ -180,17 +182,19 @@
         target="_blank"
         :href="info.link"
         class="
-          green
-          bg-green-300
-          lg:text-2xl
-          text-lg
-          font-extrabold
-          px-12
-          hover:bg-green-200
-          rounded-lg
-          py-4
-          mb-4
-          shadow
+          inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
         "
         >{{ info.button }}</a
       >
@@ -198,17 +202,19 @@
         v-else
         :href="info.link"
         class="
-          green
-          bg-green-300
-          lg:text-2xl
-          text-lg
-          font-extrabold
-          px-12
-          hover:bg-green-200
-          rounded-lg
-          py-4
-          mb-4
-          shadow
+          inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
         "
         >{{ info.button }}</a
       >

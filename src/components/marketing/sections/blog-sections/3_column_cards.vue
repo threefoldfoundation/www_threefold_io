@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="id == 'cloud'"
-    class="relative lg:py-28 py-10 px-4 sm:px-6 lg:px-8"
+    class="relative lg:py-28 py-10 px-4 sm:px-6 lg:px-16"
   >
     <div class="absolute inset-0">
       <div class="bg-white h-1/3 sm:h-2/3"></div>
@@ -58,7 +58,7 @@
                 class="
                   mt-3
                   text-base text-xl
-                  lg:text-2xl
+                  
                   leading-normal
                   text-gray-800
                 "

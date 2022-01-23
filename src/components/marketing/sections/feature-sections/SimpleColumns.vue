@@ -1,22 +1,21 @@
 <template>
   <div class="py-20 bg-white">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-screen-2xl lg:px-8">
-      <div v-if="main" class="mx-auto mb-24 lg:text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-screen-2xl lg:px-16">
+      <div v-if="main" class="mx-auto mb-24 lg:text-center lg:max-w-5xl">
         <h2
           class="
-            lg:text-5xl
-            max-w-3xl
+            lg:text-6xl
+            text-center
             uppercase
-            mb-6
+            my-2
             leading-none
-            font-black font-heading
-            mx-auto
+            font-bold font-heading
           "
         >
           {{ main.title }}
         </h2>
         <div
-          class="mt-2 lg:text-2xl text-xl leading-normal text-gray-900"
+          class="mt-2 text-xl leading-normal text-gray-900"
           v-html="main.content"
         ></div>
       </div>
@@ -42,21 +41,21 @@
               }"
             />
           </div>
-          <div class="mt-5">
+          <div class="mt-5 ">
             <h2
               class="
-                text-3xl
+                text-2xl
                 uppercase
                 mb-6
                 leading-none
-                font-black font-heading
+                font-bold font-heading
                 py-8
               "
             >
               {{ section.title }}
             </h2>
             <div
-              class="mt-2 lg:text-2xl text-xl leading-normal text-gray-900 pb-6"
+              class="mt-2 text-xl leading-normal text-gray-900 pb-6"
               v-html="section.content"
             ></div>
           </div>
@@ -68,17 +67,19 @@
           target="_blank"
           :href="main.link"
           class="
-            green
-            bg-green-300
-            lg:text-2xl
+            inline-block
+            bg-white
             text-lg
-            font-extrabold
+            learn-button
+            hover:bg-gray-400
+            bo
             px-12
-            hover:bg-green-200
-            rounded-lg
-            py-4
+            py-1
+            mr-5
             mb-4
+            border-2
             shadow
+            border-black
           "
           >{{ main.button }}</a
         >
@@ -86,17 +87,19 @@
           v-else
           :href="main.link"
           class="
-            green
-            bg-green-300
-            lg:text-2xl
+            inline-block
+            bg-white
             text-lg
-            font-extrabold
+            learn-button
+            hover:bg-gray-400
+            bo
             px-12
-            hover:bg-green-200
-            rounded-lg
-            py-4
+            py-1
+            mr-5
             mb-4
+            border-2
             shadow
+            border-black
           "
           >{{ main.button }}</a
         >
