@@ -1,5 +1,5 @@
 ---
 id: logo2
 image: ./kubernetes.png
-url: /compute/#block_2
+url: https://library.threefold.me/info/manual/#/manual__weblets_k8s
 ---

@@ -1,5 +1,5 @@
 ---
 id: logo6
 image: ./virtual_machine.png
-url: /compute/#block_3
+url: https://library.threefold.me/info/manual/#/manual__weblets_vm
 ---

@@ -987,6 +987,8 @@
       image
       title
       content
+      btnTxt
+      sourceUrl 
       }
     workloadsMain {
          id

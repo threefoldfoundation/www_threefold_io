@@ -1,5 +1,5 @@
 ---
 id: logo1
 image: ./qss.png
-url: /storage
+url: https://library.threefold.me/info/manual/#/technology/threefold__qsss2_home
 ---

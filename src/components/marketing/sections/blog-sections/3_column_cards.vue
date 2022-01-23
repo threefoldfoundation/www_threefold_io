@@ -63,6 +63,49 @@
                   text-gray-800
                 "
               ></div>
+            <div class="my-10">
+               <a
+              class="
+                capitalize
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              v-if="blog.btnTxt && blog.sourceUrl.includes('http')"
+              target="_blank"
+              :href="blog.sourceUrl"
+              >{{ blog.btnTxt }}</a
+            >
+            <a
+              class="
+                capitalize
+                inline-block
+                bg-white
+                text-lg
+                learn-button
+                hover:bg-gray-400
+                px-12
+                py-1
+                mr-5
+                mb-4
+                border-2
+                shadow
+                border-black
+              "
+              v-else
+              :href="blog.sourceUrl"
+              >{{ blog.btnTxt }}</a
+            >
+            </div>
             </div>
           </div>
         </div>

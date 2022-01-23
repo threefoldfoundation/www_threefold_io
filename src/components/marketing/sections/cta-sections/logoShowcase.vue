@@ -61,6 +61,7 @@
           :key="idx"
           :href="logo.url"
           class="md:w-1/4 px-8 mb-5"
+          target="_blank"
         >
           <g-image :src="img(logo.image)" />
         </a>

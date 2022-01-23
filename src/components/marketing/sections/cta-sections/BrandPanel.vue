@@ -1464,6 +1464,7 @@
                   <a
                     :href="brand.link"
                     v-if="brand.button"
+                    target="_blank"
                     class="
                       inline-block
                       bg-white
@@ -1484,6 +1485,7 @@
                   <a
                     :href="brand.link2"
                     v-if="brand.button2"
+                    target="_blank"
                     class="
                       inline-block
                       bg-white

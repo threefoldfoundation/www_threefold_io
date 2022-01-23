@@ -1,5 +1,5 @@
 ---
 id: logo4
-image: ./app_platform.png
-url: /apps
+image: ./app_platform_dark.png
+url: ''
 ---

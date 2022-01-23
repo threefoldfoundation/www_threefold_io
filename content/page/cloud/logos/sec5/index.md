@@ -1,5 +1,5 @@
 ---
 id: logo5
-image: ./docker.png
-url: /compute/#block_4
+image: ./docker_dark.png
+url: ''
 ---

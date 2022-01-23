@@ -9,9 +9,9 @@ header_image: ./cloud_header_seprated.png
 header_altImg: tfcloud
 header_excerpt: Deploy any workload with unprecedented security, scalability, and eﬃciency, on a fully comprehensive peer-to-peer digital infrastructure. Discover a cloud like no other
 header_link1_txt: STORE
-header_link1: /storage
+header_link1: https://library.threefold.me/info/manual/#/technology/threefold__qsss2_home
 header_link2_txt: BUILD
-header_link2: /compute
+header_link2: https://library.threefold.me/info/manual/#/manual__weblets_home 
 button: '' #Learn More
 link: '' #link for button
 blogs: [storage, compute, network]
