@@ -157,7 +157,7 @@
                   {{ blog.tag }}
                 </a>
               </p> -->
-              <!-- <a
+              <a
                 target="_blank"
                 v-if="path(blog).includes('http')"
                 :href="path(blog)"
@@ -179,7 +179,7 @@
                   v-html="blog.excerpt"
                   class="mt-3 text-base leading-6 text-gray-700 text-xl"
                 ></div>
-              </a> -->
+              </a>
             </div>
             <!-- <div class="mt-6 flex items-center">
               <div class="flex-shrink-0">
