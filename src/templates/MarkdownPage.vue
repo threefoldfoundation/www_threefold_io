@@ -26,7 +26,7 @@
       />
 
       <Blogs
-        v-if="$page.markdownPage.blogs"
+        v-if="$page.markdownPage.blogs && $page.markdownPage.id == 'cloud'"
         :id="$page.markdownPage.id"
         :blogs="$page.markdownPage.blogs"
       />
