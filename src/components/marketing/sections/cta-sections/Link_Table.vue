@@ -1,6 +1,6 @@
 
 <template>
-  <section>
+  <section id="table_link">
     <div
       class="
         max-w-screen-2xl

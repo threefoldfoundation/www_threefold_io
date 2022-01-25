@@ -3,7 +3,7 @@ id: developer_cta3
 title: OUR  
 subtitle : DEVELOPER RESOURCES
 button: Explore Documentation
-link: https://library.threefold.me/info/threefold/#/
+link: '#table_link'
 button2: Offer Feedback
 link2: https://github.com/threefoldfoundation/info_threefold_pub/tree/main/wiki
 ---
