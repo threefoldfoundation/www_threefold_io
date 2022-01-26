@@ -1416,7 +1416,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 max-w-3xl mx-auto lg:text-xl text-gray-800"
+        class="mt-6 mb-8 max-w-4xl mx-auto lg:text-xl text-gray-800"
       ></div>
       <g-image :src="cta.image" class="mx-auto w-full my-10" />
       <a
