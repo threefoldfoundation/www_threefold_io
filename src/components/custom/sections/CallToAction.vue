@@ -1490,10 +1490,21 @@
           ><g-image
             class="py-2 my-2 px-5 border-2 border-black"
             :src="cta.image2" /></a
-        ><a :href="cta.link2" target="_blank"
+        >
+        <a :href="cta.link2" target="_blank"
           ><g-image
             class="py-2 my-2 px-5 border-2 border-black"
             :src="cta.image3"
+        /></a>
+        <a :href="cta.link4" target="_blank"
+          ><g-image
+            class="py-2 my-2 px-5 border-2 border-black"
+            :src="cta.image4" /></a
+        >
+        <a :href="cta.link5" target="_blank"
+          ><g-image
+            class="py-2 my-2 px-5 border-2 border-black"
+            :src="cta.image5"
         /></a>
       </div>
 
