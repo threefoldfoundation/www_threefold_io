@@ -430,7 +430,7 @@
         <h2
           class="
             h2
-            text-5xl
+            lg:text-5xl
             max-w-2xl
             mx-auto
             uppercase
@@ -443,7 +443,7 @@
           {{ title }}
         </h2>
         <div
-          class="mb-8 text-xl max-w-2xl mx-auto leading-relaxed"
+          class="mb-8 text-xl px-2 max-w-2xl mx-auto leading-relaxed"
           v-html="excerpt"
         ></div>
         <div class="quicklinks">
