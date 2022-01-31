@@ -94,7 +94,7 @@
               </a>
             </li>
             <li>
-              <a href="/tft/#gettft">
+              <a href="https://gettft.com/gettft/" target="_blank">
                 <g-image
                   :src="require(`!!assets-loader!@images/gettft_white.png`)"
                   class="mr-5 logo2"
@@ -340,7 +340,7 @@
             </li>
           </ul>
           <div class="rounded-full border-2 border-gray-400">
-            <a href="/tft/#gettft">
+            <a href="https://gettft.com/gettft/" target="_blank">
               <g-image
                 :src="require(`!!assets-loader!@images/gettft_white.png`)"
                 class="mr-5"

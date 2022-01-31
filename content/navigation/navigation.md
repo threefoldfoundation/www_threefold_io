@@ -65,7 +65,7 @@ navLinks:
     expandable: true
     submenu:
       - title: Explorer
-        path: https://explorer.threefold.io/
+        path: https://explorer.threefold.io/all
         external: true
       - title: Library
         path: https://library.threefold.me/info/threefold#/

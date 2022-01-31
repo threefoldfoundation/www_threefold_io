@@ -19,7 +19,7 @@ items:
     - name: ThreeFold Cloud
       link: https://library.threefold.me/info/manual/#/manual__manual3_home_new
     - name: Grid Explorer
-      link: https://explorer.threefold.io/      
+      link: https://explorer.threefold.io/all    
     # - name: ThreeFold Marketplace 2.0
     #   link: https://marketplace.threefold.io/
     - name: Alliance
