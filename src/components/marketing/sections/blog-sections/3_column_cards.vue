@@ -58,7 +58,7 @@
                 class="
                   mt-3
                   text-base text-xl
-                  
+                  lg:h-40
                   leading-normal
                   text-gray-800
                 "

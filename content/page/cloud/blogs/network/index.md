@@ -7,5 +7,4 @@ sourceUrl : https://library.threefold.me/info/manual/#/cloud/threefold__planetar
 ---
 
 Private overlay networks and global end-to-end encryption minimize attack surface.
-<br/>
 Handle inbound trafﬁc with uniquely secure web gateways.
