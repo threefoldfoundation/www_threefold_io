@@ -11,6 +11,11 @@ navLinks:
     external: false
     expandable: false
 
+  - name: grid
+    link: /grid
+    external: false
+    expandable: false
+
   - name: Cloud
     link: /cloud
     external: false
@@ -26,10 +31,10 @@ navLinks:
     external: false
     expandable: false
 
-  - name: Tech
-    link: /tech
-    external : false
-    expandble : false
+  # - name: Tech
+  #   link: /tech
+  #   external : false
+  #   expandble : false
 
   - name: ECOSYSTEM 
     link: "" # /dropdown

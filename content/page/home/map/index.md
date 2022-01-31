@@ -3,12 +3,12 @@ id: map
 title: THE THREEFOLD GRID
 subtitle: NOW OPERATIONAL
 button: Explore ThreeFold Grid Capacity
-link: https://explorer.threefold.io
+link: https://explorer.threefold.io/all 
 image: ./map.png
 btn1: Become a Farmer
 link1: https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro
 btn2: Explore Live Capacity
-link2: https://explorer.threefold.io/
+link2: https://explorer.threefold.io/all
 btn3: Behind the New Internet
 link3: https://library.threefold.me/info/threefold#/tfgrid/grid/threefold__grid_home
 ---

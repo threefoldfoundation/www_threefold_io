@@ -3,7 +3,7 @@ id: grid_cta
 title: Introducing Zero-OS 
 image: ./zero_os.png
 button: Learn More
-link: /tech
+link: https://library.threefold.me/info/threefold#/technology/threefold__technology
 button2: Expand The Grid
 link2: /farm
 ---
