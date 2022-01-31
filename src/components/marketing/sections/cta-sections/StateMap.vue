@@ -213,10 +213,10 @@ export default {
   async mounted() {
     try {
       const getFarms = await axios.get(
-        "https://explorer.threefold.io/api/farms?network=all"
+        "https://explorer.threefold.io/api/farms?grid=grid2&network=all"
       );
       const results = await axios.get(
-        "https://explorer.threefold.io/api/stats"
+        "https://explorer.threefold.io/api/stats?grid=grid2&network=all"
       );
       let farms = getFarms.data.length;
       let hru = (results.data.hru / 1000).toFixed();
