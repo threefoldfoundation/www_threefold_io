@@ -86,32 +86,28 @@
           {{ stats[2] }}
           <span class="block text-2xl uppercase">cores</span>
         </div>
-       
       </div>
-      
     </div>
-     <div class="my-4 mx-auto text-center">
-          <a
-            :href="section.link"
-            target="_blank"
-            class="
-            
-            
-              inline-block
-              bg-white
-              lg:text-lg
-              learn-button
-              hover:bg-gray-400
-              px-12
-              py-1
-              mr-5
-              border-2
-              shadow
-              border-black
-            "
-            >{{ section.button }}</a
-          >
-        </div>
+    <div class="my-4 mx-auto text-center">
+      <a
+        :href="section.link"
+        target="_blank"
+        class="
+          inline-block
+          bg-white
+          lg:text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          border-2
+          shadow
+          border-black
+        "
+        >{{ section.button }}</a
+      >
+    </div>
   </section>
 </template>
 
@@ -138,7 +134,7 @@ export default {
       //   "https://explorer.threefold.io/api/farms?network=all"
       // );
       const results = await axios.get(
-        "https://explorer.threefold.io/api/stats?grid=grid2&network=all"
+        "https://explorer.threefold.io/api/stats"
       );
       // let farms = getFarms.data.length;
       let nodes = results.data.onlinenodes;
