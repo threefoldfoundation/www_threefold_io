@@ -55,15 +55,15 @@
         </h2>
         <p class="text-gray-400 leading-relaxed"></p>
       </div>
-      <div class="flex flex-wrap -mx-8">
+      <div class="flex flex-wrap lg:max-w-6xl mx-auto">
         <a
           v-for="(logo, idx) in logos"
           :key="idx"
           :href="logo.url"
-          class="md:w-1/4 px-8 mb-5"
+          class="lg:w-1/3 px-4 mb-5"
           target="_blank"
         >
-          <g-image :src="img(logo.image)" />
+          <g-image class="lg:w-3/4 mx-auto" :src="img(logo.image)" />
         </a>
       </div>
     </div>

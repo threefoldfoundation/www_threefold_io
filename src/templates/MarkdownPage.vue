@@ -189,7 +189,7 @@
         :features="$page.markdownPage.network"
       />
     </div>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
+    <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden"> -->
       <LogoShowcase
         v-if="
           $page.markdownPage.logos.length > 0 &&
@@ -198,7 +198,7 @@
         :id="$page.markdownPage.id"
         :logos="$page.markdownPage.logos"
       />
-    </div>
+    <!-- </div> -->
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <BrandPanel
         :id="$page.markdownPage.id"
@@ -272,7 +272,7 @@
         :textOnly="true"
       />
 
-      <BrandPanel
+      <!-- <BrandPanel
         class="my-20"
         :brand="$page.markdownPage.brandPanel2"
         :id="$page.markdownPage.id"
@@ -280,7 +280,7 @@
           $page.markdownPage.brandPanel2 && $page.markdownPage.id == 'cloud'
         "
         :lastBrand="true"
-      />
+      /> -->
     </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <ConversationSec
