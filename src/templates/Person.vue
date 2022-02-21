@@ -26,9 +26,18 @@
               :href="$page.person.linkedin"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-gray-400 hover:text-black"
+              class="text-gray-400 hover:text-black mr-2"
             >
               <font-awesome :icon="['fab', 'linkedin']" />
+            </a>
+              <a
+              v-if="$page.person.github"
+              :href="$page.person.github"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-400 hover:text-black"
+            >
+              <font-awesome :icon="['fab', 'github']" />
             </a>
           </h1>
 
@@ -132,6 +141,7 @@
         bio
         excerpt
         linkedin
+        github
         websites
         countries
         cities
