@@ -30,7 +30,7 @@
             >
               <font-awesome :icon="['fab', 'linkedin']" />
             </a>
-              <a
+            <a
               v-if="$page.person.github"
               :href="$page.person.github"
               target="_blank"
@@ -41,9 +41,11 @@
             </a>
           </h1>
 
-          <p class="text-gray-700 text-xl" v-if="$page.person.bio">
-            {{ $page.person.bio }}
-          </p>
+          <div
+            class="text-gray-700 text-xl"
+            v-if="$page.person.bio"
+            v-html="$page.person.bio"
+          ></div>
           <div class="author-social"></div>
           <section>
             <div class="avatars">
