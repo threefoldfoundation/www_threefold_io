@@ -77,7 +77,6 @@ You will be working primarily on zero-os, a peer-to-peer virtual system administ
 
 ## What we offer
 
-- A desk in our Belgian office
 - A competitive wage
 - Flexible hours
 - Great team spirit

@@ -87,7 +87,6 @@ What you will be overlooking:
 
 ## What we offer
 
-- A desk in our Belgian office
 - A competitive wage
 - Flexible hours
 - Great team spirit
