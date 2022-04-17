@@ -41,6 +41,8 @@
   {% endif %}
   <meta property="og:image" content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }} {% endif %}" />
+  <meta property="twitter:image" content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
+  <meta property="twitter:description" content="{% if page.description %}{{ page.description }} {% endif %}" />
   {% endblock title %}
 
   
