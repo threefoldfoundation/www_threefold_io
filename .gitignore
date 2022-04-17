@@ -33,4 +33,4 @@ dist
 build*
 run*
 install*
-
+public
