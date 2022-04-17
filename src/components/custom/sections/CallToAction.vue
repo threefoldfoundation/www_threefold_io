@@ -547,7 +547,7 @@
           :href="cta.faqlink"
           >{{ cta.faqbutton }}</a
         >
-        <a
+        <!-- <a
           class="
             inline-block
             bg-gray-200
@@ -561,7 +561,7 @@
           target="_blank"
           :href="cta.faqlink2"
           >{{ cta.faqbutton2 }}</a
-        >
+        > -->
         <a
           class="
             inline-block
@@ -620,7 +620,7 @@
             :href="cta.faqlink"
             >{{ cta.faqbutton }}</a
           >
-          <a
+          <!-- <a
             class="
               inline-block
               bg-gray-300
@@ -633,7 +633,7 @@
             "
             :href="cta.faqlink2"
             >{{ cta.faqbutton2 }}</a
-          >
+          > -->
           <a
             class="
               inline-block
