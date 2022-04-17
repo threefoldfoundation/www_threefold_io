@@ -39,7 +39,7 @@
   <title>{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}</title>
   <meta property="og:title" content="{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}" />
   {% endif %}
-  <meta property="og:image" content="{% if page.extra.imgPath %}{{ page.extra.imgPath }} {% endif %}" />
+  <meta property="og:image" content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }} {% endif %}" />
   {% endblock title %}
 
