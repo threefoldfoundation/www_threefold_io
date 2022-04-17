@@ -225,7 +225,3 @@ Get In Touch With ThreeFold
 
 
 {% end %}
-
-- [Get TFT]("https://gettft.com/gettft/")
-
-
