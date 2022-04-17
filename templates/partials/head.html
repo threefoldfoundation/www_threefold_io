@@ -13,32 +13,34 @@
   <meta property="og:site_name" content="{{ config.base_url }}" />
   {%if section.title%}
   <title>{{ section.title }}</title>
-  <meta name="og:title" content="{{ section.title }}" />
+  <meta property="og:title" content="{{ section.title }}" />
   {%endif%}
   {%if page.title%}
   <title>{{ page.title }}</title>
-  <meta name="og:title" content="{{ page.title }}" />
+  <meta property="og:title" content="{{ page.title }}" />
   {%endif%}
   {%if section.extra.imgPath %}
   <meta name="image" content="{{ section.extra.imgPath }}" />
-  <meta name="og:image" content="{{ section.extra.imgPath }}" />
+  <meta property="og:image" content="{{ section.extra.imgPath }}" />
   {%endif%}
   {%if page.extra.imgPath%}
   <meta name="image" content="{{ page.extra.imgPath }}" />
-  <meta name="og:image" content="{{ page.extra.imgPath }}" />
+  <meta property="og:image" content="{{ page.extra.imgPath }}" />
   {%endif%}
   {%if section.description%}
   <meta name="description" content="{{ section.description }}" />
-  <meta name="og:description" content="{{ section.description }}" />
+  <meta property="og:description" content="{{ section.description }}" />
   {%endif%}
   {%if page.description%}
   <meta name="description" content="{{ page.description }}" />
-  <meta name="og:description" content="{{ page.description }}" />
+  <meta property="og:description" content="{{ page.description }}" />
   {%endif%}
   {% else %}
   <title>{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}</title>
   <meta property="og:title" content="{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}" />
   {% endif %}
+  <meta property="og:image" content="{% if page.extra.imgPath %}{{ page.extra.imgPath }} {% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }} {% endif %}" />
   {% endblock title %}
 
   
