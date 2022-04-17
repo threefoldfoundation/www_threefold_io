@@ -1,0 +1,74 @@
+{% extends "_default/base.html" %}
+{% block content %}
+
+<!-- Default page template for blog posts and basic informative markdown files -->
+<main>
+
+  <div class="container mx-auto mt-10">
+
+    <div>
+      <article id="article" class="article lg:w-4/6 mx-auto">
+        <h1 class="lg:text-5xl font-medium leading-none mt-0  text-gray-700">
+          {{ page.title }}
+        </h1>
+        <h4 class="text-2xl text-gray-600 leading-8">
+          {{ page.description }}
+        </h4>
+        <section class="post-author-list mb-3 mx-0">
+          <div class="flex items-center">
+            <div class="flex justify-between items-center">
+              <ul class="list-none flex author-list m-0">
+                <li class="author-list-item">
+                  <img src="{{page.extra.authorImg}}" alt="{{page.extra.author}}" class="
+                        h-8
+                        w-8
+                        sm:h-10
+                        sm:w-10
+                        rounded-full
+                        bg-gray-200
+                        border-2 border-white
+                      " />
+                </li>
+              </ul>
+            </div>
+
+            <div class="pl-3 flex flex-col text-xs leading-none uppercase">
+              <p class="text-gray-700">
+                <time datetime="{{ page.date }}"> {{ page.date | date(format="%B %e, %Y", timezone="America/Chicago") }}</time>
+              </p>
+            </div>
+
+          </div>
+          <div class="my-2 sharethis-inline-share-buttons"></div>
+        </section>
+        <img class="mb-8 mx-auto" src={{"/" ~ page.extra.imgPath}} alt="">
+        <div id="article">{{ page.content | safe }}</div>
+
+
+        <section class="post-tags container relative py-10">
+          {% for tag in page.taxonomies.tags %}
+          {% set fullpath = "/tags/" ~ tag %}
+          <button class="
+          text-xs
+          bg-transparent
+          hover:text-blue-700
+          py-2
+          px-4
+          mr-2
+          border
+          hover:border-blue-500
+          border-gray-600
+          text-gray-700
+          rounded-full
+        "><a href="{{fullpath}}">{{ tag }}</a></button>
+
+          {% endfor %}
+        </section>
+      </article>
+    </div>
+
+
+  </div>
+</main>
+
+{% endblock content %}

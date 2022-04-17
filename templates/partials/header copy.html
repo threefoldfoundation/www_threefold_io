@@ -1,0 +1,230 @@
+<!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+--><!-- This example requires Tailwind CSS v1.4.0+ -->
+
+<script type="text/javascript">
+    
+    var displayedMenu = "";
+    var hamburgerShown = false;
+    let width = screen.width;
+    var isMobile = width < 1024;
+
+    function toggleMenu(button) {
+        if (displayedMenu === button.id.split("-")[0]) { 
+            button.className = button.className.replace("text-blue-500", " text-gray-900");
+            hideMenu(button.id.split("-")[0]);
+            displayedMenu = "";
+        }
+        else { 
+            showMenu(button.id.split("-")[0]);
+            button.className = button.className.replace("text-gray-900", " text-blue-500");
+            displayedMenu = button.id.split("-")[0]
+        }
+    }
+
+    function handleClick(button) {
+        if (button.id === "hamburger-btn" || button.id === "close-hamburger-btn") { toggleHamburger() }
+        if (button.id.indexOf("menu") !== -1 ) { toggleMenu(button) }
+    }
+
+    function toggleHamburger() {
+        console.log("toggling hamburger", hamburgerShown)
+        if (hamburgerShown) { 
+            hideHamburger();
+            hamburgerShown = false;
+        }
+        else { 
+            showHamburger();
+            hamburgerShown = true;
+        }
+    }
+
+    function showMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuBtnId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace(" hidden" , "");
+        setTimeout(function() { menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0"); }, 10);
+    }
+
+    function hideMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace("duration-150 ease-out opacity-1 -translate-y-0", "duration-200 ease-in opacity-0 -translate-y-1");
+        setTimeout(function() { menuElement.className = menuElement.className + " hidden" }, 300);
+    }
+
+    function showHamburger() {
+        document.getElementById('header-container').className = "overflow-hidden";
+        document.getElementById('hamburger').className = "fixed mt-12 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
+        document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
+    }
+
+    function hideHamburger() {
+        document.getElementById('header-container').className = "";
+        document.getElementById('hamburger').className = "hidden absolute z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden";
+        document.getElementById('hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
+        document.getElementById('close-hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
+        if (displayedMenu !== "") { hideMenu(displayedMenu); }
+    }
+
+    window.onload = function(){
+        let elements = document.getElementsByTagName("button");
+        let buttons = [...elements]
+        buttons.forEach((button) => {
+            button.addEventListener( 'click', function() { handleClick(button) });
+        })
+        document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
+    }
+
+    function showMobileNav() {
+        document.getElementById('learn').className = "absolute inset-x-0 transform shadow-lg backdrop-blur transition ease-out duration-150 opacity-1 -translate-y-0";
+    }
+
+</script>
+
+{%- set section = get_section(path="header/_index.md") %}
+{% set header_items = section.content | safe | split(pat="<li>") %}
+
+<header id="header-container">
+    <div class="z-10 bg-white fixed w-screen">
+        <div class="relative z-50 shadow">
+        <div class="mx-auto flex z-50 shadow justify-between items-center px-6 py-5 sm:px-8 md:px-12 sm:py-6 lg:px-20 lg:justify-start lg:space-x-20">
+            <div>
+                <a href="/" class="flex">
+                    <img class="w-20 h-auto sm:w-32" src="{{section.extra.logoPath}}" alt="Ourworld Logo" />
+                </a>
+            </div>
+            <div class="-mr-2 -my-2 lg:hidden">
+                <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                    <!-- Heroicon name: menu -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            <button id="close-hamburger-btn" type="button" class="hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                <!-- Heroicon name: x -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-between lg:space-x-12">
+            <nav class="flex space-x-10">
+
+{% for header_item in header_items %}
+{% if not loop.first %}
+    {% set header_arr = header_item | split(pat="</li>") %}
+    {% set header_label = header_arr[0] %}
+    {% if '<a' in header_label %}
+        {% set link_label = header_label | striptags %}
+        {% set link_path = header_label | split(pat="%22") | safe%}
+        <a href="{{link_path[1]}}" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            {{link_label}}
+        </a>
+    {% else %}
+        <div class="relative">
+            {% set button_id = header_label ~ "-menu-btn" | slugify %}
+        <button type="button" id="{{button_id}}" class="font-medium text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
+            <span>{{ header_label }}</span>
+            
+            <!--
+            Heroicon name: chevron-down
+
+            Item active: "text-gray-600", Item inactive: "text-gray-400"
+            -->
+        </button>
+        </div>
+
+    {% endif %}  
+{% endif %}
+{% endfor %}
+</nav>
+
+
+            </div>
+        </div>
+        </div>
+{% for header_item in header_items %}
+{% if not loop.first %}
+    {% set header_arr = header_item | split(pat="</li>") %}
+    {% set header_label = header_arr[0] %}
+    {% set header_menu = header_arr[1] %}
+    {% set menu_id = header_label ~ "-menu" | slugify %}
+
+<nav>
+    <div id="{{menu_id}}" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:px-8 sm:py-6 lg:px-12 lg:py-8 xl:py-12">
+            {{header_menu | safe }}
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+{% endif %}
+{% endfor %}
+
+    
+        <!--
+        Mobile menu, show/hide based on mobile menu state.
+    
+        Entering: "duration-200 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+        Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+    <div id="hamburger" class="hidden fixed mt-12 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
+        <div>
+            <div class="shadow-xs bg-white divide-y-2 divide-gray-50">
+                <div class="pt-5 pb-6 px-8 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+
+                    <nav class="flex flex-col justify-around pb-12">
+                    {% for header_item in header_items %}
+
+                        {% if not loop.first %}
+                            {% set header_arr = header_item | split(pat="</li>") %}
+                            {% set header_label = header_arr[0] %}
+                            {% if '<a' in header_label %}
+                                {% set link_label = header_label | striptags %}
+                                {% set link_path = header_label | split(pat="%22") | safe%}
+                                <a href="{{link_path[1]}}" class="text-3xl leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 my-8 transition ease-in-out duration-150 mt-0">
+                                    {{link_label}}
+                                </a>
+                            {% else %}
+                                {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
+                                    <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+                                    <button type="button" id="{{button_id}}" class="flex flex-col items-start text-left text-gray-500 group inline-flex space-x-2 text-3xl my-8 leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                        <span>{{ header_label }}</span>
+                                    <!--
+                                    Heroicon name: chevron-down
+                    
+                                    Item active: "text-gray-600", Item inactive: "text-gray-400"
+                                    -->
+                                    {% set menu_id = header_label ~ "-mobile-menu" | slugify %}
+                                    <div id="{{menu_id}}" class="z-50 leading-3 mt-6 pl-12 inset-x-0 text-sm transform duration-200 ease-in opacity-0 -translate-y-1 hidden">
+                                        {{ header_arr[1] | safe }}
+                                    </div>
+                                    </button>
+                    
+                            {% endif %}
+                            {% if header_arr[1] %}  
+
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    </nav>                    
+                </div>
+            
+        </div>
+        
+        </div>
+    </div>
+
+
+</header>

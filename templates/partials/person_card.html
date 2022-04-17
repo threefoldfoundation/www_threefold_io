@@ -1,0 +1,23 @@
+<div class="flex flex-col px-0 sm:px-4 pb-2">
+    <a href="{{post.permalink}}" class="border-0 text-gray-700 hover:!text-gray-700 font-normal text-left">
+        <img src="{{post.extra.imgPath}}" alt="" />
+        <div>
+            <h2 class="text-2xl">{{post.title}}</h2>
+            <div class="text-md text-gray-700 text-left line-clamp-3 text-ellipsis">
+                {% if post.description %}
+                    {{post.description}}
+                {% else %}
+                    {{post.content | safe}}
+                {% endif %}
+            </div>
+            <div class="my-2 flex flex-row items-start flex-wrap">
+            {% for tag in post.taxonomies.memberships %}
+                <a href="{{'/memberships/' ~ tag}}" class="border-1 text-xs font-light bg-transparent hover:text-blue-700 py-1 px-2 mr-2 my-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full ">
+                    {{tag}}
+                </a>
+            {% endfor %}
+            </div>
+        </div>
+    </a>
+</div>
+

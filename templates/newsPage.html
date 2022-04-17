@@ -1,0 +1,49 @@
+{% extends "_default/base.html" %}
+{% block content %}
+
+<!-- Default page template for blog posts and basic informative markdown files -->
+<main>
+
+  <div class="container mx-auto mt-10">
+    
+    <div>
+      <article id="article" class="article lg:w-4/6 mx-auto">
+        <h1 class="lg:text-5xl font-medium leading-none mt-0  text-gray-700">
+          {{ page.title }}
+        </h1>
+        <h4 class="text-2xl pt-4 pb-10 text-gray-600 leading-8">
+          {{ page.description }}
+        </h4>
+        <div class="my-5 sharethis-inline-share-buttons"></div>
+
+        <img class="mb-8 mx-auto" src={{"/" ~ page.extra.imgPath}} alt="">
+     
+        
+        {{ page.content | safe }}
+        <section class="post-tags container relative py-10">
+          {% for tag in page.taxonomies.tags %}
+          {% set fullpath = "/tags/" ~ tag %}
+          <button class="
+          text-xs
+          bg-transparent
+          hover:text-blue-700
+          py-2
+          px-4
+          mr-2
+          border
+          hover:border-blue-500
+          border-gray-600
+          text-gray-700
+          rounded-full
+        "><a href="{{fullpath}}">{{ tag }}</a></button>
+
+          {% endfor %}
+        </section>
+      </article>
+    </div>
+
+
+  </div>
+</main>
+
+{% endblock content %}
