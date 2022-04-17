@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
   logoPath: "/images/tft_log.svg"
-  imgPath: ""
+  button_Path: "/images/gettft_white.png"
 ---
 
 <!-- - Learn
