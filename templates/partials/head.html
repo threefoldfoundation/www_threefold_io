@@ -36,29 +36,63 @@
   <meta property="og:description" content="{{ page.description }}" />
   {%endif%}
   {% else %}
-  <title>{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}</title>
-  <meta property="og:title" content="{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}" />
-  <meta property="twitter:title" content="{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}" />
+  <title>{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif
+    %}{{ config.title }}</title>
+  <meta property="og:title"
+    content="{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}" />
+  <meta property="twitter:title"
+    content="{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}" />
   {% endif %}
-  <meta property="og:image" content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
+  <meta property="og:image"
+    content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }} {% endif %}" />
-  <meta property="twitter:image" content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
+  <meta property="twitter:image"
+    content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
   <meta property="twitter:description" content="{% if page.description %}{{ page.description }} {% endif %}" />
-  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:card" content="summary_large_image" />
   {% endblock title %}
 
-  
-    <!-- Crisp -->
-    <script type="text/javascript" cookie-consent="tracking">
-      window.$crisp = [];
-      window.CRISP_WEBSITE_ID = "1a5a5241-91cb-4a41-8323-5ba5ec574da0";
-      (function () {
-          d = document;
-          s = d.createElement("script");
-          s.src = "https://client.crisp.chat/l.js";
-          s.async = 1;
-          d.getElementsByTagName("head")[0].appendChild(s);
-      })();
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N7PNMFH');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-100065546-1');
+  </script>
+
+  <!-- Matomo Tag Manager -->
+  <script>
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({ 'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start' });
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = 'https://analytics.threefold.io/js/container_KIcuIdn4.js'; s.parentNode.insertBefore(g, s);
+  </script>
+  <!-- End Matomo Tag Manager -->
+
+  <!-- Crisp -->
+  <script type="text/javascript" cookie-consent="tracking">
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "1a5a5241-91cb-4a41-8323-5ba5ec574da0";
+    (function () {
+      d = document;
+      s = d.createElement("script");
+      s.src = "https://client.crisp.chat/l.js";
+      s.async = 1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
   </script>
   <!-- end of Crisp-->
 
@@ -81,21 +115,41 @@
   <!-- **** CONCLUSION, favicons **** -->
 
   <!-- CSS/SCSS -->
-  <link rel="stylesheet" href="{{ get_url(path="css/index.css", trailing_slash=false, cachebust=true) | safe }}" />  <style>@-moz-document url-prefix() {.lazy:-moz-loading {visibility:hidden;}}.ieOnly {display: none;}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {.ieOnly {display: block;}}</style>
-  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=62556aac80366d0019fc1af2&product=sop' async='async'></script>
+  <link rel="stylesheet" href="{{ get_url(path="css/index.css", trailing_slash=false, cachebust=true) | safe }}" />
+  <style>
+    @-moz-document url-prefix() {
+      .lazy:-moz-loading {
+        visibility: hidden;
+      }
+    }
 
-    <!-- MailerLite Universal -->
-    <script>
-      (function (m, a, i, l, e, r) {
-          m['MailerLiteObject'] = e; function f() {
-              var c = { a: arguments, q: [] }; var r = this.push(c); return "number" != typeof r ? r : f.bind(c.q);
-          }
-          f.q = f.q || []; m[e] = m[e] || f.bind(f.q); m[e].q = m[e].q || f.q; r = a.createElement(i);
-          var _ = a.getElementsByTagName(i)[0]; r.async = 1; r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
-          _.parentNode.insertBefore(r, _);
-      })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+    .ieOnly {
+      display: none;
+    }
 
-      var ml_account = ml('accounts', '1778010', 'x2d3d9f8n1', 'load');
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+      .ieOnly {
+        display: block;
+      }
+    }
+  </style>
+  <script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=62556aac80366d0019fc1af2&product=sop'
+    async='async'></script>
+
+  <!-- MailerLite Universal -->
+  <script>
+    (function (m, a, i, l, e, r) {
+      m['MailerLiteObject'] = e; function f() {
+        var c = { a: arguments, q: [] }; var r = this.push(c); return "number" != typeof r ? r : f.bind(c.q);
+      }
+      f.q = f.q || []; m[e] = m[e] || f.bind(f.q); m[e].q = m[e].q || f.q; r = a.createElement(i);
+      var _ = a.getElementsByTagName(i)[0]; r.async = 1; r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+      _.parentNode.insertBefore(r, _);
+    })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+    var ml_account = ml('accounts', '1778010', 'x2d3d9f8n1', 'load');
   </script>
   <!-- End MailerLite Universal -->
 </head>
