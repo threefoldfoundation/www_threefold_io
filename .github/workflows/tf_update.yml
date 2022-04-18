@@ -17,6 +17,6 @@ jobs:
         port: 22
         script: |
           cd /opt/www_threefold_io/
-          git pull
           git log -1
-          git status
+          git pull
+          npm run build
