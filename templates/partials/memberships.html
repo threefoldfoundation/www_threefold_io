@@ -31,6 +31,51 @@
                     {% include "partials/person_card.html" %} 
                 {%- endfor %}
             </div>
+            <hr class="mt-6" />
+            <p class="text-center text-sm mt-2 mb-16">
+              {% if paginator.previous %}
+              <a
+                class="border-transparent"
+                aria-label="First page"
+                href="{{ paginator.first }}"
+                >{% include "partials/icons/svgPrevPageIcon.html" %}{% include
+                "partials/icons/svgPrevPageIcon.html" %}</a
+              >
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a
+                class="border-transparent"
+                aria-label="Previous page"
+                href="{{ paginator.previous }}"
+                >{% include "partials/icons/svgPrevPageIcon.html" %}</a
+              >
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% else %} {%
+              include "partials/icons/svgFirstPageIcon.html" %}{% include
+              "partials/icons/svgFirstPageIcon.html" %}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% include
+              "partials/icons/svgFirstPageIcon.html" %}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% endif %} {% if
+              paginator.next %}
+              <a
+                class="border-transparent"
+                aria-label="Next page"
+                href="{{ paginator.next }}"
+                >{% include "partials/icons/svgNextPageIcon.html" %}</a
+              >
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a
+                class="border-transparent"
+                aria-label="Last page"
+                href="{{ paginator.last }}"
+                >{% include "partials/icons/svgNextPageIcon.html" %}{% include
+                "partials/icons/svgNextPageIcon.html" %}</a
+              >
+              {% else %} {% include "partials/icons/svgLastPageIcon.html" %}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% include
+              "partials/icons/svgLastPageIcon.html" %}{% include
+              "partials/icons/svgLastPageIcon.html" %} {% endif %}
+            </p>
         </div>
     </div>
 
