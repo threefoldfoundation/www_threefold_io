@@ -12,7 +12,7 @@ extra:
     rank: 2
     imgPath: images/hpe.png
     image_caption: hpe
-    partner_logo: /images/logo.png
+    partner_logo: /images/hpeLogo.png
     members: []
     websites: https://www.hpe.com/us/en/about.html
     tags: [infrastructure, technology]
