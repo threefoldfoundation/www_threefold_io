@@ -1,6 +1,6 @@
 ---
 title: "Partners"
-paginate_by: 5
+paginate_by: 6
 # paginate_reversed: false
 sort_by: "none"
 insert_anchor_links: "left"
