@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/cloud28plus.png
     image_caption: cloud_28
-    partner_logo: ./cloud_28Logo.png
+    partner_logo: /images/cloud_28Logo.png
     members: []
     websites: https://cloud28plus.com
     private: 0

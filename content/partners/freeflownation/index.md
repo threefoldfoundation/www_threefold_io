@@ -12,11 +12,9 @@ extra:
     rank: 5
     imgPath: images/placeholder.jpg
     image_caption: freeflownation
-    partner_logo: ./freeflownationLogo.png
-    category: []
+    partner_logo: /images/freeflownationLogo.png
     members: []
     websites: https://freeflownation.org
-    tags: []
     private: 0
     linkedin: ''
 ---
