@@ -1,0 +1,21 @@
+---
+title: "Sophie Monpeyssen"
+description: "Co-Founder & CEO - Le Ciel Foundation"
+template: "person_page.html"
+extra:
+  socialLinks: { LinkedIn: "https://www.linkedin.com/in/sophie-monpeyssen-a92747179/"}
+  organizations: ["foundation,aci"]
+  imgPath: /images/people/sophie_monpeyssen.jpeg
+taxonomies:
+  memberships:
+    [ambassadors, wisdom_council, aci_members]
+---
+
+Sophie has devoted herself to the study of healthcare philosophies and practices that harmonize mind, body and spirit, including sophrology and massage. She is a graduate of the Sorbonne holding an MA in Musicology, Psychology and Pedagogy. Inspired by her training with Spiritual Elders since 2007, Sophie coaches companies and individuals to become the best version of themselves.
+
+
+<BR>
+<div class="aspect-w-16 aspect-h-9">
+<iframe src="https://player.vimeo.com/video/414707207" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+<BR>
