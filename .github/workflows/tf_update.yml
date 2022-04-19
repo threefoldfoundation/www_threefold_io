@@ -18,5 +18,6 @@ jobs:
         script: |
           cd /opt/www_threefold_io/
           git log -1
+          git restore static/css/index.css
           git pull
           npm run build
