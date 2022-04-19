@@ -14,6 +14,7 @@ extra:
     imgPath: images/owncloud2.png
     image_caption: own cloud
     partner_logo: /images/owncloud_logo.png
+    members: [ingo_schildt]
     author: [ingo_schildt]
     websites: https://owncloud.com
     private: 0
