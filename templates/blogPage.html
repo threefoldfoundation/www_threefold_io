@@ -33,7 +33,8 @@
             </div>
 
             <div class="pl-3 flex flex-col text-xs leading-none uppercase">
-              <p class="text-gray-700">
+              <p class="text-gray-700 text-xs">{{ page.extra.author }}</p>
+              <p class="text-gray-700 text-xs">
                 <time datetime="{{ page.date }}"> {{ page.date | date(format="%B %e, %Y", timezone="America/Chicago") }}</time>
               </p>
             </div>

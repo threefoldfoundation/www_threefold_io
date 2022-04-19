@@ -25,10 +25,13 @@
                 class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"></li>
           </ul>
         </div>
-        <div class="flex text-xs leading-none uppercase">
+        <div class="flex flex-col text-xs leading-none uppercase">
+          <p class="text-gray-700 text-xs">{{ post.extra.author }}</p>
+          <p class="text-gray-700 text-xs">
           <time datetime="{{post.date}}">
             {{ post.date | date(format="%B %e, %Y", timezone="America/Chicago") }}
           </time>
+        </p>
         </div>
       </div>
     </div>

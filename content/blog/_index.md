@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-paginate_by: 5
+paginate_by: 9
 # paginate_reversed: false
 sort_by: "date"
 insert_anchor_links: "left"
