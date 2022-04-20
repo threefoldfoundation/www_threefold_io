@@ -20,7 +20,7 @@ insert_anchor_links: "left"
 The People’s Internet is powered by an entirely new incentive model made possible by the ThreeFold Blockchain.
 
 
-<button>[Get a 3Node](https://shop.threefold.tech/)</button>
+<button>[Get a 3Node](https://marketplace.3node.global/)</button>
 
 {% end %}
 
@@ -104,7 +104,7 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 The Titan was designed to fit in any home or office. It's compact, optimized for performance, and comes plug-and-farm. Just connect the Titan to electricity and network to start earning. Yes, it's that simple!
 
 
-<button>[Get Titan](https://shop.threefold.tech/)</button>
+<button>[Get Titan](https://marketplace.3node.global/)</button>
 
 |||
 
