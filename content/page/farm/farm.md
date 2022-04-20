@@ -8,7 +8,7 @@ header_title: BE THE
 header_title2: internet
 header_image: ./farm_header.jpg
 button: Get a 3Node
-link: https://shop.threefold.tech/
+link: https://marketplace.3node.global/
 header_altImg: threefold
 header_excerpt: The People’s Internet is powered by an entirely new incentive model made possible by the ThreeFold Blockchain.
 productsMain: product_farm
