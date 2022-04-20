@@ -5,7 +5,7 @@ description: Provide an alternative income stream and create digital services fo
 template: partnerPage.html
 taxonomies:
   partners-category: [aci,foundation]
-  tags: [impact, infrastrucutre, community]
+  tags: [impact, infrastructure, community]
 extra:
   countries:
     [
