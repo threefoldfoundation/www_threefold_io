@@ -12,7 +12,7 @@
             </div>
             <div class="my-2 flex flex-row items-start flex-wrap">
             {% for tag in post.taxonomies.memberships %}
-                <a href="{{'/memberships/' ~ tag}}" class="border-1 text-xs font-light bg-transparent hover:text-blue-700 py-1 px-2 mr-2 my-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full ">
+                <a href="{{'/memberships/' ~ tag | replace(from='_', to='-' )}}" class="border-1 text-xs font-light bg-transparent hover:text-blue-700 py-1 px-2 mr-2 my-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full ">
                     {{tag}}
                 </a>
             {% endfor %}
