@@ -48,7 +48,7 @@
 
         <section class="post-tags container relative py-10">
           {% for tag in page.taxonomies.tags %}
-          {% set fullpath = "/tags/" ~ tag %}
+          {% set fullpath = "/tags/" ~ tag | replace(from='_', to='-' ) %}
           <button class="
           text-xs
           bg-transparent

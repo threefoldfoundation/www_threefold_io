@@ -29,7 +29,6 @@ yarn.lock
 package-lock.json
 dist
 .temp
-build*
 run*
 install*
 public

@@ -20,31 +20,6 @@
       </h1>
 
       <div class="avatars">
-        <section>
-          <div class="avatars">
-            <div class="flex items-center">
-              <div class="flex justify-between items-center">
-                <ul class="list-none flex author-list m-0">
-                  {% for member in page.extra.members %}
-                  {% set fullpath = "/people/" ~ member %}
-                  {% set imgpath = "/images/" ~ member ~ "/" ~ member ~ ".jpeg" %}
-                  <li class="author-list-item">
-                    <a href="{{fullpath}}">
-                      <img src="{{imgpath}}" alt="{{member}}" class="
-                          w-8
-                          h-8
-                          rounded-full
-                          bg-gray-200
-                          border-2 border-white
-                        " />
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
         <section class="container mx-auto py-2">
           <ul class="list-none flex author-list my-2 px-0">
             {% if page.extra.websites %}
@@ -63,21 +38,10 @@
             {% endif %}
           </ul>
           {% for tag in page.taxonomies.tags %}
-          {% set fullpath = "/tags/" ~ tag %}
-          <a href="{{ fullpath }}" class="
-                text-xs
-                bg-transparent
-                hover:text-blue-700
-                py-2
-                px-4
-                mr-2
-                border
-                hover:border-blue-500
-                border-gray-600
-                text-gray-700
-                rounded-full
-              ">{{ tag }}</a>
-          {% endfor %}
+          <a href="{{'tags/' ~ tag}}" class="border-1 font-light text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full ">
+              {{tag}}
+          </a>
+      {% endfor %}
         </section>
       </div>
     </div>

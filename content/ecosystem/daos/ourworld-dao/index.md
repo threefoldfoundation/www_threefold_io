@@ -6,7 +6,7 @@ updated: 2019-04-11T20:33:00-05:00 # Comment-out this line with a # if content i
 template: "positionPage.html"
 taxonomies:
   roles: ["Develop"]
-  tags: ["DAPPs"]
+  tags: []
 ---
 
 ## About the position
