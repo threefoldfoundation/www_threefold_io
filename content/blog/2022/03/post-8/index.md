@@ -13,7 +13,7 @@ extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Sacha Obeegadoo
   authorImg: /images/people/sacha_obeegadoo.jpg
-  imgPath: images/realizing_the_promise.png
+  imgPath: images/blog/realizing_the_promise.png
   
 ---
 

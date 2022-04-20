@@ -13,7 +13,7 @@ extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: HANNAH CORDES
   authorImg: /images/people/hannah_cordes.jpg
-  imgPath: images/weekly_vol_12.jpg
+  imgPath: images/blog/weekly_vol_12.jpg
   
 ---
 

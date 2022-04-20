@@ -17,7 +17,7 @@ extra:
   subtitle: The UNIQUE Post 1 subtitles
   author: HANNAH CORDES
   authorImg: /images/people/hannah_cordes.jpg
-  imgPath: images/weekly_vol_12.jpg
+  imgPath: images/blog/weekly_vol_12.jpg
   date: 2022-03-29
   isFeatured: "true"
 ---
