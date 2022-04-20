@@ -14,8 +14,8 @@ extra:
     imgPath: images/casperlabs.png
     image_caption: casperlabs
     partner_logo: /images/casperlabLogo.png
-    members: [medha_parlikar, neil_kapoor]
-    author: [medha_parlikar, neil_kapoor]
+    members: [medha-parlikar, neil-kapoor]
+    author: [medha-parlikar, neil-kapoor]
     websites: https://casperlabs.io/
     private: 0
     linkedin: https://www.linkedin.com/company/casperlabs/

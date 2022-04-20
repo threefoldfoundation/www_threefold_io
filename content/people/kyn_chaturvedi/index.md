@@ -8,7 +8,7 @@ extra:
   imgPath: /images/people/kyn_chaturvedi.png
 taxonomies:
   memberships:
-    [partners]
+    [partner]
 ---
 
 VP of Global solutions engineering, my goal is to increase blockchain usability, through scalability solutions that aim to simplify the integration of blockchain into real world applications.

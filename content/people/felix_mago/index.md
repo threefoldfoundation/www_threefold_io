@@ -8,7 +8,7 @@ extra:
   imgPath: /images/people/felix_mago.jpg
 taxonomies:
   memberships:
-    [partners]
+    [partner]
 ---
 
 Driving real-life adoption of Blockchain and cryptocurrency payments. Building DAOs and DAC for the web 4.0.

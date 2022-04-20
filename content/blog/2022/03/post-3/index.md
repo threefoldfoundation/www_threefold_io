@@ -76,7 +76,7 @@ In a world aching for more decentralization and less dependence on governments a
 
 <br/>
 
-The escalation of this cyber conflict can lead to unforeseen consequences and casualties. That is why it is especially important that our industry works together to protect customers, partners, employees and citizens. ThreeFold is on a mission to realize the promise of a fully-comprehensive, open-source and peer-to-peer internet infrastructure. ThreeFold is a platform for the creators of tomorrow to build that blueprint of responsibility and ensure that the outcome of future systems is neutrality.
+The escalation of this cyber conflict can lead to unforeseen consequences and casualties. That is why it is especially important that our industry works together to protect customers, partner, employees and citizens. ThreeFold is on a mission to realize the promise of a fully-comprehensive, open-source and peer-to-peer internet infrastructure. ThreeFold is a platform for the creators of tomorrow to build that blueprint of responsibility and ensure that the outcome of future systems is neutrality.
 
 <Br/>
 

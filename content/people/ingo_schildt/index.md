@@ -8,7 +8,7 @@ extra:
   imgPath: /images/people/ingo_schildt.jpeg
 taxonomies:
   memberships:
-    [partners]
+    [partner]
 ---
 
 Ingo is Director Channel & Distribution at ownCloud where he focuses on building sustainable strategies to expand the brand and audience across digital channels, and developing partnership relationships, amongst many other things.

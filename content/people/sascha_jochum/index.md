@@ -8,7 +8,7 @@ extra:
   imgPath: /images/people/sascha_jochum.jpg
 taxonomies:
   memberships:
-    [partners]
+    [partner]
 ---
 
 Co-founder DASH Next.

@@ -8,7 +8,7 @@ extra:
   imgPath: /images/people/tom_clausen.jpeg
 taxonomies:
   memberships:
-    [partners]
+    [partner]
 ---
 
 FIDES business partner, based in Zurich. A private equity manager focused on special situations leveraging our extensive operational, entrepreneurial, restructuring and investment expertise.

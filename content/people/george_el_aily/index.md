@@ -8,7 +8,7 @@ extra:
   imgPath: /images/people/george_el_aily.jpg
 taxonomies:
   memberships:
-    [partners]
+    [partner]
 ---
 
 Helping in positioning countries as a frontiers in the telecom sector.
