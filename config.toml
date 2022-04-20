@@ -85,7 +85,7 @@ paginate_path = "/join-us"
 name = "memberships"
 feed = true
 paginate_by = 8
-paginate_path = "/people/memberships"
+paginate_path = "people/memberships"
 
 [extra]
 # Put all your custom variables here
