@@ -6,7 +6,7 @@ taxonomies:
     tags: [community,update,news]
 description: Your weekly ThreeFold digest!
 extra:
-    imgPath: images/tfweekly8.png
+    imgPath: images/newsroom/tfweekly8.png
     image_caption: TF Weekly Volume Eight
     author: Sam Taggart
     

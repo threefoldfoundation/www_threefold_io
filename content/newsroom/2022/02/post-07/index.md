@@ -6,7 +6,7 @@ taxonomies:
     tags: [community,update,news,technology,peer_to_peer]
 description: It's time to get the ThreeFold Validators verified!
 extra:
-    imgPath: images/validator_verification_process.png
+    imgPath: images/newsroom/validator_verification_process.png
     image_caption: Validator Verification Process
     author: Sam Taggart
 ---

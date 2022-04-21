@@ -6,7 +6,7 @@ taxonomies:
     tags: [community,partner,interview]
 description: An enlightening conversation between ThreeFold co-founder Weynand Kuijpers and Solidaridad Network (ThreeFold partner) Executive Director Jeroen Douglas.
 extra:
-    imgPath: images/jeroen_conversation.png
+    imgPath: images/newsroom/jeroen_conversation.png
     image_caption: A Conversation with Jeroen Douglas
     author: Sam Taggart
 ---

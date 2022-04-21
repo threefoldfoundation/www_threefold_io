@@ -6,7 +6,7 @@ taxonomies:
     tags: [grid,farming]
 description: We have received a huge influx in pre-registrations for the Titan V2 3Node. Thank you!
 extra:
-    imgPath: images/3k3nodes.png
+    imgPath: images/newsroom/3k3nodes.png
     image_caption: 3,000 3Node Pre-Registrations
     author: Sam Taggart
 ---

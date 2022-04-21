@@ -6,7 +6,7 @@ taxonomies:
     tags: [partner,technology,update,news]
 description: ThreeFold and Paradise Hills join forces to bring the world’s largest decentralized Internet Cloud powered by the ThreeFold Blockchain into Homes.
 extra:
-    imgPath: images/paradise_hills.png
+    imgPath: images/newsroom/paradise_hills.png
     image_caption: ODE and ThreeFold
     author: Sam Taggart
     isFeatured: "true"
@@ -21,7 +21,7 @@ Through this historic partnership, Paradise Hills Development and ThreeFold aim 
 
 <br/>
 
-![3Node](/images/3nodehands.jpg)
+![3Node](/images/newsroom/3nodehands.jpg)
 
 <br/>
 

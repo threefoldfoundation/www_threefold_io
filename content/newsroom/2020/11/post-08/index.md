@@ -6,7 +6,7 @@ taxonomies:
     tags: [community,technology]
 description: As mentioned as a preview in our October update, 3Bot Connect is now more accurately named ThreeFold Connect across devices.
 extra:
-    imgPath: images/tfconnectupdate.png
+    imgPath: images/newsroom/tfconnectupdate.png
     image_caption: 3bot connect renamed
     author: Sam Taggart
     
