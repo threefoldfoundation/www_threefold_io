@@ -8,7 +8,8 @@ description: We have received a huge influx in pre-registrations for the Titan V
 extra:
     imgPath: images/newsroom/3k3nodes.png
     image_caption: 3,000 3Node Pre-Registrations
-    author: Sam Taggart
+    authors: [sam_taggart]
+    authorImg: ''
 ---
 
 Over the past days we have received **more than 3,000 pre-registrations** for the Titan V2 3Node!
