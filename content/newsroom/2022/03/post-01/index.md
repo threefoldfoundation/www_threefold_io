@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/paradise_hills.png
     image_caption: ODE and ThreeFold
     author: Sam Taggart
-    isFeatured: "true"
+
     
 ---
 
