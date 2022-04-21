@@ -1,49 +1,97 @@
 {% extends "_default/base.html" %}
 {% block content %}
 
-<!-- Default page template for blog posts and basic informative markdown files -->
+<!-- Default page template for news posts and basic informative markdown files -->
 <main>
 
-  <div class="container mx-auto mt-10">
-    
-    <div>
-      <article id="article" class="article lg:w-4/6 mx-auto">
-        <h1 class="lg:text-5xl font-medium leading-none mt-0  text-gray-700">
+  <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-16 lg:w-4/6">
+
+    <div class="pt-8">
+      <section class="post-header container mx-auto px-0 mb-4 border-b">
+        <h1 class="text-5xl font-medium leading-none mt-0">
           {{ page.title }}
         </h1>
-        <h4 class="text-2xl pt-4 pb-10 text-gray-600 leading-8">
-          {{ page.description }}
-        </h4>
-        <div class="my-5 sharethis-inline-share-buttons"></div>
+        <div class="text-2xl pt-4 pb-10 text-gray-700">{{ page.description }}</div>
+      </section>
+      <section class="post-author-list mb-10 mx-0">
+        <div class="flex items-center">
+          <div class="flex justify-between items-center">
+            <ul class="list-none flex author-list my-10 mr-2 px-0">
+              {% for author in page.extra.authors %}
+              {% set fullpath = "/people/" ~ author | replace(from='_', to='-' ) %}
+              {% if page.extra.authorImg %}
+              <li class="author-list-item">
+                <a href="{{fullpath}}" tooltip="{{author}}">
+                  <img src="{{ page.extra.authorImg }}" alt="{{ author }}" class="
+                    w-8
+                    h-8
+                    rounded-full
+                    bg-gray-200
+                    border-2 border-white
+                  " />
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
 
-        <img class="mb-8 mx-auto" src={{"/" ~ page.extra.imgPath}} alt="">
-     
-        
-        {{ page.content | safe }}
-        <section class="post-tags container relative py-10">
-          {% for tag in page.taxonomies.tags %}
-          {% set fullpath = "/tags/" ~ tag %}
-          <button class="
-          text-xs
-          bg-transparent
-          hover:text-blue-700
-          py-2
-          px-4
-          mr-2
-          border
-          hover:border-blue-500
-          border-gray-600
-          text-gray-700
-          rounded-full
-        "><a href="{{fullpath}}">{{ tag }}</a></button>
-
-          {% endfor %}
-        </section>
-      </article>
+          <div class="pl-3 flex flex-col text-xs leading-none uppercase">
+            <p>
+              {% for author in page.extra.authors %}
+              {% set fullpath = "/people/" ~ author | replace(from='_', to='-' ) %}
+              <span>
+                <a href="{{fullpath}}" tooltip="{{author}}" class="hover:underline">{{ author | replace(from='_', to=' '
+                  ) }}</a>
+              </span>
+              {% endfor %}
+            </p>
+            <p class="text-gray-700">
+              <time datetime="{{page.date}}">
+                {{ page.date | date(format="%B %e, %Y", timezone="America/Chicago") }}
+              </time>
+              {# &nbsp;&middot;&nbsp; {{ page.news.timeToRead }} min read #}
+            </p>
+          </div>
+          <div class="my-2 ml-auto sharethis-inline-share-buttons"></div>
+        </div>
+      </section>
     </div>
+    <section class="post-image mx-auto w-full">
+      <img src="/{{page.extra.imgPath}}" />
+    </section>
 
+    <div class="py-12">
+      <section class="
+          post-content
+          container
+          mx-auto
+          relative
+          font-serif
+          text-gray-700
+        ">
+        <div class="post-content-text text-xl">{{ page.content | safe }}</div>
+      </section>
 
+      <section class="post-tags container mx-auto relative py-10">
+        {% for tag in page.taxonomies.tags %}
+        {% set fullpath = "/tags/" ~ tag | replace(from='_', to='-' ) %}
+        <a href="{{fullpath}}" class="
+            text-xs
+            bg-transparent
+            hover:text-blue-700
+            py-2
+            px-4
+            mr-2
+            border
+            hover:border-blue-500
+            border-gray-600
+            text-gray-700
+            rounded-full
+          ">{{ tag }}</a>
+        {% endfor %}
+      </section>
+    </div>
   </div>
 </main>
-
 {% endblock content %}
