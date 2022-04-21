@@ -8,7 +8,8 @@ description: As mentioned as a preview in our October update, 3Bot Connect is no
 extra:
     imgPath: images/newsroom/tfconnectupdate.png
     image_caption: 3bot connect renamed
-    author: Sam Taggart
+    authors: [sam_taggart]
+    authorImg: ''
     
 ---
 

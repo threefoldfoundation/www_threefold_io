@@ -8,7 +8,8 @@ description: It's time to get the ThreeFold Validators verified!
 extra:
     imgPath: images/newsroom/validator_verification_process.png
     image_caption: Validator Verification Process
-    author: Sam Taggart
+    authors: [sam_taggart]
+    authorImg: ''
 ---
 
 🚨 **The ThreeFold Validator Verification Process**

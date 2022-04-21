@@ -10,6 +10,7 @@ extra:
     imgPath: images/newsroom/2020rewindgrid24.png
     image_caption: A 2020 Rewind & Grid 2.4 News!
     authors: [sam_taggart]
+    authorImg: ''
 ---
 
 Hi all, we hope your 2021 has been off to a fabulous start!

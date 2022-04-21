@@ -8,8 +8,8 @@ description: Weekly highlights from the ThreeFold universe!
 extra:
     imgPath: images/newsroom/tfweekly14.png
     image_caption: TF Weekly Volume Fourteen
-    author: Sam Taggart
-    isFeatured: "true"
+    authors: [sam_taggart]
+    authorImg: ''
 ---
 
 

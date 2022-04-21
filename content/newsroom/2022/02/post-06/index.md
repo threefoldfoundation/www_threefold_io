@@ -8,8 +8,8 @@ description: Your weekly ThreeFold digest!
 extra:
     imgPath: images/newsroom/tfweekly8.png
     image_caption: TF Weekly Volume Eight
-    author: Sam Taggart
-    
+    authors: [sam_taggart]
+    authorImg: ''
 ---
 
 📰 **ThreeFold Weekly! February 28th Edition (Volume Eight)**

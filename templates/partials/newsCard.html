@@ -15,6 +15,33 @@
         </p>
         {% endif %}
     </a>
+    <div class="flex items-center">
+      <div class="flex justify-between items-center">
+        <ul class="list-none flex author-list my-10 mr-2 px-0">
+          {% for author in post.extra.authors %}
+          {% set fullpath = "/people/" ~ author | replace(from='_', to='-' ) %}
+
+          <li class="author-list-item">
+            <a href="{{fullpath}}" tooltip="{{author}}">
+              <img src="{{ post.extra.authorImg }}" alt="{{ author }}" class="
+                  w-8
+                  h-8
+                  rounded-full
+                  bg-gray-200
+                  border-2 border-white
+                " />
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <p class="text-gray-700 text-xs">
+        <time datetime="{{post.date}}">
+          {{ post.date | date(format="%B %e, %Y", timezone="America/Chicago") }}
+        </time>
+      </p>
+    </div>
   </div>
 </div>
 </div>
