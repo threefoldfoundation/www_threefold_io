@@ -9,6 +9,7 @@ extra:
     imgPath: images/newsroom/community_call_april_19.png
     image_caption: Community Call April 19
     authors: [sam_taggart]
+    authorImg: /images/people/sam_taggart.jpg
 ---
 
 
