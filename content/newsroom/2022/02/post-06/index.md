@@ -1,27 +1,32 @@
 ---
-title: ThreeFold Weekly! Volume Eight 
-date: 2022-02-28
+title: Validator Frequently Asked Questions 
+date: 2022-02-15
 taxonomies:
     news-category: [foundation]
-    tags: [community,update,news]
-description: Your weekly ThreeFold digest!
+    tags: [community,update,news,technology,peer_to_peer]
+description: An FAQ for all of your validator node questions.
 extra:
-    imgPath: images/newsroom/tfweekly8.png
-    image_caption: TF Weekly Volume Eight
+    imgPath: images/newsroom/validator_faqs.png
+    image_caption: Validator FAQs
     authors: [sam_taggart]
-    authorImg: ''
+    authorImg: /images/people/sam_taggart.jpg
 ---
 
-📰 **ThreeFold Weekly! February 28th Edition (Volume Eight)**
+🚨 **ThreeFold Validator Nodes Update!**
 
 <br/>
 
-Your weekly ThreeFold digest: The validator verification process is underway, farming migration continues and Titan shipping picks back up, re-sharing an enlightening conversation, updates on the $TFT and tech (product) side, and more.
+We’ve received many questions on our programs for the **L2 and L0 validators** since we opened registrations, so we compiled this [Validator FAQ](https://forum.threefold.io/t/all-you-need-to-know-about-our-validator-programs/2208?u=hannahcordes) for you. In [this post](https://forum.threefold.io/t/all-you-need-to-know-about-our-validator-programs/2208?u=hannahcordes), you will also find more information on the next steps like verifying applications and deploying the validators.
 
 <br/>
 
-https://forum.threefold.io/t/threefold-weekly-february-28th-edition-volume-eight/2315
+**[Validator FAQ & Next Steps](https://forum.threefold.io/t/all-you-need-to-know-about-our-validator-programs/2208?u=hannahcordes)**
 
 <br/>
 
-*If you missed this weekend’s product planning update, it’s a big one! Take a look [here](https://forum.threefold.io/t/threefold-product-planning-updates-march-2022/2302?u=hannahcordes).*
+*We’re looking forward to driving the decentralization of the ThreeFold Grid with all of you. If you have further questions, please let us know in the comments.*
+
+<br/>
+
+- [More about L2 Validators](https://forum.threefold.io/t/about-the-validators-signup-l2-category/1862)
+- [More about L0 Validators](https://forum.threefold.io/t/about-the-validators-signup-l0-category/1863)

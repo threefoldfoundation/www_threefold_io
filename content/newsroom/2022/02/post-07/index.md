@@ -1,31 +1,31 @@
 ---
-title: The Validator Verification Process is Underway 
-date: 2022-02-23
+title: ThreeFold Weekly! Volume Seven 
+date: 2022-02-21
 taxonomies:
     news-category: [foundation]
-    tags: [community,update,news,technology,peer_to_peer]
-description: It's time to get the ThreeFold Validators verified!
+    tags: [community,update,news]
+description: Last week in the ThreeFold universe!
 extra:
-    imgPath: images/newsroom/validator_verification_process.png
-    image_caption: Validator Verification Process
+    imgPath: images/newsroom/tfweekly7.png
+    image_caption: TF Weekly Volume Seven
     authors: [sam_taggart]
-    authorImg: ''
+    authorImg: /images/people/sam_taggart.jpg
 ---
 
-🚨 **The ThreeFold Validator Verification Process**
+👂 **Lend us your ear!**
 
 <br/>
 
-If you’ve submitted your interest for either an [L0](https://forum.threefold.io/c/dao/validators-signup-l0/84) or [L2](https://forum.threefold.io/c/dao/validators-signup-l2/83) Validator, we are now pleased to share the verification process with you.
+📰 **ThreeFold Weekly! February 21st Edition (Volume Seven)**
 
 <br/>
 
-https://forum.threefold.io/t/the-threefold-validators-verification-process/2276
+Last week in ThreeFold: a new powerful demo is live, updates around farming migration and Titan shipping, two awards for our partners at TAG, an exciting visit to Lebanon, major updates to info around the DAO, validators, executors, the three-layer approach, and more.
 
 <br/>
 
-**Limited spots remain** for both L0 and L2 Validators, **so be sure to submit your interest asap** via the links above!
+https://forum.threefold.io/t/threefold-weekly-february-21st-edition-volume-seven/2251
 
 <br/>
 
-*And if you have any questions about validators still, please refer to [the Validators section](https://library.threefold.me/info/threefold#/decentralization/validators/threefold__validators) of the Library or in particular [our FAQs](https://library.threefold.me/info/threefold#/decentralization/validators/threefold__validators_faq).**
+*You can find all earlier editions of ThreeFold Weekly [here](https://forum.threefold.io/c/ecosystem-developments/41).*
