@@ -9,6 +9,7 @@ extra:
     imgPath: images/newsroom/tfweekly14.png
     image_caption: TF Weekly Volume Twelve
     authors: [sam_taggart]
+    authorImg: /images/people/sam_taggart.jpg
     
     
 ---

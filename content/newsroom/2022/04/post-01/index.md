@@ -9,6 +9,7 @@ extra:
     imgPath: images/newsroom/threefold_coincodex.png
     image_caption: ThreeFold CoinCodex
     authors: [sam_taggart]
+    authorImg: /images/people/sam_taggart.jpg
 ---
 
 
