@@ -8,7 +8,7 @@ description: We'd like to invite the community for a call to catch up on all thi
 extra:
     imgPath: images/newsroom/tfweekly14.png
     image_caption: TF Weekly Volume Thirteen
-    author: Sam Taggart
+    authors: [sam_taggart]
 ---
 
 

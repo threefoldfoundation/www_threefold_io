@@ -8,7 +8,7 @@ description: ThreeFold co-founder Adnan Fatayerji made an appearance on the Bloc
 extra:
     imgPath: images/newsroom/threefold_blockhash_pod.png
     image_caption: ThreeFold on the BlockHash Podcast
-    author: Sam Taggart
+    authors: [sam_taggart]
     
     
 ---

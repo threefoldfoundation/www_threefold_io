@@ -8,7 +8,7 @@ description: ThreeFold was hand-picked as a top Web3 startup by StartUs Insights
 extra:
     imgPath: images/newsroom/threefold_top_web3.png
     image_caption: ThreeFold Top Web3 Startup
-    author: Sam Taggart
+    authors: [sam_taggart]
 ---
 
 

@@ -8,7 +8,7 @@ description: Recapping recent events in the ThreeFold universe.
 extra:
     imgPath: images/newsroom/tfweekly14.png
     image_caption: TF Weekly Volume Twelve
-    author: Sam Taggart
+    authors: [sam_taggart]
     
     
 ---

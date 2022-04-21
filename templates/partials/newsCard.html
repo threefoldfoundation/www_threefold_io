@@ -20,7 +20,7 @@
         <ul class="list-none flex author-list my-10 mr-2 px-0">
           {% for author in post.extra.authors %}
           {% set fullpath = "/people/" ~ author | replace(from='_', to='-' ) %}
-
+          {% if post.extra.authorImg %}
           <li class="author-list-item">
             <a href="{{fullpath}}" tooltip="{{author}}">
               <img src="{{ post.extra.authorImg }}" alt="{{ author }}" class="
@@ -32,6 +32,7 @@
                 " />
             </a>
           </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>

@@ -8,7 +8,7 @@ description: ThreeFold - Host the Cloud At Your House, via CoinCodex.
 extra:
     imgPath: images/newsroom/threefold_coincodex.png
     image_caption: ThreeFold CoinCodex
-    author: Sam Taggart
+    authors: [sam_taggart]
 ---
 
 
