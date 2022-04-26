@@ -94,7 +94,7 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 <!-- section 6 (DOCUMENTATION) -->
 
-{% row(style="center between") %}
+{% row(style="center between" id="table_link") %}
 
 ## EXPLORE THE <br> **DOCUMENTATION**
 

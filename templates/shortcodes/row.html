@@ -20,6 +20,12 @@ Parameters:
 {% endif %}
 
 {% set col_class = "flex-1 mb-8 md:mb-0 md:mx-8" %}
+{% set row_id = '' %}
+
+{% if id %}
+{% set row_id = id %}
+
+{% endif %}
 
 {% if style %}
 
@@ -78,7 +84,7 @@ Parameters:
 
 
 
-<div class="{{row_class}}" style="{{styles}}">
+<div class="{{row_class}}" style="{{styles}}" id="{{row_id}}">
     {% for column in columns%} 
 
         <!-- Hides empty columns if displayed vertically in small screen -->
