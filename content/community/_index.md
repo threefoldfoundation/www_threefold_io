@@ -26,6 +26,70 @@ We're a 100% open-source and community-driven project that builds the critical i
 <br>
 <br>
 
+<!-- section 8 (IN THE NEWS) -->
+
+
+{% row(style="center between") %}
+
+[![forbes](/images/forum.png)](https://forum.threefold.io/)
+
+|||
+
+[![cointelegraph](/images/github.png)](https://github.com/threefoldtech)
+
+|||
+
+[![yahoo_news](/images/documentation.png)](https://library.threefold.me/info/threefold#/)
+
+|||
+
+[![yahoo_news](/images/twitter.png)](https://twitter.com/threefold_io)
+
+
+{% end %}
+
+{% row(style="center between") %}
+
+[![forbes](/images/telegram_new.png)](https://t.me/threefoldnews)
+
+|||
+
+[![cointelegraph](/images/telegram_chat.png)](https://t.me/threefold)
+
+|||
+
+[![yahoo_news](/images/telegram_farmers.png)](https://t.me/threefoldfarmers)
+
+|||
+
+[![yahoo_news](/images/telegram_chattester.png)](https://t.me/threefoldtesting)
+
+
+{% end %}
+
+{% row(style="center between") %}
+
+[![forbes](/images/reddit.png)](https://www.reddit.com/r/threefold/)
+
+|||
+
+[![cointelegraph](/images/youtube.png)](https://www.youtube.com/threefoldfoundation)
+
+|||
+
+[![yahoo_news](/images/mail_list.png)](https://www.threefold.io/#subscribe)
+
+|||
+
+[![yahoo_news](/images/linkedin.png)](https://ae.linkedin.com/company/threefold-foundatiooon)
+
+
+{% end %}
+
+<br>
+
+<br>
+
 
 <!-- section 3 (INTERNET) -->
 
