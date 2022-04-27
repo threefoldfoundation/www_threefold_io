@@ -256,7 +256,7 @@
       </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
         <p class="text-base leading-6 text-gray-500 xl:text-center">
-          ThreeFold S.A. , B265333 &#xA9; 2021 ThreeFold, All rights reserved.
+          &#xA9; 2021 ThreeFold, All rights reserved.
           <a
             class="leading-6 text-gray-500 hover:text-gray-900"
             target="_blank"
