@@ -12,7 +12,18 @@
 
       <h4 class="text-sm not-italic font-light leading-6 text-gray-600">
         {{ featured.date | date(format="%B %e, %Y", timezone="America/Chicago")}} -
-        {{ featured.extra.authors }}
+        {% for author in featured.extra.authors %}
+        {% set fullpath = "/people/" ~ author | replace(from='_', to='-' ) %}
+        <a href="{{fullpath}}" tooltip="{{author}}" class="capitalize	text-gray-800"> <img
+            src="{{ featured.extra.authorImg }}" alt="{{ author | replace(from='_', to=' ' ) }}" class="
+            inline-flex 
+          w-8
+          h-8
+          rounded-full
+          bg-gray-200
+          border-2 border-white
+        " /> {{author | replace(from='_', to=' ' )}}</a>
+        {% endfor %}
       </h4>
 
     </div>

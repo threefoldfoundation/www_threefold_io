@@ -23,8 +23,8 @@
               <li class="author-list-item">
                 <a href="{{fullpath}}" tooltip="{{author}}">
                   <img src="{{ page.extra.authorImg }}" alt="{{ author }}" class="
-                    w-8
-                    h-8
+                    w-10
+                    h-10
                     rounded-full
                     bg-gray-200
                     border-2 border-white
@@ -41,7 +41,7 @@
               {% for author in page.extra.authors %}
               {% set fullpath = "/people/" ~ author | replace(from='_', to='-' ) %}
               <span>
-                <a href="{{fullpath}}" tooltip="{{author}}" class="hover:underline">{{ author | replace(from='_', to=' '
+                <a href="{{fullpath}}" tooltip="{{author}}" class="hover:underline text-gray-800">{{ author | replace(from='_', to=' '
                   ) }}</a>
               </span>
               {% endfor %}
