@@ -10,7 +10,6 @@ extra:
     image_caption: TF Weekly Volume Fourteen
     authors: [sam_taggart]
     authorImg: /images/people/sam_taggart.jpg
-    isFeatured: "true"
 ---
 
 
