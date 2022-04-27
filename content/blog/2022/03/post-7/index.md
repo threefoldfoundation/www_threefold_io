@@ -19,7 +19,7 @@ extra:
   authorImg: /images/people/hannah_cordes.jpg
   imgPath: images/blog/weekly_vol_12.jpg
   date: 2022-03-29
-  isFeatured: "true"
+  
 ---
 
 *We have a new format for ThreeFold Weekly, now on our blog. If you'd like to review any of the first eleven editions, please find them on [our forum](https://forum.threefold.io/c/ecosystem-developments/41).*
