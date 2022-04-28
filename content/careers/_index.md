@@ -73,8 +73,8 @@ Check out our available positions below. Can't find your perfect fit and don't w
 <div class="relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20">
     <a href="/community" class="section banner" >
       <div class="center">
-        <h2 class="h1">
-          <strong>Join our Team</strong>
+        <h2 class="lg:text-5xl text-3xl bold">
+          <strong>Join Our Community</strong>
         </h2>
       </div>
       <div class="back" style="background-image: url('/images//tf_people.jpg')"
