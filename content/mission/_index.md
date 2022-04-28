@@ -14,7 +14,7 @@ insert_anchor_links: "left"
 
 To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems.
 
-<button>[The collective dream](/deploy)</button>
+<button>[The collective dream](/blog/2021/07/post-2)</button>
 
 |||
 
