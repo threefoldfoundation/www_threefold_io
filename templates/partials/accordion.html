@@ -4,7 +4,7 @@
 
 {% if current_path == '/faq/' %}
 <h2 class="text-center mt-10">{{ tfFaq.title }}</h2>
-<div class="max-w-xl mx-auto px-8 space-y-2 mt-10">
+<div class="lg:max-w-5xl mx-auto px-8 space-y-2 mt-10">
     {% for page in tfFaq.pages %}
     <details class="p-4 rounded-lg">
         <summary class="font-semibold">{{ page.title }}</summary>
@@ -17,7 +17,7 @@
 
 {% elif current_path == '/farmfaq/' %}
 <h2 class="text-center mt-10">{{ farmFaq.title }}</h2>
-<div class="max-w-xl mx-auto px-8 space-y-2 mt-10">
+<div class="lg:max-w-5xl mx-auto px-8 space-y-2 mt-10">
     {% for page in farmFaq.pages %}
     <details class="p-4 rounded-lg">
         <summary class="font-semibold">{{ page.title }}</summary>
@@ -30,7 +30,7 @@
 
 {% elif current_path == '/tftfaq/' %}
 <h2 class="text-center mt-10">{{ tftFaq.title }}</h2>
-<div class="max-w-xl mx-auto px-8 space-y-2 mt-10">
+<div class="lg:max-w-5xl mx-auto px-8 space-y-2 mt-10">
     {% for page in tftFaq.pages %}
     <details class="p-4 rounded-lg">
         <summary class="font-semibold">{{ page.title }}</summary>
