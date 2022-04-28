@@ -82,7 +82,7 @@ Together, we build the People’s Internet. Our Internet.
 
 ![Image](/images/100_mission.png#meduim)
 
-<button>[Join Us](/learn-more)</button>
+<button>[Join Us](https://t.me/threefold)</button>
 
 {% end %}
 
@@ -119,6 +119,6 @@ Connect, share and collaborate with our open community to expand the horizons of
 
 <br>
 
-<button>[Join The Fold](/learn-more)</button>
+<button>[Join The Fold](https://t.me/threefold)</button>
 
 {% end %}

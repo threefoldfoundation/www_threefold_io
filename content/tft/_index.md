@@ -94,7 +94,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 ![Image](/images/tft_table.png#mx-auto)
 
-<button>[How ThreeFold Compares With The Industry ](https://threefold.io/blog/post/quest_decentralize_internet/)</button>
+<button>[How ThreeFold Compares With The Industry ](/blog/2021/10/post-7)</button>
 
 
 {% end %}
@@ -223,17 +223,17 @@ Burning permanently removes TFT from the circulating supply when the ThreeFold G
 Get TFT today and participate in the realization of a truly decentralized world.
 
 <div class="quicklinks">
-<a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
+<a class="center" href="https://gettft.com/gettft/" rel="some text" target="_blank"> 
  <img class="py-2 my-2 px-5 border-2 border-black" src="/images/get_tft_button.png" alt ="cointelegraph">
  
  </a>
 
-<a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
+<a class="center" href="https://pancakeswap.finance/swap?exactField=output&exactAmount=100&outputCurrency=0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf&inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56?use=v2" rel="some text" target="_blank"> 
  <img class="py-2 my-2 px-5 border-2 border-black" src="/images/pancack_button.png" alt ="cointelegraph">
  
  </a>
 
- <a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
+ <a class="center" href="https://app.1inch.io/#/56/swap/BNB/TFT" rel="some text" target="_blank"> 
  <img class="py-2 my-2 px-5 border-2 border-black" src="/images/iinch_button.png" alt ="cointelegraph">
  
  </a>
@@ -266,6 +266,6 @@ Get TFT today and participate in the realization of a truly decentralized world.
 
 ![Image](/images/ourpartners.png#mx-auto)
 
-<button>[Check All Partners](/learn-more)</button>
+<button>[Check All Partners](/partners)</button>
 
 {% end %}
