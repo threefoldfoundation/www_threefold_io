@@ -165,7 +165,7 @@ img[src*="#absolute"] {
 
 
 button:hover :is(:where(a)) {
-  color: #3b82f6;
+  color: #5e5e5e;
 }
 
 button :is(:where(p)) {
