@@ -140,11 +140,11 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 [Quantum Safe Storage](https://library.threefold.me/info/threefold#/qss/threefold__qsss_home)
 
-[Virtual Machines](https://library.threefold.me/info/threefold#/manual_tfgrid3/manual3_iac/grid3_terraform/threefold__terraform_get_started?id=getting-started)
+[Virtual Machines](https://library.threefold.me/info/manual/#/manual__weblets_vm)
 
-[Kubernetes](https://library.threefold.me/info/threefold#/manual_tfgrid3/manual3_iac/grid3_terraform/threefold__terraform_get_started?id=kubernetes)
+[Kubernetes](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
 
-[Planetary Network](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_planetary_network)
+[Planetary Network](https://library.threefold.me/info/manual/#/technology/threefold__planetary_network)
 
 {% end %}
 
