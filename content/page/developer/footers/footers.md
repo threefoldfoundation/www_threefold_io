@@ -39,11 +39,11 @@ items:
     - name: Quantum Safe Storage 
       link: https://library.threefold.me/info/threefold#/qss/threefold__qsss_home
     - name: Virtual Machines
-      link: https://library.threefold.me/info/threefold#/manual_tfgrid3/manual3_iac/grid3_terraform/threefold__terraform_get_started?id=getting-started 
+      link: https://library.threefold.me/info/manual/#/manual__weblets_vm 
     - name: Kubernetes
-      link: https://library.threefold.me/info/threefold#/manual_tfgrid3/manual3_iac/grid3_terraform/threefold__terraform_get_started?id=kubernetes 
+      link: https://library.threefold.me/info/manual/#/manual__weblets_k8s 
     - name: Planetary Network 
-      link: https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_planetary_network
+      link: https://library.threefold.me/info/manual/#/technology/threefold__planetary_network
 
 ---
 
