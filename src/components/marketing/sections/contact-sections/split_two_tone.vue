@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-600 relative body-font">
-    <div class="container px-5 py-24 mx-auto flex">
+    <div class="container px-5 py-12 mx-auto flex">
       <div class="lg:w-1/2 mt-10 md:mt-0">
         <h2 class="text-gray-900 text-lg mb-1 font-large title-font">
           {{ contacts.title }}
