@@ -190,14 +190,13 @@
       />
     </div>
     <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden"> -->
-      <LogoShowcase
-        v-if="
-          $page.markdownPage.logos.length > 0 &&
-          $page.markdownPage.id == 'cloud'
-        "
-        :id="$page.markdownPage.id"
-        :logos="$page.markdownPage.logos"
-      />
+    <LogoShowcase
+      v-if="
+        $page.markdownPage.logos.length > 0 && $page.markdownPage.id == 'cloud'
+      "
+      :id="$page.markdownPage.id"
+      :logos="$page.markdownPage.logos"
+    />
     <!-- </div> -->
     <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
       <BrandPanel
@@ -304,6 +303,11 @@
           $page.markdownPage.cta2 && $page.markdownPage.id == 'conversations'
         "
         :cta="$page.markdownPage.cta2"
+      />
+      <SplitTwoTone
+        :id="$page.markdownPage.id"
+        :map="$page.markdownPage.map"
+        :contacts="$page.markdownPage.contacts"
       />
     </div>
     <g-image
@@ -1013,6 +1017,18 @@
          button
          link
        }
+      contacts {
+         id
+         title
+         subtitle
+         emailTxt
+         email
+         content
+       }
+      map {
+        id
+        map
+      }
     }
     allCustomCta {
       edges {
@@ -1062,6 +1078,7 @@ import SplitWithForm from "~/components/custom/SplitWithForm.vue";
 import Blogs from "~/components/marketing/sections/blog-sections/3_column_cards.vue";
 import SimpleColumns from "~/components/marketing/sections/feature-sections/SimpleColumns.vue";
 import Stats from "~/components/marketing/sections/stats-sections/SimpleInCard.vue";
+import SplitTwoTone from "~/components/marketing/sections/contact-sections/split_two_tone.vue";
 
 export default {
   components: {
@@ -1098,6 +1115,7 @@ export default {
     Blogs,
     SimpleColumns,
     Stats,
+    SplitTwoTone,
   },
   computed: {
     getImg() {

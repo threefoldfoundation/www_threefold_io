@@ -507,6 +507,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Contacts',
+                path: './content/page/**/contacts/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -572,6 +580,7 @@ module.exports = {
                     conversations: 'Conversations',
                     workloadsMain: 'WorkloadsMain',
                     workloads: 'Workloads',
+                    contacts: "Contacts"
                 }
             }
         },
