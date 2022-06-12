@@ -305,6 +305,7 @@
         :cta="$page.markdownPage.cta2"
       />
       <SplitTwoTone
+        v-if="$page.markdownPage.contacts && $page.markdownPage.id == 'tfLabs'"
         :id="$page.markdownPage.id"
         :map="$page.markdownPage.map"
         :contacts="$page.markdownPage.contacts"
