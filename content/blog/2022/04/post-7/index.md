@@ -14,7 +14,7 @@ extra:
   author: HANNAH CORDES
   authorImg: /images/people/hannah_cordes.jpg
   imgPath: images/blog/internet_energy_consumption.png
-  isFeatured: "true"
+  
   
 ---
 
