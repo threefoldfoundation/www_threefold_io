@@ -2,12 +2,12 @@
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
 <header id="header-container">
-    <div class="z-10 bg-white fixed w-screen top-0">
+    <div class="z-10 bg-white fixed w-full top-0">
         <div class="relative z-50 shadow">
         <div class="mx-auto flex z-50 shadow justify-between items-center px-6 sm:px-8 md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
             <div>
                 <a href="/" class="flex">
-                    <img class="w-20 h-auto sm:w-15" src="{{section.extra.logoPath}}" alt="Ourworld Logo" />
+                    <img class="w-20 h-auto sm:w-15" style="max-width: none;" src="{{section.extra.logoPath}}" alt="Ourworld Logo" />
                 </a>
             </div>
             <div class="-mr-2 -my-2 lg:hidden">
@@ -106,6 +106,7 @@
                       <img
                         src="{{ section.extra.button_Path }}"
                         class="mr-5"
+                        style="max-width: none;"
                         alt=""
                       />
                     </a>

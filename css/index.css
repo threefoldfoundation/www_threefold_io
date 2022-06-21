@@ -74,6 +74,8 @@ img[src*="#absolute"] {
 .logo_size{
   width:200px
 }
+
+
 @layer components {
   h1 {
     @apply text-3xl lg:text-7xl font-normal;
