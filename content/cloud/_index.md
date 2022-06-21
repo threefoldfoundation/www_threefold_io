@@ -47,6 +47,7 @@ Native support for containers and virtual machines. Migrate existing application
 
 Private overlay networks and global end-to-end encryption minimize attack surface. Handle inbound trafﬁc with uniquely secure web gateways.
 
+
 <button> [Learn More]( https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network) </button>
 
 {% end %}
@@ -190,7 +191,7 @@ A carefully designed collection of lightweight components that minimize overhead
 <br/>
 <br/>
 
-{% row(gradient="linear-gradient(351deg, #8f8f8f, #383838)" style="center margin text-white") %}
+{% row(gradient="linear-gradient(351deg, #8f8f8f, #8c8c8c)" style="center margin text-white") %}
 
 ## **TAKE THREEFOLD** <br> **CLOUD ON A TEST DRIVE**
 

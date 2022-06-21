@@ -75,6 +75,9 @@ img[src*="#absolute"] {
   width:200px
 }
 
+h1 {
+  line-height: 4rem;
+}
 
 @layer components {
   h1 {
@@ -119,8 +122,8 @@ img[src*="#absolute"] {
     lg:text-lg
     px-12
     py-1
-    mr-5
-    my-6
+    lg:mr-5
+    my-3
     border-2
     shadow
     border-black
@@ -218,7 +221,7 @@ header {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
-  margin-right: 30px;
+  
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   opacity: 0.5;
@@ -353,6 +356,11 @@ header {
 
 .zola-anchor {
   display: none;
+}
+@media (min-width: 1024px){
+  h2 {
+    font-size: 3.5rem;
+}
 }
 @media (max-width: 640px) {
   .banner h2 {

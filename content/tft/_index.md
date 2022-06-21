@@ -41,7 +41,7 @@ The People’s Internet creates an entirely new decentralized Internet economy t
 
 <!-- section 2 (Meeting Emerging Demand) -->
 
-{% row(style="center narrow") %}
+{% row(style="center ") %}
 
 ## **MEETING EMERGING DEMAND**
 
@@ -224,17 +224,17 @@ Get TFT today and participate in the realization of a truly decentralized world.
 
 <div class="quicklinks">
 <a class="center" href="https://gettft.com/gettft/" rel="some text" target="_blank"> 
- <img class="py-2 my-2 px-5 border-2 border-black" src="/images/get_tft_button.png" alt ="cointelegraph">
+ <img class="py-2 mr-2 my-2 px-5 border-2 border-black" src="/images/get_tft_button.png" alt ="cointelegraph">
  
  </a>
 
 <a class="center" href="https://pancakeswap.finance/swap?exactField=output&exactAmount=100&outputCurrency=0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf&inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56?use=v2" rel="some text" target="_blank"> 
- <img class="py-2 my-2 px-5 border-2 border-black" src="/images/pancack_button.png" alt ="cointelegraph">
+ <img class="py-2 mr-2 px-5 border-2 border-black" src="/images/pancack_button.png" alt ="cointelegraph">
  
  </a>
 
  <a class="center" href="https://app.1inch.io/#/56/swap/BNB/TFT" rel="some text" target="_blank"> 
- <img class="py-2 my-2 px-5 border-2 border-black" src="/images/iinch_button.png" alt ="cointelegraph">
+ <img class="py-2 my-2 mr-2 px-5 border-2 border-black" src="/images/iinch_button.png" alt ="cointelegraph">
  
  </a>
  </div>

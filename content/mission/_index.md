@@ -8,6 +8,8 @@ insert_anchor_links: "left"
 
 {% row(style="center") %}
 
+<br>
+
 # OUR MISSION
 
 <br>

@@ -18,7 +18,7 @@ extra:
 
 ### Join the peer-to-peer revolution
 
-#### Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infrastructure for an open source P2P Internet owned by humanity.
+Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infrastructure for an open source P2P Internet owned by humanity.
 
 
 
@@ -36,9 +36,9 @@ extra:
 
 {% row(style="center margin") %}
 
-### EXPAND THE PEOPLE’S INTERNET <br> **AND EARN TFT**
+### EXPAND THE PEOPLE’S INTERNET **AND EARN TFT**
 
-By connecting hardware at your home or office, support the growth of <br> a decentralized Internet and earn a new digital currency, TFT.
+By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
 
 <button>[Become a farmer](/farm)</button>
 
@@ -46,11 +46,15 @@ By connecting hardware at your home or office, support the growth of <br> a dece
 
 |||
 
-### DECENTRALIZE YOUR <br> **DATA AND WORKLOADS**
+### DECENTRALIZE YOUR **DATA AND WORKLOADS**
 
-Companies and developers have already started using ThreeFold for <br> it’s autonomous, decentralization and privacy features.
+
+
+Companies and developers have already started using ThreeFold for it’s autonomous, decentralization and privacy features.
 
 <button>[Deploy](/cloud)</button>
+
+
 
 ![Image](/images/network_new.jpg#mx-auto)
 

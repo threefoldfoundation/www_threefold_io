@@ -10,7 +10,7 @@ extra:
 
 {% row(style="lean") %}
 
-##### THREEFOLD UNIVERSE
+##### THREEFOLD <br> UNIVERSE
 
 <br>
 

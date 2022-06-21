@@ -98,6 +98,9 @@ A decentralized autonomous OS designed to dedicate hardware capacity to the Peop
 
 {% end %}
 
+<br>
+<br>
+
 {% row() %}
 
 ## A DECENTRALIZED INTERNET ECONOMY
