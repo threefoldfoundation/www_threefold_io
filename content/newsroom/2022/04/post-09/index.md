@@ -11,7 +11,7 @@ extra:
     image_caption: ThreeFold CryptoPotato
     authors: [sam_taggart]
     authorImg: /images/people/sam_taggart.jpg
-    isFeatured: "true"
+    
 ---
 
 The Internet economy is largely managed by centralized companies that connect servers and storage space to run web content. These companies are responsible for critical decisions that affect the Internet at large. They decide how user data is collected, stored, analyzed, and used, leaving people with little to no privacy or control over their identity and information.
