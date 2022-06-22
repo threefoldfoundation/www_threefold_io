@@ -360,7 +360,7 @@ header {
 @media (min-width: 1024px){
   h2 {
     font-size: 3.5rem;
-}
+  }  
 }
 @media (max-width: 640px) {
   .banner h2 {
@@ -380,5 +380,8 @@ header {
   .banner,
   .header {
     padding: 80px 0;
+  }
+  img[src*="#sm_none"] {
+    display: none;
   }
 }

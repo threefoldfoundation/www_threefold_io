@@ -64,9 +64,9 @@ That is a number with 21 zeroes!
 
 |      |  |
 | ----------- | ----------- |
-| ![Image](/images/tft_800.png#tft_img) | $800 billion of revenue is expected for the cloud market by 2025 |
-| ![Image](/images/tft_70b.png#tft_img) | Over seventy billion new devices are expected to be online by 2025 |
-| ![Image](/images/tft_1b.png#tft_img) | Over one billion people are still expected to get digital access by 2025|
+| ![Image](/images/tft_800.png#tft_img) | &nbsp;$800 billion of revenue is expected for the cloud market by 2025 |
+| ![Image](/images/tft_70b.png#tft_img) | &nbsp;&nbsp;&nbsp;Over seventy billion new devices are expected to be online by 2025 |
+| ![Image](/images/tft_1b.png#tft_img) | &nbsp;&nbsp;&nbsp;Over one billion people are still expected to get digital access by 2025|
 
 
 
@@ -104,7 +104,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 {% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)" style="margin") %}
 
-![Image](/images/tft_currency.png#medium#absolute)
+![Image](/images/tft_currency.png#medium#absolute#sm_none)
 
 |||
 
