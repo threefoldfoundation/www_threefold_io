@@ -139,6 +139,9 @@
   <!-- CSS/SCSS -->
   <link rel="stylesheet" href="{{ get_url(path="css/index.css", trailing_slash=false, cachebust=true) | safe }}" />
   <style>
+    .space-x-10>:not([hidden])~:not([hidden]){
+      margin-left: calc(1.5rem*calc(1 - var(--tw-space-x-reverse)))!important;
+    }
     @-moz-document url-prefix() {
       .lazy:-moz-loading {
         visibility: hidden;
@@ -155,6 +158,11 @@
         display: block;
       }
     }
+  @media (min-width: 640px){
+      .sm\:space-x-4>:not([hidden])~:not([hidden]){
+      margin-left: calc(2rem*calc(1 - var(--tw-space-x-reverse)))!important;
+      }
+  }
   </style>
   <script type='text/javascript'
     src='https://platform-api.sharethis.com/js/sharethis.js#property=62556aac80366d0019fc1af2&product=sop'
