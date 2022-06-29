@@ -134,7 +134,7 @@ export default {
       //   "https://explorer.threefold.io/api/farms?network=all"
       // );
       const results = await axios.get(
-        "https://explorer.threefold.io/api/stats"
+        "https://explorer.threefold.io/api/stats?grid=grid3&network=all"
       );
       // let farms = getFarms.data.length;
       let nodes = results.data.onlinenodes;
