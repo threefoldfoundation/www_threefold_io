@@ -3,8 +3,8 @@
 
 This is the official repository of [www.threefold.io]([www.threefold.io](https://www.threefold.io))
 
-This website is periodically updated as planned on Circles tool; our project management tool.
-Follow [ThreeFold Website project's working board]([url](https://circles.threefold.me/project/despiegk-product_web_threefold/wiki/home)) on Circles tool to know about upcoming planned updates of the website.
+This website is periodically updated as planned on **Circles tool**; our project management tool.
+Follow [ThreeFold Website project's working board](https://circles.threefold.me/project/despiegk-product_web_threefold/wiki/home) on Circles tool to know about upcoming planned updates of the website.
 
 You can access ThreeFold's website content database within the repository [here](https://www.threefold.io)](https://github.com/threefoldfoundation/www_threefold_io/tree/development/content/page)
 
