@@ -1,10 +1,17 @@
 
-# ThreeFold main website
+# ThreeFold Website
 
-### Follow working board on Circles tool: https://circles.threefold.me/project/despiegk-product_web_threefold/wiki/home
+This is the official repository of [www.threefold.io]([www.threefold.io](https://www.threefold.io))
 
-If you have any input, a cool idea, or would like to see additions feel free to list an issue [HERE](https://github.com/threefoldfoundation/www_threefold_io/issues/new), or on Circles tool (**mandatory for internal team**) and we'll make sure to try and get it in there.
+This website is periodically updated as planned on **Circles tool**; our project management tool.
+Follow [ThreeFold Website project's working board](https://circles.threefold.me/project/despiegk-product_web_threefold/wiki/home) on Circles tool to know about upcoming planned updates of the website.
 
-If you have questions or need any support please visit [our website](https://www.threefold.io) and use the chat function (blue chat bubble) on the bottom right corneror 'Support' function in the [ThreeFold Connect app](https://library.threefold.me/info/threefold/#/tokens/threefold__threefold_connect).
+You can access ThreeFold's website content database within the repository [here](https://github.com/threefoldfoundation/www_threefold_io/tree/development/content/page)
 
-Enjoy exploring our websites! 🙂
+For any suggestions or ideas, you could create a new issue on this repository [here](https://github.com/threefoldfoundation/www_threefold_io/issues/new), or on Circles tool (**mandatory for internal team**) and our team would following up from there.
+
+For questions or support, please go to [www.threefold.io](https://www.threefold.io) and use the 'chat' function (blue chat bubble) on the bottom right corner to connect with our support team. 
+
+You could also access our support team by clicking on 'Support' function in the [ThreeFold Connect App](https://library.threefold.me/info/threefold/#/tokens/threefold__threefold_connect) on your mobile phone.
+
+Thank you.
