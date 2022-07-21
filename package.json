@@ -11,7 +11,7 @@
     "dev:serve": "zola serve",
     "build": "NODE_ENV=production npm-run-all clean prod:postcss prod:build",
     "prod:postcss": "postcss css/index.css -o ./static/css/index.css --config ./postcss.config.js",
-    "prod:build": "zola build -o html"
+    "prod:build": "zola build -o public"
   },
   "author": "",
   "license": "MIT",

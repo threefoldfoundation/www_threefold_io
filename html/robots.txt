@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www3.threefold.io/sitemap.xml

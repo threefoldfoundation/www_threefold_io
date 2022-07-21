@@ -1,7 +1,7 @@
-rm rf build
-rm rf html
+rm -rf build
+# rm -rf public
 npm run prod:build
-rsync -rav static/ html/
+rsync -rav static/ public/
 echo 'see http://localhost:3000/'
-node -e '(e=require("express"))().use(e.static("html")).listen(3000)'
+node -e '(e=require("express"))().use(e.static("public")).listen(3000)'
 
