@@ -40,14 +40,14 @@
                     <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                         {{link_label}}
                     </a>
-                    {% elif current_url is starting_with("www_threefold_io") %}
-                    {% set path = current_url ~ link_path[1] %}
+                    {% elif base is containing("www_threefold_io") %}
+                    {% set path = 'www_threefold_io' ~ link_path[1] %}
                     <a href="{{path}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                        {{link_label}}
+                      {{link_label}}
                     </a>
                     {% else %}
                     <a href="{{link_path[1]}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                        {{link_label}}
+                      {{link_label}}
                     </a>
                     {% endif %}
                 {% else %}
@@ -174,8 +174,8 @@
                                 <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                     {{link_label}}
                                 </a>
-                                {% elif current_url is starting_with("www_threefold_io") %}
-                                {% set path = current_url ~ link_path[1] %}
+                                {% elif base is containing("www_threefold_io") %}
+                                {% set path = 'www_threefold_io' ~ link_path[1] %}
                                 <a href="{{path}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                                     {{link_label}}
                                 </a>
