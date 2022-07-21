@@ -12,7 +12,7 @@ extra:
     rank: 1
     imgPath: images/threefold_tech.png
     image_caption: threefold tech
-    partner_logo: /images/threefold_techLogo.jpg
+    partner_logo: images/threefold_techLogo.jpg
     members: [kristof_de_spiegeleer, christopher_hutton, andreas_hartl, roel_van_sabben, sabrina_sadik, owen_kemp]
     websites: https://threefold.tech/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![threefold_tech](/images/threefold_tech2.png)
+![threefold_tech](images/threefold_tech2.png)
 
 <br/>
 

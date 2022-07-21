@@ -13,7 +13,7 @@ extra:
     rank: 1
     imgPath: images/digicorp_labs2.png
     image_caption: digicorplabs
-    partner_logo: /images/owncloud_logo.png
+    partner_logo: images/owncloud_logo.png
     members: [jozua_van_der_deijl, rudy_bouwman]
     author: [jozua_van_der_deijl, rudy_bouwman]
     websites: https://digicorplabs.com

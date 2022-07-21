@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/waykichain_threefold.png
     image_caption: blockchain
     authors: [benjelloun_oussama]
-    authorImg: /images/people/benjelloun_oussama.png
+    authorImg: images/people/benjelloun_oussama.png
     
 ---
 

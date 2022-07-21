@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/placeholder.jpg
     image_caption: threefold_chapters
-    partner_logo: /images/logo_threefold_chapters.png
+    partner_logo: images/logo_threefold_chapters.png
     category: []
     members: []
     websites: 

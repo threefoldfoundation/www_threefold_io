@@ -11,7 +11,7 @@ extra:
     cities: [Zug]
     rank: 3
     imgPath: images/flowgen.png
-    partner_logo: /images/flowgenLogo.png
+    partner_logo: images/flowgenLogo.png
     image_caption: flowgen
     members: [tom_clausen]
     websites: https://www.flowgen.com/

@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/dash_threefold.png
     image_caption: blockchain
     authors: [sacha_obeegadoo]
-    authorImg: /images/people/sacha_obeegadoo.jpg
+    authorImg: images/people/sacha_obeegadoo.jpg
     
 ---
 

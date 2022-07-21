@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/new_farming_rewards.png
     image_caption: Introducing New Farming Rewards
     authors: [roel_van_sabben]
-    authorImg: /images/people/roel_van_sabben.jpg
+    authorImg: images/people/roel_van_sabben.jpg
 ---
 
 With the forthcoming launch of ThreeFold Grid 3.0 later this year, the world is set to go peer-to-peer. With many use-cases being lined up, we updated the Farming Rewards to incentivize Farmers to expand the ThreeFold Grid further across the world.

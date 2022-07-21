@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/earth_day_2022.png
     image_caption: Earth Day 2022
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🌍 **Today is Earth Day**

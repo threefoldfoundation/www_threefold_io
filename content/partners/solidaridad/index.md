@@ -22,7 +22,7 @@ extra:
   rank: 2
   imgPath: images/solidaridad.jpg
   image_caption: solidaridad
-  partner_logo: /images/solidaridadLogo.png
+  partner_logo: images/solidaridadLogo.png
   members: [jeroen_douglas]
   websites: https://www.solidaridadnetwork.org/
   private: 0

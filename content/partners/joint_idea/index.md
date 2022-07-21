@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/jointidea.png
     image_caption: joint_idea
-    partner_logo: /images/joint_ideaLogo.png
+    partner_logo: images/joint_ideaLogo.png
     members: [markus_lehto]
     websites: https://www.lifeworkslabs.com
     private: 0

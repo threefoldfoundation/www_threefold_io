@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/novamarecording.png
     image_caption: Sharing the November 2020 AMA recording
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Good day, all! ☀️

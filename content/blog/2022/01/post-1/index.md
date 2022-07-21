@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Hannah Cordes
-  authorImg: /images/people/hannah_cordes.jpg
+  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/bridges_connecting_threefold_ecosystem.png
   
 ---
@@ -82,7 +82,7 @@ Until recently, the bridge between Stellar and Binance Smart Chain (BSC) was one
 
 <br/>
 
-![tft_bsc_bridge](/images/blog/tft_bsc_bridge.png)
+![tft_bsc_bridge](images/blog/tft_bsc_bridge.png)
 
 <br/>
 
@@ -90,7 +90,7 @@ When depositing from TFT Stellar, **please be sure that both addresses and memo 
 
 <br/>
 
-![tft_bsc_transfer](/images/blog/tft_bsc_transfer.png)
+![tft_bsc_transfer](images/blog/tft_bsc_transfer.png)
 
 <br/>
 

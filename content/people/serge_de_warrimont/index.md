@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/serge-de-warrimont-4a304612/"}
   organizations: ["aci,foundation"]
-  imgPath: /images/people/serge_de_warrimont.jpg
+  imgPath: images/people/serge_de_warrimont.jpg
 taxonomies:
   memberships:
     [aci_members]

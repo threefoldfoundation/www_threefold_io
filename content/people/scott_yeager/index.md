@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/scottmyeager/",
   Github: https://github.com/scottyeager }
   organizations: ["foundation"]
-  imgPath: /images/people/scott_yeager.jpg
+  imgPath: images/people/scott_yeager.jpg
 taxonomies:
   memberships:
     [foundation]

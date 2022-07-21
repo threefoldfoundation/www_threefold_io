@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tf_grid_280.png
     image_caption: Introducing TF Grid 2.8.0
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 📚 **ThreeFold Update** 📚

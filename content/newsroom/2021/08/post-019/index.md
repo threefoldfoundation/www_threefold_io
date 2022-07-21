@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/liquid_hack_one.png
     image_caption: Liquid Exchange Hacked
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 We wanted to update the community that Liquid, an exchange on which TFT is listed, [shared this morning](https://twitter.com/Liquid_Global/status/1428176357515612165?s=09) that warm wallets on the exchange were compromised in a hack.

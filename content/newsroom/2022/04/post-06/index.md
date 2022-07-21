@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/community_call_april_19_recording.png
     image_caption: April 19 Community Call Recording
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **This Week's Community Call Recording!**

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/threefold_bi_africa.png
     image_caption: BI Africa ThreeFold
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **🗞 ThreeFold in the News 🗞**

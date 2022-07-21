@@ -12,7 +12,7 @@ extra:
     rank: 2
     imgPath: images/v_logo.png
     image_caption: V
-    partner_logo: /images/v_logo.png
+    partner_logo: images/v_logo.png
     members: []
     websites: https://vlang.io
     private: 0

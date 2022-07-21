@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/stellar.png
     image_caption: stellar
-    partner_logo: /images/stellarLogo.png
+    partner_logo: images/stellarLogo.png
     members: []
     websites: https://www.stellar.org
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![stellar](/images/stellar2.jpg)
+![stellar](images/stellar2.jpg)
 
 <br/>
 

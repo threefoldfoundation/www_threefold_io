@@ -12,7 +12,7 @@ extra:
   rank: 3
   imgPath: images/tomochain.png
   image_caption: tomochain
-  partner_logo: /images/tomochainLogo.png
+  partner_logo: images/tomochainLogo.png
   members: [kyn_chaturvedi]
   websites: https://tomochain.com/
   private: 0

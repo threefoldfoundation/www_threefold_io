@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/titan_shipping_oct_12.png
     image_caption: Titan Shipping Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Hi all 👋

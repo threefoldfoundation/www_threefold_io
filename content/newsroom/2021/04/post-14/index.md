@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/threefoldtwowaynews.png
     image_caption: ThreeFold Two-Way
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **We've opened up a two-way chat on Telegram** for the ThreeFold community! 🌍

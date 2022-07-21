@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/albert-carlson-89b70654/"}
   organizations: ["foundation"]
-  imgPath: /images/people/dr_albert_carlson.jpeg
+  imgPath: images/people/dr_albert_carlson.jpeg
 taxonomies:
   memberships:
     [partner]

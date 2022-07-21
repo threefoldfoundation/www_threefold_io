@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/digibyte_threefold.png
     image_caption: partners blockchain
     authors: [sacha_obeegadoo]
-    authorImg: /images/people/sacha_obeegadoo.jpg
+    authorImg: images/people/sacha_obeegadoo.jpg
     
 ---
 

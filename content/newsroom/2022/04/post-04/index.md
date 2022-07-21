@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/threefold_top_web3.png
     image_caption: ThreeFold Top Web3 Startup
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

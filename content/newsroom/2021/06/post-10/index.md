@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tfcointelegraphjune2021.png
     image_caption: ThreeFold Coverage in CoinTelegraph
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today, ThreeFold received some nice coverage in CoinTelegraph:

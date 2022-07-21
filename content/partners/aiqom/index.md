@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/aiqom.png
     image_caption: aiqom
-    partner_logo: /images/aiqomLogo.png
+    partner_logo: images/aiqomLogo.png
     members: [samer_obeidat]
     websites: https://aiqom.ai/
     private: 0

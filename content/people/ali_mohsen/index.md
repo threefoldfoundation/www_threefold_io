@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { }
   organizations: ["foundation, farming, cloud, aci"]
-  imgPath: /images/people/ali_mohsen.jpg
+  imgPath: images/people/ali_mohsen.jpg
 taxonomies:
   memberships:
     [aci_members]

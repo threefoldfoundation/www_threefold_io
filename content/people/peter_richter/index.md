@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ehab-hassan-a00897116/",
   Github: https://github.com/ehab-hassan }
   organizations: ["foundation"]
-  imgPath: /images/people/peter_richter.jpg
+  imgPath: images/people/peter_richter.jpg
 taxonomies:
   memberships:
     [ambassadors]

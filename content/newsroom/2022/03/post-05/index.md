@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfweekly10.png
     image_caption: GEP 1
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

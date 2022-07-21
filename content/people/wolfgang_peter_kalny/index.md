@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/wolfgang-kalny-b95318/"}
   organizations: ["foundation"]
-  imgPath: /images/people/wolfgang_peter_kalny.png
+  imgPath: images/people/wolfgang_peter_kalny.png
 taxonomies:
   memberships:
     [ambassadors]

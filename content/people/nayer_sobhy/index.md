@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/nayer-sobhy-1bb15855/"}
   organizations: ["foundation"]
-  imgPath: /images/people/nayer_sobhy.jpg
+  imgPath: images/people/nayer_sobhy.jpg
 taxonomies:
   memberships:
     [tech]

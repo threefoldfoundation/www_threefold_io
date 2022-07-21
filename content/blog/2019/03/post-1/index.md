@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Adnan Fatayerji
-  authorImg: /images/people/adnan_fatayerji.jpg
+  authorImg: images/people/adnan_fatayerji.jpg
   imgPath: images/blog/new_digital_currency.png
   
 ---

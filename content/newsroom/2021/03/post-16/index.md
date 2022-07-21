@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tf_corporateunplugged.png
     image_caption: threefold on corporate unplugged
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Listen to ThreeFold co-founder Kristof de Spiegeleer [on the Corporate Unplugged podcast](https://corporateunplugged.com/kristof-de-spiegeleer/).

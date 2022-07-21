@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/liquid_ftx.png
     image_caption: Liquid and FTX
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Related to last week's Liquid news:

@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfnowmarketplace.png
     image_caption: ThreeFold Now Marketplace is coming soon!
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 

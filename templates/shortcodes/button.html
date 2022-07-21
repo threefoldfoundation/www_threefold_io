@@ -1,7 +1,15 @@
 {% set path = body | split(pat="href=") | slice(start=1) | first | split(pat=">") | first | trim_start_matches(pat='"')
 | trim_end_matches(pat='"') %}
+{% set base = config.base_url %}
+
 {% if 'https' in path %}
 <button onclick="window.open('{{path}}', '_blank');"
+    class="leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:first:text-gray-500 hover:border-stone-200 hover:bg-stone-100 p-2 text-left">
+    {{ body | trim_start_matches(pat="<p>") | safe}}
+</button>
+
+{% elif '/www_threefold_io' in base %}
+<button onclick="window.location='{{base}}/{{path}}'"
     class="leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:first:text-gray-500 hover:border-stone-200 hover:bg-stone-100 p-2 text-left">
     {{ body | trim_start_matches(pat="<p>") | safe}}
 </button>

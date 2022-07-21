@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: HANNAH CORDES
-  authorImg: /images/people/hannah_cordes.jpg
+  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/tech_update_explorer_interface.png
   
 ---
@@ -41,7 +41,7 @@ The statistics section gives you **an overview of [key information](https://expl
 
 <br/>
 
-![tf_explorer_statistics](/images/blog/tf_explorer_statistics.png)
+![tf_explorer_statistics](images/blog/tf_explorer_statistics.png)
 
 <br/>
 
@@ -61,11 +61,11 @@ Not sure what the new Admin Portal is about? We’ve covered all the details in 
 
 <br/>
 
-![tf_explorer_farms](/images/blog/tf_explorer_farms.png)
+![tf_explorer_farms](images/blog/tf_explorer_farms.png)
 
 <br/>
 
-![tf_explorer_nodes](/images/blog/tf_explorer_nodes.png)
+![tf_explorer_nodes](images/blog/tf_explorer_nodes.png)
 
 <br/>
 
@@ -73,7 +73,7 @@ We also made the world map bigger to improve the display of the available decent
 
 <br/>
 
-![tf_explorer_worldmap](/images/blog/tf_explorer_worldmap.png)
+![tf_explorer_worldmap](images/blog/tf_explorer_worldmap.png)
 
 <br/>
 
@@ -81,7 +81,7 @@ Dark mode is finally available for the ThreeFod Grid 3.x, bringing **a more comf
 
 <br/>
 
-![tf_explorer_darkmode](/images/blog/tf_explorer_darkmode.png)
+![tf_explorer_darkmode](images/blog/tf_explorer_darkmode.png)
 
 <br/>
 

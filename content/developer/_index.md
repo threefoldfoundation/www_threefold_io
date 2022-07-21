@@ -17,7 +17,7 @@ A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
 |||
 
-![Image](/images/developer_header.jpg)
+![Image](images/developer_header.jpg)
 
 {% end %}
 
@@ -27,7 +27,7 @@ A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
 {% row(bgColor="#f2f2f2" style="narrow margin") %}
 
-![Image](/images/developer_testing.png)
+![Image](images/developer_testing.png)
 
 |||
 
@@ -76,7 +76,7 @@ Inspired by the open-source movement, everything at ThreeFold is open to be audi
 
 {% row() %}
 
-![Image](/images/developet_tft.jpg)
+![Image](images/developet_tft.jpg)
 
 |||
 

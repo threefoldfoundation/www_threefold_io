@@ -9,7 +9,7 @@ extra:
     imgPath: images/blog/weekly_vol_12.jpg
     image_caption: ThreeFold Weekly Volume Nineteen
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

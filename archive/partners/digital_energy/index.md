@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/digital_energyPlaceHolder.jpg
     image_caption: digital_energy
-    partner_logo: /images/digital_energyLogo.png
+    partner_logo: images/digital_energyLogo.png
     members: []
     websites: https://digitalenergy.online/
     private: 0

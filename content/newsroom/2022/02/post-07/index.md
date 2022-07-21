@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfweekly7.png
     image_caption: TF Weekly Volume Seven
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 👂 **Lend us your ear!**

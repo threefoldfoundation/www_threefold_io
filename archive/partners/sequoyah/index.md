@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/sequoyah.png
     image_caption: sequoyah
-    partner_logo: /images/sequoyahLogo.png
+    partner_logo: images/sequoyahLogo.png
     members: [dennis_lindberg]
     websites: https://sequoyah.dk/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![sequoyah](/images/sequoyah2.png)
+![sequoyah](images/sequoyah2.png)
 
 <br/>
 

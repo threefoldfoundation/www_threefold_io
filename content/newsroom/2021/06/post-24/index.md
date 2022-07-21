@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/digibytenode.png
     image_caption: Decentralize the DigiByte blockchain
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today we are happy to share with you some news from our partnership with the DigiByte Foundation 🤝 **how to decentralize the DigiByte Network by deploying a DigiByte Node on ThreeFold Grid!**

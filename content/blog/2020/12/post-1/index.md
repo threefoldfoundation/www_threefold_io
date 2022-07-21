@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Weynand Kuijpers
-  authorImg: /images/people/weynand_kuijpers.jpg
+  authorImg: images/people/weynand_kuijpers.jpg
   imgPath: images/blog/better_solution.png
   
 ---

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/casper_recording_1.png
     image_caption: ThreeFold x Casper Call Recording
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **ThreeFold Highlights at [14:23](https://youtu.be/WYrARTeY3cY?t=863) and in the Q&A session at [38:50](https://youtu.be/WYrARTeY3cY?t=2330).**

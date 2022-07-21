@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/akram-fa/"}
   organizations: ["aci,foundation"]
-  imgPath: /images/people/akram_alfawakheeri.jpg
+  imgPath: images/people/akram_alfawakheeri.jpg
 taxonomies:
   memberships:
     [aci_members]

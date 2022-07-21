@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/hannah-cordes-marketing-management/" }
   organizations: ["threefold_foundation"]
-  imgPath: /images/people/hannah_cordes.jpg
+  imgPath: images/people/hannah_cordes.jpg
 taxonomies:
   memberships:
     [foundation]

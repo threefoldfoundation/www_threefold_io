@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/le_ciel_foundation.png
     image_caption: le_ciel_foundation
-    partner_logo: /images/le_ciel_foundationLogo.jpeg
+    partner_logo: images/le_ciel_foundationLogo.jpeg
     members: [sophie_monpeyssen]
     websites: https://lecielfoundation.com/
     private: 0

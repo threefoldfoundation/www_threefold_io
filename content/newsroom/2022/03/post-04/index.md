@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/paradise_hills_crypto_daily.png
     image_caption: Crypto Daily Coverage
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

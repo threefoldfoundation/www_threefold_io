@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tft_multichain_news.jpg
     image_caption: ThreeFold Announces Plans to go Multichain
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Peer-to-Peer Internet ThreeFold Goes Multichain to Accelerate Token Accessibility**

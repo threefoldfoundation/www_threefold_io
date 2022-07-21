@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/crystalhome.png
     image_caption: crystal_home
-    partner_logo: /images/crystal_homeLogo.png
+    partner_logo: images/crystal_homeLogo.png
     members: [bert_van_decraen]
     websites: https://www.crystalhome.org/
     private: 0

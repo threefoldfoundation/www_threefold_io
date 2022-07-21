@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tfproductdemos.png
     image_caption: ThreeFold Product Demos Are a Must Watch!
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 

@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/threefold_blockhash_pod.png
     image_caption: ThreeFold on the BlockHash Podcast
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

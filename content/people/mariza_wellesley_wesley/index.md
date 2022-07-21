@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/"}
   organizations: ["aci,foundation"]
-  imgPath: /images/people/mariza_wellesley_wesley.jpg
+  imgPath: images/people/mariza_wellesley_wesley.jpg
 taxonomies:
   memberships:
     [aci_members, ambassadors, farmers, cloud, partner]

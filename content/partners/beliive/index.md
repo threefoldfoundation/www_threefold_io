@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/beliive.png
     image_caption: beliive
-    partner_logo: /images/beliiveLogo.png
+    partner_logo: images/beliiveLogo.png
     members: [lorrana_scarpioni]
     websites: https://beliive.com
     private: 0

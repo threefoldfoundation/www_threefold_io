@@ -12,7 +12,7 @@ extra:
   rank: 4
   imgPath: images/shareitt.png
   image_caption: shareitt
-  partner_logo: /images/shareittLogo.png
+  partner_logo: images/shareittLogo.png
   members: [arie_ben_david, roel_wofert, mickey_malul]
   websites: https://www.shareitt.com
   private: 0

@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: sam_taggart
-  authorImg: /images/people/sam_taggart.jpg
+  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/paradise_hills.png
   
 ---
@@ -29,7 +29,7 @@ For the past twenty years, Adnan and Shaher have maintained a strong relationshi
 
 <br/>
 
-![Paradise Hills 3Node](/images/blog/paradise_hills_3node.png)
+![Paradise Hills 3Node](images/blog/paradise_hills_3node.png)
 
 <br/>
 
@@ -41,7 +41,7 @@ Quickly the team puts the idea to paper, and by February the deal is done. In Ma
 
 <br/>
 
-![Paradise Hills Connected](/images/blog/paradise_hills_connected.png)
+![Paradise Hills Connected](images/blog/paradise_hills_connected.png)
 
 <br/>
 
@@ -57,7 +57,7 @@ Flash forward to a few weeks ago, the early Paradise Hills community gathers tog
 
 <br/>
 
-![Partners of Paradise Hills](/images/blog/paradise_hills_partners.jpeg)
+![Partners of Paradise Hills](images/blog/paradise_hills_partners.jpeg)
 
 <br/>
 

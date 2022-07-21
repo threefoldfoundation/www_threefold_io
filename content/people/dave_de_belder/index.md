@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { }
   organizations: ["foundation, aci"]
-  imgPath: /images/people/dave_de_belder.jpeg
+  imgPath: images/people/dave_de_belder.jpeg
 taxonomies:
   memberships:
     [ambassadors, wisdom_council, aci_members]

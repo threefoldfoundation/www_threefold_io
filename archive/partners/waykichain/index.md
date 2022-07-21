@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/waykichain.png
     image_caption: waykichain
-    partner_logo: /images/waykichainLogo.png
+    partner_logo: images/waykichainLogo.png
     members: [richard_chen]
     websites: https://www.waykichain.com/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![waykichain](/images/waykichain2.png)
+![waykichain](images/waykichain2.png)
 
 <br/>
 

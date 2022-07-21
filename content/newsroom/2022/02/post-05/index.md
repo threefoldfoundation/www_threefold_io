@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfweekly6.png
     image_caption: TF Weekly Volume Six
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 📰 **ThreeFold Weekly! February 13th Edition (Volume Six)**

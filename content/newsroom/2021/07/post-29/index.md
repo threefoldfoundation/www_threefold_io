@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/filebrowser_demo.png
     image_caption: Filebrowser Demo
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today, we're excited to share with you **[a demo of the ultra-secure peer-to-peer file browser (storage) solution](https://www.youtube.com/watch?v=oT_dKuvF6Ng)** that's being built on top of the ThreeFold Grid!

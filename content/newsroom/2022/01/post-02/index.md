@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/2021_review_2022_preview.png
     image_caption: 2021 Review, 2022 Preview
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

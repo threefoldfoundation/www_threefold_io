@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/robert-van-der-zalm-92035214/"}
   organizations: ["foundation, aci"]
-  imgPath: /images/people/robert_van_der_zalm.jpg
+  imgPath: images/people/robert_van_der_zalm.jpg
 taxonomies:
   memberships:
     [aci_members]

@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: HANNAH CORDES
-  authorImg: /images/people/hannah_cordes.jpg
+  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/threefold_at_consensus_2022.png
   
 ---

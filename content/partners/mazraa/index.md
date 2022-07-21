@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/mazraa.png
     image_caption: mazraa
-    partner_logo: /images/mazraaLogo.png
+    partner_logo: images/mazraaLogo.png
     members: [adnan_fatayerji, gloria_anne]
     websites: https://www.mazraa.io
     private: 0

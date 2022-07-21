@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/gettft.png
     image_caption: GetTFT.com is Live
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

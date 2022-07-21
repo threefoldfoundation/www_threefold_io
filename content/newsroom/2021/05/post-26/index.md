@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/aibc_sustainability_news.png
     image_caption: ThreeFold Co-Founder Keynote at AIBC Summit
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Yesterday, ThreeFold co-founder Kristof De Spiegeleer spoke at the AIBC Summit in Dubai.**

@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: HANNAH CORDES
-  authorImg: /images/people/hannah_cordes.jpg
+  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/farming_a_greener_alternative_to_crypto_mining.png
   
 ---

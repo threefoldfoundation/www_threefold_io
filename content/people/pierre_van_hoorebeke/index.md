@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/pierre-van-hoorebeke-5958343/" }
   organizations: [foundation]
-  imgPath: /images/people/pierre_van_hoorebeke.jpg
+  imgPath: images/people/pierre_van_hoorebeke.jpg
 taxonomies:
   memberships:
     [tech, foundation]

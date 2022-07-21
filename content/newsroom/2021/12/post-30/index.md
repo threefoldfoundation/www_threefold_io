@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tfgrid3_mainnet_almost.png
     image_caption: ThreeFold Grid 3 Mainnet Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 👀 **TF Grid 3.0 mainnet is [almost there](https://forum.threefold.io/t/tfgrid-mainnet-almost-there/1624/2)!**

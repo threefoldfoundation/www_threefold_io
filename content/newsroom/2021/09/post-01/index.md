@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/terraform_demo.png
     image_caption: Terraform Demo
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Here’s [a first look at Terraform](https://youtu.be/uPKM1Ta3tvY) on ThreeFold Grid 3.0!**

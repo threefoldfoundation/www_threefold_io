@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/join_our_forum.png
     image_caption: join our forum
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 The [ThreeFold Forum](https://forum.threefold.io/) is the place for conversations all about ThreeFold.

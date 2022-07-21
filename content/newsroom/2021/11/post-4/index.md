@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/climate_action_day.png
     image_caption: Climate Action Day by TAG
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 We have some **big plans cooking** with our friends and partners at Take Action Global (TAG) – more on that later this month!

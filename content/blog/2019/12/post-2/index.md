@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Sabrina Sadik
-  authorImg: /images/people/sabrina_sadik.jpg
+  authorImg: images/people/sabrina_sadik.jpg
   imgPath: images/blog/unique.png
   
 ---

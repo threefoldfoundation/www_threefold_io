@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/oliviajurado/"}
   organizations: ["foundation"]
-  imgPath: /images/people/olivia_jurado.jpg
+  imgPath: images/people/olivia_jurado.jpg
 taxonomies:
   memberships:
     [ambassadors]

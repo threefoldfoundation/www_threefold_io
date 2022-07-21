@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/liquid.png
     image_caption: liquid
-    partner_logo: /images/liquidLogo.png
+    partner_logo: images/liquidLogo.png
     members: []
     websites: https://www.liquid.com
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![liquid](/images/liquid2.png)
+![liquid](images/liquid2.png)
 
 <br/>
 

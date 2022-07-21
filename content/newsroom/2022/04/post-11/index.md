@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/fiat_gateway_testing.png
     image_caption: TFT Fiat Gateway Beta Testers
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 

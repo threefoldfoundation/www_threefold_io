@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/genblue.png
     image_caption: generation_blue
-    partner_logo: /images/generation_blueLogo.png
+    partner_logo: images/generation_blueLogo.png
     members: [alan_laubsch]
     websites: https://generation.blue/
     private: 0

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid_24_mainnet_soon.png
     image_caption: Grid 2.4 is coming to mainnet soon
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Hi all – we are pleased to share that we are in the final stages of testing Grid 2.4. We have found eVDC, 3Bot SDK, and Marketplace solution deployment & payment to be quite stable.

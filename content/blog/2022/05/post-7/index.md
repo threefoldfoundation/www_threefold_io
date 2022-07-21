@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Sam Taggart
-  authorImg: /images/people/sam_taggart.jpg
+  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/internet_of_internets.png
   
 ---

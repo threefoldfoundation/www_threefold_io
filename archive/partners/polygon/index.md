@@ -12,7 +12,7 @@ extra:
   rank: 3
   imgPath: images/polygon.png
   image_caption: Polygon
-  partner_logo: /images/polygonLogo.png
+  partner_logo: images/polygonLogo.png
   category: []
   members: [anurag_arjun, arjun_kalsy]
   websites: https://polygon.technology/
@@ -22,7 +22,7 @@ extra:
 
 <br/>
 
-![polygon](/images/polygon2.png)
+![polygon](images/polygon2.png)
 
 <br/>
 

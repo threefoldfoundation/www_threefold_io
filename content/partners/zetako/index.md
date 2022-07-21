@@ -12,7 +12,7 @@ extra:
   rank: 2
   imgPath: images/zetako.png
   image_caption: zetako
-  partner_logo: /images/zetakoLogo.png
+  partner_logo: images/zetakoLogo.png
   members: [claus_rosenberg_gotthard]
   websites: https://zetako.ai
   private: 0

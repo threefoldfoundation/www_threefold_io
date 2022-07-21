@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Sacha obeegadoo
-  authorImg: /images/people/sacha_obeegadoo.jpg
+  authorImg: images/people/sacha_obeegadoo.jpg
   imgPath: images/blog/zero_os_blog.png
   
 ---

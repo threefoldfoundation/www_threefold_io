@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/adnansf/" }
   organizations: ["ThreefoldTech"]
-  imgPath: /images/people/adnan_fatayerji.jpg
+  imgPath: images/people/adnan_fatayerji.jpg
 taxonomies:
   memberships:
     ["farmers", "foundation", "cofounders", "wisdom_council", "aci_members"]

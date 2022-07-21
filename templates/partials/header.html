@@ -1,5 +1,6 @@
 {%- set section = get_section(path="header/_index.md") %}
 {% set header_items = section.content | safe | split(pat="<li>") %}
+{% set base = config.base_url %}
 
 <header id="header-container">
     <div class="z-10 bg-white fixed w-full top-0">
@@ -36,6 +37,10 @@
                     {% set link_path = header_label | split(pat="%22") | safe%}
                     {% if header_label is containing("http") %}
                     <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                        {{link_label}}
+                    </a>
+                    {% elif base is containing("/www_threefold_io") %}
+                    <a href="/www_threefold_io/{{link_path[1]}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                         {{link_label}}
                     </a>
                     {% else %}

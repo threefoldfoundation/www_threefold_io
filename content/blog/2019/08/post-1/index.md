@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Roel Van Sabben
-  authorImg: /images/people/roel_van_sabben.jpg
+  authorImg: images/people/roel_van_sabben.jpg
   imgPath: images/blog/decentralizing_the_internet.png
   
 ---

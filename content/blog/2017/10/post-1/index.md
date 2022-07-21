@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: andreas hartl
-  authorImg: /images/people/andreas_hartl.jpeg
+  authorImg: images/people/andreas_hartl.jpeg
   imgPath: images/blog/big_datacenter_myth.png
   
 ---

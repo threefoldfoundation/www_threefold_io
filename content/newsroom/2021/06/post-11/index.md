@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/dfinity_threefold_news.png
     image_caption: See How ThreeFold Compares to Dfinity
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold in the News** 🗞

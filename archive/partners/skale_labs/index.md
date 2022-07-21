@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/skale_labs.png
     image_caption: skale_labs
-    partner_logo: /images/skale_labsLogo.png
+    partner_logo: images/skale_labsLogo.png
     members: [christine_renee_perry]
     websites: https://skale.network/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![skale](/images/skale_labs2.png)
+![skale](images/skale_labs2.png)
 
 <br/>
 

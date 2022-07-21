@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/dfinity_econotimes.png
     image_caption: EconoTimes ThreeFold
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **🗞 ThreeFold in the News 🗞**

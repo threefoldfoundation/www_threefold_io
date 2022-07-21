@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfweekly5.png
     image_caption: TF Weekly Volume Five
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 📰 **ThreeFold Weekly! February 7th Edition (Volume Five)**

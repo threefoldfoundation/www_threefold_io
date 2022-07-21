@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/deploy_owncloud_demo.png
     image_caption: ownCloud on ThreeFold
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Following up on recent news:

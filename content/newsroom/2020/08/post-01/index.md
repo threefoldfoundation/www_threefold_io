@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/skale_threefold.png
     image_caption: partners blockchain
     authors: [benjelloun_oussama]
-    authorImg: /images/people/benjelloun_oussama.png
+    authorImg: images/people/benjelloun_oussama.png
     
 ---
 

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid3_testing.png
     image_caption: Grid 3.0 Testing
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **We are now ready to invite a limited group from our community to test an early release of Grid 3.0!**

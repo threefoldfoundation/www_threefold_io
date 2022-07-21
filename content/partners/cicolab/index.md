@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/cicolab.png
     image_caption: cicolab
-    partner_logo: /images/cicolabLogo.png
+    partner_logo: images/cicolabLogo.png
     members: [lauren_moore_nignon, charles_blass]
     websites: https://www.collectiveintelligencecollaboratory.com
     private: 0

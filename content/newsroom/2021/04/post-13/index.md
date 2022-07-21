@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tfcaspercommunitycall1news.png
     image_caption: ThreeFold x Casper Community Call
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Today at 6pm CET / 12pm EST,** ThreeFold co-founder Kristof de Siegeleer will be joining the Casper community call to introduce ThreeFold to the Casper community and to discuss our collaboration.

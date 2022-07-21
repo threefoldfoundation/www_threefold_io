@@ -12,7 +12,7 @@ extra:
   rank: 5
   imgPath: images/crystaltwin.png
   image_caption: crystal_twin
-  partner_logo: /images/crystal_twinLogo.png
+  partner_logo: images/crystal_twinLogo.png
   members: [brooks_cole, sacha_obeegadoo]
   websites:
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![crystaltwin](/images/crystaltwin2.png)
+![crystaltwin](images/crystaltwin2.png)
 
 <br/>
 

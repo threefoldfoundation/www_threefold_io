@@ -21,7 +21,7 @@ Deploy any workload with unprecedented security, scalability, and eﬃciency, on
 
 {% row(style="center margin") %}
 
-![storage](/images/cloud/storage.jpg#medium)
+![storage](images/cloud/storage.jpg#medium)
 
 ### **STORAGE**
 
@@ -31,7 +31,7 @@ Plug in standard tools and protocols to the most resilient and versatile storage
 
 |||
 
-![compute](/images/cloud/compute.jpg#medium)
+![compute](images/cloud/compute.jpg#medium)
 
 ### **COMPUTE**
 
@@ -41,7 +41,7 @@ Native support for containers and virtual machines. Migrate existing application
 
 |||
 
-![network](/images/cloud/network.jpg#medium)
+![network](images/cloud/network.jpg#medium)
 
 ### **NETWORK**
 
@@ -57,29 +57,29 @@ Private overlay networks and global end-to-end encryption minimize attack surfac
 
 {% row(style="center between") %}
 
-[![quantum safe storage](/images/qss.png#mx-auto)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
+[![quantum safe storage](images/qss.png#mx-auto)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
 
 |||
 
-[![weblets](/images/weblets.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_home)
+[![weblets](images/weblets.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_home)
 
 |||
 
-[![planetary network](/images/planetary_network.png#mx-auto)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
+[![planetary network](images/planetary_network.png#mx-auto)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
 
 {% end %}
 
 {% row(style="center between") %}
 
-[![kubernetes](/images/kubernetes.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
+[![kubernetes](images/kubernetes.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
 
 |||
 
-[![terraform](/images/terraform.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
+[![terraform](images/terraform.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
 
 |||
 
-[![virtual machine](/images/virtual_machine.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
+[![virtual machine](images/virtual_machine.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
 
 {% end %}
 
@@ -96,14 +96,14 @@ Optimized for efficient and affordable hosting of cloud alternatives, blockchain
 
 |||
 
-![Image](/images/limitless.png#mx-auto)
+![Image](images/limitless.png#mx-auto)
 
 {% end %}
 
 
 {% row(style="center narrow margin") %}
 
-![Image](/images/zero_os.png#mx-auto#medium)
+![Image](images/zero_os.png#mx-auto#medium)
 
 ## **INTRODUCING ZERO-OS**
 
@@ -121,7 +121,7 @@ A decentralized autonomous OS designed to dedicate hardware capacity to the Peop
 
 {% row(style="center between") %}
 
-![Image](/images/capacity.png#medium)
+![Image](images/capacity.png#medium)
 
 <br/>
 <br/>
@@ -135,7 +135,7 @@ Achieve low latencies and bandwidth eﬃciency by reserving capacity locally.
 
 |||
 
-![Image](/images/secure.png#medium)
+![Image](images/secure.png#medium)
 
 <br/>
 <br/>
@@ -149,7 +149,7 @@ Open-source system built from the ground-up for a fully transparent and auditabl
 
 |||
 
-![Image](/images/scalable.png#medium)
+![Image](images/scalable.png#medium)
 
 <br/>
 <br/>
@@ -163,7 +163,7 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 |||
 
-![Image](/images/effecient.png#medium)
+![Image](images/effecient.png#medium)
 
 <br/>
 <br/>

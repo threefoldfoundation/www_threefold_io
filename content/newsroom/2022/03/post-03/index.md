@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tree_planting.png
     image_caption: Tree Planting
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---
@@ -21,7 +21,7 @@ Three big Take Action Global and ThreeFold sponsored tree-planting initiatives h
 
 <br/>
 
-![Students](/images/newsroom/students_trees.jpeg)
+![Students](images/newsroom/students_trees.jpeg)
 
 <br/>
 

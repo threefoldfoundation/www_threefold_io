@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/jimber_interview_news.png
     image_caption: Interview with Jimber
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 
 ---
 

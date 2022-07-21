@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/qsfs_intro.png
     image_caption: quantum safe filesystem
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 There's nothing out there like the Quantum Safe Filesystem – an easy-to-deploy unlimited-scale filesystem which can be run anywhere in the world.

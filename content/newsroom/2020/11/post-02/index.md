@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/novprodmgmt.png
     image_caption: November 10 product management highlights
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 ✨ **New ThreeFold Now Marketplace Solution!**

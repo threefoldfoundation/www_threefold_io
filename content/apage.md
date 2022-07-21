@@ -15,7 +15,7 @@ draft: false
 test
 |||
 
-![Image](/images/ourworld_mycellium.png#large)
+![Image](images/ourworld_mycellium.png#large)
 
 {% end %}
 
@@ -55,7 +55,7 @@ class Zebra{
 
 {% row() %}
 
-![Image](/images/ourworld_mycellium.png#large)
+![Image](images/ourworld_mycellium.png#large)
 
 |||
 

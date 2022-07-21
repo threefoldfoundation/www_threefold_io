@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/happy_new_year_2022.png
     image_caption: Happy New Year from ThreeFold
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 In the next days, we’ll be sharing our 2021 year in review and a preview of what’s to come in a big 2022.

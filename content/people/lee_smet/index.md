@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/lee-smet-4a279a136/",
   Github: https://github.com/LeeSmet }
   organizations: [foundation]
-  imgPath: /images/people/lee_smet.png
+  imgPath: images/people/lee_smet.png
 taxonomies:
   memberships:
     [foundation, tech, technology_council]

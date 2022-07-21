@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/samaradel/",Github: "https://github.com/samaradel"  }
   organizations: ["foundation"]
-  imgPath: /images/people/samar_adel.jpg
+  imgPath: images/people/samar_adel.jpg
 taxonomies:
   memberships:
     [tech]

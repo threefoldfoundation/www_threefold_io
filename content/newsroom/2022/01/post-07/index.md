@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/hidden_gem.png
     image_caption: ThreeFold is a Hidden Gem
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

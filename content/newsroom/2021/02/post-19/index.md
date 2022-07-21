@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/digitaltwincoming.png
     image_caption: Digital Twin v1 is Coming!
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Recreate your digital life with Digital Twin.** Where only you own your data, and no one else.

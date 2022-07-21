@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/covidfighters.png
     image_caption: covid_fighters
-    partner_logo: /images/covidfightersLogo.png
+    partner_logo: images/covidfightersLogo.png
     members: [boris_fahrnberger]
     websites: https://www.artichoke-computing.com/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![covid](/images/covidfighters2.png)
+![covid](images/covidfighters2.png)
 
 <br/>
 
@@ -48,7 +48,7 @@ By bringing the necessary solutions for mass testing and auditing, Covid Fighter
 
 <br/>
 
-![covidfighters](/images/covidfighters_action.jpg)
+![covidfighters](images/covidfighters_action.jpg)
 
 <br/>
 

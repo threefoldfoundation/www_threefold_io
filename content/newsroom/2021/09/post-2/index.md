@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid_utilization_plan_2.png
     image_caption: Grid Utilization Plan 2
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Today, we’re sharing [part two](https://forum.threefold.io/t/grid-utilization-plan-part-two/1203) of our ThreeFold Grid Utilization Plan.**

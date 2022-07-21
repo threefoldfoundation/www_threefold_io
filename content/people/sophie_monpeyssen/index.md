@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/sophie-monpeyssen-a92747179/"}
   organizations: ["foundation,aci"]
-  imgPath: /images/people/sophie_monpeyssen.jpeg
+  imgPath: images/people/sophie_monpeyssen.jpeg
 taxonomies:
   memberships:
     [ambassadors, wisdom_council, aci_members]

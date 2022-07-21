@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tft_bsc_btc.png
     image_caption: TFT is now more accessible
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Recently, we announced [our plans to go "multichain,"](https://bitcoinist.com/peer-to-peer-internet-threefold-goes-multichain-to-accelerate-token-accessibility/) bringing the ThreeFold Token (TFT) to three popular DeFi ecosystems: Binance Smart Chain (BSC), Ethereum, and Huobi’s ECO Chain. Today, the bridge to BSC is now live, and TFT is available on PancakeSwap!

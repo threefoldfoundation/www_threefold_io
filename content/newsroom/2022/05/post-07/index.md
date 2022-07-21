@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/may_2022_interviews.png
     image_caption: Recent Interviews & Discussions
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

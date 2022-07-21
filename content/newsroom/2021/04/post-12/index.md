@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid27testnetnews.png
     image_caption: Grid 2.7 is live on testnet
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Well, that was fast! 👀

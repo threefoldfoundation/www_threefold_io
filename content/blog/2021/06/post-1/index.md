@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Weynand Kuijpers
-  authorImg: /images/people/weynand_kuijpers.jpg
+  authorImg: images/people/weynand_kuijpers.jpg
   imgPath: images/blog/join_the_peoples_internet.png
   
 ---

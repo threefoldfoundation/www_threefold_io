@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/aug_18_ama_recap.png
     image_caption: August 18th AMA Recap
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 📹 **For those who are interested in yesterday’s AMA, [here](https://www.youtube.com/watch?v=GrW9rbcnRZU) is the recording.**

@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/grid_migration_update.png
     image_caption: Grid Migration Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🧳 **Grid V2 to Grid V3 Migration Update**

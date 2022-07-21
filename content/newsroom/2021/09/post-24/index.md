@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/decloud_substrate.png
     image_caption: DeCloud Substrate
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Typically we’ve been saying that ThreeFold is the only comprehensive #DeCloud out there but maybe it’s time we start saying that **we are actually the substrate for Decentralized Cloud**. Well, maybe we’re both. 😉

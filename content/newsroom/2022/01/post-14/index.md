@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/underserved_dubai.png
     image_caption: Special Visit Dubai
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

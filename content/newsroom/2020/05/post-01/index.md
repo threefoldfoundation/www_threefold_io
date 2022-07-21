@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tomochain_threefold.png
     image_caption: blockchain partners
     authors: [sacha_obeegadoo]
-    authorImg: /images/people/sacha_obeegadoo.jpg
+    authorImg: images/people/sacha_obeegadoo.jpg
     
 ---
 

@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/placeholder.jpg
     image_caption: threefold_grid
-    partner_logo: /images/logo_threefold_grid.png
+    partner_logo: images/logo_threefold_grid.png
     members: []
     websites: https://threefold.tech/
     private: 0

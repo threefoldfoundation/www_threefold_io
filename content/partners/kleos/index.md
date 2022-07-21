@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/kleos.png
     image_caption: kleos
-    partner_logo: /images/kleosLogo.png
+    partner_logo: images/kleosLogo.png
     members: [george_el_aily]
     websites: https://www.kleos.net
     private: 0

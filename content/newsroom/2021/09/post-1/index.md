@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tft_1inch.png
     image_caption: TFT on 1inch
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **The ThreeFold Token is now available on [1inch.io](https://1inch.io/)!**

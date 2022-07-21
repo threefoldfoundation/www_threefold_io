@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/robvanmieghem/",
   Github: https://github.com/robvanmieghem }
   organizations: ["foundation"]
-  imgPath: /images/people/rob_van_mieghem.jpeg
+  imgPath: images/people/rob_van_mieghem.jpeg
 taxonomies:
   memberships:
     [foundation, tech, technology_council, cofounders]

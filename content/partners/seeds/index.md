@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/seeds.png
     image_caption: seeds
-    partner_logo: /images/seedsLogo.png
+    partner_logo: images/seedsLogo.png
     members: [rieki_cordon, nikolaus_heger, franz_josef_allmayer]
     websites: https://www.joinseeds.com/
     private: 0

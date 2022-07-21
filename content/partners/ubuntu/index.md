@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/ubuntu.png
     image_caption: ubuntu
-    partner_logo: /images/ubuntuLogo.png
+    partner_logo: images/ubuntuLogo.png
     members: [mamadou_kwidjim_toure]
     websites: https://www.utribe.one
     private: 0

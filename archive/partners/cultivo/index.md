@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/placeholder.jpg
     image_caption: cultivo
-    partner_logo: /images/cultivoLogo.png
+    partner_logo: images/cultivoLogo.png
     members: []
     websites: https://cultivo.earth
     private: 0

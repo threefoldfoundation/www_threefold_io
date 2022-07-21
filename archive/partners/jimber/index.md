@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/jimber.png
     image_caption: Jimber
-    partner_logo: /images/jimberLogo.png
+    partner_logo: images/jimberLogo.png
     members: [jonas_delrue,ivan_coene,ken_de_moor,tobias_chielens]
     websites: https://jimber.org
     private: 0

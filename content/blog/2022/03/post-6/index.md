@@ -11,7 +11,7 @@ taxonomies:
 extra:
   subtitle: ""
   author: HANNAH CORDES
-  authorImg: /images/people/hannah_cordes.jpg
+  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/stake_tft_become_validator.png
   date: 2022-03-16
 ---

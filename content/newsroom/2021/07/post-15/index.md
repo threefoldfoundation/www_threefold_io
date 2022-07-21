@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/artheon_coming.png
     image_caption: Artheon and ThreeFold
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Artheon and ThreeFold joined forces to create the world's largest VR database of art 🎨 and cultural heritage – owned by everyone and made for everyone.**

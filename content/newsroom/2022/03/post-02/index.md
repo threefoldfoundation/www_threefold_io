@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfweekly9.png
     image_caption: TF Weekly Volume Nine
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/3node_team_nov29.png
     image_caption: Your November 29 Titan Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Your Weekly 3Node Update!**

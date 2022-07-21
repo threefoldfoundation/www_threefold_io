@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid_is_growing.png
     image_caption: The grid is growing
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 This month, we had new nodes come online in Brazil, Cyprus, the United Kingdom, Belgium, Romania, the United States, Italy, Bulgaria, and more. Welcome to our new farmers!

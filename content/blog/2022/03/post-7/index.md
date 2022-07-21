@@ -16,7 +16,7 @@ taxonomies:
 extra:
   subtitle: The UNIQUE Post 1 subtitles
   author: HANNAH CORDES
-  authorImg: /images/people/hannah_cordes.jpg
+  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/weekly_vol_12.jpg
   date: 2022-03-29
   
@@ -30,7 +30,7 @@ extra:
 
 <br/>
 
-![World Blockchain Summit 2022 in Dubai](/images/world_blockchain_summit.png)
+![World Blockchain Summit 2022 in Dubai](images/world_blockchain_summit.png)
 
 <br/>
 
