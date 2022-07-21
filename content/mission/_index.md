@@ -20,7 +20,7 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 |||
 
-![Image](images/mission_header.png)
+![Image](mission_header.png)
 
 {% end %}
 
@@ -30,7 +30,7 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 {% row(style="margin") %}
 
-![Image](images/globe_mission.png#medium)
+![Image](globe_mission.png#medium)
 
 |||
 
@@ -51,7 +51,7 @@ Create, store and share in full control of where your data resides and who can a
 
 |||
 
-![Image](images/people_mission.png#medium)
+![Image](people_mission.png#medium)
 
 {% end %}
 
@@ -61,7 +61,7 @@ Create, store and share in full control of where your data resides and who can a
 
 {% row(gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" style="margin") %}
 
-![Image](images/node_mission.png#medium)
+![Image](node_mission.png#medium)
 
 |||
 
@@ -82,7 +82,7 @@ Together, we build the People’s Internet. Our Internet.
 
 <br>
 
-![Image](images/100_mission.png#meduim)
+![Image](100_mission.png#meduim)
 
 <button>[Join Us](https://t.me/threefold)</button>
 
@@ -100,7 +100,7 @@ After setting world records in Internet storage and cloud automation technologie
 
 <br>
 
-![Image](images/mission_roadmap.png#large)
+![Image](mission_roadmap.png#large)
 
 <br>
 
