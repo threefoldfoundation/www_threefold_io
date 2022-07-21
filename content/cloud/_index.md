@@ -21,7 +21,7 @@ Deploy any workload with unprecedented security, scalability, and eﬃciency, on
 
 {% row(style="center margin") %}
 
-![storage](/images/storage.jpg#medium)
+![storage](/images/cloud/storage.jpg#medium)
 
 ### **STORAGE**
 
@@ -31,7 +31,7 @@ Plug in standard tools and protocols to the most resilient and versatile storage
 
 |||
 
-![compute](/images/compute.jpg#medium)
+![compute](/images/cloud/compute.jpg#medium)
 
 ### **COMPUTE**
 
@@ -41,7 +41,7 @@ Native support for containers and virtual machines. Migrate existing application
 
 |||
 
-![network](/images/network.jpg#medium)
+![network](/images/cloud/network.jpg#medium)
 
 ### **NETWORK**
 

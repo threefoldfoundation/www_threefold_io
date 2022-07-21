@@ -19,6 +19,12 @@ To use this repository as a template, simply:
 - run `npm install` to install dependencies
 - run `npm run start`
 
+## how to publish to html
+
+```bash
+npm run prod:build
+```
+
 ## How to create pages using this template
 
 ### Structure of the content directory
