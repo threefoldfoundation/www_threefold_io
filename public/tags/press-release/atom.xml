@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>ThreeFold - press_release</title>
+	<subtitle>Our global digital backbone</subtitle>
+	<link href="https://www3.threefold.io/tags/press-release/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://www3.threefold.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-06-13T00:00:00+00:00</updated>
+	<id>https://www3.threefold.io/tags/press-release/atom.xml</id>
+	<entry xml:lang="en">
+		<title>ThreeFold Has Plans to Go More Green</title>
+		<published>2021-06-13T00:00:00+00:00</published>
+		<updated>2021-06-13T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www3.threefold.io/newsroom/2021/06/post-13/" type="text/html"/>
+		<id>https://www3.threefold.io/newsroom/2021/06/post-13/</id>
+		<content type="html">&lt;p&gt;“Traditional industry solutions focus on increasing the use of renewable energies to power data centers. But this is not a viable solution. As per ThreeFold they need to drastically reduce the global internet’s energy consumption, and we must act now.”
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;See the coverage from UnlockBC &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.unlock-bc.com&#x2F;news&#x2F;2021-06-13&#x2F;uae-based-decentralized-p2p-internet-platform-goes-green-to-reduce-internet-energy-consumption&quot;&gt;here&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>ThreeFold Co-Founder&#x27;s Message to Blockchains in Dubai</title>
+		<published>2021-05-26T00:00:00+00:00</published>
+		<updated>2021-05-26T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www3.threefold.io/newsroom/2021/05/post-26/" type="text/html"/>
+		<id>https://www3.threefold.io/newsroom/2021/05/post-26/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Yesterday, ThreeFold co-founder Kristof De Spiegeleer spoke at the AIBC Summit in Dubai.&lt;&#x2F;strong&gt;
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+“The Internet’s infrastructure is extremely power-hungry, and most blockchains are living on top of that infrastructure. Blockchains represent the movement for decentralization, and they should do better than this. At ThreeFold, we offer an alternative path. Will you take it?”
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Read the full coverage &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;opinionnigeria.com&#x2F;threefold-takes-on-blockchain-decentralization-and-sustainability-at-aibc-summit-in-dubai&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

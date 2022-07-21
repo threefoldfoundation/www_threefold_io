@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>ThreeFold - experience</title>
+	<subtitle>Our global digital backbone</subtitle>
+	<link href="https://www3.threefold.io/tags/experience/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://www3.threefold.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2020-04-20T00:00:00+00:00</updated>
+	<id>https://www3.threefold.io/tags/experience/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Artheon VR Museum</title>
+		<published>2020-04-20T00:00:00+00:00</published>
+		<updated>2020-04-20T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www3.threefold.io/partners/artheon/" type="text/html"/>
+		<id>https://www3.threefold.io/partners/artheon/</id>
+		<content type="html">&lt;br&#x2F;&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;artheon2.jpg&quot; alt=&quot;artheon&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;br&#x2F;&gt;
+&lt;h2 id=&quot;about&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#about&quot; aria-label=&quot;Anchor link for: about&quot;&gt;🔗&lt;&#x2F;a&gt;About&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;artheon.co&#x2F;&quot;&gt;Artheon VR Museum&lt;&#x2F;a&gt; is and always will be a free educational platform offering immersive, next level interaction with objects of cultural heritage. Our vision is to provide a one stop full spectrum art education platform to access, learn and share knowledge in art and culture from across the globe for free. To date, we have compiled 40,000 pieces of art from all around the world into our database, and we aim to become the world’s largest art and cultural gallery, available to everyone, everywhere.&lt;&#x2F;p&gt;
+&lt;BR&gt;
+&lt;iframe src=&quot;https:&#x2F;&#x2F;player.vimeo.com&#x2F;video&#x2F;412681114&quot; width=&quot;800&quot; height=&quot;450&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;BR&gt;
+&lt;h2 id=&quot;mission&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#mission&quot; aria-label=&quot;Anchor link for: mission&quot;&gt;🔗&lt;&#x2F;a&gt;Mission&lt;&#x2F;h2&gt;
+&lt;p&gt;Artheon’s mission is to enable free global access to history, art and culture to accelerate human development and improve our ability to tap into collective intelligence.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;impact&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#impact&quot; aria-label=&quot;Anchor link for: impact&quot;&gt;🔗&lt;&#x2F;a&gt;Impact&lt;&#x2F;h2&gt;
+&lt;p&gt;Art can act as a catalyst to tap into our inner potential as well as our collective intelligence. When going through the history of humanity, it is clear that Art played a major role in shaping the most advanced civilizations of humankind, across eras. Art is a proven tool to inspire faith and elevate cultural growth, while bringing a new perspectives about our reality. Today, studies show that there is a positive correlation between schoolchildren’s grades in math and literacy, and their involvement with drama or music activities. Also, art brings people together and gives people a chance to be part of a community. Art influences society by changing opinions, instilling values and translating experiences across space and time. Research has shown art affects the fundamental sense of self. Therefore we believe that free global access to art and culture is a prerequisite for a development of human kind.&lt;&#x2F;p&gt;
+&lt;BR&gt;
+&lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;Ofk22N2Ew1k&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;BR&gt;
+&lt;h2 id=&quot;powered-by-threefold&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#powered-by-threefold&quot; aria-label=&quot;Anchor link for: powered-by-threefold&quot;&gt;🔗&lt;&#x2F;a&gt;Powered by ThreeFold&lt;&#x2F;h2&gt;
+&lt;p&gt;Artheon is supported by the ThreeFold Foundation and is hosted on the ThreeFold Grid. Being hosted on the ThreeFold Grid was an evident choice for Artheon so as to share our history, art and culture on an equal and sustainable Internet.
+&lt;br&#x2F;&gt;
+&lt;br&#x2F;&gt;
+TFGrid allows everyone in the world with access to this wonderful virtual reality with more performance and lower cost.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;join-saving-our-planet&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#join-saving-our-planet&quot; aria-label=&quot;Anchor link for: join-saving-our-planet&quot;&gt;🔗&lt;&#x2F;a&gt;Join saving our planet&lt;&#x2F;h2&gt;
+&lt;p&gt;Artheon VR Museum is growing into a crowd-sourced global art database empowering smaller museums, private collections, galleries and individuals with tools to publish and display artwork and provide courses, tours, lectures, events, around art culture and history. By being hosted on the ThreeFold Grid, we aim to become the most inclusive and sustainable museum in the world!&lt;&#x2F;p&gt;
+&lt;!-- ## Support this project
+
+Artheon is included in ThreeFold’s [Token Distribution Event (TDE)](https:&#x2F;&#x2F;library.threefold.me&#x2F;info&#x2F;tfgrid&#x2F;#&#x2F;tdeoverview)&lt;&#x2F;a&gt; for the impact it brings to our planet, humanity and the ThreeFold Grid.
+The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
+Each project on the TDE benefits from TFT fund allocations. You can buy TFT&#x27;s and support Artheon, and the growth of a new Conscious Internet. --&gt;
+&lt;!-- ### Roadmap
+- Q4 2020
+  - Integration with ThreeFold Grid --&gt;
+</content>
+	</entry>
+</feed>
