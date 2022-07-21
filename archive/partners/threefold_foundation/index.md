@@ -12,7 +12,7 @@ extra:
   rank: 1
   imgPath: images/threefold_foundation.png
   image_caption: threefold_foundation
-  partner_logo: /images/threefold_foundationLogo.png
+  partner_logo: images/threefold_foundationLogo.png
   members: [kristof_de_spiegeleer, roel_van_sabben, kristine_vilnite, sam_taggart, sacha_obegadoo, adnan_fatayerji, karoline_zizka, maximilian_rang]
   websites: https://www.threefold.io
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![threefold_foundation](/images/threefold_foundation2.png)
+![threefold_foundation](images/threefold_foundation2.png)
 
 <br/>
 

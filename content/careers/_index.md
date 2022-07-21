@@ -15,13 +15,13 @@ page_template: "jobPage.html"
       </div>
       <div
         class="back"
-        style="background-image: url('/images//team_joinus.jpg')"
+        style="background-image: url('images//team_joinus.jpg')"
       ></div>
     </div>
      </div> -->
 
 
-{% row(bgPath="/images/team_joinus.jpg" style="center margin") %}
+{% row(bgPath="images/team_joinus.jpg" style="center margin") %}
 
 # **Join Our Team**
 
@@ -77,7 +77,7 @@ Check out our available positions below. Can't find your perfect fit and don't w
           <strong>Join Our Community</strong>
         </h2>
       </div>
-      <div class="back" style="background-image: url('/images//tf_people.jpg')"
+      <div class="back" style="background-image: url('images//tf_people.jpg')"
       ></div>
     </a>
 </div>

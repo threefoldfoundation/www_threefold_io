@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/validators_open.png
     image_caption: Validator Node Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/cyber_pandemic_convo.png
     image_caption: cyberpandemic
     authors: [sacha_obeegadoo]
-    authorImg: /images/people/sacha_obeegadoo.jpg
+    authorImg: images/people/sacha_obeegadoo.jpg
 ---
 <br/>
 <br/>

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/hcloud_summit.png
     image_caption: Join us at the Horizon Cloud Summit
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 We’d like to invite you to **join us at the virtual Horizon Cloud Summit next week**, on December 8 and 9!

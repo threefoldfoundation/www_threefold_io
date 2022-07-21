@@ -12,7 +12,7 @@ extra:
     rank: 2
     imgPath: images/presearch.png
     image_caption: presearch
-    partner_logo: /images/presearchLogo.png
+    partner_logo: images/presearchLogo.png
     members: [trey_grainger]
     websites: https://presearch.org
     private: 0

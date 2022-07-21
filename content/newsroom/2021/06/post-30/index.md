@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/smartereumjune2021.png
     image_caption: ThreeFold Coverage in Smartereum
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold is Audaciously Building a New Decentralized Internet** (via Smartereum)

@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: HANNAH CORDES
-  authorImg: /images/people/hannah_cordes.jpg
+  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/planting_the_seeds.png
   
 ---
@@ -29,7 +29,7 @@ Did you know that warnings about the risks and harms of excessive carbon emissio
 
 <br/>
 
-![Waves of Crises](/images/blog/waves_of_crises.png)
+![Waves of Crises](images/blog/waves_of_crises.png)
 
 <br/>
 
@@ -85,11 +85,11 @@ With our tree planting initiatives in Sierra Leone, Malawi and Cambodia, we’re
 
 <br/>
 
-![Tree Planting 1](/images/blog/tree_planting_1.png)
+![Tree Planting 1](images/blog/tree_planting_1.png)
 
 <br/>
 
-![Tree Planting 2](/images/blog/tree_planting_2.png)
+![Tree Planting 2](images/blog/tree_planting_2.png)
 
 <br/>
 

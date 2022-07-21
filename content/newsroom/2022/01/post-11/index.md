@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/zero_to_hero_grid3.png
     image_caption: Zero to Hero Grid 3
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

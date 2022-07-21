@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/whats_new_vdc.png
     image_caption: vdc new updates
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 We're bringing many improvements to VDC these days!

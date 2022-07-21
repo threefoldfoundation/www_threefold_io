@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/threefold_authority_mag.png
     image_caption: ThreeFold Authority Mag
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

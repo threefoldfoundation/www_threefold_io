@@ -13,7 +13,7 @@ extra:
     rank: 1
     imgPath: images/tag.png
     image_caption: take_action_global
-    partner_logo: /images/tag_logo.png
+    partner_logo: images/tag_logo.png
     members: [koen_timmers]
     author: [koen_timmers]
     websites: http://www.takeactionglobal.org/

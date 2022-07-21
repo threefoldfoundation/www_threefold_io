@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/validator_reservation_update.png
     image_caption: TF Weekly Volume Five
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Since opening ThreeFold Validator Node reservations earlier in the week, there has been strong interest from the community – applications are coming in, TFT are being accumulated – and limited spots remain!

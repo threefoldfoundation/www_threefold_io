@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/metaverse_news.png
     image_caption: ThreeFold Metaverse
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

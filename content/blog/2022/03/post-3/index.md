@@ -11,7 +11,7 @@ taxonomies:
 extra:
   subtitle: ""
   author: Sacha Obeegadoo
-  authorImg: /images/people/sacha_obeegadoo.jpg
+  authorImg: images/people/sacha_obeegadoo.jpg
   imgPath: images/blog/cyberwar.png
   date: 2022-03-03
 ---

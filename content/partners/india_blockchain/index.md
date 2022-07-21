@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/iba.png
     image_caption: india blockchain alliance
-    partner_logo: /images/india_blockchain_allianceLogo.png
+    partner_logo: images/india_blockchain_allianceLogo.png
     members: [raj_a_kapoor]
     websites: https://indiablockchainalliance.org/
     private: 0

@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/threefold_hpe.png
     image_caption: partners
     authors: [sabrina_sadik]
-    authorImg: /images/people/sabrina_sadik.jpg
+    authorImg: images/people/sabrina_sadik.jpg
     
 ---
 

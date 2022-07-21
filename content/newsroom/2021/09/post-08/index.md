@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/titan_shipping_update.png
     image_caption: Titan v2.1 Shipping Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **We have a Titan v2.1 shipping update (action required below)**, in case you missed it in other channels:

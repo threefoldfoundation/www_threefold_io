@@ -12,7 +12,7 @@ extra:
     rank: 2
     imgPath: images/ode.png
     image_caption: ODE
-    partner_logo: /images/odeLogo.png
+    partner_logo: images/odeLogo.png
     members: [sashi_edupuganti]
     websites: https://www.odeinfinity.com/
     private: 0

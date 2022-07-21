@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/secure_it_ecosystem.png
     image_caption: ThreeFold Secure IT Ecosystem
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 This week, **Apple and Google issued critical security updates** due to multiple “zero-day” (read: extremely urgent) vulnerabilities which most likely have already been exploited. And these most recent examples are just the tip of the iceberg.

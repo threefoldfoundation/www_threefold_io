@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/token_plan_guidance.png
     image_caption: Token Plan Guidance Committee
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 We have a good plan in place to stimulate token growth but we have some key decisions to make & we are creating a group to help us finalize. We have already invited / included a number of farmers, token holders, ambassadors, and outside industry experts – and now we want to open it up to the wider community.

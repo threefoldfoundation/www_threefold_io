@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/yahoonewsjune21.png
     image_caption: ThreeFold coverage on Yahoo News!
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold Set To Disrupt Status Quo With a P2P Internet Powered by the People** (via Yahoo! News)

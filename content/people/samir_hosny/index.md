@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/samir-hosny-58b81394/"}
   organizations: ["foundation"]
-  imgPath: /images/people/samir_hosny.jpg
+  imgPath: images/people/samir_hosny.jpg
 taxonomies:
   memberships:
     [tech]

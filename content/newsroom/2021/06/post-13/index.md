@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/uae_based_green.png
     image_caption: ThreeFold Has Plans to Go Greener
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 "Traditional industry solutions focus on increasing the use of renewable energies to power data centers. But this is not a viable solution. As per ThreeFold they need to drastically reduce the global internet's energy consumption, and we must act now."

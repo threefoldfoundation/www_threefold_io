@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/internet_inequalities.png
     image_caption: internet inequalities
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Let’s build an Internet for all, together.

@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Sam Taggart
-  authorImg: /images/people/sam_taggart.jpg
+  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/threefold_review_2021_preview_2022.png
   
 ---

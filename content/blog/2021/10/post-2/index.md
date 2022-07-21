@@ -13,7 +13,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Scott Yeager
-  authorImg: /images/people/scott_yeager.jpg
+  authorImg: images/people/scott_yeager.jpg
   imgPath: images/blog/building_a_new_internet_3.png
   
 ---

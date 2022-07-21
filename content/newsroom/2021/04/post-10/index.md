@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/threefolduniversenews.png
     image_caption: ThreeFold Universe
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Dive into [threefold.io](https://threefold.io) and explore the expanding ThreeFold universe!**

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/aibc_news.jpeg
     image_caption: ThreeFold is Attending the AIBC Summit in Dubai
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Tomorrow and Wednesday, ThreeFold is attending [the AIBC Summit](https://aibc.world/uae/) in Dubai.**

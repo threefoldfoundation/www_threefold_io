@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/codescalers.png
     image_caption: codescalers
-    partner_logo: /images/codescalersLogo.png
+    partner_logo: images/codescalersLogo.png
     category: []
     members: []
     websites: https://codescalers.com/
@@ -23,7 +23,7 @@ extra:
 
 <br/>
 
-![codescalers](/images/codescalers2.jpg)
+![codescalers](images/codescalers2.jpg)
 
 <br/>
 

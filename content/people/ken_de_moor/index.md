@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ken-de-moor-qa/",
   Github: https://github.com/ken-de-moor }
   organizations: ["foundation, twin"]
-  imgPath: /images/people/ken_de_moor.jpg
+  imgPath: images/people/ken_de_moor.jpg
 taxonomies:
   memberships:
     [tech]

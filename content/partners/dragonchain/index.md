@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/dragonchain.png
     image_caption: dragonchain
-    partner_logo: /images/dragonchainLogo.png
+    partner_logo: images/dragonchainLogo.png
     members: [trey_rutledge, joe_roets, dr_albert_carlson, phil_abraham]
     websites: https://dragonchain.com/
     private: 0

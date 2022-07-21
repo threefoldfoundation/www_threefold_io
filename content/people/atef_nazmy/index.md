@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/atef-nazmy-2521b2134/" }
   organizations: ["foundation"]
-  imgPath: /images/people/atef_nazmy.jpg
+  imgPath: images/people/atef_nazmy.jpg
 taxonomies:
   memberships:
     [tech]

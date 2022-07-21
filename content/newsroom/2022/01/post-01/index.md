@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/3node_team_jan06.png
     image_caption: Your January 6 3Node Team Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

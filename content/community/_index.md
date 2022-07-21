@@ -19,7 +19,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 {% row(style="lean") %}
 
-![Image](/images/community_header.jpg#mx-auto)
+![Image](images/community_header.jpg#mx-auto)
 
 {% end %}
 
@@ -31,15 +31,15 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 {% row(style="center between") %}
 
-[![forbes](/images/forum.png)](https://forum.threefold.io/)
+[![forbes](images/forum.png)](https://forum.threefold.io/)
 
 |||
 
-[![cointelegraph](/images/github.png)](https://github.com/threefoldtech)
+[![cointelegraph](images/github.png)](https://github.com/threefoldtech)
 
 |||
 
-[![yahoo_news](/images/documentation.png)](https://library.threefold.me/info/threefold#/)
+[![yahoo_news](images/documentation.png)](https://library.threefold.me/info/threefold#/)
 
 
 
@@ -50,44 +50,44 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 
 
-[![yahoo_news](/images/twitter.png)](https://twitter.com/threefold_io)
+[![yahoo_news](images/twitter.png)](https://twitter.com/threefold_io)
 
 |||
 
-[![forbes](/images/telegram_new.png)](https://t.me/threefoldnews)
+[![forbes](images/telegram_new.png)](https://t.me/threefoldnews)
 
 |||
 
-[![cointelegraph](/images/telegram_chat.png)](https://t.me/threefold)
+[![cointelegraph](images/telegram_chat.png)](https://t.me/threefold)
 
 
 {% end %}
 
 {% row(style="center between") %}
 
-[![yahoo_news](/images/telegram_farmers.png)](https://t.me/threefoldfarmers)
+[![yahoo_news](images/telegram_farmers.png)](https://t.me/threefoldfarmers)
 
 |||
 
-[![yahoo_news](/images/telegram_chattester.png)](https://t.me/threefoldtesting)
+[![yahoo_news](images/telegram_chattester.png)](https://t.me/threefoldtesting)
 
 |||
 
-[![forbes](/images/reddit.png)](https://www.reddit.com/r/threefold/)
+[![forbes](images/reddit.png)](https://www.reddit.com/r/threefold/)
 
 {% end %}
 
 {% row(style="center between") %}
 
-[![cointelegraph](/images/youtube.png)](https://www.youtube.com/threefoldfoundation)
+[![cointelegraph](images/youtube.png)](https://www.youtube.com/threefoldfoundation)
 
 |||
 
-[![yahoo_news](/images/mail_list.png)](https://www.threefold.io/#subscribe)
+[![yahoo_news](images/mail_list.png)](https://www.threefold.io/#subscribe)
 
 |||
 
-[![yahoo_news](/images/linkedin.png)](https://ae.linkedin.com/company/threefold-foundatiooon)
+[![yahoo_news](images/linkedin.png)](https://ae.linkedin.com/company/threefold-foundatiooon)
 
 
 {% end %}
@@ -127,7 +127,7 @@ From testing our latest releases to joining our development teams or applying fo
 
 |||
 
-![Image](/images/community_developers.png#medium)
+![Image](images/community_developers.png#medium)
 
 {% end %}
 
@@ -138,7 +138,7 @@ From testing our latest releases to joining our development teams or applying fo
 
 {% row() %}
 
-![Image](/images/community_pathefinder.jpg)
+![Image](images/community_pathefinder.jpg)
 
 |||
 
@@ -178,7 +178,7 @@ Check out the FAQs or ask a question on the ThreeFold Forum.
           <strong>Join our Team</strong>
         </h2>
       </div>
-      <div class="back" style="background-image: url('/images//tf_people.jpg')"
+      <div class="back" style="background-image: url('images//tf_people.jpg')"
       ></div>
     </a>
 </div>

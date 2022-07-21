@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/paradise_hills.png
     image_caption: ODE and ThreeFold
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 DUBAI, United Arab Emirates | Real Estate developer Paradise Hills and ThreeFold have announced today their plans to add dedicated servers (3Nodes) to approximately 170 homes in the Paradise Hill project, creating the world’s first neighborhood Cloud Network on the ThreeFold Grid.
@@ -20,7 +20,7 @@ Through this historic partnership, Paradise Hills Development and ThreeFold aim 
 
 <br/>
 
-![3Node](/images/newsroom/3nodehands.jpg)
+![3Node](images/newsroom/3nodehands.jpg)
 
 <br/>
 

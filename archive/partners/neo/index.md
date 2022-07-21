@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/neo.png
     image_caption: neo
-    partner_logo: /images/neoLogo.png
+    partner_logo: images/neoLogo.png
     members: [denis_suslov]
     websites: https://neo.org/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![neo](/images/neo2.jpeg)
+![neo](images/neo2.jpeg)
 
 <br/>
 

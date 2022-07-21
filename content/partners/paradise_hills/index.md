@@ -12,7 +12,7 @@ extra:
     rank: 2
     imgPath: images/paradise_hills_w.jpg
     image_caption: Paradise Hills
-    partner_logo: /images/paradise_hills_logo.png
+    partner_logo: images/paradise_hills_logo.png
     members: []
     websites: https://paradisehills.ae
     private: 0

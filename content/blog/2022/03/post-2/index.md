@@ -11,7 +11,7 @@ taxonomies:
 extra:
   subtitle: ""
   author: Sacha Obeegadoo
-  authorImg: /images/people/sacha_obeegadoo.jpg
+  authorImg: images/people/sacha_obeegadoo.jpg
   imgPath: images/blog/what_is_farming.png
   date: 2022-03-01
 ---
@@ -20,7 +20,7 @@ ThreeFold farming refers to the act of connecting a 3Node to the ThreeFold Grid 
 
 <br/>
 
-![3Node](/images/blog/3node_example.png)
+![3Node](images/blog/3node_example.png)
 
 <br/>
 

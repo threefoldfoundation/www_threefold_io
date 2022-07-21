@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/mike-filipenko-252a5878/"}
   organizations: ["foundation, farming"]
-  imgPath: /images/people/mike_filipenko.jpeg
+  imgPath: images/people/mike_filipenko.jpeg
 taxonomies:
   memberships:
     [grid_guardians]

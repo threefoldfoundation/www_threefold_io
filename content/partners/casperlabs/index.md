@@ -13,7 +13,7 @@ extra:
     rank: 1
     imgPath: images/casperlabs.png
     image_caption: casperlabs
-    partner_logo: /images/casperlabLogo.png
+    partner_logo: images/casperlabLogo.png
     members: [medha-parlikar, neil-kapoor]
     author: [medha-parlikar, neil-kapoor]
     websites: https://casperlabs.io/

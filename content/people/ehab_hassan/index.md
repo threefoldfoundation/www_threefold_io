@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ehab-hassan-a00897116/",
   Github: https://github.com/ehab-hassan }
   organizations: ["foundation"]
-  imgPath: /images/people/ehab_hassan.jpg
+  imgPath: images/people/ehab_hassan.jpg
 taxonomies:
   memberships:
     [tech]

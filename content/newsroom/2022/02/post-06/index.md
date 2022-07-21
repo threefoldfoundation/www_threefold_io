@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/validator_faqs.png
     image_caption: Validator FAQs
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **ThreeFold Validator Nodes Update!**

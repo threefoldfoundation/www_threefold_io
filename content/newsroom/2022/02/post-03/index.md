@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tag_planet_positive.png
     image_caption: Realizing a Planet-Positive Internet
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🧳 **Grid V2 to Grid V3 Migration Update**

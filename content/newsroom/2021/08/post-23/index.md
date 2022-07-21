@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tft_development_plan.png
     image_caption: TFT Development Plan
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 There have been many questions in the community about **the plan around the ThreeFold Token**.

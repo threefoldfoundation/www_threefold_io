@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: kristof de spiegeleer
-  authorImg: /images/people/kristof_de_spiegeleer.jpeg
+  authorImg: images/people/kristof_de_spiegeleer.jpeg
   imgPath: images/blog/new_neutral_internet.png
   
 ---

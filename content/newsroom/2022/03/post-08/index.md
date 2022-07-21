@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tf_grid_3_billing_update.png
     image_caption: TF Grid 3 Billing Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

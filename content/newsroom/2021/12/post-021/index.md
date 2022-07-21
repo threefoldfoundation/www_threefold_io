@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/threefold_computecoin_bloomberg.png
     image_caption: ThreeFold Mentioned in the News
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold in the News** 🗞

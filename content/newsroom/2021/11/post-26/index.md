@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tf_admin_portal.png
     image_caption: The TF Admin Portal
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **Exciting news for farmers & grid users!**

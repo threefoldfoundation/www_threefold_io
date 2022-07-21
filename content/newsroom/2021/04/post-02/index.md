@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tfq12021recap.png
     image_caption: ThreeFold Q1 Highlights
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Here's a quick look at the first three months of 2021 for ThreeFold:

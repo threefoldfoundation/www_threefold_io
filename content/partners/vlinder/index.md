@@ -12,7 +12,7 @@ extra:
   rank: 4
   imgPath: images/vlinder.png
   image_caption: vlinder
-  partner_logo: /images/vlinderLogo.png
+  partner_logo: images/vlinderLogo.png
   members: [sergey_ivliev]
   websites: https://vlinder.app
   private: 0

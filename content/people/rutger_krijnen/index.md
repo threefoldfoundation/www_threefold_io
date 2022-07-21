@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/rutger-krijnen-a503895/"}
   organizations: ["foundation,aci"]
-  imgPath: /images/people/rutger_krijnen.jpeg
+  imgPath: images/people/rutger_krijnen.jpeg
 taxonomies:
   memberships:
     [aci_members, cloud, partner]

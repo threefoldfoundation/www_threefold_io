@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tf_communities.png
     image_caption: TF x Conscious Communities
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 We’re in talks with an already-live, large-scale "conscious community" project to create their own independent grid of capacity!

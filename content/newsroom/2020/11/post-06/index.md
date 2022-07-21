@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfconnectupdate.png
     image_caption: 3bot connect renamed
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Quick update!

@@ -10,7 +10,7 @@ taxonomies:
 extra:
   imgPath: images/artheon.png
   image_caption: artheon
-  partner_logo: /images/artheonLogo.png
+  partner_logo: images/artheonLogo.png
   members: [vasily_gnuchev]
   websites: https://artheon.co/
   private: 0

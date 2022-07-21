@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ewald-weizenbauer-034132/" }
   organizations: ["threefold_foundation"]
-  imgPath: /images/people/ewald_weizenbauer.jpg
+  imgPath: images/people/ewald_weizenbauer.jpg
 taxonomies:
   memberships:
     [foundation, aci]

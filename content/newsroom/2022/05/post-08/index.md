@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/threefold_cybernews.png
     image_caption: ThreeFold Cybernews
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     isFeatured: "true"
 ---
 

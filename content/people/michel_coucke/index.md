@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/michel-coucke-66112a//"}
   organizations: ["foundation, aci"]
-  imgPath: /images/people/michel_coucke.jpg
+  imgPath: images/people/michel_coucke.jpg
 taxonomies:
   memberships:
     [ambassadors, aci_members]

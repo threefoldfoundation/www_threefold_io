@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfmeetintro.png
     image_caption: Get to know TF Meet
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 

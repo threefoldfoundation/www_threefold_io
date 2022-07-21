@@ -12,7 +12,7 @@ extra:
   rank: 4
   imgPath: images/money_of_good.png
   image_caption: money_of_good
-  partner_logo: /images/money_of_goodLogo.png
+  partner_logo: images/money_of_goodLogo.png
   members: [marcelo_bohrer]
   websites: https://www.thefutureofgood.info
   private: 0

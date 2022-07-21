@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/digithree_site.png
     image_caption: DigiThree is live
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **DigiThree Labs is live!** 🚀

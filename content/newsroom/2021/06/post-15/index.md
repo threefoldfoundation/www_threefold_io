@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/threefold_zetako.png
     image_caption: ThreeFold and Zetako
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 For both Zetako and ThreeFold, efficiency and sustainability are key. [Zetako](https://www.zetako.ai/) is a company dedicated to lossless data compression, and after years of research and development, has created an alternative solution to the regular standards of data compression. And with two decades of relevant experience and a focus on sustainability, ThreeFold has built new peer-to-peer Internet infrastructure and technologies from the ground up – where every aspect is optimized towards maximum efficiency and the least amount of harm to the planet.

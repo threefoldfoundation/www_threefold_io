@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/despiegk/" }
   organizations: ["ThreefoldTech"]
-  imgPath: /images/people/kristof_de_spiegeleer.jpeg
+  imgPath: images/people/kristof_de_spiegeleer.jpeg
 taxonomies:
   memberships:
     ["farmers", "foundation", tech, "cofounders", "wisdom_council", "aci_members", technology_council,]

@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/ootopia.png
     image_caption: ootopia
-    partner_logo: /images/ootopiaLogo.jpeg
+    partner_logo: images/ootopiaLogo.jpeg
     members: [florian_fournier]
     websites: https://www.ootopia.org/
     private: 0

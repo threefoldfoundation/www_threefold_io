@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/greener_tech_strategy.png
     image_caption: ThreeFold Coverage in Bankless Times
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold’s Green Technology Strategy to a Fairer, More Sustainable World**

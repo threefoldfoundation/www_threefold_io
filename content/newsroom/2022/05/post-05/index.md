@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/may_2022_product_updates.png
     image_caption: May 2022 Product Updates
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

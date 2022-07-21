@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid_utilization_plan.png
     image_caption: Grid Utilization Plan Part 1
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 The ThreeFold Foundation’s primary goal is to achieve **sustainable and organic growth of the ThreeFold Grid**.

@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/tfgrid230live.png
     image_caption: TF Grid 2.3.0 is live!
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 

@@ -12,7 +12,7 @@ extra:
     rank: 2
     imgPath: images/dash.png
     image_caption: dash
-    partner_logo: /images/dashLogo.png
+    partner_logo: images/dashLogo.png
     members: [felix_mago, sascha_jochum]
     websites: https://www.dash.org/
     private: 0

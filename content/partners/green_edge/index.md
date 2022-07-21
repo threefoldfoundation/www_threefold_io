@@ -12,7 +12,7 @@ extra:
     rank: 3
     imgPath: images/greenedge.png
     image_caption: green_edge
-    partner_logo: /images/green_edgeLogo.png
+    partner_logo: images/green_edgeLogo.png
     members: [mariza_wellesley_wesley, michael_wellesley_wesley]
     websites: https://green-edge.net/
     private: 0

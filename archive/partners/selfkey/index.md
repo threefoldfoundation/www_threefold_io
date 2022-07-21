@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/selfkey.png
     image_caption: selfkey
-    partner_logo: /images/selfkeyLogo.png
+    partner_logo: images/selfkeyLogo.png
     members: []
     websites: https://selfkey.org
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![selfkey](/images/selfkey2.jpg)
+![selfkey](images/selfkey2.jpg)
 
 <br/>
 

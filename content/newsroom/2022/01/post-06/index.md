@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/deepdives45.png
     image_caption: Deep Dives 4 & 5
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

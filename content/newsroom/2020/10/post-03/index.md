@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/oct2020communityupdate.png
     image_caption: ThreeFold's October 2020 community update is here
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 

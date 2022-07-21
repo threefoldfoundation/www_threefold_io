@@ -11,7 +11,7 @@ extra:
     rank: 5
     imgPath: images/incubaid.jpg
     image_caption: Incubaid
-    partner_logo: /images/incubaidLogo.png
+    partner_logo: images/incubaidLogo.png
     members: []
     websites: https://btc-alpha.com/en/
     private: 0

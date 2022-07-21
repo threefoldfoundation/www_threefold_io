@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/consensus_2022.png
     image_caption: ThreeFold at Consensus 2022
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

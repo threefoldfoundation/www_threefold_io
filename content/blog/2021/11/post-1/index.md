@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Sam Taggart
-  authorImg: /images/people/sam_taggart.jpg
+  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/tech_update_admin_portal.png
   
 ---
@@ -41,7 +41,7 @@ Create an account on the TF Chain and a digital twin to start smart contracting 
 
 <br/>
 
-![tf_chain_ui](/images/blog/tf_chain_ui.png) 
+![tf_chain_ui](images/blog/tf_chain_ui.png) 
 
 <br/>
 
@@ -49,11 +49,11 @@ Operate a bridge between Stellar and TF Chain on Parity Substrate (deposit TFT f
 
 <br/>
 
-![tf_chain_deposit](/images/blog/tf_chain_deposit.png)
+![tf_chain_deposit](images/blog/tf_chain_deposit.png)
 
 <br/>
 
-![tf_chain_withdraw](/images/blog/tf_chain_withdraw.png) 
+![tf_chain_withdraw](images/blog/tf_chain_withdraw.png) 
 
 <br/>
 
@@ -61,7 +61,7 @@ For farmers: create and manage your farm(s), provide IPv4 addresses available fo
 
 <br/>
 
-![tf_chain_your_farm](/images/blog/tf_chain_your_farm.png) 
+![tf_chain_your_farm](images/blog/tf_chain_your_farm.png) 
 
 <br/>
 
@@ -69,7 +69,7 @@ The portal also links to the new capacity explorer, which we'll share more about
 
 <br/>
 
-![tf_chain_node_resources](/images/blog/tf_chain_node_resources.png) 
+![tf_chain_node_resources](images/blog/tf_chain_node_resources.png) 
 
 ## How is this an improvement over the old process?
 

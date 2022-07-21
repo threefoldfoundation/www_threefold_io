@@ -13,7 +13,7 @@ extra:
     rank: 5
     imgPath: images/placeholder.jpg
     image_caption: threefold_love
-    partner_logo: /images/logo_threefold_love.png
+    partner_logo: images/logo_threefold_love.png
     members: [olivia_jurado]
     websites: https://www.threefold.love/
     private: 0

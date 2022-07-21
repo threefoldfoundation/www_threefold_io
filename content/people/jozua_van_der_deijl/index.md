@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/"}
   organizations: ["foundation"]
-  imgPath: /images/people/jozua_van_der_deijl.jpeg
+  imgPath: images/people/jozua_van_der_deijl.jpeg
 taxonomies:
   memberships:
     [cloud,partner]

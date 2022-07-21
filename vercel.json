@@ -18,7 +18,7 @@
       ]
     },
     {
-      "source": "/images/(.*)",
+      "source": "images/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/images/icons/(.*)",
+      "source": "images/icons/(.*)",
       "headers": [
         {
           "key": "Cache-Control",

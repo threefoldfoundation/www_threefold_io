@@ -12,7 +12,7 @@ taxonomies:
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Sabrina Sadik
-  authorImg: /images/people/sabrina_sadik.jpg
+  authorImg: images/people/sabrina_sadik.jpg
   imgPath: images/blog/escape_great_hack.png
   
 ---

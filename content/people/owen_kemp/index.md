@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/owen-kemp-b6b5a113/" }
   organizations: ["ThreefoldTech"]
-  imgPath: /images/people/owen_kemp.jpeg
+  imgPath: images/people/owen_kemp.jpeg
 taxonomies:
   memberships:
     [tech, cofounders, wisdom_council, foundation]

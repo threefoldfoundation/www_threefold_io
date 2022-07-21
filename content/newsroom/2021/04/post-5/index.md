@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid26testnetnews.png
     image_caption: Grid 2.6 live on testnet
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 What you'll find in this exciting release (live on testnet): Updates to the eVDC, 3Bot SDK, Quantum Safe Filesystem, Zero-OS, and Digital Twin!

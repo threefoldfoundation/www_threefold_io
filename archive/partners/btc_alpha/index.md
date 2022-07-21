@@ -13,7 +13,7 @@ extra:
     rank: 5
     imgPath: images/btc_alpha.png
     image_caption: btc_alpha
-    partner_logo: /images/btc_alphaLogo.png
+    partner_logo: images/btc_alphaLogo.png
     members: []
     websites: https://btc-alpha.com/en/
     private: 0
@@ -22,7 +22,7 @@ extra:
 
 <br/>
 
-![btc_alpha](/images/btc_alpha2.png)
+![btc_alpha](images/btc_alpha2.png)
 
 <br/>
 

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/q2_batch_sold_out.png
     image_caption: Q2 Batch Sold Out
     authors: [roel_van_sabben]
-    authorImg: /images/people/roel_van_sabben.jpg
+    authorImg: images/people/roel_van_sabben.jpg
 ---
 
 😮 Wow!😮

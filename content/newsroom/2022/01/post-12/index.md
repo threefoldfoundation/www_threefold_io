@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/potential_of_tft.png
     image_caption: Potential of TFT
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 

@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/jeroen_conversation.png
     image_caption: A Conversation with Jeroen Douglas
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 👂 **Lend us your ear!**

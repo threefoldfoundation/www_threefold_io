@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/titan_v21_preorder_now.png
     image_caption: Pre-Order Your Titan v2.1 Now
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 In the last 24 hours, we've had Titan v2.1 3Node pre-orders from all corners of the globe – six of the seven continents. (Anybody know anyone in Antarctica?)

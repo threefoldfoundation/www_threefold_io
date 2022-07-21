@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tf_grid_24_update.png
     image_caption: Grid 2.4 Testing Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Our **TF Grid 2.4** has now been on testnet for over a month and we are getting good test results – but we need more!

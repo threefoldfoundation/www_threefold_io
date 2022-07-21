@@ -7,7 +7,7 @@ title: "DAO's"
 template: "layouts/horizontal_section.html"
 page_template: "blogPage.html"
 extra:
-  imgPath: /images/threefold_img2.png
+  imgPath: images/threefold_img2.png
 ---
 
 ## Decentralized Autonomous Organizations

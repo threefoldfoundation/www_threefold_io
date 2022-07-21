@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/odysseymomentum.jpeg
     image_caption: ThreeFold @ Odyssey Momentum 2020!
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Quick update!

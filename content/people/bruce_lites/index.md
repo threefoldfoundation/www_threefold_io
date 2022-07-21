@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/bruce-lites-74555811/"}
   organizations: ["foundation"]
-  imgPath: /images/people/bruce_lites.jpeg
+  imgPath: images/people/bruce_lites.jpeg
 taxonomies:
   memberships:
     [ambassadors]

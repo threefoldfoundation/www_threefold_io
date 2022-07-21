@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid2_possibilities.png
     image_caption: Grid 2 Possibilities
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 While we **work to open testing of Grid 3.0** to our community, questions are coming in around how to get started testing the Grid today.

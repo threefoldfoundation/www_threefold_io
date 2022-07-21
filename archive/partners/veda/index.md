@@ -12,7 +12,7 @@ extra:
     rank: 1
     imgPath: images/veda.png
     image_caption: veda
-    partner_logo: /images/vedaLogo.png
+    partner_logo: images/vedaLogo.png
     members: [isabelle_peeters]
     websites: https://www.veda-egypt.com
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![veda](/images/veda2.jpg)
+![veda](images/veda2.jpg)
 
 <br/>
 

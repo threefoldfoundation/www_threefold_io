@@ -22,7 +22,7 @@ Expand the ThreeFold Grid – an open source peer-to-peer Internet infrastructur
 
 {% row(style="lean") %}
 
-![Image](/images/gride_header.png#mx-auto)
+![Image](images/gride_header.png#mx-auto)
 
 {% end %}
 
@@ -39,7 +39,7 @@ The People’s Internet is formed by Farmers, independent people that connect 3N
 
 |||
 
-![Image](/images/grid_scaled.png)
+![Image](images/grid_scaled.png)
 
 {% end %}
 
@@ -49,7 +49,7 @@ The People’s Internet is formed by Farmers, independent people that connect 3N
 
 {% row() %}
 
-![Image](/images/grid_people.jpg)
+![Image](images/grid_people.jpg)
 
 |||
 
@@ -75,7 +75,7 @@ All our code is made open source to energize open collaboration and promote univ
 
 |||
 
-![Image](/images/grid_new_internet.jpg)
+![Image](images/grid_new_internet.jpg)
 
 {% end %}
 
@@ -86,7 +86,7 @@ All our code is made open source to energize open collaboration and promote univ
 
 {% row(style="center narrow") %}
 
-![Image](/images/zero_os.png#medium)
+![Image](images/zero_os.png#medium)
 
 ## **INTRODUCING ZERO-OS**
 
@@ -111,7 +111,7 @@ TFT is the official medium of exchange for Internet capacity on the ThreeFold Gr
 
 |||
 
-![Image](/images/grid_decenter.jpg)
+![Image](images/grid_decenter.jpg)
 
 {% end %}
 

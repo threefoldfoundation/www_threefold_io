@@ -12,7 +12,7 @@ extra:
     rank: 5
     imgPath: images/safe_city.png
     image_caption: safe_city
-    partner_logo: /images/safe_cityLogo.png
+    partner_logo: images/safe_cityLogo.png
     members: [ali_omari]
     websites: https://www.safecity.com
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![safe_city](/images/safe_city2.png)
+![safe_city](images/safe_city2.png)
 
 <br/>
 

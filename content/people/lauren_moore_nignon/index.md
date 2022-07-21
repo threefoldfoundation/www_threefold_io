@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/laurennignon/"}
   organizations: ["aci,foundation"]
-  imgPath: /images/people/lauren_moore_nignon.png
+  imgPath: images/people/lauren_moore_nignon.png
 taxonomies:
   memberships:
     [aci_members]

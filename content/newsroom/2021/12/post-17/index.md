@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/threefold_tag_martech.png
     image_caption: ThreeFold and Take Action Global in the News
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold in the News** 🗞

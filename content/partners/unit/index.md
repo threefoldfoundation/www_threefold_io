@@ -12,7 +12,7 @@ extra:
   rank: 4
   imgPath: images/unit.png
   image_caption: unit
-  partner_logo: /images/unitLogo.png
+  partner_logo: images/unitLogo.png
   members: [michael_healy]
   websites: https://ventures.unit.network/
   private: 0

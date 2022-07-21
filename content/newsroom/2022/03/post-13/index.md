@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/threefold_coincheckup.png
     image_caption: ThreeFold CoinCheckup
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

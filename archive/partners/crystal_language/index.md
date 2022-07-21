@@ -12,7 +12,7 @@ extra:
   rank: 4
   imgPath: images/crystallang.png
   image_caption: crystal_language
-  partner_logo: /images/crystal_languageLogo.png
+  partner_logo: images/crystal_languageLogo.png
   members: [juan_wajnerman, brian_j_cardiff]
   websites: https://crystal-lang.org/
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![crystal_language](/images/crystallanguage2.png)
+![crystal_language](images/crystallanguage2.png)
 
 <br/>
 

@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/gep_2.png
     image_caption: GEP 2
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

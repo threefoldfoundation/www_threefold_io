@@ -11,7 +11,7 @@ taxonomies:
 extra:
   subtitle: ""
   author: Sam Taggart
-  authorImg: /images/people/sam_taggart.jpg
+  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/p2p_web3.png
   date: 2022-03-09
 ---

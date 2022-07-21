@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/peter-kraft-3775931"}
   organizations: ["foundation"]
-  imgPath: /images/people/peter_kraft.jpg
+  imgPath: images/people/peter_kraft.jpg
 taxonomies:
   memberships:
     [ambassadors]

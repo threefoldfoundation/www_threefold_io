@@ -12,7 +12,7 @@ extra:
    rank: 2
    imgPath: images/harmony.png
    image_caption: harmony
-   partner_logo: /images/harmony_logo.png
+   partner_logo: images/harmony_logo.png
    members: [li_jiang]
    websites: https://www.harmony.one/
    private: 0

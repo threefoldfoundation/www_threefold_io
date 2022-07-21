@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/terraform_grid3.png
     image_caption: TF Grid 3.0 Supports Terraform
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 An exciting element of our roadmap to ThreeFold Grid 3.0 is **the integration of Terraform into the TF Grid**.

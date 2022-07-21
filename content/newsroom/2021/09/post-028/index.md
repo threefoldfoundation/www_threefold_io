@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/zero_os_security_efficiency.png
     image_caption: TechTimes Zero OS
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **🗞 ThreeFold in the News 🗞**

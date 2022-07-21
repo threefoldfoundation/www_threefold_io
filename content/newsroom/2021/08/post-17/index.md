@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/road_to_grid_30.png
     image_caption: The road to Grid 3.0
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Today, we are super excited to share [the roadmap](https://circles.threefold.me/project/despiegk-product_tfgrid3_roadmap/kanban) to ThreeFold Grid v3.0!**

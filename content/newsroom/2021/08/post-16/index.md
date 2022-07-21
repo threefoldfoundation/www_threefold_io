@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/aug_18_ama.png
     image_caption: August 18th AMA
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Please join us for an Ask Me Anything this Wednesday at 17:00 CEST!**

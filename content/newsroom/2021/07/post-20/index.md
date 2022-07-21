@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/video_chat_demo.png
     image_caption: Video Chat Demo
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 👀 **Check out a little piece of what we're building at ThreeFold!**

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/better_solution_news.png
     image_caption: Building a Better Solution for Our Planet
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today’s Internet consumes approximately 10% of the world’s energy. This is not acceptable.

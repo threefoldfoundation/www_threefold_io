@@ -12,7 +12,7 @@ extra:
     rank: 4
     imgPath: images/spinn.png
     image_caption: spinn
-    partner_logo: /images/spinnLogo.png
+    partner_logo: images/spinnLogo.png
     members: [serge_de_warrimont]
     websites: https://www.spinn.com
     private: 0

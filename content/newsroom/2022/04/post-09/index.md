@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/threefold_cryptopotato.png
     image_caption: ThreeFold CryptoPotato
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 

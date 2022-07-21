@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/andy-brauer-617a902/?originalSubdomain=za"}
   organizations: ["foundation, farming"]
-  imgPath: /images/people/andrew_john_brauer.png
+  imgPath: images/people/andrew_john_brauer.png
 taxonomies:
   memberships:
     [ambassadors, grid_guardians]

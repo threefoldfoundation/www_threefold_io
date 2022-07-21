@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/klobeegadoo/"}
   organizations: ["foundation, farming"]
-  imgPath: /images/people/kevin_louis_obeegadoo.jpg
+  imgPath: images/people/kevin_louis_obeegadoo.jpg
 taxonomies:
   memberships:
     [ambassadors, grid_guardians]

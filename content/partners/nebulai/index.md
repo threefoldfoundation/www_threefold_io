@@ -12,7 +12,7 @@ extra:
     rank: 2
     imgPath: images/nebulai.png
     image_caption: nebulai
-    partner_logo: /images/nebulaiLogo.jpeg
+    partner_logo: images/nebulaiLogo.jpeg
     members: []
     websites: https://nebulai.com
     private: 0

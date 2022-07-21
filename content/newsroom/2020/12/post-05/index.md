@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/happyholidays2020.png
     image_caption: Happy Holidays!
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 

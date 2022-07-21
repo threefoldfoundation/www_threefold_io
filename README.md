@@ -49,7 +49,7 @@ content/careers/index.md or content/careers.md -> yoururl.com/careers
 The blog page is created by default if there is a blog folder in the content directory. The blog page consists of a featured post row, a paginated grid of posts sorted by recency, and a side nav of post categories and featured posts.
 
 Blog posts or News or people ,partners can have categories, and can be filtered by said categries. To add a new category simply define the posts category in the yaml header of the blog's index.md file. See /content/blog/2022/01/post-1/index.md for example. The side navigation and category based listing will be automatically updated.
-add all imeges related to your blog at folder in static/images/blog (please keep size of image less than 400k) you can use this site for resise online [tinypng](https://tinypng.com/)
+add all imeges related to your blog at folder in staticimages/blog (please keep size of image less than 400k) you can use this site for resise online [tinypng](https://tinypng.com/)
 
 To make a blog post featured, simply add an isFeatured attribute to the yaml header of the blog post. The most recent featured blog post wiil be displayed on the heading row of the blog page, and the rest will be displayed under featured posts in the side nav. See /content/blog/2019/03/post-5/index.md for implementation.
 

@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tf_grid3_reminder.png
     image_caption: All About ThreeFold Grid 3
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 ✍️ As the team is working hard on **bringing ThreeFold Grid 3 to mainnet**, we thought it would be a good time to remind of [What’s New in TF Grid 3.0](https://forum.threefold.io/t/what-is-new-in-tfgrid-3-0/1133)!

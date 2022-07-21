@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/how_to_use_chat_news.png
     image_caption: ThreeFold Two-Way Chat Update
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 Last month, we opened up **[a two-way chat](https://t.me/threefold)** here on Telegram for our community to have conversations about ThreeFold, ask questions, and offer feedback. If you haven’t joined yet, please do!

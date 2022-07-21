@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/european_cloud.png
     image_caption: European Cloud
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 
 ---
 

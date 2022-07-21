@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/jand2/" }
   organizations: ["ThreefoldTech"]
-  imgPath: /images/people/jan_de_landtsheer.jpeg
+  imgPath: images/people/jan_de_landtsheer.jpeg
 taxonomies:
   memberships:
     [tech, technology_council]

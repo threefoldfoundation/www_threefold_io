@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/tf_chain_and_billing.png
     image_caption: TF Chain and Updated Billing
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Introducing TF Chain and an updated (pay-as-you-go) billing model!**

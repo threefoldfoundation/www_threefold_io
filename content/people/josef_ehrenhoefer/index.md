@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://at.linkedin.com/in/josef-ehrenhoefer/de"}
   organizations: ["foundation"]
-  imgPath: /images/people/josef_ehrenhoefer.jpg
+  imgPath: images/people/josef_ehrenhoefer.jpg
 taxonomies:
   memberships:
     [ambassadors]

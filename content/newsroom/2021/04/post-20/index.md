@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/dispersed_hello_news.png
     image_caption: Say Hello to the Dispersed Storage
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 In most distributed systems, data is stored multiple times to guarantee redundancy. This leads to a lot of unnecessary overhead and is also not the most secure mechanism.

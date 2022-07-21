@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/join_our_team.png
     image_caption: Join Our Team
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 **We're looking for team members** – with operations and developer roles currently open! Join us on our mission to build a planet-positive and data sovereign Internet owned by the people.

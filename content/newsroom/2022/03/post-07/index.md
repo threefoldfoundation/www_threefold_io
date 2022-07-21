@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/limited_l2_spots.png
     image_caption: Limited L2 Spots
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
     
 ---

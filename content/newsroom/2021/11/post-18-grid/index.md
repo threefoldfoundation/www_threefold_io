@@ -10,7 +10,7 @@ extra:
     imgPath: images/newsroom/grid_301.png
     image_caption: What's new in Grid 3.0.1
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
 ---
 
 We have been, for some months, in testing mode on our ThreeFold Grid 3.X and today we are sharing **what’s new in TF Grid 3.0.1 – and the path to mainnet!** 🚨

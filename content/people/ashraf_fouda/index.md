@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ashraffouda/",
   Github: https://github.com/ashraffouda }
   organizations: ["foundation"]
-  imgPath: /images/people/ashraf_fouda.jpeg
+  imgPath: images/people/ashraf_fouda.jpeg
 taxonomies:
   memberships:
     [tech]

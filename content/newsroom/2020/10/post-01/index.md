@@ -9,7 +9,7 @@ extra:
     imgPath: images/newsroom/nov2020communitycall.png
     image_caption: Announcing the November 2020 community call
     authors: [sam_taggart]
-    authorImg: /images/people/sam_taggart.jpg
+    authorImg: images/people/sam_taggart.jpg
     
 ---
 
