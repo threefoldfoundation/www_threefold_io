@@ -1,14 +1,15 @@
 {%- set section = get_section(path="header/_index.md") %}
 {% set header_items = section.content | safe | split(pat="<li>") %}
 {% set base = config.base_url %}
+{% set logo_path = base ~ section.extra.logoPath %}
 
 <header id="header-container">
     <div class="z-10 bg-white fixed w-full top-0">
         <div class="relative z-50 shadow">
         <div class="mx-auto flex z-50 shadow justify-between items-center px-6 sm:px-4 md:px-6 py-2 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
             <div>
-                <a href="/" class="flex">
-                    <img class="w-20 h-auto sm:w-15" style="max-width: none;" src="{{section.extra.logoPath}}" alt="Ourworld Logo" />
+                <a href="{{base}}" class="flex">
+                    <img class="w-20 h-auto sm:w-15" style="max-width: none;" src="{{logo_path}}" alt="ThreeFold Logo" />
                 </a>
             </div>
             <div class="-mr-2 -my-2 lg:hidden">
@@ -39,8 +40,9 @@
                     <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                         {{link_label}}
                     </a>
-                    {% elif base is containing("/www_threefold_io") %}
-                    <a href="/www_threefold_io/{{link_path[1]}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                    {% elif current_url is containing("www_threefold_io") %}
+                    {% set path = current_url ~ link_path[1] %}
+                    <a href="{{path}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                         {{link_label}}
                     </a>
                     {% else %}
@@ -108,8 +110,9 @@
                   </ul>
                   <div class="rounded-full border-2 mt-1 border-gray-400">
                     <a href="https://gettft.com/gettft/" target="_blank" class="mt-2">
+                      {% set btn_path = base ~ section.extra.button_Path %}
                       <img
-                        src="{{ section.extra.button_Path }}"
+                        src="{{ btn_path }}"
                         class="mr-5"
                         style="max-width: none;"
                         alt=""
@@ -169,6 +172,11 @@
                                 {% set link_path = header_label | split(pat="%22") | safe%}
                                 {% if header_label is containing("http") %}
                                 <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    {{link_label}}
+                                </a>
+                                {% elif current_url is containing("www_threefold_io") %}
+                                {% set path = current_url ~ link_path[1] %}
+                                <a href="{{path}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                                     {{link_label}}
                                 </a>
                                 {% else %}
