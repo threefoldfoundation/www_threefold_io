@@ -9,7 +9,7 @@
     {{ body | trim_start_matches(pat="<p>") | safe}}
 </button>
 
-{% elif base is containing("www_threefold_io") %}
+{% elif base is containing("www_threefold_io") or path is containing("/") %}
 {% set btn_path = base ~ path %}
 <button onclick="window.location='{{btn_path}}'"
     class="leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:first:text-gray-500 hover:border-stone-200 hover:bg-stone-100 p-2 text-left">
