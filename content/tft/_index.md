@@ -9,7 +9,7 @@ insert_anchor_links: "left"
 
 {% row(style="center between margin") %}
 
-![Image](images/tft_header.png#medium)
+![Image](tft_header.png#medium)
 
 
 
@@ -21,11 +21,11 @@ The People’s Internet creates an entirely new decentralized Internet economy t
 
 <div class="relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row md:py-2 lg:py-2 lg:items-center text-center mx-auto justify-center">
 <a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
- <img class="logo_size mx-auto" src="images/cointelegraph_logo.png" alt ="cointelegraph">
+ <img class="logo_size mx-auto" src="cointelegraph_logo.png" alt ="cointelegraph">
  
  </a>
 
- <a class="center" href="https://www.coingecko.com/en/coins/threefold-token" rel="some text" target="_blank"><img class="logo_size mx-auto" src="images/coin_logo.png">
+ <a class="center" href="https://www.coingecko.com/en/coins/threefold-token" rel="some text" target="_blank"><img class="logo_size mx-auto" src="coin_logo.png">
  </a>
  </div>
 
@@ -52,7 +52,7 @@ Data has become the most valuable commodity on earth, the Internet infrastructur
 
 {% row(style="center") %}
 
-![Image](images/tft_125zb.png#medium)
+![Image](tft_125zb.png#medium)
 
 <br>
 
@@ -64,9 +64,9 @@ That is a number with 21 zeroes!
 
 |      |  |
 | ----------- | ----------- |
-| ![Image](images/tft_800.png#tft_img) | &nbsp;$800 billion of revenue is expected for the cloud market by 2025 |
-| ![Image](images/tft_70b.png#tft_img) | &nbsp;&nbsp;&nbsp;Over seventy billion new devices are expected to be online by 2025 |
-| ![Image](images/tft_1b.png#tft_img) | &nbsp;&nbsp;&nbsp;Over one billion people are still expected to get digital access by 2025|
+| ![Image](tft_800.png#tft_img) | &nbsp;$800 billion of revenue is expected for the cloud market by 2025 |
+| ![Image](tft_70b.png#tft_img) | &nbsp;&nbsp;&nbsp;Over seventy billion new devices are expected to be online by 2025 |
+| ![Image](tft_1b.png#tft_img) | &nbsp;&nbsp;&nbsp;Over one billion people are still expected to get digital access by 2025|
 
 
 
@@ -92,7 +92,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 <br>
 <br>
 
-![Image](images/tft_table.png#mx-auto)
+![Image](tft_table.png#mx-auto)
 
 <button>[How ThreeFold Compares With The Industry ](/blog/2021/10/post-7)</button>
 
@@ -104,7 +104,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 {% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)" style="margin") %}
 
-![Image](images/tft_currency.png#medium#absolute#sm_none)
+![Image](tft_currency.png#medium#absolute#sm_none)
 
 |||
 
@@ -138,7 +138,7 @@ TFT is a utility token that allows people to hold current and future Internet ca
 
 <!-- | Proof-Of-Capacity     |  |Proof-Of-Utilization  |
 | ----------- | ----------- | ----------- |
-| People earn TFT as monthly income for connecting Internet capacity to the ThreeFold Grid. | ![Image](images/tft_network.png) | People buy TFT to store data and run applications privately on a peer-to-peer Internet infrastructure.  -->
+| People earn TFT as monthly income for connecting Internet capacity to the ThreeFold Grid. | ![Image](tft_network.png) | People buy TFT to store data and run applications privately on a peer-to-peer Internet infrastructure.  -->
 
 
 ### Proof-Of-Capacity
@@ -147,7 +147,7 @@ People earn TFT as monthly income for connecting Internet capacity to the ThreeF
 
 |||
 
-![Image](images/tft_network.png)
+![Image](tft_network.png)
 
 
 |||
@@ -172,7 +172,7 @@ The ThreeFold blockchain automatically scans wallets and provides up-to 60% disc
 
 |||
 
-![Image](images/tft_loyalty.jpg)
+![Image](tft_loyalty.jpg)
 
 {% end %}
 
@@ -183,7 +183,7 @@ The ThreeFold blockchain automatically scans wallets and provides up-to 60% disc
 
 {% row(style="margin") %}
 
-![Image](images/tft_utility.jpg)
+![Image](tft_utility.jpg)
 
 |||
 
@@ -208,7 +208,7 @@ Burning permanently removes TFT from the circulating supply when the ThreeFold G
 
 |||
 
-![Image](images/tft_burn.jpg)
+![Image](tft_burn.jpg)
 
 {% end %}
 
@@ -224,17 +224,17 @@ Get TFT today and participate in the realization of a truly decentralized world.
 
 <div class="quicklinks">
 <a class="center" href="https://gettft.com/gettft/" rel="some text" target="_blank"> 
- <img class="py-2 mr-2 my-2 px-5 border-2 border-black" src="images/get_tft_button.png" alt ="cointelegraph">
+ <img class="py-2 mr-2 my-2 px-5 border-2 border-black" src="get_tft_button.png" alt ="cointelegraph">
  
  </a>
 
 <a class="center" href="https://pancakeswap.finance/swap?exactField=output&exactAmount=100&outputCurrency=0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf&inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56?use=v2" rel="some text" target="_blank"> 
- <img class="py-2 mr-2 px-5 border-2 border-black" src="images/pancack_button.png" alt ="cointelegraph">
+ <img class="py-2 mr-2 px-5 border-2 border-black" src="pancack_button.png" alt ="cointelegraph">
  
  </a>
 
  <a class="center" href="https://app.1inch.io/#/56/swap/BNB/TFT" rel="some text" target="_blank"> 
- <img class="py-2 my-2 mr-2 px-5 border-2 border-black" src="images/iinch_button.png" alt ="cointelegraph">
+ <img class="py-2 my-2 mr-2 px-5 border-2 border-black" src="iinch_button.png" alt ="cointelegraph">
  
  </a>
  </div>
@@ -243,7 +243,7 @@ Get TFT today and participate in the realization of a truly decentralized world.
 
 {% row(style="lean") %}
 
-![Image](images/tft_join_internet.png#mx-auto)
+![Image](tft_join_internet.png#mx-auto)
 
 
 
@@ -264,7 +264,7 @@ Get TFT today and participate in the realization of a truly decentralized world.
 ## **BELIEVERS IN TFT**
 
 
-![Image](images/ourpartners.png#mx-auto)
+![Image](ourpartners.png#mx-auto)
 
 <button>[Check All Partners](/partners)</button>
 
