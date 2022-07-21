@@ -1,7 +1,7 @@
 {%- set section = get_section(path="header/_index.md") %}
 {% set header_items = section.content | safe | split(pat="<li>") %}
 {% set base = config.base_url %}
-{% set logo_path = base ~ section.extra.logoPath %}
+{% set logo_path = base ~ '/' ~ section.extra.logoPath %}
 
 <header id="header-container">
     <div class="z-10 bg-white fixed w-full top-0">
@@ -40,7 +40,7 @@
                     <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                         {{link_label}}
                     </a>
-                    {% elif header_label is starting_with("/") %}
+                    {% elif current_url is starting_with("www_threefold_io") %}
                     {% set path = current_url ~ link_path[1] %}
                     <a href="{{path}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                         {{link_label}}
@@ -174,7 +174,7 @@
                                 <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                     {{link_label}}
                                 </a>
-                                {% elif header_label is starting_with("/") %}
+                                {% elif current_url is starting_with("www_threefold_io") %}
                                 {% set path = current_url ~ link_path[1] %}
                                 <a href="{{path}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                                     {{link_label}}
