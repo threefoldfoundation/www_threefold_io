@@ -10,7 +10,7 @@ insert_anchor_links: "left"
 
 {% row(style="margin") %}
 
-![Image](images/farm_header.jpg)
+![Image](farm_header.jpg)
 
 |||
 
@@ -42,21 +42,21 @@ The People’s Internet is powered by an entirely new incentive model made possi
 
 {% row(style="center") %}
 
-![Image](images/plug_1.png#mx-auto)
+![Image](plug_1.png#mx-auto)
 <br>
 
 All you need to get started is a 3Node, electricity and a network connection.
 
 |||
 
-![Image](images/offer_2.png#mx-auto)
+![Image](offer_2.png#mx-auto)
 <br>
 
 The 3Node’s Internet capacity is automatically registered in the blockchain.
 
 |||
 
-![Image](images/Earn_3.png#mx-auto)
+![Image](Earn_3.png#mx-auto)
 <br>
 
 Every month, you earn TFT for keeping the 3Node connected to the network.
@@ -83,7 +83,7 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 <br>
 
-![Image](images/farm_map.png#mx-auto)
+![Image](farm_map.png#mx-auto)
 
 <button>[Explore ThreeFold Grid Capacity](https://explorer.threefold.io/all)</button>
 
@@ -107,7 +107,7 @@ The Titan was designed to fit in any home or office. It's compact, optimized for
 
 |||
 
-![Image](images/farm_titan.jpg)
+![Image](farm_titan.jpg)
 
 {% end %}
 
@@ -116,7 +116,7 @@ The Titan was designed to fit in any home or office. It's compact, optimized for
 
 {% row(bgColor="#f2f2f2" style="narrow margin") %}
 
-![Image](images/farm_do_it.png)
+![Image](farm_do_it.png)
 
 
 |||
@@ -154,17 +154,17 @@ Farmers earn TFT according to the amount of Internet capacity their 3Nodes conne
 
 {% row(style="center") %}
 
-![Image](images/farm_capacity.png#mx-auto)
+![Image](farm_capacity.png#mx-auto)
 
 TFT is minted only when new Internet capacity is added to the ThreeFold Grid.
 
 |||
 
-![Image](images/farm_center.png#mx-auto)
+![Image](farm_center.png#mx-auto)
 
 |||
 
-![Image](images/farm_tft.png#mx-auto)
+![Image](farm_tft.png#mx-auto)
 
 Farmers earn the TFT after meeting the minimum uptime as proof-of-capacity.
 
@@ -183,7 +183,7 @@ The ThreeFold Grid is the only Internet infrastructure that can scale to the far
 
 <br>
 
-![Image](images/farm_value_tft.jpg#large)
+![Image](farm_value_tft.jpg#large)
 
 {% end %}
 
