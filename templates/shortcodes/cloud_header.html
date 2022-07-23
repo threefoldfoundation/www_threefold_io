@@ -1,3 +1,5 @@
+{% set base = config.base_url %}
+
 <div class="flex flex-wrap text-center mx-4 lg:pt-4 mt-10 lg:mx-10  lg:mt-4 pb-10">
     <div class="grid grid-cols-1 md:grid-cols-3 mx-auto items-center">
         <div class="w-full mb-4 border-b border-gray-600">
@@ -6,7 +8,13 @@
                 class="text-5xl font-extrabold uppercase">Store</a>
         </div>
         <div class="mb-4">
+            {% if base is containing("www_threefold_io") %}
+            {% set path = base ~ '/' ~ 'images/cloud_header_seprated.png' %}
+
+            <img class="mx-auto sm:w-1/2 lg:w-full" src="{{path}}" alt="TF Cloud" />
+            {% else %}
             <img class="mx-auto sm:w-1/2 lg:w-full" src="images/cloud_header_seprated.png" alt="TF Cloud" />
+            {% endif %}
         </div>
         <div class="w-full mb-4 border-b border-gray-600">
             <a href="https://library.threefold.me/info/manual/#/manual__weblets_home" target="_blank"

@@ -3,7 +3,7 @@ title: "Header"
 insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
-  logoPath: "/images/tft_log.svg"
+  logoPath: "images/tft_log.svg"
   button_Path: "/images/gettft_white.png"
 ---
 
