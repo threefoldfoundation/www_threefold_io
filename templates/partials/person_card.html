@@ -1,8 +1,8 @@
 <div class="flex flex-col px-0 sm:px-4 pb-2">
     <a href="{{post.permalink}}" class="border-0 text-gray-700 hover:!text-gray-700 font-normal text-left">
         {% set url = '/' ~ post.relative_path | replace(from='_', to='-') | replace(from='index.md', to=post.extra.imgPath) %}
-        {{url}}
-        <img src="{{url}}" alt="img here" />
+        {% set url2 = get_url(path='/' ~ post.relative_path | replace(from='_', to='-') | replace(from='index.md', to=post.extra.imgPath)) %}
+        <img src="{{url2}}" alt="img here" />
         <div>
             <h2 class="text-2xl">{{post.title}}</h2>
             <div class="text-md text-gray-700 text-left line-clamp-3 text-ellipsis">
