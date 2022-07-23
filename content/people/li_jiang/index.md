@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/lijiang2087/"}
   organizations: ["foundation"]
-  imgPath: images/people/li_jiang.jpeg
+  imgPath: li_jiang.jpeg
 taxonomies:
   memberships:
     [partner]

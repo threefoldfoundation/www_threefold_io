@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/rajindergrewal/" }
   organizations: ["foundation, twin"]
-  imgPath: images/people/rajinder_singh_grewal.jpeg
+  imgPath: rajinder_singh_grewal.jpeg
 taxonomies:
   memberships:
     [foundation]

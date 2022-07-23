@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/garryveale/"}
   organizations: ["foundation"]
-  imgPath: images/people/guy_dhauwers.png
+  imgPath: guy_dhauwers.png
 taxonomies:
   memberships:
     [ambassadors]

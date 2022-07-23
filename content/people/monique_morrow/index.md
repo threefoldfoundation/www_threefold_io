@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/moniquejeannemorrow/",
   Github: https://github.com/ehab-hassan }
   organizations: ["aci,foundation"]
-  imgPath: images/people/monique_morrow.png
+  imgPath: monique_morrow.png
 taxonomies:
   memberships:
     [aci_members]

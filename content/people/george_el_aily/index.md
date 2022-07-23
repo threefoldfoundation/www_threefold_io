@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/george-el-aily/"}
   organizations: ["foundation"]
-  imgPath: images/people/george_el_aily.jpg
+  imgPath: george_el_aily.jpg
 taxonomies:
   memberships:
     [partner]

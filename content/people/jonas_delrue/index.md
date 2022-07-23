@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/jonas-delrue//",
   Github: https://github.com/jdelrue }
   organizations: ["foundation, twin]"]
-  imgPath: images/people/jonas_delrue.jpeg
+  imgPath: jonas_delrue.jpeg
 taxonomies:
   memberships:
     [tech]

@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/arie-ben-david-aa31219/"}
   organizations: ["aci,foundation"]
-  imgPath: images/people/arie_ben_david.jpg
+  imgPath: arie_ben_david.jpg
 taxonomies:
   memberships:
     [aci_members]

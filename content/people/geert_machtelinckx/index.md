@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/geert-machtelinckx-a72453b/",
   Github: https://github.com/gmachtel }
   organizations: [foundation, farming]
-  imgPath: images/people/geert_machtelinckx.jpg
+  imgPath: geert_machtelinckx.jpg
 taxonomies:
   memberships:
     [foundation, tech, farmers]

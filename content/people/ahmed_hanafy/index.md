@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ahmed-hanafy-7250/",
   Github: https://github.com/AhmedHanafy725 }
   organizations: ["foundation"]
-  imgPath: images/people/ahmed_hanafy.png
+  imgPath: ahmed_hanafy.png
 taxonomies:
   memberships:
     [tech]

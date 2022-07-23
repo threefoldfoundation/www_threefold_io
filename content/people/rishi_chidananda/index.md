@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { }
   organizations: ["foundation, aci"]
-  imgPath: images/people/rishi_chidananda.jpeg
+  imgPath: rishi_chidananda.jpeg
 taxonomies:
   memberships:
     [ambassadors, wisdom_council]

@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/trey-rutledge-99220943/"}
   organizations: ["foundation"]
-  imgPath: images/people/trey_rutledge.jpeg
+  imgPath: trey_rutledge.jpeg
 taxonomies:
   memberships:
     [partner]

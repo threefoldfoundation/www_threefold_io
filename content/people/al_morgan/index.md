@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/al-morgan-santacruz/"}
   organizations: ["foundation"]
-  imgPath: images/people/al_morgan.png
+  imgPath: al_morgan.png
 taxonomies:
   memberships:
     [ambassadors]

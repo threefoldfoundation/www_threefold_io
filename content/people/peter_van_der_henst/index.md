@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/petervanderhenst/" }
   organizations: ["ThreefoldTech"]
-  imgPath: images/people/peter_van_der_henst.png
+  imgPath: peter_van_der_henst.png
 taxonomies:
   memberships:
     [foundation, tech]

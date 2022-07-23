@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/roelwolfert/"}
   organizations: ["aci,foundation"]
-  imgPath: images/people/roel_wofert.png
+  imgPath: roel_wofert.png
 taxonomies:
   memberships:
     [aci_members]

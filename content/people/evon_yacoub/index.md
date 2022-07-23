@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/evon-yacoub-phri-b6028025/"}
   organizations: ["foundation"]
-  imgPath: images/people/evon_yacoub.jpg
+  imgPath: evon_yacoub.jpg
 taxonomies:
   memberships:
     [tech]

@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/sabrina-sadik-449758132/" }
   organizations: ["ThreefoldTech"]
-  imgPath: images/people/sabrina_sadik.jpg
+  imgPath: sabrina_sadik.jpg
 taxonomies:
   memberships:
     [foundation, farming]

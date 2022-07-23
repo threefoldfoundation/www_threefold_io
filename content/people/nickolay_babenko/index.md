@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/babenkonickolay/",
   Github: https://github.com/nbabenko }
   organizations: [foundation, twin]
-  imgPath: images/people/nickolay_babenko.jpg
+  imgPath: nickolay_babenko.jpg
 taxonomies:
   memberships:
     [foundation, cofounders, twin, grid_guardians]

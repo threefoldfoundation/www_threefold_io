@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/isabelle-peeters-54305589/"}
   organizations: ["foundation, aci"]
-  imgPath: images/people/isabelle_peeters.png
+  imgPath: isabelle_peeters.png
 taxonomies:
   memberships:
     [ambassadors, aci_members]

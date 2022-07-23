@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/peter-nashaat-33966831/"}
   organizations: ["foundation"]
-  imgPath: images/people/peter_nashaat.jpg
+  imgPath: peter_nashaat.jpg
 taxonomies:
   memberships:
     [tech]

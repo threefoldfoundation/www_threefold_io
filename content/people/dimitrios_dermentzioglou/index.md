@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { }
   organizations: ["foundation, aci"]
-  imgPath: images/people/dimitrios_dermentzioglou.jpg
+  imgPath: dimitrios_dermentzioglou.jpg
 taxonomies:
   memberships:
     [ambassadors, wisdom_council, aci_members]

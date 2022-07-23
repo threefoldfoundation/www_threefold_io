@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/jonas-de-zitter-15300911/"}
   organizations: ["foundation"]
-  imgPath: images/people/jonas_de_zitter.png
+  imgPath: jonas_de_zitter.png
 taxonomies:
   memberships:
     [ambassadors]

@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/raphael-zoescher-3a2b9657",
   Github: https://github.com/ehab-hassan }
   organizations: ["foundation"]
-  imgPath: images/people/raphael_tobias_zoscher.png
+  imgPath: raphael_tobias_zoscher.png
 taxonomies:
   memberships:
     [ambassadors]

@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/nisha-grimes-8a61a689/"}
   organizations: ["foundation, farming"]
-  imgPath: images/people/nisha_grimes.png
+  imgPath: nisha_grimes.png
 taxonomies:
   memberships:
     [ambassadors, farmers, grid_guardians]

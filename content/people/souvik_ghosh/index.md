@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/souvik-ghosh-aaa30470/"}
   organizations: ["foundation"]
-  imgPath: images/people/souvik-ghosh.jpg
+  imgPath: souvik-ghosh.jpg
 taxonomies:
   memberships:
     [tech]

@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/gerhard-wedenig-857b3a2/"}
   organizations: ["foundation"]
-  imgPath: images/people/gerhard_wedenig.jpg
+  imgPath: gerhard_wedenig.jpg
 taxonomies:
   memberships:
     [ambassadors]

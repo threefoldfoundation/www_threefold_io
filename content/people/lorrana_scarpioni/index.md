@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/lorrana-scarpioni/"}
   organizations: ["aci,foundation"]
-  imgPath: images/people/lorrana_scarpioni.jpg
+  imgPath: lorrana_scarpioni.jpg
 taxonomies:
   memberships:
     [aci_members]

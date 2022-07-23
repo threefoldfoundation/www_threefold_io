@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/winston-wenyan-ma-973a0/"}
   organizations: ["foundation, farming, cloud"]
-  imgPath: images/people/winston_ma.jpeg
+  imgPath: winston_ma.jpeg
 taxonomies:
   memberships:
     [ambassador, tech]

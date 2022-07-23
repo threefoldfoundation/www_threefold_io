@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/dylan-verstraete-229539a4/" }
   organizations: ["foundation"]
-  imgPath: images/people/dylan_verstraete.jpeg
+  imgPath: dylan_verstraete.jpeg
 taxonomies:
   memberships:
     [tech]

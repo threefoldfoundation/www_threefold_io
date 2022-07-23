@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/hans-merki-875b1b15/"}
   organizations: ["foundation"]
-  imgPath: images/people/hans_merki.png
+  imgPath: hans_merki.png
 taxonomies:
   memberships:
     [ambassadors]

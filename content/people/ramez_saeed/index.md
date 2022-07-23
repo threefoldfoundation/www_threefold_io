@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ramez-saeed-a9801819/"}
   organizations: ["foundation"]
-  imgPath: images/people/ramez_saeed.jpg
+  imgPath: ramez_saeed.jpg
 taxonomies:
   memberships:
     [tech]

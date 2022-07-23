@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/franz-josef-allmayer-0a76661b/"}
   organizations: ["aci,foundation"]
-  imgPath: images/people/franz_josef_allmayer.jpg
+  imgPath: franz_josef_allmayer.jpg
 taxonomies:
   memberships:
     [aci_members]

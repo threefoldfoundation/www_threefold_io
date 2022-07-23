@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/gertdespiegeleer/"}
   organizations: ["foundation"]
-  imgPath: images/people/gert_de_spiegeleer.jpg
+  imgPath: gert_de_spiegeleer.jpg
 taxonomies:
   memberships:
     [ambassadors]

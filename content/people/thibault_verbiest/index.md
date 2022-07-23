@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/thibaultverbiest/"}
   organizations: ["foundation, aci"]
-  imgPath: images/people/thibault_verbiest.jpg
+  imgPath: thibault_verbiest.jpg
 taxonomies:
   memberships:
     [aci_members, wisdom_council]
