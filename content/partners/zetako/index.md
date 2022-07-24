@@ -10,9 +10,9 @@ extra:
   countries: [Luxembourg, France, Portugal]
   cities: [Luxembourg, St. Florent, Lisbon]
   rank: 2
-  imgPath: images/zetako.png
+  imgPath: zetako.png
   image_caption: zetako
-  partner_logo: images/zetakoLogo.png
+  partner_logo: zetakoLogo.png
   members: [claus_rosenberg_gotthard]
   websites: https://zetako.ai
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![zetako](/images/zetako2.png)
+![zetako](zetako2.png)
 
 <br/>
 

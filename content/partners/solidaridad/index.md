@@ -20,16 +20,16 @@ extra:
     ]
   cities: []
   rank: 2
-  imgPath: images/solidaridad.jpg
+  imgPath: solidaridad.jpg
   image_caption: solidaridad
-  partner_logo: images/solidaridadLogo.png
+  partner_logo: solidaridadLogo.png
   members: [jeroen_douglas]
   websites: https://www.solidaridadnetwork.org/
   private: 0
   linkedin: https://www.linkedin.com/company/solidaridad/
 ---
 
-![img](/images/solidaridad2.jpg)
+![img](solidaridad2.jpg)
 
 <br/>
 
@@ -77,7 +77,7 @@ First focus will be on creating a marketplace for farming data collected by farm
 
 <br/>
 
-![img](/images/solidaridad_app.jpg)
+![img](solidaridad_app.jpg)
 
 <br/>
 
