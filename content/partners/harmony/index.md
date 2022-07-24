@@ -10,9 +10,9 @@ extra:
    countries: [USA]
    cities: [San Francisco]
    rank: 2
-   imgPath: images/harmony.png
+   imgPath: harmony.png
    image_caption: harmony
-   partner_logo: images/harmony_logo.png
+   partner_logo: harmony_logo.png
    members: [li_jiang]
    websites: https://www.harmony.one/
    private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![harmony](/images/harmony2.png)
+![harmony](harmony2.png)
 
 <br/>
 

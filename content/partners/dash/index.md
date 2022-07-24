@@ -10,9 +10,9 @@ extra:
     countries: [Global]
     cities: [Global]
     rank: 2
-    imgPath: images/dash.png
+    imgPath: dash.png
     image_caption: dash
-    partner_logo: images/dashLogo.png
+    partner_logo: dashLogo.png
     members: [felix_mago, sascha_jochum]
     websites: https://www.dash.org/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![dash](/images/dash2.png)
+![dash](dash2.png)
 
 <br/>
 

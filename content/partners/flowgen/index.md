@@ -10,8 +10,8 @@ extra:
     countries: [Switzerland]
     cities: [Zug]
     rank: 3
-    imgPath: images/flowgen.png
-    partner_logo: images/flowgenLogo.png
+    imgPath: flowgen.png
+    partner_logo: flowgenLogo.png
     image_caption: flowgen
     members: [tom_clausen]
     websites: https://www.flowgen.com/

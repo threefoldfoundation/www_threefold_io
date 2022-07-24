@@ -10,9 +10,9 @@ extra:
     countries: [Brazil, US]
     cities: [San Francisco]
     rank: 4
-    imgPath: images/beliive.png
+    imgPath: beliive.png
     image_caption: beliive
-    partner_logo: images/beliiveLogo.png
+    partner_logo: beliiveLogo.png
     members: [lorrana_scarpioni]
     websites: https://beliive.com
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![beliive](/images/beliive2.png)
+![beliive](beliive2.png)
 
 <br/>
 
@@ -45,7 +45,7 @@ We have created a platform where low-income and unemployed people can exchange t
 
 <br/>
 
-![beliive](/images/beliive_app.jpg)
+![beliive](beliive_app.jpg)
 
 <br/>
 

@@ -10,9 +10,9 @@ extra:
     countries: [The Netherlands]
     cities: []
     rank: 5
-    imgPath: images/crystalhome.png
+    imgPath: crystalhome.png
     image_caption: crystal_home
-    partner_logo: images/crystal_homeLogo.png
+    partner_logo: crystal_homeLogo.png
     members: [bert_van_decraen]
     websites: https://www.crystalhome.org/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![crystalhome](/images/crystalhome2.jpg)
+![crystalhome](crystalhome2.jpg)
 
 <br/>
 

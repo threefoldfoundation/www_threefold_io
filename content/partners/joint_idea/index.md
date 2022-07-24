@@ -10,9 +10,9 @@ extra:
     countries: [Turkey]
     cities: [Istanbul]
     rank: 5
-    imgPath: images/jointidea.png
+    imgPath: jointidea.png
     image_caption: joint_idea
-    partner_logo: images/joint_ideaLogo.png
+    partner_logo: joint_ideaLogo.png
     members: [markus_lehto]
     websites: https://www.lifeworkslabs.com
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![jointidea](/images/jointidea2.jpg)
+![jointidea](jointidea2.jpg)
 
 <br/>
 

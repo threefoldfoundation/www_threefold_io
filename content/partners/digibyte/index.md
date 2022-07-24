@@ -10,9 +10,9 @@ extra:
     countries: [Global]
     cities: [Global]
     rank: 2
-    imgPath: images/digibyte.jpg
+    imgPath: digibyte.jpg
     image_caption: digibyte
-    partner_logo: images/digibyteLogo.png
+    partner_logo: digibyteLogo.png
     members: [hans_koning, rudy_bouwman, rutger_krijnen]
     websites: https://digibyte.io/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![digibyte](/images/digibyte.jpg)
+![digibyte](digibyte.jpg)
 
 <br/>
 

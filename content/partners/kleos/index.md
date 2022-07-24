@@ -10,9 +10,9 @@ extra:
     countries: [Australia, Kingdom of Bahrein, United Kingdom, Cyprus, Lebanon, France, Mozambique, DRC & Ghana]
     cities: [Sydney, Manama, Southport, Cyprus, Hazmieh, Cedex]
     rank: 3
-    imgPath: images/kleos.png
+    imgPath: kleos.png
     image_caption: kleos
-    partner_logo: images/kleosLogo.png
+    partner_logo: kleosLogo.png
     members: [george_el_aily]
     websites: https://www.kleos.net
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![kleos](/images/kleos2.png)
+![kleos](kleos2.png)
 
 <br/>
 

@@ -8,9 +8,9 @@ taxonomies:
   partners-category: [aci,foundation]
   tags: [experience]
 extra:
-  imgPath: images/artheon.png
+  imgPath: artheon.png
   image_caption: artheon
-  partner_logo: images/artheonLogo.png
+  partner_logo: artheonLogo.png
   members: [vasily_gnuchev]
   websites: https://artheon.co/
   private: 0
@@ -22,7 +22,7 @@ extra:
 
 <br/>
 
-![artheon](/images/artheon2.jpg)
+![artheon](artheon2.jpg)
 
 <br/>
 

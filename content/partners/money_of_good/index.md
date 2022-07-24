@@ -10,9 +10,9 @@ extra:
   countries: [Germany]
   cities: [Munich]
   rank: 4
-  imgPath: images/money_of_good.png
+  imgPath: money_of_good.png
   image_caption: money_of_good
-  partner_logo: images/money_of_goodLogo.png
+  partner_logo: money_of_goodLogo.png
   members: [marcelo_bohrer]
   websites: https://www.thefutureofgood.info
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![money_of_good](/images/money_of_good2.jpg)
+![money_of_good](money_of_good2.jpg)
 
 <br/>
 

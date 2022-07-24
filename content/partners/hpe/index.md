@@ -10,9 +10,9 @@ extra:
     countries: [California, US]
     cities: [San Jose]
     rank: 2
-    imgPath: images/hpe.png
+    imgPath: hpe.png
     image_caption: hpe
-    partner_logo: images/hpeLogo.png
+    partner_logo: hpeLogo.png
     members: []
     websites: https://www.hpe.com/us/en/about.html
     tags: [infrastructure, technology]
@@ -22,7 +22,7 @@ extra:
 
 <br/>
 
-![hpe](/images/hpe2.jpg)
+![hpe](hpe2.jpg)
 
 <br/>
 

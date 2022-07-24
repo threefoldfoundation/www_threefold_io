@@ -10,9 +10,9 @@ extra:
     countries: [France, Switzerland]
     cities: []
     rank: 5
-    imgPath: images/cicolab.png
+    imgPath: cicolab.png
     image_caption: cicolab
-    partner_logo: images/cicolabLogo.png
+    partner_logo: cicolabLogo.png
     members: [lauren_moore_nignon, charles_blass]
     websites: https://www.collectiveintelligencecollaboratory.com
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![cicolab](/images/cicolab2.png)
+![cicolab](cicolab2.png)
 
 <br/>
 
