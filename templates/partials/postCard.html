@@ -1,3 +1,8 @@
+{% if post.taxonomies.people %}
+    {% set author_path = 'people/' ~ post.taxonomies.people[0] ~ '/index.md' %}
+    {% set author = get_page(path=author_path) %}
+{% endif %}
+
 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
   <div class="flex-1 border-b">
     <a href="{{ post.permalink }}" class="block">
@@ -21,12 +26,17 @@
       <div class="flex items-center">
         <div class="flex justify-between items-center">
           <ul class="list-none flex author-list mr-2">
-            <li class="author-list-item"><img alt="{{post.extra.author}}" src="{{post.extra.authorImg}}"
-                class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"></li>
+            {% if author %}
+                {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
+                <li class="author-list-item"><img alt="{{author.title}}" src="{{author_img}}"
+                    class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"></li>
+            {% endif %}
           </ul>
         </div>
         <div class="flex flex-col text-left leading-none uppercase">
-          <p class="text-gray-700 text-xs">{{ post.extra.author }}</p>
+            {% if author %}
+          <p class="text-gray-700 text-xs">{{ author.title }}</p>
+          {% endif %}
           <p class="text-gray-700 text-xs">
           <time datetime="{{post.date}}">
             {{ post.date | date(format="%B %e, %Y", timezone="America/Chicago") }}
