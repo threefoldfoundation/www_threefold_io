@@ -27,7 +27,7 @@
 
         <div>
             <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 xl:grid-cols-4 lg:max-w-none">
-                {%- for post in paginator.pages %} 
+                {%- for page in paginator.pages %} 
                     {% include "partials/person_card.html" %} 
                 {%- endfor %}
             </div>

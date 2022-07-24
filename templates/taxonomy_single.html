@@ -13,6 +13,7 @@
         {% include "partials/tagsSidebar.html" %}
         {% elif current_path is containing("memberships") %}
         {% include "partials/memberships.html" %}
+        {% elif current_path is containing("people") %}
         {% else %}
         {% include "partials/newsPosts.html" %}
         {% include "partials/newsSidebar.html" %}
