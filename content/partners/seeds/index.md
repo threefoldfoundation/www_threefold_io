@@ -10,9 +10,9 @@ extra:
     countries: [Global]
     cities: []
     rank: 4
-    imgPath: images/seeds.png
+    imgPath: seeds.png
     image_caption: seeds
-    partner_logo: images/seedsLogo.png
+    partner_logo: seedsLogo.png
     members: [rieki_cordon, nikolaus_heger, franz_josef_allmayer]
     websites: https://www.joinseeds.com/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![seeds](/images/seeds2.png)
+![seeds](seeds2.png)
 
 <br/>
 

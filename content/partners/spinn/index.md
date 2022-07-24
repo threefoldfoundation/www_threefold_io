@@ -10,9 +10,9 @@ extra:
     countries: [The Netherlands]
     cities: [Amsterdam]
     rank: 4
-    imgPath: images/spinn.png
+    imgPath: spinn.png
     image_caption: spinn
-    partner_logo: images/spinnLogo.png
+    partner_logo: spinnLogo.png
     members: [serge_de_warrimont]
     websites: https://www.spinn.com
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![spinn](/images/spinn_coffee_platform.png)
+![spinn](spinn_coffee_platform.png)
 
 <br/>
 
@@ -51,7 +51,7 @@ The coffeetrade is a massive **$362bn** worldwide market and there is a growing 
 
 <br/>
 
-![spinn](/images/coffe_lifecycle.png)
+![spinn](coffe_lifecycle.png)
 
 <br/>
 

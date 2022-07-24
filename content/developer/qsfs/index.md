@@ -2,7 +2,7 @@
 title: qsfs
 
 extra:
-  imgPath: images/qsfs.png
+  imgPath: qsfs.png
   button : Explore Other Developer Components
   link : /developer
 ---

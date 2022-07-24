@@ -10,9 +10,9 @@ extra:
     countries: []
     cities: []
     rank: 3
-    imgPath: images/mazraa.png
+    imgPath: mazraa.png
     image_caption: mazraa
-    partner_logo: images/mazraaLogo.png
+    partner_logo: mazraaLogo.png
     members: [adnan_fatayerji, gloria_anne]
     websites: https://www.mazraa.io
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![mazraa](/images/mazraa2.png)
+![mazraa](mazraa2.png)
 
 <br/>
 

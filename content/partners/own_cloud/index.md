@@ -11,9 +11,9 @@ extra:
     countries: [Germany]
     cities: [Nuremberg]
     rank: 1
-    imgPath: images/owncloud2.png
+    imgPath: owncloud2.png
     image_caption: own cloud
-    partner_logo: images/owncloud_logo.png
+    partner_logo: owncloud_logo.png
     members: [ingo_schildt]
     author: [ingo_schildt]
     websites: https://owncloud.com
@@ -23,7 +23,7 @@ extra:
 
 <br/>
 
-![owncloud](/images/owncloud1.png)
+![owncloud](owncloud1.png)
 
 <br/>
 

@@ -10,9 +10,9 @@ extra:
   countries: [Russia, Austria]
   cities: [Perm, Salzburg]
   rank: 4
-  imgPath: images/vlinder.png
+  imgPath: vlinder.png
   image_caption: vlinder
-  partner_logo: images/vlinderLogo.png
+  partner_logo: vlinderLogo.png
   members: [sergey_ivliev]
   websites: https://vlinder.app
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![vlinder](/images/vlinder2.png)
+![vlinder](vlinder2.png)
 
 <br/>
 

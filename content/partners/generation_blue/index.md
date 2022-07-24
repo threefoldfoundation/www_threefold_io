@@ -10,9 +10,9 @@ extra:
     countries: [Portugal]
     cities: []
     rank: 5
-    imgPath: images/genblue.png
+    imgPath: genblue.png
     image_caption: generation_blue
-    partner_logo: images/generation_blueLogo.png
+    partner_logo: generation_blueLogo.png
     members: [alan_laubsch]
     websites: https://generation.blue/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![generation_blue](/images/generationblue2.png)
+![generation_blue](generationblue2.png)
 
 <br/>
 

@@ -18,17 +18,17 @@ insert_anchor_links: "left"
 
 {% row(style="center between") %}
 
-[![Image](images/support_join.png)](https://t.me/threefold)
+[![Image](support_join.png)](https://t.me/threefold)
 
 
 |||
 
-[![Image](images/support_press.png)](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=press@threefold.io)
+[![Image](support_press.png)](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=press@threefold.io)
 
 
 |||
 
-[![Image](images/support_join.png)](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@threefold.io)
+[![Image](for_all.png)](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@threefold.io)
 
 
 {% end %}
@@ -61,7 +61,7 @@ Check out the most common questions from the community. <br> There's a good chan
 
 {% row(style="center ") %}
 
-![Image](images/ask.png#mx-auto)
+![Image](ask.png#mx-auto)
 <br>
 
 ## HAVE A QUESTION ABOUT <br> **BUILDING ON THREEFOLD?**

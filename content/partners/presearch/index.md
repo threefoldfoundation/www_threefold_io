@@ -10,9 +10,9 @@ extra:
     countries: [Global]
     cities: [Global]
     rank: 2
-    imgPath: images/presearch.png
+    imgPath: presearch.png
     image_caption: presearch
-    partner_logo: images/presearchLogo.png
+    partner_logo: presearchLogo.png
     members: [trey_grainger]
     websites: https://presearch.org
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![presearch](/images/presearch1.png)
+![presearch](presearch1.png)
 
 <br/>
 

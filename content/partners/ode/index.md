@@ -10,9 +10,9 @@ extra:
     countries: [USA]
     cities: [Tempe]
     rank: 2
-    imgPath: images/ode.png
+    imgPath: ode.png
     image_caption: ODE
-    partner_logo: images/odeLogo.png
+    partner_logo: odeLogo.png
     members: [sashi_edupuganti]
     websites: https://www.odeinfinity.com/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![ode](/images/ode2.png)
+![ode](ode2.png)
 
 <br/>
 

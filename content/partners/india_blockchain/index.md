@@ -10,9 +10,9 @@ extra:
     countries: [India]
     cities: [Mumbai]
     rank: 4
-    imgPath: images/iba.png
+    imgPath: iba.png
     image_caption: india blockchain alliance
-    partner_logo: images/india_blockchain_allianceLogo.png
+    partner_logo: india_blockchain_allianceLogo.png
     members: [raj_a_kapoor]
     websites: https://indiablockchainalliance.org/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![iba](/images/iba2.png)
+![iba](iba2.png)
 
 <br/>
 

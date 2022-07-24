@@ -10,9 +10,9 @@ extra:
   countries: [Global]
   cities: [Global]
   rank: 4
-  imgPath: images/shareitt.png
+  imgPath: shareitt.png
   image_caption: shareitt
-  partner_logo: images/shareittLogo.png
+  partner_logo: shareittLogo.png
   members: [arie_ben_david, roel_wofert, mickey_malul]
   websites: https://www.shareitt.com
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![shareitt](/images/shareitt2.jpg)
+![shareitt](shareitt2.jpg)
 
 <br/>
 

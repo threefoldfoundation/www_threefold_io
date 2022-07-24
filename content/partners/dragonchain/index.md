@@ -10,9 +10,9 @@ extra:
     countries: [USA]
     cities: [Bellevue]
     rank: 3
-    imgPath: images/dragonchain.png
+    imgPath: dragonchain.png
     image_caption: dragonchain
-    partner_logo: images/dragonchainLogo.png
+    partner_logo: dragonchainLogo.png
     members: [trey_rutledge, joe_roets, dr_albert_carlson, phil_abraham]
     websites: https://dragonchain.com/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![dragonchain](/images/dragonchain2.png)
+![dragonchain](dragonchain2.png)
 
 <br/>
 

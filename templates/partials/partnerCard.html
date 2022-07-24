@@ -1,8 +1,10 @@
 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
   <div class="flex-1">
-    <a href={{ post.permalink }} class="block">
+    <a href="{{post.permalink}}" class="block">
+      
       <div class="flex-shrink-0">
-        <img class="h-48 w-full mx-auto object-cover" src=/{{post.extra.imgPath}} alt="" />
+        {% set url = get_url(path='/' ~ post.relative_path | replace(from='_', to='-') | replace(from='index.md', to=post.extra.imgPath)) %}
+        <img class="h-48 w-full mx-auto object-cover" src="{{url}}" alt="{{post.title ~ ' Picture'}}" />
       </div>
       <div class="flex-1 bg-white p-6 flex flex-col justify-between">
 

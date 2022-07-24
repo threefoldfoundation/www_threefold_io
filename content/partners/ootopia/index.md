@@ -10,9 +10,9 @@ extra:
     countries: [Brazil]
     cities: [Rio de Janeiro]
     rank: 4
-    imgPath: images/ootopia.png
+    imgPath: ootopia.png
     image_caption: ootopia
-    partner_logo: images/ootopiaLogo.jpeg
+    partner_logo: ootopiaLogo.jpeg
     members: [florian_fournier]
     websites: https://www.ootopia.org/
     private: 0
@@ -22,7 +22,7 @@ extra:
 
 <br/>
 
-![ootopia](/images/ootopia_header.png)
+![ootopia](ootopia_header.png)
 
 <br/>
 
@@ -37,7 +37,7 @@ Ootopia app combines super inspiring social media and microlearning in an exciti
 
 <br/>
 
-![product](/images/product.png)
+![product](product.png)
 
 <br/>
 
@@ -48,7 +48,7 @@ Who wants to be part of the problem, when they can be part of the solution. Our 
 
 <br/>
 
-![mission](/images/ootmission.png)
+![mission](ootmission.png)
 
 <br/>
 
@@ -70,7 +70,7 @@ Ootopia is one of these solutions.
 
 <br/>
 
-![impact](/images/impact.png)
+![impact](impact.png)
 
 <br/>
 

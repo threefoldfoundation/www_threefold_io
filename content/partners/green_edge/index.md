@@ -10,9 +10,9 @@ extra:
     countries: [South Africa, East Africa]
     cities: [Johannesburg, Cape Town, Nairobi]
     rank: 3
-    imgPath: images/greenedge.png
+    imgPath: greenedge.png
     image_caption: green_edge
-    partner_logo: images/green_edgeLogo.png
+    partner_logo: green_edgeLogo.png
     members: [mariza_wellesley_wesley, michael_wellesley_wesley]
     websites: https://green-edge.net/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![green_edge](/images/greenedge2.png)
+![green_edge](greenedge2.png)
 
 <br/>
 

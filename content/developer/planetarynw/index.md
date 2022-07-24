@@ -2,7 +2,7 @@
 title: planetary network
 
 extra:
-  imgPath: images/planetary_network.jpg
+  imgPath: planetary_network.jpg
   button : Explore Other Developer Components
   link : /developer
 ---

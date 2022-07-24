@@ -10,9 +10,9 @@ extra:
     countries: [Global]
     cities: [Global]
     rank: 4
-    imgPath: images/ubuntu.png
+    imgPath: ubuntu.png
     image_caption: ubuntu
-    partner_logo: images/ubuntuLogo.png
+    partner_logo: ubuntuLogo.png
     members: [mamadou_kwidjim_toure]
     websites: https://www.utribe.one
     private: 0
@@ -35,7 +35,7 @@ Lack of access to basic financial services & wealth creation opportunities have 
 <br/>
 <br/>
 
-![problem](/images/ubuntu_problem.png)
+![problem](ubuntu_problem.png)
 
 <br/>
 
@@ -43,7 +43,7 @@ Ubuntu is a digital, social commerce platform providing the tools for value crea
 <br/>
 <br/>
 
-![solution](/images/ubuntu_solution.png)
+![solution](ubuntu_solution.png)
 
 <br/>
 
@@ -57,7 +57,7 @@ Ubuntu Tribe's ultimate aim is wealth distribution and financial empowerment acr
 
 <br/>
 
-![ubuntu_platform](/images/ubuntu_platform.png)
+![ubuntu_platform](ubuntu_platform.png)
 
 <br/>
 

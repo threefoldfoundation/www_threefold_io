@@ -10,9 +10,9 @@ extra:
   countries: [Vietnam]
   cities: [Saigon]
   rank: 3
-  imgPath: images/tomochain.png
+  imgPath: tomochain.png
   image_caption: tomochain
-  partner_logo: images/tomochainLogo.png
+  partner_logo: tomochainLogo.png
   members: [kyn_chaturvedi]
   websites: https://tomochain.com/
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![tomochain](/images/tomochain2.jpg)
+![tomochain](tomochain2.jpg)
 
 <br/>
 

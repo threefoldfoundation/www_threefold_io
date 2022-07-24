@@ -10,9 +10,9 @@ extra:
     countries: [Global]
     cities: [Global]
     rank: 4
-    imgPath: images/aiqom.png
+    imgPath: aiqom.png
     image_caption: aiqom
-    partner_logo: images/aiqomLogo.png
+    partner_logo: aiqomLogo.png
     members: [samer_obeidat]
     websites: https://aiqom.ai/
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![aiqom](/images/aiqom2.png)
+![aiqom](aiqom2.png)
 
 <br/>
 
@@ -41,7 +41,7 @@ To unlock Special AI Powers. To make your AI Identity See, Read, Hear, Calculate
 AIQOM empowers people of all ages to become responsible AI Citizens to easily learn and create machine learning models. Their platform allows users to export and integrate their AI with websites, mobile apps, games, drones, vehicles, smart homes – and even their actual physical programmable robots.
 <br/>
 
-![beta](/images/aiqom_beta.png)
+![beta](aiqom_beta.png)
 
 <br/>
 

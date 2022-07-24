@@ -10,9 +10,9 @@ extra:
   countries: [Switzerland, Germany]
   cities: [Zürich, Berlin]
   rank: 4
-  imgPath: images/the_humanized_internet.png
+  imgPath: the_humanized_internet.png
   image_caption: the_humanized_internet
-  partner_logo: images/the_humanized_internetLogo.png
+  partner_logo: the_humanized_internetLogo.png
   members: [monique_morrow, akram_alfawakheeri]
   websites: https://www.moniquemorrow.com/humanized-internet
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![the_humanized_internet](/images/the_humanized_internet2.png)
+![the_humanized_internet](the_humanized_internet2.png)
 
 <br/>
 

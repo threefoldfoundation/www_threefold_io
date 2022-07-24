@@ -10,9 +10,9 @@ extra:
   countries: [Global]
   cities: [Global]
   rank: 4
-  imgPath: images/unit.png
+  imgPath: unit.png
   image_caption: unit
-  partner_logo: images/unitLogo.png
+  partner_logo: unitLogo.png
   members: [michael_healy]
   websites: https://ventures.unit.network/
   private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![unit](/images/unit2.png)
+![unit](unit2.png)
 
 <br/>
 

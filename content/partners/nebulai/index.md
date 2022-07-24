@@ -10,9 +10,9 @@ extra:
     countries: [Global]
     cities: []
     rank: 2
-    imgPath: images/nebulai.png
+    imgPath: nebulai.png
     image_caption: nebulai
-    partner_logo: images/nebulaiLogo.jpeg
+    partner_logo: nebulaiLogo.jpeg
     members: []
     websites: https://nebulai.com
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![nebulai_header](/images/nebulai_header.png)
+![nebulai_header](nebulai_header.png)
 
 <br/>
 
@@ -48,7 +48,7 @@ We are a technology for good company. Our objective at Nebulai is to create fair
 
 <br/>
 
-![nebulai_solutions](/images/nebulai_solutions.png)
+![nebulai_solutions](nebulai_solutions.png)
 
 <br/>
 

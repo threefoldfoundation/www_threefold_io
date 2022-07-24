@@ -11,9 +11,9 @@ extra:
     countries: [Belgium, US]
     cities: [Hasselt, Florida]
     rank: 1
-    imgPath: images/tag.png
+    imgPath: tag.png
     image_caption: take_action_global
-    partner_logo: images/tag_logo.png
+    partner_logo: tag_logo.png
     members: [koen_timmers]
     author: [koen_timmers]
     websites: http://www.takeactionglobal.org/
@@ -23,7 +23,7 @@ extra:
 
 <br/>
 
-![tag](/images/climate_action_project.png)
+![tag](climate_action_project.png)
 
 <br/>
 
@@ -43,7 +43,7 @@ To inspire change by providing opportunities for students around the world to ta
 
 <BR>
 
-![planting](/images/tag_planting.jpg)
+![planting](tag_planting.jpg)
 
 <BR>
 

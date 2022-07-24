@@ -10,9 +10,9 @@ extra:
     countries: []
     cities: []
     rank: 2
-    imgPath: images/v_logo.png
+    imgPath: v_logo.png
     image_caption: V
-    partner_logo: images/v_logo.png
+    partner_logo: v_logo.png
     members: []
     websites: https://vlang.io
     private: 0
@@ -21,7 +21,7 @@ extra:
 
 <br/>
 
-![V](/images/v_image.png)
+![V](v_image.png)
 
 <br/>
 
