@@ -1,7 +1,7 @@
 ---
 title: Blockchain
 extra:
-  imgPath: images/blockchain.png
+  imgPath: blockchain.png
   button : Explore Other Developer Components
   link : /developer
 ---

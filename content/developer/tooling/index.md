@@ -2,7 +2,7 @@
 title: tooling
 
 extra:
-  imgPath: images/tooling.png
+  imgPath: tooling.png
   button : Explore Other Developer Components
   link : /developer
 ---

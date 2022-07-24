@@ -2,7 +2,7 @@
 title: operating system
 
 extra:
-  imgPath: images/operating_system.png
+  imgPath: operating_system.png
   button : Explore Other Developer Components
   link : /developer
 ---

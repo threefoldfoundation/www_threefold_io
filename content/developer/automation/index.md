@@ -2,7 +2,7 @@
 title: automation
 
 extra:
-  imgPath: images/automation.png
+  imgPath: automation.png
   button : Explore Other Developer Components
   link : /developer
 ---
