@@ -5,14 +5,13 @@ date: 2022-03-03
 updated: 2022-03-03
 draft: false
 taxonomies:
+  people: [sacha_obeegadoo]
   categories: [foundation]
-  tags: [peer_to_peer,data,why,technology]
-    
+  tags: [peer_to_peer, data, why, technology]
+
 extra:
   subtitle: ""
-  author: Sacha Obeegadoo
   authorImg: images/people/sacha_obeegadoo.jpg
-  imgPath: images/blog/cyberwar.png
   date: 2022-03-03
 ---
 

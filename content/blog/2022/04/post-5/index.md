@@ -6,15 +6,13 @@ updated: 2022-04-21 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: ["Foundation"]
   tags: [threefold_grid, farming, threefold_token, why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
   authorImg: images/people/hannah_cordes.jpg
-  imgPath: images/blog/farming_a_greener_alternative_to_crypto_mining.png
-  
 ---
 
 In [October 2008](https://cointelegraph.com/bitcoin-for-beginners/the-history-of-bitcoin-when-did-bitcoin-start), when the financial crisis was in full swing, an anonymous individual or group under the pseudonym ‘Satoshi Nakamoto’ published a [white paper](https://bitcoin.org/bitcoin.pdf) on Bitcoin, a “peer-to-peer electronic cash system” that ended up disrupting the financial system and sparked the creation of an entirely new industry: crypto mining.
@@ -25,7 +23,7 @@ Considering that many people view Bitcoin as a commodity, similar to gold, it on
 
 <br/>
 
-More than a decade later, Bitcoin keeps intriguing individuals and organizations all around the world, and has become [one of the most popular](https://cointelegraph.com/news/is-bitcoin-a-waste-of-energy-pros-and-cons-about-bitcoin-mining) financial assets. Nevertheless, criticism and doubts around Bitcoin and crypto mining remain. The most popular cryptocurrency is also frequently brought to the spotlight around its potential affiliations to money laundering, financing of terrorism and cybercrime, as well as the energy the mining process of its cryptocurrency consumes. 
+More than a decade later, Bitcoin keeps intriguing individuals and organizations all around the world, and has become [one of the most popular](https://cointelegraph.com/news/is-bitcoin-a-waste-of-energy-pros-and-cons-about-bitcoin-mining) financial assets. Nevertheless, criticism and doubts around Bitcoin and crypto mining remain. The most popular cryptocurrency is also frequently brought to the spotlight around its potential affiliations to money laundering, financing of terrorism and cybercrime, as well as the energy the mining process of its cryptocurrency consumes.
 
 <br/>
 
@@ -37,7 +35,7 @@ Among the most popular quotes on the topic is Bill Gates’ statement in the New
 
 ## But why is Bitcoin mining so energy intensive anyways?
 
-At the heart of Bitcoin’s energy-intensive model is the [Proof-of-Work (PoW)](https://www.coindesk.com/learn/2020/12/16/what-is-proof-of-work/) protocol. [Bitcoin mining](https://www.investopedia.com/tech/how-does-bitcoin-mining-work/), the process of creating new Bitcoins using PoW, requires solving complex cryptographic equations to receive the rewards associated with the creation of the next block in the blockchain. PoW is carried out by computers, known as ‘miners’. 
+At the heart of Bitcoin’s energy-intensive model is the [Proof-of-Work (PoW)](https://www.coindesk.com/learn/2020/12/16/what-is-proof-of-work/) protocol. [Bitcoin mining](https://www.investopedia.com/tech/how-does-bitcoin-mining-work/), the process of creating new Bitcoins using PoW, requires solving complex cryptographic equations to receive the rewards associated with the creation of the next block in the blockchain. PoW is carried out by computers, known as ‘miners’.
 
 <br/>
 
@@ -45,19 +43,19 @@ In the early days, a simple computer was enough to mine Bitcoin. However, the di
 
 <br/>
 
-It’s only sensible that miners are beefing up their machines to increase their chances. In fact, the sector became so competitive that [Intel created](https://www.linkedin.com/pulse/sustainable-crypto-mining-becoming-reality-nameet-potnis/) dedicated chips and specialized manufacturers for mining servers like [Bitmain](https://www.bitmain.com/) were established. With up to 32,500 Watts indicated by manufacturers, the power consumption of such devices averages 28,470 kWh per year if operated continuously. In comparison, the annual consumption of a freezer is estimated between 200 and 500 kWh per year. 
+It’s only sensible that miners are beefing up their machines to increase their chances. In fact, the sector became so competitive that [Intel created](https://www.linkedin.com/pulse/sustainable-crypto-mining-becoming-reality-nameet-potnis/) dedicated chips and specialized manufacturers for mining servers like [Bitmain](https://www.bitmain.com/) were established. With up to 32,500 Watts indicated by manufacturers, the power consumption of such devices averages 28,470 kWh per year if operated continuously. In comparison, the annual consumption of a freezer is estimated between 200 and 500 kWh per year.
 
 <br/>
 
-Additionally, operating a single mining machine is hardly the way to succeed. The biggest Bitcoin miners have fleets of hundreds of machines in so-called ‘mining farms’, carefully maintained and constantly ventilated, to prevent them from overheating. Some of the largest, like [Northern Data](https://www.rockdalemdd.org/news/whinstone-us-breaks-ground-build-world%E2%80%99s-largest-bitcoin-mining-facility-rockdale-texas) in Texas, have an energy consumption of 1 GWh per year, the equivalent of the energy produced by about [3.1 million](https://www.energy.gov/eere/articles/how-much-power-1-gigawatt) photovoltaic (solar) panels. 
+Additionally, operating a single mining machine is hardly the way to succeed. The biggest Bitcoin miners have fleets of hundreds of machines in so-called ‘mining farms’, carefully maintained and constantly ventilated, to prevent them from overheating. Some of the largest, like [Northern Data](https://www.rockdalemdd.org/news/whinstone-us-breaks-ground-build-world%E2%80%99s-largest-bitcoin-mining-facility-rockdale-texas) in Texas, have an energy consumption of 1 GWh per year, the equivalent of the energy produced by about [3.1 million](https://www.energy.gov/eere/articles/how-much-power-1-gigawatt) photovoltaic (solar) panels.
 
 <br/>
 
-In critical times where humanity is facing serious global challenges in relation to climate change and the collapse of biodiversity, we must rethink the basics of how to decentralize our world. 
+In critical times where humanity is facing serious global challenges in relation to climate change and the collapse of biodiversity, we must rethink the basics of how to decentralize our world.
 
 ## Are there more energy-conscious solutions?
 
-[Proof-of-Stake (PoS)](https://www.coindesk.com/learn/2020/12/30/what-is-proof-of-stake/) mechanisms have proven to be [less energy intensive](https://www.investopedia.com/tech/how-does-bitcoin-mining-work/#toc-downsides-of-mining) than PoW. With PoS, miners lock up (‘stake’) a blockchain’s cryptocurrency on escrow accounts to be granted mining rights. In exchange for this participation, miners receive an interest proportional to their stake as reward. 
+[Proof-of-Stake (PoS)](https://www.coindesk.com/learn/2020/12/30/what-is-proof-of-stake/) mechanisms have proven to be [less energy intensive](https://www.investopedia.com/tech/how-does-bitcoin-mining-work/#toc-downsides-of-mining) than PoW. With PoS, miners lock up (‘stake’) a blockchain’s cryptocurrency on escrow accounts to be granted mining rights. In exchange for this participation, miners receive an interest proportional to their stake as reward.
 
 <br/>
 
@@ -65,23 +63,23 @@ PoS-based blockchains are faster and much more energy efficient than PoW-based b
 
 <br/>
 
-While this might sound great at first, it does not resolve the underlying issue of incredibly high energy consumption. Should we really allocate relatively scarce renewable energy resources to such energy-intensive endeavours? Or should we rather look for more efficient alternatives – considering we have all the technology to create more energy-efficient models from scratch – and then support what energy consumption remains with renewable energy? 
+While this might sound great at first, it does not resolve the underlying issue of incredibly high energy consumption. Should we really allocate relatively scarce renewable energy resources to such energy-intensive endeavours? Or should we rather look for more efficient alternatives – considering we have all the technology to create more energy-efficient models from scratch – and then support what energy consumption remains with renewable energy?
 
 ## ThreeFold Farming offers a greener paradigm
 
-[ThreeFold Farming](https://threefold.io/blog/post/what_is_farming/) is a decentralized, energy-efficient and meaningful alternative to mining. [ThreeFold Tokens](https://forum.threefold.io/t/the-potential-of-the-threefold-token-tft/1796) (TFT) are minted whenever new Internet capacity in terms of compute, storage or network is added to the ThreeFold Grid by connecting computers, known as 3Nodes. 
+[ThreeFold Farming](https://threefold.io/blog/post/what_is_farming/) is a decentralized, energy-efficient and meaningful alternative to mining. [ThreeFold Tokens](https://forum.threefold.io/t/the-potential-of-the-threefold-token-tft/1796) (TFT) are minted whenever new Internet capacity in terms of compute, storage or network is added to the ThreeFold Grid by connecting computers, known as 3Nodes.
 
 <br/>
 
-By contributing decentralized Internet capacity to the ThreeFold Grid, independent people and organizations called ‘farmers’ earn TFT in return – based on a [Proof-of-Capacity](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__proof_of_capacity?id=why-proof-of-capacity)  (PoC) algorithm. PoC is autonomously carried out by ThreeFold’s [extremely efficient](https://threefold.io/blog/post/for_our_planet/) operating system. First, Zero-OS scans the computer’s resources. Then the operating system registers the computing power and Internet storage on the [ThreeFold Blockchain](https://threefold.io/blog/post/tf_chain/), making the resources available to the entire network – thereby creating a [decentralized model](https://coincheckup.com/blog/threefold-is-the-decentralized-web-the-future-of-the-internet/) for Internet capacity provisioning. The [energy consumption](https://threefold.docsend.com/view/wsru3f9tmeaq62wq) of a 3Node can vary, depending on the amount of Compute Units (CUs) and Storage Units (SUs) it holds. “The average consumption for a Titan 3Node is around 26.71 KwH per hour”, says ThreeFold’s [Alexandre Hannelas](https://threefold.io/people/alexandre_hannelas/). 
+By contributing decentralized Internet capacity to the ThreeFold Grid, independent people and organizations called ‘farmers’ earn TFT in return – based on a [Proof-of-Capacity](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__proof_of_capacity?id=why-proof-of-capacity)  (PoC) algorithm. PoC is autonomously carried out by ThreeFold’s [extremely efficient](https://threefold.io/blog/post/for_our_planet/) operating system. First, Zero-OS scans the computer’s resources. Then the operating system registers the computing power and Internet storage on the [ThreeFold Blockchain](https://threefold.io/blog/post/tf_chain/), making the resources available to the entire network – thereby creating a [decentralized model](https://coincheckup.com/blog/threefold-is-the-decentralized-web-the-future-of-the-internet/) for Internet capacity provisioning. The [energy consumption](https://threefold.docsend.com/view/wsru3f9tmeaq62wq) of a 3Node can vary, depending on the amount of Compute Units (CUs) and Storage Units (SUs) it holds. “The average consumption for a Titan 3Node is around 26.71 KwH per hour”, says ThreeFold’s [Alexandre Hannelas](https://threefold.io/people/alexandre_hannelas/).
 
 <br/>
 
-Farming supports the realization of an open-source peer-to-peer Internet free from centralized servers and authorities. Similarly to Bitcoin, the management of transactions and the issuing of TFT is carried out collectively by the network to create a decentralized Internet economy. In a way, what [Bitcoin did to money](https://threefold.io/blog/post/bitcoin_threefold/), ThreeFold does to the Internet – while using much [less energy](https://threefold.io/blog/post/for_our_planet/). 
+Farming supports the realization of an open-source peer-to-peer Internet free from centralized servers and authorities. Similarly to Bitcoin, the management of transactions and the issuing of TFT is carried out collectively by the network to create a decentralized Internet economy. In a way, what [Bitcoin did to money](https://threefold.io/blog/post/bitcoin_threefold/), ThreeFold does to the Internet – while using much [less energy](https://threefold.io/blog/post/for_our_planet/).
 
 <br/>
 
-*"By using blockchain for what it's good at and other pioneering technologies, such as peer-to-peer networking, to complement it, we built the most efficient Internet infrastructure in the world, and by far." – Kristof de Spiegeleer.*
+_"By using blockchain for what it's good at and other pioneering technologies, such as peer-to-peer networking, to complement it, we built the most efficient Internet infrastructure in the world, and by far." – Kristof de Spiegeleer._
 
 <br/>
 
@@ -105,5 +103,5 @@ If not us, who? If not now, when?
 
 <br/>
 
-* Join the global ThreeFold [movement](https://t.me/threefold).
-* [Start farming](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) today and become a part of the new Internet while regenerating the planet.
+- Join the global ThreeFold [movement](https://t.me/threefold).
+- [Start farming](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) today and become a part of the new Internet while regenerating the planet.

@@ -6,19 +6,16 @@ updated: 2022-04-26 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: ["Foundation"]
   tags: [threefold_grid, threefold_farming, farming, why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
   authorImg: images/people/hannah_cordes.jpg
-  imgPath: images/blog/internet_energy_consumption.png
-  
-  
 ---
 
-*Global carbon emissions keep rising. Climate change and the collapse of biodiversity are accelerating faster than ever before. And yet, it’s important to believe in our ability to change our behaviour if we are to secure our children’s future. It’s not about being naive or optimistic, but rather a commitment to change and to do better. Across the globe, movements are sprouting to save our planet. How does ThreeFold take part in this? How are we contributing to making the world a better place?*  
+_Global carbon emissions keep rising. Climate change and the collapse of biodiversity are accelerating faster than ever before. And yet, it’s important to believe in our ability to change our behaviour if we are to secure our children’s future. It’s not about being naive or optimistic, but rather a commitment to change and to do better. Across the globe, movements are sprouting to save our planet. How does ThreeFold take part in this? How are we contributing to making the world a better place?_
 
 <br/>
 
@@ -66,7 +63,7 @@ In December 2021, ThreeFold [announced](https://www.prnewswire.com/news-releases
 
 <br/>
 
-Together with [Take Action Global](https://forum.threefold.io/t/driving-regeneration-with-tag/2120?u=hannahcordes) (TAG), an expert on climate education and action, ThreeFold aims to make the ThreeFold Grid planet-positive by removing its carbon emissions from the atmosphere three times in the form of [Voluntary Carbon Credits](https://forum.threefold.io/t/threefold-on-track-to-be-planet-positive/2097?u=hannahcordes). While the pilot for this initiative was announced to start in January 2022, ThreeFold and TAG were so eager to take action against climate change, they kicked-off the pilot one month early in December 2021. It is the first step in ThreeFold’s plan to support the use of ‘nature-based climate solutions’ like tree planting to absorb twice more carbon than the ThreeFold Grid emits by 2022. 
+Together with [Take Action Global](https://forum.threefold.io/t/driving-regeneration-with-tag/2120?u=hannahcordes) (TAG), an expert on climate education and action, ThreeFold aims to make the ThreeFold Grid planet-positive by removing its carbon emissions from the atmosphere three times in the form of [Voluntary Carbon Credits](https://forum.threefold.io/t/threefold-on-track-to-be-planet-positive/2097?u=hannahcordes). While the pilot for this initiative was announced to start in January 2022, ThreeFold and TAG were so eager to take action against climate change, they kicked-off the pilot one month early in December 2021. It is the first step in ThreeFold’s plan to support the use of ‘nature-based climate solutions’ like tree planting to absorb twice more carbon than the ThreeFold Grid emits by 2022.
 
 ## A silver lining on the horizon
 
@@ -78,5 +75,5 @@ Really, all it takes right now is widespread support and adoption of more energy
 
 <br/>
 
-* Join the global ThreeFold [movement](https://t.me/threefold).
-* [Start farming](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) today and support a greener Internet while regenerating the planet.
+- Join the global ThreeFold [movement](https://t.me/threefold).
+- [Start farming](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) today and support a greener Internet while regenerating the planet.

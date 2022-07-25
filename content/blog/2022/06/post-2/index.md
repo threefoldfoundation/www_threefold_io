@@ -6,15 +6,13 @@ updated: 2022-06-07 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: ["Foundation"]
   tags: [threefold_grid, community, farming, update]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
   authorImg: images/people/hannah_cordes.jpg
-  imgPath: images/blog/weekly_vol_12.jpg
-  
 ---
 
 ## Major ThreeFold News:
@@ -41,7 +39,7 @@ extra:
 
 - Take a look at the **ThreeFold Grid V3.0.0 Alpha-6 highlights** and learn more about what the team is working on in June [here](https://forum.threefold.io/t/threefold-product-updates-june-2022/2937?u=hannahcordes)!
 
-### ThreeFold Grid: 
+### ThreeFold Grid:
 
 - Give [this post](https://forum.threefold.io/t/specs-for-tfgrid-dao/2926?u=hannahcordes) a read to learn more about the **TF Grid DAO**, who can vote and what areas can be voted on, as well as to find more about Grid Guardians, solutions rewards, and more!
 
@@ -63,8 +61,8 @@ extra:
 
 <br/>
 
-See you next week, ThreeFolders! 🙌 
+See you next week, ThreeFolders! 🙌
 
 <br/>
 
-*You can find the previous editions on [our blog](https://threefold.io/blog). For older editions of ThreeFold Weekly (Vol 1-11), go to [our forum](https://forum.threefold.io/c/ecosystem-developments/41).*
+_You can find the previous editions on [our blog](https://threefold.io/blog). For older editions of ThreeFold Weekly (Vol 1-11), go to [our forum](https://forum.threefold.io/c/ecosystem-developments/41)._

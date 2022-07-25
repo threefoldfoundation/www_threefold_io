@@ -6,15 +6,13 @@ updated: 2017-10-12 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [farming,cloud,foundation,aci]
-  tags: [technology,threefold_grid_,why]
+  people: [andreas_hartl]
+  categories: [farming, cloud, foundation, aci]
+  tags: [technology, threefold_grid_, why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: andreas hartl
   authorImg: images/people/andreas_hartl.jpeg
-  imgPath: images/blog/big_datacenter_myth.png
-  
 ---
 
 ## Hyperscale realities are very different from what most people think

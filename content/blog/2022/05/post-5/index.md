@@ -6,18 +6,16 @@ updated: 2022-05-17 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: ["Foundation"]
   tags: [threefold_grid, threefold, peer-to-peer, why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
   authorImg: images/people/hannah_cordes.jpg
-  imgPath: images/blog/threefold_at_consensus_2022.png
-  
 ---
 
-It’s that time of the year when believers and builders of a decentralized tomorrow  gather to celebrate the festival for the decentralized world. About 15,000 people will attend Consensus 2022 by CoinDesk from June 9 through June 12. Throughout the festival, key topics around decentralization, blockchain, crypto, Web 3 and the metaverse will be explored and discussed.
+It’s that time of the year when believers and builders of a decentralized tomorrow gather to celebrate the festival for the decentralized world. About 15,000 people will attend Consensus 2022 by CoinDesk from June 9 through June 12. Throughout the festival, key topics around decentralization, blockchain, crypto, Web 3 and the metaverse will be explored and discussed.
 
 <br/>
 
@@ -25,23 +23,23 @@ Why is ThreeFold attending Consensus? Excellent question. The ThreeFold communit
 
 <br/>
 
-As many consider Consensus the festival for the decentralized world, some questions linger: 
+As many consider Consensus the festival for the decentralized world, some questions linger:
 
 <br/>
 
-*How committed are the projects and participants to decentralization, and for what reasons? How far are they willing to go to bring that world to life?*
+_How committed are the projects and participants to decentralization, and for what reasons? How far are they willing to go to bring that world to life?_
 
 <br/>
 
-It’s no secret that many projects in the space still rely on centralized infrastructure – at least to some degree. So, are they really delivering on their promise of decentralization? 
+It’s no secret that many projects in the space still rely on centralized infrastructure – at least to some degree. So, are they really delivering on their promise of decentralization?
 
 ## A decentralized world needs a decentralized foundation
 
-I think we’ve already come to Consensus that decentralization has to start at the foundational level. See what I did there? The ThreeFold co-founders have more than 20 years of experience in setting world records in Internet storage and cloud automation technologies. With ThreeFold, they started from scratch to build a fully decentralized Internet infrastructure that’s peer-to-peer and open source. We’re realizing the promise of an Internet built and owned by the people, back to the vision of Web 1 through the implementation of Web 4 technology. For us, it’s obvious that we simply cannot build a fair and equal digital world on top of today's old-world infrastructure which is owned by the few. 
+I think we’ve already come to Consensus that decentralization has to start at the foundational level. See what I did there? The ThreeFold co-founders have more than 20 years of experience in setting world records in Internet storage and cloud automation technologies. With ThreeFold, they started from scratch to build a fully decentralized Internet infrastructure that’s peer-to-peer and open source. We’re realizing the promise of an Internet built and owned by the people, back to the vision of Web 1 through the implementation of Web 4 technology. For us, it’s obvious that we simply cannot build a fair and equal digital world on top of today's old-world infrastructure which is owned by the few.
 
 <br/>
 
-With our fair, inclusive and decentralized Internet infrastructure, we’re laying the foundation for a better world. Following our ethos of *planet first – people second – profit (value) only as a result*, we’re striving to regenerate our planet and to empower the collective – the many and not the few. By putting our planet and people first, we create real sustainable value. We believe that, together, we’re strong enough to build new regenerative systems powerful enough to enable anyone to have a sovereign, safer and more fulfilling life.
+With our fair, inclusive and decentralized Internet infrastructure, we’re laying the foundation for a better world. Following our ethos of _planet first – people second – profit (value) only as a result_, we’re striving to regenerate our planet and to empower the collective – the many and not the few. By putting our planet and people first, we create real sustainable value. We believe that, together, we’re strong enough to build new regenerative systems powerful enough to enable anyone to have a sovereign, safer and more fulfilling life.
 
 <br/>
 
@@ -65,8 +63,8 @@ ThreeFold is more than an Internet. It is the foundation for a truly decentraliz
 
 <br/>
 
-*Check out the full [Consensus agenda](https://events.coindesk.com/consensus2022/agenda) and take advantage of [our 25% discount code](https://events.coindesk.com/consensus2022?promo=a7MsHxui) to buy tickets.*
+_Check out the full [Consensus agenda](https://events.coindesk.com/consensus2022/agenda) and take advantage of [our 25% discount code](https://events.coindesk.com/consensus2022?promo=a7MsHxui) to buy tickets._
 
 <br/>
 
-***And don’t forget to let us know if you’ll be joining ThreeFold at Consensus – we’d love to connect with you!***
+**_And don’t forget to let us know if you’ll be joining ThreeFold at Consensus – we’d love to connect with you!_**

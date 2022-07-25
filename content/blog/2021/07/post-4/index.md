@@ -7,14 +7,13 @@ updated: 2021-07-20 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: [farming, cloud, foundation, aci, twin]
   tags: [why, community, peer_to_peer]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
   authorImg: images/people/sam_taggart.jpg
-  imgPath: images/blog/the_threefold_movement.png
   
 ---
 

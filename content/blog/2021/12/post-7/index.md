@@ -6,18 +6,16 @@ updated: 2021-12-15 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: [Foundation, cloud, technology]
   tags: [threefold_grid, community, farming, interview, update]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
   authorImg: images/people/hannah_cordes.jpg
-  imgPath: images/blog/tf_chain.png
-  
 ---
 
-The [third release](https://forum.threefold.io/t/what-is-new-in-tfgrid-3-0/1133/1) of the [ThreeFold Grid](https://library.threefold.me/info/threefold#/technology/threefold__threefold_grid) represents a major step in the decentralization of the People’s Internet with the [Smart Contract for IT](https://library.threefold.me/info/threefold#/technology/threefold__smartcontract_tfgrid3) coming to life on the ThreeFold Blockchain (aka “TF Chain”). Built on the Substrate framework, TF Chain represents the layer-0 for all current and future technologies to provision decentralized Internet capacity. 
+The [third release](https://forum.threefold.io/t/what-is-new-in-tfgrid-3-0/1133/1) of the [ThreeFold Grid](https://library.threefold.me/info/threefold#/technology/threefold__threefold_grid) represents a major step in the decentralization of the People’s Internet with the [Smart Contract for IT](https://library.threefold.me/info/threefold#/technology/threefold__smartcontract_tfgrid3) coming to life on the ThreeFold Blockchain (aka “TF Chain”). Built on the Substrate framework, TF Chain represents the layer-0 for all current and future technologies to provision decentralized Internet capacity.
 
 <br/>
 
@@ -25,7 +23,7 @@ But what is Substrate to begin with? And what exactly does our TF Chain do?
 
 ## What is TF Chain and what is Substrate?
 
-[TF Chain](https://library.threefold.me/info/threefold#/technology/threefold__tfchain) is the universal smart contract layer on the ThreeFold Grid. It’s an application-specific blockchain customized for the operation of a single application – provisioning decentralized compute, storage and network capacity. 
+[TF Chain](https://library.threefold.me/info/threefold#/technology/threefold__tfchain) is the universal smart contract layer on the ThreeFold Grid. It’s an application-specific blockchain customized for the operation of a single application – provisioning decentralized compute, storage and network capacity.
 
 <br/>
 
@@ -33,15 +31,15 @@ But what is Substrate to begin with? And what exactly does our TF Chain do?
 
 ## Why did we choose Substrate for our TF Chain?
 
-Substrate brings clear benefits to [TF Chain](https://threefold.io/tech/tf-chain) in relation to its frameworks for developers, its interoperability with other blockchain ecosystems and its huge community. More than 150 projects from NFTs to DeFi are already building on it.  
+Substrate brings clear benefits to [TF Chain](https://threefold.io/tech/tf-chain) in relation to its frameworks for developers, its interoperability with other blockchain ecosystems and its huge community. More than 150 projects from NFTs to DeFi are already building on it.
 
 <br/>
 
-By providing a solid, mature and secure layer for custom blockchains, Substrate is built for adoption. The blockchain framework was built with the programming language Rust and is modular by design. Choosing Substrate allowed our developer team to leverage great blockchain constructs and efficiently build TF Chain instead of re-inventing the wheel. 
+By providing a solid, mature and secure layer for custom blockchains, Substrate is built for adoption. The blockchain framework was built with the programming language Rust and is modular by design. Choosing Substrate allowed our developer team to leverage great blockchain constructs and efficiently build TF Chain instead of re-inventing the wheel.
 
 <br/>
 
-Its flexible, modular and composable architecture enables our team to focus on what matters the most – the unique demands of [ThreeFold Grid](https://threefold.io/grid). For example, we’ve built  a Grid module with specific functionalities for farms and nodes. Just like a chef can invent a new recipe and add it to a menu, Substrate allows our developers to build and add as many custom functionalities to TF Chain as we’d like, in a fully decentralized way. 
+Its flexible, modular and composable architecture enables our team to focus on what matters the most – the unique demands of [ThreeFold Grid](https://threefold.io/grid). For example, we’ve built  a Grid module with specific functionalities for farms and nodes. Just like a chef can invent a new recipe and add it to a menu, Substrate allows our developers to build and add as many custom functionalities to TF Chain as we’d like, in a fully decentralized way.
 
 <br/>
 
@@ -49,15 +47,15 @@ A major benefit that comes with TF Chain being built on Substrate is the native 
 
 ## What’s the purpose of TF Chain?
 
-For ThreeFold to be a [truly decentralized](https://threefold.io/blog/post/quest_decentralize_internet/) peer-to-peer Internet infrastructure, people should be able to use Internet infrastructures from anywhere without any intermediaries like [AWS](https://threefold.io/blog/post/threefold_cloud_vs_centralized_providers_like_aws_azure/). TF Chain serves exactly that purpose. 
+For ThreeFold to be a [truly decentralized](https://threefold.io/blog/post/quest_decentralize_internet/) peer-to-peer Internet infrastructure, people should be able to use Internet infrastructures from anywhere without any intermediaries like [AWS](https://threefold.io/blog/post/threefold_cloud_vs_centralized_providers_like_aws_azure/). TF Chain serves exactly that purpose.
 
 <br/>
 
-It orchestrates the provisioning of compute, storage and network on the ThreeFold Grid via [Zero-OS](https://threefold.io/tech/zero-os), removing all forms of intermediaries present in today’s centralized IT infrastructures. Put simply, TF Chain allows people to provide and use cloud resources in a 100% decentralized way. 
+It orchestrates the provisioning of compute, storage and network on the ThreeFold Grid via [Zero-OS](https://threefold.io/tech/zero-os), removing all forms of intermediaries present in today’s centralized IT infrastructures. Put simply, TF Chain allows people to provide and use cloud resources in a 100% decentralized way.
 
 ## What does TF Chain do?
 
-[TF Chain](https://library.threefold.me/info/threefold#/threefold__tfchain) is responsible for achieving consensus on all Internet capacity transactions on the ThreeFold Grid and to store them in a historical record. This prevents users from "double spending" their [ThreeFold Tokens](https://threefold.io/tft) and ensures the correct execution of Internet capacity provisioning via smart contracts, while also protecting the network from potential attacks. 
+[TF Chain](https://library.threefold.me/info/threefold#/threefold__tfchain) is responsible for achieving consensus on all Internet capacity transactions on the ThreeFold Grid and to store them in a historical record. This prevents users from "double spending" their [ThreeFold Tokens](https://threefold.io/tft) and ensures the correct execution of Internet capacity provisioning via smart contracts, while also protecting the network from potential attacks.
 
 <br/>
 
@@ -65,11 +63,11 @@ An exciting feature that comes with TF Chain 3.0 is a totally new peer-to-peer b
 
 <br/>
 
-While TF Chain builds on the Substrate framework, most of its functionalities are custom-built to fit the specific needs of the ThreeFold Grid – from Internet capacity provisioning, workload deployments, and payment and billing processes, to digital twin creation and much more. By executing all these actions via [smart contracts](https://threefold.io/tech/smart-contract) in an automated and decentralized way, the activity on the ThreeFold Grid is always secured by blockchain technology and available to other users for open collaboration. 
+While TF Chain builds on the Substrate framework, most of its functionalities are custom-built to fit the specific needs of the ThreeFold Grid – from Internet capacity provisioning, workload deployments, and payment and billing processes, to digital twin creation and much more. By executing all these actions via [smart contracts](https://threefold.io/tech/smart-contract) in an automated and decentralized way, the activity on the ThreeFold Grid is always secured by blockchain technology and available to other users for open collaboration.
 
 <br/>
 
-*Farms can now be registered on our new [TF Chain Portal](https://threefold.io/blog/post/tech_update_admin_portal/)!*
+_Farms can now be registered on our new [TF Chain Portal](https://threefold.io/blog/post/tech_update_admin_portal/)!_
 
 ## The Future
 
@@ -77,7 +75,7 @@ While Internet capacity provisioning and workload deployments are already execut
 
 <br/>
 
-Building our own application-specific blockchain represents a major step towards decentralizing the ThreeFold Grid and ecosystem, with the next milestone being the ThreeFold DAO planned for Grid 3.2. 
+Building our own application-specific blockchain represents a major step towards decentralizing the ThreeFold Grid and ecosystem, with the next milestone being the ThreeFold DAO planned for Grid 3.2.
 
 <br/>
 
@@ -86,6 +84,7 @@ A **massive thank you** to our developer team for this great achievement! 🙏
 <br/>
 
 Want to dive deeper? We invite you to:
-* learn more about how smart contracts work on TF Chain 3.0 [here](https://library.threefold.me/info/threefold#/technology/threefold__smartcontract_tfgrid3).
-* join the ThreeFold Grid 3.0 testnet conversations [here](https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w).
-* check our roadmap [here](https://library.threefold.me/info/threefold#/cloud/threefold__roadmap_grid).
+
+- learn more about how smart contracts work on TF Chain 3.0 [here](https://library.threefold.me/info/threefold#/technology/threefold__smartcontract_tfgrid3).
+- join the ThreeFold Grid 3.0 testnet conversations [here](https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w).
+- check our roadmap [here](https://library.threefold.me/info/threefold#/cloud/threefold__roadmap_grid).

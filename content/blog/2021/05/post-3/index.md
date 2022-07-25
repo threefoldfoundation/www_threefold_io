@@ -6,15 +6,13 @@ updated: 2021-05-23 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [farming,cloud,foundation,aci,twin]
-  tags: [data,why,threefold_grid,farming]
+  people: [sam_taggart]
+  categories: [farming, cloud, foundation, aci, twin]
+  tags: [data, why, threefold_grid, farming]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
   authorImg: images/people/sam_taggart.jpg
-  imgPath: images/blog/threefold_data_sovereignty.png
-  
 ---
 
 If you’ve seen [The Social Dilemma](https://www.youtube.com/watch?v=uaaC57tcci0), you know all too well that today, people are being turned into products. Everything we do online – all of the data we upload and all of our digital activities – is tracked and oftentimes used against us. Targeted advertising is just the beginning.

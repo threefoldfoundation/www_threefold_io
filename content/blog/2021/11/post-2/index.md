@@ -6,22 +6,20 @@ updated: 2021-11-30 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: [foundation, cloud, technology]
   tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
   authorImg: images/people/hannah_cordes.jpg
-  imgPath: images/blog/tech_update_explorer_interface.png
-  
 ---
 
 We are very excited to present to you the new Explorer UI for ThreeFold Grid 3.x! 🎉
 
 <br/>
 
-The Explorer was designed to provide **a simple way for anyone to find decentralized Internet capacity on the ThreeFold Grid**, and we’re thrilled to announce a new user interface for Grid 3.x on both [testnet](https://explorer.test.grid.tf/) and [devnet](https://explorer.dev.grid.tf/). 
+The Explorer was designed to provide **a simple way for anyone to find decentralized Internet capacity on the ThreeFold Grid**, and we’re thrilled to announce a new user interface for Grid 3.x on both [testnet](https://explorer.test.grid.tf/) and [devnet](https://explorer.dev.grid.tf/).
 
 <br/>
 
@@ -45,15 +43,15 @@ The statistics section gives you **an overview of [key information](https://expl
 
 <br/>
 
-*All screenshots in this post are from the ThreeFold Grid 3.x testnet Explorer, and the numbers are growing continuously.*
+_All screenshots in this post are from the ThreeFold Grid 3.x testnet Explorer, and the numbers are growing continuously._
 
 <br/>
 
-Once a farm ID gets registered to **the new [TF Chain Portal](https://library.threefold.me/info/manual/#/manual__tfchain_portal_home)**, all the relevant information (e.g. uptime, nodes specifications, location) of farms are automatically displayed on the Explorer for users to find their ideal decentralized Internet capacity. 
+Once a farm ID gets registered to **the new [TF Chain Portal](https://library.threefold.me/info/manual/#/manual__tfchain_portal_home)**, all the relevant information (e.g. uptime, nodes specifications, location) of farms are automatically displayed on the Explorer for users to find their ideal decentralized Internet capacity.
 
 <br/>
 
-Users can now explore all farms and [3Nodes](https://threefold.io/farm/) using **multiple filtering options** (e.g. farm name or farm ID), making it simpler than ever before to find the decentralized Internet capacity they are looking for. 
+Users can now explore all farms and [3Nodes](https://threefold.io/farm/) using **multiple filtering options** (e.g. farm name or farm ID), making it simpler than ever before to find the decentralized Internet capacity they are looking for.
 
 <br/>
 
@@ -89,8 +87,8 @@ We invite you to **take a look at the ThreeFold Grid 3.x Explorer UI overview** 
 
 <br/>
 
-*Keep in mind, the overview of all 3Nodes worldwide across all nets can be found [here](https://explorer.grid.tf/) and this will phase out as we approach 3.x mainnet launch as shared on our previous [update](https://forum.threefold.io/t/whats-new-in-tf-grid-3-0-1-and-the-path-to-mainnet/1488).*
+_Keep in mind, the overview of all 3Nodes worldwide across all nets can be found [here](https://explorer.grid.tf/) and this will phase out as we approach 3.x mainnet launch as shared on our previous [update](https://forum.threefold.io/t/whats-new-in-tf-grid-3-0-1-and-the-path-to-mainnet/1488)._
 
 <br/>
 
-*Visit our forum to share you experiences with the new explorer interface [here](https://forum.threefold.io/t/the-threefold-grid-3-x-explorer-ui/1536).*
+_Visit our forum to share you experiences with the new explorer interface [here](https://forum.threefold.io/t/the-threefold-grid-3-x-explorer-ui/1536)._

@@ -6,15 +6,13 @@ updated: 2021-11-26 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: [foundation, cloud, technology]
   tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
   authorImg: images/people/sam_taggart.jpg
-  imgPath: images/blog/tech_update_admin_portal.png
-  
 ---
 
 Last week, we shared an update on [what's new in TF Grid 3.0.1 – and the path to mainnet!](https://forum.threefold.io/t/whats-new-in-tf-grid-3-0-1-and-the-path-to-mainnet/1488) There's been a lot of exciting progress by the team, and we wanted to share with you some more specifics where we can – starting with the admin portal!
@@ -29,7 +27,7 @@ One of the requests from farmers and grid users was a to have a simpler user exp
 
 <br/>
 
-*Find links to get started at the bottom!*
+_Find links to get started at the bottom!_
 
 ## What does the admin portal do?
 
@@ -41,7 +39,7 @@ Create an account on the TF Chain and a digital twin to start smart contracting 
 
 <br/>
 
-![tf_chain_ui](images/blog/tf_chain_ui.png) 
+![tf_chain_ui](images/blog/tf_chain_ui.png)
 
 <br/>
 
@@ -53,7 +51,7 @@ Operate a bridge between Stellar and TF Chain on Parity Substrate (deposit TFT f
 
 <br/>
 
-![tf_chain_withdraw](images/blog/tf_chain_withdraw.png) 
+![tf_chain_withdraw](images/blog/tf_chain_withdraw.png)
 
 <br/>
 
@@ -61,7 +59,7 @@ For farmers: create and manage your farm(s), provide IPv4 addresses available fo
 
 <br/>
 
-![tf_chain_your_farm](images/blog/tf_chain_your_farm.png) 
+![tf_chain_your_farm](images/blog/tf_chain_your_farm.png)
 
 <br/>
 
@@ -69,7 +67,7 @@ The portal also links to the new capacity explorer, which we'll share more about
 
 <br/>
 
-![tf_chain_node_resources](images/blog/tf_chain_node_resources.png) 
+![tf_chain_node_resources](images/blog/tf_chain_node_resources.png)
 
 ## How is this an improvement over the old process?
 
@@ -81,8 +79,8 @@ More improvements will come in the next versions. As an example, we're planning 
 
 ## Get started
 
-The portal is currently available on [devnet](https://portal.dev.grid.tf) and [testnet](https://portal.test.grid.tf/). You can also find information on the portal in our library [here](https://library.threefold.me/info/manual/#/manual__tfgrid3_getstarted). *Please note, you'll need to install the Polkadot{.js} extension and create or import an account in order to get started.*
+The portal is currently available on [devnet](https://portal.dev.grid.tf) and [testnet](https://portal.test.grid.tf/). You can also find information on the portal in our library [here](https://library.threefold.me/info/manual/#/manual__tfgrid3_getstarted). _Please note, you'll need to install the Polkadot{.js} extension and create or import an account in order to get started._
 
 <br/>
 
-*Visit our forum to discuss you experiences with the new admin portal [here](https://forum.threefold.io/t/introducing-the-tf-chain-admin-portal-for-farmers-and-grid-users/1526).*
+_Visit our forum to discuss you experiences with the new admin portal [here](https://forum.threefold.io/t/introducing-the-tf-chain-admin-portal-for-farmers-and-grid-users/1526)._

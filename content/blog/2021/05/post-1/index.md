@@ -6,15 +6,13 @@ updated: 2021-05-15 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: [farming, cloud, foundation, aci, twin]
   tags: [threefold_grid, digital_twin, why, technology, farming]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
   authorImg: images/people/sam_taggart.jpg
-  imgPath: images/blog/threefold_regenerates.png
-  
 ---
 
 There’s no question that climate change is one of the biggest, if not the biggest threats facing humanity today. If we care at all about future generations and the health of our planet, we have no choice but to address these threats, and fast. That’s why one of our biggest aims is to lower the energy usage of our digital lives. But ThreeFold is taking not just a sustainable approach, we’re setting the plan for a planet positive Internet.

@@ -6,16 +6,15 @@ updated: 2020-01-04 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [farming,foundation]
-  tags: [threefold_token,blockchain]
+  people: [sacha_obeegadoo]
+  categories: [farming, foundation]
+  tags: [threefold_token, blockchain]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: Sacha Obeegadoo
   authorImg: images/people/sacha_obeegadoo.jpg
-  imgPath: images/blog/intro_tf_token.png
-  
 ---
+
 <br/>
 <br/>
 The ThreeFold Token is the currency of the new Internet. It is a decentralized digital currency that represents a unit of reservation of capacity (compute, storage) on the largest peer-to-peer network of capacity on earth.
@@ -35,11 +34,11 @@ No ThreeFold Tokens have ever been minted. ThreeFold Tokens are generated throug
 4. By employing Stellar technology, TFT transactions and smart contracts are powered by one of the most energy-efficient blockchains available. Furthermore, TFT is the medium of exchange on the greenest internet network in the world.
 5. The market for farming, cultivating and trading TFT is open to all. Anyone with internet connection, power supply and necessary hardware can become a Farmer or trade ThreeFold tokens (TFT).
 6. By buying, holding, and utilizing ThreeFold Tokens, you are actively supporting the expansion of the ThreeFold Grid and its use cases — creating a more sustainable, fair, and equally accessible Internet.
+   <br/>
+   <br/>
+
+_To learn more about the token, please dive into [our wiki](https://library.threefold.me/info/tfgrid/#/token)._
 <br/>
 <br/>
 
-*To learn more about the token, please dive into [our wiki](https://library.threefold.me/info/tfgrid/#/token).*
-<br/>
-<br/>
-
-*Important note: TFTs are not an investment instrument. It is the medium of exchange on the ThreeFold Grid, and is a mechanism to enable the Internet we believe is possible.*
+_Important note: TFTs are not an investment instrument. It is the medium of exchange on the ThreeFold Grid, and is a mechanism to enable the Internet we believe is possible._

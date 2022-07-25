@@ -6,22 +6,20 @@ updated: 2022-04-07 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: ["Foundation"]
   tags: [partner, threefold_grid, why]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: sam_taggart
   authorImg: images/people/sam_taggart.jpg
-  imgPath: images/blog/paradise_hills.png
-  
 ---
 
 It’s January 2022. ThreeFold co-founder Adnan Fatayerji sits in the office of Shaher Mousli, CEO of Paradise Hills Development, along with Suhaib Sheikh, COO of the project. Shaher and Adnan are long-time friends and in fact Shaher gave Adnan his first internship in Dubai about two decades ago, while Adnan was in his final year at university.
 
 <br/>
 
-Shaher is well-known in the Dubai real-estate market,  for his open-heartedness and transparency, and has a history of always looking for ways to stand out and differentiate himself and his projects. Paradise Hills in itself came from the idea of creating a “paradise” themed model for residents that could even serve as a tropical resting place for birds in Dubai.
+Shaher is well-known in the Dubai real-estate market, for his open-heartedness and transparency, and has a history of always looking for ways to stand out and differentiate himself and his projects. Paradise Hills in itself came from the idea of creating a “paradise” themed model for residents that could even serve as a tropical resting place for birds in Dubai.
 
 ## The “aha” moment
 

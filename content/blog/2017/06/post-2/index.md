@@ -6,16 +6,15 @@ updated: 2017-06-06 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [farming,twin,cloud,foundation,aci]
+  people: [kristof_de_spiegeleer]
+  categories: [farming, twin, cloud, foundation, aci]
   tags: [why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: kristof de spiegeleer
   authorImg: images/people/kristof_de_spiegeleer.jpeg
-  imgPath: images/blog/ethical_design_manifesto.png
-  
 ---
+
 <br/>
 <br/>
 Organizations should always respect human rights, human effort and human experience. To enable a sustainable and prosperous civilization and world, we need a strong value system.
@@ -27,7 +26,7 @@ Organizations should always respect human rights, human effort and human experie
 
 - **Sustainability**: It is important for a very simple reason: we cannot maintain our quality of life as human beings, the diversity of life on our planet, or Earth's ecosystems unless we embrace and protect its balance.
 - **Equality**: Everyone should have a right to learn, dream, partake and succeed. Equal access also means affordability, not ownership by big greedy companies.
-- **Decentralization**: To better distribute power, value and opportunities, we need more decentralization. Technologies and solutions should be available everywhere to improve equality and sustainability. 
+- **Decentralization**: To better distribute power, value and opportunities, we need more decentralization. Technologies and solutions should be available everywhere to improve equality and sustainability.
 - **Openness & Interoperability**: Allows technologies to work together in an open way, without limitation, and therefore expands the possibilities for innovation and sharing.
 - **Accessibility**: Whatever the location or situation, people should benefit from easy and fast access to information and solutions.
 - **Security & Privacy**: Protect people from being put in situations of danger or exploitation. People should be empowered to be independent and they should be the sole owners of their experiences.
@@ -45,6 +44,6 @@ Organizations should always respect human rights, human effort and human experie
 - **Inclusiveness**: Design should always be global and inclusive. We are all equal.
 - **Design**: Products should be visually appealing and should achieve it's purpose.
 - **Transparency**: Organisational records and strategies should be accessible to everyone.
-<br/>
-<br/>
-*Photo by Renee Fisher on Unsplash.*
+  <br/>
+  <br/>
+  _Photo by Renee Fisher on Unsplash._

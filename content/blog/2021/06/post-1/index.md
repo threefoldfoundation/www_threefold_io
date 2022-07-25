@@ -1,20 +1,18 @@
 ---
 title: "How You Can Join the People's Internet" # Quotation marks allow colons, semicolons, etc.
-description:  "An entirely new Internet economy that is owned by all of us. Add capacity, earn income!" # Quotation marks allow colons, semicolons, etc.
+description: "An entirely new Internet economy that is owned by all of us. Add capacity, earn income!" # Quotation marks allow colons, semicolons, etc.
 date: 2021-06-09
 updated: 2021-06-09 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [weynand_kuijpers]
   categories: [farming, cloud, foundation, aci, twin]
   tags: [threefold_grid, farming]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Weynand Kuijpers
   authorImg: images/people/weynand_kuijpers.jpg
-  imgPath: images/blog/join_the_peoples_internet.png
-  
 ---
 
 Yes, that's right. With ThreeFold, you *can* become the Internet! Let me quickly explain. 
@@ -23,7 +21,7 @@ Yes, that's right. With ThreeFold, you *can* become the Internet! Let me quickl
 Today's Internet is powered by hyper-scale data centers which are owned by large corporations. With +80% of the global infrastructure and +60% of the global Internet networks owned by a bunch of companies, the Internet became a real business with us humans being the products of that business model.
 <br/>
 <br/>
-ThreeFold creates an entirely new Internet economy that is owned by all of us and makes the traditional cloud model of building data centers obsolete. With ThreeFold, independent people called "Farmers" plug in 3Nodes (hardware) from their homes or offices anywhere around the world. And they earn income for it. 
+ThreeFold creates an entirely new Internet economy that is owned by all of us and makes the traditional cloud model of building data centers obsolete. With ThreeFold, independent people called "Farmers" plug in 3Nodes (hardware) from their homes or offices anywhere around the world. And they earn income for it.
 <br/>
 <br/>
 Together, they power a new, data-sovereign, and planet-positive Internet owned and powered by the people. This is a game-changer.
@@ -50,8 +48,8 @@ To "become the Internet" is fairly simple (but does take some technical knowledg
 - A smartphone on which you can download and run the "ThreeFold Connect" app. This will provide you with a wallet (to receive your farmed TFT and to pay a very small amount of TFT to get started).
 - A laptop / desktop (and USB stick) to launch your online 3Bot, configure your farm, download your bootloader and burn the bootloader to a USB stick.
 - Some technical knowledge, interest and 45 minutes of time.
-<br/>
-<br/>
+  <br/>
+  <br/>
 
 If you are still here and reading, we're good to go! I go through the whole process in a 3-minute video which will give you a quick overview of how to set up your farm. (Click through to the video on YouTube and find helpful links in the description.)
 <br/>

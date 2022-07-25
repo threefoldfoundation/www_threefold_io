@@ -7,14 +7,13 @@ updated: 2021-10-05 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: [foundation]
   tags: [threefold_grid, blockchain, technology, threefold_cloud, threefold_token]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Hannah Cordes
   authorImg: images/people/hannah_cordes.jpg
-  imgPath: images/blog/project_comparison_2_akash.png
   
 ---
 
@@ -22,7 +21,7 @@ As announced in [the first episode of this series](https://threefold.io/blog/pos
 
 ## Akash & how the project compares to ThreeFold
 
-Founded in 2015, [Akash](https://akash.network) is an open-source and blockchain-based cloud computing platform. They [strive](https://akash.network/about#vision) for an open, permissionless, and sovereign cloud that allows anyone to reserve computing resources without any intermediaries. Their cloud platform provides a simple way for deploying and scaling cloud applications. 
+Founded in 2015, [Akash](https://akash.network) is an open-source and blockchain-based cloud computing platform. They [strive](https://akash.network/about#vision) for an open, permissionless, and sovereign cloud that allows anyone to reserve computing resources without any intermediaries. Their cloud platform provides a simple way for deploying and scaling cloud applications.
 
 <br/>
 
@@ -42,11 +41,11 @@ Akash is one of the most robust decentralized compute solutions out there and is
 
 <br/>
 
-With ThreeFold, developers are enabled to tailor the terms for storing their workloads to fit their needs, benefiting from full decentralization and edge possibilities. Moreover, developers get access to the most distributed peer-to-peer infrastructure in the world – the ThreeFold, currently present in [more than 50 countries](https://explorer.grid.tf). Another unique attribute of the ThreeFold Grid is that the capacity within the network is provided by many people and organizations, forming an infrastructure that can be described as the “[People’s Internet](https://threefold.io/blog/post/tf_grid_peoples_internet/).” It is the first full-stack blockchain-enabled cloud to be made open source, allowing anyone to connect cloud capacity to the network by downloading [Zero-OS](https://threefold.io/tech/zero-os), our stateless and lightweight operating system powering the [ThreeFold Grid](https://threefold.io/grid). Once booted, the servers run and can’t be accessed physically. As they’re self-healing, they don’t require any maintenance. All in all, this model flips traditional IT upside down, allowing anyone to [join](https://threefold.io/blog/post/join_the_peoples_internet/) the ThreeFold ecosystem. 
+With ThreeFold, developers are enabled to tailor the terms for storing their workloads to fit their needs, benefiting from full decentralization and edge possibilities. Moreover, developers get access to the most distributed peer-to-peer infrastructure in the world – the ThreeFold, currently present in [more than 50 countries](https://explorer.grid.tf). Another unique attribute of the ThreeFold Grid is that the capacity within the network is provided by many people and organizations, forming an infrastructure that can be described as the “[People’s Internet](https://threefold.io/blog/post/tf_grid_peoples_internet/).” It is the first full-stack blockchain-enabled cloud to be made open source, allowing anyone to connect cloud capacity to the network by downloading [Zero-OS](https://threefold.io/tech/zero-os), our stateless and lightweight operating system powering the [ThreeFold Grid](https://threefold.io/grid). Once booted, the servers run and can’t be accessed physically. As they’re self-healing, they don’t require any maintenance. All in all, this model flips traditional IT upside down, allowing anyone to [join](https://threefold.io/blog/post/join_the_peoples_internet/) the ThreeFold ecosystem.
 
 <br/>
 
-Both projects also reward their communities for providing capacity. Akash planned to launch a limited edition for an own node device, called Supermini, with plug-and-play functionalities similar to our [3Node](https://library.threefold.me/info/threefold#/technology/technology?id=_3nodes). *However, Akash [just announced](https://akash.network/blog/supermini-update) that they’ll be postponing the launch of their Supermini indefinitely, meaning they won't be offering anything comparable to our 3Node anytime soon.* Our [3Node](https://threefold.io/farm) is a general purpose computer that acts as  a low-level provider for IT capacity. It is booted with our unique operating system Zero-OS and enables even people without technical skills to participate. We’re collaborating with certified hardware partners and plan to extend our reach in the near future to allow even more people to [join](https://threefold.io/blog/post/join_the_peoples_internet/) the ThreeFold Grid. 
+Both projects also reward their communities for providing capacity. Akash planned to launch a limited edition for an own node device, called Supermini, with plug-and-play functionalities similar to our [3Node](https://library.threefold.me/info/threefold#/technology/technology?id=_3nodes). _However, Akash [just announced](https://akash.network/blog/supermini-update) that they’ll be postponing the launch of their Supermini indefinitely, meaning they won't be offering anything comparable to our 3Node anytime soon._ Our [3Node](https://threefold.io/farm) is a general purpose computer that acts as a low-level provider for IT capacity. It is booted with our unique operating system Zero-OS and enables even people without technical skills to participate. We’re collaborating with certified hardware partners and plan to extend our reach in the near future to allow even more people to [join](https://threefold.io/blog/post/join_the_peoples_internet/) the ThreeFold Grid.
 
 ## Tokenomics and incentive models
 
@@ -54,11 +53,11 @@ Both, Akash Token (AKT) and [ThreeFold Token](https://threefold.io/tft) (TFT), a
 
 ## Conclusion
 
-All in all, Akash does a great job with regards to decentralizing cloud capacity. However, it doesn’t challenge the status-quo in terms of [data privacy](https://forum.threefold.io/t/security-privacy-on-the-threefold-grid-and-second-best-alternatives-out-there-today/1290). At ThreeFold, we’re determined to empower users, to give them back control and ownership of their data in an [entirely secure](https://forum.threefold.io/t/critical-security-updates-for-apple-and-google-underline-need-for-secure-it-ecosystem/1271), peer-to-peer IT ecosystem. While Akash and ThreeFold seem like competitors on a cloud level, we see ourselves more as a potential [decentralized substrate](https://forum.threefold.io/t/threefold-is-the-substrate-for-decloud/1295) for Akash to scale to the edges of our world. Akash developers would surely benefit from the lightweight and stateless features of our Zero-OS which could provide them with a more efficient and private infrastructure to test, build, and collaborate on workloads. 
+All in all, Akash does a great job with regards to decentralizing cloud capacity. However, it doesn’t challenge the status-quo in terms of [data privacy](https://forum.threefold.io/t/security-privacy-on-the-threefold-grid-and-second-best-alternatives-out-there-today/1290). At ThreeFold, we’re determined to empower users, to give them back control and ownership of their data in an [entirely secure](https://forum.threefold.io/t/critical-security-updates-for-apple-and-google-underline-need-for-secure-it-ecosystem/1271), peer-to-peer IT ecosystem. While Akash and ThreeFold seem like competitors on a cloud level, we see ourselves more as a potential [decentralized substrate](https://forum.threefold.io/t/threefold-is-the-substrate-for-decloud/1295) for Akash to scale to the edges of our world. Akash developers would surely benefit from the lightweight and stateless features of our Zero-OS which could provide them with a more efficient and private infrastructure to test, build, and collaborate on workloads.
 
 <br/>
 
-Akash and ThreeFold share the same goal – to bring secure, performant, and data-sovereign cloud solutions for humanity to thrive. As Sam [put in a nutshell](https://forum.threefold.io/t/threefold-is-the-substrate-for-decloud/1295): ThreeFold is the ideal substrate for projects like Akash to run on, instead of depending on traditional cloud providers – as we provide the low-level primitives for a decentralized world. So, we believe [Akash and ThreeFold](https://forum.threefold.io/t/how-is-threefold-different-from-akash-and-holochain/804/2) are complementary in many ways and could  join forces to further push the boundaries of [cloud decentralization](https://africa.businessinsider.com/local/markets/ambitious-startup-to-disrupt-the-internet-and-cloud/b38rwj4) together.
+Akash and ThreeFold share the same goal – to bring secure, performant, and data-sovereign cloud solutions for humanity to thrive. As Sam [put in a nutshell](https://forum.threefold.io/t/threefold-is-the-substrate-for-decloud/1295): ThreeFold is the ideal substrate for projects like Akash to run on, instead of depending on traditional cloud providers – as we provide the low-level primitives for a decentralized world. So, we believe [Akash and ThreeFold](https://forum.threefold.io/t/how-is-threefold-different-from-akash-and-holochain/804/2) are complementary in many ways and could join forces to further push the boundaries of [cloud decentralization](https://africa.businessinsider.com/local/markets/ambitious-startup-to-disrupt-the-internet-and-cloud/b38rwj4) together.
 
 <br/>
 

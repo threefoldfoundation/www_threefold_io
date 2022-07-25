@@ -6,15 +6,13 @@ updated: 2019-03-06 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [farming,foundation]
+  people: [adnan_fatayerji]
+  categories: [farming, foundation]
   tags: [threefold_token]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Adnan Fatayerji
   authorImg: images/people/adnan_fatayerji.jpg
-  imgPath: images/blog/new_digital_currency.png
-  
 ---
 
 ## The world needs a new stable & green digital currency, which is usable globally
@@ -30,10 +28,10 @@ However, cryptocurrencies commonly face some major problems, such as:
 - **Certain perceived reputational issues**: Numerous commentators - particularly in the early years of bitcoin - speculated that unregulated digital currencies could be used to fund illicit activities.
 - **A general absence of intrinsic value**: The major digital currencies today are not backed by real assets - therefore their value is more surrounded by hype.
 - **Limited utility**: Today digital currencies are predominantly held by miners and investors. There is very limited use of digital currencies to buy goods and services.
-<br/>
-<br/>
-These are some of the problems we see with cryptocurrencies. The world needs a new stable and green digital currency, which is usable globally. Enter ThreeFold Token.
-<br/>
-<br/>
+  <br/>
+  <br/>
+  These are some of the problems we see with cryptocurrencies. The world needs a new stable and green digital currency, which is usable globally. Enter ThreeFold Token.
+  <br/>
+  <br/>
 
-*To learn more about the token, please dive into [our wiki](https://library.threefold.me/info/tfgrid/#/token).*
+_To learn more about the token, please dive into [our wiki](https://library.threefold.me/info/tfgrid/#/token)._

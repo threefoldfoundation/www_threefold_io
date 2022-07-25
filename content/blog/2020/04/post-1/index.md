@@ -6,16 +6,15 @@ updated: 2020-04-08 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [farming,twin,aci,foundation]
-  tags: [why,threefold_farming]
+  people: [sam_taggart]
+  categories: [farming, twin, aci, foundation]
+  tags: [why, threefold_farming]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
   authorImg: images/people/sam_taggart.jpg
-  imgPath: images/blog/why_we_do.png
-  
 ---
+
 <br/>
 <br/>
 We are growing a green and responsible peer-to-peer Internet that is available everywhere and owned by everyone — across geographical and cultural borders, empowering people to be digitally independent and providing equal chances to learn, partake and succeed.
@@ -25,12 +24,13 @@ We are growing a green and responsible peer-to-peer Internet that is available e
 At ThreeFold, we are driven by three main values:
 <br/>
 <br/>
+
 - Equality is the foundation for a fair world where everyone is given the opportunity to be empowered and to achieve their full potential.
 - Freedom of thought, opinion, creativity and faith are fundamentals to achieve peace and fulfillment of humankind’s potential.
 - Sustainability ensures the future of life on earth. It is about adopting the behavior and mindset to minimize our footprint.
-<br/>
-<br/>
-Let’s take a deeper look.
+  <br/>
+  <br/>
+  Let’s take a deeper look.
 
 ### Internet Access | A Human Right
 
@@ -66,4 +66,4 @@ ThreeFold is the first true peer-to-peer Internet. It uses pioneering technologi
 If not now, when? If not us, who?
 <br/>
 <br/>
-*Photo by Yannis H on [Unsplash](https://unsplash.com/photos/uaPaEM7MiQQ).*
+_Photo by Yannis H on [Unsplash](https://unsplash.com/photos/uaPaEM7MiQQ)._
