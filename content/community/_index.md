@@ -106,7 +106,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 Join the movement by connecting a node at your home or ofﬁce. All you need is compatible hardware, electricity and network bandwidth to take part in the decentralization of the global Internet.
 
-<button>[Learn More](/farm)</button>
+<button>[Learn More](farm)</button>
 
 {% end %}
 
