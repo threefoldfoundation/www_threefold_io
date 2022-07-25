@@ -7,19 +7,20 @@ updated: 2021-07-19 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [scott_yeager]
   categories: [foundation,farming,cloud]
   tags: [threefold_grid,technology,peer_to_peer]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
+  author: Scott Yeager
   authorImg: images/people/scott_yeager.jpg
+  imgPath: images/blog/an_intro_to_the_threefold_grid.png
   
 ---
 
 ## An Intro to the ThreeFold Grid
 
-If you are a farmer or member of the ThreeFold community, you may be wondering about the capacity provided by the ThreeFold Grid and how it's relevant to individuals and businesses who currently rely on centralized corporate clouds. This can be hard to imagine, because the back end infrastructure that makes all of our apps and services tick is generally invisible to us.
+If you are a farmer or member of the ThreeFold community, you may be wondering about the capacity provided by the ThreeFold Grid and how it's relevant to individuals and businesses who currently rely on centralized corporate clouds. This can be hard to imagine, because the back end infrastructure that makes all of our apps and services tick is generally invisible to us. 
 
 <br>
 
@@ -31,7 +32,7 @@ So, what is the internet? In short, it is a network of interconnected devices th
 
 <br>
 
-On the ThreeFold Grid, servers are known as 3Nodes. A 3Node can be pretty much any modern computer system, offering capacity by running the Zero OS operating system. This is a major distinguishing factor, both from the traditional cloud computing world and also from other projects working to create decentralized networks in this space.
+On the ThreeFold Grid, servers are known as 3Nodes. A 3Node can be pretty much any modern computer system, offering capacity by running the Zero OS operating system. This is a major distinguishing factor, both from the traditional cloud computing world and also from other projects working to create decentralized networks in this space. 
 
 ## The OS for a Next Generation Cloud
 
@@ -59,7 +60,7 @@ Workloads are pieces of software that provide services. If you upload a file to 
 
 ## Network
 
-Networking takes place over cellular connections, wifi, and wired internet lines to move data from one place to another. For our purposes here, those details aren't so important—we'll focus on what happens once communication is completed by whatever means.
+Networking takes place over cellular connections, wifi, and wired internet lines to move data from one place to another. For our purposes here, those details aren't so important—we'll focus on what happens once communication is completed by whatever means. 
 
 <br>
 
@@ -67,15 +68,15 @@ When you connect to the cloud storage service, there are network workloads that 
 
 ## Compute
 
-Compute is what happens with data once it reaches its destination. Computers are mostly just fancy adding machines that take numbers and turn them into other numbers according to a set of specifications, which we call software. In our example, the compute step might involve compressing the information so it takes up less space and also deriving some useful statistics like the file's original size.
+Compute is what happens with data once it reaches its destination. Computers are mostly just fancy adding machines that take numbers and turn them into other numbers according to a set of specifications, which we call software. In our example, the compute step might involve compressing the information so it takes up less space and also deriving some useful statistics like the file's original size. 
 
 <br>
 
-Of course, there are many details we're glossing over here, and the compute resources are ultimately responsible for providing much of our end user experience and the interactivity of the apps we utilize. 3Nodes offer a compute environment that natively runs the vast majority of workloads in use today.
+Of course, there are many details we're glossing over here, and the compute resources are ultimately responsible for providing much of our end user experience and the interactivity of the apps we utilize. 3Nodes offer a compute environment that natively runs the vast majority of workloads in use today. 
 
 ## Storage
 
-Storage, of course, is the disk space where data resides. It can be a little strange to think about, actually, that all of the information you've stored online actually has at least one physical location where it exists as many small electrical charges. On the Grid, application developers can access the disks of nodes directly, in a way that's optimized for energy efficiency.
+Storage, of course, is the disk space where data resides. It can be a little strange to think about, actually, that all of the information you've stored online actually has at least one physical location where it exists as many small electrical charges. On the Grid, application developers can access the disks of nodes directly, in a way that's optimized for energy efficiency. 
 
 <br>
 
@@ -83,7 +84,7 @@ We also have more advanced storage solutions that offer unparalleled security an
 
 ## Looking Forward
 
-Taken together, network, storage, and compute are the raw elements that give life to the internet we know and love. On the ThreeFold Grid, these elements are expressed in a way that's both familiar for developers but also pushes the limits of what is possible in terms of technical evolution.
+Taken together, network, storage, and compute are the raw elements that give life to the internet we know and love. On the ThreeFold Grid, these elements are expressed in a way that's both familiar for developers but also pushes the limits of what is possible in terms of technical evolution. 
 
 <br>
 

@@ -5,13 +5,14 @@ date: 2022-03-11
 updated: 2022-03-11
 draft: false
 taxonomies:
-  people: [sacha_obeegadoo]
   categories: [foundation]
-  tags: [peer_to_peer, threefold_grid, blockchain, technology]
-
+  tags: [peer_to_peer,threefold_grid,blockchain,technology]
+    
 extra:
   subtitle: ""
+  author: Sacha Obeegadoo
   authorImg: images/people/sacha_obeegadoo.jpg
+  imgPath: images/blog/bitcoin_threefold.png
   date: 2022-03-11
 ---
 

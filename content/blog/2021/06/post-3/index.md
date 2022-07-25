@@ -6,13 +6,15 @@ updated: 2021-06-22 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [sacha_obeegadoo]
   categories: [farming, cloud, foundation, aci, twin]
   tags: [farming, threefold_grid, why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
+  author: Sacha Obeegadoo
   authorImg: images/people/sacha_obeegadoo.jpg
+  imgPath: images/blog/threefold_access.png
+  
 ---
 
 The United Nations publicly ruled Internet access to be a human right in 2016. Proper access to the Internet helps to protect people’s freedom of speech and thought, as well as other fundamentals such as access to knowledge and information.  

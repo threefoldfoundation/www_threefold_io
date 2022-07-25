@@ -6,21 +6,22 @@ updated: 2020-12-02 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [weynand_kuijpers]
-  categories: [farming, twin, foundation, cloud, aci]
-  tags: [threefold_farming, why]
+  categories: [farming,twin,foundation,cloud,aci]
+  tags: [threefold_farming,why]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
+  author: Weynand Kuijpers
   authorImg: images/people/weynand_kuijpers.jpg
+  imgPath: images/blog/better_solution.png
+  
 ---
-
 <br/>
 <br/>
 Today, the global Internet and IT infrastructure requires enormous amounts of energy, responsible for about 10% of annual global energy consumption. This makes the IT industry amongst the most pollutive industries in the world (along with the often-discussed airline industry, for comparison).
 <br/>
 <br/>
-We believe IT can be sustainable. Actually, it should be! That's why energy efficiency has always been a key focus of ours. With climate change and sustainability as some of the most pressing issues of our times, new green solutions need to be our priority. It has been key to ThreeFold since the very beginning of its story to enable a technological infrastructure that can reduce the Internet’s carbon footprint drastically.
+We believe IT can be sustainable. Actually, it should be! That's why energy efficiency has always been a key focus of ours. With climate change and sustainability as some of the most pressing issues of our times, new green solutions need to be our priority. It has been key to ThreeFold since the very beginning of its story to enable a technological infrastructure that can reduce the Internet’s carbon footprint drastically. 
 
 ## Simplicity is the key to unlock a better future
 
@@ -57,7 +58,7 @@ Supercomputing delivered many new technologies. But, not all of them are usable 
 <br/>
 RDMA is only used in certified farms and requires involvement of TFTech.
 
-## Minimizing disk usage
+## Minimizing disk usage 
 
 The storage solution uses slow and big (the bigger the better) HDD disks which drive in rack density. As they spin slower they consume less power and need less cooling. But then, how can you deal with read/write intensive workloads? The storage algorithm uses a SSD cache to acknowledge Inputs/Outputs coming from the applications, fills the erasure coded data blocks in large (up to 64MB) storage containers and writes the big chunks of data on the big and slow HHDs. If you are familiar with HDD disks, you know they like to be streamed on instead of having a lot of small bits written in a scratchy way.
 <br/>

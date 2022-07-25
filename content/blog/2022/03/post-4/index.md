@@ -5,13 +5,14 @@ date: 2022-03-09
 updated: 2022-03-09
 draft: false
 taxonomies:
-  people: [sam_taggart]
   categories: [foundation]
-  tags: [peer_to_peer, why, farming, threefold_grid]
-
+  tags: [peer_to_peer,why,farming,threefold_grid]
+    
 extra:
   subtitle: ""
+  author: Sam Taggart
   authorImg: images/people/sam_taggart.jpg
+  imgPath: images/blog/p2p_web3.png
   date: 2022-03-09
 ---
 
@@ -31,7 +32,7 @@ The Internet’s client-server infrastructure replicates data and workloads acro
 
 <br/>
 
-Blockchain is a clear evolution to the centralized client-server model, but there are severe challenges sourced from the [blockchain trilemma](https://medium.com/certik/the-blockchain-trilemma-decentralized-scalable-and-secure-e9d8c41a87b3) between decentralization, scalability and security. Peer-to-peer systems transcend those challenges as they don’t require any valid2ation or verification from a third party, and enable end-to-end connections that can scale limitlessly without the potential of being altered or corrupted by intermediaries. In peer-to-peer systems, all participants are equally privileged, presenting a fairer model. Peer-to-peer represents an incredibly simple and efficient paradigm for organizing our digital world, and has already proven to be the most efficient alternative to centralized information systems.
+Blockchain is a clear evolution to the centralized client-server model, but there are  severe challenges sourced from the [blockchain trilemma](https://medium.com/certik/the-blockchain-trilemma-decentralized-scalable-and-secure-e9d8c41a87b3) between decentralization, scalability and security. Peer-to-peer systems transcend those challenges as they don’t require any valid2ation or verification from a third party, and enable end-to-end connections that can scale limitlessly without the potential of being altered or corrupted by intermediaries. In peer-to-peer systems, all participants are equally privileged, presenting a fairer model. Peer-to-peer represents an incredibly simple and efficient paradigm for organizing our digital world, and has already proven to be the most efficient alternative to centralized information systems.
 
 <br/>
 

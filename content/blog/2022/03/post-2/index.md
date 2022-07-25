@@ -5,13 +5,14 @@ date: 2022-03-01
 updated: 2022-03-01
 draft: false
 taxonomies:
-  people: [sacha_obeegadoo]
   categories: [foundation]
-  tags: [peer_to_peer, why, farming, threefold_grid]
-
+  tags: [peer_to_peer,why,farming,threefold_grid]
+    
 extra:
   subtitle: ""
+  author: Sacha Obeegadoo
   authorImg: images/people/sacha_obeegadoo.jpg
+  imgPath: images/blog/what_is_farming.png
   date: 2022-03-01
 ---
 
@@ -58,7 +59,7 @@ ThreeFold Tokens are rewarded for the amount of Internet capacity added and kept
 - 30 TFT per Compute Unit (2 vCPU and 4 GB memory) per month
 - 12.5 TFT per Storage Unit (1 TB of SSD and HDD) per month
 - 0.38 TFT per Network Unit (1 GB of data transfer)
-- 0.06 TFT per public IP address per hour
+- 0.06 TFT per public IP address per hour 
 
 <br/>
 
@@ -86,11 +87,11 @@ While blockchain remains an incredible store of value, it is neither an efficien
 
 ## Considerations before getting started
 
-The following are important factors to consider for ThreeFold farming profitability:
+The following are important factors to consider for ThreeFold farming profitability: 
 
 ### Computer Hardware
 
-Farmers are encouraged to use the latest computers, including servers, desktops, and laptops that come with an AMD and Intel processor. The computer should have at least 1 Terabyte of SSD to optimize the performance of their farming activity. It is recommended to buy a ThreeFold 3Node server from certified partners around the globe that comes pre-configured and ready to run on the Grid.
+Farmers are encouraged to use the latest computers, including servers, desktops, and laptops that come with an AMD and Intel processor. The computer should have at least 1 Terabyte of SSD to optimize the performance of their farming activity. It is recommended to buy a ThreeFold 3Node server from certified partners around the globe that comes pre-configured and ready to run on the Grid. 
 
 <br/>
 
@@ -98,11 +99,11 @@ Used or refurbished computers can be used but it is important to understand that
 
 ### Power Costs
 
-Electrical power is the main operating expense. Electricity is charged per kilowatt-hour (kWh). The cost of farming can float from $0.10 to $0.35 per kWh. It is important for a farmer to verify the expected power usage of a computer before starting the operation to improve profitability.
+Electrical power is the  main operating expense. Electricity is charged per kilowatt-hour (kWh). The cost of farming can float from $0.10 to $0.35 per kWh. It is important for a farmer to verify the expected power usage of a computer before starting the operation to improve profitability.
 
 <br/>
 
-_Note that the price of kWh varies depending on the country. Find a country power cost average comparison [here](https://www.electricrate.com/data-center/electricity-prices-by-country/)._
+*Note that the price of kWh varies depending on the country. Find a country power cost average comparison [here](https://www.electricrate.com/data-center/electricity-prices-by-country/).*
 
 ### ThreeFold Token Price
 
@@ -114,7 +115,7 @@ Farmers are rewarded a given amount of TFT monthly based on the amount of Intern
 
 <br/>
 
-If the price of TFT is $0.1, the profitability of the farm will be average. If the price of TFT is $0.3 your farming operation may operate with healthy rewards. If the price of TFT is $1 your farming operation will be highly rewarding.
+If the price of TFT is $0.1, the profitability of the farm will be average. If the price of TFT is $0.3  your farming operation may operate with healthy rewards. If the price of TFT is $1 your farming operation will be highly rewarding.
 
 <br/>
 

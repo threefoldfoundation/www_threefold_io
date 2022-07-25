@@ -6,13 +6,15 @@ updated: 2021-01-03 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [sam_taggart]
-  categories: [farming, cloud, foundation, aci, twin]
-  tags: [farming, why]
+  categories: [farming,cloud,foundation,aci,twin]
+  tags: [farming,why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
+  author: Sam Taggart
   authorImg: images/people/sam_taggart.jpg
+  imgPath: images/blog/more_inclusive_internet.png
+  
 ---
 
 <br/>

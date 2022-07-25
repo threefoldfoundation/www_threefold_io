@@ -6,13 +6,15 @@ updated: 2019-12-05 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [andreas_hartl]
-  categories: [farming, cloud, foundation, aci]
-  tags: [technology, why, threefold_grid]
+  categories: [farming,cloud,foundation,aci]
+  tags: [technology,why,threefold_grid]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
+  author: Andreas Hartl
   authorImg: images/people/andreas_hartl.jpeg
+  imgPath: images/blog/internet_is_growing_wild.png
+  
 ---
 
 ## You are unique
@@ -38,4 +40,4 @@ One decentralized application, one digital wallet, one login and one you. Becaus
 Have questions? Feel free to ask us on our [forum](https://forum.threefold.io)!
 <br/>
 <br/>
-_Photo by Jessica Ruscello on [Unsplash](https://unsplash.com/photos/DoSDQvzjeH0)._
+*Photo by Jessica Ruscello on [Unsplash](https://unsplash.com/photos/DoSDQvzjeH0).*

@@ -6,20 +6,22 @@ updated: 2022-03-21 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [sacha_obeegadoo]
   categories: ["Foundation"]
   tags: [threefold_grid, community, farming, interview, update]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
+  author: Sacha Obeegadoo
   authorImg: images/people/sacha_obeegadoo.jpg
+  imgPath: images/blog/realizing_the_promise.png
+  
 ---
 
 What was once a massive global movement sparked by the idealism of free culture and the net, is now hosting a wave of unintended consequences that may destroy sovereignty and freedom as we know it. The digital revolution and the “democratization” of the Internet promised to lead us to a prosperous and equitable world, one that brought us closer together, eliminating both physical and virtual boundaries.
 
 <br/>
 
-_“We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth… a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity… Your legal concepts of property, expression, identity, movement, and context do not apply to us. They are all based on matter, and there is no matter here.” – Declaration of independence of Cyberspace – John Perry Barlow – Davos, 1996._
+*“We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth… a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity… Your legal concepts of property, expression, identity, movement, and context do not apply to us. They are all based on matter, and there is no matter here.” –  Declaration of independence of Cyberspace – John Perry Barlow – Davos, 1996.*
 
 <br/>
 
@@ -39,7 +41,7 @@ The peer-to-peer Internet incentivizes all citizens of our world to connect comp
 
 <br/>
 
-Quite simply – there is no good reason that our data is being stored and controlled by others in the information age. Why are we paying centralized companies to handle our information on our behalf, when it makes us vulnerable to be turned into products, and would take us the same time to do it ourselves?
+Quite simply – there is no good reason that our data is being stored and controlled by others in the information age. Why are we paying centralized companies to handle our information on our  behalf, when it makes us vulnerable to be turned into products, and would take us the same time to do it ourselves?
 
 <br/>
 
@@ -49,7 +51,7 @@ Peer-to-peer isn’t an alternative to the Internet, it’s an alternative to ce
 
 In times of exponential evolution and innovation, we have our fears around the Internet.
 
-We don’t need to disconnect ourselves even further from our reality and it is our responsibility to ensure a safe and fair future for the generations to come. A centralized Internet which is controlled by a handful of companies is a serious existential threat. If emerging technologies such as IoT, Blockchain and the Metaverse are not hosted on a self-sovereign, peer-to-peer infrastructure owned by all of us, we may be running head down into the matrix.
+We don’t need to disconnect ourselves even further from our reality and it is our responsibility to ensure a safe and fair future for the generations to come. A centralized Internet which is controlled by a handful of companies is a serious existential threat. If emerging technologies such as IoT, Blockchain and the Metaverse are not hosted on a self-sovereign, peer-to-peer infrastructure owned by all of us, we may be running head down into the matrix. 
 
 <br/>
 
@@ -61,5 +63,5 @@ Join the [ThreeFold](https://t.me/threefold) movement, a community of like-minde
 
 <br/>
 
-- Learn how to [host the Internet](http://threefold.io/farm) at your home or office.
-- Get [TFT](https://gettft.com/gettft/), the currency of the peer-to-peer Internet.
+* Learn how to [host the Internet](http://threefold.io/farm) at your home or office.
+* Get [TFT](https://gettft.com/gettft/), the currency of the peer-to-peer Internet.

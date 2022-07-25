@@ -6,13 +6,15 @@ updated: 2021-10-12 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [hannah_cordes]
-  categories: [foundation, farming, cloud]
+  categories: [foundation,farming,cloud]
   tags: [threefold_grid, threefold_cloud, technology, partner, peer_to_peer]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
+  author: Hannah Cordes
   authorImg: images/people/hannah_cordes.jpg
+  imgPath: images/blog/threefold_cloud_vs_centralized_providers.png
+  
 ---
 
 As we’ve recently been exploring decentralized [projects](https://threefold.io/blog/post/project_comparison_1_dfinity/) to see where ThreeFold is in the space and where we stand out, we thought it’s a good time to also look into how we compare to traditional, centralized cloud providers.
@@ -51,4 +53,4 @@ While electricity for storing and transporting data, administration, human resou
 
 <br/>
 
-All in all, the combination of our [ThreeFold Grid](https://threefold.io/grid) and [ThreeFold P2P Cloud](https://cloud.threefold.io) provide significant advantages over centralized cloud providers with their hyper-scale data centers. From decentralization and infinite scalability at the edge to considerable energy savings and cost effectiveness as well as data privacy and security, [our solution](https://africa.businessinsider.com/local/markets/ambitious-startup-to-disrupt-the-internet-and-cloud/b38rwj4) has much more value to offer, while solving critical issues related to centralized clouds. If you’d like to test our cloud solution yourself, take a look [here](https://threefold.io/info/cloud#/cloud__evdc_getting_started). You can also start participating in our decentralized ecosystem by becoming a [3Node](https://shop.threefold.tech/index.php?route=common/home) on our ThreeFold Grid.
+All in all, the combination of our [ThreeFold Grid](https://threefold.io/grid) and [ThreeFold P2P Cloud](https://cloud.threefold.io) provide significant advantages over centralized cloud providers with their hyper-scale data centers. From decentralization and infinite scalability at the edge to considerable energy savings and cost effectiveness as well as data privacy and security, [our solution](https://africa.businessinsider.com/local/markets/ambitious-startup-to-disrupt-the-internet-and-cloud/b38rwj4) has much more value to offer, while solving critical issues related to centralized clouds. If you’d like to test our cloud solution yourself, take a look [here](https://threefold.io/info/cloud#/cloud__evdc_getting_started). You can also start participating in our decentralized ecosystem by becoming a [3Node]( https://shop.threefold.tech/index.php?route=common/home) on our ThreeFold Grid.

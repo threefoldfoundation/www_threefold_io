@@ -6,20 +6,22 @@ updated: 2022-05-05 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [hannah_cordes]
   categories: ["Foundation"]
   tags: [threefold_grid, farming, threefold_token, why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
+  author: HANNAH CORDES
   authorImg: images/people/hannah_cordes.jpg
+  imgPath: images/blog/planting_the_seeds.png
+  
 ---
 
-_‘Being sustainable’ has become a buzzword – a claim to boost our image rather than an honest endeavour. It is hard to trust people and brands today when we fear to fall into the trap of greenwashing. However, we have no choice but to change our collective behaviour, consumption patterns and business practices if we want to combat climate change and the collapse of biodiversity._
+*‘Being sustainable’ has become a buzzword – a claim to boost our image rather than an honest endeavour. It is hard to trust people and brands today when we fear to fall into the trap of greenwashing. However, we have no choice but to change our collective behaviour, consumption patterns and business practices if we want to combat climate change and the collapse of biodiversity.*
 
 <br/>
 
-Last November, [COP26](https://www.nature.com/articles/d41586-021-03431-4) shed light on how indecisive our global institutions and governments are in the face of an unprecedented climate crisis. We now have to come to terms with the fact that carbon neutrality is no longer enough. Rising carbon emissions have been linked to an increasing amount of heat waves, droughts, floods and hurricanes globally. It is our collective responsibility to reverse the unintended consequences of our actions.
+Last November, [COP26](https://www.nature.com/articles/d41586-021-03431-4) shed light on how indecisive our global institutions and governments are in the face of an unprecedented climate crisis. We now have to come to terms with the fact that carbon neutrality is no longer enough. Rising carbon emissions have been linked to an increasing amount of heat waves, droughts, floods and hurricanes globally. It is our collective responsibility to reverse the unintended consequences of our actions. 
 
 <br/>
 
@@ -39,7 +41,7 @@ The time has come for us to put our planet first. It is our duty to regenerate o
 
 ## How to save our planet
 
-_“The greatest threat to our planet is the belief that someone else will save it.” – Robert Swan_
+*“The greatest threat to our planet is the belief that someone else will save it.” – Robert Swan*
 
 <br/>
 
@@ -67,7 +69,7 @@ And we decided to empower our community to take part in our regeneration efforts
 
 <br/>
 
-As we shared in our Planet-Positive Farming Series, we’re setting the plan for a planet-positive Internet by implementing a [Voluntary Carbon Credits](https://forum.threefold.io/t/threefold-on-track-to-be-planet-positive/2097?u=hannahcordes) (VCC) system and supporting [planet-positive initiatives](https://forum.threefold.io/t/supporting-initiatives-to-regenerate-the-planet/2110?u=hannahcordes) with our trusted partners from [Take Action Global](https://forum.threefold.io/t/driving-regeneration-with-tag/2120?u=hannahcordes) (TAG).
+As we shared in our Planet-Positive Farming Series, we’re setting the plan for a planet-positive Internet by implementing a [Voluntary Carbon Credits](https://forum.threefold.io/t/threefold-on-track-to-be-planet-positive/2097?u=hannahcordes) (VCC) system and supporting [planet-positive initiatives](https://forum.threefold.io/t/supporting-initiatives-to-regenerate-the-planet/2110?u=hannahcordes) with our trusted partners from [Take Action Global](https://forum.threefold.io/t/driving-regeneration-with-tag/2120?u=hannahcordes) (TAG). 
 
 ## Driving regeneration with Take Action Global
 
@@ -115,8 +117,8 @@ And don’t forget:
 
 <br/>
 
-_"What we do today will determine what the world looks like tomorrow." – Marie von Ebner-Eschenbach_
+*"What we do today will determine what the world looks like tomorrow." – Marie von Ebner-Eschenbach*
 
 <br/>
 
-_P.S.: If you have ideas or suggestions for further planet-positive initiatives or potential partnerships, let us know on our [forum](https://forum.threefold.io/c/ecosystem-developments/sustainability/90)._
+*P.S.: If you have ideas or suggestions for further planet-positive initiatives or potential partnerships, let us know on our [forum](https://forum.threefold.io/c/ecosystem-developments/sustainability/90).*

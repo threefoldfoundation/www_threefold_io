@@ -6,13 +6,15 @@ updated: 2021-10-08 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [hannah_cordes]
   categories: [foundation]
   tags: [threefold_grid, blockchain, technology]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
+  author: Hannah Cordes
   authorImg: images/people/hannah_cordes.jpg
+  imgPath: images/blog/project_comparison_3_filecoin.png
+  
 ---
 
 Welcome to the third stop on our journey that aims to better understand the space we operate in and how ThreeFold stands out. After exploring [Dfinity](https://threefold.io/blog/post/project_comparison_1_dfinity/) and [Akash](https://threefold.io/blog/post/project_comparison_2_akash/), I will now take a closer look at Filecoin to discover the similarities as well as differences of their project and ThreeFold. Let’s dive right in!
@@ -43,7 +45,7 @@ By contributing and lending storage capacity on Filecoin’s marketplace, provid
 
 <br/>
 
-While we’ve built our own operating system [from scratch](https://threefold.io/blog/post/zero_os_blog/), starting just with a Linux kernel, Filecoin doesn't have its own OS. ThreeFold is not only more inclusive but also has a much higher scalability as anyone’s able to participate. In contrast, Filecoin even issues a warning in their [documentation](https://docs.filecoin.io/mine/) which states that in order to run a successful mining operation, one has to meet high hardware requirements and to be highly familiar with Filecoin. Thanks to our autonomous, self-healing technology, no maintenance is required. To ensure the security of our 3Nodes can’t be accessed physically once booted. Therefore, our ThreeFold Grid is much more inclusive, as the network capacity on it is provided by many people and organizations constituting what we like to call “[People’s Internet](https://threefold.io/blog/post/tf_grid_peoples_internet/).” Currently, we’re planning to extend our reach to enable even more people to join the ThreeFold Grid.
+While we’ve built our own operating system [from scratch](https://threefold.io/blog/post/zero_os_blog/), starting just with a Linux kernel, Filecoin doesn't have its own OS. ThreeFold is not only more inclusive but also has a much higher scalability as anyone’s able to participate. In contrast, Filecoin even issues a warning in their [documentation](https://docs.filecoin.io/mine/) which states that in order to run a successful mining operation, one has to meet high hardware requirements and to be highly familiar with Filecoin. Thanks to our autonomous, self-healing technology, no maintenance is required. To ensure the security of our 3Nodes can’t be accessed physically once booted. Therefore, our ThreeFold Grid is much more inclusive, as the network capacity on it is provided by many people and organizations constituting what we like to call “[People’s Internet](https://threefold.io/blog/post/tf_grid_peoples_internet/).” Currently, we’re planning to extend our reach to enable even more people to join the ThreeFold Grid. 
 
 <br/>
 
@@ -59,7 +61,7 @@ To conclude, the two projects share the same vision of bringing users’ data cl
 
 <br/>
 
-This is why ThreeFold is the [ideal substrate](https://forum.threefold.io/t/threefold-is-the-substrate-for-decloud/1295) for projects like Filecoin to run on, as we’re already IPFS-compatible and provide the low-level primitives for a fully decentralized cloud. So, we believe Filecoin and ThreeFold could team up to jointly drive the decentralization of cloud.
+This is why ThreeFold is the [ideal substrate](https://forum.threefold.io/t/threefold-is-the-substrate-for-decloud/1295) for projects like Filecoin to run on, as we’re already IPFS-compatible and provide the low-level primitives for a fully decentralized cloud. So, we believe Filecoin and ThreeFold could team up to jointly drive the decentralization of cloud. 
 
 <br/>
 

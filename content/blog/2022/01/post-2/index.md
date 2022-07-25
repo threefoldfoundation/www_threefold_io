@@ -6,13 +6,15 @@ updated: 2022-01-02 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [sam_taggart]
   categories: [foundation, cloud, technology]
   tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
+  author: Sam Taggart
   authorImg: images/people/sam_taggart.jpg
+  imgPath: images/blog/threefold_review_2021_preview_2022.png
+  
 ---
 
 It was an important year for ThreeFold, with huge developments on the ThreeFold Grid, the continued expansion of the grid by farmers, key partnerships, and more – all setting up for a strong 2022.
@@ -35,8 +37,8 @@ The starting point ThreeFold Grid 3:
 
 <br/>
 
-- [What’s New in TF Grid 3.0](https://forum.threefold.io/t/what-is-new-in-tfgrid-3-0/1133)
-- [Manual](https://library.threefold.me/info/manual/#/)
+* [What’s New in TF Grid 3.0](https://forum.threefold.io/t/what-is-new-in-tfgrid-3-0/1133)
+* [Manual](https://library.threefold.me/info/manual/#/)
 
 ### Notable Tech Developments
 
@@ -48,7 +50,7 @@ Other new developments on the tech side included [QSFS](https://threefold.io/new
 
 <br/>
 
-_[Read about our TFGrid & TFT Price Simulation.](https://forum.threefold.io/t/tft-tfgrid-growth-simulation/1633)_
+*[Read about our TFGrid & TFT Price Simulation.](https://forum.threefold.io/t/tft-tfgrid-growth-simulation/1633)*
 
 ### ThreeFold Farming
 

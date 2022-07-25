@@ -6,13 +6,15 @@ updated: 2020-12-15 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [sacha_obeegadoo]
-  categories: [farming, cloud, twin, foundation]
-  tags: [peer_to_peer, why, farming, technology, threefold_grid]
+  categories: [farming,cloud,twin,foundation]
+  tags: [peer_to_peer,why,farming,technology,threefold_grid]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
+  author: Sacha Obeegadoo
   authorImg: images/people/sacha_obeegadoo.jpg
+  imgPath: images/blog/peer_to_peer.png
+  
 ---
 
 ## What is Peer-to-Peer?
@@ -37,17 +39,17 @@ In the near future, ThreeFold will create Digital Twin, which will go beyond th
 
 ## Why did ThreeFold choose peer-to-peer? 
 
-Everything starts (or should start) from the why, and the ThreeFold story started a long time ago. Before the inception of ThreeFold, many of the co-founders of the project used to work with the largest IT & Cloud actors. Throughout their experience working in the Industry, they realized that the complexity of the technology and the centralization of knowledge & power led to an inefficient, unsustainable, not scalable and unequally distributed infrastructure. So they decided to redesign the whole Internet and cloud infrastructure bottom-up with the vision of shaping a global internet economy that can scale anywhere efficiently, cost efficiently and sustainably.
+Everything starts (or should start) from the why, and the ThreeFold story started a long time ago. Before the inception of ThreeFold, many of the co-founders of the project used to work with the largest IT & Cloud actors. Throughout their experience working in the Industry, they realized that the complexity of the technology and the centralization of knowledge & power led to an inefficient, unsustainable, not scalable and unequally distributed infrastructure. So they decided to redesign the whole Internet and cloud infrastructure bottom-up with the vision of shaping a global internet economy that can scale anywhere efficiently, cost efficiently and sustainably. 
 
 ## Why does the world needs peer-to-peer? 
 
 By developing the technology, the conviction that peer-to-peer was the best solution for humanity and the planet strengthened itself. Why? Well, put simply, a peer-to-peer system removes all forms of intermediaries, unnecessary steps and complexity from the picture. Therefore, it simplifies the architecture in an incredible way. The benefits are many but here are the most popular benefits:
 <br/>
 
-- _Privacy_: Our peer-to-peer environment means no middlemen or intermediaries, meaning data travels directly between peers and stored on the nodes of their choice rather than being sent through and stored by a third party.
-- _Security_: Data stored in data centers is susceptible to security breaches. In bypassing data centers and exchanging data directly between peers, we can achieve much greater security as it reduces code and back doors significantly.
-- _Scalability_: In a many-to-many system, scale is essentially unlimited. There is simply no bottleneck. And hardware (nodes) can be added at ease compared to current data center model.
-- _Cost-efficiency & Sustainability_: End-to-end (direct) connection between peers means a more efficient path for data and less energy is needed. Less energy means less cost, and less harm to our planet.
+- *Privacy*: Our peer-to-peer environment means no middlemen or intermediaries, meaning data travels directly between peers and stored on the nodes of their choice rather than being sent through and stored by a third party.
+- *Security*: Data stored in data centers is susceptible to security breaches. In bypassing data centers and exchanging data directly between peers, we can achieve much greater security as it reduces code and back doors significantly. 
+- *Scalability*: In a many-to-many system, scale is essentially unlimited. There is simply no bottleneck. And hardware (nodes) can be added at ease compared to current data center model.
+- *Cost-efficiency & Sustainability*: End-to-end (direct) connection between peers means a more efficient path for data and less energy is needed. Less energy means less cost, and less harm to our planet.
 
 ## In 2021 the world is going peer-to-peer! 
 

@@ -7,17 +7,18 @@ updated: 2021-10-04 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  people: [scott_yeager]
   categories: [foundation]
   tags: [foundation,farming,cloud]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
+  author: Scott Yeager
   authorImg: images/people/scott_yeager.jpg
+  imgPath: images/blog/building_a_new_internet_3.png
   
 ---
 
-_Welcome back for another installment of our accessible series on ThreeFold Grid technology. We are working through the three major categories that make up cloud infrastructure: storage, compute, and network. This time, we'll be focusing on compute._
+*Welcome back for another installment of our accessible series on ThreeFold Grid technology. We are working through the three major categories that make up cloud infrastructure: storage, compute, and network. This time, we'll be focusing on compute.*
 
 ## What is compute?
 
@@ -25,7 +26,7 @@ While [storage](https://threefold.io/blog/post/building_a_new_internet_from_the_
 
 <br/>
 
-As mentioned in the [first part](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) of this series, compute is basically what happens with data once it reaches its destination. Compute gives data relevance, by processing it according to the instructions provided by developers in their source code. When talking about what the [ThreeFold Grid](https://threefold.io/grid) offers in terms of compute, it's mostly about how the code that developers produce gets executed in order to provide the services we enjoy.
+As mentioned in the [first part](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) of this series, compute is basically what happens with data once it reaches its destination. Compute gives data relevance, by processing it according to the instructions provided by developers in their source code. When talking about what the [ThreeFold Grid](https://threefold.io/grid) offers in terms of compute, it's mostly about how the code that developers produce gets executed in order to provide the services we enjoy. 
 
 <br/>
 
@@ -45,7 +46,7 @@ In this context, compute is mostly responsible for organizing all of our message
 
 <br/>
 
-Here is an important distinction about how the ThreeFold Grid operates. In a traditional cloud environment, it is impossible to know for sure what is happening on the backend, even if you are the one running the service. The administrative access retained by the cloud provider can be used for surveillance and tampering that can be very difficult or impossible to detect.
+Here is an important distinction about how the ThreeFold Grid operates. In a traditional cloud environment, it is impossible to know for sure what is happening on the backend, even if you are the one running the service. The administrative access retained by the cloud provider can be used for surveillance and tampering that can be very difficult or impossible to detect. 
 
 <br/>
 
@@ -57,7 +58,7 @@ Since we're getting a bit into the technical weeds here, we'll just take a brief
 
 ### Zmachine
 
-Zmachine is a lightweight virtual machine (VM) implementation that's been developed in a uniquely efficient way by ThreeFold. VMs are essentially computers within computers, allowing multiple operating systems to run on a single physical system. A common example is running the Windows operating system on a Mac that's already running MacOS.
+Zmachine is a lightweight virtual machine (VM) implementation that's been developed in a uniquely efficient way by ThreeFold. VMs are essentially computers within computers, allowing multiple operating systems to run on a single physical system. A common example is running the Windows operating system on a Mac that's already running MacOS. 
 
 <br/>
 
@@ -65,7 +66,7 @@ In the cloud world, virtual machines are a classic way to manage complex deploym
 
 ### Flist
 
-The [Flist](https://threefold.io/how-it-works/zflist) is a next generation container format which extends the industry standard Docker container concept in an efficient and secure way. It is supported directly at the operating system level on Zero OS, and in its latest version on ThreeFold Grid 3.0, provides a unique advantage over traditional containers via the use of mini virtual machines.
+The [Flist](https://threefold.io/how-it-works/zflist)  is a next generation container format which extends the industry standard Docker container concept in an efficient and secure way. It is supported directly at the operating system level on Zero OS, and in its latest version on ThreeFold Grid 3.0, provides a unique advantage over traditional containers via the use of mini virtual machines.
 
 <br/>
 
