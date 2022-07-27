@@ -1,5 +1,6 @@
 ---
 title: "WELCOME TO THE"
+sort_by: "weight"
 
 extra:
     subtitle: "People’s Internet"
