@@ -7,13 +7,12 @@ updated: 2021-07-08 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: [farming, cloud, foundation, aci, twin]
   tags: [data, why, peer_to_peer, threefold_grid]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
-  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/tf_grid_peoples_internet.png
   
 ---
@@ -25,7 +24,7 @@ Today, this infrastructure consists of massive, power-hungry data centers, and 
 <br/>
 <br/>
 
-***"Today, every individual is worth between US $1,000 and $20,000 online, per year. The Internet and Cloud Industry is worth trillions, yet all this value is centralized to a handful of companies. This has to change."***
+**_"Today, every individual is worth between US $1,000 and $20,000 online, per year. The Internet and Cloud Industry is worth trillions, yet all this value is centralized to a handful of companies. This has to change."_**
 <br/>
 <br/>
 ThreeFold's open source technology powers the peer-to-peer Internet revolution that holds the premise to disrupt the global Internet in many ways.
@@ -73,4 +72,4 @@ Our commitment to the planet goes beyond the technology. Through a partnership 
 At ThreeFold, we believe that it's time for us to take back control. As the world turns more and more digital due to the pandemic and even just the natural progression of technology, it's time that we not just realize the problems of today's Internet, but that we do something about it.
 <br/>
 <br/>
-This will happen! So join in, and spread the word! 
+This will happen! So join in, and spread the word!

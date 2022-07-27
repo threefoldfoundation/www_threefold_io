@@ -6,25 +6,23 @@ updated: 2022-05-24 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: ["Foundation"]
   tags: [threefold_grid, community, farming, why, update]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
-  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/internet_of_internets.png
-  
 ---
 
-*The Internet of Internets is owned by the people.* <br/>
-*It interconnects us all, directly, without any intermediaries.* <br/>
-*We store our data in full sovereignty and privacy.* <br/>
-*On top of it, we build valuable experiences, useful experiences.* <br/>
-*Not to control. Not to polarize. Not to addict. Not to manipulate.* <br/>
-*Rather to connect. To exchange. To share. To provide value for each other.* <br/>
-*A circular economy, to benefit the collective and, as a result, each of us individually.* <br/>
-*As believers in a better world who choose to act.*
+_The Internet of Internets is owned by the people._ <br/>
+_It interconnects us all, directly, without any intermediaries._ <br/>
+_We store our data in full sovereignty and privacy._ <br/>
+_On top of it, we build valuable experiences, useful experiences._ <br/>
+_Not to control. Not to polarize. Not to addict. Not to manipulate._ <br/>
+_Rather to connect. To exchange. To share. To provide value for each other._ <br/>
+_A circular economy, to benefit the collective and, as a result, each of us individually._ <br/>
+_As believers in a better world who choose to act._
 
 <br/>
 
@@ -56,9 +54,9 @@ It now exists. Welcome to the Internet of Internets.
 
 ## It starts locally, and ends globally
 
-*The Internet of Internets is owned by the people.* <br/>
-*It interconnects us all, directly, without any intermediaries.* <br/>
-*We store our data in full sovereignty and privacy.*
+_The Internet of Internets is owned by the people._ <br/>
+_It interconnects us all, directly, without any intermediaries._ <br/>
+_We store our data in full sovereignty and privacy._
 
 <br/>
 
@@ -78,13 +76,13 @@ Community clouds in proximity connect directly with each other to form a network
 
 <br/>
 
-The ThreeFold Hub interconnects the Regional Internets to form  the Internet of Internets. Secured by 100 L2 Validators, this is the home of the TFT and the base governance layer for ThreeFold. Here you can see a model which starts locally and scales forever. Each layer has a distinct purpose and allows the ecosystem to interact. And while being hierarchical, it’s still 100% peer-to-peer and decentralized. An Internet of Internets, by the people, for the people – safe, sovereign, and sustainable.
+The ThreeFold Hub interconnects the Regional Internets to form the Internet of Internets. Secured by 100 L2 Validators, this is the home of the TFT and the base governance layer for ThreeFold. Here you can see a model which starts locally and scales forever. Each layer has a distinct purpose and allows the ecosystem to interact. And while being hierarchical, it’s still 100% peer-to-peer and decentralized. An Internet of Internets, by the people, for the people – safe, sovereign, and sustainable.
 
 ## A world of endless possibilities lives on top
 
-*On top of it, we build valuable experiences, useful experiences.* <br/>
-*Not to control. Not to polarize. Not to addict. Not to manipulate.* <br/>
-*Rather to connect. To exchange. To share. To provide value for each other.*
+_On top of it, we build valuable experiences, useful experiences._ <br/>
+_Not to control. Not to polarize. Not to addict. Not to manipulate._ <br/>
+_Rather to connect. To exchange. To share. To provide value for each other._
 
 <br/>
 
@@ -100,8 +98,8 @@ With the Internet of Internets, we’re laying the foundation for a world built 
 
 ## The foundation for a better (digital) world
 
-*A circular economy, to benefit the collective and, as a result, each of us individually.* <br/>
-*As believers in a better world who choose to act.*
+_A circular economy, to benefit the collective and, as a result, each of us individually._ <br/>
+_As believers in a better world who choose to act._
 
 <br/>
 
@@ -127,4 +125,4 @@ Together, we’re building our own future through the Internet of Internets – 
 
 <br/>
 
-*In the coming weeks, we’ll be diving deeper into the Internet of Internets model, to share more about the different layers, how they come together, and how you can get involved.*
+_In the coming weeks, we’ll be diving deeper into the Internet of Internets model, to share more about the different layers, how they come together, and how you can get involved._

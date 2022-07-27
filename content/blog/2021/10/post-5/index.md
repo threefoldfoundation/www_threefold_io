@@ -7,13 +7,12 @@ updated: 2021-10-11 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: [farming,grid,aci,cloud,foundation]
   tags: [farming,threefold_grid,technology,peer_to_peer,threefold_cloud]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
-  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/decentralize_blockchain.png
   
 ---

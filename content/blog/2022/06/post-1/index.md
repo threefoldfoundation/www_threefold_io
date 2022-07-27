@@ -6,22 +6,20 @@ updated: 2022-06-01 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: ["Foundation"]
-  tags: [threefold_grid,why,technology,farming,threefold_token]
+  tags: [threefold_grid, why, technology, farming, threefold_token]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
-  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/the_four_phases_of_threefold.png
-  
 ---
 
 What started out as an idea for a better Internet about a decade ago has evolved into a global movement that’s building a decentralized, open and inclusive future through [the Internet of Internets](https://threefold.io/blog/post/internet_of_internets/). The journey towards our ultimate vision of a better future for all is a big one, but can be divided into four digestible phases: creation, expansion, Web 4 and velocity.
 
 ## 1 The Phase of Creation
 
-For the past six years, we’ve been building up an incredible full-stack, open-source, decentralized Internet infrastructure, all from the ground-up. From creating our own decentralized operating system, to building a Quantum Safe Storage System, a complete far edge cloud computing platform and planetary peer-to-peer network all accessible via a unique Smart Contract for IT on the ThreeFold Blockchain, we’re proud to have the most complete edge infrastructure to power the next-generation Internet era. A new world is coming, and our technology has the potential to revolutionize digitization on a global scale, across sectors. 
+For the past six years, we’ve been building up an incredible full-stack, open-source, decentralized Internet infrastructure, all from the ground-up. From creating our own decentralized operating system, to building a Quantum Safe Storage System, a complete far edge cloud computing platform and planetary peer-to-peer network all accessible via a unique Smart Contract for IT on the ThreeFold Blockchain, we’re proud to have the most complete edge infrastructure to power the next-generation Internet era. A new world is coming, and our technology has the potential to revolutionize digitization on a global scale, across sectors.
 
 <br/>
 
@@ -45,7 +43,7 @@ The Internet of Internets will interconnect us all, while providing us with digi
 
 <br/>
 
-Depending on their geographic proximity, Community Clouds will be able to form Regional Internets. Each Regional Internet will be equipped with their own blockchain, validators and liquidity providers as well as local digital experiences in order to remain independent from the rest of the world. In that sense, whatever would happen to the Internet infrastructure outside of the borders of that region would not affect local connectivity and digital economies. 
+Depending on their geographic proximity, Community Clouds will be able to form Regional Internets. Each Regional Internet will be equipped with their own blockchain, validators and liquidity providers as well as local digital experiences in order to remain independent from the rest of the world. In that sense, whatever would happen to the Internet infrastructure outside of the borders of that region would not affect local connectivity and digital economies.
 
 <br/>
 
@@ -85,19 +83,19 @@ The rise of the Internet of Internets and the build-up of powerful experiences o
 
 <br/>
 
-The [ThreeFold tokenomics](https://library.threefold.me/info/threefold#/tokens/threefold__tokenomics) have been designed to support a decentralized Internet economy that incentivizes participants to host nodes, validate the blockchain and build applications on the ThreeFold Grid. The moment utilization kicks in at a large scale on Web 4, the ThreeFold Ecosystem will be ready to reach millions – and eventually, billions – of users through powerful digital experiences that provide a better alternative than today’s paradigm. As of today, 35% of ThreeFold Token transactions under Proof of Utilization are burned to create a deflationary economy. This will create additional [value](https://library.threefold.me/info/threefold#/tokens/threefold__grid_valuation) for the token ecosystem as it will reduce the circulating supply in relation to the increasing demand for ThreeFold’s infrastructure. 
+The [ThreeFold tokenomics](https://library.threefold.me/info/threefold#/tokens/threefold__tokenomics) have been designed to support a decentralized Internet economy that incentivizes participants to host nodes, validate the blockchain and build applications on the ThreeFold Grid. The moment utilization kicks in at a large scale on Web 4, the ThreeFold Ecosystem will be ready to reach millions – and eventually, billions – of users through powerful digital experiences that provide a better alternative than today’s paradigm. As of today, 35% of ThreeFold Token transactions under Proof of Utilization are burned to create a deflationary economy. This will create additional [value](https://library.threefold.me/info/threefold#/tokens/threefold__grid_valuation) for the token ecosystem as it will reduce the circulating supply in relation to the increasing demand for ThreeFold’s infrastructure.
 
 <br/>
 
-Simply put, the fourth phase will drive significant utilization of the ThreeFold Token and support in positioning it as the Bitcoin for Internet capacity. It will open up a decentralized Internet economy full of opportunities, empowerment and meaningful experiences for people all around the world. 
+Simply put, the fourth phase will drive significant utilization of the ThreeFold Token and support in positioning it as the Bitcoin for Internet capacity. It will open up a decentralized Internet economy full of opportunities, empowerment and meaningful experiences for people all around the world.
 
 ## Bringing Abundance & Opportunity to the World
 
-*"A dream you dream alone is only a dream. A dream you dream together is reality." – John Lennon*
+_"A dream you dream alone is only a dream. A dream you dream together is reality." – John Lennon_
 
 <br/>
 
-We’ve reached a pivotal moment in the evolution of ThreeFold to support our world in solving some of its greatest challenges. A complete and resilient Internet infrastructure owned by local communities is an essential way to build a circular and participatory economy. Considering that the Internet is the second largest and fastest growing economy in the world, the Internet of Internets represents a foundation for a decentralized and abundant world. 
+We’ve reached a pivotal moment in the evolution of ThreeFold to support our world in solving some of its greatest challenges. A complete and resilient Internet infrastructure owned by local communities is an essential way to build a circular and participatory economy. Considering that the Internet is the second largest and fastest growing economy in the world, the Internet of Internets represents a foundation for a decentralized and abundant world.
 
 <br/>
 

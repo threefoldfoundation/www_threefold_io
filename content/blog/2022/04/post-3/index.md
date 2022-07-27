@@ -6,22 +6,20 @@ updated: 2022-04-05 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: ["Foundation"]
   tags: [threefold_grid, community, farming, interview, update]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
-  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/in_search_of_a_better_internet.png
-  
 ---
 
-The Internet is one of humanity’s [greatest inventions](https://coincodex.com/article/14083/threefold-host-the-cloud-at-your-house/). In its early days, it used to be [free and decentralized](https://theconversation.com/web-3-0-the-decentralised-web-promises-to-make-the-internet-free-again-113139) by nature. No single entity was able to control access to the web as it was built on the foundation of a peer-to-peer network of nodes owned by developers and researchers. Until the dot-com era. Throughout the early 2000s, large corporations took over the web. New platforms like YouTube and MySpace were launched and new infrastructure needed to be built at an extreme pace, starting the data revolution and changing the digital landscape forever. 
+The Internet is one of humanity’s [greatest inventions](https://coincodex.com/article/14083/threefold-host-the-cloud-at-your-house/). In its early days, it used to be [free and decentralized](https://theconversation.com/web-3-0-the-decentralised-web-promises-to-make-the-internet-free-again-113139) by nature. No single entity was able to control access to the web as it was built on the foundation of a peer-to-peer network of nodes owned by developers and researchers. Until the dot-com era. Throughout the early 2000s, large corporations took over the web. New platforms like YouTube and MySpace were launched and new infrastructure needed to be built at an extreme pace, starting the data revolution and changing the digital landscape forever.
 
 <br/>
 
-Twenty years down the line, the Internet’s architecture has become highly centralized – owned by a handful of large corporations that act as the [gatekeepers](https://www.newyorker.com/magazine/2017/08/28/who-owns-the-internet) of our digital world. What was once an open and free platform accessible to anyone has long since built up barriers and lost its neutrality. Users are trapped in a cyberspace that exploits their personal data and allows censorship, hate speech, disinformation and political targeting to thrive. 
+Twenty years down the line, the Internet’s architecture has become highly centralized – owned by a handful of large corporations that act as the [gatekeepers](https://www.newyorker.com/magazine/2017/08/28/who-owns-the-internet) of our digital world. What was once an open and free platform accessible to anyone has long since built up barriers and lost its neutrality. Users are trapped in a cyberspace that exploits their personal data and allows censorship, hate speech, disinformation and political targeting to thrive.
 
 ## Going down the Rabbit Hole
 
@@ -33,7 +31,7 @@ The Wall Street Journal’s [investigation](https://www.wsj.com/articles/the-fac
 
 <br/>
 
-By purchasing thousands of personal data points collected by social media platforms and analyzing them, companies like Cambridge Analytica are able to not only predict but influence the behaviour of each and everyone of us. Data collection and analysis to such an extent allow these companies to craft and push perfectly targeted messages to users in a way that’s optimized to sway their opinions in favour of whatever agenda they have.  
+By purchasing thousands of personal data points collected by social media platforms and analyzing them, companies like Cambridge Analytica are able to not only predict but influence the behaviour of each and everyone of us. Data collection and analysis to such an extent allow these companies to craft and push perfectly targeted messages to users in a way that’s optimized to sway their opinions in favour of whatever agenda they have.
 
 ## Can a neutral and free Internet still exist?
 
@@ -45,14 +43,14 @@ The Internet has become our digital home. It’s impacting our lives in many way
 
 <br/>
 
-The Internet used to be a free movement of culture and the Web. It started with an open-source and peer-to-peer vision to connect people. And while Web 3.0 projects are looking to liberalize the Internet as we know it, most of them still rely on centralized Web 2.0 infrastructure to some degree. The world needs better, holistic solutions. ThreeFold is [realizing the initial vision and promise](https://threefold.io/blog/post/realizing_the_promise/) of the Internet as an open-source, peer-to-peer planetary mesh network of nodes owned by humanity. It’s a 100% open-source and community-driven project that builds the critical, neutral infrastructure for a decentralized world – one that is built and owned by the people. With ThreeFold, individuals and organizations are empowered to store their data and run their applications on a peer-to-peer network of nodes in a way that ensures their data will not be manipulated, hacked or lost. 
+The Internet used to be a free movement of culture and the Web. It started with an open-source and peer-to-peer vision to connect people. And while Web 3.0 projects are looking to liberalize the Internet as we know it, most of them still rely on centralized Web 2.0 infrastructure to some degree. The world needs better, holistic solutions. ThreeFold is [realizing the initial vision and promise](https://threefold.io/blog/post/realizing_the_promise/) of the Internet as an open-source, peer-to-peer planetary mesh network of nodes owned by humanity. It’s a 100% open-source and community-driven project that builds the critical, neutral infrastructure for a decentralized world – one that is built and owned by the people. With ThreeFold, individuals and organizations are empowered to store their data and run their applications on a peer-to-peer network of nodes in a way that ensures their data will not be manipulated, hacked or lost.
 
 <br/>
 
-Powered by a global community, ThreeFold is the world’s largest peer-to-peer Internet infrastructure with a few thousand 3Nodes connected from 74 countries and the neutral foundation for [any current and future IT workload](https://medium.com/authority-magazine/the-future-is-now-kristoff-de-spiegeleer-of-threefold-on-how-their-technological-innovation-will-7acc0e51c365). ThreeFold is now on the verge of opening up a new Internet era free from censorship, user tracking and privacy breaches. And anyone can participate in ThreeFold’s model by building or buying a 3Node, and connecting Internet capacity from their home or office – creating a fully [decentralized Internet](https://coincheckup.com/blog/threefold-is-the-decentralized-web-the-future-of-the-internet/). 
+Powered by a global community, ThreeFold is the world’s largest peer-to-peer Internet infrastructure with a few thousand 3Nodes connected from 74 countries and the neutral foundation for [any current and future IT workload](https://medium.com/authority-magazine/the-future-is-now-kristoff-de-spiegeleer-of-threefold-on-how-their-technological-innovation-will-7acc0e51c365). ThreeFold is now on the verge of opening up a new Internet era free from censorship, user tracking and privacy breaches. And anyone can participate in ThreeFold’s model by building or buying a 3Node, and connecting Internet capacity from their home or office – creating a fully [decentralized Internet](https://coincheckup.com/blog/threefold-is-the-decentralized-web-the-future-of-the-internet/).
 
 <br/>
 
-* Join the ThreeFold [movement](https://t.me/threefold) today and drive a new Internet era.
-* Break free from big tech and [be the Internet](https://threefold.io/blog/post/what_is_farming/) by setting up a 3Node at your home.
-* Help us [connect the dots](https://threefold.io/blog/post/connecting_the_dots/).
+- Join the ThreeFold [movement](https://t.me/threefold) today and drive a new Internet era.
+- Break free from big tech and [be the Internet](https://threefold.io/blog/post/what_is_farming/) by setting up a 3Node at your home.
+- Help us [connect the dots](https://threefold.io/blog/post/connecting_the_dots/).

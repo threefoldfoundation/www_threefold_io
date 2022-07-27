@@ -6,15 +6,13 @@ updated: 2019-12-05 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [twin,foundation]
-  tags: [why,farming]
+  people: [sabrina_sadik]
+  categories: [twin, foundation]
+  tags: [why, farming]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: Sabrina Sadik
-  authorImg: images/people/sabrina_sadik.jpg
   imgPath: images/blog/unique.png
-  
 ---
 
 ## You are unique
@@ -40,4 +38,4 @@ One decentralized application, one digital wallet, one login and one you. Becaus
 Have questions? Feel free to ask us on our [forum](https://forum.threefold.io)!
 <br/>
 <br/>
-*Photo by Jessica Ruscello on [Unsplash](https://unsplash.com/photos/DoSDQvzjeH0).*
+_Photo by Jessica Ruscello on [Unsplash](https://unsplash.com/photos/DoSDQvzjeH0)._

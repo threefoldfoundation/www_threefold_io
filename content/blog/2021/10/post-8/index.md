@@ -7,13 +7,12 @@ updated: 2021-10-21 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: [foundation, cloud, technology]
   tags: [threefold_grid, threefold_cloud, technology, blockchain, peer_to_peer]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Hannah Cordes
-  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/project_comparison_4_storj.png
   
 ---
@@ -26,11 +25,11 @@ Welcome to the fourth part of our journey through the decentralization space. Af
 
 <br/>
 
-ThreeFold and Storj are both open source projects that view transparency as an integral part of their business philosophy. Actually, ThreeFold is the first full-stack blockchain-enabled [cloud](https://cloud.threefold.io/) to be made open source – all of our code is open source and available for everyone to review or use. 
+ThreeFold and Storj are both open source projects that view transparency as an integral part of their business philosophy. Actually, ThreeFold is the first full-stack blockchain-enabled [cloud](https://cloud.threefold.io/) to be made open source – all of our code is open source and available for everyone to review or use.
 
 <br/>
 
-Another similarity is that security and privacy are crucial aspects of our projects. Both are private by design and believe it’s vital that every person has total [control and ownership](https://threefold.io/blog/post/threefold_data_sovereignty/) over their data – not even Storj or ThreeFold can access the data of users within their respective ecosystems, creating trustless environments. Storj provides security and privacy by encrypting the data by an [Uplink client](https://docs.storj.io/dcs/concepts/overview) before it is uploaded to its DCS. The data is then split into pieces which are distributed across different nodes and ISPs connected to Storj’s cloud network. At ThreeFold, we’re creating an [entirely secure](https://forum.threefold.io/t/critical-security-updates-for-apple-and-google-underline-need-for-secure-it-ecosystem/1271), peer-to-peer IT ecosystem that empowers users and gives them back control and ownership of their own data. We’re [secure](https://library.threefold.me/info/threefold#/tfgrid/threefold__usp_secure?id=network-security) across all dimensions of our solutions – from our operating system Zero-OS to Quantum Safe File System ([QSFS](https://threefold.io/tech/zdbfs)) and [Planetary Network](https://threefold.io/tech/planetary-network). 
+Another similarity is that security and privacy are crucial aspects of our projects. Both are private by design and believe it’s vital that every person has total [control and ownership](https://threefold.io/blog/post/threefold_data_sovereignty/) over their data – not even Storj or ThreeFold can access the data of users within their respective ecosystems, creating trustless environments. Storj provides security and privacy by encrypting the data by an [Uplink client](https://docs.storj.io/dcs/concepts/overview) before it is uploaded to its DCS. The data is then split into pieces which are distributed across different nodes and ISPs connected to Storj’s cloud network. At ThreeFold, we’re creating an [entirely secure](https://forum.threefold.io/t/critical-security-updates-for-apple-and-google-underline-need-for-secure-it-ecosystem/1271), peer-to-peer IT ecosystem that empowers users and gives them back control and ownership of their own data. We’re [secure](https://library.threefold.me/info/threefold#/tfgrid/threefold__usp_secure?id=network-security) across all dimensions of our solutions – from our operating system Zero-OS to Quantum Safe File System ([QSFS](https://threefold.io/tech/zdbfs)) and [Planetary Network](https://threefold.io/tech/planetary-network).
 
 <br/>
 
@@ -38,7 +37,7 @@ While Storj does not have its own operating system, we’ve built our [Zero-OS](
 
 <br/>
 
-Both projects are compatible with certain IT tools and protocols. While Storj is  S3-compatible and [integrates](https://www.storj.io/integrations) a couple of developer tools like FileZilla or Fastly, ThreeFold is highly compatible with leading industry standards and tools from S3 to Docker containers, [Kubernetes](https://forum.threefold.io/t/grid-utilization-plan-part-one/1157) and more. Moreover, ThreeFold can run anything that runs on Linux, allowing for a seamless migration of any digital workload, even from [traditional cloud providers](https://threefold.io/blog/post/threefold_cloud_vs_centralized_providers_like_aws_azure/) like Microsoft Azure or AWS. 
+Both projects are compatible with certain IT tools and protocols. While Storj is S3-compatible and [integrates](https://www.storj.io/integrations) a couple of developer tools like FileZilla or Fastly, ThreeFold is highly compatible with leading industry standards and tools from S3 to Docker containers, [Kubernetes](https://forum.threefold.io/t/grid-utilization-plan-part-one/1157) and more. Moreover, ThreeFold can run anything that runs on Linux, allowing for a seamless migration of any digital workload, even from [traditional cloud providers](https://threefold.io/blog/post/threefold_cloud_vs_centralized_providers_like_aws_azure/) like Microsoft Azure or AWS.
 
 <br/>
 
@@ -70,7 +69,7 @@ By connecting storage nodes to Storj’s network and providing storage capacity 
 
 ## Conclusion
 
-In summary, we both share the same vision of a decentralized Internet. The biggest difference between Storj and ThreeFold is that Storj is focused on providing storage, whereas [ThreeFold](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) does not only provide storage but also compute and network capacity. While Storj seeks to be the storage layer for the [decentralized Internet](https://threefold.io/blog/post/quest_decentralize_internet/), ThreeFold provides the [low-level primitives](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) for a *truly* decentralized Internet: compute, storage and network. 
+In summary, we both share the same vision of a decentralized Internet. The biggest difference between Storj and ThreeFold is that Storj is focused on providing storage, whereas [ThreeFold](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) does not only provide storage but also compute and network capacity. While Storj seeks to be the storage layer for the [decentralized Internet](https://threefold.io/blog/post/quest_decentralize_internet/), ThreeFold provides the [low-level primitives](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) for a _truly_ decentralized Internet: compute, storage and network.
 
 <br/>
 

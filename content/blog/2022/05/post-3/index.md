@@ -6,15 +6,13 @@ updated: 2022-05-10 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: ["Foundation"]
-  tags: [threefold_grid,technology, peer_to_peer, data]
+  tags: [threefold_grid, technology, peer_to_peer, data]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: HANNAH CORDES
-  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/internet_at_the_edge.png
-  
 ---
 
 With new devices being connected every day and emerging technologies like the Internet of Things (IoT), the metaverse and Web 3 gaining popularity, the [demand](https://www.cbre.com/en/insights/reports/north-america-data-center-trends-h2-2021) for Internet capacity is booming. Already, these developments are shifting the [Internet’s “center of gravity”](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) from its core to the edges in order to keep up with the growing demand. In an increasingly interconnected world, centralized cloud architectures are proving to be [bottlenecks](https://www.forbes.com/sites/forbestechcouncil/2022/03/25/demystifying-edge-technology/) hindering future growth.
@@ -25,10 +23,10 @@ Here are some interesting numbers to emphasize the explosive growth of connected
 
 <br/>
 
-* Back in 2018, [90% of global data creation](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) took place within the two previous years.
-* In 2022, [4.95 billion people](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) are using the Internet and about [2.5 quintillion bytes](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) of data are created on a daily basis.
-* About 2 billion computers, 15 billion mobile devices and more than 22 billion IoT devices are [active worldwide](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) on a daily basis.
-* By 2025, more than [1 billion people](https://www.cisco.com/c/en/us/solutions/executive-perspectives/annual-internet-report/index.html) and [75 billion IoT devices](https://www.statista.com/statistics/471264/iot-number-of-connected-devices-worldwide/#:~:text=Internet%20of%20Things%20%2D%20number%20of%20connected%20devices%20worldwide%202015%2D2025&text=By%202025%2C%20forecasts%20suggest%20that,IoT%20installed%20base%20in%202019.) are expected to join the Internet.
+- Back in 2018, [90% of global data creation](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) took place within the two previous years.
+- In 2022, [4.95 billion people](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) are using the Internet and about [2.5 quintillion bytes](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) of data are created on a daily basis.
+- About 2 billion computers, 15 billion mobile devices and more than 22 billion IoT devices are [active worldwide](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) on a daily basis.
+- By 2025, more than [1 billion people](https://www.cisco.com/c/en/us/solutions/executive-perspectives/annual-internet-report/index.html) and [75 billion IoT devices](https://www.statista.com/statistics/471264/iot-number-of-connected-devices-worldwide/#:~:text=Internet%20of%20Things%20%2D%20number%20of%20connected%20devices%20worldwide%202015%2D2025&text=By%202025%2C%20forecasts%20suggest%20that,IoT%20installed%20base%20in%202019.) are expected to join the Internet.
 
 <br/>
 
@@ -40,7 +38,7 @@ About [175 Zettabytes](https://www.seagate.com/files/www-content/our-story/rethi
 
 ## The rise of edge computing
 
-Computing needs to be pushed from centralized data centers to the edge to support the massive data consumption coupled to the rise of connected devices and emerging technologies. For instance, as more and more home appliances and devices are getting interconnected through the IoT economy, the amount of real-time data generated within our homes on a daily basis is rapidly expanding. Edge computing [tackles the shortcomings](https://www.i-scoop.eu/edge-computing-explained/) of the centralized model in terms of bandwidth, latency and autonomy. It enables applications and solutions to be hosted closer to where their data is being produced and consumed, thereby allowing for low latencies, rapid data processing and real-time decisions. 
+Computing needs to be pushed from centralized data centers to the edge to support the massive data consumption coupled to the rise of connected devices and emerging technologies. For instance, as more and more home appliances and devices are getting interconnected through the IoT economy, the amount of real-time data generated within our homes on a daily basis is rapidly expanding. Edge computing [tackles the shortcomings](https://www.i-scoop.eu/edge-computing-explained/) of the centralized model in terms of bandwidth, latency and autonomy. It enables applications and solutions to be hosted closer to where their data is being produced and consumed, thereby allowing for low latencies, rapid data processing and real-time decisions.
 
 <br/>
 
@@ -56,7 +54,7 @@ As the need for Internet capacity – specifically at the edge – is rapidly in
 
 ## Realizing an interconnected future
 
-Ironically, decades after the spark of the open-source peer-to-peer Internet movement was steamrolled by large tech companies and governments eager to centralize the global Internet, we seem to enter an era of decentralization again. There’s no doubt that large tech companies did bring a lot of innovation to our global Internet and cloud stack. Technically though, [peer-to-peer](https://threefold.io/blog/post/p2p_web3/) systems have always been the most scalable option. Moreover, open-source architectures have built a strong reputation for providing high levels of security and flexibility. 
+Ironically, decades after the spark of the open-source peer-to-peer Internet movement was steamrolled by large tech companies and governments eager to centralize the global Internet, we seem to enter an era of decentralization again. There’s no doubt that large tech companies did bring a lot of innovation to our global Internet and cloud stack. Technically though, [peer-to-peer](https://threefold.io/blog/post/p2p_web3/) systems have always been the most scalable option. Moreover, open-source architectures have built a strong reputation for providing high levels of security and flexibility.
 
 <br/>
 
@@ -72,6 +70,6 @@ The shift towards the edge is inevitable. ThreeFold is the first full-stack, [de
 
 <br/>
 
-* [Expand the new Internet](https://threefold.io/blog/post/what_is_farming/) by setting up a 3Node at your home or office.
-* Help us [connect the dots](https://threefold.io/blog/post/connecting_the_dots/) and accelerate our far-edge capabilities.
-* Join our global [movement](https://t.me/threefold) today.
+- [Expand the new Internet](https://threefold.io/blog/post/what_is_farming/) by setting up a 3Node at your home or office.
+- Help us [connect the dots](https://threefold.io/blog/post/connecting_the_dots/) and accelerate our far-edge capabilities.
+- Join our global [movement](https://t.me/threefold) today.

@@ -5,13 +5,12 @@ date: 2022-03-16
 updated: 2022-03-16
 draft: false
 taxonomies:
+  people: [hannah_cordes]
   categories: [foundation, cloud, technology]
   tags: [threefold_grid, community, blockchain, update]
-    
+
 extra:
   subtitle: ""
-  author: HANNAH CORDES
-  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/stake_tft_become_validator.png
   date: 2022-03-16
 ---
@@ -24,7 +23,7 @@ ThreeFold is open-source – its code is public, nobody owns or controls ThreeFo
 
 <br/>
 
-ThreeFold aims to ensure that no application, big or small, is subject to the limitations of Web3 or the pitfalls of Web2. Its peer-to-peer Internet Grid is infinitely more resilient, secure and scalable than centralized cloud providers like AWS or Microsoft Azure. 
+ThreeFold aims to ensure that no application, big or small, is subject to the limitations of Web3 or the pitfalls of Web2. Its peer-to-peer Internet Grid is infinitely more resilient, secure and scalable than centralized cloud providers like AWS or Microsoft Azure.
 
 ## Participate in the ThreeFold L2 Validator Program
 
@@ -48,7 +47,7 @@ L2 Validators store the records of the ThreeFold Blockchain, the ThreeFold DAO a
 
 <br/>
 
-Running a validator node on a computer isn’t a complicated task. For many of us who love ThreeFold, we want to support the decentralization of the peer-to-peer Internet, and running a validator node is a great way to do that. Also, it is a unique and revolutionary project to have in your room or office. Running a validator node requires little electricity, close to zero technical knowledge, and no real time commitments. 
+Running a validator node on a computer isn’t a complicated task. For many of us who love ThreeFold, we want to support the decentralization of the peer-to-peer Internet, and running a validator node is a great way to do that. Also, it is a unique and revolutionary project to have in your room or office. Running a validator node requires little electricity, close to zero technical knowledge, and no real time commitments.
 
 ## Validator Node Rewards
 
@@ -60,11 +59,11 @@ ThreeFold is realizing the initial promise of an open-source, peer-to-peer Inter
 
 <br/>
 
-* **Step 1**: Create an account (wallet) with the [ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect) app.
-* **Step 2**: Buy the required amount of TFT to reserve your validator. Find all TFT buying options [here](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy).
-* **Step 3**: Log into the [ThreeFold Forum](https://forum.threefold.io/) using ThreeFold Connect and go to the [L2 Validator Signup](https://forum.threefold.io/c/dao/validators-signup-l2/83) category.
-* **Step 4**: Follow the [registration instructions](https://forum.threefold.io/t/procedure-to-register-your-l2-validator-node/1864) to become a L2 Validator, and review the checklist of your application before submission.
- 
+- **Step 1**: Create an account (wallet) with the [ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect) app.
+- **Step 2**: Buy the required amount of TFT to reserve your validator. Find all TFT buying options [here](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy).
+- **Step 3**: Log into the [ThreeFold Forum](https://forum.threefold.io/) using ThreeFold Connect and go to the [L2 Validator Signup](https://forum.threefold.io/c/dao/validators-signup-l2/83) category.
+- **Step 4**: Follow the [registration instructions](https://forum.threefold.io/t/procedure-to-register-your-l2-validator-node/1864) to become a L2 Validator, and review the checklist of your application before submission.
+
 <br/>
 
 Someone from the ThreeFold community will get in touch with you within the next few days to welcome you to the ThreeFold universe. We’ll have a brief call to verify your identity and wallet treasury to confirm your application. The successful verification process secures your spot as a ThreeFold L2 Validator.

@@ -1,3 +1,9 @@
+{{ featured }}
+{% if featured.taxonomies.people %}
+    {% set author_path = 'people/' ~ featured.taxonomies.people[0] ~ '/index.md' %}
+    {% set author = get_page(path=author_path) %}
+{% endif %}
+
 <body>
 
   <div class="md:grid md:grid-cols-2 md:gap-8 relative mt-16 lg:mt-16 items-center container mx-auto">
@@ -11,7 +17,6 @@
       </a>
       <h4 class="text-sm not-italic font-light leading-6 text-gray-600">
         {{ featured.date | date(format="%B %e, %Y", timezone="America/Chicago")}} -
-        {{ featured.extra.author }}
       </h4>
 
     </div>

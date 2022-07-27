@@ -6,15 +6,13 @@ updated: 2021-10-01 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: [foundation]
   tags: [threefold_grid, blockchain, technology]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Hannah Cordes
-  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/project_comparison_1_dfinity.png
-  
 ---
 
 Whether you’re new to ThreeFold or have been around for a while, the decentralization and blockchain space can often be quite elusive and opaque with regards to what certain projects have to offer. Very clear, however, is the current market cap for aggregated decentralized compute and storage projects which exceeds 50 billion USD. Therefore, we decided to shed some light on the space and to show you how our solutions compare to those of other projects.

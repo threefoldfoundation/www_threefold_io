@@ -6,15 +6,13 @@ updated: 2021-07-28 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [foundation,farming,cloud]
-  tags: [threefold_grid,technology,peer_to_peer]
+  people: [scott_yeager]
+  categories: [foundation, farming, cloud]
+  tags: [threefold_grid, technology, peer_to_peer]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Scott Yeager
-  authorImg: images/people/scott_yeager.jpg
   imgPath: images/blog/building_a_new_internet_2.png
-  
 ---
 
 Welcome back for the second part of this introductory series on ThreeFold Grid technology. [Last time](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) we took a high level view of all that the Grid offers. This time, we'll be zooming in on storage, covering the low level components and how they can provide a familiar experience like the cloud "drives" and "boxes" we use today.

@@ -6,18 +6,16 @@ updated: 2022-01-10 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [hannah_cordes]
   categories: [foundation, cloud, technology]
   tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: Hannah Cordes
-  authorImg: images/people/hannah_cordes.jpg
   imgPath: images/blog/bridges_connecting_threefold_ecosystem.png
-  
 ---
 
-Wondering how to switch between blockchains? Cross-chain bridges allow you to easily transfer TFT from one blockchain to another. 
+Wondering how to switch between blockchains? Cross-chain bridges allow you to easily transfer TFT from one blockchain to another.
 
 <br/>
 
@@ -45,8 +43,8 @@ ThreeFold uses blockchain bridges to connect external blockchain networks to the
 
 <br/>
 
-* Stellar <> Binance Smart Chain
-* Stellar <> TF Chain
+- Stellar <> Binance Smart Chain
+- Stellar <> TF Chain
 
 <br/>
 
@@ -54,7 +52,7 @@ But what is the difference between the 3 chains?
 
 <br/>
 
-**[Stellar](https://www.stellar.org/?locale=en)** is an open-source network for storing and moving digital assets, and still remains the main blockchain for the minting of TFT and distribution of farming rewards. Until the launch of TF Chain with Grid 3.0, only TFT living on Stellar were accepted for the reservation of Internet capacity on the ThreeFold Grid. 
+**[Stellar](https://www.stellar.org/?locale=en)** is an open-source network for storing and moving digital assets, and still remains the main blockchain for the minting of TFT and distribution of farming rewards. Until the launch of TF Chain with Grid 3.0, only TFT living on Stellar were accepted for the reservation of Internet capacity on the ThreeFold Grid.
 
 <br/>
 
@@ -66,7 +64,7 @@ But what is the difference between the 3 chains?
 
 ## What’s new with TF Chain?
 
-TF Chain represents a leap forward for simplicity in payments for capacity reservations and a move towards greater decentralization of the systems that support the ThreeFold Grid. With the launch of [ThreeFold Grid 3.0](https://forum.threefold.io/t/what-is-new-in-tfgrid-3-0/1133), TF Chain became the official record of ThreeFold farms and nodes, and brought peer-to-peer [billing](https://forum.threefold.io/t/introducing-tf-chain-an-updated-billing-model/1277) based on smart contracts for workload deployments on the ThreeFold Grid. 
+TF Chain represents a leap forward for simplicity in payments for capacity reservations and a move towards greater decentralization of the systems that support the ThreeFold Grid. With the launch of [ThreeFold Grid 3.0](https://forum.threefold.io/t/what-is-new-in-tfgrid-3-0/1133), TF Chain became the official record of ThreeFold farms and nodes, and brought peer-to-peer [billing](https://forum.threefold.io/t/introducing-tf-chain-an-updated-billing-model/1277) based on smart contracts for workload deployments on the ThreeFold Grid.
 
 <br/>
 
@@ -94,16 +92,16 @@ When depositing from TFT Stellar, **please be sure that both addresses and memo 
 
 <br/>
 
-As Binance Smart Chain is a more expensive chain, **a fee of 50 TFT** will be automatically charged for the bridge from Stellar to BSC. Find the full **step-by-step guide** for the Stellar-BSC bridge [here](https://library.threefold.me/info/threefold#/tokens/threefold__tft_bsc_bridge). 
+As Binance Smart Chain is a more expensive chain, **a fee of 50 TFT** will be automatically charged for the bridge from Stellar to BSC. Find the full **step-by-step guide** for the Stellar-BSC bridge [here](https://library.threefold.me/info/threefold#/tokens/threefold__tft_bsc_bridge).
 
 ## What’s next? 
 
-As the ThreeFold ecosystem continues to grow, we’re looking into building more bridges (e.g. Cosmos, Ethereum), some of which are already under development, to improve the accessibility of TFT and simplify the onboarding of blockchain and DeFi projects on the ThreeFold Grid. TF Chain will play an important role in the further development of the People’s Internet as the main inter-chain for [TFT](https://library.threefold.me/info/threefold#/technology/threefold__threefold_token). 
+As the ThreeFold ecosystem continues to grow, we’re looking into building more bridges (e.g. Cosmos, Ethereum), some of which are already under development, to improve the accessibility of TFT and simplify the onboarding of blockchain and DeFi projects on the ThreeFold Grid. TF Chain will play an important role in the further development of the People’s Internet as the main inter-chain for [TFT](https://library.threefold.me/info/threefold#/technology/threefold__threefold_token).
 
 <br/>
 
-*Try out the Stellar-BSC bridge [here](https://bridge.bsc.threefold.io/) and visit [our forum](https://forum.threefold.io/) to share your experiences.*
+_Try out the Stellar-BSC bridge [here](https://bridge.bsc.threefold.io/) and visit [our forum](https://forum.threefold.io/) to share your experiences._
 
 <br/>
 
-*Also, check out our blog post on TF Chain [here](https://threefold.io/blog/post/tf_chain/).*
+_Also, check out our blog post on TF Chain [here](https://threefold.io/blog/post/tf_chain/)._

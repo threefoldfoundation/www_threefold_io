@@ -6,15 +6,13 @@ updated: 2021-06-17 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: [farming, cloud, foundation, aci, twin]
   tags: [data, why, peer_to_peer]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
-  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/data_leaks.png
-  
 ---
 
 Do a quick search for "data leak" on your search engine of choice, and you'll likely see headlines like this:
@@ -25,8 +23,8 @@ Do a quick search for "data leak" on your search engine of choice, and you'll li
 - Billions of emails and passwords appear in largest data leak ever
 - Here's How the IRS Could Have Prevented the Tax Data Leak
 - Time to Change Your Password: Tips on Protecting Yourself from Online Scams
-<br/>
-<br/>
+  <br/>
+  <br/>
 
 Week after week, month after month, year after year, companies are being hacked, private consumer data is being compromised and released, and we somehow begin to think that this is the reality of our world, something we just have to deal with.
 <br/>

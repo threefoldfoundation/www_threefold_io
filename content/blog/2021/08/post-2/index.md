@@ -6,15 +6,13 @@ updated: 2021-08-11 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
+  people: [sam_taggart]
   categories: [farming, cloud, foundation, aci, twin]
   tags: [partner, peer_to_peer, update]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
-  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/artheon_blog_one.png
-  
 ---
 
 Last year at a ThreeFold gathering, a few of us on the team had the pleasure to meet a man named Vasily, a creative mind with a big heart and proud founder of Artheon. Artheon, in its essence, was a virtual reality museum experience focused on bringing fine art and culture from around the world directly to people. The concept was immediately captivating, and the demo brought it to life for us. The graphics were already solid, and being able to walk around a museum and interact with the artwork was a unique experience to say the least. We talked about the implications and his greater vision around access and education, and it was very clear we needed to partner up. Not long after, Artheon and ThreeFold joined forces.
@@ -44,7 +42,7 @@ Decentralized clouds have been associated with the promise of new digital applic
 And finally, Artheon experienced an unfortunate event earlier this summer where their servers suffered from an intense heat wave and essentially burned up. There was no backup, and this would have been catastrophic in the scenario of them having millions of users. Good thing they aren't live yet, but this is a great example of how centralized models fail. With a decentralized infrastructure like ThreeFold, this type of situation would not have occured, as data would be hosted on many locations.
 <br/>
 <br/>
-So, by distributing the computing power closer to their users, a VR experience such as Artheon would not only improve their latency speed, security, and privacy, but also the resilience of their business model. 
+So, by distributing the computing power closer to their users, a VR experience such as Artheon would not only improve their latency speed, security, and privacy, but also the resilience of their business model.
 
 ## What is the status of Artheon (and its partnership with ThreeFold)?
 
@@ -59,7 +57,7 @@ Over the past year, Artheon has been making incredible improvements to the graph
 - People will also be able to see how many people are online at the moment and where they are located on the globe (if permissions are allowed)
 - Allow the possibility for museums to host free or closed paid exhibitions
 - Artheon will be hosted on the ThreeFold Grid!
-<br/>
+  <br/>
 
 ## What can you do now to get involved?
 

@@ -1,8 +1,7 @@
 {% extends "_default/base.html" %}
 {% block content %}
 
-
-{% set page_path = current_path ~ 'index.md' | replace(from='-', to='_') | trim_start_matches(pat="/") %}
+{% set page_path = term.path ~ 'index.md' | replace(from='-', to='_') | trim_start_matches(pat="/") %}
 {% set page = get_page(path=page_path) %}
 
 <div class="container sm:pxi-0 lg:w-5/6 mx-auto min-h-screen overflow-x-hidden pt-24">

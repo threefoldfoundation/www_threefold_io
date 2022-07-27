@@ -6,16 +6,15 @@ updated: 2020-05-15 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [farming,cloud,foundation]
-  tags: [technology,why]
+  people: [sam_taggart]
+  categories: [farming, cloud, foundation]
+  tags: [technology, why]
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: Sam Taggart
-  authorImg: images/people/sam_taggart.jpg
   imgPath: images/blog/how_it_works.png
-  
 ---
+
 ## So, ThreeFold is building a new internet. Why?
 
 We strongly believe that a new internet is needed for our planet and for humanity. "If not now, when? If not us, who?"
@@ -69,6 +68,7 @@ That has a bit to do with the security as well. Since you own your data, you dec
 There are a few reasons for us being more sustainable. Data centers are super unsustainable, so the simple (but incomplete) answer is “no more huge data centers.” But if you want more detail:
 <br/>
 <br/>
+
 - We use up to 3x less hardware for the same output, and using hardware at least 2x longer while maintaining good performance
 - Having capacity everywhere, local to where users are – this reduces network requirements (and can even improve security)
 - Using new algorithms (e.g. the one mentioned above for storage) which have dramatic efficiency improvement
@@ -89,4 +89,4 @@ Essentially, the ThreeFold Token is the medium of exchange on the new internet. 
 We hope that helps explains things. Obviously there is [a whole wiki](https://library.threefold.me/info/threefold/#/) to dive in to. If you don’t find what you’re looking for, please ask us on our [forum](https://forum.threefold.io)!
 <br/>
 <br/>
-*Photo by Nong Vang on [Unsplash](https://unsplash.com/photos/9pw4TKvT3po).*
+_Photo by Nong Vang on [Unsplash](https://unsplash.com/photos/9pw4TKvT3po)._

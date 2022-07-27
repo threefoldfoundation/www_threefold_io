@@ -7,14 +7,12 @@ draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
   categories: [farming, grid, tech, aci, cloud, foundation]
-  tags: [farming,threefold_grid,technology,peer_to_peer]
+  tags: [farming, threefold_grid, technology, peer_to_peer]
 
 extra:
-  subtitle: "" # Quotation marks allow colons, semicolons, etc.
   author: Roel Van Sabben
-  authorImg: images/people/roel_van_sabben.jpg
+  subtitle: "" # Quotation marks allow colons, semicolons, etc.
   imgPath: images/blog/decentralizing_the_internet.png
-  
 ---
 
 ## Decentralization

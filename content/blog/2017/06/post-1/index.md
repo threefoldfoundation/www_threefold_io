@@ -6,15 +6,13 @@ updated: 2017-06-01 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: [farming,cloud,foundation]
-  tags: [technology,farming,threefold_token,why]
+  people: [kristof_de_spiegeleer]
+  categories: [farming, cloud, foundation]
+  tags: [technology, farming, threefold_token, why]
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  author: kristof de spiegeleer
-  authorImg: images/people/kristof_de_spiegeleer.jpeg
   imgPath: images/blog/new_neutral_internet.png
-  
 ---
 
 **The Internet is growing like crazy and is now a trillion dollar problem. Together we can build a new neutral Internet.**
@@ -32,13 +30,14 @@ extra:
 Today, the cloud computing industry represents a 100 billion dollar industry - mostly owned by about 20 global cooperations. Experts such as Bell Labs and Cisco believe the capacity requirements in the next decade will dramatically exceed existing infrastructure - requiring many more data centers and billions, if not trillions in investments.
 <br/>
 <br/>
-The spectacular growth and advancements in cloud computing that occurred over the last decade resulted in large part from “hyper-scale” efficiencies - i.e. centralizing Internet infrastructure in very large billion dollar data centers.  However, demand for Internet capacity already surpassed the available infrastructure with emerging technologies such as Big Data, the Internet of Things (IoT) and Artificial Intelligence (AI) Technology. The existing hyperscale cloud architecture cannot cope with this growing demand as the requirements for land, power and funding are becoming outrageous.  
+The spectacular growth and advancements in cloud computing that occurred over the last decade resulted in large part from “hyper-scale” efficiencies - i.e. centralizing Internet infrastructure in very large billion dollar data centers. However, demand for Internet capacity already surpassed the available infrastructure with emerging technologies such as Big Data, the Internet of Things (IoT) and Artificial Intelligence (AI) Technology. The existing hyperscale cloud architecture cannot cope with this growing demand as the requirements for land, power and funding are becoming outrageous.  
 <br/>
 <br/>
 The challenges facing the Internet includes the following:
 <br/>
 <br/>
-- **Trillions of Investment Required**. In the next decade, the global Internet infrastructure requires another 4,000 data centers (250M - 1B dollar investment each) to meet demand which would cost trillions - this money could be better used in education, healthcare, or sustainable innovations. 
+
+- **Trillions of Investment Required**. In the next decade, the global Internet infrastructure requires another 4,000 data centers (250M - 1B dollar investment each) to meet demand which would cost trillions - this money could be better used in education, healthcare, or sustainable innovations.
 - **Impossible to scale the networks connecting users to the hyperscale data centers**. Since hyperscale data centers are built in large "central" locations, the network leading to these data centers is congested. Even more, remote regions that are less connected to the Internet cannot benefit from these data centers’ IT services.
 - **Non-local data and capacity**. Governments around the world are becoming more and more concerned about data leaving their borders. To tackle this centralization issue, they would need local IT infrastructure. Also, IoT workloads need local capacity to deliver constant real-time computing and storage requirements - for certain applications and workloads (e.g. driverless cars), latency is not an option. Hyperscale data centers can simply not match these requirements.
 - **Not secure / at risk of choke point failures**. There are plenty of recent well-publicized problems around security, outages and loss of data. The reason for this is that centralized hyperscale architectures are inherently insecure - and failures at a single hyperscale location can cause widespread contagion and outages.
@@ -58,7 +57,7 @@ By 2025, 60% of new Internet infrastructure will be decentralized and located at
 - **Security**: The ThreeFold Grid is distributed and benefits from our ItsYou.Online identity management platform - making it much more secure.
 - **Decentralized**: The solution enables to bring capacity closer to where users are located, enabling a Cloud at the Edge.
 - **Sustainability**: The technology removes the need to build huge power hungry datacenters and by decentralizing the architecture enables up-to 1000% energy savings.
-- **Making IT a true utility**:  We always approached IT as Energy. Today we provide 3x more uptime and between 3-10x more cost effectiveness.
+- **Making IT a true utility**: We always approached IT as Energy. Today we provide 3x more uptime and between 3-10x more cost effectiveness.
 - **Neutrality**: The solution enables 100% neutral & private Internet IT capacity. Our blockchain technology provides security, neutrality & scale.
 
 ## The ThreeFold Zero-Node
@@ -66,16 +65,17 @@ By 2025, 60% of new Internet infrastructure will be decentralized and located at
 The Zero-Node provides compute, network and storage capacity to the internet and ThreeFold's blockchain. This capacity can be used for any possible workload. Here are some characteristics of ThreeFold's Zero node:
 <br/>
 <br/>
+
 - **Modularity**: Scaling from 8 vCPUs and 3.5 TB of storage (smallest) to clusters with 8000 vCPUs and 2 PB of storage (large), there is a range of possibilities at hand.
 - **Sustainability**: Storing the hardware uses about 10x less energy, and about 2-3x for other workloads.
-- **Decentralized**: The Zero Operating System ("Zero OS") is ideally suited for Edge networking - where automation, self-healing and hyper-distribution are must-haves.  
-    - The Zero-Nodes are deployed as close as possible to the consumers of Internet IT capacity (IoT, residential, business, government, education, …).
-    - This results in massive bandwidth savings, we estimate to be able to keep 99% of the required bandwidth locally which has a huge impact on cost.
-    - This is the only viable solution to be able to provide internet to the 3.2 billion people waiting.
-- **Self healing**: The architecture is designed to ensure that workloads and data can be accessed at all times. 
+- **Decentralized**: The Zero Operating System ("Zero OS") is ideally suited for Edge networking - where automation, self-healing and hyper-distribution are must-haves.
+  - The Zero-Nodes are deployed as close as possible to the consumers of Internet IT capacity (IoT, residential, business, government, education, …).
+  - This results in massive bandwidth savings, we estimate to be able to keep 99% of the required bandwidth locally which has a huge impact on cost.
+  - This is the only viable solution to be able to provide internet to the 3.2 billion people waiting.
+- **Self healing**: The architecture is designed to ensure that workloads and data can be accessed at all times.
 - **Neutral & private**: A lot of work has done using blockchain (technology which powers crypto currency) to guarantee privacy and net neutrality.
-    - Designed around simplicity to be used by everyone.
-    - The technology provides anyone with the autonomy to deliver complex IT applications without the need for complex integration services.
+  - Designed around simplicity to be used by everyone.
+  - The technology provides anyone with the autonomy to deliver complex IT applications without the need for complex integration services.
 - **Empowers equality**: Our technology should be usable by the “other billions” that remain unconnected. Due to the low cost-points, low energy requirements and reduced need of backbone network capacity.
-<br/>
-<br/>
+  <br/>
+  <br/>
