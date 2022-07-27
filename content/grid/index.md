@@ -1,6 +1,6 @@
 ---
 title: "Grid"
-template: "section.html"
+template: "page.html"
 insert_anchor_links: "left"
 ---
 
