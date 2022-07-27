@@ -65,8 +65,10 @@
                     </div>
                     {% endif %}
                 </div>
+                {% set url = get_url(path='/' ~ page.relative_path |
+                replace(from='index.md', to=page.extra.imgPath)) %}
 
-                <img class="mx-auto w-full" src="{{get_url(path=page.extra.imgPath)}}" />
+                <img class="mx-auto w-full" src="{{url}}" />
             </div>
             {% endfor %}
         </div>

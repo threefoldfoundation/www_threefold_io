@@ -3,7 +3,7 @@ title: DECENTRALIZE YOUR
 
 extra:
     subtitle: "DATA AND WORKLOADS"
-    imgPath: /images/network_new.jpg
+    imgPath: network_new.jpg
     button: Deploy
     link: /cloud
 ---
