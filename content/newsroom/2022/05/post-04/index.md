@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Seventeen
 date: 2022-05-12
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: Let's take a look back at last week in ThreeFold.
 extra:
     imgPath: images/blog/weekly_vol_12.jpg
     image_caption: TF Weekly Volume Seventeen
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

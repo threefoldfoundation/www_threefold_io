@@ -4,13 +4,12 @@ title: Say Hello to the Dispersed Storage
 description: Less redundancy and less wasted resources through dispersed storage on the ThreeFold Grid.
 date: 2021-04-20
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,threefold_grid,threefold_cloud]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/dispersed_hello_news.png
     image_caption: Say Hello to the Dispersed Storage
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 In most distributed systems, data is stored multiple times to guarantee redundancy. This leads to a lot of unnecessary overhead and is also not the most secure mechanism.

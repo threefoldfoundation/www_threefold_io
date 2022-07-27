@@ -2,14 +2,13 @@
 title: Your January 11 3Node Team Update
 date: 2022-01-11
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,farming,update]
 description:  This week we have some important migration information and shipping updates!
 extra:
     imgPath: images/newsroom/3node_team_jan11.png
     image_caption: Your January 11 3Node Team Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

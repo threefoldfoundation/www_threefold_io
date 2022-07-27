@@ -2,14 +2,13 @@
 title: ThreeFold at Consensus 2022
 date: 2022-05-10
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news,event]
 description: ThreeFold will soon be heading to Austin, TX as a sponsor for Consensus 2022 by CoinDesk!
 extra:
     imgPath: images/newsroom/consensus_2022.png
     image_caption: ThreeFold at Consensus 2022
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

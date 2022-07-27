@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Thirteen 
 date: 2022-04-05
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: We'd like to invite the community for a call to catch up on all things ThreeFold next Tuesday April 19th.
 extra:
     imgPath: images/newsroom/tfweekly14.png
     image_caption: TF Weekly Volume Thirteen
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

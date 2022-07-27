@@ -4,13 +4,12 @@ title: Tactical Investing Covers ThreeFold
 description: Large YouTube influencer talks about ThreeFold, Titan v2 Nodes Sell Out!
 date: 2021-06-05
 taxonomies:
+    people: [sam_taggart]
     tags: [farming,community,influencer]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/tactical_investing.png
     image_caption: Tactical Investing Covers ThreeFold
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Yesterday, YouTube influencer [Tactical Investing](https://www.youtube.com/channel/UCPRC2wIfZtAlzCa_6iKE46w) posted a video to his account "THIS IS HUGE...Better Than Akash Network? *Time Sensitive*" to share about the ThreeFold farming opportunity with his community.

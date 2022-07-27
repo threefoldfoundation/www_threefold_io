@@ -2,14 +2,13 @@
 title: ThreeFold and Presearch partner to decentralize search nodes and storage
 date: 2020-11-27
 taxonomies:
+    people: [sam_taggart]
     news-category: [farming,cloud,foundation]
     tags: [partner,update,technology,blockchain]
 description: Privacy and decentralization are some of the values shared by both Presearch and ThreeFold, at the core of their missions to create scalable technologies..
 extra:
     imgPath: images/newsroom/threefold_presearch.png
     image_caption: blockchain partners
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
 ---
 

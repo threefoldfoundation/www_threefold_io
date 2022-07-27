@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Sixteen
 date: 2022-05-05
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: ThreeFold - Host the Cloud At Your House, via CoinCodex.
 extra:
     imgPath: images/blog/weekly_vol_12.jpg
     image_caption: TF Weekly Volume Sixteen
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

@@ -4,13 +4,12 @@ title: Dragonchain and ThreeFold Announce Collaboration
 description: Dragonchain and ThreeFold partner to provide a peer-to-peer cloud for Dragonchain’s growing developer community
 date: 2021-05-03
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,technology,update,blockchain]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/threefold_dragonchain.png
     image_caption: blockchain
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Dragonchain and ThreeFold share a common mission of providing developers and the digital world with a more inclusive and decentralized Internet infrastructure – one where data flows and is stored in a peer-to-peer environment, and where applications are computed by decentralized and community-owned protocols.

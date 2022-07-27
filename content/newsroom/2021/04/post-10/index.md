@@ -4,13 +4,12 @@ title: Dive Into the ThreeFold Universe
 description: Dive into threefold.io and explore the expanding ThreeFold universe!
 date: 2021-04-10
 taxonomies:
+    people: [sam_taggart]
     tags: [update,community]
     news-category: [farming,foundation,aci,cloud,marketplace,twin]
 extra:
     imgPath: images/newsroom/threefolduniversenews.png
     image_caption: ThreeFold Universe
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Dive into [threefold.io](https://threefold.io) and explore the expanding ThreeFold universe!**

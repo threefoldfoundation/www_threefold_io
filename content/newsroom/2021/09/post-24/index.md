@@ -4,13 +4,12 @@ title: Not Just a Decentralized Cloud
 description: ThreeFold is the only comprehensive DeCloud out there and the low-level substrate for all DeClouds.
 date: 2021-09-24
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,threefold_cloud,technology,update]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/decloud_substrate.png
     image_caption: DeCloud Substrate
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Typically we’ve been saying that ThreeFold is the only comprehensive #DeCloud out there but maybe it’s time we start saying that **we are actually the substrate for Decentralized Cloud**. Well, maybe we’re both. 😉

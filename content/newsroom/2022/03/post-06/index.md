@@ -2,14 +2,13 @@
 title: The 1st Grid Enhancement Proposal
 date: 2022-03-15
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,threefold_grid,farming]
 description: Seeking the community's feedback on approach to a bug in the minting code and related topics.
 extra:
     imgPath: images/newsroom/gep_1.png
     image_caption: GEP 1
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
     
 ---

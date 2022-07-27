@@ -4,13 +4,12 @@ title: ThreeFold Coverage in Bankless Times
 description: ThreeFold’s Green Technology Strategy to a Fairer, More Sustainable World - via Bankless Times
 date: 2021-06-16
 taxonomies:
+    people: [sam_taggart]
     tags: [news,update]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/greener_tech_strategy.png
     image_caption: ThreeFold Coverage in Bankless Times
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold’s Green Technology Strategy to a Fairer, More Sustainable World**

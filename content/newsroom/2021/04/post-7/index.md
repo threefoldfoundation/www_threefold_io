@@ -4,13 +4,12 @@ title: CasperLabs and ThreeFold Join Forces
 description: ThreeFold and CasperLabs partner to scale opportunities for enterprises, everywhere
 date: 2021-04-07
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,technology,update,blockchain]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/casper_threefold.png
     image_caption: blockchain
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 CasperLabs and ThreeFold have a shared belief that decentralization is needed in order to build a better tomorrow. According to [CasperLabs](https://casperlabs.io/en/company), decentralization is "how we will create more open, transparent, permissionless networks powered by people — paving the way for a new era of equitable innovation."

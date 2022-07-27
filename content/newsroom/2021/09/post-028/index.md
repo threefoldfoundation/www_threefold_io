@@ -4,13 +4,12 @@ title: TechTimes Covers Zero OS
 description: ThreeFold's Zero OS Promises Unparalleled Levels of Internet Security and Efficiency, via TechTimes.
 date: 2021-09-28
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,technology,peer_to_peer]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: images/newsroom/zero_os_security_efficiency.png
     image_caption: TechTimes Zero OS
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **🗞 ThreeFold in the News 🗞**

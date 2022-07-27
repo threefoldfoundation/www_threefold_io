@@ -4,13 +4,12 @@ title: Seeking participation with the TFT plan
 description: We have some final decisions to make regarding the token & farming plan & we're calling for the community's help!
 date: 2021-02-03
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_token,farming,community]
     news-category: [farming,foundation]
 extra:
     imgPath: images/newsroom/token_plan_guidance.png
     image_caption: Token Plan Guidance Committee
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 We have a good plan in place to stimulate token growth but we have some key decisions to make & we are creating a group to help us finalize. We have already invited / included a number of farmers, token holders, ambassadors, and outside industry experts – and now we want to open it up to the wider community.

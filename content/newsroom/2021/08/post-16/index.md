@@ -4,13 +4,12 @@ title: We're Hosting an AMA on August 18th
 description: Announcing bi-weekly community AMAs starting this Wednesday!
 date: 2021-08-16
 taxonomies:
+    people: [sam_taggart]
     tags: [community,update]
     news-category: [farming,cloud,foundation,twin,aci]
 extra:
     imgPath: images/newsroom/aug_18_ama.png
     image_caption: August 18th AMA
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Please join us for an Ask Me Anything this Wednesday at 17:00 CEST!**

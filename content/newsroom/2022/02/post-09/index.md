@@ -2,14 +2,13 @@
 title: The Validator Verification Process is Underway 
 date: 2022-02-23
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news,technology,peer_to_peer]
 description: It's time to get the ThreeFold Validators verified!
 extra:
     imgPath: images/newsroom/validator_verification_process.png
     image_caption: Validator Verification Process
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **The ThreeFold Validator Verification Process**

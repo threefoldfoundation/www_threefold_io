@@ -4,13 +4,12 @@ title: Join the Conversation - The Cyber Pandemic is Here
 description: The cyber pandemic is here, but it’s not too late!
 date: 2021-01-28
 taxonomies:
+    people: [sacha_obeegadoo]
     tags: [interview,event,community]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/cyber_pandemic_convo.png
     image_caption: cyberpandemic
-    authors: [sacha_obeegadoo]
-    authorImg: images/people/sacha_obeegadoo.jpg
 ---
 <br/>
 <br/>

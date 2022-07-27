@@ -4,13 +4,12 @@ title: Digital Twin v1 is Coming!
 description: The first version of Digital Twin will feature messaging and video calling.
 date: 2021-02-19
 taxonomies:
+    people: [sam_taggart]
     tags: [digital_twin,update]
     news-category: [farming,cloud,foundation,twin]
 extra:
     imgPath: images/newsroom/digitaltwincoming.png
     image_caption: Digital Twin v1 is Coming!
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Recreate your digital life with Digital Twin.** Where only you own your data, and no one else.

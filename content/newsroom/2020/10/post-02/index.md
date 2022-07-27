@@ -2,14 +2,13 @@
 title: ThreeFold Now Marketplace is coming soon!
 date: 2020-10-22
 taxonomies:
+    people: [sam_taggart]
     news-category: [farming,cloud,foundation]
     tags: [threefold_cloud,technology]
 description: Mark your calendars! Next Monday November 2nd at 5pm CET we will host a 30-minute community call to update you on exciting progress and to show you what we’ll be working towards in the coming months.
 extra:
     imgPath: images/newsroom/tfnowmarketplace.png
     image_caption: ThreeFold Now Marketplace is coming soon!
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
 ---
 

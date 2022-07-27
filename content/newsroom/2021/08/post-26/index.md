@@ -4,13 +4,12 @@ title: Liquid Receives $120 Million in Debt Financing From FTX
 description: The owner and operator of top tier exchange FTX finances Liquid and enters discussions around further collaboration.
 date: 2021-08-26
 taxonomies: 
+    people: [sam_taggart]
     tags: [threefold_token, community, news]
     news-category: [farming, cloud, foundation]
 extra:
     imgPath: images/newsroom/liquid_ftx.png
     image_caption: Liquid and FTX
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Related to last week's Liquid news:

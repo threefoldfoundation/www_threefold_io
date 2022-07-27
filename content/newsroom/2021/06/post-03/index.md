@@ -7,10 +7,9 @@ taxonomies:
     tags: [farming, grid]
     news-category: [foundation,farming,cloud]
 extra:
+    author: Roel Van Sabben
     imgPath: images/newsroom/q2_batch_closing_soon.png
     image_caption: 3Node Pre-Register Q2 Batch Closing Soon
-    authors: [roel_van_sabben]
-    authorImg: images/people/roel_van_sabben.jpg
 ---
 
 Our next batch of Titan V2 3Nodes will ship in a matter of weeks. 

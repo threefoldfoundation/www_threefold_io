@@ -7,10 +7,9 @@ taxonomies:
     tags: [farming,threefold_grid]
     news-category: [foundation,farming]
 extra:
+    author: Roel van Sabben
     imgPath: images/newsroom/introducing_certified_capacity.png
     image_caption: certified_capacity
-    authors: [roel_van_sabben]
-    authorImg: images/people/roel_van_sabben.jpg
 ---
 
 Last month, we went live with Titan V2.1, and we're thrilled to count +1,000 orders already from all over the world.

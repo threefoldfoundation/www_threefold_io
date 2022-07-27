@@ -2,14 +2,13 @@
 title: ThreeFold Highlighted as Top Web3 Startup 
 date: 2022-04-13
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: ThreeFold was hand-picked as a top Web3 startup by StartUs Insights
 extra:
     imgPath: images/newsroom/threefold_top_web3.png
     image_caption: ThreeFold Top Web3 Startup
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

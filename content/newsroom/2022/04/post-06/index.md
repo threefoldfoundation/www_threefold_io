@@ -4,13 +4,12 @@ title: April 19th Community Call Recording
 description: Sharing the recording and slides from the community call earlier in the week!
 date: 2022-04-21
 taxonomies:
+    people: [sam_taggart]
     tags: [community,update,technology,threefold_grid,peer_to_peer,threefold_token]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/community_call_april_19_recording.png
     image_caption: April 19 Community Call Recording
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **This Week's Community Call Recording!**

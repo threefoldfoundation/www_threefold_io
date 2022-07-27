@@ -6,10 +6,9 @@ taxonomies:
     tags: [partner,update,technology,blockchain]
 description: SKALE and ThreeFold are excited to announce their collaborative partnership that will focus on solving scalability and decentralization limitations faced by Ethereum and Blockchain developers.
 extra:
+    people: Benjelloun Oussama
     imgPath: images/newsroom/skale_threefold.png
     image_caption: partners blockchain
-    authors: [benjelloun_oussama]
-    authorImg: images/people/benjelloun_oussama.png
     
 ---
 

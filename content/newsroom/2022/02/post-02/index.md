@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Five
 date: 2022-02-07
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: Some of the most important happenings in the ThreeFold universe last week!
 extra:
     imgPath: images/newsroom/tfweekly5.png
     image_caption: TF Weekly Volume Five
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 📰 **ThreeFold Weekly! February 7th Edition (Volume Five)**

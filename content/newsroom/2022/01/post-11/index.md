@@ -2,14 +2,13 @@
 title: From Zero to Hero on TF Grid 3
 date: 2022-01-21
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [threefold_grid,technology,community,update,threefold_cloud]
 description:  Deploying a Virtual Machine on TF Grid 3 in under 10 minutes!
 extra:
     imgPath: images/newsroom/zero_to_hero_grid3.png
     image_caption: Zero to Hero Grid 3
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

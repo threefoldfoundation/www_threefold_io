@@ -2,14 +2,13 @@
 title: Validator Frequently Asked Questions 
 date: 2022-02-15
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news,technology,peer_to_peer]
 description: An FAQ for all of your validator node questions.
 extra:
     imgPath: images/newsroom/validator_faqs.png
     image_caption: Validator FAQs
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **ThreeFold Validator Nodes Update!**

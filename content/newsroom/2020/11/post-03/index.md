@@ -2,14 +2,13 @@
 title: Sharing the November 2020 AMA recording
 date: 2020-11-12
 taxonomies:
+    people: [sam_taggart]
     news-category: [farming,cloud,foundation,twin]
     tags: [community,update,event]
 description: For those who missed the Ask Me Anything on Tuesday evening, you can find the call recording within!
 extra:
     imgPath: images/newsroom/novamarecording.png
     image_caption: Sharing the November 2020 AMA recording
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Good day, all! ☀️

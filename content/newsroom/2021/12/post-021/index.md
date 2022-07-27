@@ -4,13 +4,12 @@ title: ThreeFold Mentioned in the News
 description: ThreeFold will be working with Computecoin to expand digital infrastructure in Africa, via Bloomberg
 date: 2021-12-21
 taxonomies:
+    people: [sam_taggart]
     tags: [news,partner]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/threefold_computecoin_bloomberg.png
     image_caption: ThreeFold Mentioned in the News
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold in the News** 🗞

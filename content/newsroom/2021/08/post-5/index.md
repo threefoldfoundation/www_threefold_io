@@ -4,13 +4,12 @@ title: ODE and ThreeFold Announce Partnership
 description: ODE and ThreeFold Join Forces to Democratize Consumer Data
 date: 2021-08-05
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,technology,update]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/ode_threefold.png
     image_caption: ODE and ThreeFold
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today, we're pleased to announce a partnership between ThreeFold Tech and [ODE](https://odeinfinity.com), the world's first vertically integrated consumer data ecosystem. ODE is creating a future where enterprises become trusted partners to their digital consumers, offering an application platform that enables privacy for digital consumers, lean data science, and compliance for enterprises. Built on blockchain and AI, ODE Infinity defines a new paradigm for digital engagement for enterprises.

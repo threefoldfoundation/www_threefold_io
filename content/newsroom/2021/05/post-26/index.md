@@ -4,13 +4,12 @@ title: ThreeFold Co-Founder's Message to Blockchains in Dubai
 description: ThreeFold takes on blockchain decentralization and sustainability at AIBC Summit in Dubai
 date: 2021-05-26
 taxonomies:
+    people: [sam_taggart]
     tags: [press_release,update,blockchain]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/aibc_sustainability_news.png
     image_caption: ThreeFold Co-Founder Keynote at AIBC Summit
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Yesterday, ThreeFold co-founder Kristof De Spiegeleer spoke at the AIBC Summit in Dubai.**

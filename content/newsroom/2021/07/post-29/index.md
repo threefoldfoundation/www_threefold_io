@@ -4,13 +4,12 @@ title: Watch the P2P File Browser Demo!
 description: Take a look at the file browser (storage) solution we're building at ThreeFold!
 date: 2021-07-29
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,update,peer_to_peer,threefold_grid,digital_twin]
     news-category: [farming,cloud,foundation,aci,twin]
 extra:
     imgPath: images/newsroom/filebrowser_demo.png
     image_caption: Filebrowser Demo
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today, we're excited to share with you **[a demo of the ultra-secure peer-to-peer file browser (storage) solution](https://www.youtube.com/watch?v=oT_dKuvF6Ng)** that's being built on top of the ThreeFold Grid!

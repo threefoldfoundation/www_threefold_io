@@ -4,13 +4,12 @@ title: Grid 2.6 is Live on Testnet
 description: Updates to the eVDC, 3Bot SDK, Quantum Safe Filesystem, Zero-OS, and Digital Twin!
 date: 2021-04-05
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,threefold_grid,threefold_cloud,update,community]
     news-category: [foundation,cloud,farming,marketplace,aci]
 extra:
     imgPath: images/newsroom/grid26testnetnews.png
     image_caption: Grid 2.6 live on testnet
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 What you'll find in this exciting release (live on testnet): Updates to the eVDC, 3Bot SDK, Quantum Safe Filesystem, Zero-OS, and Digital Twin!

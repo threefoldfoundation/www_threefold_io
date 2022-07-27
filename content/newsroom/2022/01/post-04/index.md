@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume One
 date: 2022-01-07
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description:  Introducing your weekly digest from the ThreeFold Foundation team!
 extra:
     imgPath: images/newsroom/tfweekly1.png
     image_caption: TF Weekly Volume One
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

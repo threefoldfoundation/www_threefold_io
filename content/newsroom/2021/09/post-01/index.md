@@ -4,13 +4,12 @@ title: A First Look at Terraform on TF Grid 3.0
 description: A demo on how easy it is to create, use, and destroy deployments on TF Grid 3.0 using Terraform.
 date: 2021-09-01
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,update,threefold_cloud,technology,community]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: images/newsroom/terraform_demo.png
     image_caption: Terraform Demo
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Here’s [a first look at Terraform](https://youtu.be/uPKM1Ta3tvY) on ThreeFold Grid 3.0!**

@@ -2,14 +2,13 @@
 title: Recent Interviews & Discussions for the Team
 date: 2022-05-24
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: Check out some recent interviews and discussions around ThreeFold, decentralization, and farming.
 extra:
     imgPath: images/newsroom/may_2022_interviews.png
     image_caption: Recent Interviews & Discussions
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

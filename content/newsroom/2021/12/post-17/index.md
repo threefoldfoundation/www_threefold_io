@@ -4,13 +4,12 @@ title: ThreeFold and Take Action Global in the News
 description: ThreeFold and Take Action Global Partner to Bring Internet Access to 1 Billion People Across the Globe, via MarTech Series
 date: 2021-12-17
 taxonomies:
+    people: [sam_taggart]
     tags: [news,partner,why]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/threefold_tag_martech.png
     image_caption: ThreeFold and Take Action Global in the News
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold in the News** 🗞

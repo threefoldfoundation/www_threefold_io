@@ -4,13 +4,12 @@ title: Decentralize the DigiByte Blockchain by Deploying a Node on the ThreeFold
 description: Today we are happy to share with you some news from our partnership with the DigiByte Foundation!
 date: 2021-06-24
 taxonomies:
+    people: [sam_taggart]
     tags: [blockchain,partner,update,threefold_grid,threefold_cloud]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/digibytenode.png
     image_caption: Decentralize the DigiByte blockchain
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today we are happy to share with you some news from our partnership with the DigiByte Foundation 🤝 **how to decentralize the DigiByte Network by deploying a DigiByte Node on ThreeFold Grid!**

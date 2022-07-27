@@ -2,14 +2,13 @@
 title: Get to know TF Meet 
 date: 2020-12-17
 taxonomies:
+    people: [sam_taggart]
     news-category: [farming,cloud,foundation,twin]
     tags: [technology,update,threefold_cloud]
 description: ThreeFold Meet is a P2P alternative to centralized video conferencing solutions.
 extra:
     imgPath: images/newsroom/tfmeetintro.png
     image_caption: Get to know TF Meet
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
 ---
 

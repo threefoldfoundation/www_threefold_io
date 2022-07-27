@@ -2,14 +2,13 @@
 title: Paradise Hills Property Development and ThreeFold to Establish the World’s First Neighborhood Cloud in Dubai 
 date: 2022-03-07
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [partner,technology,update,news]
 description: ThreeFold and Paradise Hills join forces to bring the world’s largest decentralized Internet Cloud powered by the ThreeFold Blockchain into Homes.
 extra:
     imgPath: images/newsroom/paradise_hills.png
     image_caption: ODE and ThreeFold
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 DUBAI, United Arab Emirates | Real Estate developer Paradise Hills and ThreeFold have announced today their plans to add dedicated servers (3Nodes) to approximately 170 homes in the Paradise Hill project, creating the world’s first neighborhood Cloud Network on the ThreeFold Grid.

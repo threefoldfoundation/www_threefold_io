@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Nineteen
 date: 2022-05-25
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: All of the key highlights from ThreeFold, last week!
 extra:
     imgPath: images/blog/weekly_vol_12.jpg
     image_caption: ThreeFold Weekly Volume Nineteen
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

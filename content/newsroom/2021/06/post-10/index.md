@@ -4,13 +4,12 @@ title: ThreeFold Coverage in CoinTelegraph!
 description: Is a new decentralized internet, or Web 3.0 possible? Read ThreeFold's hot off the press CoinTelegraph coverage!
 date: 2021-06-10
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,threefold_grid,blockchain,update,peer_to_peer]
     news-category: [farming,cloud,foundation,aci,twin]
 extra:
     imgPath: images/newsroom/tfcointelegraphjune2021.png
     image_caption: ThreeFold Coverage in CoinTelegraph
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today, ThreeFold received some nice coverage in CoinTelegraph:

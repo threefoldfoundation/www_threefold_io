@@ -4,13 +4,12 @@ title: Business Insider Africa Covers ThreeFold
 description: Ambitious startup to disrupt the Internet and Cloud, via Business Insider Africa.
 date: 2021-10-13
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,technology,threefold_cloud,peer_to_peer]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: images/newsroom/threefold_bi_africa.png
     image_caption: BI Africa ThreeFold
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **🗞 ThreeFold in the News 🗞**

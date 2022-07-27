@@ -2,14 +2,13 @@
 title: A Conversation with Jeroen Douglas 
 date: 2022-02-22
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,partner,interview]
 description: An enlightening conversation between ThreeFold co-founder Weynand Kuijpers and Solidaridad Network (ThreeFold partner) Executive Director Jeroen Douglas.
 extra:
     imgPath: images/newsroom/jeroen_conversation.png
     image_caption: A Conversation with Jeroen Douglas
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 👂 **Lend us your ear!**

@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Eleven
 date: 2022-03-21
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: Highlights from last week in the ThreeFold ecosystem!
 extra:
     imgPath: images/newsroom/tfweekly11.png
     image_caption: TF Weekly Volume Eleven
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
     
 ---

@@ -4,13 +4,12 @@ title: Products & Services Update
 description: Get the lowdown on our v2.7.1 products & service updates.
 date: 2021-05-21
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,threefold_grid,update]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/products_services_may_21_news.png
     image_caption: Products & Services Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

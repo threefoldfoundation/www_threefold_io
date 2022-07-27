@@ -2,14 +2,13 @@
 title: Why ThreeFold chose Stellar?
 date: 2020-06-03
 taxonomies:
+    people: [sam_taggart]
     news-category: [farming,cloud,foundation]
     tags: [threefold_token,update]
 description: At ThreeFold, together with a beautiful ecosystem of partners, we are co-creating a peer-to-peer Internet that empowers equality, freedom, and sustainability.
 extra:
     imgPath: images/newsroom/stellar.png
     image_caption: partners
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
 ---
 

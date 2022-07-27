@@ -4,13 +4,12 @@ title: Introducing TF Chain and Updated Billing
 description: Learn about TF Chain, the importance of blockchain within ThreeFold, and updated pay-as-you-go billing in TF Grid 3.0.
 date: 2021-09-20
 taxonomies:
+    people: [sam_taggart]
     tags: [blockchain,update,technology,threefold_grid,threefold_cloud]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/tf_chain_and_billing.png
     image_caption: TF Chain and Updated Billing
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Introducing TF Chain and an updated (pay-as-you-go) billing model!**
