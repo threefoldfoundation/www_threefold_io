@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, farming, cloud, aci"]
   imgPath: ali_mohsen.jpg
 taxonomies:
+  people: ["ali_mohsen"]
   memberships:
     [aci_members]
 ---

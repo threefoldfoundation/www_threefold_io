@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation,aci"]
   imgPath: hans_koning.png
 taxonomies:
+  people: ["hans_koning"]
   memberships:
     [aci_members,partner]
 ---

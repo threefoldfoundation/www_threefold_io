@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, twin"]
   imgPath: rajinder_singh_grewal.jpeg
 taxonomies:
+  people: ["rajinder_singh_grewal"]
   memberships:
     [foundation]
 ---

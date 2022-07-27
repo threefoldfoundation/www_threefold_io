@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: thibault_verbiest.jpg
 taxonomies:
+  people: ["thibault_verbiest"]
   memberships:
     [aci_members, wisdom_council]
 ---

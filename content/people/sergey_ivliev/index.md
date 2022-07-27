@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: sergey_ivliev.png
 taxonomies:
+  people: ["sergey_ivliev"]
   memberships:
     [aci_members]
 ---

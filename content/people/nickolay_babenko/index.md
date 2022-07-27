@@ -8,6 +8,7 @@ extra:
   organizations: [foundation, twin]
   imgPath: nickolay_babenko.jpg
 taxonomies:
+  people: ["nickolay_babenko"]
   memberships:
     [foundation, cofounders, twin, grid_guardians]
 ---

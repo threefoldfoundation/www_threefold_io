@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: rishi_chidananda.jpeg
 taxonomies:
+  people: ["rishi_chidananda"]
   memberships:
     [ambassadors, wisdom_council]
 ---

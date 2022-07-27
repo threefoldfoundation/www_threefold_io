@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: phil_abraham.png
 taxonomies:
+  people: ["phil_abraham"]
   memberships:
     [partner]
 ---

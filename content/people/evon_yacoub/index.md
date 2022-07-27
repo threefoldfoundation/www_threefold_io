@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: evon_yacoub.jpg
 taxonomies:
+  people: ["evon_yacoub"]
   memberships:
     [tech]
 ---

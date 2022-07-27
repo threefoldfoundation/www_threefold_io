@@ -8,6 +8,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: monique_morrow.png
 taxonomies:
+  people: ["monique_morrow"]
   memberships:
     [aci_members]
 ---

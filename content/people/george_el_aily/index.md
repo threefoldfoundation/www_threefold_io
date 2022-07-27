@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: george_el_aily.jpg
 taxonomies:
+  people: ["george_el_aily"]
   memberships:
     [partner]
 ---

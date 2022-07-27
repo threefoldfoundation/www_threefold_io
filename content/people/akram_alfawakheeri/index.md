@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: akram_alfawakheeri.jpg
 taxonomies:
+  people: ["akram_alfawakheeri"]
   memberships:
     [aci_members]
 ---

@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: michel_coucke.jpg
 taxonomies:
+  people: ["michel_coucke"]
   memberships:
     [ambassadors, aci_members]
 ---

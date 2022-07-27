@@ -8,6 +8,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: kristof_de_spiegeleer.jpeg
 taxonomies:
+  people: ["kristof_de_spiegeleer"]
   memberships:
     [
       "farmers",

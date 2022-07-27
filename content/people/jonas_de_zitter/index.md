@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: jonas_de_zitter.png
 taxonomies:
+  people: ["jonas_de_zitter"]
   memberships:
     [ambassadors]
 ---

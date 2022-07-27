@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: roel_wofert.png
 taxonomies:
+  people: ["roel_wofert"]
   memberships:
     [aci_members]
 ---

@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: olivia_jurado.jpg
 taxonomies:
+  people: ["olivia_jurado"]
   memberships:
     [ambassadors]
 ---

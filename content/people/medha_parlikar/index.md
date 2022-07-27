@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: medha_parlikar.jpeg
 taxonomies:
+  people: ["medha_parlikar"]
   memberships:
     [partner]
 ---

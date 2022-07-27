@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: florian_fournier.jpeg
 taxonomies:
+  people: ["florian_fournier"]
   memberships:
     [foundation, partner, aci_members, wisdom_council]
 ---

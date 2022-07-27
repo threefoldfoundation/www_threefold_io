@@ -7,6 +7,7 @@ extra:
   organizations: [foundation]
   imgPath: karoline_zizka.jpeg
 taxonomies:
+  people: ["karoline_zizka"]
   memberships:
     [foundation]
 ---

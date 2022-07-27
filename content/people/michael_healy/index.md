@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: michael_healy.png
 taxonomies:
+  people: ["michael_healy"]
   memberships:
     [aci_members]
 ---

@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: lieve_vereycken.jpg
 taxonomies:
+  people: ["lieve_vereycken"]
   memberships:
     [ambassadors]
 ---

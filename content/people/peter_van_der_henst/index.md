@@ -7,6 +7,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: peter_van_der_henst.png
 taxonomies:
+  people: ["peter_van_der_henst"]
   memberships:
     [foundation, tech]
 ---

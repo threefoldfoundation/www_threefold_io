@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: nikolaus_heger.jpg
 taxonomies:
+  people: ["nikolaus_heger"]
   memberships:
     [aci_members]
 ---

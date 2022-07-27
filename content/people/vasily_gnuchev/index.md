@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: vasily_gnuchev.jpg
 taxonomies:
+  people: ["vasily_gnuchev"]
   memberships:
     [aci_members, partner]
 ---

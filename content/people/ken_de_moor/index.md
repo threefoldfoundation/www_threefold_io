@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation, twin"]
   imgPath: ken_de_moor.jpg
 taxonomies:
+  people: ["ken_de_moor"]
   memberships:
     [tech]
 ---

@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: lauren_moore_nignon.png
 taxonomies:
+  people: ["lauren_moore_nignon"]
   memberships:
     [aci_members]
 ---

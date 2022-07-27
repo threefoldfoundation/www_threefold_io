@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: markus_lehto.jpeg
 taxonomies:
+  people: ["markus_lehto"]
   memberships:
     [aci_members]
 ---

@@ -7,7 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: sascha_jochum.jpg
 taxonomies:
-  people: [sascha_jochum]
+  people: ["sascha_jochum"]
   memberships: [partner]
 ---
 

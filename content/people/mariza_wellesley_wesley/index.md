@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: mariza_wellesley_wesley.jpg
 taxonomies:
+  people: ["mariza_wellesley-wesley"]
   memberships:
     [aci_members, ambassadors, farmers, cloud, partner]
 ---

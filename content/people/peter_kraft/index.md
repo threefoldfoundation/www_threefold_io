@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: peter_kraft.jpg
 taxonomies:
+  people: ["peter_kraft"]
   memberships:
     [ambassadors]
 ---

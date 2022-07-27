@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, farming"]
   imgPath: nisha_grimes.png
 taxonomies:
+  people: ["nisha_grimes"]
   memberships:
     [ambassadors, farmers, grid_guardians]
 ---

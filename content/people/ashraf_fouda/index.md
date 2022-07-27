@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation"]
   imgPath: ashraf_fouda.jpeg
 taxonomies:
+  people: ["ashraf_fouda"]
   memberships:
     [tech]
 ---

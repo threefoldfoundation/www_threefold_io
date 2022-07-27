@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation"]
   imgPath: ahmed_thabet.jpg
 taxonomies:
+  people: ["ahmed_thabet"]
   memberships:
     [tech, foundation, technology_council]
 ---

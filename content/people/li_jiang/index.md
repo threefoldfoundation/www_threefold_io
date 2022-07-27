@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: li_jiang.jpeg
 taxonomies:
+  people: ["li_jiang"]
   memberships:
     [partner]
 ---

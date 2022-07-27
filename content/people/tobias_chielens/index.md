@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: tobias_chielens.jpg
 taxonomies:
+  people: ["tobias_chielens"]
   memberships:
     [tech]
 ---

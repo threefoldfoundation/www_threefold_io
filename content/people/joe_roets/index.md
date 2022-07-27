@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: joe_roets.png
 taxonomies:
+  people: ["joe_roets"]
   memberships:
     [partner]
 ---

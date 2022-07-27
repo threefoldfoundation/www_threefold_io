@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: tom_clausen.jpeg
 taxonomies:
+  people: ["tom_clausen"]
   memberships:
     [partner]
 ---

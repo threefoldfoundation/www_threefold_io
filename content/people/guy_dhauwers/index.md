@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: guy_dhauwers.png
 taxonomies:
+  people: ["guy_dhauwers"]
   memberships:
     [ambassadors]
 ---

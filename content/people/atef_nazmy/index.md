@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: atef_nazmy.jpg
 taxonomies:
+  people: ["atef_nazmy"]
   memberships:
     [tech]
 ---

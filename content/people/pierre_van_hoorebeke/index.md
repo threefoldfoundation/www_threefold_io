@@ -7,6 +7,7 @@ extra:
   organizations: [foundation]
   imgPath: pierre_van_hoorebeke.jpg
 taxonomies:
+  people: ["pierre_van_hoorebeke"]
   memberships:
     [tech, foundation]
 ---

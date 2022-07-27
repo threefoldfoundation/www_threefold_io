@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation,aci"]
   imgPath: sophie_monpeyssen.jpeg
 taxonomies:
+  people: ["sophie_monpeyssen"]
   memberships:
     [ambassadors, wisdom_council, aci_members]
 ---

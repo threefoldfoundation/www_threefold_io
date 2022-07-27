@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation,aci"]
   imgPath: jennifer_long.jpeg
 taxonomies:
+  people: ["jennifer_long"]
   memberships:
     [ambassadors, aci_members]
 ---

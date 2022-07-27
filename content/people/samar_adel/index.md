@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: samar_adel.jpg
 taxonomies:
+  people: ["samar_adel"]
   memberships:
     [tech]
 ---

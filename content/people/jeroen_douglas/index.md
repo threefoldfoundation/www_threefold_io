@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation,aci"]
   imgPath: jeroen_douglas.jpg
 taxonomies:
+  people: ["jeroen_douglas"]
   memberships:
     [aci_members, cloud, partner]
 ---

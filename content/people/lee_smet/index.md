@@ -8,6 +8,7 @@ extra:
   organizations: [foundation]
   imgPath: lee_smet.png
 taxonomies:
+  people: ["lee_smet"]
   memberships:
     [foundation, tech, technology_council]
 ---

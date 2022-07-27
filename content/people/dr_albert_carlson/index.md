@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: dr_albert_carlson.jpeg
 taxonomies:
+  people: ["dr._albert_carlson"]
   memberships:
     [partner]
 ---

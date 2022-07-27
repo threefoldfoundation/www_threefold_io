@@ -7,6 +7,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: sabrina_sadik.jpg
 taxonomies:
+  people: ["sabrina_sadik"]
   memberships:
     [foundation, farming]
 ---

@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: gert_de_spiegeleer.jpg
 taxonomies:
+  people: ["gert_de_spiegeleer"]
   memberships:
     [ambassadors]
 ---

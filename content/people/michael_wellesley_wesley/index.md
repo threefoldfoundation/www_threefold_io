@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation,aci"]
   imgPath: michael_wellesley_wesley.jpeg
 taxonomies:
+  people: ["michael_wellesley-wesley"]
   memberships:
     [ambassadors, farmers, aci_members, cloud, wisdom_council, partner]
 ---

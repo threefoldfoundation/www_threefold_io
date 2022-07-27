@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation,cloud,farming"]
   imgPath: ingo_schildt.jpeg
 taxonomies:
+  people: ["ingo_schildt"]
   memberships:
     [partner]
 ---

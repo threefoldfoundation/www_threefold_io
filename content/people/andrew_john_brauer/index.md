@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, farming"]
   imgPath: andrew_john_brauer.png
 taxonomies:
+  people: ["andrew_john_brauer"]
   memberships:
     [ambassadors, grid_guardians]
 ---

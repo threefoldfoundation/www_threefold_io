@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: mickey_malul.png
 taxonomies:
+  people: ["mickey_malul"]
   memberships:
     [aci_members]
 ---

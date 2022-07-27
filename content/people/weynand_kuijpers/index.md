@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, cofounders, farmers, aci_members"]
   imgPath: weynand_kuijpers.jpg
 taxonomies:
+  people: ["weynand_kuijpers"]
   memberships:
     [foundation, aci, farming, cloud]
 ---

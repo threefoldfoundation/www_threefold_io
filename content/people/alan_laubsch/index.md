@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: alan_laubsch.png
 taxonomies:
+  people: ["alan_laubsch"]
   memberships:
     [aci_members]
 ---

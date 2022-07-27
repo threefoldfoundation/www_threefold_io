@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation,aci"]
   imgPath: rutger_krijnen.jpeg
 taxonomies:
+  people: ["rutger_krijnen"]
   memberships:
     [aci_members, cloud, partner]
 ---

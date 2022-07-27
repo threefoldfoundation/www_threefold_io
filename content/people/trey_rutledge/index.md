@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: trey_rutledge.jpeg
 taxonomies:
+  people: ["trey_rutledge"]
   memberships:
     [partner]
 ---

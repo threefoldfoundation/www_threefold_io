@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: souvik-ghosh.jpg
 taxonomies:
+  people: ["souvik_ghosh"]
   memberships:
     [tech]
 ---

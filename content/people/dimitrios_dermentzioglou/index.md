@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: dimitrios_dermentzioglou.jpg
 taxonomies:
+  people: ["dimitrios_dermentzioglou"]
   memberships:
     [ambassadors, wisdom_council, aci_members]
 ---

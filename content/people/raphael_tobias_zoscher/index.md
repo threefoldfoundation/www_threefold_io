@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation"]
   imgPath: raphael_tobias_zoscher.png
 taxonomies:
+  people: ["raphael_tobias_zöscher_"]
   memberships:
     [ambassadors]
 ---
