@@ -2,6 +2,7 @@
 title: ThreeFold participating @ Global Reset!
 date: 2020-12-04
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation,twin,aci]
     tags: [event,community,update]
 description: ThreeFold participating @ Global Reset!
@@ -9,8 +10,6 @@ excerpt: ThreeFold is proud to be supporting and attending the Global Reset Summ
 extra:
     imgPath: images/newsroom/tfglobalreset.png
     image_caption: ThreeFold Product Demos Are a Must Watch!
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
 ---
 

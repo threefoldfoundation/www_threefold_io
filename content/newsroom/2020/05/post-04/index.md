@@ -2,14 +2,13 @@
 title: Harmony Integrates with ThreeFold’s Decentralized Grid
 date: 2020-05-29
 taxonomies:
+    people: [sacha_obeegadoo]
     news-category: [farming,cloud,foundation]
     tags: [partner,technology,update,blockchain]
 description: Harmony and ThreeFold will work together on developer and user projects on the ThreeFold Grid and Pangaea..
 extra:
     imgPath: images/newsroom/harmony_threefold.png
     image_caption: partners blockchain
-    authors: [sacha_obeegadoo]
-    authorImg: images/people/sacha_obeegadoo.jpg
     
 ---
 

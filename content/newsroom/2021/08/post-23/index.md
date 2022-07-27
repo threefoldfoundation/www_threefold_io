@@ -4,13 +4,12 @@ title: Introducing the TFT Development Plan
 description: Sharing some of the latest tokenomics updates that will go live with Grid 3.0. A sustainable development plan for TFT.
 date: 2021-08-23
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_token,update]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/tft_development_plan.png
     image_caption: TFT Development Plan
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 There have been many questions in the community about **the plan around the ThreeFold Token**.

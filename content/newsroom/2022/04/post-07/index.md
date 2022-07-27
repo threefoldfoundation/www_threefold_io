@@ -4,13 +4,12 @@ title: April 2022's ThreeFold Product Updates
 description: ThreeFold V3.0.0 Alpha-5 is officially released with upgrades and improvements to various TF Grid componenents. Dig in!
 date: 2022-04-22
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,threefold_grid,threefold_token,community,update]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/april_2022_product_updates.png
     image_caption: April 2022 Product Updates
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 📣 **April 2022's ThreeFold Product Updates**

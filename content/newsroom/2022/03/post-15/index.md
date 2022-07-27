@@ -2,14 +2,13 @@
 title: ThreeFold Interview on the BlockHash Podcast
 date: 2022-03-30
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,interview,technology,why,threefold_grid,blockchain]
 description: ThreeFold co-founder Adnan Fatayerji made an appearance on the BlockHash Podcast!
 extra:
     imgPath: images/newsroom/threefold_blockhash_pod.png
     image_caption: ThreeFold on the BlockHash Podcast
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
     
 ---

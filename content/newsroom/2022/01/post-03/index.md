@@ -2,14 +2,13 @@
 title: New Year Deep Dive Sessions 1, 2, & 3
 date: 2022-01-06
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,threefold_grid,technology,threefold_token,update,peer_to_peer]
 description: The first three deep dives of the year, bringing the community up to speed on all things ThreeFold.
 extra:
     imgPath: images/newsroom/deepdives123.png
     image_caption: Deep Dives 1, 2, & 3
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

@@ -4,13 +4,12 @@ title: Your December 14 Titan Update
 date: 2021-12-14
 description: Titans continue to go out in North America, clarifying Titan setup, and what else is cooking behind the scenes.
 taxonomies:
+    people: [sam_taggart]
     tags: [farming,update,community]
     news-category: [foundation]
 extra: 
     imgPath: images/newsroom/3node_team_dec14.png
     image_caption: Your December 14 Titan Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Your Weekly 3Node Update!**

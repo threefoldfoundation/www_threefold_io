@@ -2,14 +2,13 @@
 title: November 10 product management highlights
 date: 2020-11-10
 taxonomies:
+    people: [sam_taggart]
     news-category: [farming,cloud,foundation,twin]
     tags: [threefold_grid,threefold_cloud,technology,update]
 description: Some quick product management highlights for you, within, & a major thank you to everyone working so hard on these products and solutions every day!
 extra:
     imgPath: images/newsroom/novprodmgmt.png
     image_caption: November 10 product management highlights
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 ✨ **New ThreeFold Now Marketplace Solution!**

@@ -4,13 +4,12 @@ title: Join Our Forum!
 description: Join the ThreeFold Forum to have conversations, ask questions, and offer feedback!
 date: 2021-03-09
 taxonomies:
+    people: [sam_taggart]
     tags: [community]
     news-category: [farming,foundation,cloud,twin]
 extra:
     imgPath: images/newsroom/join_our_forum.png
     image_caption: join our forum
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 The [ThreeFold Forum](https://forum.threefold.io/) is the place for conversations all about ThreeFold.

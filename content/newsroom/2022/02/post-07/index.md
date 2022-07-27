@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Seven 
 date: 2022-02-21
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: Last week in the ThreeFold universe!
 extra:
     imgPath: images/newsroom/tfweekly7.png
     image_caption: TF Weekly Volume Seven
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 👂 **Lend us your ear!**

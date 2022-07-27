@@ -4,13 +4,12 @@ title: September 1 Community Call Announcement
 description: We'll host a community call this Wednesday at 5pm CEST with updates on farming and TF Grid 3.0!
 date: 2021-08-30
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,update,threefold_cloud,technology,community,farming]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: images/newsroom/sep1_comm_call_announcement.png
     image_caption: September 1 Community Call Announcement
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 We'll host a **community call this Wednesday** at 5pm CEST to share updates around **farming** and to touch on a few important aspects of **ThreeFold Grid 3.0**.

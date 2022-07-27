@@ -4,13 +4,12 @@ title: New Nodes In New Parts Of The World
 description: The ThreeFold Grid is growing steadily.
 date: 2021-05-28
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid]
     news-category: [foundation,farming,cloud]
 extra:
     imgPath: images/newsroom/grid_is_growing.png
     image_caption: The grid is growing
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 This month, we had new nodes come online in Brazil, Cyprus, the United Kingdom, Belgium, Romania, the United States, Italy, Bulgaria, and more. Welcome to our new farmers!

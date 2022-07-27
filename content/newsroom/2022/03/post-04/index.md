@@ -2,14 +2,13 @@
 title: ThreeFold Coverage in Crypto Daily
 date: 2022-03-11
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news,partner]
 description: ThreeFold Is Bringing The Power Of Blockchain And The Decentralized Cloud To A Dubai Neighborhood – via Crypto Daily.
 extra:
     imgPath: images/newsroom/paradise_hills_crypto_daily.png
     image_caption: Crypto Daily Coverage
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
     
 ---

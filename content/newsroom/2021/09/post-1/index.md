@@ -4,13 +4,12 @@ title: TFT on 1inch.io
 description: The ThreeFold Token is now available on DeFi entry point 1inch!
 date: 2021-09-01
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_token,update,blockchain]
     news-category: [foundation,cloud,farming,twin,aci]
 extra:
     imgPath: images/newsroom/tft_1inch.png
     image_caption: TFT on 1inch
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **The ThreeFold Token is now available on [1inch.io](https://1inch.io/)!**

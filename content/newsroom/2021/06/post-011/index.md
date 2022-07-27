@@ -4,13 +4,12 @@ title: Pre-Order Your Titan v2.1 Now!
 description: Pre-orders for the Titan v2.1 are now open for the general public!
 date: 2021-06-11
 taxonomies:
+    people: [sam_taggart]
     tags: [farming,threefold_grid]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/titan_v21_preorder_now.png
     image_caption: Pre-Order Your Titan v2.1 Now
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 In the last 24 hours, we've had Titan v2.1 3Node pre-orders from all corners of the globe – six of the seven continents. (Anybody know anyone in Antarctica?)

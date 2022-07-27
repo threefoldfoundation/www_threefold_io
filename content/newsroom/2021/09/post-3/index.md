@@ -4,13 +4,12 @@ title: An Interview with Jimber
 description: Insights into developing P2P Grid solutions using the Digital Twin platform.
 date: 2021-09-03
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,update,threefold_cloud,technology,digital_twin]
     news-category: [foundation,cloud,farming,twin]
 extra:
     imgPath: images/newsroom/jimber_interview_news.png
     image_caption: Interview with Jimber
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 
 ---
 

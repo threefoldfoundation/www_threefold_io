@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Ten
 date: 2022-03-14
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: Key happenings from last week in ThreeFold.
 extra:
     imgPath: images/newsroom/tfweekly10.png
     image_caption: GEP 1
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
     
 ---

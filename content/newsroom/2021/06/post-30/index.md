@@ -4,13 +4,12 @@ title: ThreeFold Coverage in Smartereum
 description: ThreeFold is Audaciously Building a New Decentralized Internet - via Smartereum
 date: 2021-06-30
 taxonomies:
+    people: [sam_taggart]
     tags: [news,blockchain,technology]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/smartereumjune2021.png
     image_caption: ThreeFold Coverage in Smartereum
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🗞 **ThreeFold is Audaciously Building a New Decentralized Internet** (via Smartereum)

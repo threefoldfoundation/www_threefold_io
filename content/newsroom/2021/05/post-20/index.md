@@ -4,13 +4,12 @@ title: ThreeFold Two-Way Chat Update
 description: Some thoughts around who we are, the chat, transparency, feedback, contribution, and more.
 date: 2021-05-20
 taxonomies:
+    people: [sam_taggart]
     tags: [community,update]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/how_to_use_chat_news.png
     image_caption: ThreeFold Two-Way Chat Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Last month, we opened up **[a two-way chat](https://t.me/threefold)** here on Telegram for our community to have conversations about ThreeFold, ask questions, and offer feedback. If you haven’t joined yet, please do!

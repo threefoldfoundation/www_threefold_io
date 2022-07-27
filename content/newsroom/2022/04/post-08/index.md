@@ -4,13 +4,12 @@ title: Today is Earth Day!
 description: At ThreeFold, we believe in "Planet First." Take a look at some of the ways ThreeFold is acting to positively impact the planet.
 date: 2022-04-22
 taxonomies:
+    people: [sam_taggart]
     tags: [why,community,news,update]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/earth_day_2022.png
     image_caption: Earth Day 2022
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🌍 **Today is Earth Day**

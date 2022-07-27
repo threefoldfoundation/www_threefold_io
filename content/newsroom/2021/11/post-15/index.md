@@ -4,13 +4,12 @@ title: Your Mid November Titan Update
 description: We’ve shipped 90% of all European orders that were placed up until early November, and later this month, we’ll begin shipping to the Americas.
 date: 2021-11-15
 taxonomies:
+    people: [sam_taggart]
     tags: [update,farming,community]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/mid_nov_titan_update.png
     image_caption: Mid November Node Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Your mid-November Titan 2.1 update!**

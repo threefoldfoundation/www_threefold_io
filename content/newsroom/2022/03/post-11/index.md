@@ -2,14 +2,13 @@
 title: ThreeFold to Attend World Blockchain Summit Dubai
 date: 2022-03-21
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,event]
 description: Some of the team will be attending World Blockchain Summit in Dubai this week as exhibitors.
 extra:
     imgPath: images/newsroom/wbs_dubai.png
     image_caption: WBS Dubai
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
     
 ---

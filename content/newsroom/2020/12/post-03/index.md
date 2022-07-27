@@ -2,6 +2,7 @@
 title: ThreeFold Product Demos Are a Must Watch!
 date: 2020-12-11
 taxonomies:
+    people: [sam_taggart]
     news-category: [farming,cloud,foundation,twin]
     tags: [threefold_grid,threefold_cloud,technology,update]
 description: ThreeFold Product Demos Are a Must Watch!
@@ -9,8 +10,6 @@ excerpt: Demos of the latest & greatest ThreeFold products & solutions – some 
 extra:
     imgPath: images/newsroom/tfproductdemos.png
     image_caption: ThreeFold Product Demos Are a Must Watch!
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
 ---
 

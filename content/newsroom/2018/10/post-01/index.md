@@ -2,14 +2,13 @@
 title: ThreeFold partners with Hewlett Packard Enterprise
 date: 2018-10-18
 taxonomies:
+    people: [sabrina_sadik]
     news-category: [farming,cloud,foundation]
     tags: [partner,update,technology]
 description: Dubai, UAE, Today at GITEX Technology Week, ThreeFold signed a Memorandum of Understanding (MOU) with Hewlett Packard Enterprise (HPE).
 extra:
     imgPath: images/newsroom/threefold_hpe.png
     image_caption: partners
-    authors: [sabrina_sadik]
-    authorImg: images/people/sabrina_sadik.jpg
     
 ---
 

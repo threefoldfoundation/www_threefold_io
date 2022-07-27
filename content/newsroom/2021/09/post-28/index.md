@@ -4,13 +4,12 @@ title: ownCloud and ThreeFold Announce Partnership
 description: ownCloud Partners With ThreeFold to Truly Decentralize Content Collaboration
 date: 2021-09-28
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,technology,update]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/owncloud_threefold.png
     image_caption: ownCloud and ThreeFold
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Based on their shared commitment to data sovereignty and open alternatives, ownCloud and ThreeFold have agreed to enter into a strategic partnership to advance the decentralization of the consumer cloud. ownCloud is an open-source file sync, share and content collaboration software that lets teams work on data easily from anywhere, on any device. ThreeFold is developing a peer-to-peer Internet platform that aims to liberalize what it labels as a centralized and unequally distributed Internet.

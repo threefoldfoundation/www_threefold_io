@@ -6,10 +6,9 @@ taxonomies:
     tags: [partner,update,community,blockchain]
 description: Today, ThreeFold and WaykiChain are pleased to officially announce their collaborative partnership..
 extra:
+    author: Benjelloun Oussama
     imgPath: images/newsroom/waykichain_threefold.png
     image_caption: blockchain
-    authors: [benjelloun_oussama]
-    authorImg: images/people/benjelloun_oussama.png
     
 ---
 

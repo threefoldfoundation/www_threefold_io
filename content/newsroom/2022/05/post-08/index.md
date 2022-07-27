@@ -2,14 +2,13 @@
 title: ThreeFold Q&A with Adnan Fatayerji and CyberNews
 date: 2022-05-24
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [news,threefold_grid,technology,peer_to_peer]
 description: 'Adnan Fatayerji, ThreeFold: "the best protection is ownership and sovereignty over your own online data"'
 extra:
     imgPath: images/newsroom/threefold_cybernews.png
     image_caption: ThreeFold Cybernews
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     isFeatured: "true"
 ---
 

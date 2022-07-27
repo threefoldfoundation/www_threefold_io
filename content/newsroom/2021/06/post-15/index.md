@@ -4,13 +4,12 @@ title: Zetako and ThreeFold Join Forces
 description: Zetako and ThreeFold join forces to enable hyper-efficient data transport and storage for people and for our planet
 date: 2021-06-15
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,technology,update]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/threefold_zetako.png
     image_caption: ThreeFold and Zetako
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 For both Zetako and ThreeFold, efficiency and sustainability are key. [Zetako](https://www.zetako.ai/) is a company dedicated to lossless data compression, and after years of research and development, has created an alternative solution to the regular standards of data compression. And with two decades of relevant experience and a focus on sustainability, ThreeFold has built new peer-to-peer Internet infrastructure and technologies from the ground up – where every aspect is optimized towards maximum efficiency and the least amount of harm to the planet.

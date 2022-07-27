@@ -4,13 +4,12 @@ title: Liquid Hacked, TFT Not Affected
 description: Liquid, an exchange on which TFT is listed, has been hacked. It appears TFT was not affected.
 date: 2021-08-19
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_token, community, news]
     news-category: [farming, cloud, foundation]
 extra:
     imgPath: images/newsroom/liquid_hack_one.png
     image_caption: Liquid Exchange Hacked
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 We wanted to update the community that Liquid, an exchange on which TFT is listed, [shared this morning](https://twitter.com/Liquid_Global/status/1428176357515612165?s=09) that warm wallets on the exchange were compromised in a hack.

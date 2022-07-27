@@ -2,14 +2,13 @@
 title: New Year Deep Dive Session 6
 date: 2022-01-18
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,threefold_grid,technology,threefold_token,update,peer_to_peer]
 description:  Catch the recording of our final deep dive meetup, for now.
 extra:
     imgPath: images/newsroom/deepdive6.png
     image_caption: Deep Dive 6
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

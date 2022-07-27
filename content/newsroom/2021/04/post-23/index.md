@@ -4,13 +4,12 @@ title: Building a Better Solution for Our Planet
 description: Our planet needs real solutions, not just a band aid approach.
 date: 2021-04-23
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,why,threefold_grid]
     news-category: [farming,cloud,foundation,aci,twin]
 extra:
     imgPath: images/newsroom/better_solution_news.png
     image_caption: Building a Better Solution for Our Planet
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Today’s Internet consumes approximately 10% of the world’s energy. This is not acceptable.

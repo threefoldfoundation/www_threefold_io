@@ -2,14 +2,13 @@
 title: A Special Visit for the Team in Dubai
 date: 2022-01-23
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [news,update,community,why]
 description: We're exploring the deployment of a regenerative and inclusive Internet for HBCUs and Native American communities!
 extra:
     imgPath: images/newsroom/underserved_dubai.png
     image_caption: Special Visit Dubai
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

@@ -4,13 +4,12 @@ title: Meet the Planetary Network
 description: The Planetary Network is a peer-to-peer end-to-end encrypted global network. Learn more about it within!
 date: 2021-09-03
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,update,threefold_cloud,technology]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: images/newsroom/planetary_network_intro.png
     image_caption: Meet Planetary Network
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Meet **the Planetary Network 🌍 a peer-to-peer end-to-end encrypted global network**, providing universal connectivity between nodes, Grid deployers, and solution users.

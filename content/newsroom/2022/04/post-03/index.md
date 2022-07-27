@@ -2,14 +2,13 @@
 title: ThreeFold Community Call Next Tuesday 
 date: 2022-04-15
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update]
 description: We'd like to invite the community for a call to catch up on all things ThreeFold next Tuesday April 19th.
 extra:
     imgPath: images/newsroom/community_call_april_19.png
     image_caption: Community Call April 19
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

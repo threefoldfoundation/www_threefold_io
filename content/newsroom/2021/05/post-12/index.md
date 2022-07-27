@@ -4,13 +4,12 @@ title: TFT is more accessible; now available via PancakeSwap and a BTC Integrati
 description: Today, the bridge to BSC is live, making TFT available on PancakeSwap! And anyone can now buy TFT with BTC directly on the ThreeFold Connect app.
 date: 2021-05-12
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,update,blockchain]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/tft_bsc_btc.png
     image_caption: TFT is now more accessible
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Recently, we announced [our plans to go "multichain,"](https://bitcoinist.com/peer-to-peer-internet-threefold-goes-multichain-to-accelerate-token-accessibility/) bringing the ThreeFold Token (TFT) to three popular DeFi ecosystems: Binance Smart Chain (BSC), Ethereum, and Huobi’s ECO Chain. Today, the bridge to BSC is now live, and TFT is available on PancakeSwap!

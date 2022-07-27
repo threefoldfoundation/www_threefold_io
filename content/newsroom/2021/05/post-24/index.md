@@ -4,13 +4,12 @@ title: ThreeFold is Attending the AIBC Summit in Dubai
 description: Our co-founder Kristof will be giving a keynote and some of our team will be at the expo hall!
 date: 2021-05-24
 taxonomies:
+    people: [sam_taggart]
     tags: [community,event,blockchain]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/aibc_news.jpeg
     image_caption: ThreeFold is Attending the AIBC Summit in Dubai
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Tomorrow and Wednesday, ThreeFold is attending [the AIBC Summit](https://aibc.world/uae/) in Dubai.**

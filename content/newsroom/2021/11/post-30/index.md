@@ -4,13 +4,12 @@ title: Presenting the new Explorer UI for Grid 3.x
 description: The updated Explorer brings a simple interface and true decentralization to the way compute, storage, and network capacity information is sourced from 3Nodes.
 date: 2021-11-30
 taxonomies:
+    people: [sam_taggart]
     tags: [farming,technology,threefold_grid,community,update]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/tf_grid3_explorer.png
     image_caption: Presenting the new Explorer UI
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **Presenting: the new Explorer UI for TF Grid 3.x!**

@@ -4,13 +4,12 @@ title: How to Deploy ownCloud on the ThreeFold Grid
 description: Following up on recent news, learn more about ownCloud and ThreeFold and see a live demo.
 date: 2021-09-30
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,update,technology,threefold_cloud,peer_to_peer]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/deploy_owncloud_demo.png
     image_caption: ownCloud on ThreeFold
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Following up on recent news:

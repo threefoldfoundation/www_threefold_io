@@ -4,13 +4,12 @@ title: ThreeFold Grid Utilization Plan – Part 1
 description: Part one (of two) of our ThreeFold Grid utilization plan, focusing on TF Grid solutions.
 date: 2021-08-25
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid]
     news-category: [foundation,farming,cloud]
 extra:
     imgPath: images/newsroom/grid_utilization_plan.png
     image_caption: Grid Utilization Plan Part 1
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 The ThreeFold Foundation’s primary goal is to achieve **sustainable and organic growth of the ThreeFold Grid**.

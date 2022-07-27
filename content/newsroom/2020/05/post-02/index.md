@@ -2,15 +2,13 @@
 title: DigiByte integrates with ThreeFold’s decentralized Grid
 date: 2020-05-22
 taxonomies:
+    people: [sacha_obeegadoo]
     news-category: [farming,cloud,foundation,aci]
     tags: [partner,technology,update,blockchain]
 description: The DigiByte Foundation and the ThreeFold Foundation are aligned – both focused on values, working towards their visions and missions in creating a truly decentralized, equal, and sustainable world that empowers humanity.
-authors: [sacha_obeegadoo]
 extra:
     imgPath: images/newsroom/digibyte_threefold.png
     image_caption: partners blockchain
-    authors: [sacha_obeegadoo]
-    authorImg: images/people/sacha_obeegadoo.jpg
     
 ---
 

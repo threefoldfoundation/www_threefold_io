@@ -2,14 +2,13 @@
 title: Your January 6 3Node Team Update
 date: 2022-01-06
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,farming,update]
 description: This week's update is focused on shipping as well as farming rewards, anda  reminder about our deep dives!
 extra:
     imgPath: images/newsroom/3node_team_jan06.png
     image_caption: Your January 6 3Node Team Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

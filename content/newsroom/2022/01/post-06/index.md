@@ -2,14 +2,13 @@
 title: New Year Deep Dive Sessions 4 & 5
 date: 2022-01-13
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,threefold_grid,technology,threefold_token,update,peer_to_peer]
 description:  Recaps of two deep dives with the community this week – one more next week!
 extra:
     imgPath: images/newsroom/deepdives45.png
     image_caption: Deep Dives 4 & 5
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 

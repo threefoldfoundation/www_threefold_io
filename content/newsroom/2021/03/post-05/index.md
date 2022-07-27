@@ -4,13 +4,12 @@ title: Use Cases for the ThreeFold Cloud
 description: Learn more about what the peer-to-peer TF Cloud can already achieve! 
 date: 2021-03-05
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_cloud,update,technology]
     news-category: [foundation,cloud]
 extra:
     imgPath: images/newsroom/who_uses_tf_cloud.png
     image_caption: who uses tf cloud
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 The peer-to-peer ThreeFold Cloud can already support:

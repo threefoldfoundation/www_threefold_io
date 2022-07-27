@@ -4,13 +4,12 @@ title: Looking for TFT Fiat Gateway Beta Testers
 description: We're making TFT more accessible! Help us test the Fiat Gateway and earn 500 TFT.
 date: 2022-04-27
 taxonomies:
+    people: [sam_taggart]
     tags: [community,threefold_token,technology,threefold_grid]
     news-category: [foundation]
 extra:
     imgPath: images/newsroom/fiat_gateway_testing.png
     image_caption: TFT Fiat Gateway Beta Testers
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
 ---
 

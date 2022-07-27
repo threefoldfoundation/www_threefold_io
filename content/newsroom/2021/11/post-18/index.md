@@ -4,13 +4,12 @@ title: DigiThree Labs is live!
 description: The DigiThree website is now live! Dig in to see what we're bringing to the world together with DigiCorp.
 date: 2021-11-18
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,technology,update,peer_to_peer,news]
     news-category: [foundation,cloud]
 extra:
     imgPath: images/newsroom/digithree_site.png
     image_caption: DigiThree is live
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **DigiThree Labs is live!** 🚀

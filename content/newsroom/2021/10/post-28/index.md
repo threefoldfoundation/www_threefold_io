@@ -4,13 +4,12 @@ title: Announcing DigiThree Labs
 description: ThreeFold and DigiCorp Labs have joined forces to form DigiThree Labs, bringing together the ThreeFold and DigiByte technologies!
 date: 2021-10-28
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,technology,news,peer_to_peer]
     news-category: [farming,cloud,foundation,aci]
 extra:
     imgPath: images/newsroom/digithree.png
     image_caption: DigiThree
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **ThreeFold and [DigiCorp Labs](https://digicorplabs.com) have joined forces to form DigiThree Labs**, bringing together ThreeFold and DigiByte technologies and strong shared beliefs around decentralization, security, and privacy.

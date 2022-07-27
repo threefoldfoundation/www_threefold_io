@@ -4,13 +4,12 @@ title: ThreeFold Grid v2.8.0 Highlights and Release Notes
 description: Generic VMs support, TF Explorer v0.5.1, and Farming & Minting operational improvements!
 date: 2021-07-22
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,update,peer_to_peer,threefold_grid]
     news-category: [farming,cloud,foundation,twin]
 extra:
     imgPath: images/newsroom/tf_grid_280.png
     image_caption: Introducing TF Grid 2.8.0
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 📚 **ThreeFold Update** 📚

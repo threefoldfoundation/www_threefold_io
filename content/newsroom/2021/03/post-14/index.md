@@ -4,13 +4,12 @@ title: We're Tackling Internet Inequalities
 description: Let's break down Internet inequalities, together. Find out how ThreeFold is already collaborating to make this a reality!
 date: 2021-03-14
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,why,update]
     news-category: [farming,foundation,twin]
 extra:
     imgPath: images/newsroom/internet_inequalities.png
     image_caption: internet inequalities
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Let’s build an Internet for all, together.

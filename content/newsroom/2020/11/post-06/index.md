@@ -2,14 +2,13 @@
 title: 3Bot Connect renamed to ThreeFold Connect 
 date: 2020-11-17
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation,twin,farming,cloud]
     tags: [community,technology]
 description: As mentioned as a preview in our October update, 3Bot Connect is now more accurately named ThreeFold Connect across devices.
 extra:
     imgPath: images/newsroom/tfconnectupdate.png
     image_caption: 3bot connect renamed
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Quick update!

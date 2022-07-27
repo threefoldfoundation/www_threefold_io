@@ -4,13 +4,12 @@ title: What's New in Grid 3.0.1!
 description: Today we are sharing what’s new in TF Grid 3.0.1, now live on Testnet and Devenet – and the path to Mainnet!
 date: 2021-11-18
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,threefold_cloud,technology,update,peer_to_peer,blockchain]
     news-category: [foundation,cloud]
 extra:
     imgPath: images/newsroom/grid_301.png
     image_caption: What's new in Grid 3.0.1
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 We have been, for some months, in testing mode on our ThreeFold Grid 3.X and today we are sharing **what’s new in TF Grid 3.0.1 – and the path to mainnet!** 🚨

@@ -4,13 +4,12 @@ title: The Road to TF Grid v3.0
 description: Today we are sharing the roadmap to ThreeFold Grid version 3.0, a production-ready grid.
 date: 2021-08-17
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid, update, technology]
     news-category: [farming, cloud, foundation]
 extra:
     imgPath: images/newsroom/road_to_grid_30.png
     image_caption: The road to Grid 3.0
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Today, we are super excited to share [the roadmap](https://circles.threefold.me/project/despiegk-product_tfgrid3_roadmap/kanban) to ThreeFold Grid v3.0!**

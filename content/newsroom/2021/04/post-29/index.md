@@ -4,13 +4,12 @@ title: ThreeFold Announces Plans to go Multichain
 description: ThreeFold is set to integrate BSC in the next couple of weeks.
 date: 2021-04-29
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_token,blockchain,community]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/tft_multichain_news.jpg
     image_caption: ThreeFold Announces Plans to go Multichain
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Peer-to-Peer Internet ThreeFold Goes Multichain to Accelerate Token Accessibility**

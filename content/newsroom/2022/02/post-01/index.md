@@ -2,14 +2,13 @@
 title: Validator Reservations Progress
 date: 2022-02-03
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news,technology,peer_to_peer]
 description: Be amongst the first ThreeFold Validators contributing to the decentralization and expansion of the Internet – and get rewarded for it. Limited spots remain!
 extra:
     imgPath: images/newsroom/validator_reservation_update.png
     image_caption: TF Weekly Volume Five
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Since opening ThreeFold Validator Node reservations earlier in the week, there has been strong interest from the community – applications are coming in, TFT are being accumulated – and limited spots remain!

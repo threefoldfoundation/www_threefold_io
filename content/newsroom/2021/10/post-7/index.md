@@ -4,13 +4,12 @@ title: EconoTimes Covers ThreeFold and DFINITY
 description: ThreeFold, DFINITY and the race to Decentralize the Internet, via EconoTimes.
 date: 2021-10-07
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,threefold_cloud,peer_to_peer,technology]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: images/newsroom/dfinity_econotimes.png
     image_caption: EconoTimes ThreeFold
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **🗞 ThreeFold in the News 🗞**

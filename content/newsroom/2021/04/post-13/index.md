@@ -4,13 +4,12 @@ title: ThreeFold Joins CasperLabs Community Call
 description: Join us on Casper's community call this evening!
 date: 2021-04-13
 taxonomies:
+    people: [sam_taggart]
     tags: [partner,event,community,blockchain]
     news-category: [foundation,cloud,farming,marketplace,aci]
 extra:
     imgPath: images/newsroom/tfcaspercommunitycall1news.png
     image_caption: ThreeFold x Casper Community Call
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 **Today at 6pm CET / 12pm EST,** ThreeFold co-founder Kristof de Siegeleer will be joining the Casper community call to introduce ThreeFold to the Casper community and to discuss our collaboration.

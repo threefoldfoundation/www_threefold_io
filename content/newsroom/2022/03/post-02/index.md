@@ -2,14 +2,13 @@
 title: ThreeFold Weekly! Volume Nine
 date: 2022-03-07
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,update,news]
 description: All the latest from ThreeFold, last week.
 extra:
     imgPath: images/newsroom/tfweekly9.png
     image_caption: TF Weekly Volume Nine
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
     
 ---

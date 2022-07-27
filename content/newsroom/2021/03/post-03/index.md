@@ -4,13 +4,12 @@ title: Say Hello to the Quantum Safe Filesystem
 description: There's nothing out there like the Quantum Safe Filesystem – see what it can do for you!
 date: 2021-03-03
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_cloud,update,technology]
     news-category: [foundation,cloud]
 extra:
     imgPath: images/newsroom/qsfs_intro.png
     image_caption: quantum safe filesystem
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 There's nothing out there like the Quantum Safe Filesystem – an easy-to-deploy unlimited-scale filesystem which can be run anywhere in the world.

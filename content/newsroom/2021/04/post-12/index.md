@@ -4,13 +4,12 @@ title: Grid 2.7 is Live on Testnet
 description: Last week we announced Grid 2.6 live on testnet, and a week later here we are announcing Grid 2.7!
 date: 2021-04-12
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,threefold_cloud,update,technology,community]
     news-category: [foundation,cloud,farming,marketplace,aci]
 extra:
     imgPath: images/newsroom/grid27testnetnews.png
     image_caption: Grid 2.7 is live on testnet
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Well, that was fast! 👀

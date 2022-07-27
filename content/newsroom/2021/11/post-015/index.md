@@ -4,13 +4,12 @@ title: Update on Testnet for TF Grid 3.0
 description: Testnet for TF Grid 3.0 is fully available for testing, both for connecting infrastructure and for deploying workloads!
 date: 2021-11-15
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,update,technology,community]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/tf_grid_nov_15_2021.png
     image_caption: Mid November Titan Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🚨 **Testnet for TF Grid 3.0 is fully available for testing, both for connecting infrastructure and for deploying workloads!**

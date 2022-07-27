@@ -2,6 +2,7 @@
 title: Take a look at the Artheon VR Museum!
 date: 2020-12-09
 taxonomies:
+    people: [sam_taggart]
     news-category: [twin,cloud,foundation,farming,aci]
     tags: [partner]
 description: Take a look at the Artheon VR Museum!
@@ -9,8 +10,6 @@ excerpt: Here's a look at an incredible project happening in the ThreeFold unive
 extra:
     imgPath: images/newsroom/artheonvrintro.png
     image_caption: ThreeFold Product Demos Are a Must Watch!
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
     
 ---
 

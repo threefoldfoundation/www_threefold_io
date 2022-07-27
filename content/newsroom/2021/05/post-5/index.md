@@ -4,13 +4,12 @@ title: Update on the Binance Smart Chain Integration
 description: We are happy to update that the BSC integration is going just as planned and next week, TFT will be available there.
 date: 2021-05-05
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_token,blockchain,community]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/bsc_update_news.png
     image_caption: Update on the Binance Smart Chain Integration
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Last week we announced our plan to make the ThreeFold Token more accessible through multichain integrations – with Binance Smart Chain up first!

@@ -4,13 +4,12 @@ title: Great Results on Grid 2.4 Testing!
 description: We still need more people willing to test – join in!
 date: 2021-02-10
 taxonomies:
+    people: [sam_taggart]
     tags: [threefold_grid,update,technology,community]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: images/newsroom/tf_grid_24_update.png
     image_caption: Grid 2.4 Testing Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 Our **TF Grid 2.4** has now been on testnet for over a month and we are getting good test results – but we need more!

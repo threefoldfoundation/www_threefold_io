@@ -2,14 +2,13 @@
 title: Realizing a Planet-Positive Internet
 date: 2022-02-09
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [community,partner,news,why]
 description: How we are taking real action with Take Action Global to enables the world's first planet-positive Internet infrastructure.
 extra:
     imgPath: images/newsroom/tag_planet_positive.png
     image_caption: Realizing a Planet-Positive Internet
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🧳 **Grid V2 to Grid V3 Migration Update**

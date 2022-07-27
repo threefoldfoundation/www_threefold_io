@@ -4,13 +4,12 @@ title: Watch the Self-Hosted Video Chat Demo!
 description: Check out video chat, a little piece of what we're building at ThreeFold!
 date: 2021-07-20
 taxonomies:
+    people: [sam_taggart]
     tags: [technology,update,peer_to_peer,threefold_grid,digital_twin]
     news-category: [farming,cloud,foundation,twin]
 extra:
     imgPath: images/newsroom/video_chat_demo.png
     image_caption: Video Chat Demo
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 👀 **Check out a little piece of what we're building at ThreeFold!**

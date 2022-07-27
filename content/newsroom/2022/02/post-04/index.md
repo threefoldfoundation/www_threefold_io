@@ -2,14 +2,13 @@
 title: Grid V2 to V3 Migration Update
 date: 2022-02-11
 taxonomies:
+    people: [sam_taggart]
     news-category: [foundation]
     tags: [threefold_grid,community,farming,update]
 description: Since we are now live on TF Grid 3.0, it is important that all farmers who are still on Grid 2.x migrate their farms to the newest mainnet.
 extra:
     imgPath: images/newsroom/grid_migration_update.png
     image_caption: Grid Migration Update
-    authors: [sam_taggart]
-    authorImg: images/people/sam_taggart.jpg
 ---
 
 🧳 **Grid V2 to Grid V3 Migration Update**
