@@ -1,6 +1,6 @@
 ---
 title: "Expand the People’s Internet"
-
+weight: 2
 extra:
     subtitle: "and earn TFT"
     button: Become a Farmer
