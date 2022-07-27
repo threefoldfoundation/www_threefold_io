@@ -1,0 +1,75 @@
+{% set home = get_section(path="home/_index.md") %}
+
+<style>
+    .bg-gray {
+        background-color: #f2f2f2
+    }
+</style>
+
+{% if current_path == '/' %}
+
+<div class="
+  max-w-screen-2xl
+  mx-auto
+  py-12
+  text-center
+  sm:px-6
+  lg:px-8
+  lg:py-20
+">
+    <div class="space-y-12">
+        <div class="mx-auto grid-cols-2 sm:grid sm:grid-cols-1 lg:grid-cols-2">
+            {% for page in home.pages %}
+            <div class="my-5 mx-5 pt-10 bg-gray">
+                <div class="space-y-2">
+                    <div class="text-lg font-medium space-y-1">
+                        <h2 class="h2 uppercase leading-tight font-light">
+                            {{ page.title }}
+                            <span class="block font-bold"> {{ page.extra.subtitle }}</span>
+                        </h2>
+                        <div class="mx-auto text-xl px-5 mb-5">{{ page.content | safe }}</div>
+                    </div>
+                    {% if page.extra.button %}
+                    <div>
+                        {% if page.extra.button is containing('http') %}
+                        <a target="_blank" href="{{page.extra.link}}" class="
+              inline-block
+              lg:text-lg
+              learn-button
+              hover:bg-gray-400
+              px-12
+              py-1
+              mr-5
+              my-10
+              border-2
+              shadow
+              border-black
+              capitalize
+            ">{{ page.extra.button }}</a>
+                        {% else %}
+                        <a href={{get_url(path=page.extra.link)}} class="
+              inline-block
+              lg:text-lg
+              learn-button
+              hover:bg-gray-400
+              px-12
+              py-1
+              mr-5
+              my-10
+              border-2
+              shadow
+              border-black
+              capitalize
+            ">{{ page.extra.button }}</a>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <img class="mx-auto w-full" src="{{get_url(path=page.extra.imgPath)}}" />
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
