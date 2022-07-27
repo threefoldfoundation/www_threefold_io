@@ -7,6 +7,7 @@ extra:
   organizations: ["aci, foundation"]
   imgPath: koen_timmers.jpg
 taxonomies:
+  people: ["koen_timmers"]
   memberships:
     [aci_members, partner]
 ---

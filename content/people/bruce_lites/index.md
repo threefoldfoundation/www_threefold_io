@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: bruce_lites.jpeg
 taxonomies:
+  people: ["bruce_lites"]
   memberships:
     [ambassadors]
 ---

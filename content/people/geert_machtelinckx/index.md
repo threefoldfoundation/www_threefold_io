@@ -8,6 +8,7 @@ extra:
   organizations: [foundation, farming]
   imgPath: geert_machtelinckx.jpg
 taxonomies:
+  people: ["geert_machtelinckx"]
   memberships:
     [foundation, tech, farmers]
 ---

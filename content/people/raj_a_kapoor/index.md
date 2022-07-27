@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: raj_a_kapoor.jpeg
 taxonomies:
+  people: ["raj_a._kapoor"]
   memberships:
     [partner]
 ---

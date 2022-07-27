@@ -7,6 +7,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: adnan_fatayerji.jpg
 taxonomies:
+  people: ["adnan_fatayerji"]
   memberships:
     ["farmers", "foundation", "cofounders", "wisdom_council", "aci_members"]
 ---

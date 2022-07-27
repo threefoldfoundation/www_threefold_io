@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: samir_hosny.jpg
 taxonomies:
+  people: ["samir_hosny"]
   memberships:
     [tech]
 ---

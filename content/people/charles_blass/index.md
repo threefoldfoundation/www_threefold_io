@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: charles_blass.png
 taxonomies:
+  people: ["charles_blass"]
   memberships:
     [aci_members]
 ---

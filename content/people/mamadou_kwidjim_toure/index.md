@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: mamadou_kwidjim_toure.jpg
 taxonomies:
+  people: ["mamadou_kwidjim_toure"]
   memberships:
     [partner, aci_members]
 ---

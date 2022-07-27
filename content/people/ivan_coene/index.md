@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: ivan_coene.jpeg
 taxonomies:
+  people: ["ivan_coene"]
   memberships:
     [tech]
 ---

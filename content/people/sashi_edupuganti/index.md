@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: sashi_edupuganti.jpeg
 taxonomies:
+  people: ["sashi_edupuganti"]
   memberships:
     [partner]
 ---

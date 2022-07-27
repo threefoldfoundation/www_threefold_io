@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: rieki_cordon.jpg
 taxonomies:
+  people: ["rieki_cordon"]
   memberships:
     [aci_members]
 ---

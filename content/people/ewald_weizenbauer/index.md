@@ -7,6 +7,7 @@ extra:
   organizations: ["threefold_foundation"]
   imgPath: ewald_weizenbauer.jpg
 taxonomies:
+  people: ["ewald_weizenbauer"]
   memberships:
     [foundation, aci]
 ---

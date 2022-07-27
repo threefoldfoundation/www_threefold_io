@@ -7,6 +7,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: jan_de_landtsheer.jpeg
 taxonomies:
+  people: ["jan_de_landtsheer"]
   memberships:
     [tech, technology_council]
 ---

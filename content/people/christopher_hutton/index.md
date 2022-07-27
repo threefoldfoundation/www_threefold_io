@@ -7,6 +7,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: christhoper_hutton.jpeg
 taxonomies:
+  people: ["christopher_hutton"]
   memberships:
     ["tech", "foundation", "cofounders"]
 ---

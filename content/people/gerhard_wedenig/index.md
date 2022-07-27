@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: gerhard_wedenig.jpg
 taxonomies:
+  people: ["gerhard_wedenig"]
   memberships:
     [ambassadors]
 ---

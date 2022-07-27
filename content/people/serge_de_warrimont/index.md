@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: serge_de_warrimont.jpg
 taxonomies:
+  people: ["serge_de_warrimont"]
   memberships:
     [aci_members]
 ---

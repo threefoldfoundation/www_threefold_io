@@ -8,6 +8,7 @@ extra:
   organizations: [foundation, twin, aci]
   imgPath: alexandre_hannelas.jpeg
 taxonomies:
+  people: ["alexandre_hannelas"]
   memberships:
     [foundation, twin, aci_members]
 ---

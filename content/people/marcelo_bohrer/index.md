@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: marcelo_bohrer.jpg
 taxonomies:
+  people: ["marcelo_bohrer"]
   memberships:
     [aci_members]
 ---

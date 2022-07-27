@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: jeroen_burks.png
 taxonomies:
+  people: ["jeroen_burks"]
   memberships:
     [ambassadors]
 ---

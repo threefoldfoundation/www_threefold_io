@@ -8,6 +8,7 @@ extra:
   organizations: [foundation]
   imgPath: maxime_daniel.png
 taxonomies:
+  people: ["maxime_daniel"]
   memberships:
     [foundation, tech, technology_council]
 ---

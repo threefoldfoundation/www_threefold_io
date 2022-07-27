@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: erik_de_rijk.png
 taxonomies:
+  people: ["erik_de_rijk"]
   memberships:
     [ambassadors]
 ---

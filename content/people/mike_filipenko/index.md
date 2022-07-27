@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, farming"]
   imgPath: mike_filipenko.jpeg
 taxonomies:
+  people: ["mike_filipenko"]
   memberships:
     [grid_guardians]
 ---

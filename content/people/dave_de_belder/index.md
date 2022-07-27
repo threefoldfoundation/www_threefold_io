@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: dave_de_belder.jpeg
 taxonomies:
+  people: ["dave_de_belder"]
   memberships:
     [ambassadors, wisdom_council, aci_members]
 ---

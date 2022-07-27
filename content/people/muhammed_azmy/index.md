@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: muhamed_amzy.png
 taxonomies:
+  people: ["muhammed_azmy"]
   memberships:
     [tech, technology_council]
 ---

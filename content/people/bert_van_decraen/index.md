@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: bert_van_decraen.png
 taxonomies:
+  people: ["bert_van_decraen"]
   memberships:
     [aci_members]
 ---

@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: jozua_van_der_deijl.jpeg
 taxonomies:
+  people: ["jozua_van_der_deijl"]
   memberships:
     [cloud,partner]
 ---

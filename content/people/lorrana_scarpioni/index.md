@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: lorrana_scarpioni.jpg
 taxonomies:
+  people: ["lorrana_scarpioni"]
   memberships:
     [aci_members]
 ---

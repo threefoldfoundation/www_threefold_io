@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: isabelle_peeters.png
 taxonomies:
+  people: ["isabelle_peeters"]
   memberships:
     [ambassadors, aci_members]
 ---

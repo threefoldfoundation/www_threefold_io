@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: al_morgan.png
 taxonomies:
+  people: ["al_morgan"]
   memberships:
     [ambassadors]
 ---

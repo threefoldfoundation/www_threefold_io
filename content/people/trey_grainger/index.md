@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: trey_grainger.jpeg
 taxonomies:
+  people: ["trey_grainger"]
   memberships:
     [partner]
 ---

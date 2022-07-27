@@ -8,6 +8,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: sacha_obeegadoo.jpg
 taxonomies:
+  people: ["sacha_obeegadoo"]
   memberships:
     [foundation, twin, aci]
 ---

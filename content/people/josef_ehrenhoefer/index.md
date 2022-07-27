@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: josef_ehrenhoefer.jpg
 taxonomies:
+  people: ["josef_ehrenhoefer"]
   memberships:
     [ambassadors]
 ---

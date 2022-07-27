@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: arie_ben_david.jpg
 taxonomies:
+  people: ["arie_ben_david"]
   memberships:
     [aci_members]
 ---

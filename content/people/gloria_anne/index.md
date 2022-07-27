@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: gloria_anne.png
 taxonomies:
+  people: ["gloria_anne"]
   memberships:
     [foundation]
 ---

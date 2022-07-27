@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation"]
   imgPath: ehab_hassan.jpg
 taxonomies:
+  people: ["ehab_hassan"]
   memberships:
     [tech]
 ---

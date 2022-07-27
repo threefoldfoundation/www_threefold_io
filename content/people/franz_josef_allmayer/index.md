@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: franz_josef_allmayer.jpg
 taxonomies:
+  people: ["franz_josef_allmayer"]
   memberships:
     [aci_members]
 ---

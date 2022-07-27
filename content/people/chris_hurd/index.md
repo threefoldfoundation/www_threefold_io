@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: chris_hurd.png
 taxonomies:
+  people: ["chris_hurd"]
   memberships:
     [ambassadors]
 ---

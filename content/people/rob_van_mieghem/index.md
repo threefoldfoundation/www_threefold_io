@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation"]
   imgPath: rob_van_mieghem.jpeg
 taxonomies:
+  people: ["rob_van_mieghem"]
   memberships:
     [foundation, tech, technology_council, cofounders]
 ---

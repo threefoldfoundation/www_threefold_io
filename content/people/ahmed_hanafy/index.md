@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation"]
   imgPath: ahmed_hanafy.png
 taxonomies:
+  people: ["ahmed_hanafy"]
   memberships:
     [tech]
 ---

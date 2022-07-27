@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, farming"]
   imgPath: kevin_louis_obeegadoo.jpg
 taxonomies:
+  people: ["kevin_louis_obeegadoo"]
   memberships:
     [ambassadors, grid_guardians]
 ---

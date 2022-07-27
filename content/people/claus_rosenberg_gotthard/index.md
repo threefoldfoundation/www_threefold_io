@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: claus_rosenberg_gotthard.jpg
 taxonomies:
+  people: ["claus_rosenberg_gotthard"]
   memberships:
     [aci_members,partner]
 ---

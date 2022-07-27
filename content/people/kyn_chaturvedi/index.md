@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: kyn_chaturvedi.png
 taxonomies:
+  people: ["kyn_chaturvedi"]
   memberships:
     [partner]
 ---

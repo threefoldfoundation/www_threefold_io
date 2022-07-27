@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, farming, cloud"]
   imgPath: winston_ma.jpeg
 taxonomies:
+  people: ["winston_ma"]
   memberships:
     [ambassador, tech]
 ---

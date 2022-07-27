@@ -7,6 +7,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: owen_kemp.jpeg
 taxonomies:
+  people: ["owen_kemp"]
   memberships:
     [tech, cofounders, wisdom_council, foundation]
 ---

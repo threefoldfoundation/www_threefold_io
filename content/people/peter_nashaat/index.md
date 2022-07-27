@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: peter_nashaat.jpg
 taxonomies:
+  people: ["peter_nashaat"]
   memberships:
     [tech]
 ---

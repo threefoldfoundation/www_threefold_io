@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: rudy_bouwman.jpeg
 taxonomies:
+  people: ["rudy_bouwman"]
   memberships:
     [aci_members, cloud, grid_guardians, partner, wisdom_council]
 ---

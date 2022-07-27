@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: geert_stox.jpg
 taxonomies:
+  people: ["geert_stox"]
   memberships:
     [ambassadors]
 ---

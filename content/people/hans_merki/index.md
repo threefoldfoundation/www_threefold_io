@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: hans_merki.png
 taxonomies:
+  people: ["hans_merki"]
   memberships:
     [ambassadors]
 ---

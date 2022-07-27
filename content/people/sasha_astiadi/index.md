@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: sasha_astiadi.png
 taxonomies:
+  people: ["sasha_astiadi"]
   memberships:
     [tech]
 ---

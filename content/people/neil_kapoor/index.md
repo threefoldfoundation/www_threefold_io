@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: neil_kapoor.jpeg
 taxonomies:
+  people: ["neil_kapoor"]
   memberships:
     [partner]
 ---

@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: yanling_duan.jpg
 taxonomies:
+  people: ["yanling_duan"]
   memberships:
     [partner, aci_members]
 ---

@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation, aci"]
   imgPath: robert_van_der_zalm.jpg
 taxonomies:
+  people: ["robert_van_der_zalm"]
   memberships:
     [aci_members]
 ---

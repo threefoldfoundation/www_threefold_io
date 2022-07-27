@@ -7,6 +7,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: sam_taggart.jpg
 taxonomies:
+  people: ["sam_taggart"]
   memberships:
     [foundation, twin, aci_members]
 ---

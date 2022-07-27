@@ -7,6 +7,7 @@ extra:
   organizations: ["threefold_foundation"]
   imgPath: hannah_cordes.jpg
 taxonomies:
+  people: ["hannah_cordes"]
   memberships:
     [foundation]
 ---

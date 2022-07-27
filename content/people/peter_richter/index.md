@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation"]
   imgPath: peter_richter.jpg
 taxonomies:
+  people: ["peter_richter"]
   memberships:
     [ambassadors]
 ---

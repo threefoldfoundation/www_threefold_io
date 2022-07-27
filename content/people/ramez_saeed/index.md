@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: ramez_saeed.jpg
 taxonomies:
+  people: ["ramez_saeed"]
   memberships:
     [tech]
 ---

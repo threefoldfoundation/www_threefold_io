@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation"]
   imgPath: scott_yeager.jpg
 taxonomies:
+  people: ["scott_yeager"]
   memberships:
     [foundation]
 ---

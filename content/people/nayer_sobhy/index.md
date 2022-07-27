@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: nayer_sobhy.jpg
 taxonomies:
+  people: ["nayer_sobhy"]
   memberships:
     [tech]
 ---

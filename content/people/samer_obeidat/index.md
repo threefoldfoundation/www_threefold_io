@@ -7,6 +7,7 @@ extra:
   organizations: ["aci,foundation"]
   imgPath: samer_obeidat.png
 taxonomies:
+  people: ["samer_obeidat"]
   memberships:
     [aci_members]
 ---

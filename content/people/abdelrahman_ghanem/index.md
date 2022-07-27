@@ -8,6 +8,7 @@ extra:
   organizations: ["ThreefoldTech"]
   imgPath: abdelrahman_ghanem.jpg
 taxonomies:
+  people: ["abdelrahman_ghanem"]
   memberships: [foundation]
 ---
 

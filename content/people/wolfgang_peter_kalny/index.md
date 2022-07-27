@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: wolfgang_peter_kalny.png
 taxonomies:
+  people: ["wolfgang_peter_kalny"]
   memberships:
     [ambassadors]
 ---

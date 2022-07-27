@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: dylan_verstraete.jpeg
 taxonomies:
+  people: ["dylan_verstraete"]
   memberships:
     [tech]
 ---

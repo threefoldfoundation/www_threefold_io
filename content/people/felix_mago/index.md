@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: felix_mago.jpg
 taxonomies:
+  people: ["felix_mago"]
   memberships:
     [partner]
 ---

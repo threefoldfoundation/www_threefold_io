@@ -8,6 +8,7 @@ extra:
   organizations: [foundation, farming]
   imgPath: reem_khamis.jpg
 taxonomies:
+  people: ["reem_khamis"]
   memberships:
     [foundation, tech]
 ---

@@ -8,6 +8,7 @@ extra:
   organizations: ["foundation, twin]"]
   imgPath: jonas_delrue.jpeg
 taxonomies:
+  people: ["jonas_delrue"]
   memberships:
     [tech]
 ---

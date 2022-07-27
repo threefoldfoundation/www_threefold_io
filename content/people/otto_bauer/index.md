@@ -7,6 +7,7 @@ extra:
   organizations: ["foundation"]
   imgPath: otto_bauer.png
 taxonomies:
+  people: ["otto_bauer"]
   memberships:
     [ambassadors]
 ---
