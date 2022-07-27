@@ -1,6 +1,6 @@
 ---
 title: DECENTRALIZE YOUR
-
+weight: 2
 extra:
     subtitle: "DATA AND WORKLOADS"
     imgPath: network_new.jpg
