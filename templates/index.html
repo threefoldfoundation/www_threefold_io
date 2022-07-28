@@ -1,19 +1,9 @@
 {% extends "_default/base.html" %}
 {% block content %}
-<style>
-    .container-fluid {
-        width: 100%;
-        /* padding-right: 15px;
-        padding-left: 15px; */
-        margin-right: auto;
-        margin-left: auto;
-      }
-</style>
+
 <!-- Landing page template, has a banner and rows of page summaries -->
 <main>
-    <div class="container-fluid sm:pxi-0 mx-auto overflow-x-hidden">
-        {% include "partials/header_sec.html" %}
-        {% include "partials/partnerships.html" %}
-    </div>
+    {{section.content | safe}}
+
 </main>
 {% endblock content %}
