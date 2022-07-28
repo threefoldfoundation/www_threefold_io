@@ -12,8 +12,11 @@ Parameters:
 {% if page %}
     {% if "![" in body %}
         {% set url_prefix = "](" ~ page.permalink %}
+        {% set test = get_url(path="/farm")%}
         {% set body = body | replace(from="](", to=url_prefix) %}
         {% set body = body | replace(from=url_prefix ~ "http", to="](http") %}
+        {{test}}
+
     {% endif %}
 {% endif %}
 
