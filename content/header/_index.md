@@ -17,61 +17,56 @@ extra:
 
 {% menu() %}
 
-{% button() %}
-
+<button>
 
 [Our Partners](/partners)
 <br>
 Explore Our Partners
 
-{%% end %%}
+</button>
 
 |||
 
-{% button() %}
-
+<button>
 
 [Alliance](https://consciousinternet.org/)
 <br>
 Alliance For A Conscious Internet
 
-{%% end %%}
+</button>
 
 {% end %}
 - Community
 
 {% menu() %}
 
-{% button() %}
-
+<button>
 
 [Our People](/people)
 <br>
 Team, stories, & more
 
-{%% end %%}
+</button>
 
 |||
 
-{% button() %}
-
+<button>
 
 [ThreeFold Community](/community)
 <br>
 Welcome To The Fold
 
-{%% end %%}
+</button>
 
 |||
 
-{% button() %}
-
+<button>
 
 [Developers Resources](/developer)
 <br>
 Join The Developer Community
 
-{%% end %%}
+</button>
 
 {% end %}
 
@@ -81,62 +76,61 @@ Join The Developer Community
 
 #### RESOURCES 
 
-{% button() %}
+<button>
 
 [Explorer](https://explorer.threefold.io/all)
 
 ThreeFold Capacity Explorer
 
-{%% end %%}
+</button>
 
 
-{% button() %}
+<button>
 
 [Library](https://library.threefold.me/info/threefold#/)
 <br>
 Explorer The documentation
 
-{%% end %%}
+</button>
 
 |||
 
 #### DIVE DEEPER
 
-{% button() %}
+<button>
 
 [Blog](/blog)
 <br>
 Explorer The Blogs
 
-{%% end %%}
+</button>
 
-{% button() %}
+<button>
 
 [Newsroom](/newsroom)
 <br>
 Check Last Updates
 
-{%% end %%}
+</button>
 
 |||
 
 #### SUPPORT AND HELP
 
-{% button() %}
+<button>
 
 [Careers](/careers)
 <br>
 Join The TEAM
 
-{%% end %%}
+</button>
 
-{% button() %}
+<button>
 
 [Support](/support)
 <br>
 Get In Touch With ThreeFold
 
-{%% end %%}
-
+</button>
 
 {% end %}
