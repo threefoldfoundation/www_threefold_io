@@ -1,6 +1,6 @@
 ---
 title: "community"
-template: "section.html"
+template: "page.html"
 insert_anchor_links: "left"
 ---
 
@@ -178,7 +178,7 @@ Check out the FAQs or ask a question on the ThreeFold Forum.
           <strong>Join our Team</strong>
         </h2>
       </div>
-      <div class="back" style="background-image: url('tf_people.jpg')"
+      <div class="back" style="background-image: url('community/tf_people.jpg')"
       ></div>
     </a>
 </div>

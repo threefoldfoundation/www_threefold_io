@@ -1,6 +1,6 @@
 ---
 title: "Cloud"
-template: "section.html"
+template: "page.html"
 insert_anchor_links: "left"
 ---
 
@@ -48,7 +48,7 @@ Native support for containers and virtual machines. Migrate existing application
 Private overlay networks and global end-to-end encryption minimize attack surface. Handle inbound trafﬁc with uniquely secure web gateways.
 
 
-<button> [Learn More]( https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network) </button>
+<button>[Learn More](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)</button>
 
 {% end %}
 

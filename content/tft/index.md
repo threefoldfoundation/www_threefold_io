@@ -1,6 +1,6 @@
 ---
 title: "TFT"
-template: "section.html"
+template: "page.html"
 insert_anchor_links: "left"
 ---
 
@@ -21,11 +21,16 @@ The People’s Internet creates an entirely new decentralized Internet economy t
 
 <div class="relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row md:py-2 lg:py-2 lg:items-center text-center mx-auto justify-center">
 <a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
- <img class="logo_size mx-auto" src="cointelegraph_logo.png" alt ="cointelegraph">
- 
+ <!-- <img class="logo_size mx-auto" src="./cointelegraph_logo.png" alt ="cointelegraph"> -->
+
+![Image](cointelegraph_logo.png#mx-auto#logo_size)
  </a>
 
- <a class="center" href="https://www.coingecko.com/en/coins/threefold-token" rel="some text" target="_blank"><img class="logo_size mx-auto" src="coin_logo.png">
+ <a class="center" href="https://www.coingecko.com/en/coins/threefold-token" rel="some text" target="_blank">
+ <!-- <img class="logo_size mx-auto" src="coin_logo.png"> -->
+
+ ![Image](coin_logo.png#mx-auto#logo_size)
+
  </a>
  </div>
 
@@ -224,18 +229,19 @@ Get TFT today and participate in the realization of a truly decentralized world.
 
 <div class="quicklinks">
 <a class="center" href="https://gettft.com/gettft/" rel="some text" target="_blank"> 
- <img class="py-2 mr-2 my-2 px-5 border-2 border-black" src="get_tft_button.png" alt ="cointelegraph">
- 
- </a>
+ <!-- <img class="py-2 mr-2 my-2 px-5 border-2 border-black" src="get_tft_button.png" alt ="cointelegraph"> -->
 
+![cointelegraph](get_tft_button.png) 
+ </a>
 <a class="center" href="https://pancakeswap.finance/swap?exactField=output&exactAmount=100&outputCurrency=0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf&inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56?use=v2" rel="some text" target="_blank"> 
- <img class="py-2 mr-2 px-5 border-2 border-black" src="pancack_button.png" alt ="cointelegraph">
+ <!-- <img class="py-2 mr-2 px-5 border-2 border-black" src="pancack_button.png" alt ="cointelegraph"> -->
  
+ ![pancakeswap](pancack_button.png)
  </a>
-
  <a class="center" href="https://app.1inch.io/#/56/swap/BNB/TFT" rel="some text" target="_blank"> 
- <img class="py-2 my-2 mr-2 px-5 border-2 border-black" src="iinch_button.png" alt ="cointelegraph">
- 
+ <!-- <img class="py-2 my-2 mr-2 px-5 border-2 border-black" src="iinch_button.png" alt ="cointelegraph"> -->
+
+ ![1inch](iinch_button.png)
  </a>
  </div>
 
