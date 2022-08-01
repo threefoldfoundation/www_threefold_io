@@ -12,7 +12,6 @@ insert_anchor_links: "left"
 
 ## WELCOME INTO <br> **THE FOLD**
 
-
 We're a 100% open-source and community-driven project that builds the critical infrastructure for a decentralized world. Anyone can contribute to ThreeFold and there are many ways to get involved.
 
 {% end %}
@@ -28,7 +27,6 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 <!-- section 8 (IN THE NEWS) -->
 
-
 {% row(style="center between") %}
 
 [![forbes](forum.png)](https://forum.threefold.io/)
@@ -41,14 +39,9 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 [![yahoo_news](documentation.png)](https://library.threefold.me/info/threefold#/)
 
-
-
-
 {% end %}
 
 {% row(style="center between") %}
-
-
 
 [![yahoo_news](twitter.png)](https://twitter.com/threefold_io)
 
@@ -59,7 +52,6 @@ We're a 100% open-source and community-driven project that builds the critical i
 |||
 
 [![cointelegraph](telegram_chat.png)](https://t.me/threefold)
-
 
 {% end %}
 
@@ -89,13 +81,11 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 [![yahoo_news](linkedin.png)](https://ae.linkedin.com/company/threefold-foundatiooon)
 
-
 {% end %}
 
 <br>
 
 <br>
-
 
 <!-- section 3 (INTERNET) -->
 
@@ -103,13 +93,11 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 ## EXPAND THE PEOPLE'S <br> **INTERNET**
 
-
 Join the movement by connecting a node at your home or ofﬁce. All you need is compatible hardware, electricity and network bandwidth to take part in the decentralization of the global Internet.
 
 <button>[Learn More](farm)</button>
 
 {% end %}
-
 
 <br>
 <br>
@@ -117,7 +105,6 @@ Join the movement by connecting a node at your home or ofﬁce. All you need is 
 <!-- section 4 (DEVELOPER COMMUNITY) -->
 
 {% row(bgColor="#f2f2f2" style="narrow margin") %}
-
 
 ## JOIN THE THREEFOLD <br> **DEVELOPER COMMUNITY**
 
@@ -159,7 +146,6 @@ Join the growing community of ThreeFold’s most passionate supporters. Bring yo
 
 ## FREQUENTLY ASKED <br> **QUESTIONS**
 
-
 Check out the FAQs or ask a question on the ThreeFold Forum.
 
 <button>[ThreeFold FAQ](/faq)</button>
@@ -169,23 +155,11 @@ Check out the FAQs or ask a question on the ThreeFold Forum.
 
 <br>
 <br>
+
+{% community_banner() %}
+
+## **Join our Team**
+
+{% end %}
+
     
-
-<div class="relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20">
-    <a href="/careers" class="section banner" >
-      <div class="center">
-        <h2 class="h1">
-          <strong>Join our Team</strong>
-        </h2>
-      </div>
-      <div class="back" style="background-image: url('community/tf_people.jpg')"
-      ></div>
-    </a>
-</div>
-
-
-
-
-
-
-
