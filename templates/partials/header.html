@@ -1,4 +1,4 @@
-{%- set section = get_section(path="header/_index.md") %}
+{%- set section = get_page(path="header/index.md") %}
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
 <header id="header-container">
