@@ -15,7 +15,7 @@ extra:
 - [TFT]("/tft")
 - Ecosystem
 
-{% menu() %}
+{% row() %}
 
 <button>
 
@@ -38,7 +38,7 @@ Alliance For A Conscious Internet
 {% end %}
 - Community
 
-{% menu() %}
+{% row() %}
 
 <button>
 
@@ -72,7 +72,7 @@ Join The Developer Community
 
 - MoreInfo
 
-{% menu() %}
+{% row() %}
 
 #### RESOURCES 
 
