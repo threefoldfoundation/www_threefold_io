@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/new_neutral_internet.png
+  imgPath: new_neutral_internet.png
 ---
 
 **The Internet is growing like crazy and is now a trillion dollar problem. Together we can build a new neutral Internet.**

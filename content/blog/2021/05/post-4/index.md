@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/smart_contract_blog.png
+  imgPath: smart_contract_blog.png
 ---
 
 ThreeFold was inspired by the blockchain burst when it was created in 2016. After doing a comprehensive scan of the technological space we realized that Blockchain holds the best technology to store (1) Smart Contracts and (2) Transactions in an immutable way. We created our own blockchain database: Rivine to host the Smart Contract layer before switching to the Parity Substrate of Polkadot and our Transactional blockchain to the Stellar Network.

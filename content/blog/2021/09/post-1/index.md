@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/journey_into_threefold.png
+  imgPath: journey_into_threefold.png
 ---
 
 If you’re part of the ThreeFold Movement, we’re sure you’ve seen Scott in a demo, or in the chats or forums. Scott is new-ish to the team but he’s been active in the community for quite a while.

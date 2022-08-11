@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/tf_chain.png
+  imgPath: tf_chain.png
 ---
 
 The [third release](https://forum.threefold.io/t/what-is-new-in-tfgrid-3-0/1133/1) of the [ThreeFold Grid](https://library.threefold.me/info/threefold#/technology/threefold__threefold_grid) represents a major step in the decentralization of the People’s Internet with the [Smart Contract for IT](https://library.threefold.me/info/threefold#/technology/threefold__smartcontract_tfgrid3) coming to life on the ThreeFold Blockchain (aka “TF Chain”). Built on the Substrate framework, TF Chain represents the layer-0 for all current and future technologies to provision decentralized Internet capacity.

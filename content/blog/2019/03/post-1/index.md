@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/new_digital_currency.png
+  imgPath: new_digital_currency.png
 ---
 
 ## The world needs a new stable & green digital currency, which is usable globally

@@ -13,7 +13,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/internet_destroying_brain.png
+  imgPath: internet_destroying_brain.png
   
 ---
 

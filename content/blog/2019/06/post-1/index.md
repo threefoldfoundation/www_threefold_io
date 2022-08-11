@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/tft_on_liquid_and_btcalpha.png
+  imgPath: tft_on_liquid_and_btcalpha.png
 ---
 
 ## Do you believe that the world needs change?

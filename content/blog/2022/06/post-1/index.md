@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/the_four_phases_of_threefold.png
+  imgPath: the_four_phases_of_threefold.png
 ---
 
 What started out as an idea for a better Internet about a decade ago has evolved into a global movement that’s building a decentralized, open and inclusive future through [the Internet of Internets](https://threefold.io/blog/post/internet_of_internets/). The journey towards our ultimate vision of a better future for all is a big one, but can be divided into four digestible phases: creation, expansion, Web 4 and velocity.

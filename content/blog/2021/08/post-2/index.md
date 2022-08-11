@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/artheon_blog_one.png
+  imgPath: artheon_blog_one.png
 ---
 
 Last year at a ThreeFold gathering, a few of us on the team had the pleasure to meet a man named Vasily, a creative mind with a big heart and proud founder of Artheon. Artheon, in its essence, was a virtual reality museum experience focused on bringing fine art and culture from around the world directly to people. The concept was immediately captivating, and the demo brought it to life for us. The graphics were already solid, and being able to walk around a museum and interact with the artwork was a unique experience to say the least. We talked about the implications and his greater vision around access and education, and it was very clear we needed to partner up. Not long after, Artheon and ThreeFold joined forces.

@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/threefold_access.png
+  imgPath: threefold_access.png
 ---
 
 The United Nations publicly ruled Internet access to be a human right in 2016. Proper access to the Internet helps to protect people’s freedom of speech and thought, as well as other fundamentals such as access to knowledge and information.  

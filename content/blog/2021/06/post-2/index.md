@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/data_leaks.png
+  imgPath: data_leaks.png
 ---
 
 Do a quick search for "data leak" on your search engine of choice, and you'll likely see headlines like this:

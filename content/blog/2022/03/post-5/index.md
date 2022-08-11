@@ -11,7 +11,7 @@ taxonomies:
 
 extra:
   subtitle: ""
-  imgPath: images/blog/bitcoin_threefold.png
+  imgPath: bitcoin_threefold.png
   date: 2022-03-11
 ---
 

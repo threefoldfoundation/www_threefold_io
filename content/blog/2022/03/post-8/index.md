@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/realizing_the_promise.png
+  imgPath: realizing_the_promise.png
 ---
 
 What was once a massive global movement sparked by the idealism of free culture and the net, is now hosting a wave of unintended consequences that may destroy sovereignty and freedom as we know it. The digital revolution and the “democratization” of the Internet promised to lead us to a prosperous and equitable world, one that brought us closer together, eliminating both physical and virtual boundaries.

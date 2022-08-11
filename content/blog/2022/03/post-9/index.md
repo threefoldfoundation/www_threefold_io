@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/connecting_the_dots.png
+  imgPath: connecting_the_dots.png
 ---
 
 ThreeFold started as an idea about ten years ago and is now manifesting itself into the most comprehensive peer-to-peer Internet and cloud infrastructure in the world. The potential of our technology to revolutionize digitization globally is endless and limited only to our collective imagination. In this blog, we share our ‘glocal’ strategy on how we will build our ecosystem, and the exciting opportunities opening up around the world for those interested to join us!

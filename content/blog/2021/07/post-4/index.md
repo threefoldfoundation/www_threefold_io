@@ -13,7 +13,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/the_threefold_movement.png
+  imgPath: the_threefold_movement.png
   
 ---
 

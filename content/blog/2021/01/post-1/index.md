@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/more_inclusive_internet.png
+  imgPath: more_inclusive_internet.png
 ---
 
 <br/>

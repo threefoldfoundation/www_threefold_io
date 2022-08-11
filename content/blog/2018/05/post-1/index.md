@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/tech_new_internet.png
+  imgPath: tech_new_internet.png
 ---
 
 ## ThreeFold's technology does not follow the traditional IT model

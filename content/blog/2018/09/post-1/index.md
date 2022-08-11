@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/new_edge_cloud.png
+  imgPath: new_edge_cloud.png
 ---
 
 ## Use cases for the ThreeFold Peer-to-Peer Cloud

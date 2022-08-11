@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/tech_update_admin_portal.png
+  imgPath: tech_update_admin_portal.png
 ---
 
 Last week, we shared an update on [what's new in TF Grid 3.0.1 – and the path to mainnet!](https://forum.threefold.io/t/whats-new-in-tf-grid-3-0-1-and-the-path-to-mainnet/1488) There's been a lot of exciting progress by the team, and we wanted to share with you some more specifics where we can – starting with the admin portal!

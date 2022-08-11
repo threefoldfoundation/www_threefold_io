@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/threefold_review_2021_preview_2022.png
+  imgPath: threefold_review_2021_preview_2022.png
 ---
 
 It was an important year for ThreeFold, with huge developments on the ThreeFold Grid, the continued expansion of the grid by farmers, key partnerships, and more – all setting up for a strong 2022.

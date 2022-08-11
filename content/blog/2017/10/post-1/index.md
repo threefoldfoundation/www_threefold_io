@@ -12,7 +12,7 @@ taxonomies:
 extra:
   author: Andreas Hartl
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/big_datacenter_myth.png
+  imgPath: big_datacenter_myth.png
 ---
 
 ## Hyperscale realities are very different from what most people think

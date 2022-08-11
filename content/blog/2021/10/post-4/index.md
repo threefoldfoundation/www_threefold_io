@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/project_comparison_3_filecoin.png
+  imgPath: project_comparison_3_filecoin.png
 ---
 
 Welcome to the third stop on our journey that aims to better understand the space we operate in and how ThreeFold stands out. After exploring [Dfinity](https://threefold.io/blog/post/project_comparison_1_dfinity/) and [Akash](https://threefold.io/blog/post/project_comparison_2_akash/), I will now take a closer look at Filecoin to discover the similarities as well as differences of their project and ThreeFold. Let’s dive right in!

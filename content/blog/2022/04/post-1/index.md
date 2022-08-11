@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/paradise_hills.png
+  imgPath: paradise_hills.png
 ---
 
 It’s January 2022. ThreeFold co-founder Adnan Fatayerji sits in the office of Shaher Mousli, CEO of Paradise Hills Development, along with Suhaib Sheikh, COO of the project. Shaher and Adnan are long-time friends and in fact Shaher gave Adnan his first internship in Dubai about two decades ago, while Adnan was in his final year at university.

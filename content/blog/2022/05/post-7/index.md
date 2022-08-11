@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/internet_of_internets.png
+  imgPath: internet_of_internets.png
 ---
 
 _The Internet of Internets is owned by the people._ <br/>

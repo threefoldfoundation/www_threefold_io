@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/intro_tf_token.png
+  imgPath: intro_tf_token.png
 ---
 
 <br/>

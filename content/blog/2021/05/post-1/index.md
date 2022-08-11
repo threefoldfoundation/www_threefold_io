@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/threefold_regenerates.png
+  imgPath: threefold_regenerates.png
 ---
 
 There’s no question that climate change is one of the biggest, if not the biggest threats facing humanity today. If we care at all about future generations and the health of our planet, we have no choice but to address these threats, and fast. That’s why one of our biggest aims is to lower the energy usage of our digital lives. But ThreeFold is taking not just a sustainable approach, we’re setting the plan for a planet positive Internet.

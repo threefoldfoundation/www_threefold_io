@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/join_the_peoples_internet.png
+  imgPath: join_the_peoples_internet.png
 ---
 
 Yes, that's right. With ThreeFold, you *can* become the Internet! Let me quickly explain. 

@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/interview_with_jimber.png
+  imgPath: interview_with_jimber.png
 ---
 
 Earlier this month, I met with Jonas Delrue from Jimber, the team developing P2P solutions like video chat, office workspace, isolated web browser, and messaging, using the Digital Twin platform. Digital Twin is a use case on top of the ThreeFold Grid. We talked about the technical hurdles and motivations for developing private, decentralized, and open source alternatives to popular products from major corporations.

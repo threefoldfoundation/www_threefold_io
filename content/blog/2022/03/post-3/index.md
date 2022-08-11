@@ -11,7 +11,7 @@ taxonomies:
 
 extra:
   subtitle: ""
-  imgPath: images/blog/cyberwar.png
+  imgPath: cyberwar.png
   date: 2022-03-03
 ---
 

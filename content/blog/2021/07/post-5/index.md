@@ -13,7 +13,7 @@ taxonomies:
 extra:
   author: Roel Van Sabben
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/blockheating_intro.png
+  imgPath: blockheating_intro.png
 ---
 
 Somewhere in the Netherlands, a ThreeFold Farm is supporting the growth of vegetable crops such as tomatoes, peppers and cucumbers. By directing the excess heat generated from the hardware operations to the greenhouse next door, they are able to achieve an incredible model that benefits both hardware and vegetables.

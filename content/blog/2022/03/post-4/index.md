@@ -11,7 +11,7 @@ taxonomies:
 
 extra:
   subtitle: ""
-  imgPath: images/blog/p2p_web3.png
+  imgPath: p2p_web3.png
   date: 2022-03-09
 ---
 

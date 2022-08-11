@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/threefold_data_sovereignty.png
+  imgPath: threefold_data_sovereignty.png
 ---
 
 If you’ve seen [The Social Dilemma](https://www.youtube.com/watch?v=uaaC57tcci0), you know all too well that today, people are being turned into products. Everything we do online – all of the data we upload and all of our digital activities – is tracked and oftentimes used against us. Targeted advertising is just the beginning.

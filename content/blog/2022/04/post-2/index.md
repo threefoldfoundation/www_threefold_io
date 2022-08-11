@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/weekly_vol_12.jpg
+  imgPath: weekly_vol_12.jpg
 ---
 
 ## Major ThreeFold News:

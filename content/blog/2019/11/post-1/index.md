@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/escape_great_hack.png
+  imgPath: escape_great_hack.png
 ---
 
 ## The neutrality of the current Internet is in danger.

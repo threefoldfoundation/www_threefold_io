@@ -16,7 +16,7 @@ taxonomies:
     - update
 extra:
   subtitle: The UNIQUE Post 1 subtitles
-  imgPath: images/blog/weekly_vol_12.jpg
+  imgPath: weekly_vol_12.jpg
   date: 2022-03-29
 ---
 

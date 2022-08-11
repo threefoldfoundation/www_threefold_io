@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/in_search_of_a_better_internet.png
+  imgPath: in_search_of_a_better_internet.png
 ---
 
 The Internet is one of humanity’s [greatest inventions](https://coincodex.com/article/14083/threefold-host-the-cloud-at-your-house/). In its early days, it used to be [free and decentralized](https://theconversation.com/web-3-0-the-decentralised-web-promises-to-make-the-internet-free-again-113139) by nature. No single entity was able to control access to the web as it was built on the foundation of a peer-to-peer network of nodes owned by developers and researchers. Until the dot-com era. Throughout the early 2000s, large corporations took over the web. New platforms like YouTube and MySpace were launched and new infrastructure needed to be built at an extreme pace, starting the data revolution and changing the digital landscape forever.

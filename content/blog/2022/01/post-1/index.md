@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/bridges_connecting_threefold_ecosystem.png
+  imgPath: bridges_connecting_threefold_ecosystem.png
 ---
 
 Wondering how to switch between blockchains? Cross-chain bridges allow you to easily transfer TFT from one blockchain to another.

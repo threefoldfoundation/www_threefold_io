@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/threefold_cloud_vs_centralized_providers.png
+  imgPath: threefold_cloud_vs_centralized_providers.png
 ---
 
 As we’ve recently been exploring decentralized [projects](https://threefold.io/blog/post/project_comparison_1_dfinity/) to see where ThreeFold is in the space and where we stand out, we thought it’s a good time to also look into how we compare to traditional, centralized cloud providers.

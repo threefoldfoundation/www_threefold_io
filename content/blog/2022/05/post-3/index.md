@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/internet_at_the_edge.png
+  imgPath: internet_at_the_edge.png
 ---
 
 With new devices being connected every day and emerging technologies like the Internet of Things (IoT), the metaverse and Web 3 gaining popularity, the [demand](https://www.cbre.com/en/insights/reports/north-america-data-center-trends-h2-2021) for Internet capacity is booming. Already, these developments are shifting the [Internet’s “center of gravity”](https://www.securityinfowatch.com/perimeter-security/physical-hardening/article/21263002/real-words-or-buzzwords-edge-cloud-and-the-evolving-internet) from its core to the edges in order to keep up with the growing demand. In an increasingly interconnected world, centralized cloud architectures are proving to be [bottlenecks](https://www.forbes.com/sites/forbestechcouncil/2022/03/25/demystifying-edge-technology/) hindering future growth.

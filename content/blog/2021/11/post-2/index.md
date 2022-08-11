@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/tech_update_explorer_interface.png
+  imgPath: tech_update_explorer_interface.png
 ---
 
 We are very excited to present to you the new Explorer UI for ThreeFold Grid 3.x! 🎉

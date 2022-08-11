@@ -11,7 +11,7 @@ taxonomies:
 
 extra:
   subtitle: ""
-  imgPath: images/blog/what_is_farming.png
+  imgPath: what_is_farming.png
   date: 2022-03-01
 ---
 

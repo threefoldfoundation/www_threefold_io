@@ -12,7 +12,7 @@ taxonomies:
 
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
-  imgPath: images/blog/how_it_works.png
+  imgPath: how_it_works.png
 ---
 
 ## So, ThreeFold is building a new internet. Why?
