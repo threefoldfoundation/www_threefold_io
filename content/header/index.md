@@ -19,7 +19,7 @@ extra:
 
 <button>
 
-[Our Partners](partners)
+[Our Partners](/partners)
 <br>
 Explore Our Partners
 
