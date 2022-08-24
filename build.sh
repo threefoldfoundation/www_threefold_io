@@ -1,10 +1,6 @@
 echo "Starting build..."
 
 # TODO: Check if current version is latest to avoid redundant installation
-if [[ -f "tailwindcss" ]]
-then
-    rm tailwindcss
-fi
 
 # checks os and architecture for correct release
 # https://stackoverflow.com/a/8597411 

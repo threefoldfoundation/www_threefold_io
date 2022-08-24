@@ -1,4 +1,3 @@
-{{ featured }}
 {% if featured.taxonomies.people %}
     {% set author_path = 'people/' ~ featured.taxonomies.people[0] ~ '/index.md' %}
     {% set author = get_page(path=author_path) %}
