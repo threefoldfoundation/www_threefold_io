@@ -20,4 +20,6 @@ jobs:
           git log -1
           git restore static/css/index.css
           git pull
-          npm run build
+          sed -i "s/https://threefoldfoundation.github.io/www_threefold_io/https://www2.threefold.io/g" config.toml
+          ./build.sh
+          
