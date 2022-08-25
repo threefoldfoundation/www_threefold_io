@@ -18,8 +18,9 @@ jobs:
         script: |
           cd /opt/www_threefold_io/
           git log -1
+          git restore config.toml
           git restore static/css/index.css
           git pull
-          sed -i "s/https://threefoldfoundation.github.io/www_threefold_io/https://www2.threefold.io/g" config.toml
+          sed -i "s/https:\/\/threefoldfoundation.github.io\/www_threefold_io/https:\/\/www2.threefold.io/g" config.toml
           ./build.sh
           
