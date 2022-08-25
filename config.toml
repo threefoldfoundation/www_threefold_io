@@ -39,7 +39,7 @@ render_emoji = false
 
 # Whether external links are to be opened in a new tab
 # If this is true, a `rel="noopener"` will always automatically be added for security reasons
-external_links_target_blank = true
+external_links_target_blank = false
 
 # Whether to set rel="nofollow" for all external links
 external_links_no_follow = true

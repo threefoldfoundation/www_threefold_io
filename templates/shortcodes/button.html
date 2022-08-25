@@ -2,10 +2,14 @@
 | trim_end_matches(pat='"') %}
 
 {% if 'https' in url %}
-<button onclick="window.open('{{url}}', '_blank');"
-    class="leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:first:text-gray-500 hover:border-stone-200 hover:bg-stone-100 p-2 text-left">
-    {{ body | trim_start_matches(pat="<p>") | safe}}
-</button>
+    {% if url is not containing("threefold") %}
+        {% if url is not containing("localhost") %}
+        <button onclick="window.open('{{url}}', '_blank');"
+            class="leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:first:text-gray-500 hover:border-stone-200 hover:bg-stone-100 p-2 text-left">
+            {{ body | trim_start_matches(pat="<p>") | safe}}
+        </button>
+        {% endif %}
+    {% endif %}
 
 {% else %}
 <button onclick="window.location='{{get_url(path=url)}}'"
