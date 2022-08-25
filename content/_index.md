@@ -40,7 +40,7 @@ Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infra
 
 By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
 
-<button>[Become a farmer](/farm)</button>
+<button>[Become a farmer](farm)</button>
 
 ![Image](images/become_farmer_new.jpg#mx-auto)
 
