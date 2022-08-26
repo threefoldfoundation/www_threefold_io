@@ -14,13 +14,11 @@ extra:
 
 {% row(style="center narrow") %}
 
-## WELCOME TO THE <br> **PEOPLE’S INTERNET**
+## Planet & People-First Internet
 
-### Join the peer-to-peer revolution
+### Together we build our own future <br> through the Internet of Internets.
 
-Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infrastructure for an open source P2P Internet owned by humanity.
-
-
+We are a global, decentralized, open-source movement of believers in a better world who choose to act. Together we are building an equal, safe, private, and regenerative Internet.
 
 {% end %}
 
@@ -30,6 +28,20 @@ Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infra
 
 {% end %}
 
+<!-- section 5 (Map) -->
+
+
+{% grid_stats() %}
+### THE THREEFOLD GRID
+
+## **LIVE AND OPERATIONAL**
+
+{% end %}
+
+
+<br>
+
+<br>
 
 
 <!-- section 2 (EXPAND) -->
@@ -58,6 +70,10 @@ Companies and developers have already started using ThreeFold for it’s autonom
 
 ![Image](images/network_new.jpg#mx-auto)
 
+|||
+
+## Hello
+
 {% end %}
 
 
@@ -78,9 +94,7 @@ The People’s Internet is formed by independent people from all around the worl
 
 {% end %}
 
-
 <!-- section 4 (DECENTRALIZED) -->
-
 
 {% row(style="center margin") %}
 
@@ -93,23 +107,6 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 |||
 
 ![Image](images/zero_os.jpg#large)
-
-{% end %}
-
-
-<br>
-
-<br>
-
-
-<!-- section 5 (Map) -->
-
-
-
-{% grid_stats() %}
-### THE THREEFOLD GRID
-
-## **NOW OPERATIONAL**
 
 {% end %}
 

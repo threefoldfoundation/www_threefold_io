@@ -85,6 +85,10 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 ![Image](farm_map.png#mx-auto)
 
+<br>
+
+<br>
+
 <button>[Explore ThreeFold Grid Capacity](https://explorer.threefold.io/all)</button>
 
 
