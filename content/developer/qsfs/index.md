@@ -1,5 +1,6 @@
 ---
 title: qsfs
+template: "resourcesPage.html"
 
 extra:
   imgPath: qsfs.png

@@ -1,5 +1,7 @@
 ---
 title: Blockchain
+template: "resourcesPage.html"
+
 extra:
   imgPath: blockchain.png
   button : Explore Other Developer Components

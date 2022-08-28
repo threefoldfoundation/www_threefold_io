@@ -1,5 +1,6 @@
 ---
 title: tooling
+template: "resourcesPage.html"
 
 extra:
   imgPath: tooling.png

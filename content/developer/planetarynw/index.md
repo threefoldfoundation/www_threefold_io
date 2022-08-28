@@ -1,5 +1,6 @@
 ---
 title: planetary network
+template: "resourcesPage.html"
 
 extra:
   imgPath: planetary_network.jpg

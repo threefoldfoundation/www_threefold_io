@@ -1,7 +1,6 @@
 ---
 title: "Developer"
 template: "page.html"
-page_template: "resourcesPage.html"
 ---
 
 

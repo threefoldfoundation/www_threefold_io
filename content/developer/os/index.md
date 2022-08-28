@@ -1,5 +1,6 @@
 ---
 title: operating system
+template: "resourcesPage.html"
 
 extra:
   imgPath: operating_system.png
