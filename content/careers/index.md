@@ -1,6 +1,5 @@
 ---
 title: "careers"
-page_template: "jobPage.html"
 ---
 
 

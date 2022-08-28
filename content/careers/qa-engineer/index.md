@@ -1,5 +1,6 @@
 ---
 title: Quality Assurance Engineer
+template: "jobPage.html"
 
 extra:
   button: Apply

@@ -1,5 +1,6 @@
 ---
 title: ThreeFold Grid Operations Lead
+template: "jobPage.html"
 
 extra:
   button: "Apply"
