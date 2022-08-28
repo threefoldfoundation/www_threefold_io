@@ -8,12 +8,12 @@
                 class="text-5xl font-extrabold uppercase">Store</a>
         </div>
         <div class="mb-4">
-            {% if base is containing("www_threefold_io") %}
+            {% if 'www_threefold_io' in base  %}
             {% set path = base ~ '/' ~ 'images/cloud_header_seprated.png' %}
 
             <img class="mx-auto sm:w-1/2 lg:w-full" src="{{path}}" alt="TF Cloud" />
             {% else %}
-            <img class="mx-auto sm:w-1/2 lg:w-full" src="images/cloud_header_seprated.png" alt="TF Cloud" />
+            <img class="mx-auto sm:w-1/2 lg:w-full" src="/images/cloud_header_seprated.png" alt="TF Cloud" />
             {% endif %}
         </div>
         <div class="w-full mb-4 border-b border-gray-600">
