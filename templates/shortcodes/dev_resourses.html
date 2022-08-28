@@ -1,8 +1,15 @@
 {% if '127.0.0.1:1111' in config.base_url %}
-{% set url = 'developer/' %}
+{% set img_url = 'developer/' %}
+{% else %}
+{% set img_url = '' %}
+{% endif %}
+
+{% if 'www_threefold_io' in config.base_url %}
+{% set url = '/www_threefold_io' %}
 {% else %}
 {% set url = '' %}
 {% endif %}
+
 <div class="my-5 lg:my-40 lg:mx-40 mx-4">
     <div class="w-full text-center">
         <h2 class="lg:text-6xl uppercase font-normal leading-tight">
@@ -24,8 +31,8 @@
         duration-500
         bg-gray-100
       ">
-            <a href="/developer/os">
-                <img src={{ url ~ 'operating_system.png' }} />
+            <a href={{ url ~ "/developer/os" }}>
+                <img src={{ img_url ~ 'operating_system.png' }} />
                 <div class="font-bold text-xl py-5 mx-4 text-black">
                     Operating System
                 </div>
@@ -41,8 +48,8 @@
         duration-500
         bg-gray-100
       ">
-            <a href="/developer/automation">
-                <img src={{ url ~ 'automation.png' }} />
+            <a href={{ url ~ "/developer/automation" }}>
+                <img src={{ img_url ~ 'automation.png' }} />
                 <div class="font-bold text-xl py-5 mx-4 text-black">
                     Autonomous Components
                 </div>
@@ -58,8 +65,8 @@
         duration-500
         bg-gray-100
       ">
-            <a href="/developer/tooling">
-                <img src={{ url ~ 'tooling.png' }} />
+            <a href={{ url ~ "/developer/tooling" }}>
+                <img src={{ img_url ~ 'tooling.png' }} />
                 <div class="font-bold text-xl py-5 mx-4 text-black">
                     Developer tooling
                 </div>
@@ -75,8 +82,8 @@
         duration-500
         bg-gray-100
       ">
-            <a href="/developer/qsfs">
-                <img src={{ url ~ 'qsfs.png' }} />
+            <a href={{ url ~ "/developer/qsfs" }}>
+                <img src={{ img_url ~ 'qsfs.png' }} />
                 <div class="font-bold text-xl py-5 mx-4 text-black">
                     Quantum-Safe Storage
                 </div>
@@ -92,8 +99,8 @@
         duration-500
         bg-gray-100
       ">
-            <a href="/developer/blockchain">
-                <img src={{ url ~ 'blockchain.png' }} />
+            <a href={{ url ~ "/developer/blockchain" }}>
+                <img src={{ img_url ~ 'blockchain.png' }} />
                 <div class="font-bold text-xl py-5 mx-4 text-black">
                     ThreeFold Blockchain
                 </div>
@@ -109,8 +116,8 @@
         duration-500
         bg-gray-100
       ">
-            <a href="/developer/planetarynw">
-                <img src={{ url ~ 'planetary_network.jpg' }} />
+            <a href={{ url ~ "/developer/planetarynw" }}>
+                <img src={{ img_url ~ 'planetary_network.jpg' }} />
                 <div class="font-bold text-xl py-5 mx-4 text-black">
                     Planetary Network
                 </div>
