@@ -1,6 +1,4 @@
-{% if 'www_threefold_io' in config.base_url %}
-{% set url = 'developer/' %}
-{% elif '127.0.0.1:1111' in config.base_url %}
+{% if '127.0.0.1:1111' in config.base_url %}
 {% set url = 'developer/' %}
 {% else %}
 {% set url = '' %}
