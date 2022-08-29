@@ -78,7 +78,7 @@ Join The Developer Community
 
 <button>
 
-[Explorer](https://explorer.threefold.io/all)
+[Explorer](https://dashboard.grid.tf/)
 
 ThreeFold Capacity Explorer
 

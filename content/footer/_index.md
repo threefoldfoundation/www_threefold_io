@@ -18,9 +18,9 @@ extra:
 
 ###### [ThreeFold Cloud](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
 
-###### [Grid Explorer](https://explorer.threefold.io/all)
+###### [Grid Explorer](https://dashboard.grid.tf/explorer/statistics)
 
-###### [Alliance](https://consciousinternet.org/)
+<!-- ###### [Alliance](https://consciousinternet.org/) -->
 
 |||
 
@@ -28,13 +28,15 @@ extra:
 
 <br>
 
-###### [Start Farming](/farm)
-
 ###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
 
-###### [Use the Cloud](https://library.threefold.me/info/threefold/#/cloud/threefold__cloud_home)
+###### [Start Farming](/farm)
 
-###### [Testing Community](https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w)
+###### [Farming Community](https://t.me/threefoldfarmers)
+
+###### [Use the Grid](https://dashboard.grid.tf/)
+
+###### [Testing Community](https://t.me/threefoldtesting)
 
 
 |||
