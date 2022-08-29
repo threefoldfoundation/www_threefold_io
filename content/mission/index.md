@@ -117,10 +117,10 @@ And we’re aiming for new heights. The People’s Internet will turn into a DAO
 
 ## **START THE INTERNET <br> REVOLUTION**
 
-Connect, share and collaborate with our open community to expand the horizons of the People’s Internet.<br> Bring your ideas and let’s co-create together!
+Connect, share and collaborate with our open community to expand ThreeFold's horizons.<br> Bring your ideas and let’s co-create together!
 
 <br>
 
-<button>[Join The Fold](https://t.me/threefold)</button>
+<button>[Join The Fold](/community)</button>
 
 {% end %}

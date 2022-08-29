@@ -14,17 +14,31 @@ extra:
 
 {% row(style="center narrow") %}
 
-## Planet & People-First Internet
+<br/>
 
-### Together we build our own future <br> through the Internet of Internets.
+<br/>
+
+## Planet & People-First **Internet.**
 
 We are a global, decentralized, open-source movement of believers in a better world who choose to act. Together we are building an equal, safe, private, and regenerative Internet.
 
 {% end %}
 
-{% row(style="lean") %}
+{% row(style="center narrow") %}
 
-![Image](images/threefold_img.jpg#mx-auto)
+<button>[Expand](/farm)</button>
+
+|||
+
+<button>[Build](https://dashboard.grid.tf/)</button>
+
+|||
+
+<button>[Token](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
+
+<br>
+
+<br>
 
 {% end %}
 
@@ -32,106 +46,64 @@ We are a global, decentralized, open-source movement of believers in a better wo
 
 
 {% grid_stats() %}
-### THE THREEFOLD GRID
+### The ThreeFold Grid
 
-## **LIVE AND OPERATIONAL**
+## **Live and Operational**
 
 {% end %}
-
-
-<br>
-
-<br>
 
 
 <!-- section 2 (EXPAND) -->
 
 {% row(style="center margin") %}
 
-### EXPAND THE PEOPLE’S INTERNET **AND EARN TFT**
+### Expand Our New Internet <br> **and Earn TFT**
 
 By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
 
-<button>[Become a farmer](/farm)</button>
+<button>[Buy a 3Node](http://marketplace.3node.global/)</button>
+<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+
+<br>
 
 ![Image](images/become_farmer_new.jpg#mx-auto)
 
 |||
 
-### DECENTRALIZE YOUR **DATA AND WORKLOADS**
+### Decentralize Your <br> **Data and Workloads**
 
+The community has already started using ThreeFold for its autonomous, decentralization and privacy features.
 
+<button>[Deploy on ThreeFold](https://dashboard.grid.tf/)</button>
+<button>[The Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
 
-Companies and developers have already started using ThreeFold for it’s autonomous, decentralization and privacy features.
-
-<button>[Deploy](/cloud)</button>
-
-
+<br>
 
 ![Image](images/network_new.jpg#mx-auto)
 
-|||
-
-## Hello
-
 {% end %}
 
+<!-- section 9 (FEATURED STORIES) -->
 
+{% featured_stories() %}
 
-<!-- section 3 (P2P) -->
-
-{% row(style="center margin") %}
-
-![Image](images/p4p_new.png#medium)
-
-|||
-
-## BUILT BY <br> THE PEOPLE <br> **FOR HUMANITY**
-
-The People’s Internet is formed by independent people from all around the world who connect Internet capacity to a new Planetary Network. Together they form a collective that brings a new paradigm – an open-source peer-to-peer Internet owned by humanity.
-
-<button>[Learn More](/grid)</button>
+## Featured Stories
 
 {% end %}
-
-<!-- section 4 (DECENTRALIZED) -->
-
-{% row(style="center margin") %}
-
-## POWERED BY A <br> **DECENTRALIZED OS**
-
-Zero-OS is a stateless and lightweight operating system designed to host anything that runs on Linux in a decentralized way. Once installed, Zero-OS locks the hardware and dedicates its capacity to the People’s Internet via the ThreeFold Blockchain.
-
-<button>[Learn More](/farm)</button>
-
-|||
-
-![Image](images/zero_os.jpg#large)
-
-{% end %}
-
-
-<br>
-
-<br>
-
 
 <!-- section 6 (THE TEAM) -->
 
 {% team_sec() %}
 
-## **THE TEAM**
+## **The Team**
 
 {% end %}
-
-
-
 
 <!-- section 7 (PARTNERS) -->
 
 {% row(style="center margin") %}
 
-## OUR GREATEST STRENGTH <br> **COMES FROM OUR PARTNERS**
+## Believers and Collaborators <br> **In a Better Internet**
 
 We are truly proud to be trusted by some of the biggest names in the industry.
 
@@ -141,17 +113,15 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 
 {% end %}
 
-
 <br>
 
 <br>
-
 
 <!-- section 8 (IN THE NEWS) -->
 
 {% row(style="center") %}
 
-## **IN THE NEWS**
+## **In the News**
 
 {% end %}
 
@@ -182,6 +152,7 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 [![tga_daily](images/tga_daily.png#mx-auto)](https://tgdaily.com/web/6-dfinity-threefold-are-leading-an-internet-decentralization-revolution/)
 
 {% end %}
+
 {% row(style="center between") %}
 
 [![cointelegraph](images/cointelegraph.png#mx-auto)](https://cointelegraph-com.cdn.ampproject.org/c/s/cointelegraph.com/news/is-a-new-decentralized-internet-or-web-3-0-possible/amp)
@@ -193,18 +164,5 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 |||
 
 [![grit_daily](images/grit_daily.png#mx-auto)](https://gritdaily.com/belarus-governments-control-internet/)
-
-{% end %}
-
-<br>
-
-<br>
-
-
-<!-- section 9 (FEATURED STORIES) -->
-
-{% featured_stories() %}
-
-## FEATURED STORIES
 
 {% end %}

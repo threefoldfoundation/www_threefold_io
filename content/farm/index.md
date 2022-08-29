@@ -17,10 +17,11 @@ insert_anchor_links: "left"
 # BE THE <br> INTERNET
 
 
-The People’s Internet is powered by an entirely new incentive model made possible by the ThreeFold Blockchain.
+ThreeFold is powered by an entirely new incentive model made possible by the ThreeFold Blockchain.
 
 
-<button>[Get a 3Node](https://marketplace.3node.global/)</button>
+<button>[Buy a 3Node](https://marketplace.3node.global/)</button>
+<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
 
 {% end %}
 
@@ -89,55 +90,10 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 <br>
 
-<button>[Explore ThreeFold Grid Capacity](https://explorer.threefold.io/all)</button>
+<button>[Explore ThreeFold Grid Capacity](https://dashboard.grid.tf/explorer/statistics)</button>
 
 
 {% end %}
-
-
-
-<!-- section 4 (Hello Titan) -->
-
-{% row(style="margin") %}
-
-# HELLO <br> TITAN
-
-<br>
-
-The Titan was designed to fit in any home or office. It's compact, optimized for performance, and comes plug-and-farm. Just connect the Titan to electricity and network to start earning. Yes, it's that simple!
-
-
-<button>[Get Titan](https://marketplace.3node.global/index.php?dispatch=categories.view&category_id=167)</button>
-
-|||
-
-![Image](farm_titan.jpg)
-
-{% end %}
-
-
-<!-- section 5 (Do It Yourself) -->
-
-{% row(bgColor="#f2f2f2" style="narrow margin") %}
-
-![Image](farm_do_it.png)
-
-
-|||
-
-## DO IT <br> **YOURSELF**
-
-ThreeFold’s operating system, Zero-OS, can run on any Intel or AMD hardware. From building your own 3Node to using refurbished hardware, deﬁne your ideal conﬁgurations and start farming today.
-
-<br>
-
-
-<button>[See Requirements](https://forum.threefold.io/t/diy-nodes-guide/837)</button>
-
-{% end %}
-
-<br>
-<br>
 
 <!-- section 6 (How To Earn TFT) -->
 

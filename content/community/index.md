@@ -87,21 +87,6 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 <br>
 
-<!-- section 3 (INTERNET) -->
-
-{% row(style="center between margin") %}
-
-## EXPAND THE PEOPLE'S <br> **INTERNET**
-
-Join the movement by connecting a node at your home or ofﬁce. All you need is compatible hardware, electricity and network bandwidth to take part in the decentralization of the global Internet.
-
-<button>[Learn More](farm)</button>
-
-{% end %}
-
-<br>
-<br>
-
 <!-- section 4 (DEVELOPER COMMUNITY) -->
 
 {% row(bgColor="#f2f2f2" style="narrow margin") %}
@@ -110,35 +95,13 @@ Join the movement by connecting a node at your home or ofﬁce. All you need is 
 
 From testing our latest releases to joining our development teams or applying for a ThreeFold Foundation grant – there are many ways to engage with ThreeFold’s technology.
 
-<button>[Devbeloper Resource](/developer)</button>
+<button>[Developer Resources](/developer)</button>
 
 |||
 
 ![Image](community_developers.png#medium)
 
 {% end %}
-
-<br>
-<br>
-
-<!-- section 5 (PATHFINDER) -->
-
-{% row() %}
-
-![Image](community_pathefinder.jpg)
-
-|||
-
-## BECOME A THREEFOLD <br> **PATHFINDER**
-
-Join the growing community of ThreeFold’s most passionate supporters. Bring your dreams to the table and help expand the people's Internet to new frontiers.
-
-<button>[Sign Up](https://honf2dpejik.typeform.com/to/Hubtbirs)</button>
-
-{% end %}
-
-<br>
-<br>
 
 <!-- section 6 (QUESTIONS) -->
 
