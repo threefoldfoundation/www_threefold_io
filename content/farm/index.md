@@ -64,11 +64,6 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 {% end %}
 
-{% row(style="center") %}
-
-
-{% end %}
-
 
 
 <!-- section 3 (world of farmers) -->
