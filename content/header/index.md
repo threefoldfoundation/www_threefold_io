@@ -19,9 +19,9 @@ extra:
 
 <button>
 
-[Our Partners](/partners)
+[Our People](/people)
 <br>
-Explore Our Partners
+Team, stories, & more
 
 </button>
 
@@ -29,24 +29,9 @@ Explore Our Partners
 
 <button>
 
-[Alliance](https://consciousinternet.org/)
+[Our Partners](/partners)
 <br>
-Alliance For A Conscious Internet
-
-</button>
-
-{% end %}
-- Community
-
-{% row() %}
-
-<button>
-
-[Our People](/people)
-<br>
-Team, stories, & more
-
-</button>
+Explore Our Partners
 
 |||
 
@@ -74,7 +59,7 @@ Join The Developer Community
 
 {% row() %}
 
-#### RESOURCES 
+#### Resources 
 
 <button>
 
@@ -89,19 +74,19 @@ ThreeFold Capacity Explorer
 
 [Library](https://library.threefold.me/info/threefold#/)
 <br>
-Explorer The documentation
+Explorer the Documentation
 
 </button>
 
 |||
 
-#### DIVE DEEPER
+#### Dive Deeper
 
 <button>
 
 [Blog](/blog)
 <br>
-Explorer The Blogs
+Explorer the Blogs
 
 </button>
 
@@ -109,19 +94,19 @@ Explorer The Blogs
 
 [Newsroom](/newsroom)
 <br>
-Check Last Updates
+Check the Latest Updates
 
 </button>
 
 |||
 
-#### SUPPORT AND HELP
+#### Support & Help
 
 <button>
 
 [Careers](/careers)
 <br>
-Join The TEAM
+Join the Team
 
 </button>
 
@@ -129,7 +114,7 @@ Join The TEAM
 
 [Support](/support)
 <br>
-Get In Touch With ThreeFold
+Get in Touch With ThreeFold
 
 </button>
 

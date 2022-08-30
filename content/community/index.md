@@ -10,7 +10,7 @@ insert_anchor_links: "left"
 
 {% row(style="center narrow") %}
 
-## WELCOME INTO <br> **THE FOLD**
+## Welcome Into <br> **The Fold**
 
 We're a 100% open-source and community-driven project that builds the critical infrastructure for a decentralized world. Anyone can contribute to ThreeFold and there are many ways to get involved.
 
@@ -79,7 +79,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 |||
 
-[![yahoo_news](linkedin.png)](https://ae.linkedin.com/company/threefold-foundatiooon)
+[![yahoo_news](linkedin.png)](https://ae.linkedin.com/company/threefold-foundation)
 
 {% end %}
 
@@ -91,7 +91,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 {% row(bgColor="#f2f2f2" style="narrow margin") %}
 
-## JOIN THE THREEFOLD <br> **DEVELOPER COMMUNITY**
+## Join the ThreeFold <br> **Developer Community**
 
 From testing our latest releases to joining our development teams or applying for a ThreeFold Foundation grant – there are many ways to engage with ThreeFold’s technology.
 
@@ -107,7 +107,7 @@ From testing our latest releases to joining our development teams or applying fo
 
 {% row(style="center between margin") %}
 
-## FREQUENTLY ASKED <br> **QUESTIONS**
+## Frequently Asked <br> **Questions**
 
 Check out the FAQs or ask a question on the ThreeFold Forum.
 

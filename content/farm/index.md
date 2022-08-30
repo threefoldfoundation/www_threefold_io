@@ -14,24 +14,20 @@ insert_anchor_links: "left"
 
 |||
 
-# BE THE <br> INTERNET
-
+## Be the <br> **Internet**
 
 ThreeFold is powered by an entirely new incentive model made possible by the ThreeFold Blockchain.
-
 
 <button>[Buy a 3Node](https://marketplace.3node.global/)</button>
 <button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
 
 {% end %}
 
-
-
 <!-- section 2 (Farm) -->
 
 {% row(style="center narrow ") %}
 
-# FARM
+# Farm
 
 ### A new way of growing the Internet
 
@@ -71,7 +67,7 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 {% row(style="center margin") %}
 
 
-## JOIN **A WORLD OF FARMERS**
+## Join **a World of Farmers**
 
 ### We are growing fast
 
@@ -93,15 +89,15 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 {% row(style="center narrow") %}
 
 
-## How to earn  **TFT**
+## How to earn **TFT**
 
 Farmers earn TFT according to the amount of Internet capacity their 3Nodes connect to the ThreeFold Grid. The Internet capacity is verified by the ThreeFold Blockchain on an ongoing basis using the “Proof-of-Capacity” algorithm.
 
 <br>
 
-#### PROOF OF CAPACITY
+#### Proof of Capacity
 
-### THE FARMING PROCESS
+### The Farming Process
 
 {% end %}
 
@@ -130,13 +126,19 @@ Farmers earn the TFT after meeting the minimum uptime as proof-of-capacity.
 {% row(style="center between margin") %}
 
 
-## THE  **VALUE OF TFT**
+## The **Value of TFT**
 
 The ThreeFold Grid is the only Internet infrastructure that can scale to the far edges of our world and meet the insatiable demands of emerging IT workloads. The more the ThreeFold Grid is used, the more TFT are “burnt” to reduce the total circulating supply..
 
 <br>
 
 ![Image](farm_value_tft.jpg#large)
+
+<br>
+
+<button>[Buy a 3Node](https://marketplace.3node.global/)</button>
+<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[More About TFT](/tft)</button>
 
 {% end %}
 

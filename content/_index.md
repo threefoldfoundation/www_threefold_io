@@ -35,11 +35,17 @@ We are a global, decentralized, open-source movement of believers in a better wo
 
 |||
 
-<button>[Build](https://dashboard.grid.tf/)</button>
+<button>[Build](/cloud)</button>
 
 |||
 
 <button>[Token](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+<button>[Talk to Friendly Humans, Ask Questions, & Join the Movement](https://t.me/threefold)</button>
 
 <br>
 

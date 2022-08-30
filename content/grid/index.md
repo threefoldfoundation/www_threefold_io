@@ -6,23 +6,34 @@ insert_anchor_links: "left"
 
 <br>
 
-
 {% row(style="center narrow") %}
 
-## **INTER-CONNECTING HUMANITY**
+## Internet **Evolution.**
 
 <br>
 
-Expand the ThreeFold Grid – an open source peer-to-peer Internet infrastructure powered by the ThreeFold Blockchain and owned by humanity.
+The Internet was meant to be a peer-to-peer infrastructure with us in the center of our data and digital lives. Inspired by the past, we're building an Internet how "the" Internet was originally intended.
 
+<button>[Discover the Grid](https://library.threefold.me/info/threefold#/tfgrid/threefold__grid_intro)</button>
+<button>[The Magic of the Tech](https://library.threefold.me/info/threefold#/technology/threefold__technology)</button>
 
-<button>[Be The Internet](/farm)</button>
+<br>
+<br>
 
 {% end %}
 
-{% row(style="lean") %}
+{% row() %}
 
-![Image](gride_header.png#mx-auto)
+![Image](grid_people.jpg)
+
+|||
+
+## The Layer-0 for **Decentralization**
+
+Any current or future technology, including blockchain, metaverses and web 3.0, can be hosted natively on the ThreeFold Grid via smart contracts with minimum migration. The grid is compatible with most open source tools and protocols.
+
+<button>[Build on the Grid](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)</button>
+<button>[Expand The Grid](/farm)</button>
 
 {% end %}
 
@@ -31,9 +42,9 @@ Expand the ThreeFold Grid – an open source peer-to-peer Internet infrastructur
 
 {% row() %}
 
-## SCALED BY PEOPLE <br> TO THE EDGE
+## Scaled by the People <br> **to the Edge**
 
-The People’s Internet is formed by Farmers, independent people that connect 3Nodes to the ThreeFold Grid anywhere electricity and network is present. Together, they form a globally distributed Internet infrastructure and earn income in the form of TFT.
+The ThreeFold Grid is formed by Farmers, independent people who connect 3Nodes (decentralized Internet capacity) anywhere electricity and network are present. Together, they form a globally distributed Internet infrastructure and earn income in the form of TFT.
 
 <button>[Learn About TFT](/tft)</button>
 
@@ -49,33 +60,13 @@ The People’s Internet is formed by Farmers, independent people that connect 3N
 
 {% row() %}
 
-![Image](grid_people.jpg)
+![Image](grid_new_internet.jpg)
 
 |||
 
-## THE LAYER-0 FOR DECENTRALIZATION
-
-Any current or future technology, including blockchain, metaverses and web 3.0, can be hosted natively on the ThreeFold Grid via smart contracts with minimum migration, as the infrastructure is compatible with most open source tools and protocols.
-
-<button>[Meet The First Projects](/partners)</button>
-
-
-{% end %}
-
-
-<br>
-<br>
-
-{% row() %}
-
-## A NEW INTERNET BLUEPRINT
+## A New **Internet Blueprint**
 
 All our code is made open source to energize open collaboration and promote universal access to a peer-to-peer Internet owned by all of us. More than just an Internet infrastructure, the ThreeFold Grid holds the potential to decentralize everything.
-
-
-|||
-
-![Image](grid_new_internet.jpg)
 
 {% end %}
 
@@ -88,13 +79,12 @@ All our code is made open source to energize open collaboration and promote univ
 
 ![Image](zero_os.png#medium)
 
-## **INTRODUCING ZERO-OS**
+## A Revolutionary <br> **Operating System**
 
-A decentralized autonomous OS designed to dedicate hardware capacity to the People’s Internet via the ThreeFold Blockchain. Zero-OS can be booted on most modern computers to host anything that runs on Linux in a decentralized way.
+A decentralized autonomous operating system designed to dedicate hardware capacity to the People’s Internet via the ThreeFold Blockchain. Zero-OS can be booted on most modern computers to host anything that runs on Linux in a decentralized way.
 
 
-<button>[Learn More](https://library.threefold.me/info/threefold#/technology/threefold__technology)</button>
-<button>[Expand The Grid](/farm)</button>
+<button>[Learn More](https://library.threefold.me/info/threefold#/technology/threefold__zos)</button>
 
 {% end %}
 
@@ -103,11 +93,12 @@ A decentralized autonomous OS designed to dedicate hardware capacity to the Peop
 
 {% row() %}
 
-## A DECENTRALIZED INTERNET ECONOMY
+## A Decentralized **Internet Economy**
 
 TFT is the official medium of exchange for Internet capacity on the ThreeFold Grid. The utility token allows users to reserve Internet capacity via the ThreeFold Blockchain and rewards farmers for their contribution to the network.
 
-<button>[Learn More About TFT](/tft)</button>
+<button>[About TFT](/tft)</button>
+<button>[Expand The Grid](/farm)</button>
 
 |||
 
