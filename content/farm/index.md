@@ -66,8 +66,6 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 {% row(style="center") %}
 
-<button>[Build My 3Node](https://library.threefold.me/info/manual/#/manual__create_farm)</button>
-
 
 {% end %}
 
