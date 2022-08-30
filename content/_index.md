@@ -15,6 +15,11 @@ extra:
 {% row(style="center narrow") %}
 
 <br/>
+<br/>
+
+![Image](images/black_threefold_header.png#mx-auto#medium)
+
+
 
 <br/>
 
