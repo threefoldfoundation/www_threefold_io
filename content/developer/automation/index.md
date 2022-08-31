@@ -1,5 +1,6 @@
 ---
 title: automation
+template: "resourcesPage.html"
 
 extra:
   imgPath: automation.png

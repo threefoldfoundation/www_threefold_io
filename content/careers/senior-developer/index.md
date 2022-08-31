@@ -1,5 +1,6 @@
 ---
 title: Senior Developer
+template: "jobPage.html"
 
 extra:
   button: "Apply"

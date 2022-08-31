@@ -1,5 +1,6 @@
 ---
 title: "ThreeFold Grid Developer Lead"
+template: "jobPage.html"
 
 extra:
   button : Explore Other Developer Components

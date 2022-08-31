@@ -1,5 +1,6 @@
 ---
 title: Master Technical Architect
+template: "jobPage.html"
 
 extra:
   button: "Apply"
