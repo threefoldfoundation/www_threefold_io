@@ -10,23 +10,11 @@ extra:
 
 {% row(style="lean") %}
 
-##### THREEFOLD <br> UNIVERSE
-
-<br>
-
-###### [ThreeFold Token](/tft)
-
-###### [ThreeFold Cloud](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
-
-###### [Grid Explorer](https://dashboard.grid.tf/explorer/statistics)
-
-<!-- ###### [Alliance](https://consciousinternet.org/) -->
-
-|||
-
 ##### PARTICIPATE
 
 <br>
+
+###### [Talk to ThreeFolders](https://t.me/threefold)
 
 ###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
 
