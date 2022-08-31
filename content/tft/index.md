@@ -5,19 +5,29 @@ page_template: "tft_header.html"
 insert_anchor_links: "left"
 ---
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center between margin") %}
-
-![Image](tft_header.png#medium)
-
-
+{% row(style="center narrow") %}
 
 ## Decentralizing <br>**the Internet Economy**
 
+ThreeFold creates an entirely new decentralized Internet economy that allows anyone to join the world’s fastest growing market – the Internet.
 
-The People’s Internet creates an entirely new decentralized Internet economy that allows anyone to join the world’s fastest growing market – the Internet.
+{% end %}
+
+{% row(style="center narrow") %}
+
+<button>[Learn About TFT](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
+<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)</button>
+<button>[Liquidity Litepaper](https://threefold.docsend.com/view/3mu3cddgj7znuixj)</button>
 
 {% end %}
 
@@ -33,6 +43,9 @@ The People’s Internet creates an entirely new decentralized Internet economy t
 <!-- section 2 (Meeting Emerging Demand) -->
 
 {% row(style="center ") %}
+
+<br>
+<br>
 
 ## Meeting **Emerging Demand**
 

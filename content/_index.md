@@ -31,7 +31,7 @@ We are a global, decentralized, open-source movement of believers in a better wo
 
 {% row(style="center narrow") %}
 
-<button>[Expand](/farm)</button>
+<button>[Farm](/farm)</button>
 
 |||
 
@@ -41,15 +41,9 @@ We are a global, decentralized, open-source movement of believers in a better wo
 
 <button>[Token](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
 
-{% end %}
+|||
 
-{% row(style="center narrow") %}
-
-<button>[Talk to Friendly Humans, Ask Questions, & Join the Movement](https://t.me/threefold)</button>
-
-<br>
-
-<br>
+<button>[Chat](https://t.me/threefold)</button>
 
 {% end %}
 

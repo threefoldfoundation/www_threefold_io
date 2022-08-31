@@ -6,25 +6,45 @@ insert_anchor_links: "left"
 
 <!-- section 1 (header) -->
 
-{% row(style="center") %}
-
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{% row(style="center narrow") %}
 
 ## Our **Mission**
 
 <br>
 
-To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems.
-
-<button>[The collective dream](/blog/2021/07/post-2)</button>
-
-|||
-
-![Image](mission_header.png)
+To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems. Anything we do needs to improve the planet's situation and benefit the people around us.
 
 {% end %}
 
+{% row(style="center narrow") %}
 
+<button>[Collective Dream](https://threefold.io/blog/post/tf_grid_peoples_internet/)</button>
+
+|||
+
+<button>[Planet & People First](https://threefold.io/blog/post/planet_first_people_first/)</button>
+
+|||
+
+<button>[Mission & Goals](https://mission.threefold.me)</button>
+
+{% end %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!-- section 2 (INTERCONNECTED) -->
 
@@ -34,9 +54,9 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 |||
 
-## Supporting and **Interconnected World**
+## Supporting an **Interconnected World**
 
-Internet access is a human right and it can change everything for the lives of people as an infinite source of tools and information. Our technology was designed to scale the People’s Internet anywhere electricity and bandwidth are present.
+Internet access is a human right and it can change everything for the lives of people as an infinite source of tools and information. Our technology was designed to scale ThreeFold anywhere electricity and bandwidth are present.
 
 {% end %}
 
@@ -78,13 +98,13 @@ The ThreeFold Law states that any good you do will return to you threefold in th
 
 ## **Join **The Fold****
 
-Together, we build the People’s Internet. Our Internet.
+Together, we build a better Internet for the planet, and for all of us.
 
 <br>
 
 ![Image](100_mission.png#meduim)
 
-<button>[Join Us](https://t.me/threefold)</button>
+<button>[Join Us](/community)</button>
 
 {% end %}
 
@@ -104,7 +124,7 @@ After setting world records in Internet storage and cloud automation technologie
 
 <br>
 
-And we’re aiming for new heights. The People’s Internet will turn into a DAO in 2022, inviting developers and enterprises from all around the world to collaborate on the decentralization of everything that is digital, and beyond.
+And we’re aiming for new heights. ThreeFold is turning into a DAO in 2022, inviting developers and enterprises from all around the world to collaborate on the decentralization of everything that is digital, and beyond.
 
 {% end %}
 

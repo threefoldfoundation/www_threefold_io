@@ -47,7 +47,7 @@ Welcome To The Fold
 
 <button>
 
-[Developers Resources](/developer)
+[Developer Resources](/developer)
 <br>
 Join The Developer Community
 
@@ -78,6 +78,12 @@ Explorer the Documentation
 
 </button>
 
+<button>
+
+[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
+<br>
+Get Started on the Grid
+
 |||
 
 #### Dive Deeper
@@ -98,23 +104,35 @@ Check the Latest Updates
 
 </button>
 
+<button>
+
+[Litepaper](https://litepaper.threefold.me)
+<br>
+Get the full picture
+
 |||
 
 #### Support & Help
 
 <button>
 
-[Careers](/careers)
+[Forum](https://forum.threefold.io)
 <br>
-Join the Team
-
-</button>
+Questions & Feedback
 
 <button>
 
 [Support](/support)
 <br>
-Get in Touch With ThreeFold
+Speak Live with a Human
+
+</button>
+
+<button>
+
+[Careers](/careers)
+<br>
+Join the Team
 
 </button>
 

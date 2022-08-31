@@ -5,6 +5,12 @@ insert_anchor_links: "left"
 ---
 
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% row(style="center narrow") %}
 
@@ -14,13 +20,25 @@ insert_anchor_links: "left"
 
 The Internet was meant to be a peer-to-peer infrastructure with us in the center of our data and digital lives. Inspired by the past, we're building an Internet how "the" Internet was originally intended.
 
+{% end %}
+
+{% row(style="center narrow") %}
+
 <button>[Discover the Grid](https://library.threefold.me/info/threefold#/tfgrid/threefold__grid_intro)</button>
+
+|||
+
 <button>[The Magic of the Tech](https://library.threefold.me/info/threefold#/technology/threefold__technology)</button>
 
-<br>
-<br>
-
 {% end %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% row() %}
 

@@ -5,29 +5,47 @@ insert_anchor_links: "left"
 ---
 
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="margin") %}
+{% row(style="center narrow") %}
 
-![Image](farm_header.jpg)
+## Be the **Internet**
 
-|||
+Become an Internet Farmer. Expand the ThreeFold Grid and earn for it.
 
-## Be the <br> **Internet**
+{% end %}
 
-ThreeFold is powered by an entirely new incentive model made possible by the ThreeFold Blockchain.
+{% row(style="center narrow") %}
 
 <button>[Buy a 3Node](https://marketplace.3node.global/)</button>
 <button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[Learn More](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
 
 {% end %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!-- section 2 (Farm) -->
 
 {% row(style="center narrow ") %}
 
-# Farm
+<br>
+<br>
+
+## Farm
 
 ### A new way of growing the Internet
 

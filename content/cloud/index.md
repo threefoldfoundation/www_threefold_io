@@ -4,6 +4,14 @@ template: "page.html"
 insert_anchor_links: "left"
 ---
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 {% row(style="center narrow") %}
 
 ## The Next Generation of <br> **Cloud Computing**
@@ -24,9 +32,15 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 <button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)</button>
 
-{% end %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<!-- {% cloud_header() %} -->
+{% end %}
 
 {% row(style="center margin") %}
 
