@@ -50,7 +50,7 @@ ThreeFold creates an entirely new decentralized Internet economy that allows any
 ## Meeting **Emerging Demand**
 
 
-Data has become the most valuable commodity on earth, the Internet infrastructure is experiencing significant growth. While the current centralized model is facing limitations, ThreeFold can scale to the edge to service the emerging demand.
+Data has become the most valuable commodity on earth, the Internet infrastructure is experiencing significant growth.<br> While the current centralized model is facing limitations, ThreeFold can scale to the edge to service the emerging demand.
 
 {% end %}
 
