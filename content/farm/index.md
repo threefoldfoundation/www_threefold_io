@@ -24,9 +24,19 @@ Become an Internet Farmer. Expand the ThreeFold Grid and earn for it.
 
 {% row(style="center narrow") %}
 
-<button>[Buy a 3Node](https://marketplace.3node.global/)</button>
-<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
-<button>[Learn More](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
+<button>[Buy](https://marketplace.3node.global/)</button>
+
+|||
+
+<button>[D.I.Y.](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+
+|||
+
+<button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
+
+|||
+
+<button>[Chat](https://t.me/threefoldfarmers)
 
 {% end %}
 

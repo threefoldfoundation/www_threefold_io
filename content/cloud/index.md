@@ -26,21 +26,25 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 |||
 
-<button>[Learn More](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_intro)</button>
+<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
 
 |||
 
-<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)</button>
+<button>[Learn](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_intro)</button>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+|||
+
+<button>[Chat](https://t.me/threefoldtesting)
 
 {% end %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% row(style="center margin") %}
 
