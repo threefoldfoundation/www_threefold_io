@@ -4,26 +4,53 @@ template: "page.html"
 insert_anchor_links: "left"
 ---
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 {% row(style="center narrow") %}
 
-## THE NEXT GENERATION OF **CLOUD COMPUTING**
+## The Next Generation of <br> **Cloud Computing**
 
-Deploy any workload with unprecedented security, scalability, and eﬃciency, on a fully comprehensive peer-to-peer digital infrastructure. Discover a cloud like no other.
-
-{% end %}
-
-{% cloud_header() %}
-
-## THE NEXT GENERATION OF **CLOUD COMPUTING**
+Deploy any workload with unprecedented security, scalability, and efficiency, on a fully comprehensive peer-to-peer digital infrastructure. Discover a cloud like no other.
 
 {% end %}
 
+{% row(style="center narrow") %}
+
+<button>[Deploy](https://dashboard.grid.tf)</button>
+
+|||
+
+<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
+
+|||
+
+<button>[Learn](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_intro)</button>
+
+|||
+
+<button>[Chat](https://t.me/threefoldtesting)
+
+{% end %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% row(style="center margin") %}
 
 ![storage](storage.jpg#medium)
 
-### **STORAGE**
+### **Storage**
 
 Plug in standard tools and protocols to the most resilient and versatile storage system ever created, or access raw disk on the location of your choice.
 
@@ -33,7 +60,7 @@ Plug in standard tools and protocols to the most resilient and versatile storage
 
 ![compute](compute.jpg#medium)
 
-### **COMPUTE**
+### **Compute**
 
 Native support for containers and virtual machines. Migrate existing applications effortlessly or build from scratch in a cutting-edge computing environment.
 
@@ -43,7 +70,7 @@ Native support for containers and virtual machines. Migrate existing application
 
 ![network](network.jpg#medium)
 
-### **NETWORK**
+### **Network**
 
 Private overlay networks and global end-to-end encryption minimize attack surface. Handle inbound trafﬁc with uniquely secure web gateways.
 
@@ -88,34 +115,9 @@ Private overlay networks and global end-to-end encryption minimize attack surfac
 <br />
 <br />
 
-{% row(gradient="linear-gradient(90deg, #000, #323232)" style="margin text-white") %}
+{% row(style="center narrow") %}
 
-## **LIMITLESS POSSIBILITIES**
-
-Optimized for efficient and affordable hosting of cloud alternatives, blockchains, IoT networks, and decentralized applications with seamless migration.
-
-|||
-
-![Image](limitless.png#mx-auto)
-
-{% end %}
-
-
-{% row(style="center narrow margin") %}
-
-![Image](zero_os.png#mx-auto#medium)
-
-## **INTRODUCING ZERO-OS**
-
-A decentralized autonomous OS designed to dedicate hardware capacity to the People’s Internet via the ThreeFold Blockchain. Zero-OS can be booted on most modern computers to host anything that runs on Linux in a decentralized way.
-
-<button>[Learn More](https://library.threefold.me/info/threefold#/technology/threefold__zos)</button> <button>[Expand The Grid](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
-
-{% end %}
-
-{% row(style="center moderate") %}
-
-## **DESIGNED FOR DEMANDING** <br> **WORKLOADS**
+## Designed for <br> **Demanding Workloads**
 
 {% end %}
 
@@ -126,12 +128,12 @@ A decentralized autonomous OS designed to dedicate hardware capacity to the Peop
 <br/>
 <br/>
 
-#### **EDGE CAPACITY**
+#### **Edge Capacity**
 
 <br/>
 <br/>
 
-Achieve low latencies and bandwidth eﬃciency by reserving capacity locally.
+Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
 |||
 
@@ -140,7 +142,7 @@ Achieve low latencies and bandwidth eﬃciency by reserving capacity locally.
 <br/>
 <br/>
 
-#### **SECURE**
+#### **Secure**
 
 <br/>
 <br/>
@@ -154,7 +156,7 @@ Open-source system built from the ground-up for a fully transparent and auditabl
 <br/>
 <br/>
 
-#### **SCALABLE**
+#### **Scalable**
 
 <br/>
 <br/>
@@ -168,7 +170,7 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 <br/>
 <br/>
 
-#### **EFFICIENT**
+#### **Efficient**
 
 <br/>
 <br/>
@@ -185,16 +187,6 @@ A carefully designed collection of lightweight components that minimize overhead
 
 {% cloud_stats() %}
 
-## **A GLOBAL EDGE INFRASTRUCTURE**
-
-{% end %}
-<br/>
-<br/>
-
-{% row(gradient="linear-gradient(351deg, #8f8f8f, #8c8c8c)" style="center margin text-white") %}
-
-## **TAKE THREEFOLD** <br> **CLOUD ON A TEST DRIVE**
-
-<button>[Get Started](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)</button>
+## A Global **Edge Infrastructure**
 
 {% end %}

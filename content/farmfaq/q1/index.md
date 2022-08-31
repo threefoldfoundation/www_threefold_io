@@ -7,7 +7,7 @@ Farming is connecting a 3Node (server-type hardware) in your home or office, tha
 <br/>
 <br/>
 
-3Nodes are powered by ThreeFold’s open source operating system Zero-OS, and can host the data and workloads of thousands of people. When providing Internet capacity to the People's Internet, you are rewarded with TFT. And thanks to our proof-of-capacity model, your 3Node does all the heavy lifting for you.
+3Nodes are powered by ThreeFold’s open source operating system Zero-OS, and can host the data and workloads of thousands of people. When providing Internet capacity to the ThreeFold Grid, you are rewarded with TFT. And thanks to our proof-of-capacity model, your 3Node does all the heavy lifting for you.
 <br/>
 <br/>
 

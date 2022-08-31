@@ -3,7 +3,7 @@ title: "Header"
 insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
-  logoPath: "images/tft_log.svg"
+  logoPath: "images/black_threefold.png"
   button_Path: "/images/gettft_white.png"
 ---
 
@@ -19,9 +19,9 @@ extra:
 
 <button>
 
-[Our Partners](/partners)
+[Our People](/people)
 <br>
-Explore Our Partners
+Team, stories, & more
 
 </button>
 
@@ -29,24 +29,9 @@ Explore Our Partners
 
 <button>
 
-[Alliance](https://consciousinternet.org/)
+[Our Partners](/partners)
 <br>
-Alliance For A Conscious Internet
-
-</button>
-
-{% end %}
-- Community
-
-{% row() %}
-
-<button>
-
-[Our People](/people)
-<br>
-Team, stories, & more
-
-</button>
+Explore Our Partners
 
 |||
 
@@ -62,7 +47,7 @@ Welcome To The Fold
 
 <button>
 
-[Developers Resources](/developer)
+[Developer Resources](/developer)
 <br>
 Join The Developer Community
 
@@ -74,11 +59,11 @@ Join The Developer Community
 
 {% row() %}
 
-#### RESOURCES 
+#### Resources 
 
 <button>
 
-[Explorer](https://explorer.threefold.io/all)
+[Explorer](https://dashboard.grid.tf/)
 
 ThreeFold Capacity Explorer
 
@@ -89,19 +74,25 @@ ThreeFold Capacity Explorer
 
 [Library](https://library.threefold.me/info/threefold#/)
 <br>
-Explorer The documentation
+Explore the Documentation
 
 </button>
 
+<button>
+
+[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
+<br>
+Get Started on the Grid
+
 |||
 
-#### DIVE DEEPER
+#### Dive Deeper
 
 <button>
 
 [Blog](/blog)
 <br>
-Explorer The Blogs
+Explore the Blogs
 
 </button>
 
@@ -109,27 +100,39 @@ Explorer The Blogs
 
 [Newsroom](/newsroom)
 <br>
-Check Last Updates
+Check the Latest Updates
 
 </button>
-
-|||
-
-#### SUPPORT AND HELP
 
 <button>
 
-[Careers](/careers)
+[Litepaper](https://litepaper.threefold.me)
 <br>
-Join The TEAM
+Get the Full Picture
 
-</button>
+|||
+
+#### Support & Help
+
+<button>
+
+[Forum](https://forum.threefold.io)
+<br>
+Questions & Feedback
 
 <button>
 
 [Support](/support)
 <br>
-Get In Touch With ThreeFold
+Speak Live with a Human
+
+</button>
+
+<button>
+
+[Careers](/careers)
+<br>
+Join the Team
 
 </button>
 

@@ -10,7 +10,7 @@ insert_anchor_links: "left"
 
 {% row(style="center narrow") %}
 
-## WELCOME INTO <br> **THE FOLD**
+## Welcome Into <br> **The Fold**
 
 We're a 100% open-source and community-driven project that builds the critical infrastructure for a decentralized world. Anyone can contribute to ThreeFold and there are many ways to get involved.
 
@@ -79,38 +79,23 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 |||
 
-[![yahoo_news](linkedin.png)](https://ae.linkedin.com/company/threefold-foundatiooon)
+[![yahoo_news](linkedin.png)](https://ae.linkedin.com/company/threefold-foundation)
 
 {% end %}
 
 <br>
 
-<br>
-
-<!-- section 3 (INTERNET) -->
-
-{% row(style="center between margin") %}
-
-## EXPAND THE PEOPLE'S <br> **INTERNET**
-
-Join the movement by connecting a node at your home or ofﬁce. All you need is compatible hardware, electricity and network bandwidth to take part in the decentralization of the global Internet.
-
-<button>[Learn More](/farm)</button>
-
-{% end %}
-
-<br>
 <br>
 
 <!-- section 4 (DEVELOPER COMMUNITY) -->
 
 {% row(bgColor="#f2f2f2" style="narrow margin") %}
 
-## JOIN THE THREEFOLD <br> **DEVELOPER COMMUNITY**
+## Join the ThreeFold <br> **Developer Community**
 
 From testing our latest releases to joining our development teams or applying for a ThreeFold Foundation grant – there are many ways to engage with ThreeFold’s technology.
 
-<button>[Developer Resource](/developer)</button>
+<button>[Developer Resources](/developer)</button>
 
 |||
 
@@ -118,33 +103,11 @@ From testing our latest releases to joining our development teams or applying fo
 
 {% end %}
 
-<br>
-<br>
-
-<!-- section 5 (PATHFINDER) -->
-
-{% row() %}
-
-![Image](community_pathefinder.jpg)
-
-|||
-
-## BECOME A THREEFOLD <br> **PATHFINDER**
-
-Join the growing community of ThreeFold’s most passionate supporters. Bring your dreams to the table and help expand the people's Internet to new frontiers.
-
-<button>[Sign Up](https://honf2dpejik.typeform.com/to/Hubtbirs)</button>
-
-{% end %}
-
-<br>
-<br>
-
 <!-- section 6 (QUESTIONS) -->
 
 {% row(style="center between margin") %}
 
-## FREQUENTLY ASKED <br> **QUESTIONS**
+## Frequently Asked <br> **Questions**
 
 Check out the FAQs or ask a question on the ThreeFold Forum.
 

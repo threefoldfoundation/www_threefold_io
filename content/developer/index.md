@@ -9,7 +9,7 @@ template: "page.html"
 
 {% row(style="center margin") %}
 
-## **THREEFOLD <br> DEVELOPER <br> RESOURCES**
+## ThreeFold <br> **Developer** <br> **Resources**
 
 A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
@@ -21,43 +21,20 @@ A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
 {% end %}
 
-
-
-<!-- section 2 (TESTING GRANTS) -->
-
-{% row(bgColor="#f2f2f2" style="narrow margin") %}
-
-![Image](developer_testing.png)
-
-|||
-
-## APPLY FOR <br> **TESTING GRANTS**
-
-We have different use cases for you to take ThreeFold’s technology on a test drive. From zero to hero –- are you ready for the challenge?
-
-<br>
-
-<button>[Sign Up](https://088nfpf6v5s.typeform.com/to/DS8hUAdV)</button>
-
-{% end %}
-
-<br>
-<br>
-
 <!-- section 4 (DEVELOPER RESOURCES) -->
 
 {% dev_resourses() %}
 
-## WHERE WOULD YOU LIKE TO START?
+## Where Would You Like to Start
 
-## **NOW OPERATIONAL**
+## Now Operational**
 
 {% end %}
 
 
 {% row(bgColor="#f2f2f2" style="center between margin") %}
 
-## OUR <br> **DEVELOPER RESOURCES**
+## Our <br> **Developer Resources**
 
 ThreeFold is here to build the open-source Internet and Cloud infrastructure. The documentation helps you <br> build on ThreeFold by introducing you to some foundational concepts as well as our development stacks.<br>
 Inspired by the open-source movement, everything at ThreeFold is open to be audited, extended and improved.<br> If you have any feedback, please reach out with a GitHub issue or on our telegram.
@@ -80,7 +57,7 @@ Inspired by the open-source movement, everything at ThreeFold is open to be audi
 
 |||
 
-## JOIN US IN MAKING <br> **THREEFOLD BETTER**
+## Join Us In Making <br> **ThreeFold Better**
 
 All our docs are the results of community efforts. Create a pull request if you see mistakes, room for improvement, or new opportunities to help the ThreeFold community.
 
@@ -97,7 +74,7 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 {% row(style="center between" id="table_link") %}
 
-## EXPLORE THE <br> **DOCUMENTATION**
+## Explore the <br> **Documentation**
 
 {% end %}
 
@@ -122,13 +99,11 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 [Charge your wallet](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
 
-[How billing works](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_billing)
+<!-- [How billing works](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_billing) -->
 
-[Deploy workloads](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__manual3_getstarted_home)
+[Deploy workloads](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)
 
-[Infrastructure as Code](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__manual3_iac_home)
-
-[Create a Farm](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__create_farm)
+[Create a Farm](https://library.threefold.me/info/manual/#/manual__create_farm)
 
 |||
 
