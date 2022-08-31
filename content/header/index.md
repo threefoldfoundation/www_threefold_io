@@ -74,7 +74,7 @@ ThreeFold Capacity Explorer
 
 [Library](https://library.threefold.me/info/threefold#/)
 <br>
-Explorer the Documentation
+Explore the Documentation
 
 </button>
 
@@ -92,7 +92,7 @@ Get Started on the Grid
 
 [Blog](/blog)
 <br>
-Explorer the Blogs
+Explore the Blogs
 
 </button>
 
@@ -108,7 +108,7 @@ Check the Latest Updates
 
 [Litepaper](https://litepaper.threefold.me)
 <br>
-Get the full picture
+Get the Full Picture
 
 |||
 
