@@ -62,7 +62,8 @@
       </section>
     </div>
     <section class="post-image mx-auto w-full">
-      <img src="/{{page.extra.imgPath}}" />
+    {% set img_url = get_url(path='/' ~ page.relative_path | replace(from='_', to='-') | replace(from='index.md', to=page.extra.imgPath)) %}
+      <img src="{{img_url}}" />
     </section>
 
     <div class="py-12">
