@@ -81,5 +81,4 @@ $IMAGE\\
     #echo $IMG_NAME
     #mv 'static/'$IMG_PATH $FPATH             
     #sed -i "" "s|$IMG_PATH|$IMG_NAME|g" "$file"
-    break
 done;
