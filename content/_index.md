@@ -51,6 +51,7 @@ We are a global, decentralized, open-source movement of believers in a better wo
 
 
 {% grid_stats() %}
+
 ### The ThreeFold Grid
 
 ## **Live and Operational**
