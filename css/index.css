@@ -213,6 +213,7 @@ button :is(:where(p)) {
 
 button a {
   @apply
+  text-black
   px-12
 }
 
