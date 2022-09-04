@@ -154,9 +154,8 @@ h1 {
     @apply 
     inline-block
     lg:text-lg
-    px-12
-    py-1
     lg:mr-5
+    py-1
     my-3
     border-2
     shadow
@@ -213,7 +212,8 @@ button :is(:where(p)) {
 }
 
 button a {
-  color: black;
+  @apply
+  px-12
 }
 
 a {
@@ -419,4 +419,33 @@ header {
   }
 }
 
-header #menu button { @apply leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:first:text-gray-500 hover:border-stone-200 hover:bg-stone-100 p-2 text-left}
+header #menu button { 
+  @apply
+  lg:text-lg
+  px-6
+  py-1
+  lg:mr-5
+  my-3
+  shadow
+  border-black
+  capitalize 
+  leading-6 
+  border-transparent 
+  flex 
+  flex-col
+  border-2 
+  w-full 
+  items-start
+  rounded 
+  transition 
+  hover:first:text-gray-500 
+  hover:border-stone-200 
+  hover:bg-stone-100 
+  p-2 
+  text-left
+}
+
+header #menu button a{
+  @apply
+  px-0
+}
