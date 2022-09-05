@@ -1,4 +1,4 @@
 ---
-title: "Frequently Asked Questions"
+title: "FAQ"
 template: "layouts/faq.html"
 ---

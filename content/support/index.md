@@ -1,5 +1,5 @@
 ---
-title: "support"
+title: "Support"
 template: "page.html"
 insert_anchor_links: "left"
 ---
@@ -11,7 +11,7 @@ insert_anchor_links: "left"
 {% row(style="center narrow") %}
 
 
-## GET IN TOUCH <br> **WITH THREEFOLD**
+## Get in Touch <br> **with ThreeFold**
 
 
 {% end %}
@@ -45,7 +45,7 @@ insert_anchor_links: "left"
 
 {% row(bgColor="#f2f2f2" style="center margin") %}
 
-## FREQUENTLY ASKED <br> **QUESTIONS**
+## Frequently Asked <br> **Questions**
 
 Check out the most common questions from the community. <br> There's a good chance your answer is there already!
 
@@ -64,10 +64,10 @@ Check out the most common questions from the community. <br> There's a good chan
 ![Image](ask.png#mx-auto)
 <br>
 
-## HAVE A QUESTION ABOUT <br> **BUILDING ON THREEFOLD?**
+## Have a Question About <br> **Building on ThreeFold?**
 
 
-<button>[Create Forum Post](https://forum.threefold.io/)</button>
+<button>[Create a Forum Post](https://forum.threefold.io/)</button>
 
 
 {% end %}

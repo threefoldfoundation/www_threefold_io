@@ -1,6 +1,6 @@
 ---
-title: "Together, we create the future"
-description: "Together we expand and create this OurWorld platform, with the purpose to give a better digital life to billions of people. OurWorld can provide the alternative to the current too centralized, unsustainable and abused internet. Let's go back to what the internet was supposed to be." # quotation marks to allow colons where used
+title: "Home"
+description: "A global movement together building an open-source, community-driven, decentralized Internet – from the ground up." # quotation marks to allow colons where used
 date: 2018-09-14T21:00:00-05:00
 updated: 2021-02-20T14:40:00-06:00
 draft: false
@@ -48,7 +48,7 @@ We are a global movement together building an open-source, community-driven, dec
 
 {% grid_stats() %}
 
-### The ThreeFold Grid
+### The ThreeFold Grid v3.6
 
 ## **Live and Operational**
 

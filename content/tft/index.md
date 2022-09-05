@@ -1,5 +1,5 @@
 ---
-title: "TFT"
+title: "Token"
 template: "page.html"
 page_template: "tft_header.html"
 insert_anchor_links: "left"

@@ -1,5 +1,5 @@
 ---
-title: "tfLabs"
+title: "TF Labs"
 template: "section.html"
 insert_anchor_links: "left"
 ---
