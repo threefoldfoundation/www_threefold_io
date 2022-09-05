@@ -1374,8 +1374,6 @@ button{
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-  padding-left: 3rem;
-  padding-right: 3rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   text-transform: capitalize;
@@ -3191,6 +3189,39 @@ h1 {
   line-height: 4rem;
 }
 
+.nav p > a {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 1.5rem;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  padding: 0.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: inline-block;
+  border-width: 2px;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  text-transform: capitalize;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.nav p > a:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(231 229 228 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+}
+
 .article p{
   font-size: 1.125rem;
   font-family: Lato,sans-serif!important;
@@ -3223,8 +3254,11 @@ button :is(:where(p)) {
   font-weight: 400;
 }
 
-button a {
-  color: black;
+button a{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 a {
@@ -3425,16 +3459,28 @@ header {
 }
 
 header #menu button{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: flex-start;
   border-radius: 0.25rem;
   border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
   border-color: transparent;
   padding: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   text-align: left;
+  text-transform: capitalize;
   line-height: 1.5rem;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
@@ -3452,6 +3498,18 @@ header #menu button:hover{
 header #menu button:first-child:hover{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px){
+  header #menu button{
+    margin-right: 1.25rem;
+    font-size: 1.125rem;
+  }
+}
+
+header #menu button a{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .focus-within\:outline-none:focus-within{
@@ -4120,10 +4178,6 @@ header #menu button:first-child:hover{
 
   .lg\:max-w-6xl{
     max-width: 72rem !important;
-  }
-
-  .lg\:max-w-3xl{
-    max-width: 48rem !important;
   }
 
   .lg\:flex-1{

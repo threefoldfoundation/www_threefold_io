@@ -22,15 +22,15 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 {% row(style="center narrow") %}
 
-<button>[Deploy](https://dashboard.grid.tf)</button>
+<button>[Dashboard](https://dashboard.grid.tf)</button>
+
+|||
+
+<button>[Weblets](https://play.grid.tf)</button>
 
 |||
 
 <button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
-
-|||
-
-<button>[Learn](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_intro)</button>
 
 |||
 
