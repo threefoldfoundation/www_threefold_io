@@ -1,3 +1,4 @@
+{% if post.date %}
 {% if post.taxonomies.people %}
     {% set author_path = 'people/' ~ post.taxonomies.people[0] ~ '/index.md' %}
     {% set author = get_page(path=author_path) %}
@@ -41,17 +42,18 @@
           <p class="text-gray-700 text-xs">
           <time datetime="{{post.date}}">
             {{ post.date | date(format="%B %e, %Y", timezone="America/Chicago") }}
-          </time>
+            </time>
         </p>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
+</div>
+</div>
 </div>
 </div>
 
 <style>
-  .border-b {
-    border-bottom-width: 1px !important;
-  }
+    .border-b {
+        border-bottom-width: 1px !important;
+    }
 </style>
+{% endif %}

@@ -1,16 +1,24 @@
 ---
-title: "Ashraf Fouda"
-description: "Software Engineer with passion in new technologies, love every thing that is really new."
-template: "person_page.html"
-extra:
-  socialLinks: { LinkedIn: "https://www.linkedin.com/in/ashraffouda/",
-  Github: https://github.com/ashraffouda }
-  organizations: ["foundation"]
-  imgPath: ashraf_fouda.jpeg
+title: Ashraf Fouda
+weight: 3
+description: Software Engineer with passion in new technologies, love every thing that is really new.
 taxonomies:
-  people: ["ashraf_fouda"]
-  memberships:
-    [tech]
+    people: [ashraf_fouda]
+    memberships: [tech]
+    categories: [foundation]
+extra:
+    imgPath: ashraf_fouda.jpeg
+    organizations: [threefold_tech]
+    countries: [Egypt]
+    cities: [Cairo]
+    private: 0
+    socialLinks: {
+        LinkedIn: https://www.linkedin.com/in/ashraffouda/,
+        github: https://github.com/ashraffouda,
+            websites: https://threefold.tech,
+    }
 ---
+
+
 
 Software Engineer with passion in new technologies, love every thing that is really new and challenging. Threefold is changing the world by decentralizing and neutralizing the internet.

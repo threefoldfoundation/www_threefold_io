@@ -1,20 +1,25 @@
 ---
-title: "Guy D'Hauwers"
-description: "Working at well networked international go-to-market accelerator in the high tech cloud market."
-template: "person_page.html"
-extra:
-  socialLinks: { LinkedIn: "https://www.linkedin.com/in/garryveale/"}
-  organizations: ["foundation"]
-  imgPath: guy_dhauwers.png
+title: Guy D'Hauwers
+weight: 5
+description: Working at well networked international go-to-market accelerator in the high tech cloud market.
 taxonomies:
-  people: ["guy_dhauwers"]
-  memberships:
-    [ambassadors]
+    people: [guy_dhauwers]
+    memberships: [ambassadors]
+    categories: [foundation]
+extra:
+    imgPath: guy_dhauwers.png
+    organizations: [atnorth]
+    countries: [Belgium]
+    cities: [Herne]
+    private: 0
+    socialLinks: {
+        LinkedIn: https://www.linkedin.com/in/garryveale/,
+        websites: https://www.atNorth.com,
+    }
 ---
 
-High tech investor and mentor at international go-to-market accelerator.
+## Why ThreeFold?
 
-<br>
-
-### Why ThreeFold?
 Because of better internet and cloud.
+
+High tech investor and mentor at international go-to-market accelerator.

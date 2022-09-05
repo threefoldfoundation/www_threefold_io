@@ -1,15 +1,22 @@
 ---
-title: "Christopher Hutton"
-description: "Honored to be part of a team that has the potential to make the world a better place..."
-template: "person_page.html"
-extra:
-  socialLinks: { LinkedIn: "https://www.linkedin.com/in/chris-hutton-a3034777/" }
-  organizations: ["ThreefoldTech"]
-  imgPath: christhoper_hutton.jpeg
+title: Christopher Hutton
+weight: 1
+description: A serial entrepreneur and technology fanatic.
 taxonomies:
-  people: ["christopher_hutton"]
-  memberships:
-    ["tech", "foundation", "cofounders"]
+    people: [christopher_hutton]
+    memberships: [tech, cofounders, foundation]
+    categories: [foundation]
+extra:
+    imgPath: christhoper_hutton.jpeg
+    organizations: [threefold_tech]
+    countries: [South Africa]
+    cities: [Capetown]
+    private: 0
+    socialLinks: {
+        LinkedIn: https://www.linkedin.com/in/chris-hutton-a3034777/,
+        github: https://github.com/christopherhutton,
+            websites: https://threefold.tech,
+    }
 ---
 
 A serial entrepreneur and technology fanatic for 25 years now. Always researching tech trends and looking for new technologies to introduce to Africa.

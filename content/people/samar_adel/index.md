@@ -1,18 +1,22 @@
 ---
-title: "Samar Adel"
-description: "I believe in a world where everyone can be happy."
-template: "person_page.html"
-extra:
-  socialLinks: { LinkedIn: "https://www.linkedin.com/in/samaradel/",Github: "https://github.com/samaradel"  }
-  organizations: ["foundation"]
-  imgPath: samar_adel.jpg
+title: Samar Adel
+weight: 2
+description: I believe in a world where everyone can be happy.
 taxonomies:
-  people: ["samar_adel"]
-  memberships:
-    [tech]
+    people: [samar_adel]
+    memberships: [tech]
+    categories: [foundation]
+extra:
+    imgPath: samar_adel.jpg
+    organizations: [threefold_tech]
+    countries: [Egypt]
+    cities: [Cairo]
+    private: 0
+    socialLinks: {
+        LinkedIn: https://www.linkedin.com/in/samaradel/,
+        github: https://github.com/samaradel,
+            websites: https://threefold.tech,
+    }
 ---
 
-WSamar has over 3 years of practical experience in designing, implementing software, including web and mobile UI development, API design and she is passionate about everything Javascript, Designing
-
-
-
+Samar has over 3 years of practical experience in designing, implementing software, including web and mobile UI development, API design and she is passionate about everything Javascript, Designing pages as well. she loves exploring new libraries.

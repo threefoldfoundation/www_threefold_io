@@ -1,15 +1,21 @@
 ---
-title: "Tobias Chielens"
-description: "Co-Creating an internet that is accessible for everyone."
-template: "person_page.html"
-extra:
-  socialLinks: { LinkedIn: "https://www.linkedin.com/in/tobiaschielens/" }
-  organizations: ["foundation"]
-  imgPath: tobias_chielens.jpg
+title: Tobias Chielens
+weight: 3
+description: Co-Creating an internet that is accessible for everyone.
 taxonomies:
-  people: ["tobias_chielens"]
-  memberships:
-    [tech]
+    people: [tobias_chielens]
+    memberships: [tech]
+    categories: [foundation]
+extra:
+    imgPath: tobias_chielens.jpg
+    organizations: [threefold_tech]
+    countries: [Belgium]
+    cities: []
+    private: 0
+    socialLinks: {
+        LinkedIn: https://www.linkedin.com/in/tobiaschielens/,
+        websites: https://threefold.tech,
+    }
 ---
 
 Tobias is a passionate developer that wants to use technology to make the world a better place.
