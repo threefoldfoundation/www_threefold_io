@@ -79,6 +79,40 @@ h1 {
   line-height: 4rem;
 }
 
+.nav p > a {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 1.5rem;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  border-radius: 0.25rem;
+  border-width: 2px;
+  border-color: transparent;
+  padding: 0.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: inline-block;
+  border-width: 2px;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  text-transform: capitalize;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.nav p > a:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(231 229 228 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+}
+
 @layer components {
   h1 {
     @apply text-3xl lg:text-7xl font-normal;
@@ -120,9 +154,8 @@ h1 {
     @apply 
     inline-block
     lg:text-lg
-    px-12
-    py-1
     lg:mr-5
+    py-1
     my-3
     border-2
     shadow
@@ -179,7 +212,9 @@ button :is(:where(p)) {
 }
 
 button a {
-  color: black;
+  @apply
+  text-black
+  px-12
 }
 
 a {
@@ -385,4 +420,33 @@ header {
   }
 }
 
-header #menu button { @apply leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:first:text-gray-500 hover:border-stone-200 hover:bg-stone-100 p-2 text-left}
+header #menu button { 
+  @apply
+  lg:text-lg
+  px-6
+  py-1
+  lg:mr-5
+  my-3
+  shadow
+  border-black
+  capitalize 
+  leading-6 
+  border-transparent 
+  flex 
+  flex-col
+  border-2 
+  w-full 
+  items-start
+  rounded 
+  transition 
+  hover:first:text-gray-500 
+  hover:border-stone-200 
+  hover:bg-stone-100 
+  p-2 
+  text-left
+}
+
+header #menu button a{
+  @apply
+  px-0
+}

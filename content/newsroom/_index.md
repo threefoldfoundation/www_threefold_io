@@ -1,5 +1,5 @@
 ---
-title: "Newsroom"
+title: "News"
 paginate_by: 9
 # paginate_reversed: false
 sort_by: "date"

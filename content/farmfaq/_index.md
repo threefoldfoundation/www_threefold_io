@@ -1,4 +1,4 @@
 ---
-title: "Frequently Asked Questions"
+title: "Farm FAQ"
 template: "layouts/faq.html"
 ---

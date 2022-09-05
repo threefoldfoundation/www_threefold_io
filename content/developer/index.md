@@ -1,5 +1,5 @@
 ---
-title: "Developer"
+title: "Developers"
 template: "page.html"
 ---
 

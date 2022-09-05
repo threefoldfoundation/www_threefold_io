@@ -1,14 +1,14 @@
 {% set styles = "background-image: url('images/grid_map.png');" %}
 {% set data = load_data(url="https://gridproxy.grid.tf/stats?status=up", required=false, format="json") %}
 {% if data %}
-{% set capacity = data.totalHru + data.totalSru / 1000 %}
+{% set capacity = data.totalHru + data.totalSru / (1024 * 1024 * 1024 * 1024 * 1024) %}
 {% set nodes = data.nodes %}
 {% set countries = data.countries %}
 {% set cores = data.totalCru %}
 {% endif %}
 
 
-{% if data  %}
+{% if data %}
 <section class="px-2 h-auto bg-center bg-cover bg-no-repeat" style="{{styles}}">
     <div class="flex flex-wrap lg:p-12 text-center -mx-auto">
         <div class="text-center rounded lg:px-6 mt-10 lg:mt-0 mx-auto">
@@ -19,7 +19,7 @@
 
                 <!-- capacity -->
                 <div class="leading-none font-extrabold text-5xl">
-                    {{ capacity / 1000000 | round(precision=2) }}PB
+                    {{ capacity | round(precision=2) }}PB
                     <span class="block text-3xl uppercase">capacity</span>
                 </div>
                 <div class="..."></div>
@@ -69,8 +69,9 @@
                 {{ cores | num_format }}
                 <span class="block text-2xl uppercase">cores</span>
             </div>
-            
-            <button class="my-8"><a href="https://dashboard.grid.tf/explorer/statistics" target="_blank">Explore ThreeFold Grid Capacity</a></button>
+
+            <button class="my-8"><a href="https://dashboard.grid.tf/explorer/statistics" target="_blank">Explore
+                    ThreeFold Grid Capacity</a></button>
         </div>
     </div>
 </section>

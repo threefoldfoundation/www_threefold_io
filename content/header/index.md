@@ -10,7 +10,7 @@ extra:
 
 - [Mission]("/mission")
 - [Grid]("/grid")
-- [Cloud]("/cloud")
+- [Build]("/cloud")
 - [Farm]("/farm")
 - [TFT]("/tft")
 - Ecosystem
@@ -57,18 +57,36 @@ Join The Developer Community
 
 - MoreInfo
 
-{% row() %}
+{% row(style="wide") %}
 
-#### Resources 
+
+#### Tools
 
 <button>
 
-[Explorer](https://dashboard.grid.tf/)
-
-ThreeFold Capacity Explorer
+[ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
+<br>
+TFT Wallet, 2FA, & More
 
 </button>
 
+<button>
+
+[Dashboard](https://dashboard.grid.tf/)
+<br>
+Portal & Capacity Explorer
+
+</button>
+
+<button>
+
+[Weblet Playground](https://play.grid.tf)
+<br>
+Deploy a VM & More
+
+|||
+
+#### Resources 
 
 <button>
 
@@ -83,6 +101,14 @@ Explore the Documentation
 [Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
 <br>
 Get Started on the Grid
+
+</button>
+
+<button>
+
+[GitHub](https://github.com/)
+<br>
+Code Library & Documentation
 
 |||
 
@@ -106,9 +132,9 @@ Check the Latest Updates
 
 <button>
 
-[Litepaper](https://litepaper.threefold.me)
+[Intro Docs](https://intro.threefold.me)
 <br>
-Get the Full Picture
+Perfect for Newcomers
 
 |||
 

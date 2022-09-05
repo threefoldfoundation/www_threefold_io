@@ -1,5 +1,5 @@
 ---
-title: "careers"
+title: "Careers"
 ---
 
 

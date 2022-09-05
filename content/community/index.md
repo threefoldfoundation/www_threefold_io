@@ -1,5 +1,5 @@
 ---
-title: "community"
+title: "Community"
 template: "page.html"
 insert_anchor_links: "left"
 ---
