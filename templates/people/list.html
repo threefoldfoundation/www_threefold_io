@@ -19,8 +19,10 @@
         {% for person in terms %} 
             {% set page_path = person.path ~ 'index.md' | replace(from='-', to='_') | trim_start_matches(pat="/") %}
             {% set page = get_page(path=page_path) %}
+            {% if page.extra.private >= 0 %}
             {% include "partials/person_card.html" %}
-        {% endfor %}
+            {% endif %}
+            {% endfor %}
         </div>
         <hr class="mt-6" />
         <p class="text-center text-sm mt-2 mb-16">
