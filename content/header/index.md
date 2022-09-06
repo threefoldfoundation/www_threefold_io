@@ -17,7 +17,7 @@ extra:
 
 {% row() %}
 
-<button>
+<button onclick="window.location.href='/people'">
 
 [Our People](/people)
 <br>
@@ -27,7 +27,7 @@ Team, stories, & more
 
 |||
 
-<button>
+<button onclick="window.location.href='/partners'">
 
 [Our Partners](/partners)
 <br>
@@ -35,7 +35,7 @@ Explore Our Partners
 
 |||
 
-<button>
+<button onclick="window.location.href='/community'">
 
 [ThreeFold Community](/community)
 <br>
@@ -45,7 +45,7 @@ Welcome To The Fold
 
 |||
 
-<button>
+<button onclick="window.location.href='/developer'">
 
 [Developer Resources](/developer)
 <br>
@@ -62,7 +62,7 @@ Join The Developer Community
 
 #### Tools
 
-<button>
+<button onclick="window.location.href='https&#58;//library.threefold.me/info/threefold#/tokens/threefold__threefold_connect'">
 
 [ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
 <br>
@@ -70,7 +70,7 @@ TFT Wallet, 2FA, & More
 
 </button>
 
-<button>
+<button onclick="window.location.href='https&#58;//dashboard.grid.tf/'">
 
 [Dashboard](https://dashboard.grid.tf/)
 <br>
@@ -78,7 +78,7 @@ Portal & Capacity Explorer
 
 </button>
 
-<button>
+<button onclick="window.location.href='https&#58;//play.grid.tf'">
 
 [Weblet Playground](https://play.grid.tf)
 <br>
@@ -88,7 +88,7 @@ Deploy a VM & More
 
 #### Resources 
 
-<button>
+<button onclick="window.location.href='https&#58;//library.threefold.me/info/threefold#/'">
 
 [Library](https://library.threefold.me/info/threefold#/)
 <br>
@@ -96,7 +96,7 @@ Explore the Documentation
 
 </button>
 
-<button>
+<button onclick="window.location.href='https&#58;//library.threefold.me/info/manual/#/manual__manual3_home_new'">
 
 [Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
 <br>
@@ -104,7 +104,7 @@ Get Started on the Grid
 
 </button>
 
-<button>
+<button onclick="window.location.href='https&#58;//github.com/'">
 
 [GitHub](https://github.com/)
 <br>
@@ -114,7 +114,7 @@ Code Library & Documentation
 
 #### Dive Deeper
 
-<button>
+<button onclick="window.location.href='/blog'">
 
 [Blog](/blog)
 <br>
@@ -122,7 +122,7 @@ Explore the Blogs
 
 </button>
 
-<button>
+<button onclick="window.location.href='/newsroom'">
 
 [Newsroom](/newsroom)
 <br>
@@ -130,7 +130,7 @@ Check the Latest Updates
 
 </button>
 
-<button>
+<button onclick="window.location.href='https&#58;//intro.threefold.me'">
 
 [Intro Docs](https://intro.threefold.me)
 <br>
@@ -140,13 +140,13 @@ Perfect for Newcomers
 
 #### Support & Help
 
-<button>
+<button onclick="window.location.href='https&#58;//forum.threefold.io'">
 
 [Forum](https://forum.threefold.io)
 <br>
 Questions & Feedback
 
-<button>
+<button onclick="window.location.href='/support'">
 
 [Support](/support)
 <br>
@@ -154,7 +154,7 @@ Speak Live with a Human
 
 </button>
 
-<button>
+<button onclick="window.location.href='/careers'">
 
 [Careers](/careers)
 <br>
