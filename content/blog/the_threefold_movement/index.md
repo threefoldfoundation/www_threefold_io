@@ -9,6 +9,7 @@ taxonomies:
     tags: [why, community, peer_to_peer]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
+    isVisible: true
     imgPath: the_threefold_movement.png
 ---
 

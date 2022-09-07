@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, threefold_cloud, technology, blockchain, peer_to_peer]
     categories: [foundation, cloud]
 extra:
+    isVisible: true
     imgPath: quest_decentralize_internet.png
 ---
 

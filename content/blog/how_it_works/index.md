@@ -9,6 +9,7 @@ taxonomies:
     tags: [technology,why]
     categories: [farming,cloud,foundation]
 extra:
+    isVisible: true
     imgPath: how_it_works.png
 ---
 

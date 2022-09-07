@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, farming]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
+    isVisible: true
     imgPath: join_the_peoples_internet.png
 ---
 

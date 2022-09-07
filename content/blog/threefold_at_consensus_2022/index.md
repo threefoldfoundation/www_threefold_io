@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, threefold, peer-to-peer, why]
     categories: [foundation]
 extra:
+    isVisible: true
     imgPath: threefold_at_consensus_2022.png
 ---
 

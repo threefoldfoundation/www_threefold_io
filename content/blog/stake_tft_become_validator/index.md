@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, community, blockchain, update]
     categories: [foundation, cloud, technology]
 extra:
+    isVisible: true
     imgPath: stake_tft_become_validator.png
 ---
 

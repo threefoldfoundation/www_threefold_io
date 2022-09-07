@@ -9,6 +9,7 @@ taxonomies:
     tags: [technology,why,threefold_grid]
     categories: [farming,cloud,foundation,aci]
 extra:
+    isVisible: true
     imgPath: internet_is_growing_wild.png
 ---
 <br/>

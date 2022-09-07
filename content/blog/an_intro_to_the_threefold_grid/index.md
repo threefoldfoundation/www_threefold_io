@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid,technology,peer_to_peer]
     categories: [foundation,farming,cloud]
 extra:
+    isVisible: true
     imgPath: an_intro_to_the_threefold_grid.png
 ---
 

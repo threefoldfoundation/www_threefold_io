@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_token,blockchain]
     categories: [farming,foundation]
 extra:
+    isVisible: true
     imgPath: intro_tf_token.png
 ---
 <br/>

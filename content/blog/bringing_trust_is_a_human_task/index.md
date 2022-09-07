@@ -9,6 +9,7 @@ taxonomies:
     tags: [blockchain,technology]
     categories: [twin]
 extra:
+    isVisible: true
     imgPath: bringing_trust.png
 ---
 

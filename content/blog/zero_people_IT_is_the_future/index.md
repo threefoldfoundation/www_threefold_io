@@ -9,6 +9,7 @@ taxonomies:
     tags: [technology, threefold_cloud]
     categories: [tech, cloud]
 extra:
+    isVisible: true
     imgPath: future
 ---
 
