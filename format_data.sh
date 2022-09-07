@@ -1,13 +1,16 @@
 #/bin/bash
- 
-echo "Running threefold_data formatter:"
-echo "Formatting people..."
-dir="threefold_data/content/person"
 
-# function that checks whether given file is formatted
-# simply compares if keyword excerpt or description is used
-# $1: file
+# readable shorthand for adding tab
+add_tab() { 
+    sed -i "" "s|$1|    $1|g" "$2" 
+}
 
+# readable shorthand for sed replace
+replace() { 
+    sed -i "" "s|$1|$2|g" "$3" 
+}
+
+# check if certain word exists in a file
 exists() {
     if grep "$1" $2 > /dev/null
     then
@@ -17,6 +20,8 @@ exists() {
     fi
 }
 
+# move line with a certain word $1 
+# below another line with certain word $2
 move_below() {
     if exists $1 $3; then
         TARGET="$(grep -n "$1" "$3" | sed -n -e "s/^.*\(\($1\).*\)/\1/p")" 
@@ -30,13 +35,11 @@ $TARGET\\
     fi
 }
 
-replace() {
-        sed -i "" "s|$1|$2|g" "$file"
-}
- 
+echo "Formatting people..."
+dir="threefold_data/content/person"
+
 for file in $(grep -ril 'name:' $dir); 
 do
-    echo $file
 
     sed -i "" "s|private: 1|    private: 1\\
     socialLinks: {\\
@@ -48,6 +51,7 @@ do
     move_below projects: image: $file
     move_below linkedin: socialLinks: $file
     move_below github: linkedin: $file
+    move_below id: excerpt: $file
 
     # move bio field below toml
     BIO="$(grep -n 'bio:' "$file" | sed -n -e 's/^.*\(\(bio:\).*\)/\1/p')" 
@@ -56,42 +60,43 @@ do
     echo "\n$BIO" >> $file
     sed -i "" "s|bio: ||g" "$file"
 
-
+    # adds comma after social links
     WEBSITES="$(grep -n 'websites:' "$file" | sed -n -e 's/^.*\(\(websites:\).*\)/\1/p')" 
     sed -i "" "s|$WEBSITES|$WEBSITES,|g" "$file"
+    LINKEDIN="$(grep -n 'linkedin:' "$file" | sed -n -e 's/^.*\(\(linkedin:\).*\)/\1/p')" 
+    sed -i "" "s|$LINKEDIN|$LINKEDIN,|g" "$file"
 
-    # move id field below excerpt
+    # put id into square brackets for people taxonomy
     ID="$(grep -n 'id:' "$file" | sed -n -e 's/^.*\(\(id:\).*\)/\1/p')" 
-    LINE_NUM="$(grep -n 'id:' "$file" | head -n1 | sed 's/:.*//')" 
     NAME="${ID#* }"
-    echo $NAME
     NAME="[$NAME]"
-    sed -i "" "${LINE_NUM}d" "$file"
-    LINE_NUM="$(grep -n 'excerpt:' "$file" | head -n1 | sed 's/:.*//')"
-    LINE_NUM="$(($LINE_NUM + 1))"
-    sed -a -i "" "${LINE_NUM}i\\
-id: ${NAME}\\
-" "$file"
-
+    sed -i "" "s|$ID|id: $NAME|g" "$file"
 
     # Change field names
-    sed -i "" "s|category:|categories:|g" "$file"
-    sed -i "" "s|rank:|weight:|g" "$file"
-    sed -i "" "s|excerpt:|description:|g" "$file"
-    sed -i "" "s|    ---|---|g" "$file"
+    replace "category:" "categories:" $file
+    replace "rank:" "weight:" $file
+    replace "excerpt:" "description:" $file
+    replace "name:" "title:" $file
+    replace "linkedin:" "LinkedIn:" $file
+    replace "projects:" "organizations:" $file
+    replace "projects:" "organizations:" $file
+    replace "image: ./" "imgPath: " $file
+
     sed -i "" "s|image:|extra:\\
     image:|g" "$file"
     sed -i "" "s|id:|taxonomies:\\
     people:|g" "$file"
-    sed -i "" "s|    extra:|extra:|g" "$file"
 
-    sed -i "" "s|websites:|    websites:|g" "$file"
-    sed -i "" "s|name:|title:|g" "$file"
-    sed -i "" "s|linkedin:|    LinkedIn:|g" "$file"
-    sed -i "" "s|projects:|organizations:|g" "$file"
-    sed -i "" "s|image: ./|imgPath: |g" "$file"
-    sed -i "" "s|countries:|    countries:|g" "$file"
-    sed -i "" "s|cities:|    cities:|g" "$file"
+    add_tab "cities:" $file
+    add_tab "countries:" $file
+    add_tab "extra:" $file
+
+    #dir_path=${file%/*}
+    #fname=${dir_path##*/}
+    #mkdir content/people/$fname
+    #mv -s $file content/people/$fname/index.md
+    #ln -s ${file%/*} content/people
+
 
     mv $file ${file%/*}/index.md
     mv ${file%/*} content/people
