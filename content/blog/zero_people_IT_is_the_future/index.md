@@ -10,7 +10,7 @@ taxonomies:
     categories: [tech, cloud]
 extra:
     isVisible: true
-    imgPath: future
+    imgPath: zero_people.png
 ---
 
 ## Introduction

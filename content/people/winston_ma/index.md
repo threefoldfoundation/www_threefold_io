@@ -4,7 +4,7 @@ weight: 3
 description: Winston Ma, CFA & Esq. an investor, attorney, author, and adjunct professor in the global digital economy.
 taxonomies:
     people: [winston_ma]
-    memberships: [ambassador, tech]
+    memberships: [ambassadors, tech]
     categories: [foundation, farming, cloud]
 extra:
     imgPath: winston_ma.jpeg
