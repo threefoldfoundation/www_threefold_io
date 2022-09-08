@@ -34,3 +34,4 @@ install*
 public
 static/css
 tailwindcss
+config.toml
