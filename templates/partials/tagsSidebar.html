@@ -1,0 +1,23 @@
+<div class="mx-8 md:mx-4 flex flex-col">
+    <div class="flex flex-col mb-12 mr-8 lg:mr-24">
+        <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-6"> FILTER BY</h4>
+        {% set taxonomy = get_taxonomy(kind="tags") %}
+        {% set tags = taxonomy.items %}
+        {% for tag in tags %}
+        {% set path = tag.name | slugify %}
+        {% set fullpath = "/tags/" ~ path %}
+        <a id="{{path}}" class="mb-3 text-black font-normal" href={{fullpath}}> #{{tag.name}} </a>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    function setActiveCategory() {
+        let activeCategory = window.location.pathname.split("/")[2]
+        if (typeof activeCategory === "undefined") { activeLink = document.getElementById("all") }
+        else { activeLink = document.getElementById(activeCategory) }
+        activeLink.className = activeLink.className.replace("text-black font-normal", "text-black font-semibold");
+    }
+
+    setActiveCategory()
+</script>

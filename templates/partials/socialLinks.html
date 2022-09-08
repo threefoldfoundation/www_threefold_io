@@ -1,0 +1,31 @@
+{% if not section %}
+{% set section = page %}
+{% endif %}
+
+<div class="flex space-x-4">
+    {% for key, link in section.extra.socialLinks %}
+
+        <a href="{{link}}" target="_blank" class="text-gray-400 hover:text-gray-500">
+        <span class="sr-only">{{key}}</span>
+        {% if key == "Facebook" %}
+        {% include "partials/icons/svgFacebookIcon.html" %}
+        {% elif key == "Github" %}
+        {% include "partials/icons/svgGithubIcon.html" %}
+        {% elif key == "Github2" %}
+        {% include "partials/icons/svgGithubIcon.html" %}
+        {% elif key == "Instagram" %}
+        {% include "partials/icons/svgInstagramIcon.html" %}
+        {% elif key == "LinkedIn" %}
+        {% include "partials/icons/svgLinkedInIcon.html" %}
+        {% elif key == "Twitter" %}
+        {% include "partials/icons/svgTwitterIcon.html" %}
+        {% elif key == "Dribbble" %}
+        {% include "partials/icons/svgDribbbleIcon.html" %}
+        {% elif key == "Telegram" %}
+        {% include "partials/icons/svgTelegram.html" %}
+        {% endif %}
+        </a>
+
+    {% endfor %}
+
+  </div>

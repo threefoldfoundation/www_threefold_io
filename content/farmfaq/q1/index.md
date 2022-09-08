@@ -1,0 +1,22 @@
+---
+id: farmq1
+title: What is Farming?
+---
+
+Farming is connecting a 3Node (server-type hardware) in your home or office, that way empowering your city, village, or community with a data sovereign and planet positive Internet infrastructure that can host the data of millions of people and earn you income in [TFT](https://threefold.io/token).
+<br/>
+<br/>
+
+3Nodes are powered by ThreeFold’s open source operating system Zero-OS, and can host the data and workloads of thousands of people. When providing Internet capacity to the ThreeFold Grid, you are rewarded with TFT. And thanks to our proof-of-capacity model, your 3Node does all the heavy lifting for you.
+<br/>
+<br/>
+
+To get started with Farming, all you need to do is boot any Intel or AMD hardware with ThreeFold’s Operating System - ZeroOS. That’s it.
+<br/> 
+<br/> 
+Yes, it’s that simple.
+<br/>
+<br/>
+
+[Learn More](https://library.threefold.me/info/tfgrid/#/threefold__farming_intro)
+
