@@ -93,3 +93,7 @@ window.onload = function () {
     document.getElementById("filter-btn").addEventListener('click', toggleFilter);
     document.getElementById("mobile-learn-btn").addEventListener('click', toggleMenu);
 }
+
+function openInNewTab(url) {
+    window.open(url, '_blank').focus()
+}
