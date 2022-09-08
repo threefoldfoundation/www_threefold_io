@@ -36,9 +36,7 @@ Parameters:
 {% endif %}
 
 <!-- makes external links in row open in new tabs-->
-{% set body = body | markdown | replace(from='href="', to='target="_blank" href="') | safe %}
-{% set base_url = get_url(path="")%}
-{% set body = body | markdown | replace(from='target="_blank" href="' ~ base_url , to='href="' ~ base_url) | safe %}
+
 
 <!-- Splits body to columns -->
 {% set columns = body | safe | markdown | split(pat="|||") %}

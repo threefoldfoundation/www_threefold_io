@@ -62,7 +62,7 @@ Join The Developer Community
 
 #### Tools
 
-<button onclick="window.location.href='https&#58;//library.threefold.me/info/threefold#/tokens/threefold__threefold_connect'">
+<button>
 
 [ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
 <br>
