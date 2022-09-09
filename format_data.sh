@@ -44,6 +44,9 @@ do
     sed -i "" "s|private: 1|    private: 1\\
     socialLinks: {\\
     }|g" "$file"
+    sed -i "" "s|private: 0|    private: 0\\
+    socialLinks: {\\
+    }|g" "$file"
 
     move_below category: excerpt: $file
     move_below memberships: excerpt: $file
@@ -65,6 +68,10 @@ do
     sed -i "" "s|$WEBSITES|$WEBSITES,|g" "$file"
     LINKEDIN="$(grep -n 'linkedin:' "$file" | sed -n -e 's/^.*\(\(linkedin:\).*\)/\1/p')" 
     sed -i "" "s|$LINKEDIN|$LINKEDIN,|g" "$file"
+    if exists "github" $file; then
+        GITHUB="$(grep -n 'github:' "$file" | sed -n -e 's/^.*\(\(github:\).*\)/\1/p')" 
+        sed -i "" "s|$GITHUB|$GITHUB,|g" "$file"
+    fi
 
     # put id into square brackets for people taxonomy
     ID="$(grep -n 'id:' "$file" | sed -n -e 's/^.*\(\(id:\).*\)/\1/p')" 
@@ -82,26 +89,29 @@ do
     replace "projects:" "organizations:" $file
     replace "image: ./" "imgPath: " $file
 
-    sed -i "" "s|image:|extra:\\
-    image:|g" "$file"
+    sed -i "" "s|imgPath:|extra:\\
+    imgPath:|g" "$file"
     sed -i "" "s|id:|taxonomies:\\
     people:|g" "$file"
 
+    add_tab "memberships:" $file
+    add_tab "categories:" $file
     add_tab "cities:" $file
     add_tab "countries:" $file
-    add_tab "extra:" $file
+    add_tab "organizations:" $file
+    add_tab "LinkedIn:" $file
+    add_tab "LinkedIn:" $file
+    add_tab "websites:" $file
+    add_tab "websites:" $file
+    add_tab "github:" $file
+    add_tab "github:" $file
 
-    #dir_path=${file%/*}
-    #fname=${dir_path##*/}
-    #mkdir content/people/$fname
-    #mv -s $file content/people/$fname/index.md
+    dir_path=${file%/*}
+    fname=${dir_path##*/}
+    mkdir content/people/$fname
+    ln -s ../../../$file content/people/$fname/index.md
+    ln -s ../../../$dir_path/$fname.jpg content/people/$fname
     #ln -s ${file%/*} content/people
-
-
-    mv $file ${file%/*}/index.md
-    mv ${file%/*} content/people
-
-    break
 
 done;
 
@@ -127,10 +137,15 @@ do
     sed -i "" "s|image: ./|extra:\\
     imgPath: |g" "$file"
 
-    mv $file ${file%/*}/index.md
-    mv ${file%/*} content/blog
+    add_tab "tags" $file
+    add_tab "categories" $file
 
-    break
+    dir_path=${file%/*}
+    fname=${dir_path##*/}
+    mkdir content/blog/$fname
+    ln -s ../../../$file content/blog/$fname/index.md
+    ln -s ../../../$dir_path/$fname.jpg content/blog/$fname
+
 done;
 
 echo "Formatting news..."
@@ -146,7 +161,7 @@ do
     move_below image: category: $file
 
     # Change field names
-    sed -i "" "s|category:|categories:|g" "$file"
+    sed -i "" "s|category:|news-category:|g" "$file"
     sed -i "" "s|created:|date:|g" "$file"
     sed -i "" "s|excerpt:|description:|g" "$file"
     sed -i "" "s|    ---|---|g" "$file"
@@ -155,10 +170,17 @@ do
     sed -i "" "s|image: ./|extra:\\
     imgPath: |g" "$file"
 
-    mv $file ${file%/*}/index.md
-    mv ${file%/*} content/newsroom
+    add_tab "tags" $file
+    add_tab "news-category" $file
 
-    break
+    dir_path=${file%/*}
+    fname=${dir_path##*/}
+    mkdir content/newsroom/$fname
+    ln -s ../../../$file content/newsroom/$fname/index.md
+    ln -s ../../../$dir_path/$fname.jpg content/newsroom/$fname
 
 done;
 
+# mickey malul people taxonomy should be mickey_malul
+# kristof's categories are not formatted correctly
+# zero people it is the future blog bug
