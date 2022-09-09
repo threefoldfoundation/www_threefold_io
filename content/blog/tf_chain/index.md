@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
     categories: [foundation, cloud, technology]
 extra:
+    isVisible: true
     imgPath: tf_chain.png
 ---
 

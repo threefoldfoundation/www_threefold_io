@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, farming, threefold_token, why]
     categories: [foundation]
 extra:
+    isVisible: true
     imgPath: farming_a_greener_alternative_to_crypto_mining.png
 ---
 

@@ -9,6 +9,7 @@ taxonomies:
     tags: [technology,farming,threefold_token,why]
     categories: [farming,cloud,foundation]
 extra:
+    isVisible: true
     imgPath: new_neutral_internet.png
 ---
 <br/>

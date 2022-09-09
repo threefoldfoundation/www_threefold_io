@@ -9,6 +9,7 @@ taxonomies:
     tags: [why,farming]
     categories: [twin,foundation]
 extra:
+    isVisible: true
     imgPath: unique.png
 ---
 

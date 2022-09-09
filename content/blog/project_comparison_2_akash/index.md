@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, blockchain, technology, threefold_cloud, threefold_token]
     categories: [foundation]
 extra:
+    isVisible: true
     imgPath: project_comparison_2_akash.png
 ---
 

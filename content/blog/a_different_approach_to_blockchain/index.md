@@ -9,6 +9,7 @@ taxonomies:
     tags: [digital_twin,data,why]
     categories: []
 extra:
+    isVisible: true
     imgPath: a_different_approach_to_blockchain.png
 ---
 

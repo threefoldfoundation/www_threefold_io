@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid,technology, peer_to_peer, data]
     categories: [foundation]
 extra:
+    isVisible: true
     imgPath: internet_at_the_edge.png
 ---
 

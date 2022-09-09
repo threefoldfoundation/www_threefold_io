@@ -9,6 +9,7 @@ taxonomies:
     tags: [digital_twin, data, why]
     categories: [twin]
 extra:
+    isVisible: true
     imgPath: actually_you_are_the_product.png
 ---
 

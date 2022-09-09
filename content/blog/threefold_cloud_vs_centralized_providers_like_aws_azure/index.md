@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, threefold_cloud, technology, partner, peer_to_peer]
     categories: [foundation,farming,cloud]
 extra:
+    isVisible: true
     imgPath: threefold_cloud_vs_centralized_providers.png
 ---
 

@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_token]
     categories: [farming,foundation]
 extra:
+    isVisible: true
     imgPath: new_digital_currency.png
 ---
 

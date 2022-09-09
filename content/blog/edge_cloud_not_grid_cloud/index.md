@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_cloud, technology]
     categories: [tftech, cloud]
 extra:
+    isVisible: true
     imgPath: edge_cloud.png
 ---
 

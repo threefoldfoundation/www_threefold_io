@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_farming,why]
     categories: [farming,twin,foundation,cloud,aci]
 extra:
+    isVisible: true
     imgPath: better_solution.png
 ---
 <br/>

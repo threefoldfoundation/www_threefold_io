@@ -26,11 +26,11 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 {% row(style="center narrow") %}
 
-<button>[Collective Dream](https://threefold.io/blog/post/tf_grid_peoples_internet/)</button>
+<button>[Collective Dream](/blog/tf-grid-peoples-internet/)</button>
 
 |||
 
-<button>[Planet & People First](https://threefold.io/blog/post/planet_first_people_first/)</button>
+<button>[Planet & People First](/blog/planet-first-people-first/)</button>
 
 |||
 

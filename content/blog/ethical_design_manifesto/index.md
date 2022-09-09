@@ -9,6 +9,7 @@ taxonomies:
     tags: [why]
     categories: [farming,twin,cloud,foundation,aci]
 extra:
+    isVisible: true
     imgPath: ethical_design_manifesto.png
 ---
 <br/>

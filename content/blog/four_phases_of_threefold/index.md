@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid,why,technology,farming,threefold_token]
     categories: [foundation]
 extra:
+    isVisible: true
     imgPath: the_four_phases_of_threefold.png
 ---
 

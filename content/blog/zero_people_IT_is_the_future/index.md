@@ -10,6 +10,9 @@ taxonomies:
     people: [weynand_kuijpers]
     tags: [technology, threefold_cloud]
     categories: [tech, cloud]
+extra:
+    isVisible: true
+    imgPath: zero_people_IT_is_the_future.png
 ---
 
 ## Introduction

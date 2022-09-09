@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid,technology]
     categories: [farming,cloud,foundation,aci,twin]
 extra:
+    isVisible: true
     imgPath: smart_contract_blog.png
 
 

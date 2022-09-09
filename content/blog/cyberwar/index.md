@@ -9,6 +9,7 @@ taxonomies:
     tags: [peer_to_peer,data,why,technology]
     categories: [foundation]
 extra:
+    isVisible: true
     imgPath: cyberwar.png
 ---
 

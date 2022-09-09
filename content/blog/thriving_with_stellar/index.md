@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, threefold_token, technology, blockchain, update]
     categories: [foundation]
 extra:
+    isVisible: true
     imgPath: thriving_with_stellar.png
 ---
 

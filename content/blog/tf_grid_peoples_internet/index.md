@@ -9,6 +9,7 @@ taxonomies:
     tags: [data, why, peer_to_peer, threefold_grid]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
+    isVisible: true
     imgPath: tf_grid_peoples_internet.png
 ---
 

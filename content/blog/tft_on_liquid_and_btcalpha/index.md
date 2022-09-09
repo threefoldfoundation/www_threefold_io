@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_token]
     categories: [farming,foundation,aci]
 extra:
+    isVisible: true
     imgPath: tft_on_liquid_and_btcalpha.png
 ---
 

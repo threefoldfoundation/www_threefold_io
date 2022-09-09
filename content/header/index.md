@@ -62,7 +62,7 @@ Join The Developer Community
 
 #### Tools
 
-<button onclick="window.location.href='https&#58;//library.threefold.me/info/threefold#/tokens/threefold__threefold_connect'">
+<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/tokens/threefold__threefold_connect')">
 
 [ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
 <br>
@@ -70,7 +70,7 @@ TFT Wallet, 2FA, & More
 
 </button>
 
-<button onclick="window.location.href='https&#58;//dashboard.grid.tf/'">
+<button onclick="openInNewTab('https&#58;//dashboard.grid.tf/')">
 
 [Dashboard](https://dashboard.grid.tf/)
 <br>
@@ -78,7 +78,7 @@ Portal & Capacity Explorer
 
 </button>
 
-<button onclick="window.location.href='https&#58;//play.grid.tf'">
+<button onclick="openInNewTab('https&#58;//play.grid.tf')">
 
 [Weblet Playground](https://play.grid.tf)
 <br>
@@ -88,7 +88,7 @@ Deploy a VM & More
 
 #### Resources 
 
-<button onclick="window.location.href='https&#58;//library.threefold.me/info/threefold#/'">
+<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/')">
 
 [Library](https://library.threefold.me/info/threefold#/)
 <br>
@@ -96,7 +96,7 @@ Explore the Documentation
 
 </button>
 
-<button onclick="window.location.href='https&#58;//library.threefold.me/info/manual/#/manual__manual3_home_new'">
+<button onclick="openInNewTab('https&#58;//library.threefold.me/info/manual/#/manual__manual3_home_new')">
 
 [Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
 <br>
@@ -104,7 +104,7 @@ Get Started on the Grid
 
 </button>
 
-<button onclick="window.location.href='https&#58;//github.com/'">
+<button onclick="openInNewTab('https&#58;//github.com/')">
 
 [GitHub](https://github.com/)
 <br>
@@ -130,7 +130,7 @@ Check the Latest Updates
 
 </button>
 
-<button onclick="window.location.href='https&#58;//intro.threefold.me'">
+<button onclick="openInNewTab('https&#58;//intro.threefold.me')">
 
 [Intro Docs](https://intro.threefold.me)
 <br>
@@ -140,7 +140,7 @@ Perfect for Newcomers
 
 #### Support & Help
 
-<button onclick="window.location.href='https&#58;//forum.threefold.io'">
+<button onclick="openInNewTab('https&#58;//forum.threefold.io')">
 
 [Forum](https://forum.threefold.io)
 <br>

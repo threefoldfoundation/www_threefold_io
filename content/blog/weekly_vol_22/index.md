@@ -9,6 +9,7 @@ taxonomies:
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
+    isVisible: false
     imgPath: weekly_vol_22.png
 ---
 
