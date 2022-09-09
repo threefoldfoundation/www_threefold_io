@@ -2,10 +2,10 @@
 id: big_datacenter_myth
 title: Datacenter Myths
 image_caption: internet servers
-date: 2017-10-12
 description: Hyperscale realities are very different to what most people think. Myth 1 - Bigger data centers are more efficient.
+date: 2017-10-12
 taxonomies:
-    people: []
+    people: [andreas_hartl]
     tags: [technology,threefold_grid_,why]
     categories: [farming,cloud,foundation,aci]
 extra:

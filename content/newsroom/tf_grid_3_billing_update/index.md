@@ -2,8 +2,8 @@
 id: tf_grid_3_billing_update
 title: ThreeFold Grid 3 Billing Update
 image_caption: TF Grid 3 Billing Update
-date: 2022-03-17
 description: Explaining the billing process for ThreeFold Grid 3 deployments.
+date: 2022-03-17
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,threefold_grid,farming]

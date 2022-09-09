@@ -2,8 +2,8 @@
 id: weekly_vol_18
 title: "ThreeFold Weekly! May 17th, 2022 (Vol 18)"
 image_caption: ThreeFold Weekly! May 17th, 2022 (Vol 18)
-date: 2022-05-18
 description: Welcome to the 18th edition of ThreeFold Weekly. Let’s get you up to speed on last week’s most important happenings.
+date: 2022-05-18
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, community, farming, update]

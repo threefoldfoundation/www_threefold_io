@@ -2,8 +2,8 @@
 id: threefold_dragonchain
 title: Dragonchain and ThreeFold Announce Collaboration
 image_caption: blockchain
-date: 2021-05-03
 description: Dragonchain and ThreeFold partner to provide a peer-to-peer cloud for Dragonchain’s growing developer community
+date: 2021-05-03
 taxonomies:
     people: [sam_taggart]
     tags: [partner,technology,update,blockchain]

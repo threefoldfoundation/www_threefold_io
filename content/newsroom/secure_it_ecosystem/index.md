@@ -2,8 +2,8 @@
 id: secure_it_ecosystem
 title: How ThreeFold Provides a Secure IT Ecosystem
 image_caption: ThreeFold Secure IT Ecosystem
-date: 2021-09-17
 description: Apple and Google's critical security updates are examples of why the world needs ThreeFold's secure IT ecosystem.
+date: 2021-09-17
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,technology,update,peer_to_peer]

@@ -2,8 +2,8 @@
 id: threefold_top_web3
 title: ThreeFold Highlighted as Top Web3 Startup
 image_caption: ThreeFold Top Web3 Startup
-date: 2022-04-13
 description: ThreeFold was hand-picked as a top Web3 startup by StartUs Insights
+date: 2022-04-13
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

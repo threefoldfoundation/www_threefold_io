@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/dylan-verstraete-229539a4/,
         github: https://github.com/DylanVerstraete,
-            websites: https://www.threefold.tech,
+        websites: https://www.threefold.tech,
     }
 ---
 

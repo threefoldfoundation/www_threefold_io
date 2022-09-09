@@ -2,8 +2,8 @@
 id: tft_bsc_btc
 title: TFT is more accessible; now available via PancakeSwap and a BTC Integration on ThreeFold Connect
 image_caption: TFT is now more accessible
-date: 2021-05-12
 description: Today, the bridge to BSC is live, making TFT available on PancakeSwap! And anyone can now buy TFT with BTC directly on the ThreeFold Connect app.
+date: 2021-05-12
 taxonomies:
     people: [sam_taggart]
     tags: [technology,update,blockchain]

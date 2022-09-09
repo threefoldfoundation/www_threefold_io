@@ -2,8 +2,8 @@
 id: project_comparison_3_filecoin
 title: "A Journey through the Decentralization and Blockchain Space – Part Three: Filecoin"
 image_caption: Filecoin & how it compares to ThreeFold
-date: 2021-10-08
 description: This post is the third one in a series to look into fellow projects and their solutions to better understand the space we operate in and how ThreeFold stands out. This time, we're taking a closer look at Filecoin!
+date: 2021-10-08
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, blockchain, technology]

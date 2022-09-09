@@ -2,8 +2,8 @@
 id: 3node_team_nov29
 title: Your November 29 Titan Update
 image_caption: Your November 29 Titan Update
-date: 2021-11-29
 description: Today, the first batch of Titans begins shipping to North America!
+date: 2021-11-29
 taxonomies:
     people: [sam_taggart]
     tags: [farming,update,community]

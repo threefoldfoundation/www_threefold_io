@@ -2,8 +2,8 @@
 id: global_reset
 title: ThreeFold participating @ Global Reset!
 image_caption: ThreeFold participating @ Global Reset!
-date: 2020-12-04
 description: ThreeFold is proud to be supporting and attending the Global Reset Summit taking place this weekend, December 5 & 6.
+date: 2020-12-04
 taxonomies:
     people: [sam_taggart]
     tags: [event,community,update]

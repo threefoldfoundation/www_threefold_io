@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/alexandre-hannelas-741681112/,
         github: https://github.com/AlexandreHannelas,
-            websites: https://threefold.io/,
+        websites: https://threefold.io/,
     }
 ---
 

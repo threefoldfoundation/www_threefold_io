@@ -2,8 +2,8 @@
 id: sep1_comm_call_recording
 title: September 1 Community Call Recording
 image_caption: Sep 1 Community Call Recording
-date: 2021-09-02
 description: Here is the recording of yesterday's community call, which focused on farming and TF Grid 3.0!
+date: 2021-09-02
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,update,threefold_cloud,technology,community,farming]

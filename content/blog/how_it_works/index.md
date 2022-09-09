@@ -2,8 +2,8 @@
 id: how_it_works
 title: ThreeFold's Long Story Short
 image_caption: technology
-date: 2020-05-15
 description: The truth is that ThreeFold is a big project. Here we will try to make things a little simpler for you.
+date: 2020-05-15
 taxonomies:
     people: [sam_taggart]
     tags: [technology,why]

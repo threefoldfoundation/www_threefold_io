@@ -2,8 +2,8 @@
 id: stake_tft_become_validator
 title: "Stake TFT and Become a ThreeFold Validator"
 image_caption: Stake TFT and Become a ThreeFold Validator
-date: 2022-03-16
 description: ThreeFold is realizing the initial promise of an open-source, peer-to-peer Internet owned by the people. Anyone can become a validator and participate in the decentralization of the Internet economy.
+date: 2022-03-16
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, community, blockchain, update]

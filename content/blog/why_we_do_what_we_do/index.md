@@ -2,8 +2,8 @@
 id: why
 title: Why We Do What We Do
 image_caption: planet
-date: 2020-04-08
 description: If not now, when? If not us, who?
+date: 2020-04-08
 taxonomies:
     people: [sam_taggart]
     tags: [why,threefold_farming]

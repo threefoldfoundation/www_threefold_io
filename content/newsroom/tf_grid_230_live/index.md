@@ -2,8 +2,8 @@
 id: tf_23_is_live
 title: TF Grid 2.3.0 is live!
 image_caption: TF Grid 2.3.0 is live!
-date: 2020-11-20
 description: The release introduces some improvements to the grid’s stability, new features, and testnet resource additions. You can read more within!
+date: 2020-11-20
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,technology,update]

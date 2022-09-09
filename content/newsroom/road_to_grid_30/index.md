@@ -2,8 +2,8 @@
 id: road_to_grid_30
 title: The Road to TF Grid v3.0
 image_caption: The road to Grid 3.0
-date: 2021-08-17
 description: Today we are sharing the roadmap to ThreeFold Grid version 3.0, a production-ready grid.
+date: 2021-08-17
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid, update, technology]

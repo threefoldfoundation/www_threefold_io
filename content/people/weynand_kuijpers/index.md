@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/weynandkuijpers/,
         github: https://github.com/weynandkuijpers,
-            websites: https://threefold.io/, https://threefold.tech,
+        websites: https://threefold.io/, https://threefold.tech,
     }
 ---
 

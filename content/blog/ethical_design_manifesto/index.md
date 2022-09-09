@@ -2,8 +2,8 @@
 id: ethical_design_manifesto
 title: Creating solutions that respect humanity and the planet
 image_caption: humanity
-date: 2017-06-06
 description: Respect Human Rights, Respect Human Effort, Respect Human Experience
+date: 2017-06-06
 taxonomies:
     people: [kristof_de_spiegeleer]
     tags: [why]

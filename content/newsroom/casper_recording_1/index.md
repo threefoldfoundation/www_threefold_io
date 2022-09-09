@@ -2,8 +2,8 @@
 id: casper_recording_1_news
 title: ThreeFold x CasperLabs Community Call Recording
 image_caption: ThreeFold x Casper Call Recording
-date: 2021-04-16
 description: Thanks again to the team at Casper for having us on!
+date: 2021-04-16
 taxonomies:
     people: [sam_taggart]
     tags: [partner,community,blockchain,update]

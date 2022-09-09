@@ -2,10 +2,10 @@
 id: q2_batch_sold_out
 title: Q2 3Node Batch is Sold Out! Q3 Pre-registration is Live!
 image_caption: Q2 Batch Sold Out
-date: 2021-06-04
 description: After Tactical Investing covered our project, the Q2 Titan V2 3Node batch is offically sold out!
+date: 2021-06-04
 taxonomies:
-    people: []
+    people: [roel_van_sabben]
     tags: [grid,farming]
     news-category: [foundation,farming,cloud]
 extra:

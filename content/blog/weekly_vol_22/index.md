@@ -2,8 +2,8 @@
 id: weekly_vol_22
 title: "ThreeFold Weekly! June 28th, 2022 (Vol 22)"
 image_caption: ThreeFold Weekly! June 28th, 2022 (Vol 22)
-date: 2022-06-28
 description: Welcome to the 22nd edition of ThreeFold Weekly. Let’s get you up to speed on the latest happenings around ThreeFold.
+date: 2022-06-28
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, community, farming, update]

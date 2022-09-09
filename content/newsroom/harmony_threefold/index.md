@@ -2,8 +2,8 @@
 id: threefold_harmony
 title: Harmony Integrates with ThreeFold’s Decentralized Grid
 image_caption: partners blockchain
-date: 2020-05-29
 description: Harmony and ThreeFold will work together on developer and user projects on the ThreeFold Grid and Pangaea..
+date: 2020-05-29
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [partner,technology,update,blockchain]

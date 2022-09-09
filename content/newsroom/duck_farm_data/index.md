@@ -2,8 +2,8 @@
 id: duck_farm_data
 title: New Partner on the Global 3Node Marketplace
 image_caption: New Partner on G3M
-date: 2022-06-22
 description: A warm welcome to Duck Farm Data, the newest 3Node partner for North America!
+date: 2022-06-22
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,farming,threefold_grid]

@@ -2,8 +2,8 @@
 id: tfweekly15
 title: ThreeFold Weekly! Volume Fifteen
 image_caption: TF Weekly Volume Fifteen
-date: 2022-04-26
 description: All you need to know about last week in ThreeFold
+date: 2022-04-26
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

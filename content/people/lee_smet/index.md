@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/lee-smet-4a279a136/,
         github: https://github.com/LeeSmet,
-            websites: https://threefold.io/,
+        websites: https://threefold.io/,
     }
 ---
 

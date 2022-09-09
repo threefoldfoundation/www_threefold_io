@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/babenkonickolay/,
         github: https://github.com/nbabenko,
-            websites: https://threefold.io/, https://www.mazraa.io/, https://www.fair-swap.org,
+        websites: https://threefold.io/, https://www.mazraa.io/, https://www.fair-swap.org,
     }
 ---
 

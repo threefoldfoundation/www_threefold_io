@@ -2,8 +2,8 @@
 id: why_should_i_care
 title: Why should I care? 
 image_caption: Why should I care
-date: 2021-01-27
 description: Do you remember the time where you could create your own safe space and decide what others see and know?
+date: 2021-01-27
 taxonomies:
     people: [alexandre_hannelas]
     tags: [digital_twin,why]

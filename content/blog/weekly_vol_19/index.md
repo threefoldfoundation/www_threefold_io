@@ -2,8 +2,8 @@
 id: weekly_vol_19
 title: "ThreeFold Weekly! May 24th, 2022 (Vol 19)"
 image_caption: ThreeFold Weekly! May 24th, 2022 (Vol 19)
-date: 2022-05-24
 description: Welcome to the 19th edition of ThreeFold Weekly! Here’s what happened in the ThreeFold universe last week.
+date: 2022-05-24
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, community, farming, update]

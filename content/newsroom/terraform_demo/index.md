@@ -2,8 +2,8 @@
 id: terraform_demo
 title: A First Look at Terraform on TF Grid 3.0
 image_caption: Terraform Demo
-date: 2021-09-01
 description: A demo on how easy it is to create, use, and destroy deployments on TF Grid 3.0 using Terraform.
+date: 2021-09-01
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,update,threefold_cloud,technology,community]

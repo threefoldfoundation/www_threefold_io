@@ -2,8 +2,8 @@
 id: 3node_team_dec21
 title: Your December 21 Titan Update
 image_caption: Your December 21 Titan Update
-date: 2021-12-21
 description: Pending hardware delivery, Titans continue to go out around the world.
+date: 2021-12-21
 taxonomies:
     people: [sam_taggart]
     tags: [farming,update,community]

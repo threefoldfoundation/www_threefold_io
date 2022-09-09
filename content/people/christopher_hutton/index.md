@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/chris-hutton-a3034777/,
         github: https://github.com/christopherhutton,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

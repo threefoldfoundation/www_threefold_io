@@ -2,8 +2,8 @@
 id: oktober_2020_community_call
 title: ThreeFold's October 2020 community update is here
 image_caption: ThreeFold's October 2020 community update is here
-date: 2020-10-30
 description: It’s the end of October and a lot has gone on this month – an upgrade to testnet, progress on ThreeFold Now, some notable new team members, and more! Find the link to the full update within!
+date: 2020-10-30
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

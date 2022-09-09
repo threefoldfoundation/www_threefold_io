@@ -2,8 +2,8 @@
 id: threefold_2022_reflect_h1_outlook_h2
 title: "ThreeFold 2022 – A Look Back at H1 & Ahead to H2"
 image_caption: ThreeFold 2022 – A Look Back at H1 & Ahead to H2
-date: 2022-07-26
 description: It was an eventful first half of 2022 for ThreeFold and the entire ecosystem – with the evolution of the Internet of Internets, huge advancements and the continued expansion of the ThreeFold Grid, new partnerships, and more!
+date: 2022-07-26
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, update, community, technology]

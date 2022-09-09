@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/ramez-saeed-a9801819/,
         github: https://github.com/ramezsaeed,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

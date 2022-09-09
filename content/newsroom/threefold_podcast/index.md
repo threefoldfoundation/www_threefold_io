@@ -2,8 +2,8 @@
 id: threefold_podcast
 title: Don't Miss the ThreeFold Podcast
 image_caption: ThreeFold Podcast
-date: 2022-06-17
 description: The first five episodes of the ThreeFold podcast are live!
+date: 2022-06-17
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

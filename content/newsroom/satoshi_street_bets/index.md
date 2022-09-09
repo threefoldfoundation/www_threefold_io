@@ -2,8 +2,8 @@
 id: satoshi_street_bets
 title: Satoshi Street Bets x ThreeFold AMA
 image_caption: Satoshi Street Bets x ThreeFold AMA
-date: 2021-06-14
 description: Some of the team joined Satoshi Street Bets for an Ask Me Anything with their community. Listen to the recording!
+date: 2021-06-14
 taxonomies:
     people: [sam_taggart]
     tags: [community, interview, technology]

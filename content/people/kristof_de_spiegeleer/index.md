@@ -4,7 +4,7 @@ weight: 1
 description: Nerd engineer, humanist & motivated entrepreneur.
 taxonomies:
     people: [kristof_de_spiegeleer]
-    memberships: [farmers, foundation, tech, cofounders, aci_members, wisdom_council, technology_council,]
+    memberships: [farmers, foundation, tech, cofounders, aci_members, wisdom_council, technology_council]
     categories: [foundation, aci, cloud, farming, twin]
 extra:
     imgPath: kristof_de_spiegeleer.jpeg
@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/despiegk/,
         github: https://github.com/despiegk,
-            websites: https://www.threefold.io, https://www.incubaid.com/,
+        websites: https://www.threefold.io, https://www.incubaid.com/,
     }
 ---
 

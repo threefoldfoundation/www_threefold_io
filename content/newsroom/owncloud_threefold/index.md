@@ -2,8 +2,8 @@
 id: owncloud_threefold
 title: ownCloud and ThreeFold Announce Partnership
 image_caption: ownCloud and ThreeFold
-date: 2021-09-28
 description: ownCloud Partners With ThreeFold to Truly Decentralize Content Collaboration
+date: 2021-09-28
 taxonomies:
     people: [sam_taggart]
     tags: [partner,technology,update]

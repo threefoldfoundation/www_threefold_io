@@ -2,8 +2,8 @@
 id: for_our_planet
 title: A Better Solution for Our Planet
 image_caption: sustainability
-date: 2020-12-02
 description: We believe IT can be sustainable. Actually, it should be! That's why energy efficiency has always been a key focus of ours..
+date: 2020-12-02
 taxonomies:
     people: [weynand_kuijpers]
     tags: [threefold_farming,why]

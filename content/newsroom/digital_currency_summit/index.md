@@ -2,8 +2,8 @@
 id: digital_currency_summit
 title: ThreeFold at Digital Currency Summit
 image_caption: ThreeFold at Digital Currency Summit
-date: 2022-07-11
 description: Join ThreeFold co-founder as he takes the stage at Digital Currency Summit!
+date: 2022-07-11
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,event]

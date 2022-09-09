@@ -2,8 +2,8 @@
 id: tfweekly4
 title: ThreeFold Weekly! Volume Four
 image_caption: TF Weekly Volume Four
-date: 2022-01-30
 description: Key updates from the ThreeFold ecosystem!
+date: 2022-01-30
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

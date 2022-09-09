@@ -2,8 +2,8 @@
 id: grid_24_mainnet_soon
 title: Grid 2.4 is coming to mainnet soon!
 image_caption: Grid 2.4 is coming to mainnet soon
-date: 2021-02-02
 description: We are in the final stages of testing Grid 2.4 & will soon release on mainnet!
+date: 2021-02-02
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,update,technology]

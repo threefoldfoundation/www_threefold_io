@@ -2,10 +2,10 @@
 id: new_farming_rewards
 title: Introducing New Farming Rewards
 image_caption: Introducing New Farming Rewards
-date: 2021-07-07
 description: A new easier to understand model that covers both Certified and DIY Farming.
+date: 2021-07-07
 taxonomies:
-    people: []
+    people: [roel_van_sabben]
     tags: [farming,threefold_grid]
     news-category: [foundation,farming]
 extra:

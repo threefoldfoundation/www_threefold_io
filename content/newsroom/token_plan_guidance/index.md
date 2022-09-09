@@ -2,8 +2,8 @@
 id: token_plan_guidance
 title: Seeking participation with the TFT plan
 image_caption: Token Plan Guidance Committee
-date: 2021-02-03
 description: We have some final decisions to make regarding the token & farming plan & we're calling for the community's help!
+date: 2021-02-03
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_token,farming,community]

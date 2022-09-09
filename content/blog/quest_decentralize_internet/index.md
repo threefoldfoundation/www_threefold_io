@@ -2,8 +2,8 @@
 id: quest_decentralize_internet
 title: "Our Quest to Fully Decentralize the Internet"
 image_caption: Our Quest to Fully Decentralize the Internet
-date: 2021-10-14
 description: It's our mission to transform the Internet and Cloud. Learn more about the status quo and how we're working on fully decentralizing the entire Internet!
+date: 2021-10-14
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, threefold_cloud, technology, blockchain, peer_to_peer]

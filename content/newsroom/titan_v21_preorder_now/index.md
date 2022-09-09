@@ -2,8 +2,8 @@
 id: titan_v21_preorder_now
 title: Pre-Order Your Titan v2.1 Now!
 image_caption: Pre-Order Your Titan v2.1 Now
-date: 2021-06-11
 description: Pre-orders for the Titan v2.1 are now open for the general public!
+date: 2021-06-11
 taxonomies:
     people: [sam_taggart]
     tags: [farming,threefold_grid]

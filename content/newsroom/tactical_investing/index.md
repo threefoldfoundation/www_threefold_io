@@ -2,8 +2,8 @@
 id: tactical_investing
 title: Tactical Investing Covers ThreeFold
 image_caption: Tactical Investing Covers ThreeFold
-date: 2021-06-05
 description: Large YouTube influencer talks about ThreeFold, Titan v2 Nodes Sell Out!
+date: 2021-06-05
 taxonomies:
     people: [sam_taggart]
     tags: [farming,community,influencer]

@@ -2,8 +2,8 @@
 id: threefold_cryptopotato
 title: ThreeFold Coverage in CryptoPotato
 image_caption: ThreeFold CryptoPotato
-date: 2022-04-25
 description: ThreeFold – Building a Truly Decentralized Internet Infrastructure, via CryptoPotato
+date: 2022-04-25
 taxonomies:
     people: [sam_taggart]
     tags: [news,threefold_grid,technology,peer_to_peer]

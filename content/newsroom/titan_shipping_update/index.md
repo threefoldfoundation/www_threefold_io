@@ -2,8 +2,8 @@
 id: titan_shipping_update
 title: Titan v2.1 Shipping Update
 image_caption: Titan v2.1 Shipping Update
-date: 2021-09-08
 description: Titan v2.1 3Nodes will begin shipping the last week of September!
+date: 2021-09-08
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,update,farming,community]

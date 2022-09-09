@@ -2,8 +2,8 @@
 id: tfweekly19
 title: ThreeFold Weekly! Volume Nineteen
 image_caption: ThreeFold Weekly Volume Nineteen
-date: 2022-05-25
 description: All of the key highlights from ThreeFold, last week!
+date: 2022-05-25
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

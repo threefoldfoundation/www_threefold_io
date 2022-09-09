@@ -1,7 +1,11 @@
 {% if post.date %}
 {% if post.taxonomies.people %}
-    {% set author_path = 'people/' ~ post.taxonomies.people[0] ~ '/index.md' %}
-    {% set author = get_page(path=author_path) %}
+    {% set people = get_section(path="people/_index.md") %}           
+    {% set pages_str = people.pages | json_encode() | as_str %}
+    {% if pages_str is containing(post.taxonomies.people[0]) %}
+        {% set author_path = 'people/' ~ post.taxonomies.people[0] ~ '/index.md' %}
+        {% set author = get_page(path=author_path) %}
+    {% endif %}
 {% endif %}
 
 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
