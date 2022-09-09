@@ -18,10 +18,13 @@
           <div class="flex justify-between items-center">
             <ul class="list-none flex author-list my-10 mr-2 px-0">
             {% if page.taxonomies.people %}
-              {% for person in page.taxonomies.people %}
-              {% set author_path = 'people/' ~ person ~ '/index.md' %}
-              {% set author = get_page(path=author_path) %}
-              {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
+                {% for person in page.taxonomies.people %}
+                    {% set author_path = 'people/' ~ person ~ '/index.md' %}
+                    {% set people = get_section(path="people/_index.md") %}           
+                    {% set pages_str = people.pages | json_encode() | as_str %}
+                    {% if pages_str is containing(person) %}
+                        {% set author = get_page(path=author_path) %}
+                        {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
               <li class="author-list-item">
                 <a href="{{author.permalink}}" tooltip="{{author.title}}">
                   <img src="{{author_img}}" alt="{{ author.title }}" class="
@@ -33,6 +36,7 @@
                   " />
                 </a>
               </li>
+              {% endif %}
               {% endfor %}
               {% endif %}
             </ul>
@@ -41,12 +45,17 @@
           <div class="pl-3 flex flex-col text-xs leading-none uppercase">
             <p>
             {% if page.taxonomies.people %}
-                {% for person in page.taxonomies.people %}
-                {% set author_path = 'people/' ~ person ~ '/index.md' %}
+            {% for person in page.taxonomies.people %}
+            {% set author_path = 'people/' ~ person ~ '/index.md' %}
+            {% set people = get_section(path="people/_index.md") %}           
+            {% set pages_str = people.pages | json_encode() | as_str %}
+            {% if pages_str is containing(person) %}
                 {% set author = get_page(path=author_path) %}
+                {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
               <span>
                 <a href="{{author.permalink}}" tooltip="{{author.title}}" class="hover:underline text-gray-800">{{ author.title }}</a>
               </span>
+              {% endif %}
                 {% endfor %}
             {% endif %}
             </p>

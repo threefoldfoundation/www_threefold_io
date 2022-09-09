@@ -106,13 +106,8 @@ do
     add_tab "github:" $file
     add_tab "github:" $file
 
-    dir_path=${file%/*}
-    fname=${dir_path##*/}
-    mkdir content/people/$fname
-    ln -s ../../../$file content/people/$fname/index.md
-    ln -s ../../../$dir_path/$fname.jpg content/people/$fname
-    #ln -s ${file%/*} content/people
-
+    mv $file ${file%/*}/index.md
+    mv ${file%/*} content/people
 done;
 
 echo "Formatting blogs..."
@@ -140,12 +135,8 @@ do
     add_tab "tags" $file
     add_tab "categories" $file
 
-    dir_path=${file%/*}
-    fname=${dir_path##*/}
-    mkdir content/blog/$fname
-    ln -s ../../../$file content/blog/$fname/index.md
-    ln -s ../../../$dir_path/$fname.jpg content/blog/$fname
-
+    mv $file ${file%/*}/index.md
+    mv ${file%/*} content/blog
 done;
 
 echo "Formatting news..."
@@ -173,14 +164,11 @@ do
     add_tab "tags" $file
     add_tab "news-category" $file
 
-    dir_path=${file%/*}
-    fname=${dir_path##*/}
-    mkdir content/newsroom/$fname
-    ln -s ../../../$file content/newsroom/$fname/index.md
-    ln -s ../../../$dir_path/$fname.jpg content/newsroom/$fname
-
+    mv $file ${file%/*}/index.md
+    mv ${file%/*} content/newsroom
 done;
 
+# 
 # mickey malul people taxonomy should be mickey_malul
 # kristof's categories are not formatted correctly
 # zero people it is the future blog bug
