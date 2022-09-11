@@ -2,8 +2,8 @@
 id: whats_new_vdc
 title: New Updates to the VDC!
 image_caption: vdc new updates
-date: 2021-02-24
 description: Learn more about new improvements to the VDC!
+date: 2021-02-24
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_cloud,technology,update]

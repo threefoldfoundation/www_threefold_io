@@ -2,8 +2,8 @@
 id: paradise_hills
 title: ThreeFold in Paradise
 image_caption: ThreeFold in Paradise
-date: 2022-04-07
 description: An inside look at how the Paradise Hills partnership came to be and how the model can scale around the world.
+date: 2022-04-07
 taxonomies:
     people: [sam_taggart]
     tags: [partner, threefold_grid, why]

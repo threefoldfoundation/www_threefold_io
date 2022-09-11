@@ -2,8 +2,8 @@
 id: threefold_coincodex
 title: ThreeFold Coverage in CoinCodex
 image_caption: ThreeFold CoinCodex
-date: 2022-04-04
 description: ThreeFold - Host the Cloud At Your House, via CoinCodex
+date: 2022-04-04
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news,technology,why,threefold_grid,blockchain]

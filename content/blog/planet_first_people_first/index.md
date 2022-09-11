@@ -2,8 +2,8 @@
 id: planet_first_people_first
 title: "Planet first. People first."
 image_caption: Planet first. People first.
-date: 2022-07-05
 description: Together with our community and partners, we're taking action and making productive choices for our planet and humanity.
+date: 2022-07-05
 taxonomies:
     people: [hannah_cordes]
     tags: [community, why]

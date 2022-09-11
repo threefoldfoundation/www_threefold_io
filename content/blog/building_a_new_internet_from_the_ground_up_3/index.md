@@ -2,8 +2,8 @@
 id: building_a_new_internet_from_the_ground_up_3
 title: "Building a New Internet From the Ground Up – Part 3: Compute"
 image_caption: The ThreeFold Grid Peer-to-Peer Technology
-date: 2021-10-04
 description: Part three of an approachable series on the inner workings of the ThreeFold Grid. This time, we're exploring compute.
+date: 2021-10-04
 taxonomies:
     people: [scott_yeager]
     tags: [threefold_grid,technology,peer_to_peer]
@@ -13,7 +13,7 @@ extra:
     imgPath: building_a_new_internet_3.png
 ---
 
-*Welcome back for another installment of our accessible series on ThreeFold Grid technology. We are working through the three major categories that make up cloud infrastructure: storage, compute, and network. This time, we'll be focusing on compute.*
+*Welcome back for another installment of our accessible series on ThreeFold Grid technology. We are working through the three major     categories that make up cloud infrastructure: storage, compute, and network. This time, we'll be focusing on compute.*
 
 ## What is compute?
 

@@ -2,8 +2,8 @@
 id: ama_recording_nov_2020
 title: Sharing the November 2020 AMA recording
 image_caption: Sharing the November 2020 AMA recording
-date: 2020-11-12
 description: For those who missed the Ask Me Anything on Tuesday evening, you can find the call recording within!
+date: 2020-11-12
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,event]

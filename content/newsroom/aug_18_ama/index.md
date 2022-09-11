@@ -2,8 +2,8 @@
 id: aug_18_ama
 title: We're Hosting an AMA on August 18th
 image_caption: August 18th AMA
-date: 2021-08-16
 description: Announcing bi-weekly community AMAs starting this Wednesday!
+date: 2021-08-16
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

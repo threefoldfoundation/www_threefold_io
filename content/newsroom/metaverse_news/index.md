@@ -2,8 +2,8 @@
 id: metaverse_news
 title: CMSWire Asks ThreeFold About the Metaverse
 image_caption: ThreeFold Metaverse
-date: 2022-01-21
 description: Co-founder Kristof de Spiegeleer discusses why the metaverse will need a decentralized Internet infrastructure.
+date: 2022-01-21
 taxonomies:
     people: [sam_taggart]
     tags: [news,update]

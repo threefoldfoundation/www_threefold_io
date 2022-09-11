@@ -2,8 +2,8 @@
 id: an_intro_to_the_threefold_grid
 title: "Building a New Internet From the Ground Up – Part 1: Introduction"
 image_caption: The ThreeFold Grid Peer-to-Peer Technology
-date: 2021-07-19
 description: The first episode in an approachable series on the inner workings of the ThreeFold Grid.
+date: 2021-07-19
 taxonomies:
     people: [scott_yeager]
     tags: [threefold_grid,technology,peer_to_peer]
@@ -47,7 +47,7 @@ ThreeFold farmers, on the other hand, have no administrative access to their nod
 
 ## Three Essential Resources
 
-In the world of cloud computing, we speak of three basic resources provided by servers: compute, storage, and network. The ThreeFold Grid provides various primitives in each of these categories, to fulfill all the same needs served by centralized cloud providers. While our offerings have the special properties discussed above, they are also highly compatible with the most popular tools and protocols currently used in the industry. This makes it relatively simple to migrate the back end applications, also known as "workloads", that provide a kind of connective tissue for all of the digital experiences we enjoy on a daily basis.
+In the world of cloud computing, we speak of three basic resources provided by servers: compute, storage, and network. The ThreeFold Grid provides various primitives in each of these     categories, to fulfill all the same needs served by centralized cloud providers. While our offerings have the special properties discussed above, they are also highly compatible with the most popular tools and protocols currently used in the industry. This makes it relatively simple to migrate the back end applications, also known as "workloads", that provide a kind of connective tissue for all of the digital experiences we enjoy on a daily basis.
 
 <br>
 

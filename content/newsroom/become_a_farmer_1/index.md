@@ -2,8 +2,8 @@
 id: become_a_farmer_1_news
 title: Be the Internet – Become a Farmer!
 image_caption: Be the Internet
-date: 2021-04-18
 description: Now, you can BE THE INTERNET by becoming a ThreeFold Farmer.
+date: 2021-04-18
 taxonomies:
     people: [sam_taggart]
     tags: [farming,community]

@@ -2,8 +2,8 @@
 id: realizing_the_promise
 title: "Co-Realizing the Promise"
 image_caption: Co-Realizing the Promise
-date: 2022-03-21
 description: Together with our global community, we're realizing the initial promise of an open-source, peer-to-peer Internet owned by the people.
+date: 2022-03-21
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [threefold_grid, peer_to_peer, community, why]

@@ -2,8 +2,8 @@
 id: reading_and_consensus_reminder
 title: ThreeFold Reading and Consensus Reminder
 image_caption: ThreeFold Reading and Consensus Reminder
-date: 2022-06-06
 description: Sharing some recent important ThreeFold materials and a reminder about Consensus.
+date: 2022-06-06
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

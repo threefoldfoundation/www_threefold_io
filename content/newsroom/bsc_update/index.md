@@ -2,8 +2,8 @@
 id: bsc_update_news
 title: Update on the Binance Smart Chain Integration
 image_caption: Update on the Binance Smart Chain Integration
-date: 2021-05-05
 description: We are happy to update that the BSC integration is going just as planned and next week, TFT will be available there.
+date: 2021-05-05
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_token,blockchain,community]

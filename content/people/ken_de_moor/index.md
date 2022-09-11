@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/ken-de-moor-qa/,
         github: https://github.com/ken-de-moor,
-            websites: https://threefold.tech, https://jimber.io/,
+        websites: https://threefold.tech, https://jimber.io/,
     }
 ---
 

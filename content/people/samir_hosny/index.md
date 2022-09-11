@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/samir-hosny-58b81394/,
         github: https://github.com/hossnys,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

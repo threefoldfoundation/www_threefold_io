@@ -2,8 +2,8 @@
 id: tfweekly20
 title: ThreeFold Weekly! Volume Twenty
 image_caption: ThreeFold Weekly Volume Twenty
-date: 2022-06-07
 description: Read about the latest and greatest in the ThreeFold universe!
+date: 2022-06-07
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

@@ -2,10 +2,10 @@
 id: intro_to_farming
 title: An intro to ThreeFold Farming
 image_caption: internet farming
-date: 2020-02-03
 description: We probably don’t need to tell you that the invention of Blockchain technology changed the world dramatically..
+date: 2020-02-03
 taxonomies:
-    people: []
+    people: [andreas_hartl]
     tags: [farming]
     categories: [farming,threefold_grid,threefold_token]
 extra:

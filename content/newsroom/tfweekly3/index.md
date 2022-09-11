@@ -2,8 +2,8 @@
 id: tfweekly3
 title: ThreeFold Weekly! Volume Three
 image_caption: TF Weekly Volume Three
-date: 2022-01-23
 description: The week that was, around the ThreeFold ecosystem.
+date: 2022-01-23
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

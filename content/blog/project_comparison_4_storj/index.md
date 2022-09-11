@@ -2,8 +2,8 @@
 id: project_comparison_4_storj
 title: "A Journey through the Decentralization and Blockchain Space – Part Four: Storj"
 image_caption: Storj & how it compares to ThreeFold
-date: 2021-10-21
 description: Follow me to the fourth stop on my journey through the space. This time, we’re looking into Storj!
+date: 2021-10-21
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, threefold_cloud, technology, blockchain, peer_to_peer]

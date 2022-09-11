@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/jand2/,
         github: https://github.com/delandtj,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

@@ -2,8 +2,8 @@
 id: terraform_grid3
 title: ThreeFold Grid 3.0 Supports Terraform
 image_caption: TF Grid 3.0 Supports Terraform
-date: 2021-08-31
 description: Read about Terraform, how it works on the TF Grid 3.0, and what it means for grid users.
+date: 2021-08-31
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,threefold_cloud,update,technology]

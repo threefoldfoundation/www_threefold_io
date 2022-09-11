@@ -2,8 +2,8 @@
 id: tech_new_internet
 title: A new approach to the Internet Architecture
 image_caption: internet tech
-date: 2018-05-12
 description: The Edge internet needs a different approach. So, we started as from scratch and shaped a totally new approach..
+date: 2018-05-12
 taxonomies:
     people: [weynand_kuijpers]
     tags: [technology,threefold_grid]

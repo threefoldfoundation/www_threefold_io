@@ -2,8 +2,8 @@
 id: 3node_team_dec8
 title: Your December 8 Titan Update
 image_caption: Your December 8 Titan Update
-date: 2021-12-08
 description: We’re in the midst of shipping a large batch of Titans to North America, and we’re expanding our partner network.
+date: 2021-12-08
 taxonomies:
     people: [sam_taggart]
     tags: [farming,update,community]

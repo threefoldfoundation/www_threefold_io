@@ -2,8 +2,8 @@
 id: what_is_farming
 title: What is ThreeFold Farming?
 image_caption: What is farming
-date: 2022-03-01
 description: A decentralized and energy-efficient way for people to expand a new Internet infrastructure.
+date: 2022-03-01
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [peer_to_peer,why,farming,threefold_grid]

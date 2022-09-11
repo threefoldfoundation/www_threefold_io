@@ -2,8 +2,8 @@
 id: 3k3nodeslive
 title: A ThreeFold Grid Milestone
 image_caption: A ThreeFold Grid Milestone
-date: 2022-05-25
 description: We have now crossed 3,000 3Nodes connected to the ThreeFold Grid. Thank you, farmers!
+date: 2022-05-25
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,farming,peer_to_peer]

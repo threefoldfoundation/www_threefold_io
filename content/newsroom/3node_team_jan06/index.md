@@ -2,8 +2,8 @@
 id: 3node_team_jan06
 title: Your January 6 3Node Team Update
 image_caption: Your January 6 3Node Team Update
-date: 2022-01-06
 description: This week's update is focused on shipping as well as farming rewards, anda  reminder about our deep dives!
+date: 2022-01-06
 taxonomies:
     people: [sam_taggart]
     tags: [community,farming,update]

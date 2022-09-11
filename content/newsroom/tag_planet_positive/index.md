@@ -2,8 +2,8 @@
 id: tag_planet_positive
 title: Realizing a Planet-Positive Internet
 image_caption: Realizing a Planet-Positive Internet
-date: 2022-02-09
 description: How we are taking real action with Take Action Global to enables the world's first planet-positive Internet infrastructure.
+date: 2022-02-09
 taxonomies:
     people: [sam_taggart]
     tags: [community,partner,news,why]

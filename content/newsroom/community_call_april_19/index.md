@@ -2,8 +2,8 @@
 id: community_call_april_19
 title: ThreeFold Community Call Next Tuesday
 image_caption: Community Call April 19
-date: 2022-04-15
 description: We'd like to invite the community for a call to catch up on all things ThreeFold next Tuesday April 19th.
+date: 2022-04-15
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

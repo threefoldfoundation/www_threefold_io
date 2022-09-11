@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/robvanmieghem/,
         github: https://github.com/robvanmieghem,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

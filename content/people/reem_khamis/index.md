@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/rkhamis/,
         github: https://github.com/rkhamis,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

@@ -2,8 +2,8 @@
 id: a_better_understanding_of_wealth
 title: A Better Understanding of Wealth
 image_caption: a better understanding of wealth
-date: 2021-01-27
 description: Wealth is more than the accumulation of money and resources.
+date: 2021-01-27
 taxonomies:
     people: [alexandre_hannelas]
     tags: [why,digital_twin]

@@ -2,8 +2,8 @@
 id: tfweekly12
 title: ThreeFold Weekly! Volume Twelve
 image_caption: TF Weekly Volume Twelve
-date: 2022-03-29
 description: Recapping recent events in the ThreeFold universe.
+date: 2022-03-29
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

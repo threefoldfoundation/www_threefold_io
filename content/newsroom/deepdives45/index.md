@@ -2,8 +2,8 @@
 id: deepdives45
 title: New Year Deep Dive Sessions 4 & 5
 image_caption: Deep Dives 4 & 5
-date: 2022-01-13
 description: Recaps of two deep dives with the community this week – one more next week!
+date: 2022-01-13
 taxonomies:
     people: [sam_taggart]
     tags: [community,threefold_grid,technology,threefold_token,update,peer_to_peer]

@@ -2,8 +2,8 @@
 id: two_way_news
 title: Join the ThreeFold Two-Way Chat
 image_caption: ThreeFold Two-Way
-date: 2021-04-14
 description: We've opened up a two-way chat on Telegram for the ThreeFold community!
+date: 2021-04-14
 taxonomies:
     people: [sam_taggart]
     tags: [update, community]

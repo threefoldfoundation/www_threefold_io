@@ -2,8 +2,8 @@
 id: join_the_peoples_internet
 title: How You Can Join the People's Internet
 image_caption: join the people's internet
-date: 2021-06-09
 description: An entirely new Internet economy that is owned by all of us. Add capacity, earn income!
+date: 2021-06-09
 taxonomies:
     people: [weynand_kuijpers]
     tags: [threefold_grid, farming]

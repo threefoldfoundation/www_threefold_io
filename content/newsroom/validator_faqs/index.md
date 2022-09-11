@@ -2,8 +2,8 @@
 id: validator_faqs
 title: Validator Frequently Asked Questions
 image_caption: Validator FAQs
-date: 2022-02-15
 description: An FAQ for all of your validator node questions.
+date: 2022-02-15
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news,technology,peer_to_peer]

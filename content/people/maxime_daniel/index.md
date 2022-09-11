@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/maxime-daniel-29bb8055/,
         github: https://github.com/maxux,
-            websites: https://www.threefold.tech,
+        websites: https://www.threefold.tech,
     }
 ---
 

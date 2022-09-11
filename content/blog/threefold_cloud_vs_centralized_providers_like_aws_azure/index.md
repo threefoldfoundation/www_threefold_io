@@ -2,8 +2,8 @@
 id: threefold_cloud_vs_centralized_providers_like_aws_azure
 title: "Why is ThreeFold P2P Cloud the better solution for customers than Amazon Web Services or Microsoft Azure?"
 image_caption: ThreeFold P2P Cloud vs. centralized cloud providers like AWS, Microsoft Azure & Google Cloud
-date: 2021-10-12
 description: As we’ve recently been exploring decentralized projects to see where ThreeFold is in the space and where we stand out, we thought it’s a good time to also look into how we compare to traditional, centralized cloud providers.
+date: 2021-10-12
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, threefold_cloud, technology, partner, peer_to_peer]

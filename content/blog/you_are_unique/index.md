@@ -2,8 +2,8 @@
 id: unique
 title: You Are Unique
 image_caption: humanity
-date: 2019-12-05
 description: During a gathering with some friends, I noticed something that made me think about how important it is what we’re doing.
+date: 2019-12-05
 taxonomies:
     people: [sabrina_sadik]
     tags: [why,farming]

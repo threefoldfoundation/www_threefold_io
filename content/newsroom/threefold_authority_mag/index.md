@@ -2,8 +2,8 @@
 id: threefold_authority_mag
 title: ThreeFold Interviewed by Authority Magazine
 image_caption: ThreeFold Authority Mag
-date: 2022-03-25
 description: The Future Is Now - Kristof De Spiegeleer Of ThreeFold On How Their Technological Innovation Will Shake Up The Tech Scene, via Authority Magazine
+date: 2022-03-25
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,interview,technology,why,threefold_grid,blockchain]

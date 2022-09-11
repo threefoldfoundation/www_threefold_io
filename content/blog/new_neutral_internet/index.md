@@ -2,8 +2,8 @@
 id: new_neutral_internet
 title: The need for ThreeFold's neutral internet
 image_caption: planet internet
-date: 2017-06-01
 description: The Internet is no longer the neutral place it used to be. +80% of the Internet capacity is delivered by a handful of companies.
+date: 2017-06-01
 taxonomies:
     people: [kristof_de_spiegeleer]
     tags: [technology,farming,threefold_token,why]

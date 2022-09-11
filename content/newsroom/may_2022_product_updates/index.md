@@ -2,8 +2,8 @@
 id: may_2022_product_updates
 title: May 2022's ThreeFold Product Updates
 image_caption: May 2022 Product Updates
-date: 2022-05-16
 description: See what the team is working on this month for TF Grid V3.0.0 Alpha-6!
+date: 2022-05-16
 taxonomies:
     people: [sam_taggart]
     tags: [technology,threefold_grid,threefold_token,community,update]

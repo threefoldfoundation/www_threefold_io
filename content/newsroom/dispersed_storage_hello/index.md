@@ -2,8 +2,8 @@
 id: dispersed_storage_hello
 title: Say Hello to the Dispersed Storage
 image_caption: Say Hello to the Dispersed Storage
-date: 2021-04-20
 description: Less redundancy and less wasted resources through dispersed storage on the ThreeFold Grid.
+date: 2021-04-20
 taxonomies:
     people: [sam_taggart]
     tags: [technology,threefold_grid,threefold_cloud]

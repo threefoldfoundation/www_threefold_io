@@ -2,15 +2,14 @@
 id: tfweekly23
 title: ThreeFold Weekly! Volume Twenty Three
 image_caption: ThreeFold Weekly Volume Twenty Three
-date: 2022-07-06
 description: Catch up on what's been happening around the ThreeFold ecosystem!
+date: 2022-07-06
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]
     news-category: [foundation]
 extra:
     imgPath: tfweekly23.png
-    isFeatured: "true"
 ---
 
 📰 **ThreeFold Weekly! July 5th Edition (Volume Twenty-Three)**

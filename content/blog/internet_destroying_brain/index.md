@@ -2,8 +2,8 @@
 id: internet_destroying_brain
 title: Response - The Internet is Destroying Our Brains, but We Can't Quit
 image_caption: The Internet is Destroying Our Brains
-date: 2021-07-01
 description: A response to a poignant article written by P.E. Moskowitz on the dangers of today's Internet.
+date: 2021-07-01
 taxonomies:
     people: [sam_taggart]
     tags: [why, peer_to_peer, digital_twin, technology]

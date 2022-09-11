@@ -2,8 +2,8 @@
 id: threefold_dash
 title: Dash & Dash NEXT partner with ThreeFold
 image_caption: blockchain
-date: 2020-07-03
 description: Dash, Dash NEXT and the ThreeFold Foundation are excited to officially announce their collaboration, effective the end of June 2020.
+date: 2020-07-03
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [partner,technology,update,blockchain]

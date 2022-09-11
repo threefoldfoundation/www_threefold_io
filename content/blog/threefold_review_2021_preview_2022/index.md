@@ -2,8 +2,8 @@
 id: threefold_review_2021_preview_2022
 title: "ThreeFold’s 2021 Review and 2022 Preview"
 image_caption: ThreeFold’s 2021 Review and 2022 Preview
-date: 2022-01-02
 description: It was an important year for ThreeFold, with huge developments on the ThreeFold Grid, the continued expansion of the grid by farmers, key partnerships, and more – all setting up for a strong 2022!
+date: 2022-01-02
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid, threefold_cloud, technology, blockchain, update]

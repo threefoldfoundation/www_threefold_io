@@ -2,8 +2,8 @@
 id: potential_of_tft
 title: Get to Know the ThreeFold Token
 image_caption: Potential of TFT
-date: 2022-01-21
 description: Learn all about TFT, the utility token of the People's Internet meeting real-world demands.
+date: 2022-01-21
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_token,update]

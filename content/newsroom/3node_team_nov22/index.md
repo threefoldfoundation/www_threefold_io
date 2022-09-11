@@ -2,8 +2,8 @@
 id: 3node_team_nov22
 title: Your November 22 Titan Update
 image_caption: Your November 22 Titan Update
-date: 2021-11-22
 description: This week, we’re covering shipping, compensation for the unexpected 3Node configuration issue, upgrades to our process, expanding support, & more.
+date: 2021-11-22
 taxonomies:
     people: [sam_taggart]
     tags: [farming,update,community]

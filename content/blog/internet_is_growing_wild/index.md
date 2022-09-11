@@ -2,10 +2,10 @@
 id: internet_is_growing_wild
 title: Internet is growing wild
 image_caption: planet
-date: 2019-12-05
 description: The internet is growing at an extremely fast pace, but is that a good thing?
+date: 2019-12-05
 taxonomies:
-    people: []
+    people: [andreas_hartl]
     tags: [technology,why,threefold_grid]
     categories: [farming,cloud,foundation,aci]
 extra:

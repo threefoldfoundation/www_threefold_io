@@ -2,8 +2,8 @@
 id: grid3_testing
 title: Calling All Grid 3.0 Testers
 image_caption: Grid 3.0 Testing
-date: 2021-09-15
 description: We are now ready to invite a limited group from our community to test an early release of Grid 3.0!
+date: 2021-09-15
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,technology,threefold_grid,threefold_cloud]

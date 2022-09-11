@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/jonas-delrue/,
         github: https://github.com/jdelrue,
-            websites: https://www.jimber.org/, https://threefold.tech/,
+        websites: https://www.jimber.org/, https://threefold.tech/,
     }
 ---
 

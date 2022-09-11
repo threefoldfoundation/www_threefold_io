@@ -2,8 +2,8 @@
 id: new_edge_cloud
 title: Use cases for the ThreeFold Peer-to-Peer Cloud
 image_caption: technology
-date: 2018-09-12
 description: Containers, IAAS, Archives, Security, and more..
+date: 2018-09-12
 taxonomies:
     people: [sam_taggart]
     tags: [technology,threefold_cloud]

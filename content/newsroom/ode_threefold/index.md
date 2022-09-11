@@ -2,8 +2,8 @@
 id: ode_threefold
 title: ODE and ThreeFold Announce Partnership
 image_caption: ODE and ThreeFold
-date: 2021-08-05
 description: ODE and ThreeFold Join Forces to Democratize Consumer Data
+date: 2021-08-05
 taxonomies:
     people: [sam_taggart]
     tags: [partner,technology,update]

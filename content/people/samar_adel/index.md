@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/samaradel/,
         github: https://github.com/samaradel,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

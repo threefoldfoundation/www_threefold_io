@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/abdelrahman-ghanem-41a31815/,
         github: https://github.com/abom,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

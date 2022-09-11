@@ -2,10 +2,10 @@
 id: introducing_certified_capacity
 title: Introducing Certified Farming for a More Secure ThreeFold Grid 
 image_caption: certified_capacity
-date: 2021-07-07
 description: More tamper-proof hardware = more security for all!
+date: 2021-07-07
 taxonomies:
-    people: []
+    people: [roel_van_sabben]
     tags: [farming,threefold_grid]
     news-category: [foundation,farming]
 extra:

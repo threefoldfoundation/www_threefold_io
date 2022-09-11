@@ -2,8 +2,8 @@
 id: tfweekly9
 title: ThreeFold Weekly! Volume Nine
 image_caption: TF Weekly Volume Nine
-date: 2022-03-07
 description: All the latest from ThreeFold, last week.
+date: 2022-03-07
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

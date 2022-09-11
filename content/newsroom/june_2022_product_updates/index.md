@@ -2,8 +2,8 @@
 id: june_2022_product_updates
 title: June's ThreeFold Product Updates
 image_caption: June's ThreeFold Product Updates
-date: 2022-06-03
 description: ThreeFold Grid v3 Alpha 6 is nearly complete, including ownCloud Deployer, Uhuru v1.2 beta, and more!
+date: 2022-06-03
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,technology,threefold_grid]

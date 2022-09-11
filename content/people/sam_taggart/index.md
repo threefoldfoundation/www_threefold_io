@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/samtaggart/,
         github: https://github.com/samtaggart,
-            websites: https://threefold.io/,
+        websites: https://threefold.io/,
     }
 ---
 
