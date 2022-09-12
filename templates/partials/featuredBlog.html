@@ -1,6 +1,10 @@
 {% if featured.taxonomies.people %}
-    {% set author_path = 'people/' ~ featured.taxonomies.people[0] ~ '/index.md' %}
-    {% set author = get_page(path=author_path) %}
+    {% set people = get_section(path="people/_index.md") %}           
+    {% set pages_str = people.pages | json_encode() | as_str %}
+    {% if pages_str is containing(featured.taxonomies.people[0]) %}
+        {% set author_path = 'people/' ~ featured.taxonomies.people[0] ~ '/index.md' %}
+        {% set author = get_page(path=author_path) %}
+    {% endif %}
 {% endif %}
 
 <body>

@@ -2,8 +2,9 @@
 {% block content %}
 
 {% if page.taxonomies.people %}
-    {% set people = get_section(path="people/_index.md") %}
-    {% if people.pages is containing(page.taxonomies.people[0]) %}
+    {% set people = get_section(path="people/_index.md") %}           
+    {% set pages_str = people.pages | json_encode() | as_str %}
+    {% if pages_str is containing(page.taxonomies.people[0]) %}
         {% set author_path = 'people/' ~ page.taxonomies.people[0] ~ '/index.md' %}
         {% set author = get_page(path=author_path) %}
     {% endif %}
