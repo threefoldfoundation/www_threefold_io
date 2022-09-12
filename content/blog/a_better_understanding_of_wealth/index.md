@@ -9,7 +9,6 @@ taxonomies:
     tags: [why,digital_twin]
     categories: [twin]
 extra:
-    isVisible: true
     imgPath: a_better_understanding_of_wealth.jpg
 ---
 

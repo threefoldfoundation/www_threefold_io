@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, update, community, technology]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: threefold_2022_reflect_h1_outlook_h2.png
 ---
 

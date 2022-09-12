@@ -9,7 +9,6 @@ taxonomies:
     tags: [why,threefold_farming]
     categories: [farming,twin,aci,foundation]
 extra:
-    isVisible: true
     imgPath: why_we_do.png
 ---
 <br/>

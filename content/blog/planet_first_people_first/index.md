@@ -9,7 +9,6 @@ taxonomies:
     tags: [community, why]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: planet_first_people_first.png
 ---
 

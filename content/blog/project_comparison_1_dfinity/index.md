@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, blockchain, technology]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: project_comparison_1_dfinity.png
 ---
 

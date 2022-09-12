@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, community, farming, why, update]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: internet_of_internets.png
 ---
 

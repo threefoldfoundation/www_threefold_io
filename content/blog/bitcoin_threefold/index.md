@@ -9,7 +9,6 @@ taxonomies:
     tags: [peer_to_peer,threefold_grid,blockchain,technology]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: bitcoin_threefold.png
 ---
 

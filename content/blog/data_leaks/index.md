@@ -9,7 +9,6 @@ taxonomies:
     tags: [data, why, peer_to_peer]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: data_leaks.png
 ---
 

@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, peer_to_peer, community, why]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: connecting_the_dots.png
 ---
 

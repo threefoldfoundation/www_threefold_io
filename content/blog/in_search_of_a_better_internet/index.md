@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, data, peer-to-peer, why]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: in_search_of_a_better_internet.png
 ---
 

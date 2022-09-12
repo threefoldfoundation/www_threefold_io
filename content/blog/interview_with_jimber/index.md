@@ -9,7 +9,6 @@ taxonomies:
     tags: [peer_to_peer, threefold_grid, technology]
     categories: [farming, threefold_grid, threefold_token, foundation]
 extra:
-    isVisible: true
     imgPath: interview_with_jimber.png
 ---
 

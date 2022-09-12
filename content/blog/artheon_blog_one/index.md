@@ -9,7 +9,6 @@ taxonomies:
     tags: [partner, peer_to_peer, update]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: artheon_blog_one.png
 ---
 

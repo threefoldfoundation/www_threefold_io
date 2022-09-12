@@ -9,7 +9,6 @@ taxonomies:
     tags: [data,why,threefold_grid,farming]
     categories: [farming,cloud,foundation,aci,twin]
 extra:
-    isVisible: true
     imgPath: threefold_data_sovereignty.png
 ---
 

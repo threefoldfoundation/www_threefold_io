@@ -9,7 +9,6 @@ taxonomies:
     tags: [farming,threefold_grid,technology,peer_to_peer]
     categories: [farming, grid, tech, aci, cloud, foundation]
 extra:
-    isVisible: true
     imgPath: decentralizing_the_internet.png
 ---
 

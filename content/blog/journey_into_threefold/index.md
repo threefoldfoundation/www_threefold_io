@@ -9,7 +9,6 @@ taxonomies:
     tags: [update, why, community]
     categories: [farming, cloud, foundation, aci]
 extra:
-    isVisible: true
     imgPath: journey_into_threefold.png
 ---
 

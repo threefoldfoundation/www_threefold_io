@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, threefold_token, technology, blockchain, update]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: future_tft_ecosystem.png
 ---
 

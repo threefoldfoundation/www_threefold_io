@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, farming, threefold_token, why]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: planting_the_seeds.png
 ---
 

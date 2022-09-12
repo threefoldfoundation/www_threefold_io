@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, digital_twin, why, technology, farming]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: threefold_regenerates.png
 
 ---

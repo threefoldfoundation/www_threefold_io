@@ -9,7 +9,6 @@ taxonomies:
     tags: [farming]
     categories: [farming,threefold_grid,threefold_token]
 extra:
-    isVisible: true
     imgPath: intro_to_farming.png
 ---
 <br/>

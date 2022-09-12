@@ -9,7 +9,6 @@ taxonomies:
     tags: [partner, threefold_grid, why]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: paradise_hills.png
 ---
 

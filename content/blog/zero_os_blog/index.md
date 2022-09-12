@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid,technology,]
     categories: [farming,cloud,foundation,twin]
 extra:
-    isVisible: true
     imgPath: zero_os_blog.png
 
 

@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, threefold_cloud, technology, blockchain, peer_to_peer]
     categories: [foundation, cloud, technology]
 extra:
-    isVisible: true
     imgPath: project_comparison_4_storj.png
 ---
 

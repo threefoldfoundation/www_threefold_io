@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
-    isVisible: false
     imgPath: weekly_vol_23.png
 ---
 *As of edition 24, we’ll only share the Weekly via email and [TF News](https://t.me/threefoldnews), so make sure to subscribe via the respective buttons on the top-right corner of [our website](https://threefold.io).*

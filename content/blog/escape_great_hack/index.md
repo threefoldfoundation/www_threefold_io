@@ -9,7 +9,6 @@ taxonomies:
     tags: [technology,why]
     categories: [farming,cloud,twin,foundation,aci]
 extra:
-    isVisible: true
     imgPath: escape_great_hack.png
 ---
 

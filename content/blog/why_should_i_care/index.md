@@ -9,7 +9,6 @@ taxonomies:
     tags: [digital_twin,why]
     categories: [twin]
 extra:
-    isVisible: true
     imgPath: why_should_i_care.jpg
 ---
 

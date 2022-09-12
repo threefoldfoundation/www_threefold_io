@@ -9,7 +9,6 @@ taxonomies:
     tags: [peer_to_peer,why,farming,threefold_grid]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: p2p_web3.png
 ---
 

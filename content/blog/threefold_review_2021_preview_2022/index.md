@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
     categories: [foundation, cloud, technology]
 extra:
-    isVisible: true
     imgPath: threefold_review_2021_preview_2022.png
 ---
 

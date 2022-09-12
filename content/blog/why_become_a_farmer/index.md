@@ -9,7 +9,6 @@ taxonomies:
     tags: [farming,threefold_grid]
     categories: [farming, grid]
 extra:
-    isVisible: true
     imgPath: become_a_farmer.png
 ---
 <br/>

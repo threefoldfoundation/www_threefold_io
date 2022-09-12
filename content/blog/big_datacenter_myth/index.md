@@ -9,7 +9,6 @@ taxonomies:
     tags: [technology,threefold_grid_,why]
     categories: [farming,cloud,foundation,aci]
 extra:
-    isVisible: true
     imgPath: big_datacenter_myth.png
 ---
 

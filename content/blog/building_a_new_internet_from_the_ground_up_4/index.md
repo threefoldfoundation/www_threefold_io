@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid,technology,peer_to_peer]
     categories: [foundation,farming,cloud]
 extra:
-    isVisible: true
     imgPath: building_a_new_internet_pt_4.png
 ---
 

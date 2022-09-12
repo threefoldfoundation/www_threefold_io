@@ -9,7 +9,6 @@ taxonomies:
     tags: [farming, threefold_grid, why]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: threefold_access.png
 ---
 

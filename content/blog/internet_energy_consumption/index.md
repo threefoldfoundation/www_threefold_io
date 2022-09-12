@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, threefold_farming, farming, why]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: internet_energy_consumption.png
 ---
 

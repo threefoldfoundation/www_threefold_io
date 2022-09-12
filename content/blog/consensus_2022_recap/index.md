@@ -9,7 +9,6 @@ taxonomies:
     tags: [threefold_grid, threefold, peer-to-peer, community]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: consensus_2022_recap.png
 ---
 

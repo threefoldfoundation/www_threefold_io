@@ -9,7 +9,6 @@ taxonomies:
     tags: [technology,threefold_grid]
     categories: [farming,cloud,foundation]
 extra:
-    isVisible: true
     imgPath: tech_new_internet.png
 ---
 

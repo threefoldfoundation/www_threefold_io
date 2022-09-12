@@ -9,7 +9,6 @@ taxonomies:
     tags: [why, peer_to_peer, digital_twin, technology]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: blockheating_intro.png
 ---
 

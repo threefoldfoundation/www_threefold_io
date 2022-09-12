@@ -9,7 +9,6 @@ taxonomies:
     tags: [technology,threefold_cloud]
     categories: [farming,cloud,foundation]
 extra:
-    isVisible: true
     imgPath: new_edge_cloud.png
 ---
 

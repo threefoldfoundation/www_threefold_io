@@ -9,7 +9,6 @@ taxonomies:
     tags: [farming,why]
     categories: [farming,cloud,foundation,aci,twin]
 extra:
-    isVisible: true
     imgPath: more_inclusive_internet.png
 ---
 <br/>

@@ -9,7 +9,6 @@ taxonomies:
     tags: [farming,threefold_grid,technology,peer_to_peer,threefold_cloud]
     categories: [farming,grid,aci,cloud,foundation]
 extra:
-    isVisible: true
     imgPath: decentralize_blockchain.png
 ---
 

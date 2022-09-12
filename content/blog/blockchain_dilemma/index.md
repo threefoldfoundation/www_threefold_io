@@ -9,7 +9,6 @@ taxonomies:
     tags: [technology,threefold_grid,blockchain]
     categories: [tech, grid]
 extra:
-    isVisible: true
     imgPath: blockchain_dilemma.png
 ---
 
