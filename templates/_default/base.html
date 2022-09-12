@@ -34,11 +34,10 @@
         '127.0.0.1'
     ]
     for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-        if (internal_hosts.includes(links[i].hostname)) {
+        if (!internal_hosts.includes(links[i].hostname)) {
             links[i].target = '_blank';
             console.log(links[i])
         }
-
     }
   </script>
   <!-- End Twitter universal website tag code -->
