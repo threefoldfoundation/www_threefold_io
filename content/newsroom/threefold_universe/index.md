@@ -2,8 +2,8 @@
 id: threefold_universe_news
 title: Dive Into the ThreeFold Universe
 image_caption: ThreeFold Universe
-date: 2021-04-10
 description: Dive into threefold.io and explore the expanding ThreeFold universe!
+date: 2021-04-10
 taxonomies:
     people: [sam_taggart]
     tags: [update,community]

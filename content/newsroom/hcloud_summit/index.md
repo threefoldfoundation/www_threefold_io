@@ -2,8 +2,8 @@
 id: hcloud_summit
 title: Join us at the virtual Horizon Cloud Summit
 image_caption: Join us at the Horizon Cloud Summit
-date: 2021-12-02
 description: ThreeFold will be presenting two sessions at the Horizon Cloud Summit on December 8 and 9.
+date: 2021-12-02
 taxonomies:
     people: [sam_taggart]
     tags: [event,community,threefold_grid,technology,threefold_cloud,peer_to_peer]

@@ -2,8 +2,8 @@
 id: grid_is_growing
 title: New Nodes In New Parts Of The World
 image_caption: The grid is growing
-date: 2021-05-28
 description: The ThreeFold Grid is growing steadily.
+date: 2021-05-28
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid]

@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/ahmed-hanafy-7250/,
         github: https://github.com/AhmedHanafy725,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

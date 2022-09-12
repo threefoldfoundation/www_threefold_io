@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/sastiadi,
         github: https://github.com/sasha-astiadi,
-            websites: https://threefold.io/, https://threefold.tech, https://sashaastiadi.com/,
+        websites: https://threefold.io/, https://threefold.tech, https://sashaastiadi.com/,
     }
 ---
 

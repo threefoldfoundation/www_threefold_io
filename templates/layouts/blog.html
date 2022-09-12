@@ -17,6 +17,9 @@ and a side nav for category and featured post navigation
         {%- set_global featured = page %}
         {% break %}
     {% endif %}
+    {% if not featured %} 
+        {%- set_global featured = section.pages[0] %}
+    {% endif %}
     {% endfor %}
     
     {% include "partials/featuredBlog.html" %}

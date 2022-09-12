@@ -2,8 +2,8 @@
 id: qsfs_intro
 title: Say Hello to the Quantum Safe Filesystem
 image_caption: quantum safe filesystem
-date: 2021-03-03
 description: There's nothing out there like the Quantum Safe Filesystem – see what it can do for you!
+date: 2021-03-03
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_cloud,update,technology]

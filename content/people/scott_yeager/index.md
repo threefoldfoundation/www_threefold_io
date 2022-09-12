@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/scottmyeager/,
         github: https://github.com/scottyeager,
-            websites: https://threefold.io,
+        websites: https://threefold.io,
     }
 ---
 

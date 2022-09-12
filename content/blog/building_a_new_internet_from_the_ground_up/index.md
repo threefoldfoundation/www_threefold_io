@@ -2,14 +2,13 @@
 id: building_a_new_internet_from_the_ground_up_pt2
 title: "Building a New Internet From the Ground Up – Part 2: Storage"
 image_caption: The ThreeFold Grid Peer-to-Peer Technology
-date: 2021-07-28
 description: Part two of an approachable series on the inner workings of the ThreeFold Grid. This time, storage
+date: 2021-07-28
 taxonomies:
     people: [scott_yeager]
     tags: [threefold_grid,technology,peer_to_peer]
     categories: [foundation,farming,cloud]
 extra:
-    isVisible: true
     imgPath: building_a_new_internet_2.png
 ---
 

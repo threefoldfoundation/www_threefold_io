@@ -2,8 +2,8 @@
 id: tf_grid3_reminder
 title: All About ThreeFold Grid 3
 image_caption: All About ThreeFold Grid 3
-date: 2021-12-13
 description: As the team is working hard on bringing ThreeFold Grid 3 to mainnet, we wanted to remind you of what's new and what's coming!
+date: 2021-12-13
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,technology,update,peer_to_peer,threefold_cloud]

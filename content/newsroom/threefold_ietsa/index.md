@@ -2,8 +2,8 @@
 id: threefold_ietsa
 title: Partnership Announcement
 image_caption: Partnership Announcement
-date: 2022-06-02
 description: ThreeFold and IETSA partner to bring the decentralized Internet and education initiatives to South Africa.
+date: 2022-06-02
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,partner,news]

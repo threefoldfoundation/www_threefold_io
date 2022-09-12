@@ -2,14 +2,13 @@
 id: artheon_blog_one
 title: "Art & Culture in VR: Coming to the ThreeFold Grid"
 image_caption: ThreeFold and Artheon
-date: 2021-08-11
 description: Taking a deeper look at the Artheon partnership and where we are headed together.
+date: 2021-08-11
 taxonomies:
     people: [sam_taggart]
     tags: [partner, peer_to_peer, update]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: artheon_blog_one.png
 ---
 

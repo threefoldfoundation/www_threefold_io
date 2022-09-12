@@ -2,14 +2,13 @@
 id: what_is_peer_to_peer
 title: What Is Peer-to-Peer and Why Is It so Important?
 image_caption: peer to peer
-date: 2020-12-15
 description: P2P systems are network, not linear or pyramidal hierarchies (though they may share some elements)..
+date: 2020-12-15
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [peer_to_peer,why,farming,technology,threefold_grid]
     categories: [farming,cloud,twin,foundation]
 extra:
-    isVisible: true
     imgPath: peer_to_peer.png
 ---
 

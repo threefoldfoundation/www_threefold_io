@@ -2,8 +2,8 @@
 id: tfweekly10
 title: ThreeFold Weekly! Volume Ten
 image_caption: TF Weekly Volume Ten
-date: 2022-03-14
 description: Key happenings from last week in ThreeFold.
+date: 2022-03-14
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

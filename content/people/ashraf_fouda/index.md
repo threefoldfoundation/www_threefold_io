@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/ashraffouda/,
         github: https://github.com/ashraffouda,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

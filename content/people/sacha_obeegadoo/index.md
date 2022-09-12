@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/sachaobeegadoo/,
         github: https://github.com/Sacha96,
-            websites: https://threefold.io/,
+        websites: https://threefold.io/,
     }
 ---
 

@@ -2,8 +2,8 @@
 id: tfweekly5
 title: ThreeFold Weekly! Volume Five
 image_caption: TF Weekly Volume Five
-date: 2022-02-07
 description: Some of the most important happenings in the ThreeFold universe last week!
+date: 2022-02-07
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

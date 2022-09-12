@@ -2,14 +2,13 @@
 id: tf_grid_peoples_internet
 title: The ThreeFold Grid is by the People, For the People
 image_caption: By the People For the People
-date: 2021-07-08
 description: ThreeFold's open source technology powers the peer-to-peer Internet revolution that holds the premise to disrupt the global Internet in many ways.
+date: 2021-07-08
 taxonomies:
     people: [sam_taggart]
     tags: [data, why, peer_to_peer, threefold_grid]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: tf_grid_peoples_internet.png
 ---
 

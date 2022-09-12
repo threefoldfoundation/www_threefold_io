@@ -2,8 +2,8 @@
 id: validator_update_june_2022
 title: ThreeFold Validator Update
 image_caption: ThreeFold Validator Update
-date: 2022-06-25
 description: Learn about the engineering and deployment status of L2 and L0 Validators!
+date: 2022-06-25
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,technology,threefold_grid,peer_to_peer]

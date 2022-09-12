@@ -2,8 +2,8 @@
 id: tf_q12021_recap
 title: ThreeFold Q1 Highlights
 image_caption: ThreeFold Q1 Highlights
-date: 2021-04-02
 description: A lot unfolded in our universe the last three months. Find out all you need to know in our Q1 Recap!
+date: 2021-04-02
 taxonomies:
     people: [sam_taggart]
     tags: [digital_twin,community,farming,technology,threefold_cloud,threefold_grid,threefold_token,update]

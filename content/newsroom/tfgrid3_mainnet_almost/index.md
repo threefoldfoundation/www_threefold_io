@@ -2,8 +2,8 @@
 id: tfgrid3_mainnet_almost
 title: ThreeFold Grid 3 Mainnet Update
 image_caption: ThreeFold Grid 3 Mainnet Update
-date: 2021-12-30
 description: TF Grid 3 Mainnet has been launched with limited capacity! Just close community news, for now.
+date: 2021-12-30
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,update,community,technology]

@@ -2,8 +2,8 @@
 id: tfweekly18
 title: ThreeFold Weekly! Volume Eighteen
 image_caption: ThreeFold Weekly Volume Eighteen
-date: 2022-05-18
 description: Your weekly ThreeFold digest!
+date: 2022-05-18
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

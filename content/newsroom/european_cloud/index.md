@@ -2,8 +2,8 @@
 id: european_cloud
 title: Europe's Next-Gen Edge Computing Platform
 image_caption: European Cloud
-date: 2021-10-26
 description: We've submitted a joint proposal to the European Commission to build Europe's next-generation edge computing platform!
+date: 2021-10-26
 taxonomies:
     people: [sam_taggart]
     tags: [update,technology,threefold_cloud,peer_to_peer]

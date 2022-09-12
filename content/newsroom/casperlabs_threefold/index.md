@@ -2,8 +2,8 @@
 id: threefold_casperlabs
 title: CasperLabs and ThreeFold Join Forces
 image_caption: blockchain
-date: 2021-04-07
 description: ThreeFold and CasperLabs partner to scale opportunities for enterprises, everywhere
+date: 2021-04-07
 taxonomies:
     people: [sam_taggart]
     tags: [partner,technology,update,blockchain]

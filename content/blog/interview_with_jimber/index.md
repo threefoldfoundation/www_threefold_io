@@ -2,14 +2,13 @@
 id: interview_with_jimber
 title: Interview – Designing Solutions for a P2P Future
 image_caption: interview with jimber
-date: 2021-08-26
 description: An interview with Jonas Delrue from Jimber, the team developing P2P solutions like video chat and office workspace, using the Digital Twin platform. Digital Twin is a use case on top of the ThreeFold Grid.
+date: 2021-08-26
 taxonomies:
     people: [scott_yeager]
     tags: [peer_to_peer, threefold_grid, technology]
     categories: [farming, threefold_grid, threefold_token, foundation]
 extra:
-    isVisible: true
     imgPath: interview_with_jimber.png
 ---
 

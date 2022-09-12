@@ -2,8 +2,8 @@
 id: deepdive6
 title: New Year Deep Dive Session 6
 image_caption: Deep Dive 6
-date: 2022-01-18
 description: Catch the recording of our final deep dive meetup, for now.
+date: 2022-01-18
 taxonomies:
     people: [sam_taggart]
     tags: [community,threefold_grid,technology,threefold_token,update,peer_to_peer]

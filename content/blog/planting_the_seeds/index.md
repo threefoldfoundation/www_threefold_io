@@ -2,14 +2,13 @@
 id: planting_the_seeds
 title: "Planting the Seeds: ThreeFold's Plans to Regenerate the Planet"
 image_caption: "Planting the Seeds: ThreeFold's Plans to Regenerate the Planet."
-date: 2022-05-05
 description: We believe our planet needs regenerative solutions at a large scale. ThreeFold and Take Action Global (TAG) are on a mission to regenerate the planet together.
+date: 2022-05-05
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, farming, threefold_token, why]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: planting_the_seeds.png
 ---
 

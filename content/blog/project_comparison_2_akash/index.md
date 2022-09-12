@@ -2,14 +2,13 @@
 id: project_comparison_2_akash
 title: "A Journey through the Decentralization and Blockchain Space – Part Two: Akash"
 image_caption: Akash & how it compares to ThreeFold
-date: 2021-10-05
 description: This post is the second one in a series to explore fellow projects and their solutions with regards to what they share with ThreeFold but also where we differ. Follow me on my journey through the space. This time, we're looking into Akash!
+date: 2021-10-05
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, blockchain, technology, threefold_cloud, threefold_token]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: project_comparison_2_akash.png
 ---
 

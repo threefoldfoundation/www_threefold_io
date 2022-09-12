@@ -2,8 +2,8 @@
 id: happy_holidays_2020
 title: Happy Holidays!
 image_caption: Happy Holidays!
-date: 2020-12-24
 description: Let’s take a moment to acknowledge what a year it’s been for all of us around the world.
+date: 2020-12-24
 taxonomies:
     people: [sam_taggart]
     tags: [community]

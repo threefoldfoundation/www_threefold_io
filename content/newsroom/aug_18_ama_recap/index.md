@@ -2,8 +2,8 @@
 id: aug_18_ama_recap
 title: August 18 AMA Recap
 image_caption: August 18th AMA Recap
-date: 2021-08-19
 description: Sharing the recording of yesterday's AMA where we discussed farming, the token, TF Grid use cases, and TF Grid 3.0.
+date: 2021-08-19
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

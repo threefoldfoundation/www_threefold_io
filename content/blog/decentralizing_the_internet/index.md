@@ -2,14 +2,13 @@
 id: decentralzing_the_internet
 title: Decentralizing the Internet
 image_caption: technology internet
-date: 2019-08-21
 description: In this article, we discuss the general concept of a ‘decentralized grid’ and how anyone can plug-in capacity to the ThreeFold Grid.
+date: 2019-08-21
 taxonomies:
-    people: []
+    people: [roel_van_sabben]
     tags: [farming,threefold_grid,technology,peer_to_peer]
     categories: [farming, grid, tech, aci, cloud, foundation]
 extra:
-    isVisible: true
     imgPath: decentralizing_the_internet.png
 ---
 

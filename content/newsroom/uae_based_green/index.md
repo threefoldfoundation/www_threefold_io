@@ -2,8 +2,8 @@
 id: uae_based_green
 title: ThreeFold Has Plans to Go More Green
 image_caption: ThreeFold Has Plans to Go Greener
-date: 2021-06-13
 description: UAE Based decentralized P2P internet platform goes green to reduce internet energy consumption - Via UnlockBC
+date: 2021-06-13
 taxonomies:
     people: [sam_taggart]
     tags: [press_release,update,why]

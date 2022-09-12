@@ -2,8 +2,8 @@
 id: hidden_gem
 title: Crypto Daily Calls ThreeFold a Hidden Gem
 image_caption: ThreeFold is a Hidden Gem
-date: 2022-01-13
 description: While The Market Is Struggling, This Hidden Gem Is About To Take Off, via Crypto Daily
+date: 2022-01-13
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_token,news,update]

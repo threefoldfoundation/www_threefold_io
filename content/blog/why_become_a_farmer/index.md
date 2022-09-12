@@ -2,14 +2,13 @@
 id: why_become_a_farmer
 title: Why Anyone Should Consider Becoming A (ThreeFold) Farmer
 image_caption: farming
-date: 2020-05-03
 description: The ThreeFold Foundation is changing the way how "we" as a whole approach the internet and its underlying technology..
+date: 2020-05-03
 taxonomies:
-    people: []
+    people: [roel_van_sabben]
     tags: [farming,threefold_grid]
     categories: [farming, grid]
 extra:
-    isVisible: true
     imgPath: become_a_farmer.png
 ---
 <br/>

@@ -2,8 +2,8 @@
 id: validators_open
 title: Validator Node Update
 image_caption: Validator Node Update
-date: 2022-01-31
 description: In support of the establishment of ThreeFold’s DAO we have officially opened registrations for the first L2 and L0 validators.
+date: 2022-01-31
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news,technology,peer_to_peer]

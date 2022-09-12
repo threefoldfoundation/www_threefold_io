@@ -2,8 +2,8 @@
 id: tf_admin_portal
 title: Introducing the ThreeFold Admin Portal
 image_caption: The TF Admin Portal
-date: 2021-11-26
 description: A new and improved user experience for farmers and grid users.
+date: 2021-11-26
 taxonomies:
     people: [sam_taggart]
     tags: [community,farming,threefold_grid,threefold_cloud,update]

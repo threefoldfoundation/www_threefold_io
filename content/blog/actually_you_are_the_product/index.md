@@ -2,14 +2,13 @@
 id: actually_you_are_the_product
 title: Actually, you are the product
 image_caption: actually you are the product
-date: 2021-01-27
 description: Now more than ever with this global pandemic happening since late 2019, our lives are being shaped by our interaction with the digital world
+date: 2021-01-27
 taxonomies:
     people: [alexandre_hannelas]
     tags: [digital_twin, data, why]
     categories: [twin]
 extra:
-    isVisible: true
     imgPath: actually_you_are_the_product.png
 ---
 

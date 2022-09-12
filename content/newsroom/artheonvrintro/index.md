@@ -2,8 +2,8 @@
 id: artheon_vr_museum
 title: Take a look at the Artheon VR Museum!
 image_caption: Take a look at the Artheon VR Museum!
-date: 2020-12-09
 description: Here's a look at an incredible project happening in the ThreeFold universe!
+date: 2020-12-09
 taxonomies:
     people: [sam_taggart]
     tags: [partner]

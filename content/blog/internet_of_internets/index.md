@@ -2,14 +2,13 @@
 id: internet_of_internets
 title: "Welcome to the Internet of Internets"
 image_caption: Welcome to the Internet of Internets
-date: 2022-05-24
 description: Together, we’re building our own future through the Internet of Internets – decentralized, open, inclusive, regenerative, and resilient.
+date: 2022-05-24
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid, community, farming, why, update]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: internet_of_internets.png
 ---
 

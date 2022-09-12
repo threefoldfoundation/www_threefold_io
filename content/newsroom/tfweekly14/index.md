@@ -2,8 +2,8 @@
 id: tfweekly14
 title: ThreeFold Weekly! Volume Fourteen
 image_caption: TF Weekly Volume Fourteen
-date: 2022-04-19
 description: Weekly highlights from the ThreeFold universe!
+date: 2022-04-19
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

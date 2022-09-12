@@ -2,8 +2,8 @@
 id: grid_26_testnet_news
 title: Grid 2.6 is Live on Testnet
 image_caption: Grid 2.6 live on testnet
-date: 2021-04-05
 description: Updates to the eVDC, 3Bot SDK, Quantum Safe Filesystem, Zero-OS, and Digital Twin!
+date: 2021-04-05
 taxonomies:
     people: [sam_taggart]
     tags: [technology,threefold_grid,threefold_cloud,update,community]

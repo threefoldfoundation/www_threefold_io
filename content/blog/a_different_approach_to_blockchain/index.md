@@ -2,14 +2,13 @@
 id: a_different_approach_to_blockchain
 title: Not your average blockchain project
 image_caption: a different approach to blockchain
-date: 2021-04-20
 description: Sometimes we're compared to blockchain projects. We love the blockchain but that's just not who we are.
+date: 2021-04-20
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [digital_twin,data,why]
     categories: []
 extra:
-    isVisible: true
     imgPath: a_different_approach_to_blockchain.png
 ---
 

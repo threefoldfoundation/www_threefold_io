@@ -2,8 +2,8 @@
 id: threefold_coincheckup
 title: ThreeFold Coverage in CoinCheckup
 image_caption: ThreeFold CoinCheckup
-date: 2022-03-25
 description: ThreeFold - Is the Decentralized Web the Future of the Internet?, via CoinCheckup
+date: 2022-03-25
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news,technology,why,threefold_grid,blockchain]

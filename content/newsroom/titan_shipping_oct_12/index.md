@@ -2,8 +2,8 @@
 id: titan_shipping_oct_12
 title: Titan v2.1 Shipping Update
 image_caption: Titan Shipping Update
-date: 2021-10-12
 description: We began shipping Titans to Europe last week, but we still need information from many farmers.
+date: 2021-10-12
 taxonomies:
     people: [sam_taggart]
     tags: [farming,update,community]

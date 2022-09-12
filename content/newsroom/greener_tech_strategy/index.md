@@ -2,8 +2,8 @@
 id: greener_tech_strategy
 title: ThreeFold Coverage in Bankless Times
 image_caption: ThreeFold Coverage in Bankless Times
-date: 2021-06-16
 description: ThreeFold’s Green Technology Strategy to a Fairer, More Sustainable World - via Bankless Times
+date: 2021-06-16
 taxonomies:
     people: [sam_taggart]
     tags: [news,update]

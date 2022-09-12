@@ -2,8 +2,8 @@
 id: tfgrid_36_testnet
 title: New TF Grid Version on Testnet
 image_caption: New TF Grid Version on Testnet
-date: 2022-06-29
 description: TF Grid v3.6.0 is now live on testnet and available for public testing!
+date: 2022-06-29
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,technology,update,peer_to_peer,news]

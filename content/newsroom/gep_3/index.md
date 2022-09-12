@@ -2,8 +2,8 @@
 id: gep_3
 title: Vote on a New Grid Enhancement Proposal
 image_caption: New Grid Enhancement Proposal
-date: 2022-05-06
 description: Help decide as to whether we should upgrade TF Grid Mainnet to Version Alpha-5.
+date: 2022-05-06
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,threefold_grid,farming,technology]

@@ -2,8 +2,8 @@
 id: tree_planting
 title: Tree-Planting is Underway for a Planet-Positive Internet
 image_caption: Tree Planting
-date: 2022-03-09
 description: Three big Take Action Global and ThreeFold sponsored initiatives across three countries have resulted in 5,000 trees planted so far!
+date: 2022-03-09
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news,why,partner]

@@ -2,14 +2,13 @@
 id: new_digital_currency
 title: The need for a sustainable digital currency
 image_caption: tokens
-date: 2019-03-06
 description: Cryptocurrencies commonly face some major problems, which can be solved.
+date: 2019-03-06
 taxonomies:
     people: [adnan_fatayerji]
     tags: [threefold_token]
     categories: [farming,foundation]
 extra:
-    isVisible: true
     imgPath: new_digital_currency.png
 ---
 

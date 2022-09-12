@@ -2,14 +2,13 @@
 id: threefold_access
 title: How ThreeFold Will Give Internet to 43% of the World’s Population
 image_caption: How ThreeFold Will Give Access
-date: 2021-06-22
 description: Proper access to the Internet helps to protect people’s freedom of speech and thought, as well as access to knowledge and information. 
+date: 2021-06-22
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [farming, threefold_grid, why]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: threefold_access.png
 ---
 

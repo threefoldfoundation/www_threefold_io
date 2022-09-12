@@ -2,8 +2,8 @@
 id: threefold_zetako
 title: Zetako and ThreeFold Join Forces
 image_caption: ThreeFold and Zetako
-date: 2021-06-15
 description: Zetako and ThreeFold join forces to enable hyper-efficient data transport and storage for people and for our planet
+date: 2021-06-15
 taxonomies:
     people: [sam_taggart]
     tags: [partner,technology,update]

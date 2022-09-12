@@ -2,8 +2,8 @@
 id: threefold_tomochain
 title: TomoChain & ThreeFold are joining forces to decentralize Cloud Computing
 image_caption: blockchain partners
-date: 2020-05-20
 description: TomoChain will invite their developer community and anyone interested in contributing to the TomoChain Blockchain, to connect and use the Threefold Grid.
+date: 2020-05-20
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [partner,update,technology,blockchain]

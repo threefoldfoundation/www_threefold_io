@@ -2,14 +2,13 @@
 id: intro_tf_token
 title: An Intro to the ThreeFold Token
 image_caption: tokens crypto
-date: 2020-01-04
 description: The ThreeFold Token (TFT) is a decentralized digital currency used to buy autonomous and decentralized Internet services (compute, storage, and application) on the ThreeFold Grid.
+date: 2020-01-04
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [threefold_token,blockchain]
     categories: [farming,foundation]
 extra:
-    isVisible: true
     imgPath: intro_tf_token.png
 ---
 <br/>

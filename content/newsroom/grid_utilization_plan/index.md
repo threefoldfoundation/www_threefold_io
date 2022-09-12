@@ -2,8 +2,8 @@
 id: grid_utilization_plan
 title: ThreeFold Grid Utilization Plan – Part 1
 image_caption: Grid Utilization Plan Part 1
-date: 2021-08-25
 description: Part one (of two) of our ThreeFold Grid utilization plan, focusing on TF Grid solutions.
+date: 2021-08-25
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid]

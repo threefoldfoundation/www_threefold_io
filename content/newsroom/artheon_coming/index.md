@@ -2,8 +2,8 @@
 id: artheon_coming
 title: Artheon VR Museum is Coming to the Grid
 image_caption: Artheon and ThreeFold
-date: 2021-07-15
 description: Together with Artheon, we're creating the world's largest VR database of art and cultural heritage
+date: 2021-07-15
 taxonomies:
     people: [sam_taggart]
     tags: [partner,update]
