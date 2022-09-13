@@ -1,7 +1,8 @@
 ---
 title: "People"
-template: "people_page.html"
+paginate_by: 4
+sort_by: "weight"
+template: "layouts/people.html"
+page_template: "partials/personCard.html"
 insert_anchor_links: "left"
-paginate_by: 24
 ---
-
