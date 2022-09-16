@@ -1,5 +1,7 @@
 #/bin/bash
 
+git submodule update --recursive --remote
+
 # readable shorthand for adding tab
 add_tab() { 
     sed -i "" "s|$1|    $1|g" "$2" 
@@ -35,11 +37,24 @@ $TARGET\\
     fi
 }
 
+folder_exists() {
+    echo "content/$1/$2"
+    if [ -d "content/$1/$2" ]; then 
+        return 0
+    fi
+    return 1
+}
+
 echo "Formatting people..."
 dir="threefold_data/content/person"
 
 for file in $(grep -ril 'name:' $dir); 
 do
+    path=${file%/*}
+    name=${path##*/}
+    if folder_exists "people" $name; then
+        continue
+    fi
 
     sed -i "" "s|private: 1|    private: 1\\
     socialLinks: {\\
@@ -108,6 +123,8 @@ do
 
     mv $file ${file%/*}/index.md
     mv ${file%/*} content/people
+
+    break
 done;
 
 echo "Formatting blogs..."
@@ -115,6 +132,13 @@ dir="threefold_data/content/blog"
 
 for file in $(grep -ril 'authors:' $dir); 
 do
+
+    path=${file%/*}
+    name=${path##*/}
+    if folder_exists "blog" $name; then
+        continue
+    fi
+
     echo $file
 
     move_below created: excerpt: $file
@@ -137,6 +161,8 @@ do
 
     mv $file ${file%/*}/index.md
     mv ${file%/*} content/blog
+
+    break
 done;
 
 echo "Formatting news..."
@@ -144,6 +170,12 @@ dir="threefold_data/content/news"
  
 for file in $(grep -ril 'authors:' $dir); 
 do
+
+    path=${file%/*}
+    name=${path##*/}
+    if folder_exists "newsroom" $name; then
+        continue
+    fi
     echo $file
 
     move_below created: excerpt: $file
@@ -166,6 +198,8 @@ do
 
     mv $file ${file%/*}/index.md
     mv ${file%/*} content/newsroom
+
+    break
 done;
 
 # 
