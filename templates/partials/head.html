@@ -7,49 +7,40 @@
 <head>
   <link rel="icon" type="image/x-icon" href="{{ get_url(path='images/icons/favicon.png')}}">
   {% block title %}
-  {% if current_path == '/' %}
   <title>{{ config.title }}</title>
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="{{ config.base_url }}" />
-  {%if section.title%}
+
+  {% if section.title %}
   <title>{{ section.title }}</title>
   <meta property="og:title" content="{{ section.title }}" />
-  {%endif%}
-  {%if page.title%}
+  {% elif page.title %}
   <title>{{ page.title }}</title>
   <meta property="og:title" content="{{ page.title }}" />
   {%endif%}
+
   {%if section.extra.imgPath %}
   <meta name="image" content="{{ section.extra.imgPath }}" />
   <meta property="og:image" content="{{ section.extra.imgPath }}" />
-  {%endif%}
-  {%if page.extra.imgPath%}
+  <meta property="twitter:image" content="{{ section.extra.imgPath }}" />
+  {% elif page.extra.imgPath %}
   <meta name="image" content="{{ page.extra.imgPath }}" />
   <meta property="og:image" content="{{ page.extra.imgPath }}" />
+  <meta property="twitter:image" content="{{ page.extra.imgPath }}" />
   {%endif%}
+  
   {%if section.description%}
   <meta name="description" content="{{ section.description }}" />
   <meta property="og:description" content="{{ section.description }}" />
-  {%endif%}
-  {%if page.description%}
+  <meta property="twitter:description" content="{{ section.description }}" />
+  {%elif page.description%}
   <meta name="description" content="{{ page.description }}" />
   <meta property="og:description" content="{{ page.description }}" />
+  <meta property="twitter:description" content="{{ page.description }}" />
   {%endif%}
-  {% else %}
-  <title>{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif
-    %}{{ config.title }}</title>
-  <meta property="og:title"
-    content="{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}" />
-  <meta property="twitter:title"
-    content="{% if section.title %}{{ section.title }} &bull; {% endif %}{% if page.title %}{{ page.title }} &bull; {% endif %}{{ config.title }}" />
-  {% endif %}
-  <meta property="og:image"
-    content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
-  <meta property="og:description" content="{% if page.description %}{{ page.description }} {% endif %}" />
-  <meta property="twitter:image"
-    content="{% if page.extra.imgPath %} {{ config.base_url }}/{{ page.extra.imgPath }} {% endif %}" />
-  <meta property="twitter:description" content="{% if page.description %}{{ page.description }} {% endif %}" />
+  
   <meta name="twitter:card" content="summary_large_image" />
+  
   {% endblock title %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" />
