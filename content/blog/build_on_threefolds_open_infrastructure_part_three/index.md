@@ -60,7 +60,7 @@ And the best thing about the [playground](https://library.threefold.me/info/manu
 
 ## How to achieve digital sovereignty with a set of end-user experiences
 
-*“Through simple, secure, and scalable technology, ThreeFold empowers millions to invent and explore new experiences." – [Kristof de Spiegeleer](https://threefold.io/news/post/paradise_hills/)*
+*“Through simple, secure, and scalable technology, ThreeFold empowers millions to invent and explore new experiences." – [Kristof de Spiegeleer](https://www.threefold.io/newsroom/paradise-hills/)*
 
 <br/>
 
@@ -92,7 +92,7 @@ This paradigm shift is a pretty big deal, isn’t it?
 
 #### DeFi Solutions
 
-We've also decided to develop our [own DeFi solutions](https://threefold.io/blog/post/future_tft_ecosystem/) to support the growth and expansion of the Internet of Internets and an abundance-based future where we are truly sovereign: community-based liquidity pools and the P2P DeFi Wallet – both expected early next year. Learn more about the upcoming solutions [here](https://threefold.io/blog/post/future_tft_ecosystem/)!
+We've also decided to develop our [own DeFi solutions](https://www.threefold.io/blog/future-tft-ecosystem/) to support the growth and expansion of the Internet of Internets and an abundance-based future where we are truly sovereign: community-based liquidity pools and the P2P DeFi Wallet – both expected early next year. Learn more about the upcoming solutions [here](https://www.threefold.io/blog/future-tft-ecosystem/)!
 
 ## The Grid is open – an invitation to build, deploy and test
 
