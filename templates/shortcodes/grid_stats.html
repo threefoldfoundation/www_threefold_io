@@ -1,12 +1,11 @@
 {% set styles = "background-image: url('images/grid_map.png');" %}
-{% set data = load_data(url="https://gridproxy.grid.tf/stats?status=up", required=false, format="json") %}
+{% set data = load_data(url="https://explorer.threefold.io/api/stats", required=false, format="json") %}
 {% if data %}
-{% set capacity = data.totalHru + data.totalSru / (1024 * 1024 * 1024 * 1024 * 1024) %}
-{% set nodes = data.nodes %}
-{% set countries = data.countries %}
-{% set cores = data.totalCru %}
+  {% set capacity = data.hru + data.sru / 1000 %}
+  {% set nodes = data.onlinenodes %}
+  {% set countries = data.countries %}
+  {% set cores = data.cru %}
 {% endif %}
-
 
 {% if data %}
 <section class="px-2 h-auto bg-center bg-cover bg-no-repeat" style="{{styles}}">
@@ -19,7 +18,7 @@
 
                 <!-- capacity -->
                 <div class="leading-none font-extrabold text-5xl">
-                    {{ capacity | round(precision=2) }}PB
+                    {{ capacity / 1000000 | round(precision=2) }}PB
                     <span class="block text-3xl uppercase">capacity</span>
                 </div>
                 <div class="..."></div>
