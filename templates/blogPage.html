@@ -11,6 +11,30 @@
 {% endif %}
 
 <!-- Default page template for blog posts and basic informative markdown files -->
+
+{% set split = page.content | split(pat="threefold.io") %}
+{% if split | length < 2 %}
+    {% set content = page.content %}
+{% else %}
+    {% set content = "" %}
+    {% for part in split %}
+        {% if part is starting_with("/blog") %}
+            {% set split_part = part | split(pat='/">') %}
+            {% set link = split_part[0] %}
+            {% set link = link | replace(from="/blog/post", to="/blog") %}
+            {% set link = link | replace(from="_", to="-") %}
+            {% set rest_part = split_part | slice(start=1) | join(sep='/">') %}
+            {% set part = link ~ '/">' ~ rest_part %}
+        {% endif %}
+        {% if loop.first %}
+            {% set_global content = part%}
+        {% else %}
+            {% set_global content = content ~ "threefold.io" ~ part%}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
 <main>
 
   <div class="container mx-auto mt-10">
@@ -58,7 +82,7 @@
         </section>
         {% set img_url = get_url(path='/' ~ page.relative_path | replace(from='_', to='-') | replace(from='index.md', to=page.extra.imgPath)) %}
         <img class="mb-8 mx-auto" src={{img_url}} alt="{{page.title ~ 'Picture'}}">
-        <div id="article">{{ page.content | safe }}</div>
+        <div id="article">{{ content | safe }}</div>
 
 
         <section class="post-tags container relative py-10">

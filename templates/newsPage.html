@@ -1,6 +1,36 @@
 {% extends "_default/base.html" %}
 {% block content %}
 
+{% set split = page.content | split(pat="threefold.io") %}
+{% if split | length < 2 %}
+    {% set content = page.content %}
+{% else %}
+    {% set content = "" %}
+    {% for part in split %}
+        {% if part is starting_with("/blog") %}
+            {% set split_part = part | split(pat='/">') %}
+            {% set link = split_part[0] %}
+            {% set link = link | replace(from="/blog/post", to="/blog") %}
+            {% set link = link | replace(from="_", to="-") %}
+            {% set rest_part = split_part | slice(start=1) | join(sep='/">') %}
+            {% set part = link ~ '/">' ~ rest_part %}
+        {% endif %}
+        {% if part is starting_with("/people") %}
+            {% set split_part = part | split(pat='/">') %}
+            {% set link = split_part[0] %}
+            {% set link = link | replace(from="_", to="-") %}
+            {% set rest_part = split_part | slice(start=1) | join(sep='/">') %}
+            {% set part = link ~ '/">' ~ rest_part %}
+        {% endif %}
+        {% if loop.first %}
+            {% set_global content = part %}
+        {% else %}
+            {% set_global content = content ~ "threefold.io" ~ part %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
 <!-- Default page template for news posts and basic informative markdown files -->
 <main>
 
@@ -84,7 +114,7 @@
           font-serif
           text-gray-700
         ">
-        <div class="post-content-text text-xl">{{ page.content | safe }}</div>
+        <div class="post-content-text text-xl">{{ content | safe }}</div>
       </section>
 
       <section class="post-tags container mx-auto relative py-10">
