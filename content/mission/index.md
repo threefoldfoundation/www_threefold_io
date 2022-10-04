@@ -63,7 +63,7 @@ Internet access is a human right and it can change everything for the lives of p
 
 <!-- section 3 (SOVEREIGN) -->
 
-{% row(style="margin") %}
+{% row(style="margin reverse") %}
 
 ## Empowering People **To Be Sovereign**
 

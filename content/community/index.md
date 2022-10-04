@@ -89,7 +89,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 <!-- section 4 (DEVELOPER COMMUNITY) -->
 
-{% row(bgColor="#f2f2f2" style="narrow margin") %}
+{% row(bgColor="#f2f2f2" style="narrow margin reverse") %}
 
 ## Join the ThreeFold <br> **Developer Community**
 

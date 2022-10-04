@@ -70,6 +70,12 @@ Parameters:
     {% set row_class = row_class ~ " text-white" %}
     {% endif %}
 
+    <!-- reverse col at mobile -->
+
+    {% if "reverse" in style %}
+    {% set row_class = "flex flex-col-reverse md:flex-row items-center" %}
+    {% endif %}
+
     <!-- makes row with margins -->
     {% if "margin" in style %}
         {% set row_class = row_class ~ " lg:py-28 sm:p-12 md:p-16 lg:p-20" %}

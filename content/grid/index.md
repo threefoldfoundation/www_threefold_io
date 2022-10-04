@@ -58,7 +58,7 @@ Any current or future technology, including blockchain, metaverses and web 3.0, 
 <br>
 <br>
 
-{% row() %}
+{% row(style="reverse") %}
 
 ## Scaled by the People <br> **to the Edge**
 
@@ -109,7 +109,7 @@ A decentralized autonomous operating system designed to dedicate hardware capaci
 <br>
 <br>
 
-{% row() %}
+{% row(style="reverse") %}
 
 ## A Decentralized **Internet Economy**
 

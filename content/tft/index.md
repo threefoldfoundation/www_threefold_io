@@ -166,7 +166,7 @@ People buy TFT to store data and run applications privately on a peer-to-peer In
 <!-- section 6 (OPEN NETWORK) -->
 
 
-{% row(style="margin") %}
+{% row(style="margin reverse") %}
 
 ## Loyalty **Rewards**
 
@@ -202,7 +202,7 @@ TFT is minted only when new Internet capacity is added to the ThreeFold Grid. A 
 <!-- section 8 (BURN AND FARM) -->
 
 
-{% row(style="margin") %}
+{% row(style="margin reverse") %}
 
 ## Burn and Farm **Equilibrium**
 
