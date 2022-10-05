@@ -4,11 +4,9 @@ template: "page.html"
 insert_anchor_links: "left"
 ---
 
-<br>
-
 <!-- section 1 (THE FOLD) -->
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 ## Welcome Into <br> **The Fold**
 
@@ -23,11 +21,11 @@ We're a 100% open-source and community-driven project that builds the critical i
 {% end %}
 
 <br>
-<br>
+
 
 <!-- section 8 (IN THE NEWS) -->
 
-{% row(style="center between") %}
+{% row(style="center mtop between") %}
 
 [![forbes](forum.png)](https://forum.threefold.io/)
 
@@ -69,7 +67,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 {% end %}
 
-{% row(style="center between") %}
+{% row(style="center mbottom between") %}
 
 [![cointelegraph](youtube.png)](https://www.youtube.com/threefoldfoundation)
 
@@ -85,21 +83,20 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 <br>
 
-<br>
 
 <!-- section 4 (DEVELOPER COMMUNITY) -->
 
-{% row(bgColor="#f2f2f2" style="narrow margin reverse") %}
+{% row(style="margin" bgColor="#f2f2f2") %}
+
+![Image](community_developers.png#medium)
+
+|||
 
 ## Join the ThreeFold <br> **Developer Community**
 
 From testing our latest releases to joining our development teams or applying for a ThreeFold Foundation grant – there are many ways to engage with ThreeFold’s technology.
 
 <button>[Developer Resources](/developer)</button>
-
-|||
-
-![Image](community_developers.png#medium)
 
 {% end %}
 
@@ -116,8 +113,6 @@ Check out the FAQs or ask a question on the ThreeFold Forum.
 
 {% end %}
 
-<br>
-<br>
 
 {% community_banner() %}
 
