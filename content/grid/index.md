@@ -3,16 +3,9 @@ title: "Grid"
 template: "page.html"
 insert_anchor_links: "left"
 ---
+<!-- section 1  -->
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-{% row(style="center narrow") %}
+{% row(style="center margin narrow") %}
 
 ## Internet **Evolution.**
 
@@ -20,27 +13,16 @@ insert_anchor_links: "left"
 
 The Internet was meant to be a peer-to-peer infrastructure with us in the center of our data and digital lives. Inspired by the past, we're building an Internet how "the" Internet was originally intended.
 
-{% end %}
-
-{% row(style="center narrow") %}
+<br>
 
 <button>[Discover the Grid](https://library.threefold.me/info/threefold#/tfgrid/threefold__grid_intro)</button>
-
-|||
-
 <button>[The Magic of the Tech](https://library.threefold.me/info/threefold#/technology/threefold__technology)</button>
 
 {% end %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<!-- section 2  -->
 
-{% row() %}
+{% row(style="margin") %}
 
 ![Image](grid_people.jpg)
 
@@ -55,10 +37,9 @@ Any current or future technology, including blockchain, metaverses and web 3.0, 
 
 {% end %}
 
-<br>
-<br>
+<!-- section 3  -->
 
-{% row(style="reverse") %}
+{% row(style="margin reverse") %}
 
 ## Scaled by the People <br> **to the Edge**
 
@@ -72,11 +53,9 @@ The ThreeFold Grid is formed by Farmers, independent people who connect 3Nodes (
 
 {% end %}
 
+<!-- section 4  -->
 
-<br>
-<br>
-
-{% row() %}
+{% row(style="margin") %}
 
 ![Image](grid_new_internet.jpg)
 
@@ -89,11 +68,10 @@ All our code is made open source to energize open collaboration and promote univ
 {% end %}
 
 
-<br>
-<br>
+<!-- section 5 -->
 
 
-{% row(style="center narrow") %}
+{% row(style="center margin narrow") %}
 
 ![Image](zero_os.png#medium)
 
@@ -106,10 +84,9 @@ A decentralized autonomous operating system designed to dedicate hardware capaci
 
 {% end %}
 
-<br>
-<br>
+<!-- section 6  -->
 
-{% row(style="reverse") %}
+{% row(style="margin reverse") %}
 
 ## A Decentralized **Internet Economy**
 
