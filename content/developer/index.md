@@ -3,17 +3,15 @@ title: "Developers"
 template: "page.html"
 ---
 
-
-
 <!-- section 1 (header) -->
 
-{% row(style="center margin") %}
+{% row(style="margin moderate reverse") %}
 
-## ThreeFold <br> **Developer** <br> **Resources**
+## ThreeFold <br> **Developer Resources**
 
 A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
-<button>[Join The Developer Community](https://t.me/threefoldtesting)</button>
+<button class="long-text">[Join The Developer Community](https://t.me/threefoldtesting)</button>
 
 |||
 
@@ -21,7 +19,7 @@ A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
 {% end %}
 
-<!-- section 4 (DEVELOPER RESOURCES) -->
+<!-- section 2 (DEVELOPER RESOURCES) -->
 
 {% dev_resourses() %}
 
@@ -31,10 +29,13 @@ A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
 {% end %}
 
+<!-- section 3 (TESTING GRANTS) -->
 
-{% row(bgColor="#f2f2f2" style="center between margin") %}
+{% row(bgColor="#f2f2f2" style="center margin") %}
 
 ## Our <br> **Developer Resources**
+
+<br>
 
 ThreeFold is here to build the open-source Internet and Cloud infrastructure. The documentation helps you <br> build on ThreeFold by introducing you to some foundational concepts as well as our development stacks.<br>
 Inspired by the open-source movement, everything at ThreeFold is open to be audited, extended and improved.<br> If you have any feedback, please reach out with a GitHub issue or on our telegram.
@@ -46,12 +47,10 @@ Inspired by the open-source movement, everything at ThreeFold is open to be audi
 
 {% end %}
 
-<br>
-<br>
 
-<!-- section 5 (TESTING GRANTS) -->
+<!-- section 4 (TESTING GRANTS) -->
 
-{% row() %}
+{% row(style="margin") %}
 
 ![Image](developet_tft.jpg)
 
@@ -67,8 +66,6 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 {% end %}
 
-<br>
-<br>
 
 <!-- section 6 (DOCUMENTATION) -->
 
