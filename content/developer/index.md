@@ -5,7 +5,7 @@ template: "page.html"
 
 <!-- section 1 (header) -->
 
-{% row(style="margin moderate reverse") %}
+{% row(style="margin semiNarrow reverse") %}
 
 ## ThreeFold <br> **Developer Resources**
 
