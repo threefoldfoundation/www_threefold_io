@@ -42,8 +42,15 @@ Inspired by the open-source movement, everything at ThreeFold is open to be audi
 
 <br>
 
-<button>[Explore Documentation](#table_link)</button>
-<button>[Offer Feedback](https://github.com/threefoldfoundation/info_threefold_pub/tree/main/wiki)</button>
+<button onclick="window.location.href='/developer#table_link'">
+
+[Explore Documentation](/developer#table_link)
+
+</button>
+<button>
+
+[Offer Feedback](https://github.com/threefoldfoundation/info_threefold_pub/tree/main/wiki)
+</button>
 
 {% end %}
 
