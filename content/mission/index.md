@@ -41,7 +41,7 @@ Internet access is a human right and it can change everything for the lives of p
 
 <!-- section 3 (SOVEREIGN) -->
 
-{% row(style="margin reverse") %}
+{% row(style="margin reverse semiNarrow") %}
 
 ## Empowering People <br> **To Be Sovereign**
 
@@ -57,13 +57,13 @@ Create, store and share in full control of where your data resides and who can a
 
 <!-- section 4 (OUR ACTIONS) -->
 
-{% row(style="margin" gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" ) %}
+{% row(style="margin semiNarrow" gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" ) %}
 
 ![Image](node_mission.png#medium)
 
 |||
 
-## Our Values Define **Our Actions**
+## Our Values Define <br>**Our Actions**
 
 The ThreeFold Law states that any good you do will return to you threefold in this lifetime. By making our technology actionable, we energize a collective approach towards a single mission – empowering humanity while regenerating our planet.
 
@@ -114,7 +114,7 @@ And we’re aiming for new heights. ThreeFold is turning into a DAO in 2022, inv
 
 <!-- section 7 (REVOLUTION) -->
 
-{% row(bgColor="#70dfc9" style="center narrow margin") %}
+{% row(bgColor="#70dfc9" style="center margin") %}
 
 ## Join the Internet <br> **(R)evolution**
 

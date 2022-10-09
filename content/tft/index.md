@@ -88,7 +88,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 <!-- section 4 (THE CURRENCY) -->
 
-{% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)" style="margin") %}
+{% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)" style="margin semiNarrow") %}
 
 ![Image](tft_currency.png#medium#absolute#sm_none)
 
@@ -145,7 +145,7 @@ People buy TFT to store data and run applications privately on a peer-to-peer In
 <!-- section 6 (OPEN NETWORK) -->
 
 
-{% row(style="margin reverse") %}
+{% row(style="margin reverse semiNarrow") %}
 
 ## Loyalty **Rewards**
 
@@ -164,7 +164,7 @@ The ThreeFold blockchain automatically scans wallets and provides up-to 60% disc
 <!-- section 7 (OPEN NETWORK) -->
 
 
-{% row(style="margin") %}
+{% row(style="margin semiNarrow") %}
 
 ![Image](tft_utility.jpg)
 
@@ -181,7 +181,7 @@ TFT is minted only when new Internet capacity is added to the ThreeFold Grid. A 
 <!-- section 8 (BURN AND FARM) -->
 
 
-{% row(style="margin reverse") %}
+{% row(style="margin reverse semiNarrow") %}
 
 ## Burn and Farm <br>**Equilibrium**
 
