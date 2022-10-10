@@ -18,7 +18,7 @@ extra:
 
 ###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
 
-###### [Start Farming](/farm)
+<h6><a href="" onclick="window.location.href='/farm'">Start Farming</a></h6>
 
 ###### [Farming Community](https://t.me/threefoldfarmers)
 
@@ -54,17 +54,18 @@ extra:
 
 <br>
 
-###### [ThreeFold](/mission)
+<h6><a href="" onclick="window.location.href='/mission'">ThreeFold</a></h6>
 
-###### [Partners](/partners)
 
-###### [Blog](/blog)
+<h6><a href="" onclick="window.location.href='/partners'">Partners</a></h6>
 
-###### [NewsRoom](/newsroom)
+<h6><a href="" onclick="window.location.href='/blog'">Blog</a></h6>
+
+<h6><a href="" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
 ###### [Forum](https://forum.threefold.io/)
 
-###### [Support](/support)
+<h6><a href="" onclick="window.location.href='/support'">Support</a></h6>
 
 
 {% end %}

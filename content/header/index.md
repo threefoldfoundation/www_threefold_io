@@ -10,7 +10,7 @@ extra:
 
 - [Mission]("/mission")
 - [Grid]("/grid")
-- [Build]("/cloud")
+- [Build]("/build")
 - [Farm]("/farm")
 - [TFT]("/tft")
 - Ecosystem

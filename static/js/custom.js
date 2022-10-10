@@ -4,6 +4,19 @@ var hamburgerShown = false;
 let width = screen.width;
 var isMobile = width < 1024;
 
+function readingTime() {
+    let articles = document.querySelectorAll(".article");
+    let times = document.querySelectorAll(".time");
+    const wpm = 225;
+    let words;
+    for (var i = 0; i < articles.length; i++) {
+        words = articles[i].innerText.trim().split(/\s+/).length;
+        let time = Math.ceil(words / wpm);
+        times[i].innerText = `${time} minute read`
+    }
+}
+readingTime()
+
 function toggleMenu(button) {
     if (displayedMenu === button.id.split("-")[0]) {
         button.className = button.className.replace(" text-gray-800 bg-stone-200 sm:bg-transparent", " text-gray-900");

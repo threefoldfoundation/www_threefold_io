@@ -12,10 +12,8 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="center narrow") %}
+{% row(style="center margin narrow") %}
 
-<br/>
-<br/>
 
 ![Image](black_threefold_header.png#mx-auto#medium)
 
@@ -25,21 +23,14 @@ extra:
 
 We are a global movement together building an open-source, community-driven, decentralized Internet – from the ground up.
 
-{% end %}
-
-{% row(style="center narrow") %}
+<br>
 
 <button>[Build](/cloud)</button>
-
-|||
-
 <button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)</button>
-
-|||
-
 <button>[TF Chat](https://t.me/threefold)</button>
 
 {% end %}
+
 
 <!-- section 2 (Map) -->
 
@@ -113,13 +104,11 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 
 {% end %}
 
-<br>
 
-<br>
 
 <!-- section 7 (IN THE NEWS) -->
 
-{% row(style="center") %}
+{% row(style="center mtop") %}
 
 ## **In the News**
 

@@ -6,45 +6,23 @@ insert_anchor_links: "left"
 
 <!-- section 1 (header) -->
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-{% row(style="center narrow") %}
+{% row(style="center margin narrow") %}
 
 ## Our **Mission**
 
-<br>
 
 To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems. Anything we do needs to improve the planet's situation and benefit the people around us.
 
-{% end %}
-
-{% row(style="center narrow") %}
+<br>
 
 <button>[Collective Dream](/blog/tf-grid-peoples-internet/)</button>
-
-|||
-
 <button>[Planet & People First](/blog/planet-first-people-first/)</button>
-
-|||
-
 <button>[Mission & Goals](https://mission.threefold.me)</button>
+
 
 {% end %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <!-- section 2 (INTERCONNECTED) -->
 
@@ -63,9 +41,9 @@ Internet access is a human right and it can change everything for the lives of p
 
 <!-- section 3 (SOVEREIGN) -->
 
-{% row(style="margin") %}
+{% row(style="margin reverse semiNarrow") %}
 
-## Empowering People **To Be Sovereign**
+## Empowering People <br> **To Be Sovereign**
 
 Create, store and share in full control of where your data resides and who can access it. By combining peer-to-peer, blockchain and autonomous technologies, the People’s Internet provides 100% data ownership and privacy.
 
@@ -79,15 +57,16 @@ Create, store and share in full control of where your data resides and who can a
 
 <!-- section 4 (OUR ACTIONS) -->
 
-{% row(gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" style="margin") %}
+{% row(style="margin semiNarrow" gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" ) %}
 
 ![Image](node_mission.png#medium)
 
 |||
 
-## Our Values Define **Our Actions**
+## Our Values Define <br>**Our Actions**
 
 The ThreeFold Law states that any good you do will return to you threefold in this lifetime. By making our technology actionable, we energize a collective approach towards a single mission – empowering humanity while regenerating our planet.
+
 {% end %}
 
 
@@ -102,7 +81,9 @@ Together, we build a better Internet for the planet, and for all of us.
 
 <br>
 
-![Image](100_mission.png#meduim)
+![Image](100_mission.png#meduim#mx-auto)
+
+<br>
 
 <button>[Join Us](/community)</button>
 
@@ -112,7 +93,7 @@ Together, we build a better Internet for the planet, and for all of us.
 
 <!-- section 6 (GETTING STARTED) -->
 
-{% row(style="center between") %}
+{% row(style="center margin between") %}
 
 ## We've Come A Long Way <br> **And We're Just Getting Started**
 
@@ -133,7 +114,7 @@ And we’re aiming for new heights. ThreeFold is turning into a DAO in 2022, inv
 
 <!-- section 7 (REVOLUTION) -->
 
-{% row(bgColor="#70dfc9" style="center narrow margin") %}
+{% row(bgColor="#70dfc9" style="center margin") %}
 
 ## Join the Internet <br> **(R)evolution**
 
