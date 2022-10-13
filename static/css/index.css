@@ -1945,6 +1945,11 @@ details[open] > summary::after {
   margin-right: -2rem !important;
 }
 
+.my-6{
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
 .mt-10{
   margin-top: 2.5rem !important;
 }
@@ -2346,6 +2351,10 @@ details[open] > summary::after {
   flex-direction: column !important;
 }
 
+.flex-col-reverse{
+  flex-direction: column-reverse !important;
+}
+
 .flex-wrap{
   flex-wrap: wrap !important;
 }
@@ -2655,6 +2664,14 @@ details[open] > summary::after {
   padding: 1.5rem !important;
 }
 
+.p-12{
+  padding: 3rem !important;
+}
+
+.p-1{
+  padding: 0.25rem !important;
+}
+
 .py-10{
   padding-top: 2.5rem !important;
   padding-bottom: 2.5rem !important;
@@ -2818,6 +2835,14 @@ details[open] > summary::after {
   padding-bottom: 0.5rem !important;
 }
 
+.pl-0{
+  padding-left: 0px !important;
+}
+
+.pt-10{
+  padding-top: 2.5rem !important;
+}
+
 .text-left{
   text-align: left !important;
 }
@@ -2904,6 +2929,10 @@ details[open] > summary::after {
 
 .uppercase{
   text-transform: uppercase !important;
+}
+
+.lowercase{
+  text-transform: lowercase !important;
 }
 
 .capitalize{
@@ -3275,6 +3304,13 @@ button :is(:where(p)) {
 button a{
   padding-left: 3rem;
   padding-right: 3rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.long-text a{
+  padding-left: 2rem;
+  padding-right: 2rem;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
@@ -3860,8 +3896,8 @@ header #menu button a{
     padding-bottom: 2rem !important;
   }
 
-  .sm\:pt-16{
-    padding-top: 4rem !important;
+  .sm\:pt-10{
+    padding-top: 2.5rem !important;
   }
 
   .sm\:pb-16{
@@ -3917,6 +3953,11 @@ header #menu button a{
   .md\:-mx-16{
     margin-left: -4rem !important;
     margin-right: -4rem !important;
+  }
+
+  .md\:mx-2{
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
   }
 
   .md\:mt-0{
@@ -4075,11 +4116,6 @@ header #menu button a{
     margin-right: 1rem !important;
   }
 
-  .lg\:mx-40{
-    margin-left: 10rem !important;
-    margin-right: 10rem !important;
-  }
-
   .lg\:mx-10{
     margin-left: 2.5rem !important;
     margin-right: 2.5rem !important;
@@ -4090,9 +4126,9 @@ header #menu button a{
     margin-right: -5rem !important;
   }
 
-  .lg\:my-40{
-    margin-top: 10rem !important;
-    margin-bottom: 10rem !important;
+  .lg\:mx-28{
+    margin-left: 7rem !important;
+    margin-right: 7rem !important;
   }
 
   .lg\:mx-auto{
@@ -4103,11 +4139,6 @@ header #menu button a{
   .lg\:-mx-12{
     margin-left: -3rem !important;
     margin-right: -3rem !important;
-  }
-
-  .lg\:my-32{
-    margin-top: 8rem !important;
-    margin-bottom: 8rem !important;
   }
 
   .lg\:mt-0{
@@ -4276,6 +4307,10 @@ header #menu button a{
     padding: 5rem !important;
   }
 
+  .lg\:p-4{
+    padding: 1rem !important;
+  }
+
   .lg\:py-5{
     padding-top: 1.25rem !important;
     padding-bottom: 1.25rem !important;
@@ -4311,9 +4346,9 @@ header #menu button a{
     padding-right: 1.25rem !important;
   }
 
-  .lg\:py-20{
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
+  .lg\:py-24{
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
   }
 
   .lg\:px-16{
@@ -4348,12 +4383,24 @@ header #menu button a{
     padding-top: 1rem !important;
   }
 
+  .lg\:pb-10{
+    padding-bottom: 2.5rem !important;
+  }
+
+  .lg\:pt-28{
+    padding-top: 7rem !important;
+  }
+
   .lg\:pb-28{
     padding-bottom: 7rem !important;
   }
 
-  .lg\:pb-10{
-    padding-bottom: 2.5rem !important;
+  .lg\:pb-24{
+    padding-bottom: 6rem !important;
+  }
+
+  .lg\:pb-0{
+    padding-bottom: 0px !important;
   }
 
   .lg\:text-5xl{
@@ -4362,6 +4409,10 @@ header #menu button a{
 
   .lg\:text-6xl{
     font-size: 4rem !important;
+  }
+
+  .lg\:text-xl{
+    font-size: 1.25rem !important;
   }
 
   .lg\:backdrop-blur{
@@ -4381,9 +4432,9 @@ header #menu button a{
     margin-right: 5rem !important;
   }
 
-  .xl\:mx-40{
-    margin-left: 10rem !important;
-    margin-right: 10rem !important;
+  .xl\:mx-10{
+    margin-left: 2.5rem !important;
+    margin-right: 2.5rem !important;
   }
 
   .xl\:mx-0{

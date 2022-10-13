@@ -9,68 +9,117 @@ extra:
   imgPath: images/threefold_globe.png
 ---
 
-
 <!-- section 1 (header) -->
 
-{% row(style="center margin narrow") %}
+{% row(style="center") %}
 
+<br/>
+<br/>
 
 ![Image](black_threefold_header.png#mx-auto#medium)
 
 <br/>
 
-## Planet & People-First **Internet.**
+## The (Re)Birth of **the Internet.**
 
-We are a global movement together building an open-source, community-driven, decentralized Internet – from the ground up.
+ThreeFold is a peer-to-peer open-source Internet platform that connects users directly with <br> local Internet capacity provided by farmers. No intermediaries such as centralized servers. 
 
 <br>
 
-<button>[Build](/cloud)</button>
-<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)</button>
-<button>[TF Chat](https://t.me/threefold)</button>
+<button>[Build](/build)</button>
+<button>[Farm](/farm)</button>
+<button>[Main Chat](https://t.me/threefold)</button>
+<button>[Our Forum](https://forum.threefold.io)</button>
 
 {% end %}
-
 
 <!-- section 2 (Map) -->
 
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.6
+### The ThreeFold Grid v3.7
 
 ## **Live and Operational**
 
 {% end %}
 
-
 <!-- section 3 (EXPAND) -->
 
-{% row(style="center margin") %}
+{% row(style="center narrow") %}
 
-### Expand Our New Internet <br> **and Earn TFT**
+## Together **We Build.** Start **Your Journey.**
 
-By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
+The future is about decentralization, participation, and working together to achieve our goals. As a decentralized movement, we encourage the community to get involved. This new Internet can only succeed if we find ways to collaborate where we together pull this Internet concept forward. Below, please find some of the ways you can join us in building a better Internet.
+
+{% end %}
+
+<br>
+
+{% row(style="center narrow") %}
+
+### Farm Local Internet Capacity **and Earn TFT**
+
+<br>
+
+![Image](farm_home.png#mx-auto)
+
+<br>
+
+By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity <br> for the people around you and earn a new digital currency, TFT.
+
+<br>
 
 <button>[Buy a 3Node](http://marketplace.3node.global/)</button>
 <button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
+<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
+
+{% end %}
 
 <br>
 
-![Image](become_farmer_new.jpg#mx-auto)
+{% row(style="center narrow") %}
 
-|||
-
-### Decentralize Your <br> **Data and Workloads**
-
-The community has already started using ThreeFold for its autonomous, decentralization and privacy features.
-
-<button>[Deploy on ThreeFold](https://dashboard.grid.tf/)</button>
-<button>[The Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
+### Build On Top of a **Decentralized Infrastructure**
 
 <br>
 
-![Image](network_new.jpg#mx-auto)
+![Image](build_home.png#mx-auto)
+
+<br>
+
+True digital sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.
+
+<br>
+
+<button>[Dashboard](https://dashboard.grid.tf/)</button>
+<button>[Playground](https://play.grid.tf)</button>
+<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
+<button>[Grid Chat](https://t.me/threefoldtesting)</button>
+
+{% end %}
+
+<br>
+
+{% row(style="center narrow") %}
+
+### Join the **Community.** Spread **the Word.**
+
+<br>
+
+![Image](community_home.png#mx-auto)
+
+<br>
+
+If you believe what we believe, then believe us, there is room for you in this movement. Join the community. Ask questions. <br> Bring suggestions – this is *our* project. Tell a friend. Tell many friends! Together we build.
+
+<br>
+
+<button>[Main Chat](https://t.me/threefold)</button>
+<button>[Our Forum](https://threefold.io)</button>
+<button>[Twitter](https://twitter.com/threefold_io)</button>
+<button>[More Resources](/community)</button>
 
 {% end %}
 
@@ -104,11 +153,13 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 
 {% end %}
 
+<br>
 
+<br>
 
 <!-- section 7 (IN THE NEWS) -->
 
-{% row(style="center mtop") %}
+{% row(style="center") %}
 
 ## **In the News**
 

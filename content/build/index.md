@@ -15,9 +15,9 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 <br>
 
 <button>[Dashboard](https://dashboard.grid.tf)</button>
-<button>[Weblets](https://play.grid.tf)</button>
+<button>[Playground](https://play.grid.tf)</button>
 <button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
-<button>[Chat](https://t.me/threefoldtesting)</button>
+<button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
 
