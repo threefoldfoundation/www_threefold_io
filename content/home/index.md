@@ -104,7 +104,7 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 
 {% row(style="center narrow") %}
 
-### Join the **Community.** Spread **the Word.**
+### Join the **Community.** Grow **the Movement.**
 
 <br>
 
