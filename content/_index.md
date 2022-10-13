@@ -7,7 +7,6 @@ draft: false
 extra:
   author: Your name here
   imgPath: images/threefold_globe.png
-<<<<<<< HEAD
 ---
 
 
