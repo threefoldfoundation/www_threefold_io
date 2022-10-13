@@ -13,7 +13,7 @@ extra:
     cities: [Ibiza]
     private: 0
     socialLinks: {
-        LinkedIn:,
+        LinkedIn: ,
         websites: https://davosblockbase.com,
     }
 ---

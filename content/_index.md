@@ -12,34 +12,36 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="center narrow") %}
+{% row(style="center") %}
 
 <br/>
 <br/>
 
 ![Image](images/black_threefold_header.png#mx-auto#medium)
 
-
-
 <br/>
 
-## Planet & People-First **Internet.**
+## The (Re)Birth of **the Internet.**
 
-We are a global movement together building an open-source, community-driven, decentralized Internet – from the ground up.
+ThreeFold is a peer-to-peer open-source Internet platform that connects users directly with <br> local Internet capacity provided by farmers. No intermediaries such as centralized servers.
 
 {% end %}
 
 {% row(style="center narrow") %}
 
-<button>[Build](/cloud)</button>
+<button>[Build](/build)</button>
+
+|||
+
+<button>[Farm](/farm)</button>
+
+|||
+
+<button>[Main Chat](https://t.me/threefold)</button>
 
 |||
 
 <button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)</button>
-
-|||
-
-<button>[TF Chat](https://t.me/threefold)</button>
 
 {% end %}
 
@@ -48,7 +50,7 @@ We are a global movement together building an open-source, community-driven, dec
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.6
+### The ThreeFold Grid v3.7.0
 
 ## **Live and Operational**
 
@@ -57,31 +59,63 @@ We are a global movement together building an open-source, community-driven, dec
 
 <!-- section 3 (EXPAND) -->
 
-{% row(style="center margin") %}
+{% row(style="center narrow") %}
 
-### Expand Our New Internet <br> **and Earn TFT**
+## Together **We Build.**
 
-By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
+The future is about decentralization, participation, and working together to achieve our goals. As a decentralized movement, we encourage the community to get involved. This new Internet can only succeed if we find ways to collaborate where we together pull this Internet concept forward. Below, please find some of the ways you can join us in building a better Internet.
 
-<button>[Buy a 3Node](http://marketplace.3node.global/)</button>
-<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+{% end %}
 
-<br>
+{% row(style="center narrow") %}
 
 ![Image](images/become_farmer_new.jpg#mx-auto)
 
+<br>
+
+### Farm Local Internet Capacity **and Earn TFT**
+
+By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity for the people around you and earn a new digital currency, TFT.
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+<button>[Buy a 3Node](http://marketplace.3node.global/)</button>
+
 |||
 
-### Decentralize Your <br> **Data and Workloads**
+<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
 
-The community has already started using ThreeFold for its autonomous, decentralization and privacy features.
+|||
 
-<button>[Deploy on ThreeFold](https://dashboard.grid.tf/)</button>
-<button>[The Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
+<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+![Image](images/network_new.jpg#mx-auto)
 
 <br>
 
-![Image](images/network_new.jpg#mx-auto)
+### Build On Top of a **Decentralized Infrastructure**
+
+True digital sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, and brings a playground of industry-compatible easy-to-deploy solutions for developers.
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+<button>[Deploy on ThreeFold](https://dashboard.grid.tf/)</button>
+
+|||
+
+<button>[The Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
+
+|||
+
+<button>[Builders Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
 

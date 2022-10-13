@@ -14,7 +14,7 @@ extra:
     private: 1
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/yveskerwyn/,
-        websites:,
+        websites: ,
     }
 ---
 

@@ -14,7 +14,7 @@ extra:
     private: 1
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/ragheb-abushahba-a101034/,
-        websites:,
+        websites: ,
     }
 ---
 

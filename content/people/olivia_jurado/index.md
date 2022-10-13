@@ -14,7 +14,7 @@ extra:
     private: 0
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/oliviajurado/,
-        websites:,
+        websites: ,
     }
 ---
 
