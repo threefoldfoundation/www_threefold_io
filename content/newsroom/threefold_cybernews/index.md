@@ -2,8 +2,8 @@
 id: threefold_cybernews
 title: ThreeFold Q&A with Adnan Fatayerji and CyberNews
 image_caption: ThreeFold Cybernews
-date: 2022-05-24
 description: 'Adnan Fatayerji, ThreeFold: "the best protection is ownership and sovereignty over your own online data"'
+date: 2022-05-24
 taxonomies:
     people: [sam_taggart]
     tags: [news,threefold_grid,technology,peer_to_peer]
@@ -139,7 +139,7 @@ A vastly overlooked detail about the current cloud landscape is that it is energ
 
 <br/>
 
-The Internet’s growth is exponential: 5.25 billion people have Internet access and are active users, so that’s about 66% of the world's population. Since 2000, the number of Internet users has increased by 1,355%. The rate at which hyper-scale data centers need to be built to keep up with hosting these clouds is unrealistic, and their price tags are exorbitant considering there are more efficient ways to tackle this issue.
+The Internet’s growth is exponential: 5.25 billion people have Internet access and are active users, so that’s about 66% of the world's population. Since 2000, the number of Internet users has increased by 1,355%. The rate at which hyper-scale data centers need to be built to keep up with hosting these clouds is unrealistic, and their price     tags are exorbitant considering there are more efficient ways to tackle this issue.
 
 <br/>
 

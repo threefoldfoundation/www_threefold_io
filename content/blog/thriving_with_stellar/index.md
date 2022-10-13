@@ -2,14 +2,13 @@
 id: thriving_with_stellar
 title: "Thriving with Stellar – The Role of Stellar for the TFT Ecosystem & How to Buy TFT on Stellar"
 image_caption: Thriving with Stellar – The Role of Stellar for the TFT Ecosystem & How to Buy TFT on Stellar
+description: Everything we need for a healthy financial ecosystem is already available on Stellar today. Find out more about Stellar and its role in the TFT ecosystem, and learn how to buy TFT with Stellar.
 date: 2022-08-04
-description: We believe everything we need for a healthy financial ecosystem is already available on Stellar today. Find out more about Stellar and its role in the TFT ecosystem, and learn how to buy TFT with Stellar.
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, threefold_token, technology, blockchain, update]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: thriving_with_stellar.png
 ---
 
@@ -19,11 +18,11 @@ Launched in 2014, [Stellar](https://www.stellar.org/) is an open network for sto
 
 <br/>
 
-In [2020](https://threefold.io/news/post/stellar/), ThreeFold decided to move the [ThreeFold Token](https://library.threefold.me/info/threefold#/tokens/threefold__token_what) (TFT) to Stellar from Rivine (a transactional blockchain created by ThreeFold), which still is the main blockchain for the minting of TFT and the distribution of farming rewards. Internet capacity provisioning and workload deployments are executed via [TF Chain](https://threefold.io/blog/post/tf_chain/). Therefore, [bridges](https://threefold.io/blog/post/bridges_connecting_threefold_ecosystem/) between Stellar and TF Chain were established to facilitate payments.
+In [2020](https://threefold.io/news/post/stellar/), ThreeFold decided to move the [ThreeFold Token](https://library.threefold.me/info/threefold#/tokens/threefold__token_what) (TFT) to Stellar from Rivine (a transactional blockchain created by ThreeFold), which still is the main blockchain for the minting of TFT and the distribution of farming rewards. Internet capacity provisioning and workload deployments are executed via [TF Chain](https://threefold.io/blog/tf_chain/). Therefore, [bridges](https://threefold.io/blog/bridges_connecting_threefold_ecosystem/) between Stellar and TF Chain were established to facilitate payments.
 
 <br/>
 
-*Learn more about the blockchains TFT is available on [here](https://threefold.io/blog/post/bridges_connecting_threefold_ecosystem/).*
+*Learn more about the blockchains TFT is available on [here](https://threefold.io/blog/bridges_connecting_threefold_ecosystem/).*
 
 ## Why we chose Stellar & What the Network offers
 
@@ -71,7 +70,7 @@ So, as you can see, Stellar offers multiple great solutions and basically everyt
 
 <br/>
 
-Since every asset and currency starts with zero liquidity when issued on Stellar, it is up to the community to put capital onto the Stellar Network and to put that capital to use for trading, e.g. by creating orders on the order books, to build liquidity on Stellar – i.e. to create and sustain a healthy market for TFT. Therefore, we encourage you all to choose Stellar as the primary platform to trade TFT. If all of us together put our liquidity there, we’ll be able to create a very healthy TFT ecosystem, and thereby also attract others to get involved in TFT. Actually, this is a great chance for us to take back control of the token and strengthen – without any interferences or manipulations from centralized exchanges. Together, we build.
+Since every asset and currency starts with zero liquidity when issued on Stellar, it is up to the community to put capital onto the Stellar Network and to put that capital to use for trading, e.g. by creating orders on the order books, to build liquidity on Stellar – i.e. to create and sustain a healthy market for TFT. Therefore, we encourage you all to choose Stellar as the primary platform to trade TFT. If all of us together put our liquidity there, we’ll be able to create a very healthy TFT ecosystem, and thereby also attract others to get involved in TFT. Actually, this is a great chance for us to take back control of and strengthen the token – without any interferences or manipulations from centralized exchanges. Together, we build.
 
 <br/>
 

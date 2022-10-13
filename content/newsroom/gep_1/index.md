@@ -2,8 +2,8 @@
 id: gep_1
 title: The 1st Grid Enhancement Proposal
 image_caption: GEP 1
-date: 2022-03-15
 description: Seeking the community's feedback on approach to a bug in the minting code and related topics.
+date: 2022-03-15
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,threefold_grid,farming]

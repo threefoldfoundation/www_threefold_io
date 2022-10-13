@@ -2,8 +2,8 @@
 id: grid_utilization_plan_2
 title: ThreeFold Grid Utilization Plan – Part 2
 image_caption: Grid Utilization Plan 2
-date: 2021-09-02
 description: Part two (of two) of our ThreeFold Grid utilization plan, focusing on key partnerships.
+date: 2021-09-02
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,update,threefold_cloud,technology,partner]

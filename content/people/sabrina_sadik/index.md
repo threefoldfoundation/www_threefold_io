@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/sabrina-sadik-449758132/,
         github: https://github.com/sabrinasadik,
-            websites: https://threefold.io/, https://threefold.tech,
+        websites: https://threefold.io/, https://threefold.tech,
     }
 ---
 

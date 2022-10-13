@@ -2,8 +2,8 @@
 id: tf_corporateunplugged
 title: ThreeFold on Corporate Unplugged Podcast
 image_caption: threefold on corporate unplugged
-date: 2021-03-16
 description: ThreeFold co-founder Kristof de Spiegeleer appeared on the Corporate Unplugged podcast, with previous guests Simon Sinek and Seth Godin.
+date: 2021-03-16
 taxonomies:
     people: [sam_taggart]
     tags: [interview,community]

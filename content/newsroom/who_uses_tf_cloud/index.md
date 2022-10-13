@@ -2,8 +2,8 @@
 id: who_uses_tf_cloud
 title: Use Cases for the ThreeFold Cloud
 image_caption: who uses tf cloud
-date: 2021-03-05
 description: Learn more about what the peer-to-peer TF Cloud can already achieve! 
+date: 2021-03-05
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_cloud,update,technology]

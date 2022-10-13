@@ -2,8 +2,8 @@
 id: 3k3nodes
 title: 3,000+ 3Node Pre-Registrations for Batch 3
 image_caption: 3,000 3Node Pre-Registrations
-date: 2021-06-08
 description: We have received a huge influx in pre-registrations for the Titan V2 3Node. Thank you!
+date: 2021-06-08
 taxonomies:
     people: [sam_taggart]
     tags: [grid,farming]

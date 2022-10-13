@@ -2,10 +2,10 @@
 id: threefold_waykichain
 title: ThreeFold & WaykiChain collaborate to decentralize cloud computing
 image_caption: blockchain
-date: 2020-05-26
 description: Today, ThreeFold and WaykiChain are pleased to officially announce their collaborative partnership..
+date: 2020-05-26
 taxonomies:
-    people: []
+    people: [benjelloun_oussama]
     tags: [partner,update,community,blockchain]
     news-category: [farming,cloud,foundation]
 extra:

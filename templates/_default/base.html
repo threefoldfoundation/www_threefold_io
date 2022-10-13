@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" charset="utf-8">
 {% include "partials/head.html" %}
-
 {% include "partials/header.html" %}
 
 <body>
@@ -27,18 +26,22 @@
     // makes all links outside of hostname open in new tab
     // from: https://stackoverflow.com/a/4425214
     var links = document.links;
-    console.log(links)
+    var internal_hosts = [
+        'www.threefold.io',
+        'threefold.io',
+        'www2.threefold.io',
+        'localhost',
+        '127.0.0.1'
+    ]
     for (var i = 0, linksLength = links.length; i < linksLength; i++) {
-
-        if (links[i].hostname != window.location.hostname) {
+        if (!internal_hosts.includes(links[i].hostname)) {
             links[i].target = '_blank';
         }
-
     }
   </script>
   <!-- End Twitter universal website tag code -->
 
-
+  {% include "partials/header.html" %}
   <div id="content" class="p-4 pt-12 sm:p-12 md:p-16 lg:p-20 overflow-hidden">
     {% block content %}{% endblock %}
   </div>

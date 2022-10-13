@@ -2,8 +2,8 @@
 id: filebrowser_demo
 title: Watch the P2P File Browser Demo!
 image_caption: Filebrowser Demo
-date: 2021-07-29
 description: Take a look at the file browser (storage) solution we're building at ThreeFold!
+date: 2021-07-29
 taxonomies:
     people: [sam_taggart]
     tags: [technology,update,peer_to_peer,threefold_grid,digital_twin]

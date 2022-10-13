@@ -2,18 +2,17 @@
 id: project_comparison_3_filecoin
 title: "A Journey through the Decentralization and Blockchain Space – Part Three: Filecoin"
 image_caption: Filecoin & how it compares to ThreeFold
-date: 2021-10-08
 description: This post is the third one in a series to look into fellow projects and their solutions to better understand the space we operate in and how ThreeFold stands out. This time, we're taking a closer look at Filecoin!
+date: 2021-10-08
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, blockchain, technology]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: project_comparison_3_filecoin.png
 ---
 
-Welcome to the third stop on our journey that aims to better understand the space we operate in and how ThreeFold stands out. After exploring [Dfinity](https://threefold.io/blog/post/project_comparison_1_dfinity/) and [Akash](https://threefold.io/blog/post/project_comparison_2_akash/), I will now take a closer look at Filecoin to discover the similarities as well as differences of their project and ThreeFold. Let’s dive right in!
+Welcome to the third stop on our journey that aims to better understand the space we operate in and how ThreeFold stands out. After exploring [Dfinity](https://threefold.io/blog/project_comparison_1_dfinity/) and [Akash](https://threefold.io/blog/project_comparison_2_akash/), I will now take a closer look at Filecoin to discover the similarities as well as differences of their project and ThreeFold. Let’s dive right in!
 
 ## Filecoin & how the project compares to ThreeFold
 
@@ -29,11 +28,11 @@ Filecoin provides a persistent data storage system and has built an incentive st
 
 <br/>
 
-We also offer a peer-to-peer network and cloud solution. Our ThreeFold Grid is the [most advanced](https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/) distributed peer-to-peer network there is, currently present in [more than 50 countries](https://explorer.grid.tf). While Filecoin also has its own underlying blockchain, we’re the first full-stack blockchain-enabled cloud to be made open source. Moreover, we offer an energy-efficient [full stack cloud infrastructure](https://cloud.threefold.io) that unites compute, storage, and network, and integrates all leading industry-standard tools – allowing for a seamless migration of any digital workload, even from [traditional cloud providers](https://threefold.io/blog/post/threefold_cloud_vs_centralized_providers_like_aws_azure/) like Microsoft Azure or AWS.
+We also offer a peer-to-peer network and cloud solution. Our ThreeFold Grid is the [most advanced](https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/) distributed peer-to-peer network there is, currently present in [more than 50 countries](https://explorer.grid.tf). While Filecoin also has its own underlying blockchain, we’re the first full-stack blockchain-enabled cloud to be made open source. Moreover, we offer an energy-efficient [full stack cloud infrastructure](https://cloud.threefold.io) that unites compute, storage, and network, and integrates all leading industry-standard tools – allowing for a seamless migration of any digital workload, even from [traditional cloud providers](https://threefold.io/blog/threefold_cloud_vs_centralized_providers_like_aws_azure/) like Microsoft Azure or AWS.
 
 <br/>
 
-With our cloud solution, developers are also enabled to deploy virtual machines or to discover the future of cloud computing with ZFlist, a game-changing Docker-compatible solution. As [ZFlist](https://threefold.io/tech/zflist) is distributed across many mini virtual machines (VMs), it provides the ideal infrastructure for edge workloads on a highly secure level. On top of that, the data produced by these workloads can be stored in our [Quantum Safe File System](https://threefold.io/blog/post/building_a_new_internet_from_the_ground_up_pt2/) (QSFS) solution. Our QSFS is highly compatible with most storage tools (e.g. S3) and protocols (e.g. IPFS). In addition to that, developers using our tech are enabled to set the terms for storing their workloads based on their needs – they even have the opportunity to scale their applications to the edge with powerful compute and storage capabilities.
+With our cloud solution, developers are also enabled to deploy virtual machines or to discover the future of cloud computing with ZFlist, a game-changing Docker-compatible solution. As [ZFlist](https://threefold.io/tech/zflist) is distributed across many mini virtual machines (VMs), it provides the ideal infrastructure for edge workloads on a highly secure level. On top of that, the data produced by these workloads can be stored in our [Quantum Safe File System](https://threefold.io/blog/building_a_new_internet_from_the_ground_up_pt2/) (QSFS) solution. Our QSFS is highly compatible with most storage tools (e.g. S3) and protocols (e.g. IPFS). In addition to that, developers using our tech are enabled to set the terms for storing their workloads based on their needs – they even have the opportunity to scale their applications to the edge with powerful compute and storage capabilities.
 
 <br/>
 
@@ -41,7 +40,7 @@ By contributing and lending storage capacity on Filecoin’s marketplace, provid
 
 <br/>
 
-While we’ve built our own operating system [from scratch](https://threefold.io/blog/post/zero_os_blog/), starting just with a Linux kernel, Filecoin doesn't have its own OS. ThreeFold is not only more inclusive but also has a much higher scalability as anyone’s able to participate. In contrast, Filecoin even issues a warning in their [documentation](https://docs.filecoin.io/mine/) which states that in order to run a successful mining operation, one has to meet high hardware requirements and to be highly familiar with Filecoin. Thanks to our autonomous, self-healing technology, no maintenance is required. To ensure the security of our 3Nodes can’t be accessed physically once booted. Therefore, our ThreeFold Grid is much more inclusive, as the network capacity on it is provided by many people and organizations constituting what we like to call “[People’s Internet](https://threefold.io/blog/post/tf_grid_peoples_internet/).” Currently, we’re planning to extend our reach to enable even more people to join the ThreeFold Grid. 
+While we’ve built our own operating system [from scratch](https://threefold.io/blog/zero_os_blog/), starting just with a Linux kernel, Filecoin doesn't have its own OS. ThreeFold is not only more inclusive but also has a much higher scalability as anyone’s able to participate. In contrast, Filecoin even issues a warning in their [documentation](https://docs.filecoin.io/mine/) which states that in order to run a successful mining operation, one has to meet high hardware requirements and to be highly familiar with Filecoin. Thanks to our autonomous, self-healing technology, no maintenance is required. To ensure the security of our 3Nodes can’t be accessed physically once booted. Therefore, our ThreeFold Grid is much more inclusive, as the network capacity on it is provided by many people and organizations constituting what we like to call “[People’s Internet](https://threefold.io/blog/tf_grid_peoples_internet/).” Currently, we’re planning to extend our reach to enable even more people to join the ThreeFold Grid. 
 
 <br/>
 
@@ -53,7 +52,7 @@ In Filecoin’s model, [mining](https://docs.filecoin.io/mine/how-mining-works/)
 
 ## Conclusion
 
-To conclude, the two projects share the same vision of bringing users’ data closer to their respective owners, establishing an open cloud market that is independent from the few big centralized cloud providers currently dominating the market. Like ThreeFold, Filecoin seeks to provide a [network](https://filecoin.io/store/#flexible) built as well as owned by the people, regardless of their location. Nevertheless, Filecoin is focused on storage and mainly based on the IPFS protocol, only providing an incentive layer on top. In contrast, ThreeFold provides [all three](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) major low-level components of the internet’s backbone: compute, storage and network. Additionally, ThreeFold’s P2P Cloud offers a holistic set of solutions – from our Planetary Network and our Quantum Safe File System to our eVDC and marketplace. All in all, the technology and infrastructure we’re providing is turning traditional IT upside down.
+To conclude, the two projects share the same vision of bringing users’ data closer to their respective owners, establishing an open cloud market that is independent from the few big centralized cloud providers currently dominating the market. Like ThreeFold, Filecoin seeks to provide a [network](https://filecoin.io/store/#flexible) built as well as owned by the people, regardless of their location. Nevertheless, Filecoin is focused on storage and mainly based on the IPFS protocol, only providing an incentive layer on top. In contrast, ThreeFold provides [all three](https://threefold.io/blog/an_intro_to_the_threefold_grid/) major low-level components of the internet’s backbone: compute, storage and network. Additionally, ThreeFold’s P2P Cloud offers a holistic set of solutions – from our Planetary Network and our Quantum Safe File System to our eVDC and marketplace. All in all, the technology and infrastructure we’re providing is turning traditional IT upside down.
 
 <br/>
 

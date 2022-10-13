@@ -2,8 +2,8 @@
 id: deepdives123
 title: New Year Deep Dive Sessions 1, 2, & 3
 image_caption: Deep Dives 1, 2, & 3
-date: 2022-01-06
 description: The first three deep dives of the year, bringing the community up to speed on all things ThreeFold.
+date: 2022-01-06
 taxonomies:
     people: [sam_taggart]
     tags: [community,threefold_grid,technology,threefold_token,update,peer_to_peer]

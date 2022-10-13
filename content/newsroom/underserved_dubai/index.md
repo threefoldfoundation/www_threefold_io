@@ -2,8 +2,8 @@
 id: underserved_dubai
 title: A Special Visit for the Team in Dubai
 image_caption: Special Visit Dubai
-date: 2022-01-23
 description: We're exploring the deployment of a regenerative and inclusive Internet for HBCUs and Native American communities!
+date: 2022-01-23
 taxonomies:
     people: [sam_taggart]
     tags: [news,update,community,why]

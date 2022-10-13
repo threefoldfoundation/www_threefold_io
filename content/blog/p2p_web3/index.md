@@ -2,14 +2,13 @@
 id: p2p_web3
 title: Peer-to-Peer Overcomes Web3 Challenges
 image_caption: P2P Web3
-date: 2022-03-09
 description: The promise of Web3 is tremendous, but there are clear limitations to overcome. How? Peer-to-peer systems and blockchains, side by side. The best of both worlds.
+date: 2022-03-09
 taxonomies:
     people: [sam_taggart]
     tags: [peer_to_peer,why,farming,threefold_grid]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: p2p_web3.png
 ---
 

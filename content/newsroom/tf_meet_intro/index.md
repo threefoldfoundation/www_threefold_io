@@ -2,8 +2,8 @@
 id: tf_meet_post_1
 title: Get to know TF Meet
 image_caption: Get to know TF Meet
-date: 2020-12-17
 description: ThreeFold Meet is a P2P alternative to centralized video conferencing solutions.
+date: 2020-12-17
 taxonomies:
     people: [sam_taggart]
     tags: [technology,update,threefold_cloud]

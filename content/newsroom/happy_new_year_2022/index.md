@@ -2,8 +2,8 @@
 id: happy_new_year_2022
 title: Happy New Year from ThreeFold
 image_caption: Happy New Year from ThreeFold
-date: 2021-12-31
 description: Wishing you and yours all the best this new year!
+date: 2021-12-31
 taxonomies:
     people: [sam_taggart]
     tags: [community,event]

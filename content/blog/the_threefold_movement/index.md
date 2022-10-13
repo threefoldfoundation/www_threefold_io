@@ -2,14 +2,13 @@
 id: the_threefold_movement
 title: Into the Fold – The ThreeFold Movement
 image_caption: The ThreeFold Movement
-date: 2021-07-20
 description: It's not by mistake that you're here, reading this post. You can feel that a global shift is happening. And you want to do something about it.
+date: 2021-07-20
 taxonomies:
     people: [sam_taggart]
     tags: [why, community, peer_to_peer]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: the_threefold_movement.png
 ---
 

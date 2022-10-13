@@ -2,8 +2,8 @@
 id: dfinity_threefold_news
 title: See How ThreeFold Compares to Dfinity
 image_caption: See How ThreeFold Compares to Dfinity
-date: 2021-06-11
 description: TGDaily - Dfinity, ThreeFold are Leading an Internet Decentralization Revolution
+date: 2021-06-11
 taxonomies:
     people: [sam_taggart]
     tags: [news,update,technology]

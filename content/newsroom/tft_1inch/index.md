@@ -2,8 +2,8 @@
 id: tft_1inch
 title: TFT on 1inch.io
 image_caption: TFT on 1inch
-date: 2021-09-01
 description: The ThreeFold Token is now available on DeFi entry point 1inch!
+date: 2021-09-01
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_token,update,blockchain]

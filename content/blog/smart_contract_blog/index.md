@@ -2,16 +2,15 @@
 id: smart_contract_blog
 title: A Smart Contract for all IT workloads
 image_caption: smart contract for IT
-date: 2021-05-25
 description: The Smart Contract for IT allows you, your company or your community to execute the storage and running of your files and applications securely with consensus and automatic billing.
+date: 2021-05-25
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [threefold_grid,technology]
     categories: [farming,cloud,foundation,aci,twin]
 extra:
-    isVisible: true
     imgPath: smart_contract_blog.png
-    
+
 
 
 ---

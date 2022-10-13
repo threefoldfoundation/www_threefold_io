@@ -2,14 +2,13 @@
 id: weekly_vol_12
 title: "ThreeFold Weekly! March 29th, 2022 (Vol 12)"
 image_caption: ThreeFold Weekly! March 29th, 2022 (Vol 12)
-date: 2022-03-29
 description: Welcome to the 12th edition of of ThreeFold Weekly. Let’s take a look at what happened in the ThreeFold universe last week.
+date: 2022-03-29
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, community, farming, interview, update]
     categories: [foundation]
 extra:
-    isVisible: false
     imgPath: weekly_vol_12.png
 ---
 
@@ -49,7 +48,7 @@ ThreeFold was **featured in the news twice** last week:
 
 <br/>
 
-* Only **8 [L2](https://forum.threefold.io/t/procedure-to-register-your-l2-validator-node/1864) and 3 [L0](https://forum.threefold.io/t/procedure-to-register-your-l0-validator-nodes/1866) validator spots remain**. We are grateful to know that the people behind the validators believe in a decentralized future and want to take part in a meaningful way. Learn how to stake TFT and become a validator [here](https://threefold.io/blog/post/stake_tft_become_validator/).
+* Only **8 [L2](https://forum.threefold.io/t/procedure-to-register-your-l2-validator-node/1864) and 3 [L0](https://forum.threefold.io/t/procedure-to-register-your-l0-validator-nodes/1866) validator spots remain**. We are grateful to know that the people behind the validators believe in a decentralized future and want to take part in a meaningful way. Learn how to stake TFT and become a validator [here](https://threefold.io/blog/stake_tft_become_validator/).
 
 ### Technology Developments:
 

@@ -2,8 +2,8 @@
 id: fiat_gateway_testing
 title: Looking for TFT Fiat Gateway Beta Testers
 image_caption: TFT Fiat Gateway Beta Testers
-date: 2022-04-27
 description: We're making TFT more accessible! Help us test the Fiat Gateway and earn 500 TFT.
+date: 2022-04-27
 taxonomies:
     people: [sam_taggart]
     tags: [community,threefold_token,technology,threefold_grid]

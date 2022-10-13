@@ -2,14 +2,13 @@
 id: bitcoin_threefold
 title: What Bitcoin did to money, ThreeFold is doing to the Internet
 image_caption: Bitcoin ThreeFold
-date: 2022-03-11
 description: As the Internet is struggling with issues due to its centralized model, ThreeFold spent the last six years developing a new open-source peer-to-peer Internet infrastructure from the ground up.
+date: 2022-03-11
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [peer_to_peer,threefold_grid,blockchain,technology]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: bitcoin_threefold.png
 ---
 

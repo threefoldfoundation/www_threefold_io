@@ -2,14 +2,13 @@
 id: weekly_vol_17
 title: "ThreeFold Weekly! May 10th, 2022 (Vol 17)"
 image_caption: ThreeFold Weekly! May 10th, 2022 (Vol 17)
-date: 2022-05-10
 description: Welcome to the 17th edition of ThreeFold Weekly. Let’s dive into last week’s highlights throughout the ThreeFold ecosystem.
+date: 2022-05-10
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
-    isVisible: false
     imgPath: weekly_vol_17.png
 ---
 

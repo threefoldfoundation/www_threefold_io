@@ -2,8 +2,8 @@
 id: products_services_may_21
 title: Products & Services Update 
 image_caption: Products & Services Update
-date: 2021-05-21
 description: Get the lowdown on our v2.7.1 products & service updates.
+date: 2021-05-21
 taxonomies:
     people: [sam_taggart]
     tags: [technology,threefold_grid,update]

@@ -2,8 +2,8 @@
 id: casper_communitycall_1_news
 title: ThreeFold Joins CasperLabs Community Call
 image_caption: ThreeFold x Casper Community Call
-date: 2021-04-13
 description: Join us on Casper's community call this evening!
+date: 2021-04-13
 taxonomies:
     people: [sam_taggart]
     tags: [partner,event,community,blockchain]

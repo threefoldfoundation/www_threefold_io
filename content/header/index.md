@@ -10,7 +10,7 @@ extra:
 
 - [Mission]("/mission")
 - [Grid]("/grid")
-- [Build]("/cloud")
+- [Build]("/build")
 - [Farm]("/farm")
 - [TFT]("/tft")
 - Ecosystem
@@ -21,7 +21,7 @@ extra:
 
 [Our People](/people)
 <br>
-Team, stories, & more
+<p class="text-sm">Team, stories, & more</p>
 
 </button>
 
@@ -31,7 +31,7 @@ Team, stories, & more
 
 [Our Partners](/partners)
 <br>
-Explore Our Partners
+<p class="text-sm">Explore Our Partners</p>
 
 |||
 
@@ -39,7 +39,7 @@ Explore Our Partners
 
 [ThreeFold Community](/community)
 <br>
-Welcome To The Fold
+<p class="text-sm">Welcome To The Fold</p>
 
 </button>
 
@@ -49,7 +49,7 @@ Welcome To The Fold
 
 [Developer Resources](/developer)
 <br>
-Join The Developer Community
+<p class="text-sm">Join The Developer Community</p>
 
 </button>
 
@@ -62,53 +62,53 @@ Join The Developer Community
 
 #### Tools
 
-<button onclick="window.location.href='https&#58;//library.threefold.me/info/threefold#/tokens/threefold__threefold_connect'">
+<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/tokens/threefold__threefold_connect')">
 
 [ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
 <br>
-TFT Wallet, 2FA, & More
+<p class="text-sm">TFT Wallet, 2FA, & More</p>
 
 </button>
 
-<button onclick="window.location.href='https&#58;//dashboard.grid.tf/'">
+<button onclick="openInNewTab('https&#58;//dashboard.grid.tf/')">
 
 [Dashboard](https://dashboard.grid.tf/)
 <br>
-Portal & Capacity Explorer
+<p class="text-sm">Portal & Capacity Explorer</p>
 
 </button>
 
-<button onclick="window.location.href='https&#58;//play.grid.tf'">
+<button onclick="openInNewTab('https&#58;//play.grid.tf')">
 
 [Weblet Playground](https://play.grid.tf)
 <br>
-Deploy a VM & More
+<p class="text-sm">Deploy a VM & More</p>
 
 |||
 
 #### Resources 
 
-<button onclick="window.location.href='https&#58;//library.threefold.me/info/threefold#/'">
+<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/')">
 
 [Library](https://library.threefold.me/info/threefold#/)
 <br>
-Explore the Documentation
+<p class="text-sm">Explore the Documentation</p>
 
 </button>
 
-<button onclick="window.location.href='https&#58;//library.threefold.me/info/manual/#/manual__manual3_home_new'">
+<button onclick="openInNewTab('https&#58;//library.threefold.me/info/manual/#/manual__manual3_home_new')">
 
 [Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
 <br>
-Get Started on the Grid
+<p class="text-sm">Get Started on the Grid</p>
 
 </button>
 
-<button onclick="window.location.href='https&#58;//github.com/'">
+<button onclick="openInNewTab('https&#58;//github.com/')">
 
 [GitHub](https://github.com/)
 <br>
-Code Library & Documentation
+<p class="text-sm">Code Library & Documentation</p>
 
 |||
 
@@ -118,7 +118,7 @@ Code Library & Documentation
 
 [Blog](/blog)
 <br>
-Explore the Blogs
+<p class="text-sm">Explore the Blogs</p>
 
 </button>
 
@@ -126,31 +126,31 @@ Explore the Blogs
 
 [Newsroom](/newsroom)
 <br>
-Check the Latest Updates
+<p class="text-sm">Check the Latest Updates</p>
 
 </button>
 
-<button onclick="window.location.href='https&#58;//intro.threefold.me'">
+<button onclick="openInNewTab('https&#58;//intro.threefold.me')">
 
 [Intro Docs](https://intro.threefold.me)
 <br>
-Perfect for Newcomers
+<p class="text-sm">Perfect for Newcomers</p>
 
 |||
 
 #### Support & Help
 
-<button onclick="window.location.href='https&#58;//forum.threefold.io'">
+<button onclick="openInNewTab('https&#58;//forum.threefold.io')">
 
 [Forum](https://forum.threefold.io)
 <br>
-Questions & Feedback
+<p class="text-sm">Questions & Feedback</p>
 
 <button onclick="window.location.href='/support'">
 
 [Support](/support)
 <br>
-Speak Live with a Human
+<p class="text-sm">Speak Live with a Human</p>
 
 </button>
 
@@ -158,7 +158,7 @@ Speak Live with a Human
 
 [Careers](/careers)
 <br>
-Join the Team
+<p class="text-sm">Join the Team</p>
 
 </button>
 

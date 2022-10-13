@@ -2,18 +2,17 @@
 id: building_a_new_internet_from_the_ground_up_pt2
 title: "Building a New Internet From the Ground Up – Part 2: Storage"
 image_caption: The ThreeFold Grid Peer-to-Peer Technology
-date: 2021-07-28
 description: Part two of an approachable series on the inner workings of the ThreeFold Grid. This time, storage
+date: 2021-07-28
 taxonomies:
     people: [scott_yeager]
     tags: [threefold_grid,technology,peer_to_peer]
     categories: [foundation,farming,cloud]
 extra:
-    isVisible: true
     imgPath: building_a_new_internet_2.png
 ---
 
-Welcome back for the second part of this introductory series on ThreeFold Grid technology. [Last time](https://threefold.io/blog/post/an_intro_to_the_threefold_grid/) we took a high level view of all that the Grid offers. This time, we'll be zooming in on storage, covering the low level components and how they can provide a familiar experience like the cloud "drives" and "boxes" we use today.
+Welcome back for the second part of this introductory series on ThreeFold Grid technology. [Last time](https://threefold.io/blog/an_intro_to_the_threefold_grid/) we took a high level view of all that the Grid offers. This time, we'll be zooming in on storage, covering the low level components and how they can provide a familiar experience like the cloud "drives" and "boxes" we use today.
 <br/>
 <br/>
 The ThreeFold Grid offers several different storage primitives that can be combined in various ways to meet the needs of developers and end users of Grid capacity. Ultimately, all storage services are a way of presenting the underlying hardware to software workloads in various ways, according to the desired features. ThreeFold has created a few unique storage offerings, providing distinct benefits over legacy cloud infrastructure. From the start, every component has been designed for optimal efficiency and they work together to offer an unprecedented level of security.

@@ -2,8 +2,8 @@
 id: liquid_hack_one
 title: Liquid Hacked, TFT Not Affected
 image_caption: Liquid Exchange Hacked
-date: 2021-08-19
 description: Liquid, an exchange on which TFT is listed, has been hacked. It appears TFT was not affected.
+date: 2021-08-19
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_token, community, news]

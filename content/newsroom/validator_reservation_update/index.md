@@ -2,8 +2,8 @@
 id: validator_reservation_update
 title: Validator Reservations Progress
 image_caption: Validator Reservation Progress
-date: 2022-02-03
 description: Be amongst the first ThreeFold Validators contributing to the decentralization and expansion of the Internet – and get rewarded for it. Limited spots remain!
+date: 2022-02-03
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news,technology,peer_to_peer]

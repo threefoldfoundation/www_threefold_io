@@ -2,8 +2,8 @@
 id: tfweekly13
 title: ThreeFold Weekly! Volume Thirteen
 image_caption: TF Weekly Volume Thirteen
-date: 2022-04-05
 description: Your weekly ThreeFold digest!
+date: 2022-04-05
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

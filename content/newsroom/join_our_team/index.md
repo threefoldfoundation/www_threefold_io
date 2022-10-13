@@ -2,8 +2,8 @@
 id: join_our_team
 title: Join Our Team
 image_caption: Join Our Team
-date: 2021-08-09
 description: We're looking for new team members, take a look at what's open!
+date: 2021-08-09
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/ahmed-te-youssef/,
         github: https://github.com/xmonader,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

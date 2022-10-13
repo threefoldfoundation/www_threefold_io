@@ -19,9 +19,9 @@ To use this repository as a template, simply:
 - run `npm install` to install dependencies
 - run `npm run start`
 
-## See Website On
+## See Website(Github pages) On
 
-https://threefoldfoundation.github.io/www_threefold_io/public/index.html
+https://threefoldfoundation.github.io/www_threefold_io/
 
 
 ## how to publish to html

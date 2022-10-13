@@ -2,8 +2,8 @@
 id: opennebula_threefold
 title: OpenNebula and ThreeFold Announce Agreement to Explore Cooperation in Open Source and Edge Computing
 image_caption: ThreeFold Tech and OpenNebula Systems are partnering
-date: 2022-07-12
 description: ThreeFold Tech and OpenNebula Systems are partnering to accelerate new, open-source and edge computing applications and joint innovation initiatives.
+date: 2022-07-12
 taxonomies:
     people: [hannah_cordes]
     tags: [partner, update, technology, news]

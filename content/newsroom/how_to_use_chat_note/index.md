@@ -2,8 +2,8 @@
 id: how_to_use_chat_note
 title: ThreeFold Two-Way Chat Update
 image_caption: ThreeFold Two-Way Chat Update
-date: 2021-05-20
 description: Some thoughts around who we are, the chat, transparency, feedback, contribution, and more.
+date: 2021-05-20
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

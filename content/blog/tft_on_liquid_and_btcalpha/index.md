@@ -2,14 +2,13 @@
 id: tft_on_liquid_and_btcalpha
 title: Co-create the new Internet. Participate with TFT!
 image_caption: tokens blockchain
-date: 2019-06-01
 description: Do you believe that the world needs change? Do you believe in decentralization? Equality? Sustainability?..
+date: 2019-06-01
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [threefold_token]
     categories: [farming,foundation,aci]
 extra:
-    isVisible: true
     imgPath: tft_on_liquid_and_btcalpha.png
 ---
 

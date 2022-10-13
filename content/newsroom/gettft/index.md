@@ -2,8 +2,8 @@
 id: gettft
 title: GetTFT.com is Live
 image_caption: GetTFT.com is Live
-date: 2022-01-25
 description: We are happy to share that anyone can now buy TFT directly with the world's most popular cryptocurrency, Bitcoin.
+date: 2022-01-25
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_token,community,update,technology,peer_to_peer]

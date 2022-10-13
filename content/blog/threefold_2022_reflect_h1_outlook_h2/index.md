@@ -2,14 +2,13 @@
 id: threefold_2022_reflect_h1_outlook_h2
 title: "ThreeFold 2022 – A Look Back at H1 & Ahead to H2"
 image_caption: ThreeFold 2022 – A Look Back at H1 & Ahead to H2
-date: 2022-07-26
 description: It was an eventful first half of 2022 for ThreeFold and the entire ecosystem – with the evolution of the Internet of Internets, huge advancements and the continued expansion of the ThreeFold Grid, new partnerships, and more!
+date: 2022-07-26
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, update, community, technology]
     categories: [foundation]
 extra:
-    isVisible: true
     imgPath: threefold_2022_reflect_h1_outlook_h2.png
 ---
 
@@ -25,7 +24,7 @@ In the meantime, ThreeFold – hand-picked as a [top Web 3 startup](https://www.
 
 ## The Internet of Internets & Tech Highlights
 
-In May, we introduced you to the [Internet of Internets](https://threefold.io/blog/post/internet_of_internets/) which will interconnect us all, while providing us with digital sovereignty, privacy and meaningful experiences. The Internet of Internets is infinitely scalable and in line with our [glocal strategy](https://threefold.io/blog/post/connecting_the_dots/). It empowers people to build their own regional Internet infrastructures that will be interconnected on a global level.
+In May, we introduced you to the [Internet of Internets](https://threefold.io/blog/internet_of_internets/) which will interconnect us all, while providing us with digital sovereignty, privacy and meaningful experiences. The Internet of Internets is infinitely scalable and in line with our [glocal strategy](https://threefold.io/blog/connecting_the_dots/). It empowers people to build their own regional Internet infrastructures that will be interconnected on a global level.
 
 <br/>
 
@@ -49,11 +48,11 @@ While we started the year 2022 with about 1,450 3Nodes in 57 countries, we’re 
 
 <br/>
 
-Throughout the last few months, some of the team has been travelling to places around the world to meet new people, to share our vision and to expand our community on the ground – from Dubai to Miami and [Austin](https://threefold.io/blog/post/consensus_2022_recap/), to the Nile and Zanzibar. We met with investor groups and other blockchain projects with which we’re in discussions around opportunities for collaboration. And we’ll continue to build meaningful relationships with local communities and to explore opportunities around the world to [connect the dots](https://threefold.io/blog/post/connecting_the_dots/). 
+Throughout the last few months, some of the team has been travelling to places around the world to meet new people, to share our vision and to expand our community on the ground – from Dubai to Miami and [Austin](https://threefold.io/blog/consensus_2022_recap/), to the Nile and Zanzibar. We met with investor groups and other blockchain projects with which we’re in discussions around opportunities for collaboration. And we’ll continue to build meaningful relationships with local communities and to explore opportunities around the world to [connect the dots](https://threefold.io/blog/connecting_the_dots/). 
 
 <br/>
 
-We shared about the historic partnership with [Paradise Hills](https://threefold.io/blog/post/paradise_hills/) – a key milestone for our Internet of Internets model as the very first partnership for Community Clouds. Together, we’re bringing the world’s largest decentralized Internet Cloud powered by TF Chain into homes in Dubai.
+We shared about the historic partnership with [Paradise Hills](https://threefold.io/blog/paradise_hills/) – a key milestone for our Internet of Internets model as the very first partnership for Community Clouds. Together, we’re bringing the world’s largest decentralized Internet Cloud powered by TF Chain into homes in Dubai.
 
 <br/>
 
@@ -61,7 +60,7 @@ In addition to continuing our work and projects with key partners like [ownCloud
 
 ## What’s coming in the second half of 2022
 
-We’re currently in a [phase of expansion](https://threefold.io/blog/post/four_phases_of_threefold/) with many new ecosystem developments, tech advancements and building blocks for the Internet of Internets happening all around. We’re very proud of our progress and the strong ecosystem around us. Together, we continue to build.
+We’re currently in a [phase of expansion](https://threefold.io/blog/four_phases_of_threefold/) with many new ecosystem developments, tech advancements and building blocks for the Internet of Internets happening all around. We’re very proud of our progress and the strong ecosystem around us. Together, we continue to build.
 
 <br/>
 

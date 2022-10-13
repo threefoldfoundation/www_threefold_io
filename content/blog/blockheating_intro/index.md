@@ -2,14 +2,13 @@
 id: blockheating_intro
 title: This ThreeFold Farm Keeps Veggies Warm
 image_caption: Meet Blockheating
-date: 2021-07-23
 description: Somewhere in the Netherlands, a ThreeFold Farm is supporting the growth of vegetable crops such as tomatoes, peppers and cucumbers.
+date: 2021-07-23
 taxonomies:
-    people: []
+    people: [roel_van_sabben]
     tags: [why, peer_to_peer, digital_twin, technology]
     categories: [farming, cloud, foundation, aci, twin]
 extra:
-    isVisible: true
     imgPath: blockheating_intro.png
 ---
 

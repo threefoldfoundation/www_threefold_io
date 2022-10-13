@@ -2,8 +2,8 @@
 id: tfweekly7
 title: ThreeFold Weekly! Volume Seven
 image_caption: TF Weekly Volume Seven
-date: 2022-02-21
 description: Last week in the ThreeFold universe!
+date: 2022-02-21
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

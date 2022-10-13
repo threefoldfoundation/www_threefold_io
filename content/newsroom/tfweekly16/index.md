@@ -2,8 +2,8 @@
 id: tfweekly16
 title: ThreeFold Weekly! Volume Sixteen
 image_caption: TF Weekly Volume Sixteen
-date: 2022-05-05
 description: Last week in the ThreeFold universe!
+date: 2022-05-05
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

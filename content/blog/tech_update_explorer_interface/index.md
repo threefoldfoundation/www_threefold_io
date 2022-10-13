@@ -2,14 +2,13 @@
 id: tech_update_explorer_interface
 title: "The ThreeFold Grid 3.x Explorer UI"
 image_caption: The new Explorer UI
-date: 2021-11-30
 description: The Explorer was designed to provide a simple way for anyone to find decentralized Internet capacity on the ThreeFold Grid, and we’re thrilled to announce a new user interface for Grid 3.x on both testnet and devnet!
+date: 2021-11-30
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
     categories: [foundation, cloud, technology]
 extra:
-    isVisible: true
     imgPath: tech_update_explorer_interface.png
 ---
 

@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/geert-machtelinckx-a72453b/,
         github: https://github.com/gmachtel,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

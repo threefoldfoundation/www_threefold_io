@@ -2,14 +2,13 @@
 id: bridges_connecting_threefold_ecosystem
 title: "Bridges Connecting the ThreeFold Ecosystem to External Networks"
 image_caption: Bridges Connecting the ThreeFold Ecosystem to External Networks
-date: 2022-01-10
 description: Since the launch of ThreeFold Grid 3.0, TFT is now available on three blockchains – Stellar, Binance Smart Chain and the Substrate-based ThreeFold Blockchain (aka TF Chain).
+date: 2022-01-10
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
     categories: [foundation, cloud, technology]
 extra:
-    isVisible: true
     imgPath: bridges_connecting_threefold_ecosystem.png
 ---
 
@@ -21,11 +20,11 @@ Since the launch of [ThreeFold Grid](https://library.threefold.me/info/threefold
 
 <br/>
 
-There are already active bridges that connect Stellar to Binance Smart Chain and [TF Chain](https://threefold.io/blog/post/tf_chain/), improving the accessibility and availability of TFT, while also connecting the ThreeFold ecosystem to external blockchain networks.
+There are already active bridges that connect Stellar to Binance Smart Chain and [TF Chain](https://threefold.io/blog/tf_chain/), improving the accessibility and availability of TFT, while also connecting the ThreeFold ecosystem to external blockchain networks.
 
 <br/>
 
-Learn more about TF Chain in our blog post [here](https://threefold.io/blog/post/tf_chain/).
+Learn more about TF Chain in our blog post [here](https://threefold.io/blog/tf_chain/).
 
 ## What are bridges and why are they important?
 
@@ -90,7 +89,7 @@ As Binance Smart Chain is a more expensive chain, **a fee of 50 TFT** will be au
 
 ## What’s next? 
 
-As the ThreeFold ecosystem continues to grow, we’re looking into building more bridges (e.g. Cosmos, Ethereum) to improve the accessibility of TFT and simplify the onboarding of blockchain and DeFi projects on the ThreeFold Grid. TF Chain will play an important role in the further development of the People’s Internet, so give our blog post on TF Chain a read [here](https://threefold.io/blog/post/tf_chain/). 
+As the ThreeFold ecosystem continues to grow, we’re looking into building more bridges (e.g. Cosmos, Ethereum) to improve the accessibility of TFT and simplify the onboarding of blockchain and DeFi projects on the ThreeFold Grid. TF Chain will play an important role in the further development of the People’s Internet, so give our blog post on TF Chain a read [here](https://threefold.io/blog/tf_chain/). 
 
 <br/>
 

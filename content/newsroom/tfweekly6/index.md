@@ -2,8 +2,8 @@
 id: tfweekly6
 title: ThreeFold Weekly! Volume Six
 image_caption: TF Weekly Volume Six
-date: 2022-02-13
 description: Your weekly digest of what's happening around the ThreeFold ecosystem!
+date: 2022-02-13
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

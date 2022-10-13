@@ -15,7 +15,7 @@ extra:
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/peter-nashaat-33966831/,
         github: https://github.com/PeterNashaat,
-            websites: https://threefold.tech,
+        websites: https://threefold.tech,
     }
 ---
 

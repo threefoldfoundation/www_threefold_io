@@ -2,8 +2,8 @@
 id: earth_day_2022
 title: Today is Earth Day!
 image_caption: Earth Day 2022
-date: 2022-04-22
 description: At ThreeFold, we believe in "Planet First." Take a look at some of the ways ThreeFold is acting to positively impact the planet.
+date: 2022-04-22
 taxonomies:
     people: [sam_taggart]
     tags: [why,community,news,update]

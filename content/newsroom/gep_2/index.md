@@ -2,8 +2,8 @@
 id: gep_2
 title: Update on the 1st Grid Enhancement Proposal
 image_caption: GEP 2
-date: 2022-03-18
 description: With 97% positive votes, we are moving forward with the first Grid Enhancement Proposal. Here's what it means.
+date: 2022-03-18
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,threefold_grid,farming]

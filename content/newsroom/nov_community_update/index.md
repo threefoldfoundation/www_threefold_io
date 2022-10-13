@@ -2,8 +2,8 @@
 id: nov_2020_update_video
 title: ThreeFold's November 2020 community update
 image_caption: ThreeFold's November 2020 community update
-date: 2020-11-30
 description: It’s the end of November and that means it’s time for another recap!
+date: 2020-11-30
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

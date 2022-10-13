@@ -2,8 +2,8 @@
 id: climate_action_day
 title: ThreeFold Partner TAG Celebrates Climate Action Day
 image_caption: Climate Action Day by TAG
-date: 2021-11-04
 description: Join us as we celebrate the culmination of the Climate Action Project, involving 2.7 million people across 145 countries.
+date: 2021-11-04
 taxonomies:
     people: [sam_taggart]
     tags: [partner,event,community,why]

@@ -2,8 +2,8 @@
 id: consensus_recap
 title: Consensus 2022 Recap and Austin's Sovereign Internet
 image_caption: Consensus 2022 Recap
-date: 2022-06-13
 description: Hear about our activities at and around Consensus 2022 over the past week!
+date: 2022-06-13
 taxonomies:
     people: [sam_taggart]
     tags: [community,update]

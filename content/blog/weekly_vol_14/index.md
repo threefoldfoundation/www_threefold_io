@@ -2,14 +2,13 @@
 id: weekly_vol_14
 title: "ThreeFold Weekly! April 19th, 2022 (Vol 14)"
 image_caption: ThreeFold Weekly! April 19th, 2022 (Vol 14)
-date: 2022-04-19
 description: Welcome to the 14th edition of ThreeFold Weekly. Here’s what happened in the ThreeFold universe since last time.
+date: 2022-04-19
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
-    isVisible: false
     imgPath: weekly_vol_14.png
 ---
 

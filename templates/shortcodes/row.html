@@ -42,7 +42,7 @@ Parameters:
 
 <!-- Splits body to columns -->
 {% set columns = body | safe | markdown | split(pat="|||") %}
-{% set row_class =  "relative pt-6 p-4 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row"%}
+{% set row_class =  "relative lg:p-4 p-1 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row"%}
 
 <!-- aligns columns depending on col number-->
 {% if 2 < columns | length %}
@@ -51,13 +51,14 @@ Parameters:
     {% set row_class = row_class ~ " lg:items-center" %}
 {% endif %}
 
-{% set col_class = "flex-1 mb-8 md:mb-0 md:mx-8" %}
+{% set col_class = "flex-1 mb-6 md:mb-0 md:mx-2" %}
 {% set row_id = '' %}
 
 {% if id %}
 {% set row_id = id %}
 
 {% endif %}
+
 
 {% if style %}
 
@@ -70,9 +71,25 @@ Parameters:
     {% set row_class = row_class ~ " text-white" %}
     {% endif %}
 
+    <!-- reverse col at mobile -->
+
+    {% if "reverse" in style %}
+    {% set row_class = "flex flex-col-reverse md:flex-row items-center" %}
+    {% endif %}
+
     <!-- makes row with margins -->
     {% if "margin" in style %}
-        {% set row_class = row_class ~ " lg:py-28 sm:p-12 md:p-16 lg:p-20" %}
+        {% set row_class = row_class ~ " lg:py-28 py-10" %}
+        {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
+    {% endif %}
+
+    {% if "mtop" in style %}
+        {% set row_class = row_class ~ " lg:pt-28 pt-10" %}
+        {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
+    {% endif %}
+
+    {% if "mbottom" in style %}
+        {% set row_class = row_class ~ " lg:pb-28" %}
         {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
     {% endif %}
 
@@ -84,7 +101,7 @@ Parameters:
 
      <!-- makes row semi-full screen width, strips margins -->
      {% if "between" in style %}
-     {% set row_class = row_class ~ " lg:max-w-6xl" %}
+     {% set row_class = row_class ~ " lg:max-w-6xl mx-auto" %}
  {% elif "moderate" in style %}
      {% set row_class = row_class ~ " lg:m-20" %}
  {% endif %}
@@ -96,6 +113,12 @@ Parameters:
         {% set row_class = row_class ~ " lg:m-20" %}
     {% endif %}
 
+    {% if "semiNarrow" in style %}
+     {% set row_class = row_class ~ " lg:px-20 mx-auto" %}
+ {% elif "moderate" in style %}
+     {% set row_class = row_class ~ " lg:m-20" %}
+ {% endif %}
+
 {% endif %}
 
 <!-- makes row full screen width and adds background img -->
@@ -106,11 +129,11 @@ Parameters:
 {% endif %}
 {% if bgColor %}
     {% set styles = "background-color: " ~ bgColor ~ "; background-size: cover"  %}
-    {% set row_class = row_class ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+    {% set row_class = row_class ~ " w-auto -mx-4 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
 {% endif %}
 {% if gradient %}
     {% set styles = "background: " ~ gradient ~ "; background-size: cover"  %}
-    {% set row_class = row_class ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+    {% set row_class = row_class ~ " w-auto -mx-4 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
 {% endif %}
 
 {% set url = body | split(pat="href=") | slice(start=1) | first | split(pat=">") | first | trim_start_matches(pat='"') %}

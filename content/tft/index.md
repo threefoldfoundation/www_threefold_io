@@ -5,31 +5,22 @@ page_template: "tft_header.html"
 insert_anchor_links: "left"
 ---
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 ## Decentralizing <br>**the Internet Economy**
 
 ThreeFold creates an entirely new decentralized Internet economy that allows anyone to join the world’s fastest growing market – the Internet.
 
-{% end %}
-
-{% row(style="center narrow") %}
+<br>
 
 <button>[Learn About TFT](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
 <button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)</button>
 <button>[Liquidity Litepaper](https://threefold.docsend.com/view/3mu3cddgj7znuixj)</button>
 
 {% end %}
+
 
 
 {% tft_header() %}
@@ -42,10 +33,7 @@ ThreeFold creates an entirely new decentralized Internet economy that allows any
 
 <!-- section 2 (Meeting Emerging Demand) -->
 
-{% row(style="center ") %}
-
-<br>
-<br>
+{% row(style="center mtop ") %}
 
 ## Meeting **Emerging Demand**
 
@@ -54,7 +42,7 @@ Data has become the most valuable commodity on earth, the Internet infrastructur
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center mbottom") %}
 
 ![Image](tft_125zb.png#medium)
 
@@ -77,12 +65,6 @@ That is a number with 21 zeroes!
 {% end %}
 
 
-<br>
-
-<br>
-
-
-
 <!-- section 3 (world of farmers) -->
 
 {% row(style="center between margin") %}
@@ -98,7 +80,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 ![Image](tft_table.png#mx-auto)
 
-<button>[How ThreeFold Compares With The Industry ](/blog/2021/10/post-7)</button>
+<button class="long-text text-xs lg:text-xl">[How ThreeFold Compares With The Industry ](/blog/2021/10/post-7)</button>
 
 
 {% end %}
@@ -106,7 +88,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 <!-- section 4 (THE CURRENCY) -->
 
-{% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)" style="margin") %}
+{% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)" style="margin semiNarrow") %}
 
 ![Image](tft_currency.png#medium#absolute#sm_none)
 
@@ -120,16 +102,11 @@ TFT is a utility token that allows people to hold current and future Internet ca
 
 {% end %}
 
-<br>
-
-<br>
-
-<br>
 
 
 <!-- section 5 (OPEN NETWORK) -->
 
-{% row(style="center narrow") %}
+{% row(style="center narrow mtop") %}
 
 
 ## Open **Network**
@@ -138,7 +115,9 @@ TFT is a utility token that allows people to hold current and future Internet ca
 
 {% end %}
 
-{% row(style="center") %}
+<br>
+
+{% row(style="center mbottom") %}
 
 <!-- | Proof-Of-Capacity     |  |Proof-Of-Utilization  |
 | ----------- | ----------- | ----------- |
@@ -166,7 +145,7 @@ People buy TFT to store data and run applications privately on a peer-to-peer In
 <!-- section 6 (OPEN NETWORK) -->
 
 
-{% row(style="margin") %}
+{% row(style="margin reverse semiNarrow") %}
 
 ## Loyalty **Rewards**
 
@@ -185,7 +164,7 @@ The ThreeFold blockchain automatically scans wallets and provides up-to 60% disc
 <!-- section 7 (OPEN NETWORK) -->
 
 
-{% row(style="margin") %}
+{% row(style="margin semiNarrow") %}
 
 ![Image](tft_utility.jpg)
 
@@ -202,9 +181,9 @@ TFT is minted only when new Internet capacity is added to the ThreeFold Grid. A 
 <!-- section 8 (BURN AND FARM) -->
 
 
-{% row(style="margin") %}
+{% row(style="margin reverse semiNarrow") %}
 
-## Burn and Farm **Equilibrium**
+## Burn and Farm <br>**Equilibrium**
 
 Burning permanently removes TFT from the circulating supply when the ThreeFold Grid gets used. It ensures a positive impact on pricing while ensuring rewards for all current and future nodes.
 
@@ -220,7 +199,7 @@ Burning permanently removes TFT from the circulating supply when the ThreeFold G
 
 <!-- section 9 (partners) -->
 
-{% row(style="center") %}
+{% row(style="center mtop") %}
 
 ## Join the **Movement**
 
@@ -234,25 +213,15 @@ Get TFT today and participate in the realization of a truly decentralized world.
 
 {% end %}
 
-{% row(style="lean") %}
+{% row(style="lean mbottom") %}
 
 ![Image](tft_join_internet.png#mx-auto)
 
-
-
 {% end %}
-
-
-<br>
-
-<br>
-
-<br>
-
 
 <!-- section 10 (partners) -->
 
-{% row(style="center") %}
+{% row(style="center margin") %}
 
 ## **Believers in TFT**
 

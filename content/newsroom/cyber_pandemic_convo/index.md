@@ -2,8 +2,8 @@
 id: cyber_pandemic_convo
 title: Join the Conversation - The Cyber Pandemic is Here
 image_caption: cyberpandemic
-date: 2021-01-28
 description: The cyber pandemic is here, but it’s not too late!
+date: 2021-01-28
 taxonomies:
     people: [sacha_obeegadoo]
     tags: [interview,event,community]

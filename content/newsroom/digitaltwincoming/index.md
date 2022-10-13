@@ -2,8 +2,8 @@
 id: digital_twin_coming
 title: Digital Twin v1 is Coming!
 image_caption:
-date: 2021-02-19
 description: The first version of Digital Twin will feature messaging and video calling.
+date: 2021-02-19
 taxonomies:
     people: [sam_taggart]
     tags: [digital_twin,update]

@@ -2,8 +2,8 @@
 id: tf_grid_24_update
 title: Great Results on Grid 2.4 Testing!
 image_caption: Grid 2.4 Testing Update
-date: 2021-02-10
 description: We still need more people willing to test – join in!
+date: 2021-02-10
 taxonomies:
     people: [sam_taggart]
     tags: [threefold_grid,update,technology,community]

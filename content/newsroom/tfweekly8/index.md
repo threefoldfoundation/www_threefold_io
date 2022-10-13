@@ -2,8 +2,8 @@
 id: tfweekly8
 title: ThreeFold Weekly! Volume Eight
 image_caption: TF Weekly Volume Eight
-date: 2022-02-28
 description: Your weekly ThreeFold digest!
+date: 2022-02-28
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

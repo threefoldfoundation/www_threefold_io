@@ -2,14 +2,13 @@
 id: weekly_vol_20
 title: "ThreeFold Weekly! June 7th, 2022 (Vol 20)"
 image_caption: ThreeFold Weekly! June 7th, 2022 (Vol 20)
-date: 2022-06-07
 description: Welcome to the 20th edition of ThreeFold Weekly! Catching you up on recent highlights from around the ecosystem.
+date: 2022-06-07
 taxonomies:
     people: [hannah_cordes]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
-    isVisible: false
     imgPath: weekly_vol_20.png
 ---
 

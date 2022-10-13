@@ -2,8 +2,8 @@
 id: aibc_sustainability_news
 title: ThreeFold Co-Founder's Message to Blockchains in Dubai
 image_caption: ThreeFold Co-Founder Keynote at AIBC Summit
-date: 2021-05-26
 description: ThreeFold takes on blockchain decentralization and sustainability at AIBC Summit in Dubai
+date: 2021-05-26
 taxonomies:
     people: [sam_taggart]
     tags: [press_release,update,blockchain]

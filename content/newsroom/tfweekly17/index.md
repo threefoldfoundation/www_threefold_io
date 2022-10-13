@@ -2,8 +2,8 @@
 id: tfweekly17
 title: ThreeFold Weekly! Volume Seventeen
 image_caption: TF Weekly Volume Seventeen
-date: 2022-05-12
 description: Let's take a look back at last week in ThreeFold.
+date: 2022-05-12
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

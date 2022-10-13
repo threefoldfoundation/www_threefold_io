@@ -4,56 +4,29 @@ template: "page.html"
 insert_anchor_links: "left"
 ---
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center narrow") %}
+{% row(style="center margin narrow") %}
 
 ## Be the **Internet**
 
 Become a ThreeFold Farmer. Provide Internet capacity to the people around you, and earn for it.
 
-{% end %}
-
-{% row(style="center narrow") %}
+<br>
 
 <button>[Buy](https://marketplace.3node.global/)</button>
-
-|||
-
 <button>[D.I.Y.](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
-
-|||
-
 <button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
-
-|||
-
-<button>[Chat](https://t.me/threefoldfarmers)
+<button>[Chat](https://t.me/threefoldfarmers)</button>
 
 {% end %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 <!-- section 2 (Farm) -->
 
-{% row(style="center narrow ") %}
+{% row(style="center mtop narrow ") %}
 
-<br>
-<br>
 
 ## Farm
 
@@ -65,7 +38,7 @@ Become a ThreeFold Farmer. Provide Internet capacity to the people around you, a
 
 <br>
 
-{% row(style="center") %}
+{% row(style="center mbottom") %}
 
 ![Image](plug_1.png#mx-auto)
 <br>
@@ -107,14 +80,14 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 <br>
 
-<button>[Explore ThreeFold Grid Capacity](https://dashboard.grid.tf/explorer/statistics)</button>
+<button class="text-sm lg:text-xl">[Explore ThreeFold Grid Capacity](https://dashboard.grid.tf/explorer/statistics)</button>
 
 
 {% end %}
 
-<!-- section 6 (How To Earn TFT) -->
+<!-- section 4 (How To Earn TFT) -->
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 
 ## How to earn **TFT**
@@ -129,7 +102,7 @@ Farmers earn TFT according to the amount of Internet capacity their 3Nodes conne
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center mbottom") %}
 
 ![Image](farm_capacity.png#mx-auto)
 

@@ -2,8 +2,8 @@
 id: join_our_forum
 title: Join Our Forum!
 image_caption: join our forum
-date: 2021-03-09
 description: Join the ThreeFold Forum to have conversations, ask questions, and offer feedback!
+date: 2021-03-09
 taxonomies:
     people: [sam_taggart]
     tags: [community]

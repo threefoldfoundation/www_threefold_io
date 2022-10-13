@@ -2,14 +2,13 @@
 id: threefold_data_sovereignty
 title: How ThreeFold offers Data Sovereignty
 image_caption: how threefold regenerates
-date: 2021-05-23
 description: ThreeFold is building the engine for an Internet where people can finally be data sovereign.
+date: 2021-05-23
 taxonomies:
     people: [sam_taggart]
     tags: [data,why,threefold_grid,farming]
     categories: [farming,cloud,foundation,aci,twin]
 extra:
-    isVisible: true
     imgPath: threefold_data_sovereignty.png
 ---
 

@@ -2,8 +2,8 @@
 id: tfweekly1
 title: ThreeFold Weekly! Volume One
 image_caption: TF Weekly Volume One
-date: 2022-01-07
 description: Introducing your weekly digest from the ThreeFold Foundation team!
+date: 2022-01-07
 taxonomies:
     people: [sam_taggart]
     tags: [community,update,news]

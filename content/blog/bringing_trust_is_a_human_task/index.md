@@ -2,14 +2,13 @@
 id: threefold_foundation_33
 title: Bringing Trust is a Human Task 
 image_caption: humans
-date: 2019-08-17
 description: Everyone thinks that Satoshi Nakamoto invented blockchain technology when he published his whitepaper in January 2009
+date: 2019-08-17
 taxonomies:
     people: [weynand_kuijpers]
     tags: [blockchain,technology]
     categories: [twin]
 extra:
-    isVisible: true
     imgPath: bringing_trust.png
 ---
 
