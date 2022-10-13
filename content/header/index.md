@@ -21,7 +21,7 @@ extra:
 
 [Our People](/people)
 <br>
-Team, stories, & more
+<p class="text-sm">Team, stories, & more</p>
 
 </button>
 
@@ -31,7 +31,7 @@ Team, stories, & more
 
 [Our Partners](/partners)
 <br>
-Explore Our Partners
+<p class="text-sm">Explore Our Partners</p>
 
 |||
 
@@ -39,7 +39,7 @@ Explore Our Partners
 
 [ThreeFold Community](/community)
 <br>
-Welcome To The Fold
+<p class="text-sm">Welcome To The Fold</p>
 
 </button>
 
@@ -49,7 +49,7 @@ Welcome To The Fold
 
 [Developer Resources](/developer)
 <br>
-Join The Developer Community
+<p class="text-sm">Join The Developer Community</p>
 
 </button>
 
@@ -66,7 +66,7 @@ Join The Developer Community
 
 [ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
 <br>
-TFT Wallet, 2FA, & More
+<p class="text-sm">TFT Wallet, 2FA, & More</p>
 
 </button>
 
@@ -74,7 +74,7 @@ TFT Wallet, 2FA, & More
 
 [Dashboard](https://dashboard.grid.tf/)
 <br>
-Portal & Capacity Explorer
+<p class="text-sm">Portal & Capacity Explorer</p>
 
 </button>
 
@@ -82,7 +82,7 @@ Portal & Capacity Explorer
 
 [Weblet Playground](https://play.grid.tf)
 <br>
-Deploy a VM & More
+<p class="text-sm">Deploy a VM & More</p>
 
 |||
 
@@ -92,7 +92,7 @@ Deploy a VM & More
 
 [Library](https://library.threefold.me/info/threefold#/)
 <br>
-Explore the Documentation
+<p class="text-sm">Explore the Documentation</p>
 
 </button>
 
@@ -100,7 +100,7 @@ Explore the Documentation
 
 [Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
 <br>
-Get Started on the Grid
+<p class="text-sm">Get Started on the Grid</p>
 
 </button>
 
@@ -108,7 +108,7 @@ Get Started on the Grid
 
 [GitHub](https://github.com/)
 <br>
-Code Library & Documentation
+<p class="text-sm">Code Library & Documentation</p>
 
 |||
 
@@ -118,7 +118,7 @@ Code Library & Documentation
 
 [Blog](/blog)
 <br>
-Explore the Blogs
+<p class="text-sm">Explore the Blogs</p>
 
 </button>
 
@@ -126,7 +126,7 @@ Explore the Blogs
 
 [Newsroom](/newsroom)
 <br>
-Check the Latest Updates
+<p class="text-sm">Check the Latest Updates</p>
 
 </button>
 
@@ -134,7 +134,7 @@ Check the Latest Updates
 
 [Intro Docs](https://intro.threefold.me)
 <br>
-Perfect for Newcomers
+<p class="text-sm">Perfect for Newcomers</p>
 
 |||
 
@@ -144,13 +144,13 @@ Perfect for Newcomers
 
 [Forum](https://forum.threefold.io)
 <br>
-Questions & Feedback
+<p class="text-sm">Questions & Feedback</p>
 
 <button onclick="window.location.href='/support'">
 
 [Support](/support)
 <br>
-Speak Live with a Human
+<p class="text-sm">Speak Live with a Human</p>
 
 </button>
 
@@ -158,7 +158,7 @@ Speak Live with a Human
 
 [Careers](/careers)
 <br>
-Join the Team
+<p class="text-sm">Join the Team</p>
 
 </button>
 

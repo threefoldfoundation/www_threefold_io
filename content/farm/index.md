@@ -10,7 +10,7 @@ insert_anchor_links: "left"
 
 ## Be the **Internet**
 
-Become an Internet Farmer. Expand the ThreeFold Grid and earn for it.
+Become a ThreeFold Farmer. Provide Internet capacity to the people around you, and earn for it.
 
 <br>
 
