@@ -9,7 +9,9 @@ template: "page.html"
 
 ## ThreeFold <br> **Developer Resources**
 
-A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
+ThreeFold is here to build an open-source Internet and Cloud infrastructure. It's up to all of us to build on top. These resources will introduce you to foundational grid concepts and the developer stack.
+
+<!-- A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.-->
 
 <button class="long-text">[Join The Developer Community](https://t.me/threefoldtesting)</button>
 
@@ -20,6 +22,57 @@ A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 {% end %}
 
 <!-- section 2 (DEVELOPER RESOURCES) -->
+
+{% row(style="center between" id="table_link") %}
+
+## Explore the <br> **Documentation**
+
+{% end %}
+
+{% row(style="center between") %}
+
+### **Introduction:**
+[Intro to ThreeFold](https://library.threefold.me/info/threefold#/tfgrid/grid/threefold__grid_intro)
+
+[The ThreeFold Grid](https://library.threefold.me/info/threefold#/tfgrid/grid/threefold__grid_concepts)
+
+[ThreeFold Farming](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)
+
+[ThreeFold Cloud](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_intro)
+
+[ThreeFold Token](https://library.threefold.me/info/threefold#/tokens/threefold__token_what)
+
+|||
+
+### **Fundamentals:**
+
+[Set up your account](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
+
+[Charge your wallet](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
+
+<!-- [How billing works](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_billing) -->
+
+[Deploy workloads](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)
+
+[Create a Farm](https://library.threefold.me/info/manual/#/manual__create_farm)
+
+|||
+
+### **The Stack:**
+
+[Zero-OS](https://library.threefold.me/info/threefold#/technology/threefold__zos)
+
+[Smart Contract for IT](https://library.threefold.me/info/threefold#/technology/threefold__smartcontract_it)
+
+[Quantum Safe Storage](https://library.threefold.me/info/threefold#/qss/threefold__qsss_home)
+
+[Virtual Machines](https://library.threefold.me/info/manual/#/manual__weblets_vm)
+
+[Kubernetes](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
+
+[Planetary Network](https://library.threefold.me/info/manual/#/technology/threefold__planetary_network)
+
+{% end %}
 
 {% dev_resourses() %}
 
@@ -75,56 +128,3 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 
 <!-- section 6 (DOCUMENTATION) -->
-
-{% row(style="center between" id="table_link") %}
-
-## Explore the <br> **Documentation**
-
-{% end %}
-
-{% row(style="center between") %}
-
-### **Introduction:**
-[Intro to ThreeFold](https://library.threefold.me/info/threefold#/tfgrid/grid/threefold__grid_intro)
-
-[The ThreeFold Grid](https://library.threefold.me/info/threefold#/tfgrid/grid/threefold__grid_concepts)
-
-[ThreeFold Farming](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)
-
-[ThreeFold Cloud](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_intro)
-
-[ThreeFold Token](https://library.threefold.me/info/threefold#/tokens/threefold__token_what)
-
-|||
-
-### **Fundamentals:**
-
-[Set up your account](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
-
-[Charge your wallet](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
-
-<!-- [How billing works](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_billing) -->
-
-[Deploy workloads](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)
-
-[Create a Farm](https://library.threefold.me/info/manual/#/manual__create_farm)
-
-|||
-
-### **The Stack:**
-
-[Zero-OS](https://library.threefold.me/info/threefold#/technology/threefold__zos)
-
-[Smart Contract for IT](https://library.threefold.me/info/threefold#/technology/threefold__smartcontract_it)
-
-[Quantum Safe Storage](https://library.threefold.me/info/threefold#/qss/threefold__qsss_home)
-
-[Virtual Machines](https://library.threefold.me/info/manual/#/manual__weblets_vm)
-
-[Kubernetes](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
-
-[Planetary Network](https://library.threefold.me/info/manual/#/technology/threefold__planetary_network)
-
-{% end %}
-
-<br>
