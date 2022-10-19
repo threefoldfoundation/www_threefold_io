@@ -15,9 +15,9 @@ Become a ThreeFold Farmer. Provide Internet capacity to the people around you, a
 <br>
 
 <button>[Buy](https://marketplace.3node.global/)</button>
-<button>[D.I.Y.](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[Build](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
 <button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
-<button>[Chat](https://t.me/threefoldfarmers)</button>
+<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
 
 {% end %}
 

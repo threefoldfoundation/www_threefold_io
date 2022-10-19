@@ -15,9 +15,9 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 <br>
 
 <button>[Dashboard](https://dashboard.grid.tf)</button>
-<button>[Weblets](https://play.grid.tf)</button>
+<button>[Playground](https://play.grid.tf)</button>
 <button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
-<button>[Chat](https://t.me/threefoldtesting)</button>
+<button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
 
@@ -31,7 +31,7 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 Plug in standard tools and protocols to the most resilient and versatile storage system ever created, or access raw disk on the location of your choice.
 
-<button> [Learn More](https://library.threefold.me/info/manual/#/manual__weblets_home) </button>
+<button> [Learn More](https://library.threefold.me/info/threefold#/technology/qsss/threefold__qsss_home) </button>
 
 |||
 
@@ -58,37 +58,6 @@ Private overlay networks and global end-to-end encryption minimize attack surfac
 
 <!-- section 3  -->
 
-{% row(style="center mtop between") %}
-
-[![quantum safe storage](qss.png#mx-auto)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
-
-|||
-
-[![weblets](weblets.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_home)
-
-|||
-
-[![planetary network](planetary_network.png#mx-auto)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
-
-{% end %}
-
-{% row(style="center mbottom between") %}
-
-[![kubernetes](kubernetes.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
-
-|||
-
-[![terraform](terraform.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
-
-|||
-
-[![virtual machine](virtual_machine.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
-
-{% end %}
-
-<!-- section 4 -->
-
-
 {% row(style="center mtop narrow") %}
 
 ## Designed for <br> **Demanding Workloads**
@@ -99,11 +68,9 @@ Private overlay networks and global end-to-end encryption minimize attack surfac
 
 ![Image](capacity.png#medium)
 
-
 <br/>
 
 ### **Edge Capacity**
-
 
 Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
@@ -111,11 +78,9 @@ Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
 ![Image](secure.png#medium)
 
-
 <br/>
 
 ### **Secure**
-
 
 Open-source system built from the ground-up for a fully transparent and auditable stack.
 
@@ -123,11 +88,9 @@ Open-source system built from the ground-up for a fully transparent and auditabl
 
 ![Image](scalable.png#medium)
 
-
 <br/>
 
 ### **Scalable**
-
 
 An autonomous infrastructure that grows naturally with demand, where and when it is needed.
 
@@ -135,17 +98,15 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 ![Image](effecient.png#medium)
 
-
 <br/>
 
 ### **Efficient**
-
 
 A carefully designed collection of lightweight components that minimize overheads.
 
 {% end %}
 
-
+<!-- section 4 -->
 
 {% row(style="center mbottom narrow") %}
 
@@ -153,10 +114,62 @@ A carefully designed collection of lightweight components that minimize overhead
 
 {% end %}
 
-<!-- section 4 -->
+{% row(style="center mtop narrow") %}
+
+## Explore **What's Possible**
+
+Build in a truly decentralized environment on the ThreeFold Grid. A sandbox of limitless possibilities awaits for the open source builders of a decentralized tomorrow.
+
+{% end %}
+
+{% row(style="center mtop between") %}
+
+[![virtual machine](virtual_machine.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
+
+|||
+
+[![kubernetes](kubernetes.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
+
+|||
+
+[![terraform](terraform.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
+
+{% end %}
+
+{% row(style="center mbottom between") %}
+
+[![weblets](weblets.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_home)
+
+|||
+
+[![quantum safe storage](qss.png#mx-auto)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
+
+|||
+
+[![planetary network](planetary_network.png#mx-auto)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
+
+{% end %}
+
+<!-- section 5 -->
 
 {% cloud_stats() %}
 
 ## A Global **Edge Infrastructure**
+
+{% end %}
+
+<!-- section 6 -->
+
+{% row(style="center margin narrow") %}
+
+## Learn **More**
+
+Dive into more resources and join the open-source movement building a better digital future.
+
+<br>
+
+<button>[Developer Resources](/developer)</button>
+<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
+<button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
