@@ -50,7 +50,7 @@ ThreeFold is a peer-to-peer open-source Internet platform that connects users di
 
 ## Together **We Build.** Start **Your Journey.**
 
-The future is about decentralization, participation, and working together to achieve our goals. As a decentralized movement, we encourage the community to get involved. This new Internet can only succeed if we find ways to collaborate where we together pull this Internet concept forward. Below, please find some of the ways you can join us in building a better Internet.
+The future is about decentralization, participation, and working together to achieve our goals. As a decentralized movement, we encourage the community to get involved. This new Internet can only succeed if we find ways to collaborate where we together pull this Internet concept forward. Below, please find some of the ways you can join us in building a better Internet. 
 
 {% end %}
 
@@ -62,7 +62,7 @@ The future is about decentralization, participation, and working together to ach
 
 <br>
 
-![Image](farm_home.png#mx-auto)
+![Image](farming_home.png#mx-auto)
 
 <br>
 
