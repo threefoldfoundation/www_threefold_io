@@ -2,7 +2,7 @@
 id: digital_twin
 title: "What is a Digital Twin?"
 image_caption: "What is a Digital Twin?"
-description: In the current Internet system, each of us exists many times, each application provider owns _our_ data while offering functionality _they_ own. We become the user. We become the product. Instead, what if we were at the center of our digital lives?
+description: In the current Internet system, each of us exists many times, each application provider owns our data while offering functionality they own. We become the user. We become the product. Instead, what if we were at the center of our digital lives?
 date: 2022-10-11
 taxonomies:
   people: [victoria_obeegadoo]
