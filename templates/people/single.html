@@ -38,11 +38,13 @@
                     </ul>
                 </div>
             </div>
+            {% if page.taxonomies.memberships %}
             {% for tag in page.taxonomies.memberships %}
                 <a href="{{'/memberships/' ~ tag | replace(from='_', to='-' )}}" class="border-1 font-light text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full ">
                     {{tag}}
                 </a>
             {% endfor %}
+            {% endif %}
         </div>
     </div>
     <div class="my-8">
