@@ -61,6 +61,7 @@ img[src*="#absolute"] {
 }
 .footer-cust a{
   color: #999; 
+  cursor: pointer;
 }
 
 .footer-cust a:hover {
