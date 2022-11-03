@@ -8,6 +8,7 @@ extra:
   countries: [Netherlands, Mauritius, Nomad]
   cities: [Amsterdam, Moka, Nomad]
   private: 0
+  memberships: [foundation, twin, aci_members]
   socialLinks:
     {
       LinkedIn: www.linkedin.com/in/victoria-obeegadoo,
@@ -16,7 +17,6 @@ extra:
     }
   taxonomies:
     people: [victoria_obeegadoo]
-    memberships: [foundation, twin, aci_members]
     categories: [foundation, twin, aci]
 ---
 
