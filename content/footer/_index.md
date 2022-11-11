@@ -54,18 +54,16 @@ extra:
 
 <br>
 
-<h6><a href="" onclick="window.location.href='/mission'">ThreeFold</a></h6>
+<h6><a target="_self" onclick="window.location.href='/mission'">ThreeFold</a></h6>
 
+<h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
 
-<h6><a href="" onclick="window.location.href='/partners'">Partners</a></h6>
+<h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
-<h6><a href="" onclick="window.location.href='/blog'">Blog</a></h6>
-
-<h6><a href="" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
+<h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
 ###### [Forum](https://forum.threefold.io/)
 
-<h6><a href="" onclick="window.location.href='/support'">Support</a></h6>
-
+<h6><a target="_self" onclick="window.location.href='/support'">Support</a></h6>
 
 {% end %}
