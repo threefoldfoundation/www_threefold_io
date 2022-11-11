@@ -51,7 +51,6 @@ The ThreeFold Grid consists of three synergistic layers: The Nodes, The Network,
 <br>
 
 - **The BlockChain:** the blockchain technologies built into the Threefold Grid represent what makes the grid truly unique and allows it to be utilized to support customer facing workloads or provide a decentralized compute resource pool. grid utilization is supported and created through two avenues
-
   - **Individuals:** can deploy any workload they need on any node on the grid, if it can run on Linux it can run on the grid, this type of use is supported by the [Threefold Playground](https://play.grid.tf/#/), a decentralized deployment solution that provides industry standard Linux vps deployments as multiple use case specific deployment solutions for [Kubernetes](https://kubernetes.io/), [Caprover](https://caprover.com/), [Peertube](https://joinpeertube.org/), [Funkwhale](https://funkwhale.audio/), [Mattermost](https://mattermost.com/), [Discourse](https://www.discourse.org/), [Taiga](https://www.taiga.io/), [Owncloud](https://owncloud.com/), [Presearch](https://presearch.io/), [SubSquid](https://subsquid.io/), [CasperLabs](https://casperlabs.io/), and [Node Pilot](https://nodepilot.tech/)
 
     - Custom VM images cab be uploaded to the [Threefold Hub](https://hub.grid.tf/) allowing full deployment customization with any Linux os image supporting cloud-init. Documentation on creating custom images can be found [On the Forums](https://forum.threefold.io/t/manipulating-cloud-images-for-the-grid/3380)
@@ -59,7 +58,6 @@ The ThreeFold Grid consists of three synergistic layers: The Nodes, The Network,
     - Storage workloads can be deployed using [Terraform](https://github.com/threefoldtech/terraform-provider-grid) with offerings of HDD, SSD and [Quantum Safe File Storage](https://github.com/threefoldtech/terraform-provider-grid)
 
   - **Solution Providers**: these are developers of user facing services that utilize the grid as their hosting platform. These organizations/individuals are able to develop customized solutions that provide needed services in their market and receive rewards for the utilization that their developments bring. A great example of this is [Zonaris](https://zonaris.con/), which is a third party organization that is quickly taking the lead in grid solution development. They have recently released an interface that allows end users to deploy [Streamr](https://streamr.network/discover/network/) nodes on the Threefold grid while paying in fiat currency. you can get started with them at [Get Zonaris](https://get.zonaris.com/).
-
     - This allows developers to invest in only their code while having the infrastructure of a worldwide virtual data center at their disposal to scale their solutions with their business needs.
 
     - Solution providers are able to automate their tools being deployed on the grid using [Terraform](https://github.com/threefoldtech/terraform-provider-grid).
@@ -67,8 +65,6 @@ The ThreeFold Grid consists of three synergistic layers: The Nodes, The Network,
 <br>
 
 What this has all truly come together to form is an organization where anyone can contribute to building a more private and secure internet that is designed to allow universal access to information and compute power regardless of the end user's nationality or beliefs. Threefold truly exists to capitalize on the ideal economies from every corner of the world, in order to provide a better digital future for all.
-
-<br>
 
 **What Can You Do?**
 
@@ -81,7 +77,5 @@ There are many discussions happening on the [Threefold Forum](https://forum.thre
 - You can purchase the TFT token following [this guide](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy).
 - You can learn about farming [here](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro).
 - You can learn more about the Threefold Cloud and Deploying [here](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_home).
-
-<br>
 
 _*Written by Drew Smith*_
