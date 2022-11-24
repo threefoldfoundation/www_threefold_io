@@ -1,9 +1,9 @@
-{% set data = load_data(url="https://explorer.threefold.io/api/stats", required=false, format="json") %}
+{% set data = load_data(url="https://gridproxy.grid.tf/stats?status=up", required=false, format="json") %}
 {% if data %}
-  {% set capacity = data.hru + data.sru / 1000 %}
-  {% set nodes = data.onlinenodes %}
+  {% set capacity = (data.totalHru + data.totalSru) / 1024 / 1024 / 1024 / 1024 / 1024 %}
+  {% set nodes = data.nodes %}
   {% set countries = data.countries %}
-  {% set cores = data.cru %}
+  {% set cores = data.totalCru %}
 {% endif %}
 
 {% if data %}
@@ -85,7 +85,7 @@
                     text-black
                     mb-4
                   ">
-                {{ capacity / 1000000 | round(precision=2) }}PB
+                {{ capacity | round(precision=2) }}PB
               </dd>
             </div>
             <div class="
