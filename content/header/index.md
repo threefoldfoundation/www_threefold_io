@@ -55,7 +55,7 @@ extra:
 
 {% end %}
 
-- More Info
+- MoreInfo
 
 {% row(style="wide") %}
 
