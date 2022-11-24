@@ -25,7 +25,9 @@
             {% if pages_str is containing(person.title) %}
                 {% set page = get_page(path=page_path) %}
                 {% if page.extra.private >= 0 %}
+                {% if page.title != "ThreeFold_Community"%}
                     {% include "partials/person_card.html" %}
+                {% endif %}
                 {% endif %}
             {% endif %}
         {% endfor %}

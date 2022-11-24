@@ -14,7 +14,7 @@ Become a ThreeFold Farmer. Provide Internet capacity to the people around you, a
 
 <br>
 
-<button>[Buy](https://marketplace.3node.global/)</button>
+<button>[Buy](https://marketplace.3node.global/index.php)</button>
 <button>[Build](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
 <button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
 <button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
@@ -137,7 +137,7 @@ The ThreeFold Grid is the only Internet infrastructure that can scale to the far
 
 <br>
 
-<button>[Buy a 3Node](https://marketplace.3node.global/)</button>
+<button>[Buy a 3Node](https://marketplace.3node.global/index.php)</button>
 <button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
 <button>[More About TFT](/tft)</button>
 
