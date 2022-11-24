@@ -55,6 +55,17 @@ function showMenu(menuName) {
     var menuBtnId = menuName + (isMobile ? '-mobile-menu' : '-menu');
     var menuElement = document.getElementById(menuId)
     menuElement.className = menuElement.className.replace(" hidden", "");
+    let children = document.querySelectorAll('.nav_menu')
+    for (let i = 0; i < children.length; i++) {
+        if (menuElement !== children[i]) {
+            let btnId = `${children[i].id}-btn`;
+            let btn = document.getElementById(btnId);
+            if (btn && !children[i].classList.contains('hidden')) {
+                children[i].classList.add('hidden')
+                btn.lastElementChild.classList.replace("rotate-0", "-rotate-90")
+            }
+        }
+    }
     setTimeout(function () {
         menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0");
     }, 10);
