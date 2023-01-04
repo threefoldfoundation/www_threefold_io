@@ -1,5 +1,5 @@
 ---
-title: ThreeFold_Community
+title: ThreeFold Community
 weight: 0
 description: Together we build!
 taxonomies:
@@ -13,8 +13,8 @@ extra:
     cities: []
     private: 0
     socialLinks: {
-        LinkedIn:,
-        github: ,
+        LinkedIn: https://www.linkedin.com/company/threefold-foundation,
+        github: https://github.com/threefoldfoundation/,
         websites: https://threefold.io,
     }
 ---
