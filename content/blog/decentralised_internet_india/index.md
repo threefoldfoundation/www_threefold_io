@@ -2,7 +2,7 @@
 id: decentralised_internet_india
 title: "How would Decentralisation of the Internet help India?"
 image_caption: Decentralised Internet India
-description: The decentralisation of the Internet would open up many new opportunities for both India and its citizens.
+description: While Indian internet usage ranks second in the world today behind China, with 43% of its total population online, this also means that there is still a lot of untapped potential.
 date: 2023-01-03
 taxonomies:
     people: [ashish_bansal]
