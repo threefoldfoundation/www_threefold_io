@@ -8,7 +8,8 @@ taxonomies:
     people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
-image: 
+extra:
+    imgPath: hot_on_forum.png
 ---
 
 The [ThreeFold Technology E-Book](https://forum.threefold.io/t/threefold-technology-ebook-read-and-learn/3634) is an incredible in-depth resource to learn about the inner workings of the grid and what makes our technology so unique.
