@@ -8,7 +8,8 @@ taxonomies:
     people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
-image: 
+extra:
+    imgPath: cc_eoy_rec.png
 ---
 
 Thanks to those who joined us live for the final team-run community call of the year. For the rest, you can find the recording [here](https://forum.threefold.io/t/end-of-year-2022-community-call-recording/3636). On we go. Together we build!
