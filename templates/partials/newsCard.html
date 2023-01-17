@@ -21,11 +21,14 @@
     <div class="flex items-center">
       <div class="flex justify-between items-center">
         <ul class="list-none flex author-list my-10 mr-2 px-0">
-            {% if featured.taxonomies.people %}
-            {% for author in featured.taxonomies.people %}
+            {% if post.taxonomies.people %}
+            {% for author in post.taxonomies.people %}
             {% set author_path = 'people/' ~ author ~ '/index.md' %}
-            {% set author = get_page(path=author_path) %}
-            {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
+            {% set people = get_section(path="people/_index.md") %}           
+            {% set pages_str = people.pages | json_encode() | as_str %}
+            {% if pages_str is containing(author) %}
+                {% set author = get_page(path=author_path) %}
+                {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
           <li class="author-list-item">
             <a href="{{ author.permalink }}" tooltip="{{ author.title }}">
               <img src="{{ author_img }}" alt="{{ author.title }}" class="
@@ -37,6 +40,7 @@
                 " />
             </a>
           </li>
+          {% endif %}
           {% endfor %}
           {% endif %}
         </ul>
