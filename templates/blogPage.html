@@ -59,7 +59,9 @@
               {% endif %}
               <p class="text-gray-700 text-xs">
                 <time datetime="{{ page.date }}"> {{ page.date | date(format="%B %e, %Y", timezone="America/Chicago")
-                  }}</time>
+                  }}</time><br />
+                  <span id="time"
+                    class="time"></span>
               </p>
             </div>
 
