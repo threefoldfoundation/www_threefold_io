@@ -20,9 +20,9 @@ extra:
 
 <br/>
 
-## The (Re)Birth of **the Internet.**
+## Sovereign Internet for People and our Planet
 
-ThreeFold is a peer-to-peer open-source Internet platform that connects users directly with <br> local Internet capacity provided by farmers. No intermediaries such as centralized servers. 
+ThreeFold is a peer-to-peer open-source Internet platform that connects users directly with local Internet capacity <br> provided by farmers. No intermediaries. A sovereign alternative to today's centralized Internet model.
 
 <br>
 
@@ -62,7 +62,7 @@ The future is about decentralization, participation, and working together to ach
 
 <br>
 
-![Image](farming_home.png#mx-auto)
+![Image](farm_do_it_home.png#mx-auto#medium)
 
 <br>
 
@@ -85,7 +85,7 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 <br>
 
-![Image](build_home.png#mx-auto)
+![Image](developer_header_home.jpg#mx-auto#medium)
 
 <br>
 
@@ -108,7 +108,7 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 
 <br>
 
-![Image](community_home.png#mx-auto)
+![Image](community_header_home.jpg#mx-auto)
 
 <br>
 

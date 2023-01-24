@@ -13,9 +13,7 @@ extra:
     cities: []
     private: 0
     socialLinks: {
-        LinkedIn:,
-        github: ,
-        websites: https://threefold.io,
+        websites: https://threefold.io
     }
 ---
 The ThreeFold community is made up of passionate individuals from all corners of the globe participating in the expansion and evolution of the ThreeFold Internet and project.
