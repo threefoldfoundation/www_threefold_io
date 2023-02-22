@@ -55,7 +55,7 @@ extra:
 
 {% end %}
 
-- MoreInfo
+- More
 
 {% row(style="wide") %}
 
@@ -106,7 +106,7 @@ extra:
 
 <button onclick="openInNewTab('https&#58;//github.com/')">
 
-[GitHub](https://github.com/)
+[GitHub](https://github.com/threefoldtech/)
 <br>
 <p class="text-sm">Code Library & Documentation</p>
 
