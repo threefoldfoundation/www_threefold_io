@@ -11,7 +11,7 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="center") %}
+{% row(style="center narrow") %}
 
 <br/>
 <br/>
@@ -20,9 +20,9 @@ extra:
 
 <br/>
 
-## Sovereign Internet for People and our Planet
+## A Co-Owned Global Sovereign **Internet**
 
-ThreeFold is a peer-to-peer open-source Internet platform that connects users directly with local Internet capacity <br> provided by farmers. No intermediaries. A sovereign alternative to today's centralized Internet model.
+ThreeFold is **a peer-to-peer open-source Internet platform that connects users directly with local Internet capacity** (storage, compute, and network) provided by farmers. A decentralized sovereign alternative to today's centralized Internet model.
 
 <br>
 
@@ -38,13 +38,80 @@ ThreeFold is a peer-to-peer open-source Internet platform that connects users di
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.7
+### The ThreeFold Grid v3.8
 
 ## **Live and Operational**
 
 {% end %}
 
 <!-- section 3 (EXPAND) -->
+
+{% row(style="center narrow") %}
+
+![Image](grid_wide_1.png#mx-auto#large)
+
+## The **Layer Zero** for a Decentralized World
+
+Anything that runs on Linux can run on ThreeFold – with more security, more sustainably, and in true decentralization. The ThreeFold Grid can support workloads from Blockchain to Web2 to Web3 to IoT and Metaverse and more.
+
+<br>
+
+<button>[Learn About the Grid](/grid)</button>
+<button>[Use the Grid](/build)</button>
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+## Experience the Benefits <br> of **ThreeFold**
+
+{% end %}
+
+{% row(style="center between") %}
+
+![Image](capacity.png#medium)
+
+<br/>
+
+### **Edge Capacity**
+
+Achieve low latencies and bandwidth efficiency by reserving capacity locally.
+
+|||
+
+![Image](secure.png#medium)
+
+<br/>
+
+### **Secure**
+
+Open-source system built from the ground-up for a fully transparent and auditable stack.
+
+|||
+
+![Image](scalable.png#medium)
+
+<br/>
+
+### **Scalable**
+
+An autonomous infrastructure that grows naturally with demand, where and when it is needed.
+
+|||
+
+![Image](effecient.png#medium)
+
+<br/>
+
+### **Efficient**
+
+A carefully designed collection of lightweight components that minimize overheads.
+
+{% end %}
+
+<br>
+<br>
+<br>
 
 {% row(style="center narrow") %}
 

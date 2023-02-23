@@ -21,7 +21,7 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 {% end %}
 
-<!-- section 2  -->
+<!-- section 4 -->
 
 {% row(style="center margin") %}
 
@@ -57,62 +57,6 @@ Private overlay networks and global end-to-end encryption minimize attack surfac
 {% end %}
 
 <!-- section 3  -->
-
-{% row(style="center mtop narrow") %}
-
-## Designed for <br> **Demanding Workloads**
-
-{% end %}
-
-{% row(style="center between") %}
-
-![Image](capacity.png#medium)
-
-<br/>
-
-### **Edge Capacity**
-
-Achieve low latencies and bandwidth efficiency by reserving capacity locally.
-
-|||
-
-![Image](secure.png#medium)
-
-<br/>
-
-### **Secure**
-
-Open-source system built from the ground-up for a fully transparent and auditable stack.
-
-|||
-
-![Image](scalable.png#medium)
-
-<br/>
-
-### **Scalable**
-
-An autonomous infrastructure that grows naturally with demand, where and when it is needed.
-
-|||
-
-![Image](effecient.png#medium)
-
-<br/>
-
-### **Efficient**
-
-A carefully designed collection of lightweight components that minimize overheads.
-
-{% end %}
-
-<!-- section 4 -->
-
-{% row(style="center mbottom narrow") %}
-
-<button>[Learn More](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_home)</button>
-
-{% end %}
 
 {% row(style="center mtop narrow") %}
 
