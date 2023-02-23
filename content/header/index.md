@@ -104,7 +104,7 @@ extra:
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//github.com/')">
+<button onclick="openInNewTab('https&#58;//github.com/threefoldtech/')">
 
 [GitHub](https://github.com/threefoldtech/)
 <br>
