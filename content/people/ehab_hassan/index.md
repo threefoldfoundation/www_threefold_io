@@ -1,7 +1,7 @@
 ---
 title: Ehab Hassan
 weight: 3
-description: Positive person in every every aspect of life.
+description: Positive person in every aspect of life.
 taxonomies:
     people: [ehab_hassan]
     memberships: [tech]
@@ -19,4 +19,4 @@ extra:
     }
 ---
 
-Positive person in every every aspect of life. Senior Graphic Designer & Web Developer at ThreeFold. Fell in love with ThreeFold as I dream about the world where everyone can be happy.
+Positive person in every aspect of life. Senior Graphic Designer & Web Developer at ThreeFold. Fell in love with ThreeFold as I dream about the world where everyone can be happy.
