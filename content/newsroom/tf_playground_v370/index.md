@@ -21,7 +21,7 @@ The team is constantly working on improving and evolving the experience. Take a 
 <br/>
 
 * [Learn more about Weblets](https://library.threefold.me/info/manual/#/manual__weblets_home)
-* [Get started on the TF Grid](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)
+* [Get started on the TF Grid](https://manual.grid.tf)
 * [Visit the Playground directly](https://play.grid.tf/)
 * [Join the Grid Tester community](https://t.me/threefoldtesting)
 
