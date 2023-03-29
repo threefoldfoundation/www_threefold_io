@@ -13,34 +13,34 @@ extra:
 
 {% row(style="center") %}
 
-<br/>
-<br/>
-
-![Image](black_threefold_header.png#mx-auto#medium)
-
-<br/>
-
-## The (Re)Birth of **the Internet.**
-
-ThreeFold is a peer-to-peer open-source Internet platform that connects users directly with <br> local Internet capacity provided by farmers. No intermediaries such as centralized servers. 
-
+<br>
+<br>
+<br>
+<br>
 <br>
 
-<button>[Build](/build)</button>
-<button>[Farm](/farm)</button>
-<button>[Main Chat](https://t.me/threefold)</button>
-<button>[Our Forum](https://forum.threefold.io)</button>
+# ThreeFold 
+## Enabling the Next-Gen Internet
+
+Join a global community pioneering the decentralized, autonomous, and sustainable Internet. <br>
+We empower individuals and communities to regain control of their digital lives and shape their own digital future.
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% end %}
 
 <!-- section 2 (Map) -->
 
-
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.7
+### The ThreeFold Grid v3.9.0
 
 ## **Live and Operational**
+
 
 {% end %}
 
@@ -48,9 +48,70 @@ ThreeFold is a peer-to-peer open-source Internet platform that connects users di
 
 {% row(style="center narrow") %}
 
-## Together **We Build.** Start **Your Journey.**
+## Why ThreeFold
 
-The future is about decentralization, participation, and working together to achieve our goals. As a decentralized movement, we encourage the community to get involved. This new Internet can only succeed if we find ways to collaborate where we together pull this Internet concept forward. Below, please find some of the ways you can join us in building a better Internet. 
+ThreeFold’s unique infrastructure can operate without centralized authority or server, empowering people and communities to build and store applications on a decentralized network owned and operated by its participants.  ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyone can take part. Through many of its unique properties, ThreeFold fosters the security, trust and freedom that are often missing in today’s internet.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+## Experience the Benefits
+## of __ThreeFold__
+
+{% end %}
+
+{% row(style="center between") %}
+
+![Image](capacity.png#medium)
+
+<br/>
+
+### **Edge Capacity**
+
+Achieve low latencies and bandwidth efficiency by reserving capacity locally.
+
+|||
+
+![Image](secure.png#medium)
+
+<br/>
+
+### **Secure**
+
+Open-source system built from the ground-up for a fully transparent and auditable stack.
+
+|||
+
+![Image](scalable.png#medium)
+
+<br/>
+
+### **Scalable**
+
+An autonomous infrastructure that grows naturally with demand, where and when it is needed.
+
+|||
+
+![Image](effecient.png#medium)
+
+<br/>
+
+### **Efficient**
+
+A carefully designed collection of lightweight components that minimize overheads.
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% end %}
 
@@ -58,22 +119,19 @@ The future is about decentralization, participation, and working together to ach
 
 {% row(style="center narrow") %}
 
-### Farm Local Internet Capacity **and Earn TFT**
+## Limitless Possibilities
+
 
 <br>
 
 ![Image](farming_home.png#mx-auto)
 
 <br>
-
-By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity <br> for the people around you and earn a new digital currency, TFT.
-
+<br>
+<br>
+<br>
 <br>
 
-<button>[Buy a 3Node](http://marketplace.3node.global/)</button>
-<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
-<button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
-<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
 
 {% end %}
 
@@ -81,7 +139,7 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 {% row(style="center narrow") %}
 
-### Build On Top of a **Decentralized Infrastructure**
+## Our Impacts
 
 <br>
 
@@ -89,14 +147,13 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 <br>
 
-True digital sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.
+At ThreeFold, we believe that sustainability is a fundamental part of the internet's future. That's why we're committed to fighting climate change by building the most energy-efficient internet infrastructure in the world. We also prioritize equality, diversity, and inclusion in our culture and vision of an internet for everyone, everywhere.
 
 <br>
-
-<button>[Dashboard](https://dashboard.grid.tf/)</button>
-<button>[Playground](https://play.grid.tf)</button>
-<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
-<button>[Grid Chat](https://t.me/threefoldtesting)</button>
+<br>
+<br>
+<br>
+<br>
 
 {% end %}
 
@@ -104,24 +161,88 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 
 {% row(style="center narrow") %}
 
-### Join the **Community.** Grow **the Movement.**
-
-<br>
-
-![Image](community_home.png#mx-auto)
-
-<br>
-
-If you believe what we believe, then believe us, there is room for you in this movement. Join the community. Ask questions. <br> Bring suggestions – this is *our* project. Tell a friend. Tell many friends! Together we build.
-
-<br>
-
-<button>[Main Chat](https://t.me/threefold)</button>
-<button>[Our Forum](https://threefold.io)</button>
-<button>[Twitter](https://twitter.com/threefold_io)</button>
-<button>[More Resources](/community)</button>
+## Become a catalyst for change
 
 {% end %}
+
+{% row(style="center narrow") %}
+
+![Image](capacity.png#medium)
+
+<br/>
+
+### Expand
+
+Achieve low latencies and bandwidth efficiency by reserving capacity locally.
+
+|||
+
+![Image](secure.png#medium)
+
+<br/>
+
+### Innovate
+
+Open-source system built from the ground-up for a fully transparent and auditable stack.
+
+|||
+
+![Image](scalable.png#medium)
+
+<br/>
+
+### Connect
+
+An autonomous infrastructure that grows naturally with demand, where and when it is needed.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+## The Future Will be Built
+## By All of Us
+
+<br>
+<br>
+
+<button>[Our Vision and Manifesto](partners)</button>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+## Join the Revolution
+
+<br>
+<br>
+
+<button>[Twitter](partners)</button>
+<button>[Telegram](partners)</button>
+<button>[Github](partners)</button>
+<button>[Blog](partners)</button>
+<button>[Forum](partners)</button>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{% end %}
+
 
 <!-- section 4 (FEATURED STORIES) -->
 
@@ -154,7 +275,9 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 {% end %}
 
 <br>
-
+<br>
+<br>
+<br>
 <br>
 
 <!-- section 7 (IN THE NEWS) -->
