@@ -11,10 +11,8 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="center") %}
 
-<br>
-<br>
+{% row(style="center") %}
 <br>
 <br>
 <br>
@@ -48,7 +46,19 @@ We empower individuals and communities to regain control of their digital lives 
 
 {% row(style="center narrow") %}
 
-## Why ThreeFold
+![image](2.png)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+|||
+
+## Why __ThreeFold__
+
+<br>
 
 ThreeFold’s unique infrastructure can operate without centralized authority or server, empowering people and communities to build and store applications on a decentralized network owned and operated by its participants.  ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyone can take part. Through many of its unique properties, ThreeFold fosters the security, trust and freedom that are often missing in today’s internet.
 
@@ -69,43 +79,72 @@ ThreeFold’s unique infrastructure can operate without centralized authority or
 
 {% row(style="center between") %}
 
-![Image](capacity.png#medium)
+![Image](aa.png#medium)
 
 <br/>
 
-### **Edge Capacity**
+### **Autonomous**
 
-Achieve low latencies and bandwidth efficiency by reserving capacity locally.
+Build secure applications with predeterministic smart contracts and access unparalleled self-driving and self-healing features.
+
 
 |||
 
-![Image](secure.png#medium)
+![Image](bb.png#medium)
 
 <br/>
 
-### **Secure**
+### **Self-Sovereign**
 
-Open-source system built from the ground-up for a fully transparent and auditable stack.
+Take control of your digital future with ThreeFold's self-sovereign technology, using cryptography to ensure you own and control your data.
 
 |||
 
-![Image](scalable.png#medium)
+![Image](cc.png#medium)
 
 <br/>
 
-### **Scalable**
+### **Affordable**
 
-An autonomous infrastructure that grows naturally with demand, where and when it is needed.
+Through it’s decentralized infrastructure that eliminates the need for expensive data centers and intermediaries, ThreeFold has incredibly low fees.
+
+<br/>
+
+
+{% end %}
+
+{% row(style="center between") %}
+
+![Image](dd.png#medium)
+
+<br/>
+
+### **Sustainable**
+
+Unique infrastructure design provides direct access with low latency, enabling real-time applications and services.
+
 
 |||
 
-![Image](effecient.png#medium)
+![Image](ee.png#medium)
 
 <br/>
 
-### **Efficient**
+### **Ultra-Scalable**
 
-A carefully designed collection of lightweight components that minimize overheads.
+Designed to make distributing, managing and monitoring secure and efficient deployments over thousands of computers as easy as one.
+
+
+|||
+
+![Image](ff.png#medium)
+
+<br/>
+
+### **Decentralized**
+
+Enabled by thousands of nodes that operate independently of each other, ensuring data remains secure and censorship resistant at all times.
+
 
 <br>
 <br>
@@ -124,7 +163,7 @@ A carefully designed collection of lightweight components that minimize overhead
 
 <br>
 
-![Image](farming_home.png#mx-auto)
+![Image](sample.png#mx-auto)
 
 <br>
 <br>
@@ -143,7 +182,7 @@ A carefully designed collection of lightweight components that minimize overhead
 
 <br>
 
-![Image](build_home.png#mx-auto)
+![Image](0.png#medium)
 
 <br>
 
@@ -161,13 +200,15 @@ At ThreeFold, we believe that sustainability is a fundamental part of the intern
 
 {% row(style="center narrow") %}
 
-## Become a catalyst for change
+## Become the Catalyst for a Change
+
+<br>
 
 {% end %}
 
 {% row(style="center narrow") %}
 
-![Image](capacity.png#medium)
+![Image](1.png#medium)
 
 <br/>
 
@@ -177,7 +218,7 @@ Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
 |||
 
-![Image](secure.png#medium)
+![Image](4.png#medium)
 
 <br/>
 
@@ -187,7 +228,7 @@ Open-source system built from the ground-up for a fully transparent and auditabl
 
 |||
 
-![Image](scalable.png#medium)
+![Image](3.png#medium)
 
 <br/>
 
@@ -224,7 +265,7 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 {% row(style="center narrow") %}
 
-## Join the Revolution
+## Join the Internet Revolution
 
 <br>
 <br>
