@@ -12,7 +12,7 @@ extra:
 - [Store]("/store")
 - [Build]("/buildnew")
 - [Farm]("/farmnew")
-- [TFT]("/tft")
+- [Token]("/tft")
 - Ecosystem
 
 {% row() %}
