@@ -12,10 +12,14 @@ extra:
 <!-- section 1 (header) -->
 
 
-{% row(style="center mtop narrow") %}
+{% row(style="center") %}
+
+![image](tf.png#medium)
 
 # ThreeFold 
 ## Enabling the Next-Gen Internet
+
+<br>
 
 Join a global community pioneering the decentralized, autonomous, and sustainable Internet. <br>
 We empower individuals and communities to regain control of their digital lives and shape their own digital future.
