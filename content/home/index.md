@@ -163,11 +163,9 @@ We also prioritize equality, diversity, and inclusion in our culture and vision 
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center") %}
 
-![Image](blank.png#medium)
-
-<br/>
+![Image](expand1.png#medium)
 
 ### Expand
 
@@ -175,9 +173,8 @@ Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
 |||
 
-![Image](blank.png#medium)
+![Image](innovate1.png#medium)
 
-<br/>
 
 ### Innovate
 
@@ -185,9 +182,8 @@ Open-source system built from the ground-up for a fully transparent and auditabl
 
 |||
 
-![Image](blank.png#medium)
+![Image](connect1.png#medium)
 
-<br/>
 
 ### Connect
 
@@ -196,28 +192,32 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center mtop narrow") %}
+
+![Image](globe_mission.png#medium)
 
 <br>
 <br>
 
 ## The Future Will be Built
-## By All of Us
-
+## By **All of Us**
 
 <br>
-
 
 <button>[Our Vision and Manifesto](threefold.io)</button>
 
 <br>
 <br>
+<br>
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(bgColor="#73FFD9" style="center") %}
 
-## Join the Internet Revolution
+<br>
+
+## Join the Internet
+## **(R)evolution**
 
 <br>
 
@@ -226,6 +226,8 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 <button>[Github](partners)</button>
 <button>[Blog](partners)</button>
 <button>[Forum](partners)</button>
+
+<br>
 
 {% end %}
 
