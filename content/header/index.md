@@ -8,10 +8,10 @@ extra:
 ---
 
 
-- [Mission]("/mission")
-- [Grid]("/grid")
-- [Build]("/build")
-- [Farm]("/farm")
+- [About]("/about")
+- [Store]("/store")
+- [Build]("/buildnew")
+- [Farm]("/farmnew")
 - [TFT]("/tft")
 - Ecosystem
 
