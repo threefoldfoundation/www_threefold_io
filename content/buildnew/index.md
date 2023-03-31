@@ -10,8 +10,8 @@ insert_anchor_links: "left"
 
 ![](build.png#medium)
 
-## Build without limits 
-### Scale further on a decentralized autonomous edge cloud
+## Build without Limits 
+### Scale Further on a Decentralized Autonomous Edge-cloud
 
 Power your geo-distributed edge workloads with smart contract deployments and <br>
 experience self-driving operations, high-performance edge-to-edge interconnections, and seamless scalability.
@@ -66,7 +66,7 @@ Enhance infrastructure provisioning with deterministic smart contracts, minimize
 
 |||
 
-## Dedicated nodes
+## Dedicated Nodes
 
 Experience ultimate control and flexibility by reserving entire nodes tailored for your projects.
 Optimize security and customization for high-demand workloads, such as blockchain nodes, while enjoying competitive pricing.
@@ -82,7 +82,7 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 {% row(style="center narrow") %}
 
-## Monetize your applications
+## Monetize Your Applications
 
 Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider.<br>
  Follow our guided process to benefit from our dynamic revenue-sharing model.
