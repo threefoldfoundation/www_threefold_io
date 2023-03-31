@@ -7,16 +7,18 @@ insert_anchor_links: "left"
 <!-- section 1 (header) -->
 
 
-{% row(style="center margin narrow") %}
+{% row(style="center") %}
+
+![](store.png#medium)
 
 # Storage Unbound 
-## Decentralize your data on a quantum proof infrastructure
+## On Quantum-Proof Infrastructure
 
 <br>
 
-Experience the boundless possibilities of a distributed, quantum-proof storage system, designed to encrypt, compress, shard, and distribute your data, empowering you with unmatched security, scalability, and efficiency.
-
+Experience the boundless possibilities of a distributed, quantum-proof storage system, 
 <br>
+designed to encrypt, compress, shard, and distribute your data, empowering you with unmatched security, scalability, and efficiency.
 <br>
 
 {% end %}
@@ -24,15 +26,15 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 <!-- section 2 (INTERCONNECTED) -->
 
-{% row(style="center margin narrow") %}
+{% row(style="center narrow") %}
 
-## Unique Features
+## Unique **Features**
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center bottom narrow") %}
 
-### Dispersed storage algorithm
+### Dispersed Storage
 Distributes data smartly across multiple locations, further enhancing security and data redundancy.
 
 <br>
@@ -42,7 +44,7 @@ Automatically detects and recovers from failures, ensuring your data remains ava
 
 <br>
 
-### Platform integration
+### Platform Integration
 Compatible with VMs and Kubernetes for seamless storage management within various environments.
 
 <br>
@@ -50,16 +52,17 @@ Compatible with VMs and Kubernetes for seamless storage management within variou
 
 |||
 
-![img](mockup.png#medium)
+![img](mockup1.png#medium)
+
 
 |||
 
-### Ultra scalable
+### Ultra-scalable
 Leverages ThreeFold's decentralized, peer-to-peer infrastructure for unlimited data storage capacity.
 
 <br>
 
-### Competitive pricing
+### Competitive Pricing
 Up-to 70% more affordable compared to traditional centralized storage services.
 
 <br>
@@ -69,17 +72,23 @@ Plug in any storage tool or protocol, making it a seamless addition to your exis
 
 <br>
 <br>
-
-
 {% end %}
+
 
 <!-- section 6 (GETTING STARTED) -->
 
-{% row(style="center margin") %}
+{% row(style="center") %}
 
-## A fortress for your digital assets
+<br>
+<br>
+<br>
 
-Quantum Safe Storage is designed to intelligently encrypt, compress,  split data into multiple parts and distribute it across ThreeFold’s decentralized network. This unique approach ensures that even if an attacker were to access one node, they would only find non-relevant information. The only way to reconstruct your data is via your private key.
+## A Fortress for 
+## Your **Digital Assets**
+
+Quantum Safe Storage is designed to intelligently encrypt, compress,  split data into multiple parts and distribute it across ThreeFold’s decentralized network. 
+<br>
+This unique approach ensures that even if an attacker were to access one node, they would only find non-relevant information. The only way to reconstruct your data is via your private key.
 
 <br>
 
@@ -90,7 +99,12 @@ Quantum Safe Storage is designed to intelligently encrypt, compress,  split data
 
 |||
 
-![Image](blank.png#medium)
+<br>
+<br>
+<br>
+
+![Image](Grid_people.jpeg#mx-auto)
+
 
 {% end %}
 
@@ -98,28 +112,30 @@ Quantum Safe Storage is designed to intelligently encrypt, compress,  split data
 
 {% row(style="center") %}
 
-![Image](blank.png#medium)
+![Image](grid_decenter.jpg#mx-auto)
 
+<br>
 <br>
 <br>
 
 |||
 
-## True Peer-to-Peer Design
+## True **Peer-to-Peer**
+## Design
 
-ThreeFold's storage architecture is built upon the principles of peer-to-peer design, allowing you to select storage providers that meet your specific criteria for location, data type, and more. Whether you need to store data in a particular geographic area for compliance reasons or manage various storage policies for different data types, our storage architecture has you covered.
-
+ThreeFold's storage architecture is built upon the principles of peer-to-peer design, allowing you to select storage providers that meet your specific criteria for location, data type, and more. 
+<br>
+<br>
+Whether you need to store data in a particular geographic area for compliance reasons or manage various storage policies for different data types, our storage architecture has you covered.
 
 <br>
 
 <button>[Learn More](https://threefold.io)</button>
 
-<br>
-<br>
 
 {% end %}
 
-{% row(style="center margin") %}
+{% row(style="center") %}
 
 ### Zero OS
 
@@ -129,53 +145,57 @@ ThreeFold's storage architecture is built upon the principles of peer-to-peer de
 
 <br>
 
-Zero-OS makes the things you do on the cloud even better, with powerful autonomous features to build, share and collaborate in complete self-sovereignty. Immerse yourself the decentralized digital realm, and explore new frontiers
+Zero-OS makes the things you do on the cloud even better, with powerful autonomous <br>
+features to build, share and collaborate in complete self-sovereignty. <br>Immerse yourself the decentralized digital realm, and explore new frontiers
 
 <br>
 
 <button>[Learn More](https://threefold.io)</button>
 
-<br>
-<br>
-
 {% end %}
 
-{% row(style="center margin") %}
+{% row(style="center narrow") %}
 
 ## Become Self Sovereign Today
 
 {% end %}
 
-{% row(style="center margin") %}
+{% row(style="center narrow") %}
 
-![img](blank.png#medium)
-
-<br>
+![img](down.png#medium)
 
 Download the ThreeFold Connect App
 
-<button>[google](https://threefold.io)</button>
+<br>
 
-<button>[apple](https://threefold.io)</button>
+<button>[google](https://threefold.io)</button> <button>[apple](https://threefold.io)</button>
+
+<br>
 
 |||
 
-![img](blank.png#medium)
+![img](top.png#medium)
 
-<br>
 
 Load your wallet with TFT
 
+<br>
+
 <button>[wallet](https://threefold.io)</button>
-
-|||
-
-![img](blank.png#medium)
 
 <br>
 
+|||
+
+![img](st.png#medium)
+
+
 Set up your dashboard
 
+<br>
+
 <button>[dashboard](https://threefold.io)</button>
+
+<br>
 
 {% end %}
