@@ -131,7 +131,7 @@ Soon you will be able to partake in the network's decentralization and earn rewa
 
 {% row(style="center mbottom") %}
 
-## Harness the power of multiple blockchains
+## Harness the Power of **Multiple Blockchains**
 
 TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Binance Smart Chain. This brings more accessibility to the token and more opportunities to collaborate with the greater blockchain community.
 
@@ -152,7 +152,7 @@ TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Bin
 
 |||
 
-## Start Your TFT Journey
+## Start Your **TFT Journey**
 
 You can buy TFT from decentralized exchanges or wallets directly. <br>
 We have compiled tutorials and manuals to help you out, including how to buy, trade, and store TFT.
@@ -165,7 +165,7 @@ We have compiled tutorials and manuals to help you out, including how to buy, tr
 
 {% row(style="center") %}
 
-## Drive Liquidity
+## Drive **Liquidity**
 
 ThreeFold believes in the organic and sustainable growth of ThreeFold Token. And one of our key goals is to strengthen the foundation of the ecosystem by enhancing the stability and liquidity of TFT.
 
