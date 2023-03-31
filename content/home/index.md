@@ -11,13 +11,16 @@ extra:
 
 <!-- section 1 (header) -->
 
+<br>
+<br>
+<br>
+<br>
 
 {% row(style="center") %}
 
-![image](tf.png#medium)
+![image](black_threefold_header.png#medium)
 
-# ThreeFold 
-## Enabling the Next-Gen Internet
+## Enabling the **Next-Gen Internet**
 
 <br>
 
@@ -41,9 +44,9 @@ We empower individuals and communities to regain control of their digital lives 
 
 {% row(style="center narrow") %}
 
-## Why __ThreeFold__
-
 ![image](grid_wide_1.png#mx-auto)
+
+## Why __ThreeFold__
 
 <br>
 
@@ -64,7 +67,7 @@ ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyon
 
 {% row(style="center between narrow") %}
 
-![Image](auto1.png#m)
+![Image](auto1.png#medium)
 
 ### **Autonomous**
 
@@ -146,7 +149,7 @@ Enabled by thousands of nodes that operate independently of each other, ensuring
 
 |||
 
-## Our **Impacts**
+## Our **Impact**
 
 <br>
 
@@ -163,7 +166,7 @@ We also prioritize equality, diversity, and inclusion in our culture and vision 
 
 {% row(style="center mtop narrow") %}
 
-## Become the Catalyst for a **Change**
+## Become a Catalyst for **Change**
 
 {% end %}
 
@@ -171,7 +174,7 @@ We also prioritize equality, diversity, and inclusion in our culture and vision 
 
 ![Image](expand1.png#medium)
 
-### Expand
+### **Expand**
 
 Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
@@ -180,7 +183,7 @@ Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 ![Image](innovate1.png#medium)
 
 
-### Innovate
+### **Innovate**
 
 Open-source system built from the ground-up for a fully transparent and auditable stack.
 
@@ -189,7 +192,7 @@ Open-source system built from the ground-up for a fully transparent and auditabl
 ![Image](connect1.png#medium)
 
 
-### Connect
+### **Connect**
 
 An autonomous infrastructure that grows naturally with demand, where and when it is needed.
 
@@ -216,7 +219,7 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 {% end %}
 
-{% row(bgColor="#73FFD9" style="center") %}
+{% row(bgColor="#FFFFFF" style="center") %}
 
 <br>
 
@@ -232,86 +235,5 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 <button>[Forum](partners)</button>
 
 <br>
-
-{% end %}
-
-
-<!-- section 4 (FEATURED STORIES) -->
-
-{% featured_stories() %}
-
-## Featured Stories
-
-{% end %}
-
-<!-- section 5 (THE TEAM) -->
-
-{% team_sec() %}
-
-## **The Team**
-
-{% end %}
-
-<!-- section 6 (PARTNERS) -->
-
-{% row(style="center margin") %}
-
-## Believers and Collaborators <br> **In a Better Internet**
-
-We are truly proud to be trusted by some of the biggest names in the industry.
-
-![Image](ourpartners.png#mx-auto)
-
-<button>[Check All Partners](partners)</button>
-
-{% end %}
-
-<!-- section 7 (IN THE NEWS) -->
-
-{% row(style="center") %}
-
-## **In the News**
-
-{% end %}
-
-{% row(style="center between") %}
-
-[![forbes](forbes.png#mx-auto)](https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/?fbclid=IwAR1WKCpqLcWPRWg5bPD6RCQE5JJjRPt6ey5vbEnu3db2FvJnp6-YKeVZNW8#79aa340e6798)
-
-|||
-
-[![cointelegraph](cointelegraph.png#mx-auto)](https://cointelegraph.com/news/peer-to-peer-internet-has-lofty-goal-to-bring-true-decentralization)
-
-|||
-
-[![yahoo_news](yahoo_news.png#mx-auto)](https://news.yahoo.com/news/threefold-set-disrupt-status-quo-051457787.html?guccounter=1)
-
-{% end %}
-
-{% row(style="center between") %}
-
-[![hackernoon](hackernoon.png#mx-auto)](https://hackernoon.com/is-it-possible-to-create-a-decentralized-internet-this-startup-and-its-farmers-think-so-ey2e3ycf)
-
-|||
-
-[![smartereum](smartereum.png#mx-auto)](https://smartereum.com/189750/threefold-is-audaciously-building-a-new-decentralized-internet/)
-
-|||
-
-[![tga_daily](tga_daily.png#mx-auto)](https://tgdaily.com/web/6-dfinity-threefold-are-leading-an-internet-decentralization-revolution/)
-
-{% end %}
-
-{% row(style="center between") %}
-
-[![cointelegraph](cointelegraph.png#mx-auto)](https://cointelegraph-com.cdn.ampproject.org/c/s/cointelegraph.com/news/is-a-new-decentralized-internet-or-web-3-0-possible/amp)
-
-|||
-
-[![banklesstimes](banklesstimes.png#mx-auto)](https://www.banklesstimes.com/2021/06/14/threefolds-green-technology-strategy-to-a-fairer-more-sustainable-world/)
-
-|||
-
-[![grit_daily](grit_daily.png#mx-auto)](https://gritdaily.com/belarus-governments-control-internet/)
 
 {% end %}
