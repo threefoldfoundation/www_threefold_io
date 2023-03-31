@@ -29,7 +29,7 @@ Users, developers, and enterprises use TFT to store data, build applications, an
 
 |||
 
-![Image](blank.png#medium)
+![Image](tft_loyalty.png#medium)
 
 <br/>
 

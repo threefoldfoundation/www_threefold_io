@@ -8,6 +8,8 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
+![](grid_wide_1.png)
+
 ## Be the **Internet**
 ### Host a node and support a decentralized future
 
@@ -26,16 +28,15 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 <!-- section 3 -->
 
-{% row(style="center mtop narrow ") %}
+{% row(style="center narrow ") %}
 
-
-## Simple for everyone
+## Simple for Everyone
 
 {% end %}
 
-{% row(style="center mtop narrow ") %}
+{% row(style="center") %}
 
-![Image](blank.png#mx-auto)
+![Image](host.png#mx-auto)
 <br>
 
 ### Host a Node
@@ -44,7 +45,7 @@ All you need to get started is a modern computer, electricity and network. Once 
 
 
 |||
-![Image](blank.png#mx-auto)
+![Image](verif.png#mx-auto)
 <br>
 
 ### Get Verified
@@ -54,7 +55,7 @@ The capacity of the node gets verified and registered in the ThreeFold Blockchai
 
 |||
 
-![Image](blank.png#mx-auto)
+![Image](earn.png#mx-auto)
 <br>
 
 ### Earn every Month
@@ -66,68 +67,38 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 <!-- section 4  -->
 
-{% row(style="center margin") %}
+{% row(style="center") %}
 
+![](farm_header.jpg#mx-auto)
+
+|||
 
 ## Find your Fit
-### Most modern computers work
+### Most **Modern Computers Work**
 
 ThreeFold’s operating system was designed to be hardware agnostic, and already  runs on any Intel or AMD powered computer today. 
 
 <br>
 
-From pre-configured to Do-it-Yourself, below are some hardware options recommended by the ThreeFold community for you to start your journey as an Internet provider on the ThreeFold Grid.
+<button>[Learn More](https://threefold.io)</button>
 
 {% end %}
 
 <!-- section 5 -->
 
-{% row(style="center mbottom narrow") %}
+{% row(style="center mtop narrow") %}
 
-## Farming Stories
-
-### Hear it from the Community
-
-{% end %}
-
-{% row(style="center") %}
-
-![Image](blank.png#mx-auto)
-<br>
-
-### Drew's Story
-
-|||
-
-![Image](blank.png#mx-auto)
-<br>
-
-### Teisie's Story
-
-|||
-
-![Image](blank.png#mx-auto)
-<br>
-
-### Nelson's Story
-
-
-{% end %}
-
-{% row(style="center") %}
-
-![Image](blank.png#medium)
+## The value of **TFT**
 
 <br>
 <br>
 
-|||
+![Image](farm_value_tft.jpg#mx-auto)
 
-## The value of TFT
-
+<br>
+<br>
 
 Any current of future application can run on the ThreeFold Grid and every user requires TFT to exchange data. The more people use TFT, the more TFT will be ‘burnt’, reducing the overall circulating supply to achieve market equilibrium.
-
 
 <br>
 
