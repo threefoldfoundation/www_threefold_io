@@ -11,18 +11,11 @@ extra:
 
 <!-- section 1 (header) -->
 
-<br>
-<br>
-<br>
-<br>
+{% row(style="center margin narrow") %}
 
-{% row(style="center") %}
+![image](logo1.png#medium)
 
-![image](black_threefold_header.png#medium)
-
-## Enabling the **Next-Gen Internet**
-
-<br>
+## Internet **Reimagined**. Internet **Rebuilt**.
 
 Join a global community pioneering the decentralized, autonomous, and sustainable Internet. <br>
 We empower individuals and communities to regain control of their digital lives and shape their own digital future.
@@ -58,7 +51,7 @@ ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyon
 
 <!-- section 3 (EXPAND) -->
 
-{% row(style="center mtop narrow") %}
+{% row(style="center between narrow") %}
 
 ## Experience the Benefits
 ## of __ThreeFold__
@@ -67,7 +60,7 @@ ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyon
 
 {% row(style="center between narrow") %}
 
-![Image](auto1.png#medium)
+![Image](auto3.png#medium)
 
 ### **Autonomous**
 
@@ -76,7 +69,7 @@ Build secure applications with predeterministic smart contracts and access unpar
 
 |||
 
-![Image](self1.png#m)
+![Image](ss.png#medium)
 
 ### **Self-Sovereign**
 
@@ -84,20 +77,17 @@ Take control of your digital future with ThreeFold's self-sovereign technology, 
 
 |||
 
-![Image](afford1.png#m)
+![Image](afford.png#medium)
 
 ### **Affordable**
 
 Through it’s decentralized infrastructure that eliminates the need for expensive data centers and intermediaries, ThreeFold has incredibly low fees.
 
-<br/>
-
-
 {% end %}
 
-{% row(style="center between") %}
+{% row(style="center between mbottom") %}
 
-![Image](sustain1.png#m)
+![Image](sustain.png#medium)
 
 ### **Sustainable**
 
@@ -106,7 +96,7 @@ Unique infrastructure design provides direct access with low latency, enabling r
 
 |||
 
-![Image](scale1.png#m)
+![Image](scale.png#medium)
 
 ### **Ultra-Scalable**
 
@@ -115,7 +105,7 @@ Designed to make distributing, managing and monitoring secure and efficient depl
 
 |||
 
-![Image](decent1.png#m)
+![Image](decent.png#medium)
 
 ### **Decentralized**
 
@@ -124,55 +114,45 @@ Enabled by thousands of nodes that operate independently of each other, ensuring
 {% end %}
 
 
-{% row(style="center mtop narrow") %}
+{% row(style="center mbottom narrow") %}
 
 ## Limitless **Possibilities**
 
 <br>
-<br>
 
-![Image](possibilitiesq.svg#mx-auto)
-
-<br>
+![Image](possibilities.png#mx-auto)
 
 {% end %}
 
 <!-- section 3 (EXPAND) -->
 
 
-{% row(style="center narrow") %}
+{% row(style="center mbottom") %}
 
-<br>
-
-![Image](developer_header_home.jpeg#mx-auto)
+![Image](impaxt.png#mx-auto)
 
 
 |||
 
 ## Our **Impact**
 
-<br>
-
 At ThreeFold, we believe that sustainability is a fundamental part of the internet's future. That's why we're committed to fighting climate change by building the most energy-efficient internet infrastructure in the world. 
 
-<br>
 <br>
 
 We also prioritize equality, diversity, and inclusion in our culture and vision of an internet for everyone, everywhere.
 
 {% end %}
 
-<br>
-
-{% row(style="center mtop narrow") %}
+{% row(style="center mbottom narrow") %}
 
 ## Become a Catalyst for **Change**
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center mbottom") %}
 
-![Image](expand1.png#medium)
+![Image](expand.png#medium)
 
 ### **Expand**
 
@@ -180,8 +160,7 @@ Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
 |||
 
-![Image](innovate1.png#medium)
-
+![Image](innovate.png#medium)
 
 ### **Innovate**
 
@@ -189,8 +168,7 @@ Open-source system built from the ground-up for a fully transparent and auditabl
 
 |||
 
-![Image](connect1.png#medium)
-
+![Image](connect.png#medium)
 
 ### **Connect**
 
@@ -219,7 +197,7 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 {% end %}
 
-{% row(bgColor="#FFFFFF" style="center") %}
+{% row(style="center semiNarrow" gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" ) %}
 
 <br>
 
