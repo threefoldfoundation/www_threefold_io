@@ -145,7 +145,7 @@ We also prioritize equality, diversity, and inclusion in our culture and vision 
 
 {% end %}
 
-{% row(style="center mbottom narrow") %}
+{% row(style="center narrow") %}
 
 ## Become a Catalyst for **Change**
 
