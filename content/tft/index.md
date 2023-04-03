@@ -7,9 +7,11 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center narrow") %}
+{% row(style="center margin narrow") %}
 
-![](tft_header1.png#medium)
+
+![](tft_header.png#medium)
+s
 
 {% end %}
 
