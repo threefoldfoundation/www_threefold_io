@@ -10,7 +10,7 @@ insert_anchor_links: "left"
 
 ![](grid_wide_1.png)
 
-## Be the **Internet**
+# Be the **Internet**
 ### Host a node and support a decentralized future
 
 By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide private Internet capacity and be rewarded for doing this. Take part in shaping a new Internet era governed by all of us. 
@@ -28,13 +28,13 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 <!-- section 3 -->
 
-{% row(style="center narrow ") %}
+{% row(style="center narrow") %}
 
 ## Simple for Everyone
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center mbottom") %}
 
 ![Image](host.png#mx-auto)
 <br>
@@ -67,7 +67,7 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 <!-- section 4  -->
 
-{% row(style="center") %}
+{% row(style="center mbottom narrow") %}
 
 ![](farm_header.jpg#mx-auto)
 
@@ -86,11 +86,10 @@ ThreeFold’s operating system was designed to be hardware agnostic, and already
 
 <!-- section 5 -->
 
-{% row(style="center mtop narrow") %}
+{% row(style="center mbottom narrow") %}
 
 ## The value of **TFT**
 
-<br>
 <br>
 
 ![Image](farm_value_tft.jpg#mx-auto)
@@ -98,13 +97,12 @@ ThreeFold’s operating system was designed to be hardware agnostic, and already
 <br>
 <br>
 
-Any current of future application can run on the ThreeFold Grid and every user requires TFT to exchange data. The more people use TFT, the more TFT will be ‘burnt’, reducing the overall circulating supply to achieve market equilibrium.
+Any current of future application can run on the ThreeFold Grid and every user requires TFT to exchange data.  <br>
+The more people use TFT, the more TFT will be ‘burnt’, reducing the overall circulating supply to achieve market equilibrium.
 
 <br>
 
 <button>[Learn More](https://threefold.io)</button>
 
-<br>
-<br>
 
 {% end %}
