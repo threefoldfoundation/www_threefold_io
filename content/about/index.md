@@ -13,8 +13,6 @@ insert_anchor_links: "left"
 
 ### It all Started with a Vision About a Decade ago
 
-<br>
-
 When we realized that the Internet's current infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posing a threat to personal privacy, we knew it was time for a change. That's why we founded ThreeFold – to build the Internet the world deserves. 
 
 {% end %}
@@ -28,8 +26,6 @@ When we realized that the Internet's current infrastructure was becoming increas
 
 ### Enabling a decentralized Internet that empowers 
 ### individuals and communities  with economic and social freedom.
-
-<br>
 
 As we journey through the Information Age, humanity stands at the cusp of a remarkable transformation. The 15th-century invention of the printing press marked the dawn of knowledge transfer, while the development of the transistor at Bell Labs in 1947 unlocked the world's information. As society and technology progress, software's influence on our future grows.
 
@@ -95,6 +91,7 @@ By embracing a decentralized infrastructure that supports emerging technologies,
 {% row(style="center margin narrow") %}
 
 ## Imagine 
+
 <br>
 
 A world tailored to your needs, where your digital identity is protected, your voice is heard, and your creativity thrives. In this world, we harness technology to shape a brighter, more equitable future for all. Creators and builders of every kind are welcomed to join us in building ThreeFold together, not as employees but as co-owners. 
@@ -114,15 +111,14 @@ The future is ours to build, and we're building it together. Join us in creating
 
 {% row(style="center mbottom between") %}
 
+![Image](community_header.jpg#large)
+
+<br>
+
 ## Our Community is United by
 ### **Passion and Purpose**
 
-
 We are a diverse community of passionate individuals who believe in the power of technology to bring about positive change. Our mission is to realize the vision of a decentralized, self-sovereign digital world, enabling equitable and sustainable opportunities for all. Together, we are building a new Internet that puts power back into the hands of the people.
-
-|||
-
-![Image](people.png#medium)
 
 {% end %}
 
@@ -130,14 +126,13 @@ We are a diverse community of passionate individuals who believe in the power of
 
 {% row(style="center narrow") %}
 
-## Our Impact
+## Our Impacts
 
 {% end %}
 
 {% row(style="center mbottom") %}
 
-![Image](blank.png#small)
-
+![Image](sustain.png#medium)
 
 ### Green Infrastructure
 
@@ -145,7 +140,7 @@ We’re committed to fight climate change. See why ThreeFold is the most sustain
 
 |||
 
-![Image](blank.png#small)
+![Image](heart2.png#medium)
 
 ### Changing the Internet together
 

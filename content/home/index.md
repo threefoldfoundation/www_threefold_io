@@ -20,7 +20,7 @@ extra:
 Join a global community pioneering the decentralized, autonomous, and sustainable Internet. <br>
 We empower individuals and communities to regain control of their digital lives and shape their own digital future.
  <br>
- 
+
 {% end %}
 
 <!-- section 2 (Map) -->
@@ -130,12 +130,12 @@ Enabled by thousands of nodes that operate independently of each other, ensuring
 
 {% row(style="center mbottom") %}
 
-![Image](impaxt.png#mx-auto)
+![Image](globe_mission.png#medium)
 
 
 |||
 
-## Our **Impact**
+## Our **Impacts**
 
 At ThreeFold, we believe that sustainability is a fundamental part of the internet's future. That's why we're committed to fighting climate change by building the most energy-efficient internet infrastructure in the world. 
 
@@ -178,12 +178,9 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="center mbottom narrow") %}
 
-![Image](globe_mission.png#medium)
-
-<br>
-<br>
+![Image](future3.png#large)
 
 ## The Future Will be Built
 ## By **All of Us**
@@ -191,10 +188,6 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 <br>
 
 <button>[Our Vision and Manifesto](threefold.io)</button>
-
-<br>
-<br>
-<br>
 
 {% end %}
 
