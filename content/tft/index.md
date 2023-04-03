@@ -26,24 +26,19 @@ Join the Internet revolution with the ThreeFold Token (TFT), an innovative utili
 
 {% row(style="center narrow between") %}
 
-![Image](self1.png#medium)
-
-### Real Utility
+### **Real Utility**
 Users, developers, and enterprises use TFT to store data, build applications, and create P2P ecosystems on the ThreeFold Grid.
 
 |||
 
-![Image](fast1.png#medium)
-
-### Super Fast
+### **Super Fast**
 Send TFT in milliseconds to anyone, anywhere – and as the network grows and hardware gets more efficient, so will the network..
 
 
 |||
 
-![Image](auto1.png#medium)
 
-### Strong Fundamentals
+### **Strong Fundamentals**
 With a limited supply of 4 billion TFT and a burning mechanism, the token is backed by the continuous growth of the network.
 
 
@@ -51,25 +46,21 @@ With a limited supply of 4 billion TFT and a burning mechanism, the token is bac
 
 {% row(style="center between narrow mbottom") %}
 
-![Image](guard1.png#medium)
 
 
-### Secured by Cryptography
+### **Secured by Cryptography**
 TFT transactions and smart contracts on the ThreeFold Grid are secured by advanced cryptography.
 
 |||
 
-![Image](decent1.png#medium)
 
-### Ultra-Scalable
+### **Ultra-Scalable**
 ThreeFold is made to handle thousands of transactions and smart contracts per second, with incredibly low fees.
 
 |||
 
-![Image](sustain1.png#medium)
 
-
-### Energy-efficient
+### **Energy-efficient**
 ThreeFold’s innovative infrastructure is incredibly sustainable, ensuring the tokens sustainability and longevity.
 
 {% end %}
@@ -89,6 +80,8 @@ TFT serves as the medium of exchange on the ThreeFold Grid, empowering users to 
 {% end %}
 
 {% row(style="center narrow") %}
+
+<br>
 
 ## Uses of **TFT** are Growing
 
