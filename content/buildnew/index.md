@@ -6,34 +6,26 @@ insert_anchor_links: "left"
 
 <!-- section 1  -->
 
-{% row(style="center") %}
+{% row(style="center margin") %}
 
-![](build.png#medium)
-
-## Build without Limits 
+# Build without Limits 
 ### Scale Further on a Decentralized Autonomous Edge-cloud
 
 Power your geo-distributed edge workloads with smart contract deployments and <br>
 experience self-driving operations, high-performance edge-to-edge interconnections, and seamless scalability.
-
-<br>
-<br>
 
 
 {% end %}
 
 <!-- section 2  -->
 
-{% row(style="center") %}
-
-<br>
+{% row(style="center mbottom between") %}
 
 ![Image](grid_people.jpeg#mx-auto)
 
 |||
 
 ## Weblets: No-Code Deployments
-
 
 Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions in our interactive playground.
 
@@ -45,9 +37,11 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 <!-- section 3  -->
 
-{% row(style="center") %}
+{% row(style="center mbottom between") %}
 
 ## Infrastructure as Code (IaC)
+
+<br>
 
 Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform.  <br>
 Enhance infrastructure provisioning with deterministic smart contracts, minimize overheads, and boost software development efficiency.
@@ -71,6 +65,8 @@ Enhance infrastructure provisioning with deterministic smart contracts, minimize
 
 ## Dedicated Nodes
 
+<br>
+
 Experience ultimate control and flexibility by reserving entire nodes tailored for your projects.
 Optimize security and customization for high-demand workloads, such as blockchain nodes, while enjoying competitive pricing.
 
@@ -83,7 +79,7 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 <!-- section 4 -->
 
-{% row(style="center narrow") %}
+{% row(style="center narrow mbottom") %}
 
 ## Monetize Your Applications
 
@@ -100,8 +96,7 @@ Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of 
 
 {% end %}
 
-
-{% row(style="center") %}
+{% row(style="center mbottom") %}
 
 ### Zero OS
 
@@ -126,7 +121,7 @@ features to build, share and collaborate in complete self-sovereignty. <br>Immer
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center narrow mbottom") %}
 
 ![img](down.png#medium)
 
@@ -134,9 +129,7 @@ Download the ThreeFold Connect App
 
 <br>
 
-<button>[google](https://threefold.io)</button> <button>[apple](https://threefold.io)</button>
-
-<br>
+<button>[Download](https://threefold.io)</button>
 
 |||
 
@@ -166,9 +159,7 @@ Set up your dashboard
 
 {% end %}
 
-{% row(bgColor="#73FFD9" style="center top") %}
-
-<br>
+{% row(bgColor="#73FFD9" style="center") %}
 
 ## Contribute to the Code
 
@@ -183,11 +174,5 @@ but also offer suggestions and improvements to our codebase.
 
 <br>
 
-
 <button>[Learn More](https://threefold.io)</button>
-
-<br>
-<br>
-
-
 {% end %}
