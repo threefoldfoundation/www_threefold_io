@@ -7,24 +7,24 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center margin narrow") %}
+{% row(style="center mtop narrow") %}
 
-
-![](tft_header.png#medium)
-s
+![](tft_header1.png#mx-auto)
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center narrow") %}
 
 # Introducing TFT
 ### The Currency Powering the Decentralized Internet 
+
+<br>
 
 Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center narrow between") %}
 
 ![Image](self1.png#medium)
 
@@ -49,7 +49,7 @@ With a limited supply of 4 billion TFT and a burning mechanism, the token is bac
 
 {% end %}
 
-{% row(style="center between mbottom") %}
+{% row(style="center between narrow mbottom") %}
 
 ![Image](guard1.png#medium)
 
@@ -74,7 +74,7 @@ ThreeFold’s innovative infrastructure is incredibly sustainable, ensuring the 
 
 {% end %}
 
-{% row(bgColor="#73FFD9" style="center mtop mbottom") %}
+{% row(bgColor="#73FFD9" style="center margin") %}
 
 
 ## Empowering a **New Internet Era**
@@ -88,10 +88,7 @@ TFT serves as the medium of exchange on the ThreeFold Grid, empowering users to 
 
 {% end %}
 
-{% row(style="center between") %}
-
-<br>
-<br>
+{% row(style="center narrow") %}
 
 ## Uses of **TFT** are Growing
 
@@ -100,8 +97,6 @@ TFT serves as the medium of exchange on the ThreeFold Grid, empowering users to 
 With the ThreeFold Grid's programmable nature, 
 <br>
 developers have unlimited possibilities to build the future.
-
-<br>
 
 {% end %}
 
@@ -124,11 +119,6 @@ Hold your TFT and earn up to 60% discounts on Internet capacity.
 ### **Stake TFT**
 Soon you will be able to partake in the network's decentralization and earn rewards.
 
-<br>
-<br>
-<br>
-
-
 {% end %}
 
 {% row(style="center mbottom") %}
@@ -148,7 +138,7 @@ TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Bin
 {% end %}
 
 
-{% row(style="center mbottom") %}
+{% row(style="center mbottom narrow") %}
 
 ![](tft_burn.jpg#mx-auto)
 
@@ -178,7 +168,5 @@ ThreeFold believes in the organic and sustainable growth of ThreeFold Token. And
 |||
 
 ![](tft_loyalty.jpg#mx-auto)
-
-
 
 {% end %}
