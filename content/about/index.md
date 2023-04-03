@@ -6,8 +6,11 @@ insert_anchor_links: "left"
 
 <!-- section 1 (header) -->
 
-
 {% row(style="center margin narrow") %}
+
+![](genesis.png#medium)
+
+<br>
 
 # Genesis
 

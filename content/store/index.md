@@ -9,6 +9,10 @@ insert_anchor_links: "left"
 
 {% row(style="center mtop narrow") %}
 
+![](store_header.png#medium)
+
+<br>
+
 # Storage Unbound 
 ## On Quantum-Proof Infrastructure
 

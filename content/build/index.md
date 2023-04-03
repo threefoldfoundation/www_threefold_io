@@ -8,6 +8,9 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
+![](developet_tft.jpg#medium)
+
+
 ## The Next Generation of <br> **Cloud Computing**
 
 Deploy any workload with unprecedented security, scalability, and efficiency, on a fully comprehensive peer-to-peer digital infrastructure. Discover a cloud like no other.
@@ -23,7 +26,7 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 <!-- section 2  -->
 
-{% row(style="center margin") %}
+{% row(style="center mbottom") %}
 
 ![storage](storage.jpg#medium)
 

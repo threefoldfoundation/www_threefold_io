@@ -6,7 +6,11 @@ insert_anchor_links: "left"
 
 <!-- section 1  -->
 
-{% row(style="center margin") %}
+{% row(style="center margin narrow") %}
+
+![](developet_tft.jpg#medium)
+
+<br>
 
 # Build without Limits 
 ### Scale Further on a Decentralized Autonomous Edge-cloud

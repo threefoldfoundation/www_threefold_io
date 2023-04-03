@@ -9,7 +9,7 @@ insert_anchor_links: "left"
 
 {% row(style="center mtop narrow") %}
 
-![](tft_header1.png#mx-auto)
+![](tft_header1.png#medium)
 
 {% end %}
 
