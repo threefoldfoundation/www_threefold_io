@@ -13,7 +13,7 @@ extra:
 
 {% row(style="center mtop narrow") %}
 
-![image](logo1.png#medium)
+![image](black_threefold_header.png#medium)
 
 ## Internet **Reimagined**. Internet **Rebuilt**.
 
@@ -49,6 +49,9 @@ ThreeFold’s unique infrastructure can operate without centralized authority or
 ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyone can take part. Through many of its unique properties, ThreeFold fosters the security, trust and freedom that are often missing in today’s internet.
 
 {% end %}
+
+<br>
+<br>
 
 <!-- section 3 (EXPAND) -->
 
@@ -119,6 +122,8 @@ Enabled by thousands of nodes that operate independently of each other, ensuring
 
 ## Limitless **Possibilities**
 
+Today's centralized Internet cannot keep up with the demands of our digital world. ThreeFold's decentralized and autonomous infrastructure benefits a wide range of current and emerging workloads.
+
 <br>
 
 ![Image](possibilities.png#mx-auto)
@@ -135,7 +140,7 @@ Enabled by thousands of nodes that operate independently of each other, ensuring
 
 |||
 
-## Our **Impacts**
+## Our **Impact**
 
 At ThreeFold, we believe that sustainability is a fundamental part of the internet's future. That's why we're committed to fighting climate change by building the most energy-efficient internet infrastructure in the world. 
 
