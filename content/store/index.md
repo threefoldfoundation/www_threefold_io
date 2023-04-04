@@ -48,7 +48,7 @@ Compatible with VMs and Kubernetes for seamless storage management within variou
 
 |||
 
-![img](mockup1.png#medium)
+![img](cloud.png#medium)
 
 |||
 

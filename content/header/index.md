@@ -108,7 +108,7 @@ extra:
 
 [GitHub](https://github.com/threefoldtech/)
 <br>
-<p class="text-sm">Code Library & Documentation</p>
+<p class="text-sm">Code & Documentation</p>
 
 |||
 
