@@ -15,6 +15,9 @@ extra:
 
 ![image](black_threefold_header.png#medium)
 
+<br>
+<br>
+
 ## Internet **Reimagined**. Internet **Rebuilt**.
 
 Join a global community pioneering the decentralized, autonomous, and sustainable Internet. <br>
@@ -31,6 +34,7 @@ We empower individuals and communities to regain control of their digital lives 
 
 ## **Live and Operational**
 
+<button>[Explore Grid Capacity](https://dashboard.grid.tf/explorer/statistics)</button>
 
 {% end %}
 
@@ -192,7 +196,7 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 <br>
 
-<button>[Our Vision and Manifesto](threefold.io)</button>
+<button>[Our Vision and Manifesto](/about)</button>
 
 {% end %}
 
@@ -205,11 +209,11 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 <br>
 
-<button>[Twitter](partners)</button>
-<button>[Telegram](partners)</button>
-<button>[Github](partners)</button>
-<button>[Blog](partners)</button>
-<button>[Forum](partners)</button>
+<button>[Twitter](https://twitter.com/threefold_io)</button>
+<button>[Telegram Chat](https://t.me/threefold)</button>
+<button>[Github](https://github.com/threefoldtech)</button>
+<button>[Blog](https://threefold.io/blog)</button>
+<button>[Forum](https://forum.threefold.io)</button>
 
 <br>
 

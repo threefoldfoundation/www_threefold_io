@@ -91,6 +91,10 @@ With the ThreeFold Grid's programmable nature,
 <br>
 developers have unlimited possibilities to build the future.
 
+<br>
+
+<button>[Buy TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
+
 {% end %}
 
 {% row(style="center mbottom") %}
@@ -122,7 +126,7 @@ TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Bin
 
 <br>
 
-<button>[Read About TFT](threefold.io)</button>
+<button>[Read About TFT](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
 
 |||
 
@@ -139,12 +143,11 @@ TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Bin
 
 ## Start Your **TFT Journey**
 
-You can buy TFT from decentralized exchanges or wallets directly. <br>
-We have compiled tutorials and manuals to help you out, including how to buy, trade, and store TFT.
+You can buy TFT from decentralized exchanges or wallets directly. We have compiled tutorials and manuals to help you out, including how to buy, trade, and store TFT.
 
 <br>
 
-<button>[Discover Your Options](threefold.io)</button>
+<button>[Discover Your Options](https://library.threefold.me/info/threefold#/tokens/threefold__tft_ecosystem)</button>
 
 {% end %}
 
@@ -156,7 +159,7 @@ ThreeFold believes in the organic and sustainable growth of ThreeFold Token. And
 
 <br>
 
-<button>[Drive TFT Liquidity](threefold.io)</button>
+<button>[Drive TFT Liquidity](https://library.threefold.me/info/threefold#/tokens/threefold__tft_liquidity)</button>
 
 |||
 

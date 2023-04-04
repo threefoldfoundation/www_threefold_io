@@ -123,7 +123,7 @@ The future is ours to build, and we're building it together. <br> Join us in cre
 
 {% row(style="center narrow mtop") %}
 
-## **Our Impacts**
+## **Our Impact**
 
 {% end %}
 
@@ -141,7 +141,7 @@ We’re committed to fight climate change. See why ThreeFold is the most sustain
 
 ### Changing the Internet together
 
-At ThreeFold, equality, diversity and inclusion are part of our core culture, and key to our vision of an Internet for everyone, everywhere. 
+Equality, diversity and inclusion are part of our core culture, and key to our vision of an Internet for everyone, everywhere. 
 
 {% end %}
 
@@ -169,6 +169,6 @@ We are a diverse community of passionate individuals who believe in the power of
 <br>
 <br> 
 
-<button>[Join Us](https://threefold.io/)</button>
+<button>[Join the Revolution](/community)</button>
 
 {% end %}

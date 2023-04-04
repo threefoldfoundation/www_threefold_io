@@ -35,7 +35,7 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 <br>
 
-<button> [Learn More](https://library.threefold.me/) </button>
+<button> [Learn More](https://manual.grid.tf/weblets/weblets_home.html) </button>
 
 {% end %}
 
@@ -47,12 +47,15 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 <br>
 
-Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform.  <br>
+Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform.
+
+<br>
+
 Enhance infrastructure provisioning with deterministic smart contracts, minimize overheads, and boost software development efficiency.
 
 <br>
 
-<button> [Learn More](https://library.threefold.me/) </button>
+<button> [Learn More](https://manual.grid.tf/terraform/terraform_readme.html) </button>
 
 
 |||
@@ -76,7 +79,7 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 <br>
 
-<button> [Learn More](https://library.threefold.me/) </button>
+<button> [Learn More](https://manual.grid.tf/dashboard/portal/dashboard_portal_dedicated_nodes.html) </button>
 
 {% end %}
 
@@ -87,12 +90,15 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 ## Monetize Your Applications
 
-Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider.<br>
- Follow our guided process to benefit from our dynamic revenue-sharing model.
+Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider.
 
 <br>
 
-<button> [Learn More](https://library.threefold.me/) </button>
+Follow our guided process to benefit from our dynamic revenue-sharing model.
+
+<br>
+
+<button> [Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md) </button>
 
 |||
 
@@ -115,7 +121,7 @@ features to build, share and collaborate in complete self-sovereignty. <br>Immer
 
 <br>
 
-<button>[Learn More](https://threefold.io)</button>
+<button>[Learn More](https://library.threefold.me/info/threefold#/technology/threefold__zos)</button>
 
 {% end %}
 
@@ -133,18 +139,19 @@ Download the ThreeFold Connect App
 
 <br>
 
-<button>[Download](https://threefold.io)</button>
+<button>[Apple iOS](https://apps.apple.com/to/app/threefold-connect/id1459845885)</button>
+<button>[Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin)</button>
 
 |||
 
 ![img](top.png#medium)
 
 
-Load your wallet with TFT
+Load Your Wallet with TFT
 
 <br>
 
-<button>[wallet](https://threefold.io)</button>
+<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
 
 <br>
 
@@ -153,11 +160,11 @@ Load your wallet with TFT
 ![img](st.png#medium)
 
 
-Set up your dashboard
+Set Up Your Dashboard
 
 <br>
 
-<button>[dashboard](https://threefold.io)</button>
+<button>[Dashboard](https://dashboard.grid.tf/)</button>
 
 <br>
 

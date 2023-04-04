@@ -21,7 +21,9 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% grid_stats() %}
 
-### Join the Internet Revolution
+## Join the Internet Revolution
+
+<button>[Explore Grid Capacity](https://dashboard.grid.tf/explorer/statistics)</button>
 
 {% end %}
 
@@ -73,14 +75,16 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 |||
 
-## Find your Fit
+## Find Your Fit
 ### Most **Modern Computers Work**
 
 ThreeFold’s operating system was designed to be hardware agnostic, and already  runs on any Intel or AMD powered computer today. 
 
 <br>
 
-<button>[Learn More](https://threefold.io)</button>
+<button>[Global Marketplace](https://marketplace.3node.global/)</button>
+<button>[HostService NL | Europe](https://hostservice.nl/winkel/)</button>
+<button>[Do It Yourself](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
 
 {% end %}
 
@@ -102,7 +106,7 @@ The more people use TFT, the more TFT will be ‘burnt’, reducing the overall 
 
 <br>
 
-<button>[Learn More](https://threefold.io)</button>
+<button>[Learn More](/tft)</button>
 
 
 {% end %}

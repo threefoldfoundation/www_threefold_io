@@ -80,7 +80,7 @@ This unique approach ensures that even if an attacker were to access one node, t
 
 <br>
 
-<button>[Learn More](https://threefold.io)</button>
+<button>[Learn More](https://library.threefold.me/info/threefold#/technology/qsss/threefold__qsss_home)</button>
 
 |||
 
@@ -111,7 +111,7 @@ Whether you need to store data in a particular geographic area for compliance re
 
 <br>
 
-<button>[Learn More](https://threefold.io)</button>
+<button>[Learn More](https://library.threefold.me/info/threefold#/tfgrid/threefold__grid_concepts?id=what-does-peer-to-peer-mean)</button>
 
 {% end %}
 
@@ -130,7 +130,7 @@ features to build, share and collaborate in complete self-sovereignty. <br>Immer
 
 <br>
 
-<button>[Learn More](https://threefold.io)</button>
+<button>[Learn More](https://library.threefold.me/info/threefold#/technology/threefold__zos)</button>
 
 {% end %}
 
@@ -148,7 +148,8 @@ Download the ThreeFold Connect App
 
 <br>
 
-<button>[Download](library.threefold.me)</button>
+<button>[Apple iOS](https://apps.apple.com/to/app/threefold-connect/id1459845885)</button>
+<button>[Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin)</button>
 
 <br>
 
@@ -157,11 +158,11 @@ Download the ThreeFold Connect App
 ![img](top.png#medium)
 
 
-Load your wallet with TFT
+Load Your Wallet with TFT
 
 <br>
 
-<button>[wallet](https://threefold.io)</button>
+<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
 
 <br>
 
@@ -170,11 +171,11 @@ Load your wallet with TFT
 ![img](st.png#medium)
 
 
-Set up your dashboard
+Set Up Your Dashboard
 
 <br>
 
-<button>[dashboard](https://threefold.io)</button>
+<button>[Dashboard](https://dashboard.grid.tf/)</button>
 
 <br>
 
