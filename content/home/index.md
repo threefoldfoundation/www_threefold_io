@@ -34,8 +34,6 @@ We empower individuals and communities to regain control of their digital lives 
 
 ## **Live and Operational**
 
-<button>[Explore Grid Capacity](https://dashboard.grid.tf/explorer/statistics)</button>
-
 {% end %}
 
 <!-- section 3 (EXPAND) -->

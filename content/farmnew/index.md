@@ -21,12 +21,9 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% grid_stats() %}
 
-## Join the Internet Revolution
-
-<button>[Explore Grid Capacity](https://dashboard.grid.tf/explorer/statistics)</button>
+## Join the **Internet Revolution**
 
 {% end %}
-
 
 <!-- section 3 -->
 
