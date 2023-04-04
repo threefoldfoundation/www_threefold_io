@@ -71,7 +71,7 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 {% row(style="center mbottom narrow") %}
 
-![](farm_header.jpg#mx-auto)
+![](3nodehands.jpeg#mx-auto#medium)
 
 |||
 
