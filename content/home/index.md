@@ -135,7 +135,7 @@ Today's centralized Internet cannot keep up with the demands of our digital worl
 <!-- section 3 (EXPAND) -->
 
 
-{% row(style="center mbottom") %}
+{% row(style="mbottom between") %}
 
 ![Image](globe_mission.png#medium)
 
@@ -158,7 +158,7 @@ We also prioritize equality, diversity, and inclusion in our culture and vision 
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center mbottom between") %}
 
 ![Image](expand.png#medium)
 

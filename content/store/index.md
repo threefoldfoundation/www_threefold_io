@@ -84,7 +84,8 @@ This unique approach ensures that even if an attacker were to access one node, t
 
 |||
 
-![Image](Grid_people.jpeg#mx-auto)
+
+![Image](grid_people.jpeg#mx-auto)
 
 
 {% end %}

@@ -113,7 +113,7 @@ The future is ours to build, and we're building it together. <br> Join us in cre
 
 |||
 
-<i>"ThreeFold is the catalyst for a new digital era, where individuals regain sovereignty over their digital lives and come together to build an internet that fosters innovation and shared prosperity." </i>
+*"ThreeFold is the catalyst for a new digital era, where individuals regain sovereignty <br> over their digital lives and come together to build an internet that fosters innovation and shared prosperity."*
 
 ### **Kristof de Spiegeleer** | Co-Founder
 
@@ -127,7 +127,7 @@ The future is ours to build, and we're building it together. <br> Join us in cre
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center between") %}
 
 ![Image](sustain.png#mx-auto)
 
