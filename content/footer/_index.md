@@ -16,7 +16,7 @@ extra:
 
 ###### [Talk to ThreeFolders](https://t.me/threefold)
 
-###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
+###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)
 
 <h6><a href="" onclick="window.location.href='/farm'">Start Farming</a></h6>
 
@@ -44,7 +44,7 @@ extra:
 
 ###### [ThreeFold Token](https://library.threefold.me/info/threefold/#/tokens/threefold__tokens_home)
 
-###### [Manuals](https://library.threefold.me/info/threefold/#/manual_tfgrid3/threefold__manual3_home)
+###### [Manuals](https://manual.grid.tf/)
 
 ###### [ThreeFold Glossary](https://library.threefold.me/info/threefold/#/threefold__definitions_concepts)
 
@@ -54,7 +54,7 @@ extra:
 
 <br>
 
-<h6><a target="_self" onclick="window.location.href='/mission'">ThreeFold</a></h6>
+<h6><a target="_self" onclick="window.location.href='/about'">ThreeFold</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
 
