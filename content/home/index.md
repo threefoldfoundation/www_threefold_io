@@ -9,6 +9,13 @@ extra:
   imgPath: images/threefold_globe.png
 ---
 
+
+{% row(bgPath="placeholder.png" style="center margin") %}
+
+## Test Background
+
+{% end %}
+
 <!-- section 1 (header) -->
 
 {% row(style="center mtop narrow") %}
