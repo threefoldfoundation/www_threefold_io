@@ -166,6 +166,8 @@ We also prioritize equality, diversity, and inclusion in our culture and vision 
 
 Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
+<button>[Become a Node](/farmnew)</button>
+
 |||
 
 ![Image](innovate.png#medium)
@@ -174,14 +176,17 @@ Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
 Open-source system built from the ground-up for a fully transparent and auditable stack.
 
+<button>[Build on the Platform](/buildnew)</button>
+
 |||
 
 ![Image](connect.png#medium)
 
 ### **Connect**
 
-An autonomous infrastructure that grows naturally with demand, where and when it is needed.
+An autonomous infrastructure that grows naturally with demand, where and when needed.
 
+<button>[Join the Community](/community)</button>
 
 {% end %}
 
