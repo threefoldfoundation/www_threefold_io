@@ -24,7 +24,7 @@ Join the Internet revolution with the ThreeFold Token (TFT), an innovative utili
 
 {% end %}
 
-{% row(style="center narrow between") %}
+{% row(style="center narrow margin") %}
 
 ### **Real Utility**
 Users, developers, and enterprises use TFT to store data, build applications, and create P2P ecosystems on the ThreeFold Grid.
@@ -97,7 +97,7 @@ developers have unlimited possibilities to build the future.
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center mbottom seminarrow") %}
 
 ![](use.png)
 
@@ -118,7 +118,7 @@ Soon you will be able to partake in the network's decentralization and earn rewa
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center mbottom narrow") %}
 
 ## Harness the Power of **Multiple Blockchains**
 
@@ -137,7 +137,7 @@ TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Bin
 
 {% row(style="center mbottom narrow") %}
 
-![](tft_burn.jpg#mx-auto)
+![](tft_burn.jpg#medium)
 
 |||
 
@@ -151,7 +151,7 @@ You can buy TFT from decentralized exchanges or wallets directly. We have compil
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center mbottom narrow") %}
 
 ## Drive **Liquidity**
 
@@ -163,6 +163,6 @@ ThreeFold believes in the organic and sustainable growth of ThreeFold Token. And
 
 |||
 
-![](tft_loyalty.jpg#mx-auto)
+![](tft_loyalty.jpg#medium)
 
 {% end %}
