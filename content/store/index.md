@@ -65,7 +65,7 @@ Plug in any storage tool or protocol, making it a seamless addition to your exis
 
 <!-- section 6 (GETTING STARTED) -->
 
-{% row(style="center between mbottom") %}
+{% row(style="right between mbottom") %}
 
 ## A Fortress for 
 ## Your **Digital Assets**
@@ -92,7 +92,7 @@ This unique approach ensures that even if an attacker were to access one node, t
 
 <!-- section 7 (REVOLUTION) -->
 
-{% row(style="center between mbottom") %}
+{% row(style="between mbottom") %}
 
 ![Image](grid_decenter.jpg#mx-auto)
 
