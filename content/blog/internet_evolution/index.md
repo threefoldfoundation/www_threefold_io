@@ -2,7 +2,7 @@
 id: internet_evolution
 title: "The Evolution Towards A More Secure, Private, And Sovereign Internet"
 image_caption: "The Evolution Towards A More Secure, Private, And Sovereign Internet"
-description: Today, the Internet is a ubiquitous part of our daily lives, and it continues to evolve. As we continue to innovate and collaborate, we can build a better, more secure digital future for all. Already, we are seeing the emergence of new technologies, such as blockchain, artificial intelligence, and the Internet of Things, that promise to transform the Internet even further.  As we move forward, we can expect to see more innovations and developments that aim to create a more secure, decentralized, and user-centric Internet that prioritizes privacy, data ownership, and security.
+description: Today, the Internet is a ubiquitous part of our daily lives, and it continues to evolve. As we continue to innovate and collaborate, we can build a better, more secure digital future for all.
 date: 2023-04-11
 taxonomies:
   people: [victoria_obeegadoo]
