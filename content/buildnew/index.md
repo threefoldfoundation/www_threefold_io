@@ -64,7 +64,7 @@ Enhance infrastructure provisioning with deterministic smart contracts, minimize
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="mbottom between") %}
 
 ![Image](grid_new_internet.jpeg#mx-auto)
 

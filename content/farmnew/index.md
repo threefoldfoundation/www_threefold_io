@@ -27,13 +27,13 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 <!-- section 3 -->
 
-{% row(style="center narrow") %}
+{% row(style="center semiNarrow") %}
 
 ## Simple for Everyone
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center moderate mbottom") %}
 
 ![Image](host.png#mx-auto)
 <br>
@@ -66,7 +66,7 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 <!-- section 4  -->
 
-{% row(style="center mbottom narrow") %}
+{% row(style="mbottom narrow") %}
 
 ![](3nodehands.jpeg#mx-auto#medium)
 
