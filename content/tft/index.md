@@ -118,7 +118,7 @@ Soon you will be able to partake in the network's decentralization and earn rewa
 
 {% end %}
 
-{% row(style="center mbottom narrow") %}
+{% row(style="right mbottom narrow") %}
 
 ## Harness the Power of **Multiple Blockchains**
 
@@ -135,7 +135,7 @@ TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Bin
 {% end %}
 
 
-{% row(style="center mbottom narrow") %}
+{% row(style="mbottom narrow") %}
 
 ![](tft_burn.jpg#medium)
 
@@ -151,7 +151,7 @@ You can buy TFT from decentralized exchanges or wallets directly. We have compil
 
 {% end %}
 
-{% row(style="center mbottom narrow") %}
+{% row(style="right mbottom narrow") %}
 
 ## Drive **Liquidity**
 

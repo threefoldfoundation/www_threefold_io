@@ -23,7 +23,7 @@ experience self-driving operations, high-performance edge-to-edge interconnectio
 
 <!-- section 2  -->
 
-{% row(style="center mbottom between") %}
+{% row(style="mbottom between") %}
 
 ![Image](grid_people.jpeg#mx-auto)
 
@@ -41,7 +41,7 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 <!-- section 3  -->
 
-{% row(style="center mbottom between") %}
+{% row(style="right mbottom between") %}
 
 ## Infrastructure as Code (IaC)
 
