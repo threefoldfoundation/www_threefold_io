@@ -1,12 +1,14 @@
-# ThreeFold 
+# Welcome to ThreeFold Website Repository
 
 ![](./static/images/tf_logo.png)
 
 ## About
 
-The official website of ThreeFold Foundation
+The official website of ThreeFold Foundation.
 
 [www.threefold.io](https://www.threefold.io)
+
+Last Updated: March 2023
 
 ## Contribution
 
