@@ -38,7 +38,7 @@ ThreeFold is **a peer-to-peer open-source Internet platform that connects users 
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.8
+### The ThreeFold Grid v3.9
 
 ## **Live and Operational**
 

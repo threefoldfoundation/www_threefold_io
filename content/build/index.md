@@ -113,7 +113,7 @@ Dive into more resources and join the open-source movement building a better dig
 <br>
 
 <button>[Developer Resources](/developer)</button>
-<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
+<button>[Manual](https://manual.grid.tf)</button>
 <button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
