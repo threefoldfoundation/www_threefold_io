@@ -216,7 +216,7 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 
 ![Image](ourpartners.png#mx-auto)
 
-<button>[Check All Partners](partners)</button>
+<button>[Check All Partners](/partners)</button>
 
 {% end %}
 
