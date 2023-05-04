@@ -54,7 +54,7 @@ ThreeFold is here to build an open-source Internet and Cloud infrastructure. It'
 
 [Deploy workloads](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)
 
-[Create a Farm](https://library.threefold.me/info/manual/#/manual__create_farm)
+[Create a Farm](https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html)
 
 |||
 
@@ -66,11 +66,11 @@ ThreeFold is here to build an open-source Internet and Cloud infrastructure. It'
 
 [Quantum Safe Storage](https://library.threefold.me/info/threefold#/qss/threefold__qsss_home)
 
-[Virtual Machines](https://library.threefold.me/info/manual/#/manual__weblets_vm)
+[Virtual Machines](https://manual.grid.tf/weblets/weblets_vm.html)
 
-[Kubernetes](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
+[Kubernetes](https://manual.grid.tf/weblets/weblets_k8s.html)
 
-[Planetary Network](https://library.threefold.me/info/manual/#/technology/threefold__planetary_network)
+[Planetary Network](https://manual.grid.tf/getstarted/planetarynetwork.html)
 
 {% end %}
 
