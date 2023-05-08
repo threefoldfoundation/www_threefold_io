@@ -17,6 +17,8 @@ Last Updated: May 2023
 
 ## Contribution Procedure
 
+![readme](https://user-images.githubusercontent.com/43240801/236867088-56c95abd-510c-4202-b0c5-317cdfb75cb3.png)
+
 It is highly important to follow this procedure to contribute to the website content. <br>
 __WARNING__: DO NOT commit straight into __master__ / __development__ branch.
 
