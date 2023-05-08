@@ -162,7 +162,7 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 
 <button>[Dashboard](https://dashboard.grid.tf/)</button>
 <button>[Playground](https://play.grid.tf)</button>
-<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)</button>
+<button>[Manual](https://manual.grid.tf/)</button>
 <button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
