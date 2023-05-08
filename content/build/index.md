@@ -16,7 +16,7 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 <button>[Dashboard](https://dashboard.grid.tf)</button>
 <button>[Playground](https://play.grid.tf)</button>
-<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
+<button>[Manual](https://manual.grid.tf/)
 <button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
@@ -41,7 +41,7 @@ Plug in standard tools and protocols to the most resilient and versatile storage
 
 Native support for containers and virtual machines. Migrate existing applications effortlessly or build from scratch in a cutting-edge computing environment.
 
-<button>[Learn More](https://library.threefold.me/info/manual/#/manual__weblets_home)</button>
+<button>[Learn More]https://manual.grid.tf/weblets/weblets_home.html)</button>
 
 |||
 
