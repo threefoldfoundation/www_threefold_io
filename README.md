@@ -16,8 +16,8 @@ Last Updated: May 2023
 
 ## Contribution Procedure
 
-It is highly important to follow this procedure to contribute to the website content. 
-WARNING: DO NOT commit straight into __master__ / __development__ branch.
+It is highly important to follow this procedure to contribute to the website content. <br>
+__WARNING__: DO NOT commit straight into __master__ / __development__ branch.
 
 1. Create an Issue
 Feel free to [create a new issue](https://github.com/threefoldfoundation/www_threefold_io/issues/new) to report an error on the website, or if you have any suggestions on website improvements. 
