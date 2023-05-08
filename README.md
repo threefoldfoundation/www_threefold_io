@@ -4,8 +4,9 @@
 
 ## About
 
-The official website of ThreeFold Foundation.
-[www.threefold.io](https://www.threefold.io) (master branch)
+The official website of ThreeFold Foundation. <br>
+
+Production: [www.threefold.io](https://www.threefold.io) (master branch)
 
 Staging: www2.threefold.io (development branch)
 
