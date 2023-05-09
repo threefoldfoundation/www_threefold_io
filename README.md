@@ -6,9 +6,8 @@
 
 The official website of ThreeFold Foundation. <br>
 
-Production: [www.threefold.io](https://www.threefold.io) (master branch)
-
-Staging: www2.threefold.io (development branch)
+- Production: [www.threefold.io](https://www.threefold.io) (master branch)
+- Staging: www2.threefold.io (development branch)
 
 Last Updated: May 2023
 
@@ -19,14 +18,14 @@ Last Updated: May 2023
 
 ![readme](https://user-images.githubusercontent.com/43240801/236867088-56c95abd-510c-4202-b0c5-317cdfb75cb3.png)
 
-It is highly important to follow this procedure to contribute to the website content. <br>
+It is **highly crucial** to** always follow** this procedure to contribute to the website content. <br>
 __WARNING__: DO NOT commit straight into __master__ / __development__ branch.
 
 1. Create an Issue
 Feel free to [create a new issue](https://github.com/threefoldfoundation/www_threefold_io/issues/new) to report an error on the website, or if you have any suggestions on website improvements. 
 
 2. Make your own branch from __'development'__ branch.
-by creating a new branch from '**development**' you will be provided with the latest copy of the live website content.
+by creating a new branch from '**development**' you will be provided with the latest copy of the live content.
 
 3. Add your edits into your own branch via code editor locally, and push your local changes online. WARNING: DO NOT add your edits straight into __master__ / __development__ branch.
 
