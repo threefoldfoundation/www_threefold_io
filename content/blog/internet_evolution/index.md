@@ -2,14 +2,15 @@
 id: internet_evolution
 title: "The Evolution Towards A More Secure, Private, And Sovereign Internet"
 image_caption: "The Evolution Towards A More Secure, Private, And Sovereign Internet"
-description: In the current Internet system, each of us exists many times, each application provider owns _our_ data while offering functionality _they_ own. We become the user. We become the product. Instead, what if we were at the center of our digital lives?
+description: Today, the Internet is a ubiquitous part of our daily lives, and it continues to evolve. As we continue to innovate and collaborate, we can build a better, more secure digital future for all.
 date: 2023-04-11
 taxonomies:
-    people: [victoria_obeegadoo]
-    tags: [threefold_grid,technology,peer_to_peer,threefold_cloud]
-    categories: [foundation]
+  people: [victoria_obeegadoo]
+  tags: [threefold_grid, technology, peer_to_peer, threefold_cloud]
+  categories: [foundation]
 extra:
-    imgPath: internet_evolution.png
+  imgPath: internet_evolution.png
+
 ---
 
 The Internet has undergone a natural evolution from its early days as a fragmented network of computers, to the vast interconnected web of infrastructure and platforms we know today. This has shaped the way we communicate, work, and live. With each passing decade, new technologies and protocols have emerged to address growing concerns about cybercrime, surveillance, and censorship. Let's take a closer look at each phase of this evolution and how ThreeFold is taking action for the next step.
@@ -32,15 +33,16 @@ The early days of the Internet were a time of experimentation and innovation, as
 
 ## 1990s & 2000s: Popularization & Commodification of the Internet
 
-The 1990s marked a turning point in the Internet's evolution. The World Wide Web became the primary way people accessed information and connected with one another online. This new platform, which allowed users to easily access and share information, changed the Internet's use from an exclusive network for institutions and organizations to a tool accessible to the general public. As such, there was an explosion in its use, which allowed for the rise of e-commerce and online advertising – creating new business opportunities and changing the way we shop and consume media. 
+The 1990s marked a turning point in the Internet's evolution. The World Wide Web became the primary way people accessed information and connected with one another online. This new platform, which allowed users to easily access and share information, changed the Internet's use from an exclusive network for institutions and organizations to a tool accessible to the general public. As such, there was an explosion in its use, which allowed for the rise of e-commerce and online advertising – creating new business opportunities and changing the way we shop and consume media.
 
 <br/>
 
-The emergence of new ways to interact online in the 1990s and early 2000s further popularized the Internet. Companies such as Amazon, eBay, and Yahoo! capitalized on this trend, creating a massive online market for goods and services. The further commodification of the Internet led to the rise of tech giants like Google, Facebook, and Amazon. 
+The emergence of new ways to interact online in the 1990s and early 2000s further popularized the Internet. Companies such as Amazon, eBay, and Yahoo! capitalized on this trend, creating a massive online market for goods and services. The further commodification of the Internet led to the rise of tech giants like Google, Facebook, and Amazon.
 
 <br/>
 
-This phase of the Internet was thus marked by the consolidation of power in the hands of a few large companies who controlled the infrastructure and thus access to information and data. The introduction of social media created new ways for people to connect and share information, but it also enabled the spread of misinformation and misuse of data. Some companies began to build their businesses on the collection and analysis of user data to sell advertising, which started raising concerns about data ownership, privacy, and security. 
+This phase of the Internet was thus marked by the consolidation of power in the hands of a few large companies who controlled the infrastructure and thus access to information and data. The introduction of social media created new ways for people to connect and share information, but it also enabled the spread of misinformation and misuse of data. Some companies began to build their businesses on the collection and analysis of user data to sell advertising, which started raising concerns about data ownership, privacy, and security.
+
 
 <br/>
 
@@ -76,7 +78,8 @@ Together, these emerging technologies are driving a paradigm shift towards a mor
 
 ## Looking Ahead: Together We Build
 
-Today, the Internet is a ubiquitous part of our daily lives, and it continues to evolve. As we continue to innovate and collaborate, we can build a better, more secure digital future for all. Already, we are seeing the emergence of new technologies, such as blockchain, artificial intelligence, and the Internet of Things, that promise to transform the Internet even further.  As we move forward, we can expect to see more innovations and developments that aim to create a more secure, decentralized, and user-centric Internet that prioritizes privacy, data ownership, and security.
+Today, the Internet is a ubiquitous part of our daily lives, and it continues to evolve. As we continue to innovate and collaborate, we can build a better, more secure digital future for all. Already, we are seeing the emergence of new technologies, such as blockchain, artificial intelligence, and the Internet of Things, that promise to transform the Internet even further. As we move forward, we can expect to see more innovations and developments that aim to create a more secure, decentralized, and user-centric Internet that prioritizes privacy, data ownership, and security.
+
 
 <br/>
 
@@ -84,9 +87,9 @@ On our side, at ThreeFold, we see that many of the solutions being presented tod
 
 <br/>
 
-* Visit our [Website](https://www.threefold.io). 
-* Visit our [Forum](https://forum.threefold.io/).
-* Collaborate on [GitHub](https://github.com/threefoldtech).
-* Subscribe to our [Weekly & Monthly Newsletters](https://bit.ly/threefoldweekly).
-* Connect with us on [Twitter](https://twitter.com/threefold_io), [LinkedIn](https://ae.linkedin.com/company/threefold-foundation), & [Reddit](https://www.reddit.com/r/threefold/).
-* Join our [Community Chat](https://t.me/threefold) and [Updates Channel](https://t.me/threefoldnews).
+- Visit our [Website](https://www.threefold.io).
+- Visit our [Forum](https://forum.threefold.io/).
+- Collaborate on [GitHub](https://github.com/threefoldtech).
+- Subscribe to our [Weekly & Monthly Newsletters](https://bit.ly/threefoldweekly).
+- Connect with us on [Twitter](https://twitter.com/threefold_io), [LinkedIn](https://ae.linkedin.com/company/threefold-foundation), & [Reddit](https://www.reddit.com/r/threefold/).
+- Join our [Community Chat](https://t.me/threefold) and [Updates Channel](https://t.me/threefoldnews).

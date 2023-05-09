@@ -32,7 +32,7 @@ The Internet was meant to be a peer-to-peer infrastructure with us in the center
 
 Any current or future technology, including blockchain, metaverses and web 3.0, can be hosted natively on the ThreeFold Grid via smart contracts with minimum migration. The grid is compatible with most open source tools and protocols.
 
-<button>[Build on the Grid](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)</button>
+<button>[Build on the Grid](https://manual.grid.tf/getstarted/tfgrid3_getstarted.html)</button>
 <button>[Expand The Grid](/farm)</button>
 
 {% end %}

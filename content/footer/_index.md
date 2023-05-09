@@ -44,7 +44,8 @@ extra:
 
 ###### [ThreeFold Token](https://library.threefold.me/info/threefold/#/tokens/threefold__tokens_home)
 
-###### [Manual](https://manual.grid.tf/)
+###### [Manuals](https://manual.grid.tf/)
+
 
 ###### [ThreeFold Glossary](https://library.threefold.me/info/threefold/#/threefold__definitions_concepts)
 

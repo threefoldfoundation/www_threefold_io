@@ -1,17 +1,17 @@
 name: Threefold_io
 on: 
   push:
-    branch: [ development ]
+    branch: [ master ]
 
 jobs:
   job_one:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: pushing latest change on www2.threefold.io
+    - name: pushing latest change on www.threefold.io
       uses: appleboy/ssh-action@master
       with:
-        host: www2.threefold.io
+        host: www.threefold.io
         username: root
         key: ${{ secrets.TF_SECRET }}
         port: 22
@@ -21,6 +21,5 @@ jobs:
           git restore config.toml
           git restore static/css/index.css
           git pull
-          sed -i "s/https:\/\/threefoldfoundation.github.io\/www_threefold_io/https:\/\/www2.threefold.io/g" config.toml
           ./build.sh
           

@@ -46,15 +46,16 @@ ThreeFold is here to build an open-source Internet and Cloud infrastructure. It'
 
 ### **Fundamentals:**
 
-[Set up your account](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
+[Set up your account](https://.grid.tf/getstarted/TF_Connect/TF_Connect.html)
 
 [Charge your wallet](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
 
 <!-- [How billing works](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_billing) -->
 
-[Deploy workloads](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)
+[Deploy workloads](https://manual.grid.tf/getstarted/tfgrid3_getstarted.html)
 
-[Create a Farm](https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html)
+[Create a Farm](https://manual.grid.tf/TF_Farmer_Guide/TF_Complete_Farmer_Guide/farmer_guide.html)
+
 
 |||
 
