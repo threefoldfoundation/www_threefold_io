@@ -8,11 +8,11 @@ extra:
 ---
 
 
-- [Mission]("/mission")
-- [Grid]("/grid")
-- [Build]("/build")
-- [Farm]("/farm")
-- [TFT]("/tft")
+- [About]("/about")
+- [Store]("/store")
+- [Build]("/buildnew")
+- [Farm]("/farmnew")
+- [Token]("/tft")
 - Ecosystem
 
 {% row() %}
@@ -108,7 +108,7 @@ extra:
 
 [GitHub](https://github.com/threefoldtech/)
 <br>
-<p class="text-sm">Code Library & Documentation</p>
+<p class="text-sm">Code & Documentation</p>
 
 |||
 

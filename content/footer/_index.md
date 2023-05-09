@@ -46,6 +46,7 @@ extra:
 
 ###### [Manuals](https://manual.grid.tf/)
 
+
 ###### [ThreeFold Glossary](https://library.threefold.me/info/threefold/#/threefold__definitions_concepts)
 
 |||

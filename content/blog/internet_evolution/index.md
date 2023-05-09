@@ -10,6 +10,7 @@ taxonomies:
   categories: [foundation]
 extra:
   imgPath: internet_evolution.png
+
 ---
 
 The Internet has undergone a natural evolution from its early days as a fragmented network of computers, to the vast interconnected web of infrastructure and platforms we know today. This has shaped the way we communicate, work, and live. With each passing decade, new technologies and protocols have emerged to address growing concerns about cybercrime, surveillance, and censorship. Let's take a closer look at each phase of this evolution and how ThreeFold is taking action for the next step.
@@ -41,6 +42,7 @@ The emergence of new ways to interact online in the 1990s and early 2000s furthe
 <br/>
 
 This phase of the Internet was thus marked by the consolidation of power in the hands of a few large companies who controlled the infrastructure and thus access to information and data. The introduction of social media created new ways for people to connect and share information, but it also enabled the spread of misinformation and misuse of data. Some companies began to build their businesses on the collection and analysis of user data to sell advertising, which started raising concerns about data ownership, privacy, and security.
+
 
 <br/>
 
@@ -77,6 +79,7 @@ Together, these emerging technologies are driving a paradigm shift towards a mor
 ## Looking Ahead: Together We Build
 
 Today, the Internet is a ubiquitous part of our daily lives, and it continues to evolve. As we continue to innovate and collaborate, we can build a better, more secure digital future for all. Already, we are seeing the emergence of new technologies, such as blockchain, artificial intelligence, and the Internet of Things, that promise to transform the Internet even further. As we move forward, we can expect to see more innovations and developments that aim to create a more secure, decentralized, and user-centric Internet that prioritizes privacy, data ownership, and security.
+
 
 <br/>
 

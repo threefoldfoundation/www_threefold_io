@@ -8,6 +8,9 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
+![](developet_tft.jpg#medium)
+
+
 ## The Next Generation of <br> **Cloud Computing**
 
 Deploy any workload with unprecedented security, scalability, and efficiency, on a fully comprehensive peer-to-peer digital infrastructure. Discover a cloud like no other.
@@ -23,7 +26,7 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 <!-- section 4 -->
 
-{% row(style="center margin") %}
+{% row(style="center mbottom") %}
 
 ![storage](storage.jpg#medium)
 
@@ -42,6 +45,7 @@ Plug in standard tools and protocols to the most resilient and versatile storage
 Native support for containers and virtual machines. Migrate existing applications effortlessly or build from scratch in a cutting-edge computing environment.
 
 <button>[Learn More](https://manual.grid.tf/weblets/weblets_home.html)</button>
+
 
 |||
 
