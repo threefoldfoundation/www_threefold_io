@@ -111,8 +111,7 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 
 |||
 
-<button>[The Manual](https://manual.grid.tf/)</button>
-
+<button>[The Manual](manual.grid.tf)</button>
 
 |||
 

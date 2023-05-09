@@ -1,6 +1,6 @@
 # The URL the site will be built for
-base_url = "https://www.threefold.io"
-# Change this to your own URL! Please note this variable **must** be uncommented .
+base_url = "https://threefoldfoundation.github.io/www_threefold_io"
+# Change this to your own URL! Please note this variable **must** be uncommented.
 
 title = "ThreeFold"
 description="Our global digital backbone"
