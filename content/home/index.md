@@ -16,7 +16,7 @@ extra:
 <br/>
 <br/>
 
-![Image](black_threefold_header.png#mx-auto#medium)
+![Image](black_threefold_header.png#medium)
 
 <br/>
 

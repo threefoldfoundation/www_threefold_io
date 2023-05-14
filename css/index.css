@@ -424,6 +424,12 @@ header {
   .header {
     padding: 80px 0;
   }
+
+  img[src*="#medium"] {
+    width: 250px;
+    margin: auto;
+  }
+
   img[src*="#sm_none"] {
     display: none;
   }

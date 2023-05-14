@@ -68,29 +68,29 @@ Build in a truly decentralized environment on the ThreeFold Grid. A sandbox of l
 
 {% row(style="center mtop between") %}
 
-[![virtual machine](virtual_machine.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
+[![virtual machine](virtual_machine.png#medium)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
 
 |||
 
-[![kubernetes](kubernetes.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
+[![kubernetes](kubernetes.png#medium)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
 
 |||
 
-[![terraform](terraform.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
+[![terraform](terraform.png#medium)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
 
 {% end %}
 
 {% row(style="center mbottom between") %}
 
-[![weblets](weblets.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_home)
+[![weblets](weblets.png#medium)](https://library.threefold.me/info/manual/#/manual__weblets_home)
 
 |||
 
-[![quantum safe storage](qss.png#mx-auto)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
+[![quantum safe storage](qss.png#medium)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
 
 |||
 
-[![planetary network](planetary_network.png#mx-auto)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
+[![planetary network](planetary_network.png#medium)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
 
 {% end %}
 
