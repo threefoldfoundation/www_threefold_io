@@ -425,6 +425,10 @@ header {
     padding: 80px 0;
   }
 
+  .article h2{
+    font-size: 1.5rem;
+  }
+
   img[src*="#medium"] {
     width: 250px;
     margin: auto;
