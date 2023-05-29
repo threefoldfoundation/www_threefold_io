@@ -34,19 +34,14 @@ Users, developers, and enterprises use TFT to store data, build applications, an
 ### **Super Fast**
 Send TFT in milliseconds to anyone, anywhere – and as the network grows and hardware gets more efficient, so will the network..
 
-
 |||
-
 
 ### **Strong Fundamentals**
 With a limited supply of 4 billion TFT and a burning mechanism, the token is backed by the continuous growth of the network.
 
-
 {% end %}
 
 {% row(style="center between narrow mbottom") %}
-
-
 
 ### **Secured by Cryptography**
 TFT transactions and smart contracts on the ThreeFold Grid are secured by advanced cryptography.
@@ -75,7 +70,6 @@ ThreeFold’s innovative infrastructure is incredibly sustainable, ensuring the 
 ThreeFold uses peer-to-peer technology to operate with no centralized servers or intermediaries, <br>providing a decentralized and open-source environment where everyone can participate. <br>
 
 TFT serves as the medium of exchange on the ThreeFold Grid, empowering users to build and access services on top of a grid they co-own.
-
 
 {% end %}
 
@@ -122,7 +116,7 @@ Soon you will be able to partake in the network's decentralization and earn rewa
 
 ## Harness the Power of **Multiple Blockchains**
 
-TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Binance Smart Chain. This brings more accessibility to the token and more opportunities to collaborate with the greater blockchain community.
+TFT exists on four different blockchains: Stellar, TF Chain (Polkadot), Ethereum, and Binance Smart Chain. This brings more accessibility to the token and more opportunities to collaborate with the greater blockchain community.
 
 <br>
 

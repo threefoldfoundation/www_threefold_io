@@ -18,61 +18,35 @@ insert_anchor_links: "left"
 Power your geo-distributed edge workloads with smart contract deployments and <br>
 experience self-driving operations, high-performance edge-to-edge interconnections, and seamless scalability.
 
-
 {% end %}
 
 <!-- section 2  -->
 
 {% row(style="center mbottom between") %}
 
-![Image](grid_people.jpeg#mx-auto)
-
-|||
-
 ## Weblets: No-Code Deployments
 
-Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions in our interactive playground.
+Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions in our interactive playground. The simplest way to build on top of the grid.
 
 <br>
 
 <button> [Learn More](https://manual.grid.tf/weblets/weblets_home.html) </button>
 
-{% end %}
-
-<!-- section 3  -->
-
-{% row(style="center mbottom between") %}
+|||
 
 ## Infrastructure as Code (IaC)
 
-<br>
-
-Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform.
-
-<br>
-
-Enhance infrastructure provisioning with deterministic smart contracts, minimize overheads, and boost software development efficiency.
+Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform. Enhance provisioning with deterministic smart contracts, minimize overheads, and boost your efficiency.
 
 <br>
 
 <button> [Learn More](https://manual.grid.tf/terraform/terraform_readme.html) </button>
 
-
-|||
-
-![Image](grid_scaled.png#mx-auto)
-
 {% end %}
 
 {% row(style="center") %}
 
-![Image](grid_new_internet.jpeg#mx-auto)
-
-|||
-
 ## Dedicated Nodes
-
-<br>
 
 Experience ultimate control and flexibility by reserving entire nodes tailored for your projects.
 Optimize security and customization for high-demand workloads, such as blockchain nodes, while enjoying competitive pricing.
@@ -81,28 +55,79 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 <button> [Learn More](https://manual.grid.tf/dashboard/portal/dashboard_portal_dedicated_nodes.html) </button>
 
-{% end %}
-
-
-<!-- section 4 -->
-
-{% row(style="center narrow mbottom") %}
+|||
 
 ## Monetize Your Applications
 
-Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider.
+Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider. Follow our guided process to benefit from our dynamic revenue-sharing model.
 
 <br>
 
-Follow our guided process to benefit from our dynamic revenue-sharing model.
+<button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
 
-<br>
+{% end %}
 
-<button> [Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md) </button>
+<!-- section 3 (EXPAND) -->
+
+{% row(style="center between narrow mtop") %}
+
+## Experience the Benefits
+## of __ThreeFold__
+
+{% end %}
+
+{% row(style="center between narrow") %}
+
+![Image](auto3.png#medium)
+
+### **Autonomous**
+
+Build secure applications with predeterministic smart contracts and access unparalleled self-driving and self-healing features.
+
 
 |||
 
-![Image](mockup1.png#medium)
+![Image](ss.png#medium)
+
+### **Self-Sovereign**
+
+Take control of your digital future with ThreeFold's self-sovereign technology, using cryptography to ensure you own and control your data.
+
+|||
+
+![Image](afford.png#medium)
+
+### **Affordable**
+
+Through it’s decentralized infrastructure that eliminates the need for expensive data centers and intermediaries, ThreeFold has incredibly low fees.
+
+{% end %}
+
+{% row(style="center between mbottom") %}
+
+![Image](sustain.png#medium)
+
+### **Sustainable**
+
+Unique infrastructure design provides direct access with low latency, enabling real-time applications and services.
+
+
+|||
+
+![Image](scale.png#medium)
+
+### **Ultra-Scalable**
+
+Designed to make distributing, managing and monitoring secure and efficient deployments over thousands of computers as easy as one.
+
+
+|||
+
+![Image](decent.png#medium)
+
+### **Decentralized**
+
+Enabled by thousands of nodes that operate independently of each other, ensuring data remains secure and censorship resistant at all times.
 
 {% end %}
 
