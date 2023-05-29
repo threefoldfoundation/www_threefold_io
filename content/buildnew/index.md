@@ -84,7 +84,6 @@ Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of 
 
 Build secure applications with predeterministic smart contracts and access unparalleled self-driving and self-healing features.
 
-
 |||
 
 ![Image](ss.png#medium)
@@ -111,7 +110,6 @@ Through it’s decentralized infrastructure that eliminates the need for expensi
 
 Unique infrastructure design provides direct access with low latency, enabling real-time applications and services.
 
-
 |||
 
 ![Image](scale.png#medium)
@@ -119,7 +117,6 @@ Unique infrastructure design provides direct access with low latency, enabling r
 ### **Ultra-Scalable**
 
 Designed to make distributing, managing and monitoring secure and efficient deployments over thousands of computers as easy as one.
-
 
 |||
 
@@ -131,7 +128,23 @@ Enabled by thousands of nodes that operate independently of each other, ensuring
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(bgColor="#abfcd5" style="center margin") %}
+
+## Resources to Get Started
+
+The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos<br>for those who are new to the project or need some help. If you'd rather talk to a human, join our chat and ask away!
+
+<br>
+
+<button>[The Manual](https://manual.grid.tf/)</button>
+<button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
+<button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
+<button>[Our Forum](https://forum.threefold.io)</button>
+<button>[Grid User Chat](https://t.me/threefoldtesting)</button>
+
+{% end %}
+
+{% row(style="center mboth") %}
 
 ### Zero OS
 
@@ -142,11 +155,12 @@ Enabled by thousands of nodes that operate independently of each other, ensuring
 <br>
 
 Zero-OS makes the things you do on the cloud even better, with powerful autonomous <br>
-features to build, share and collaborate in complete self-sovereignty. <br>Immerse yourself the decentralized digital realm, and explore new frontiers
+features to build, share and collaborate in complete self-sovereignty. <br>Immerse yourself the decentralized digital realm, and explore new frontiers.
 
 <br>
 
-<button>[Learn More](https://library.threefold.me/info/threefold#/technology/threefold__zos)</button>
+<button>[Zero-OS](https://library.threefold.me/info/threefold#/technology/threefold__zos)</button>
+<button>[Grid Concepts](https://manual.grid.tf/concepts/concepts_readme.html)</button>
 
 {% end %}
 
