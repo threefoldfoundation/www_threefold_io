@@ -25,7 +25,7 @@ extra:
 
 {% row(style="center mtop narrow") %}
 
-## Today's Internet is ...
+## Why Do We Need an Alternative?
 
 {% end %}
 
@@ -51,7 +51,7 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% row(style="center mtop narrow") %}
 
-## We Are Evolving the Internet, Together
+## Evolving the Internet, Together
 
 Over a decade ago, a group of **early Internet pioneers**, who understood the problems of the centralized Internet model first-hand, came together to **re-imagine** the infrastructure for an **open and decentralized Internet**.
 
@@ -138,7 +138,7 @@ Join a group of people around the globe who believe the world needs ThreeFold an
 
 {% end %}
 
-{% row(style="center semiNarrow" gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" ) %}
+{% row(bgColor="#abfcd5" style="center margin") %}
 
 <br>
 
