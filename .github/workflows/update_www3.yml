@@ -1,0 +1,24 @@
+name: www3.threefold_io
+on: 
+  push:
+    branches: [ 3.10.0 ]
+
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: pushing latest change on www3.threefold.io
+      uses: appleboy/ssh-action@master
+      with:
+        host: www3.threefold.io
+        username: root
+        key: ${{ secrets.TF_SECRET }}
+        port: 22
+        script: |
+          cd /opt/www3/www_threefold_io/
+          git log -1
+          git restore .
+          git pull
+          sed -i "s/https:\/\/www.threefold.io/https:\/\/www3.threefold.io/g" config.toml
+          ./build.sh
