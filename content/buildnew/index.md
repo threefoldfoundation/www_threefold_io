@@ -8,7 +8,7 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
-![](developet_tft.jpg#medium)
+![](buildheader.png#medium)
 
 <br>
 

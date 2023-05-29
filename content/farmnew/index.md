@@ -8,7 +8,9 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
-![](grid_wide_1.png)
+![](nodeheader.png#medium)
+
+<br>
 
 # Be the **Internet**
 ### Host a node and support a decentralized future
