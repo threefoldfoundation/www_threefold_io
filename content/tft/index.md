@@ -24,7 +24,7 @@ Join the Internet revolution with the ThreeFold Token (TFT), an innovative utili
 
 {% end %}
 
-{% row(style="center narrow between") %}
+{% row(style="center narrow between mtop") %}
 
 ### **Real Utility**
 Users, developers, and enterprises use TFT to store data, build applications, and create P2P ecosystems on the ThreeFold Grid.

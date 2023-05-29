@@ -9,9 +9,8 @@ extra:
 
 
 - [About]("/about")
-- [Store]("/store")
-- [Build]("/buildnew")
 - [Farm]("/farmnew")
+- [Build]("/buildnew")
 - [Token]("/tft")
 - Ecosystem
 
