@@ -32,28 +32,28 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {% row(style="center margin narrow") %}
 
-## **Open-Source.**
-### Collaboration, not competition
+## **Open-Source**
+### Collaboration, not competition.
 
 <br>
 
-## **Simplicity.**
-### What is the tagline here ...
+## **Simplicity**
+### Fostering clarity. Driving innovation. Enabling scalability.
 
 <br>
 
-## **Authenticity.**
-### We are genuine and vulnerable
+## **Authenticity**
+### We are genuine and vulnerable.
 
 <br>
 
-## **Planet-First.**
-### Our solutions must be sustainable
+## **Planet-First**
+### Our solutions must be sustainable.
 
 <br>
 
-## **People-Centric.**
-### We empower self-sovereignty and autonomy
+## **People-Centric**
+### We empower self-sovereignty and autonomy.
 
 {% end %}
 
