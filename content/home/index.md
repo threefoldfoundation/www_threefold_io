@@ -11,18 +11,67 @@ extra:
 
 <!-- section 1 (header) -->
 
+{% row(style="center narrow") %}
+
+![Image](home_header_geometric.png#medium)
+
+### ThreeFold is a decentralized, open-source, peer-to-peer Internet platform that allows people to directly buy and sell Internet capacity – without any intermediaries.
+
+<button>[Get Started](/)</button>
+
+ <br>
+
+{% end %}
+
 {% row(style="center mtop narrow") %}
 
-![image](black_threefold_header.png#medium)
+## Why ThreeFold? Today's Internet is ...
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+### **Outdated.**
+
+The current Internet is built on a centralized antiquated foundation, hindering scalability and efficiency.
+
+### **Not equal.**
+
+Over 3 billion people lack reliable Internet access.
+
+### **Not sustainable.**
+
+The current Internet consumes between 5-10% of the world’s energy.
+
+|||
+
+![Image](internet_outdated.png#auto)
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+## Together, We Are Evolving the Internet
+
+Over a decade ago, a group of **early Internet pioneers**, who understood the problems of the centralized Internet model first-hand, came together to **re-imagine** the infrastructure for an **open and decentralized Internet**.
 
 <br>
-<br>
 
-## Internet **Reimagined**. Internet **Rebuilt**.
+**But we didn't just imagine it – we built it.**
 
-Join a global community pioneering the decentralized, autonomous, and sustainable Internet. <br>
-We empower individuals and communities to regain control of their digital lives and shape their own digital future.
- <br>
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+![Image](kristof_quote.png#auto)
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+## So Much Built So Far
+
+The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.
 
 {% end %}
 
@@ -40,11 +89,7 @@ We empower individuals and communities to regain control of their digital lives 
 
 {% row(style="center narrow") %}
 
-![image](grid_wide_1.png#mx-auto)
-
-## Why __ThreeFold__
-
-<br>
+## A Resilient Foundation
 
 ThreeFold’s unique infrastructure can operate without centralized authority or server, empowering people and communities to build and store applications on a decentralized network owned and operated by its participants.  
 <br>
