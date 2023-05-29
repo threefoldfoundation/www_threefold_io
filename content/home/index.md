@@ -108,7 +108,7 @@ ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyon
 
 {% row(style="center narrow mbottom") %}
 
-![Image](expand.png#medium)
+![Image](expandicon.png#medium)
 
 ### **Expand**
 
@@ -118,7 +118,7 @@ Independent people and organizations connect hardware to the ThreeFold Grid. Pro
 
 |||
 
-![Image](innovate.png#medium)
+![Image](buildicon.png#medium)
 
 ### **Build**
 
@@ -128,7 +128,7 @@ Developers and Sysadmins use ThreeFold technology to build, deploy, and store on
 
 |||
 
-![Image](connect.png#medium)
+![Image](togethericon.png#medium)
 
 ### **Together**
 
