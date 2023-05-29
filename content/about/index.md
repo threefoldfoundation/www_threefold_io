@@ -4,6 +4,26 @@ template: "page.html"
 insert_anchor_links: "left"
 ---
 
+<!-- section 3 (EXPAND) -->
+
+
+{% row(style="center mbottom") %}
+
+![Image](globe_mission.png#medium)
+
+
+|||
+
+## Our **Impact**
+
+At ThreeFold, we believe that sustainability is a fundamental part of the internet's future. That's why we're committed to fighting climate change by building the most energy-efficient internet infrastructure in the world. 
+
+<br>
+
+We also prioritize equality, diversity, and inclusion in our culture and vision of an internet for everyone, everywhere.
+
+{% end %}
+
 <!-- section 1 (header) -->
 
 {% row(style="center margin narrow") %}
