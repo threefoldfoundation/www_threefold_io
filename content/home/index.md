@@ -17,7 +17,7 @@ extra:
 
 ### ThreeFold is a decentralized, open-source, peer-to-peer Internet platform that allows people to directly buy and sell Internet capacity – without any intermediaries. An alternative to the centralized data center model.
 
-<button>[Get Started](/)</button>
+<button>[Get Started](https://manual.grid.tf)</button>
 
  <br>
 
