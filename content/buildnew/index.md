@@ -22,7 +22,6 @@ Experience true ownership of your deployments with a decentralized framework. Ev
 
 <button>[For Developers](https://manual.grid.tf/)</button>
 <button>[For System Admins](https://manaul.grid.tf/)</button>
-<button>[Deploy Your First VM](https://manual.grid.tf/weblets/weblets_vm.html)</button>
 
 {% end %}
 
@@ -40,6 +39,10 @@ Experience true ownership of your deployments with a decentralized framework. Ev
 
 # Start Your Journey
 
+<br>
+
+<button>[Deploy Your First VM](https://manual.grid.tf/weblets/weblets_vm.html)</button>
+
 {% end %}
 
 <!-- section 2  -->
@@ -48,7 +51,7 @@ Experience true ownership of your deployments with a decentralized framework. Ev
 
 ## Weblets: No-Code Deployments
 
-Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions in our interactive playground. The simplest way to build on top of the grid.
+Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions – such as **Kubernetes**, CapRover, and Umbrel – in our interactive playground. The simplest way to build on top of the grid.
 
 <br>
 
@@ -89,15 +92,19 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 {% end %}
 
-{% row(bgColor="#A8f3f7" style="center margin") %}
+{% row(bgColor="#abfcd5" style="center margin") %}
 
-## Monetize Your Applications
+## Resources to Get Started
 
-Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider. Follow our guided process to benefit from our dynamic revenue-sharing model.
+The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos<br>for those who are new to the project or need some help. If you'd rather talk to a human, join our chat and ask away!
 
 <br>
 
-<button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
+<button>[The Manual](https://manual.grid.tf/)</button>
+<button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
+<button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
+<button>[Our Forum](https://forum.threefold.io)</button>
+<button>[Grid User Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
 
@@ -123,7 +130,7 @@ Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructur
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="center mtop mbottom narrow") %}
 
 ### **Get Your Own Mastodon Server**
 
@@ -136,6 +143,18 @@ ThreeFold has made it possible for anyone to run their own Mastodon Instance, si
 <br>
 
 <button>[Get Mastodon](https://www.mastodon.threefold.io/getserver/)</button>
+
+{% end %}
+
+{% row(bgColor="#A8f3f7" style="center margin") %}
+
+## Monetize Your Applications
+
+Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider. Follow our guided process to benefit from our dynamic revenue-sharing model.
+
+<br>
+
+<button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
 
 {% end %}
 
@@ -197,87 +216,6 @@ Designed to make distributing, managing and monitoring secure and efficient depl
 ### **Decentralized**
 
 Enabled by thousands of nodes that operate independently of each other, ensuring data remains secure and censorship resistant at all times.
-
-{% end %}
-
-{% row(bgColor="#abfcd5" style="center margin") %}
-
-## Resources to Get Started
-
-The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos<br>for those who are new to the project or need some help. If you'd rather talk to a human, join our chat and ask away!
-
-<br>
-
-<button>[The Manual](https://manual.grid.tf/)</button>
-<button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
-<button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
-<button>[Our Forum](https://forum.threefold.io)</button>
-<button>[Grid User Chat](https://t.me/threefoldtesting)</button>
-
-{% end %}
-
-{% row(style="center mboth") %}
-
-### Zero OS
-
-## Work Decentralized.
-## Be Autonomous.
-## Reach Further.
-
-<br>
-
-Zero-OS makes the things you do on the cloud even better, with powerful autonomous <br>
-features to build, share and collaborate in complete self-sovereignty. <br>Immerse yourself the decentralized digital realm, and explore new frontiers.
-
-<br>
-
-<button>[Zero-OS](https://library.threefold.me/info/threefold#/technology/threefold__zos)</button>
-<button>[Grid Concepts](https://manual.grid.tf/concepts/concepts_readme.html)</button>
-
-{% end %}
-
-{% row(style="center narrow") %}
-
-## Become Self Sovereign Today
-
-{% end %}
-
-{% row(style="center narrow mbottom") %}
-
-![img](down.png#medium)
-
-Download the ThreeFold Connect App
-
-<br>
-
-<button>[Apple iOS](https://apps.apple.com/to/app/threefold-connect/id1459845885)</button>
-<button>[Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin)</button>
-
-|||
-
-![img](top.png#medium)
-
-
-Load Your Wallet with TFT
-
-<br>
-
-<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
-
-<br>
-
-|||
-
-![img](st.png#medium)
-
-
-Set Up Your Dashboard
-
-<br>
-
-<button>[Dashboard](https://dashboard.grid.tf/)</button>
-
-<br>
 
 {% end %}
 
