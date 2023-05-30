@@ -15,19 +15,36 @@ insert_anchor_links: "left"
 
 |||
 
-# Build without Limits 
-### Scale Further on a Decentralized Autonomous Edge-cloud
+# Build the Future
+### Develop and Administer on a Decentralized Autonomous Edge Cloud
 
-Power your geo-distributed edge workloads with smart contract deployments and experience self-driving operations, high-performance edge-to-edge interconnections, and seamless scalability.
+Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.
 
 <button>[For Developers](https://manual.grid.tf/)</button>
 <button>[For System Admins](https://manaul.grid.tf/)</button>
+<button>[Deploy Your First VM](https://manual.grid.tf/weblets/weblets_vm.html)</button>
+
+{% end %}
+
+{% row(style="center mtop between") %}
+
+### The ThreeFold Grid offers a range of low-level constructs known as Primitives. These powerful functionalities enable you to create diverse and customized solutions on top of the grid, opening up a world of possibilities.
+
+### Any application compatible with Linux can seamlessly run on the ThreeFold Grid, ensuring maximum flexibility.
+
+<button>[More on Grid Primitives](https://manual.grid.tf/concepts/grid_primitives.html)</button>
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+# Start Your Journey
 
 {% end %}
 
 <!-- section 2  -->
 
-{% row(style="center mtop between") %}
+{% row(style="center between") %}
 
 ## Weblets: No-Code Deployments
 
@@ -49,11 +66,11 @@ Revolutionize your IT deployments with machine-readable definition files, and en
 
 {% end %}
 
-{% row(style="center mtop between") %}
+{% row(style="center mtop mbottom between") %}
 
 ## Dedicated Nodes
 
-Experience ultimate control and flexibility by reserving entire nodes tailored for your projects.
+Achieve ultimate control and flexibility by reserving entire nodes tailored for your projects.
 Optimize security and customization for high-demand workloads, such as blockchain nodes, while enjoying competitive pricing.
 
 <br>
@@ -64,11 +81,15 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 ## Quantum Safe Storage
 
-Fill in the text here
+Experience the boundless possibilities of a distributed, quantum-proof storage system – designed to encrypt, compress, shard, and distribute your data, empowering you with unmatched security, scalability, and efficiency.
+
+<br>
+
+<button> [Learn More](https://manual.grid.tf/) </button>
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(bgColor="#A8f3f7" style="center margin") %}
 
 ## Monetize Your Applications
 
@@ -82,13 +103,21 @@ Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of 
 
 {% row(style="center mtop narrow") %}
 
+# The Ecosystem is Building
+
+{% end %}
+
+{% row(style="center narrow") %}
+
 ### **Deploy Nodes with Zonaris**
+
+Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be.
+
+<br>
 
 ![Image](zonaris.png#large)
 
 <br>
-
-Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be.
 
 <button>[Visit Zonaris](https://www.zonaris.io/)</button>
 
@@ -98,11 +127,13 @@ Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructur
 
 ### **Get Your Own Mastodon Server**
 
-![Image](mastodon.png#large)
+ThreeFold has made it possible for anyone to run their own Mastodon Instance, simply and effectively.
 
 <br>
 
-ThreeFold has made it possible for anyone to run their own Mastodon Instance, simply and effectively.
+![Image](mastodon.png#large)
+
+<br>
 
 <button>[Get Mastodon](https://www.mastodon.threefold.io/getserver/)</button>
 

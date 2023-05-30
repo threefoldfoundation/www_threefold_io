@@ -80,7 +80,7 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 |||
 
 ## Find Your Fit
-### Most **Modern Computers Work**
+### Most Modern Computers Work
 
 ThreeFold’s operating system was designed to be hardware agnostic, and already runs on any Intel or AMD powered computer today. 
 
