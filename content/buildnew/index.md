@@ -150,7 +150,7 @@ ThreeFold has made it possible for anyone to run their own Mastodon Instance, si
 
 ## Monetize Your Applications
 
-Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider. Follow our guided process to benefit from our dynamic revenue-sharing model.
+Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider.<br>Follow our guided process to benefit from our dynamic revenue-sharing model.
 
 <br>
 
