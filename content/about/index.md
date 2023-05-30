@@ -33,7 +33,7 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 {% row(style="center margin narrow") %}
 
 ## **Open-Source**
-### Collaboration, not competition.
+### Collaboration and openness are key to building a better world.
 
 <br>
 

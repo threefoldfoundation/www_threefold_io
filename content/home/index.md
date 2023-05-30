@@ -11,13 +11,24 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="center narrow") %}
+{% row(style="left wide") %}
+
+<br>
+<br>
 
 ![Image](home_header_geometric.png#medium)
 
-### ThreeFold is a decentralized, open-source, peer-to-peer Internet platform that allows people to directly buy and sell Internet capacity – without any intermediaries. An alternative to the centralized data center model.
+|||
 
-<button>[Get Started](https://manual.grid.tf)</button>
+<br>
+<br>
+
+### ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
+
+### A sovereign alternative to the centralized Internet.
+
+<button>[How It Works](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
+<button>[Get Started](https://manual.grid.tf/intro/intro_readme.html)</button>
 
  <br>
 
@@ -49,29 +60,13 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="center narrow mtop") %}
 
 ## Evolving the Internet, Together
 
-Over a decade ago, a group of **early Internet pioneers**, who understood the problems of the centralized Internet model first-hand, came together to **re-imagine** the infrastructure for an **open and decentralized Internet**.
+### Over a decade ago, a group of early Internet pioneers, who understood the problems of the centralized Internet model first-hand, came together to re-imagine the infrastructure for an open and decentralized Internet.
 
-<br>
-
-**But we didn't just imagine it – we built it.**
-
-{% end %}
-
-{% row(style="center mtop narrow") %}
-
-![Image](kristof_quote.png#auto)
-
-{% end %}
-
-{% row(style="center mtop narrow") %}
-
-## So Much Built So Far
-
-The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.
+### But we didn't just imagine it – we built it.
 
 {% end %}
 
@@ -85,24 +80,15 @@ The ThreeFold Grid is community-owned and managed. The stack was built around pr
 
 {% end %}
 
-<!-- section 3 (EXPAND) -->
+{% row(style="center mbottom narrow") %}
 
-{% row(style="center narrow") %}
-
-## A Resilient Foundation
-
-ThreeFold’s unique infrastructure can operate without centralized authority or server, empowering people and communities to build and store applications on a decentralized network owned and operated by its participants.  
-<br>
-ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyone can take part. Through many of its unique properties, ThreeFold fosters the security, trust and freedom that are often missing in today’s internet.
+### The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.
 
 {% end %}
 
-<br>
-<br>
-
 {% row(style="center narrow") %}
 
-## Take **Action** Today
+## Take Action Today
 
 {% end %}
 

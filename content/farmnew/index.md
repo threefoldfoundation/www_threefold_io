@@ -6,16 +6,21 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center margin narrow") %}
+{% row(style="left wide") %}
+
+<br>
+<br>
 
 ![](nodeheader.png#medium)
 
-<br>
+||| 
 
 # Be the **Internet**
-### Host a node and support a decentralized future
+### Host a node, support a decentralized future
 
-By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide private Internet capacity and be rewarded for doing this. Take part in shaping a new Internet era governed by all of us. 
+By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Take part in shaping a new Internet era governed by all of us.
+
+<button>[Get Started](https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html)</button>
 
 {% end %}
 
@@ -68,22 +73,22 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 <!-- section 4  -->
 
-{% row(style="center mbottom narrow") %}
+{% row(style="left wide mbottom") %}
 
-![](3nodehands.jpeg#mx-auto#medium)
+![](findyourfit.png#medium)
 
 |||
 
 ## Find Your Fit
 ### Most **Modern Computers Work**
 
-ThreeFold’s operating system was designed to be hardware agnostic, and already  runs on any Intel or AMD powered computer today. 
+ThreeFold’s operating system was designed to be hardware agnostic, and already runs on any Intel or AMD powered computer today. 
 
 <br>
 
 <button>[Global Marketplace](https://marketplace.3node.global/)</button>
 <button>[HostService NL | Europe](https://hostservice.nl/winkel/)</button>
-<button>[Do It Yourself](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[Do It Yourself](https://manual.grid.tf/TF_Farmer_Guide/TF_Complete_Farmer_Guide/farmer_guide.html)</button>
 
 {% end %}
 

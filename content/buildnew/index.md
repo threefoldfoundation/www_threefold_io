@@ -6,23 +6,28 @@ insert_anchor_links: "left"
 
 <!-- section 1  -->
 
-{% row(style="center margin narrow") %}
+{% row(style="left wide") %}
+
+<br>
+<br>
 
 ![](buildheader.png#medium)
 
-<br>
+|||
 
 # Build without Limits 
 ### Scale Further on a Decentralized Autonomous Edge-cloud
 
-Power your geo-distributed edge workloads with smart contract deployments and <br>
-experience self-driving operations, high-performance edge-to-edge interconnections, and seamless scalability.
+Power your geo-distributed edge workloads with smart contract deployments and experience self-driving operations, high-performance edge-to-edge interconnections, and seamless scalability.
+
+<button>[For Developers](https://manual.grid.tf/)</button>
+<button>[For System Admins](https://manaul.grid.tf/)</button>
 
 {% end %}
 
 <!-- section 2  -->
 
-{% row(style="center mbottom between") %}
+{% row(style="center mtop between") %}
 
 ## Weblets: No-Code Deployments
 
@@ -44,7 +49,7 @@ Revolutionize your IT deployments with machine-readable definition files, and en
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center mtop between") %}
 
 ## Dedicated Nodes
 
@@ -57,6 +62,14 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 |||
 
+## Quantum Safe Storage
+
+Fill in the text here
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
 ## Monetize Your Applications
 
 Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider. Follow our guided process to benefit from our dynamic revenue-sharing model.
@@ -64,6 +77,34 @@ Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of 
 <br>
 
 <button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+### **Deploy Nodes with Zonaris**
+
+![Image](zonaris.png#large)
+
+<br>
+
+Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be.
+
+<button>[Visit Zonaris](https://www.zonaris.io/)</button>
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+### **Get Your Own Mastodon Server**
+
+![Image](mastodon.png#large)
+
+<br>
+
+ThreeFold has made it possible for anyone to run their own Mastodon Instance, simply and effectively.
+
+<button>[Get Mastodon](https://www.mastodon.threefold.io/getserver/)</button>
 
 {% end %}
 
