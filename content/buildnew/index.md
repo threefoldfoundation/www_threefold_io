@@ -6,7 +6,7 @@ insert_anchor_links: "left"
 
 <!-- section 1  -->
 
-{% row(style="left wide") %}
+{% row(style="left wide mbottom ") %}
 
 <br>
 <br>
@@ -25,6 +25,22 @@ Experience true ownership of your deployments with a decentralized framework. Ev
 
 {% end %}
 
+{% row(bgColor="#abfcd5" style="center margin") %}
+
+## Resources to Get Started
+
+The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos<br>for those who are new to the project or need some help. If you'd rather talk to a human, join our chat and ask away!
+
+<br>
+
+<button>[The Manuals](https://manual.grid.tf/)</button>
+<button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
+<button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
+<button>[Our Forum](https://forum.threefold.io)</button>
+<button>[Grid User Chat](https://t.me/threefoldtesting)</button>
+
+{% end %}
+
 {% row(style="center mtop between") %}
 
 ### The ThreeFold Grid offers a range of low-level constructs known as Primitives. These powerful functionalities enable you to create diverse and customized solutions on top of the grid, opening up a world of possibilities.
@@ -37,7 +53,45 @@ Experience true ownership of your deployments with a decentralized framework. Ev
 
 {% row(style="center mtop narrow") %}
 
-# Start Your Journey
+# The Ecosystem is Building
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+### **Deploy Nodes with Zonaris**
+
+Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be.
+
+<br>
+
+![Image](zonaris.png#large)
+
+<br>
+
+<button>[Visit Zonaris](https://www.zonaris.io/)</button>
+
+{% end %}
+
+{% row(style="center mtop mbottom narrow") %}
+
+### **Get Your Own Mastodon Server**
+
+ThreeFold has made it possible for anyone to run their own Mastodon Instance, simply and effectively.
+
+<br>
+
+![Image](mastodon.png#large)
+
+<br>
+
+<button>[Get Mastodon](https://www.mastodon.threefold.io/getserver/)</button>
+
+{% end %}
+
+{% row(style="center mtop") %}
+
+# Unleash the Power of ThreeFold
 
 <br>
 
@@ -92,147 +146,46 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 {% end %}
 
-{% row(bgColor="#abfcd5" style="center margin") %}
+{% row(style="center mtop") %}
 
-## Resources to Get Started
-
-The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos<br>for those who are new to the project or need some help. If you'd rather talk to a human, join our chat and ask away!
-
-<br>
-
-<button>[The Manual](https://manual.grid.tf/)</button>
-<button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
-<button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
-<button>[Our Forum](https://forum.threefold.io)</button>
-<button>[Grid User Chat](https://t.me/threefoldtesting)</button>
+# Shape the Future of the Internet
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="center between") %}
 
-# The Ecosystem is Building
-
-{% end %}
-
-{% row(style="center narrow") %}
-
-### **Deploy Nodes with Zonaris**
-
-Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be.
-
-<br>
-
-![Image](zonaris.png#large)
-
-<br>
-
-<button>[Visit Zonaris](https://www.zonaris.io/)</button>
+### At ThreeFold, we believe in a decentralized and autonomous world, where true ownership and control over digital deployments are in your hands. Our revolutionary edge cloud infrastructure empowers you to create innovative solutions with unmatched scalability, efficiency, privacy, and security.
 
 {% end %}
 
-{% row(style="center mtop mbottom narrow") %}
+{% row(style="center between") %}
 
-### **Get Your Own Mastodon Server**
+#### Engage in Discussions
 
-ThreeFold has made it possible for anyone to run their own Mastodon Instance, simply and effectively.
-
-<br>
-
-![Image](mastodon.png#large)
-
-<br>
-
-<button>[Get Mastodon](https://www.mastodon.threefold.io/getserver/)</button>
-
-{% end %}
-
-{% row(bgColor="#A8f3f7" style="center margin") %}
-
-## Monetize Your Applications
-
-Capitalize on our Proof-of-Utilization distribution model, earning up to 50% of cloud utilization revenues as a solution provider.<br>Follow our guided process to benefit from our dynamic revenue-sharing model.
-
-<br>
-
-<button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
-
-{% end %}
-
-<!-- section 3 (EXPAND) -->
-
-{% row(style="center between narrow mtop") %}
-
-## Experience the Benefits
-## of __ThreeFold__
-
-{% end %}
-
-{% row(style="center between narrow") %}
-
-![Image](auto3.png#medium)
-
-### **Autonomous**
-
-Build secure applications with predeterministic smart contracts and access unparalleled self-driving and self-healing features.
+Connect with our vibrant community, share ideas, and contribute to collective knowledge.
 
 |||
 
-![Image](ss.png#medium)
+#### Contribute to Open Source
 
-### **Self-Sovereign**
-
-Take control of your digital future with ThreeFold's self-sovereign technology, using cryptography to ensure you own and control your data.
+Help shape ThreeFold's decentralized ecosystem on GitHub.
 
 |||
 
-![Image](afford.png#medium)
+#### Attend Events
 
-### **Affordable**
-
-Through it’s decentralized infrastructure that eliminates the need for expensive data centers and intermediaries, ThreeFold has incredibly low fees.
-
-{% end %}
-
-{% row(style="center between mbottom") %}
-
-![Image](sustain.png#medium)
-
-### **Sustainable**
-
-Unique infrastructure design provides direct access with low latency, enabling real-time applications and services.
+Join conferences and meetups to expand your network and stay updated.
 
 |||
 
-![Image](scale.png#medium)
+#### Explore Farming Opportunities
 
-### **Ultra-Scalable**
-
-Designed to make distributing, managing and monitoring secure and efficient deployments over thousands of computers as easy as one.
+Contribute resources and earn rewards while supporting the growth of the ThreeFold network.
 
 |||
 
-![Image](decent.png#medium)
+#### Seek Support and Collaboration
 
-### **Decentralized**
+Our team is here to assist you along your ThreeFold journey.
 
-Enabled by thousands of nodes that operate independently of each other, ensuring data remains secure and censorship resistant at all times.
-
-{% end %}
-
-{% row(bgColor="#73FFD9" style="center") %}
-
-## Contribute to the Code
-
-<br>
-
-Help shape the future of the project. ThreeFold is open-source. 
-<br>
-We welcome builders to not only flag issues on GitHub 
-<br>
-
-but also offer suggestions and improvements to our codebase.
-
-<br>
-
-<button>[Learn More](https://threefold.io)</button>
 {% end %}
