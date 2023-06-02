@@ -93,20 +93,20 @@ developers have unlimited possibilities to build the future.
 
 {% row(style="center mbottom") %}
 
-![](use.png)
+![](use_icon.png#medium)
 
 ### **Use TFT**
 Build applications, store data and access decentralized services on the ThreeFold Grid
 
 |||
 
-![](disc.png)
+![](earn_icon.png#medium)
 ### **Earn Discounts**
 Hold your TFT and earn up to 60% discounts on Internet capacity.  
 
 |||
 
-![](stake.png)
+![](stake_icon.png#medium)
 ### **Stake TFT**
 Soon you will be able to partake in the network's decentralization and earn rewards.
 

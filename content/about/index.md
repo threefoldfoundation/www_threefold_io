@@ -81,17 +81,17 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {% row(style="center mbottom") %}
 
-![Image](sustain.png#mx-auto)
+![Image](earth.png#medium)
 
-### Green Infrastructure
+## Green Infrastructure
 
 There is no Planet B. And the Internet is consumed a surprisingly large amount of the world's energy, between 5 and 10%. This is why ThreeFold has designed with efficiency in mind to create the most sustainable Internet infrastructure in the world. 
 
 |||
 
-![Image](heart2.png#mx-auto)
+![Image](community.png#medium)
 
-### Changing the Internet, Together
+## Driving Change Together
 
 Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory movement and is prioritizing efforts to bring a more accessible Internet to developing regions.
 
@@ -99,15 +99,10 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 
 <!-- section 6 (GETTING STARTED) -->
 
-{% row(style="center margin narrow") %}
+{% row(style="center margin narrow mbottom") %}
 
 ## Our Community is United by
 ### **Passion and Purpose**
-
-![Image](community_header.jpg#large)
-
-<br>
-<br>
 
 We are a diverse community of passionate individuals who believe in the power of technology to bring about positive change. Our mission is to realize the vision of a decentralized, self-sovereign digital world, enabling equitable and sustainable opportunities for all. Together, we are building a new Internet that puts power back into the hands of the people.
 
