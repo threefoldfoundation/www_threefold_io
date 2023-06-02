@@ -67,8 +67,11 @@ Take a look at some of what's being built on top of the grid today. More coming 
 |||
 
 ### **Deploy Nodes with Zonaris**
+#### #Decentralized #Edge #Web3
 
-Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be.
+<br>
+
+Zonaris is revolutionizing the norm by hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be. Zonaris and their customers benefit from ThreeFold's decentralized foundation from both a reliability and resiliency perspective, as there are no central points of failure.
 
 <br>
 
@@ -83,8 +86,11 @@ Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructur
 |||
 
 ### **Own Your Cloud with HostService**
+#### #OwnYourData #Autonomous #BlockchainEnabled
 
-A ThreeFold community member, farmer, and node distributor decided to launch his own service to support people in installing and deploying their own Nextcloud instances on top of ThreeFold's decentralized infrastructure.
+<br>
+
+HostService offers a service to deploy and support customers with their own Nextcloud environment on top of a decentralized Internet framework. Driven by autonomous technology, smart contracts, and private keys, this keeps data secure and in the hand of the people.
 
 <br>
 
@@ -99,8 +105,11 @@ A ThreeFold community member, farmer, and node distributor decided to launch his
 |||
 
 ### **Get Your Own Mastodon Server**
+#### #Security #Privacy #Scalability
 
-ThreeFold has made it possible for anyone to run their own Mastodon Instance, simply and effectively.
+<br>
+
+ThreeFold has made it possible for anyone to run their own Mastodon instance, simply and effectively. This brings more control – no need to rely on a third party – along with security, privacy, and scalability.
 
 <br>
 
@@ -115,8 +124,13 @@ ThreeFold has made it possible for anyone to run their own Mastodon Instance, si
 |||
 
 ### **Access No-Code Deployments**
+#### #Decentralized #Simplicity #Compatibility
 
-Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions – such as **Kubernetes**, CapRover, and Umbrel – in our interactive playground. The simplest way to build on top of the grid.
+<br>
+
+Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions – such as full Virtual Machines, Kubernetes, CapRover, and Umbrel – in our interactive playground. The simplest way to build on top of the grid.
+
+<br>
 
 <button>[Visit the Playground](https://manual.grid.tf/weblets/weblets_home.html)</button>
 
@@ -134,16 +148,6 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 {% row(style="center between") %}
 
-## Deploy Your First VM
-
-Fill in the text ...
-
-<br>
-
-<button> [Learn More](https://manual.grid.tf/weblets/weblets_vm.html) </button>
-
-|||
-
 ## Infrastructure as Code (IaC)
 
 Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform. Enhance provisioning with deterministic smart contracts, minimize overheads, and boost your efficiency.
@@ -152,9 +156,7 @@ Revolutionize your IT deployments with machine-readable definition files, and en
 
 <button> [Learn More](https://manual.grid.tf/terraform/terraform_readme.html) </button>
 
-{% end %}
-
-{% row(style="center mtop between") %}
+|||
 
 ## Dedicated Nodes
 
@@ -174,6 +176,18 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 <br>
 
 <button> [Learn More](https://manual.grid.tf/) </button>
+
+{% end %}
+
+{% row(style="center mtop between") %}
+
+## Solution Provider
+
+Earn up to 50% of the utilization revenues of solutions that you create, promote, and support on top of the ThreeFold Grid. Follow our guided process to benefit from our dynamic revenue-sharing model.
+
+<br>
+
+<button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
 
 {% end %}
 
