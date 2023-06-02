@@ -7,13 +7,14 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center mtop narrow") %}
+{% row(style="left wide") %} 
 
-![](tft_header1.png#medium)
+<br>
+<br>
 
-{% end %}
+![Image](token_header.png#medium)
 
-{% row(style="center narrow") %}
+|||
 
 # Introducing TFT
 ### The Currency Powering the Decentralized Internet 

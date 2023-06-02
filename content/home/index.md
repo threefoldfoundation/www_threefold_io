@@ -11,12 +11,12 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="left wide") %}
+{% row(style="left wide") %} 
 
 <br>
 <br>
 
-![Image](home_header_geometric.png#medium)
+![Image](home_header.png#medium)
 
 |||
 

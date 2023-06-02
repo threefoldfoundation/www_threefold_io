@@ -6,10 +6,16 @@ insert_anchor_links: "left"
 
 <!-- section 1 (header) -->
 
-{% row(style="center margin narrow") %}
+{% row(style="left wide") %} 
 
-![](genesis.png#medium)
+<br>
+<br>
 
+![Image](about_header.png#medium)
+
+|||
+
+<br>
 <br>
 
 # Genesis
@@ -20,7 +26,7 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {% end %}
 
-{% row(bgColor="#d3d3d3" style="center margin") %}
+{% row(bgColor="#d3d3d3" style="center mtop margin") %}
 
 ## **Our Mission**
 
