@@ -154,7 +154,7 @@ Revolutionize your IT deployments with machine-readable definition files, and en
 
 {% end %}
 
-{% row(style="center mtop mbottom between") %}
+{% row(style="center mtop between") %}
 
 ## Dedicated Nodes
 
@@ -177,13 +177,7 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 {% end %}
 
-{% row(style="center mtop") %}
-
-# Shape the Future of the Internet
-
-{% end %}
-
-{% row(style="center between") %}
+{% row(style="center between mtop mbottom") %}
 
 ### At ThreeFold, we believe in a decentralized and autonomous world, where true ownership and control over digital deployments are in your hands. Our revolutionary edge cloud infrastructure empowers you to create innovative solutions with unmatched scalability, efficiency, privacy, and security.
 
@@ -191,25 +185,33 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 {% row(style="center between") %}
 
-#### Engage in Discussions
+# Engage with the Community
+
+## Be Part of the Decentralized Movement
+
+{% end %}
+
+{% row(style="left wide") %}
+
+#### Forum
 
 Connect with our vibrant community, share ideas, and contribute to collective knowledge.
 
 |||
 
-#### Contribute to Open Source
+#### Open Source
 
 Help shape ThreeFold's decentralized ecosystem on GitHub.
 
 |||
 
-#### Explore Farming Opportunities
+#### Farming
 
 Contribute resources and earn rewards while supporting the growth of the ThreeFold network.
 
 |||
 
-#### Seek Support and Collaboration
+#### Support
 
 Our team is here to assist you along your ThreeFold journey.
 
