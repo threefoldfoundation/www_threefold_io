@@ -20,20 +20,19 @@ insert_anchor_links: "left"
 
 Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.
 
-<button>[For Developers](https://manual.grid.tf/)</button>
-<button>[For System Admins](https://manaul.grid.tf/)</button>
+<button>[Our Manuals](https://manual.grid.tf)</button>
+<button>[Grid Dashboard](https://dashboard.grid.tf)</button>
 
 {% end %}
 
 {% row(bgColor="#abfcd5" style="center margin") %}
 
-## Resources to Get Started
+## More Resources to Get Started
 
 The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos<br>for those who are new to the project or need some help. If you'd rather talk to a human, join our chat and ask away!
 
 <br>
 
-<button>[The Manuals](https://manual.grid.tf/)</button>
 <button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
 <button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
 <button>[Our Forum](https://forum.threefold.io)</button>
@@ -53,11 +52,19 @@ The ThreeFold Team and community have spent countless hours creating written and
 
 {% row(style="center mtop narrow") %}
 
-# The Ecosystem is Building
+# Unleashing the Potential
+
+## ThreeFold Technology In Action
+
+Take a look at some of what's being built on top of the grid today. More coming soon.
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="left wide") %}
+
+![Image](zonaris_new.png#medium)
+
+|||
 
 ### **Deploy Nodes with Zonaris**
 
@@ -65,15 +72,31 @@ Zonaris is revolutionizing the norm – hosting Web3 Nodes on Web3 infrastructur
 
 <br>
 
-![Image](zonaris.png#large)
-
-<br>
-
 <button>[Visit Zonaris](https://www.zonaris.io/)</button>
 
 {% end %}
 
-{% row(style="center mtop mbottom narrow") %}
+{% row(style="left wide") %}
+
+![Image](hostservice_new.png#medium)
+
+|||
+
+### **Own Your Cloud with HostService**
+
+A ThreeFold community member, farmer, and node distributor decided to launch his own service to support people in installing and deploying their own Nextcloud instances on top of ThreeFold's decentralized infrastructure.
+
+<br>
+
+<button>[Visit Zonaris](https://hostservice.nl/nextcloud/)</button>
+
+{% end %}
+
+{% row(style="left wide") %}
+
+![Image](mastodon_new.png#medium)
+
+|||
 
 ### **Get Your Own Mastodon Server**
 
@@ -81,21 +104,29 @@ ThreeFold has made it possible for anyone to run their own Mastodon Instance, si
 
 <br>
 
-![Image](mastodon.png#large)
-
-<br>
-
 <button>[Get Mastodon](https://www.mastodon.threefold.io/getserver/)</button>
+
+{% end %}
+
+{% row(style="left wide mbottom") %}
+
+![Image](playground_new.png#medium)
+
+|||
+
+### **Access No-Code Deployments**
+
+Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions – such as **Kubernetes**, CapRover, and Umbrel – in our interactive playground. The simplest way to build on top of the grid.
+
+<button>[Visit the Playground](https://manual.grid.tf/weblets/weblets_home.html)</button>
 
 {% end %}
 
 {% row(style="center mtop") %}
 
-# Unleash the Power of ThreeFold
+# Discover the ThreeFold Advantage
 
-<br>
-
-<button>[Deploy Your First VM](https://manual.grid.tf/weblets/weblets_vm.html)</button>
+### Empowering Sovereign, Scalable, and Secure Solutions
 
 {% end %}
 
@@ -103,13 +134,13 @@ ThreeFold has made it possible for anyone to run their own Mastodon Instance, si
 
 {% row(style="center between") %}
 
-## Weblets: No-Code Deployments
+## Deploy Your First VM
 
-Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions – such as **Kubernetes**, CapRover, and Umbrel – in our interactive playground. The simplest way to build on top of the grid.
+Fill in the text ...
 
 <br>
 
-<button> [Learn More](https://manual.grid.tf/weblets/weblets_home.html) </button>
+<button> [Learn More](https://manual.grid.tf/weblets/weblets_vm.html) </button>
 
 |||
 
@@ -169,12 +200,6 @@ Connect with our vibrant community, share ideas, and contribute to collective kn
 #### Contribute to Open Source
 
 Help shape ThreeFold's decentralized ecosystem on GitHub.
-
-|||
-
-#### Attend Events
-
-Join conferences and meetups to expand your network and stay updated.
 
 |||
 
