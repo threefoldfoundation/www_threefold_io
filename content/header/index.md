@@ -32,26 +32,6 @@ extra:
 <br>
 <p class="text-sm">Explore Our Partners</p>
 
-|||
-
-<button onclick="window.location.href='/community'">
-
-[ThreeFold Community](/community)
-<br>
-<p class="text-sm">Welcome To The Fold</p>
-
-</button>
-
-|||
-
-<button onclick="window.location.href='/developer'">
-
-[Developer Resources](/developer)
-<br>
-<p class="text-sm">Join The Developer Community</p>
-
-</button>
-
 {% end %}
 
 - More

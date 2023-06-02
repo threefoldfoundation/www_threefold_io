@@ -38,6 +38,8 @@ extra:
 
 ## Why Do We Need an Alternative?
 
+### Overcoming Internet Inequalities
+
 {% end %}
 
 {% row(style="center narrow") %}
@@ -89,6 +91,8 @@ The current Internet consumes between 5-10% of the world’s energy.
 {% row(style="center narrow") %}
 
 ## Take Action Today
+
+### And Create Tomorrow
 
 {% end %}
 
