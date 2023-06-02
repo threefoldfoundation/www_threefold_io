@@ -128,7 +128,7 @@ Join a group of people around the globe who believe the world needs ThreeFold an
 
 {% end %}
 
-{% row(bgColor="#abfcd5" style="center margin") %}
+{% row(bgColor="#d3d3d3" style="center margin") %}
 
 <br>
 

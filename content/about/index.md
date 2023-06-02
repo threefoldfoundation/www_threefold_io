@@ -20,7 +20,7 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {% end %}
 
-{% row(bgColor="#abfcd5" style="center margin") %}
+{% row(bgColor="#d3d3d3" style="center margin") %}
 
 ## **Our Mission**
 
@@ -59,7 +59,7 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 <!-- section 4 (OUR ACTIONS) -->
 
-{% row(style="margin semiNarrow" gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" ) %}
+{% row(style="margin semiNarrow" bgColor="#d3d3d3") %}
 
 ![Image](kristof.jpeg#medium)
 
@@ -115,7 +115,7 @@ We are a diverse community of passionate individuals who believe in the power of
 
 {% end %}
 
-{% row(bgColor="#A8f3f7" style="center mboth") %}
+{% row(bgColor="#d3d3d3" style="center margin") %}
 
 ### <i>**"Never doubt that a small group of thoughtful, committed citizens <br> can change the world; indeed, it's the only thing that ever has."**</i> 
 ### - Margaret Mead

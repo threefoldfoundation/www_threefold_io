@@ -25,7 +25,7 @@ Experience true ownership of your deployments with a decentralized framework. Ev
 
 {% end %}
 
-{% row(bgColor="#abfcd5" style="center margin") %}
+{% row(bgColor="#d3d3d3" style="center margin") %}
 
 ## More Resources to Get Started
 

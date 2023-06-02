@@ -60,7 +60,7 @@ ThreeFold’s innovative infrastructure is incredibly sustainable, ensuring the 
 
 {% end %}
 
-{% row(bgColor="#73FFD9" style="center margin") %}
+{% row(bgColor="#d3d3d3" style="center margin") %}
 
 
 ## Empowering a **New Internet Era**
