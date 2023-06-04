@@ -211,25 +211,28 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 {% row(style="seminarrow") %}
 
-#### Forum
+
+<a href="https://forum.threefold.io/" target="_blank"><h4>Forum</h4></a>
 
 Connect with our vibrant community, share ideas, and contribute to collective knowledge.
 
 |||
 
-#### Open Source
+
+<a href="/" target="_blank"><h4>Open Source</h4></a>
 
 Help shape ThreeFold's decentralized ecosystem on GitHub.
 
 |||
 
-#### Farming
+
+<a href="/" target="_blank"><h4>Farming</h4></a>
 
 Contribute resources and earn rewards while supporting the growth of the ThreeFold network.
 
 |||
 
-#### Support
+<a href="/support"><h4>Support</h4></a>
 
 Our team is here to assist you along your ThreeFold journey.
 
