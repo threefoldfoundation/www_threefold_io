@@ -6,12 +6,12 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="left wide") %}
+{% row(style="semiNarrow mbottom") %}
 
 <br>
 <br>
 
-![](nodeheader.png#medium)
+![](nodeheader.png#large)
 
 ||| 
 
@@ -24,6 +24,8 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% end %}
 
+
+
 <!-- section 2 (Map) -->
 
 {% grid_stats() %}
@@ -32,36 +34,40 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% end %}
 
+
+
 <!-- section 3 -->
 
-{% row(style="center narrow") %}
+{% row(style="center narrow mtop") %}
 
 ## Simple for Everyone
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center between mbottom") %}
 
 ![Image](host.png#mx-auto)
+
 <br>
 
 ### Host a Node
 
 All you need to get started is a modern computer, electricity and network. Once booted with the operating system, it becomes a Threefold Node. 
 
-
 |||
+
 ![Image](verif.png#mx-auto)
+
 <br>
 
 ### Get Verified
 
 The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized internet for users and communities.
 
-
 |||
 
 ![Image](earn.png#mx-auto)
+
 <br>
 
 ### Earn every Month
@@ -73,7 +79,7 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 <!-- section 4  -->
 
-{% row(style="left wide mbottom") %}
+{% row(style="center between margin") %}
 
 ![](findyourfit.png#medium)
 

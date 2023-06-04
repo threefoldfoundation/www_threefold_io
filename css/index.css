@@ -45,7 +45,7 @@ img[src*="#logo"] {
 }
 
 img[src*="#large"] {
-  width: 1000px;
+  width: 700px;
   margin: auto;
 }
 
@@ -116,16 +116,19 @@ h1 {
 
 @layer components {
   h1 {
-    @apply text-3xl lg:text-7xl font-normal;
+    @apply text-4xl lg:text-6xl font-normal;
+    color: #3d7200;
   }
   h2 {
-    @apply text-3xl lg:text-6xl my-4 font-light leading-none;
+    @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
+    color: #2b2b2b;
   }
   h2 strong {
     @apply font-medium;
   }
   h3 {
-    @apply text-xl lg:text-4xl my-4 font-extralight leading-none;
+    @apply text-2xl lg:text-3xl my-4 font-extralight;
+    color: #3d7200;
   }
   h3 strong {
     @apply font-semibold;
@@ -141,6 +144,7 @@ h1 {
   }
   p {
     @apply text-lg;
+    color: #6c6c6c;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;

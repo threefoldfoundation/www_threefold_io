@@ -84,7 +84,7 @@ Parameters:
     {% endif %}
 
     {% if "mtop" in style %}
-        {% set row_class = row_class ~ " lg:pt-28 pt-10" %}
+        {% set row_class = row_class ~ " lg:pt-28 pt-2" %}
         {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
     {% endif %}
 
@@ -101,14 +101,14 @@ Parameters:
 
      <!-- makes row semi-full screen width, strips margins -->
      {% if "between" in style %}
-     {% set row_class = row_class ~ " lg:max-w-6xl mx-auto" %}
+     {% set row_class = row_class ~ " lg:max-w-6xl lg:mx-auto mx-4" %}
  {% elif "moderate" in style %}
      {% set row_class = row_class ~ " lg:m-20" %}
  {% endif %}
 
         <!-- makes row full screen width, strips margins -->
     {% if "narrow" in style %}
-        {% set row_class = row_class ~ " lg:max-w-5xl" %}
+        {% set row_class = row_class ~ " lg:max-w-5xl mx-auto" %}
     {% elif "moderate" in style %}
         {% set row_class = row_class ~ " lg:m-20" %}
     {% endif %}
@@ -125,7 +125,7 @@ Parameters:
 {% set styles = ""  %}
 {% if bgPath %}
     {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover"  %}
-    {% set row_class = row_class ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+    {% set row_class = row_class ~ "w-screen sm:-mx-12 md:-mx-16 lg:-mx-20" %}
 {% endif %}
 {% if bgColor %}
     {% set styles = "background-color: " ~ bgColor ~ "; background-size: cover"  %}

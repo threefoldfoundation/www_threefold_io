@@ -6,17 +6,14 @@ insert_anchor_links: "left"
 
 <!-- section 1 (header) -->
 
-{% row(style="left wide") %} 
+{% row(style="semiNarrow") %} 
 
 <br>
 <br>
 
-![Image](about_header.png#medium)
+![Image](about_header.png#large)
 
 |||
-
-<br>
-<br>
 
 # Genesis
 
@@ -26,7 +23,16 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {% end %}
 
-{% row(bgColor="#d3d3d3" style="center mtop margin") %}
+<br>
+
+<br>
+
+<br>
+
+
+{% row( style="center margin" bgPath="images/header_bg.jpg") %}
+
+<!-- bgColor="#ececec" -->
 
 ## **Our Mission**
 
@@ -65,7 +71,7 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 <!-- section 4 (OUR ACTIONS) -->
 
-{% row(style="margin semiNarrow" bgColor="#d3d3d3") %}
+{% row(style="margin semiNarrow" bgColor="#ececec") %}
 
 ![Image](kristof.jpeg#medium)
 
@@ -85,11 +91,11 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center narrow mbottom") %}
 
 ![Image](earth.png#medium)
 
-## Green Infrastructure
+### Green Infrastructure
 
 There is no Planet B. And the Internet is consumed a surprisingly large amount of the world's energy, between 5 and 10%. This is why ThreeFold has designed with efficiency in mind to create the most sustainable Internet infrastructure in the world. 
 
@@ -97,9 +103,11 @@ There is no Planet B. And the Internet is consumed a surprisingly large amount o
 
 ![Image](community.png#medium)
 
-## Driving Change Together
+### Driving Change Together
 
 Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory movement and is prioritizing efforts to bring a more accessible Internet to developing regions.
+
+<br>
 
 {% end %}
 
@@ -116,7 +124,7 @@ We are a diverse community of passionate individuals who believe in the power of
 
 {% end %}
 
-{% row(bgColor="#d3d3d3" style="center margin") %}
+{% row(style="center margin" bgPath="images/header_bg.jpg") %}
 
 ### <i>**"Never doubt that a small group of thoughtful, committed citizens <br> can change the world; indeed, it's the only thing that ever has."**</i> 
 ### - Margaret Mead

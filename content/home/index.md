@@ -11,17 +11,18 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="left wide") %} 
+{% row(style="semiNarrow") %} 
+
+<!-- bgPath="images/header_bg.jpg" -->
 
 <br>
 <br>
 
-![Image](home_header.png#medium)
+![Image](home_header.png#large#mx-auto)
 
 |||
 
-<br>
-<br>
+
 
 ### ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
 
@@ -128,7 +129,7 @@ Join a group of people around the globe who believe the world needs ThreeFold an
 
 {% end %}
 
-{% row(bgColor="#d3d3d3" style="center margin") %}
+{% row(style="center margin" bgPath="images/header_bg.jpg") %}
 
 <br>
 
@@ -141,6 +142,6 @@ We're open-source and decentralized, so we use a token called $TFT to fuel the m
 <button>[Dive into the Token](/tft)</button>
 <button>[Buy $TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
 
-<br>
+
 
 {% end %}

@@ -6,12 +6,12 @@ insert_anchor_links: "left"
 
 <!-- section 1  -->
 
-{% row(style="left wide mbottom ") %}
+{% row(style="semiNarrow") %}
 
 <br>
 <br>
 
-![](buildheader.png#medium)
+![](buildheader.png#large)
 
 |||
 
@@ -24,6 +24,10 @@ Experience true ownership of your deployments with a decentralized framework. Ev
 <button>[Grid Dashboard](https://dashboard.grid.tf)</button>
 
 {% end %}
+
+<br>
+
+<br>
 
 {% row(bgColor="#d3d3d3" style="center margin") %}
 
@@ -60,7 +64,7 @@ Take a look at some of what's being built on top of the grid today. More coming 
 
 {% end %}
 
-{% row(style="left wide") %}
+{% row(style="semiNarrow") %}
 
 ![Image](zonaris_new.png#medium)
 
@@ -205,7 +209,7 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 {% end %}
 
-{% row(style="left wide") %}
+{% row(style="seminarrow") %}
 
 #### Forum
 
