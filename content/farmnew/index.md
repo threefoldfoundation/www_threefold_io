@@ -6,9 +6,10 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="semiNarrow mbottom") %}
+{% row(style="semiNarrow mbottom" bgPath="images/bg_new.jpg") %}
 
 <br>
+
 <br>
 
 ![](nodeheader.png#large)
@@ -24,6 +25,12 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% end %}
 
+<br>
+
+<br>
+
+<br>
+
 
 
 <!-- section 2 (Map) -->
@@ -34,6 +41,9 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% end %}
 
+<br>
+
+<br>
 
 
 <!-- section 3 -->
@@ -81,7 +91,7 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 {% row(style="center between margin") %}
 
-![](findyourfit.png#medium)
+![](findyourfit.png#mx-auto)
 
 |||
 
@@ -97,6 +107,8 @@ ThreeFold’s operating system was designed to be hardware agnostic, and already
 <button>[Do It Yourself](https://manual.grid.tf/TF_Farmer_Guide/TF_Complete_Farmer_Guide/farmer_guide.html)</button>
 
 {% end %}
+
+
 
 <!-- section 5 -->
 
