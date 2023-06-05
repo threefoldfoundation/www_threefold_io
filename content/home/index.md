@@ -157,7 +157,7 @@ Join a group of people around the globe who believe the world needs ThreeFold an
 <!-- section 5 -->
 
 
-{% row(style="center margin" bgPath="images/checkerboard1.jpg") %}
+{% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
 <br>
 

@@ -53,7 +53,7 @@ The ThreeFold Team and community have spent countless hours creating written and
 
 <!-- section 3  -->
 
-{% row(style="center margin" bgPath="images/checkerboard1.jpg") %}
+{% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
 ### The ThreeFold Grid offers a range of low-level constructs known as Primitives. <br>These powerful functionalities enable you to create diverse and customized <br>solutions on top of the grid, opening up a world of possibilities.
 
@@ -197,7 +197,7 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 <!-- section 6  -->
 
-{% row(style="center margin" bgPath="images/checkerboard1.jpg") %}
+{% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
 ## Solution Provider
 

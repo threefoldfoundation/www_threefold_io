@@ -75,7 +75,7 @@ We empower self-sovereignty and autonomy.
 
 <!-- section 3 -->
 
-{% row(style="margin" bgPath="images/checkerboard1.jpg") %}
+{% row(style="margin" bgPath="checkerboard1.jpg") %}
 
 ![Image](kristof.jpeg#medium)
 
@@ -118,7 +118,7 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 
 <!-- section 5 -->
 
-{% row(style="center margin" bgPath="images/checkerboard2.jpg") %}
+{% row(style="center margin" bgPath="checkerboard2.jpg") %}
 
 ## Our Community is United by
 ### **Passion and Purpose**
