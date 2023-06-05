@@ -6,12 +6,13 @@ insert_anchor_links: "left"
 
 <!-- section 1  -->
 
-{% row(style="semiNarrow") %}
+{% row(style="semiNarrow mbottom" bgPath="images/bg_new.jpg") %}
 
 <br>
+
 <br>
 
-![](buildheader.png#large)
+![Image](buildheader.png#large)
 
 |||
 
@@ -29,7 +30,11 @@ Experience true ownership of your deployments with a decentralized framework. Ev
 
 <br>
 
-{% row(bgColor="#d3d3d3" style="center margin") %}
+
+<!-- section 2  -->
+
+
+{% row(style="center margin") %}
 
 ## More Resources to Get Started
 
@@ -44,50 +49,54 @@ The ThreeFold Team and community have spent countless hours creating written and
 
 {% end %}
 
-{% row(style="center mtop between") %}
 
-### The ThreeFold Grid offers a range of low-level constructs known as Primitives. These powerful functionalities enable you to create diverse and customized solutions on top of the grid, opening up a world of possibilities.
 
-### Any application compatible with Linux can seamlessly run on the ThreeFold Grid, ensuring maximum flexibility.
+<!-- section 3  -->
+
+{% row(style="center margin" bgPath="images/checkerboard1.jpg") %}
+
+### The ThreeFold Grid offers a range of low-level constructs known as Primitives. <br>These powerful functionalities enable you to create diverse and customized <br>solutions on top of the grid, opening up a world of possibilities.
+
+### Any application compatible with Linux can seamlessly run on the ThreeFold Grid,<br>ensuring maximum flexibility.
 
 <button>[More on Grid Primitives](https://manual.grid.tf/concepts/grid_primitives.html)</button>
 
 {% end %}
 
+
+
+<!-- section 4  -->
+
+
 {% row(style="center mtop narrow") %}
 
-# Unleashing the Potential
+## Unleashing the Potential
 
-## ThreeFold Technology In Action
+### ThreeFold Technology In Action
 
 Take a look at some of what's being built on top of the grid today. More coming soon.
 
 {% end %}
 
-{% row(style="semiNarrow") %}
+{% row(style="between") %}
 
 ![Image](zonaris_new.png#medium)
 
 |||
 
 ### **Deploy Nodes with Zonaris**
+
 #### #Decentralized #Edge #Web3
 
 <br>
 
 Zonaris is revolutionizing the norm by hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be. Zonaris and their customers benefit from ThreeFold's decentralized foundation from both a reliability and resiliency perspective, as there are no central points of failure.
 
-<br>
-
 <button>[Visit Zonaris](https://www.zonaris.io/)</button>
 
 {% end %}
 
-{% row(style="left wide") %}
-
-![Image](hostservice_new.png#medium)
-
-|||
+{% row(style="reverse between") %}
 
 ### **Own Your Cloud with HostService**
 #### #OwnYourData #Autonomous #BlockchainEnabled
@@ -96,13 +105,15 @@ Zonaris is revolutionizing the norm by hosting Web3 Nodes on Web3 infrastructure
 
 HostService offers a service to deploy and support customers with their own Nextcloud environment on top of a decentralized Internet framework. Driven by autonomous technology, smart contracts, and private keys, this keeps data secure and in the hand of the people.
 
-<br>
-
 <button>[Visit Zonaris](https://hostservice.nl/nextcloud/)</button>
+
+|||
+
+![Image](hostservice_new.png#medium)
 
 {% end %}
 
-{% row(style="left wide") %}
+{% row(style="between") %}
 
 ![Image](mastodon_new.png#medium)
 
@@ -115,17 +126,12 @@ HostService offers a service to deploy and support customers with their own Next
 
 ThreeFold has made it possible for anyone to run their own Mastodon instance, simply and effectively. This brings more control – no need to rely on a third party – along with security, privacy, and scalability.
 
-<br>
-
 <button>[Get Mastodon](https://www.mastodon.threefold.io/getserver/)</button>
 
 {% end %}
 
-{% row(style="left wide mbottom") %}
 
-![Image](playground_new.png#medium)
-
-|||
+{% row(style="reverse between mbottom") %}
 
 ### **Access No-Code Deployments**
 #### #Decentralized #Simplicity #Compatibility
@@ -134,25 +140,29 @@ ThreeFold has made it possible for anyone to run their own Mastodon instance, si
 
 Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions – such as full Virtual Machines, Kubernetes, CapRover, and Umbrel – in our interactive playground. The simplest way to build on top of the grid.
 
-<br>
-
 <button>[Visit the Playground](https://manual.grid.tf/weblets/weblets_home.html)</button>
+
+|||
+
+![Image](playground_new.png#medium)
 
 {% end %}
 
+
+
+<!-- section 5  -->
+
 {% row(style="center mtop") %}
 
-# Discover the ThreeFold Advantage
+## Discover the ThreeFold Advantage
 
 ### Empowering Sovereign, Scalable, and Secure Solutions
 
 {% end %}
 
-<!-- section 2  -->
+{% row(style="center mbottom between") %}
 
-{% row(style="center between") %}
-
-## Infrastructure as Code (IaC)
+### Infrastructure as Code (IaC)
 
 Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform. Enhance provisioning with deterministic smart contracts, minimize overheads, and boost your efficiency.
 
@@ -162,7 +172,7 @@ Revolutionize your IT deployments with machine-readable definition files, and en
 
 |||
 
-## Dedicated Nodes
+### Dedicated Nodes
 
 Achieve ultimate control and flexibility by reserving entire nodes tailored for your projects.
 Optimize security and customization for high-demand workloads, such as blockchain nodes, while enjoying competitive pricing.
@@ -173,7 +183,7 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 |||
 
-## Quantum Safe Storage
+### Quantum Safe Storage
 
 Experience the boundless possibilities of a distributed, quantum-proof storage system – designed to encrypt, compress, shard, and distribute your data, empowering you with unmatched security, scalability, and efficiency.
 
@@ -183,11 +193,15 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 {% end %}
 
-{% row(style="center mtop between") %}
+
+
+<!-- section 6  -->
+
+{% row(style="center margin" bgPath="images/checkerboard1.jpg") %}
 
 ## Solution Provider
 
-Earn up to 50% of the utilization revenues of solutions that you create, promote, and support on top of the ThreeFold Grid. Follow our guided process to benefit from our dynamic revenue-sharing model.
+Earn up to 50% of the utilization revenues of solutions that you create, promote, and support on top of the ThreeFold Grid.<br>Follow our guided process to benefit from our dynamic revenue-sharing model.
 
 <br>
 
@@ -201,15 +215,19 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 {% end %}
 
-{% row(style="center between") %}
 
-# Engage with the Community
 
-## Be Part of the Decentralized Movement
+<!-- section 6  -->
+
+{% row(style="center mtop between") %}
+
+## Engage with the Community
+
+### Be Part of the Decentralized Movement
 
 {% end %}
 
-{% row(style="seminarrow") %}
+{% row(style="between mbottom") %}
 
 
 <a href="https://forum.threefold.io/" target="_blank"><h4>Forum</h4></a>

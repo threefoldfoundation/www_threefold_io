@@ -144,7 +144,7 @@ h1 {
   }
   p {
     @apply text-lg;
-    color: #6c6c6c;
+    color: #3d3d3d;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
@@ -178,7 +178,7 @@ h1 {
   }
 
   h4 a:hover{
-    color:#535353;
+    color:#3d7200;
 
   }
 

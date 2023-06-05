@@ -24,7 +24,9 @@ extra:
 
 |||
 
-### ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
+# Welcome to ThreeFold
+
+ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
 
 ### A sovereign alternative to the centralized Internet.
 
