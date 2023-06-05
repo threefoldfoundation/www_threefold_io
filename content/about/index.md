@@ -83,11 +83,12 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 <!-- section 3 -->
 
-{% row(style="margin" bgPath="checkerboard1.jpg") %}
+{% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
-![Image](kristof.jpeg#medium)
+![Image](KDS.png#mx-auto)
 
-|||
+<br>
+
 
 <i>"ThreeFold is the catalyst for a new digital era, where individuals regain sovereignty over <br>their digital lives and come together to build an Internet that fosters innovation and shared prosperity." </i>
 
