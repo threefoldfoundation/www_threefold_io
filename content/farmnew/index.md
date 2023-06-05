@@ -6,7 +6,7 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="semiNarrow mbottom" bgPath="images/bg_new.jpg") %}
+{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
 
 <br>
 

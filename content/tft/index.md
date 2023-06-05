@@ -7,12 +7,12 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="left wide") %} 
+{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
 
 <br>
 <br>
 
-![Image](token_header.png#medium)
+![Image](token_header.png#large)
 
 |||
 
@@ -25,6 +25,9 @@ Join the Internet revolution with the ThreeFold Token (TFT), an innovative utili
 
 {% end %}
 
+<br>
+
+<br>
 {% row(style="center narrow between mtop") %}
 
 ### **Real Utility**

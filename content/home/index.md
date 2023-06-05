@@ -11,7 +11,7 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="semiNarrow mbottom" bgPath="images/bg_new.jpg") %} 
+{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %} 
 
 <!-- bgPath="images/header_bg.jpg" -->
 
