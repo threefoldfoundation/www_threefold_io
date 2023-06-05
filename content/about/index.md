@@ -29,7 +29,9 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 <br>
 
 
-{% row( style="center margin") %}
+<!-- section 2 -->
+
+{% row( style="center matop") %}
 
 <!-- bgColor="#ececec" -->
 
@@ -39,50 +41,54 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {%end %}
 
-<!-- section 3 (SOVEREIGN) -->
 
-{% row(style="center margin narrow") %}
+{% row(style="center mbottom semiNarrow") %}
 
-## **Open-Source**
-### Collaboration and openness are key to building a better world.
+### **Open-Source**
+Collaboration and openness are key to building a better world.
 
-<br>
+|||
 
-## **Simplicity**
-### Fostering clarity. Driving innovation. Enabling scalability.
+### **Simplicity**
+Fostering clarity. Driving innovation. Enabling scalability.
 
-<br>
+|||
 
-## **Authenticity**
-### We are genuine and vulnerable.
+### **Authenticity**
+We are genuine and vulnerable.
 
-<br>
+|||
 
-## **Planet-First**
-### Our solutions must be sustainable.
+### **Planet-First**
+Our solutions must be sustainable.
 
-<br>
+|||
 
-## **People-Centric**
-### We empower self-sovereignty and autonomy.
+### **People-Centric**
+We empower self-sovereignty and autonomy.
 
 {% end %}
 
-<!-- section 4 (OUR ACTIONS) -->
+<br>
 
-{% row(style="margin semiNarrow" bgColor="#ececec") %}
+<br>
+
+<!-- section 3 -->
+
+{% row(style="margin" bgPath="images/checkerboard1.jpg") %}
 
 ![Image](kristof.jpeg#medium)
 
 |||
 
-<i>"ThreeFold is the catalyst for a new digital era, where individuals regain sovereignty over their digital lives and come together to build an Internet that fosters innovation and shared prosperity." </i>
+<i>"ThreeFold is the catalyst for a new digital era, where individuals regain sovereignty over <br>their digital lives and come together to build an Internet that fosters innovation and shared prosperity." </i>
 
 ### **Kristof de Spiegeleer** | Co-Founder
 
 {% end %}
 
-<!-- section 7 (REVOLUTION) -->
+
+<!-- section 4-->
 
 {% row(style="center narrow mtop") %}
 
@@ -106,24 +112,28 @@ There is no Planet B. And the Internet is consumed a surprisingly large amount o
 
 Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory movement and is prioritizing efforts to bring a more accessible Internet to developing regions.
 
-<br>
-
 {% end %}
 
-<!-- section 6 (GETTING STARTED) -->
+<br>
 
-{% row(style="center margin narrow mbottom") %}
+<!-- section 5 -->
+
+{% row(style="center margin" bgPath="images/checkerboard2.jpg") %}
 
 ## Our Community is United by
 ### **Passion and Purpose**
 
-We are a diverse community of passionate individuals who believe in the power of technology to bring about positive change. Our mission is to realize the vision of a decentralized, self-sovereign digital world, enabling equitable and sustainable opportunities for all. Together, we are building a new Internet that puts power back into the hands of the people.
+We are a diverse community of passionate individuals who believe in the power of technology to bring about positive change.<br>
+Our mission is to realize the vision of a decentralized, self-sovereign digital world, enabling equitable and sustainable opportunities for all.<br> Together, we are building a new Internet that puts power back into the hands of the people.
 
 <button>[Join the Revolution](/community)</button>
 
 {% end %}
 
-{% row(style="center margin" bgPath="images/header_bg.jpg") %}
+
+<!-- section 6 -->
+
+{% row(style="center narrow  margin") %}
 
 ### <i>**"Never doubt that a small group of thoughtful, committed citizens <br> can change the world; indeed, it's the only thing that ever has."**</i> 
 ### - Margaret Mead
