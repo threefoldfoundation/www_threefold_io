@@ -6,9 +6,10 @@ insert_anchor_links: "left"
 
 <!-- section 1 (header) -->
 
-{% row(style="semiNarrow") %} 
+{% row(style="semiNarrow mbottom" bgPath="images/bg_new.jpg") %}
 
 <br>
+
 <br>
 
 ![Image](about_header.png#large)
@@ -27,10 +28,8 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 <br>
 
-<br>
 
-
-{% row( style="center margin" bgPath="images/header_bg.jpg") %}
+{% row( style="center margin") %}
 
 <!-- bgColor="#ececec" -->
 

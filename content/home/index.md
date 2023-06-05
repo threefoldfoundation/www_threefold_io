@@ -11,18 +11,18 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="semiNarrow") %} 
+{% row(style="semiNarrow mbottom" bgPath="images/bg_new.jpg") %} 
 
 <!-- bgPath="images/header_bg.jpg" -->
 
 <br>
+
 <br>
 
 ![Image](home_header.png#large#mx-auto)
 
+
 |||
-
-
 
 ### ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
 
@@ -31,9 +31,13 @@ extra:
 <button>[How It Works](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
 <button>[Get Started](https://manual.grid.tf/intro/intro_readme.html)</button>
 
- <br>
+<br>
+
+<br>
 
 {% end %}
+
+<!-- section 2 -->
 
 {% row(style="center mtop narrow") %}
 
@@ -43,7 +47,7 @@ extra:
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center reverse mbottom narrow") %}
 
 ### **Outdated.**
 
@@ -63,17 +67,27 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% end %}
 
-{% row(style="center narrow mtop") %}
+<br>
+
+<br>
+
+<!-- section 3 -->
+
+{% row(style="center margin" bgPath="images/checkerboard2.jpg") %}
 
 ## Evolving the Internet, Together
 
-### Over a decade ago, a group of early Internet pioneers, who understood the problems of the centralized Internet model first-hand, came together to re-imagine the infrastructure for an open and decentralized Internet.
+### Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.
 
 ### But we didn't just imagine it – we built it.
 
 {% end %}
 
-<!-- section 2 (Map) -->
+<br>
+
+<br>
+
+<!-- section 4 (Map) -->
 
 {% grid_stats() %}
 
@@ -83,13 +97,20 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% end %}
 
-{% row(style="center mbottom narrow") %}
+<br>
+
+<br>
+
+
+<!-- section 5 -->
+
+{% row(style="center margin narrow") %}
 
 ### The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 ## Take Action Today
 
@@ -129,7 +150,12 @@ Join a group of people around the globe who believe the world needs ThreeFold an
 
 {% end %}
 
-{% row(style="center margin" bgPath="images/header_bg.jpg") %}
+
+
+<!-- section 5 -->
+
+
+{% row(style="center margin" bgPath="images/checkerboard1.jpg") %}
 
 <br>
 

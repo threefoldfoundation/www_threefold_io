@@ -62,6 +62,12 @@ Parameters:
 
 {% if style %}
 
+ <!-- reverse col at mobile -->
+
+ {% if "reverse" in style %}
+ {% set row_class = "flex flex-col-reverse md:flex-row items-center" %}
+ {% endif %}
+
     {% if "center" in style %}
         {% set row_class = row_class ~ " text-center mx-auto justify-center" %}
         {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
@@ -69,12 +75,6 @@ Parameters:
 
     {% if "text-white" in style %}
     {% set row_class = row_class ~ " text-white" %}
-    {% endif %}
-
-    <!-- reverse col at mobile -->
-
-    {% if "reverse" in style %}
-    {% set row_class = "flex flex-col-reverse md:flex-row items-center" %}
     {% endif %}
 
     <!-- makes row with margins -->
@@ -124,7 +124,7 @@ Parameters:
 <!-- makes row full screen width and adds background img -->
 {% set styles = ""  %}
 {% if bgPath %}
-    {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover"  %}
+    {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover; background-position: bottom"  %}
     {% set row_class = row_class ~ "w-screen sm:-mx-12 md:-mx-16 lg:-mx-20" %}
 {% endif %}
 {% if bgColor %}
@@ -135,6 +135,13 @@ Parameters:
     {% set styles = "background: " ~ gradient ~ "; background-size: cover"  %}
     {% set row_class = row_class ~ " w-auto -mx-4 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
 {% endif %}
+{% if bgStyle %}
+        {% if "full" in bgStyle %}
+            {% set styles = styles ~ "height: -webkit-fill-available; height: 100vh;"  %}
+        {% elif "hero" in bgStyle %}
+            {% set div_class = div_class ~ " -mt-24 pt-12 " %}
+        {% endif %}
+    {% endif %}
 
 {% set url = body | split(pat="href=") | slice(start=1) | first | split(pat=">") | first | trim_start_matches(pat='"') %}
 
