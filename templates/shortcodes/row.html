@@ -135,13 +135,6 @@ Parameters:
     {% set styles = "background: " ~ gradient ~ "; background-size: cover"  %}
     {% set row_class = row_class ~ " w-auto -mx-4 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
 {% endif %}
-{% if bgStyle %}
-        {% if "full" in bgStyle %}
-            {% set styles = styles ~ "height: -webkit-fill-available; height: 100vh;"  %}
-        {% elif "hero" in bgStyle %}
-            {% set div_class = div_class ~ " -mt-24 pt-12 " %}
-        {% endif %}
-    {% endif %}
 
 {% set url = body | split(pat="href=") | slice(start=1) | first | split(pat=">") | first | trim_start_matches(pat='"') %}
 
