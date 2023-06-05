@@ -1,4 +1,4 @@
-{% set styles = "background-image: url('images/V3.png');" %}
+{% set styles = "background-image: url('V3.png');" %}
 {% set data = load_data(url="https://gridproxy.grid.tf/stats?status=up", required=false, format="json") %}
 {% if data %}
 {% set capacity = (data.totalHru + data.totalSru) / 1024 / 1024 / 1024 / 1024 / 1024 %}
@@ -18,7 +18,7 @@
 
                 <!-- capacity -->
             <div class="flex flex-col border border-gray-50 shadow-lg bg-white py-8 my-4">
-                    <img class="mx-auto p-4" src="images/V3-08.png" width="150" alt="">
+                    <img class="mx-auto p-4" src="V3-08.png" width="150" alt="">
                 <div class="leading-none font-extrabold text-3xl">
                     {{ capacity | round(precision=2) }}PB
                     <span class="block text-lg mt-4 font-normal capitalize">capacity</span>
@@ -28,7 +28,7 @@
 
                 <!-- Nodes -->
             <div class="flex flex-col border border-gray-50 shadow-lg bg-white py-8 my-4">
-                    <img class="mx-auto p-4" src="images/V3-09.png" width="150" alt="">
+                    <img class="mx-auto p-4" src="V3-09.png" width="150" alt="">
                 <div class="leading-none font-extrabold text-3xl">
                     {{ nodes }}
                     <span class="block text-lg mt-4 font-normal capitalize">nodes</span>
@@ -39,7 +39,7 @@
 
                 <!-- countries -->
             <div class="flex flex-col border border-gray-50 shadow-lg bg-white py-8 my-4">
-                    <img class="mx-auto p-4" src="images/V3-10.png" width="150" alt="">
+                    <img class="mx-auto p-4" src="V3-10.png" width="150" alt="">
                 <div class="leading-none font-extrabold text-3xl">
                     {{ countries }}
                     <span class="block text-lg mt-4 font-normal capitalize">countries</span>
@@ -48,7 +48,7 @@
 
               <!-- cores -->
             <div class="flex flex-col border border-gray-50 shadow-lg bg-white py-8 my-4">
-                   <img class="mx-auto p-4" src="images/V3-11.png" width="150" alt="">
+                   <img class="mx-auto p-4" src="V3-11.png" width="150" alt="">
                 <div class="leading-none font-extrabold text-3xl">
                 {{ cores | num_format }}
                 <span class="block text-lg mt-4 font-normal capitalize">cores</span>
