@@ -28,6 +28,11 @@ Join the Internet revolution with the ThreeFold Token (TFT), an innovative utili
 <br>
 
 <br>
+
+
+
+<!-- section 2 -->
+
 {% row(style="center narrow between mtop") %}
 
 ### **Real Utility**
@@ -64,12 +69,14 @@ ThreeFold’s innovative infrastructure is incredibly sustainable, ensuring the 
 
 {% end %}
 
-{% row(bgColor="#d3d3d3" style="center margin") %}
+
+
+<!-- section 3 -->
+
+{% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
 
 ## Empowering a **New Internet Era**
-
-<br>
 
 ThreeFold uses peer-to-peer technology to operate with no centralized servers or intermediaries, <br>providing a decentralized and open-source environment where everyone can participate. <br>
 
@@ -77,25 +84,23 @@ TFT serves as the medium of exchange on the ThreeFold Grid, empowering users to 
 
 {% end %}
 
-{% row(style="center narrow") %}
 
-<br>
+
+<!-- section 4 -->
+
+{% row(style="center mtop narrow") %}
 
 ## Uses of **TFT** are Growing
 
-<br>
-
 With the ThreeFold Grid's programmable nature, 
-<br>
-developers have unlimited possibilities to build the future.
 
-<br>
+developers have unlimited possibilities to build the future.
 
 <button>[Buy TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
 
 {% end %}
 
-{% row(style="center mbottom") %}
+{% row(style="center between mbottom") %}
 
 ![](use_icon.png#medium)
 
@@ -116,13 +121,15 @@ Soon you will be able to partake in the network's decentralization and earn rewa
 
 {% end %}
 
-{% row(style="center mbottom") %}
+
+
+<!-- section 5 -->
+
+{% row(style="reverse center between margin") %}
 
 ## Harness the Power of **Multiple Blockchains**
 
 TFT exists on four different blockchains: Stellar, TF Chain (Polkadot), Ethereum, and Binance Smart Chain. This brings more accessibility to the token and more opportunities to collaborate with the greater blockchain community.
-
-<br>
 
 <button>[Read About TFT](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
 
@@ -133,7 +140,10 @@ TFT exists on four different blockchains: Stellar, TF Chain (Polkadot), Ethereum
 {% end %}
 
 
-{% row(style="center mbottom narrow") %}
+
+<!-- section 6 -->
+
+{% row(style="center margin between") %}
 
 ![](tft_burn.jpg#mx-auto)
 
@@ -143,19 +153,20 @@ TFT exists on four different blockchains: Stellar, TF Chain (Polkadot), Ethereum
 
 You can buy TFT from decentralized exchanges or wallets directly. We have compiled tutorials and manuals to help you out, including how to buy, trade, and store TFT.
 
-<br>
-
 <button>[Discover Your Options](https://library.threefold.me/info/threefold#/tokens/threefold__tft_ecosystem)</button>
 
 {% end %}
 
-{% row(style="center") %}
+
+
+<!-- section 7 -->
+
+
+{% row(style="reverse center margin between") %}
 
 ## Drive **Liquidity**
 
 ThreeFold believes in the organic and sustainable growth of ThreeFold Token. And one of our key goals is to strengthen the foundation of the ecosystem by enhancing the stability and liquidity of TFT.
-
-<br>
 
 <button>[Drive TFT Liquidity](https://library.threefold.me/info/threefold#/tokens/threefold__tft_liquidity)</button>
 
