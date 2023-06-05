@@ -41,31 +41,39 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {%end %}
 
+{% row( style="center") %}
 
-{% row(style="center mbottom semiNarrow") %}
+## **Open-Source**
+### Collaboration and openness are key to building a better world.
 
-### **Open-Source**
-Collaboration and openness are key to building a better world.
+{%end %}
 
-|||
+{% row( style="center") %}
 
-### **Simplicity**
-Fostering clarity. Driving innovation. Enabling scalability.
+## **Simplicity**
+### Fostering clarity. Driving innovation. Enabling scalability.
 
-|||
+{%end %}
 
-### **Authenticity**
-We are genuine and vulnerable.
 
-|||
+{% row( style="center") %}
 
-### **Planet-First**
-Our solutions must be sustainable.
+## **Authenticity**
+### We are genuine and vulnerable.
 
-|||
+{%end %}
 
-### **People-Centric**
-We empower self-sovereignty and autonomy.
+{% row( style="center") %}
+
+## **Planet-First**
+### Our solutions must be sustainable.
+
+{%end %}
+
+{% row( style="center") %}
+
+## **People-Centric**
+### We empower self-sovereignty and autonomy.
 
 {% end %}
 
