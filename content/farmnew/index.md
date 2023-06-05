@@ -35,7 +35,7 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 <!-- section 2 (Map) -->
 
-{% grid_stats() %}
+{% grid_stats_expand() %}
 
 ## Join the **Internet Revolution**
 
