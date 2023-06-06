@@ -43,7 +43,7 @@ insert_anchor_links: "left"
 
 <!-- section 2 (QUESTIONS) -->
 
-{% row(bgColor="#f2f2f2" style="center margin") %}
+{% row(style="center margin" bgPath="checkerboard2.jpg") %}
 
 ## Frequently Asked <br> **Questions**
 
