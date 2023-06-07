@@ -9,9 +9,9 @@ extra:
 
 
 - [About]("/about")
-- [Expand]("/farmnew")
-- [Build]("/buildnew")
-- [Token]("/tft")
+- [Expand]("/expand")
+- [Build]("/build")
+- [Token]("/token")
 - Ecosystem
 
 {% row() %}

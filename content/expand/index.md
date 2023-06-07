@@ -128,7 +128,7 @@ The more people use TFT, the more TFT will be ‘burnt’, reducing the overall 
 
 <br>
 
-<button>[Learn More](/tft)</button>
+<button>[Learn More](/token)</button>
 
 
 {% end %}
