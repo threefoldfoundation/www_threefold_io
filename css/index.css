@@ -44,6 +44,11 @@ img[src*="#logo"] {
   margin: auto;
 }
 
+img[src*="#icon"] {
+  width: 200px;
+  margin: auto;
+}
+
 img[src*="#large"] {
   width: 700px;
   margin: auto;

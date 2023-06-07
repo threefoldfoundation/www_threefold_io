@@ -236,6 +236,8 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 <!-- <a href="https://forum.threefold.io/" target="_blank"><h3>Forum</h3></a> -->
 
+![Image](Forum.png#icon)
+
 ### **Forum**
 
 Connect with our vibrant community, share ideas, and contribute to collective knowledge.
@@ -246,6 +248,8 @@ Connect with our vibrant community, share ideas, and contribute to collective kn
 
 
 <!-- <a href="https://github.com/threefoldtech/home" target="_blank"><h3>Open Source</h3></a> -->
+
+![Image](Open-Source.png#icon)
 
 ### **Open Source**
 
@@ -264,6 +268,9 @@ Help shape ThreeFold's decentralized ecosystem on GitHub.
 {% row(style="between center") %}
 
 <!-- <a href="/farm" target="_blank"><h3>Farming</h3></a> -->
+
+![Image](Farming.png#icon)
+
 ### **Farming**
 
 Contribute resources and earn rewards while supporting the growth of the ThreeFold network.
@@ -274,6 +281,8 @@ Contribute resources and earn rewards while supporting the growth of the ThreeFo
 |||
 
 <!-- <a href="/support"><h3>Support</h3></a> -->
+
+![Image](Support.png#icon)
 
 ### **Support**
 
