@@ -31,51 +31,46 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 <!-- section 2 -->
 
-{% row( style="center matop") %}
+{% row( style="center between mtop") %}
 
 <!-- bgColor="#ececec" -->
 
-## **Our Mission**
+### **Our Mission**
 
-### Enabling a decentralized Internet that empowers individuals and communities<br>with economic and social freedom.
+Enabling a decentralized Internet that empowers individuals and communities<br>with economic and social freedom.
 
-{%end %}
+|||
 
-{% row( style="center") %}
+### **Open-Source**
+Collaboration and openness are key to building a better world.
 
-## **Open-Source**
-### Collaboration and openness are key to building a better world.
+|||
 
-{%end %}
-
-{% row( style="center") %}
-
-## **Simplicity**
-### Fostering clarity. Driving innovation. Enabling scalability.
+### **Simplicity**
+Fostering clarity. Driving innovation. Enabling scalability.
 
 {%end %}
 
 
-{% row( style="center") %}
 
-## **Authenticity**
-### We are genuine and vulnerable.
+{% row( style="center between mbottom") %}
 
-{%end %}
+### **Authenticity**
+We are genuine and vulnerable.
 
-{% row( style="center") %}
+|||
 
-## **Planet-First**
-### Our solutions must be sustainable.
+### **Planet-First**
+Our solutions must be sustainable.
 
-{%end %}
+|||
 
-{% row( style="center") %}
-
-## **People-Centric**
-### We empower self-sovereignty and autonomy.
+### **People-Centric**
+We empower self-sovereignty and autonomy.
 
 {% end %}
+
+
 
 <br>
 
