@@ -28,9 +28,8 @@ extra:
 
 ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
 
-### A sovereign alternative to the centralized Internet.
+A sovereign alternative to the centralized Internet.
 
-<button>[How It Works](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
 <button>[Get Started](https://manual.grid.tf/intro/intro_readme.html)</button>
 
 <br>
@@ -55,11 +54,11 @@ ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allow
 
 The current Internet is built on a centralized antiquated foundation, hindering scalability and efficiency.
 
-### **Not equal.**
+### **Not Scalable.**
 
 Over 3 billion people lack reliable Internet access.
 
-### **Not sustainable.**
+### **Not Sustainable.**
 
 The current Internet consumes between 5-10% of the world’s energy.
 
@@ -128,6 +127,8 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 Independent people and organizations connect hardware to the ThreeFold Grid. Provide Internet capacity for the people around you, and earn for it. 
 
+<br>
+
 <button>[Become a Node](/farmnew)</button>
 
 |||
@@ -137,6 +138,8 @@ Independent people and organizations connect hardware to the ThreeFold Grid. Pro
 ### **Build**
 
 Developers and Sysadmins use ThreeFold technology to build, deploy, and store on top of community-owned Internet capacity. They pay with $TFT.
+
+<br>
 
 <button>[Build on the Platform](/buildnew)</button>
 
@@ -148,7 +151,9 @@ Developers and Sysadmins use ThreeFold technology to build, deploy, and store on
 
 Join a group of people around the globe who believe the world needs ThreeFold and take action to bring the project forward.
 
-<button>[Join the Community](/community)</button>
+<br>
+
+<button>[Join the Community](https://t.me/threefold)</button>
 
 {% end %}
 
