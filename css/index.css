@@ -159,7 +159,7 @@ h1 {
     @apply 
     inline-block
     lg:text-lg
-    lg:mr-5
+    lg:mx-3
     py-1
     my-3
     border-2
@@ -172,12 +172,12 @@ h1 {
 
   }
 
-  h4 a{
+  h3 a{
     color:#2b2b2b;
 
   }
 
-  h4 a:hover{
+  h3 a:hover{
     color:#3d7200;
 
   }

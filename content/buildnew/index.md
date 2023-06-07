@@ -179,6 +179,8 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 <br>
 
+<br>
+
 <button> [Learn More](https://manual.grid.tf/dashboard/portal/dashboard_portal_dedicated_nodes.html) </button>
 
 |||
@@ -186,6 +188,8 @@ Optimize security and customization for high-demand workloads, such as blockchai
 ### Quantum Safe Storage
 
 Experience the boundless possibilities of a distributed, quantum-proof storage system – designed to encrypt, compress, shard, and distribute your data, empowering you with unmatched security, scalability, and efficiency.
+
+<br>
 
 <br>
 
@@ -199,7 +203,7 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 {% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
-## Solution Provider
+## Monetize Your Solutions
 
 Earn up to 50% of the utilization revenues of solutions that you create, promote, and support on top of the ThreeFold Grid.<br>Follow our guided process to benefit from our dynamic revenue-sharing model.
 
@@ -227,31 +231,59 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 {% end %}
 
-{% row(style="between mbottom") %}
+{% row(style="between center") %}
 
 
-<a href="https://forum.threefold.io/" target="_blank"><h4>Forum</h4></a>
+<!-- <a href="https://forum.threefold.io/" target="_blank"><h3>Forum</h3></a> -->
+
+### **Forum**
 
 Connect with our vibrant community, share ideas, and contribute to collective knowledge.
 
+<button>[Learn More](https://forum.threefold.io/)</button>
+
 |||
 
 
-<a href="/" target="_blank"><h4>Open Source</h4></a>
+<!-- <a href="https://github.com/threefoldtech/home" target="_blank"><h3>Open Source</h3></a> -->
+
+### **Open Source**
 
 Help shape ThreeFold's decentralized ecosystem on GitHub.
 
-|||
+<br>
+
+<button>[Learn More](https://github.com/threefoldtech/home)</button>
 
 
-<a href="/" target="_blank"><h4>Farming</h4></a>
+{% end %}
+
+<br>
+
+
+{% row(style="between center") %}
+
+<!-- <a href="/farm" target="_blank"><h3>Farming</h3></a> -->
+### **Farming**
 
 Contribute resources and earn rewards while supporting the growth of the ThreeFold network.
 
+
+<button>[Learn More](/farm)</button>
+
 |||
 
-<a href="/support"><h4>Support</h4></a>
+<!-- <a href="/support"><h3>Support</h3></a> -->
+
+### **Support**
 
 Our team is here to assist you along your ThreeFold journey.
+
+
+<br>
+
+<button>[Learn More](/support)</button>
+
+
 
 {% end %}
