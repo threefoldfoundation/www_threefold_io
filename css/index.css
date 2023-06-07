@@ -166,11 +166,13 @@ h1 {
     lg:text-lg
     lg:mx-3
     py-1
-    my-3
-    border-2
+    my-4
+    border
+    rounded
     shadow
-    border-black
+    border-gray-400
     capitalize
+    bg-gray-200
   }
   .my-header h4{
     color:#9f9f9f;
@@ -458,6 +460,7 @@ header #menu button {
   lg:mr-5
   my-3
   shadow
+  bg-white
   border-black
   capitalize 
   leading-6 
