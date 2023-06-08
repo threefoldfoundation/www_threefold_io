@@ -1,190 +1,298 @@
 ---
-title: "Build"
+title: "Buildnew"
 template: "page.html"
 insert_anchor_links: "left"
 ---
 
-{% row(style="center mbottom narrow") %}
-
-## Limitless **Possibilities**
-
-Today's centralized Internet cannot keep up with the demands of our digital world. ThreeFold's decentralized and autonomous infrastructure benefits a wide range of current and emerging workloads.
-
-<br>
-
-![Image](possibilities.png#mx-auto)
-
-{% end %}
-
 <!-- section 1  -->
 
-{% row(style="center margin narrow") %}
-
-![](developet_tft.jpg#medium)
-
-
-## The Next Generation of <br> **Cloud Computing**
-
-Deploy any workload with unprecedented security, scalability, and efficiency, on a fully comprehensive peer-to-peer digital infrastructure. Discover a cloud like no other.
+{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
 
 <br>
 
-<button>[Dashboard](https://dashboard.grid.tf)</button>
-<button>[Playground](https://play.grid.tf)</button>
-<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
-<button>[Grid Chat](https://t.me/threefoldtesting)</button>
+<br>
+
+![Image](buildheader.png#large)
+
+|||
+
+# Build the Future
+### Develop and Administer on a Decentralized Autonomous Edge Cloud
+
+Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.
+
+<button>[Our Manuals](https://manual.grid.tf)</button>
+<button>[Grid Dashboard](https://dashboard.grid.tf)</button>
 
 {% end %}
+
+<br>
+
+<br>
+
 
 <!-- section 2  -->
 
-{% row(style="center mbottom") %}
 
-![storage](storage.jpg#medium)
+{% row(style="center margin") %}
 
-### **Storage**
+## More Resources to Get Started
 
-Plug in standard tools and protocols to the most resilient and versatile storage system ever created, or access raw disk on the location of your choice.
+The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos<br>for those who are new to the project or need some help. If you'd rather talk to a human, join our chat and ask away!
 
-<button> [Learn More](https://library.threefold.me/info/threefold#/technology/qsss/threefold__qsss_home) </button>
+<br>
 
-|||
-
-![compute](compute.jpg#medium)
-
-### **Compute**
-
-Native support for containers and virtual machines. Migrate existing applications effortlessly or build from scratch in a cutting-edge computing environment.
-
-<button>[Learn More](https://library.threefold.me/info/manual/#/manual__weblets_home)</button>
-
-|||
-
-![network](network.jpg#medium)
-
-### **Network**
-
-Private overlay networks and global end-to-end encryption minimize attack surface. Handle inbound trafﬁc with uniquely secure web gateways.
-
-
-<button>[Learn More](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)</button>
+<button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
+<button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
+<button>[Our Forum](https://forum.threefold.io)</button>
+<button>[Grid User Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
+
+
 
 <!-- section 3  -->
 
-{% row(style="center mtop narrow") %}
+{% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
-## Designed for <br> **Demanding Workloads**
+### The ThreeFold Grid offers a range of low-level constructs known as Primitives. <br>These powerful functionalities enable you to create diverse and customized <br>solutions on top of the grid, opening up a world of possibilities.
 
-{% end %}
+### Any application compatible with Linux can seamlessly run on the ThreeFold Grid,<br>ensuring maximum flexibility.
 
-{% row(style="center between") %}
-
-![Image](capacity.png#medium)
-
-<br/>
-
-### **Edge Capacity**
-
-Achieve low latencies and bandwidth efficiency by reserving capacity locally.
-
-|||
-
-![Image](secure.png#medium)
-
-<br/>
-
-### **Secure**
-
-Open-source system built from the ground-up for a fully transparent and auditable stack.
-
-|||
-
-![Image](scalable.png#medium)
-
-<br/>
-
-### **Scalable**
-
-An autonomous infrastructure that grows naturally with demand, where and when it is needed.
-
-|||
-
-![Image](effecient.png#medium)
-
-<br/>
-
-### **Efficient**
-
-A carefully designed collection of lightweight components that minimize overheads.
+<button>[More on Grid Primitives](https://manual.grid.tf/concepts/grid_primitives.html)</button>
 
 {% end %}
 
-<!-- section 4 -->
 
-{% row(style="center mbottom narrow") %}
 
-<button>[Learn More](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_home)</button>
+<!-- section 4  -->
 
-{% end %}
 
 {% row(style="center mtop narrow") %}
 
-## Explore **What's Possible**
+## Unleashing the Potential
 
-Build in a truly decentralized environment on the ThreeFold Grid. A sandbox of limitless possibilities awaits for the open source builders of a decentralized tomorrow.
+### ThreeFold Technology In Action
+
+Take a look at some of what's being built on top of the grid today. More coming soon.
 
 {% end %}
 
-{% row(style="center mtop between") %}
+{% row(style="between") %}
 
-[![virtual machine](virtual_machine.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
-
-|||
-
-[![kubernetes](kubernetes.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
+![Image](zonaris_new.png#medium)
 
 |||
 
-[![terraform](terraform.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
+### **Deploy Nodes with Zonaris**
+
+#### #Decentralized #Edge #Web3
+
+<br>
+
+Zonaris is revolutionizing the norm by hosting Web3 Nodes on Web3 infrastructure – the way it is meant to be. Zonaris and their customers benefit from ThreeFold's decentralized foundation from both a reliability and resiliency perspective, as there are no central points of failure.
+
+<button>[Visit Zonaris](https://www.zonaris.io/)</button>
+
+{% end %}
+
+{% row(style="reverse between") %}
+
+### **Own Your Cloud with HostService**
+#### #OwnYourData #Autonomous #BlockchainEnabled
+
+<br>
+
+HostService offers a service to deploy and support customers with their own Nextcloud environment on top of a decentralized Internet framework. Driven by autonomous technology, smart contracts, and private keys, this keeps data secure and in the hand of the people.
+
+<button>[Visit HostService](https://hostservice.nl/nextcloud/)</button>
+
+|||
+
+![Image](hostservice_new.png#medium)
+
+{% end %}
+
+{% row(style="between") %}
+
+![Image](mastodon_new.png#medium)
+
+|||
+
+### **Get Your Own Mastodon Server**
+#### #Security #Privacy #Scalability
+
+<br>
+
+ThreeFold has made it possible for anyone to run their own Mastodon instance, simply and effectively. This brings more control – no need to rely on a third party – along with security, privacy, and scalability.
+
+<button>[Get Mastodon](https://www.mastodon.threefold.io/getserver/)</button>
+
+{% end %}
+
+
+{% row(style="reverse between mbottom") %}
+
+### **Access No-Code Deployments**
+#### #Decentralized #Simplicity #Compatibility
+
+<br>
+
+Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions – such as full Virtual Machines, Kubernetes, CapRover, and Umbrel – in our interactive playground. The simplest way to build on top of the grid.
+
+<button>[Visit the Playground](https://manual.grid.tf/weblets/weblets_home.html)</button>
+
+|||
+
+![Image](playground_new.png#medium)
+
+{% end %}
+
+
+
+<!-- section 5  -->
+
+{% row(style="center mtop") %}
+
+## Discover the ThreeFold Advantage
+
+### Empowering Sovereign, Scalable, and Secure Solutions
 
 {% end %}
 
 {% row(style="center mbottom between") %}
 
-[![weblets](weblets.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_home)
+### Infrastructure as Code (IaC)
 
-|||
-
-[![quantum safe storage](qss.png#mx-auto)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
-
-|||
-
-[![planetary network](planetary_network.png#mx-auto)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
-
-{% end %}
-
-<!-- section 5 -->
-
-{% cloud_stats() %}
-
-## A Global **Edge Infrastructure**
-
-{% end %}
-
-<!-- section 6 -->
-
-{% row(style="center margin narrow") %}
-
-## Learn **More**
-
-Dive into more resources and join the open-source movement building a better digital future.
+Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform. Enhance provisioning with deterministic smart contracts, minimize overheads, and boost your efficiency.
 
 <br>
 
-<button>[Developer Resources](/developer)</button>
-<button>[Manual](https://manual.grid.tf)</button>
-<button>[Grid Chat](https://t.me/threefoldtesting)</button>
+<button> [Learn More](https://manual.grid.tf/terraform/terraform_readme.html) </button>
+
+|||
+
+### Dedicated Nodes
+
+Achieve ultimate control and flexibility by reserving entire nodes tailored for your projects.
+Optimize security and customization for high-demand workloads, such as blockchain nodes, while enjoying competitive pricing.
+
+<br>
+
+<br>
+
+<button> [Learn More](https://manual.grid.tf/dashboard/portal/dashboard_portal_dedicated_nodes.html) </button>
+
+|||
+
+### Quantum Safe Storage
+
+Experience the boundless possibilities of a distributed, quantum-proof storage system – designed to encrypt, compress, shard, and distribute your data, empowering you with unmatched security, scalability, and efficiency.
+
+<br>
+
+<br>
+
+<button> [Learn More](https://manual.grid.tf/) </button>
+
+{% end %}
+
+
+
+<!-- section 6  -->
+
+{% row(style="center margin" bgPath="checkerboard1.jpg") %}
+
+## Monetize Your Solutions
+
+Earn up to 50% of the utilization revenues of solutions that you create, promote, and support on top of the ThreeFold Grid.<br>Follow our guided process to benefit from our dynamic revenue-sharing model.
+
+<br>
+
+<button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
+
+{% end %}
+
+{% row(style="center between mtop mbottom") %}
+
+### At ThreeFold, we believe in a decentralized and autonomous world, where true ownership and control over digital deployments are in your hands. Our revolutionary edge cloud infrastructure empowers you to create innovative solutions with unmatched scalability, efficiency, privacy, and security.
+
+{% end %}
+
+
+
+<!-- section 6  -->
+
+{% row(style="center mtop between") %}
+
+## Engage with the Community
+
+### Be Part of the Decentralized Movement
+
+{% end %}
+
+{% row(style="between center") %}
+
+
+<!-- <a href="https://forum.threefold.io/" target="_blank"><h3>Forum</h3></a> -->
+
+![Image](Forum.png#icon)
+
+### **Forum**
+
+Connect with our vibrant community, share ideas, and contribute to collective knowledge.
+
+<button>[Learn More](https://forum.threefold.io/)</button>
+
+|||
+
+
+<!-- <a href="https://github.com/threefoldtech/home" target="_blank"><h3>Open Source</h3></a> -->
+
+![Image](Open-Source.png#icon)
+
+### **Open Source**
+
+Help shape ThreeFold's decentralized ecosystem on GitHub.
+
+<br>
+
+<button>[Learn More](https://github.com/threefoldtech/home)</button>
+
+
+{% end %}
+
+<br>
+
+
+{% row(style="between center") %}
+
+<!-- <a href="/farm" target="_blank"><h3>Farming</h3></a> -->
+
+![Image](Farming.png#icon)
+
+### **Farming**
+
+Contribute resources and earn rewards while supporting the growth of the ThreeFold network.
+
+
+<button>[Learn More](/expand)</button>
+
+|||
+
+<!-- <a href="/support"><h3>Support</h3></a> -->
+
+![Image](Support.png#icon)
+
+### **Support**
+
+Our team is here to assist you along your ThreeFold journey.
+
+
+<br>
+
+<button>[Learn More](/support)</button>
+
+
 
 {% end %}

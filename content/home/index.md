@@ -129,7 +129,7 @@ Independent people and organizations connect hardware to the ThreeFold Grid. Pro
 
 <br>
 
-<button>[Become a Node](/farmnew)</button>
+<button>[Become a Node](/expand)</button>
 
 |||
 
@@ -141,7 +141,7 @@ Developers and Sysadmins use ThreeFold technology to build, deploy, and store on
 
 <br>
 
-<button>[Build on the Platform](/buildnew)</button>
+<button>[Build on the Platform](/build)</button>
 
 |||
 
@@ -172,7 +172,7 @@ We're open-source and decentralized, so we use a token called $TFT to fuel the m
 
 <br>
 
-<button>[Dive into the Token](/tft)</button>
+<button>[Dive into the Token](/token)</button>
 <button>[Buy $TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
 
 
