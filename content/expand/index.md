@@ -6,22 +6,9 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
+{% header_new() %}
 
-<br>
-
-<br>
-
-![](nodeheader.png#large)
-
-||| 
-
-# Be the **Internet**
-### Host a node, support a decentralized future
-
-By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Take part in shaping a new Internet era governed by all of us.
-
-<button>[Get Started](https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html)</button>
+## Be The Internet
 
 {% end %}
 
