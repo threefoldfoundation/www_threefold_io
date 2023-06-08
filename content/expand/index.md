@@ -6,7 +6,7 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat mybg" style="background-image:url(BG_wide.png)">
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
@@ -18,7 +18,7 @@ insert_anchor_links: "left"
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
             <h1>Be the <strong>Internet</strong></h1>
-            <h3 class="my-0">Host a node, support a decentralized future</h3>
+            <h3 class="my-1">Host a node, support a decentralized future</h3>
             <p>By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Take part in shaping a new Internet era governed by all of us.</p>
             <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html">Get Started</a></button>
           </div>
@@ -134,11 +134,3 @@ The more people use TFT, the more TFT will be ‘burnt’, reducing the overall 
 
 
 {% end %}
-
-<style>
-
- .mybg{
-    background-position: bottom !important;
- }
-
-</style>

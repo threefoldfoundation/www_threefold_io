@@ -3,32 +3,33 @@ title: "Buildnew"
 template: "page.html"
 insert_anchor_links: "left"
 ---
-
 <!-- section 1  -->
 
-{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+    <div class="h-full">
+      <div class="flex flex-col items-center md:flex-row">
+       <div class="w-full md:w-1/2">
+          <div class="block">
+            <img
+                src="header_build.png" class="w-full h-full"/>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
+          <div class="flex flex-col items-start justify-center p-6">
+            <h1>Build the Future</strong></h1>
+            <h3 class="my-1">Develop and Administer on a Decentralized Autonomous Edge Cloud</h3>
+            <p>Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.</p>
+            <div class="flex flex-col md:flex-row">
+            <button class="mx-1 my-2"><a target="_blank" href="https://manual.grid.tf">Our Manuals</a></button>
+            <button class="mx-1 my-2"><a target="_blank" href="https://dashboard.grid.tf">Grid Dashboard</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<br>
 
-<br>
-
-![Image](buildheader.png#large)
-
-|||
-
-# Build the Future
-### Develop and Administer on a Decentralized Autonomous Edge Cloud
-
-Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.
-
-<button>[Our Manuals](https://manual.grid.tf)</button>
-<button>[Grid Dashboard](https://dashboard.grid.tf)</button>
-
-{% end %}
-
-<br>
-
-<br>
 
 
 <!-- section 2  -->
