@@ -15,7 +15,7 @@ insert_anchor_links: "left"
                 src="togethericon.png" class="w-full h-full"/>
           </div>
         </div>
-        <div class="flex flex-col items-start justify-center w-full py-24 md:w-1/2">
+        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
             <h1>Be the <strong>Internet</strong></h1>
             <h3 class="my-0">Host a node, support a decentralized future</h3>
@@ -134,3 +134,11 @@ The more people use TFT, the more TFT will be ‘burnt’, reducing the overall 
 
 
 {% end %}
+
+<style>
+
+ .mybg{
+    background-position: bottom !important;
+ }
+
+</style>
