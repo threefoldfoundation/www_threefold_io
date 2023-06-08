@@ -11,32 +11,30 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %} 
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(home/BG_wide.png);background-position:right">
+    <div class="h-full">
+      <div class="flex flex-col items-center md:flex-row">
+       <div class="w-full md:w-1/2">
+          <div class="block">
+            <img
+                src="home/header_home2.png" class="w-full h-full"/>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
+          <div class="flex flex-col items-start justify-center p-6">
+            <h1>Welcome to ThreeFold</strong></h1>
+            <!-- <h3 class="my-1">Host a node, support a decentralized future</h3> -->
+            <p>ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
+            <br>
+            A sovereign alternative to the centralized Internet.</p>
+            <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/intro/intro_readme.html">Get Started</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!-- bgPath="images/header_bg.jpg" -->
 
-<br>
-
-<br>
-
-![Image](home_header.png#large#mx-auto)
-
-
-|||
-
-# Welcome to ThreeFold
-
-ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
-
-A sovereign alternative to the centralized Internet.
-
-<button>[Get Started](https://manual.grid.tf/intro/intro_readme.html)</button>
-
-<br>
-
-<br>
-
-{% end %}
 
 <!-- section 2 -->
 

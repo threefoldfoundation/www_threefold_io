@@ -3,30 +3,28 @@ title: "About"
 template: "page.html"
 insert_anchor_links: "left"
 ---
-
 <!-- section 1 (header) -->
 
-{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+    <div class="h-full">
+      <div class="flex flex-col items-center md:flex-row">
+       <div class="w-full md:w-1/2">
+          <div class="block">
+            <img
+                src="header_about.png" class="w-full h-full"/>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
+          <div class="flex flex-col items-start justify-center p-6">
+            <h1>Genesis</strong></h1>
+            <h3 class="my-1">It all Started with a Vision About a Decade ago</h3>
+            <p>When we saw how the Internet's existing infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posed a threat to privacy and sovereignty, we knew it was time for a change. That's why we founded ThreeFold.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<br>
-
-<br>
-
-![Image](about_header.png#large)
-
-|||
-
-# Genesis
-
-### It all Started with a Vision About a Decade ago
-
-When we saw how the Internet's existing infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posed a threat to privacy and sovereignty, we knew it was time for a change. That's why we founded ThreeFold.
-
-{% end %}
-
-<br>
-
-<br>
 
 
 <!-- section 2 -->
