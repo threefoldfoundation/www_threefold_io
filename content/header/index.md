@@ -55,7 +55,7 @@ extra:
 
 {% end %}
 
-- MoreInfo
+- More
 
 {% row(style="wide") %}
 
@@ -96,17 +96,17 @@ extra:
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//library.threefold.me/info/manual/#/manual__manual3_home_new')">
+<button onclick="openInNewTab('https&#58;//manual.grid.tf')">
 
-[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
+[Manual](https://manual.grid.tf)
 <br>
 <p class="text-sm">Get Started on the Grid</p>
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//github.com/')">
+<button onclick="openInNewTab('https&#58;//github.com/threefoldtech/')">
 
-[GitHub](https://github.com/)
+[GitHub](https://github.com/threefoldtech/)
 <br>
 <p class="text-sm">Code Library & Documentation</p>
 

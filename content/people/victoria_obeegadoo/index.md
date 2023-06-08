@@ -1,6 +1,7 @@
 ---
 title: Victoria Obeegadoo
 weight: 2
+description: Victoria craves being a part of making this world of ours a better place, and is excited to start with changing the internet and how we use it with the organization!
 taxonomies:
   people: [victoria_obeegadoo]
   memberships: [foundation]

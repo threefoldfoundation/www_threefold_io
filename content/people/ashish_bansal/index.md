@@ -1,6 +1,7 @@
 ---
 title: Ashish Bansal
 weight: 3
+description: Ashish has extensive experience analyzing and evaluating investment possibilities.
 taxonomies:
   people: [ashish_bansal]
   memberships: [foundation]
