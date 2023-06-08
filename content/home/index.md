@@ -173,7 +173,7 @@ We're open-source and decentralized, so we use a token called $TFT to fuel the m
 <br>
 
 <button>[Dive into the Token](/token)</button>
-<button>[Buy $TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
+<button>[Buy $TFT](https://manual.grid.tf/getstarted/TF_Token/tft_toc.html)</button>
 
 
 

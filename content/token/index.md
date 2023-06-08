@@ -96,7 +96,7 @@ With the ThreeFold Grid's programmable nature,
 
 developers have unlimited possibilities to build the future.
 
-<button>[Buy TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
+<button>[Buy TFT](https://manual.grid.tf/getstarted/TF_Token/tft_toc.html)</button>
 
 {% end %}
 

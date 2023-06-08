@@ -130,7 +130,7 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 We are a diverse community of passionate individuals who believe in the power of technology to bring about positive change.<br>
 Our mission is to realize the vision of a decentralized, self-sovereign digital world, enabling equitable and sustainable opportunities for all.<br> Together, we are building a new Internet that puts power back into the hands of the people.
 
-<button>[Join the Revolution](/community)</button>
+<button>[Join the Revolution](https://t.me/threefold)</button>
 
 {% end %}
 

@@ -193,7 +193,7 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 <br>
 
-<button> [Learn More](https://manual.grid.tf/) </button>
+<button> [Learn More](https://manual.grid.tf/terraform/resources/terraform_qsfs.html) </button>
 
 {% end %}
 
@@ -209,7 +209,7 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 <br>
 
-<button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
+<button>[Learn More](https://manual.grid.tf/tfchain/tfchain_solution_provider.html)</button>
 
 {% end %}
 
@@ -253,7 +253,7 @@ Connect with our vibrant community, share ideas, and contribute to collective kn
 
 ### **Open Source**
 
-Help shape ThreeFold's decentralized ecosystem on GitHub.
+Help shape ThreeFold's decentralized ecosystem on GitHub. Collaboration is key to build a better digital future.
 
 <br>
 
@@ -286,7 +286,7 @@ Contribute resources and earn rewards while supporting the growth of the ThreeFo
 
 ### **Support**
 
-Our team is here to assist you along your ThreeFold journey.
+Our decentralized team located around the world is here to assist you along your ThreeFold journey.
 
 
 <br>
