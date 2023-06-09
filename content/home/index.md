@@ -74,9 +74,7 @@ The current Internet is **not sustainable**. It consumes between 5-10% of the wo
 
 ### **Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.**
 
-### **But we didn't just imagine it – we built it.**
-
-### **Join us in evolving the Internet, together.**
+### **But we didn't just imagine it – we built it. Join us in evolving the Internet, together.**
 
 {% end %}
 

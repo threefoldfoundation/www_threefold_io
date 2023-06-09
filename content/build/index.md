@@ -163,7 +163,7 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 {% row(style="center mbottom between") %}
 
-### **Infrastructure as Code (IaC)**
+### **Infrastructure as Code**
 
 Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform. Enhance provisioning with deterministic smart contracts, minimize overheads, and boost your efficiency.
 

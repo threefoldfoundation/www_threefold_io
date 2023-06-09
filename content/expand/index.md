@@ -105,7 +105,7 @@ ThreeFold’s operating system was designed to be hardware agnostic, and already
 <br>
 
 <button>[Global Marketplace](https://marketplace.3node.global/)</button>
-<button>[HostService NL | Europe](https://hostservice.nl/winkel/)</button>
+<button>[EU Marketplace](https://hostservice.nl/winkel/)</button>
 <button>[Do It Yourself](https://manual.grid.tf/TF_Farmer_Guide/TF_Complete_Farmer_Guide/farmer_guide.html)</button>
 
 {% end %}
