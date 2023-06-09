@@ -19,7 +19,7 @@ insert_anchor_links: "left"
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
             <h1>Introducing TFT</strong></h1>
-            <h3 class="my-1">The Currency Powering the Decentralized Internet</h3>
+            <h3 class="my-1"><b>The Currency Powering the Decentralized Internet</b></h3>
             <p>Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.</p>
           </div>
         </div>

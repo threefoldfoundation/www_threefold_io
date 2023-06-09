@@ -17,7 +17,7 @@ insert_anchor_links: "left"
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
             <h1>Genesis</strong></h1>
-            <h3 class="my-1">It all Started with a Vision About a Decade ago</h3>
+            <h3 class="my-1"><b>It all Started with a Vision About a Decade ago</b></h3>
             <p>When we saw how the Internet's existing infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posed a threat to privacy and sovereignty, we knew it was time for a change. That's why we founded ThreeFold.</p>
           </div>
         </div>
@@ -33,11 +33,11 @@ insert_anchor_links: "left"
 
 <!-- bgColor="#ececec" -->
 
-### **Our Mission**
+## **Our Values**
 
-Enabling a decentralized Internet that empowers individuals and communities<br>with economic and social freedom.
+{% end %}
 
-|||
+{% row( style="center between") %}
 
 ### **Open-Source**
 Collaboration and openness are key to building a better world.
@@ -47,16 +47,14 @@ Collaboration and openness are key to building a better world.
 ### **Simplicity**
 Fostering clarity. Driving innovation. Enabling scalability.
 
-{%end %}
-
-
-
-{% row( style="center between mbottom") %}
+|||
 
 ### **Authenticity**
 We are genuine and vulnerable.
 
-|||
+{%end %}
+
+{% row( style="center between mbottom") %}
 
 ### **Planet-First**
 Our solutions must be sustainable.
@@ -102,7 +100,7 @@ We empower self-sovereignty and autonomy.
 
 ![Image](earth.png#medium)
 
-### Green Infrastructure
+### **Green Infrastructure**
 
 There is no Planet B. And the Internet is consumed a surprisingly large amount of the world's energy, between 5 and 10%. This is why ThreeFold has designed with efficiency in mind to create the most sustainable Internet infrastructure in the world. 
 
@@ -110,9 +108,9 @@ There is no Planet B. And the Internet is consumed a surprisingly large amount o
 
 ![Image](community.png#medium)
 
-### Driving Change Together
+### **Driving Change Together**
 
-Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory movement and is prioritizing efforts to bring a more accessible Internet to developing regions.
+Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory infrastructure and movement, and is prioritizing efforts to bring a more accessible Internet to developing regions around the world.
 
 {% end %}
 

@@ -17,7 +17,7 @@ insert_anchor_links: "left"
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
             <h1>Build the Future</strong></h1>
-            <h3 class="my-1">Develop and Administer on a Decentralized Autonomous Edge Cloud</h3>
+            <h3 class="my-1"><b>Develop and Administer on a Decentralized Autonomous Edge Cloud</b></h3>
             <p>Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.</p>
             <div class="flex flex-col md:flex-row">
             <button class="mx-1 my-2"><a target="_blank" href="https://manual.grid.tf">Our Manuals</a></button>
@@ -56,9 +56,9 @@ The ThreeFold Team and community have spent countless hours creating written and
 
 {% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
-### The ThreeFold Grid offers a range of low-level constructs known as Primitives. <br>These powerful functionalities enable you to create diverse and customized <br>solutions on top of the grid, opening up a world of possibilities.
+### **The ThreeFold Grid offers a range of low-level constructs known as Primitives. <br>These powerful functionalities enable you to create diverse and customized <br>solutions on top of the grid, opening up a world of possibilities.**
 
-### Any application compatible with Linux can seamlessly run on the ThreeFold Grid,<br>ensuring maximum flexibility.
+### **Any application compatible with Linux can seamlessly run on the ThreeFold Grid,<br>ensuring maximum flexibility.**
 
 <button>[More on Grid Primitives](https://manual.grid.tf/concepts/grid_primitives.html)</button>
 
@@ -73,7 +73,7 @@ The ThreeFold Team and community have spent countless hours creating written and
 
 ## Unleashing the Potential
 
-### ThreeFold Technology In Action
+### **ThreeFold Technology In Action**
 
 Take a look at some of what's being built on top of the grid today. More coming soon.
 
@@ -157,13 +157,13 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 ## Discover the ThreeFold Advantage
 
-### Empowering Sovereign, Scalable, and Secure Solutions
+### **Empowering Sovereign, Scalable, and Secure Solutions**
 
 {% end %}
 
 {% row(style="center mbottom between") %}
 
-### Infrastructure as Code (IaC)
+### **Infrastructure as Code (IaC)**
 
 Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform. Enhance provisioning with deterministic smart contracts, minimize overheads, and boost your efficiency.
 
@@ -173,7 +173,7 @@ Revolutionize your IT deployments with machine-readable definition files, and en
 
 |||
 
-### Dedicated Nodes
+### **Dedicated Nodes**
 
 Achieve ultimate control and flexibility by reserving entire nodes tailored for your projects.
 Optimize security and customization for high-demand workloads, such as blockchain nodes, while enjoying competitive pricing.
@@ -186,7 +186,7 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 |||
 
-### Quantum Safe Storage
+### **Quantum Safe Storage**
 
 Experience the boundless possibilities of a distributed, quantum-proof storage system – designed to encrypt, compress, shard, and distribute your data, empowering you with unmatched security, scalability, and efficiency.
 
@@ -216,7 +216,7 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 {% row(style="center between mtop mbottom") %}
 
-### At ThreeFold, we believe in a decentralized and autonomous world, where true ownership and control over digital deployments are in your hands. Our revolutionary edge cloud infrastructure empowers you to create innovative solutions with unmatched scalability, efficiency, privacy, and security.
+### **At ThreeFold, we believe in a decentralized and autonomous world, where true ownership and control over digital deployments are in your hands. Our revolutionary edge cloud infrastructure empowers you to create innovative solutions with unmatched scalability, efficiency, privacy, and security.**
 
 {% end %}
 
@@ -228,7 +228,7 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 ## Engage with the Community
 
-### Be Part of the Decentralized Movement
+### **Be Part of the Decentralized Movement**
 
 {% end %}
 

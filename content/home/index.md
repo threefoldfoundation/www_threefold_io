@@ -42,27 +42,25 @@ extra:
 
 ## Why Do We Need an Alternative?
 
-### Overcoming Internet Inequalities
+### **Overcoming Internet Inequalities**
 
 {% end %}
 
 {% row(style="center reverse mbottom narrow") %}
 
-### **Outdated.**
+The current Internet is **outdated**. It is built on a centralized antiquated foundation, which hinders scalability and efficiency.
 
-The current Internet is built on a centralized antiquated foundation, hindering scalability and efficiency.
+<br>
 
-### **Not Scalable.**
+The current Internet is **not scalable**. Over 3 billion people lack reliable Internet access.
 
-Over 3 billion people lack reliable Internet access.
+<br>
 
-### **Not Sustainable.**
-
-The current Internet consumes between 5-10% of the world’s energy.
+The current Internet is **not sustainable**. It consumes between 5-10% of the world’s energy.
 
 |||
 
-![Image](internet_outdated.png#auto)
+![Image](internet_outdated.png#medium)
 
 {% end %}
 
@@ -74,11 +72,11 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% row(style="center margin" bgPath="images/checkerboard2.jpg") %}
 
-## Evolving the Internet, Together
+### **Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.**
 
-### Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.
+### **But we didn't just imagine it – we built it.**
 
-### But we didn't just imagine it – we built it.
+### **Join us in evolving the Internet, together.**
 
 {% end %}
 
@@ -90,7 +88,7 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.9.0
+### **The ThreeFold Grid v3.9**
 
 ## **Live and Operational**
 
@@ -105,7 +103,7 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% row(style="center margin narrow") %}
 
-### The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.
+### **The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.**
 
 {% end %}
 
@@ -113,7 +111,7 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 ## Take Action Today
 
-### And Create Tomorrow
+### **And Create Tomorrow**
 
 {% end %}
 
