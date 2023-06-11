@@ -11,7 +11,7 @@ insert_anchor_links: "left"
        <div class="w-full md:w-1/2">
           <div class="block">
             <img
-                src="header_about.png" class="w-full h-full"/>
+                src="./header_about.png" class="w-full h-full"/>
           </div>
         </div>
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
