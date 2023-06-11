@@ -180,7 +180,7 @@ We're open-source and decentralized, so we use a token called $TFT to fuel the m
 
 .bgtest{
 
-  background-image: url("home/checker1.png");
+  background-image: url("home/checker4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
