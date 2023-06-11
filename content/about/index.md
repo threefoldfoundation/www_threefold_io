@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 ---
 <!-- section 1 (header) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(./BG_wide.png);background-position:right">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
