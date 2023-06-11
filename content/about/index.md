@@ -74,7 +74,9 @@ We empower self-sovereignty and autonomy.
 
 <!-- section 3 -->
 
-{% row(style="center margin" bgPath="checkerboard1.jpg") %}
+<div class="bgtest">
+
+{% row(style="center margin") %}
 
 ![Image](KDS.png#mx-auto)
 
@@ -87,6 +89,7 @@ We empower self-sovereignty and autonomy.
 
 {% end %}
 
+</div>
 
 <!-- section 4-->
 
@@ -118,7 +121,9 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 
 <!-- section 5 -->
 
-{% row(style="center margin" bgPath="checkerboard2.jpg") %}
+<div class="bgtest2">
+
+{% row(style="center margin") %}
 
 ## Our Community is United by
 ### **Passion and Purpose**
@@ -130,6 +135,7 @@ Our mission is to realize the vision of a decentralized, self-sovereign digital 
 
 {% end %}
 
+</div>
 
 <!-- section 6 -->
 
@@ -139,3 +145,23 @@ Our mission is to realize the vision of a decentralized, self-sovereign digital 
 ### - Margaret Mead
 
 {% end %}
+
+<style>
+
+.bgtest{
+
+  background-image: url("about/checkerboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgtest2{
+
+  background-image: url("about/checker4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+  </style>
