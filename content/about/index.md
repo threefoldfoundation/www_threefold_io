@@ -150,7 +150,7 @@ Our mission is to realize the vision of a decentralized, self-sovereign digital 
 
 .bgtest{
 
-  background-image: url("about/checkerboard.png");
+  background-image: url("checkerboard.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,7 +158,7 @@ Our mission is to realize the vision of a decentralized, self-sovereign digital 
 
 .bgtest2{
 
-  background-image: url("about/checker4.png");
+  background-image: url("checker4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
