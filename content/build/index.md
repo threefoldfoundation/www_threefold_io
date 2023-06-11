@@ -3,32 +3,33 @@ title: "Buildnew"
 template: "page.html"
 insert_anchor_links: "left"
 ---
-
 <!-- section 1  -->
 
-{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+    <div class="h-full">
+      <div class="flex flex-col items-center md:flex-row">
+       <div class="w-full md:w-1/2">
+          <div class="block">
+            <img
+                src="header_build.png" class="w-full h-full"/>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
+          <div class="flex flex-col items-start justify-center p-6">
+            <h1>Build the Future</strong></h1>
+            <h3 class="my-1"><b>Develop and Administer on a Decentralized Autonomous Edge Cloud</b></h3>
+            <p>Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.</p>
+            <div class="flex flex-col md:flex-row">
+            <button class="mx-1 my-2"><a target="_blank" href="https://manual.grid.tf">Our Manuals</a></button>
+            <button class="mx-1 my-2"><a target="_blank" href="https://dashboard.grid.tf">Grid Dashboard</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<br>
 
-<br>
-
-![Image](buildheader.png#large)
-
-|||
-
-# Build the Future
-### Develop and Administer on a Decentralized Autonomous Edge Cloud
-
-Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.
-
-<button>[Our Manuals](https://manual.grid.tf)</button>
-<button>[Grid Dashboard](https://dashboard.grid.tf)</button>
-
-{% end %}
-
-<br>
-
-<br>
 
 
 <!-- section 2  -->
@@ -55,9 +56,9 @@ The ThreeFold Team and community have spent countless hours creating written and
 
 {% row(style="center margin" bgPath="checkerboard1.jpg") %}
 
-### The ThreeFold Grid offers a range of low-level constructs known as Primitives. <br>These powerful functionalities enable you to create diverse and customized <br>solutions on top of the grid, opening up a world of possibilities.
+### **The ThreeFold Grid offers a range of low-level constructs known as Primitives. <br>These powerful functionalities enable you to create diverse and customized <br>solutions on top of the grid, opening up a world of possibilities.**
 
-### Any application compatible with Linux can seamlessly run on the ThreeFold Grid,<br>ensuring maximum flexibility.
+### **Any application compatible with Linux can seamlessly run on the ThreeFold Grid,<br>ensuring maximum flexibility.**
 
 <button>[More on Grid Primitives](https://manual.grid.tf/concepts/grid_primitives.html)</button>
 
@@ -72,7 +73,7 @@ The ThreeFold Team and community have spent countless hours creating written and
 
 ## Unleashing the Potential
 
-### ThreeFold Technology In Action
+### **ThreeFold Technology In Action**
 
 Take a look at some of what's being built on top of the grid today. More coming soon.
 
@@ -156,13 +157,13 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 ## Discover the ThreeFold Advantage
 
-### Empowering Sovereign, Scalable, and Secure Solutions
+### **Empowering Sovereign, Scalable, and Secure Solutions**
 
 {% end %}
 
 {% row(style="center mbottom between") %}
 
-### Infrastructure as Code (IaC)
+### **Infrastructure as Code**
 
 Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform. Enhance provisioning with deterministic smart contracts, minimize overheads, and boost your efficiency.
 
@@ -172,7 +173,7 @@ Revolutionize your IT deployments with machine-readable definition files, and en
 
 |||
 
-### Dedicated Nodes
+### **Dedicated Nodes**
 
 Achieve ultimate control and flexibility by reserving entire nodes tailored for your projects.
 Optimize security and customization for high-demand workloads, such as blockchain nodes, while enjoying competitive pricing.
@@ -185,7 +186,7 @@ Optimize security and customization for high-demand workloads, such as blockchai
 
 |||
 
-### Quantum Safe Storage
+### **Quantum Safe Storage**
 
 Experience the boundless possibilities of a distributed, quantum-proof storage system – designed to encrypt, compress, shard, and distribute your data, empowering you with unmatched security, scalability, and efficiency.
 
@@ -193,7 +194,7 @@ Experience the boundless possibilities of a distributed, quantum-proof storage s
 
 <br>
 
-<button> [Learn More](https://manual.grid.tf/) </button>
+<button> [Learn More](https://manual.grid.tf/terraform/resources/terraform_qsfs.html) </button>
 
 {% end %}
 
@@ -209,13 +210,13 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 <br>
 
-<button>[Learn More](https://github.com/threefoldtech/tfchain/blob/development/substrate-node/pallets/pallet-smart-contract/solution_provider.md)</button>
+<button>[Learn More](https://manual.grid.tf/tfchain/tfchain_solution_provider.html)</button>
 
 {% end %}
 
 {% row(style="center between mtop mbottom") %}
 
-### At ThreeFold, we believe in a decentralized and autonomous world, where true ownership and control over digital deployments are in your hands. Our revolutionary edge cloud infrastructure empowers you to create innovative solutions with unmatched scalability, efficiency, privacy, and security.
+### **At ThreeFold, we believe in a decentralized and autonomous world, where true ownership and control over digital deployments are in your hands. Our revolutionary edge cloud infrastructure empowers you to create innovative solutions with unmatched scalability, efficiency, privacy, and security.**
 
 {% end %}
 
@@ -227,7 +228,7 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 ## Engage with the Community
 
-### Be Part of the Decentralized Movement
+### **Be Part of the Decentralized Movement**
 
 {% end %}
 
@@ -253,7 +254,7 @@ Connect with our vibrant community, share ideas, and contribute to collective kn
 
 ### **Open Source**
 
-Help shape ThreeFold's decentralized ecosystem on GitHub.
+Help shape ThreeFold's decentralized ecosystem on GitHub. Collaboration is key to build a better digital future.
 
 <br>
 
@@ -286,7 +287,7 @@ Contribute resources and earn rewards while supporting the growth of the ThreeFo
 
 ### **Support**
 
-Our team is here to assist you along your ThreeFold journey.
+Our decentralized team located around the world is here to assist you along your ThreeFold journey.
 
 
 <br>

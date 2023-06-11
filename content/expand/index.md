@@ -6,7 +6,7 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat mybg" style="background-image:url(BG_wide.png)">
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
@@ -18,7 +18,7 @@ insert_anchor_links: "left"
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
             <h1>Be the <strong>Internet</strong></h1>
-            <h3 class="my-0">Host a node, support a decentralized future</h3>
+            <h3 class="my-1"><b>Host a node, support a decentralized future</b></h3>
             <p>By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Take part in shaping a new Internet era governed by all of us.</p>
             <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html">Get Started</a></button>
           </div>
@@ -62,7 +62,7 @@ insert_anchor_links: "left"
 
 <br>
 
-### Host a Node
+### **Host a Node**
 
 All you need to get started is a modern computer, electricity and network. Once booted with the operating system, it becomes a Threefold Node. 
 
@@ -72,7 +72,7 @@ All you need to get started is a modern computer, electricity and network. Once 
 
 <br>
 
-### Get Verified
+### **Get Verified**
 
 The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized internet for users and communities.
 
@@ -82,7 +82,7 @@ The capacity of the node gets verified and registered in the ThreeFold Blockchai
 
 <br>
 
-### Earn every Month
+### **Earn every Month**
 After your node is set up and verified, you’ll be rewarded for the compute, storage and bandwidth you provide to the ThreeFold Grid.
 
 
@@ -93,19 +93,19 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 {% row(style="center between margin") %}
 
-![](findyourfit.png#mx-auto)
+![](nodeheader.png#mx-auto)
 
 |||
 
 ## Find Your Fit
-### Most Modern Computers Work
+### **Most Modern Computers Work**
 
 ThreeFold’s operating system was designed to be hardware agnostic, and already runs on any Intel or AMD powered computer today. 
 
 <br>
 
 <button>[Global Marketplace](https://marketplace.3node.global/)</button>
-<button>[HostService NL | Europe](https://hostservice.nl/winkel/)</button>
+<button>[EU Marketplace](https://hostservice.nl/winkel/)</button>
 <button>[Do It Yourself](https://manual.grid.tf/TF_Farmer_Guide/TF_Complete_Farmer_Guide/farmer_guide.html)</button>
 
 {% end %}
@@ -134,11 +134,3 @@ The more people use TFT, the more TFT will be ‘burnt’, reducing the overall 
 
 
 {% end %}
-
-<style>
-
- .mybg{
-    background-position: bottom !important;
- }
-
-</style>

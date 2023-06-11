@@ -3,30 +3,28 @@ title: "About"
 template: "page.html"
 insert_anchor_links: "left"
 ---
-
 <!-- section 1 (header) -->
 
-{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+    <div class="h-full">
+      <div class="flex flex-col items-center md:flex-row">
+       <div class="w-full md:w-1/2">
+          <div class="block">
+            <img
+                src="header_about.png" class="w-full h-full"/>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
+          <div class="flex flex-col items-start justify-center p-6">
+            <h1>Genesis</strong></h1>
+            <h3 class="my-1"><b>It all Started with a Vision About a Decade ago</b></h3>
+            <p>When we saw how the Internet's existing infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posed a threat to privacy and sovereignty, we knew it was time for a change. That's why we founded ThreeFold.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<br>
-
-<br>
-
-![Image](about_header.png#large)
-
-|||
-
-# Genesis
-
-### It all Started with a Vision About a Decade ago
-
-When we saw how the Internet's existing infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posed a threat to privacy and sovereignty, we knew it was time for a change. That's why we founded ThreeFold.
-
-{% end %}
-
-<br>
-
-<br>
 
 
 <!-- section 2 -->
@@ -35,11 +33,11 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 <!-- bgColor="#ececec" -->
 
-### **Our Mission**
+## **Our Values**
 
-Enabling a decentralized Internet that empowers individuals and communities<br>with economic and social freedom.
+{% end %}
 
-|||
+{% row( style="center between") %}
 
 ### **Open-Source**
 Collaboration and openness are key to building a better world.
@@ -49,16 +47,14 @@ Collaboration and openness are key to building a better world.
 ### **Simplicity**
 Fostering clarity. Driving innovation. Enabling scalability.
 
-{%end %}
-
-
-
-{% row( style="center between mbottom") %}
+|||
 
 ### **Authenticity**
 We are genuine and vulnerable.
 
-|||
+{%end %}
+
+{% row( style="center between mbottom") %}
 
 ### **Planet-First**
 Our solutions must be sustainable.
@@ -78,7 +74,9 @@ We empower self-sovereignty and autonomy.
 
 <!-- section 3 -->
 
-{% row(style="center margin" bgPath="checkerboard1.jpg") %}
+<div class="bgtest">
+
+{% row(style="center margin") %}
 
 ![Image](KDS.png#mx-auto)
 
@@ -91,6 +89,7 @@ We empower self-sovereignty and autonomy.
 
 {% end %}
 
+</div>
 
 <!-- section 4-->
 
@@ -104,7 +103,7 @@ We empower self-sovereignty and autonomy.
 
 ![Image](earth.png#medium)
 
-### Green Infrastructure
+### **Green Infrastructure**
 
 There is no Planet B. And the Internet is consumed a surprisingly large amount of the world's energy, between 5 and 10%. This is why ThreeFold has designed with efficiency in mind to create the most sustainable Internet infrastructure in the world. 
 
@@ -112,9 +111,9 @@ There is no Planet B. And the Internet is consumed a surprisingly large amount o
 
 ![Image](community.png#medium)
 
-### Driving Change Together
+### **Driving Change Together**
 
-Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory movement and is prioritizing efforts to bring a more accessible Internet to developing regions.
+Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory infrastructure and movement, and is prioritizing efforts to bring a more accessible Internet to developing regions around the world.
 
 {% end %}
 
@@ -122,7 +121,9 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 
 <!-- section 5 -->
 
-{% row(style="center margin" bgPath="checkerboard2.jpg") %}
+<div class="bgtest2">
+
+{% row(style="center margin") %}
 
 ## Our Community is United by
 ### **Passion and Purpose**
@@ -130,10 +131,11 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 We are a diverse community of passionate individuals who believe in the power of technology to bring about positive change.<br>
 Our mission is to realize the vision of a decentralized, self-sovereign digital world, enabling equitable and sustainable opportunities for all.<br> Together, we are building a new Internet that puts power back into the hands of the people.
 
-<button>[Join the Revolution](/community)</button>
+<button>[Join the Revolution](https://t.me/threefold)</button>
 
 {% end %}
 
+</div>
 
 <!-- section 6 -->
 
@@ -143,3 +145,23 @@ Our mission is to realize the vision of a decentralized, self-sovereign digital 
 ### - Margaret Mead
 
 {% end %}
+
+<style>
+
+.bgtest{
+
+  background-image: url("checkerboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgtest2{
+
+  background-image: url("checker4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+  </style>

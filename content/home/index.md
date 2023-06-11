@@ -11,32 +11,30 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %} 
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(home/BG_wide.png);background-position:right">
+    <div class="h-full">
+      <div class="flex flex-col items-center md:flex-row">
+       <div class="w-full md:w-1/2">
+          <div class="block">
+            <img
+                src="home/header_home2.png" class="w-full h-full"/>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
+          <div class="flex flex-col items-start justify-center p-6">
+            <h1>Welcome to ThreeFold</strong></h1>
+            <!-- <h3 class="my-1">Host a node, support a decentralized future</h3> -->
+            <p>ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
+            <br>
+            A sovereign alternative to the centralized Internet.</p>
+            <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/intro/intro_readme.html">Get Started</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!-- bgPath="images/header_bg.jpg" -->
 
-<br>
-
-<br>
-
-![Image](home_header.png#large#mx-auto)
-
-
-|||
-
-# Welcome to ThreeFold
-
-ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
-
-A sovereign alternative to the centralized Internet.
-
-<button>[Get Started](https://manual.grid.tf/intro/intro_readme.html)</button>
-
-<br>
-
-<br>
-
-{% end %}
 
 <!-- section 2 -->
 
@@ -44,27 +42,25 @@ A sovereign alternative to the centralized Internet.
 
 ## Why Do We Need an Alternative?
 
-### Overcoming Internet Inequalities
+### **Overcoming Internet Inequalities**
 
 {% end %}
 
 {% row(style="center reverse mbottom narrow") %}
 
-### **Outdated.**
+The current Internet is **outdated**. It is built on a centralized antiquated foundation, which hinders scalability and efficiency.
 
-The current Internet is built on a centralized antiquated foundation, hindering scalability and efficiency.
+<br>
 
-### **Not Scalable.**
+The current Internet is **not scalable**. Over 3 billion people lack reliable Internet access.
 
-Over 3 billion people lack reliable Internet access.
+<br>
 
-### **Not Sustainable.**
-
-The current Internet consumes between 5-10% of the world’s energy.
+The current Internet is **not sustainable**. It consumes between 5-10% of the world’s energy.
 
 |||
 
-![Image](internet_outdated.png#auto)
+![Image](internet_outdated.png#medium)
 
 {% end %}
 
@@ -76,11 +72,9 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% row(style="center margin" bgPath="images/checkerboard2.jpg") %}
 
-## Evolving the Internet, Together
+### **Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.**
 
-### Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.
-
-### But we didn't just imagine it – we built it.
+### **But we didn't just imagine it – we built it. Join us in evolving the Internet, together.**
 
 {% end %}
 
@@ -92,7 +86,7 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.9.0
+### **The ThreeFold Grid v3.9**
 
 ## **Live and Operational**
 
@@ -107,7 +101,7 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 {% row(style="center margin narrow") %}
 
-### The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.
+### **The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.**
 
 {% end %}
 
@@ -115,7 +109,7 @@ The current Internet consumes between 5-10% of the world’s energy.
 
 ## Take Action Today
 
-### And Create Tomorrow
+### **And Create Tomorrow**
 
 {% end %}
 
@@ -161,8 +155,11 @@ Join a group of people around the globe who believe the world needs ThreeFold an
 
 <!-- section 5 -->
 
+<div class="bgtest">
 
-{% row(style="center margin" bgPath="checkerboard1.jpg") %}
+{% row(style="center margin") %}
+
+<!-- bgPath="checkerboard1.jpg" -->
 
 <br>
 
@@ -173,8 +170,22 @@ We're open-source and decentralized, so we use a token called $TFT to fuel the m
 <br>
 
 <button>[Dive into the Token](/token)</button>
-<button>[Buy $TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
+<button>[Buy $TFT](https://manual.grid.tf/getstarted/TF_Token/tft_toc.html)</button>
 
-
+</div>
 
 {% end %}
+
+<style>
+
+.bgtest{
+
+  background-image: url("home/checker4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+  
+  </style>

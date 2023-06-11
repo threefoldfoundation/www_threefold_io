@@ -5,29 +5,28 @@ page_template: "tft_header.html"
 insert_anchor_links: "left"
 ---
 
-<!-- section 1 (be the Internet) -->
+<!-- section 1  -->
 
-{% row(style="semiNarrow mbottom" bgPath="bg_new.jpg") %}
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+    <div class="h-full">
+      <div class="flex flex-col items-center md:flex-row">
+       <div class="w-full md:w-1/2">
+          <div class="block">
+            <img
+                src="header_token.png" class="w-full h-full"/>
+          </div>
+        </div>
+        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
+          <div class="flex flex-col items-start justify-center p-6">
+            <h1>Introducing TFT</strong></h1>
+            <h3 class="my-1"><b>The Currency Powering the Decentralized Internet</b></h3>
+            <p>Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<br>
-<br>
-
-![Image](token_header.png#large)
-
-|||
-
-# Introducing TFT
-### The Currency Powering the Decentralized Internet 
-
-<br>
-
-Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
-
-{% end %}
-
-<br>
-
-<br>
 
 
 
@@ -96,7 +95,7 @@ With the ThreeFold Grid's programmable nature,
 
 developers have unlimited possibilities to build the future.
 
-<button>[Buy TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
+<button>[Buy TFT](https://manual.grid.tf/getstarted/TF_Token/tft_toc.html)</button>
 
 {% end %}
 
