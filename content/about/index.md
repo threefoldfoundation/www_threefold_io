@@ -5,13 +5,13 @@ insert_anchor_links: "left"
 ---
 <!-- section 1 (header) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(./BG_wide.png);background-position:right">
+<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
           <div class="block">
             <img
-                src="./header_about.png" class="w-full h-full"/>
+                src="header_about.png" class="w-full h-full"/>
           </div>
         </div>
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
