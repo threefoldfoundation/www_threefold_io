@@ -126,26 +126,7 @@
             </div>
         </div>
         </div>
-{% for header_item in header_items %}
-{% if not loop.first %}
-    {% set header_arr = header_item | split(pat="</li>") %}
-    {% set header_label = header_arr[0] %}
-    {% set header_menu = header_arr[1] %}
-    {% set menu_id = header_label ~ "-menu" | slugify %}
 
-<nav>
-    <div id="{{menu_id}}" class="nav_menu mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
-        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
-            <div id="menu" class="mx-8 lg:mx-10 xl:mx-10 px-6 sm:p-6 md:p-8">
-                {{header_menu | safe }}
-            </div>
-        </div>            
-        </div>
-    </nav>
-
-
-{% endif %}
-{% endfor %}
 
     
         <!--
