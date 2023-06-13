@@ -153,15 +153,20 @@
                             {% if '<a' in header_label %}
                                 {% set link_label = header_label | striptags %}
                                 {% set link_path = header_label | split(pat="%22") | safe%}
+                                {% set current = get_url(path=link_path[1]) ~ "/" %}
                                 {% if header_label is containing("http") %}
                                     {% if header_label is not containing("threefold") %}
                                     <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                         {{link_label}}
                                     </a>
                                     {% endif %}
+                                {% elif current == current_url %}
+                                    <a href="{{ get_url(path=link_path[1])}}" class="active text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                      {{link_label}}
+                                  </a>
                                 {% else %}
-                                <a href="{{link_path[1]}}" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
-                                  {{link_label}}
+                                <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    {{link_label}}
                                 </a>
                                 {% endif %}
                             {% else %}
