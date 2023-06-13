@@ -34,24 +34,16 @@
                 {% if '<a' in header_label %}
                     {% set link_label = header_label | striptags %}
                     {% set link_path = header_label | split(pat="%22") | safe%}
-                    {% set current = get_url(path=link_path[1]) ~ "/" %}
                     {% if header_label is containing("http") %}
                         {% if header_label is not containing("threefold") %}
                         <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                             {{link_label}}
                         </a>
                         {% endif %}
-
-                    {% elif current == current_url %}
-                    <a href="{{ get_url(path=link_path[1])}}" class="text-lg leading-6 font-medium active hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                      {{ link_label }}
-                    </a>
-
                     {% else %}
                     <a href="{{ get_url(path=link_path[1])}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                      {{ link_label }}
+                      {{link_label}}
                     </a>
-   
                     {% endif %}
                 {% else %}
                     <div class="relative">
@@ -112,7 +104,7 @@
                     </li>
                   </ul>
                   <div class="rounded-full border-2 mt-1 border-gray-400">
-                    <a href="https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos" target="_blank" class="mt-2">
+                    <a href="https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy" target="_blank" class="mt-2">
                       <img
                         src="{{ get_url(path=section.extra.button_Path) }}"
                         class="mr-5"
