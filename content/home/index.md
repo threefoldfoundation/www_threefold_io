@@ -181,8 +181,11 @@ Join a group of people around the globe who believe the world needs ThreeFold an
 
 <!-- section 5 -->
 
+<div class="bgtest">
 
-{% row(style="center margin" bgPath="checkerboard1.jpg") %}
+{% row(style="center margin") %}
+
+<!-- bgPath="checkerboard1.jpg" -->
 
 <br>
 
@@ -195,6 +198,20 @@ We're open-source and decentralized, so we use a token called $TFT to fuel the m
 <button>[Dive into the Token](/token)</button>
 <button>[Buy $TFT](https://manual.grid.tf/getstarted/TF_Token/tft_toc.html)</button>
 
-
+</div>
 
 {% end %}
+
+<style>
+
+.bgtest{
+
+  background-image: url("home/checker4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+  
+  </style>

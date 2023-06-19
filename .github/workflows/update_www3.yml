@@ -12,13 +12,13 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: www3.threefold.io
-        username: root
+        username: webuser
         key: ${{ secrets.TF_SECRET }}
-        port: 22
+        port: 34022
         script: |
-          cd /opt/www3/www_threefold_io/
+          cd websites/www3/www_threefold_io/
           git log -1
           git restore .
           git pull
           sed -i "s/https:\/\/www.threefold.io/https:\/\/www3.threefold.io/g" config.toml
-          ./build.sh
+          bash build.sh

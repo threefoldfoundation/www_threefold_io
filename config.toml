@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://www3.threefold.io"
-# Change this to your own URL! Please note this variable **must** be uncommented.
+# Change this to your own URL! Please note this variable **must** be uncommented .
 
 title = "ThreeFold"
 description="Our global digital backbone"
@@ -39,7 +39,7 @@ render_emoji = false
 
 # Whether external links are to be opened in a new tab
 # If this is true, a `rel="noopener"` will always automatically be added for security reasons
-# external_links_target_blank = false
+external_links_target_blank = false
 
 # Whether to set rel="nofollow" for all external links
 external_links_no_follow = true

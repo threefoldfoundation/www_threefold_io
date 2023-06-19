@@ -126,26 +126,7 @@
             </div>
         </div>
         </div>
-{% for header_item in header_items %}
-{% if not loop.first %}
-    {% set header_arr = header_item | split(pat="</li>") %}
-    {% set header_label = header_arr[0] %}
-    {% set header_menu = header_arr[1] %}
-    {% set menu_id = header_label ~ "-menu" | slugify %}
 
-<nav>
-    <div id="{{menu_id}}" class="nav_menu mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
-        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
-            <div id="menu" class="mx-8 lg:mx-10 xl:mx-10 px-6 sm:p-6 md:p-8">
-                {{header_menu | safe }}
-            </div>
-        </div>            
-        </div>
-    </nav>
-
-
-{% endif %}
-{% endfor %}
 
     
         <!--
@@ -161,7 +142,7 @@
     <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
         <div>
             <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
-                <div class="pb-6 sm:px-12 md:px-16 mt-6 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+                <div class="pb-6 sm:px-12 md:px-16 mt-2 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
 
                     <nav class="flex flex-col justify-around pb-12">
                     {% for header_item in header_items %}
@@ -172,12 +153,17 @@
                             {% if '<a' in header_label %}
                                 {% set link_label = header_label | striptags %}
                                 {% set link_path = header_label | split(pat="%22") | safe%}
+                                {% set current = get_url(path=link_path[1]) ~ "/" %}
                                 {% if header_label is containing("http") %}
                                     {% if header_label is not containing("threefold") %}
                                     <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                         {{link_label}}
                                     </a>
                                     {% endif %}
+                                {% elif current == current_url %}
+                                    <a href="{{ get_url(path=link_path[1])}}" class="active text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                      {{link_label}}
+                                  </a>
                                 {% else %}
                                 <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                     {{link_label}}
