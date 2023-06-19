@@ -17,7 +17,7 @@ insert_anchor_links: "left"
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
             <h1>Build the Future</strong></h1>
-            <h3 class="my-1"><b>Develop and Administer on a Decentralized Autonomous Edge Cloud</b></h3>
+            <h3 class="my-1"><b>Develop and Administer on a Decentralized Autonomous Edge Infrastructure</b></h3>
             <p>Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.</p>
             <div class="flex flex-col md:flex-row">
             <button class="mx-1 my-2"><a target="_blank" href="https://manual.grid.tf">Our Manuals</a></button>
@@ -141,7 +141,7 @@ ThreeFold has made it possible for anyone to run their own Mastodon instance, si
 
 Deploy solutions with ease using Weblets, our user-friendly and decentralized web components. Access a variety of environments and ready-to-use community solutions – such as full Virtual Machines, Kubernetes, CapRover, and Umbrel – in our interactive playground. The simplest way to build on top of the grid.
 
-<button>[Visit the Playground](https://manual.grid.tf/weblets/weblets_home.html)</button>
+<button>[Visit the Playground](https://play.grid.tf/#/)</button>
 
 |||
 
