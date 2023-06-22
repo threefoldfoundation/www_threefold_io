@@ -5,19 +5,18 @@ insert_anchor_links: "left"
 ---
 <!-- section 1 (header) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+<div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
           <div class="block">
             <img
-                src="header_about.png" class="w-full h-full"/>
+                src="about_geometric_header.png" class="w-full h-full"/>
           </div>
         </div>
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
-            <h1>Genesis</strong></h1>
-            <h3 class="my-1"><b>It all Started with a Vision About a Decade ago</b></h3>
+            <h2>It All Started a Decade Ago</strong></h2>
             <p>When we saw how the Internet's existing infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posed a threat to privacy and sovereignty, we knew it was time for a change. That's why we founded ThreeFold.</p>
           </div>
         </div>
@@ -39,15 +38,27 @@ insert_anchor_links: "left"
 
 {% row( style="center between") %}
 
+![Image](opensource.png#icon)
+
+<br>
+
 ### **Open-Source**
 Collaboration and openness are key to building a better world.
 
 |||
 
+![Image](simplicity.png#icon)
+
+<br>
+
 ### **Simplicity**
 Fostering clarity. Driving innovation. Enabling scalability.
 
 |||
+
+![Image](authenticity.png#icon)
+
+<br>
 
 ### **Authenticity**
 We are genuine and vulnerable.
@@ -56,10 +67,14 @@ We are genuine and vulnerable.
 
 {% row( style="center between mbottom") %}
 
+![Image](planetfirst.png#icon)
+
 ### **Planet-First**
 Our solutions must be sustainable.
 
 |||
+
+![Image](peoplefirst.png#icon)
 
 ### **People-Centric**
 We empower self-sovereignty and autonomy.
@@ -101,7 +116,7 @@ We empower self-sovereignty and autonomy.
 
 {% row(style="center narrow mbottom") %}
 
-![Image](earth.png#medium)
+![Image](earth2.png#medium)
 
 ### **Green Infrastructure**
 
@@ -109,7 +124,7 @@ There is no Planet B. And the Internet is consumed a surprisingly large amount o
 
 |||
 
-![Image](community.png#medium)
+![Image](community2.png#medium)
 
 ### **Driving Change Together**
 

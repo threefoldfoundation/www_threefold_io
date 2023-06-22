@@ -11,19 +11,18 @@ extra:
 
 <!-- section 1 (header) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(home/BG_wide.png);background-position:right">
+<div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
           <div class="block">
             <img
-                src="home/header_home2.png" class="w-full h-full"/>
+                src="home/home_geometric_header.png" class="w-full h-full"/>
           </div>
         </div>
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
-            <h2>Welcome to ThreeFold</strong></h1>
-            <h3 class="my-1"><b>Truly Decentralized Internet Infrastructure</b></h3>
+            <h2>Decentralized. Autonomous. Internet Infrastructure.</strong></h1>
             <p>ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as "no middleman" Internet resources between independent capacity providers and users.</p>
             <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/intro/intro_readme.html">Get Started</a></button>
           </div>
@@ -31,8 +30,6 @@ extra:
       </div>
     </div>
   </div>
-
-
 
 <!-- section 2 -->
 
@@ -62,7 +59,7 @@ Your digital life depends on hyperscale data centers controlled by a handful of 
 
 |||
 
-![Image](internet_outdated.png#medium)
+![Image](outdated_home.png#medium)
 
 {% end %}
 
@@ -105,11 +102,15 @@ Your digital life depends on hyperscale data centers controlled by a handful of 
 
 {% row(style="center narrow") %}
 
-## Dive Deeper
+## ThreeFold is Different
 
 {% end %}
 
 {% row(style="center mbottom narrow") %}
+
+![Image](beyond.png#icon)
+
+<br>
 
 ### **Beyond a Protocol**
 
@@ -117,11 +118,19 @@ The ThreeFold Grid is not just another protocol, it's a community-owned and mana
 
 |||
 
+![Image](complementing.png#icon)
+
+<br>
+
 ### **Complementing Web3**
 
 ThreeFold is not a Web3 project, but we love Web3 and the ThreeFold Grid can host and complement any Web3 project, finally providing a truly decentralized backbone for the space.
 
 |||
+
+![Image](compatible.png#icon)
+
+<br>
 
 ### **Highly-Compatible**
 
@@ -141,11 +150,11 @@ The stack was built around open-source and simplicity, and to be compatibile wit
 
 {% row(style="center narrow mbottom") %}
 
-![Image](expandicon.png#medium)
+![Image](expand_icon1.png#medium)
 
 ### **Expand**
 
-Independent people and organizations connect hardware to the ThreeFold Grid. Provide Internet capacity for the people around you, and earn for it. 
+People and organizations are connecting hardware to the ThreeFold Grid. Find your fit, provide Internet capacity for people around you, and earn for it.
 
 <br>
 
@@ -153,11 +162,11 @@ Independent people and organizations connect hardware to the ThreeFold Grid. Pro
 
 |||
 
-![Image](buildicon.png#medium)
+![Image](build_icon1.png#medium)
 
 ### **Build**
 
-Developers and Sysadmins use ThreeFold technology to build, deploy, and store on top of community-owned Internet capacity. They pay with $TFT.
+Developers and Sysadmins use ThreeFold technology to build, deploy, and store on top of a community-owned edge infrastructure. You pay with $TFT.
 
 <br>
 
@@ -165,11 +174,11 @@ Developers and Sysadmins use ThreeFold technology to build, deploy, and store on
 
 |||
 
-![Image](togethericon.png#medium)
+![Image](together_icon1.png#medium)
 
 ### **Together**
 
-Join a group of people around the globe who believe the world needs ThreeFold and take action to bring the project forward.
+This project is all of ours. Join a group of people around the globe who believe the world needs ThreeFold and take action to bring ThreeFold forward.
 
 <br>
 

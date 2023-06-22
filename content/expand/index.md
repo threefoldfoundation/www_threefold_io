@@ -6,20 +6,19 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+<div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
           <div class="block">
             <img
-                src="togethericon.png" class="w-full h-full"/>
+                src="expand_geometric_header.png" class="w-full h-full"/>
           </div>
         </div>
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
-            <h1>Be the <strong>Internet</strong></h1>
-            <h3 class="my-1"><b>Host a node, support a decentralized future</b></h3>
-            <p>By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Take part in shaping a new Internet era governed by all of us.</p>
+            <h2>Be the <strong>Internet</strong></h2>
+            <p>By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Support a decentralized future. Take part in shaping a new Internet era governed by all of us.</p>
             <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html">Get Started</a></button>
           </div>
         </div>
@@ -58,7 +57,7 @@ insert_anchor_links: "left"
 
 {% row(style="center between mbottom") %}
 
-![Image](host.png#mx-auto)
+![Image](step1.png#mx-auto)
 
 <br>
 
@@ -68,7 +67,7 @@ All you need to get started is a modern computer, electricity and network. Once 
 
 |||
 
-![Image](verif.png#mx-auto)
+![Image](step2.png#mx-auto)
 
 <br>
 
@@ -78,7 +77,7 @@ The capacity of the node gets verified and registered in the ThreeFold Blockchai
 
 |||
 
-![Image](earn.png#mx-auto)
+![Image](step3.png#mx-auto)
 
 <br>
 
@@ -93,7 +92,7 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 {% row(style="center between margin") %}
 
-![](nodeheader.png#mx-auto)
+![](findfitgeometric.png#mx-auto)
 
 |||
 

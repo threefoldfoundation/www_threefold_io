@@ -5,20 +5,19 @@ insert_anchor_links: "left"
 ---
 <!-- section 1  -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(BG_wide.png);background-position:right">
+<div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
           <div class="block">
             <img
-                src="header_build.png" class="w-full h-full"/>
+                src="build_header_geometric.png" class="w-full h-full"/>
           </div>
         </div>
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
-            <h1>Build the Future</strong></h1>
-            <h3 class="my-1"><b>Develop and Administer on a Decentralized Autonomous Edge Infrastructure</b></h3>
-            <p>Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.</p>
+            <h2>Build the Future</strong></h2>
+            <p>Deploy and administer on a decentralized autonomous edge infrastructure. Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.</p>
             <div class="flex flex-col md:flex-row">
             <button class="mx-1 my-2"><a target="_blank" href="https://manual.grid.tf">Our Manuals</a></button>
             <button class="mx-1 my-2"><a target="_blank" href="https://dashboard.grid.tf">Grid Dashboard</a></button>
@@ -163,6 +162,8 @@ Deploy solutions with ease using Weblets, our user-friendly and decentralized we
 
 {% row(style="center mbottom between") %}
 
+![Image](iac.png#medium)
+
 ### **Infrastructure as Code**
 
 Revolutionize your IT deployments with machine-readable definition files, and enjoy seamless integration with industry standards such as Terraform. Enhance provisioning with deterministic smart contracts, minimize overheads, and boost your efficiency.
@@ -172,6 +173,8 @@ Revolutionize your IT deployments with machine-readable definition files, and en
 <button> [Learn More](https://manual.grid.tf/terraform/terraform_readme.html) </button>
 
 |||
+
+![Image](dedicated.png#medium)
 
 ### **Dedicated Nodes**
 
@@ -185,6 +188,8 @@ Optimize security and customization for high-demand workloads, such as blockchai
 <button> [Learn More](https://manual.grid.tf/dashboard/portal/dashboard_portal_dedicated_nodes.html) </button>
 
 |||
+
+![Image](quantum.png#medium)
 
 ### **Quantum Safe Storage**
 
@@ -237,7 +242,7 @@ Earn up to 50% of the utilization revenues of solutions that you create, promote
 
 <!-- <a href="https://forum.threefold.io/" target="_blank"><h3>Forum</h3></a> -->
 
-![Image](Forum.png#icon)
+![Image](forum1.png#icon)
 
 ### **Forum**
 
@@ -250,7 +255,7 @@ Connect with our vibrant community, share ideas, and contribute to collective kn
 
 <!-- <a href="https://github.com/threefoldtech/home" target="_blank"><h3>Open Source</h3></a> -->
 
-![Image](Open-Source.png#icon)
+![Image](open-source1.png#icon)
 
 ### **Open Source**
 
@@ -270,7 +275,7 @@ Help shape ThreeFold's decentralized ecosystem on GitHub. Collaboration is key t
 
 <!-- <a href="/farm" target="_blank"><h3>Farming</h3></a> -->
 
-![Image](Farming.png#icon)
+![Image](farming1.png#icon)
 
 ### **Farming**
 
@@ -283,7 +288,7 @@ Contribute resources and earn rewards while supporting the growth of the ThreeFo
 
 <!-- <a href="/support"><h3>Support</h3></a> -->
 
-![Image](Support.png#icon)
+![Image](support1.png#icon)
 
 ### **Support**
 
