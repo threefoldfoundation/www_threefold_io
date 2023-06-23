@@ -83,6 +83,12 @@ Parameters:
         {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
     {% endif %}
 
+    <!-- makes row with margins -->
+    {% if "header" in style %}
+        {% set row_class = row_class ~ " h-screen" %}
+        {% set col_class = col_class ~ " m-4 lg:m-0" %}
+    {% endif %}
+
     {% if "mtop" in style %}
         {% set row_class = row_class ~ " lg:pt-28 pt-2" %}
         {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}

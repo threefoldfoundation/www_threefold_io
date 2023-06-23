@@ -11,13 +11,13 @@ extra:
 
 <!-- section 1 (header) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat">
+<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
           <div class="block">
             <img
-                src="home/home_geometric_header.png" class="w-full h-full"/>
+                src="home/home_header_geometric.png" class="w-full h-full"/>
           </div>
         </div>
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
@@ -29,7 +29,25 @@ extra:
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+
+<div class="container mx-auto">
+
+{% row(style="header") %}
+
+![Image](home_header_geometric.png#mx-auto)
+
+|||
+
+## Decentralized. Autonomous. Internet Infrastructure.
+
+ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as "no middleman" Internet resources between independent capacity providers and users.
+
+<button>[Get Started](#take_action)</button>
+
+{% end %}
+
+
 
 <!-- section 2 -->
 
@@ -78,6 +96,8 @@ Your digital life depends on hyperscale data centers controlled by a handful of 
 ### **But we didn't just imagine it – we built it. Join us in evolving the Internet, together.**
 
 {% end %}
+
+</div>
 
 <br>
 
@@ -140,7 +160,7 @@ The stack was built around open-source and simplicity, and to be compatibile wit
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="center mtop narrow" id="take_action") %}
 
 ## Take Action Today
 

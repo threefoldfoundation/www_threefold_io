@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 ---
 <!-- section 1 (header) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat">
+<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
@@ -22,8 +22,22 @@ insert_anchor_links: "left"
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
+<div class="container mx-auto">
+
+{% row(style="header") %}
+
+![Image](about_header_geometric.png#mx-auto)
+
+|||
+
+## It All Started a Decade Ago
+
+When we saw how the Internet's existing infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posed a threat to privacy and sovereignty, we knew it was time for a change. That's why we founded ThreeFold.
+
+
+{% end %}
 
 
 <!-- section 2 -->
@@ -159,24 +173,7 @@ Our mission is to realize the vision of a decentralized, self-sovereign digital 
 ### <i>**"Never doubt that a small group of thoughtful, committed citizens <br> can change the world; indeed, it's the only thing that ever has."**</i> 
 ### - Margaret Mead
 
+</div>
+
 {% end %}
 
-<style>
-
-.bgtest{
-
-  background-image: url("checkerboard.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bgtest2{
-
-  background-image: url("checker4.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-  
-  </style>
