@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 ---
 <!-- section 1  -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat">
+<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
@@ -26,7 +26,25 @@ insert_anchor_links: "left"
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+
+<div class="container mx-auto">
+
+{% row(style="header") %}
+
+![Image](build_header_geometric.png)
+
+|||
+
+## Build the Future
+
+Deploy and administer on a decentralized autonomous edge infrastructure. Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.
+
+<button>[Our Manuals](https://manual.grid.tf)</button>
+<button>[Grid Dashboard](https://dashboard.grid.tf)</button>
+
+{% end %}
+
 
 
 
@@ -49,7 +67,7 @@ The ThreeFold Team and community have spent countless hours creating written and
 
 {% end %}
 
-
+</div>
 
 <!-- section 3  -->
 
