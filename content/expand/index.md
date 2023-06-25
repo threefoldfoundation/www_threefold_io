@@ -6,7 +6,7 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat">
+<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
@@ -24,13 +24,24 @@ insert_anchor_links: "left"
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-<br>
 
-<br>
+<div class="container mx-auto">
 
-<br>
+{% row(style="header") %}
+
+![Image](expand_header.png#mx-auto)
+
+|||
+
+## Be the **Internet**
+
+By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Support a decentralized future. Take part in shaping a new Internet era governed by all of us.
+
+<button>[Get Started](https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html)</button>
+
+{% end %}
 
 
 
@@ -133,3 +144,5 @@ The more people use TFT, the more TFT will be ‘burnt’, reducing the overall 
 
 
 {% end %}
+
+</div>
