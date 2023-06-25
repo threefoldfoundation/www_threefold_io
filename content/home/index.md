@@ -77,7 +77,7 @@ Your digital life depends on hyperscale data centers controlled by a handful of 
 
 |||
 
-![Image](outdated_home.png#medium)
+![Image](home_alternativeblock.png#medium#mx-auto)
 
 {% end %}
 
