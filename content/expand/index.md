@@ -101,9 +101,9 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 <!-- section 4  -->
 
-{% row(style="center between margin") %}
+{% row(style="between margin") %}
 
-![](findfitgeometric.png#mx-auto)
+![](expand_findyourfit_geometric.png#medium#mx-auto)
 
 |||
 
