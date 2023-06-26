@@ -7,7 +7,7 @@ insert_anchor_links: "left"
 
 <!-- section 1  -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat">
+<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
@@ -24,7 +24,22 @@ insert_anchor_links: "left"
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+
+<div class="container mx-auto">
+
+{% row(style="header") %}
+
+![Image](token_header_geometric.png#mx-auto)
+
+|||
+
+## TFT Powers the<br>Decentralized Internet
+
+Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
+
+
+{% end %}
 
 
 
@@ -76,6 +91,9 @@ ThreeFold is made to handle thousands of transactions and smart contracts per se
 ThreeFold’s innovative infrastructure is incredibly sustainable, ensuring the tokens sustainability and longevity.
 
 {% end %}
+
+
+</div>
 
 <!-- section 3 -->
 
