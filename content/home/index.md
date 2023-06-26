@@ -91,9 +91,9 @@ Your digital life depends on hyperscale data centers controlled by a handful of 
 
 ## Internet Re-Imagined. Internet Re-Built.
 
-### **Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.**
+### Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.
 
-### **But we didn't just imagine it – we built it. Join us in evolving the Internet, together.**
+### But we didn't just imagine it – we built it. Join us in evolving the Internet, together.
 
 {% end %}
 
@@ -235,7 +235,7 @@ We're open-source and decentralized, so we use a token called $TFT to fuel the m
 
 .bgtest{
 
-  background-image: url("home/checker4.png");
+  background-image: url("home/Bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
