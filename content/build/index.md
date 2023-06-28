@@ -8,9 +8,9 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
-## The Next Generation of <br> **Cloud Computing**
+## **Build** the Future
 
-Deploy any workload with unprecedented security, scalability, and efficiency, on a fully comprehensive peer-to-peer digital infrastructure. Discover a cloud like no other.
+Deploy and administer on a decentralized autonomous edge infrastructure. Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.
 
 <br>
 

@@ -9,9 +9,9 @@ insert_anchor_links: "left"
 
 {% row(style="center mtop narrow") %}
 
-## Decentralizing <br>**the Internet Economy**
+## TFT **Powers** the Decentralized Internet
 
-ThreeFold creates an entirely new decentralized Internet economy that allows anyone to join the world’s fastest growing market – the Internet.
+Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
 
 <br>
 

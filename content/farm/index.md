@@ -10,7 +10,7 @@ insert_anchor_links: "left"
 
 ## Be the **Internet**
 
-Become a ThreeFold Farmer. Provide Internet capacity to the people around you, and earn for it.
+By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Support a decentralized future. Take part in shaping a new Internet era governed by all of us.
 
 <br>
 
