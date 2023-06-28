@@ -43,16 +43,6 @@ extra:
 
 </button>
 
-|||
-
-<button onclick="window.location.href='/developer'">
-
-[Developer Resources](/developer)
-<br>
-<p class="text-sm">Join The Developer Community</p>
-
-</button>
-
 {% end %}
 
 - More
@@ -62,9 +52,9 @@ extra:
 
 #### Tools
 
-<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/tokens/threefold__threefold_connect')">
+<button onclick="openInNewTab('https&#58;//manual.grid.tf/getstarted/TF_Connect/TF_Connect.html')">
 
-[ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
+[ThreeFold Connect](https://manual.grid.tf/getstarted/TF_Connect/TF_Connect.html)
 <br>
 <p class="text-sm">TFT Wallet, 2FA, & More</p>
 
@@ -86,15 +76,7 @@ extra:
 
 |||
 
-#### Resources 
-
-<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/')">
-
-[Library](https://library.threefold.me/info/threefold#/)
-<br>
-<p class="text-sm">Explore the Documentation</p>
-
-</button>
+#### Resources
 
 <button onclick="openInNewTab('https&#58;//manual.grid.tf')">
 
@@ -106,9 +88,19 @@ extra:
 
 <button onclick="openInNewTab('https&#58;//github.com/threefoldtech/')">
 
-[GitHub](https://github.com/threefoldtech/)
+[GitHub | TF Tech](https://github.com/threefoldtech/)
 <br>
 <p class="text-sm">Code Library & Documentation</p>
+
+</button>
+
+<button onclick="openInNewTab('https&#58;//github.com/threefoldtech/')">
+
+[GitHub | TF Foundation](https://github.com/threefoldfoundation/)
+<br>
+<p class="text-sm">Websites & Manuals</p>
+
+</button>
 
 |||
 
