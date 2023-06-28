@@ -31,8 +31,8 @@ The Internet was meant to be a peer-to-peer infrastructure with us in the center
 
 Any current or future technology, including blockchain, metaverses and web 3.0, can be hosted natively on the ThreeFold Grid via smart contracts with minimum migration. The grid is compatible with most open source tools and protocols.
 
-<button>[For Developers](https://manual.grid.tf/developers/developers.html)</button>
-<button>[For Sysadmins](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
+<button>[Developer Manual](https://manual.grid.tf/developers/developers.html)</button>
+<button>[Sysadmin Manual](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
 
 {% end %}
 
@@ -44,7 +44,6 @@ Any current or future technology, including blockchain, metaverses and web 3.0, 
 
 The ThreeFold Grid is formed by Farmers, independent people who connect 3Nodes (decentralized Internet capacity) anywhere electricity and network are present. Together, they form a globally distributed Internet infrastructure and earn income in the form of TFT.
 
-<button>[Learn About TFT](/tft)</button>
 <button>[Expand The Grid](/farm)</button>
 
 |||
@@ -93,7 +92,6 @@ A decentralized autonomous operating system designed to dedicate hardware capaci
 TFT is the official medium of exchange for Internet capacity on the ThreeFold Grid. The utility token allows users to reserve Internet capacity via the ThreeFold Blockchain and rewards farmers for their contribution to the network.
 
 <button>[About TFT](/tft)</button>
-<button>[Expand The Grid](/farm)</button>
 
 |||
 

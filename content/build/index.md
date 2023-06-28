@@ -14,8 +14,8 @@ Deploy and administer on a decentralized autonomous edge infrastructure. Experie
 
 <br>
 
-<button>[For Developers](https://manual.grid.tf/developers/developers.html)</button>
-<button>[For Sysadmins](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
+<button>[Developer Manual](https://manual.grid.tf/developers/developers.html)</button>
+<button>[Sysadmin Manual](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
 <button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
