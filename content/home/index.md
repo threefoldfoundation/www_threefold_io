@@ -11,9 +11,18 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="center mtop narrow") %}
+{% row(style="center narrow") %}
 
-![image](black_threefold_header.png#medium)
+<br/>
+<br/>
+
+![Image](black_threefold_header.png#medium)
+
+<br/>
+
+## A Co-Owned Global Sovereign **Internet**
+
+ThreeFold is **a peer-to-peer open-source Internet platform that connects users directly with local Internet capacity** (storage, compute, and network) provided by farmers. A decentralized sovereign alternative to today's centralized Internet model.
 
 <br>
 <br>
@@ -30,13 +39,147 @@ We empower individuals and communities to regain control of their digital lives 
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.9.0
+### The ThreeFold Grid v3.9
 
 ## **Live and Operational**
 
 {% end %}
 
 <!-- section 3 (EXPAND) -->
+
+{% row(style="center narrow") %}
+
+![Image](grid_wide_1.png#mx-auto#large)
+
+## The **Layer Zero** for a Decentralized World
+
+Anything that runs on Linux can run on ThreeFold – with more security, more sustainably, and in true decentralization. The ThreeFold Grid can support workloads from Blockchain to Web2 to Web3 to IoT and Metaverse and more.
+
+<br>
+
+<button>[Learn About the Grid](/grid)</button>
+<button>[Use the Grid](/build)</button>
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+## Experience the Benefits <br> of **ThreeFold**
+
+{% end %}
+
+{% row(style="center between") %}
+
+![Image](capacity.png#medium)
+
+<br/>
+
+### **Edge Capacity**
+
+Achieve low latencies and bandwidth efficiency by reserving capacity locally.
+
+|||
+
+![Image](secure.png#medium)
+
+<br/>
+
+### **Secure**
+
+Open-source system built from the ground-up for a fully transparent and auditable stack.
+
+|||
+
+![Image](scalable.png#medium)
+
+<br/>
+
+### **Scalable**
+
+An autonomous infrastructure that grows naturally with demand, where and when it is needed.
+
+|||
+
+![Image](effecient.png#medium)
+
+<br/>
+
+### **Efficient**
+
+A carefully designed collection of lightweight components that minimize overheads.
+
+{% end %}
+
+<br>
+<br>
+<br>
+
+{% row(style="center narrow") %}
+
+![Image](grid_wide_1.png#mx-auto#large)
+
+## The **Layer Zero** for a Decentralized World
+
+Anything that runs on Linux can run on ThreeFold – with more security, more sustainably, and in true decentralization. The ThreeFold Grid can support workloads from Blockchain to Web2 to Web3 to IoT and Metaverse and more.
+
+<br>
+
+<button>[Learn About the Grid](/grid)</button>
+<button>[Use the Grid](/build)</button>
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+## Experience the Benefits <br> of **ThreeFold**
+
+{% end %}
+
+{% row(style="center between") %}
+
+![Image](capacity.png#medium)
+
+<br/>
+
+### **Edge Capacity**
+
+Achieve low latencies and bandwidth efficiency by reserving capacity locally.
+
+|||
+
+![Image](secure.png#medium)
+
+<br/>
+
+### **Secure**
+
+Open-source system built from the ground-up for a fully transparent and auditable stack.
+
+|||
+
+![Image](scalable.png#medium)
+
+<br/>
+
+### **Scalable**
+
+An autonomous infrastructure that grows naturally with demand, where and when it is needed.
+
+|||
+
+![Image](effecient.png#medium)
+
+<br/>
+
+### **Efficient**
+
+A carefully designed collection of lightweight components that minimize overheads.
+
+{% end %}
+
+<br>
+<br>
+<br>
 
 {% row(style="center narrow") %}
 
@@ -48,19 +191,37 @@ We empower individuals and communities to regain control of their digital lives 
 
 ThreeFold’s unique infrastructure can operate without centralized authority or server, empowering people and communities to build and store applications on a decentralized network owned and operated by its participants.  
 <br>
-ThreeFold is open-source, nobody owns or controls the ThreeFold Grid and everyone can take part. Through many of its unique properties, ThreeFold fosters the security, trust and freedom that are often missing in today’s internet.
+
+![Image](farm_do_it_home.png#mx-auto#medium)
+
+<br>
+
+By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity <br> for the people around you and earn a new digital currency, TFT.
+
+<br>
+
+<button>[Buy a 3Node](http://marketplace.3node.global/)</button>
+<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
+<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
 
 {% end %}
 
 <br>
 <br>
 
-<!-- section 3 (EXPAND) -->
+![Image](developer_header_home.jpg#mx-auto#medium)
 
 {% row(style="center between narrow") %}
 
-## Experience the Benefits
-## of __ThreeFold__
+True digital sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.
+
+<br>
+
+<button>[Dashboard](https://dashboard.grid.tf/)</button>
+<button>[Playground](https://play.grid.tf)</button>
+<button>[Manual](https://manual.grid.tf/)</button>
+<button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
 
@@ -79,7 +240,7 @@ Build secure applications with predeterministic smart contracts and access unpar
 
 ### **Self-Sovereign**
 
-Take control of your digital future with ThreeFold's self-sovereign technology, using cryptography to ensure you own and control your data.
+![Image](community_header_home.jpg#mx-auto)
 
 |||
 
@@ -148,7 +309,7 @@ At ThreeFold, we believe that sustainability is a fundamental part of the intern
 
 <br>
 
-We also prioritize equality, diversity, and inclusion in our culture and vision of an internet for everyone, everywhere.
+<button>[Check All Partners](/partners)</button>
 
 {% end %}
 

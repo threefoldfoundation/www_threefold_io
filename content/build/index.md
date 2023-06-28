@@ -19,12 +19,12 @@ Deploy any workload with unprecedented security, scalability, and efficiency, on
 
 <button>[Dashboard](https://dashboard.grid.tf)</button>
 <button>[Playground](https://play.grid.tf)</button>
-<button>[Manual](https://library.threefold.me/info/manual/#/manual__manual3_home_new)
+<button>[Manual](https://manual.grid.tf/)
 <button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
 
-<!-- section 2  -->
+<!-- section 4 -->
 
 {% row(style="center mbottom") %}
 
@@ -44,7 +44,7 @@ Plug in standard tools and protocols to the most resilient and versatile storage
 
 Native support for containers and virtual machines. Migrate existing applications effortlessly or build from scratch in a cutting-edge computing environment.
 
-<button>[Learn More](https://library.threefold.me/info/manual/#/manual__weblets_home)</button>
+<button>[Learn More](https://manual.grid.tf/weblets/weblets_home.html)</button>
 
 |||
 
@@ -63,62 +63,6 @@ Private overlay networks and global end-to-end encryption minimize attack surfac
 
 {% row(style="center mtop narrow") %}
 
-## Designed for <br> **Demanding Workloads**
-
-{% end %}
-
-{% row(style="center between") %}
-
-![Image](capacity.png#medium)
-
-<br/>
-
-### **Edge Capacity**
-
-Achieve low latencies and bandwidth efficiency by reserving capacity locally.
-
-|||
-
-![Image](secure.png#medium)
-
-<br/>
-
-### **Secure**
-
-Open-source system built from the ground-up for a fully transparent and auditable stack.
-
-|||
-
-![Image](scalable.png#medium)
-
-<br/>
-
-### **Scalable**
-
-An autonomous infrastructure that grows naturally with demand, where and when it is needed.
-
-|||
-
-![Image](effecient.png#medium)
-
-<br/>
-
-### **Efficient**
-
-A carefully designed collection of lightweight components that minimize overheads.
-
-{% end %}
-
-<!-- section 4 -->
-
-{% row(style="center mbottom narrow") %}
-
-<button>[Learn More](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_home)</button>
-
-{% end %}
-
-{% row(style="center mtop narrow") %}
-
 ## Explore **What's Possible**
 
 Build in a truly decentralized environment on the ThreeFold Grid. A sandbox of limitless possibilities awaits for the open source builders of a decentralized tomorrow.
@@ -127,29 +71,29 @@ Build in a truly decentralized environment on the ThreeFold Grid. A sandbox of l
 
 {% row(style="center mtop between") %}
 
-[![virtual machine](virtual_machine.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
+[![virtual machine](virtual_machine.png#medium)](https://library.threefold.me/info/manual/#/manual__weblets_vm)
 
 |||
 
-[![kubernetes](kubernetes.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
+[![kubernetes](kubernetes.png#medium)](https://library.threefold.me/info/manual/#/manual__weblets_k8s)
 
 |||
 
-[![terraform](terraform.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
+[![terraform](terraform.png#medium)](https://library.threefold.me/info/manual/#/manual__manual3_iac_home)
 
 {% end %}
 
 {% row(style="center mbottom between") %}
 
-[![weblets](weblets.png#mx-auto)](https://library.threefold.me/info/manual/#/manual__weblets_home)
+[![weblets](weblets.png#medium)](https://library.threefold.me/info/manual/#/manual__weblets_home)
 
 |||
 
-[![quantum safe storage](qss.png#mx-auto)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
+[![quantum safe storage](qss.png#medium)](https://library.threefold.me/info/manual/#/technology/qsss/threefold__qsss_home)
 
 |||
 
-[![planetary network](planetary_network.png#mx-auto)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
+[![planetary network](planetary_network.png#medium)](https://library.threefold.me/info/manual/#/cloud/threefold__planetary_network)
 
 {% end %}
 
