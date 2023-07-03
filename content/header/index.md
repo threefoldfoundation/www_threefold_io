@@ -67,14 +67,6 @@ extra:
 
 #### Resources 
 
-<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/')">
-
-[Library](https://library.threefold.me/info/threefold#/)
-<br>
-<p class="text-sm">Explore the Documentation</p>
-
-</button>
-
 <button onclick="openInNewTab('https&#58;//manual.grid.tf')">
 
 [Manual](https://manual.grid.tf)
@@ -83,7 +75,7 @@ extra:
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//github.com/')">
+<button onclick="openInNewTab('https&#58;//github.com/threefoldtech')">
 
 [GitHub](https://github.com/threefoldtech/)
 <br>

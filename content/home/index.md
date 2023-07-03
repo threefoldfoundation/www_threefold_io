@@ -11,28 +11,41 @@ extra:
 
 <!-- section 1 (header) -->
 
-<div class="text-gray-900 bg-cover bg-no-repeat" style="background-image:url(home/BG_wide.png);background-position:right">
+<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
       <div class="flex flex-col items-center md:flex-row">
        <div class="w-full md:w-1/2">
           <div class="block">
             <img
-                src="home/header_home2.png" class="w-full h-full"/>
+                src="home/home_header_geometric.png" class="w-full h-full"/>
           </div>
         </div>
         <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
           <div class="flex flex-col items-start justify-center p-6">
-            <h1>Welcome to ThreeFold</strong></h1>
-            <!-- <h3 class="my-1">Host a node, support a decentralized future</h3> -->
-            <p>ThreeFold is a decentralized, peer-to-peer, open-source Internet platform, allowing people to provide and utilize Internet capacity directly – without intermediaries.
-            <br>
-            A sovereign alternative to the centralized Internet.</p>
+            <h2>Decentralized. Autonomous. Internet Infrastructure.</strong></h1>
+            <p>ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as "no middleman" Internet resources between independent capacity providers and users.</p>
             <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/intro/intro_readme.html">Get Started</a></button>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+
+<div class="container mx-auto">
+
+{% row(style="header") %}
+
+![Image](home_header_geometric.png#mx-auto)
+
+|||
+
+## Decentralized. Autonomous. Internet Infrastructure.
+
+ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as "no middleman" Internet resources between independent capacity providers and users.
+
+<button>[Get Started](#take_action)</button>
+
+{% end %}
 
 
 
@@ -58,9 +71,13 @@ The current Internet is **not scalable**. Over 3 billion people lack reliable In
 
 The current Internet is **not sustainable**. It consumes between 5-10% of the world’s energy.
 
+<br>
+
+Your digital life depends on hyperscale data centers controlled by a handful of tech giants. The majority of web 2 and even web 3 services are built on these foundations.
+
 |||
 
-![Image](internet_outdated.png#medium)
+![Image](home_alternativeblock.png#medium#mx-auto)
 
 {% end %}
 
@@ -72,11 +89,15 @@ The current Internet is **not sustainable**. It consumes between 5-10% of the wo
 
 {% row(style="center margin" bgPath="images/checkerboard2.jpg") %}
 
-### **Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.**
+## Internet Re-Imagined. Internet Re-Built.
 
-### **But we didn't just imagine it – we built it. Join us in evolving the Internet, together.**
+### Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.
+
+### But we didn't just imagine it – we built it. Join us in evolving the Internet, together.
 
 {% end %}
+
+</div>
 
 <br>
 
@@ -99,13 +120,47 @@ The current Internet is **not sustainable**. It consumes between 5-10% of the wo
 
 <!-- section 5 -->
 
-{% row(style="center margin narrow") %}
+{% row(style="center narrow") %}
 
-### **The ThreeFold Grid is community-owned and managed. The stack was built around principles of open-source and simplicity, and to be compatibile with current and future IT standards – from Kubernetes to Docker to IPFS and S3. It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.**
+## ThreeFold is Different
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="center mbottom narrow") %}
+
+![Image](beyond.png#icon)
+
+<br>
+
+### **Beyond a Protocol**
+
+The ThreeFold Grid is not just another protocol, it's a community-owned and managed low level decentralized Internet capacity layer and infrastructure, on top of which any protocol can run.
+
+|||
+
+![Image](complementing.png#icon)
+
+<br>
+
+### **Complementing Web3**
+
+ThreeFold is not a Web3 project, but we love Web3 and the ThreeFold Grid can host and complement any Web3 project, finally providing a truly decentralized backbone for the space.
+
+|||
+
+![Image](compatible.png#icon)
+
+<br>
+
+### **Highly-Compatible**
+
+The stack was built around open-source and simplicity, and to be compatibile with current and future IT standards such as Kubernetes, Docker, IPFS and S3. If it runs on Linux, it can be hosted on ThreeFold.
+
+<!-- It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.** -->
+
+{% end %}
+
+{% row(style="center mtop narrow" id="take_action") %}
 
 ## Take Action Today
 
@@ -115,11 +170,11 @@ The current Internet is **not sustainable**. It consumes between 5-10% of the wo
 
 {% row(style="center narrow mbottom") %}
 
-![Image](expandicon.png#medium)
+![Image](expand_icon1.png#medium)
 
 ### **Expand**
 
-Independent people and organizations connect hardware to the ThreeFold Grid. Provide Internet capacity for the people around you, and earn for it. 
+People and organizations are connecting hardware to the ThreeFold Grid. Find your fit, provide Internet capacity for people around you, and earn for it.
 
 <br>
 
@@ -127,11 +182,11 @@ Independent people and organizations connect hardware to the ThreeFold Grid. Pro
 
 |||
 
-![Image](buildicon.png#medium)
+![Image](build_icon1.png#medium)
 
 ### **Build**
 
-Developers and Sysadmins use ThreeFold technology to build, deploy, and store on top of community-owned Internet capacity. They pay with $TFT.
+Developers and Sysadmins use ThreeFold technology to build, deploy, and store on top of a community-owned edge infrastructure. You pay with $TFT.
 
 <br>
 
@@ -139,11 +194,11 @@ Developers and Sysadmins use ThreeFold technology to build, deploy, and store on
 
 |||
 
-![Image](togethericon.png#medium)
+![Image](together_icon1.png#medium)
 
 ### **Together**
 
-Join a group of people around the globe who believe the world needs ThreeFold and take action to bring the project forward.
+This project is all of ours. Join a group of people around the globe who believe the world needs ThreeFold and take action to bring ThreeFold forward.
 
 <br>
 
@@ -180,7 +235,7 @@ We're open-source and decentralized, so we use a token called $TFT to fuel the m
 
 .bgtest{
 
-  background-image: url("home/checker4.png");
+  background-image: url("home/Bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

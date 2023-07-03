@@ -136,7 +136,7 @@ h1 {
     color: #3d7200;
   }
   h3 strong {
-    @apply font-semibold;
+    @apply font-normal;
   }
   h4 {
     @apply text-sm lg:text-2xl font-normal;
@@ -164,7 +164,7 @@ h1 {
     @apply 
     inline-block
     lg:text-lg
-    lg:mx-3
+    lg:mr-3
     py-1
     my-4
     border
