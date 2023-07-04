@@ -34,21 +34,26 @@
                 {% if '<a' in header_label %}
                     {% set link_label = header_label | striptags %}
                     {% set link_path = header_label | split(pat="%22") | safe%}
+                    {% set current = get_url(path=link_path[1]) ~ "/" %}
                     {% if header_label is containing("http") %}
                         {% if header_label is not containing("threefold") %}
                         <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                             {{link_label}}
                         </a>
                         {% endif %}
-                    {% else %}
-                    <a href="{{ get_url(path=link_path[1])}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                      {{link_label}}
-                    </a>
-                    {% endif %}
+                      {% elif current == current_url %}
+                          <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal active hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                            {{link_label}}
+                          </a>
+                      {% else %}
+                        <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                          {{link_label}}
+                        </a>
+                      {% endif %}
                 {% else %}
                     <div class="relative">
                         {% set button_id = header_label ~ "-menu-btn" | slugify %}
-                    <button type="button" id="{{button_id}}" class="nav_btn font-medium text-gray-900 hover:text-gray-500 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-500 focus:outline-none transition ease-in-out duration-150">
+                    <button type="button" id="{{button_id}}" class="nav_btn py-3  text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-500 focus:outline-none transition ease-in-out duration-150">
                         <span>{{ header_label }}</span>
                         <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                     </button>
@@ -104,7 +109,7 @@
                     </li>
                   </ul>
                   <div class="rounded-full border-2 mt-1 border-gray-400">
-                    <a href="https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy" target="_blank" class="mt-2">
+                    <a href="https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos" target="_blank" class="mt-2">
                       <img
                         src="{{ get_url(path=section.extra.button_Path) }}"
                         class="mr-5"
