@@ -18,7 +18,7 @@ extra:
 
 ###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
 
-<h6><a href="" onclick="window.location.href='/farm'">Start Farming</a></h6>
+###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
 
 ###### [Farming Community](https://t.me/threefoldfarmers)
 
