@@ -127,4 +127,4 @@ Anyone can start farming by hosting a computer at their home or office and take 
 
 <br/>
 
-[Buy](https://shop.threefold.tech/) or [build](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide) a 3Node and become a ThreeFold Farmer!
+[Buy](https://shop.threefold.tech/) or [build](https://manual.grid.tf/farmers/3node_building/3node_building.html) a 3Node and become a ThreeFold Farmer!

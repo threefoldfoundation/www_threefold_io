@@ -80,5 +80,5 @@ To know more of ThreeFold technology and start farming:
 
 - Dive into [the ThreeFold Library](https://library.threefold.me)
 - Get a node from [the Official ThreeFold webshop]( https://marketplace.3node.global/index.php)
-- Build your [own node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)
+- Build your [own node](https://manual.grid.tf/farmers/farmers.html)
 - Or join us on [our two-way chat](https://t.me/threefold)

@@ -41,7 +41,7 @@ ThreeFold is a peer-to-peer open-source Internet platform that connects users di
 
 |||
 
-<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
+<button>[Get TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
 
 {% end %}
 
@@ -85,7 +85,7 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 |||
 
-<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[Build a 3Node](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
 
 |||
 
