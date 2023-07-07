@@ -18,7 +18,7 @@ extra:
 
 ###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 
-###### [Start Farming](https://manual.grid.tf/farmers/farmers.html.)
+###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
 
 ###### [Use the Dashboard](https://dashboard.grid.tf/)
 
