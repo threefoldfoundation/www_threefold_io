@@ -201,8 +201,8 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 <br>
 
 <button>[Buy a 3Node](http://marketplace.3node.global/)</button>
-<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
-<button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
+<button>[Build a 3Node](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
+<button>[Learn](https://manual.grid.tf/farmers/farmers.html)</button>
 <button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
 
 {% end %}

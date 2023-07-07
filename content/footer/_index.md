@@ -16,7 +16,7 @@ extra:
 
 ###### [Talk to ThreeFolders](https://t.me/threefold)
 
-###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
+###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 
 ###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
 
@@ -36,17 +36,17 @@ extra:
 
 <br>
 
-###### [ThreeFold Grid](https://library.threefold.me/info/threefold#/tfgrid/threefold__tfgrid_home)
+###### [ThreeFold Grid](https://manual.grid.tf/intro/grid3_howitworks.html)
 
-###### [ThreeFold Technology](https://library.threefold.me/info/threefold/#/technology/threefold__zos)
+###### [ThreeFold Technology](https://manual.grid.tf/concepts/concepts_readme.html)
 
-###### [ThreeFold Farming](https://library.threefold.me/info/threefold/#/tfgrid/farming/threefold__farming_home)
+###### [ThreeFold Farming](https://manual.grid.tf/farmers/farmers.html)
 
-###### [ThreeFold Token](https://library.threefold.me/info/threefold/#/tokens/threefold__tokens_home)
+###### [ThreeFold Token](https://manual.grid.tf/threefold_token/threefold_token.html)
 
 ###### [Manuals](https://manual.grid.tf/)
 
-###### [ThreeFold Glossary](https://library.threefold.me/info/threefold/#/threefold__definitions_concepts)
+###### [FAQ](https://manual.grid.tf/faq/faq.html)
 
 |||
 

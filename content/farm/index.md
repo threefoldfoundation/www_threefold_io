@@ -132,7 +132,7 @@ The ThreeFold Grid is the only Internet infrastructure that can scale to the far
 <br>
 
 <button>[Buy a 3Node](https://marketplace.3node.global/index.php)</button>
-<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[Build a 3Node](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
 <button>[More About TFT](/tft)</button>
 
 {% end %}

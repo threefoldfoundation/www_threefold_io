@@ -73,4 +73,4 @@ Really, all it takes right now is widespread support and adoption of more energy
 <br/>
 
 * Join the global ThreeFold [movement](https://t.me/threefold).
-* [Start farming](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) today and support a greener Internet while regenerating the planet.
+* [Start farming](https://manual.grid.tf/farmers/farmers.html) today and support a greener Internet while regenerating the planet.
