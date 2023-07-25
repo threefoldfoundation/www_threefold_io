@@ -20,7 +20,7 @@ extra:
 
 <br/>
 
-## Decentralized. Autonomous.<br>Internet Infrastructure.
+## Decentralized Autonomous.<br>Internet Infrastructure.
 
 ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as “no middleman” Internet resources between independent capacity providers and users.
 
