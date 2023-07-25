@@ -122,9 +122,9 @@ extra:
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//intro.threefold.me')">
+<button onclick="openInNewTab('https&#58;//library.threefold.me')">
 
-[Intro Docs](https://intro.threefold.me)
+[Intro Docs](https://library.threefold.me)
 <br>
 <p class="text-sm">Perfect for Newcomers</p>
 
