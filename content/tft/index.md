@@ -9,7 +9,14 @@ insert_anchor_links: "left"
 
 {% row(style="center mtop narrow") %}
 
-![](tft_header1.png#medium)
+## TFT **Powers** the Decentralized Internet
+
+Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
+
+<br>
+
+<button>[Learn About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
+<button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
 
 {% end %}
 
@@ -51,7 +58,16 @@ With a limited supply of 4 billion TFT and a burning mechanism, the token is bac
 ### **Secured by Cryptography**
 TFT transactions and smart contracts on the ThreeFold Grid are secured by advanced cryptography.
 
-|||
+<br>
+<br>
+
+![Image](tft_table.png#mx-auto)
+
+
+{% end %}
+
+
+<!-- section 4 (THE CURRENCY) -->
 
 
 ### **Ultra-Scalable**
@@ -60,8 +76,7 @@ ThreeFold is made to handle thousands of transactions and smart contracts per se
 |||
 
 
-### **Energy-efficient**
-ThreeFold’s innovative infrastructure is incredibly sustainable, ensuring the tokens sustainability and longevity.
+<button>[Learn About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
 
 {% end %}
 

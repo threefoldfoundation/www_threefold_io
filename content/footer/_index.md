@@ -10,21 +10,25 @@ extra:
 
 {% row(style="lean") %}
 
-##### PARTICIPATE
+##### TAKE ACTION
 
 <br>
 
+<<<<<<< HEAD
 ###### [Talk to ThreeFolders](https://t.me/threefold)
 
 ###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 
 ###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
+=======
+###### [Manuals](https://manual.grid.tf/)
+>>>>>>> master
 
-###### [Farming Community](https://t.me/threefoldfarmers)
+###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 
-###### [Use the Grid](https://dashboard.grid.tf/)
+###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
 
-###### [Testing Community](https://t.me/threefoldtesting)
+###### [Use the Dashboard](https://dashboard.grid.tf/)
 
 ###### [ThreeFold Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 
@@ -32,21 +36,19 @@ extra:
 
 |||
 
-##### KNOWLEDGEBASE
+##### TALK TO HUMANS
 
 <br>
 
-###### [ThreeFold Grid](https://manual.grid.tf/intro/grid3_howitworks.html)
+###### [Main Community](https://t.me/threefold)
 
-###### [ThreeFold Technology](https://manual.grid.tf/concepts/concepts_readme.html)
+###### [Farming Community](https://t.me/threefoldfarmers)
 
-###### [ThreeFold Farming](https://manual.grid.tf/farmers/farmers.html)
+###### [Grid User Community](https://t.me/threefoldtesting)
 
-###### [ThreeFold Token](https://manual.grid.tf/threefold_token/threefold_token.html)
+###### [Forum](https://forum.threefold.io/)
 
-###### [Manuals](https://manual.grid.tf/)
-
-###### [FAQ](https://manual.grid.tf/faq/faq.html)
+<h6><a target="_self" onclick="window.location.href='/support'">Support</a></h6>
 
 |||
 
@@ -58,12 +60,10 @@ extra:
 
 <h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
 
+<h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
+
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
-
-###### [Forum](https://forum.threefold.io/)
-
-<h6><a target="_self" onclick="window.location.href='/support'">Support</a></h6>
 
 {% end %}
