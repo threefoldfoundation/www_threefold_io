@@ -14,15 +14,7 @@ extra:
 
 <br>
 
-<<<<<<< HEAD
-###### [Talk to ThreeFolders](https://t.me/threefold)
-
-###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
-
-###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
-=======
 ###### [Manuals](https://manual.grid.tf/)
->>>>>>> master
 
 ###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 

@@ -8,11 +8,11 @@ extra:
 ---
 
 
-- [About]("/about")
-- [Store]("/store")
-- [Build]("/buildnew")
-- [Farm]("/farmnew")
-- [Token]("/tft")
+- [Mission]("/mission")
+- [Grid]("/grid")
+- [Build]("/build")
+- [Farm]("/farm")
+- [TFT]("/tft")
 - Ecosystem
 
 {% row() %}

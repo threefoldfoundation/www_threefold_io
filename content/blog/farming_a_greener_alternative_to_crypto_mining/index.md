@@ -101,4 +101,4 @@ If not us, who? If not now, when?
 <br/>
 
 * Join the global ThreeFold [movement](https://t.me/threefold).
-* [Start farming](https://manual.grid.tf/farmers/farmers.html) today and become a part of the new Internet while regenerating the planet.
+* [Start farming](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) today and become a part of the new Internet while regenerating the planet.

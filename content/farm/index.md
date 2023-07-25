@@ -21,9 +21,11 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% end %}
 
+
+
 <!-- section 2 (Farm) -->
 
-{% row(style="center mbottom narrow ") %}
+{% row(style="center mtop narrow ") %}
 
 
 ## Farm
@@ -63,7 +65,7 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 <!-- section 3 (world of farmers) -->
 
-{% row(style="center mbottom") %}
+{% row(style="center margin") %}
 
 
 ## Join **a World of Farmers**
@@ -85,11 +87,14 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 <!-- section 4 (How To Earn TFT) -->
 
-{% row(style="center mbottom narrow") %}
+{% row(style="center mtop narrow") %}
+
 
 ## How to earn **TFT**
 
 Farmers earn TFT according to the amount of Internet capacity their 3Nodes connect to the ThreeFold Grid. The Internet capacity is verified by the ThreeFold Blockchain on an ongoing basis using the “Proof-of-Capacity” algorithm.
+
+<br>
 
 #### Proof of Capacity
 
@@ -119,7 +124,8 @@ Farmers earn the TFT after meeting the minimum uptime as proof-of-capacity.
 
 <!-- section 7 (THE VALUE OF TFT) -->
 
-{% row(style="center mbottom margin") %}
+{% row(style="center between margin") %}
+
 
 ## The **Value of TFT**
 

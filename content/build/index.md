@@ -22,7 +22,7 @@ Deploy and administer on a decentralized autonomous edge infrastructure. Experie
 
 <!-- section 4 -->
 
-{% row(style="center mbottom") %}
+{% row(style="center margin") %}
 
 ![storage](storage.jpg#medium)
 
