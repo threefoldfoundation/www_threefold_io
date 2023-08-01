@@ -9,15 +9,14 @@ insert_anchor_links: "left"
 
 {% row(style="center mtop narrow") %}
 
-## Decentralizing <br>**the Internet Economy**
+## TFT **Powers** the Decentralized Internet
 
-ThreeFold creates an entirely new decentralized Internet economy that allows anyone to join the world’s fastest growing market – the Internet.
+Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
 
 <br>
 
-<button>[Learn About TFT](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
-<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)</button>
-<button>[Liquidity Litepaper](https://threefold.docsend.com/view/3mu3cddgj7znuixj)</button>
+<button>[Learn About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
+<button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
 
 {% end %}
 
@@ -80,8 +79,6 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 ![Image](tft_table.png#mx-auto)
 
-<button class="long-text text-xs lg:text-xl">[How ThreeFold Compares With The Industry ](/blog/2021/10/post-7)</button>
-
 
 {% end %}
 
@@ -98,7 +95,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 TFT is a utility token that allows people to hold current and future Internet capacity on the ThreeFold Grid. It incentivizes an open ecosystem where anyone can connect and utilize Internet capacity without any intermediaries.
 
-<button>[Learn About TFT](https://library.threefold.me/info/threefold/#/tokens/tokens_home.md)</button>
+<button>[Learn About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
 
 {% end %}
 

@@ -20,9 +20,9 @@ extra:
 
 <br/>
 
-## A Co-Owned Global Sovereign **Internet**
+## Decentralized. Autonomous.<br>Internet Infrastructure.
 
-ThreeFold is **a peer-to-peer open-source Internet platform that connects users directly with local Internet capacity** (storage, compute, and network) provided by farmers. A decentralized sovereign alternative to today's centralized Internet model.
+ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as “no middleman” Internet resources between independent capacity providers and users.
 
 <br>
 
@@ -138,8 +138,8 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 <br>
 
 <button>[Buy a 3Node](http://marketplace.3node.global/)</button>
-<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
-<button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
+<button>[Build a 3Node](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
+<button>[Learn](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
 <button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
 
 {% end %}

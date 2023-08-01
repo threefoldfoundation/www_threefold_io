@@ -35,7 +35,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 |||
 
-[![yahoo_news](documentation.png)](https://library.threefold.me/info/threefold#/)
+[![yahoo_news](documentation.png)](https://manual.grid.tf)
 
 {% end %}
 
@@ -78,38 +78,6 @@ We're a 100% open-source and community-driven project that builds the critical i
 |||
 
 [![yahoo_news](linkedin.png)](https://ae.linkedin.com/company/threefold-foundation)
-
-{% end %}
-
-<br>
-
-
-<!-- section 4 (DEVELOPER COMMUNITY) -->
-
-{% row(style="margin" bgColor="#f2f2f2") %}
-
-![Image](community_developers.png#medium)
-
-|||
-
-## Join the ThreeFold <br> **Developer Community**
-
-From testing our latest releases to joining our development teams or applying for a ThreeFold Foundation grant – there are many ways to engage with ThreeFold’s technology.
-
-<button>[Developer Resources](/developer)</button>
-
-{% end %}
-
-<!-- section 6 (QUESTIONS) -->
-
-{% row(style="center between margin") %}
-
-## Frequently Asked <br> **Questions**
-
-Check out the FAQs or ask a question on the ThreeFold Forum.
-
-<button>[ThreeFold FAQ](/faq)</button>
-<button>[TFT FAQ](/tftfaq)</button>
 
 {% end %}
 

@@ -11,8 +11,6 @@ The most used platforms are:
 
 1. [Pancake Swap](https://library.threefold.me/info/threefold#/tokens/threefold__tft_binance_defi) to exchange any Binance Smart Chain token to TFT.
 
-2. [Liquid Exchange](https://library.threefold.me/info/threefold#/tokens/threefold__tft_liquid) and [Liquid Quick Exchange](https://library.threefold.me/info/threefold#/tokens/threefold__tft_liquid_quick_exchange) support bank deposits, visa credit cards and most used cryptocurrencies.
-
-3. [Stellar DEX](https://library.threefold.me/info/threefold#/tokens/threefold__tft_stellar_dex) to exchange XLM or other stellar based tokens to TFT (multiple wallets and DEX UI supported).
+3. [Stellar DEX](https://manual.grid.tf/threefold_token/buy_sell_tft/tft_lobstr/tft_lobstr.html) to exchange XLM or other stellar based tokens to TFT (multiple wallets and DEX UI supported).
 
 Learn more about the other buying options [here](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
