@@ -1,4 +1,4 @@
-# Welcome to ThreeFold Website Repository
+# Welcome to Welcome to ThreeFold Website RepositoryWebsite Repository
 
 ![](./static/images/tf_logo.png)
 
