@@ -1,7 +1,8 @@
 ---
 id: today_tomorrow_beyond
 title: "ThreeFold Today, Tomorrow, & Beyond"
-image_caption:
+image_caption: Today, Tomorrow, & Beyond
+description: There's no other project or technology out there like ThreeFold. Let's take a look at where we are and where we are going, together.
 date: 2023-01-11
 taxonomies:
   people: [sam_taggart]
