@@ -5,12 +5,16 @@ image_caption: A Glimpse into the Future of the TFT Ecosystem
 description: We truly believe in decentralization. So, the team is doing some incredible work on developing our own DeFi solutions. They’re aimed at providing a native financial system for the Internet of Internets and strengthening the foundation of the ecosystem by enhancing the stability and liquidity of the ThreeFold Token (TFT).
 date: 2022-08-11
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, threefold_token, technology, blockchain, update]
     categories: [foundation]
 extra:
     imgPath: future_tft_ecosystem.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 The emergence of blockchain technology presented the world with new exciting opportunities – from independent digital currencies and decentralized financial (DeFi) applications to smart contracts, consensus-driven voting systems, and decentralized autonomous organizations (DAOs). Above all, blockchain technology held, and still holds, the promise of decentralization and transparency.
 

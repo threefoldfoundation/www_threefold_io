@@ -5,12 +5,16 @@ image_caption: TF Grid 4 Series on the Forum
 description: We thought it would be beneficial to share a series of posts diving into specific topics explored during the call
 date: 2023-04-21
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: tf_grid4_series.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
+<br>
 
 We held [a community call](https://forum.threefold.io/t/april-2023-tf-grid-4-community-call-recording/3896) a few days ago to discuss TF Grid 4.0. While we encourage you to watch [the full recording](https://youtu.be/7OwE3BPKJXk) to catch up with everything, we thought it would be beneficial to share a series of posts diving into specific topics explored during the call:
 

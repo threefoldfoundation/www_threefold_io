@@ -5,12 +5,15 @@ image_caption: "Technology as a Tool for Humanity"
 description: While technology has had an important role in the creation of today’s societies, it might have an even greater role for our future. Two opposite pictures could be painted - a utopia or a dystopia. Technology should not be a tool to extort humanity, but one at the service of humanity.
 date: 2022-10-28
 taxonomies:
-  people: [victoria_obeegadoo]
+  people: [sam_taggart]
   tags: [threefold_grid, technology, peer_to_peer, threefold_cloud, why]
   categories: [foundation]
 extra:
   imgPath: tech_as_a_tool_for_humanity.png
 ---
+
+*"This article was originally published by Victoria Obeegadoo, a former member of ThreeFold Foundation."*
+
 
 ## Technology as a tool for humanity
 

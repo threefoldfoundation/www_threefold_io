@@ -5,12 +5,15 @@ image_caption: Farmerbot - A Basic Guide for QAnet
 description: This is your go-to resource to get started with our new power-saving feature!
 date: 2023-03-16
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: farmerbot_qanet_guide.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 Check out this post with [all the information shared so far about the Farmerbot](https://forum.threefold.io/t/farmerbot-basic-guide-for-qa-net/3845), including how to prepare your farm and move it to QAnet for testing, and setting it all up.
 

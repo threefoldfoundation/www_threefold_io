@@ -5,12 +5,16 @@ image_caption: ThreeFold 2022 – A Look Back at H1 & Ahead to H2
 description: It was an eventful first half of 2022 for ThreeFold and the entire ecosystem – with the evolution of the Internet of Internets, huge advancements and the continued expansion of the ThreeFold Grid, new partnerships, and more!
 date: 2022-07-26
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, update, community, technology]
     categories: [foundation]
 extra:
     imgPath: threefold_2022_reflect_h1_outlook_h2.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 We’re currently experiencing the [worst crypto bear market](https://cointelegraph.com/news/2022-bear-market-has-been-the-worst-on-record-glassnode) ever recorded, with a loss in value of [$2 trillion](https://www.cnbc.com/2022/07/14/why-the-2022-crypto-winter-is-unlike-previous-bear-markets.html) since 2021 and projects collapsing. Bitcoin recorded a [70% loss](https://www.cnbc.com/2022/07/14/why-the-2022-crypto-winter-is-unlike-previous-bear-markets.html) since last November. While rising inflation rates, a downward market and crypto winter have many projects struggling, these market conditions favour those who are building and providing technology with real-world value over those who are just creating hype. The dust always settles.
 

@@ -5,12 +5,15 @@ image_caption: ThreeFold Weekly! May 5th, 2022 (Vol 16)
 description: Welcome to the 16th edition of ThreeFold Weekly. Here’s what happened in the ThreeFold universe last week.
 date: 2022-05-05
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
     imgPath: weekly_vol_16.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
 
 ### Community updates:
 
