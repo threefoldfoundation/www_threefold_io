@@ -5,12 +5,15 @@ image_caption: Here's our End of Year Review!
 description: In our 2022 Review, we go over the progress made within the ThreeFold ecosystem across different arenas - Grid, Farming, Technology, Decentralization, TFT, Partnerships, Team on the Ground, Mastodon, the Fediverse & ThreeFold, and Q4 Community Calls.
 date: 2022-12-31
 taxonomies:
-  people: [victoria_obeegadoo]
+  people: [sam_taggart]
   tags: [update, technology, news, community]
   news-category: [foundation]
 extra:
   imgPath: eoy_review_2022.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 What a year it has been!
 

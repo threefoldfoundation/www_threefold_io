@@ -5,12 +5,14 @@ image_caption: Kubernetes on ThreeFold - A Mini Video Series
 description: Jakub created a mini video series about using Kubernetes on the ThreeFold grid. 
 date: 2023-03-17
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: kubernetes_video_series.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
 
 Jakub created a [mini video series about using Kubernetes on the ThreeFold grid](https://forum.threefold.io/t/kubernetes-on-threefold-mini-video-series/3831). It is suited mainly for beginners looking to deploy their first workload on the Grid using Kubernetes. 
 

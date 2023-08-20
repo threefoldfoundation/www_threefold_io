@@ -5,12 +5,15 @@ image_caption: Spotlight - Terraform on the ThreeFold Grid
 description: By using easy-to-follow guides shared by our fellow community member, Drew, you’ll be set up within a few steps!
 date: 2023-01-13
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, news, community]
     news-category: [foundation]
 extra:
     imgPath: terraform_spotlight.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 Looking for a fun weekend activity? Why not try to deploy Terraform on the Grid?
 
