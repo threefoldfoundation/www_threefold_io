@@ -5,12 +5,14 @@ image_caption: Reminder -February Community Call
 description: Join us next week, on Tuesday 21st at 17:00 CET/11:00 EST, for February's Community Call!
 date: 2023-02-16
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: cc_feb_23_rem.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
 
 Join us next week, on _Tuesday 21st at 17:00 CET/11:00 EST_, for February's Community Call! 
 

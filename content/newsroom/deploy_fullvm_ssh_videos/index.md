@@ -5,12 +5,14 @@ image_caption: Deploy a Full VM with SSH, learn how to do so using different OSs
 description: Mik created 4 more ThreeFold Guides for how to easily do so on the ThreeFold Playground.
 date: 2023-04-14
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: deploy_fullvm_ssh_videos.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
 
 Curious how to deploy a full VM with SSH? Mik created 4 more ThreeFold Guides for how to easily do so on the ThreeFold Playground. These guides cover two more operating systems, Linux & Mac, check it out according to your needs!
 

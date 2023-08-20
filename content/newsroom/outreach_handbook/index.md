@@ -5,12 +5,14 @@ image_caption: Community Outreach Handbook
 description: Sam & I compiled relevant information that will be useful for those ready to spread awareness of the project.
 date: 2023-01-12
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, news, community]
     news-category: [foundation]
 extra:
     imgPath: outreach_handbook.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
 
 One goal we have for 2023 is furthering the decentralization of ThreeFold by empowering the community to take action independently. In this spirit, Sam & I compiled relevant information that will be useful for those ready to spread awareness of the project.
 

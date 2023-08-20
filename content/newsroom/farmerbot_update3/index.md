@@ -5,12 +5,15 @@ image_caption: Farmerbot Feature Testing Update
 description: Here's the latest update from Brandon!
 date: 2023-02-16
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: farmerbot_update3.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 Here's the latest update from Brandon:
 

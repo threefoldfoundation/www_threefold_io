@@ -5,12 +5,15 @@ image_caption: Grid Commercialisation Brainstorm Call - Save the Date!
 description: Following the interest given to Kristof's message in the main chat last week, we have scheduled a call to discuss ideas regarding commercial uses of the Grid.
 date: 2023-02-24
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: cc_grid_commercialisation.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 Following the interest given to [Kristof's message](https://forum.threefold.io/t/grid-commercialisation-brainstorm-call/3808) in the main chat last week, we have scheduled a call to discuss ideas regarding commercial uses of the Grid. It will be held on Tuesday February 28th, at 17:00 CET / 11:00 EST.
 
