@@ -5,14 +5,17 @@ image_caption: internet farming
 description: We probably don’t need to tell you that the invention of Blockchain technology changed the world dramatically..
 date: 2020-02-03
 taxonomies:
-    people: [andreas_hartl]
+    people: [sam_taggart]
     tags: [farming]
     categories: [farming,threefold_grid,threefold_token]
 extra:
     imgPath: intro_to_farming.png
 ---
-<br/>
-<br/>
+
+*"This article was originally published by Andreas Hartl, a former member of ThreeFold Foundation."*
+
+<br>
+
 We probably don’t need to tell you that the invention of Blockchain technology changed the world dramatically. The ThreeFold application of Blockchain technology to compute and storage capacity is one of the most exciting initiatives we have seen to date.
 
 ## The problem

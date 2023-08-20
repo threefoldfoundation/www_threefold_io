@@ -5,12 +5,15 @@ image_caption: ThreeFold Weekly! May 17th, 2022 (Vol 18)
 description: Welcome to the 18th edition of ThreeFold Weekly. Let’s get you up to speed on last week’s most important happenings.
 date: 2022-05-18
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
     imgPath: weekly_vol_18.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
 
 ### Community updates:
 

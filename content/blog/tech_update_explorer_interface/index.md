@@ -5,12 +5,16 @@ image_caption: The new Explorer UI
 description: The Explorer was designed to provide a simple way for anyone to find decentralized Internet capacity on the ThreeFold Grid, and we’re thrilled to announce a new user interface for Grid 3.x on both testnet and devnet!
 date: 2021-11-30
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
     categories: [foundation, cloud, technology]
 extra:
     imgPath: tech_update_explorer_interface.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 We are very excited to present to you the new Explorer UI for ThreeFold Grid 3.x! 🎉
 

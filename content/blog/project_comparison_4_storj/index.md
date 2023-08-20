@@ -5,12 +5,16 @@ image_caption: Storj & how it compares to ThreeFold
 description: Follow me to the fourth stop on my journey through the space. This time, we’re looking into Storj!
 date: 2021-10-21
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, threefold_cloud, technology, blockchain, peer_to_peer]
     categories: [foundation, cloud, technology]
 extra:
     imgPath: project_comparison_4_storj.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 Welcome to the fourth part of our journey through the decentralization space. After exploring [Dfinity](https://threefold.io/blog/project_comparison_1_dfinity/), [Akash](https://threefold.io/blog/project_comparison_2_akash/), and most recently [Filecoin](https://threefold.io/blog/project_comparison_3_filecoin/), we’ll now explore Storj to find out what we have in common and where ThreeFold stands out. Here we go!
 
