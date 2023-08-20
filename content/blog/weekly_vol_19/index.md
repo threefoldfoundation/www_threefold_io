@@ -5,12 +5,15 @@ image_caption: ThreeFold Weekly! May 24th, 2022 (Vol 19)
 description: Welcome to the 19th edition of ThreeFold Weekly! Here’s what happened in the ThreeFold universe last week.
 date: 2022-05-24
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
     imgPath: weekly_vol_19.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
 
 ### Community Updates:
 

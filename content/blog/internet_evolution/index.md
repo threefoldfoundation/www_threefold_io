@@ -5,12 +5,17 @@ image_caption: "The Evolution Towards A More Secure, Private, And Sovereign Inte
 description: Today, the Internet is a ubiquitous part of our daily lives, and it continues to evolve. As we continue to innovate and collaborate, we can build a better, more secure digital future for all.
 date: 2023-04-11
 taxonomies:
-  people: [victoria_obeegadoo]
+  people: [sam_taggart]
   tags: [threefold_grid, technology, peer_to_peer, threefold_cloud]
   categories: [foundation]
 extra:
   imgPath: internet_evolution.png
 ---
+
+*"This article was originally published by Victoria Obeegadoo, a former member of ThreeFold Foundation."*
+
+<br>
+
 
 The Internet has undergone a natural evolution from its early days as a fragmented network of computers, to the vast interconnected web of infrastructure and platforms we know today. This has shaped the way we communicate, work, and live. With each passing decade, new technologies and protocols have emerged to address growing concerns about cybercrime, surveillance, and censorship. Let's take a closer look at each phase of this evolution and how ThreeFold is taking action for the next step.
 

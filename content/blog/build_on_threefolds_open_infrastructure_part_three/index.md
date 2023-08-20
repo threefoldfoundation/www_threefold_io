@@ -5,12 +5,17 @@ image_caption: "Build on ThreeFold’s Open Infrastructure – Part Three: Weble
 description: In the final part of our three-part series, we’ll dive into a world of possibilities for developers, end-users and everyone in-between. Find out what’s possible on the ThreeFold Playground and discover your digital sovereignty with our end-user experiences.
 date: 2022-09-21
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid,technology,peer_to_peer]
     categories: [foundation]
 extra:
     imgPath: build_on_threefolds_open_infrastructure_part_three.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
+
 *This post is the third one in a series about building on ThreeFold's open infrastructure. While [part one](https://www.threefold.io/blog/build-on-threefolds-open-infrastructure/), gives you a comprehensive overview of the Grid, its evolution and capabilities, the [second part](https://www.threefold.io/blog/build-on-threefolds-open-infrastructure-part-two/) is focused on the low-level building blocks and particularly interesting for the more tech-savvy crowd.*
 
 

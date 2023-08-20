@@ -5,12 +5,17 @@ image_caption: "Planting the Seeds: ThreeFold's Plans to Regenerate the Planet."
 description: We believe our planet needs regenerative solutions at a large scale. ThreeFold and Take Action Global (TAG) are on a mission to regenerate the planet together.
 date: 2022-05-05
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, farming, threefold_token, why]
     categories: [foundation]
 extra:
     imgPath: planting_the_seeds.png
 ---
+
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 *‘Being sustainable’ has become a buzzword – a claim to boost our image rather than an honest endeavour. It is hard to trust people and brands today when we fear to fall into the trap of greenwashing. However, we have no choice but to change our collective behaviour, consumption patterns and business practices if we want to combat climate change and the collapse of biodiversity.*
 

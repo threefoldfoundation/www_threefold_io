@@ -5,12 +5,18 @@ image_caption: "An Open Invitation for Testing"
 description: Now’s the time to start utilizing what we’ve built together and to start deploying the solutions and experiences we want to see in this world.
 date: 2022-10-11
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid,technology,peer_to_peer,threefold_cloud]
     categories: [foundation]
 extra:
     imgPath: open_invitation_for_testing.png
 ---
+
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
+
 
 The ThreeFold technology, ecosystem and community have the potential to kickstart a new Internet era filled with abundance and opportunities for all. ThreeFold is 100% open-source, so anyone can contribute to ThreeFold on GitHub and build their own solutions and applications on ThreeFold’s infrastructure.
 
