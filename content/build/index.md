@@ -32,7 +32,7 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](build_header_geometric.png)
+![Image](build_new.png)
 
 |||
 

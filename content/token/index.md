@@ -30,7 +30,7 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](high_token_header_geometric.png#mx-auto)
+![Image](token_new.png#mx-auto)
 
 |||
 

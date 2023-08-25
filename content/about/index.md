@@ -28,7 +28,7 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](about_header_geometric.png#mx-auto)
+![Image](about_new.png#mx-auto)
 
 |||
 
@@ -52,7 +52,7 @@ When we saw how the Internet's existing infrastructure was becoming increasingly
 
 {% row( style="center between") %}
 
-![Image](opensource.png#icon)
+![Image](opensource1.png#icon)
 
 <br>
 
@@ -70,7 +70,7 @@ Fostering clarity. Driving innovation. Enabling scalability.
 
 |||
 
-![Image](authenticity.png#icon)
+![Image](authenticity1.png#icon)
 
 <br>
 
@@ -81,7 +81,7 @@ We are genuine and vulnerable.
 
 {% row( style="center between mbottom") %}
 
-![Image](planetfirst.png#icon)
+![Image](planetfirst1.png#icon)
 
 ### **Planet-First**
 Our solutions must be sustainable.

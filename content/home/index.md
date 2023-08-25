@@ -35,7 +35,7 @@ extra:
 
 {% row(style="header") %}
 
-![Image](home_header_geometric.png#mx-auto)
+![Image](home_new.png#mx-auto)
 
 |||
 
@@ -77,7 +77,7 @@ Your digital life depends on hyperscale data centers controlled by a handful of 
 
 |||
 
-![Image](home_alternativeblock.png#medium#mx-auto)
+![Image](internet_outdated.png#medium#mx-auto)
 
 {% end %}
 
@@ -148,7 +148,7 @@ ThreeFold is not a Web3 project, but we love Web3 and the ThreeFold Grid can hos
 
 |||
 
-![Image](compatible.png#icon)
+![Image](compatible1.png#icon)
 
 <br>
 
