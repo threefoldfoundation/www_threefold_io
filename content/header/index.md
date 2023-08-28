@@ -86,6 +86,14 @@ extra:
 
 </button>
 
+<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/threefold__governance/')">
+
+[Governance and Knowledgebase](https://library.threefold.me/info/threefold#/threefold__governance)
+<br>
+<p class="text-sm">Large knowledgebase.</p>
+
+</button>
+
 <button onclick="openInNewTab('https&#58;//github.com/threefoldtech/')">
 
 [GitHub | TF Tech](https://github.com/threefoldtech/)
@@ -94,13 +102,6 @@ extra:
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//github.com/threefoldtech/')">
-
-[GitHub | TF Foundation](https://github.com/threefoldfoundation/)
-<br>
-<p class="text-sm">Websites & Manuals</p>
-
-</button>
 
 |||
 
