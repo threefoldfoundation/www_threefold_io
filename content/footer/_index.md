@@ -26,6 +26,8 @@ extra:
 
 ###### [ThreeFold Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
 
+###### [Governance](https://library.threefold.me/info/threefold#/threefold__governance)
+
 |||
 
 ##### TALK TO HUMANS
@@ -57,5 +59,6 @@ extra:
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
+
 
 {% end %}
