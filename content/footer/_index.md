@@ -60,6 +60,5 @@ extra:
 
 <h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
-###### [Governance](https://library.threefold.me/info/threefold#/threefold__governance)
 
 {% end %}
