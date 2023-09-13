@@ -5,12 +5,15 @@ image_caption: Hot on the Forum this week
 description: Catching you up with the latest activity on the forum, here we go! 
 date: 2023-03-10
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: catch_up_forum_mar10.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 Catching you up with the latest activity on the forum, here we go! 
 

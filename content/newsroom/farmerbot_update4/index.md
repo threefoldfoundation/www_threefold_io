@@ -5,12 +5,14 @@ image_caption: Farmerbot Feature Testing Follow-up Update
 description: Here's a positive follow-up update about the farmerbot feature from Brandon!
 date: 2023-02-17
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: farmerbot_update4.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
 
 Here's a positive follow-up update about the farmerbot feature from Brandon:
 

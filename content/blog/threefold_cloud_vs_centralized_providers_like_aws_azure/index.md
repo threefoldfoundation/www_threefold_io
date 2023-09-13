@@ -5,12 +5,16 @@ image_caption: ThreeFold P2P Cloud vs. centralized cloud providers like AWS, Mic
 description: As we’ve recently been exploring decentralized projects to see where ThreeFold is in the space and where we stand out, we thought it’s a good time to also look into how we compare to traditional, centralized cloud providers.
 date: 2021-10-12
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, threefold_cloud, technology, partner, peer_to_peer]
     categories: [foundation,farming,cloud]
 extra:
     imgPath: threefold_cloud_vs_centralized_providers.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 As we’ve recently been exploring decentralized [projects](https://threefold.io/blog/project_comparison_1_dfinity/) to see where ThreeFold is in the space and where we stand out, we thought it’s a good time to also look into how we compare to traditional, centralized cloud providers.
 

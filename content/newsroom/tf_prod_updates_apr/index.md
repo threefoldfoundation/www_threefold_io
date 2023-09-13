@@ -5,12 +5,15 @@ image_caption: April's ThreeFold Product Updates
 description: In this month's Product Updates, Sasha gives us a sneak peak into the progress & new features expected as part of Grid v3.10.0.
 date: 2023-04-13
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: tf_prod_updates_apr.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 While [Grid v3.9.0 ](https://library.threefold.me/info/manual/#/manual__tfgrid_release_3_9_0)has just been released on mainnet, including the Farmerbot feature & the new Reliable Message Bus, the team is already working on developing Grid v3.10.0! 
 

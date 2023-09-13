@@ -5,12 +5,15 @@ image_caption: "What is a Digital Twin?"
 description: In the current Internet system, each of us exists many times, each application provider owns our data while offering functionality they own. We become the user. We become the product. Instead, what if we were at the center of our digital lives?
 date: 2022-10-18
 taxonomies:
-  people: [victoria_obeegadoo]
+  people: [sam_taggart]
   tags: [threefold_grid, technology, peer_to_peer, threefold_cloud]
   categories: [foundation]
 extra:
   imgPath: digital_twin.png
 ---
+
+*"This article was originally published by Victoria Obeegadoo, a former member of ThreeFold Foundation."*
+
 
 ## What is a Digital Twin?
 

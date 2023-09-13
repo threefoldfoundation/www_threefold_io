@@ -5,12 +5,15 @@ image_caption: internet servers
 description: Hyperscale realities are very different to what most people think. Myth 1 - Bigger data centers are more efficient.
 date: 2017-10-12
 taxonomies:
-    people: [andreas_hartl]
+    people: [sam_taggart]
     tags: [technology,threefold_grid_,why]
     categories: [farming,cloud,foundation,aci]
 extra:
     imgPath: big_datacenter_myth.png
 ---
+
+*"This article was originally published by Andreas Hartl, a former member of ThreeFold Foundation."*
+
 
 ## Hyperscale realities are very different from what most people think
 
