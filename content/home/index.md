@@ -30,7 +30,7 @@ We empower individuals and communities to regain control of their digital lives 
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.9.0
+### The ThreeFold Grid v3.11
 
 ## **Live and Operational**
 
