@@ -8,11 +8,11 @@ extra:
 ---
 
 
-- [About]("/about")
-- [Store]("/store")
-- [Build]("/buildnew")
-- [Farm]("/farmnew")
-- [Token]("/tft")
+- [Mission]("/mission")
+- [Grid]("/grid")
+- [Build]("/build")
+- [Farm]("/farm")
+- [TFT]("/tft")
 - Ecosystem
 
 {% row() %}
@@ -43,16 +43,6 @@ extra:
 
 </button>
 
-|||
-
-<button onclick="window.location.href='/developer'">
-
-[Developer Resources](/developer)
-<br>
-<p class="text-sm">Join The Developer Community</p>
-
-</button>
-
 {% end %}
 
 - More
@@ -62,9 +52,9 @@ extra:
 
 #### Tools
 
-<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/tokens/threefold__threefold_connect')">
+<button onclick="openInNewTab('https&#58;//manual.grid.tf/getstarted/TF_Connect/TF_Connect.html')">
 
-[ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
+[ThreeFold Connect](https://manual.grid.tf/getstarted/TF_Connect/TF_Connect.html)
 <br>
 <p class="text-sm">TFT Wallet, 2FA, & More</p>
 
@@ -86,15 +76,7 @@ extra:
 
 |||
 
-#### Resources 
-
-<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/')">
-
-[Library](https://library.threefold.me/info/threefold#/)
-<br>
-<p class="text-sm">Explore the Documentation</p>
-
-</button>
+#### Resources
 
 <button onclick="openInNewTab('https&#58;//manual.grid.tf')">
 
@@ -104,11 +86,22 @@ extra:
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//github.com/')">
+<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/threefold__governance/')">
 
-[GitHub](https://github.com/threefoldtech/)
+[Governance and Knowledgebase](https://library.threefold.me/info/threefold#/threefold__governance)
 <br>
-<p class="text-sm">Code & Documentation</p>
+<p class="text-sm">Large knowledgebase.</p>
+
+</button>
+
+<button onclick="openInNewTab('https&#58;//github.com/threefoldtech/')">
+
+[GitHub | TF Tech](https://github.com/threefoldtech/)
+<br>
+<p class="text-sm">Code Library & Documentation</p>
+
+</button>
+
 
 |||
 
@@ -130,9 +123,9 @@ extra:
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//intro.threefold.me')">
+<button onclick="openInNewTab('https&#58;//library.threefold.me')">
 
-[Intro Docs](https://intro.threefold.me)
+[Intro Docs](https://library.threefold.me)
 <br>
 <p class="text-sm">Perfect for Newcomers</p>
 

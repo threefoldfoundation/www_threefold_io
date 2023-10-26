@@ -5,12 +5,16 @@ image_caption: The ThreeFold Token is Built for Growth & Key to the Internet of 
 description: Time to take a deeper dive into the value of TFT, its tokenomics and mechanisms for growth. We’re also exploring potential token growth and future demand – especially in relation to the synergies between the token and the Internet of Internets.
 date: 2022-08-31
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, threefold_token, technology, blockchain]
     categories: [foundation]
 extra:
     imgPath: threefold_token_built_for_growth.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 Today, the blockchain space is flooded with as many as 22,000 coins and tokens and for several months now, the market has been struggling at large with some coins even collapsing. A thorough shakeout could expose those tokens and coins purely focused on making quick profits and creating hype, and mitigate pump-and-dump schemes. Now’s the time for projects like us to shine – projects with tokens that serve a higher purpose and come with sound tokenomics.
 

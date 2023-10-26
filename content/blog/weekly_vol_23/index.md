@@ -5,12 +5,17 @@ image_caption: ThreeFold Weekly! July 5th, 2022 (Vol 23)
 description: Welcome to the 23rd edition of ThreeFold Weekly. Let’s dive into last week’s highlights throughout the ThreeFold ecosystem.
 date: 2022-07-05
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
     imgPath: weekly_vol_23.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
+
 *As of edition 24, we’ll only share the Weekly via email and [TF News](https://t.me/threefoldnews), so make sure to subscribe via the respective buttons on the top-right corner of [our website](https://threefold.io).*
 
 ### Community Updates:

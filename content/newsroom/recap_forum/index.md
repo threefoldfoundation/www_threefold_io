@@ -5,12 +5,15 @@ image_caption: Recap of the forum for this week
 description: Thanks to all of you creating and engaging with content from the forum!
 date: 2023-02-03
 taxonomies:
-  people: [victoria_obeegadoo]
+  people: [sam_taggart]
   news-category: [foundation]
   tags: [foundation]
 extra:
   imgPath: recap_forum.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 🎥 Watch the recording of the [Tech Help Call](https://forum.threefold.io/t/01-30-23-weekly-threefold-community-q-a-and-tech-call-recording/3751).
 

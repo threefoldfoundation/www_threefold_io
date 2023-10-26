@@ -5,12 +5,16 @@ image_caption: Farming – A Greener Alternative to Crypto Mining.
 description: ThreeFold Farming is about so much more than crypto mining. It's a decentralized, energy-efficient and meaningful alternative.
 date: 2022-04-21
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, farming, threefold_token, why]
     categories: [foundation]
 extra:
     imgPath: farming_a_greener_alternative_to_crypto_mining.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 In [October 2008](https://cointelegraph.com/bitcoin-for-beginners/the-history-of-bitcoin-when-did-bitcoin-start), when the financial crisis was in full swing, an anonymous individual or group under the pseudonym ‘Satoshi Nakamoto’ published a [white paper](https://bitcoin.org/bitcoin.pdf) on Bitcoin, a “peer-to-peer electronic cash system” that ended up disrupting the financial system and sparked the creation of an entirely new industry: crypto mining.
 

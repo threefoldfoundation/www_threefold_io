@@ -5,12 +5,14 @@ image_caption: February's ThreeFold Product Updates
 description: In this month's Product Updates, Sasha gives us a sneak peak into the progress & new features expected as part of Grid v3.9.0. 
 date: 2023-02-14
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: tf_prod_updates_feb.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
 
 While [Grid v3.8.0 ](https://library.threefold.me/info/manual/#/manual__tfgrid_release_3_8_0)has just been released on testnet, and subsequent updates (v3.8.1, .2, etc.) will be released as required, the team is already working on developing Grid v3.9.0! 
 

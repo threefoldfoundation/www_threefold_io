@@ -5,12 +5,15 @@ image_caption: Save the date for March's Community Call
 description: This session will be focused on going over relevant topics discussed in our main chat recently - our website UX, outreach, and making it easier overall for people to join in on the project and take action. 
 date: 2023-03-14
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: cc_mar_23_std.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 Join us next week, on Tuesday 21st at 17:00 CET / 12:00 EDT for [March's Community Call](https://forum.threefold.io/t/march-community-call/3840)!
 

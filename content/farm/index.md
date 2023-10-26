@@ -10,20 +10,22 @@ insert_anchor_links: "left"
 
 ## Be the **Internet**
 
-Become a ThreeFold Farmer. Provide Internet capacity to the people around you, and earn for it.
+By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Support a decentralized future. Take part in shaping a new Internet era governed by all of us.
 
 <br>
 
 <button>[Buy](https://marketplace.3node.global/index.php)</button>
-<button>[Build](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
-<button>[Learn](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro)</button>
+<button>[Build](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
+<button>[Learn](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
 <button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
 
 {% end %}
 
+
+
 <!-- section 2 (Farm) -->
 
-{% row(style="center mbottom narrow ") %}
+{% row(style="center mtop narrow ") %}
 
 
 ## Farm
@@ -63,7 +65,7 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 <!-- section 3 (world of farmers) -->
 
-{% row(style="center mbottom") %}
+{% row(style="center margin") %}
 
 
 ## Join **a World of Farmers**
@@ -85,11 +87,14 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 <!-- section 4 (How To Earn TFT) -->
 
-{% row(style="center mbottom narrow") %}
+{% row(style="center mtop narrow") %}
+
 
 ## How to earn **TFT**
 
 Farmers earn TFT according to the amount of Internet capacity their 3Nodes connect to the ThreeFold Grid. The Internet capacity is verified by the ThreeFold Blockchain on an ongoing basis using the “Proof-of-Capacity” algorithm.
+
+<br>
 
 #### Proof of Capacity
 
@@ -119,7 +124,8 @@ Farmers earn the TFT after meeting the minimum uptime as proof-of-capacity.
 
 <!-- section 7 (THE VALUE OF TFT) -->
 
-{% row(style="center mbottom margin") %}
+{% row(style="center between margin") %}
+
 
 ## The **Value of TFT**
 
@@ -132,7 +138,7 @@ The ThreeFold Grid is the only Internet infrastructure that can scale to the far
 <br>
 
 <button>[Buy a 3Node](https://marketplace.3node.global/index.php)</button>
-<button>[Build a 3Node](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide)</button>
+<button>[Build a 3Node](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
 <button>[More About TFT](/tft)</button>
 
 {% end %}

@@ -5,12 +5,16 @@ image_caption: January's ThreeFold Product Updates
 description: While TF Grid 3.8 is almost ready for testnet release, some super exciting solutions and improvements are in development as a part of TF Grid 3.8.1.
 date: 2023-01-13
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, news, community]
     news-category: [foundation]
 extra:
     imgPath: tf_prod_updates_jan23.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
+
 While TF Grid 3.8 is almost ready for testnet release, some super exciting solutions and improvements are in development as a part of TF Grid 3.8.1, including:
 
 <br/>

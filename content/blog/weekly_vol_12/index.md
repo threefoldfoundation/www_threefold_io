@@ -5,12 +5,16 @@ image_caption: ThreeFold Weekly! March 29th, 2022 (Vol 12)
 description: Welcome to the 12th edition of of ThreeFold Weekly. Let’s take a look at what happened in the ThreeFold universe last week.
 date: 2022-03-29
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, community, farming, interview, update]
     categories: [foundation]
 extra:
     imgPath: weekly_vol_12.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 *We have a new format for ThreeFold Weekly, now on our blog. If you'd like to review any of the first eleven editions, please find them on [our forum](https://forum.threefold.io/c/ecosystem-developments/41).*
 

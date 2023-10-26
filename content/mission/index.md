@@ -9,7 +9,6 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
-
 ## Our **Mission**
 
 
@@ -19,7 +18,7 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 <button>[Collective Dream](/blog/tf-grid-peoples-internet/)</button>
 <button>[Planet & People First](/blog/planet-first-people-first/)</button>
-<button>[Mission & Goals](https://mission.threefold.me)</button>
+<button>[Mission & Goals](http://mission.threefold.me)</button>
 
 
 {% end %}

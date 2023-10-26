@@ -67,11 +67,6 @@ Parameters:
         {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
     {% endif %}
 
-    {% if "right" in style %}
-        {% set row_class = row_class ~ " text-right mx-auto justify-center" %}
-        {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
-    {% endif %}
-
     {% if "text-white" in style %}
     {% set row_class = row_class ~ " text-white" %}
     {% endif %}
@@ -113,13 +108,13 @@ Parameters:
 
         <!-- makes row full screen width, strips margins -->
     {% if "narrow" in style %}
-        {% set row_class = row_class ~ " lg:max-w-5xl mx-auto" %}
+        {% set row_class = row_class ~ " lg:max-w-5xl" %}
     {% elif "moderate" in style %}
         {% set row_class = row_class ~ " lg:m-20" %}
     {% endif %}
 
     {% if "semiNarrow" in style %}
-     {% set row_class = row_class ~ " lg:px-60 mx-auto" %}
+     {% set row_class = row_class ~ " lg:px-20 mx-auto" %}
  {% elif "moderate" in style %}
      {% set row_class = row_class ~ " lg:m-20" %}
  {% endif %}
@@ -129,25 +124,8 @@ Parameters:
 <!-- makes row full screen width and adds background img -->
 {% set styles = ""  %}
 {% if bgPath %}
-    {% set background_url = page.permalink ~ bgPath %}
-    {% set styles = "background: url('" ~ background_url ~ "'); background-size: cover; background-position: center;"  %}
-    {% if "#desktop" in bgPath %}
-        {% set bgStyle = false %}
-        {% set div_class = " !bg-[length:0px_0px] !bg-no-repeat lg:!bg-cover " %}
-        {% set row_class = row_class | replace(from='text-white', to='text-black') %}
-        {% if "invert-color" in style %}
-            {% if "#desktop" in bgPath %}
-                {% set row_class = row_class ~ " lg:text-white " %}
-            {% endif %}
-        {% endif %}
-    {% endif %}
-{% endif %}
-{% if bgStyle %}
-    {% if "full" in bgStyle %}
-        {% set styles = styles ~ "height: -webkit-fill-available; height: 100vh;"  %}
-    {% elif "hero" in bgStyle %}
-        {% set div_class = div_class ~ " -mt-24 pt-12 " %}
-    {% endif %}
+    {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover"  %}
+    {% set row_class = row_class ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
 {% endif %}
 {% if bgColor %}
     {% set styles = "background-color: " ~ bgColor ~ "; background-size: cover"  %}

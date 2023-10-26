@@ -10,43 +10,39 @@ extra:
 
 {% row(style="lean") %}
 
-##### PARTICIPATE
+##### TAKE ACTION
 
 <br>
 
-###### [Talk to ThreeFolders](https://t.me/threefold)
+###### [Manuals](https://manual.grid.tf/)
 
-###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
+###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 
-<h6><a href="" onclick="window.location.href='/farm'">Start Farming</a></h6>
+###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
 
-###### [Farming Community](https://t.me/threefoldfarmers)
-
-###### [Use the Grid](https://dashboard.grid.tf/)
-
-###### [Testing Community](https://t.me/threefoldtesting)
+###### [Use the Dashboard](https://dashboard.grid.tf/)
 
 ###### [ThreeFold Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 
 ###### [ThreeFold Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
 
+###### [Governance](https://library.threefold.me/info/threefold#/threefold__governance)
+
 |||
 
-##### KNOWLEDGEBASE
+##### TALK TO HUMANS
 
 <br>
 
-###### [ThreeFold Grid](https://library.threefold.me/info/threefold#/tfgrid/threefold__tfgrid_home)
+###### [Main Community](https://t.me/threefold)
 
-###### [ThreeFold Technology](https://library.threefold.me/info/threefold/#/technology/threefold__zos)
+###### [Farming Community](https://t.me/threefoldfarmers)
 
-###### [ThreeFold Farming](https://library.threefold.me/info/threefold/#/tfgrid/farming/threefold__farming_home)
+###### [Grid User Community](https://t.me/threefoldtesting)
 
-###### [ThreeFold Token](https://library.threefold.me/info/threefold/#/tokens/threefold__tokens_home)
+###### [Forum](https://forum.threefold.io/)
 
-###### [Manuals](https://library.threefold.me/info/threefold/#/manual_tfgrid3/threefold__manual3_home)
-
-###### [ThreeFold Glossary](https://library.threefold.me/info/threefold/#/threefold__definitions_concepts)
+<h6><a target="_self" onclick="window.location.href='/support'">Support</a></h6>
 
 |||
 
@@ -58,12 +54,11 @@ extra:
 
 <h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
 
+<h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
+
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
-###### [Forum](https://forum.threefold.io/)
-
-<h6><a target="_self" onclick="window.location.href='/support'">Support</a></h6>
 
 {% end %}

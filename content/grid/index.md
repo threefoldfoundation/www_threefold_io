@@ -15,8 +15,7 @@ The Internet was meant to be a peer-to-peer infrastructure with us in the center
 
 <br>
 
-<button>[Discover the Grid](https://library.threefold.me/info/threefold#/tfgrid/threefold__grid_intro)</button>
-<button>[The Magic of the Tech](https://library.threefold.me/info/threefold#/technology/threefold__technology)</button>
+<button>[Discover the Grid](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
 
 {% end %}
 
@@ -32,8 +31,8 @@ The Internet was meant to be a peer-to-peer infrastructure with us in the center
 
 Any current or future technology, including blockchain, metaverses and web 3.0, can be hosted natively on the ThreeFold Grid via smart contracts with minimum migration. The grid is compatible with most open source tools and protocols.
 
-<button>[Build on the Grid](https://library.threefold.me/info/manual/#/getstarted/manual__tfgrid3_getstarted)</button>
-<button>[Expand The Grid](/farm)</button>
+<button>[Developer Manual](https://manual.grid.tf/developers/developers.html)</button>
+<button>[Sysadmin Manual](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
 
 {% end %}
 
@@ -45,7 +44,7 @@ Any current or future technology, including blockchain, metaverses and web 3.0, 
 
 The ThreeFold Grid is formed by Farmers, independent people who connect 3Nodes (decentralized Internet capacity) anywhere electricity and network are present. Together, they form a globally distributed Internet infrastructure and earn income in the form of TFT.
 
-<button>[Learn About TFT](/tft)</button>
+<button>[Expand The Grid](/farm)</button>
 
 |||
 
@@ -80,7 +79,7 @@ All our code is made open source to energize open collaboration and promote univ
 A decentralized autonomous operating system designed to dedicate hardware capacity to the People’s Internet via the ThreeFold Blockchain. Zero-OS can be booted on most modern computers to host anything that runs on Linux in a decentralized way.
 
 
-<button>[Learn More](https://library.threefold.me/info/threefold#/technology/threefold__zos)</button>
+<button>[Learn More](https://manual.grid.tf/concepts/grid3_components.html#0-os-or-zos)</button>
 
 {% end %}
 
@@ -93,7 +92,6 @@ A decentralized autonomous operating system designed to dedicate hardware capaci
 TFT is the official medium of exchange for Internet capacity on the ThreeFold Grid. The utility token allows users to reserve Internet capacity via the ThreeFold Blockchain and rewards farmers for their contribution to the network.
 
 <button>[About TFT](/tft)</button>
-<button>[Expand The Grid](/farm)</button>
 
 |||
 
