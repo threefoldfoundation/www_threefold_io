@@ -38,7 +38,7 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.9
+### The ThreeFold Grid v3.11
 
 ## **Live and Operational**
 
