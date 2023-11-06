@@ -126,7 +126,7 @@
     {% set menu_id = header_label ~ "-menu" | slugify %}
 
 <nav>
-    <div id="{{menu_id}}" class="nav_menu mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+    <div id="{{menu_id}}" class="nav_menu mt-0 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
         <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
             <div id="menu" class="mx-8 lg:mx-10 xl:mx-10 px-6 sm:p-6 md:p-8">
                 {{header_menu | safe }}
@@ -153,7 +153,7 @@
     <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
         <div>
             <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
-                <div class="pb-6 sm:px-12 md:px-16 mt-6 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+                <div class="pb-6 sm:px-12 md:px-16 mt-0 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
 
                     <nav class="flex flex-col justify-around pb-12">
                     {% for header_item in header_items %}
