@@ -1,6 +1,6 @@
 ---
 title: Nayer Sobhy
-weight: 3
+weight: 2
 description: Nayer is a passionate about people’s development, and that we can be the change we want to see.
 taxonomies:
     people: [nayer_sobhy]

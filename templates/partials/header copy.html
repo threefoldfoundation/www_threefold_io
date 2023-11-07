@@ -57,7 +57,7 @@
 
     function showHamburger() {
         document.getElementById('header-container').className = "overflow-hidden";
-        document.getElementById('hamburger').className = "fixed mt-12 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger').className = "fixed z-20 top-0 inset-x-0 transition transform origin-top-right";
         document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
         document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
     }
@@ -155,7 +155,7 @@
     {% set menu_id = header_label ~ "-menu" | slugify %}
 
 <nav>
-    <div id="{{menu_id}}" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+    <div id="{{menu_id}}" class="mt-0 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
         <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
             <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:px-8 sm:py-6 lg:px-12 lg:py-8 xl:py-12">
             {{header_menu | safe }}
@@ -207,7 +207,7 @@
                                     Item active: "text-gray-600", Item inactive: "text-gray-400"
                                     -->
                                     {% set menu_id = header_label ~ "-mobile-menu" | slugify %}
-                                    <div id="{{menu_id}}" class="z-50 leading-3 mt-6 pl-12 inset-x-0 text-sm transform duration-200 ease-in opacity-0 -translate-y-1 hidden">
+                                    <div id="{{menu_id}}" class="z-50 leading-3 mt-0 pl-12 inset-x-0 text-sm transform duration-200 ease-in opacity-0 -translate-y-1 hidden">
                                         {{ header_arr[1] | safe }}
                                     </div>
                                     </button>
