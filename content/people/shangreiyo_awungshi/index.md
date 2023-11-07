@@ -1,7 +1,7 @@
 ---
 title: Shangreiyo Awungshi
-weight: 1
-description: I am passionate about using my technical skills to help the farmers and be more productive.
+weight: 30
+description: Making technology more accessible and inclusive; everyone should have the opportunity to benefit from technology, regardless of their background or technical expertise.
 taxonomies:
     people: [shangreiyo_awungshi]
     memberships: [tech]

@@ -1,6 +1,6 @@
 ---
 title: Mik Perreault
-weight: 1
+weight: 34
 description: Musician and mathematician contributing to the ThreeFold documentation.
 taxonomies:
     people: [mik_perreault]
