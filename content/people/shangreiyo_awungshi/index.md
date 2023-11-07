@@ -1,6 +1,6 @@
 ---
 title: Shangreiyo Awungshi
-weight: 30
+weight: 3
 description: Making technology more accessible and inclusive; everyone should have the opportunity to benefit from technology, regardless of their background or technical expertise.
 taxonomies:
     people: [shangreiyo_awungshi]
