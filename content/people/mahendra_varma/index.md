@@ -18,4 +18,4 @@ extra:
 ---
 
 
-Passionate about learning new technologies looking forward to see the decentralized world.
+Tech enthusiast with a passion for photography.
