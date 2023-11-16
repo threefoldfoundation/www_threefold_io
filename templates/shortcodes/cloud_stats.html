@@ -1,12 +1,15 @@
-{% set data = load_data(url="https://gridproxy.grid.tf/stats?status=up", required=false, format="json") %}
-{% if data %}
-  {% set capacity = (data.totalHru + data.totalSru) / 1024 / 1024 / 1024 / 1024 / 1024 %}
-  {% set nodes = data.nodes %}
-  {% set countries = data.countries %}
-  {% set cores = data.totalCru %}
+{% set online = load_data(url="https://gridproxy.grid.tf/stats?status=up", required=false, format="json") %}
+{% set standby = load_data(url="https://gridproxy.grid.tf/stats?status=standby", required=false, format="json") %}
+{% if online and standby %}
+
+  {% set capacity = (online.totalHru + standby.totalHru + online.totalSru + standby.totalSru) / 1024 / 1024 / 1024 / 1024 / 1024 %}
+  {% set nodes = online.nodes + standby.nodes %}
+  {% set countries = online.countries %}
+  {% set cores = online.totalCru + standby.totalCru %}
+  
 {% endif %}
 
-{% if data %}
+{% if online and standby %}
 <div class="lg:py-24 py-10 sm:pt-10">
   <div class="mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:max-w-xl mx-auto text-center">
