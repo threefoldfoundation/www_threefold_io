@@ -68,7 +68,7 @@ We’re aware that this mission is a big one. We’re aware of how aspirational 
 
 <br/>
 
-*“It's an honor every day to wake up and be a part of a global movement of people who are trying to build a better Internet for humanity that can uplift and empower.” – [Adnan Fatayerji](https://threefold.io/news/post/threefold_cybernews/)*
+*“It's an honor every day to wake up and be a part of a global movement of people who are trying to build a better Internet for humanity that can uplift and empower.” – [Adnan Fatayerji](https://www.threefold.io/newsroom/threefold-cybernews/)*
 
 <br/>
 
