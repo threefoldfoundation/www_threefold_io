@@ -20,7 +20,7 @@ Today, the world is facing an unprecedented number of crises and disruptions ste
 
 <br/>
 
-We have always believed that technology can help some of humanity’s greatest challenges – for example by providing the foundation for an interconnected world that can enable abundance to spread. ThreeFold has focused on developing a more reliable Internet which can meet the demands and challenges of the future. A [more sustainable](https://threefold.io/blog/planting_the_seeds/) Internet that uses [less energy](https://threefold.io/blog/for_our_planet/) and is offsetting its carbon emissions by supporting tree planting and other impact initiatives. And an Internet that empowers us with digital [sovereignty](https://threefold.io/blog/threefold_data_sovereignty/) while providing high levels of [privacy and security](https://forum.threefold.io/t/critical-security-updates-for-apple-and-google-underline-need-for-secure-it-ecosystem/1271?u=hannahcordes). One that is [inclusive](https://threefold.io/blog/more_inclusive_internet/) by being more affordable and accessible.
+We have always believed that technology can help some of humanity’s greatest challenges – for example by providing the foundation for an interconnected world that can enable abundance to spread. ThreeFold has focused on developing a more reliable Internet that can meet the demands and challenges of the future. A [more sustainable](https://threefold.io/blog/planting_the_seeds/) Internet that uses [less energy](https://threefold.io/blog/for_our_planet/) and is offsetting its carbon emissions by supporting tree planting and other impact initiatives. And an Internet that empowers us with digital [sovereignty](https://threefold.io/blog/threefold_data_sovereignty/) while providing high levels of [privacy and security](https://forum.threefold.io/t/critical-security-updates-for-apple-and-google-underline-need-for-secure-it-ecosystem/1271?u=hannahcordes). One that is [inclusive](https://threefold.io/blog/more_inclusive_internet/) by being more affordable and accessible.
 
 <br/>
 
@@ -40,7 +40,7 @@ ThreeFold aims to deliver on our promise of providing better solutions for our p
 
 <br/>
 
-Our approach is also based on community and connection. We’re determined to build better, sustainable and inclusive systems for the planet and people – from realizing the Internet of Internets on a global scale to reimagining business, governance, finance, education and more in order to provide better alternatives for people, enterprises and governments. And we are in dialogue and partnership with global leaders who share a similar vision.
+Our approach is also based on community and connection. We’re determined to build better, sustainable, and inclusive systems for the planet and people – from realizing the Internet of the Internet on a global scale to reimagining business, governance, finance, education, and more in order to provide better alternatives for people, enterprises, and governments. And we are in dialogue and partnership with global leaders who share a similar vision.
 
 <br/>
 
@@ -48,11 +48,11 @@ Here are three examples of the impact we’re creating together:
 
 <br/>
 
-* Together with [Take Action Global](https://threefold.io/blog/planting_the_seeds/), we’re offsetting the ThreeFold Grid’s emissions three times through planting and protecting trees
+* Together with [Take Action Global](https://threefold.io/blog/planting_the_seeds/), we’re offsetting the ThreeFold Grid’s emissions three times by planting and protecting trees
 
 <br/>
 
-* Together with [IETSA](https://threefold.io/news/post/threefold_ietsa/), we’re making the decentralized Internet more accessible in underserved South African communities while also providing education in blockchain and Web 3.0 technologies
+* Together with [IETSA](https://www.threefold.io/newsroom/threefold-ietsa/), we’re making the decentralized Internet more accessible in underserved South African communities while also providing education in blockchain and Web 3.0 technologies
 
 <br/>
 
@@ -64,7 +64,7 @@ We strongly believe in the ThreeFold Law which states that any good you do will 
 
 <br/>
 
-We’re aware that this mission is a big one. We’re aware how aspirational it is. We’re aware that we are not perfect. And we realize that changing the world for the better requires patience and community. We’re in it for the [long run](https://threefold.io/blog/four_phases_of_threefold/) and we’re in it together.
+We’re aware that this mission is a big one. We’re aware of how aspirational it is. We’re aware that we are not perfect. And we realize that changing the world for the better requires patience and community. We’re in it for the [long run](https://threefold.io/blog/four_phases_of_threefold/) and we’re in it together.
 
 <br/>
 
@@ -72,7 +72,7 @@ We’re aware that this mission is a big one. We’re aware how aspirational it 
 
 <br/>
 
-ThreeFold is more than a company or a project. ThreeFold is a global movement consisting of like-minded individuals and partners who share these values and vision. A movement united in our shared beliefs in open source, peer-to-peer, equality and inclusion. By coming together to build a better Internet, we can create the foundation for a better world. We’re incredibly proud of the ThreeFold community and ecosystem. This beautiful community consists of open-minded, passionate and determined people from all around the world, just like you. We’re dreamers, creators, builders and change makers.
+ThreeFold is more than a company or a project. ThreeFold is a global movement consisting of like-minded individuals and partners who share these values and vision. A movement united in our shared beliefs in open source, peer-to-peer, equality, and inclusion. By coming together to build a better Internet, we can create the foundation for a better world. We’re incredibly proud of the ThreeFold community and ecosystem. This beautiful community consists of open-minded, passionate, and determined people from all around the world, just like you. We’re dreamers, creators, builders, and change-makers.
 
 <br/>
 
@@ -80,7 +80,7 @@ ThreeFold is more than a company or a project. ThreeFold is a global movement co
 
 ## We are part of the solution
 
-There are many great projects and organizations out there that also follow the planet-first people-first philosophy. Like [Ecosia](https://www.ecosia.org/?c=en) – the search engine that plants trees and thereby positively impacts ecosystems, communities and our planet. Like [ShareTheMeal](https://sharethemeal.org/en/index.html) – the world’s first app against global hunger that enables you to ‘share the meal’ with a child in need with one simple tap on your phone. Like [Patagonia](https://www.patagonia.com/home/?utm_source=actionworks&utm_medium=referral&utm_campaign=global_nav&utm_content=link) – a designer of outdoor clothing and sports gear that turned into an environmental activist. And like so many others.
+There are many great projects and organizations out there that also follow the planet-first people-first philosophy. Like [Ecosia](https://www.ecosia.org/?c=en) – the search engine that plants trees and thereby positively impacts ecosystems, communities, and our planet. Like [ShareTheMeal](https://sharethemeal.org/en/index.html) – the world’s first app against global hunger that enables you to ‘share the meal’ with a child in need with one simple tap on your phone. Like [Patagonia](https://www.patagonia.com/home/?utm_source=actionworks&utm_medium=referral&utm_campaign=global_nav&utm_content=link) – a designer of outdoor clothing and sports gear that turned into an environmental activist. And like so many others.
 
 <br/>
 
