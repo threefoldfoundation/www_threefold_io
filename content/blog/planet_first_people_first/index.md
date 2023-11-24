@@ -40,7 +40,7 @@ ThreeFold aims to deliver on our promise of providing better solutions for our p
 
 <br/>
 
-Our approach is also based on community and connection. We’re determined to build better, sustainable, and inclusive systems for the planet and people – from realizing the Internet of the Internet on a global scale to reimagining business, governance, finance, education, and more in order to provide better alternatives for people, enterprises, and governments. And we are in dialogue and partnership with global leaders who share a similar vision.
+Our approach is also based on community and connection. We’re determined to build better, sustainable, and inclusive systems for the planet and people – from realizing the Internet of Internets on a global scale to reimagining business, governance, finance, education, and more in order to provide better alternatives for people, enterprises, and governments. And we are in dialogue and partnership with global leaders who share a similar vision.
 
 <br/>
 
