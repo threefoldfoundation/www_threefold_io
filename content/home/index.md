@@ -27,7 +27,7 @@ ThreeFold is **a peer-to-peer open-source Internet platform that connects users 
 <br>
 <br>
 
-## Internet **Reimagined**. Internet **Rebuilt**.
+## Internet **Reimagined**. Internet **Rebuilt**
 
 Join a global community pioneering the decentralized, autonomous, and sustainable Internet. <br>
 We empower individuals and communities to regain control of their digital lives and shape their own digital future.
@@ -214,7 +214,7 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 {% row(style="center between narrow") %}
 
-True digital sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.
+True Digital Sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.......
 
 <br>
 
@@ -231,7 +231,7 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 
 ### **Autonomous**
 
-Build secure applications with predeterministic smart contracts and access unparalleled self-driving and self-healing features.
+Build secure applications with predeterministic smart contracts and access unparalleled self-driving and self-healing features...
 
 
 |||
@@ -248,7 +248,7 @@ Build secure applications with predeterministic smart contracts and access unpar
 
 ### **Affordable**
 
-Through it’s decentralized infrastructure that eliminates the need for expensive data centers and intermediaries, ThreeFold has incredibly low fees.
+Through it’s decentralized infrastructure that eliminates the need for expensive data centers and intermediaries, ThreeFold has incredibly low fees.....
 
 {% end %}
 
