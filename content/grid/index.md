@@ -7,7 +7,7 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
-## Internet **Evolution.**
+## Internet **Evolution**
 
 <br>
 
