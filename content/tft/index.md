@@ -9,33 +9,23 @@ insert_anchor_links: "left"
 
 {% row(style="center mtop narrow") %}
 
-## TFT **Powers** the Decentralized Internet
+## **TFT**: The Medium of **Exchange**
 
-Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
+TFT is not an individual product, rather a way to exchange value within the ThreeFold ecosystem. Our belief is in utilizing a token as a mechanism for creating and using IT (Internet) capacity, which is essential for enabling our digital lives.
 
 <br>
 
 <button>[Learn About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
 <button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
+<button>[Token Stats](https://library.threefold.me/info/threefold#/tokens/threefold__stats_token_overview)</button>
 
 {% end %}
-
-
-
-{% tft_header() %}
-
-## **DECENTRALIZING <br>THE INTERNET ECONOMY**
-
-{% end %}
-
-
 
 <!-- section 2 (Meeting Emerging Demand) -->
 
 {% row(style="center mtop ") %}
 
 ## Meeting **Emerging Demand**
-
 
 Data has become the most valuable commodity on earth, the Internet infrastructure is experiencing significant growth.<br> While the current centralized model is facing limitations, ThreeFold can scale to the edge to service the emerging demand.
 

@@ -7,11 +7,11 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
-## Internet **Evolution.**
+## Internet **Re-Imagined.** Internet **Re-Built.**
 
 <br>
 
-The Internet was meant to be a peer-to-peer infrastructure with us in the center of our data and digital lives. Inspired by the past, we're building an Internet how "the" Internet was originally intended.
+Over a decade ago, a group of early Internet pioneers, who understood the problems of the centralized Internet model first-hand, came together to re-imagine the infrastructure for an open and decentralized Internet. But we didn’t just imagine it – we built it.
 
 <br>
 

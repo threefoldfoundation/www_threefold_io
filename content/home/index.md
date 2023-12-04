@@ -20,9 +20,9 @@ extra:
 
 <br/>
 
-## Decentralized Autonomous.<br>Internet Infrastructure.
+## Decentralized Internet Infrastructure
 
-ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as “no middleman” Internet resources between independent capacity providers and users.
+ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as “no middleman” Internet resources between independent capacity providers and users. Founded by Internet 1.0 Pioneers and supported by a global community.
 
 <br>
 
@@ -38,9 +38,11 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 {% grid_stats() %}
 
-### The ThreeFold Grid v3.11
+### The ThreeFold Grid
 
 ## **Live and Operational**
+
+#### Mainnet: 3.11 | Testnet: 3.12 | Devnet 3.13
 
 {% end %}
 
@@ -50,9 +52,9 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 ![Image](grid_wide_1.png#mx-auto#large)
 
-## The **Layer Zero** for a Decentralized World
+## The **Layer Zero** for a New Digital Era
 
-Anything that runs on Linux can run on ThreeFold – with more security, more sustainably, and in true decentralization. The ThreeFold Grid can support workloads from Blockchain to Web2 to Web3 to IoT and Metaverse and more.
+Our unique technology provides unparalleled  sovereignty, scalability and efficiency features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver. 
 
 <br>
 
@@ -117,7 +119,7 @@ A carefully designed collection of lightweight components that minimize overhead
 
 ## Together **We Build.** Start **Your Journey.**
 
-The future is about decentralization, participation, and working together to achieve our goals. As a decentralized movement, we encourage the community to get involved. This new Internet can only succeed if we find ways to collaborate where we together pull this Internet concept forward. Below, please find some of the ways you can join us in building a better Internet. 
+The future is about participation and working together to achieve our goals. As a decentralized movement, we encourage the community to get involved. This new Internet can only succeed if we find ways to collaborate where we together pull this Internet concept forward. Below, please find some of the ways you can join us in building a better Internet. 
 
 {% end %}
 
@@ -125,7 +127,7 @@ The future is about decentralization, participation, and working together to ach
 
 {% row(style="center narrow") %}
 
-### Farm Local Internet Capacity **and Earn TFT**
+### Farm Local Internet Capacity **and Earn For It**
 
 <br>
 
@@ -133,7 +135,12 @@ The future is about decentralization, participation, and working together to ach
 
 <br>
 
-By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity <br> for the people around you and earn a new digital currency, TFT.
+By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity <br> for the people around you and earn a digital currency called TFT.
+
+<br>
+
+*About TFT, we utilize a token as a mechanism for creating and using IT (Internet) capacity, which is essential for enabling our digital lives. For us the token is not an individual product, rather a way to exchange value within the ThreeFold ecosystem.*
+
 
 <br>
 
@@ -190,86 +197,10 @@ If you believe what we believe, then believe us, there is room for you in this m
 
 {% end %}
 
-<!-- section 4 (FEATURED STORIES) -->
-
-{% featured_stories() %}
-
-## Featured Stories
-
-{% end %}
-
 <!-- section 5 (THE TEAM) -->
 
 {% team_sec() %}
 
 ## **The Team**
-
-{% end %}
-
-<!-- section 6 (PARTNERS) -->
-
-{% row(style="center margin") %}
-
-## Believers and Collaborators <br> **In a Better Internet**
-
-We are truly proud to be trusted by some of the biggest names in the industry.
-
-![Image](ourpartners.png#mx-auto)
-
-<button>[Check All Partners](/partners)</button>
-
-{% end %}
-
-<br>
-
-<br>
-
-<!-- section 7 (IN THE NEWS) -->
-
-{% row(style="center") %}
-
-## **In the News**
-
-{% end %}
-
-{% row(style="center between") %}
-
-[![forbes](forbes.png#mx-auto)](https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/?fbclid=IwAR1WKCpqLcWPRWg5bPD6RCQE5JJjRPt6ey5vbEnu3db2FvJnp6-YKeVZNW8#79aa340e6798)
-
-|||
-
-[![cointelegraph](cointelegraph.png#mx-auto)](https://cointelegraph.com/news/peer-to-peer-internet-has-lofty-goal-to-bring-true-decentralization)
-
-|||
-
-[![yahoo_news](yahoo_news.png#mx-auto)](https://news.yahoo.com/news/threefold-set-disrupt-status-quo-051457787.html?guccounter=1)
-
-{% end %}
-
-{% row(style="center between") %}
-
-[![hackernoon](hackernoon.png#mx-auto)](https://hackernoon.com/is-it-possible-to-create-a-decentralized-internet-this-startup-and-its-farmers-think-so-ey2e3ycf)
-
-|||
-
-[![smartereum](smartereum.png#mx-auto)](https://smartereum.com/189750/threefold-is-audaciously-building-a-new-decentralized-internet/)
-
-|||
-
-[![tga_daily](tga_daily.png#mx-auto)](https://tgdaily.com/web/6-dfinity-threefold-are-leading-an-internet-decentralization-revolution/)
-
-{% end %}
-
-{% row(style="center between") %}
-
-[![cointelegraph](cointelegraph.png#mx-auto)](https://cointelegraph-com.cdn.ampproject.org/c/s/cointelegraph.com/news/is-a-new-decentralized-internet-or-web-3-0-possible/amp)
-
-|||
-
-[![banklesstimes](banklesstimes.png#mx-auto)](https://www.banklesstimes.com/2021/06/14/threefolds-green-technology-strategy-to-a-fairer-more-sustainable-world/)
-
-|||
-
-[![grit_daily](grit_daily.png#mx-auto)](https://gritdaily.com/belarus-governments-control-internet/)
 
 {% end %}
