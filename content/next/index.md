@@ -22,19 +22,24 @@ extra:
 
 After more than five years of building and expanding the open-source ThreeFold Grid, it's now time to go commercial. This includes the introduction of a Cooperative model, ThreeFold Cloud services, and some shifts with TFT.
 
+<br>
+
+<button>[FAQs](/nextfaq)</button>
+<button>[Participate in the Plan](https://forum.threefold.io/t/november-30-2023-threefold-community-call-recording/4153)</button>
+
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="reverse center between margin") %}
 
-### TFGrid 4.x Will Be a Distributed Cloud Platform
+### TF Grid 4.x: A Distributed Cloud Platform
 
-We have always differentiated ourselves from a crypto project. Our belief is in utilizing a token as a utility for creating and using IT (Internet) capacity. Starting with TFGrid 4.x, we are implementing changes that will further set us apart.
+We have always differentiated ourselves from a crypto project. Our belief is in utilizing a token as a utility for creating and using IT (Internet) capacity. Starting with TF Grid 4.x, we are implementing changes that will further set us apart.
 
 <br>
 
 #### ThreeFold Cooperative
 
-We will use a cooperative as our decentralization mechanism. These are well proven governance structures. Every farmer and buyer of IT Capacity from the TFGrid will be part of this cooperative.
+We will use a cooperative as our decentralization mechanism. These are well proven governance structures. Every farmer and buyer of IT Capacity from the TF Grid will be part of this cooperative.
 
 <br>
 
@@ -44,9 +49,13 @@ A 100% owned subsidiary of the Cooperative in a chosen jurisdiction (probably BV
 
 |||
 
+![Image](distributed_cloud.png#medium)
+
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="reverse center between margin") %}
+
+![Image](grid_3_decentralized.png#medium)
 
 |||
 
@@ -68,11 +77,11 @@ The minting rules are becoming more strict thanks to a recently-passed Grid Enha
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="reverse center between margin") %}
 
-### ThreeFold Cloud Will Build Commercial Offerings
+### TF Cloud Builds Commercial Offerings
 
-ThreeFold Cloud will build and commercialize services, reserving and purchasing the capacity it requires  on TFGrid 3.x and TFGrid 4.x using TFT.
+ThreeFold Cloud will build and commercialize services, reserving and purchasing the capacity it requires  on TF Grid 3.x and TF Grid 4.x using TFT.
 
 <br>
 
@@ -88,15 +97,19 @@ While we believe in TFT and see it as an essential component in the ecosystem, a
 
 |||
 
+![Image](commercial_cloud.png#medium)
+
 {% end %}
 
-{% row(style="center mtop narrow") %}
+{% row(style="reverse center between margin") %}
+
+![Image](data_center_s.png#medium)
 
 |||
 
-### ThreeFold Tier S<br>Data Center Concept
+### ThreeFold Tier S Data Center Concept
 
-A substantial number of new data centers, ranging from hundreds to thousands, are anticipated for deployment in emerging markets. There's a strong sentiment in these markets favoring a leapfrogging approach, moving beyond the conventional Tier 3 data center model, which is increasingly seen as inadequate.
+A substantial number of new data centers, ranging from hundreds to thousands, are anticipated for deployment in emerging markets. There's a strong sentiment in these markets favoring a leapfrogging approach, moving beyond the conventional Tier 3 data center model, which is increasingly seen as inadequate. Dive deep [here](https://info.ourworld.tf/datacenter/).
 
 <br>
 
@@ -108,6 +121,6 @@ The advent of AI has significantly altered the landscape and requirements for da
 
 #### The Grid Expands
 
-We are having serious conversations to deploy a lot of capacity over the next few years. The aim is that these data centers would be 100% sustainable and hyper-reliable. Our goal is to ensure that the capacity provided by these data centers is partially made available globally as an extension to the open-source TFGrid 4.X. This will introduce a substantial amount of capacity into the market. 
+We are having serious conversations to deploy a lot of capacity over the next few years. The aim is that these data centers would be 100% sustainable and hyper-reliable. Our goal is to ensure that the capacity provided by these data centers is partially made available globally as an extension to the open-source TF Grid 4.X. This will introduce a substantial amount of capacity into the market. 
 
 {% end %}

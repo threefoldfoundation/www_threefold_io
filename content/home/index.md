@@ -62,7 +62,7 @@ ThreeFold is an end-to-end autonomous cloud platform designed to deliver ultra s
 
 <br>
 
-<button>[Learn About Grid Technology](/grid)</button>
+<button>[Learn About the Grid](/grid)</button>
 <button>[Use the Grid](/build)</button>
 
 {% end %}

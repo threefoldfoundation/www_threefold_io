@@ -9,7 +9,7 @@ extra:
 
 
 - [Mission]("/mission")
-- [Tech]("/grid")
+- [Grid]("/grid")
 - [Build]("/build")
 - [Farm]("/farm")
 - [TFT]("/tft")
