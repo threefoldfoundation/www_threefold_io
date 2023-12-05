@@ -31,6 +31,10 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 <button>[Main Chat](https://t.me/threefold)</button>
 <button>[Our Forum](https://forum.threefold.io)</button>
 
+<br>
+
+*Learn about what's coming [in 2024](/next).*
+
 {% end %}
 
 <!-- section 2 (Map) -->
@@ -201,6 +205,6 @@ If you believe what we believe, then believe us, there is room for you in this m
 
 {% team_sec() %}
 
-## **The Team**
+## **Meet the Team**
 
 {% end %}

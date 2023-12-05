@@ -13,6 +13,7 @@ extra:
 - [Build]("/build")
 - [Farm]("/farm")
 - [TFT]("/tft")
+- [Next Chapter]("/next")
 - Ecosystem
 
 {% row() %}
