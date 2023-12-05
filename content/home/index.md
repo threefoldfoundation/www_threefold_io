@@ -54,7 +54,7 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 {% row(style="center narrow") %}
 
-![Image](layer0.png#mx-auto#large)
+![Image](grid_wide_1.png#mx-auto#large)
 
 ## The **Layer Zero** for a New Digital Era
 
