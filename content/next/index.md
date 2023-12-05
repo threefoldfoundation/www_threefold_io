@@ -16,14 +16,15 @@ extra:
 <br>
 <br>
 <br>
+<br>
 
 ## ThreeFold Goes **Commercial**
 
-After more than five years of building and expanding the open-source ThreeFold Grid, it's now time to go commercial.
+After more than five years of building and expanding the open-source ThreeFold Grid, it's now time to go commercial. This includes the introduction of a Cooperative model, ThreeFold Cloud services, and some shifts with TFT.
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 ### TFGrid 4.x Will Be a Distributed Cloud Platform
 
@@ -45,7 +46,7 @@ A 100% owned subsidiary of the Cooperative in a chosen jurisdiction (probably BV
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 |||
 
@@ -67,7 +68,7 @@ The minting rules are becoming more strict thanks to a recently-passed Grid Enha
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 ### ThreeFold Cloud Will Build Commercial Offerings
 
@@ -89,7 +90,7 @@ While we believe in TFT and see it as an essential component in the ecosystem, a
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 |||
 

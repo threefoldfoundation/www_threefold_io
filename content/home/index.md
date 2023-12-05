@@ -54,7 +54,7 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 {% row(style="center narrow") %}
 
-![Image](grid_wide_1.png#mx-auto#large)
+![Image](layer0.png#mx-auto#large)
 
 ## The **Layer Zero** for a New Digital Era
 
@@ -75,7 +75,7 @@ ThreeFold is an end-to-end autonomous cloud platform designed to deliver ultra s
 
 {% row(style="center between") %}
 
-![Image](capacity.png#medium)
+![Image](edge_.png#medium)
 
 <br/>
 
@@ -85,7 +85,7 @@ Achieve low latencies and bandwidth efficiency by reserving capacity locally.
 
 |||
 
-![Image](secure.png#medium)
+![Image](secure_.png#medium)
 
 <br/>
 
@@ -95,7 +95,7 @@ Open-source system built from the ground-up for a fully transparent and auditabl
 
 |||
 
-![Image](scalable.png#medium)
+![Image](scalable_.png#medium)
 
 <br/>
 
@@ -105,7 +105,7 @@ An autonomous infrastructure that grows naturally with demand, where and when it
 
 |||
 
-![Image](effecient.png#medium)
+![Image](efficient_.png#medium)
 
 <br/>
 
@@ -119,7 +119,7 @@ A carefully designed collection of lightweight components that minimize overhead
 <br>
 <br>
 
-{% row(style="center narrow") %}
+{% row(style="center mtop narrow") %}
 
 ## Together **We Build.** Start **Your Journey.**
 

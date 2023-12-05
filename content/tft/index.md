@@ -15,7 +15,7 @@ TFT is a way to exchange value within the ThreeFold ecosystem, not an individual
 
 <br>
 
-*While we believe in digital currencies, ThreeFold is not a typical "crypto" project. Learn more here.*
+*Not interested in digital currencies? Learn how we're adapting things in our [next chapter](/next).*
 
 <br>
 
@@ -29,20 +29,19 @@ TFT is a way to exchange value within the ThreeFold ecosystem, not an individual
 
 {% row(style="center mtop") %}
 
-![](use_icon1.png#icon)
-
+![](use_.png#icon)
 ### **Use TFT**
 Build applications, store data and access decentralized services on the ThreeFold Grid.
 
 |||
 
-![](earn_icon1.png#icon)
+![](earn_.png#icon)
 ### **Earn Discounts**
 Hold your TFT and earn up to 60% discounts on Internet capacity.  
 
 |||
 
-![](stake_icon1.png#icon)
+![](stake_.png#icon)
 ### **Stake TFT**
 Soon you will be able to partake in the network's decentralization and earn rewards.
 
@@ -52,28 +51,28 @@ Soon you will be able to partake in the network's decentralization and earn rewa
 
 {% row(style="center mtop narrow") %}
 
-## Get TFT
+## **Get** TFT
 
 There are multiple ways to acquire TFT, depending on your preferences. To start, you need to have a supporting wallet to store your TFT. Find out more here. Then, follow the path you prefer most.
 
+<br>
+
+<button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
+
 {% end %}
 
-{% row(style="center mtop") %}
-
-![](use_icon1.png#icon)
+{% row(style="center") %}
 
 ### **Swap**
 Trade or swap other digital currencies for TFT. Leverage swapping services available on Decentralized Exchanges or Automated Market Makers to exchange your tokens for TFT.
 
 |||
 
-![](earn_icon1.png#icon)
 ### **From ThreeFold**
-Purchase TFT using fiat currency directly from TFT Official's Live Desk, or ThreeFold's official TFT Shop.
+Purchase TFT using fiat currency directly from ThreeFold's Official Live Desk, or ThreeFold's official TFT Shop.
 
 |||
 
-![](stake_icon1.png#icon)
 ### **From Farmers**
 Engage with Farmers to purchase TFT directly from them, contributing to the growth and decentralization of the ThreeFold network.
 
