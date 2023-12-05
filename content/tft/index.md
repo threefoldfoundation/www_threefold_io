@@ -15,7 +15,7 @@ TFT is a way to exchange value within the ThreeFold ecosystem, not an individual
 
 <br>
 
-*Not interested in digital currencies? Learn how we're adapting things in our [next chapter](/next).*
+*Learn how we're adapting things in our [next chapter](/next).*
 
 <br>
 
