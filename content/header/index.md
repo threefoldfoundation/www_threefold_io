@@ -68,9 +68,9 @@ extra:
 
 </button>
 
-<button onclick="openInNewTab('https&#58;//play.grid.tf')">
+<button onclick="openInNewTab('https&#58;//playground.grid.tf')">
 
-[Weblet Playground](https://play.grid.tf)
+[Weblet Playground](https://playground.grid.tf)
 <br>
 <p class="text-sm">Deploy a VM & More</p>
 

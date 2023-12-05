@@ -99,8 +99,17 @@ TFT is the official medium of exchange for Internet capacity on the ThreeFold Gr
 
 {% end %}
 
+<!-- section 3 (world of farmers) -->
 
+{% row(style="center between margin") %}
 
+## The **Missing Layer**
 
+While many projects have created bits and pieces of what a decentralized Internet would look like, ThreeFold is decentralizing the entire Internet model. The blockchain world is missing this decentralized foundational layer. ThreeFold provides the peer-to-peer Internet infrastructure to interconnect the entire blockchain and web3 space.
 
+<br>
+<br>
 
+![Image](tft_table.png#mx-auto)
+
+{% end %}

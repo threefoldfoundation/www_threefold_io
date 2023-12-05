@@ -54,11 +54,11 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 ## The **Layer Zero** for a New Digital Era
 
-Our unique technology provides unparalleled  sovereignty, scalability and efficiency features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver. 
+ThreeFold is an end-to-end autonomous cloud platform designed to deliver ultra secure, scalable, green, deterministic IT workload deployments close to the edge. Our unique technology provides unparalleled  sovereignty, scalability and efficiency features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver.
 
 <br>
 
-<button>[Learn About the Grid](/grid)</button>
+<button>[Learn About Grid Technology](/grid)</button>
 <button>[Use the Grid](/build)</button>
 
 {% end %}
@@ -168,7 +168,7 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 <br>
 
 <button>[Dashboard](https://dashboard.grid.tf/)</button>
-<button>[Playground](https://play.grid.tf)</button>
+<button>[Playground](https://playground.grid.tf)</button>
 <button>[Manual](https://manual.grid.tf/)</button>
 <button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
