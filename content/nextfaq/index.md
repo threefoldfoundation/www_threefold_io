@@ -36,6 +36,12 @@ From a pure tech perspective, redundancy can be achieved by means of the quantum
 
 <br>
 
+#### So now there will be two grids? Why?
+
+One infrastructure, two grid versions. Now is the time for the project to go commercial and in order to present a reliable offering, TF Grid 4.x is necessary and will need to be the primary focus of the ThreeFold DMCC team. TF Grid 3.x will live on as a community-owned and operated entity, the perfect place for open source builders, Web3 enthusiasts, and testing.
+
+<br>
+
 #### What is a cooperative and why are we moving in that direction?
 
 A [cooperative](https://www.ica.coop/en/cooperatives/what-is-a-cooperative) is an autonomous association of persons united voluntarily to meet their common economic, social and cultural needs and aspirations through a jointly owned and democratically controlled enterprise. In the next phase of ThreeFold it is crucial we have governance done well and in a way which is widely accepted. Cooperatives present a well-proven governance structure.
