@@ -39,13 +39,13 @@ We have always differentiated ourselves from crypto projects. Our belief is in u
 
 #### ThreeFold Cooperative
 
-We will use a cooperative as our decentralization mechanism. These are well proven governance structures. Every farmer and buyer of IT Capacity from the TF Grid will be part of this cooperative. Read [more](/blog/threefold_cooperative).
+We will use a cooperative as our decentralization mechanism. These are well proven governance structures. Every farmer and buyer of IT Capacity from the TF Grid will be part of this cooperative. Read [more](/blog/threefold-cooperative).
 
 <br>
 
 #### Farming Pools
 
-A 100% owned subsidiary of the Cooperative in a chosen jurisdiction (probably BVI) will allow the creation of Farming Pools and allow people to buy/sell their TFT in controlled ways in line with governance, as will be defined per Farming Pool. Read [more](/blog/farming_pools).
+A 100% owned subsidiary of the Cooperative in a chosen jurisdiction (probably BVI) will allow the creation of Farming Pools and allow people to buy/sell their TFT in controlled ways in line with governance, as will be defined per Farming Pool. Read [more](/blog/farming-pools).
 
 |||
 

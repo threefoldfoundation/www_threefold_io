@@ -44,13 +44,13 @@ One infrastructure, two grid versions. Now is the time for the project to go com
 
 #### What is a cooperative and why are we moving in that direction?
 
-A [cooperative](https://www.ica.coop/en/cooperatives/what-is-a-cooperative) is an autonomous association of persons united voluntarily to meet their common economic, social and cultural needs and aspirations through a jointly owned and democratically controlled enterprise. In the next phase of ThreeFold it is crucial we have governance done well and in a way which is widely accepted. Cooperatives present a well-proven governance structure. Read [more](/blog/threefold_cooperative).
+A [cooperative](https://www.ica.coop/en/cooperatives/what-is-a-cooperative) is an autonomous association of persons united voluntarily to meet their common economic, social and cultural needs and aspirations through a jointly owned and democratically controlled enterprise. In the next phase of ThreeFold it is crucial we have governance done well and in a way which is widely accepted. Cooperatives present a well-proven governance structure. Read [more](/blog/threefold-cooperative).
 
 <br>
 
 #### Can you explain more about farming pools?
 
-Farming pools allow farmers to group together and adhere to minimum service level agreements in order to provide reliability and trustworthiness for people using the capacity. Every 4.0 Farmer will be required to join a farming pool. Farming pools will have the opportunity to set the pricing for services they provide, and the option to stake on their farms. The pools will also prvide a regulated and centralized approach to staking, holding, selling, and buying of TFT. All in all, this creates a more simple and trustworthy experience for customers. Read [more](/blog/farming_pools).
+Farming pools allow farmers to group together and adhere to minimum service level agreements in order to provide reliability and trustworthiness for people using the capacity. Every 4.0 Farmer will be required to join a farming pool. Farming pools will have the opportunity to set the pricing for services they provide, and the option to stake on their farms. The pools will also prvide a regulated and centralized approach to staking, holding, selling, and buying of TFT. All in all, this creates a more simple and trustworthy experience for customers. Read [more](/blog/farming-pools).
 
 <br>
 
