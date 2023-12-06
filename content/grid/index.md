@@ -88,7 +88,7 @@ The ThreeFold Grid is formed by Farmers, independent people who connect 3Nodes (
 
 |||
 
-![Image](grid_scaled.png)
+![Image](scaled_.png)
 
 {% end %}
 
@@ -96,7 +96,7 @@ The ThreeFold Grid is formed by Farmers, independent people who connect 3Nodes (
 
 {% row(style="margin") %}
 
-![Image](grid_new_internet.jpg)
+![Image](blueprint_.png)
 
 |||
 
@@ -112,27 +112,12 @@ All our code is made open source to energize open collaboration and promote univ
 
 ## A Revolutionary <br> **Operating System**
 
-A decentralized autonomous operating system designed to dedicate hardware capacity to the People’s Internet via the ThreeFold Blockchain. Zero-OS can be booted on most modern computers to host anything that runs on Linux in a decentralized way.
+A decentralized autonomous operating system designed to dedicate hardware capacity to ThreeFold. Zero-OS can be booted on most modern computers to host anything that runs on Linux in a decentralized way.
 
 <button>[Learn More](https://manual.grid.tf/concepts/grid3_components.html#0-os-or-zos)</button>
 
 |||
 
-![Image](zero_os.png#medium)
-
-{% end %}
-
-<!-- section 3 (world of farmers) -->
-
-{% row(style="center between margin") %}
-
-## The **Missing Layer**
-
-While many projects have created bits and pieces of what a decentralized Internet would look like, ThreeFold is decentralizing the entire Internet model. The blockchain world is missing this decentralized foundational layer. ThreeFold provides the peer-to-peer Internet infrastructure to interconnect the entire blockchain and web3 space.
-
-<br>
-<br>
-
-![Image](tft_table.png#mx-auto)
+![Image](os_.png)
 
 {% end %}

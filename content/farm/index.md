@@ -21,8 +21,6 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% end %}
 
-
-
 <!-- section 2 (Farm) -->
 
 {% row(style="center mtop narrow ") %}
@@ -32,7 +30,7 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 ### A new way of growing the Internet
 
-3Nodes provide Internet capacity for millions of people using ThreeFold’s Planetary Network, and you earn TFT for doing so. And because of a unique operating system, called Zero-OS, once turned on your 3Node runs by itself.
+3Nodes provide Internet capacity for millions of people using ThreeFold’s Planetary Network, and you earn TFT for doing so. And because of a unique operating system, called Zero-OS, once turned on your 3Node runs by itself. *See how things are changing in [our next phase](/next).*
 
 {% end %}
 

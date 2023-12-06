@@ -101,7 +101,7 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 
 <!-- section 7 (REVOLUTION) -->
 
-{% row(bgColor="#70dfc9" style="center margin") %}
+{% row(bgColor="#15deaf" style="center margin") %}
 
 ## Join the Internet <br> **(R)evolution**
 

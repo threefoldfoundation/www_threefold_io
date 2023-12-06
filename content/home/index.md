@@ -54,8 +54,6 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 {% row(style="center narrow") %}
 
-![Image](grid_wide_1.png#mx-auto#large)
-
 ## The **Layer Zero** for a New Digital Era
 
 ThreeFold is an end-to-end autonomous cloud platform designed to deliver ultra secure, scalable, green, deterministic IT workload deployments close to the edge. Our unique technology provides unparalleled  sovereignty, scalability and efficiency features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver.
@@ -131,20 +129,15 @@ The future is about participation and working together to achieve our goals. As 
 
 {% row(style="center narrow") %}
 
-### Farm Local Internet Capacity **and Earn For It**
+![Image](farm_.png#medium)
 
-<br>
-
-![Image](farm_do_it_home.png#mx-auto#medium)
-
-<br>
+### **Farm** Local Internet Capacity
 
 By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity <br> for the people around you and earn a digital currency called TFT.
 
 <br>
 
 *About TFT, we utilize a token as a mechanism for creating and using IT (Internet) capacity, which is essential for enabling our digital lives. For us the token is not an individual product, rather a way to exchange value within the ThreeFold ecosystem.*
-
 
 <br>
 
@@ -159,13 +152,9 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 {% row(style="center narrow") %}
 
+![Image](build_.png#medium)
+
 ### Build On Top of a **Decentralized Infrastructure**
-
-<br>
-
-![Image](developer_header_home.jpg#mx-auto#medium)
-
-<br>
 
 True digital sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.
 
@@ -182,13 +171,9 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 
 {% row(style="center narrow") %}
 
+![Image](community_.png#medium)
+
 ### Join the **Community.** Grow **the Movement.**
-
-<br>
-
-![Image](community_header_home.jpg#mx-auto)
-
-<br>
 
 If you believe what we believe, then believe us, there is room for you in this movement. Join the community. Ask questions. <br> Bring suggestions – this is *our* project. Tell a friend. Tell many friends! Together we build.
 
