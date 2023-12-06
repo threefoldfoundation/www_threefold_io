@@ -61,7 +61,7 @@ A 100% owned subsidiary of the Cooperative in a chosen jurisdiction (probably BV
 
 ### TF Grid 3.x Goes Fully Decentralized
 
-ThreeFold DMCC has been instrumental in supporting the expansion of the TF Grid over the last years. It is thanks to the generous funding and support of many contributors that the grid has been able to achieve its current state. ThreeFold DMCC will in the future limit its effort on TF Grid 3.x and focus completely on TF Grid 4.x. For this reason, TF Grid 3.x must move to become fully decentralized.
+ThreeFold DMCC has been instrumental in supporting the expansion of the TF Grid over the years. It is thanks to the generous funding and support of many contributors that the grid has achieved its current state. ThreeFold DMCC will need to limit its effort on TF Grid 3.x and focus completely on TF Grid 4.x. For this reason, TF Grid 3.x must move to become community-run.
 
 <br>
 
@@ -81,7 +81,7 @@ The minting rules are becoming more strict thanks to a recently-passed Grid Enha
 
 ### TF Cloud Builds Commercial Offerings
 
-ThreeFold Cloud will build and commercialize services, reserving and purchasing the capacity it requires  on TF Grid 3.x and TF Grid 4.x using TFT.
+ThreeFold Cloud will build and commercialize services, reserving and purchasing the capacity it requires  on TF Grid 3.x and 4.x using TFT.
 
 <br>
 
