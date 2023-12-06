@@ -32,7 +32,7 @@ ThreeFold's next phase is about commercialization and utilization. Some changes 
 
 #### Is the grid reliable? How will I be able to ensure my workloads are safe?
 
-From a pure tech perspective, redundancy can be achieved by means of the quantum safe storage system, replication, Web Gateways, and more. However, this is too difficult for the starting user and we will need more tooling around it. Beyond that, in Grid 4.x, TF Cloud will provide support, Service Level Agreements, and easy credit card payments to provide a safe, smooth, and reliable experience. Farming pools will help as well, providing visibility into who is who and clarifying reputation regarding who reached which levels of service, uptime, and so on.
+From a pure tech perspective, redundancy can be achieved by means of the quantum safe storage system, replication, Web Gateways, and more. However, this is too difficult for the starting user and we will need more tooling around it. Beyond that, in Grid 4.x, TF Cloud will provide support, Service Level Agreements, and easy credit card payments to provide a safe, smooth, and reliable experience. Farming pools will help as well, providing visibility into who is who and clarifying reputation regarding who reached which levels of service, uptime, and so on. Learn more [here](/blog/reliability).
 
 <br>
 

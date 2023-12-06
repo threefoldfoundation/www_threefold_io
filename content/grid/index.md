@@ -11,7 +11,7 @@ insert_anchor_links: "left"
 
 <br>
 
-Over a decade ago, a group of early Internet pioneers, who understood the problems of the centralized Internet model first-hand, came together to re-imagine the infrastructure for an open and decentralized Internet. But we didn’t just imagine it – we built it.
+Over a decade ago, a group of early Internet pioneers, who understood the problems of the centralized Internet first-hand, came together to re-imagine the infrastructure for an open and decentralized Internet. But we didn’t just imagine it – we built it.
 
 <br>
 
@@ -28,6 +28,8 @@ Over a decade ago, a group of early Internet pioneers, who understood the proble
 ## The Layer-0 for **Decentralization**
 
 Any current or future technology, including blockchain, metaverses and web 3.0, can be hosted natively on the ThreeFold Grid via smart contracts with minimum migration. The grid is compatible with most open source tools and protocols.
+
+<br>
 
 <button>[Developer Manual](https://manual.grid.tf/developers/developers.html)</button>
 <button>[Sysadmin Manual](https://manual.grid.tf/system_administrators/system_administrators.html)</button>

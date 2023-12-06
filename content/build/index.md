@@ -60,14 +60,15 @@ Private overlay networks and global end-to-end encryption minimize attack surfac
 
 {% row(style="center margin narrow") %}
 
-## Learn **More**
+## More **Resources**
 
-Dive into more resources and join the open-source movement building a better digital future.
+The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos for those who are new to the project or need some help. If you’d rather talk to a human, join our chat and ask away!
 
 <br>
 
-<button>[For Developers](https://manual.grid.tf/developers/developers.html)</button>
-<button>[For Sysadmins](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
+<button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
+<button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
+<button>[Our Forum](https://forum.threefold.io/)</button>
 <button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}

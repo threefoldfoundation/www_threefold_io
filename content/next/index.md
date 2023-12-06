@@ -33,7 +33,7 @@ After more than five years of building and expanding the open-source ThreeFold G
 
 ### TF Grid 4.x: A Distributed Cloud Platform
 
-We have always differentiated ourselves from a crypto project. Our belief is in utilizing a token as a utility for creating and using IT (Internet) capacity. Starting with TF Grid 4.x, we are implementing changes that will further set us apart.
+We have always differentiated ourselves from crypto projects. Our belief is in utilizing a token as a utility for creating and using IT (Internet) capacity. Starting with TF Grid 4.x, we are implementing changes that will further set us apart.
 
 <br>
 
