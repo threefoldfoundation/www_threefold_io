@@ -26,7 +26,7 @@ Deploy and administer on a decentralized autonomous edge infrastructure. Experie
 
 ![compute](compute_.png#medium)
 
-### **Compute**
+### **Autonomous Compute**
 
 Native support for containers and virtual machines. Migrate existing applications effortlessly or build from scratch in a cutting-edge computing environment.
 
@@ -34,7 +34,7 @@ Native support for containers and virtual machines. Migrate existing application
 
 ![storage](storage_.png#medium)
 
-### **Storage**
+### **Quantum Safe Storage**
 
 Plug in standard tools and protocols to the most resilient and versatile storage system ever created, or access raw disk on the location of your choice.
 
@@ -42,7 +42,7 @@ Plug in standard tools and protocols to the most resilient and versatile storage
 
 ![network](network_.png#medium)
 
-### **Network**
+### **Peer-to-Peer Network**
 
 Private overlay networks and global end-to-end encryption minimize attack surface. Handle inbound trafﬁc with uniquely secure web gateways.
 
