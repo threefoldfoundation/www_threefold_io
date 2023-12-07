@@ -117,7 +117,7 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 ![Image](community_.png#medium)
 
-### Join the **Community.** Grow **the Movement.**
+### Join the **Community.** Grow the **Movement.**
 
 If you believe what we believe, then believe us, there is room for you in this movement. Join the community. Ask questions. Bring suggestions – this is *our* project. Tell a friend. Tell many friends! Together we build.
 

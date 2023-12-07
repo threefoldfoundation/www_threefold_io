@@ -7,13 +7,12 @@ extra:
   button_Path: "/images/gettft_white.png"
 ---
 
-
-- [Mission]("/mission")
 - [Grid]("/grid")
-- [Build]("/build")
+- [Deploy]("/build")
 - [Farm]("/farm")
 - [TFT]("/tft")
 - [Next Chapter]("/next")
+- [Mission]("/mission")
 - [Blog]("/blog")
 - Help
 
