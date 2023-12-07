@@ -26,10 +26,7 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 <br>
 
-<button>[Build](/build)</button>
-<button>[Farm](/farm)</button>
-<button>[Main Chat](https://t.me/threefold)</button>
-<button>[Our Forum](https://forum.threefold.io)</button>
+<button>[Get Started](https://manual.grid.tf)</button>
 
 <br>
 
@@ -56,66 +53,13 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 ## The **Layer Zero** for a New Digital Era
 
-ThreeFold is an end-to-end autonomous cloud platform designed to deliver ultra secure, scalable, green, deterministic IT workload deployments close to the edge. Our unique technology provides unparalleled  sovereignty, scalability and efficiency features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver.
+ThreeFold is a peer-to-peer autonomous infrastructure layer designed to deliver ultra secure, scalable, green, deterministic IT workload deployments close to the edge. Our unique technology provides unparalleled sovereignty, scalability and efficiency features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver.
 
 <br>
 
 <button>[Learn About the Grid](/grid)</button>
-<button>[Use the Grid](/build)</button>
 
 {% end %}
-
-{% row(style="center mtop narrow") %}
-
-## Experience the Benefits <br> of **ThreeFold**
-
-{% end %}
-
-{% row(style="center between") %}
-
-![Image](edge_.png#medium)
-
-<br/>
-
-### **Edge Capacity**
-
-Achieve low latencies and bandwidth efficiency by reserving capacity locally.
-
-|||
-
-![Image](secure_.png#medium)
-
-<br/>
-
-### **Secure**
-
-Open-source system built from the ground-up for a fully transparent and auditable stack.
-
-|||
-
-![Image](scalable_.png#medium)
-
-<br/>
-
-### **Scalable**
-
-An autonomous infrastructure that grows naturally with demand, where and when it is needed.
-
-|||
-
-![Image](efficient_.png#medium)
-
-<br/>
-
-### **Efficient**
-
-A carefully designed collection of lightweight components that minimize overheads.
-
-{% end %}
-
-<br>
-<br>
-<br>
 
 {% row(style="center mtop narrow") %}
 
@@ -129,22 +73,18 @@ The future is about participation and working together to achieve our goals. As 
 
 {% row(style="center narrow") %}
 
-![Image](farm_.png#medium)
+![Image](build_.png#medium)
 
-### **Farm** Local Internet Capacity
+### **Deploy** On Top of a **Decentralized Infrastructure.**
 
-By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity <br> for the people around you and earn a digital currency called TFT.
-
-<br>
-
-*About TFT, we utilize a token as a mechanism for creating and using IT (Internet) capacity, which is essential for enabling our digital lives. For us the token is not an individual product, rather a way to exchange value within the ThreeFold ecosystem.*
+True digital sovereignty for open-source developers and system administrators. The ThreeFold Grid provides limitless possibilities, and brings a playground of industry-compatible easy-to-deploy solutions for developers.
 
 <br>
 
-<button>[Buy a 3Node](http://marketplace.3node.global/)</button>
-<button>[Build a 3Node](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
-<button>[Learn](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
-<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
+<button>[Manual](https://manual.grid.tf/)</button>
+<button>[Dashboard](https://dashboard.grid.tf/)</button>
+<button>[Playground](https://playground.grid.tf)</button>
+<button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
 
@@ -152,18 +92,22 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 {% row(style="center narrow") %}
 
-![Image](build_.png#medium)
+![Image](farm_.png#medium)
 
-### Build On Top of a **Decentralized Infrastructure**
+### **Expand** the Network. Become a **Farmer.**
 
-True digital sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.
+By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity for the people around you and earn a digital currency called TFT. We call this process farming.
 
 <br>
 
-<button>[Dashboard](https://dashboard.grid.tf/)</button>
-<button>[Playground](https://playground.grid.tf)</button>
-<button>[Manual](https://manual.grid.tf/)</button>
-<button>[Grid Chat](https://t.me/threefoldtesting)</button>
+*About TFT, we utilize a token as a mechanism for creating and using IT (Internet) capacity, which is essential for enabling our digital lives. For us the token is not an individual product, rather a way to exchange value within the ThreeFold ecosystem.*
+
+<br>
+
+<button>[Learn](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
+<button>[Build a 3Node](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
+<button>[Buy a 3Node](http://marketplace.3node.global/)</button>
+<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
 
 {% end %}
 
@@ -175,7 +119,7 @@ True digital sovereignty for open-source builders. The ThreeFold Grid provides l
 
 ### Join the **Community.** Grow **the Movement.**
 
-If you believe what we believe, then believe us, there is room for you in this movement. Join the community. Ask questions. <br> Bring suggestions – this is *our* project. Tell a friend. Tell many friends! Together we build.
+If you believe what we believe, then believe us, there is room for you in this movement. Join the community. Ask questions. Bring suggestions – this is *our* project. Tell a friend. Tell many friends! Together we build.
 
 <br>
 

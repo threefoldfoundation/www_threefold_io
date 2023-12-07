@@ -15,7 +15,55 @@ Over a decade ago, a group of early Internet pioneers, who understood the proble
 
 <br>
 
-<button>[Discover the Grid](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
+<button>[How It Works](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
+
+{% end %}
+
+{% row(style="center mtop narrow") %}
+
+## Experience the Benefits <br> of **ThreeFold**
+
+{% end %}
+
+{% row(style="center between") %}
+
+![Image](edge_.png#medium)
+
+<br/>
+
+### **Edge Capacity**
+
+Achieve low latencies and bandwidth efficiency by reserving capacity locally.
+
+|||
+
+![Image](secure_.png#medium)
+
+<br/>
+
+### **Secure**
+
+Open-source system built from the ground-up for a fully transparent and auditable stack.
+
+|||
+
+![Image](scalable_.png#medium)
+
+<br/>
+
+### **Scalable**
+
+An autonomous infrastructure that grows naturally with demand, where and when it is needed.
+
+|||
+
+![Image](efficient_.png#medium)
+
+<br/>
+
+### **Efficient**
+
+A carefully designed collection of lightweight components that minimize overheads.
 
 {% end %}
 
