@@ -34,11 +34,11 @@ extra:
 
 <br>
 
-###### [Main Community](https://t.me/threefold)
+###### [Main Chat](https://t.me/threefold)
 
-###### [Farming Community](https://t.me/threefoldfarmers)
+###### [Farming Chat](https://t.me/threefoldfarmers)
 
-###### [Grid User Community](https://t.me/threefoldtesting)
+###### [Grid User Chat](https://t.me/threefoldtesting)
 
 ###### [Forum](https://forum.threefold.io/)
 
@@ -50,11 +50,15 @@ extra:
 
 <br>
 
-<h6><a target="_self" onclick="window.location.href='/mission'">ThreeFold</a></h6>
+<h6><a target="_self" onclick="window.location.href='/mission'">Mission</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/careers'">Careers</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 

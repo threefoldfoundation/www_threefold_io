@@ -22,7 +22,6 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 <br>
 
-
 <!-- section 8 (IN THE NEWS) -->
 
 {% row(style="center mtop between") %}
@@ -81,6 +80,13 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 {% end %}
 
+<!-- section 5 (THE TEAM) -->
+
+{% team_sec() %}
+
+## **Meet the Team**
+
+{% end %}
 
 {% community_banner() %}
 

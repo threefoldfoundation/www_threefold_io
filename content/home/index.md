@@ -185,11 +185,3 @@ If you believe what we believe, then believe us, there is room for you in this m
 <button>[More Resources](/community)</button>
 
 {% end %}
-
-<!-- section 5 (THE TEAM) -->
-
-{% team_sec() %}
-
-## **Meet the Team**
-
-{% end %}
