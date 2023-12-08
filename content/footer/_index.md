@@ -20,7 +20,7 @@ extra:
 
 ###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
 
-###### [Use the Dashboard](https://dashboard.grid.tf/)
+###### [Deploy on the Playground](https://playground.grid.tf/)
 
 ###### [ThreeFold Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 

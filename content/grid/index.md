@@ -21,7 +21,7 @@ Over a decade ago, a group of early Internet pioneers, who understood the proble
 
 {% row(style="center mtop narrow") %}
 
-## Experience the Benefits <br> of **ThreeFold**
+## ThreeFold **Benefits**
 
 {% end %}
 
@@ -86,7 +86,7 @@ Any current or future technology, including blockchain, metaverses and web 3.0, 
 
 {% row(style="center mtop narrow") %}
 
-## ThreeFold is Different
+## ThreeFold is **Different**
 
 {% end %}
 
