@@ -11,3 +11,5 @@ template: "layouts/partners.html"
 page_template: "partnerPage.html"
 #transparent: true
 ---
+
+Hello

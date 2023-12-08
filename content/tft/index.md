@@ -5,226 +5,85 @@ page_template: "tft_header.html"
 insert_anchor_links: "left"
 ---
 
-<!-- section 1 (be the Internet) -->
+<!-- section 1 (tft header) -->
 
 {% row(style="center mtop narrow") %}
 
-## TFT **Powers** the Decentralized Internet
+## **TFT**: The Medium of **Exchange**
 
-Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
+TFT is a way to exchange value within the ThreeFold ecosystem, not an individual product. Our belief is in utilizing a token as a mechanism for creating and using IT (Internet) capacity, which is essential for enabling our digital lives.
+
+<br>
+
+*TFT is not a product on its own and we do not consider ourselves as a crypto project. Learn about our [next chapter](/next).*
 
 <br>
 
 <button>[Learn About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
 <button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
+<button>[Token Stats](https://library.threefold.me/info/threefold#/tokens/threefold__stats_token_overview)</button>
 
 {% end %}
 
-
-
-{% tft_header() %}
-
-## **DECENTRALIZING <br>THE INTERNET ECONOMY**
-
-{% end %}
-
-
-
-<!-- section 2 (Meeting Emerging Demand) -->
-
-{% row(style="center mtop ") %}
-
-## Meeting **Emerging Demand**
-
-
-Data has become the most valuable commodity on earth, the Internet infrastructure is experiencing significant growth.<br> While the current centralized model is facing limitations, ThreeFold can scale to the edge to service the emerging demand.
-
-{% end %}
-
-{% row(style="center mbottom") %}
-
-![Image](tft_125zb.png#medium)
-
-<br>
-
-125 zetabytes of storage capacity needs to be <br>
-created to meet demand for data in the upcoming years.<br>
-That is a number with 21 zeroes!
-
-|||
-
-|      |  |
-| ----------- | ----------- |
-| ![Image](tft_800.png#tft_img) | &nbsp;$800 billion of revenue is expected for the cloud market by 2025 |
-| ![Image](tft_70b.png#tft_img) | &nbsp;&nbsp;&nbsp;Over seventy billion new devices are expected to be online by 2025 |
-| ![Image](tft_1b.png#tft_img) | &nbsp;&nbsp;&nbsp;Over one billion people are still expected to get digital access by 2025|
-
-
-
-{% end %}
-
-
-<!-- section 3 (world of farmers) -->
-
-{% row(style="center between margin") %}
-
-
-## The **Missing Layer**
-
-
-While many projects have created bits and pieces of what a decentralized Internet would look like, ThreeFold is decentralizing the entire Internet model. The blockchain world is missing this decentralized foundational layer. ThreeFold provides the peer-to-peer Internet infrastructure to interconnect the entire blockchain and web3 space.
-
-<br>
-<br>
-
-![Image](tft_table.png#mx-auto)
-
-
-{% end %}
-
-
-<!-- section 4 (THE CURRENCY) -->
-
-{% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)" style="margin semiNarrow") %}
-
-![Image](tft_currency.png#medium#absolute#sm_none)
-
-|||
-
-## The Currency of the **Decentralized Internet**
-
-TFT is a utility token that allows people to hold current and future Internet capacity on the ThreeFold Grid. It incentivizes an open ecosystem where anyone can connect and utilize Internet capacity without any intermediaries.
-
-<button>[Learn About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
-
-{% end %}
-
-
-
-<!-- section 5 (OPEN NETWORK) -->
-
-{% row(style="center narrow mtop") %}
-
-
-## Open **Network**
-
-3Nodes provide Internet capacity for millions of people using ThreeFold’s Planetary Network, and you earn TFT for doing so. And because of a unique operating system, called Zero-OS, once turned on your 3Node runs by itself.
-
-{% end %}
-
-<br>
-
-{% row(style="center mbottom") %}
-
-<!-- | Proof-Of-Capacity     |  |Proof-Of-Utilization  |
-| ----------- | ----------- | ----------- |
-| People earn TFT as monthly income for connecting Internet capacity to the ThreeFold Grid. | ![Image](tft_network.png) | People buy TFT to store data and run applications privately on a peer-to-peer Internet infrastructure.  -->
-
-
-### Proof-Of-Capacity
-
-People earn TFT as monthly income for connecting Internet capacity to the ThreeFold Grid.
-
-|||
-
-![Image](tft_network.png)
-
-
-|||
-
-### Proof-Of-Utilization
-
-People buy TFT to store data and run applications privately on a peer-to-peer Internet infrastructure.
-
-{% end %}
-
-
-<!-- section 6 (OPEN NETWORK) -->
-
-
-{% row(style="margin reverse semiNarrow") %}
-
-## Loyalty **Rewards**
-
-The ThreeFold blockchain automatically scans wallets and provides up-to 60% discounts on the utilization of the ThreeFold Grid. The more TFT you hold across time, the higher the discounts.
-
-
-
-|||
-
-![Image](tft_loyalty.jpg)
-
-{% end %}
-
-
-
-<!-- section 7 (OPEN NETWORK) -->
-
-
-{% row(style="margin semiNarrow") %}
-
-![Image](tft_utility.jpg)
-
-|||
-
-## A Real **Utility Token**
-
-TFT is minted only when new Internet capacity is added to the ThreeFold Grid. A limited supply of 4 Billion TFT has been set to ensure the value keeps steady for the years to come with rising demand for a decentralized Internet.
-
-
-{% end %}
-
-
-<!-- section 8 (BURN AND FARM) -->
-
-
-{% row(style="margin reverse semiNarrow") %}
-
-## Burn and Farm <br>**Equilibrium**
-
-Burning permanently removes TFT from the circulating supply when the ThreeFold Grid gets used. It ensures a positive impact on pricing while ensuring rewards for all current and future nodes.
-
-
-
-|||
-
-![Image](tft_burn.jpg)
-
-{% end %}
-
-
-
-<!-- section 9 (partners) -->
+<!-- section 2 (uses of tft) -->
 
 {% row(style="center mtop") %}
 
-## Join the **Movement**
+![](use_.png#icon)
+### **Use TFT**
+Build applications, store data and access decentralized services on the ThreeFold Grid.
 
-Get TFT today and participate in the realization of a truly decentralized world.
+|||
+
+![](earn_.png#icon)
+### **Earn Discounts**
+Hold your TFT and earn up to 60% discounts on Internet capacity.  
+
+|||
+
+![](stake_.png#icon)
+### **Stake TFT**
+Soon you will be able to partake in the network's decentralization and earn rewards.
 
 {% end %}
 
-{% tft_links() %}
+<!-- section 1 (tft header) -->
 
-## **Decentralizing <br>the Internet Economy**
+{% row(style="center mtop narrow") %}
+
+## **Get** TFT
+
+There are multiple ways to acquire TFT, depending on your preferences. To start, you need to have a supporting wallet to store your TFT. Find out more here. Then, follow the path you prefer most.
+
+<br>
+
+<button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
 
 {% end %}
 
-{% row(style="lean mbottom") %}
+{% row(style="center") %}
 
-![Image](tft_join_internet.png#mx-auto)
+### **Swap**
+Trade or swap other digital currencies for TFT. Leverage swapping services available on Decentralized Exchanges or Automated Market Makers to exchange your tokens for TFT.
+
+|||
+
+### **From ThreeFold**
+Purchase TFT using fiat currency directly from ThreeFold's Official Live Desk, or ThreeFold's official TFT Shop.
+
+|||
+
+### **From Farmers**
+Engage with Farmers to purchase TFT directly from them, contributing to the growth and decentralization of the ThreeFold network.
 
 {% end %}
 
-<!-- section 10 (partners) -->
+{% row(style="center mtop narrow") %}
 
-{% row(style="center margin") %}
+*It's important to explore the available options and select the most convenient and secure method for acquiring TFT. Always exercise caution and ensure the legitimacy and reliability of the platforms or individuals you engage with to obtain TFT.*
 
-## **Believers in TFT**
+<br>
 
-
-![Image](ourpartners.png#mx-auto)
-
-<button>[Check All Partners](/partners)</button>
+*Please be reminded that TFT is not to be considered as an investment instrument. More info [here](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html#disclaimer).*
 
 {% end %}

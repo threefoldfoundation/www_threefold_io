@@ -24,25 +24,25 @@ Deploy and administer on a decentralized autonomous edge infrastructure. Experie
 
 {% row(style="center margin") %}
 
-![storage](storage.jpg#medium)
+![compute](compute_.png#medium)
 
-### **Storage**
-
-Plug in standard tools and protocols to the most resilient and versatile storage system ever created, or access raw disk on the location of your choice.
-
-|||
-
-![compute](compute.jpg#medium)
-
-### **Compute**
+### **Autonomous Compute**
 
 Native support for containers and virtual machines. Migrate existing applications effortlessly or build from scratch in a cutting-edge computing environment.
 
 |||
 
-![network](network.jpg#medium)
+![storage](storage_.png#medium)
 
-### **Network**
+### **Quantum Safe Storage**
+
+Plug in standard tools and protocols to the most resilient and versatile storage system ever created, or access raw disk on the location of your choice.
+
+|||
+
+![network](network_.png#medium)
+
+### **Peer-to-Peer Network**
 
 Private overlay networks and global end-to-end encryption minimize attack surface. Handle inbound trafﬁc with uniquely secure web gateways.
 
@@ -60,14 +60,15 @@ Private overlay networks and global end-to-end encryption minimize attack surfac
 
 {% row(style="center margin narrow") %}
 
-## Learn **More**
+## More **Resources**
 
-Dive into more resources and join the open-source movement building a better digital future.
+The ThreeFold Team and community have spent countless hours creating written and video explanations, tutorials, and demos for those who are new to the project or need some help. If you’d rather talk to a human, join our chat and ask away!
 
 <br>
 
-<button>[For Developers](https://manual.grid.tf/developers/developers.html)</button>
-<button>[For Sysadmins](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
+<button>[Basic Video Tutorials](https://www.youtube.com/playlist?list=PLTGQlepPqwUV0IA8BjDFetyjPD4XqVb6K)</button>
+<button>[Explainers & Demos](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y)</button>
+<button>[Our Forum](https://forum.threefold.io/)</button>
 <button>[Grid Chat](https://t.me/threefoldtesting)</button>
 
 {% end %}
