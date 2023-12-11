@@ -1,5 +1,5 @@
 ---
-title: "Partners"
+title: "Our Partners"
 paginate_by: 6
 
 # paginate_reversed: false
