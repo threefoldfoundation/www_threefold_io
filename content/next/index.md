@@ -73,7 +73,7 @@ We need to find at least nine guardians who will take on several responsibilitie
 
 #### Minting & Farming Updates
 
-The minting rules are becoming more strict thanks to a recently-passed Grid Enhancement Proposal. Only 3Nodes which have enough uptime and are usable for deployments will receive rewards. Starting January 2024, new 3Nodes added to TF Grid 3.x will have a lockup of two years or until 30% utilization on their nodes on generated TFT.
+The minting rules are becoming more strict thanks to a recently-passed Grid Enhancement Proposal. Only 3Nodes which have enough uptime and are usable for deployments will receive rewards. Starting January 2024, new 3Nodes added to TF Grid 3.x will have a lockup of two years or until 30% utilization on their nodes on generated TFT. (There will be no minting of TFT in TF Grid 4.x)
 
 {% end %}
 
