@@ -96,11 +96,9 @@ function hideMenu(menuName) {
     "rotate-0",
     "-rotate-90"
   );
-  setTimeout(function () {
-    if (!menuElement.classList.contains("hidden")) {
-      menuElement.classList.add("hidden");
-    }
-  }, 300);
+  if (!menuElement.classList.contains("hidden")) {
+    menuElement.classList.add("hidden");
+  }
 }
 
 function showHamburger() {
