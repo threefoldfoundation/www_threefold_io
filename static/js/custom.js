@@ -29,7 +29,7 @@ function toggleMenu(button) {
   }
 
   document.addEventListener("click", function (e) {
-    if (!button.id == e.target.id) {
+    if (!button.contains(e.target)) {
       hideMenu(button.id.split("-")[0]);
       button.lastElementChild.className = button.lastElementChild.className.replace(
         "rotate-0",
