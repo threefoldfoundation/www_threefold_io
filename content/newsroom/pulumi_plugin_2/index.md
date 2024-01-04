@@ -2,7 +2,7 @@
 id: pulumi_plugin_2
 title: 💡 Pulumi Plugin Follow-Up: Tutorials
 image_caption: Pulumi Plugin follow-up
-description: Looking for a follow-up on Pulumi plugin, click here for the tutorial. 
+description: Looking for a follow-up on Pulumi plugin, click here for the tutorial.
 date: 2023-11-01
 taxonomies:
     people: [bernadette_amanda_caster]
