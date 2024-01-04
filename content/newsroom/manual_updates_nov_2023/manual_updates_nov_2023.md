@@ -3,7 +3,7 @@ id: manual_updates_nov_2023
 title: 📚 New in the ThreeFold Manual
 image_caption: Manual updates Nov 2023
 description: The TF Manual is always-expanding and is user friendly, dive in here to see whats new.
-date: 2023-11-01
+date: 2023-11-06
 taxonomies:
     people: [bernadette_amanda_caster]
     tags: [update, technology, news, community]
