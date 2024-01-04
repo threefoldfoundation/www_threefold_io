@@ -9,113 +9,99 @@ insert_anchor_links: "left"
 
 {% row(style="center margin narrow") %}
 
-
 ## Our **Mission**
 
-
-To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems. Anything we do needs to improve the planet's situation and benefit the people around us.
-
-<br>
-
-<button>[Collective Dream](/blog/tf-grid-peoples-internet/)</button>
-<button>[Planet & People First](/blog/planet-first-people-first/)</button>
-<button>[Mission & Goals](https://mission.threefold.me)</button>
-
+To catalyze a new digital era, where individuals and communities (big and small) regain sovereignty over their digital lives and come together to build an Internet that fosters innovation and shared prosperity.
 
 {% end %}
 
+{% row( style="center between mtop") %}
 
-<!-- section 2 (INTERCONNECTED) -->
+<!-- bgColor="#ececec" -->
 
-{% row(style="margin") %}
+## **Our Values**
 
-![Image](globe_mission.png#medium)
+{% end %}
+
+{% row( style="center between") %}
+
+![Image](open_.png#icon)
+
+<br>
+
+### **Open-Source**
+Collaboration and openness are key to building a better world.
 
 |||
 
-## Supporting an **Interconnected World**
+![Image](simplicity_.png#icon)
 
-Internet access is a human right and it can change everything for the lives of people as an infinite source of tools and information. Our technology was designed to scale ThreeFold anywhere electricity and bandwidth are present.
+<br>
 
-{% end %}
-
-
-<!-- section 3 (SOVEREIGN) -->
-
-{% row(style="margin reverse semiNarrow") %}
-
-## Empowering People <br> **To Be Sovereign**
-
-Create, store and share in full control of where your data resides and who can access it. By combining peer-to-peer, blockchain and autonomous technologies, the People’s Internet provides 100% data ownership and privacy.
+### **Simplicity**
+Fostering clarity. Driving innovation. Enabling scalability.
 
 |||
 
-![Image](people_mission.png#medium)
+![Image](authenticity_.png#icon)
 
-{% end %}
+<br>
 
+### **Authenticity**
+We are genuine and vulnerable.
 
+{%end %}
 
-<!-- section 4 (OUR ACTIONS) -->
+{% row( style="center between mbottom") %}
 
-{% row(style="margin semiNarrow" gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" ) %}
+![Image](planet_.png#icon)
 
-![Image](node_mission.png#medium)
+### **Planet-First**
+Our solutions must be sustainable.
 
 |||
 
-## Our Values Define <br>**Our Actions**
+![Image](people_.png#icon)
 
-The ThreeFold Law states that any good you do will return to you threefold in this lifetime. By making our technology actionable, we energize a collective approach towards a single mission – empowering humanity while regenerating our planet.
+### **People-Centric**
+We empower self-sovereignty and autonomy.
 
-{% end %}
+|||
 
+![Image](together_.png#icon)
 
-
-<!-- section 5 (JOIN THE FOLD) -->
-
-{% row(style="center between margin") %}
-
-## **Join **The Fold****
-
-Together, we build a better Internet for the planet, and for all of us.
-
-<br>
-
-![Image](100_mission.png#meduim#mx-auto)
-
-<br>
-
-<button>[Join Us](/community)</button>
+### **Together**
+These values drive us forward as a collective.
 
 {% end %}
 
+{% row(style="center narrow mtop") %}
 
-
-<!-- section 6 (GETTING STARTED) -->
-
-{% row(style="center margin between") %}
-
-## We've Come A Long Way <br> **And We're Just Getting Started**
-
-After setting world records in Internet storage and cloud automation technologies throughout the past 20 years, some of our co-founders decided to start from scratch and build a new Internet infrastructure that is universally open source and peer-to-peer.
-
-<br>
-
-![Image](mission_roadmap.png#large)
-
-<br>
-
-And we’re aiming for new heights. ThreeFold is turning into a DAO in 2022, inviting developers and enterprises from all around the world to collaborate on the decentralization of everything that is digital, and beyond.
+## **Our Impact**
 
 {% end %}
 
-<br>
-<br>
+{% row(style="center narrow mbottom") %}
+
+![Image](green_.png#medium)
+
+### **Green Infrastructure**
+
+There is no Planet B. And the Internet is consumed a surprisingly large amount of the world's energy, between 5 and 10%. This is why ThreeFold has designed with efficiency in mind to create the most sustainable Internet infrastructure in the world. 
+
+|||
+
+![Image](empowering_.png#medium)
+
+### **Empowering People**
+
+Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory infrastructure and movement, and is prioritizing efforts to bring a more accessible Internet to developing regions around the world.
+
+{% end %}
 
 <!-- section 7 (REVOLUTION) -->
 
-{% row(bgColor="#70dfc9" style="center margin") %}
+{% row(bgColor="#15deaf" style="center margin") %}
 
 ## Join the Internet <br> **(R)evolution**
 

@@ -5,12 +5,15 @@ image_caption: ThreeFold Weekly! June 15th, 2022 (Vol 21)
 description: Welcome to the 21st edition of ThreeFold Weekly. It’s been a big week! Let’s take a quick look at the latest happenings within the ThreeFold universe.
 date: 2022-06-15
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
     imgPath: weekly_vol_21.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
 
 ### Community Updates:
 

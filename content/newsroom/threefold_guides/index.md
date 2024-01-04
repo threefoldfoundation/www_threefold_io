@@ -5,12 +5,15 @@ image_caption: Introducing ThreeFold Guides!
 description: Mik has been busy producing short & digestible video tutorials (between ~1 and 6 minutes) guiding you through the basic steps to get started with ThreeFold!
 date: 2023-03-16
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: threefold_guides.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
+
 
 Mik has been busy producing short & digestible video tutorials (between ~1 and 6 minutes) guiding you through the basic steps to get started with ThreeFold! 
 

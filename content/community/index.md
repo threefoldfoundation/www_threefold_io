@@ -22,7 +22,6 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 <br>
 
-
 <!-- section 8 (IN THE NEWS) -->
 
 {% row(style="center mtop between") %}
@@ -35,7 +34,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 |||
 
-[![yahoo_news](documentation.png)](https://library.threefold.me/info/threefold#/)
+[![yahoo_news](documentation.png)](https://manual.grid.tf)
 
 {% end %}
 
@@ -81,38 +80,13 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 {% end %}
 
-<br>
+<!-- section 5 (THE TEAM) -->
 
+{% team_sec() %}
 
-<!-- section 4 (DEVELOPER COMMUNITY) -->
-
-{% row(style="margin" bgColor="#f2f2f2") %}
-
-![Image](community_developers.png#medium)
-
-|||
-
-## Join the ThreeFold <br> **Developer Community**
-
-From testing our latest releases to joining our development teams or applying for a ThreeFold Foundation grant – there are many ways to engage with ThreeFold’s technology.
-
-<button>[Developer Resources](/developer)</button>
+## **Meet the Team**
 
 {% end %}
-
-<!-- section 6 (QUESTIONS) -->
-
-{% row(style="center between margin") %}
-
-## Frequently Asked <br> **Questions**
-
-Check out the FAQs or ask a question on the ThreeFold Forum.
-
-<button>[ThreeFold FAQ](/faq)</button>
-<button>[TFT FAQ](/tftfaq)</button>
-
-{% end %}
-
 
 {% community_banner() %}
 

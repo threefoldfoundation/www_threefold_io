@@ -5,164 +5,85 @@ page_template: "tft_header.html"
 insert_anchor_links: "left"
 ---
 
-<!-- section 1 (be the Internet) -->
+<!-- section 1 (tft header) -->
 
 {% row(style="center mtop narrow") %}
 
-![](tft_header1.png#medium)
+## **TFT**: The Medium of **Exchange**
 
-{% end %}
-
-{% row(style="center narrow") %}
-
-# Introducing TFT
-### The Currency Powering the Decentralized Internet 
+TFT is a way to exchange value within the ThreeFold ecosystem, not an individual product. Our belief is in utilizing a token as a mechanism for creating and using IT (Internet) capacity, which is essential for enabling our digital lives.
 
 <br>
 
-Join the Internet revolution with the ThreeFold Token (TFT), an innovative utility token used to build, store and exchange on the ThreeFold Grid. Through many of its unique properties, TFT opens a whole new world of possibilities that was previously unimaginable with centralized infrastructures.
-
-{% end %}
-
-{% row(style="center narrow margin") %}
-
-### **Real Utility**
-Users, developers, and enterprises use TFT to store data, build applications, and create P2P ecosystems on the ThreeFold Grid.
-
-|||
-
-### **Super Fast**
-Send TFT in milliseconds to anyone, anywhere – and as the network grows and hardware gets more efficient, so will the network..
-
-
-|||
-
-
-### **Strong Fundamentals**
-With a limited supply of 4 billion TFT and a burning mechanism, the token is backed by the continuous growth of the network.
-
-
-{% end %}
-
-{% row(style="center between narrow mbottom") %}
-
-
-
-### **Secured by Cryptography**
-TFT transactions and smart contracts on the ThreeFold Grid are secured by advanced cryptography.
-
-|||
-
-
-### **Ultra-Scalable**
-ThreeFold is made to handle thousands of transactions and smart contracts per second, with incredibly low fees.
-
-|||
-
-
-### **Energy-efficient**
-ThreeFold’s innovative infrastructure is incredibly sustainable, ensuring the tokens sustainability and longevity.
-
-{% end %}
-
-{% row(bgColor="#73FFD9" style="center margin") %}
-
-
-## Empowering a **New Internet Era**
+*TFT is not a product on its own and we do not consider ourselves as a crypto project. Learn about our [next chapter](/next).*
 
 <br>
 
-ThreeFold uses peer-to-peer technology to operate with no centralized servers or intermediaries, <br>providing a decentralized and open-source environment where everyone can participate. <br>
-
-TFT serves as the medium of exchange on the ThreeFold Grid, empowering users to build and access services on top of a grid they co-own.
-
-
-{% end %}
-
-{% row(style="center narrow") %}
-
-<br>
-
-## Uses of **TFT** are Growing
-
-<br>
-
-With the ThreeFold Grid's programmable nature, 
-<br>
-developers have unlimited possibilities to build the future.
-
-<br>
-
-<button>[Buy TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
+<button>[Learn About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
+<button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
+<button>[Token Stats](https://library.threefold.me/info/threefold#/tokens/threefold__stats_token_overview)</button>
 
 {% end %}
 
-{% row(style="center mbottom seminarrow") %}
+<!-- section 2 (uses of tft) -->
 
-![](use.png)
+{% row(style="center mtop") %}
 
+![](use_.png#icon)
 ### **Use TFT**
-Build applications, store data and access decentralized services on the ThreeFold Grid
+Build applications, store data and access decentralized services on the ThreeFold Grid.
 
 |||
 
-![](disc.png)
+![](earn_.png#icon)
 ### **Earn Discounts**
 Hold your TFT and earn up to 60% discounts on Internet capacity.  
 
 |||
 
-![](stake.png)
+![](stake_.png#icon)
 ### **Stake TFT**
 Soon you will be able to partake in the network's decentralization and earn rewards.
 
 {% end %}
 
-{% row(style="right mbottom narrow") %}
+<!-- section 1 (tft header) -->
 
-## Harness the Power of **Multiple Blockchains**
+{% row(style="center mtop narrow") %}
 
-TFT exists on three different blockchains: Stellar, TF Chain (Polkadot), and Binance Smart Chain. This brings more accessibility to the token and more opportunities to collaborate with the greater blockchain community.
+## **Get** TFT
+
+There are multiple ways to acquire TFT, depending on your preferences. To start, you need to have a supporting wallet to store your TFT. Find out more here. Then, follow the path you prefer most.
 
 <br>
 
-<button>[Read About TFT](https://library.threefold.me/info/threefold#/tokens/threefold__tokens_home)</button>
-
-|||
-
-![](tft_network.png#mx-auto)
+<button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
 
 {% end %}
 
+{% row(style="center") %}
 
-{% row(style="mbottom narrow") %}
-
-![](tft_burn.jpg#medium)
+### **Swap**
+Trade or swap other digital currencies for TFT. Leverage swapping services available on Decentralized Exchanges or Automated Market Makers to exchange your tokens for TFT.
 
 |||
 
-## Start Your **TFT Journey**
+### **From ThreeFold**
+Purchase TFT using fiat currency directly from ThreeFold's Official Live Desk, or ThreeFold's official TFT Shop.
 
-You can buy TFT from decentralized exchanges or wallets directly. We have compiled tutorials and manuals to help you out, including how to buy, trade, and store TFT.
+|||
 
-<br>
-
-<button>[Discover Your Options](https://library.threefold.me/info/threefold#/tokens/threefold__tft_ecosystem)</button>
+### **From Farmers**
+Engage with Farmers to purchase TFT directly from them, contributing to the growth and decentralization of the ThreeFold network.
 
 {% end %}
 
-{% row(style="right mbottom narrow") %}
+{% row(style="center mtop narrow") %}
 
-## Drive **Liquidity**
-
-ThreeFold believes in the organic and sustainable growth of ThreeFold Token. And one of our key goals is to strengthen the foundation of the ecosystem by enhancing the stability and liquidity of TFT.
+*It's important to explore the available options and select the most convenient and secure method for acquiring TFT. Always exercise caution and ensure the legitimacy and reliability of the platforms or individuals you engage with to obtain TFT.*
 
 <br>
 
-<button>[Drive TFT Liquidity](https://library.threefold.me/info/threefold#/tokens/threefold__tft_liquidity)</button>
-
-|||
-
-![](tft_loyalty.jpg#medium)
+*Please be reminded that TFT is not to be considered as an investment instrument. More info [here](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html#disclaimer).*
 
 {% end %}

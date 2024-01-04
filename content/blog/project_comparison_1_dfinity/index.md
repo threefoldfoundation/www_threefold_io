@@ -5,12 +5,16 @@ image_caption: The Dfinity Foundation & how it compares to ThreeFold
 description: This post is the first one in a series to explore fellow projects and their solutions with regards to what they share with ThreeFold but also where we differ. Follow me on my journey through the space. First up – Dfinity!
 date: 2021-10-01
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, blockchain, technology]
     categories: [foundation]
 extra:
     imgPath: project_comparison_1_dfinity.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 Whether you’re new to ThreeFold or have been around for a while, the decentralization and blockchain space can often be quite elusive and opaque with regards to what certain projects have to offer. Very clear, however, is the current market cap for aggregated decentralized compute and storage projects which exceeds 50 billion USD. Therefore, we decided to shed some light on the space and to show you how our solutions compare to those of other projects.
 

@@ -18,8 +18,8 @@ jobs:
         script: |
           cd /opt/www_threefold_io/
           git log -1
-          git restore .
-          git pull
+          git fetch
+          git reset --hard origin/master
           sed -i "s/https:\/\/www2.threefold.io/https:\/\/www.threefold.io/g" config.toml
           ./build.sh
           

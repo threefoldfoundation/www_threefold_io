@@ -5,12 +5,16 @@ image_caption: "Consensus 2022 Recap – ThreeFold Community Celebrates the  Int
 description: In June, the ThreeFold Team went to Austin to share our vision for a decentralized Internet as sponsor of Consensus 2022. Throughout an incredible week, we spread the word about ThreeFold, formed meaningful connections and planted the seeds for the first sovereign Regional Internet.
 date: 2022-06-28
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, threefold, peer-to-peer, community]
     categories: [foundation]
 extra:
     imgPath: consensus_2022_recap.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 The ThreeFold Team was in Austin, Texas, in June to share our vision for a decentralized Internet as an exhibitor and sponsor of [Consensus](https://threefold.io/blog/threefold_at_consensus_2022/) by Coindesk. The four-day conference attracted over [20,000 people](https://cointelegraph.com/news/consensus-2022-web3-unpacking-regulations-and-optimism-for-crypto-s-future) who explored conversations on topics like decentralization, blockchain, crypto, Web 3 and more. The ThreeFold team shared our “planet first, people first” vision and story with hundreds of attendees who visited our conference booth to learn about ThreeFold – leading to new community members, farmers, token holders, and partners. 
 
