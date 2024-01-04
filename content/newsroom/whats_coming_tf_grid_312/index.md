@@ -5,7 +5,7 @@ image_caption: TF Grid 3.12 comes alive
 description:  Good news! TTF Grid 3.12 is heading to QANet. See what's inside.
 date: 2023-10-30
 taxonomies:
-    people: [amanda_caster]
+    people: [bernadette_amanda_caster]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
