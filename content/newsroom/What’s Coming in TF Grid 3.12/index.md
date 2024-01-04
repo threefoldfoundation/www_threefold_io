@@ -2,7 +2,7 @@
 id: whats_coming_tf_grid_312
 title: 📰 What’s Coming in TF Grid 3.12!
 image_caption: TF Grid 3.12 comes alive
-description:  Good news! TF Grid is now on QANet
+description:  Good news! TTF Grid 3.12 is heading to QANet. See what's inside.
 date: 2023-10-30
 taxonomies:
     people: [amanda_caster]
@@ -10,9 +10,8 @@ taxonomies:
     news-category: [foundation]
 extra:
     imgPath: whats_coming_tf_grid_312.png
+---
 
-    
-<br/>
 TF Grid 3.12 – which is expected to head to QANet today and begin the journey to mainnet – contains a number of noteworthy improvements, particularly as it pertains to user experience and documentation. Take a look at the recap and offer your thoughts/feedback [here](https://forum.threefold.io/t/3-12-upcoming-updates/4109).
 
 <br/>
