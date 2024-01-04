@@ -6,17 +6,17 @@ if command -v tailwindcss &> /dev/null; then
 else
     # checks OS and architecture for correct release
     echo "Installing & building tailwind..."
-
+    
     ASSET="tailwindcss"
-
+    
     if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         ASSET="$ASSET-linux"
-    elif [[ "$OSTYPE" == "darwin"* ]]; then
+        elif [[ "$OSTYPE" == "darwin"* ]]; then
         ASSET="$ASSET-macos"
     fi
     if [[ "$(uname -m)" == "x86_64"* ]]; then
         ASSET="$ASSET-x64"
-    elif [[ "$(uname -m)" == "arm64"* ]]; then
+        elif [[ "$(uname -m)" == "arm64"* ]]; then
         ASSET="$ASSET-arm64"
     fi
     pushd /tmp
@@ -32,7 +32,8 @@ source env.sh
 # initialized and configures tailwind if not configured
 if [ ! -f "tailwind.config.js" ]
 then
-	@@ -37,23 +12,13 @@ then
+    ./tailwindcss init
+    sed -i '' "s|  content: \\[\\],|  content: \\['./templates/**/*.html'\\],|g" tailwind.config.js
 fi
 
 # compiles tailwind css & launches locally
