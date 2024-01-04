@@ -12,7 +12,6 @@ extra:
     imgPath: manual_updates_nov_2023.png
 ---
 
-
 The always-expanding TF Manual is your go-to resource when it comes to comprehensive information about the grid and how to get started for different audiences.
 
 <br/>
