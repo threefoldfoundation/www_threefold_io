@@ -2,7 +2,7 @@
 id: pulumi_plugin_2
 title: 💡 Pulumi Plugin Follow-Up: Tutorials
 image_caption: Pulumi Plugin follow-up
-description: Looking for a follow-up on Pulumi plugin, see here. 
+description: Looking for a follow-up on Pulumi plugin, click here for the tutorial. 
 date: 2023-11-01
 taxonomies:
     people: [bernadette_amanda_caster]
@@ -11,8 +11,6 @@ taxonomies:
 extra:
     imgPath: pulumi_plugin_2.png
 ---
-
-
 
 As [shared last month](https://forum.threefold.io/t/pulumi-plugin-for-tfgrid/4089), ThreeFold has introduced a plugin for Pulumi, a popular cloud-native open source IaC platform, which presents an alternative to Terraform. Take a look at the above post if you're curious for an introduction to Pulumi.
 
