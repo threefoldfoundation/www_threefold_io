@@ -6,17 +6,17 @@ if command -v tailwindcss &> /dev/null; then
 else
     # checks OS and architecture for correct release
     echo "Installing & building tailwind..."
-
+    
     ASSET="tailwindcss"
-
+    
     if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         ASSET="$ASSET-linux"
-    elif [[ "$OSTYPE" == "darwin"* ]]; then
+        elif [[ "$OSTYPE" == "darwin"* ]]; then
         ASSET="$ASSET-macos"
     fi
     if [[ "$(uname -m)" == "x86_64"* ]]; then
         ASSET="$ASSET-x64"
-    elif [[ "$(uname -m)" == "arm64"* ]]; then
+        elif [[ "$(uname -m)" == "arm64"* ]]; then
         ASSET="$ASSET-arm64"
     fi
     pushd /tmp

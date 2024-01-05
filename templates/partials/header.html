@@ -26,36 +26,34 @@
             </div>
             <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-between lg:space-x-6">
             <nav class="flex space-x-10">
-
             {% for header_item in header_items %}
-            {% if not loop.first %}
-                {% set header_arr = header_item | split(pat="</li>") %}
-                {% set header_label = header_arr[0] %}
-                {% if '<a' in header_label %}
-                    {% set link_label = header_label | striptags %}
-                    {% set link_path = header_label | split(pat="%22") | safe%}
-                    {% if header_label is containing("http") %}
-                        {% if header_label is not containing("threefold") %}
-                        <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                            {{link_label}}
-                        </a>
-                        {% endif %}
-                    {% else %}
-                    <a href="{{ get_url(path=link_path[1])}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                      {{link_label}}
-                    </a>
-                    {% endif %}
-                {% else %}
-                    <div class="relative">
-                        {% set button_id = header_label ~ "-menu-btn" | slugify %}
-                    <button type="button" id="{{button_id}}" class="nav_btn font-medium text-gray-900 hover:text-gray-500 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-500 focus:outline-none transition ease-in-out duration-150">
-                        <span>{{ header_label }}</span>
-                        <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
-                    </button>
-                    </div>
-
-                {% endif %}  
-            {% endif %}
+              {% if not loop.first %}
+                  {% set header_arr = header_item | split(pat="</li>") %}
+                  {% set header_label = header_arr[0] %}
+                  {% if "<a" in header_label %}
+                      {% set link_label = header_label | striptags %}
+                      {% set link_path = header_label | split(pat="%22") | safe %}
+                      {% if header_label is containing("http") %}
+                          {% if header_label is not containing("threefold") %}
+                          <a href="{{link_path[1]}}" target="_blank" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                              {{link_label}}
+                          </a>
+                          {% endif %}
+                      {% else %}
+                      <a href="{{ get_url(path=link_path[1])}}" class="text-lg leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                        {{link_label}}
+                      </a>
+                      {% endif %}
+                  {% else %}
+                      <div class="relative">
+                          {% set button_id = header_label ~ "-menu-btn" | slugify %}
+                      <button type="button" id="{{button_id}}" class="nav_btn text-gray-900 hover:text-gray-500 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-500 focus:outline-none transition ease-in-out duration-150">
+                          {{ header_label }}
+                          <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
+                      </button>
+                      </div>
+                  {% endif %}  
+              {% endif %}
             {% endfor %}
             </nav>
 
@@ -126,7 +124,7 @@
     {% set menu_id = header_label ~ "-menu" | slugify %}
 
 <nav>
-    <div id="{{menu_id}}" class="nav_menu mt-0 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-30 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+    <div id="{{menu_id}}" class="nav_menu mt-0 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
         <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
             <div id="menu" class="mx-8 lg:mx-10 xl:mx-10 px-6 sm:p-6 md:p-8">
                 {{header_menu | safe }}
@@ -178,7 +176,7 @@
                             {% else %}
                                 {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
                                     <button type="button" id="{{button_id}}" class="flex flex px-8 py-3 items-start text-left text-gray-900 group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
-                                        <span>{{ header_label }}</span>
+                                        {{ header_label }}
                                         <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                                     </button>
                                     {% set menu_id = header_label ~ "-mobile-menu" | slugify %}
