@@ -20,4 +20,4 @@ There are some important topics, reminders, and calls to action inside – inclu
 
 <br/>
 
-For those who are celebrating, have a wonderful holiday – and a lovely weekend to all! 🎄
+*For those who are celebrating, have a wonderful holiday – and a lovely weekend to all!* 🎄
