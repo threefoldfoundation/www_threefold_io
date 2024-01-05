@@ -2,7 +2,7 @@
 id: dec_2023_update
 title: ⛄️ December 22 Update from the Team
 image_caption: Dec 2023 updates
-description:  As the year-end nears, we'd like to touch upon key topics. Please review the latest updates since our last community call.
+description: As the year-end nears, we'd like to touch upon key topics. Please review the latest updates since our last community call.
 date: 2023-12-22
 taxonomies:
     people: [bernadette_amanda_caster]
@@ -11,7 +11,6 @@ taxonomies:
 extra:
     imgPath: dec_2023_update.png
 ---
-
 
 Greetings, friends. Please take some time to read our hot-off-the-press [update](https://forum.threefold.io/t/december-22-2023-update-from-the-team/4170) from the team!
 
