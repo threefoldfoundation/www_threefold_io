@@ -1,7 +1,7 @@
 ---
 id: tf_grid_312_live_testnet
 title: ✅️ TF Grid 3.12 Now on Testnet
-image_caption: TF Grid 3.12 live on Testnet
+image_caption: tf grid 312 live testnet
 description: Looking to help us in testing TF Grid 3.12 on Testnet, know more here. 
 date: 2023-11-09
 taxonomies:
