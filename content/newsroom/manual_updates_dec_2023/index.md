@@ -1,6 +1,6 @@
 ---
 id: manual_updates_dec_2023
-title:📚 New on the Manual
+title: 📚 New on the Manual
 image_caption: Manual updates
 description: More new updates on our Manual this month.  
 date: 2023-12-14
