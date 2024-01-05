@@ -12,7 +12,7 @@ extra:
     imgPath: dec_2023_update.png
 ---
 
-Greetings, friends. Please take some time to read our hot-off-the-press [update](https://forum.threefold.io/t/december-22-2023-update-from-the-team/4170) from the team!
+Greetings, friends. Please take some time to read our hot-off-the-press [update](https://forum.threefold.io/t/december-22-2023-update-from-the-team/4170) from the team! 
 
 <br/>
 
