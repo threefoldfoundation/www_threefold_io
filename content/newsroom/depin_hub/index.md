@@ -22,6 +22,8 @@ Take a look at the [ThreeFold project listing](https://depinhub.io/projects/thre
 <br/>
 
 ---
-*& thanks to Theo from the community for suggesting we be listed on DePIN Hub.
+*& thanks to Theo from the community for suggesting we be listed on DePIN Hub.*
 
-DePIN stands for Decentralized Physical Infrastructure Networks, and covers projects ranging from connectivity to clean energy production to projects like ours.*
+<br/>
+
+*DePIN stands for Decentralized Physical Infrastructure Networks, and covers projects ranging from connectivity to clean energy production to projects like ours.*
