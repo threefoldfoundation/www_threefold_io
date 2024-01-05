@@ -9,7 +9,7 @@ taxonomies:
     tags: [threefold_grid,technology,update,community,farming]
     news-category: [foundation]
 extra:
-    imgPath: tf_grid_312_mainnet.png
+    imgPath: tf_grid_312_mainnet_gep.png
 ---
 
 After successful testing of TF Grid 3.12 on Testnet, we are ready to start the release process of this version on Mainnet.
