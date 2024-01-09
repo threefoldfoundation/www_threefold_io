@@ -43,7 +43,7 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 ## **Live and Operational**
 
-#### Mainnet: 3.11 | Testnet: 3.12 | Devnet 3.13
+#### Mainnet: 3.12 | Testnet: 3.12 | Devnet 3.13
 
 {% end %}
 
