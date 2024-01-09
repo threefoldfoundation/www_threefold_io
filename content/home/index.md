@@ -30,7 +30,7 @@ ThreeFold is a globally-distributed grid of storage, compute, and network capaci
 
 <br>
 
-*Learn about what's coming [in 2024](/next).*
+*Learn about what's happening [in 2024](/next).*
 
 {% end %}
 
