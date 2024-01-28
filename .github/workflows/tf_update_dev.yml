@@ -14,9 +14,9 @@ jobs:
         host: www2.threefold.io
         username: root
         key: ${{ secrets.TF_SECRET }}
-        port: 22
+        port: 30422
         script: |
-          cd /opt/www_threefold_io/
+          cd websites/www2/www_threefold_io/
           git log -1
           git fetch
           git reset --hard origin/development
