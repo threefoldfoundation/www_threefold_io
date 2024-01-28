@@ -14,7 +14,7 @@ jobs:
         host: www2.threefold.io
         username: webuser
         key: ${{ secrets.TF_SECRET }}
-        port: 30422
+        port: 34022
         script: |
           cd websites/www2/www_threefold_io/
           git log -1
