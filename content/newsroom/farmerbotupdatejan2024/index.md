@@ -24,4 +24,4 @@ We believe this new version is a notable improvement, offering a smooth experien
 
 <br/>
 
-*Reminder: Farmerbot is an optional and open-source tool. We are always open to [feedback](https://github.com/threefoldtech/tfgrid-sdk-go/issues).*
+***Reminder**: Farmerbot is an optional and open-source tool. We are always open to [feedback](https://github.com/threefoldtech/tfgrid-sdk-go/issues).*
