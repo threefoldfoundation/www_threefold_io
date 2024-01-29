@@ -12,7 +12,6 @@ extra:
     imgPath: manualupdatesjan2024.png
 ---
 
-
 Take a look at what's new in the always-evolving, ever-expanding ThreeFold Manual.
 
 <br/>
