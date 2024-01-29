@@ -3,7 +3,7 @@ id: farmerbotupdatejan2024
 title: 📚Update on the New Farmerbot
 image_caption: Famerbot 2024
 description: The new version of Farmerbot is here with notable improvements, click here to know more. 
-date: 2024-01-25
+date: 2024-01-26
 taxonomies:
     people: [bernadette_amanda_caster]
     tags: [technology,update,threefold_grid,community,news]
