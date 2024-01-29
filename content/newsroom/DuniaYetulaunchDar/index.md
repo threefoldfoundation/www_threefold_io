@@ -1,5 +1,5 @@
 ---
-id: DuniaYetulaunchDar
+id: duniayetulaunchdar
 title: 🇹🇿 Dunia Yetu Launches in Dar Es Salaam
 image_caption: Dunia Yetu launch in Dar
 description: Dunia Yetu Formally Announced in Dar Es Salaam, in partnership with Tanzania's ICT Commission and Holochain founder, Arthur Brock.  
@@ -9,7 +9,7 @@ taxonomies:
     tags: [technology,update,threefold_grid,community,news]
     news-category: [foundation]
 extra:
-    imgPath: DuniaYetulaunchDar.png
+    imgPath: duniayetulaunchdar.png
 ---
 
 Recently we formally announced Dunia Yetu, in collaboration with the ICT Commission of Tanzania and Arthur Brock, the founder of Holochain.
