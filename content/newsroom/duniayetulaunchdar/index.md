@@ -9,7 +9,7 @@ taxonomies:
     tags: [technology,update,threefold_grid,community,news]
     news-category: [foundation]
 extra:
-    imgPath: duniayetulaunchdar.png
+    imgPath: duniaYetulaunchDar.png
 ---
 
 Recently we formally announced Dunia Yetu, in collaboration with the ICT Commission of Tanzania and Arthur Brock, the founder of Holochain.
@@ -24,4 +24,4 @@ Read more about Dunia Yetu [here](https://www.threefold.io/blog/dunia-yetu/) and
 
 <br/>
 
-*Take a look at some coverage Dunia Yetu received in Tanzanian News [here] (https://www.youtube.com/watch?v=qqYFAa2NXLg&t=895s).*
+*Take a look at some coverage Dunia Yetu received in Tanzanian News [here](https://www.youtube.com/watch?v=qqYFAa2NXLg&t=895s).*
