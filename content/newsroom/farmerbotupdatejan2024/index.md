@@ -9,7 +9,7 @@ taxonomies:
     tags: [technology,update,threefold_grid,community,news]
     news-category: [foundation]
 extra:
-    imgPath: nfarmerbotupdatejan2024.png
+    imgPath: farmerbotupdatejan2024.png
 ---
 
 Dive into the [upgraded ThreeFold Grid Dashboard](https://forum.threefold.io/t/the-new-and-improved-tf-grid-dashboard-ui-ux/4202), designed for seamless TF Grid management and deployment. We've prioritized simplicity and intuition in the user experience. 
