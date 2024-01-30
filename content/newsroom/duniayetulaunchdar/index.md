@@ -9,7 +9,7 @@ taxonomies:
     tags: [technology,update,threefold_grid,community,news]
     news-category: [foundation]
 extra:
-    imgPath: duniaYetulaunchDar.png
+    imgPath: duniayetulaunchdar.png
 ---
 
 Recently we formally announced Dunia Yetu, in collaboration with the ICT Commission of Tanzania and Arthur Brock, the founder of Holochain.
