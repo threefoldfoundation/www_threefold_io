@@ -22,4 +22,3 @@ jobs:
           git reset --hard origin/master
           sed -i "s/https:\/\/www2.threefold.io/https:\/\/www.threefold.io/g" config.toml
           ./build.sh
-          
