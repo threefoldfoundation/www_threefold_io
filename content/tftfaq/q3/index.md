@@ -13,4 +13,4 @@ The most used platforms are:
 
 3. [Stellar DEX](https://manual.grid.tf/threefold_token/buy_sell_tft/tft_lobstr/tft_lobstr.html) to exchange XLM or other stellar based tokens to TFT (multiple wallets and DEX UI supported).
 
-Learn more about the other buying options [here](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
+Learn more about the other buying options [here](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
