@@ -110,7 +110,7 @@ Visit the linked library pages to find detailed step-by-step guides for all meth
 
 ## What’s next for TFT
 
-One of our key objectives is to make TFT more accessible. Already, there are many options to [buy and sell TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy) – like [gettft.com](https://gettft.com/) or Stellar’s DEX, and more coming soon. We’re also exploring the feasibility and synergies for a meaningful partnership with Algorand – including making TFT available on Algorand order books. 
+One of our key objectives is to make TFT more accessible. Already, there are many options to [buy and sell TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html) – like [gettft.com](https://gettft.com/) or Stellar’s DEX, and more coming soon. We’re also exploring the feasibility and synergies for a meaningful partnership with Algorand – including making TFT available on Algorand order books. 
 
 <br/>
 
@@ -131,7 +131,7 @@ Until then, check out some of these key resources around the ThreeFold Token:
 <br/>
 
 **How to Buy & Sell TFT**
-* [How to Buy & Sell TFT – Overview](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy?id=how-to-buy-amp-sell-tft)
+* [How to Buy & Sell TFT – Overview](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 * [Buy TFT on Stellar](https://library.threefold.me/info/threefold#/tokens/threefold__tft_stellar_dex?id=buy-tft-on-stellar)
 
 <br/>

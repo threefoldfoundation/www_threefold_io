@@ -107,7 +107,7 @@ The time has come to fund your Albedo account with TFT. Simply swap other assets
 
 <br/>
 
-*Good to know: Albedo doesn’t provide a direct fiat gateway. Visit our TFT knowledge base to discover all the ways you can [buy TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy?id=how-to-buy-amp-sell-tft), including fiat options.*
+*Good to know: Albedo doesn’t provide a direct fiat gateway. Visit our TFT knowledge base to discover all the ways you can [buy TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html), including fiat options.*
 
 ### Step 2.2.A: Deposit TFT to your Albedo account
 
