@@ -1,6 +1,6 @@
 ---
 id: dunia_yetu
-title: "Dunia Yetu Formally Announced in Dar Es Salaam"
+title: "A Movement for a Sovereign Internet Comes Alive in Tanzania"
 image_caption: Dunia Yetu
 description: Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania and East Africa, empower coders spur economic development, and build a self-reliant sovereign digital ecosystem for a better digital future. 
 date: 2024-01-26

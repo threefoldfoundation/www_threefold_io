@@ -14,6 +14,7 @@ extra:
 - [Next Chapter]("/next")
 - [Mission]("/mission")
 - [Blog]("/blog")
+- [News]("/newsroom")
 - Help
 
 {% row(style="wide") %}

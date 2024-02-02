@@ -12,7 +12,7 @@ extra:
     imgPath: duniayetulaunchdar.png
 ---
 
-Recently we formally announced Dunia Yetu, in collaboration with the ICT Commission of Tanzania and Arthur Brock, the founder of Holochain.
+Recently we formally announced Dunia Yetu, in collaboration with the ICT Commission of Tanzania and Arthur Brock, the founder of Holochain. 
 
 <br/>
 
