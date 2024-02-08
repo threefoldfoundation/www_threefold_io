@@ -2,7 +2,7 @@
 id: threefold_herdao_dar
 title: ThreeFold X H.E.R. DAO – Cultivating Digital Sovereignty and Inclusive Innovation in Dar Es Salaam
 image_caption: ThreeFold x H.E.R. DAO
-description: Learn about a developer meetup we co-hosted this week in Dar Es Salaam, the next step forward for the Dunia Yetu.
+description: Learn about a developer meetup we co-hosted this week in Dar Es Salaam, and what's upcopming for Dunia Yetu.
 date: 2024-02-08
 taxonomies:
     people: [sam_taggart]
@@ -60,13 +60,13 @@ It enabled participants to network, share ideas, get answers to their many quest
 
 <br>
 
-The community's interest continues to grow stronger and stronger – 200 members already on our Whatsapp community group – and we look forward to collaborating to make this vision a reality.
+The community's interest continues to grow stronger and stronger – 200 members already in [our Whatsapp community group](https://chat.whatsapp.com/DAedmvshxCD850WjJ3mUn8) – and we look forward to collaborating to make this vision a reality.
 
 <br>
 
 Overall, The ThreeFold X H.E.R. DAO meetup was a convergence of minds, ideas, and actions, marking the next step towards cultivating a digital ecosystem that is not only future-facing but also inclusive and accessible. The commitment to building a better sovereign future in Tanzania echoed throughout, setting the stage for collaborative initiatives that will drive positive change in the region.
 
-### Next Steps
+### **Next Steps**
 
 The team is working to grow Dunia Yetu by expanding the community involvement in the project. This involves creating a robust online presence, organizing further interactive workshops and events, and better defining community roles.
 
