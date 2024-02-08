@@ -9,7 +9,7 @@ taxonomies:
     tags: [peer_to_peer,event]
     categories: [foundation]
 extra:
-    imgPath: threefold_herdao_dar
+    imgPath: threefold_herdao_dar.png
 ---
 
 This Monday, ThreeFold, in collaboration with [H.E.R DAO](https://www.her-dao.xyz/), orchestrated a developer meetup in Dar Es Salaam that brought together a group of 55 participants. The event unfolded as a platform for insights, discussions, and actionable steps aimed at fostering digital sovereignty and inclusive innovation in Tanzania.
