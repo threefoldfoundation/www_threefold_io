@@ -85,7 +85,6 @@ After your node is set up and verified, you’ll be rewarded for the compute, st
 
 <br>
 
-<button class="text-sm lg:text-xl">[Explore ThreeFold Grid Capacity](https://dashboard.grid.tf/explorer/statistics)</button>
-
+<button class="text-sm lg:text-xl">[Explore ThreeFold Grid capacity](https://dashboard.grid.tf/explorer/statistics)</button>
 
 {% end %}
