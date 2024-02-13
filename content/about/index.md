@@ -21,15 +21,15 @@ insert_anchor_links: "left"
 <br>
 <br>
 <br>
-<br>
-<br>
 
 ### **Founded by Internet 1.0 Pioneers**
 
 About a decade ago, a group of passionate Internet & Cloud veterans came together to build<br>a new foundational layer for a better Internet – more like how the Internet was originally intended.
 
 <br>
-<br>
+
+#### **30+** Years Experience | **7** Past Exits | **What Else** Should I Put Here
+
 <br>
 <br>
 <br>
@@ -50,11 +50,11 @@ About a decade ago, a group of passionate Internet & Cloud veterans came togethe
 
 ### **Supported by a global community**
 
-More than 1,000 individuals and organizations are now supporting the ThreeFold ecosystem, by connecting capacity, deploying workloads, holding tokens, and a lot more.
+More than 1,000 individuals and organizations are now supporting the ThreeFold ecosystem,<br>by connecting capacity, deploying workloads, holding tokens, and a lot more.
 
 <br>
 
-<button>[Learn how you can participate](https://manual.grid.tf)</button>
+<button>[Learn how you can participate](/community)</button>
 
 {% end %}
 
@@ -171,6 +171,6 @@ Connect, share and collaborate with our open community to expand ThreeFold's hor
 
 <br>
 
-<button>[Join The Fold](/community)</button>
+<button>[Join the community](/community)</button>
 
 {% end %}

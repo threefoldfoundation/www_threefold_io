@@ -10,7 +10,7 @@ extra:
 - [About]("/about")
 - [How It Works]("/how")
 - [Farm]("/farm")
-- [Build]("/build")
+- [Deploy]("/deploy")
 - [News]("/newsroom")
 - [Blog]("/blog")
 - [Community]("/people")

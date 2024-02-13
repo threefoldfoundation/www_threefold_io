@@ -6,85 +6,112 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center margin narrow") %}
+{% row(bgColor="#FFF2BD" style="center") %}
 
-## Be the **Internet**
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Support a decentralized future. Take part in shaping a new Internet era governed by all of us.
+### **Be the Internet**
+
+By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity<br>to communities and builders, and be rewarded for doing this.
 
 <br>
 
-<button>[Buy](https://marketplace.3node.global/index.php)</button>
-<button>[Build](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
-<button>[Learn](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
-<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
+#### **Thousands** of Hosters | **60+** Countries | **30+** PB of Capacity
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% end %}
 
-<!-- section 2 (Farm) -->
+{% row(style="center narrow mtop") %}
 
-{% row(style="center mtop narrow ") %}
+<br>
+<br>
+<br>
+<br>
+<br>
 
+### **Build a Node**
 
-## Farm
-
-### A new way of growing the Internet
-
-3Nodes provide Internet capacity for millions of people using ThreeFold’s Planetary Network, and you earn TFT for doing so. And because of a unique operating system, called Zero-OS, once turned on your 3Node runs by itself.
+Optimize your own specs to ensure a reliable and performant node, while receiving fair reward for your contribution of Internet resources.
 
 <br>
 
-*See how things are changing in [our next phase](/next).*
-
-{% end %}
+<button>[Build](/)</button>
 
 <br>
-
-{% row(style="center mbottom") %}
-
-![Image](farming1.png#medium)
-
-### **Host a Node**
-
-All you need to get started is a modern computer, electricity and network. Once booted with the operating system, it becomes a Threefold Node.
+<br>
+<br>
+<br>
+<br>
 
 |||
 
-![Image](farming2.png#medium)
+<br>
+<br>
+<br>
+<br>
+<br>
 
-### **Get Verified**
+### **Buy a Node**
 
-The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized internet for users and communities.
+Buy a preconfigured node from an independent vendor. Nodes are optimized for performance and rewards across different price points.
 
-|||
+<br>
 
-![Image](farming3.png#medium)
+<button>[Buy](/)</button>
 
-### **Earn Monthly**
-
-After your node is set up and verified, you’ll be rewarded for the compute, storage and bandwidth you provide to the ThreeFold Grid.
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% end %}
 
+{% row(style="center narrow mtop") %}
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<!-- section 3 (world of farmers) -->
+### **Earn your reward**
 
-{% row(style="center margin") %}
-
-
-## Join **a World of Farmers**
-
-### We are growing fast
+ThreeFold has a digital currency called TFT, which you earn every month according to the amount of Internet resources you provide and maintaining specific levels of uptime performance. TFT is also the medium of exchange in the ecosystem, necessary for utilizing resources.
 
 <br>
 
-![Image](farm_map.png#mx-auto)
+<button>[About TFT](https://manual.grid.tf/threefold_token/threefold_token.html)</button>
+<button>[Buy or Sell TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
 
 <br>
-
 <br>
-
-<button class="text-sm lg:text-xl">[Explore ThreeFold Grid capacity](https://dashboard.grid.tf/explorer/statistics)</button>
+<br>
+<br>
+<br>
 
 {% end %}

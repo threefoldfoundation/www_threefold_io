@@ -29,9 +29,7 @@ extra:
 ### **Rebooting the Internet, together**
 
 ThreeFold delivers a sovereign, scalable, peer-to-peer, and co-owned infrastructure layer<br>on top of which to build a new Internet.
-A participatory movement. Join in. 
-
-<br>
+A participatory movement. Join in.
 
 <button>[How it works](https://manual.grid.tf)</button>
 <button>[Take action](https://manual.grid.tf)</button>
@@ -122,6 +120,16 @@ Low-level compute, storage, and network constructs empower individuals, organiza
 
 {% row(style="center narrow") %}
 
+![Image](community.png#medium)
+
+#### Learn how to participate
+
+<br>
+
+Get to know the different ecosystem roles some of the people driving the movement forward.
+
+|||
+
 ![Image](manual.png#medium)
 
 #### Get started with the manual
@@ -129,15 +137,5 @@ Low-level compute, storage, and network constructs empower individuals, organiza
 <br>
 
 Learn how to take action – from connecting capacity to deploying on top of it to buying the token.
-
-|||
-
-![Image](community.png#medium)
-
-#### Meet the community
-
-<br>
-
-Get to know some of the people driving the movement forward.
 
 {% end %}
