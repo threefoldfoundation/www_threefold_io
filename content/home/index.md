@@ -26,10 +26,10 @@ extra:
 
 ![Image](black_threefold_horizontal.png#medium)
 
-## **Rebooting the Internet, together**
+### **Rebooting the Internet, together**
 
 ThreeFold delivers a sovereign, scalable, peer-to-peer, and co-owned infrastructure layer<br>on top of which to build a new Internet.
-A participatory movement. Join in.
+A participatory movement. Join in. 
 
 <br>
 

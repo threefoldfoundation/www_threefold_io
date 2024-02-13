@@ -7,8 +7,8 @@ extra:
   button_Path: "/images/gettft_white.png"
 ---
 
-- [Mission]("/mission")
-- [Grid]("/grid")
+- [About]("/about")
+- [How It Works]("/how")
 - [Farm]("/farm")
 - [Build]("/build")
 - [News]("/newsroom")
