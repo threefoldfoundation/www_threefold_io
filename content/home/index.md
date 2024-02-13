@@ -31,7 +31,7 @@ extra:
 ThreeFold delivers a sovereign, scalable, peer-to-peer, and co-owned infrastructure layer<br>on top of which to build a new Internet.
 A participatory movement. Join in.
 
-<button>[How it works](https://manual.grid.tf)</button>
+<button>[How it works](/how)</button>
 <button>[Take action](https://manual.grid.tf)</button>
 
 <br>
@@ -66,7 +66,11 @@ Revolutionary technology and impactful partnerships and projects are some of the
 
 <br>
 
-Mycelium is an overlay network empowering true peer-to-peer communication on the new Internet.
+Mycelium is an overlay network empowering secure, efficient, scalable, true peer-to-peer communication on the new Internet.
+
+<br>
+
+<button>[More](https://www.mycelium.threefold.io/)</button>
 
 |||
 
@@ -80,6 +84,10 @@ Mycelium is an overlay network empowering true peer-to-peer communication on the
 
 We are collaborating with the government and local tech communities to enable a better digital future for Tanzania and East Africa.
 
+<br>
+
+<button>[More](/blog/dunia-yetu)</button>
+
 |||
 
 ![Image](tiers.png#medium)
@@ -90,7 +98,11 @@ We are collaborating with the government and local tech communities to enable a 
 
 <br>
 
-A dynamic evolution of the data center model with superior reliability, resilience, flexibility, and energy efficiency.
+A new dynamic evolution of the data center model with superior reliability, resilience, flexibility, and energy efficiency.
+
+<br>
+
+<button>[More](/blog/tier-s-data-center)</button>
 
 {% end %}
 
@@ -126,7 +138,7 @@ Low-level compute, storage, and network constructs empower individuals, organiza
 
 <br>
 
-Get to know the different ecosystem roles some of the people driving the movement forward.
+Get to know the different ecosystem roles and some of the people driving the movement forward.
 
 |||
 

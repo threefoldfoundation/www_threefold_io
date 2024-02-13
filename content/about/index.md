@@ -28,7 +28,7 @@ About a decade ago, a group of passionate Internet & Cloud veterans came togethe
 
 <br>
 
-#### **30+** Years Experience | **7** Past Exits | **What Else** Should I Put Here
+#### **30+** Years Experience | **7** Past Exits | **Thousands** of Community Members
 
 <br>
 <br>
@@ -50,7 +50,7 @@ About a decade ago, a group of passionate Internet & Cloud veterans came togethe
 
 ### **Supported by a global community**
 
-More than 1,000 individuals and organizations are now supporting the ThreeFold ecosystem,<br>by connecting capacity, deploying workloads, holding tokens, and a lot more.
+More than 2,000 individuals and organizations are now supporting the ThreeFold ecosystem,<br>by connecting capacity, deploying workloads, holding tokens, and a lot more.
 
 <br>
 

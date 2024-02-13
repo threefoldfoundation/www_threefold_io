@@ -27,7 +27,7 @@ Deploy and administer on a decentralized autonomous edge infrastructure.<br>Expe
 
 <br>
 
-#### **Hundreds** of Grid Users | **Thousands** of Deployments | **What** Do I Put Here
+#### **Hundreds** of Grid Users | **Thousands** of Deployments | **Limitless** Potential
 
 <br>
 <br>

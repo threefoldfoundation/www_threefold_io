@@ -13,7 +13,7 @@ extra:
 - [Deploy]("/deploy")
 - [News]("/newsroom")
 - [Blog]("/blog")
-- [Community]("/people")
+- [People]("/people")
 - Help
 
 {% row(style="wide") %}
