@@ -13,6 +13,7 @@ extra:
 - [Deploy]("/deploy")
 - [News]("/newsroom")
 - [Blog]("/blog")
+- [Community]("/community")
 - [People]("/people")
 - Help
 

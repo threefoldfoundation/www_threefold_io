@@ -23,6 +23,8 @@ extra:
 <br>
 <br>
 <br>
+<br>
+<br>
 
 ![Image](black_threefold_horizontal.png#medium)
 
@@ -31,9 +33,8 @@ extra:
 ThreeFold delivers a sovereign, scalable, peer-to-peer, and co-owned infrastructure layer<br>on top of which to build a new Internet.
 A participatory movement. Join in.
 
-<button>[How it works](/how)</button>
-<button>[Take action](https://manual.grid.tf)</button>
-
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -140,6 +141,10 @@ Low-level compute, storage, and network constructs empower individuals, organiza
 
 Get to know the different ecosystem roles and some of the people driving the movement forward.
 
+<br>
+
+<button>[Community](/community)</button>
+
 |||
 
 ![Image](manual.png#medium)
@@ -149,5 +154,9 @@ Get to know the different ecosystem roles and some of the people driving the mov
 <br>
 
 Learn how to take action – from connecting capacity to deploying on top of it to buying the token.
+
+<br>
+
+<button>[Manual](https://manual.grid.tf/)</button>
 
 {% end %}

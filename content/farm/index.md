@@ -59,7 +59,7 @@ Optimize your own specs to ensure a reliable and performant node, while receivin
 
 <br>
 
-<button>[Build](/)</button>
+<button>[Build](https://manual.grid.tf/farmers/complete_diy_guides/complete_diy_guides_readme.html)</button>
 
 <br>
 <br>
@@ -81,7 +81,7 @@ Buy a preconfigured node from an independent vendor. Nodes are optimized for per
 
 <br>
 
-<button>[Buy](/)</button>
+<button>[Buy](https://marketplace.3node.global/)</button>
 
 <br>
 <br>

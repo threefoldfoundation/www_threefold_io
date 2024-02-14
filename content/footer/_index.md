@@ -14,11 +14,11 @@ extra:
 
 <br>
 
-###### [Manuals](https://manual.grid.tf/)
+###### [Manual](https://manual.grid.tf/)
 
 ###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 
-###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
+###### [Farm](https://manual.grid.tf/farmers/farmers.html)
 
 ###### [Deploy on the Playground](https://playground.grid.tf/)
 
@@ -50,19 +50,17 @@ extra:
 
 <br>
 
-<h6><a target="_self" onclick="window.location.href='/mission'">Mission</a></h6>
+<h6><a target="_self" onclick="window.location.href='/about'">About</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/newsroom'">News</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
-
 <h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/careers'">Careers</a></h6>
+<h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
-
-<h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
 
 {% end %}
