@@ -233,7 +233,7 @@ A project (company, community) which will launch us into the DePIN world.
 
 {% row(style="center mtop between") %}
 
-### **Join our channels**
+### **Helpful links for the community**
 
 {% end %}
 
