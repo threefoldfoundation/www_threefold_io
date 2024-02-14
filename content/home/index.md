@@ -79,11 +79,11 @@ Mycelium is an overlay network empowering secure, efficient, scalable, true peer
 
 <br>
 
-#### Sovereign Tanzanian Internet
+#### Internet for Tanzania
 
 <br>
 
-We are collaborating with the government and local tech communities to enable a better digital future for Tanzania and East Africa.
+We are collaborating with the government and local tech communities to enable a sovereign digital future for Tanzania and East Africa.
 
 <br>
 
