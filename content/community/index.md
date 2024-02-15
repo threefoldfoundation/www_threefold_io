@@ -6,7 +6,7 @@ insert_anchor_links: "left"
 
 <!-- section 1 (THE FOLD) -->
 
-{% row(bgColor="#E2FAED" style="center") %}
+{% row(style="center") %}
 
 <br>
 <br>

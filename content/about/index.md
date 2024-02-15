@@ -7,7 +7,7 @@ insert_anchor_links: "left"
 <!-- section 1 (header) -->
 
 
-{% row(bgColor="#FAF0F7" style="center") %}
+{% row(style="center") %}
 
 <br>
 <br>
@@ -140,24 +140,36 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 
 {% row(style="center narrow mbottom") %}
 
-![Image](open_.png#icon)
+<br>
+<br>
 
 #### **Open-Source**
 Collaboration and openness are key to building a better world.
 
+<br>
+<br>
+
 |||
 
-![Image](simplicity_.png#icon)
+<br>
+<br>
 
 #### **Simplicity**
 Fostering clarity. Driving innovation. Enabling scalability.
 
+<br>
+<br>
+
 |||
 
-![Image](authenticity_.png#icon)
+<br>
+<br>
 
 #### **Authenticity**
 We are genuine and vulnerable.
+
+<br>
+<br>
 
 {%end %}
 

@@ -11,7 +11,7 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(bgColor="#F4FFBC" style="center") %}
+{% row(style="center") %}
 
 <br>
 <br>
@@ -30,8 +30,8 @@ extra:
 
 ### **Rebooting the Internet, together**
 
-ThreeFold delivers a sovereign, scalable, peer-to-peer, and co-owned infrastructure layer<br>on top of which to build a new Internet.
-A participatory movement. Join in.
+ThreeFold delivers a sovereign, peer-to-peer, and co-owned infrastructure layer to enable a new digital world.<br>
+It's a participatory movement. Join in.
 
 <br>
 <br>
@@ -63,6 +63,8 @@ Revolutionary technology and impactful partnerships and projects are some of the
 
 <br>
 
+##### Technology
+
 #### Introducing: Mycelium
 
 <br>
@@ -79,6 +81,8 @@ Mycelium is an overlay network empowering secure, efficient, scalable, true peer
 
 <br>
 
+##### Partnership
+
 #### Internet for Tanzania
 
 <br>
@@ -94,6 +98,8 @@ We are collaborating with the government and local tech community to enable a so
 [![Image](tiers.png#medium)](/blog/tier-s-data-center)
 
 <br>
+
+##### Technology
 
 #### Tier-S Data Center
 
@@ -125,17 +131,18 @@ The ThreeFold Grid is already globally connected by a community of individuals a
 
 {% row(style="center narrow") %}
 
-### **It's not our story – it's yours**
+### **A participatory movement**
 
-Low-level compute, storage, and network constructs empower individuals, organizations,<br>and communities to build their own sets of use cases. The rest is up to you.
+Low-level compute, storage, and network constructs empower individuals, organizations,<br>and communities to build their own sets of use cases. The rest is up to all of us.
 
 {% end %}
 
 {% row(style="center narrow") %}
 
-![Image](participate.png#medium)
+<br>
+<br>
 
-#### Learn how to participate
+#### Learn how to get involved
 
 <br>
 
@@ -145,9 +152,13 @@ Get to know the different ecosystem roles and some of the people driving the mov
 
 <button>[Community](/community)</button>
 
+<br>
+<br>
+
 |||
 
-![Image](manual.png#medium)
+<br>
+<br>
 
 #### Get started with the manual
 
@@ -158,5 +169,8 @@ Learn how to take action – from connecting capacity to deploying on top of it 
 <br>
 
 <button>[Manual](https://manual.grid.tf/)</button>
+
+<br>
+<br>
 
 {% end %}

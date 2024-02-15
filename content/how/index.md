@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 ---
 <!-- section 1  -->
 
-{% row(bgColor="#DBF6F2" style="center") %}
+{% row(style="center") %}
 
 <br>
 <br>

@@ -6,7 +6,7 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(bgColor="#FFF2BD" style="center") %}
+{% row(style="center") %}
 
 <br>
 <br>
