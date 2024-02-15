@@ -19,7 +19,6 @@ extra:
 
 {% row(style="wide") %}
 
-
 #### Tools
 
 <button onclick="openInNewTab('https&#58;//manual.grid.tf/getstarted/TF_Connect/TF_Connect.html')">
@@ -62,7 +61,7 @@ extra:
 <br>
 <p class="text-sm">Questions & Feedback</p>
 
-<button onclick="window.location.href='/support'">
+<button onclick="openInNewTab('https&#58;//threefoldfaq.crisp.help/en/')">
 
 [Support](https://threefoldfaq.crisp.help/en/)
 <br>
