@@ -59,7 +59,7 @@ Optimize your own specs to ensure a reliable and performant node, while receivin
 
 <br>
 
-<button>[Build](https://manual.grid.tf/farmers/complete_diy_guides/complete_diy_guides_readme.html)</button>
+<button>[Build](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
 
 <br>
 <br>

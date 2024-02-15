@@ -59,7 +59,7 @@ Revolutionary technology and impactful partnerships and projects are some of the
 
 {% row(style="center narrow") %}
 
-![Image](mycelium.png#medium)
+[![Image](mycelium.png#medium)](https://www.mycelium.threefold.io/)
 
 <br>
 
@@ -75,7 +75,7 @@ Mycelium is an overlay network empowering secure, efficient, scalable, true peer
 
 |||
 
-![Image](icttanzania.png#medium)
+[![Image](icttanzania.png#medium)](/blog/dunia-yetu)
 
 <br>
 
@@ -91,7 +91,7 @@ We are collaborating with the government and local tech community to enable a so
 
 |||
 
-![Image](tiers.png#medium)
+[![Image](tiers.png#medium)](/blog/tier-s-data-center)
 
 <br>
 
@@ -133,7 +133,7 @@ Low-level compute, storage, and network constructs empower individuals, organiza
 
 {% row(style="center narrow") %}
 
-![Image](community.png#medium)
+![Image](participate.png#medium)
 
 #### Learn how to participate
 

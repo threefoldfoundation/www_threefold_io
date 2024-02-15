@@ -50,7 +50,7 @@ About a decade ago, a group of passionate Internet & Cloud veterans came togethe
 
 ### **Supported by a global community**
 
-More than 2,000 individuals and organizations are now supporting the ThreeFold ecosystem,<br>by connecting capacity, deploying workloads, holding tokens, and a lot more.
+Thousands of individuals and organizations are now supporting the ThreeFold ecosystem,<br>by connecting capacity, deploying workloads, holding tokens, and a lot more.
 
 <br>
 
