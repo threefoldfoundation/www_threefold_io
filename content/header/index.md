@@ -64,7 +64,7 @@ extra:
 
 <button onclick="window.location.href='/support'">
 
-[Support](/support)
+[Support](https://threefoldfaq.crisp.help/en/)
 <br>
 <p class="text-sm">Speak Live with a Human</p>
 
