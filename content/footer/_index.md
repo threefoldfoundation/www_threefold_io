@@ -14,15 +14,15 @@ extra:
 
 <br>
 
-###### [Manual](https://manual.grid.tf/)
+###### [Learn](https://manual.grid.tf/)
 
 ###### [Farm](https://manual.grid.tf/farmers/farmers.html)
 
 ###### [Deploy on the Playground](https://playground.grid.tf/)
 
-###### [ThreeFold Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
+###### [Download TF Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 
-###### [ThreeFold Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
+###### [Download TF Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
 
 |||
 
