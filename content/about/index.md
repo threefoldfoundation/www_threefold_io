@@ -68,7 +68,7 @@ Thousands of individuals and organizations are now supporting the ThreeFold ecos
 
 ### **Our mission is to empower**
 
-We exist to help others to create on top of what the team has built, to enable others to become truly decentralized, and to make it easy for everyone to play their role within this new ecosystem.
+The world needs a safe infrastructure to deploy cutting edge technology, where everyone can take part. We exist to help others to create on top of what the team has built, to enable others to become truly decentralized, and to make it easy for everyone to play their role within this new ecosystem.
 
 <br>
 <br>

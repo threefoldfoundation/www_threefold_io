@@ -11,10 +11,8 @@ extra:
 
 <!-- section 1 (header) -->
 
-{% row(style="center") %}
+{% row(style="center narrow") %}
 
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -28,14 +26,19 @@ extra:
 
 ![Image](black_threefold_horizontal.png#medium)
 
-### **Rebooting the Internet, together**
+### **The Missing Layer for IT**
 
-ThreeFold delivers a sovereign, peer-to-peer, and co-owned infrastructure layer to enable a new digital world.<br>
-It's a participatory movement. Join in.
+ThreeFold is a decentralized IT infrastructure delivering low-level compute, storage, and network constructs that empower individuals, organizations, and communities to build their own sets of use cases.
 
 <br>
+
+#### **Full Stack** | **Co-Owned** | **Autonomous Technology**
+
 <br>
-<br>
+
+<button>[Get Started](/community)</button>
+<button>[Deploy Now](https://dashboard.grid.tf/)</button>
+
 <br>
 <br>
 <br>
@@ -51,65 +54,61 @@ It's a participatory movement. Join in.
 
 {% row(style="center mtop") %}
 
-### **A new Internet is coming alive**
+### **Under the hood**
 
-Revolutionary technology and impactful partnerships and projects are some of the key highlights and happenings across the ThreeFold ecosystem today.
+Take a look at some of the key innovations which make ThreeFold come alive.
 
 {% end %}
 
 {% row(style="center narrow") %}
 
-[![Image](mycelium.png#medium)](https://www.mycelium.threefold.io/)
+#### Zero OS
 
 <br>
 
-##### Technology
-
-#### Introducing: Mycelium
-
-<br>
-
-Mycelium is an overlay network empowering secure, efficient, scalable, true peer-to-peer communication on the new Internet.
-
-<br>
-
-<button>[More](https://www.mycelium.threefold.io/)</button>
+A minimalistic, more efficient server operating system retaining the Linux kernel but fundamentally redesigned for heightened security, efficiency, and support for true peer-to-peer and decentralized workloads.
 
 |||
 
-[![Image](icttanzania.png#medium)](/blog/dunia-yetu)
+#### Smart Contract for IT
 
 <br>
 
-##### Partnership
-
-#### Internet for Tanzania
-
-<br>
-
-We are collaborating with the government and local tech community to enable a sovereign digital future for Tanzania.
-
-<br>
-
-<button>[More](/blog/dunia-yetu)</button>
+Secure, verified, multi-signed authentication enabling the autonomous reservation of capacity, storing files, deployment of applications, and more, in just a few clicks.
 
 |||
 
-[![Image](tiers.png#medium)](/blog/tier-s-data-center)
+#### Mycelium
 
 <br>
 
-##### Technology
+A new overlay network layer designed to enhance the existing Internet infrastructure while remaining compatible with all current applications, empowering true peer-to-peer communication.
 
-#### Tier-S Data Center
+{% end %}
+
+{% row(style="center narrow") %}
+
+#### FList
 
 <br>
 
-A new dynamic evolution of the data center model with superior reliability, resilience, flexibility, and energy efficiency.
+An image format that separates image data (comprising files, subfile parts) from the metadata describing the image structure, offering a versatile approach for handling various build and delivery scenarios.
+
+|||
+
+#### Zero-Stor
 
 <br>
 
-<button>[More](/blog/tier-s-data-center)</button>
+A scalable quantum safe backend storage system designed where data can never be lost nor corrupted – secure, private, and fast enough for most use cases, and designed for a decentralized context.
+
+|||
+
+#### Quantum Safe File System
+
+<br>
+
+A FUSE-based filesystem utilizing Zero-Stor as its backend. Metadata is safeguarded to prevent loss, inheriting Zero-Stor's benefits and simplifying usage for developers and system administrators.
 
 {% end %}
 
@@ -132,8 +131,6 @@ The ThreeFold Grid is already globally connected by a community of individuals a
 {% row(style="center narrow") %}
 
 ### **A participatory movement**
-
-Low-level compute, storage, and network constructs empower individuals, organizations,<br>and communities to build their own sets of use cases. The rest is up to all of us.
 
 {% end %}
 
