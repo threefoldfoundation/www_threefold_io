@@ -48,6 +48,8 @@ About a decade ago, a group of passionate Internet & Cloud veterans came togethe
 
 {% row(style="center narrow mtop") %}
 
+![Image](global.png#medium)
+
 ### **Supported by a global community**
 
 Thousands of individuals and organizations are now supporting the ThreeFold ecosystem,<br>by connecting capacity, deploying workloads, holding tokens, and a lot more.
@@ -60,11 +62,7 @@ Thousands of individuals and organizations are now supporting the ThreeFold ecos
 
 {% row(style="center narrow mtop") %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](mission.png#medium)
 
 ### **Our mission is to empower**
 
@@ -80,11 +78,7 @@ The world needs a safe infrastructure to deploy cutting edge technology, where e
 
 {% row(style="center narrow mtop") %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](vision.png#medium)
 
 ### **Our vision is a better digital world**
 
@@ -143,6 +137,8 @@ Equality, diversity, and inclusion are key to our vision of an Internet for ever
 <br>
 <br>
 
+![Image](open.png#medium)
+
 #### **Open-Source**
 Collaboration and openness are key to building a better world.
 
@@ -153,6 +149,8 @@ Collaboration and openness are key to building a better world.
 
 <br>
 <br>
+
+![Image](simple.png#medium)
 
 #### **Simplicity**
 Fostering clarity. Driving innovation. Enabling scalability.
@@ -165,6 +163,8 @@ Fostering clarity. Driving innovation. Enabling scalability.
 <br>
 <br>
 
+![Image](authenticity.png#medium)
+
 #### **Authenticity**
 We are genuine and vulnerable.
 
@@ -175,9 +175,9 @@ We are genuine and vulnerable.
 
 <!-- section 7 (REVOLUTION) -->
 
-{% row(bgColor="#FAF0F7" style="center margin") %}
+{% row(style="center margin") %}
 
-### Join the **Internet (R)evolution**
+### **Join in**
 
 Connect, share and collaborate with our open community to expand ThreeFold's horizons.<br> Bring your ideas and let’s co-create together!
 

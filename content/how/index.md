@@ -45,11 +45,7 @@ ThreeFold is an autonomous edge infrastructure delivering storage, compute, and 
 
 {% row(style="center narrow mtop") %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](zos.png#medium)
 
 ### **It all starts with a new operating system**
 
@@ -65,11 +61,7 @@ To revolutionize the Internet, we had to rethink how we host our applications.<b
 
 {% row(style="center narrow mtop") %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](3node.png#medium)
 
 ### **A computer becomes a 3Node**
 
@@ -89,11 +81,7 @@ Once booted onto a modern computer with adequate specifications, the computer is
 
 {% row(style="center narrow mtop") %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](provision.png#medium)
 
 ### **Resource provisioning & utilization**
 

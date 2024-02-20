@@ -49,11 +49,7 @@ Deploy and administer on a decentralized autonomous edge infrastructure.<br>Expe
 
 {% row(style="center narrow mtop") %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](yourway.png#medium)
 
 ### **Your deployments, your way**
 
@@ -80,6 +76,8 @@ ThreeFold supports a wide array of use cases, but here is a sampling of who can 
 
 {% row(style="center narrow") %}
 
+![Image](depin.png#medium)
+
 #### For DePIN
 
 <br>
@@ -95,6 +93,8 @@ Smart Contract enabled provisioning of IT capacity in a few clicks
 First-of-its-kind P2P network (Mycelium)
 
 |||
+
+![Image](countries.png#medium)
 
 #### For Countries
 
@@ -112,6 +112,8 @@ Greater security, resilience, and customization
 
 |||
 
+![Image](cicd.png#medium)
+
 #### For CI & CD
 
 <br>
@@ -127,6 +129,8 @@ Improved performance, security, and scalability
 Greater autonomy and flexibility
 
 |||
+
+![Image](apps.png#medium)
 
 #### For Social Media Apps
 

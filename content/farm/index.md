@@ -6,7 +6,7 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center") %}
+{% row(style="center narrow") %}
 
 <br>
 <br>
@@ -21,9 +21,9 @@ insert_anchor_links: "left"
 <br>
 <br>
 
-### **Be the Internet**
+### **Be the Cloud**
 
-By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity<br>to communities and builders, and be rewarded for doing this.
+By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide cloud capacity to communities and builders, and be rewarded for doing this.
 
 <br>
 
@@ -47,11 +47,7 @@ By connecting a modern computer at your home or office to the ThreeFold Grid, yo
 
 {% row(style="center narrow mtop") %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](build.png#medium)
 
 ### **Build a Node**
 
@@ -69,11 +65,7 @@ Optimize your own specs to ensure a reliable and performant node, while receivin
 
 |||
 
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](buy.png#medium)
 
 ### **Buy a Node**
 
