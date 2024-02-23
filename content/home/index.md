@@ -184,7 +184,7 @@ If you believe what we believe, then believe us, there is room for you in this m
 <br>
 
 <button>[Main Chat](https://t.me/threefold)</button>
-<button>[Our Forum](https://threefold.io)</button>
+<button>[Our Forum](https://forum.threefold.io)</button>
 <button>[Twitter](https://twitter.com/threefold_io)</button>
 <button>[More Resources](/community)</button>
 
