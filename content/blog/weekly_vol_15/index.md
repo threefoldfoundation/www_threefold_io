@@ -5,12 +5,15 @@ image_caption: ThreeFold Weekly! April 26th, 2022 (Vol 15)
 description: Welcome to the 15th edition of ThreeFold Weekly. Let’s dive into last week’s highlights in the ThreeFold universe.
 date: 2022-04-26
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, community, farming, update]
     categories: [foundation]
 extra:
     imgPath: weekly_vol_15.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
 
 ## Major ThreeFold News:
 

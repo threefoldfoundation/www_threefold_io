@@ -5,12 +5,16 @@ image_caption: Stake TFT and Become a ThreeFold Validator
 description: ThreeFold is realizing the initial promise of an open-source, peer-to-peer Internet owned by the people. Anyone can become a validator and participate in the decentralization of the Internet economy.
 date: 2022-03-16
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, community, blockchain, update]
     categories: [foundation, cloud, technology]
 extra:
     imgPath: stake_tft_become_validator.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 ThreeFold is an innovative Internet infrastructure. By applying peer-to-peer technology to the Internet, ThreeFold operates without centralized cloud providers or authorities the management of transactions and the offering of Internet capacity is carried out collectively by a people-powered network.
 
@@ -57,7 +61,7 @@ ThreeFold is realizing the initial promise of an open-source, peer-to-peer Inter
 <br/>
 
 * **Step 1**: Create an account (wallet) with the [ThreeFold Connect](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect) app.
-* **Step 2**: Buy the required amount of TFT to reserve your validator. Find all TFT buying options [here](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy).
+* **Step 2**: Buy the required amount of TFT to reserve your validator. Find all TFT buying options [here](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html).
 * **Step 3**: Log into the [ThreeFold Forum](https://forum.threefold.io/) using ThreeFold Connect and go to the [L2 Validator Signup](https://forum.threefold.io/c/dao/validators-signup-l2/83) category.
 * **Step 4**: Follow the [registration instructions](https://forum.threefold.io/t/procedure-to-register-your-l2-validator-node/1864) to become a L2 Validator, and review the checklist of your application before submission.
  

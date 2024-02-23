@@ -6,7 +6,7 @@ description: Take a look as Scott takes us through how to set up the Farmerbot o
 date: 2023-03-24
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news, community]
+    tags: [update, technology, news, community, farming]
     news-category: [foundation]
 extra:
     imgPath: farmerbot_setup.png

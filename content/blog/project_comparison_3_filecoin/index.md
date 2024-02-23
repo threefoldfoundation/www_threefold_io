@@ -5,12 +5,16 @@ image_caption: Filecoin & how it compares to ThreeFold
 description: This post is the third one in a series to look into fellow projects and their solutions to better understand the space we operate in and how ThreeFold stands out. This time, we're taking a closer look at Filecoin!
 date: 2021-10-08
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, blockchain, technology]
     categories: [foundation]
 extra:
     imgPath: project_comparison_3_filecoin.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 Welcome to the third stop on our journey that aims to better understand the space we operate in and how ThreeFold stands out. After exploring [Dfinity](https://threefold.io/blog/project_comparison_1_dfinity/) and [Akash](https://threefold.io/blog/project_comparison_2_akash/), I will now take a closer look at Filecoin to discover the similarities as well as differences of their project and ThreeFold. Let’s dive right in!
 

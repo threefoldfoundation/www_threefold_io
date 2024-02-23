@@ -56,6 +56,6 @@ Support the realization of a peer-to-peer Internet owned by the people today:
 
 <br/>
 
-- [Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy), the currency of the peer-to-peer Internet.
+- [Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html), the currency of the peer-to-peer Internet.
 - [Connect a computer](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) to the peer-to-peer Internet and earn monthly rewards.
 - [Build applications](https://library.threefold.me/info/manual/#//manual__manual3_home_new) on the peer-to-peer Internet.

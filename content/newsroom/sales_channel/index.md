@@ -5,12 +5,14 @@ image_caption: Become a Solution Provider on the Grid
 description: Thanks to Mik for gathering information about becoming a Solution Provider and Sales Channel on the ThreeFold Grid.
 date: 2023-01-27
 taxonomies:
-  people: [victoria_obeegadoo]
+  people: [sam_taggart]
   tags: [update, technology, news, community]
   news-category: [foundation]
 extra:
   imgPath: sales_channel.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
 
 Thanks to Mik for gathering information about becoming a Solution Provider and Sales Channel on the ThreeFold Grid.
 

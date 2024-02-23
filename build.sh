@@ -1,26 +1,32 @@
 echo "Starting build..."
 
 # TODO: Check if current version is latest to avoid redundant installation
+if [[ -f "tailwindcss" ]]
+then
+    echo "Tailwind installed"
+else
+    # rm tailwindcss
+    # checks os and architecture for correct release
+    # https://stackoverflow.com/a/8597411 
+    echo "Installing & building tailwind..."
+    ASSET="tailwindcss"
 
-# checks os and architecture for correct release
-# https://stackoverflow.com/a/8597411 
-echo "Installing & building tailwind..."
-ASSET="tailwindcss"
+    if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        ASSET="$ASSET-linux"
+    elif [[ "$OSTYPE" == "darwin"* ]]; then
+        ASSET="$ASSET-macos"
+    fi
+    if [[ "$(uname -m)" == "x86_64"* ]]; then
+        ASSET="$ASSET-x64"
+    elif [[ "$(uname -m)" == "arm64"* ]]; then
+        ASSET="$ASSET-arm64"
+    fi
 
-if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    ASSET="$ASSET-linux"
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-    ASSET="$ASSET-macos"
+    curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/${ASSET}"
+    chmod +x $ASSET
+    mv $ASSET tailwindcss
 fi
-if [[ "$(uname -m)" == "x86_64"* ]]; then
-    ASSET="$ASSET-x64"
-elif [[ "$(uname -m)" == "arm64"* ]]; then
-    ASSET="$ASSET-arm64"
-fi
 
-curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/${ASSET}"
-chmod +x $ASSET
-mv $ASSET tailwindcss
 
 
 # initialized and configures tailwind if not configured
@@ -36,3 +42,5 @@ echo "Compiling tailwindcss and building zola project..."
 rm -rf public static/css
 ./tailwindcss -i css/index.css -o ./static/css/index.css --minify
 zola build
+
+

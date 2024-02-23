@@ -5,12 +5,16 @@ image_caption: Planet first. People first.
 description: Together with our community and partners, we're taking action and making productive choices for our planet and humanity.
 date: 2022-07-05
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [community, why]
     categories: [foundation]
 extra:
     imgPath: planet_first_people_first.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 Today, the world is facing an unprecedented number of crises and disruptions stemming from the COVID-19 pandemic to climate change to Russia’s invasion of Ukraine. From supply chain disruptions and rising inflation to shortages in food and energy supply, serious challenges lie ahead.
 
@@ -98,4 +102,4 @@ If not us, who? If not now, when?
 
 * *[Join](https://t.me/threefold) this growing movement*
 * *[Buy](https://marketplace.3node.global/) or [build](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide) a 3Node and be the Internet*
-* *[Buy](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy) TFT*
+* *[Buy](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html) TFT*

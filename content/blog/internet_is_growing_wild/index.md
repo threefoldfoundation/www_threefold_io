@@ -5,14 +5,17 @@ image_caption: planet
 description: The internet is growing at an extremely fast pace, but is that a good thing?
 date: 2019-12-05
 taxonomies:
-    people: [andreas_hartl]
+    people: [sam_taggart]
     tags: [technology,why,threefold_grid]
     categories: [farming,cloud,foundation,aci]
 extra:
     imgPath: internet_is_growing_wild.png
 ---
-<br/>
-<br/>
+
+*"This article was originally published by Andreas Hartl, a former member of ThreeFold Foundation."*
+
+<br>
+
 The current growth of internet needs 4000+ new large scale data centers of computer systems. The global data growth will reach more than 40 Zetabytes by 2020 which represents an average yearly growth of 42% starting at 4.5 Zetabytes in 2013. To host all this data, over 4000 new big data centers have to to be built. And to achieve this goal, $ 1 trillion USD investment capital is needed and land totalling the size of the UK would be needed.
 <br/>
 <br/>

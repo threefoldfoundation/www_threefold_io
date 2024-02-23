@@ -48,7 +48,7 @@ ThreeFold is here to build an open-source Internet and Cloud infrastructure. It'
 
 [Set up your account](https://.grid.tf/getstarted/TF_Connect/TF_Connect.html)
 
-[Charge your wallet](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
+[Charge your wallet](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
 
 <!-- [How billing works](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_billing) -->
 

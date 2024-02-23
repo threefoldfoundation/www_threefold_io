@@ -5,12 +5,16 @@ image_caption: How to Access the ThreeFold Token and Provide Liquidity on Stella
 description: The more liquidity we provide on Stellar, the more we contribute to creating and sustaining a healthy market for TFT there. So today, we’re embarking on a little journey to find out how to access TFT and how to provide liquidity on Stellar via Albedo.
 date: 2022-09-08
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, threefold_token, blockchain]
     categories: [foundation]
 extra:
     imgPath: access_threefold_token_and_provide_liquidity_on_stellar.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 As we previously shared, we believe in the organic and sustainable growth of ThreeFold Token and the Internet of Internets vision. And one of our key goals is to strengthen the foundation of the ecosystem by enhancing the stability and liquidity of the ThreeFold Token (TFT). So today, we’re embarking on a little journey to find out how to access TFT and how to provide liquidity on Stellar via [Albedo](https://albedo.link/).
 
@@ -103,7 +107,7 @@ The time has come to fund your Albedo account with TFT. Simply swap other assets
 
 <br/>
 
-*Good to know: Albedo doesn’t provide a direct fiat gateway. Visit our TFT knowledge base to discover all the ways you can [buy TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy?id=how-to-buy-amp-sell-tft), including fiat options.*
+*Good to know: Albedo doesn’t provide a direct fiat gateway. Visit our TFT knowledge base to discover all the ways you can [buy TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html), including fiat options.*
 
 ### Step 2.2.A: Deposit TFT to your Albedo account
 

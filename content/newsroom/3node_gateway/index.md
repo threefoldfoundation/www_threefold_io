@@ -5,12 +5,14 @@ image_caption: What is a 3Node Gateway?
 description: You can configure your 3Nodes to become 'gateway nodes' in a few simple steps. 
 date: 2023-02-13
 taxonomies:
-    people: [victoria_obeegadoo]
+    people: [sam_taggart]
     tags: [update, technology, news, community]
     news-category: [foundation]
 extra:
     imgPath: 3node_gateway.png
 ---
+
+<!-- *"This article was originally published by Victoria Obeegadoo a former member of ThreeFold Foundation."* -->
 
 "A 3node becomes a gateway when a Threefold farmer adds a public IP address to the node itself on the Threefold Dashboard. In doing so, the IP address is then handed over to the base operating system of the node itself. The IP address can then be used in the overall functions of the TF Grid."
 
