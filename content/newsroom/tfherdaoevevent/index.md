@@ -1,6 +1,6 @@
 ---
-id: tfherdaoevent
-title: ThreeFold x H.E.R. DAO Dar Dev Meetup
+id:  tfherdaoevent
+title: 🇹🇿 ThreeFold x H.E.R. DAO Dar Dev Meetup
 image_caption: Dev meetup H.E.R
 description: We're excited to announce our partnership with H.E.R. DAO for a developer meetup in Dar Es Salaam, Tanzania next week, showcasing demos on deploying on the ThreeFold Grid.
 date: 2024-02-01
