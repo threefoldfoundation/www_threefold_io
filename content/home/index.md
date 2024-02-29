@@ -39,6 +39,10 @@ extra:
 
 ThreeFold is the world’s first system enabling anyone to become a cloud provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
 
+<br>
+
+#### #DePIN #DeCloud #AutonomousIT
+
 |||
 
 ![Image](header_new_b.png#mx-auto)
