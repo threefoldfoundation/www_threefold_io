@@ -1,1 +1,0 @@
-!!include blog:a_better_understanding_of_wealth
