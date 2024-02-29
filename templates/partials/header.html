@@ -36,6 +36,7 @@
                     {% set current = get_url(path=link_path[1]) ~ "/" %}
                     {% if header_label is containing("http") %}
                         {% if header_label is not containing("threefold") %}
+                          {%if link_path | length > 1 %}
                         <a href="{{link_path[1]}}" target="_blank" class="text-lg py-3 leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                             {{link_label}}
                         </a>
@@ -44,10 +45,13 @@
                           <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal active hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                             {{link_label}}
                           </a>
+                          {% endif %}
                       {% else %}
-                        <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                        {%if link_path | length > 1 %}
+                      <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                           {{link_label}}
                         </a>
+                      {% endif %}
                       {% endif %}
                 {% else %}
                     <div class="relative">
@@ -170,9 +174,11 @@
                                 {% set link_path = header_label | split(pat="%22") | safe%}
                                 {% if header_label is containing("http") %}
                                     {% if header_label is not containing("threefold") %}
+                                    {%if link_path | length > 1 %}
                                     <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                         {{link_label}}
                                     </a>
+                                    {% endif %}
                                     {% endif %}
                                 {% else %}
                                 <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
