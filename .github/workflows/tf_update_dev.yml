@@ -22,7 +22,7 @@ jobs:
           git reset --hard origin/development
           sed -i "s/https:\/\/www.threefold.io/https:\/\/www2.threefold.io/g" config.toml
           ./build.sh
-          
+
   wait:
     needs: deploy
     name: Wait for Website Update
@@ -43,4 +43,4 @@ jobs:
         id: link-report
         uses: docker://ghcr.io/threefoldfoundation/website-link-checker:latest
         with:
-          args: 'https://www2.threefold.io -e 404 501 503 504 -w all'
+          args: 'https://www2.threefold.io -w 404'
