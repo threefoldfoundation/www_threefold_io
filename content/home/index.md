@@ -29,7 +29,7 @@ extra:
 
 ### **Decentralized Autonomous Cloud**
 
-ThreeFold is the world's first system enabling anyone to become a cloud provider,<br>empowering people and organizations to buy and sell cloud resources autonomously and securely.
+ThreeFold is the world's first system enabling anyone to become a cloud and Internet service provider,<br>empowering people and organizations to buy and sell cloud resources autonomously and securely.
 
 <br>
 <br>
