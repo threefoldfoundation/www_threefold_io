@@ -21,9 +21,9 @@ extra:
 
 #### Tools
 
-<button onclick="openInNewTab('https&#58;//manual.grid.tf/getstarted/TF_Connect/TF_Connect.html')">
+<button onclick="openInNewTab('https&#58;//manual.grid.tf/threefold_token/storing_tft/tf_connect_app.html')">
 
-[ThreeFold Connect](https://manual.grid.tf/getstarted/TF_Connect/TF_Connect.html)
+[ThreeFold Connect](https://manual.grid.tf/threefold_token/storing_tft/tf_connect_app.html)
 <br>
 <p class="text-sm">TFT Wallet, 2FA, & More</p>
 
