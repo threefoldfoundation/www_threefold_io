@@ -35,199 +35,155 @@ extra:
 
 {% row(style="header") %}
 
-![Image](home_new.png#mx-auto)
+## **Decentralized<br>Autonomous Cloud**
+
+ThreeFold is the world’s first system enabling anyone to become a cloud provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
 
 |||
 
-## Decentralized. Autonomous. Internet Infrastructure.
-
-ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as "no middleman" Internet resources between independent capacity providers and users.
-
-<button>[Get Started](#take_action)</button>
+![Image](header_new_b.png#mx-auto)
 
 {% end %}
-
-
-
-<!-- section 2 -->
-
-{% row(style="center mtop narrow") %}
-
-## Why Do We Need an Alternative?
-
-### **Overcoming Internet Inequalities**
-
-{% end %}
-
-{% row(style="center reverse mbottom narrow") %}
-
-The current Internet is **outdated**. It is built on a centralized antiquated foundation, which hinders scalability and efficiency.
-
-<br>
-
-The current Internet is **not scalable**. Over 3 billion people lack reliable Internet access.
-
-<br>
-
-The current Internet is **not sustainable**. It consumes between 5-10% of the world’s energy.
-
-<br>
-
-Your digital life depends on hyperscale data centers controlled by a handful of tech giants. The majority of web 2 and even web 3 services are built on these foundations.
-
-|||
-
-![Image](internet_outdated.png#medium#mx-auto)
-
-{% end %}
-
-<br>
-
-<br>
-
-<!-- section 3 -->
-
-{% row(style="center margin" bgPath="images/checkerboard2.jpg") %}
-
-## Internet Re-Imagined. Internet Re-Built.
-
-### Over a decade ago, a group of early Internet pioneers, <br>who understood the problems of the centralized Internet model first-hand, <br>came together to re-imagine the infrastructure for an open and decentralized Internet.
-
-### But we didn't just imagine it – we built it. Join us in evolving the Internet, together.
-
-{% end %}
-
-</div>
-
-<br>
-
-<br>
 
 <!-- section 4 (Map) -->
 
 {% grid_stats() %}
 
-### **The ThreeFold Grid v3.9**
+### Become a cloud provider on
 
-## **Live and Operational**
+## **The ThreeFold Grid**
 
-{% end %}
-
-<br>
-
-<br>
-
-
-<!-- section 5 -->
-
-{% row(style="center narrow") %}
-
-## ThreeFold is Different
+Provide cloud capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
 
 {% end %}
 
-{% row(style="center mbottom narrow") %}
+{% row(style="header") %}
 
-![Image](beyond.png#icon)
+## **It Starts with 3Node**
 
-<br>
+3Nodes, powered by our stateless operating system, Zero OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
 
-### **Beyond a Protocol**
-
-The ThreeFold Grid is not just another protocol, it's a community-owned and managed low level decentralized Internet capacity layer and infrastructure, on top of which any protocol can run.
+<button>[Get Started](#take_action)</button>
 
 |||
 
-![Image](complementing.png#icon)
-
-<br>
-
-### **Complementing Web3**
-
-ThreeFold is not a Web3 project, but we love Web3 and the ThreeFold Grid can host and complement any Web3 project, finally providing a truly decentralized backbone for the space.
-
-|||
-
-![Image](compatible1.png#icon)
-
-<br>
-
-### **Highly-Compatible**
-
-The stack was built around open-source and simplicity, and to be compatibile with current and future IT standards such as Kubernetes, Docker, IPFS and S3. If it runs on Linux, it can be hosted on ThreeFold.
-
-<!-- It is an alternative to the centralized Internet model – a decentralized infrastructure for the builders of tomorrow.** -->
+![Image](node_home.png#mx-auto)
 
 {% end %}
 
-{% row(style="center mtop narrow" id="take_action") %}
+{% row( style="center between mtop") %}
 
-## Take Action Today
+## **Our Partners**
 
-### **And Create Tomorrow**
-
-{% end %}
-
-{% row(style="center narrow mbottom") %}
-
-![Image](expand_icon1.png#medium)
-
-### **Expand**
-
-People and organizations are connecting hardware to the ThreeFold Grid. Find your fit, provide Internet capacity for people around you, and earn for it.
-
-<br>
-
-<button>[Become a Node](/expand)</button>
-
-|||
-
-![Image](build_icon1.png#medium)
-
-### **Build**
-
-Developers and Sysadmins use ThreeFold technology to build, deploy, and store on top of a community-owned edge infrastructure. You pay with $TFT.
-
-<br>
-
-<button>[Build on the Platform](/build)</button>
-
-|||
-
-![Image](together_icon1.png#medium)
-
-### **Together**
-
-This project is all of ours. Join a group of people around the globe who believe the world needs ThreeFold and take action to bring ThreeFold forward.
-
-<br>
-
-<button>[Join the Community](https://t.me/threefold)</button>
+### Driving utilization on top of our decentralized autonomous cloud
 
 {% end %}
 
+{% row( style="center between") %}
 
+![Image](partners_home.png#mx-auto)
 
-<!-- section 5 -->
+{% end %}
 
-<div class="bgtest">
+{% row( style="center between mtop") %}
 
-{% row(style="center margin") %}
+## **Why Edge Cloud**
 
-<!-- bgPath="checkerboard1.jpg" -->
+### How bringing data closer to the end user is beneficial for everyone
+
+{% end %}
+
+{% row( style="center between") %}
+
+![Image](latency.png#icon)
 
 <br>
 
-## Support the Project
+### **Latency Reduction**
 
-We're open-source and decentralized, so we use a token called $TFT to fuel the movement, which is the medium of exchange<br>on the ThreeFold Grid. Buy $TFT to use grid services or for future utilization.
+For real-time apps, central cloud delay is prohibitive. Edge Cloud cuts latency locally.
+
+|||
+
+![Image](dataprivacy.png#icon)
 
 <br>
 
-<button>[Dive into the Token](/token)</button>
-<button>[Buy $TFT](https://manual.grid.tf/getstarted/TF_Token/tft_toc.html)</button>
+### **Privacy & Security**
 
-</div>
+By processing data locally, edge cloud reduces the exposure to data breaches and cyberattacks.
+
+|||
+
+![Image](sovereignty.png#icon)
+
+<br>
+
+### **Data Sovereignity**
+
+Empowers emerging markets with local data storage, granting digital sovereignty and autonomy.
+
+{% end %}
+
+{% row( style="center between") %}
+
+![Image](performance.png#icon)
+
+<br>
+
+### **Performance**
+
+Provides optimized bandwidth, reliability, and real-time processing which streamlines operations.
+
+|||
+
+![Image](cost.png#icon)
+
+<br>
+
+### **Cost Efficiency**
+
+Minimizes data transmission over networks, cutting costs and reducing central server demand.
+
+|||
+
+![Image](scalability.png#icon)
+
+<br>
+
+### **Scalability**
+
+As devices multiply, central data centers face data overload. Edge cloud distributes processing and boosts scalability.
+
+{% end %}
+
+{% row( style="center between mtop") %}
+
+## **Around the Ecosystem**
+
+### News & Happenings
+
+{% end %}
+
+{% row( style="center between") %}
+
+![Image](dunia_yetu.png)
+
+<br>
+
+#### **A Movement for a Sovereign Internet Comes Alive**
+
+Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania.
+
+|||
+
+![Image](threefold_cooperative.png)
+
+<br>
+
+#### **A Cooperative Model for Decentralized Governance**
+
+Cooperatives represent a tried and tested form of collective organization, emphasizing democratic governance
 
 {% end %}
 

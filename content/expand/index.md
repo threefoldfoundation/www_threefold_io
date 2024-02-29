@@ -31,117 +31,95 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](farm_new.png#mx-auto)
+![Image](header_host.png#mx-auto)
 
 |||
 
-## Be the **Internet**
+## **Host The Cloud, Empower Human Potential**
 
-By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Support a decentralized future. Take part in shaping a new Internet era governed by all of us.
-
-<button>[Get Started](https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html)</button>
+Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most and earning for your contributions.
 
 {% end %}
-
-
-
-<!-- section 2 (Map) -->
-
-{% grid_stats_expand() %}
-
-## Join the **Internet Revolution**
-
-{% end %}
-
-<br>
-
-<br>
-
 
 <!-- section 3 -->
 
 {% row(style="center narrow mtop") %}
 
-## Simple for Everyone
+## How it Works
+
+Join the world’s biggest decentralized autonomous cloud network in 4 easy steps.
 
 {% end %}
 
 {% row(style="center between mbottom") %}
 
-![Image](step1.png#mx-auto)
-
-<br>
-
-### **Host a Node**
-
-All you need to get started is a modern computer, electricity and network. Once booted with the operating system, it becomes a Threefold Node. 
-
-|||
-
-![Image](step2.png#mx-auto)
-
-<br>
-
-### **Get Verified**
-
-The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized internet for users and communities.
-
-|||
-
-![Image](step3.png#mx-auto)
-
-<br>
-
-### **Earn every Month**
-After your node is set up and verified, you’ll be rewarded for the compute, storage and bandwidth you provide to the ThreeFold Grid.
-
+![Image](how_it_works.png#mx-auto)
 
 {% end %}
 
+{% row( style="center between mtop") %}
 
-<!-- section 4  -->
+## **Kickstart Your Journey**
 
-{% row(style="between margin") %}
+### Documentation and knowledge
 
-![](expand_findyourfit_geometric.png#medium#mx-auto)
-
-|||
-
-## Find Your Fit
-### **Most Modern Computers Work**
-
-ThreeFold’s operating system was designed to be hardware agnostic, and already runs on any Intel or AMD powered computer today. 
-
-<br>
-
-<button>[Global Marketplace](https://marketplace.3node.global/)</button>
-<button>[EU Marketplace](https://hostservice.nl/winkel/)</button>
-<button>[Do It Yourself](https://manual.grid.tf/TF_Farmer_Guide/TF_Complete_Farmer_Guide/farmer_guide.html)</button>
+Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most and earning for their contributions.
 
 {% end %}
 
+{% row( style="center between") %}
 
-
-<!-- section 5 -->
-
-{% row(style="center mbottom narrow") %}
-
-## The value of **TFT**
+![Image](get_a_node.png#mx-auto)
 
 <br>
 
-![Image](farm_value_tft.jpg#mx-auto)
+#### **Get a Node Guide**
+
+Read how you can buy pre-configured nodes from independent vendors. Nodes are optimized for performance and rewards across different price points.
+
+|||
+
+![Image](build_a_node.png#mx-auto)
 
 <br>
+
+#### **Build a Node Guide**
+
+An informative guide on how to set up your now node. Optimize your own specs and configuration to ensure a reliable node to join the cloud network.
+
+{% end %}
+
+{% row(style="center narrow mtop") %}
+
+## The ThreeFold Dashboard
+
+The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and grid users. Create, update, and monitor your nodes, estimate your potential earnings, explore and find available nodes on the grid, and more.
+
+{% end %}
+
+{% row(style="center between mbottom") %}
+
+![Image](tf_dashboard.png#mx-auto)
+
+{% end %}
+
+{% row(style="header") %}
+
+![Image](people_planet_you.png#mx-auto)
+
+|||
+
+## **For People, For the Planet, & For You**
+
+Picture this: Our global peer-to-peer connected cloud ensures that data is taking the shortest possible route.  It's not just about boosting efficiency; it's about minimising the environmental impact of data transfer.
+
 <br>
 
-Any current of future application can run on the ThreeFold Grid and every user requires TFT to exchange data.  <br>
-The more people use TFT, the more TFT will be ‘burnt’, reducing the overall circulating supply to achieve market equilibrium.
+And the best part? You get to earn for your contributions! As we pave the way for the future, we're all about incentivizing expansion in locations where the grid is still making its way.
 
 <br>
 
-<button>[Learn More](/token)</button>
-
+By joining us on this cloud journey, you're not just investing in technology – you're investing in a sustainable, connected, and rewarding future.
 
 {% end %}
 

@@ -14,17 +14,15 @@ extra:
 
 <br>
 
-###### [Manuals](https://manual.grid.tf/)
+###### [Learn](https://manual.grid.tf/)
 
-###### [Buy the Token](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)
+###### [Farm](https://manual.grid.tf/farmers/farmers.html)
 
-###### [Start Farming](https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html)
+###### [Deploy on the Playground](https://playground.grid.tf/)
 
-###### [Use the Dashboard](https://dashboard.grid.tf/)
+###### [Download TF Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 
-###### [ThreeFold Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
-
-###### [ThreeFold Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
+###### [Download TF Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
 
 |||
 
@@ -32,15 +30,15 @@ extra:
 
 <br>
 
-###### [Main Community](https://t.me/threefold)
+###### [Main Chat](https://t.me/threefold)
 
-###### [Farming Community](https://t.me/threefoldfarmers)
+###### [Farming Chat](https://t.me/threefoldfarmers)
 
-###### [Grid User Community](https://t.me/threefoldtesting)
+###### [Grid User Chat](https://t.me/threefoldtesting)
 
 ###### [Forum](https://forum.threefold.io/)
 
-<h6><a target="_self" onclick="window.location.href='/support'">Support</a></h6>
+###### [Support](https://threefoldfaq.crisp.help/en/)
 
 |||
 
@@ -48,14 +46,14 @@ extra:
 
 <br>
 
-<h6><a target="_self" onclick="window.location.href='/about'">ThreeFold</a></h6>
+<h6><a target="_self" onclick="window.location.href='/about'">About</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/newsroom'">News</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
-
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
-
-<h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
 {% end %}
