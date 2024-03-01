@@ -11,7 +11,7 @@ and a side nav for category and featured post navigation
 <main>
 
     <!--sets global featured variable as the most recent post with the isFeatured tag-->
-    {%- set section = get_section(path="newsroom/_index.md") %}
+    {%- set section = get_section(path="news/_index.md") %}
     {% for page in section.pages %}
     {% if page.extra.isFeatured %}
         {%- set_global featured = page %}

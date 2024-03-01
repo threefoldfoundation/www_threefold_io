@@ -41,7 +41,7 @@ ThreeFold is a peer-to-peer open-source Internet platform that connects users di
 
 |||
 
-<button>[Get TFT](https://library.threefold.me/info/threefold#/tokens/threefold__token_howtos)</button>
+<button>[Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
 
 {% end %}
 

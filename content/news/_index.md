@@ -7,7 +7,7 @@ insert_anchor_links: "left"
 #base_url: "posts"
 #first: "first"
 #last: "last"
-template: "layouts/newsroom.html"
+template: "layouts/news.html"
 page_template: "newsPage.html"
 #transparent: true
 ---
