@@ -231,7 +231,7 @@ True Digital Sovereignty for open-source builders. The ThreeFold Grid provides l
 
 ### **Autonomous**
 
-Build secure applications with predeterministic smart contracts and access unparalleled self-driving and self-healing features...
+Build secure applications with predeterministic smart contracts and access unparalleled self-driving and self-healing features.
 
 
 |||
