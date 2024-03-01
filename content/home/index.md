@@ -214,7 +214,7 @@ By connecting hardware at your home or office – or anywhere you'd like – you
 
 {% row(style="center between narrow") %}
 
-True Digital Sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.......
+True Digital Sovereignty for open-source builders. The ThreeFold Grid provides limitless possibilities, <br> and brings a playground of industry-compatible easy-to-deploy solutions for developers.
 
 <br>
 
