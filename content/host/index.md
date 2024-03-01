@@ -31,11 +31,11 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](header_host.png#mx-auto)
+![Image](header_host.jpeg#mx-auto)
 
 |||
 
-## **Host The Cloud, Empower Human Potential**
+## **Host The Cloud,<br>Empower Human Potential**
 
 Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most and earning for your contributions.
 

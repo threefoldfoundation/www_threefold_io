@@ -10,7 +10,7 @@ extra:
 
 - [About]("/about")
 - [Host]("/host")
-- [Ecosystem]("/ecosystem")
+- [Utilization]("/utilization")
 - [News]("/news")
 - [Blog]("/blog")
 - [People]("/people")

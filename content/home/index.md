@@ -37,7 +37,7 @@ extra:
 
 ## **Decentralized<br>Autonomous Cloud**
 
-ThreeFold is the world’s first system enabling anyone to become a cloud provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
+ThreeFold is the world’s first system enabling anyone to become a cloud and internet service provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
 
 <br>
 
@@ -45,7 +45,7 @@ ThreeFold is the world’s first system enabling anyone to become a cloud provid
 
 |||
 
-![Image](header_new_b.png#mx-auto)
+![Image](header_new.jpeg#mx-auto)
 
 {% end %}
 
@@ -53,11 +53,11 @@ ThreeFold is the world’s first system enabling anyone to become a cloud provid
 
 {% grid_stats() %}
 
-### Become a cloud provider on
+### Become a cloud & internet service provider on
 
 ## **The ThreeFold Grid**
 
-Provide cloud capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
+Provide cloud and internet capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
 
 {% end %}
 
@@ -91,7 +91,7 @@ Provide cloud capacity in your area and become a part of the largest<br>and most
 
 {% row( style="center between mtop") %}
 
-## **Why Edge Cloud**
+## **Why Decentralized Cloud**
 
 ### How bringing data closer to the end user is beneficial for everyone
 
@@ -188,6 +188,116 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 #### **A Cooperative Model for Decentralized Governance**
 
 Cooperatives represent a tried and tested form of collective organization, emphasizing democratic governance
+
+{% end %}
+
+{% row(style="center mtop between") %}
+
+## **Join In**
+
+{% end %}
+
+{% row(style="center between") %}
+
+[![](discourse.png)](https://forum.threefold.io/)
+
+#### Forum
+
+Ask Questions
+
+|||
+
+[![](gh.png)](https://github.com/threefoldtech)
+
+#### GitHub
+
+Collaborate
+
+|||
+
+[![](manual.png)](https://manual.grid.tf)
+
+#### Manual
+
+Dive In
+
+{% end %}
+
+{% row(style="center between") %}
+
+[![](x.png)](https://twitter.com/threefold_io)
+
+#### X (Twitter)
+
+"Tweet" with us
+
+|||
+
+[![](tg_news.png)](https://t.me/threefoldnews)
+
+#### Telegram News
+
+Stay updated
+
+|||
+
+[![](tg_chat.png)](https://t.me/threefold)
+
+#### Telegram Chat
+
+Community conversations
+
+{% end %}
+
+{% row(style="center between") %}
+
+[![](tg_farm.png)](https://t.me/threefoldfarmers)
+
+#### Telegram Farmers Chat
+
+Farming Community
+
+|||
+
+[![](tg_chat.png)](https://t.me/threefoldtesting)
+
+#### Telegram Grid Users Chat
+
+Grid User Community
+
+|||
+
+[![](reddit.png)](https://www.reddit.com/r/threefold/)
+
+#### Reddit
+
+Join in
+
+{% end %}
+
+{% row(style="center mbottom between") %}
+
+[![](youtube.png)](https://www.youtube.com/threefoldfoundation)
+
+#### YouTube
+
+Watch things unfold
+
+|||
+
+[![](mail.png)](https://www.threefold.io/#subscribe)
+
+#### Mailing List
+
+Updates in your inbox
+
+|||
+
+[![](linkedin.png)](https://linkedin.com/company/threefold-foundation)
+
+#### LinkedIn
+
+Let's network
 
 {% end %}
 
