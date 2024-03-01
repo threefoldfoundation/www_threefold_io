@@ -50,11 +50,6 @@ Driving the transition to a new fair and sustainable economy while raising consc
 
 The main direct impacts are the raise of global consciousness and the birth of a new regenerative and conscious economic model. The sub impacts are the improvement of global health, the empowerment of individuals economically by minimizing inequality, and the leverage of sustainable local businesses.
 
-<BR>
-
-<iframe src="https://player.vimeo.com/522276911/c40d6d27ae" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
 
 ## Powered by ThreeFold
 
