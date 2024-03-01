@@ -14,7 +14,7 @@ extra:
     image_caption: seeds
     partner_logo: seedsLogo.png
     members: [rieki_cordon, nikolaus_heger, franz_josef_allmayer]
-    websites: https://www.joinseeds.com/
+    websites: https://joinseeds.earth/
     private: 0
     linkedin: https://www.linkedin.com/company/seeds-the-conscious-currency/about/
 ---
@@ -27,7 +27,7 @@ extra:
 
 ## About
 
-[SEEDS](https://www.joinseeds.com/) is a regenerative financial system for a thriving global society. A global movement that aligns radical empowerment of purpose with finance with the mission to bring about a modern day Renaissance. Since its alpha release on November 5th 2019 and its public launch in March 2020, SEEDS has gathered 150+ alliance members from across multiple bioregions. We're leaving the age of siloed competition where people and planet were exploited by systems and entering an age of cooperation where the people are in direct control and ownership of the abundant systems they inhabit. We are in the stage of cultivating a grassroots movement uniting the people and organizations dedicated to a breakthrough towards genuine sustainability, freedom, and peace. 
+[SEEDS](https://joinseeds.earth/) is a regenerative financial system for a thriving global society. A global movement that aligns radical empowerment of purpose with finance with the mission to bring about a modern day Renaissance. Since its alpha release on November 5th 2019 and its public launch in March 2020, SEEDS has gathered 150+ alliance members from across multiple bioregions. We're leaving the age of siloed competition where people and planet were exploited by systems and entering an age of cooperation where the people are in direct control and ownership of the abundant systems they inhabit. We are in the stage of cultivating a grassroots movement uniting the people and organizations dedicated to a breakthrough towards genuine sustainability, freedom, and peace. 
 
 <BR>
 
