@@ -2,7 +2,7 @@
 id: endfeb2024update
 title: 💡 End of Feb Update from the Team
 image_caption: End Of Feb Update
-description: Stay tuned for the latest team updates from February and mark your calendars for our upcoming community call!.
+description: Stay tuned for the latest team updates from February and mark your calendars for our upcoming community call!
 date: 2024-02-29
 taxonomies:
     people: [bernadette_amanda_caster]
