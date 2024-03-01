@@ -9,11 +9,9 @@ extra:
 
 
 - [About]("/about")
-- [Host]("/expand")
+- [Host]("/host")
 - [Ecosystem]("/ecosystem")
-- [News]("/newsroom")
+- [News]("/news")
 - [Blog]("/blog")
 - [People]("/people")
 - [Documentation]("https://manual.grid.tf")
-
-{% end %}
