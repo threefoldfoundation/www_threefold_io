@@ -248,7 +248,7 @@ Build secure applications with predeterministic smart contracts and access unpar
 
 ### **Affordable**
 
-Through it’s decentralized infrastructure that eliminates the need for expensive data centers and intermediaries, ThreeFold has incredibly low fees.....
+Through it’s decentralized infrastructure that eliminates the need for expensive data centers and intermediaries, ThreeFold has incredibly low fees.
 
 {% end %}
 
