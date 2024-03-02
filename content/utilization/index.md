@@ -68,7 +68,7 @@ ThreeFold has developed extensive technology and tooling for developers and syst
 
 {% row( style="center between") %}
 
-![Image](social_network.png)
+[![Image](social_network.png)](https://www.social.network/en)
 
 <br>
 
@@ -79,7 +79,7 @@ The ThreeFold Grid is operating as a backbone for Earth Staking’s recently lau
 
 |||
 
-![Image](freezone.png)
+[![Image](freezone.png)](https://freezone.ourworld.tf/)
 
 <br>
 
@@ -92,7 +92,7 @@ OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar
 
 {% row( style="center between") %}
 
-![Image](ict.png)
+[![Image](ict.png)](https://www.ictc.go.tz/)
 
 <br>
 
@@ -103,7 +103,7 @@ We have partnered with the Tanzanian government and ICT Commission to implement 
 
 |||
 
-![Image](sikana.png)
+[![Image](sikana.png)](https://www.sikana.tv/en)
 
 <br>
 
@@ -116,7 +116,7 @@ Later this year (H2 2024), ThreeFold's decentralized autonomous cloud infrastruc
 
 {% row( style="center between") %}
 
-![Image](veverse.png)
+[![Image](veverse.png)](https://veverse.com/)
 
 <br>
 
@@ -127,7 +127,7 @@ VeVerse provides a platform bridging virtual worlds, digital assets, and people,
 
 |||
 
-![Image](vverse.png)
+[![Image](vverse.png)](https://www.vverse.co/)
 
 <br>
 

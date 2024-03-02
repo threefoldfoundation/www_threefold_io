@@ -101,6 +101,9 @@ The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and gri
 
 ![Image](tf_dashboard.png#mx-auto)
 
+<button>[Visit the Dashboard](https://dashboard.grid.tf/)</button>
+<button>[Test the New UI](https://next.dashboard.grid.tf/)</button>
+
 {% end %}
 
 {% row(style="header") %}

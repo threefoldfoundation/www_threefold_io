@@ -67,7 +67,7 @@ Provide cloud and internet capacity in your area and become a part of the larges
 
 3Nodes, powered by our stateless operating system, Zero OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
 
-<button>[Get Started](#take_action)</button>
+<button>[Get Started](/host)</button>
 
 |||
 
@@ -171,7 +171,7 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 
 {% row( style="center between") %}
 
-![Image](dunia_yetu.png)
+[![Image](dunia_yetu.png)](/blog/dunia-yetu)
 
 <br>
 
@@ -181,7 +181,7 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 
 |||
 
-![Image](threefold_cooperative.png)
+[![Image](threefold_cooperative.png)](/blog/threefold-cooperative)
 
 <br>
 

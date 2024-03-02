@@ -18,7 +18,7 @@ extra:
 
 ###### [Farm](https://manual.grid.tf/farmers/farmers.html)
 
-###### [Deploy on the Playground](https://playground.grid.tf/)
+###### [Dashboard](https://dashboard.grid.tf/)
 
 ###### [Download TF Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 
@@ -50,9 +50,9 @@ extra:
 
 <h6><a target="_self" onclick="window.location.href='/news'">News</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
+<h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
+<h6><a target="_self" onclick="window.location.href='/utilization'">Partners</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
