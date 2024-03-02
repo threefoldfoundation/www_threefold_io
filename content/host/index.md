@@ -31,7 +31,7 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](header_host.jpeg#mx-auto)
+![Image](header_host.png#mx-auto)
 
 |||
 
