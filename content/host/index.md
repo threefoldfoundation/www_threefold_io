@@ -69,17 +69,17 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 
 {% row( style="center between") %}
 
-![Image](get_a_node.png#mx-auto)
+[![Image](get_a_node.png#mx-auto)](https://marketplace.3node.global/)
 
 <br>
 
-#### **Get a Node Guide**
+#### **Get a Node**
 
-Read how you can buy pre-configured nodes from independent vendors. Nodes are optimized for performance and rewards across different price points.
+Today, the best way to buy a Node is from independent vendors serving various geographical regions. Nodes are optimized for performance and rewards across different price points.
 
 |||
 
-![Image](build_a_node.png#mx-auto)
+[![Image](build_a_node.png#mx-auto)](https://manual.grid.tf/farmers/3node_building/3node_building.html)
 
 <br>
 
