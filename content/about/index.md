@@ -3,26 +3,9 @@ title: "About"
 template: "page.html"
 insert_anchor_links: "left"
 ---
+
 <!-- section 1 (header) -->
 
-<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
-    <div class="h-full">
-      <div class="flex flex-col items-center md:flex-row">
-       <div class="w-full md:w-1/2">
-          <div class="block">
-            <img
-                src="about_geometric_header.png" class="w-full h-full"/>
-          </div>
-        </div>
-        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
-          <div class="flex flex-col items-start justify-center p-6">
-            <h2>It All Started a Decade Ago</strong></h2>
-            <p>When we saw how the Internet's existing infrastructure was becoming increasingly centralized, controlled by a handful of tech giants, and posed a threat to privacy and sovereignty, we knew it was time for a change. That's why we founded ThreeFold.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
 <div class="container mx-auto">
 
@@ -38,7 +21,12 @@ About a decade ago, a group of passionate Internet & Cloud veterans came togethe
 
 {% end %}
 
-{% row( style="center between") %}
+
+
+
+<!-- section 2  -->
+
+{% row( style="center narrow mtop") %}
 
 ## **Our Why**
 
@@ -46,7 +34,9 @@ Pioneering a new digital era, ThreeFold empowers communities to reclaim digital 
 
 {% end %}
 
-{% row( style="center between") %}
+{% row( style="center semiNarrow") %}
+
+<div class="shadow-md border-solid border-2 border-gray-100 rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
 ![Image](nations.png#mx-auto)
 
@@ -56,7 +46,12 @@ Pioneering a new digital era, ThreeFold empowers communities to reclaim digital 
 
 Most countries only rely on cable networks meaning they lack control over their own digital infrastructure.
 
+
+</div>
+
 |||
+
+<div class="shadow-md border-solid border-2 border-gray-100 rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
 ![Image](own.png#mx-auto)
 
@@ -66,9 +61,13 @@ Most countries only rely on cable networks meaning they lack control over their 
 
 Today, major private companies own and operate cloud worldwide, taking all the profits and control of internet.
 
+</div>
+
 {% end %}
 
-{% row( style="center between") %}
+{% row( style="center semiNarrow mbottom") %}
+
+<div class="shadow-md border-solid border-2 border-gray-100 rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
 ![Image](human_right.png#mx-auto)
 
@@ -78,7 +77,11 @@ Today, major private companies own and operate cloud worldwide, taking all the p
 
 Billions of people are being left behind due to the IT landscape’s centralized infrastructure.
 
+</div>
+
 |||
+
+<div class="shadow-md border-solid border-2 border-gray-100 rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
 ![Image](greener.png#mx-auto)
 
@@ -88,9 +91,19 @@ Billions of people are being left behind due to the IT landscape’s centralized
 
 Today’s IT infrastructure consumes far too much energy. It becomes time we do something about it.
 
+</div>
+
 {% end %}
 
-{% row( style="center between") %}
+
+
+
+
+<!-- section 3  -->
+
+
+{% row( style="centerItem center semiNarrow mtop") %}
+
 
 ## **Our Mission**
 
@@ -114,4 +127,9 @@ The world needs a safe infrastructure to deploy cutting edge technology, where e
 
 We believe in an Internet where everyone can communicate freely, exchange fairly, access educational information, and own their own data. Our digital experiences should not addict nor manipulate, rather empower.
 
+
 {% end %}
+
+
+
+</div>

@@ -148,7 +148,7 @@ h1 {
     @apply font-normal;
   }
   h4 {
-    @apply text-sm lg:text-2xl font-normal;
+    @apply text-xl lg:text-2xl font-normal;
   }
   h5 {
     @apply text-md my-1 tracking-widest text-zinc-500 font-semibold;

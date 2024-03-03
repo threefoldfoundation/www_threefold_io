@@ -10,28 +10,6 @@ extra:
 ---
 
 
-
-<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
-    <div class="h-full">
-      <div class="flex flex-col items-center md:flex-row">
-       <div class="w-full md:w-1/2">
-          <div class="block">
-            <img
-                src="home/home_header_geometric.png" class="w-full h-full"/>
-          </div>
-        </div>
-        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
-          <div class="flex flex-col items-start justify-center p-6">
-            <h2>Decentralized. Autonomous. Internet Infrastructure.</strong></h1>
-            <p>ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as "no middleman" Internet resources between independent capacity providers and users.</p>
-            <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/intro/intro_readme.html">Get Started</a></button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
 <!-- section 1 (header) -->
 
 <div class="container mx-auto">
@@ -393,16 +371,4 @@ Let's network
 
 {% end %}
 
-<style>
-
-/* .bgtest{
-
-  background-image: url("home/Bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-
-}
-   */
-  </style>
+ </div>

@@ -62,6 +62,10 @@ Parameters:
 
 {% if style %}
 
+{% if "centerItem" in style %}
+{% set row_class = "flex flex-col md:flex-row items-start" %}
+{% endif %}
+
  <!-- reverse col at mobile -->
 
  {% if "reverse" in style %}
@@ -114,7 +118,7 @@ Parameters:
 
         <!-- makes row full screen width, strips margins -->
     {% if "narrow" in style %}
-        {% set row_class = row_class ~ " lg:max-w-5xl mx-auto" %}
+        {% set row_class = row_class ~ " lg:max-w-4xl mx-auto" %}
     {% elif "moderate" in style %}
         {% set row_class = row_class ~ " lg:m-20" %}
     {% endif %}
