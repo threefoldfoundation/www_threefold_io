@@ -80,64 +80,57 @@ Driving utilization on top of our decentralized autonomous cloud
 
 {% row( style="center between") %}
 
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](social_network.png#mx-auto)](https://www.social.network/en)
+
+</div>
+
+|||
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
 [![](ourworld.png#mx-auto)](https://freezone.ourworld.tf/)
 
-
-
-|||
-
-
-
-[![](zictia.png#mx-auto)](#)
+</div>
 
 |||
 
-[![](holochain.png#mx-auto)](#)
-
-
-
-{% end %}
-
-
-{% row( style="center between") %}
-
-[![](vverse.png#mx-auto)](https://www.vverse.co/)
-
-
-|||
-
-
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
 [![](ict.png#mx-auto)](https://www.ictc.go.tz/)
 
-|||
-
-
-
-[![](vevrse.png#mx-auto)](https://veverse.com/)
+</div>
 
 {% end %}
 
 
 {% row( style="mbottom center between") %}
 
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
 [![](sikana.png#mx-auto)](https://www.sikana.tv/en)
 
+</div>
 
 |||
 
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](social_network.png#mx-auto)](https://www.social.network/en)
+[![](vevrse.png#mx-auto)](https://veverse.com/)
 
-
+</div>
 
 |||
 
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](6-1.png#mx-auto)](#)
+[![](vverse.png#mx-auto)](https://www.vverse.co/)
+
+</div>
 
 {% end %}
+
 
 
 
