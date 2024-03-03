@@ -102,11 +102,56 @@ Driving utilization on top of our decentralized autonomous cloud
 
 {% row( style="center between") %}
 
-![Image](partners_home.png#mx-auto)
+<a href="https://freezone.ourworld.tf/" target="_blank">![Image](ourworld.png#mx-auto)</a> 
+
+|||
+
+<a href="#" target="_blank">![Image](zictia.png#mx-auto)</a>
+
+|||
+
+<a href="#" target="_blank">![Image](holochain.png#mx-auto)</a>
 
 {% end %}
 
-{% row( style="center between mtop") %}
+
+{% row( style="center between") %}
+
+
+<a href="https://www.vverse.co/" target="_blank">![Image](vverse.png#mx-auto)</a>
+
+
+|||
+
+<a href="https://www.ictc.go.tz/" target="_blank">![Image](ict.png#mx-auto)</a>
+
+|||
+
+<a href="https://veverse.com/" target="_blank">![Image](vevrse.png#mx-auto)</a>
+
+{% end %}
+
+
+{% row( style="mbottom center between") %}
+
+<a href="https://www.sikana.tv/en" target="_blank">![Image](sikana.png#mx-auto)</a>
+
+|||
+
+<a href="https://www.social.network/en" target="_blank">![Image](social_network.png#mx-auto)</a>
+
+|||
+
+<a href="#" target="_blank">![Image](6-1.png#mx-auto)</a>
+
+{% end %}
+
+
+
+
+
+
+{% row( style="mtop center between ") %}
 
 ## **Why Decentralized Cloud**
 
