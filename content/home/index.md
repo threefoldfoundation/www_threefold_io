@@ -149,7 +149,7 @@ Driving utilization on top of our decentralized autonomous cloud
 
 
 
-
+<!-- section 5 (ecentralized) -->
 
 {% row( style="mtop center between ") %}
 
@@ -159,9 +159,9 @@ Driving utilization on top of our decentralized autonomous cloud
 
 {% end %}
 
-{% row( style="center between") %}
+{% row( style="center semiNarrow") %}
 
-![Image](latency.png#icon)
+![Image](latency_reduction.png#tft_img#mx-auto)
 
 <br>
 
@@ -171,7 +171,7 @@ For real-time apps, central cloud delay is prohibitive. Edge Cloud cuts latency 
 
 |||
 
-![Image](dataprivacy.png#icon)
+![Image](privacy_security.png#tft_img#mx-auto)
 
 <br>
 
@@ -181,7 +181,7 @@ By processing data locally, edge cloud reduces the exposure to data breaches and
 
 |||
 
-![Image](sovereignty.png#icon)
+![Image](data_sovereignity.png#tft_img#mx-auto)
 
 <br>
 
@@ -191,9 +191,9 @@ Empowers emerging markets with local data storage, granting digital sovereignty 
 
 {% end %}
 
-{% row( style="center between") %}
+{% row( style="center semiNarrow") %}
 
-![Image](performance.png#icon)
+![Image](performance.png#tft_img#mx-auto)
 
 <br>
 
@@ -203,7 +203,7 @@ Provides optimized bandwidth, reliability, and real-time processing which stream
 
 |||
 
-![Image](cost.png#icon)
+![Image](cost_efficiency.png#tft_img#mx-auto)
 
 <br>
 
@@ -213,7 +213,7 @@ Minimizes data transmission over networks, cutting costs and reducing central se
 
 |||
 
-![Image](scalability.png#icon)
+![Image](scalability.png#tft_img#mx-auto)
 
 <br>
 
@@ -222,6 +222,11 @@ Minimizes data transmission over networks, cutting costs and reducing central se
 As devices multiply, central data centers face data overload. Edge cloud distributes processing and boosts scalability.
 
 {% end %}
+
+
+
+<!-- section 6 (Ecosystem) -->
+
 
 {% row( style="center between mtop") %}
 
@@ -253,6 +258,11 @@ Cooperatives represent a tried and tested form of collective organization, empha
 
 {% end %}
 
+
+
+
+<!-- section 7 (Join In) -->
+
 {% row(style="center mtop between") %}
 
 ## **Join In**
@@ -283,9 +293,7 @@ Collaborate
 
 Dive In
 
-{% end %}
-
-{% row(style="center between") %}
+|||
 
 [![](x.png)](https://twitter.com/threefold_io)
 
@@ -293,7 +301,12 @@ Dive In
 
 "Tweet" with us
 
-|||
+{% end %}
+
+
+
+{% row(style="center between") %}
+
 
 [![](tg_news.png)](https://t.me/threefoldnews)
 
@@ -309,15 +322,15 @@ Stay updated
 
 Community conversations
 
-{% end %}
 
-{% row(style="center between") %}
+|||
 
 [![](tg_farm.png)](https://t.me/threefoldfarmers)
 
 #### Telegram Farmers Chat
 
 Farming Community
+
 
 |||
 
@@ -327,7 +340,11 @@ Farming Community
 
 Grid User Community
 
-|||
+{% end %}
+
+
+{% row(style="center between") %}
+
 
 [![](reddit.png)](https://www.reddit.com/r/threefold/)
 
@@ -335,9 +352,7 @@ Grid User Community
 
 Join in
 
-{% end %}
-
-{% row(style="center mbottom between") %}
+|||
 
 [![](youtube.png)](https://www.youtube.com/threefoldfoundation)
 
@@ -365,7 +380,7 @@ Let's network
 
 <style>
 
-.bgtest{
+/* .bgtest{
 
   background-image: url("home/Bg.jpg");
   background-position: center;
@@ -374,5 +389,5 @@ Let's network
 
 
 }
-  
+   */
   </style>
