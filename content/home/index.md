@@ -102,47 +102,62 @@ Driving utilization on top of our decentralized autonomous cloud
 
 {% row( style="center between") %}
 
-<a href="https://freezone.ourworld.tf/" target="_blank">![Image](ourworld.png#mx-auto)</a> 
+[![](ourworld.png#mx-auto)](https://freezone.ourworld.tf/)
+
+
 
 |||
 
-<a href="#" target="_blank">![Image](zictia.png#mx-auto)</a>
+
+
+[![](zictia.png#mx-auto)](#)
 
 |||
 
-<a href="#" target="_blank">![Image](holochain.png#mx-auto)</a>
+[![](holochain.png#mx-auto)](#)
+
+
 
 {% end %}
 
 
 {% row( style="center between") %}
 
+[![](vverse.png#mx-auto)](https://www.vverse.co/)
 
-<a href="https://www.vverse.co/" target="_blank">![Image](vverse.png#mx-auto)</a>
-
-
-|||
-
-<a href="https://www.ictc.go.tz/" target="_blank">![Image](ict.png#mx-auto)</a>
 
 |||
 
-<a href="https://veverse.com/" target="_blank">![Image](vevrse.png#mx-auto)</a>
+
+
+[![](ict.png#mx-auto)](https://www.ictc.go.tz/)
+
+|||
+
+
+
+[![](vevrse.png#mx-auto)](https://veverse.com/)
 
 {% end %}
 
 
 {% row( style="mbottom center between") %}
 
-<a href="https://www.sikana.tv/en" target="_blank">![Image](sikana.png#mx-auto)</a>
+
+[![](sikana.png#mx-auto)](https://www.sikana.tv/en)
+
 
 |||
 
-<a href="https://www.social.network/en" target="_blank">![Image](social_network.png#mx-auto)</a>
+
+[![](social_network.png#mx-auto)](https://www.social.network/en)
+
+
 
 |||
 
-<a href="#" target="_blank">![Image](6-1.png#mx-auto)</a>
+
+[![](6-1.png#mx-auto)](#)
 
 {% end %}
 
@@ -271,7 +286,7 @@ Cooperatives represent a tried and tested form of collective organization, empha
 
 {% row(style="center between") %}
 
-[![](discourse.png)](https://forum.threefold.io/)
+[![](discourse.png#social)](https://forum.threefold.io/)
 
 #### Forum
 
@@ -279,7 +294,7 @@ Ask Questions
 
 |||
 
-[![](gh.png)](https://github.com/threefoldtech)
+[![](gh.png#social)](https://github.com/threefoldtech)
 
 #### GitHub
 
@@ -287,7 +302,7 @@ Collaborate
 
 |||
 
-[![](manual.png)](https://manual.grid.tf)
+[![](manual.png#social)](https://manual.grid.tf)
 
 #### Manual
 
@@ -295,7 +310,7 @@ Dive In
 
 |||
 
-[![](x.png)](https://twitter.com/threefold_io)
+[![](x.png#social)](https://twitter.com/threefold_io)
 
 #### X (Twitter)
 
@@ -308,7 +323,7 @@ Dive In
 {% row(style="center between") %}
 
 
-[![](tg_news.png)](https://t.me/threefoldnews)
+[![](tg_news.png#social)](https://t.me/threefoldnews)
 
 #### Telegram News
 
@@ -316,7 +331,7 @@ Stay updated
 
 |||
 
-[![](tg_chat.png)](https://t.me/threefold)
+[![](tg_chat.png#social)](https://t.me/threefold)
 
 #### Telegram Chat
 
@@ -325,7 +340,7 @@ Community conversations
 
 |||
 
-[![](tg_farm.png)](https://t.me/threefoldfarmers)
+[![](tg_farm.png#social)](https://t.me/threefoldfarmers)
 
 #### Telegram Farmers Chat
 
@@ -334,7 +349,7 @@ Farming Community
 
 |||
 
-[![](tg_chat.png)](https://t.me/threefoldtesting)
+[![](tg_chat.png#social)](https://t.me/threefoldtesting)
 
 #### Telegram Grid Users Chat
 
@@ -346,7 +361,7 @@ Grid User Community
 {% row(style="center between") %}
 
 
-[![](reddit.png)](https://www.reddit.com/r/threefold/)
+[![](reddit.png#social)](https://www.reddit.com/r/threefold/)
 
 #### Reddit
 
@@ -354,7 +369,7 @@ Join in
 
 |||
 
-[![](youtube.png)](https://www.youtube.com/threefoldfoundation)
+[![](youtube.png#social)](https://www.youtube.com/threefoldfoundation)
 
 #### YouTube
 
@@ -362,7 +377,7 @@ Watch things unfold
 
 |||
 
-[![](mail.png)](https://www.threefold.io/#subscribe)
+[![](mail.png#social)](https://www.threefold.io/#subscribe)
 
 #### Mailing List
 
@@ -370,7 +385,7 @@ Updates in your inbox
 
 |||
 
-[![](linkedin.png)](https://linkedin.com/company/threefold-foundation)
+[![](linkedin.png#social)](https://linkedin.com/company/threefold-foundation)
 
 #### LinkedIn
 

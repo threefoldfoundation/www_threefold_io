@@ -49,6 +49,12 @@ img[src*="#icon"] {
   margin: auto;
 }
 
+img[src*="#social"] {
+  width: 100px;
+  margin: auto;
+}
+
+
 img[src*="#large"] {
   width: 700px;
   margin: auto;
