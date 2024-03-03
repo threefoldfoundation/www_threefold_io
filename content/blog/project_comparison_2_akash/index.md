@@ -5,12 +5,16 @@ image_caption: Akash & how it compares to ThreeFold
 description: This post is the second one in a series to explore fellow projects and their solutions with regards to what they share with ThreeFold but also where we differ. Follow me on my journey through the space. This time, we're looking into Akash!
 date: 2021-10-05
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, blockchain, technology, threefold_cloud, threefold_token]
     categories: [foundation]
 extra:
     imgPath: project_comparison_2_akash.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 As announced in [the first episode of this series](https://threefold.io/blog/project_comparison_1_dfinity/), I’d like to shed some light on the complex decentralization and blockchain space and look into what fellow projects have to offer. There are various projects decentralizing parts of the internet. So in this second blog post, we’ll be exploring Akash and their solutions to find out what we have in common and where we differ. Follow me on the second step of my journey to better understand the space we operate in and how ThreeFold stands out.
 

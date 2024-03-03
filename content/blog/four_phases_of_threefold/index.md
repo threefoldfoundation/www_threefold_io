@@ -5,12 +5,16 @@ image_caption: Four Phases of ThreeFold
 description: Driven by our planet-first, people-first philosophy, the ThreeFold movement is shaping the world we want to live in and laying the foundation for an open, inclusive and abundance-based future.
 date: 2022-06-01
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid,why,technology,farming,threefold_token]
     categories: [foundation]
 extra:
     imgPath: the_four_phases_of_threefold.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 What started out as an idea for a better Internet about a decade ago has evolved into a global movement that’s building a decentralized, open and inclusive future through [the Internet of Internets](https://threefold.io/blog/internet_of_internets/). The journey towards our ultimate vision of a better future for all is a big one, but can be divided into four digestible phases: creation, expansion, Web 4 and velocity.
 

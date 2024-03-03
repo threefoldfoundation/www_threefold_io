@@ -3,10 +3,13 @@ title: Sam Taggart
 weight: 2
 description: Let's co-create a better future for humanity and for our planet.
 taxonomies:
+
     people: [sam_taggart]
     memberships: [foundation, twin, aci_members]
     categories: [foundation, twin, aci]
+
 extra:
+
     imgPath: sam_taggart.jpg
     organizations: [threefold_foundation, twin, aci]
     countries: [Turkey, USA]
@@ -17,6 +20,7 @@ extra:
         github: https://github.com/samtaggart,
         websites: https://threefold.io/,
     }
+
 ---
 
 <BR>

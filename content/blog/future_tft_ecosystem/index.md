@@ -5,12 +5,16 @@ image_caption: A Glimpse into the Future of the TFT Ecosystem
 description: We truly believe in decentralization. So, the team is doing some incredible work on developing our own DeFi solutions. They’re aimed at providing a native financial system for the Internet of Internets and strengthening the foundation of the ecosystem by enhancing the stability and liquidity of the ThreeFold Token (TFT).
 date: 2022-08-11
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, threefold_token, technology, blockchain, update]
     categories: [foundation]
 extra:
     imgPath: future_tft_ecosystem.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 The emergence of blockchain technology presented the world with new exciting opportunities – from independent digital currencies and decentralized financial (DeFi) applications to smart contracts, consensus-driven voting systems, and decentralized autonomous organizations (DAOs). Above all, blockchain technology held, and still holds, the promise of decentralization and transparency.
 
@@ -24,7 +28,7 @@ That doesn’t have to be a bad thing, though. And it won’t be, for projects l
 
 <br/>
 
-We believe in decentralization. And we believe that the future is decentralized. DeFi is great and fortunately, many decentralized alternatives already exist, with thriving ecosystems and communities. There are many options to [buy and sell TFT](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy) in a decentralized way, including multiple options within the [Stellar ecosystem](https://threefold.io/blog/thriving_with_stellar/) – and we’re also exploring meaningful partnership opportunities with Algorand. Both Stellar and Algorand already provide everything we need for a healthy financial ecosystem and offer various functions crucial for the [TFT](https://forum.threefold.io/t/the-potential-of-the-threefold-token-tft/1796) ecosystem – from order books to wallets to AMM liquidity pools and on/off ramp options. And both have huge, thriving communities.
+We believe in decentralization. And we believe that the future is decentralized. DeFi is great and fortunately, many decentralized alternatives already exist, with thriving ecosystems and communities. There are many options to [buy and sell TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html) in a decentralized way, including multiple options within the [Stellar ecosystem](https://threefold.io/blog/thriving_with_stellar/) – and we’re also exploring meaningful partnership opportunities with Algorand. Both Stellar and Algorand already provide everything we need for a healthy financial ecosystem and offer various functions crucial for the [TFT](https://forum.threefold.io/t/the-potential-of-the-threefold-token-tft/1796) ecosystem – from order books to wallets to AMM liquidity pools and on/off ramp options. And both have huge, thriving communities.
 
 <br/>
 

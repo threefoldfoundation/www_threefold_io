@@ -5,12 +5,17 @@ image_caption: The Internet that connects us also manipulates us. In search of a
 description: The Internet as we know it was once free and decentralized by nature. Over time, the Internet lost its neutrality. ThreeFold represents an opportunity to realize the initial promise of a distributed and neutral Internet owned by the people.
 date: 2022-04-05
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid, data, peer-to-peer, why]
     categories: [foundation]
 extra:
     imgPath: in_search_of_a_better_internet.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
+
 
 The Internet is one of humanity’s [greatest inventions](https://coincodex.com/article/14083/threefold-host-the-cloud-at-your-house/). In its early days, it used to be [free and decentralized](https://theconversation.com/web-3-0-the-decentralised-web-promises-to-make-the-internet-free-again-113139) by nature. No single entity was able to control access to the web as it was built on the foundation of a peer-to-peer network of nodes owned by developers and researchers. Until the dot-com era. Throughout the early 2000s, large corporations took over the web. New platforms like YouTube and MySpace were launched and new infrastructure needed to be built at an extreme pace, starting the data revolution and changing the digital landscape forever. 
 

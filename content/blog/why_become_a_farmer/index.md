@@ -5,14 +5,17 @@ image_caption: farming
 description: The ThreeFold Foundation is changing the way how "we" as a whole approach the internet and its underlying technology..
 date: 2020-05-03
 taxonomies:
-    people: [roel_van_sabben]
+    people: [sam_taggart]
     tags: [farming,threefold_grid]
     categories: [farming, grid]
 extra:
     imgPath: become_a_farmer.png
 ---
-<br/>
-<br/>
+
+*"This article was originally published by Roel Van Sabben, a former member of ThreeFold Foundation."*
+
+<br>
+
 The ThreeFold Foundation is changing the way how "we" as a whole approach the internet and its underlying technology. We believe building the internet back from the ground up is the only way to dismantle the monster it has grown into – a polluting greed-machine that allows people’s data to be abused for money all while just being accessible to just half of the earth’s inhabitants.
 <br/>
 <br/>

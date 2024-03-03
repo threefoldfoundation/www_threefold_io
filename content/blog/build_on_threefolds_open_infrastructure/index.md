@@ -5,12 +5,16 @@ image_caption: "Build on ThreeFold’s Open Infrastructure – Part One: Intro"
 description: Dive into the magic of the ThreeFold Grid and what it enables for people around the world – from developers to end users, and everyone in between – with this three-part series! We’ll explore ThreeFold’s infrastructure, solutions and experiences available today. The first part will give a comprehensive overview of the Grid, its evolution and capabilities.
 date: 2022-09-15
 taxonomies:
-    people: [hannah_cordes]
+    people: [sam_taggart]
     tags: [threefold_grid,technology,peer_to_peer]
     categories: [foundation]
 extra:
     imgPath: build_on_threefolds_open_infrastructure_part_one.png
 ---
+
+*"This article was originally published by Hannah Cordes, a former member of ThreeFold Foundation."*
+
+<br>
 
 What started out as an idea for a better Internet about a decade ago amongst a few early Internet and Cloud pioneers has now become a reality. Today, ThreeFold is a global movement building a reliable, open and inclusive Internet.
 
