@@ -14,3 +14,4 @@ extra:
 - [News]("/news")
 - [Blog]("/blog")
 - [People]("/people")
+- [Documentation]("https://manual.grid.tf")
