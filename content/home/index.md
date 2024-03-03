@@ -9,7 +9,7 @@ extra:
   imgPath: images/threefold_globe.png
 ---
 
-<!-- section 1 (header) -->
+
 
 <!-- <div class="text-gray-900 bg-cover bg-no-repeat">
     <div class="h-full">
@@ -31,13 +31,16 @@ extra:
     </div>
   </div> -->
 
+
+<!-- section 1 (header) -->
+
 <div class="container mx-auto">
 
-{% row(style="header") %}
+{% row(style="reverse header") %}
 
-## **Decentralized<br>Autonomous Cloud**
+## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
 
-ThreeFold is the world’s first system enabling anyone to become a cloud and internet service provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
+<span class="blue">ThreeFold</span> is the world’s first system enabling anyone to become a cloud and internet service provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
 
 <br>
 
@@ -49,7 +52,10 @@ ThreeFold is the world’s first system enabling anyone to become a cloud and in
 
 {% end %}
 
-<!-- section 4 (Map) -->
+
+
+
+<!-- section 2 (Map) -->
 
 {% grid_stats() %}
 
@@ -61,11 +67,17 @@ Provide cloud and internet capacity in your area and become a part of the larges
 
 {% end %}
 
-{% row(style="header") %}
 
-## **It Starts with 3Node**
 
-3Nodes, powered by our stateless operating system, Zero OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
+
+<!-- section 3 (3Node) -->
+
+
+{% row(style="reverse margin") %}
+
+## **It Starts with <span class="blue">3Node</span>**
+
+**<span class="blue">3Nodes</span>**, powered by our stateless operating system, Zero OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
 
 <button>[Get Started](/host)</button>
 
@@ -75,11 +87,16 @@ Provide cloud and internet capacity in your area and become a part of the larges
 
 {% end %}
 
+
+
+
+<!-- section 4 (Partners) -->
+
 {% row( style="center between mtop") %}
 
 ## **Our Partners**
 
-### Driving utilization on top of our decentralized autonomous cloud
+Driving utilization on top of our decentralized autonomous cloud
 
 {% end %}
 

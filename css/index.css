@@ -84,6 +84,9 @@ img[src*="#absolute"] {
 h1 {
   line-height: 3rem;
 }
+.blue{
+  color:#2E83FF
+}
 
 .nav p > a {
   display: flex;
@@ -129,7 +132,7 @@ h1 {
     color: #2b2b2b;
   }
   h2 strong {
-    @apply font-medium;
+    @apply font-semibold;
   }
   h3 {
     @apply text-2xl lg:text-3xl my-4 font-extralight;
