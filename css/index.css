@@ -70,6 +70,12 @@ img[src*="#absolute"] {
   left: 0;
   top: 0;
 }
+
+a img:hover{
+  opacity: 0.5 !important;
+  cursor: pointer;
+}
+
 .footer-cust a{
   color: #999; 
   cursor: pointer;
