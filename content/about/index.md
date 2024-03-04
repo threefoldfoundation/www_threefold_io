@@ -1,7 +1,11 @@
 ---
 title: "About"
+description: "About a decade ago, a group of passionate Internet & Cloud veterans came together to build a system." # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"
+extra:
+  author: Your name here
+  imgPath: images/people.png
 ---
 
 <!-- section 1 (header) -->
