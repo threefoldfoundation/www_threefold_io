@@ -16,7 +16,7 @@ insert_anchor_links: "left"
 
 ## **Host <span class="blue">The Cloud,</span><br>Empower Human Potential**
 
-Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most and earning for your contributions. We call this process <span class="blue">**farming**</span>.
+Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions. We call this process <span class="blue">**farming**</span>.
 
 {% end %}
 
@@ -32,9 +32,9 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 
 {% row(style="center narrow mtop") %}
 
-## How it Works
+## How It Works
 
-Join the world’s biggest decentralized autonomous cloud network in 4 easy steps.
+Join the world’s biggest decentralized autonomous cloud network in four easy steps.
 
 {% end %}
 
@@ -57,9 +57,9 @@ Join the world’s biggest decentralized autonomous cloud network in 4 easy step
 
 ## **Kickstart Your Journey**
 
-### Documentation and knowledge
+### Documentation and Knowledge
 
-Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most and earning for their contributions.
+You can become a cloud service provider and bring local capacity <br> to where people need it most while earning for your contributions.
 
 {% end %}
 
@@ -73,7 +73,7 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 
 #### **Get a Node**
 
-Today, the best way to buy a Node is from independent vendors serving various geographical regions. Nodes are optimized for performance and rewards across different price points.
+Today, the best way to buy a node is from independent vendors serving various geographical regions. Nodes are optimized for performance and rewards across different price points.
 
 <br>
 
@@ -85,9 +85,9 @@ Today, the best way to buy a Node is from independent vendors serving various ge
 
 <br>
 
-#### **Build a Node Guide**
+#### **Build a Node**
 
-An informative guide on how to set up your now node. Optimize your own specs and configuration to ensure a reliable node to join the cloud network.
+Read our informative guide on how to set up your own 3Node. Optimize your own specs and configuration to ensure a reliable node to join the cloud network.
 
 <br>
 
@@ -105,7 +105,7 @@ An informative guide on how to set up your now node. Optimize your own specs and
 
 ## The ThreeFold Dashboard
 
-The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and grid users. Create, update, and monitor your nodes, estimate your potential earnings, explore and find available nodes on the grid, and more.
+The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and grid users. Create, update and monitor your nodes, estimate your potential earnings, explore and find available nodes on the grid, and much more.
 
 {% end %}
 
@@ -132,7 +132,7 @@ The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and gri
 
 ## **For <span class="blue">People</span>, For the <span class="blue">Planet</span>, & For <span class="blue">You</span>**
 
-Picture this: Our global peer-to-peer connected cloud ensures that data is taking the shortest possible route.  It's not just about boosting efficiency; it's about minimising the environmental impact of data transfer.
+Our global peer-to-peer connected cloud ensures that data is taking the shortest possible route.  It's not just about boosting efficiency; it's about minimizing the environmental impact of data transfer.
 
 <br>
 
