@@ -48,7 +48,7 @@ extra:
 
 <h6><a target="_self" onclick="window.location.href='/about'">About</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/news'">News</a></h6>
+<h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
 

@@ -11,7 +11,7 @@ extra:
 - [About]("/about")
 - [Host]("/host")
 - [Utilization]("/utilization")
-- [News]("/news")
+- [News]("/newsroom")
 - [Blog]("/blog")
 - [People]("/people")
 - [Documentation]("https://manual.grid.tf")
