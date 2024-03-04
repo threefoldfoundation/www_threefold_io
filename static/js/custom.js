@@ -3,19 +3,6 @@ var hamburgerShown = false;
 let width = screen.width;
 var isMobile = width < 1024;
 
-function readingTime() {
-  let articles = document.querySelectorAll(".article");
-  let times = document.querySelectorAll(".time");
-  const wpm = 225;
-  let words;
-  for (var i = 0; i < articles.length; i++) {
-    words = articles[i].innerText.trim().split(/\s+/).length;
-    let time = Math.ceil(words / wpm);
-    times[i].innerText = `${time} minute read`;
-  }
-}
-readingTime();
-
 function toggleMenu(button) {
   if (displayedMenu === button.id.split("-")[0]) {
     button.className = button.className.replace(
@@ -40,6 +27,17 @@ function toggleMenu(button) {
     );
     displayedMenu = button.id.split("-")[0];
   }
+
+  document.addEventListener("click", function (e) {
+    if (!button.contains(e.target)) {
+      hideMenu(button.id.split("-")[0]);
+      button.lastElementChild.className = button.lastElementChild.className.replace(
+        "rotate-0",
+        "-rotate-90"
+      );
+      displayedMenu = "";
+    }
+  });
 }
 
 function handleClick(button) {
@@ -88,13 +86,19 @@ function showMenu(menuName) {
 function hideMenu(menuName) {
   var menuId = menuName + (isMobile ? "-mobile-menu" : "-menu");
   var menuElement = document.getElementById(menuId);
+  var btnId = `${menuElement.id}-btn`;
+  let btn = document.getElementById(btnId);
   menuElement.className = menuElement.className.replace(
     "duration-150 ease-out opacity-1 -translate-y-0",
     "duration-200 ease-in opacity-0 -translate-y-1"
   );
-  setTimeout(function () {
-    menuElement.className = menuElement.className + " hidden";
-  }, 300);
+  btn.lastElementChild.className = btn.lastElementChild.className.replace(
+    "rotate-0",
+    "-rotate-90"
+  );
+  if (!menuElement.classList.contains("hidden")) {
+    menuElement.classList.add("hidden");
+  }
 }
 
 function showHamburger() {
@@ -119,6 +123,7 @@ function hideHamburger() {
     hideMenu(displayedMenu);
   }
 }
+
 function toggleFilter() {
   var filterMenu = document.getElementById("filter-menu");
   if (filterMenu.className.includes("hidden")) {
@@ -136,16 +141,102 @@ window.onload = function () {
       handleClick(button);
     });
   });
-  if (document.getElementById("filter-btn")) {
-    document
-      .getElementById("filter-btn")
-      .addEventListener("click", toggleFilter);
-    document
-      .getElementById("mobile-learn-btn")
-      .addEventListener("click", toggleMenu);
-  }
 };
 
 function openInNewTab(url) {
   window.open(url, "_blank").focus();
 }
+
+function readingTime() {
+  let articles = document.querySelectorAll(".article");
+  let times = document.querySelectorAll(".time");
+  const wpm = 225;
+  let words;
+  for (var i = 0; i < articles.length; i++) {
+    words = articles[i].innerText.trim().split(/\s+/).length;
+    let time = Math.ceil(words / wpm);
+    times[i].innerText = `${time} minute read`;
+  }
+}
+
+const urls = [
+  "https://gridproxy.grid.tf/stats?status=up",
+  "https://gridproxy.dev.grid.tf/stats?status=up",
+  "https://gridproxy.test.grid.tf/stats?status=up",
+  "https://gridproxy.bknd1.ninja.tf/stats?status=standby", // will change to mainnet when release
+  "https://gridproxy.dev.grid.tf/stats?status=standby",
+  "https://gridproxy.test.grid.tf/stats?status=standby",
+];
+
+async function getStats() {
+  try {
+    const stats = await Promise.all(
+      urls.map((url) => fetch(url).then((resp) => resp.json()))
+    );
+    return mergeStatsData(stats);
+  } catch (error) {
+    throw new Error(
+      `Failed to retrieve data from network statistics: ${error}`
+    );
+  }
+}
+
+function mergeStatsData(stats) {
+  const res = stats[0];
+  for (let i = 1; i < stats.length; i++) {
+    res.nodes += stats[i].nodes;
+    res.totalCru += stats[i].totalCru;
+    res.totalHru += stats[i].totalHru;
+    res.totalSru += stats[i].totalSru;
+    res.nodesDistribution = mergeNodeDistribution([
+      res.nodesDistribution,
+      stats[i].nodesDistribution,
+    ]);
+    res.countries = Object.keys(res.nodesDistribution).length;
+  }
+  let capacity = toTeraOrGiga(res.totalHru + res.totalSru);
+  document.getElementById("capacity").innerHTML = capacity;
+  document.getElementById("nodes").innerHTML = res.nodes;
+  document.getElementById("countries").innerHTML = res.countries;
+  document.getElementById("cores").innerHTML = res.totalCru
+    .toString()
+    .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function mergeNodeDistribution(stats) {
+  const keys = new Set(stats.map((obj) => Object.keys(obj)).flat());
+
+  return Array.from(keys).reduce((res, key) => {
+    res[key] = 0;
+    stats.forEach((country) => {
+      res[key] += country[key] ?? 0;
+    });
+    return res;
+  }, {});
+}
+
+function toTeraOrGiga(value) {
+  const giga = 1024 ** 3;
+
+  if (!value) return "0";
+
+  const val = +value;
+  if (val === 0 || isNaN(val)) return "0";
+
+  if (val < giga) return val.toString();
+
+  let gb = val / giga;
+
+  if (gb < 1024) return `${gb.toFixed(2)} GB`;
+
+  gb = gb / 1024;
+
+  if (gb < 1024) return `${gb.toFixed(2)} TB`;
+
+  gb = gb / 1024;
+  return `${gb.toFixed(2)} PB`;
+}
+
+readingTime();
+getStats();
+document.getElementById("year").innerHTML = new Date().getFullYear();
