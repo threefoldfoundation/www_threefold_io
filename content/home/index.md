@@ -18,7 +18,7 @@ extra:
 
 ## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
 
-<span class="blue">ThreeFold</span> is the world’s first system enabling anyone to become a cloud and internet service provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
+<span class="blue">**ThreeFold**</span> is the world’s first system enabling anyone to become a cloud and internet service provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
 
 <br>
 
@@ -228,7 +228,7 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 
 <br>
 
-#### **A Movement for a Sovereign Internet Comes Alive**
+#### **A Sovereign Internet in Tanzania**
 
 Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania.
 
@@ -238,9 +238,9 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 
 <br>
 
-#### **A Cooperative Model for Decentralized Governance**
+#### **Cooperative Model is Coming**
 
-Cooperatives represent a tried and tested form of collective organization, emphasizing democratic governance
+Cooperatives represent a well-tested form of collective organization and democratic governance.
 
 {% end %}
 

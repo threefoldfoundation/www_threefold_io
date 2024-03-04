@@ -16,7 +16,7 @@ extra:
 
 ###### [Learn](https://manual.grid.tf/)
 
-###### [Farm](https://manual.grid.tf/farmers/farmers.html)
+###### [Host (Farm)](/host)
 
 ###### [Dashboard](https://dashboard.grid.tf/)
 
@@ -32,7 +32,7 @@ extra:
 
 ###### [Main Chat](https://t.me/threefold)
 
-###### [Farming Chat](https://t.me/threefoldfarmers)
+###### [Hosting / Farming Chat](https://t.me/threefoldfarmers)
 
 ###### [Grid User Chat](https://t.me/threefoldtesting)
 
