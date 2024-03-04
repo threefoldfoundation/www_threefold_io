@@ -3,30 +3,9 @@ title: "Utilization"
 template: "page.html"
 insert_anchor_links: "left"
 ---
-<!-- section 1  -->
 
-<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
-    <div class="h-full">
-      <div class="flex flex-col items-center md:flex-row">
-       <div class="w-full md:w-1/2">
-          <div class="block">
-            <img
-                src="build_header_geometric.png" class="w-full h-full"/>
-          </div>
-        </div>
-        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
-          <div class="flex flex-col items-start justify-center p-6">
-            <h2>Build the Future</strong></h2>
-            <p>Deploy and administer on a decentralized autonomous edge infrastructure. Experience true ownership of your deployments with a decentralized framework. Evolve the way you create and deploy innovative solutions, with greater scalability, efficiency, privacy, and security.</p>
-            <div class="flex flex-col md:flex-row">
-            <button class="mx-1 my-2"><a target="_blank" href="https://manual.grid.tf">Our Manuals</a></button>
-            <button class="mx-1 my-2"><a target="_blank" href="https://dashboard.grid.tf">Grid Dashboard</a></button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
+
+<!-- section 1  -->
 
 <div class="container mx-auto">
 
@@ -36,28 +15,38 @@ insert_anchor_links: "left"
 
 |||
 
-## **Utilization & Ecosystem**
+## **Utilization & <span class="blue">Ecosystem**</span>
 
 ThreeFold’s decentralized autonomous cloud is in its third generation and ready to go commercial. It will empower many projects and digital experiences as we grow.
 
 {% end %}
 
-<div class="container mx-auto">
 
-{% row(style="header") %}
+
+
+<!-- section 2  -->
+
+{% row(style="reverse margin") %}
 
 ## **Community Utilization**
 
 ThreeFold has developed extensive technology and tooling for developers and system administrators. ThreeFold is designed for compatibility. Grid users are provided with familiar ways of deploying and managing resources. From decentralized cloud computing to blockchain integration to overseeing infrastructures and optimizing performance, there is a breadth of options for smooth and efficient operation.
+
+<br>
 
 <button>[Manual for Developers](https://manual.grid.tf/developers/developers.html)</button>
 <button>[Manual for Sysadmins](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
 
 |||
 
-![Image](utilization_community.png)
+![Image](utilization_community.png#mx-auto)
 
 {% end %}
+
+
+
+
+<!-- section 3  -->
 
 {% row( style="center between mtop") %}
 
@@ -66,74 +55,136 @@ ThreeFold has developed extensive technology and tooling for developers and syst
 
 {% end %}
 
-{% row( style="center between") %}
 
-[![Image](social_network.png)](https://www.social.network/en)
+{% row( style="centerItem") %}
+
+<div class="my-2 lg:my-6">
+
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+
+[![Image](social_logo.png#icon#mx-auto)](https://www.social.network/en)
+
+</div>
 
 <br>
 
 #### Blockchain
-### **Social Network**
+<!-- ### <span class="blue">**Social Network**</span> -->
 
-The ThreeFold Grid is operating as a backbone for Earth Staking’s recently launched Social Network, the first decentralized Bitcoin Staking Layer 2 on Earth. Our Cloud infrastructure offers a robust, low-level decentralized framework, perfectly suited to empower Earth Staking’s vision of improving the accessibility, security, scalability, reliability, and energy efficiency of the Bitcoin Network.
+The ThreeFold Grid is operating as a backbone for Earth Staking’s recently launched Social Network, the first decentralized Bitcoin Staking Layer 2 on Earth. Our Cloud infrastructure offers a robust, low-level decentralized framework, perfectly suited to empower Earth Staking’s vision of improving the accessibility, security, scalability, reliability, and energy efficiency of the Bitcoin Network. [Read More](https://www.social.network/en)
+
+</div>
+
+<br>
 
 |||
 
-[![Image](freezone.png)](https://freezone.ourworld.tf/)
+<div class="my-2 lg:my-6">
+
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+
+[![Image](ourworld_logo.png#icon#mx-auto)](https://www.social.network/en)
+
+</div>
 
 <br>
 
 #### Country
-### **OurWorld Free Zone**
+<!-- ### <span class="blue">**OurWorld Free Zone**</span> -->
 
-OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits.
+OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits. [Read More](https://www.social.network/en)
+
+</div>
+
+<br>
 
 {% end %}
 
-{% row( style="center between") %}
 
-[![Image](ict.png)](https://www.ictc.go.tz/)
+{% row( style="centerItem") %}
+
+<div class="my-2 lg:my-6">
+
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+
+[![Image](ict_logo.png#icon#mx-auto)](https://www.ictc.go.tz/)
+
+</div>
 
 <br>
 
 #### Country
-### **ICT Commission (TZ)**
+<!-- ### <span class="blue">**ICT Commission (TZ)**</span> -->
 
-We have partnered with the Tanzanian government and ICT Commission to implement decentralized autonomous cloud & Internet infrastructure across Tanzania. Providing compute, storage and network locally we can enable Tanzania to create a self-reliant sovereign digital ecosystem for a better digital future.
+We have partnered with the Tanzanian government and ICT Commission to implement decentralized autonomous cloud & Internet infrastructure across Tanzania. Providing compute, storage and network locally we can enable Tanzania to create a self-reliant sovereign digital ecosystem for a better digital future. [Read More](https://www.ictc.go.tz/)
+
+</div>
+
+<br>
 
 |||
 
-[![Image](sikana.png)](https://www.sikana.tv/en)
+<div class="my-2 lg:my-6">
+
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+
+[![Image](sikana_logo.png#icon#mx-auto)](https://www.sikana.tv/en)
+
+</div>
 
 <br>
 
 #### Education
-### **Sikana**
+<!-- ### <span class="blue">**Sikana**</span> -->
 
-Later this year (H2 2024), ThreeFold's decentralized autonomous cloud infrastructure will power Sikana, a non-profit organization working to equip people with practical skills through free educational video programs.
+Later this year (H2 2024), ThreeFold's decentralized autonomous cloud infrastructure will power Sikana, a non-profit organization working to equip people with practical skills through free educational video programs. [Read More](https://www.sikana.tv/en)
 
-{% end %}
-
-{% row( style="center between") %}
-
-[![Image](veverse.png)](https://veverse.com/)
+</div>
 
 <br>
 
-#### Metaverse
-### **VeVerse**
+{% end %}
 
-VeVerse provides a platform bridging virtual worlds, digital assets, and people, empowering artists, museums, and game developers to construct captivating environments where users can explore, play, and connect. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. 
+{% row( style="centerItem") %}
+
+<div class="my-2 lg:my-6">
+
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+
+[![Image](veverse_logo.png#icon#mx-auto)](https://veverse.com/)
+
+</div>
+<br>
+
+#### Metaverse
+<!-- ### <span class="blue">**VeVerse**</span> -->
+
+VeVerse provides a platform bridging virtual worlds, digital assets, and people, empowering artists, museums, and game developers to construct captivating environments where users can explore, play, and connect. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. [Read More](https://veverse.com/) 
+
+</div>
+
+<br>
 
 |||
 
-[![Image](vverse.png)](https://www.vverse.co/)
+<div class="my-2 lg:my-6">
 
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+
+[![Image](vverse_logo.png#icon#mx-auto)](https://www.vverse.co/)
+
+</div>
 <br>
 
 #### Metaverse
-### **VVerse**
+<!-- ### <span class="blue">**VVerse**</span> -->
 
-VVerse is a next-generation sociality and entertainment platform linking users, creators, and businesses in a virtual 3D world. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. 
+VVerse is a next-generation sociality and entertainment platform linking users, creators, and businesses in a virtual 3D world. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. [Read More](https://www.vverse.co/) 
 
+</div>
+
+<br>
 {% end %}
+
+
+</div>
