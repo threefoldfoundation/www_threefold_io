@@ -74,7 +74,7 @@ Provide cloud and internet capacity in your area and become a part of the larges
 
 ## **Our Partners**
 
-Driving utilization on top of our decentralized autonomous cloud
+### Driving utilization on top of our decentralized autonomous cloud
 
 {% end %}
 
