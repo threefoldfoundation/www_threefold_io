@@ -96,13 +96,16 @@ Today’s IT infrastructure consumes far too much energy. It becomes time we do 
 {% end %}
 
 
-
+</div>
 
 
 <!-- section 3  -->
 
+<div class="bg-gray-200">
 
-{% row( style="centerItem center semiNarrow mtop") %}
+<div class="container mx-auto">
+
+{% row( style="centerItem center semiNarrow margin") %}
 
 
 ## **Our Mission**
@@ -130,6 +133,7 @@ We believe in an Internet where everyone can communicate freely, exchange fairly
 
 {% end %}
 
+</div>
 
 
 </div>
