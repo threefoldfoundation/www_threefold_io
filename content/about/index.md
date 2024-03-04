@@ -11,7 +11,7 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](header_about.png#mx-auto)
+![Image](people.png#mx-auto)
 
 |||
 
