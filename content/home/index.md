@@ -348,7 +348,14 @@ Watch things unfold
 
 |||
 
-[![](mail.png#social)](https://www.threefold.io/#subscribe)
+  <a href="javascript:;" target="self" onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')" class="text-black">
+
+![Image](mail.png#social)
+
+
+  </a>
+
+
 
 #### Mailing List
 
