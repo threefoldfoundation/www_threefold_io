@@ -4,30 +4,9 @@ template: "page.html"
 insert_anchor_links: "left"
 ---
 
-<!-- section 1 (be the Internet) -->
-
-<!-- <div class="text-gray-900 bg-cover bg-no-repeat">
-    <div class="h-full">
-      <div class="flex flex-col items-center md:flex-row">
-       <div class="w-full md:w-1/2">
-          <div class="block">
-            <img
-                src="expand_geometric_header.png" class="w-full h-full"/>
-          </div>
-        </div>
-        <div class="flex flex-col items-start justify-center w-full lg:py-24 py-6 md:w-1/2">
-          <div class="flex flex-col items-start justify-center p-6">
-            <h2>Be the <strong>Internet</strong></h2>
-            <p>By connecting a modern computer at your home or office to the ThreeFold Grid, you can provide Internet capacity to communities and builders, and be rewarded for doing this. Support a decentralized future. Take part in shaping a new Internet era governed by all of us.</p>
-            <button class="mx-0"><a target="_blank" href="https://manual.grid.tf/TF_Farmer_Guide/tf_farmer_guide_readme.html">Get Started</a></button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
 <div class="container mx-auto">
+
+<!-- section 1 -->
 
 {% row(style="header") %}
 
@@ -35,13 +14,21 @@ insert_anchor_links: "left"
 
 |||
 
-## **Host The Cloud,<br>Empower Human Potential**
+## **Host <span class="blue">The Cloud,</span><br>Empower Human Potential**
 
 Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most and earning for your contributions.
 
 {% end %}
 
-<!-- section 3 -->
+</div>
+
+
+
+<!-- section 2 -->
+
+<div class="bg-gray-100">
+
+<div class="container mx-auto">
 
 {% row(style="center narrow mtop") %}
 
@@ -57,6 +44,15 @@ Join the world’s biggest decentralized autonomous cloud network in 4 easy step
 
 {% end %}
 
+</div>
+</div>
+
+
+
+<div class="container mx-auto">
+
+<!-- section 3 -->
+
 {% row( style="center between mtop") %}
 
 ## **Kickstart Your Journey**
@@ -67,7 +63,9 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 
 {% end %}
 
-{% row( style="center between") %}
+<br>
+
+{% row( style="centerItem center semiNarrow mbottom") %}
 
 [![Image](get_a_node.png#mx-auto)](https://marketplace.3node.global/)
 
@@ -76,6 +74,10 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 #### **Get a Node**
 
 Today, the best way to buy a Node is from independent vendors serving various geographical regions. Nodes are optimized for performance and rewards across different price points.
+
+<br>
+
+<button>[Read More](https://marketplace.3node.global/)</button>
 
 |||
 
@@ -87,7 +89,17 @@ Today, the best way to buy a Node is from independent vendors serving various ge
 
 An informative guide on how to set up your now node. Optimize your own specs and configuration to ensure a reliable node to join the cloud network.
 
+<br>
+
+<button>[Read More](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
+
 {% end %}
+
+
+
+
+<!-- section 4 -->
+
 
 {% row(style="center narrow mtop") %}
 
@@ -101,18 +113,24 @@ The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and gri
 
 ![Image](tf_dashboard.png#mx-auto)
 
+<br>
+
 <button>[Visit the Dashboard](https://dashboard.grid.tf/)</button>
 <button>[Test the New UI](https://next.dashboard.grid.tf/)</button>
 
 {% end %}
 
-{% row(style="header") %}
+
+
+<!-- section 5 -->
+
+{% row(style="margin") %}
 
 ![Image](people_planet_you.png#mx-auto)
 
 |||
 
-## **For People, For the Planet, & For You**
+## **For <span class="blue">People</span>, For the <span class="blue">Planet</span>, & For <span class="blue">You</span>**
 
 Picture this: Our global peer-to-peer connected cloud ensures that data is taking the shortest possible route.  It's not just about boosting efficiency; it's about minimising the environmental impact of data transfer.
 
