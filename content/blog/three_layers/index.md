@@ -1,11 +1,11 @@
 ---
 id: three_layers
-title: "The Building Blocks of the Internet"
-image_caption: Solar and ThreeFold
+title: "How the Internet Works"
+image_caption: How the Internet Works
 description: Learn about the layers of the Internet to grasp how digital information is processed, stored, and accessed.
 date: 2024-03-04
 taxonomies:
-    people: [sam_taggart]
+    people: [emilie_ouwerx]
     tags: [threefold_grid, peer_to_peer, technology]
     categories: [foundation]
 extra:
