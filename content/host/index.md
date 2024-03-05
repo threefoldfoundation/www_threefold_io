@@ -77,7 +77,7 @@ Today, the best way to buy a node is from independent vendors serving various ge
 
 <br>
 
-<button>[Read More](https://marketplace.3node.global/)</button>
+<button>[Get](https://marketplace.3node.global/)</button>
 
 |||
 
@@ -91,7 +91,7 @@ Read our informative guide on how to set up your own 3Node. Optimize your own sp
 
 <br>
 
-<button>[Read More](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
+<button>[Build](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
 
 {% end %}
 

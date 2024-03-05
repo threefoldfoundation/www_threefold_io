@@ -71,7 +71,7 @@ ThreeFold has developed extensive technology and tools for developers and system
 #### Blockchain
 <!-- ### <span class="blue">**Social Network**</span> -->
 
-The ThreeFold Grid is operating as a backbone for Earth Staking’s recently launched Social Network, the first decentralized Bitcoin Staking Layer 2 on Earth. Our Cloud infrastructure offers a robust, low-level decentralized framework, perfectly suited to empower Earth Staking’s vision of improving the accessibility, security, scalability, reliability, and energy efficiency of the Bitcoin Network. [Read More](https://www.social.network/en)
+The ThreeFold Grid is operating as a backbone for Earth Staking’s recently launched Social Network, the first decentralized Bitcoin Staking Layer 2 on Earth. Our Cloud infrastructure offers a robust, low-level decentralized framework, perfectly suited to empower Earth Staking’s vision of improving the accessibility, security, scalability, reliability, and energy efficiency of the Bitcoin Network. [Visit](https://www.social.network/en)
 
 </div>
 
@@ -92,7 +92,7 @@ The ThreeFold Grid is operating as a backbone for Earth Staking’s recently lau
 #### Government
 <!-- ### <span class="blue">**OurWorld Free Zone**</span> -->
 
-OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits. [Read More](https://www.social.network/en)
+OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits. [Visit](https://www.social.network/en)
 
 </div>
 
@@ -116,7 +116,7 @@ OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar
 #### Government
 <!-- ### <span class="blue">**ICT Commission (TZ)**</span> -->
 
-We have partnered with the Tanzanian government and ICT Commission to implement decentralized autonomous cloud & Internet infrastructure across Tanzania. Providing compute, storage and network locally, we can enable Tanzania to create a self-reliant sovereign digital ecosystem for a better digital future. [Read More](https://www.ictc.go.tz/)
+We have partnered with the Tanzanian government and ICT Commission to implement decentralized autonomous cloud & Internet infrastructure across Tanzania. Providing compute, storage and network locally, we can enable Tanzania to create a self-reliant sovereign digital ecosystem for a better digital future. [Visit](https://www.ictc.go.tz/)
 
 </div>
 
@@ -137,7 +137,7 @@ We have partnered with the Tanzanian government and ICT Commission to implement 
 #### Education
 <!-- ### <span class="blue">**Sikana**</span> -->
 
-Later this year (H2 2024), ThreeFold's decentralized autonomous cloud infrastructure will power Sikana, a non-profit organization working to equip people with practical skills through free educational video programs. [Read More](https://www.sikana.tv/en)
+Later this year (H2 2024), ThreeFold's decentralized autonomous cloud infrastructure will power Sikana, a non-profit organization working to equip people with practical skills through free educational video programs. [Visit](https://www.sikana.tv/en)
 
 </div>
 
@@ -159,7 +159,7 @@ Later this year (H2 2024), ThreeFold's decentralized autonomous cloud infrastruc
 #### Metaverse
 <!-- ### <span class="blue">**VeVerse**</span> -->
 
-VeVerse provides a platform bridging virtual worlds, digital assets, and people, empowering artists, museums, and game developers to construct captivating environments where users can explore, play, and connect. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. [Read More](https://veverse.com/) 
+VeVerse provides a platform bridging virtual worlds, digital assets, and people, empowering artists, museums, and game developers to construct captivating environments where users can explore, play, and connect. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. [Visit](https://veverse.com/) 
 
 </div>
 
@@ -179,7 +179,7 @@ VeVerse provides a platform bridging virtual worlds, digital assets, and people,
 #### Metaverse
 <!-- ### <span class="blue">**VVerse**</span> -->
 
-VVerse is a next-generation sociality and entertainment platform linking users, creators, and businesses in a virtual 3D world. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. [Read More](https://www.vverse.co/) 
+VVerse is a next-generation sociality and entertainment platform linking users, creators, and businesses in a virtual 3D world. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. [Visit](https://www.vverse.co/) 
 
 </div>
 
