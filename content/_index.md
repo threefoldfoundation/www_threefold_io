@@ -6,7 +6,7 @@ updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
   author: Your name here
-  imgPath: header_new.jpeg
+  imgPath: home/header_new.jpeg
 ---
 
 
