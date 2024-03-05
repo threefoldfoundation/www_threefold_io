@@ -344,9 +344,9 @@ Watch things unfold
 
 |||
 
-  <a href="javascript:;" target="self" onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')" class="text-black">
+  <!-- <a href="javascript:;" target="self" onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')" class="text-black"> -->
 
-![Image](mail.png#social)
+[![](mail.png#social)](https://landing.mailerlite.com/webforms/landing/n7q9l7)
 
 
   </a>
