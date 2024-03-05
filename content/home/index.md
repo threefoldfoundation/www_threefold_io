@@ -1,239 +1,232 @@
 ---
 title: "Home"
-description: "A global movement together building an open-source, community-driven, decentralized Internet – from the ground up." # quotation marks to allow colons where used
+description: "ThreeFold is the world’s first system enabling anyone to become a cloud and internet service provider." # quotation marks to allow colons where used
 date: 2018-09-14T21:00:00-05:00
 updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
   author: Your name here
-  imgPath: images/threefold_globe.png
+  imgPath: home/header_new.jpeg
 ---
+
 
 <!-- section 1 (header) -->
 
-{% row(style="center narrow") %}
+<div class="container mx-auto">
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+{% row(style="reverse header") %}
 
-![Image](black_threefold_horizontal.png#medium)
+## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
 
-### **Decentralized Autonomous Cloud**
+<span class="blue">**ThreeFold**</span> is the world’s first system enabling anyone to become a cloud and Internet service provider, empowering people and organizations to buy, sell and use cloud resources autonomously and securely.
 
-ThreeFold is the world's first system enabling anyone to become a cloud and Internet service provider,<br>empowering people and organizations to buy and sell cloud resources autonomously and securely.
+|||
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+![Image](header_new.jpeg)
 
 {% end %}
+
+
+
+
+<!-- section 2 (Map) -->
 
 {% grid_stats() %}
 
-### The ThreeFold Grid
+### Become a cloud & Internet service provider on
 
-### **Connected globally and commercially ready**
+## **The ThreeFold Grid**
 
-#### **Mainnet: 3.12** | Testnet: 3.12 | Devnet 3.13
-
-{% end %}
-
-{% row(style="center mtop") %}
-
-### **Key Features: Under the hood**
-
-Take a look at some of the key innovations and features which make ThreeFold come alive.
+Provide cloud and Internet capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
 
 {% end %}
 
-{% row(style="center narrow") %}
 
-![Image](zos.png#medium)
 
-#### Zero OS
 
-<br>
+<!-- section 3 (3Node) -->
 
-A minimalistic, more efficient server operating system retaining the Linux kernel but fundamentally redesigned for heightened security, efficiency, and support for true peer-to-peer and decentralized workloads.
+
+{% row(style="reverse margin") %}
+
+## **It Starts with <span class="blue">3Nodes</span>**
+
+**<span class="blue">3Nodes</span>**, powered by our stateless operating system, Zero-OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
+
+<button>[Get Started](/host)</button>
 
 |||
 
-![Image](smartcontract.png#medium)
+![Image](node_home.png#mx-auto)
 
-#### Smart Contract for IT
+{% end %}
 
-<br>
 
-Secure, verified, multi-signed authentication enabling the autonomous reservation of capacity, storing files, deployment of applications, and more, in just a few clicks.
+
+
+<!-- section 4 (Partners) -->
+
+{% row( style="center between mtop") %}
+
+## **Our Partners**
+
+### Driving utilization on top of our decentralized autonomous cloud
+
+{% end %}
+
+{% row( style="center between") %}
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](social_network.png#mx-auto)](https://www.social.network/en)
+
+</div>
 
 |||
 
-![Image](mycelium.png#medium)
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-#### Mycelium
+[![](ourworld.png#mx-auto)](https://freezone.ourworld.tf/)
 
-<br>
-
-A new overlay network layer designed to enhance the existing Internet infrastructure while remaining compatible with all current applications, empowering true peer-to-peer communication.
-
-{% end %}
-
-{% row(style="center narrow") %}
-
-![Image](unified.png#medium)
-
-#### IaC, Kubernetes, & VMs
-
-<br>
-
-A unified computing platform that integrates Infrastructure as Code (IaC), Kubernetes, and Virtual Machines for automated, scalable, and efficient application deployment and management.
+</div>
 
 |||
 
-![Image](dedicatedip.png#medium)
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-#### Dedicated IP Leasing
+[![](ict.png#mx-auto)](https://www.ictc.go.tz/)
 
-<br>
+</div>
 
-Unlock stability and control with dedicated IP leasing. Ensure consistent access, enhance security, and boost your online reputation with a unique IP address tailored exclusively to your needs.
+{% end %}
+
+
+{% row( style="mbottom center between") %}
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](sikana.png#mx-auto)](https://www.sikana.tv/en)
+
+</div>
 
 |||
 
-![Image](qsfs.png#medium)
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-#### Quantum Safe File System
+[![](vevrse.png#mx-auto)](https://veverse.com/)
 
-<br>
-
-A FUSE-based filesystem utilizing Zero-Stor as its backend. Metadata is safeguarded to prevent loss, inheriting Zero-Stor's benefits and simplifying usage for developers and system administrators.
-
-{% end %}
-
-{% row(style="center narrow mtop") %}
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-### **Build your sovereign environment**
-
-Define your infrastructure requirements, reserve your capacity, and seamlessly scale your workloads and databases anywhere the network exists. Leverage the inherent benefits of autonomous IT such as better pricing, network security and safety, lower carbon footprint, and more.
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-{% end %}
-
-{% row(style="center mtop") %}
-
-![Image](vms.png#medium)
-
-### **Environments**
-
-{% end %}
-
-{% row(style="center narrow") %}
-
-#### Virtual Machines
-
-<br>
-
-We provide full virtual machines for comprehensive computing needs, offering complete control and flexibility. Additionally, our micro virtual machines cater to lightweight tasks, optimizing resource usage and scalability for efficient operations.
+</div>
 
 |||
 
-#### Kubernetes
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](vverse.png#mx-auto)](https://www.vverse.co/)
+
+</div>
+
+{% end %}
+
+
+
+
+
+<!-- section 5 (ecentralized) -->
+
+{% row( style="mtop center between ") %}
+
+## **Why Decentralized Cloud**
+
+### How bringing data closer to the end user is beneficial for everyone
+
+{% end %}
+
+{% row( style="center semiNarrow") %}
+
+![Image](latency_reduction.png#tft_img#mx-auto)
 
 <br>
 
-Kubernetes is the standard container orchestration tool. On the ThreeFold Grid, Kubernetes clusters can be deployed out of the box. We have implemented K3S, a full-blown Kubernetes offering that uses only half of the memory footprint.
+### **Latency Reduction**
+
+For real-time apps, central cloud delay is prohibitive. Edge Cloud cuts latency locally.
 
 |||
 
-#### NixOS MicroVMs
+![Image](privacy_security.png#tft_img#mx-auto)
 
 <br>
 
-A minimalistic virtual machine environment based on the NixOS Linux distribution. The NixOS MicroVM leverages these principles to create a highly customizable and reproducible virtual machine environment.
+### **Privacy & Security**
 
-{% end %}
-
-{% row(style="center mtop") %}
-
-### **Ready Community Solutions**
-
-Already optimized for deployment in just a few clicks.
-
-<button>[Playground](https://playground.grid.tf/#/)</button>
-
-![Image](playground.png#large)
-
-{% end %}
-
-{% row(style="center mtop") %}
-
-### **Around the ecosystem**
-
-{% end %}
-
-{% row(style="center narrow") %}
-
-[![Image](newdashboardux.png)](/newsroom/newdashboardux)
-
-<br>
-
-##### Technology
-
-#### New Dashboard UI/UX
-
-<br>
-
-Dive into the latest features and functionalities of our newly-upgraded dashboard – the go-to platform for managing and deploying on the TF Grid.
-
-<br>
-
-<button>[More](/newsroom/newdashboardux)</button>
+By processing data locally, edge cloud reduces the exposure to data breaches and cyberattacks.
 
 |||
+
+![Image](data_sovereignity.png#tft_img#mx-auto)
+
+<br>
+
+### **Data Sovereignity**
+
+Empowers emerging markets with local data storage, granting digital sovereignty and autonomy.
+
+{% end %}
+
+{% row( style="center semiNarrow") %}
+
+![Image](performance.png#tft_img#mx-auto)
+
+<br>
+
+### **Performance**
+
+Provides optimized bandwidth, reliability, and real-time processing which streamlines operations.
+
+|||
+
+![Image](cost_efficiency.png#tft_img#mx-auto)
+
+<br>
+
+### **Cost Efficiency**
+
+Minimizes data transmission over networks, cutting costs and reducing central server demand.
+
+|||
+
+![Image](scalability.png#tft_img#mx-auto)
+
+<br>
+
+### **Scalability**
+
+As devices multiply, central data centers face data overload. Edge cloud distributes processing and boosts scalability.
+
+{% end %}
+
+
+
+<!-- section 6 (Ecosystem) -->
+
+
+{% row( style="center between mtop") %}
+
+## **Around the Ecosystem**
+
+### News & Happenings
+
+{% end %}
+
+{% row( style="center between") %}
 
 [![Image](dunia_yetu.png)](/blog/dunia-yetu)
 
 <br>
 
-##### Partnership
+#### **A Sovereign Internet in Tanzania**
 
-#### Internet for Tanzania
-
-<br>
-
-We are collaborating with the government and local tech community to enable Dunia Yetu (Our World in Swahili), a sovereign digital future for Tanzania.
-
-<br>
-
-<button>[More](/blog/dunia-yetu)</button>
+Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania.
 
 |||
 
@@ -241,68 +234,137 @@ We are collaborating with the government and local tech community to enable Duni
 
 <br>
 
-##### Governance
+#### **Cooperative Model is Coming**
 
-#### A Cooperative Model
-
-<br>
-
-In H1 2022, ThreeFold is moving to a cooperative model, a well-proven mechanism for decentralized governance. See what it will mean for the ecosystem.
-
-<br>
-
-<button>[More](/blog/threefold-cooperative)</button>
+Cooperatives represent a well-tested form of collective organization and democratic governance.
 
 {% end %}
 
-{% row(style="center narrow mtop") %}
 
-### **A participatory movement**
+
+
+<!-- section 7 (Join In) -->
+
+{% row(style="center mtop between") %}
+
+## **Join In**
 
 {% end %}
 
-{% row(style="center narrow") %}
+{% row(style="center between") %}
 
-<br>
-<br>
+[![](discourse.png#social)](https://forum.threefold.io/)
 
-![Image](community.png#medium)
+#### Forum
 
-<br>
-
-#### Learn how to get involved
-
-<br>
-
-Get to know the different ecosystem roles and some of the people driving the movement forward.
-
-<br>
-
-<button>[Community](/community)</button>
-
-<br>
-<br>
+Ask Questions
 
 |||
 
-<br>
-<br>
+[![](gh.png#social)](https://github.com/threefoldtech)
 
-![Image](manual.png#medium)
+#### GitHub
 
-<br>
+Collaborate
 
-#### Get started with the manual
+|||
 
-<br>
+[![](manual.png#social)](https://manual.grid.tf)
 
-Learn how to take action – from connecting capacity to deploying on top of it to buying the token.
+#### Manual
 
-<br>
+Dive In
 
-<button>[Manual](https://manual.grid.tf/)</button>
+|||
 
-<br>
-<br>
+[![](x.png#social)](https://twitter.com/threefold_io)
+
+#### X (Twitter)
+
+"Tweet" with us
 
 {% end %}
+
+
+
+{% row(style="center between") %}
+
+
+[![](tg_news.png#social)](https://t.me/threefoldnews)
+
+#### Telegram News
+
+Stay updated
+
+|||
+
+[![](tg_chat.png#social)](https://t.me/threefold)
+
+#### Telegram Main Chat
+
+Community conversations
+
+
+|||
+
+[![](tg_farm.png#social)](https://t.me/threefoldfarmers)
+
+#### Telegram Farmers Chat
+
+Farming Community
+
+
+|||
+
+[![](tg_chat.png#social)](https://t.me/threefoldtesting)
+
+#### Telegram Grid Users Chat
+
+Grid User Community
+
+{% end %}
+
+
+{% row(style="center between") %}
+
+
+[![](reddit.png#social)](https://www.reddit.com/r/threefold/)
+
+#### Reddit
+
+Join in
+
+|||
+
+[![](youtube.png#social)](https://www.youtube.com/threefoldfoundation)
+
+#### YouTube
+
+Watch things unfold
+
+|||
+
+  <!-- <a href="javascript:;" target="self" onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')" class="text-black"> -->
+
+[![](mail.png#social)](https://landing.mailerlite.com/webforms/landing/n7q9l7)
+
+
+  </a>
+
+
+
+#### Mailing List
+
+Updates in your inbox
+
+|||
+
+[![](linkedin.png#social)](https://linkedin.com/company/threefold-foundation)
+
+#### LinkedIn
+
+Let's network
+
+{% end %}
+
+ </div>

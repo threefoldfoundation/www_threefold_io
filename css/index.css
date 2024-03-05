@@ -44,14 +44,25 @@ img[src*="#logo"] {
   margin: auto;
 }
 
+img[src*="#icon"] {
+  width: 200px;
+  margin: auto;
+}
+
+img[src*="#social"] {
+  width: 100px;
+  margin: auto;
+}
+
+
 img[src*="#large"] {
-  width: 1000px;
+  width: 700px;
   margin: auto;
 }
 
 img[src*="#tft_img"] {
   width: 150px;
-  margin: 8px;
+  margin: auto;
 }
 
 img[src*="#absolute"] {
@@ -59,6 +70,12 @@ img[src*="#absolute"] {
   left: 0;
   top: 0;
 }
+
+a img:hover{
+  opacity: 0.5 !important;
+  cursor: pointer;
+}
+
 .footer-cust a{
   color: #999; 
   cursor: pointer;
@@ -77,7 +94,10 @@ img[src*="#absolute"] {
 }
 
 h1 {
-  line-height: 4rem;
+  line-height: 3rem;
+}
+.blue{
+  color:#2E83FF
 }
 
 .nav p > a {
@@ -116,22 +136,25 @@ h1 {
 
 @layer components {
   h1 {
-    @apply text-3xl lg:text-7xl font-normal;
+    @apply text-4xl lg:text-6xl font-normal;
+    color: #2b2b2b;
   }
   h2 {
-    @apply text-3xl lg:text-6xl my-4 font-light leading-none;
+    @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
+    color: #2b2b2b;
   }
   h2 strong {
-    @apply font-medium;
-  }
-  h3 {
-    @apply text-xl lg:text-4xl my-4 font-extralight leading-none;
-  }
-  h3 strong {
     @apply font-semibold;
   }
+  h3 {
+    @apply text-2xl lg:text-3xl my-4 font-extralight;
+    color: #2b2b2b;
+  }
+  h3 strong {
+    @apply font-normal;
+  }
   h4 {
-    @apply text-sm lg:text-2xl font-normal;
+    @apply text-xl lg:text-2xl font-normal;
   }
   h5 {
     @apply text-md my-1 tracking-widest text-zinc-500 font-semibold;
@@ -141,6 +164,7 @@ h1 {
   }
   p {
     @apply text-lg;
+    color: #3d3d3d;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
@@ -155,18 +179,32 @@ h1 {
     @apply 
     inline-block
     lg:text-lg
-    lg:mr-5
+    lg:mr-3
     py-1
-    my-3
-    border-2
+    my-4
+    border
+    rounded
     shadow
-    border-black
+    border-gray-400
     capitalize
+    bg-gray-200
   }
   .my-header h4{
     color:#9f9f9f;
 
   }
+
+  h3 a{
+    color:#2b2b2b;
+
+  }
+
+  h3 a:hover{
+    color:#2E83FF;
+
+  }
+
+
   .article h2{
     font-size: 2.25rem;
     font-family: Lato,sans-serif!important;
@@ -236,7 +274,6 @@ header {
 
 .nav_btn {
   margin: 0 !important;
-  padding: 0 !important;
   border: none !important;
   box-shadow: none !important;
 }
@@ -447,6 +484,7 @@ header #menu button {
   lg:mr-5
   my-3
   shadow
+  bg-white
   border-black
   capitalize 
   leading-6 

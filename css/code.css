@@ -14,6 +14,10 @@ span.c {
   color: hsl(120, 100%, 20%);
 }
 
+.active {
+  color: #2E83FF;
+}
+
 span.p,
 span.s1,
 span.s2,
