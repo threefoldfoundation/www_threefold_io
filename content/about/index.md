@@ -5,7 +5,7 @@ template: "page.html"
 insert_anchor_links: "left"
 extra:
   author: Your name here
-  imgPath: images/people.png
+  imgPath: about/people.png
 ---
 
 <!-- section 1 (header) -->
