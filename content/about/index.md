@@ -15,7 +15,7 @@ extra:
 
 {% row(style="header") %}
 
-![Image](people_2.png#mx-auto)
+![Image](people.png#mx-auto)
 
 |||
 

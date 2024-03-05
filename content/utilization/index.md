@@ -89,7 +89,7 @@ The ThreeFold Grid is operating as a backbone for Earth Staking’s recently lau
 
 <br>
 
-#### Country
+#### Government
 <!-- ### <span class="blue">**OurWorld Free Zone**</span> -->
 
 OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits. [Read More](https://www.social.network/en)
@@ -113,7 +113,7 @@ OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar
 
 <br>
 
-#### Country
+#### Government
 <!-- ### <span class="blue">**ICT Commission (TZ)**</span> -->
 
 We have partnered with the Tanzanian government and ICT Commission to implement decentralized autonomous cloud & Internet infrastructure across Tanzania. Providing compute, storage and network locally, we can enable Tanzania to create a self-reliant sovereign digital ecosystem for a better digital future. [Read More](https://www.ictc.go.tz/)
