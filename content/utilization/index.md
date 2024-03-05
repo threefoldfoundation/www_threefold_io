@@ -83,7 +83,7 @@ The ThreeFold Grid is operating as a backbone for Earth Staking’s recently lau
 
 <div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
 
-[![Image](ourworld_logo.png#icon#mx-auto)](https://www.social.network/en)
+[![Image](ourworld_logo.png#icon#mx-auto)](https://freezone.ourworld.tf/)
 
 </div>
 
@@ -92,7 +92,7 @@ The ThreeFold Grid is operating as a backbone for Earth Staking’s recently lau
 #### Government
 <!-- ### <span class="blue">**OurWorld Free Zone**</span> -->
 
-OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits. [Visit](https://www.social.network/en)
+OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits. [Visit](https://freezone.ourworld.tf/)
 
 </div>
 
