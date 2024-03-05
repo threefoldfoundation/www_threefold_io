@@ -21,7 +21,7 @@ extra:
 
 ## Founded by <span class="blue">**Internet 1.0 Pioneers**</span>
 
-About a decade ago, a group of passionate Internet & Cloud veterans came together to build a system which can scale to a scalable, safe, compatible, and co-owned IT infrastructure.
+About a decade ago, a group of passionate Internet & cloud veterans came together to build a system which can grow to a scalable, safe, compatible, and co-owned IT infrastructure.
 
 {% end %}
 
@@ -48,7 +48,7 @@ Pioneering a new digital era, ThreeFold empowers communities to reclaim digital 
 
 #### **Empower Nations**
 
-Most countries only rely on cable networks meaning they lack control over their own digital infrastructure.
+Most countries only rely on cable networks, meaning they lack control over their own digital infrastructure.
 
 
 </div>
@@ -63,7 +63,7 @@ Most countries only rely on cable networks meaning they lack control over their 
 
 #### **Own Your Data**
 
-Today, major private companies own and operate cloud worldwide, taking all the profits and control of internet.
+Today, most of the cloud is owned and operated by few major companies taking all the profits and control of Internet.
 
 </div>
 
@@ -93,7 +93,7 @@ Billions of people are being left behind due to the IT landscape’s centralized
 
 #### **A Greener Planet Earth**
 
-Today’s IT infrastructure consumes far too much energy. It becomes time we do something about it.
+Current IT infrastructures consume far too much energy. It's time we do something about it.
 
 </div>
 
@@ -120,7 +120,7 @@ Today’s IT infrastructure consumes far too much energy. It becomes time we do 
 
 #### To Empower Human Potential
 
-The world needs a safe infrastructure to deploy cutting edge technology, where everyone can take part. We exist to make cloud capacity available everywhere on earth, to help others to host and create a new set of digital experiences, and to enable anyone to become truly decentralized.
+The world needs a safe infrastructure to deploy cutting edge technology, where everyone can take part. We exist to make cloud capacity available everywhere on Earth, to help others host and create new digital experiences and to enable true decentralization.
 
 |||
 

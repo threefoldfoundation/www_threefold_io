@@ -30,12 +30,12 @@ ThreeFold’s decentralized autonomous cloud is in its third generation and read
 
 ## **Community Utilization**
 
-ThreeFold has developed extensive technology and tooling for developers and system administrators. ThreeFold is designed for compatibility. Grid users are provided with familiar ways of deploying and managing resources. From decentralized cloud computing to blockchain integration to overseeing infrastructures and optimizing performance, there is a breadth of options for smooth and efficient operation.
+ThreeFold has developed extensive technology and tools for developers and system administrators. ThreeFold is designed for compatibility. Grid users are provided with familiar ways of deploying and managing resources. From decentralized cloud computing and blockchain integration to overseeing infrastructures and optimizing performance, there is a breadth of options for smooth and efficient operation.
 
 <br>
 
-<button>[Manual for Developers](https://manual.grid.tf/developers/developers.html)</button>
-<button>[Manual for Sysadmins](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
+<button>[Developers Documentation](https://manual.grid.tf/developers/developers.html)</button>
+<button>[Sysadmins Documentation](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
 
 |||
 
@@ -51,7 +51,7 @@ ThreeFold has developed extensive technology and tooling for developers and syst
 {% row( style="center between mtop") %}
 
 ### Core Partners
-## **Coming in 2024**
+## **Building with ThreeFold in 2024**
 
 {% end %}
 
@@ -89,7 +89,7 @@ The ThreeFold Grid is operating as a backbone for Earth Staking’s recently lau
 
 <br>
 
-#### Country
+#### Government
 <!-- ### <span class="blue">**OurWorld Free Zone**</span> -->
 
 OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits. [Read More](https://www.social.network/en)
@@ -113,10 +113,10 @@ OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar
 
 <br>
 
-#### Country
+#### Government
 <!-- ### <span class="blue">**ICT Commission (TZ)**</span> -->
 
-We have partnered with the Tanzanian government and ICT Commission to implement decentralized autonomous cloud & Internet infrastructure across Tanzania. Providing compute, storage and network locally we can enable Tanzania to create a self-reliant sovereign digital ecosystem for a better digital future. [Read More](https://www.ictc.go.tz/)
+We have partnered with the Tanzanian government and ICT Commission to implement decentralized autonomous cloud & Internet infrastructure across Tanzania. Providing compute, storage and network locally, we can enable Tanzania to create a self-reliant sovereign digital ecosystem for a better digital future. [Read More](https://www.ictc.go.tz/)
 
 </div>
 

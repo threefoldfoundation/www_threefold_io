@@ -18,11 +18,7 @@ extra:
 
 ## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
 
-<span class="blue">**ThreeFold**</span> is the world’s first system enabling anyone to become a cloud and internet service provider, empowering people and organizations to buy, sell, and use cloud resources autonomously and securely.
-
-<br>
-
-#### #DePIN #DeCloud #AutonomousIT
+<span class="blue">**ThreeFold**</span> is the world’s first system enabling anyone to become a cloud and Internet service provider, empowering people and organizations to buy, sell and use cloud resources autonomously and securely.
 
 |||
 
@@ -37,11 +33,11 @@ extra:
 
 {% grid_stats() %}
 
-### Become a cloud & internet service provider on
+### Become a cloud & Internet service provider on
 
 ## **The ThreeFold Grid**
 
-Provide cloud and internet capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
+Provide cloud and Internet capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
 
 {% end %}
 
@@ -53,9 +49,9 @@ Provide cloud and internet capacity in your area and become a part of the larges
 
 {% row(style="reverse margin") %}
 
-## **It Starts with <span class="blue">3Node</span>**
+## **It Starts with <span class="blue">3Nodes</span>**
 
-**<span class="blue">3Nodes</span>**, powered by our stateless operating system, Zero OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
+**<span class="blue">3Nodes</span>**, powered by our stateless operating system, Zero-OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
 
 <button>[Get Started](/host)</button>
 
@@ -304,7 +300,7 @@ Stay updated
 
 [![](tg_chat.png#social)](https://t.me/threefold)
 
-#### Telegram Chat
+#### Telegram Main Chat
 
 Community conversations
 
