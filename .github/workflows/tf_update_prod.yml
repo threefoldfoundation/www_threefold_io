@@ -20,5 +20,5 @@ jobs:
           git log -1
           git fetch
           git reset --hard origin/master
-          sed -i "s/https:\/\/www2.threefold.io/https:\/\/www.threefold.io/g" config.toml
+          sed -i "s/https:\/\/dev.threefold.io/https:\/\/www.threefold.io/g" config.toml
           ./build.sh
