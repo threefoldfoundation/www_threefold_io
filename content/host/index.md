@@ -150,12 +150,9 @@ The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and gri
 
 <br>
 
-<button>[Visit the Dashboard](https://dashboard.grid.tf/)</button>
-<button>[Test the New UI](https://next.dashboard.grid.tf/)</button>
+<button>[Visit the Dashboard](https://next.dashboard.grid.tf/)</button>
 
 {% end %}
-
-
 
 <!-- section 5 -->
 
