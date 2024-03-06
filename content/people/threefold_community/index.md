@@ -1,6 +1,6 @@
 ---
 title: ThreeFold Community
-weight: 0
+weight: 200
 description: Together we build!
 taxonomies:
     people: [threefold_community]
