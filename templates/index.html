@@ -3,7 +3,7 @@
 
 <!-- home page template, has a banner and rows of page summaries -->
 <div>
-    {% set page = get_page(path="home.md") %}
+    {% set page = get_page(path="home/index.md") %}
     {{page.content | safe}}
 </div>
 {% endblock content %}
