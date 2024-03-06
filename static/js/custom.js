@@ -141,6 +141,9 @@ window.onload = function () {
       handleClick(button);
     });
   });
+
+  document.getElementById("filter-btn").addEventListener('click', toggleFilter);
+  document.getElementById("mobile-learn-btn").addEventListener('click', toggleMenu);
 };
 
 function openInNewTab(url) {
