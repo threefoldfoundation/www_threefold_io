@@ -53,10 +53,14 @@ ThreeFold has developed extensive technology and tools for developers and system
 ### Core Partners
 ## **Building with ThreeFold in 2024**
 
+<br>
+
+Meet the projects with whom we are working closely this year to drive utilization on top of the ThreeFold Grid. Each of these projects alone has the potential to use up all of ThreeFold's existing capacity – and the team is preparing methods for the grid to scale quickly.
+
 {% end %}
 
 
-{% row( style="centerItem") %}
+{% row( style="centerItem mtop") %}
 
 <div class="my-2 lg:my-6">
 
@@ -68,10 +72,12 @@ ThreeFold has developed extensive technology and tools for developers and system
 
 <br>
 
-#### Blockchain
+#### Scaling Bitcoin
 <!-- ### <span class="blue">**Social Network**</span> -->
 
-The ThreeFold Grid is operating as a backbone for Earth Staking’s recently launched Social Network, the first decentralized Bitcoin Staking Layer 2 on Earth. Our Cloud infrastructure offers a robust, low-level decentralized framework, perfectly suited to empower Earth Staking’s vision of improving the accessibility, security, scalability, reliability, and energy efficiency of the Bitcoin Network. [Visit](https://www.social.network/en)
+<br>
+
+Bitcoin is the clear leader when it comes to the "future of money," but the network faces key challenges like scalability, reliability, and energy efficiency, the same as all blockchains. We have known the team behind Earth Staking's Social Network, launched February 2024, for some years now. We decided to come together to tackle these issues together. [Visit](https://www.social.network/en)
 
 </div>
 
@@ -89,10 +95,12 @@ The ThreeFold Grid is operating as a backbone for Earth Staking’s recently lau
 
 <br>
 
-#### Government
+#### A Sovereign Economic Zone
 <!-- ### <span class="blue">**OurWorld Free Zone**</span> -->
 
-OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar and OurWorld Venture Creator, and is powered by the ThreeFold Grid. It is the world’s first digital freezone, a special economic zone that brings together some unparalleled regulatory benefits. [Visit](https://freezone.ourworld.tf/)
+<br>
+
+Imagine an entrepreneur, digital nomad, or any company can obtain a digital company license, a bank account supporting both fiat and cryptocurrencies, and handle their legal requirements and taxes – all within a single streamlined platform. In July 2023, Dr. Hussein Ali Mwinyi, President of Zanzibar, spoke at a summit hosted by ThreeFold to announce the OurWorld Digital Free Zone, which will do just that. In 2024, the free zone will come alive, with ThreeFold as the underlying infrastructure. [Visit](https://freezone.ourworld.tf/)
 
 </div>
 
@@ -113,10 +121,12 @@ OurWorld Digital Free Zone is a collaboration between the Government of Zanzibar
 
 <br>
 
-#### Government
+#### A Sovereign Internet, By and For Tanzania
 <!-- ### <span class="blue">**ICT Commission (TZ)**</span> -->
 
-We have partnered with the Tanzanian government and ICT Commission to implement decentralized autonomous cloud & Internet infrastructure across Tanzania. Providing compute, storage and network locally, we can enable Tanzania to create a self-reliant sovereign digital ecosystem for a better digital future. [Visit](https://www.ictc.go.tz/)
+<br>
+
+Most countries do not own their own Internets, they have cables to other richer countries, where the infrastructure resides. Because of this, they lose numerous benefits. In a world where data is becoming increasingly valuable, data stays outside of the country. Digital sovereignty is inexistent. And economic gains are lost. Together with the ICT Commission of Tanzania, we will create a sovereign cloud & Internet infrastructure, along with coding academies and innovation centers to empower a self-reliant digital ecosystem for Tanzania and East Africa. [Visit](https://www.ictc.go.tz/)
 
 </div>
 
@@ -134,10 +144,12 @@ We have partnered with the Tanzanian government and ICT Commission to implement 
 
 <br>
 
-#### Education
+#### Education For All
 <!-- ### <span class="blue">**Sikana**</span> -->
 
-Later this year (H2 2024), ThreeFold's decentralized autonomous cloud infrastructure will power Sikana, a non-profit organization working to equip people with practical skills through free educational video programs. [Visit](https://www.sikana.tv/en)
+<br>
+
+Sikana has delivered over 400,000,000 lessons via free and practical educational videos and video programming but because of this incredible scale, they struggled massively to pay for hosting costs. Together with ThreeFold, Sikana will enable the creation of local content in local languages and on top of local infrastructure – empowering people and communities with knowledge and power. [Visit](https://www.sikana.tv/en)
 
 </div>
 
@@ -156,10 +168,12 @@ Later this year (H2 2024), ThreeFold's decentralized autonomous cloud infrastruc
 </div>
 <br>
 
-#### Metaverse
+#### Own Your Metaverse
 <!-- ### <span class="blue">**VeVerse**</span> -->
 
-VeVerse provides a platform bridging virtual worlds, digital assets, and people, empowering artists, museums, and game developers to construct captivating environments where users can explore, play, and connect. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. [Visit](https://veverse.com/) 
+<br>
+
+We met the founder of VeVerse several years ago, who had the vision to democratize access to art globally through metaverse technology. Together we agreed that we would work to turn that vision into reality in a fair and just way. Now in 2024, we plan to bring VeVerse on top of the ThreeFold Grid. [Visit](https://veverse.com/) 
 
 </div>
 
@@ -176,10 +190,12 @@ VeVerse provides a platform bridging virtual worlds, digital assets, and people,
 </div>
 <br>
 
-#### Metaverse
+#### Metaverse Meets Edge Cloud
 <!-- ### <span class="blue">**VVerse**</span> -->
 
-VVerse is a next-generation sociality and entertainment platform linking users, creators, and businesses in a virtual 3D world. Our Edge Cloud facilitates the metaverse’s unique requirements providing low latency, scalability, security and bandwidth optimization. [Visit](https://www.vverse.co/) 
+<br>
+
+VVerse (not to be confused with VeVerse) is probably one of the most capable metaverse technologies ever made. The ThreeFold Grid will be used to render in the cloud and use low-latency connection to stream VVerse's virtual environments with video-like guality. A tremendous amount of capacity is required in order to roll out this metaverse. [Visit](https://www.vverse.co/) 
 
 </div>
 
