@@ -11,7 +11,7 @@ jobs:
     - name: pushing latest change on www2.threefold.io
       uses: appleboy/ssh-action@master
       with:
-        host: www2.threefold.io
+        host: dev.threefold.io
         username: webuser
         key: ${{ secrets.TF_SECRET }}
         port: 34022
@@ -20,5 +20,5 @@ jobs:
           git log -1
           git fetch
           git reset --hard origin/development
-          sed -i "s/https:\/\/www.threefold.io/https:\/\/www2.threefold.io/g" config.toml
+          sed -i "s/https:\/\/www.threefold.io/https:\/\/dev.threefold.io/g" config.toml
           ./build.sh
