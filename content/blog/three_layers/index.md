@@ -10,6 +10,7 @@ taxonomies:
     categories: [foundation]
 extra:
     imgPath: three_layers.png
+    isFeatured: true
 ---
 
 The Internet is complex and multi-layered, touching virtually every aspect of our modern lives. At its core, it comprises three essential layers: compute & storage, network, and application. Understanding these components is key to grasping how digital information is processed, stored, and accessed across the globe.

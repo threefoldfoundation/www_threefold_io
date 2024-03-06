@@ -1,6 +1,6 @@
 ---
 id: duniayetulaunchdar
-title: 🇹🇿 Dunia Yetu Launches in Dar Es Salaam
+title: 🇹🇿 ThreeFold Announces a Sovereign Internet for Tanzania
 image_caption: Dunia Yetu launch in Dar
 description: Dunia Yetu Formally Announced in Dar Es Salaam, in partnership with Tanzania's ICT Commission and Holochain founder, Arthur Brock.  
 date: 2024-01-29
@@ -10,6 +10,7 @@ taxonomies:
     news-category: [foundation]
 extra:
     imgPath: duniayetulaunchdar.png
+    isFeatured: true
 ---
 
 Recently we formally announced Dunia Yetu, in collaboration with the ICT Commission of Tanzania and Arthur Brock, the founder of Holochain. 

@@ -10,6 +10,7 @@ taxonomies:
     categories: [foundation]
 extra:
     imgPath: threefold_cooperative.png
+    isFeatured: true
 ---
 
 In the next phase of ThreeFold, we are focused on utilization and commercialization. With this comes a requirement for our project to establish reliable and trusted systems that allow anyone to enter the ecosystem with confidence.
