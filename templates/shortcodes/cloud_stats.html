@@ -1,0 +1,174 @@
+{% set data = load_data(url="https://gridproxy.grid.tf/stats?status=up", required=false, format="json") %}
+{% if data %}
+  {% set capacity = (data.totalHru + data.totalSru) / 1024 / 1024 / 1024 / 1024 / 1024 %}
+  {% set nodes = data.nodes %}
+  {% set countries = data.countries %}
+  {% set cores = data.totalCru %}
+{% endif %}
+
+{% if data %}
+<div class="lg:py-24 py-10 sm:pt-10">
+  <div class="mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="lg:max-w-xl mx-auto text-center">
+      <h2 class="
+            
+          lg:text-6xl
+          text-center
+          capitalize
+          my-2
+          leading-none
+          font-light 
+        
+          ">
+        A Global Edge <br><span class="font-medium"> Infrastructure</span>
+      </h2>
+    </div>
+  </div>
+  <div class="mt-10 pb-12 sm:pb-16">
+    <div class="relative">
+      <div class="absolute inset-0 h-1/2"></div>
+      <div class="relative mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-8xl mx-auto">
+          <dl class="rounded-lg bg-white sm:grid sm:grid-cols-4">
+            <div class="
+                  flex flex-col
+                  border-b border-gray-400
+                  p-6
+                  text-center
+                  sm:border-0 sm:border-r
+                ">
+              <dt class="
+                    order-2
+                    mt-2
+                    text-2xl
+                    leading-6
+                    font-medium
+                    text-gray-900
+                    uppercase
+                  " id="item-1">
+                Nodes
+              </dt>
+              <dd class="
+                    order-1
+                    text-5xl
+                    leading-none
+                    font-extrabold
+                    text-black
+                    mb-4
+                  " aria-describedby="item-1">
+                {{ nodes }}
+              </dd>
+            </div>
+            <div class="
+                  flex flex-col
+                  border-t border-b border-gray-400
+                  p-6
+                  text-center
+                  sm:border-0 sm:border-l sm:border-r
+                ">
+              <dt class="
+                    order-2
+                    mt-2
+                    text-2xl
+                    leading-6
+                    font-medium
+                    text-gray-900
+                    uppercase
+                  ">
+                Capacity
+              </dt>
+              <dd class="
+                    order-1
+                    text-5xl
+                    leading-none
+                    font-extrabold
+                    text-black
+                    mb-4
+                  ">
+                {{ capacity | round(precision=2) }}PB
+              </dd>
+            </div>
+            <div class="
+                  flex flex-col
+                  border-t border-gray-400
+                  p-6
+                  text-center
+                  sm:border-0 sm:border-l
+                ">
+              <dt class="
+                    order-2
+                    mt-2
+                    text-2xl
+                    leading-6
+                    font-medium
+                    text-gray-900
+                    uppercase
+                  ">
+                Cores
+              </dt>
+              <dd class="
+                    order-1
+                    text-5xl
+                    leading-none
+                    font-extrabold
+                    text-black
+                    mb-4
+                  ">
+                {{ cores | num_format }}
+              </dd>
+            </div>
+            <div class="
+                  flex flex-col
+                  border-t border-gray-400
+                  p-6
+                  text-center
+                  sm:border-0 sm:border-l
+                ">
+              <dt class="
+                    order-2
+                    mt-2
+                    text-2xl
+                    leading-6
+                    font-medium
+                    text-gray-900
+                    uppercase
+                  ">
+                Countries
+              </dt>
+              <dd class="
+                    order-1
+                    text-5xl
+                    leading-none
+                    font-extrabold
+                    text-black
+                    mb-4
+                  ">
+                {{ countries }}
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block text-center mt-5">
+    <a target="_blank" href="https://explorer.threefold.io/all" class="
+          inline-block
+            bg-white
+            text-lg
+            learn-button
+            text-gray-700
+            hover:text-gray-500
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
+            shadow
+            border-black
+        ">Explore Capacity</a>
+  </div>
+</div>
+{% endif %}

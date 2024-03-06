@@ -1,0 +1,165 @@
+{% set cloudiBase = 'https://res.cloudinary.com/brycewray-com/image/upload/' %}
+{% set xFmPart1 = 'f_auto,q_auto:eco,w_' %}
+{% set xFmPart2 = ',x_0,z_1/' %}
+{% set fallbackImg = 'typewriter-monochrome_2242164_6260x4374.jpg' %}
+{% set zolaVer = '0.13.0' %}
+<head>
+    <link rel="icon" type="image/x-icon" href="{{ get_url(path='images/icons/favicon.png')}}">
+    {% block title %}
+    <title>{{ config.title }}</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ config.base_url }}">
+    {% if section.title %}
+    <title>{{ section.title }}</title>
+    <meta property="og:title" content="{{ section.title }}">
+    {% elif page.title %}
+    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}">
+    {%endif%}
+
+  {%if section.extra.imgPath %}
+    <meta name="image" content="{{section.permalink}}{{ section.extra.imgPath }}">
+    <meta property="og:image" content="{{section.permalink}}{{ section.extra.imgPath }}">
+    <meta property="twitter:image" content="{{section.permalink}}{{ section.extra.imgPath }}">
+    {% elif page.extra.imgPath %}
+    <meta name="image" content="{{page.permalink}}{{ page.extra.imgPath }}">
+    <meta property="og:image" content="{{page.permalink}}{{ page.extra.imgPath }}">
+    <meta property="twitter:image" content="{{page.permalink}}{{ page.extra.imgPath }}">
+    {%endif%}
+  
+  {%if section.description%}
+    <meta name="description" content="{{ section.description }}">
+    <meta property="og:description" content="{{ section.description }}">
+    <meta property="twitter:description" content="{{ section.description }}">
+    {%elif page.description%}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="twitter:description" content="{{ page.description }}">
+    {%endif%}
+    <meta name="twitter:card" content="summary">
+    {% endblock title %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
+    <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+    <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function () {
+      cookieconsent.run({ "notice_banner_type": "headline", "consent_type": "express", "palette": "light", "language": "en", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "website_name": "https://threefold.io/", "website_privacy_policy_url": "https://library.threefold.me/info/legal/#/legal__privacypolicy" });
+    });
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N7PNMFH');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-100065546-1');
+    </script>
+    <!-- Matomo Tag Manager -->
+    <script>
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({ 'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start' });
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = 'https://analytics.threefold.io/js/container_KIcuIdn4.js'; s.parentNode.insertBefore(g, s);
+    </script>
+    <!-- End Matomo Tag Manager -->
+    <!-- Crisp -->
+    <script type="text/plain" cookie-consent="tracking">
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "1a5a5241-91cb-4a41-8323-5ba5ec574da0";
+    (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+    </script>
+    <!-- Crisp without cookies -->
+    <!-- <script type="text/javascript" cookie-consent="tracking">
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "1a5a5241-91cb-4a41-8323-5ba5ec574da0";
+    (function () {
+      d = document;
+      s = d.createElement("script");
+      s.src = "https://client.crisp.chat/l.js";
+      s.async = 1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  </script> -->
+    <!-- end of Crisp-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- **** BEGINNING, favicons **** -->
+    <!-- generics -->
+    <!-- iOS -->
+    <!-- Android -->
+    <!-- Windows 8, IE 10 -->
+    <!-- Windows 8.1 and up, IE 11 -->
+    <!-- **** CONCLUSION, favicons **** -->
+    <!-- CSS/SCSS -->
+    <link rel="stylesheet" href="{{ get_url(path='css/index.css', trailing_slash=false, cachebust=true) | safe }}">
+    <style>
+    .space-x-10>:not([hidden])~:not([hidden]){
+      margin-left: calc(1.5rem*calc(1 - var(--tw-space-x-reverse)))!important;
+    }
+    @-moz-document url-prefix() {
+      .lazy:-moz-loading {
+        visibility: hidden;
+      }
+    }
+
+    .ieOnly {
+      display: none;
+    }
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+      .ieOnly {
+        display: block;
+      }
+    }
+  @media (min-width: 640px){
+      .sm\:space-x-4>:not([hidden])~:not([hidden]){
+      margin-left: calc(2rem*calc(1 - var(--tw-space-x-reverse)))!important;
+      }
+  }
+    </style>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62556aac80366d0019fc1af2&product=sop" async="async"></script>
+    <!-- MailerLite Universal -->
+    <script>
+    (function (m, a, i, l, e, r) {
+      m['MailerLiteObject'] = e; function f() {
+        var c = { a: arguments, q: [] }; var r = this.push(c); return "number" != typeof r ? r : f.bind(c.q);
+      }
+      f.q = f.q || []; m[e] = m[e] || f.bind(f.q); m[e].q = m[e].q || f.q; r = a.createElement(i);
+      var _ = a.getElementsByTagName(i)[0]; r.async = 1; r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+      _.parentNode.insertBefore(r, _);
+    })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+    var ml_account = ml('accounts', '1778010', 'x2d3d9f8n1', 'load');
+  </script>
+  <!-- End MailerLite Universal -->
+  <!-- RSS feed -->
+  {% block rss %}
+  <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="{{ get_url(path='atom.xml', trailing_slash=false) }}"
+  >
+  {% endblock %}
+</head>

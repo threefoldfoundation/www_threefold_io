@@ -1,0 +1,184 @@
+<!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+<!-- This fixes link paths in prod -->
+
+{% if page %}
+    {% if "](" in body %}
+
+    {% set body_arr = body | split(pat="](") %}
+    {% set body = body_arr[0] %}
+        {% for i in body_arr %}
+            {% set prev_index = loop.index0 - 1 %}
+            {% if not loop.first %}
+            {% if "![" in body_arr[prev_index] %}
+                {% set_global body = body ~ '](' ~ page.permalink ~ i %}
+            {% else %}
+                {% if i is not starting_with("http") %}
+                    {% set base_url = get_url(path="") %}
+                    {% set_global body = body ~ '](' ~ base_url ~ i %}
+                {% else %}
+                    {% set_global body = body ~ '](' ~ i %}
+                {% endif %}
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+    
+{% endif %}
+
+<!-- makes external links in row open in new tabs-->
+{% set body = body | markdown | replace(from='href="', to='target="_blank" href="') | safe %}
+{% set base_url = get_url(path="")%}
+{% set body = body | markdown | replace(from='target="_blank" href="' ~ base_url , to='href="' ~ base_url) | safe %}
+
+<!-- Splits body to columns -->
+{% set columns = body | safe | markdown | split(pat="|||") %}
+{% set row_class =  "relative lg:p-4 p-1 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row"%}
+
+<!-- aligns columns depending on col number-->
+{% if 2 < columns | length %}
+    {% set row_class = row_class ~ " lg:items-start" %}
+{% else %} 
+    {% set row_class = row_class ~ " lg:items-center" %}
+{% endif %}
+
+{% set col_class = "flex-1 mb-6 md:mb-0 px-4 md:px-12" %}
+{% set row_id = '' %}
+
+{% if id %}
+{% set row_id = id %}
+
+{% endif %}
+
+
+{% if style %}
+
+{% if "centerItem" in style %}
+{% set row_class = "flex flex-col md:flex-row items-start" %}
+{% endif %}
+
+ <!-- reverse col at mobile -->
+
+ {% if "reverse" in style %}
+ {% set row_class = "flex flex-col-reverse md:flex-row items-center" %}
+ {% endif %}
+
+    {% if "center" in style %}
+        {% set row_class = row_class ~ " text-center mx-auto justify-center" %}
+        {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
+    {% endif %}
+
+    {% if "text-white" in style %}
+    {% set row_class = row_class ~ " text-white" %}
+    {% endif %}
+
+    <!-- makes row with margins -->
+    {% if "margin" in style %}
+        {% set row_class = row_class ~ " lg:py-24 py-10" %}
+        {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
+    {% endif %}
+
+    <!-- makes row with margins -->
+    {% if "header" in style %}
+        {% set row_class = row_class ~ " h-auto md:h-screen mt-4 lg:mt-0" %}
+        {% set col_class = col_class ~ " m-4 lg:m-0" %}
+    {% endif %}
+
+    {% if "mtop" in style %}
+        {% set row_class = row_class ~ " lg:pt-24 pt-2" %}
+        {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
+    {% endif %}
+
+    {% if "mbottom" in style %}
+        {% set row_class = row_class ~ " lg:pb-24" %}
+        {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
+    {% endif %}
+
+    <!-- makes row full screen width, strips margins -->
+    {% if "lean" in style %}
+        {% set row_class = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+        {% set col_class = "flex-1 m-4 lg:m-0" %}
+    {% endif %}
+
+     <!-- makes row semi-full screen width, strips margins -->
+     {% if "between" in style %}
+     {% set row_class = row_class ~ " lg:max-w-6xl lg:mx-auto mx-4" %}
+ {% elif "moderate" in style %}
+     {% set row_class = row_class ~ " lg:m-20" %}
+ {% endif %}
+
+        <!-- makes row full screen width, strips margins -->
+    {% if "narrow" in style %}
+        {% set row_class = row_class ~ " lg:max-w-4xl mx-auto" %}
+    {% elif "moderate" in style %}
+        {% set row_class = row_class ~ " lg:m-20" %}
+    {% endif %}
+
+    {% if "semiNarrow" in style %}
+     {% set row_class = row_class ~ " lg:px-20 mx-auto" %}
+ {% elif "moderate" in style %}
+     {% set row_class = row_class ~ " lg:m-20" %}
+ {% endif %}
+
+{% endif %}
+
+<!-- makes row full screen width and adds background img -->
+{% set styles = ""  %}
+{% if bgPath %}
+    {% set background_url = page.permalink ~ bgPath %}
+    {% set styles = "background: url('" ~ background_url ~ "'); background-size: cover; background-position: bottom;"  %}
+    {% set row_class = row_class ~ "w-screen sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+{% endif %}
+{% if bgColor %}
+    {% set styles = "background-color: " ~ bgColor ~ "; background-size: cover"  %}
+    {% set row_class = row_class ~ " w-auto -mx-4 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+{% endif %}
+{% if gradient %}
+    {% set styles = "background: " ~ gradient ~ "; background-size: cover"  %}
+    {% set row_class = row_class ~ " w-auto -mx-4 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+{% endif %}
+{% if bgStyle %}
+        {% if "full" in bgStyle %}
+            {% set styles = styles ~ "height: -webkit-fill-available; height: 100vh;"  %}
+        {% elif "hero" in bgStyle %}
+            {% set div_class = div_class ~ " -mt-24 pt-12 " %}
+        {% endif %}
+    {% endif %}
+
+{% set url = body | split(pat="href=") | slice(start=1) | first | split(pat=">") | first | trim_start_matches(pat='"') %}
+
+<div class="{{row_class}}" style="{{styles}}" id="{{row_id}}">
+
+    {% for column in columns %} 
+    
+        <!-- Hides empty columns if displayed vertically in small screen -->
+        {% if column | as_str | length < 10 %} 
+            <div class="hidden md:block flex-1 md:mb-0 md:mx-8 sm:flex-1">
+                {{ column | safe }}
+            </div>
+
+        {% else %}
+            <div class="{{col_class}}">
+                <!-- handles mermaid markdown content display -->
+                {% if "{% mermaid() %}" in column %}
+                    {% set mermaid_section = column | safe | markdown | split(pat="{% mermaid() %}") %}
+                    {% set mermaid_content = mermaid_section[1] | striptags | replace(from="–", to="--")%}
+                    <div class="mermaid">
+                        {{mermaid_content | safe }}
+                    </div>
+                {% else %}
+                    {{ column | safe }}
+                {% endif %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
