@@ -2,17 +2,17 @@
 {% block content %}
 {%- set section = get_section(path="people/_index.md") %}
 {% include "partials/intro.html" %}
-<div class="container mx-auto">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
     {% include "partials/filter_bar.html" %}
     <div class="text-center main-title px-0 md:w-full">
-        <h1 class="tracking-tight text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl fw-500 leading-snug font-normal mb-10">
+        {# <h1 class="tracking-tight text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl fw-500 leading-snug font-normal mb-10">
             {% set path_array = current_path | split(pat="/") %}
       {% set taxonomy = path_array[1] %}
       {% set category = path_array[2] %}
         {{category | replace(from='-', to=' ' ) | title}}
-        </h1>
+        </h1> #}
         <div>
-            <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-2 xl:grid-cols-4 lg:max-w-none">
+            <div class="text-center mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
                 {% for person in section.pages %} 
             {% set page_path = person.path ~ 'index.md' | replace(from='-', to='_') | trim_start_matches(pat="/") %}
             {% set people = get_section(path="people/_index.md") %}
