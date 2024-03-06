@@ -3,6 +3,7 @@
 {% endif %}
 
 <div class="flex space-x-4">
+{%if section.extra.socialLinks%}
     {% for key, link in section.extra.socialLinks %}
 
         <a href="{{link}}" target="_blank" class="text-gray-400 hover:text-gray-500">
@@ -27,5 +28,6 @@
         </a>
 
     {% endfor %}
+{%endif%}
 
   </div>
