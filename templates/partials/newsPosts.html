@@ -7,7 +7,7 @@
   {% set path_array = current_path | split(pat="/") %}
   {% set taxonomy = path_array[1] %}
   {% set category = path_array[2] %}
-    The Latest from ThreeFold   
+    News and updates from the ecosystem    
     {% if taxonomy == "news-category" %} - 
         {{category | replace(from='-', to=' ' ) | title}}
     {% endif %}
