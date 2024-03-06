@@ -34,13 +34,48 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 
 ## How It Works
 
-Join the world’s biggest decentralized autonomous cloud network in four easy steps.
+Three simple steps enabling anyone to become a cloud service provider.
+
+{% end %}
+
+{% row(style="center between") %}
+
+![Image](step1.png#mx-auto)
+
+#### Step 1
+### Host a Node
+
+<br>
+
+All you need to get started is a modern computer, electricity and network. Once booted with Zero OS, a computer becomes a ThreeFold Node.
+
+|||
+
+![Image](step2.png#mx-auto)
+
+#### Step 2
+### Offer Capacity
+
+<br>
+
+The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized autonomous cloud for users and communities.
+
+|||
+
+![Image](step3.png#mx-auto)
+
+#### Step 3
+### Earn Rewards
+
+<br>
+
+After your node is set up and verified, you’ll be rewarded for the capacity that you provide to the ThreeFold Grid.
 
 {% end %}
 
 {% row(style="center between mbottom") %}
 
-![Image](how_it_works.png#mx-auto)
+<button>[Dive Deeper](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
 
 {% end %}
 
