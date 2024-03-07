@@ -26,7 +26,7 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 |||
 
-![Image](header_new.jpeg)
+![Image](header_new.png#)
 
 {% end %}
 
@@ -45,11 +45,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 {% end %}
 
-
-
-
 <!-- section 3 (3Node) -->
-
 
 {% row(style="reverse margin") %}
 
@@ -64,9 +60,6 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 ![Image](node_home.png#mx-auto)
 
 {% end %}
-
-
-
 
 <!-- section 4 (Partners) -->
 
