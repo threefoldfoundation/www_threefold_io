@@ -110,7 +110,7 @@ Visit the linked library pages to find detailed step-by-step guides for all meth
 
 ## What’s next for TFT
 
-One of our key objectives is to make TFT more accessible. Already, there are many options to [buy and sell TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html) – like [gettft.com](https://gettft.com/) or Stellar’s DEX, and more coming soon. We’re also exploring the feasibility and synergies for a meaningful partnership with Algorand – including making TFT available on Algorand order books. 
+One of our key objectives is to make TFT more accessible. Already, there are many options to [buy and sell TFT](https://www.manual.grid.tf/documentation/threefold_token/buy_sell_tft/tft_lobstr/tft_lobstr_short_guide.html) – like [gettft.com](https://gettft.com/) or Stellar’s DEX, and more coming soon. We’re also exploring the feasibility and synergies for a meaningful partnership with Algorand – including making TFT available on Algorand order books. 
 
 <br/>
 

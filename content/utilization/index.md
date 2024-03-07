@@ -34,8 +34,8 @@ ThreeFold has developed extensive technology and tools for developers and system
 
 <br>
 
-<button>[Developers Documentation](https://manual.grid.tf/developers/developers.html)</button>
-<button>[Sysadmins Documentation](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
+<button>[Developers Documentation](https://www.manual.grid.tf/documentation/developers/developers.html)</button>
+<button>[Sysadmins Documentation](https://www.manual.grid.tf/documentation/system_administrators/system_administrators.html)</button>
 
 |||
 
