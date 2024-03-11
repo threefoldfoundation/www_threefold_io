@@ -4,7 +4,7 @@ weight: 200
 description: Together we build!
 taxonomies:
     people: [threefold_community]
-    memberships: [foundation]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: threefold_community.png

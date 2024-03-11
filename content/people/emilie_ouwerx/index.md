@@ -4,7 +4,7 @@ weight: 3
 description: Emilie is interested in examining the ways in which digital technologies can amplify existing economic, social, and global inequalities and theorising regulatory solutions.
 taxonomies:
     people: [emilie_ouwerx]
-    memberships: [foundation]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: emilie_ouwerx.jpeg
