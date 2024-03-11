@@ -4,7 +4,7 @@ weight: 3
 description: Passionate, Outgoing and Enthusiast 
 taxonomies:
     people: [bernadette_amanda_caster]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: bernadette_amanda_caster.jpg

@@ -4,8 +4,8 @@ weight: 1
 description: Organisational and Ecosystem Strategy
 taxonomies:
     people: [sacha_obeegadoo]
-    memberships: [foundation, twin, aci_members]
-    categories: [foundation, twin, aci]
+    memberships: [team]
+    categories: [foundation]
 extra:
     imgPath: sacha_obeegadoo.jpg
     organizations: [threefold_foundation, twin, aci]

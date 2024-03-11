@@ -4,7 +4,7 @@ weight: 2
 description: Currently serving by coordinating with people on particular projects, always having the most productive and playful outcomes for the Highest Good of all in mind and heart.
 taxonomies:
     people: [karoline_zizka]
-    memberships: [foundation]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: karoline_zizka.jpeg

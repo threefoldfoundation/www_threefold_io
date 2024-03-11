@@ -4,7 +4,7 @@ weight: 2
 description: Product Manager with a passion in blockchain, sustainability, and decentralization
 taxonomies:
     people: [sasha_astiadi]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: sasha_astiadi.png

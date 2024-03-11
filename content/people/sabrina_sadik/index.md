@@ -4,8 +4,8 @@ weight: 2
 description: Sabrina is a jack of all trades when it comes to ThreeFold.
 taxonomies:
     people: [sabrina_sadik]
-    memberships: [foundation, tech, grid_guardians]
-    categories: [foundation, farming]
+    memberships: [team]
+    categories: [foundation]
 extra:
     imgPath: sabrina_sadik.jpg
     organizations: [threefold_foundation, threefold_tech]

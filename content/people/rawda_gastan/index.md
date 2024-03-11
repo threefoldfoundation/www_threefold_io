@@ -4,7 +4,7 @@ weight: 4
 description: I am a software engineer, always looking for new opportunties and ways to improve.
 taxonomies:
     people: [rawda_gastan]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: rawda_gastan.jpg

@@ -4,7 +4,7 @@ weight: 1
 description: Techie at heart, having lived professionally in the tech basements of the Internet.
 taxonomies:
     people: [jan_de_landtsheer]
-    memberships: [foundation, tech, technology_council]
+    memberships: [eam]
     categories: [foundation]
 extra:
     imgPath: jan_de_landtsheer.jpeg

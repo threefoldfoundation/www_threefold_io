@@ -4,7 +4,7 @@ weight: 4
 description: Contributing to define a new truly decentralized internet where you are not the product.
 taxonomies:
     people: [erwan_renaut]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: erwan_renaut.jpeg

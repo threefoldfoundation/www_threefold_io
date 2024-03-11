@@ -4,8 +4,8 @@ weight: 2
 description: The vision is always the same - to enact individual actions that address global challenges.
 taxonomies:
     people: [florian_fournier]
-    memberships: [foundation, partners, aci_members, wisdom_council]
-    categories: [foundation, aci]
+    memberships: [team]
+    categories: [foundation]
 extra:
     imgPath: florian_fournier.jpeg
     organizations: [ootopia, threefold_foundation]

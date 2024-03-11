@@ -4,7 +4,7 @@ weight: 4
 description: Software Test Engineer with a passion for learning and exploring.
 taxonomies:
     people: [mohamed_amer]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: mohamed_amer.jpg

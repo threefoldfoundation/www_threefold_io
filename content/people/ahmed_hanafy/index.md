@@ -4,7 +4,7 @@ weight: 4
 description: Ahmed is an Automation Software Testing Engineer, started his career at Codescalers.
 taxonomies:
     people: [ahmed_hanafy]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: ahmed_hanafy.png

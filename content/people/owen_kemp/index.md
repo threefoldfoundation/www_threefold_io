@@ -4,7 +4,7 @@ weight: 1
 description: I am an optimist and love doing things differently than the norm.
 taxonomies:
     people: [owen_kemp]
-    memberships: [tech, cofounders, wisdom_council, foundation]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: owen_kemp.jpeg

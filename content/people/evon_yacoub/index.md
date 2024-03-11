@@ -4,7 +4,7 @@ weight: 5
 description: Experienced Office Manager with a demonstrated history of working in IT industry.
 taxonomies:
     people: [evon_yacoub]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: evon_yacoub.jpg
