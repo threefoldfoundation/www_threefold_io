@@ -4,8 +4,8 @@ weight: 0
 description: Nerd engineer, humanist & motivated entrepreneur.
 taxonomies:
     people: [kristof_de_spiegeleer]
-    memberships: [farmers, foundation, tech, cofounders, aci_members, wisdom_council, technology_council]
-    categories: [foundation, aci, cloud, farming, twin]
+    memberships: [team]
+    categories: [foundation]
 extra:
     imgPath: kristof_de_spiegeleer.jpeg
     organizations: [threefold_foundation, threefold_tech]

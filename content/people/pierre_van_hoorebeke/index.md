@@ -4,7 +4,7 @@ weight: 2
 description: Experienced business lawyer, assisting founders, investors and private companies on corporate, commercial and IP matters.
 taxonomies:
     people: [pierre_van_hoorebeke]
-    memberships: [tech, foundation]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: pierre_van_hoorebeke.png

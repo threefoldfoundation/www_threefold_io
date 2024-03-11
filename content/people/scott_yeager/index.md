@@ -4,7 +4,7 @@ weight: 2
 description: Technology nerd and cross discipline creator.
 taxonomies:
     people: [scott_yeager]
-    memberships: [foundation]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: scott_yeager.jpg

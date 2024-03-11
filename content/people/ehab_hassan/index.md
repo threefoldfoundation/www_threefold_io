@@ -4,7 +4,7 @@ weight: 3
 description: Positive person in every aspect of life.
 taxonomies:
     people: [ehab_hassan]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: ehab_hassan.jpg

@@ -4,7 +4,7 @@ weight: 4
 description: Ahmed is a passionate software test engineer with experience in software testing and automation ....
 taxonomies:
     people: [ahmed_harby]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: ahmed_harby.jpg

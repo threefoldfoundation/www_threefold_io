@@ -4,7 +4,7 @@ weight: 2
 description: Wants to build beautiful applications that don't invade user privacy.
 taxonomies:
     people: [ahmed_thabet]
-    memberships: [tech, foundation, technology_council]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: ahmed_thabet.jpg

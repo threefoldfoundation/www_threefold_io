@@ -4,7 +4,7 @@ weight: 5
 description: Sameh is a passionate software engineer with a talent for problem-solving and an unwavering commitment to quality.
 taxonomies:
     people: [sameh_abouelsaad]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: sameh_abouelsaad.jpg

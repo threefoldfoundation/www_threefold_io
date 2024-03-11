@@ -4,7 +4,7 @@ weight: 4
 description: Software Engineer.
 taxonomies:
     people: [omar_kassem]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: omar_kassem.jpg

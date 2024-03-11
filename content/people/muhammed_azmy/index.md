@@ -4,7 +4,7 @@ weight: 4
 description: Senior Software Engineer at ThreeFold Tech
 taxonomies:
     people: [muhammed_azmy]
-    memberships: [tech, technology_council]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: muhamed_amzy.png

@@ -5,8 +5,8 @@ description: Let's co-create a better future for humanity and for our planet.
 taxonomies:
 
     people: [sam_taggart]
-    memberships: [foundation, twin, aci_members]
-    categories: [foundation, twin, aci]
+    memberships: [team]
+    categories: [foundation]
 
 extra:
 

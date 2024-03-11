@@ -4,7 +4,7 @@ weight: 2
 description: Nayer is a passionate about people’s development, and that we can be the change we want to see.
 taxonomies:
     people: [nayer_sobhy]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: nayer_sobhy.jpg

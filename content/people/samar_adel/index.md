@@ -4,7 +4,7 @@ weight: 2
 description: I believe in a world where everyone can be happy.
 taxonomies:
     people: [samar_adel]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: samar_adel.jpg

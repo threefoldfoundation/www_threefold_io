@@ -4,7 +4,7 @@ weight: 4
 description: Software Engineer
 taxonomies:
     people: [zainab_elgohary]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: zainab_elgohary.jpeg

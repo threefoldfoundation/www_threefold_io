@@ -4,7 +4,7 @@ weight: 4
 description: A software engineer, Golang, Typescript.
 taxonomies:
     people: [omar_abdulaziz]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: omar_abdulaziz.jpg
