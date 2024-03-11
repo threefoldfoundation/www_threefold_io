@@ -141,6 +141,9 @@ window.onload = function () {
       handleClick(button);
     });
   });
+
+  document.getElementById("filter-btn").addEventListener('click', toggleFilter);
+  document.getElementById("mobile-learn-btn").addEventListener('click', toggleMenu);
 };
 
 function openInNewTab(url) {
@@ -163,7 +166,7 @@ const urls = [
   "https://gridproxy.grid.tf/stats?status=up",
   "https://gridproxy.dev.grid.tf/stats?status=up",
   "https://gridproxy.test.grid.tf/stats?status=up",
-  "https://gridproxy.grid.tf/stats?status=standby",
+  "https://gridproxy.bknd1.ninja.tf/stats?status=standby", // will change to mainnet when release
   "https://gridproxy.dev.grid.tf/stats?status=standby",
   "https://gridproxy.test.grid.tf/stats?status=standby",
 ];

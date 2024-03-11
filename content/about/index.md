@@ -1,188 +1,143 @@
 ---
 title: "About"
+description: "About a decade ago, a group of passionate Internet & Cloud veterans came together to build a system." # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"
+extra:
+  author: Your name here
+  imgPath: about/people.png
 ---
 
 <!-- section 1 (header) -->
 
 
-{% row(style="center") %}
+<div class="container mx-auto">
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+{% row(style="header") %}
 
-### **Founded by Internet 1.0 Pioneers**
+![Image](people.png#mx-auto)
 
-About a decade ago, a group of passionate Internet & Cloud veterans came together to build<br>a new foundational layer for a better Internet – more like how the Internet was originally intended.
+|||
 
-<br>
+## Founded by <span class="blue">**Internet 1.0 Pioneers**</span>
 
-#### **30+** Years Experience | **7** Past Exits | **Thousands** of Community Members
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+About a decade ago, a group of passionate Internet & cloud veterans came together to build a system which can grow to a scalable, safe, compatible, and co-owned IT infrastructure.
 
 {% end %}
 
-{% row(style="center narrow mtop") %}
 
-![Image](global.png#medium)
 
-### **Supported by a global community**
 
-Thousands of individuals and organizations are now supporting the ThreeFold ecosystem,<br>by connecting capacity, deploying workloads, holding tokens, and a lot more.
+<!-- section 2  -->
 
-<br>
+{% row( style="center narrow mtop") %}
 
-<button>[Learn how you can participate](/community)</button>
+## **Our Why**
 
-{% end %}
-
-{% row(style="center narrow mtop") %}
-
-![Image](mission.png#medium)
-
-### **Our mission is to empower**
-
-The world needs a safe infrastructure to deploy cutting edge technology, where everyone can take part. We exist to help others to create on top of what the team has built, to enable others to become truly decentralized, and to make it easy for everyone to play their role within this new ecosystem.
-
-<br>
-<br>
-<br>
-<br>
-<br>
+Pioneering a new digital era, ThreeFold empowers communities to reclaim digital sovereignty and promote collective prosperity online.
 
 {% end %}
 
-{% row(style="center narrow mtop") %}
+{% row( style="center semiNarrow") %}
 
-![Image](vision.png#medium)
+<div class="shadow-md border-solid border-2 border-gray-100 rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-### **Our vision is a better digital world**
+![Image](nations.png#mx-auto)
+
+<br>
+
+#### **Empower Nations**
+
+Most countries only rely on cable networks, meaning they lack control over their own digital infrastructure.
+
+
+</div>
+
+|||
+
+<div class="shadow-md border-solid border-2 border-gray-100 rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+![Image](own.png#mx-auto)
+
+<br>
+
+#### **Own Your Data**
+
+Today, most of the cloud is owned and operated by few major companies taking all the profits and control of Internet.
+
+</div>
+
+{% end %}
+
+{% row( style="center semiNarrow mbottom") %}
+
+<div class="shadow-md border-solid border-2 border-gray-100 rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+![Image](human_right.png#mx-auto)
+
+<br>
+
+#### **A Basic Human Right**
+
+Billions of people are being left behind due to the IT landscape’s centralized infrastructure.
+
+</div>
+
+|||
+
+<div class="shadow-md border-solid border-2 border-gray-100 rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+![Image](greener.png#mx-auto)
+
+<br>
+
+#### **A Greener Planet Earth**
+
+Current IT infrastructures consume far too much energy. It's time we do something about it.
+
+</div>
+
+{% end %}
+
+
+</div>
+
+
+<!-- section 3  -->
+
+<div class="bg-gray-200">
+
+<div class="container mx-auto">
+
+{% row( style="centerItem center semiNarrow margin") %}
+
+
+## **Our Mission**
+
+![Image](mission.png#mx-auto)
+
+<br>
+
+#### To Empower Human Potential
+
+The world needs a safe infrastructure to deploy cutting edge technology, where everyone can take part. We exist to make cloud capacity available everywhere on Earth, to help others host and create new digital experiences and to enable true decentralization.
+
+|||
+
+## **Our Vision**
+
+![Image](vision.png#mx-auto)
+
+<br>
+
+#### A Better Digital World
 
 We believe in an Internet where everyone can communicate freely, exchange fairly, access educational information, and own their own data. Our digital experiences should not addict nor manipulate, rather empower.
 
-<br>
-<br>
-<br>
-<br>
-<br>
 
 {% end %}
 
-{% row( style="center between mtop") %}
+</div>
 
-### **Our values define us**
 
-Everything we do must put the planet and people first.
-
-{% end %}
-
-{% row( style="center between mbottom") %}
-
-![Image](green_.png#medium)
-
-### **Planet-First**
-
-Our solutions must be sustainable. There is no Planet B.
-
-<br>
-
-And the Internet is consumed a surprisingly large amount of the world’s energy, ±10%. This is why ThreeFold has designed with efficiency in mind to create the most sustainable Internet infrastructure in the world. We must respect our mother earth.
-
-|||
-
-![Image](empowering_.png#medium)
-
-### **People-First**
-
-We empower self-sovereignty and autonomy.
-
-<br>
-
-Equality, diversity, and inclusion are key to our vision of an Internet for everyone, everywhere. ThreeFold has created a participatory infrastructure and movement, and is prioritizing efforts to bring a more accessible Internet to developing regions around the world.
-
-{% end %}
-
-{% row(style="center narrow mtop") %}
-
-### **And these tools guide us**
-
-{% end %}
-
-{% row(style="center narrow mbottom") %}
-
-<br>
-<br>
-
-![Image](open.png#medium)
-
-#### **Open-Source**
-Collaboration and openness are key to building a better world.
-
-<br>
-<br>
-
-|||
-
-<br>
-<br>
-
-![Image](simple.png#medium)
-
-#### **Simplicity**
-Fostering clarity. Driving innovation. Enabling scalability.
-
-<br>
-<br>
-
-|||
-
-<br>
-<br>
-
-![Image](authenticity.png#medium)
-
-#### **Authenticity**
-We are genuine and vulnerable.
-
-<br>
-<br>
-
-{%end %}
-
-<!-- section 7 (REVOLUTION) -->
-
-{% row(style="center margin") %}
-
-### **Join in**
-
-Connect, share and collaborate with our open community to expand ThreeFold's horizons.<br> Bring your ideas and let’s co-create together!
-
-<br>
-
-<button>[Join the community](/community)</button>
-
-{% end %}
+</div>

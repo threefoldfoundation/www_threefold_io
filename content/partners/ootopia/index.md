@@ -58,7 +58,7 @@ We are heading towards a total global collapse whose consequences will undoubted
 <br/>
 <br/>
 
-Effective actions is not being taken bu global leaders, politicians or corporations.
+Effective actions are not being taken by global leaders, politicians or corporations.
 <br/>
 <br/>
 

@@ -27,7 +27,7 @@ extra:
 
 ## About
 
-[Vlinder](https://vlinder.app) means butterfly in Dutch. We believe in the butterfly effect of a small behavioral change in a connected world. We envision the Vlinder app as a tool empowering you to make those changes. You will be able to know and mitigate your personal environmental footprint by investing in high-impact products and connecting with sustainability-focused businesses. We will provide you with a helicopter view of your bank cards, crypto wallets, and cash expenses while automatically estimating your carbon footprint. You will be able to contribute to community projects and make a profit from offsetting your CO2 emissions by investing in green products with high return.
+[Vlinder](https://vlinderclimate.com/) means butterfly in Dutch. We believe in the butterfly effect of a small behavioral change in a connected world. We envision the Vlinder app as a tool empowering you to make those changes. You will be able to know and mitigate your personal environmental footprint by investing in high-impact products and connecting with sustainability-focused businesses. We will provide you with a helicopter view of your bank cards, crypto wallets, and cash expenses while automatically estimating your carbon footprint. You will be able to contribute to community projects and make a profit from offsetting your CO2 emissions by investing in green products with high return.
 
 <BR>
 
@@ -52,7 +52,7 @@ Vlinder will provide carbon offset options for ThreeFold ecosystem making it pla
 We invite you to join us on this journey of creating an ecosystem for conscious consumption and sustainable financial decisions.
 <br/>
 <br/>
-How can you contribute? First of all, by becoming our first user. [The Vlinder app beta](https://vlinder.app) is available for iOS and Android in the eurozone countries.
+How can you contribute? First of all, by becoming our first user. The Vlinder app is available for [iOS](https://apps.apple.com/in/app/vlinder-exchange/id1489175523) and [Android](https://play.google.com/store/apps/details?id=at.atoma.vlinder&hl=en&gl=US&pli=1) in the eurozone countries.
 <br/>
 <br/>
 If you are in Germany or Austria and run a sustainable business or manage an impact community, feel free to reach out to us to discuss possible partnerships.

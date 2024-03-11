@@ -78,7 +78,7 @@ Much of what you see today at Threefold.io is the work of 100s of decentralized 
 
 There are many discussions happening on the [Threefold Forum](https://forum.threefold.io) about partnerships with other projects and how we can better support both the crypto landscape and the general internet user base. Even by just joining discussions on the Threefold Forum and providing your input and ideas you can help to make sure that the internet of tomorrow is built for and by the users of tomorrow. but there are lots of ways to contribute:
 
-- You can purchase the TFT token following [this guide](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html).
+- You can purchase the TFT token following [this guide](https://www.manual.grid.tf/documentation/threefold_token/buy_sell_tft/tft_lobstr/tft_lobstr_short_guide.html).
 - You can learn about farming [here](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro).
 - You can learn more about the Threefold Cloud and Deploying [here](https://library.threefold.me/info/threefold#/cloud/threefold__cloud_home).
 

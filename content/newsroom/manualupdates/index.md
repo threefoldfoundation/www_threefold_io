@@ -24,7 +24,7 @@ The manual has now been divided into different sections for different audiences 
 
 <br/>
 
-We look forward to your feedback and keep in mind the manual is open for [contributions from the community](https://manual.grid.tf/contribute/contribute.html).
+We look forward to your feedback and keep in mind the manual is open for [contributions from the community](https://www.manual.grid.tf/knowledge_base/collaboration/contribute.html).
 
 <br/>
 

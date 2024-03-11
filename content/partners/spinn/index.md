@@ -44,7 +44,7 @@ Our mission is to reimagine coffee for the connected age, and the discerning cof
 
 ## Impact
 
-Coffee farmers and roasters around the world - those that follow centuries of coffee tradition and have dedicated their lives to coffee - are getting increasingly frustrated with the industry that is not rewarding their craftsmanshift to deliver and create the coffee experience for the consumer. The coffee industry has developed monopolies in which the largest portion of rewards are reserved for coffee wholesalers and retailers, not the craftsman that grow and roast the coffee beans.
+Coffee farmers and roasters around the world - those that follow centuries of coffee tradition and have dedicated their lives to coffee - are getting increasingly frustrated with the industry that is not rewarding their craftsmanship to deliver and create the coffee experience for the consumer. The coffee industry has developed monopolies in which the largest portion of rewards are reserved for coffee wholesalers and retailers, not the craftsman that grow and roast the coffee beans.
 <br/>
 
 The coffeetrade is a massive **$362bn** worldwide market and there is a growing consciousness of taking action against unfair and old fashioned business models.

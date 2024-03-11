@@ -16,9 +16,9 @@ extra:
 
 ###### [Learn](https://manual.grid.tf/)
 
-###### [Farm](https://manual.grid.tf/farmers/farmers.html)
+###### [Host (Farm)](/host)
 
-###### [Deploy on the Playground](https://playground.grid.tf/)
+###### [Dashboard](https://next.dashboard.grid.tf/)
 
 ###### [Download TF Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 
@@ -32,7 +32,7 @@ extra:
 
 ###### [Main Chat](https://t.me/threefold)
 
-###### [Farming Chat](https://t.me/threefoldfarmers)
+###### [Hosting / Farming Chat](https://t.me/threefoldfarmers)
 
 ###### [Grid User Chat](https://t.me/threefoldtesting)
 
@@ -48,11 +48,11 @@ extra:
 
 <h6><a target="_self" onclick="window.location.href='/about'">About</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/newsroom'">News</a></h6>
+<h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
+<h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
+<h6><a target="_self" onclick="window.location.href='/utilization'">Partners</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 

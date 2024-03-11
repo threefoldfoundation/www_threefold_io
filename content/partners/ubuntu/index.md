@@ -63,7 +63,7 @@ Ubuntu Tribe's ultimate aim is wealth distribution and financial empowerment acr
 
 ## Powered by ThreeFold
 
-ThreeFold's unique decentralized, uncontrolled Internet solution serves as a perfect foundation for Ubuntu's digital, social commerce platform. Together we can secure equeal financial oportunities distributed globally and with full ownership in the most secure way.
+ThreeFold's unique decentralized, uncontrolled Internet solution serves as a perfect foundation for Ubuntu's digital, social commerce platform. Together we can secure equal financial opportunities distributed globally and with full ownership in the most secure way.
 
 ## Join saving our planet!
 
