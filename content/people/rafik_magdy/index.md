@@ -8,7 +8,7 @@ taxonomies:
     categories: [foundation]
 extra:
     imgPath: rafik_magdy.png
-    organizations: [threefold_tech, threefold_foundation]
+    organizations: [threefold_tech]
     countries: [Egypt]
     cities: []
     private: 0
