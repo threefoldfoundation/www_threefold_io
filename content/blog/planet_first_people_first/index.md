@@ -102,4 +102,4 @@ If not us, who? If not now, when?
 
 * *[Join](https://t.me/threefold) this growing movement*
 * *[Buy](https://marketplace.3node.global/) or [build](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__diy_guide) a 3Node and be the Internet*
-* *[Buy](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html) TFT*
+* *[Buy](https://www.manual.grid.tf/documentation/threefold_token/buy_sell_tft/buy_sell_tft.html) TFT*

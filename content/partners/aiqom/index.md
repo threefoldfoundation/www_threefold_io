@@ -47,7 +47,7 @@ AIQOM empowers people of all ages to become responsible AI Citizens to easily le
 
 ## Powered by ThreeFold
 
-AIQOM want to use the ThreeFold's [3Bot technology](https://manual.grid.tf/concepts/grid3_components.html?highlight=3bot#3bot-or-threebot) as a backend to their AI system. 3Bot technology will help provide more privacy, scale and energy-efficiency to AIQOM personal AI solutions. Additionally, AIQOM can make Digital Twins more intelligent and responsive in a sustainable way to satisfy the needs of our day-to-day digital life. It is the fusion of AI and our personal digital life.
+AIQOM want to use the ThreeFold's 3Bot technology as a backend to their AI system. 3Bot technology will help provide more privacy, scale and energy-efficiency to AIQOM personal AI solutions. Additionally, AIQOM can make Digital Twins more intelligent and responsive in a sustainable way to satisfy the needs of our day-to-day digital life. It is the fusion of AI and our personal digital life.
 <br/>
 <br/>
 Expectation is to have joint products out by end 2021.

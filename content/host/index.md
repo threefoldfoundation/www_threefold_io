@@ -75,7 +75,7 @@ After your node is set up and verified, you’ll be rewarded for the capacity th
 
 {% row(style="center between mbottom") %}
 
-<button>[Dive Deeper](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
+<button>[Dive Deeper](https://www.manual.grid.tf/knowledge_base/technology/grid3_howitworks.html)</button>
 
 {% end %}
 
@@ -116,7 +116,7 @@ Today, the best way to buy a node is from independent vendors serving various ge
 
 |||
 
-[![Image](build_a_node.png#mx-auto)](https://manual.grid.tf/farmers/3node_building/3node_building.html)
+[![Image](build_a_node.png#mx-auto)](https://www.manual.grid.tf/documentation/farmers/3node_building/3node_building.html)
 
 <br>
 
@@ -126,7 +126,7 @@ Read our informative guide on how to set up your own 3Node. Optimize your own sp
 
 <br>
 
-<button>[Build](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
+<button>[Build](https://www.manual.grid.tf/documentation/farmers/3node_building/3node_building.html)</button>
 
 {% end %}
 

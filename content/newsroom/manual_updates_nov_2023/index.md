@@ -21,7 +21,7 @@ Take a look at what's new recently, including: GPU Farming, Nomad Clusters, the 
 <br/>
 
 - [Dig in for the details](https://forum.threefold.io/t/manual-updates-november-3-2023/4121)
-- [Head straight to the manual](https://manual.grid.tf/intro/intro_readme.html)
+- [Head straight to the manual](https://manual.grid.tf)
 - [Join the Grid Tester Community](https://t.me/threefoldtesting)
 
 <br/>
