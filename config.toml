@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www2.threefold.io"
+base_url = "https://dev.threefold.io"
 # Change this to your own URL! Please note this variable **must** be uncommented .
 
 title = "ThreeFold"

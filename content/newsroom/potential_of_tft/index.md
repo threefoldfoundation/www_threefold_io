@@ -24,4 +24,4 @@ https://forum.threefold.io/t/the-potential-of-the-threefold-token-tft/1796
 
 <br/>
 
-*Now's the time to [get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)! This post is a great share for anyone interested in getting involved in the project!*
+*Now's the time to [get TFT](https://www.manual.grid.tf/documentation/threefold_token/buy_sell_tft/tft_lobstr/tft_lobstr_short_guide.html)! This post is a great share for anyone interested in getting involved in the project!*
