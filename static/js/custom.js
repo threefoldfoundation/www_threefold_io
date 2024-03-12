@@ -142,8 +142,10 @@ window.onload = function () {
     });
   });
 
-  document.getElementById("filter-btn").addEventListener('click', toggleFilter);
-  document.getElementById("mobile-learn-btn").addEventListener('click', toggleMenu);
+  document.getElementById("filter-btn").addEventListener("click", toggleFilter);
+  document
+    .getElementById("mobile-learn-btn")
+    .addEventListener("click", toggleMenu);
 };
 
 function openInNewTab(url) {
@@ -198,6 +200,8 @@ function mergeStatsData(stats) {
     res.countries = Object.keys(res.nodesDistribution).length;
   }
   let capacity = toTeraOrGiga(res.totalHru + res.totalSru);
+  let items = document.querySelector(".items");
+  items.classList.remove('animate-pulse');
   document.getElementById("capacity").innerHTML = capacity;
   document.getElementById("nodes").innerHTML = res.nodes;
   document.getElementById("countries").innerHTML = res.countries;
