@@ -183,7 +183,9 @@ function formatStatsData(stats) {
   document.getElementById("capacity").innerHTML = stats.capacity;
   document.getElementById("nodes").innerHTML = stats.nodes;
   document.getElementById("countries").innerHTML = stats.countries;
-  document.getElementById("cores").innerHTML = stats.cores;
+  document.getElementById("cores").innerHTML = stats.cores
+    .toString()
+    .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 readingTime();
