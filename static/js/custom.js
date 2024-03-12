@@ -166,7 +166,7 @@ const urls = [
   "https://gridproxy.grid.tf/stats?status=up",
   "https://gridproxy.dev.grid.tf/stats?status=up",
   "https://gridproxy.test.grid.tf/stats?status=up",
-  "https://gridproxy.bknd1.ninja.tf/stats?status=standby", // will change to mainnet when release
+  "https://gridproxy.grid.tf/stats?status=standby",
   "https://gridproxy.dev.grid.tf/stats?status=standby",
   "https://gridproxy.test.grid.tf/stats?status=standby",
 ];
