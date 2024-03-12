@@ -1,7 +1,7 @@
 ---
 title: Nayer Sobhy
 weight: 2
-description: Nayer is a passionate about people’s development, and that we can be the change we want to see.
+description: Dreamer,adventurous and always eager to improve
 taxonomies:
     people: [nayer_sobhy]
     memberships: [team]
@@ -18,4 +18,4 @@ extra:
     }
 ---
 
-Nayer is a passionate about people’s development, and that we can be the change we want to see. After his B.Sc. in Business Management from Cairo University in Egypt, he got a postgraduate degree in Human resources management from The American University in Cairo, Egypt. Currently he is part of ThreeFold's family, managing cairo's office since June 2014. Project Coordinator fell in love with Threefold ThreeFold is about believing in people, empowering people and most importantly helping the planet by going green.
+Nayer is a passionate about people’s development, and that we can be the change we want to see. After his B.Sc. in Business Management from Cairo University in Egypt, he got a postgraduate degree in Human resources management from The American University in Cairo, Egypt. Nayer fell in love with Threefold as it is all about believing in people, empowering people and most importantly helping the planet by going green.Currently he is part of ThreeFold's family, managing cairo's office since June 2014.  
