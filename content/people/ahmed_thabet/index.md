@@ -18,5 +18,5 @@ extra:
         websites: https://threefold.tech,
     }
 ---
-
-I believe that life is a chance for a soul to grow and for me programming is one of my means towards this growth. I want to build beautiful applications that don't productize the user or invade their privacy. Giving users their freedom back and assure them complete control over their data. What I've seen at ThreeFold being part on the team for 4+ years is a lot of great values I'd like to see evolving in this world. I'm mainly involved in the development user-facing technologies e.g SDK, wikis, websites, and infrastructure setup at Threefold.
+ 
+ I lead the development of the Threefold Grid.I want to build beautiful applications that don't productize the users or invade their privacy.
