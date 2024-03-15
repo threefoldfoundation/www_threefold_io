@@ -13,40 +13,63 @@ extra:
     isFeatured: true
 ---
 
-The Internet is complex and multi-layered, touching virtually every aspect of our modern lives. At its core, it comprises three essential layers: compute & storage, network, and application. Understanding these components is key to grasping how digital information is processed, stored, and accessed across the globe.
+Just as the Earth is made up of layers—from the crust to the core—so too is the Internet, with three key layers: compute & storage, network and applications. Distinguishing these layers is necessary in order to understand how digital information is currently processed, stored, and accessed across the globe and how this system will change with ThreeFold’s disruptive technology. ThreeFold is like tectonic forces, reshaping the landscape by introducing new ways for these layers to interact. Let’s break down these three components and how ThreeFold is altering them. 
+
+### **Compute & Storage**
+
+**What is Compute:**
+<br>
+The compute layer is responsible for processing data. It involves the execution of programs and applications by leveraging computational resources like CPUs (Central Processing Units) and GPUs (Graphics Processing Units). This layer handles the calculations, logic, and running of software that users and businesses depend on. Compute resources are provided by servers located in centralized data centers and cloud platforms.
 
 <br>
 
-This blog post will explore these foundational aspects of the Internet and share insights into ThreeFold's journey in reshaping the global Cloud & Internet infrastructure.
-
-### **The Three Layers of the Internet**
-
-Understanding the three fundamental layers of the Internet’s architecture is crucial to grasping how digital services are delivered to end-users around the globe. Let's break down these components:
-
-#### **Compute & Storage**
-
-Compute is the powerhouse of the Internet, providing the necessary processing power to run the various software applications and services that populate the Internet. This involves everything from simple web hosting to complex computational tasks like data analysis and artificial intelligence. In essence, it's the brain behind the operations, turning code into action. Compute resources are provided by servers located in data centers, cloud platforms, and increasingly, decentralized networks.
+**What is Storage:**
+<br>
+The storage layer is concerned with saving and retrieving data. It provides a persistent way to store data so that it can be accessed in the future. This layer encompasses various types of storage media, such as hard drives (HDDs), solid-state drives (SSDs), and even distributed storage systems that span across multiple locations. The storage layer ensures that data is kept safe and available for when it's needed, either for immediate use by applications in the compute layer or for long-term retention.
 
 <br>
 
-Storage acts as the Internet's memory, a space where data is securely kept for future access. This includes everything from your personal photos and documents to the databases that store website content and user information. Efficient and reliable storage solutions are vital for keeping the Internet's vast amount of information organized and accessible.
+**The ThreeFold model:**
+<br>
+ThreeFold decentralizes computing power and storage by distributing it across a global network of independent nodes rather than concentrating it in large data centers. This approach allows anyone to contribute compute and storage to the network or utilize it for their own applications. In essence, anyone can become a cloud provider. ThreeFold’s autonomous technology ensures efficient allocation of compute resources, increasing performance and reliability while reducing energy consumption. The distributed storage system ensures data is fragmented and securely stored across multiple locations. Data privacy and security is enhanced as there is no single point of failure or central repository for attackers to target. Moreover, data is stored closer to the end-user, which can reduce latency and improve access speeds. The storage system is designed to be highly scalable, ensuring users can store and access vast amounts of data efficiently.
 
-#### **Network**
+<br>
 
-The network is the Internet's circulatory system, consisting of the physical and virtual connections that enable data to flow from one point to another. This includes the cables, satellites, routers, and protocols that transport information across the globe, ensuring that an email or a video call can reach its destination in milliseconds.
+ThreeFold’s operating system, Zero-OS, underpins the compute & storage layer. It abstracts the complexities of managing distributed resources, offering a simplified and efficient way to leverage the underlying hardware for computing and storage needs.
 
-#### **Applications**
+<br>
+
+### **Network**
+**What is Network:**
+The network layer of the Internet is responsible for routing data packets from their source to their destination across multiple networks. It operates on protocols like IP (Internet Protocol), which assigns unique addresses to devices on the Internet to ensure data reaches the correct location. The network layer handles the path selection and directs packets through various routers and networks to reach its destination. This layer is crucial for enabling communication between devices in different networks, ensuring data integrity and efficient delivery across the vast expanse of the Internet.
+
+<br>
+
+**The ThreeFold model:**
+<br>
+ThreeFold is revolutionizing the network layer through its creation of Mycelium, a true peer-to-peer mesh network. It is the only overlay network in the world which is capable of taking locality into consideration, routing decisions based on proximity between peers, and taking the quickest route possible. All traffic is end-to-end encrypted and each logical network interface is linked to a private key. Mycelium represents a fundamentally new approach to dealing with network security and provides an ‘always on’ network. 
+
+<br>
+
+### **Applications**
+**What are Applications:**
+
+<br>
 
 At the top of the Internet stack are applications — the user-facing software that provides the services and experiences we interact with daily. Applications range from web browsers and social media to more complex systems like blockchain platforms and decentralized apps (dApps). They are the interface through which users interact with the digital world.
 
-### **Blockchain's Place in the Application Layer**
+<br>
 
-Blockchain technology, known for its decentralized and secure nature, resides within the application layer of the Internet. It offers a revolutionary approach to conducting transactions, managing data, and establishing trust online, offering a level of security, transparency, and efficiency previously unattainable with traditional centralized systems. As a part of the application layer, blockchain applications leverage the underlying compute, storage, and network infrastructure to operate efficiently and securely. The full blockchain landscape can run on top of ThreeFold’s Internet stack. 
+Blockchain technology, known for its decentralized and secure nature, resides within the application layer of the Internet. It offers a revolutionary approach to conducting transactions, managing data, and establishing trust online, offering a level of security, transparency, and efficiency previously unattainable with traditional centralized systems. As a part of the application layer, blockchain applications leverage the underlying compute, storage, and network infrastructure to operate efficiently and securely. The full blockchain landscape can run on top of ThreeFold’s Internet stack.
 
-### **ThreeFold Today: Focusing on Compute and Storage**
+<br>
 
-At ThreeFold, we're committed to enhancing the foundational layers of the Internet, with a particular focus to date on compute and storage. Our journey has been driven by the belief that decentralizing these components can lead to a more secure, efficient, and equitable digital world. By distributing compute power and storage capacity across a global network, we aim to reduce reliance on centralized data centers, mitigate privacy and security risks, and lower the environmental impact of digital infrastructure.
+**The ThreeFold model:**
 
-### **The Road Ahead: Expanding to Connectivity**
+<br>
 
-Looking to the future, ThreeFold plans to integrate advanced connectivity solutions into our ecosystem. Recognizing the importance of robust network infrastructure, we're dedicated to improving bandwidth and reducing latency to ensure seamless access to digital services for everyone, everywhere. This expansion is not only about enhancing Internet performance but also about empowering blockchain applications and other innovations that depend on strong connectivity to thrive.
+On the applications front, ThreeFold facilitates the development and deployment of decentralized applications (dApps) through its ecosystem. This is made possible by providing developers with access to decentralized compute, storage, and networking resources. The platform's focus on autonomy and decentralization encourages the creation of applications that are inherently more secure, private, and resilient to failures.
+
+<br>
+
+In summary, ThreeFold is reshaping the digital ecosystem by decentralizing and democratizing access to essential IT resources. Its approach not only promises to enhance privacy, security, and efficiency but also aims to foster a more sustainable and equitable digital world.
