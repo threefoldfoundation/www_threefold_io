@@ -18,7 +18,7 @@ extra:
 
 ###### [Host (Farm)](/host)
 
-###### [Dashboard](https://next.dashboard.grid.tf/)
+###### [Dashboard](https://dashboard.grid.tf/)
 
 ###### [Download TF Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 
