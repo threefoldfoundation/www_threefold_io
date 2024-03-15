@@ -30,6 +30,8 @@ By installing solar panels on rooftops or creating local solar farms, individual
 
 This localized energy production model enhances sustainability by tapping into an inexhaustible natural resource and encourages a more environmentally conscious and self-sufficient society. It signifies a move away from the centralized, traditional systems of energy production, returning power to the people and prioritizing the planet's well-being.
 
+![Image](solar.png#mx-auto)
+
 ### **ThreeFold: Pioneering a Decentralized Digital Future**
 
 Parallel to the energy sector's evolution, the digital world is also undergoing a transformation, led by innovative platforms like ThreeFold. Just as decentralized solar energy provides an alternative to the centralized power generation model, ThreeFold is reshaping the cloud computing landscape with its autonomous edge cloud.
@@ -38,13 +40,14 @@ Parallel to the energy sector's evolution, the digital world is also undergoing 
 
 ThreeFold's model deviates from the norm, where cloud services are dominated by a few massive data centers. Instead, we depend on our global network of independent nodes set up by individuals and businesses to contribute their own computing and storage resources to the cloud. This approach democratizes access to cloud resources, bolstering data privacy, security, and resilience against potential outages or cyberattacks.
 
-<br>
-
-![Image](solar.png#mx-auto)
 
 <br>
 
 Beyond merely disrupting the existing model, ThreeFold aims to foster a more sustainable, efficient, and user-centric internet. Distributing decentralized infrastructure worldwide reduces the environmental footprint associated with large data centers and promotes fairer internet resource distribution.
+
+<br>
+
+![Image](data_center.png#mx-auto)
 
 <br>
 
