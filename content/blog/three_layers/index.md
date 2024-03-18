@@ -37,7 +37,7 @@ ThreeFold decentralizes computing power and storage by distributing it across a 
 
 ThreeFold’s operating system, Zero-OS, underpins the compute & storage layer. It abstracts the complexities of managing distributed resources, offering a simplified and efficient way to leverage the underlying hardware for computing and storage needs.
 
-<br>
+![Image](compute.png#mx-auto)
 
 ### **Network**
 **What is Network:**
@@ -49,7 +49,7 @@ The network layer of the Internet is responsible for routing data packets from t
 <br>
 ThreeFold is revolutionizing the network layer through its creation of Mycelium, a true peer-to-peer mesh network. It is the only overlay network in the world which is capable of taking locality into consideration, routing decisions based on proximity between peers, and taking the quickest route possible. All traffic is end-to-end encrypted and each logical network interface is linked to a private key. Mycelium represents a fundamentally new approach to dealing with network security and provides an ‘always on’ network. 
 
-<br>
+![Image](network.png#mx-auto)
 
 ### **Applications**
 **What are Applications:**
@@ -70,6 +70,6 @@ Blockchain technology, known for its decentralized and secure nature, resides wi
 
 On the applications front, ThreeFold facilitates the development and deployment of decentralized applications (dApps) through its ecosystem. This is made possible by providing developers with access to decentralized compute, storage, and networking resources. The platform's focus on autonomy and decentralization encourages the creation of applications that are inherently more secure, private, and resilient to failures.
 
-<br>
+![Image](applications.png#mx-auto)
 
 In summary, ThreeFold is reshaping the digital ecosystem by decentralizing and democratizing access to essential IT resources. Its approach not only promises to enhance privacy, security, and efficiency but also aims to foster a more sustainable and equitable digital world.
