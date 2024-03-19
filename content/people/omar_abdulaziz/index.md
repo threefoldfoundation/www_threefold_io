@@ -1,7 +1,7 @@
 ---
 title: Omar Abdulaziz
-weight: 4
-description: A software engineer, Golang, Typescript.
+weight: 3
+description: Golang, Typescript.
 taxonomies:
     people: [omar_abdulaziz]
     memberships: [team]
@@ -19,4 +19,4 @@ extra:
     }
 ---
 
-A software engineer, Golang, Typescript. 
+A software engineer. 

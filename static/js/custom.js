@@ -142,8 +142,10 @@ window.onload = function () {
     });
   });
 
-  document.getElementById("filter-btn").addEventListener('click', toggleFilter);
-  document.getElementById("mobile-learn-btn").addEventListener('click', toggleMenu);
+  document.getElementById("filter-btn").addEventListener("click", toggleFilter);
+  document
+    .getElementById("mobile-learn-btn")
+    .addEventListener("click", toggleMenu);
 };
 
 function openInNewTab(url) {
@@ -162,21 +164,12 @@ function readingTime() {
   }
 }
 
-const urls = [
-  "https://gridproxy.grid.tf/stats?status=up",
-  "https://gridproxy.dev.grid.tf/stats?status=up",
-  "https://gridproxy.test.grid.tf/stats?status=up",
-  "https://gridproxy.bknd1.ninja.tf/stats?status=standby", // will change to mainnet when release
-  "https://gridproxy.dev.grid.tf/stats?status=standby",
-  "https://gridproxy.test.grid.tf/stats?status=standby",
-];
-
 async function getStats() {
   try {
-    const stats = await Promise.all(
-      urls.map((url) => fetch(url).then((resp) => resp.json()))
-    );
-    return mergeStatsData(stats);
+    const stats = await fetch(
+      "https://stats.grid.tf/api/stats-summary"
+    ).then((res) => res.json());
+    return formatStatsData(stats);
   } catch (error) {
     throw new Error(
       `Failed to retrieve data from network statistics: ${error}`
@@ -184,60 +177,15 @@ async function getStats() {
   }
 }
 
-function mergeStatsData(stats) {
-  const res = stats[0];
-  for (let i = 1; i < stats.length; i++) {
-    res.nodes += stats[i].nodes;
-    res.totalCru += stats[i].totalCru;
-    res.totalHru += stats[i].totalHru;
-    res.totalSru += stats[i].totalSru;
-    res.nodesDistribution = mergeNodeDistribution([
-      res.nodesDistribution,
-      stats[i].nodesDistribution,
-    ]);
-    res.countries = Object.keys(res.nodesDistribution).length;
-  }
-  let capacity = toTeraOrGiga(res.totalHru + res.totalSru);
-  document.getElementById("capacity").innerHTML = capacity;
-  document.getElementById("nodes").innerHTML = res.nodes;
-  document.getElementById("countries").innerHTML = res.countries;
-  document.getElementById("cores").innerHTML = res.totalCru
+function formatStatsData(stats) {
+  let items = document.querySelector(".items");
+  items.classList.remove("animate-pulse");
+  document.getElementById("capacity").innerHTML = stats.capacity;
+  document.getElementById("nodes").innerHTML = stats.nodes;
+  document.getElementById("countries").innerHTML = stats.countries;
+  document.getElementById("cores").innerHTML = stats.cores
     .toString()
     .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-
-function mergeNodeDistribution(stats) {
-  const keys = new Set(stats.map((obj) => Object.keys(obj)).flat());
-
-  return Array.from(keys).reduce((res, key) => {
-    res[key] = 0;
-    stats.forEach((country) => {
-      res[key] += country[key] ?? 0;
-    });
-    return res;
-  }, {});
-}
-
-function toTeraOrGiga(value) {
-  const giga = 1024 ** 3;
-
-  if (!value) return "0";
-
-  const val = +value;
-  if (val === 0 || isNaN(val)) return "0";
-
-  if (val < giga) return val.toString();
-
-  let gb = val / giga;
-
-  if (gb < 1024) return `${gb.toFixed(2)} GB`;
-
-  gb = gb / 1024;
-
-  if (gb < 1024) return `${gb.toFixed(2)} TB`;
-
-  gb = gb / 1024;
-  return `${gb.toFixed(2)} PB`;
 }
 
 readingTime();
