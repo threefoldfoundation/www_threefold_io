@@ -1,7 +1,7 @@
 ---
 id: sikana
 title: Sikana
-description: Open-source software for content collaboration on any device. Delivering digital sovereignty to over 200 million users.
+description: Sikana is a non-profit organization on a mission to empower individuals with practical skills through free educational video programs.
 template: partnerPage.html
 taxonomies:
   partners-category: [foundation]
@@ -11,7 +11,7 @@ extra:
     countries: [Global]
     cities: []
     rank: 1
-    imgPath: sikan.png
+    imgPath: sikana.png
     image_caption: sikana
     partner_logo: sikana_logo.png
     websites: https://www.sikana.tv/en
