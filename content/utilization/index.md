@@ -77,7 +77,7 @@ Meet the projects with whom we are working closely this year to drive utilizatio
 
 <br>
 
-Bitcoin is the clear leader when it comes to the "future of money," but the network faces key challenges like scalability, reliability, and energy efficiency, the same as all blockchains. We have known the team behind Earth Staking's Social Network, launched February 2024, for some years now. We decided to come together to tackle these issues together. [Visit](https://www.social.network/en)
+Bitcoin is the clear leader when it comes to the “future of money,” but the network faces key blockchain challenges like scalability, reliability, and energy efficiency. We have known the team behind Earth Staking’s Social Network for some years now and have decided to tackle these issues together. [Visit](https://www.social.network/en)
 
 </div>
 
@@ -100,7 +100,7 @@ Bitcoin is the clear leader when it comes to the "future of money," but the netw
 
 <br>
 
-Imagine an entrepreneur, digital nomad, or any company can obtain a digital company license, a bank account supporting both fiat and cryptocurrencies, and handle their legal requirements and taxes – all within a single streamlined platform. In July 2023, Dr. Hussein Ali Mwinyi, President of Zanzibar, spoke at a summit hosted by ThreeFold to announce the OurWorld Digital Free Zone, which will do just that. In 2024, the free zone will come alive, with ThreeFold as the underlying infrastructure. [Visit](https://freezone.ourworld.tf/)
+In July 2023, Dr. Hussein Ali Mwinyi, President of Zanzibar, spoke at a summit hosted by ThreeFold to announce our collaboration on the OurWorld Digital Free Zone, the first 100% digital free zone in the world. In 2024, the free zone will come alive, with ThreeFold as the underlying infrastructure. [Visit](https://freezone.ourworld.tf/)
 
 </div>
 
@@ -126,7 +126,7 @@ Imagine an entrepreneur, digital nomad, or any company can obtain a digital comp
 
 <br>
 
-Most countries do not own their own Internets, they have cables to other richer countries, where the infrastructure resides. Because of this, they lose numerous benefits. In a world where data is becoming increasingly valuable, data stays outside of the country. Digital sovereignty is inexistent. And economic gains are lost. Together with the ICT Commission of Tanzania, we will create a sovereign cloud & Internet infrastructure, along with coding academies and innovation centers to empower a self-reliant digital ecosystem for Tanzania and East Africa. [Visit](https://www.ictc.go.tz/)
+Most countries lose numerous benefits from not owning their own Internet. Digital sovereignty is inexistent and economic gains are lost. Together, with Tanzania's ICT Commission and the tech community in Dar Es Salaam, we will create a sovereign cloud & Internet infrastructure to empower a self-reliant digital ecosystem for Tanzania. [Visit](https://www.ictc.go.tz/)
 
 </div>
 
@@ -149,7 +149,7 @@ Most countries do not own their own Internets, they have cables to other richer 
 
 <br>
 
-Sikana has delivered over 400,000,000 lessons via free and practical educational videos and video programming but because of this incredible scale, they struggled massively to pay for hosting costs. Together with ThreeFold, Sikana will enable the creation of local content in local languages and on top of local infrastructure – empowering people and communities with knowledge and power. [Visit](https://www.sikana.tv/en)
+Sikana has delivered over 400 million lessons via free educational videos but because of this incredible scale they could not afford hosting costs. With ThreeFold, Sikana will be able to extend their reach, creating and distributing local content in local languages on top of local infrastructure. [Visit](https://www.sikana.tv/en)
 
 </div>
 
@@ -195,7 +195,7 @@ We met the founder of VeVerse several years ago, who had the vision to democrati
 
 <br>
 
-VVerse (not to be confused with VeVerse) is probably one of the most capable metaverse technologies ever made. The ThreeFold Grid will be used to render in the cloud and use low-latency connection to stream VVerse's virtual environments with video-like guality. A tremendous amount of capacity is required in order to roll out this metaverse. [Visit](https://www.vverse.co/) 
+VVerse (not to be confused with VeVerse) is one of the most capable metaverse technologies. The ThreeFold Grid will render it in the cloud and use low-latency connection to stream VVerse’s virtual environments with video-like quality. Significant capacity is required to roll out this metaverse. [Visit](https://www.vverse.co/) 
 
 </div>
 
