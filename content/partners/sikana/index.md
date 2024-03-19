@@ -27,11 +27,11 @@ Sikana is a non-profit organization on a mission to empower individuals with pra
 
 <br/>
 
-[sikana](sikana1.png)
+![sikana](sikana1.png)
 
 <br/>
 
-[sikana](sikana2.png)
+![sikana](sikana2.png)
 
 <br/>
 
