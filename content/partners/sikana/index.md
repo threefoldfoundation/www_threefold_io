@@ -47,4 +47,4 @@ You can help us on this mission by either creating educational content which wil
 
 <br/>
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/8ArbVX7bV1w" title="The Sikana Trailer: What Is This Channel for?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ArbVX7bV1w" title="The Sikana Trailer: What Is This Channel for?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
