@@ -32,21 +32,23 @@
 
 
 <!-- Default page template for news posts and basic informative markdown files -->
-<main>
+<main class="container mx-auto mt-16">
 
-  <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-16 lg:w-4/6">
+  <div class="article lg:w-4/6 mx-auto">
 
-    <div class="pt-8">
-      <section class="post-header container mx-auto px-0 mb-4 border-b">
-        <h1 class="lg:text-5xl text-2xl font-medium leading-none mt-0">
+    <div>
+      <section class="post-header px-0 mb-4 border-b">
+        <h2 class="md:text-4xl text-3xl font-medium mb-2 leading-none  text-gray-700">
           {{ page.title }}
-        </h1>
-        <div class="lg:text-2xl text-base pt-4 pb-10 text-gray-700">{{ page.description }}</div>
+        </h2>
+        <p class="md:text-lg mb-4 text-base text-gray-600">
+          {{ page.description }}
+        </p>
       </section>
-      <section class="post-author-list mb-10 mx-0">
+      <section class="post-author-list mb-3 mt-2 mx-0">
         <div class="flex items-center">
           <div class="flex justify-between items-center">
-            <ul class="list-none flex author-list my-10 mr-2 px-0">
+            <ul class="list-none pl-0 flex author-list m-0">
             {% if page.taxonomies.people %}
                 {% for person in page.taxonomies.people %}
                     {% set author_path = 'people/' ~ person ~ '/index.md' %}
@@ -58,8 +60,10 @@
               <li class="author-list-item">
                 <a href="{{author.permalink}}" tooltip="{{author.title}}">
                   <img src="{{author_img}}" alt="{{ author.title }}" class="
-                    w-10
-                    h-10
+                    w-8
+                    h-8
+                    sm:h-10
+                    sm:w-10
                     rounded-full
                     bg-gray-200
                     border-2 border-white
@@ -82,14 +86,14 @@
             {% if pages_str is containing(person) %}
                 {% set author = get_page(path=author_path) %}
                 {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
-              <span>
+              <span class="text-xs leading-none uppercase">
                 <a href="{{author.permalink}}" tooltip="{{author.title}}" class="hover:underline text-gray-800">{{ author.title }}</a>
               </span>
               {% endif %}
                 {% endfor %}
             {% endif %}
             </p>
-            <p class="text-gray-700">
+            <p class="text-gray-700 text-xs leading-none uppercase">
               <time datetime="{{page.date}}">
                 {{ page.date | date(format="%B %e, %Y", timezone="America/Chicago") }}
               </time>
