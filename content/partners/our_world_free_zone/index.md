@@ -14,7 +14,7 @@ extra:
     imgPath: freezonecover2.png
     image_caption: Our World Free Zone
     partner_logo: freezonelogo.png
-    websites: https://www.sikana.tv/en
+    websites: https://freezone.ourworld.tf/
     private: 0
 ---
 
@@ -31,7 +31,13 @@ The government of Zanzibar is undertaking several initiatives to shift its econo
 
 This collaboration was formally announced by Zanzibar’s President, Dr. Hussein Ali Mwinyi, at ThreeFold’s Africa Regenerative Future Summit in July 2023 which brought together innovators to discuss Africa’s technological future. The president promised to provide the necessary policies to establish the free zone with the goal of developing local skills, bringing about major changes in the ICT sector, and creating job opportunities to increase the nation’s income.
 
-<br/>
+<br>
+
+<div style="display: flex; justify-content: center;">
+    <img src="freezone.png" alt="our_world_free_zone" width="600"/>
+</div>
+
+<br>
 
 Some of the ThreeFold team is based in Zanzibar and working to make the free zone live by the end of 2024. As the world’s first digital free zone, this special economic zone will be supported by ThreeFold’s innovative tech stack. Merging traditional business structures with groundbreaking technology, the free zone will be a pioneering hub for business, fostering an ecosystem that is adaptive, resilient, and conducive to growth. It will be one of the first environments where Decentralized Autonomous Organizations (DAOs) can be legally established and operated.
 
@@ -39,10 +45,6 @@ Some of the ThreeFold team is based in Zanzibar and working to make the free zon
 
 
 ThreeFold’s latest technology, which is currently being fine tuned, the Digital Twin, will also be launched as part of the Free Zone membership. The Digital Free Zone (DFZ) Digital Twin application provides a centralized interface for accessing all free zone features and users will own 100% of the data and digital capabilities. You can be among the first to embark on the OurWorld Digital Free Zone journey. Explore the Free Zone product [here](https://ourworldfreezone.github.io/info_freezone/products/products.html) and [subscribe](https://freezone.ourworld.tf/) to learn more as things develop or to participate in our exclusive presale of trade licensing. 
-
-<br/>
-
-![our_world_free_zone](freezone.png)
 
 <br/>
 
