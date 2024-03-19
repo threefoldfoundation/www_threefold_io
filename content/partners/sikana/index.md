@@ -20,14 +20,9 @@ extra:
 
 <br/>
 
-**Education for all**
-
+### **Education for all**
 Sikana is a non-profit organization on a mission to empower individuals with practical skills through free educational video programs. Targeting the 3+ billion people around the world with access to screens they have so far delivered over 400,000,000 online video lessons. Some of the projects they have been involved in include facilitating access to energy and fighting against energy poverty in the Ivory Coast, helping to save biodiversity in France and empowering women with vocational training at sewing schools in India.
 
-
-<br/>
-
-![sikana](sikana1.png)
 
 <br/>
 
