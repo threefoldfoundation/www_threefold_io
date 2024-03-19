@@ -1,6 +1,6 @@
 ---
 id: sikana
-title: Sikana
+title: SIKANA
 description: Sikana is a non-profit organization on a mission to empower individuals with practical skills through free educational video programs.
 template: partnerPage.html
 taxonomies:
