@@ -29,9 +29,15 @@ One of the critical moments which inspired this project was when VeVerse’s fou
 
 <br>
 
+<div style="display: flex; justify-content: center;">
+    <img src="veverse.png" alt="veverse" width="800"/>
+</div>
+
+<br>
+
 One of the problems facing VeVerse, and all other metaverse products in existence, is the inadequate computational and connectivity infrastructure available today. Current infrastructure lacks the speed and capacity to power such expansive digital experiences. Latency levels are also significantly higher than the almost zero latency requirements of metaverse data being stored in close proximity to users. Edge computing emerges as a vital solution to realizing the metaverse, offering decentralized local data storage hardware that drastically reduces latency by storing data closer to users. This is where ThreeFold steps in as a pivotal player, offering the largest decentralized grid globally, equipped with edge cloud and computing capabilities essential for powering the metaverse's future. The partnership between ThreeFold and VeVerse will help bring cultural artworks and historical artifacts to billions. Help host this innovative solution by expanding ThreeFold’s cloud capacity.
 
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=FCjofnZnTDk" title="VeVerse @ Artheon Museum" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/FCjofnZnTDk?si=GexBObXsBJ-9zvyz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
