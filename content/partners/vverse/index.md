@@ -21,7 +21,7 @@ extra:
 <br/>
 
 ### **A cutting-edge Metaverse platform**
-VVerse offers a cutting-edge platform for virtual socializing and entertainment. One of their first products is [VinDo](https://www.vindo.ai/), the next generation communication and business tool to streamline your interactions, empower your business, simplify your workflow and amplify your results. Businesses can become virtual with VinDO and redefine customer experiences in the metaverse. 
+VVerse offers a cutting-edge platform for virtual socializing and entertainment. One of their first products is [VinDo](https://www.vindo.ai/), the next generation communication and business tool to streamline your interactions, empower your business, simplify your workflow and amplify your results. Businesses can become virtual with VinDO and redefine customer experiences in the metaverse. Checkout the video below to see this metaverse in action.
 
 <br>
 
@@ -36,5 +36,7 @@ VVerse has chosen to partner with ThreeFold as its infrastructure partner due to
 <br>
 
 Through strategic partnerships with metaverse innovators like VVerse, ThreeFold is paving the way for a future where digital and physical realities seamlessly coalesce. Together, these efforts propel the metaverse towards its full potential, revolutionizing digital experiences for users worldwide.
+
+<div style="padding:56.6% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/917760972?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="vindo_intro"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
