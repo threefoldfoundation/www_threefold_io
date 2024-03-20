@@ -1,7 +1,7 @@
 ---
 id: our_world_free_zone
 title: Our World Free Zone
-description: ThreeFold is working with the Zanzibar government to create the world’s first 100% Digital Free Zone – accessible and affordable for all. 
+description: ThreeFold is working with ZICTIA, on behalf of the Zanzibar government, to create the world’s first 100% Digital Free Zone – accessible and affordable for all. 
 template: partnerPage.html
 taxonomies:
   partners-category: [foundation]
@@ -21,15 +21,16 @@ extra:
 <br/>
 
 ### **A Sovereign Economic Zone**
-Imagine if an entrepreneur, digital nomad, or any company could obtain a digital company license, a bank account supporting both fiat and cryptocurrencies, and handle their legal requirements and taxes – all within a single streamlined platform. ThreeFold is working with the Zanzibar government to do just that within the world’s first 100% Digital Free Zone – accessible and affordable for all. 
+
+Imagine if an entrepreneur, digital nomad, or any organization could obtain a digital company license, a bank account supporting both fiat and cryptocurrencies, and handle their legal requirements and taxes – all within a single streamlined platform. ThreeFold technology will be leveraged to enable just that within the world’s first 100% digital free zone – accessible and affordable for all.
 
 <br/>
 
-The government of Zanzibar is undertaking several initiatives to shift its economy from being largely dependent on tourism to embracing the IT sector. As part of this vision they have partnered with ThreeFold to create the world’s first digital free zone.
+The government of Zanzibar is undertaking several initiatives to shift its economy from being largely dependent on tourism to embracing the IT sector. As part of this vision they have partnered with ThreeFold via ZICTIA, the Zanzibar Communication Corporation, to create the world’s first digital free zone.
 
 <br/>
 
-This collaboration was formally announced by Zanzibar’s President, Dr. Hussein Ali Mwinyi, at ThreeFold’s Africa Regenerative Future Summit in July 2023 which brought together innovators to discuss Africa’s technological future. The president promised to provide the necessary policies to establish the free zone with the goal of developing local skills, bringing about major changes in the ICT sector, and creating job opportunities to increase the nation’s income.
+This collaboration was formally announced by Zanzibar’s President, Dr. Hussein Ali Mwinyi, at ThreeFold’s Africa Regenerative Future Summit in July 2023, which brought together innovators to discuss Africa’s technological future. The president promised to provide the necessary policies to establish the free zone with the goal of developing local skills, bringing about major changes in the ICT sector, and creating job opportunities to increase the nation’s income.
 
 <br>
 
@@ -43,14 +44,9 @@ Some of the ThreeFold team is based in Zanzibar and working to make the free zon
 
 <br/>
 
-
-ThreeFold’s latest technology, which is currently being fine tuned, the Digital Twin, will also be launched as part of the Free Zone membership. The Digital Free Zone (DFZ) Digital Twin application provides a centralized interface for accessing all free zone features and users will own 100% of the data and digital capabilities. You can be among the first to embark on the OurWorld Digital Free Zone journey. Explore the Free Zone product [here](https://ourworldfreezone.github.io/info_freezone/products/products.html) and [subscribe](https://freezone.ourworld.tf/) to learn more as things develop or to participate in our exclusive presale of trade licensing. 
-
-<br/>
+ThreeFold’s latest technology, which is currently being fine tuned, the Digital Twin, will also be launched as part of the Free Zone membership. The Digital Free Zone (DFZ) Digital Twin application provides a centralized interface for accessing all free zone features and users will own 100% of the data and digital capabilities. You can be among the first to embark on the OurWorld Digital Free Zone journey. 
 
 ### **News Coverage**
 
 - [The Citizen](https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-seeks-to-become-digital-freezone--4316150)
 - [Daily News Tanzania](https://dailynews.co.tz/mwinyi-commits-to-improvement-of-digital-spaces/)
-
-

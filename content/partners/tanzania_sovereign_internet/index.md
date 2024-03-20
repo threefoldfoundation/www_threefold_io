@@ -1,7 +1,7 @@
 ---
 id: tanzania_sovereign_internet
-title: Tanzania Sovereign Internet
-description: The current centralized Internet model works for the few and is GDP negative for most countries. 
+title: Tanzania's Sovereign Internet
+description: In collaboration with the ICT Commission of Tanzania and the tech community of Dar Es Salaam, ThreeFold is enabling a better digital way forward for Tanzania.
 template: partnerPage.html
 taxonomies:
   partners-category: [foundation]

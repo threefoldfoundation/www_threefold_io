@@ -1,7 +1,7 @@
 ---
 id: veverse
-title: Veverse
-description: VeVerse aims to create a virtual universe which eradicates cultural boundaries and supports the free flow of ideas and knowledge.
+title: VeVerse
+description: VeVerse, a strong believer in a decentralized metaverse, is creating a virtual universe which eradicates cultural boundaries and supports the free flow of ideas and knowledge.
 template: partnerPage.html
 taxonomies:
   partners-category: [foundation]
@@ -21,6 +21,7 @@ extra:
 <br/>
 
 ### **A Metaverse eradicating cultural boundaries**
+
 VeVerse aims to create a virtual universe which eradicates cultural boundaries and supports the free flow of ideas and knowledge. The vision is to provide a metaverse platform which bridges virtual worlds, digital assets and communities and to empower museums, artists and game developers to construct captivating environments together where users can play, explore and connect.
 
 <br>
