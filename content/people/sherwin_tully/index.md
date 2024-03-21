@@ -3,7 +3,7 @@ title: Sherwin Tully
 weight: 3
 description: Driven by the evolution of tech, money makes the world go round and the ability to adapt to change being the constant.
 taxonomies:
-    people: [sherwi_tully]
+    people: [sherwin_tully]
     memberships: [team]
     categories: [foundation]
 extra:
