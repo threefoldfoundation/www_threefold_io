@@ -7,7 +7,7 @@ taxonomies:
     memberships: [team]
     categories: [foundation]
 extra:
-    imgPath: sherwin_tully.png
+    imgPath: sherwin_tully.jpg
     organizations: [threefold_tech]
     countries: [India]
     cities: [Bangalore]
