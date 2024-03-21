@@ -9,7 +9,7 @@ taxonomies:
     tags: [technology,update,threefold_grid,community,news]
     news-category: [foundation]
 extra:
-    imgPath: tf_grid_mainnet_upgraded_to_v_3_13.png
+    imgPath: tf_grid_mainnet_upgraded_to_v_3_13.jpg
 ---
 
 The team has successfully migrated TF Grid version 3.13 to mainnet! Thanks to all those who contributed to bringing this update live.
