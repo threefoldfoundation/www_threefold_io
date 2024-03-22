@@ -16,7 +16,7 @@ An improved [threefold.io](https://www.threefold.io/) is now live! Most notably 
 
 <br/>
 
-Read through the update [here] (https://forum.threefold.io/t/updated-threefold-io-march-2024/4238) for full details on changes made and those still to come.
+Read through the update [here](https://forum.threefold.io/t/updated-threefold-io-march-2024/4238) for full details on changes made and those still to come.
 
 <br/>
 
