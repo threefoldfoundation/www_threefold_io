@@ -33,14 +33,14 @@ Our feasibility study showed that Tanzania is losing around 10 Billion USD per y
 
 <br>
 
-<div style="display: flex; justify-content: center;">
-    <img src="todays_internet.png" alt="tanzania_sovereign_internet" width="400"/>
+<div class="object-cover w-full" style="display: flex; justify-content: center;">
+    <img src="todays_internet.png" alt="tanzania_sovereign_internet"/>
 </div>
 
 <br>
 
-<div style="display: flex; justify-content: center;">
-    <img src="threefold_internet.jpeg" alt="tanzania_sovereign_internet" width="400"/>
+<div class="object-cover w-full" style="display: flex; justify-content: center;">
+    <img src="threefold_internet.jpeg" alt="tanzania_sovereign_internet"/>
 </div>
 
 <br>

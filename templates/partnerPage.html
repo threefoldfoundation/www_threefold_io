@@ -1,15 +1,16 @@
 {% extends "_default/base.html" %}
 {% block content %}
 
-<div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-16 lg:w-4/6">
+<div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-16">
+  <div class="article lg:w-4/6 mx-auto">
   <div class="flex flex-row flex-wrap items-center mx-4 sm:mx-0">
     <div class="w-full md:w-1/6 mx-auto sm:mx-0">
       <img src="{{page.extra.partner_logo}}" class="
-            rounded-full
+            rounded-md
             bg-gray-200
             w-32
             h-32
-            border-4 border-gray-400
+            border border-gray-400
             mx-auto
             md:mx-0
           " />
@@ -21,7 +22,7 @@
 
       <div class="avatars">
         <section class="container mx-auto py-2">
-          <ul class="list-none flex author-list my-2 px-0">
+          <ul class="list-none flex author-list my-2 px-0 lg:justify-start justify-center">
             {% if page.extra.websites %}
             <li class="mr-2">
               <a href="{{page.extra.websites}}" target="_blank" rel="noopener noreferrer"
@@ -49,9 +50,10 @@
 
   <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
 
-  <section class="post-content container mx-auto relative text-gray-700">
-    <div class="post-content-text text-xl">{{ page.content | safe }}</div>
-  </section>
+    <section class="post-content container mx-auto relative text-gray-700">
+      <div class="post-content-text text-xl">{{ page.content | safe }}</div>
+    </section>
+  </div>
 </div>
 
 {% endblock content %}

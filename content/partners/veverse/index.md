@@ -30,8 +30,8 @@ One of the critical moments which inspired this project was when VeVerse’s fou
 
 <br>
 
-<div style="display: flex; justify-content: center;">
-    <img src="veverse.png" alt="veverse" width="800"/>
+<div class="object-cover w-full" style="display: flex; justify-content: center;">
+    <img src="veverse.png" alt="veverse"/>
 </div>
 
 <br>
