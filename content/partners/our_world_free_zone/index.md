@@ -30,7 +30,7 @@ The government of Zanzibar is undertaking several initiatives to shift its econo
 
 <br/>
 
-This collaboration was formally announced by Zanzibar’s President, Dr. Hussein Ali Mwinyi, at ThreeFold’s Africa Regenerative Future Summit in July 2023, which brought together innovators to discuss Africa’s technological future. The president promised to provide the necessary policies to establish the free zone with the goal of developing local skills, bringing about major changes in the ICT sector, and creating job opportunities to increase the nation’s income.
+This collaboration was formally announced by Zanzibar’s President, Dr. Hussein Ali Mwinyi, at ThreeFold’s Africa Regenerative Future Summit in July 2023 which brought together a group of passionate entrepreneurs and actors working on innovative planet-first projects in Africa. The president promised to establish the digital free zone from a regulatory perspective, with the goal of developing local skills, bringing about major changes in the ICT sector, and creating job opportunities to increase the nation’s income.
 
 <br>
 
@@ -40,7 +40,7 @@ This collaboration was formally announced by Zanzibar’s President, Dr. Hussein
 
 <br>
 
-Some of the ThreeFold team is based in Zanzibar and working to make the free zone live by the end of 2024. As the world’s first digital free zone, this special economic zone will be supported by ThreeFold’s innovative tech stack. Merging traditional business structures with groundbreaking technology, the free zone will be a pioneering hub for business, fostering an ecosystem that is adaptive, resilient, and conducive to growth. It will be one of the first environments where Decentralized Autonomous Organizations (DAOs) can be legally established and operated.
+As the world’s first digital free zone, this special economic zone will be supported by ThreeFold’s innovative tech stack. Merging traditional business structures with groundbreaking technology, the free zone will be a pioneering hub for business, fostering an ecosystem that is adaptive, resilient, and conducive to growth. It will be one of the first environments where Decentralized Autonomous Organizations (DAOs) can be legally established and operated. Some of the ThreeFold team is based in Zanzibar and working to make the free zone live by the end of 2024. 
 
 <br/>
 
