@@ -1,8 +1,8 @@
 ---
 id: africa_regen_summit_ii
-title: "Africa Regenerative Futures Summit | Volume II"
+title: "Reflecting on Africa Regenerative Futures Summits : Shaping a better digital future in Africa"
 image_caption: Africa Regen II
-description: We recently hosted the second edition of the Africa Regenerative Futures Summit in Zanzibar. Read about our experience.
+description: In 2023, we had the pleasure of hosting two summits in Zanzibar – Read about the key outcomes. 
 date: 2023-11-21
 taxonomies:
     people: [sam_taggart]
@@ -12,82 +12,25 @@ extra:
     imgPath: africa_regen_summit_ii.png
 ---
 
-*The below is an update from a summit we held here in Zanzibar this past weekend called the Africa Regenerative Futures Summit. It was a follow-up of [an event we hosted in July](https://youtu.be/GIBlmID7g5o?t=246&si=KYEExcPFHUCU7HKY). And we aim to continue to host this as a series of gatherings around OurWorld, ThreeFold, and other planet-first people-first projects and individuals who are supporting or want to support Tanzania and the African continent as a whole.*
+In 2023, we had the pleasure of hosting two summits in Zanzibar – one in [July](https://www.youtube.com/watch?t=246&si=KYEExcPFHUCU7HKY&v=GIBlmID7g5o&feature=youtu.be) and another in [November](https://www.threefold.io/newsroom/africa-regen-ii/), named the Africa Regenerative Future Summit. These events brought together leading innovators and investors committed to advancing human flourishing, with a specific emphasis on science and technology shaping the trajectory of Africa's future.
 
 <br>
 
-On the 16th of November, we had a roundtable covering important relevant topics (Cyber Pandemic, AI, Quantum Computing, etc.) and explaining the core vision of OurWorld and ThreeFold in context to what is currently happening in today’s world as a whole.
+During the inaugural summit in July, Zanzibar's President, Dr. Hussein Mwinyi, honored us with his presence. In a formal declaration, he publicly expressed the government's dedication to establishing a digital free zone, a locally-owned Internet infrastructure, and an incubator to support young local innovators – all in collaboration with ThreeFold – and their commitment to the ICT sector as a whole.
 
 <br>
 
-Over the course of Friday and Saturday morning, we delved into an exciting array of projects, with a focus on experiencing two inspirational mornings that provided valuable insights into the current landscape of OurWorld and its affiliated initiatives.
-
-### **Friday Morning Highlights**
-
-**OurWorld Infrastructure (Kristof De Spiegeleer):** Kristof gave us a deep dive into the foundational aspects of [OurWorld](https://ourworld.tf) Infrastructure, explaining the [ThreeFold](https://threefold.io) technology and how it serves as a foundation for a wide array of impactful projects.
+The second summit saw the birth of Dunia Yetu (meaning "Our World" in Swahili), a collaborative movement forged in partnership with a cohort of tech developers and innovators from Dar Es Salaam. This initiative is driven by a shared commitment to reshape the digital landscape in Tanzania and Africa. Its goals include empowering coders, fostering economic development, and constructing a sovereign, autonomous digital ecosystem for a more promising digital future. 
 
 <br>
 
-![](kristof_regen.jpeg)
+Looking ahead to 2024, our vision includes a continued series of gatherings focused on OurWorld, ThreeFold, and other projects and individuals prioritizing a planet-first, people-first approach to support Tanzania and the broader African continent.
 
 <br>
 
-**Hub Culture (Stan Stalnaker):** Stan Stalnaker presented his [HubCulture](https://hubculture.com) platform, highlighting its role and impact as a Network State.
-
+More information: 
 <br>
 
-**Fumba Permaculture Project (Franko Gohse):** Franko shared his work on the [Fumba](https://fumba.town/) Permaculture Project, detailing its sustainable and regenerative initiatives.
-
-<br>
-
-**Naledu Health (Stephanie Ndungu):** Stephanie is a wonderful project to raise awareness of breast and other cancers in Kenya and reach out to local women and children to screen them for free. Her idea will be to devise an AI-powered SMS solution that could help them seek treatment if they show symptoms.
-
-<br>
-
-![](steph_regen.jpeg)
-
-<br>
-
-**Dark Matter Labs (Raj Kalia):** Raj Kalia presented the vision and initiatives of [DM Labs](https://darkmatterlabs.org/About), offering a glimpse into the innovative ventures they are supporting.
-
-<br>
-
-**HedUnity (Tim Degraye):** Tim presented his company HedUnity and his first wifi headphone which can stream lossless uncompressed Hi-Res audio up to 96kHz 24-bit, [Unity](https://www.getunity.com).
-
-<br>
-
-### **Saturday Morning Startup Sessions**
-
-**TechBridge Institute (Justine Mahinyila):** Justine presented his exciting new project to help Tanzania’s technology community, ensure inclusive and equitable quality education, promote lifelong learning opportunities for all, as well as sustainable economic growth, full and productive employment and decent work for all.
-
-<br>
-
-**Sikana (Greg Flipo):** Greg discussed the [Sikana](https://www.sikana.tv/en) project, how he sees the future of the platform, emphasizing its significance and contributions within the OurWorld ecosystem.
-
-<br>
-
-![](greg_regen.jpeg)
-
-<br>
-
-**HATCH (William Chamberlin):** William introduced [HATCH](https://hatchexperience.org), a global network of changemakers, illustrating its potential to drive positive transformation on a global scale.
-
-<br>
-
-**Chatafisha (David Machuche + Victor Muhagachi):** David and Vic shared insights into ReFi Tanzania and Regen Tech, showcasing their [projects](https://chatafisha.com) that aim to make a positive impact on communities.
-
-<br>
-
-**Sarufi (Kalebu Jordan):** Kalebu shed light on the development of conversational AI tailored [for African languages](https://sarufi.io), addressing a critical need in tech accessibility.
-
-<br>
-
-![](kalebu_regen.jpeg)
-
-<br>
-
-On the fourth and final day, we spent time with some of our friends participants from Dar Es Salaam and Kenya to understand each others’ collective goals and put together a collaboration plan, which involves deploying ThreeFold infrastructure locally and working together in the coming months on developer sessions and hackathons. The team is really looking forward to supporting and working together with this community and we’ll [provide updates](https://forum.threefold.io/t/introducing-dunia-yetu/4147) as we have them.
-
-<br>
-
-![](group_regen.jpeg)
+- **Summit I:** Read [Zanzibar Seeks to Become a Digital FreeZone](https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-seeks-to-become-digital-freezone--4316150) (via The Citizen) and [Mwinyi Commits to Improvement of Digital Spaces](https://dailynews.co.tz/mwinyi-commits-to-improvement-of-digital-spaces/) (via Daily News Tanzania) for further details.
+- **Summit II:** Learn more about [Dunia Yetu](https://www.threefold.io/newsroom/duniayetulaunchdar/) 
+- **Dunia Yetu:** Read [Sovereign Internet - A game changer for Tanzania](https://www.thecitizen.co.tz/tanzania/news/national/sovereign-internet-a-game-changer-to-tanzania-startups-ecosystem-growth-449806) (via The Citizen)

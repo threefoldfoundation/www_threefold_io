@@ -82,7 +82,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](social_network.png#mx-auto)](https://www.social.network/en)
+[![](social_network.png#mx-auto)](/partners/social-network)
 
 </div>
 
@@ -90,7 +90,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](ourworld.png#mx-auto)](https://freezone.ourworld.tf/)
+[![](ourworld.png#mx-auto)](/partners/our-world-free-zone)
 
 </div>
 
@@ -98,7 +98,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](ict.png#mx-auto)](https://www.ictc.go.tz/)
+[![](ict.png#mx-auto)](/partners/tanzania-sovereign-internet)
 
 </div>
 
@@ -109,7 +109,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](sikana.png#mx-auto)](https://www.sikana.tv/en)
+[![](sikana.png#mx-auto)](/partners/sikana)
 
 </div>
 
@@ -117,7 +117,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](vevrse.png#mx-auto)](https://veverse.com/)
+[![](vevrse.png#mx-auto)](/partners/veverse)
 
 </div>
 
@@ -125,7 +125,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](vverse.png#mx-auto)](https://www.vverse.co/)
+[![](vverse.png#mx-auto)](/partners/vverse)
 
 </div>
 

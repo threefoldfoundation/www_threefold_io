@@ -9,8 +9,8 @@
 {% endif %}
 {% endif %}
 
-<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-  <div class="flex-1 border-b">
+<div class="flex flex-col rounded-lg shadow-lg overflow-hidden border">
+  <div class="flex-1">
     <a href="{{ post.permalink }}" class="block">
         {% if post.extra.imgPath %}
       {% set img_url = get_url(path='/' ~ post.relative_path | replace(from='_', to='-') | replace(from='index.md',

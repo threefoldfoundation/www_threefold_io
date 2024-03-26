@@ -12,5 +12,5 @@ insert_anchor_links: "left"
 template: "layouts/partners.html"
 page_template: "partnerPage.html"
 #transparent: true
-description: "Partners are projects with whom we have at least signed an agreement (most typically a Memorandum of Understanding) to move forward. These partners collectively embody our commitment to collaboration across various phases of development, strengthening our shared mission."
+description: "Meet the core projects with whom we are working with in 2024 to drive utilization of the ThreeFold Grid. In 2024 we will reach back out to partners with whom we have previously signed a Memorandum of Understanding and update accordingly."
 ---
