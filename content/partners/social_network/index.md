@@ -1,7 +1,7 @@
 ---
 id: social_network
 title: Social Network
-description: Earth Staking’s Social Network is the world’s first Bitcoin Staking Layer 2 on Earth, collaborating with ThreeFold to improve security, scalability, and energy-efficiency.
+description: Earth Staking’s Social Network is the first Bitcoin Staking Layer 2 on Earth, collaborating with ThreeFold to improve security, scalability, and energy-efficiency.
 template: partnerPage.html
 taxonomies:
   partners-category: [foundation]
@@ -21,7 +21,7 @@ extra:
 <br/>
 
 ### **Scaling Bitcoin**
-Earth Staking’s Social Network is the world’s first Bitcoin Staking Layer 2 on Earth, designed to provide users with a more cost-effective, efficient and eco-friendly experience. Their mission is to decentralize scaling solutions for Bitcoin and create social networks that prioritize the well-being of Earth and its inhabitants. Having jointly identified challenges currently confronting Bitcoin and its alternatives, ThreeFold and Social Network have partnered together to improve the accessibility, security, scalability, reliability and energy efficiency of the Bitcoin Network.  
+Earth Staking’s Social Network is the first Bitcoin Staking Layer 2 on Earth, designed to provide users with a more cost-effective, efficient and eco-friendly experience. Their mission is to decentralize scaling solutions for Bitcoin and create social networks that prioritize the well-being of Earth and its inhabitants. Having jointly identified challenges currently confronting Bitcoin and its alternatives, ThreeFold and Social Network have partnered together to improve the accessibility, security, scalability, reliability and energy efficiency of the Bitcoin Network.  
 
 <br>
 
