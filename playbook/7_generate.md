@@ -1,0 +1,3 @@
+```js
+!!website.generate
+```
