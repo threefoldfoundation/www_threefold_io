@@ -2,7 +2,14 @@
 
 Here, we add the people we want to display in the people page. The people we want to add are defined in the `people` collection, so we need to add the file from the `people` collection which defines the person.
 
+
 Note that the order we add the people determines the order in which they are listed in.
+
+```js
+description: 'Our team brings together +30 years of experience in cloud automation, Internet storage, and infrastructure services. We are a passionate group on a collective mission to make the world a better place for the people around us.'
+
+```
+
 
 ```js 
 !!website.person_add page:'people:kristof_de_spiegeleer.md'

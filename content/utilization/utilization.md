@@ -34,8 +34,8 @@ ThreeFold has developed extensive technology and tools for developers and system
 
 <br>
 
-<button>[Developers Documentation](https://manual.grid.tf/developers/developers.html)</button>
-<button>[Sysadmins Documentation](https://manual.grid.tf/system_administrators/system_administrators.html)</button>
+<button>[Developers Documentation](https://www.manual.grid.tf/documentation/developers/developers.html)</button>
+<button>[Sysadmins Documentation](https://www.manual.grid.tf/documentation/system_administrators/system_administrators.html)</button>
 
 |||
 
@@ -66,7 +66,7 @@ Meet the projects with whom we are working closely this year to drive utilizatio
 
 <div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
 
-[![Image](social_logo.png#icon#mx-auto)](https://www.social.network/en)
+[![Image](social_logo.png#icon#mx-auto)](/partners/social-network)
 
 </div>
 
@@ -77,7 +77,7 @@ Meet the projects with whom we are working closely this year to drive utilizatio
 
 <br>
 
-Bitcoin is the clear leader when it comes to the "future of money," but the network faces key challenges like scalability, reliability, and energy efficiency, the same as all blockchains. We have known the team behind Earth Staking's Social Network, launched February 2024, for some years now. We decided to come together to tackle these issues together. [Visit](https://www.social.network/en)
+Bitcoin is the clear leader when it comes to the “future of money,” but the network faces key blockchain challenges like scalability, reliability, and energy efficiency. We have known the team behind Earth Staking’s Social Network for some years now and have decided to tackle these issues together. [Visit](/partners/social-network)
 
 </div>
 
@@ -89,7 +89,7 @@ Bitcoin is the clear leader when it comes to the "future of money," but the netw
 
 <div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
 
-[![Image](ourworld_logo.png#icon#mx-auto)](https://freezone.ourworld.tf/)
+[![Image](ourworld_logo.png#icon#mx-auto)](/partners/our-world-free-zone)
 
 </div>
 
@@ -100,7 +100,7 @@ Bitcoin is the clear leader when it comes to the "future of money," but the netw
 
 <br>
 
-Imagine an entrepreneur, digital nomad, or any company can obtain a digital company license, a bank account supporting both fiat and cryptocurrencies, and handle their legal requirements and taxes – all within a single streamlined platform. In July 2023, Dr. Hussein Ali Mwinyi, President of Zanzibar, spoke at a summit hosted by ThreeFold to announce the OurWorld Digital Free Zone, which will do just that. In 2024, the free zone will come alive, with ThreeFold as the underlying infrastructure. [Visit](https://freezone.ourworld.tf/)
+In July 2023, Dr. Hussein Ali Mwinyi, President of Zanzibar, spoke at a summit hosted by ThreeFold to announce our collaboration (via the Zanzibar Communication Corporation) on the OurWorld Digital Free Zone, the first 100% digital free zone in the world. In 2024, the free zone will come alive, with ThreeFold as the underlying infrastructure. [Visit](/partners/our-world-free-zone)
 
 </div>
 
@@ -115,7 +115,7 @@ Imagine an entrepreneur, digital nomad, or any company can obtain a digital comp
 
 <div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
 
-[![Image](ict_logo.png#icon#mx-auto)](https://www.ictc.go.tz/)
+[![Image](ict_logo.png#icon#mx-auto)](/partners/tanzania-sovereign-internet)
 
 </div>
 
@@ -126,7 +126,7 @@ Imagine an entrepreneur, digital nomad, or any company can obtain a digital comp
 
 <br>
 
-Most countries do not own their own Internets, they have cables to other richer countries, where the infrastructure resides. Because of this, they lose numerous benefits. In a world where data is becoming increasingly valuable, data stays outside of the country. Digital sovereignty is inexistent. And economic gains are lost. Together with the ICT Commission of Tanzania, we will create a sovereign cloud & Internet infrastructure, along with coding academies and innovation centers to empower a self-reliant digital ecosystem for Tanzania and East Africa. [Visit](https://www.ictc.go.tz/)
+Most countries lose numerous benefits from not owning their own Internet. Digital sovereignty is inexistent and economic gains are lost. Together, with Tanzania's ICT Commission and the tech community in Dar Es Salaam, we will create a sovereign cloud & Internet infrastructure to empower a self-reliant digital ecosystem for Tanzania. [Visit](/partners/tanzania-sovereign-internet)
 
 </div>
 
@@ -138,7 +138,7 @@ Most countries do not own their own Internets, they have cables to other richer 
 
 <div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
 
-[![Image](sikana_logo.png#icon#mx-auto)](https://www.sikana.tv/en)
+[![Image](sikana_logo.png#icon#mx-auto)](/partners/sikana)
 
 </div>
 
@@ -149,7 +149,7 @@ Most countries do not own their own Internets, they have cables to other richer 
 
 <br>
 
-Sikana has delivered over 400,000,000 lessons via free and practical educational videos and video programming but because of this incredible scale, they struggled massively to pay for hosting costs. Together with ThreeFold, Sikana will enable the creation of local content in local languages and on top of local infrastructure – empowering people and communities with knowledge and power. [Visit](https://www.sikana.tv/en)
+Sikana has delivered over 400 million lessons via free educational videos but because of this incredible scale they could not afford hosting costs. With ThreeFold, Sikana will be able to extend their reach, creating and distributing local content in local languages on top of local infrastructure. [Visit](/partners/sikana)
 
 </div>
 
@@ -163,7 +163,7 @@ Sikana has delivered over 400,000,000 lessons via free and practical educational
 
 <div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
 
-[![Image](veverse_logo.png#icon#mx-auto)](https://veverse.com/)
+[![Image](veverse_logo.png#icon#mx-auto)](/partners/veverse)
 
 </div>
 <br>
@@ -173,7 +173,7 @@ Sikana has delivered over 400,000,000 lessons via free and practical educational
 
 <br>
 
-We met the founder of VeVerse several years ago, who had the vision to democratize access to art globally through metaverse technology. Together we agreed that we would work to turn that vision into reality in a fair and just way. Now in 2024, we plan to bring VeVerse on top of the ThreeFold Grid. [Visit](https://veverse.com/) 
+We met the founder of VeVerse several years ago, who had the vision to democratize access to art globally through metaverse technology. Together we agreed that we would work to turn that vision into reality in a fair and just way. Now in 2024, we plan to bring VeVerse on top of the ThreeFold Grid. [Visit](/partners/veverse) 
 
 </div>
 
@@ -185,7 +185,7 @@ We met the founder of VeVerse several years ago, who had the vision to democrati
 
 <div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
 
-[![Image](vverse_logo.png#icon#mx-auto)](https://www.vverse.co/)
+[![Image](vverse_logo.png#icon#mx-auto)](/partners/vverse)
 
 </div>
 <br>
@@ -195,7 +195,7 @@ We met the founder of VeVerse several years ago, who had the vision to democrati
 
 <br>
 
-VVerse (not to be confused with VeVerse) is probably one of the most capable metaverse technologies ever made. The ThreeFold Grid will be used to render in the cloud and use low-latency connection to stream VVerse's virtual environments with video-like guality. A tremendous amount of capacity is required in order to roll out this metaverse. [Visit](https://www.vverse.co/) 
+VVerse (not to be confused with VeVerse) is one of the most capable metaverse technologies. The ThreeFold Grid will render it in the cloud and use low-latency connection to stream VVerse’s virtual environments with video-like quality. Significant capacity is required to roll out this metaverse. [Visit](/partners/vverse) 
 
 </div>
 
