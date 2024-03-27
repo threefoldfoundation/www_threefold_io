@@ -1,9 +1,3 @@
----
-title: "Farm"
-template: "page.html"
-insert_anchor_links: "left"
----
-
 <!-- section 1 (be the Internet) -->
 
 {% row(style="center narrow") %}
