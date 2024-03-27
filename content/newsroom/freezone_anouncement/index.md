@@ -2,7 +2,7 @@
 id: freezone_anouncement
 title: "ThreeFold signs agreement with Zanzibar government for Digital Free Zone"
 image_caption: Zanzibar President anounces partnership
-description: ThreeFold recently formalized its partnership with ZICITIA, the Zanzibar ICT Infrastructure Agency, and the Zanzibar Government to create the world’s first 100% Digital Free Zone - accessible and affordable for all.
+description: ThreeFold recently formalized its partnership with ZICTIA, the Zanzibar ICT Infrastructure Agency, and the Zanzibar Government to create the world’s first 100% Digital Free Zone - accessible and affordable for all.
 date: 2023-08-15
 taxonomies:
     people: [emilie_ouwerx]
