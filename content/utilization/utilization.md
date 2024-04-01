@@ -1,10 +1,3 @@
----
-title: "Utilization"
-template: "page.html"
-insert_anchor_links: "left"
----
-
-
 <!-- section 1  -->
 
 <div class="container mx-auto">
