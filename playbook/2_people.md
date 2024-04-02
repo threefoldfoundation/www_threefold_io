@@ -6,7 +6,10 @@ Here, we add the people we want to display in the people page. The people we wan
 Note that the order we add the people determines the order in which they are listed in.
 
 ```js
-description: 'Our team brings together +30 years of experience in cloud automation, Internet storage, and infrastructure services. We are a passionate group on a collective mission to make the world a better place for the people around us.'
+!!website.people_add 
+    title:'Our People'
+    sort_by: order
+    description: 'Our team brings together +30 years of experience in cloud automation, Internet storage, and infrastructure services. We are a passionate group on a collective mission to make the world a better place for the people around us.'
 
 ```
 
