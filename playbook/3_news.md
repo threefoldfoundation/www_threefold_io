@@ -1,5 +1,17 @@
 ## News
 
+We add a news section to our website:
+
+```js
+!!website.news_add 
+    title: 'News'
+    sort_by: date
+```
+
+Note that we chose the template
+
+we add the news articles we want to display in the news section section. The people we want to add are defined in the `people` collection of `threefold_data`, so we need to add the file from the `people` collection which defines the person.
+
 ```js
 !!website.news_add pointer:'newsroom:2020_rewind_grid_24.md'
 !!website.news_add pointer:'newsroom:2021_review_2022_preview.md'

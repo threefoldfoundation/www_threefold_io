@@ -1,25 +1,9 @@
-# builds if executable isn't foound
-if [ ! -f "tailwindcss" ]
+# install hero if not installed
+if [ ! -f "hero" ]
 then
-    sh build.sh
+    curl https://raw.githubusercontent.com/freeflowuniverse/crystallib/development/scripts/installer_hero.sh > /tmp/hero_install.sh
+    bash /tmp/hero_install.sh
 fi
 
-# initialized and configures tailwind if not configured
-if [ ! -f "tailwind.config.js" ]
-then
-    ./tailwindcss init
-    sed -i '' "s|  content: \\[\\],|  content: \\['./templates/**/*.html'\\],|g" tailwind.config.js
-fi
-
-# compiles tailwind css & launches locally
-rm -rf public static/css
-./tailwindcss -i css/index.css -o ./static/css/index.css --watch & zola serve &
-
-# compiles tailwind css for prod & builds project
-./tailwindcss -i css/index.css -o ./static/css/index.css --minify
-zola build
-
-# kills zola and tw bg processes on interrupt
-trap 'kill $(jobs -p); exit 1' INT
-wait
-
+# run playbook
+hero zola -u https://github.com/threefoldfoundation/www_threefold_io/tree/development_zola/playbook

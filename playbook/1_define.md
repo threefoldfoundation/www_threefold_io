@@ -6,6 +6,7 @@ We first define our website and add our zola template to it.
 !!website.define 
     name:'www2_threefold' 
     title:'Threefold Development'
+    description: "ThreeFold is the world’s first system enabling anyone to become a cloud and internet service provider."
 
 !!website.template_add url:'https://github.com/freeflowuniverse/webcomponents/tree/main/zola'
 ```
