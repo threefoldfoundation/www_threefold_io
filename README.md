@@ -36,11 +36,13 @@ start.sh
 
 This website is built with `hero`, using `zola` under the hood. 
 
-Please see 
-
+```bash
+#push changes
+hero git push -f www_threefold_io  -m 'some comment'
+hero git push -f threefold_data  -m 'some comment'
+```
 
 Finally, start a browsable local copy of the site that will respond to changes in the source files like this:
-
 
 Zola will display a local address such as `http://127.0.0.1:1111` which you can click or copy and paste into your browser to view the site on your own machine.
 
