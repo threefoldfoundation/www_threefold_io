@@ -1,9 +1,8 @@
 ## People
 
-Here, we add the people we want to display in the people page. The people we want to add are defined in the `people` collection, so we need to add the file from the `people` collection which defines the person.
+In this page, we add the people we want to display in the people section. The people we want to add are defined in the `people` collection of `threefold_data`, so we need to add the file from the `people` collection which defines the person.
 
-
-Note that the order we add the people determines the order in which they are listed in.
+First we define the title and description of our people section.
 
 ```js
 !!website.people_add 
@@ -13,6 +12,7 @@ Note that the order we add the people determines the order in which they are lis
 
 ```
 
+Note that above we chose to sort by the order we add the people. As such, the order below determines the order in which they are listed in.
 
 ```js 
 !!website.person_add pointer:'people:kristof_de_spiegeleer.md'
