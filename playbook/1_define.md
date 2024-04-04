@@ -18,13 +18,13 @@ Then we add the [doctrees]() we will use for the website. When we add a doctree,
 We use the following doctrees in our website:
 - `threefoldfoundation/threefold_data` for blogs, people and news. 
 - `threefoldfoundation/www_threefold_io` for site content for pages.
+  
 ```js
 // add collections to the website using their github url
 !!website.doctree_add 
     url:'https://github.com/threefoldfoundation/www_threefold_io/tree/development_zola/content'
     branch: development_zola
     pull: true
-
 
 !!website.doctree_add 
     url:'https://github.com/threefoldfoundation/threefold_data/tree/development_zola/content'
