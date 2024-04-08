@@ -9,7 +9,7 @@ taxonomies:
     tags: [peer_to_peer,event]
     categories: [foundation]
 extra:
-    imgPath: threefold_herdao_dar.png
+    imgPath: diversitytf.png
 ---
 
 In today's rapidly evolving technological landscape, diversity and inclusion are not just buzzwords; they are essential components for driving innovation and progress. As the tech and IT sectors continue to shape the future, it's crucial to recognize the importance of fostering diverse perspectives and creating inclusive environments where everyone feels valued and empowered to contribute.
