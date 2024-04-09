@@ -21,13 +21,11 @@ In the recent community call, several inquiries from both the forum and chat rem
 
 *Commercialization means that there will be much more utilization, and this will lead to more rewards. This means that farmers will also need to meet certain standards related to reliability for commercial-level workloads.*
 
-</br>
-
 *Regarding getting 3Nodes faster in the US, for now, we recommend reaching out to existing vendors on this topic. Anyone can apply to become a vendor and ship in the US, and we expect that, as the project grows, more vendors will come on board.*
 
 </br>
 
-***Note**: We still need to discuss how the certified node program might change in v4.
+***Note***: We still need to discuss how the certified node program might change in v4.
 
 </br>
 
