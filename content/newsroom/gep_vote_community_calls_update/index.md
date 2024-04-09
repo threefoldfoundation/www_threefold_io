@@ -17,7 +17,10 @@ We are pleased to announce that the voting phase for the proposed GEP from last 
 <br/>
 
 Last week, we shared [a GEP proposal](https://forum.threefold.io/t/gep-minting-and-farming-rewards-updates-march-2024/4285) around minting and farming rewards updates, and we are ready to take a vote.
-<ol>
+
+</br>
+
+<ul>
 
 <li> 
 
