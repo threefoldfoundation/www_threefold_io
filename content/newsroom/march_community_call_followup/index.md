@@ -45,6 +45,8 @@ In the recent community call, several inquiries from both the forum and chat rem
 
 Click [here](https://forum.threefold.io/t/community-call-questions-and-answers/4280) for more of the Q&As from the community call. 
 
+</br>
+
 Next week please stay tuned for more details about TF Grid 3.14, including a GEP (DAO vote).
 
 
