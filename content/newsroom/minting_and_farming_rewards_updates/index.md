@@ -2,7 +2,7 @@
 id: minting_and_farming_rewards_updates
 title: 📣 Minting and Farming Rewards Updates 
 image_caption: CMinting And Farming Updates
-description: A new Grid Enhancement Proposal (GEP) and updates on Farming rewards, click here to know more
+description: There is a new Grid Enhancement Proposal (GEP) around minting and farming rewards. Dig in and bring your feedback!
 date: 2024-03-29
 taxonomies:
     people: [bernadette_amanda_caster]

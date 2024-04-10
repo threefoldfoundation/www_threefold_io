@@ -26,7 +26,7 @@ But a new way forward has emerged. Decentralized and edge computing solutions, s
 
 The best part? We can achieve it together.
 
-### Be a cloud service provider, not just a cloud consumer.  
+### **Be a cloud service provider, not just a cloud consumer.**
 
 With ThreeFold’s autonomous technology, anyone can be a cloud service provider without any technical expertise. You can be the Internet, for yourself and for those around you. 
 
@@ -42,9 +42,7 @@ Finally, by contributing to a more sustainable edge cloud, you're not only ensur
 
 Best of all, you're not just investing in technology - you're investing in a sustainable, connected and rewarding future, powered by the people, for the people. It's ultimately good for you, good for the people around you, and good for the planet. 
 
-<br/>
-
-### How to become a cloud provider?
+### **How to become a cloud provider?**
 
 ThreeFold enables you to become a cloud service provider by hosting a 3node, bringing local capacity where people need it most and providing compute, storage and AI capabilities. After setting up this node, being verified and sharing capacity on our grid, your contribution is rewarded. 
 

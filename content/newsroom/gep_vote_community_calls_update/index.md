@@ -2,7 +2,7 @@
 id: gep_vote_community_calls_update
 title: ✅️ GEP Vote is Live + Community Call Updates 
 image_caption: gep_vote_community_calls_update
-description: We are pleased to share that the vote on last week's proposed GEP is now live.
+description: We are pleased to share that the vote on last week's proposed GEP is now live. Encouraging all farmers to vote now!
 date: 2024-04-06
 taxonomies:
     people: [bernadette_amanda_caster]
