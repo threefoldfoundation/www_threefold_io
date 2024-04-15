@@ -20,7 +20,7 @@ These are some of the words that come to mind when thinking about nature and nat
 
 <br/>
 
-ThreeFold has always acted in a decentralized way – through the creation of public community chats and forums, by hosting regular community calls, through Grid Enhancement Proposals / DAO votes, and more. Different entities participate in the project – TF9 (previously TF Tech) creates the technology, TF DMCC promotes the TF Grid and develops services, the farmers add capacity, grid users deploy on that capacity, token holders support the project through buying the token, and so on.
+ThreeFold has always acted in a decentralized way – through the creation of public community chats and forums, by hosting regular community calls, through Grid Enhancement Proposals / DAO votes, and more. Different entities participate in the project – TF9 (previously TF Tech) creates the technology, TF DMCC advocates for and does day-to-day management of the TF Grid, the farmers add capacity, grid users deploy on that capacity, token holders support the project through buying the token, and so on.
 
 <br/>
 
