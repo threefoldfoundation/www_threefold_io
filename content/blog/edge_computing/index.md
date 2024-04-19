@@ -1,6 +1,6 @@
 ---
 id: edge_computing
-title: "Why Decentralized Cloud Infrastructures Such as ThreeFold Are a Requirement to Meet Growing Global Demand at the Edge"
+title: "Edge Cloud Infrastructures Are Needed to Meet Digital Demand"
 image_caption: Edge Computing
 description: Learn what edge computing means and what it offers compared to centralized cloud infrastructures.
 date: 2024-04-18
