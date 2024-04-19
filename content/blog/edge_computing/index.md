@@ -28,7 +28,7 @@ Edge computing emerges as a compelling solution to address the challenges facing
 
 <br>
 
-According to [Alexandra Rotaru]((https://www.idc.com/getdoc.jsp?containerId=prUS50386323)), senior research analyst at the International Data Corporation (IDC), edge computing is “one of the most resilient and attractive areas of investments, growing globally at a double-digit rate over the next five years”, underscoring its growing significance in meeting the evolving computational needs of modern enterprises and service providers. People are clearly looking for alternatives to the centralized data model with [Gartner](https://www.gartner.com/smarterwithgartner/what-edge-computing-means-for-infrastructure-and-operations-leaders) predicting that by 2025, 75% of enterprise-generated data will be processed and created outside of traditional centralized clouds and data centers. 
+According to [Alexandra Rotaru](https://www.idc.com/getdoc.jsp?containerId=prUS50386323), senior research analyst at the International Data Corporation (IDC), edge computing is “one of the most resilient and attractive areas of investments, growing globally at a double-digit rate over the next five years”, underscoring its growing significance in meeting the evolving computational needs of modern enterprises and service providers. People are clearly looking for alternatives to the centralized data model with [Gartner](https://www.gartner.com/smarterwithgartner/what-edge-computing-means-for-infrastructure-and-operations-leaders) predicting that by 2025, 75% of enterprise-generated data will be processed and created outside of traditional centralized clouds and data centers. 
 
 ### **Hello ThreeFold**
 
