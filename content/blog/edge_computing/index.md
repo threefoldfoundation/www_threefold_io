@@ -1,6 +1,6 @@
 ---
 id: edge_computing
-title: "Why Decentralized Cloud Infrastructures Such as ThreeFold Are a Requirement to Meet Growing Global Demand at the Edge"
+title: "ThreeFold: Meeting Digital Demand at the Edge"
 image_caption: Edge Computing
 description: Learn what edge computing means and what it offers compared to centralized cloud infrastructures.
 date: 2024-04-18
@@ -32,7 +32,7 @@ According to [Alexandra Rotaru](https://www.idc.com/getdoc.jsp?containerId=prUS5
 
 ### **Hello ThreeFold**
 
-ThreeFold, a decentralized autonomous cloud infrastructure, is by definition edge computing as our cloud is built from 3Nodes, hardware deployed by people locally, allowing data to be processed and stored closer to the source. Decentralized cloud infrastructure is a distributed network of computing resources that are not controlled by a single centralized authority. Instead, these resources are spread across a network of geographically dispersed nodes and managed collectively through decentralized protocols and technologies. As the largest and most advanced decentralized autonomous cloud network in the world, ThreeFold is a pivotal player in meeting growing global demand at the edge.
+ThreeFold, a decentralized autonomous cloud infrastructure, does edge computing by definition. Our cloud is built from 3Nodes, hardware deployed by people locally, allowing data to be processed and stored closer to the source. Decentralized cloud infrastructure is a distributed network of computing resources that are not controlled by a single centralized authority. Instead, these resources are spread across a network of geographically dispersed nodes and managed collectively through decentralized protocols and technologies. As the largest and most advanced decentralized autonomous cloud network in the world, ThreeFold is a pivotal player in meeting growing global demand at the edge.
 
 <br>
 
