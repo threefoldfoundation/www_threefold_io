@@ -16,7 +16,7 @@ The recent vote on minting and farming rewards has been completed and was succes
 
 <br/>
 
-Proposal Summary
+**Proposal Summary**
 
 <ul>
 <li> 95% and 98% uptime requirements for DIY and certified nodes respectively</li>

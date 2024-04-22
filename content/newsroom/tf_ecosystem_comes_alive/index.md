@@ -38,7 +38,9 @@ Join our [main chat](https://t.me/threefold), talk to humans</li>
 [Stay tuned](https://t.me/threefoldnews) for news, updates, and community calls</li>
 <li>
 
-Take part in the [feedback](https://forum.threefold.io/t/feedback-on-our-tfgrid-3-14/4276) about the next steps for ThreeFold
+Take part in the [feedback](https://forum.threefold.io/t/feedback-on-our-tfgrid-3-14/4276) about the next steps for ThreeFold</li>
+</ul>
+
 
 
 
