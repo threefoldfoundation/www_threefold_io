@@ -18,6 +18,7 @@ The recent vote on minting and farming rewards has been completed and was succes
 
 **Proposal Summary**
 
+
 <ul>
 <li> 95% and 98% uptime requirements for DIY and certified nodes respectively</li>
 <li>50% of proof-of-utilization revenues will go to the farmer running the 3Node</li>
