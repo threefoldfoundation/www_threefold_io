@@ -21,7 +21,6 @@ Last week, we shared [a GEP proposal](https://forum.threefold.io/t/gep-minting-a
 </br>
 
 <ul>
-
 <li> 
 
 Any ThreeFold Farmer may vote on the proposal by visiting the [ThreeFold Dashboard](https://dashboard.grid.tf/) and clicking on the DAO section. [Read the manual for more information on the DAO](https://manual.grid.tf/documentation/dashboard/tfchain/tf_dao.html).
