@@ -13,7 +13,7 @@ extra:
     isFeatured: true
 ---
 
-Just as the Earth is made up of layers—from the crust to the core — so too is the Internet, with three key layers: Compute & Storage, Network, and Applications. Distinguishing these layers helps us to understand how digital information is currently processed, stored, and accessed across the globe and how ThreeFold technology can transform this model. ThreeFold can be likened to tectonic forces, reshaping the digital landscape by introducing improved ways for these layers to interact. Let’s break down these three layers, their current challenges, and ThreeFold’s approach to each of them.  
+Just as the Earth is made up of layers—from the crust to the core — so too is the Internet, with three key layers: compute & storage, network, and applications. Distinguishing these layers helps us to understand how digital information is currently processed, stored, and accessed across the globe and how ThreeFold technology can transform this model. ThreeFold can be likened to tectonic forces, reshaping the digital landscape by introducing improved ways for these layers to interact. Let’s break down these three layers, their current challenges, and ThreeFold’s approach to each of them.  
 
 ### **Compute & Storage**
 
@@ -37,7 +37,7 @@ A key problem with the current compute & storage layer lies in its centralized s
 
 <br>
 
-The concentration of the Compute & Storage within data centers primarily located in Europe, North America, or China raises significant concerns. This geographical bias in internet infrastructure keeps data, jobs, and economic benefits centralized in certain regions, putting developing areas at a disadvantage and raising concerns around data sovereignty and autonomy.
+The concentration of the compute & storage within data centers primarily located in Europe, North America, or China raises significant concerns. This geographical bias in Internet infrastructure keeps data, jobs, and economic benefits centralized in certain regions, putting developing areas at a disadvantage and raising concerns around data sovereignty and autonomy.
 
 <br>
 
@@ -65,7 +65,7 @@ Let's revisit the scenario of a video call between two individuals in Zanzibar. 
 
 <br>
 
-![Image](img/threefold_call.jpeg#mx-auto)
+![Image](img/threefold_call.png#mx-auto)
 
 <br>
 
@@ -75,7 +75,7 @@ Let's revisit the scenario of a video call between two individuals in Zanzibar. 
 
 <br>
 
-The purpose of the network layer of the Internet is to send data packets from their source (point A) to their destination (point B) across multiple networks. Data packets are small pieces of information which include the data being sent and details like where it's coming from and where it's going. They can be thought of as small parcels of data that travel through the internet. These parcels can take different paths to reach their destination and once they arrive they are put back together to form the original data.
+The purpose of the network layer of the Internet is to send data packets from their source (point A) to their destination (point B) across multiple networks. Data packets are small pieces of information which include the data being sent and details like where it's coming from and where it's going. They can be thought of as small parcels of data that travel through the Internet. These parcels can take different paths to reach their destination and once they arrive they are put back together to form the original data.
 
 <br>
 
@@ -147,6 +147,6 @@ ThreeFold delivers a decentralized and user-centric approach to the application 
 
 ### **Conclusion**
 
-Understanding the internet’s three layers is key to grasping the current digital landscape and envisioning the transformative potential of ThreeFold's technology. Just as tectonic forces reshape our physical world, ThreeFold is disrupting the layers of the digital world. By decentralizing compute & storage, ThreeFold eliminates the vulnerabilities in centralized models, fostering efficiency and security. Through Mycelium, ThreeFold is rewriting the rules of connectivity, ensuring resilience and security. At the application layer, ThreeFold empowers users, shifting the paradigm to user empowerment. It's a new dawn for the internet, one where connectivity is inclusive, efficient, and equitable, and ThreeFold is leading the charge. Let’s seize the opportunity to shape an internet that thrives locally, serves globally, and empowers universally.
+Understanding the Internet’s three layers is key to grasping the current digital landscape and envisioning the transformative potential of ThreeFold's technology. Just as tectonic forces reshape our physical world, ThreeFold is disrupting the layers of the digital world. By decentralizing compute & storage, ThreeFold eliminates the vulnerabilities in centralized models, fostering efficiency and security. Through Mycelium, ThreeFold is rewriting the rules of connectivity, ensuring resilience and security. At the application layer, ThreeFold empowers users, shifting the paradigm to user empowerment. It's a new dawn for the Internet, one where connectivity is inclusive, efficient, and equitable, and ThreeFold is leading the charge. Let’s seize the opportunity to shape an Internet that thrives locally, serves globally, and empowers universally.
 
 <br>
