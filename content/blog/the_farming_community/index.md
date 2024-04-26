@@ -1,8 +1,8 @@
 ---
 id: the_farming_community
-title: The Farming Community
+title: Spotlight on the ThreeFold Farming Community
 image_caption: technology
-description: ThreeFold farmers provide decentralized cloud capacity, shape the grid's future, and share resources to build a fair and connected world.
+description: ThreeFold Farmers provide decentralized cloud capacity, shape the grid's future, and share resources to build a fair and connected world.
 date: 2024-04-26
 taxonomies:
     people: [bernadette_amanda_caster]
@@ -12,25 +12,23 @@ extra:
     imgPath: the_farming_community.png
 ---
 
-The ThreeFold community consists of many different roles creating a whole ecosystem that contributes to the growth of the ThreeFold Grid and makes it more reliable and stable. Today, we're spotlighting the farming community, the backbone of the ThreeFold Grid.
-
-</br>
+The ThreeFold community consists of many different roles creating a whole [ecosystem](https://www.threefold.io/blog/tf-ecosystem-comes-alive/) that contributes to the growth of the ThreeFold Grid and makes it more reliable and stable. Today, we're spotlighting the farming community, the backbone of the ThreeFold Grid.
 
 ### **Who are the farmers and what exactly do these farmers do?**
 
 Think of a ThreeFold Farmer as a digital pioneer who connects their capacity to the ThreeFold Grid, becoming a cloud service provider. They come from all corners of the globe, driven by a common goal: to contribute to the growth of ThreeFold’s decentralized cloud infrastructure.
 Currently, we boast approximately 950 farmers running an impressive ±2500 nodes. This translates to a whopping capacity of:
 
-| HW Resources | Capacity |
-| ---- | --- |
-| Cores | 64290 |
-| RAM | 434.85 TB
-| SSD | 8.46 PB |
-| HDD | 20 PB | 
+<br>
+
+- Cores: 64,290
+- RAM: 434.85 TB
+- SSD: 8.46 PB
+- HDD: 20 PB
 
 </br>
 
-The farming community keeps the digital gears turning. Whether they purchase a 3Node from the marketplace or build their nodes, they're providing essential capacity to the ThreeFold Grid.In return for their contributions, they're rewarded with ThreeFold Tokens (TFTs), the currency of the ThreeFold ecosystem.
+The farming community keeps the digital gears turning. Whether they purchase a 3Node from the marketplace or build their nodes, they're providing essential capacity to the ThreeFold Grid. In return for their contributions, they're rewarded with ThreeFold Tokens (TFTs), the currency of the ThreeFold ecosystem.
 
 </br>
 
@@ -54,35 +52,15 @@ ThreeFold is transitioning the management of TF Grid to a cooperative, empowerin
 
 The formation of the ThreeFold Cooperative (TF COOP) brings several planned changes for farmers and their interaction with the TFGrid:
 
-<ul>
-<li> 
+<br> 
 
-**Democratic Governance**: TF COOP introduces a system where farmers can vote on decisions based on their TFT holdings (1 TFT = 1 vote), giving them a voice in the cooperative's direction. </li>
-
-<li>
-
-**Farming Rewards**: Farmers will continue to earn rewards based on the quality of their nodes and network uptime. This encourages high standards and benefits both farmers and users.<li>
-
-<li>
-
-**Compliance**: Farmers must follow KYC/AML (Know Your Customer/Anti-Money Laundering) rules for transparency and accountability.<li>
-
-<li>
-
-**Service Level Agreements (SLAs)**: Larger farmers may sign formal contracts with DMCC or TF COOP, providing stability and predictability.</li>
-
-<li>
-
-**Capacity Resale and Utilization Rewards**: TF COOP will resell capacity and distribute profits. Farmers receive 50% of the revenue from their node utilization.</li>
-
-<li>
-
-**Node Information and Transparency**: Farmers can benefit from tracking more node data in the explorer, helping potential users select quality nodes.</li>
-
-<li>
-
-**Governance Involvement**: Farmers, as cooperative members, can impact management and operations, aligning their interests with the TFGrid's success.</li>
-</ul>
+- **Democratic Governance**: TF COOP introduces a system where farmers can vote on decisions based on their TFT holdings (1 TFT = 1 vote), giving them a voice in the cooperative's direction.
+- **Farming Rewards**: Farmers will continue to earn rewards based on the quality of their nodes and network uptime. This encourages high standards and benefits both farmers and users.
+- **Compliance**: Farmers must follow KYC/AML (Know Your Customer/Anti-Money Laundering) rules for transparency and accountability.
+- **Service Level Agreements (SLAs)**: Larger farmers may sign formal contracts with DMCC or TF COOP, providing stability and predictability.
+- **Capacity Resale and Utilization Rewards**: TF COOP will resell capacity and distribute profits. Farmers receive 50% of the revenue from their node utilization.
+- **Node Information and Transparency**: Farmers can benefit from tracking more node data in the explorer, helping potential users select quality nodes.
+- **Governance Involvement**: Farmers, as cooperative members, can impact management and operations, aligning their interests with the TFGrid's success.
 
 #### **Farming Pool**
 
@@ -91,8 +69,6 @@ The formation of the ThreeFold Cooperative (TF COOP) brings several planned chan
 </br>
 
 These pools can also act as hubs for supporting farmers with training and help them understand if their nodes are working well. Sales of preconfigured hardware is an additional optional function of the pools, while all pools operate as a business that takes a margin on the farming rewards of the farmers belonging to the pool. Beyond support, the added value for the farmers is that pools ensure a level of service and quality that can attract users and bring additional revenues to the farmers, including the potential of active marketing of the pool's capacity.
-
-</br>
 
 ### **Conclusion**
 
