@@ -5,8 +5,8 @@ image_caption: technology
 description: ThreeFold farmers provide decentralized cloud capacity, shape the grid's future, and share resources to build a fair and connected world.
 date: 2024-04-26
 taxonomies:
-    people: [sam_taggart]
-    tags: [technology,threefold_cloud]
+    people: [bernadette_amanda_caster]
+    tags: [technology,threefold_cloud,farming,community]
     categories: [farming,cloud,foundation]
 extra:
     imgPath: the_farming_community.png
