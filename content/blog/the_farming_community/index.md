@@ -16,13 +16,13 @@ The ThreeFold community consists of many different roles creating a whole ecosys
 
 </br>
 
-### Who are the farmers and what exactly do these farmers do?
+### **Who are the farmers and what exactly do these farmers do?**
 
 Think of a ThreeFold Farmer as a digital pioneer who connects their capacity to the ThreeFold Grid, becoming a cloud service provider. They come from all corners of the globe, driven by a common goal: to contribute to the growth of ThreeFold’s decentralized cloud infrastructure.
 Currently, we boast approximately 950 farmers running an impressive ±2500 nodes. This translates to a whopping capacity of:
 
-| Cores | 64290 |
 | ---- | --- |
+| Cores | 64290 |
 | RAM | 434.85 TB
 | SSD | 8.46 PB |
 | HDD | 20 PB | 
@@ -43,9 +43,9 @@ ThreeFold Farmers not only provide capacity but also take the opportunity of Thr
 
 The ThreeFold farming community is an integral part of our [decentralized autonomous organization (DAO)](https://manual.grid.tf/documentation/dashboard/tfchain/tf_dao.html). A farmer's participation in the DAO discussions and proposals is pivotal as we chart the course for the grid's evolution, from our current version 3.14 release and beyond. Together, we're actively building the grid's future, thanks to our dedicated farmers' collaborative efforts. Join us, share your ideas, and let's shape the future of the ThreeFold Grid together.
 
-### The Future of the Farming Community
+### **The Future of the Farming Community**
 
-#### The TF Cooperative
+#### **The TF Cooperative**
 
 ThreeFold is transitioning the management of TF Grid to a cooperative, empowering all of us to work toward our common goals more effectively. This shift represents a step towards a more collaborative and inclusive future for the TFGrid. As we enter the commercialization phase of the project, a cooperative model also brings a trusted form of decentralized governance and will enable us to bring more reliability to the grid.
 
@@ -83,7 +83,7 @@ The formation of the ThreeFold Cooperative (TF COOP) brings several planned chan
 **Governance Involvement**: Farmers, as cooperative members, can impact management and operations, aligning their interests with the TFGrid's success.</li>
 </ul>
 
-#### Farming Pool
+#### **Farming Pool**
 
 [Farming Pools](https://www.threefold.io/blog/farming-pools/) are a new feature planned for version 4.0 that helps improve trust and quality in our network. Farmers join these pools and agree to standards like uptime and response time. They can set their prices for services like storage and computing power. By staking tokens, farmers commit to these standards and risk losing some of their stakes if they don't meet their promises. This keeps the network reliable and fair while allowing farmers more control over their services.
 
@@ -93,7 +93,7 @@ These pools can also act as hubs for supporting farmers with training and help t
 
 </br>
 
-### Conclusion
+### **Conclusion**
 
 The farming community plays a key role in the smooth operation and growth of the ThreeFold Grid. These farmers shape the grid's future by offering the capacity for a more decentralized digital world. Their work goes beyond earning rewards, as they contribute nodes to a global network and share resources and tools that strengthen the community, which will be showcased in our upcoming blogs. Thanks to their efforts, the grid is thriving and paving the way for a fairer, more connected world.
 
