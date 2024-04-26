@@ -21,6 +21,7 @@ The ThreeFold community consists of many different roles creating a whole ecosys
 Think of a ThreeFold Farmer as a digital pioneer who connects their capacity to the ThreeFold Grid, becoming a cloud service provider. They come from all corners of the globe, driven by a common goal: to contribute to the growth of ThreeFold’s decentralized cloud infrastructure.
 Currently, we boast approximately 950 farmers running an impressive ±2500 nodes. This translates to a whopping capacity of:
 
+| HW Resources | Capacity |
 | ---- | --- |
 | Cores | 64290 |
 | RAM | 434.85 TB
