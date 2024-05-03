@@ -2,11 +2,11 @@
 id: how to test the grid
 title: ThreeFold Grid Testing - Ensuring Quality for Users
 image_caption: technology
-description: The testing process on the ThreeFold Grid, covers four networks and using both manual and automated tests for stability and reliability.
+description: Learn about the testing process on the ThreeFold Grid, covering four networks and utilizing both manual and automated tests for stability and reliability.
 date: 2024-05-03
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,threefold_cloud,farming,community]
+    tags: [technology,threefold_cloud,community]
     categories: [farming,cloud,foundation]
 extra:
     imgPath: testing_main.png
@@ -18,9 +18,8 @@ Hi there and welcome to ThreeFold Grid Testing: Part One!
 
 In this blog, we will introduce you to the overall cycle of testing on the TFGrid. Before releasing anything to the mainnet, TF engineers test three different networks: Devnet, Qanet, and Testnet. Testing also continues on the Mainnet even after the release of the updates. Today, we will go through the major steps of this process. 
 
-</br>
+### **But first – why is testing important?**
 
-### But first – why is testing important?
 Testing upgrades as they're developed ensures we have a stable operation of the TFGrid that is constantly optimal for our community. It lets us see what works well and what still needs fixing. By the time our community gets these upgrades, they've been tested many times to make sure they're top-notch.
 
 </br>
@@ -35,7 +34,8 @@ When it comes to testing the developments on the ThreeFold Grid, we need to be c
 
 </br>
 
-### Testing all Networks sequentially
+### **Testing all Networks sequentially**
+
 Our journey through these networks follows a well-defined path.
 
 </br>
@@ -66,6 +66,8 @@ Testing is done both manually and automated:
 
 </br>
 
-### Conclusion
+We will go through these two types of testing further in part two.
+
+### **Conclusion**
 
 The testing journey within the ThreeFold Grid is intentionally and necessarily thorough, a delicate balance between manual precision and automated finesse, all designed to provide a strong and reliable cloud infrastructure for our users. Next time, stay tuned for more updates on how we conduct these tests and how they help us improve the grid's reliability. [Join us](https://t.me/threefoldtesting) as we strive for excellence and continue to advance in the world of decentralized technology.
