@@ -26,7 +26,7 @@ Imagine if an entrepreneur, digital nomad, or any organization could obtain a di
 
 <br/>
 
-The government of Zanzibar is undertaking several initiatives to shift its economy from being largely dependent on tourism to embracing the IT sector. As part of this vision they have partnered with ThreeFold via ZICTIA, the Zanzibar Communication Corporation, to create the world’s first digital free zone.
+The government of Zanzibar is undertaking several initiatives to shift its economy from being largely dependent on tourism to embracing the IT sector. As part of this vision they have partnered with ThreeFold via [ZICTIA](https://zictia.go.tz/), the Zanzibar ICT Infrastructure Agency, to create the world’s first digital free zone.
 
 <br/>
 
