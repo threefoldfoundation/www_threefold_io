@@ -257,19 +257,19 @@ Cooperatives represent a well-tested form of collective organization and democra
 
 {% row(style="center between") %}
 
-[![](join3.png)](/ecosystem#resources)
+[![](join3.png)](https://manual.grid.tf)
 
 Dive Deeper into ThreeFold Technologies
 
 |||
 
-[![](join2.png)](/ecosystem#support)
+[![](join2.png)](https://threefoldfaq.crisp.help/en/)
 
 Get assistance from our support team
 
 |||
 
-[![](join1.png)](/ecosystem#social)
+[![](join1.png)](https://t.me/threefold)
 
 Meet the community and join the conversation
 
