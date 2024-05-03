@@ -6,7 +6,7 @@ updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
   author: Your name here
-  imgPath: home/header_new.jpeg
+  imgPath: home/header_new1.png
 ---
 
 
@@ -16,6 +16,7 @@ extra:
 
 {% row(style="reverse header") %}
 
+# **ThreeFold**
 ## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
 
 ThreeFold’s self-healing autonomous system empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy, sell and use cloud resources autonomously and securely.
@@ -26,11 +27,9 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 |||
 
-![Image](header_new.jpeg)
+![Image](header_new1.png)
 
 {% end %}
-
-
 
 
 <!-- section 2 (Map) -->
@@ -44,8 +43,6 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 Provide cloud and Internet capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
 
 {% end %}
-
-
 
 
 <!-- section 3 (3Node) -->
@@ -64,8 +61,6 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 ![Image](node_home.png#mx-auto)
 
 {% end %}
-
-
 
 
 <!-- section 4 (Partners) -->
@@ -132,8 +127,11 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 {% end %}
 
 
+{% row( style="center between") %}
 
+<button>[View Partners](/partners)</button>
 
+{% end %}
 
 <!-- section 5 (ecentralized) -->
 
@@ -253,122 +251,31 @@ Cooperatives represent a well-tested form of collective organization and democra
 
 ## **Join In**
 
+### Connect & Collaborate: Let's Kickstart Your ThreeFold Journey 
+
 {% end %}
 
 {% row(style="center between") %}
 
-[![](discourse.png#social)](https://forum.threefold.io/)
+[![](join3.png)](/ecosystem#resources)
 
-#### Forum
-
-Ask Questions
+Dive Deeper into ThreeFold Technologies
 
 |||
 
-[![](gh.png#social)](https://github.com/threefoldtech)
+[![](join2.png)](/ecosystem#support)
 
-#### GitHub
-
-Collaborate
+Get assistance from our support team
 
 |||
 
-[![](manual.png#social)](https://manual.grid.tf)
+[![](join1.png)](/ecosystem#social)
 
-#### Manual
+Meet the community and join the conversation
 
-Dive In
-
-|||
-
-[![](x.png#social)](https://twitter.com/threefold_io)
-
-#### X (Twitter)
-
-"Tweet" with us
 
 {% end %}
 
 
-
-{% row(style="center between") %}
-
-
-[![](tg_news.png#social)](https://t.me/threefoldnews)
-
-#### Telegram News
-
-Stay updated
-
-|||
-
-[![](tg_chat.png#social)](https://t.me/threefold)
-
-#### Telegram Main Chat
-
-Community conversations
-
-
-|||
-
-[![](tg_farm.png#social)](https://t.me/threefoldfarmers)
-
-#### Telegram Farmers Chat
-
-Farming Community
-
-
-|||
-
-[![](tg_chat.png#social)](https://t.me/threefoldtesting)
-
-#### Telegram Grid Users Chat
-
-Grid User Community
-
-{% end %}
-
-
-{% row(style="center between") %}
-
-
-[![](reddit.png#social)](https://www.reddit.com/r/threefold/)
-
-#### Reddit
-
-Join in
-
-|||
-
-[![](youtube.png#social)](https://www.youtube.com/threefoldfoundation)
-
-#### YouTube
-
-Watch things unfold
-
-|||
-
-  <!-- <a href="javascript:;" target="self" onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')" class="text-black"> -->
-
-[![](mail.png#social)](https://landing.mailerlite.com/webforms/landing/n7q9l7)
-
-
-  </a>
-
-
-
-#### Mailing List
-
-Updates in your inbox
-
-|||
-
-[![](linkedin.png#social)](https://linkedin.com/company/threefold-foundation)
-
-#### LinkedIn
-
-Let's network
-
-{% end %}
 
  </div>
