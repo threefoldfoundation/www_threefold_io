@@ -17,7 +17,7 @@ extra:
 
 <br>
 
-ThreeFold recently formalized its partnership with ZICTIA, the Zanzibar ICT Infrastructure Agency, on behalf of the Zanzibar Government, to create the world’s first 100% Digital Free Zone - accessible and affordable for all. Together we are creating a streamlined platform where any entrepreneur, digital nomad or company can obtain a digital company license, a bank account supporting both fiat and cryptocurrencies, and handle their legal requirements and taxes, all in one place. The aim is to simplify the process of establishing and managing a business entity in the digital realm. This Digital Free Zone project is part of the Government of Zanzibar’s wider initiative to shift its economy from being largely dependent on tourism to embracing other sectors, namely IT. 
+ThreeFold recently formalized its partnership with [ZICTIA](https://zictia.go.tz/), the Zanzibar ICT Infrastructure Agency, on behalf of the Zanzibar Government, to create the world’s first 100% Digital Free Zone - accessible and affordable for all. Together we are creating a streamlined platform where any entrepreneur, digital nomad or company can obtain a digital company license, a bank account supporting both fiat and cryptocurrencies, and handle their legal requirements and taxes, all in one place. The aim is to simplify the process of establishing and managing a business entity in the digital realm. This Digital Free Zone project is part of the Government of Zanzibar’s wider initiative to shift its economy from being largely dependent on tourism to embracing other sectors, namely IT. 
 
 <br/>
 
