@@ -24,7 +24,7 @@ ThreeFold’s decentralized autonomous cloud is in its third generation and read
 
 
 
-<!-- section 2  -->
+<!-- section 2 (community utilization) -->
 
 {% row(style="reverse margin") %}
 
@@ -34,8 +34,8 @@ ThreeFold has developed extensive technology and tools for developers and system
 
 <br>
 
-<button>[Developers Documentation](https://www.manual.grid.tf/documentation/developers/developers.html)</button>
-<button>[Sysadmins Documentation](https://www.manual.grid.tf/documentation/system_administrators/system_administrators.html)</button>
+<button>[Developer Docs](https://www.manual.grid.tf/documentation/developers/developers.html)</button>
+<button>[Sysadmin Docs](https://www.manual.grid.tf/documentation/system_administrators/system_administrators.html)</button>
 
 |||
 
