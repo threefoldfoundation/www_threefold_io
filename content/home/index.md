@@ -16,8 +16,12 @@ extra:
 
 {% row(style="reverse header") %}
 
-# **ThreeFold**
+
 ## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
+
+#### **The <span class="blue">Leading</span> Decentralized Cloud Marketplace**
+
+<br>
 
 ThreeFold’s self-healing autonomous system empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy, sell and use cloud resources autonomously and securely.
 
@@ -27,7 +31,9 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 <br>
 
-<button>[Host](/host)</button> <button>[Deploy](https://dashboard.grid.tf)</button> <button>[Learn](https://manual.grid.tf)</button>
+<button class="blue_b">[Host The Cloud](/host)</button> <button class="green">[Deploy](https://dashboard.grid.tf)</button> 
+
+<!-- <button>[Learn](https://manual.grid.tf)</button> -->
 
 |||
 
@@ -54,15 +60,24 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 {% row(style="reverse margin") %}
 
-## **It Starts with <span class="blue">3Nodes</span>**
+# **Host2 <span class="blue">Earn</span>**
 
-**<span class="blue">3Nodes</span>**, powered by our stateless operating system, Zero-OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
+#### **It starts with <spane class="green_text">Nodes</spane>**
 
-<button>[Get Started](/host)</button>
+<br>
+
+3Nodes allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud: pre-configured plug-and-earn nodes for beginners, or do-it-yourself nodes for builders. 
+
+<br>
+
+Earn TFT by adding capacity to the grid.
+
+<button class="green">[Host The Cloud](/host)</button>
+<button class="blue_b">[Explore Rewards](/host)</button>
 
 |||
 
-![Image](node_home.png#mx-auto)
+![Image](host2_earn.png#mx-auto)
 
 {% end %}
 
@@ -283,3 +298,44 @@ Meet the community and join the conversation
 
 
  </div>
+
+<style>
+
+  .green{
+
+    background-color:#58CF77 !important;
+    color: #fff !important;
+
+  }
+
+.green:hover {
+  background-color:#7ad993 !important;
+}
+  .green a{
+     color: #fff !important;
+  }
+ 
+.green:hover {
+  background-color:#7ad993 !important;
+}
+
+.green_text{
+  color: #58CF77 ;
+}
+
+
+    .blue_b{
+
+    background-color:#2E83FF !important;
+    color: #fff !important;
+
+  }
+  .blue_b a{
+     color: #fff !important;
+  }
+
+.blue_b:hover {
+  background-color:#5596f5 !important;
+}
+  
+  </style>

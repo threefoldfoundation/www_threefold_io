@@ -3,62 +3,72 @@
     <div class="relative lg:max-w-6xl mx-auto">
         <div class="text-center rounded lg:px-6 mt-10 lg:mt-0 mx-auto">
             {{body | markdown | safe }}
-            <div class="items my-10 grid lg:grid-cols-4 lg:gap-8 animate-pulse">
+            <div class="items my-10 block lg:flex lg:flex-wrap justify-center items-center animate-pulse">
                 <!-- capacity -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white py-8 my-4">
+                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
                     <img
                         class="mx-auto p-4"
                         src="images/V3-08.png"
-                        width="150"
+                        width="100"
                         alt=""
                     >
-                    <div id="capacity" class="leading-none font-extrabold text-3xl"></div>
-                    <span class="block text-lg mt-4 font-normal capitalize">capacity</span>
+                    <div id="capacity" class="leading-none font-extrabold text-xl"></div>
+                    <span class="block text-md mt-4 font-normal capitalize">capacity</span>
                 </div>
                 <!-- Nodes -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white py-8 my-4">
+                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
                     <img
                         class="mx-auto p-4"
                         src="images/V3-09.png"
-                        width="150"
+                        width="100"
                         alt=""
                     >
-                    <div id="nodes" class="leading-none font-extrabold text-3xl"></div>
-                    <span class="block text-lg mt-4 font-normal capitalize">nodes</span>
+                    <div id="nodes" class="leading-none font-extrabold text-xl"></div>
+                    <span class="block text-md mt-4 font-normal capitalize">nodes</span>
                 </div>
                 <!-- countries -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white py-8 my-4">
+                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
                     <img
                         class="mx-auto p-4"
                         src="images/V3-10.png"
-                        width="150"
+                        width="100"
                         alt=""
                     >
-                    <div id="countries" class="leading-none font-extrabold text-3xl"></div>
-                    <span class="block text-lg mt-4 font-normal capitalize">countries</span>
+                    <div id="countries" class="leading-none font-extrabold text-xl"></div>
+                    <span class="block text-md mt-4 font-normal capitalize">countries</span>
                 </div>
                 <!-- cores -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white py-8 my-4">
+                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
                     <img
                         class="mx-auto p-4"
                         src="images/V3-11.png"
-                        width="150"
+                        width="100"
                         alt=""
                     >
-                    <div id="cores" class="leading-none font-extrabold text-3xl"></div>
-                    <span class="block text-lg mt-4 font-normal capitalize">cores</span>
+                    <div id="cores" class="leading-none font-extrabold text-xl"></div>
+                    <span class="block text-md mt-4 font-normal capitalize">cores</span>
+                </div>
+                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                    <img
+                        class="mx-auto p-4"
+                        src="images/V3-11.png"
+                        width="100"
+                        alt=""
+                    >
+                    <div id="farms" class="leading-none font-extrabold text-xl">900+</div>
+                    <span class="block text-md mt-4 font-normal capitalize">farms</span>
                 </div>
             </div>
-            <button class="my-8">
+            <button class="my-8 blue_b">
                 <a href="https://dashboard.grid.tf/#/tf-grid/node-statistics/" target="_blank">
-                    Explore ThreeFold Grid Capacity
+                    Explore Grid Capacity
                 </a>
             </button>
-            <button class="my-8">
+            {# <button class="my-8">
                 <a href="/host" target="_self">
                     Become a Cloud Provider
                 </a>
-            </button>
+            </button> #}
         </div>
     </div>
 </section>
@@ -77,4 +87,27 @@
     .bg-pink {
         background-color: #ea1ff7;
     }
+
+    .blue_b{
+  
+        background-color:#2E83FF !important;
+        color: #fff !important;
+    
+      }
+      .blue_b a{
+         color: #fff !important;
+      }
+    
+    .blue_b:hover {
+      background-color:#5596f5 !important;
+    }
+
 </style>
+
+
+
+ 
+  
+
+    
+   
