@@ -42,6 +42,12 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 {% end %}
 
 
+{% logo_slider() %}
+
+## **logo**
+
+{% end %}
+
 <!-- section 2 (Map) -->
 
 {% grid_stats() %}
