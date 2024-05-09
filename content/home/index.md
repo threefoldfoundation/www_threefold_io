@@ -42,13 +42,17 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 {% end %}
 
 
-{% logo_slider() %}
+<!-- section 2 (logos) -->
+
+<!-- {% logo_slider() %}
 
 ## **logo**
 
-{% end %}
+{% end %} -->
 
-<!-- section 2 (Map) -->
+
+
+<!-- section 3 (Map) -->
 
 {% grid_stats() %}
 
@@ -61,7 +65,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 {% end %}
 
 
-<!-- section 3 (3Node) -->
+<!-- section 4 (Host2 Earn) -->
 
 
 {% row(style="reverse margin") %}
@@ -87,86 +91,56 @@ Earn TFT by adding capacity to the grid.
 
 {% end %}
 
-
-<!-- section 4 (Partners) -->
-
-{% row( style="center between mtop") %}
-
-## **Our Partners**
-
-### Driving utilization on top of our decentralized autonomous cloud
-
-{% end %}
-
-{% row( style="center between") %}
-
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
-
-[![](social_network.png#mx-auto)](/partners/social-network)
-
 </div>
+
+<!-- section 5 (Partners) -->
+
+<div style="background-color:#F6F6F6">
+
+<div class="container mx-auto">
+
+{% row(style="reverse margin") %}
+
+![Image](power_ecosystem.png#mx-auto)
 
 |||
 
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
 
-[![](ourworld.png#mx-auto)](/partners/our-world-free-zone)
+# **TFT**
 
-</div>
+### **<spane class="green_text">Used For Every Transaction</spane>**
 
-|||
 
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+## **Powering Our Ecosystem**
 
-[![](ict.png#mx-auto)](/partners/tanzania-sovereign-internet)
+TFT powers ThreeFold and the expansion of a truly decentralized infrastructure that can scale any current or future technologies to the edge.
 
-</div>
+<br>
+
+
+<button class="green">[Learn More](/host)</button>
+<button class="blue_b">[TFT Market Place](/host)</button>
+
 
 {% end %}
 
-
-{% row( style="mbottom center between") %}
-
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
-
-[![](sikana.png#mx-auto)](/partners/sikana)
-
+</div>
 </div>
 
-|||
-
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
-
-[![](vevrse.png#mx-auto)](/partners/veverse)
-
-</div>
-
-|||
-
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
-
-[![](vverse.png#mx-auto)](/partners/vverse)
-
-</div>
-
-{% end %}
+<div class="container mx-auto">
 
 
-{% row( style="center between") %}
-
-<button>[View Partners](/partners)</button>
-
-{% end %}
-
-<!-- section 5 (ecentralized) -->
+<!-- section 6 (ecentralized) -->
 
 {% row( style="mtop center between ") %}
 
 ## **Why Decentralized Cloud**
 
-### How bringing data closer to the end user is beneficial for everyone
+#### <spane class="blue">How bringing data closer to the end user is beneficial for everyone</spane>
 
 {% end %}
+
+<br>
 
 {% row( style="center semiNarrow") %}
 
@@ -174,7 +148,7 @@ Earn TFT by adding capacity to the grid.
 
 <br>
 
-### **Latency Reduction**
+#### **Latency Reduction**
 
 For real-time apps, central cloud delay is prohibitive. Edge Cloud cuts latency locally.
 
@@ -184,7 +158,7 @@ For real-time apps, central cloud delay is prohibitive. Edge Cloud cuts latency 
 
 <br>
 
-### **Privacy & Security**
+#### **Privacy & Security**
 
 By processing data locally, edge cloud reduces the exposure to data breaches and cyberattacks.
 
@@ -194,7 +168,7 @@ By processing data locally, edge cloud reduces the exposure to data breaches and
 
 <br>
 
-### **Data Sovereignity**
+#### **Data Sovereignity**
 
 Empowers emerging markets with local data storage, granting digital sovereignty and autonomy.
 
@@ -206,7 +180,7 @@ Empowers emerging markets with local data storage, granting digital sovereignty 
 
 <br>
 
-### **Performance**
+#### **Performance**
 
 Provides optimized bandwidth, reliability, and real-time processing which streamlines operations.
 
@@ -216,7 +190,7 @@ Provides optimized bandwidth, reliability, and real-time processing which stream
 
 <br>
 
-### **Cost Efficiency**
+#### **Cost Efficiency**
 
 Minimizes data transmission over networks, cutting costs and reducing central server demand.
 
@@ -226,7 +200,7 @@ Minimizes data transmission over networks, cutting costs and reducing central se
 
 <br>
 
-### **Scalability**
+#### **Scalability**
 
 As devices multiply, central data centers face data overload. Edge cloud distributes processing and boosts scalability.
 
@@ -237,17 +211,15 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 <!-- section 6 (Ecosystem) -->
 
 
-{% row( style="center between mtop") %}
+{% row( style="mtop") %}
 
-## **Around the Ecosystem**
-
-### News & Happenings
+## **Latest News**
 
 {% end %}
 
-{% row( style="center between") %}
+{% row( style="") %}
 
-[![Image](dunia_yetu.png)](/blog/dunia-yetu)
+[![Image](latest1.png)](/blog/dunia-yetu)
 
 <br>
 
@@ -257,7 +229,17 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 
 |||
 
-[![Image](threefold_cooperative.png)](/blog/threefold-cooperative)
+[![Image](latest2.png)](/blog/threefold-cooperative)
+
+<br>
+
+#### **Cooperative Model is Coming**
+
+Cooperatives represent a well-tested form of collective organization and democratic governance.
+
+|||
+
+[![Image](latest3.png)](/blog/threefold-cooperative)
 
 <br>
 
