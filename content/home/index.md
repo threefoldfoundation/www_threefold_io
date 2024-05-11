@@ -41,16 +41,17 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 {% end %}
 
+</div>
 
 <!-- section 2 (logos) -->
 
-<!-- {% logo_slider() %}
+{% logo_slider() %}
 
 ## **logo**
 
-{% end %} -->
+{% end %}
 
-
+<div class="container mx-auto">
 
 <!-- section 3 (Map) -->
 
