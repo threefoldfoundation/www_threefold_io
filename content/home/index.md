@@ -73,7 +73,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 # **Host2 <span class="blue">Earn</span>**
 
-#### **It starts with <spane class="green_text">Nodes</spane>**
+#### **It starts with <span class="green_text">Nodes</span>**
 
 <br>
 
@@ -109,7 +109,7 @@ Earn TFT by adding capacity to the grid.
 
 # **TFT**
 
-### **<spane class="green_text">Used For Every Transaction</spane>**
+### **<span class="green_text">Used For Every Transaction</span>**
 
 
 ## **Powering Our Ecosystem**
@@ -137,7 +137,7 @@ TFT powers ThreeFold and the expansion of a truly decentralized infrastructure t
 
 ## **Why Decentralized Cloud**
 
-#### <spane class="blue">How bringing data closer to the end user is beneficial for everyone</spane>
+#### <span class="blue">How bringing data closer to the end user is beneficial for everyone</span>
 
 {% end %}
 
@@ -207,9 +207,82 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 
 {% end %}
 
+<!-- section 7 (Ecosystem) -->
 
 
-<!-- section 6 (Ecosystem) -->
+{% row( style="center mtop narrow") %}
+
+## **Ecosystem**
+
+### <span class="blue">**Utilization Partners**</span>
+
+ThreeFold’s decentralized autonomous cloud will empower many projects and digital experiences as we grow. Here are some of the first projects to come alive.
+
+{% end %}
+
+{% row( style="") %}
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_social.png)](/partners/veverse)
+
+<br>
+<div class="p-4">
+
+#### **Social Network**
+
+
+Earth Staking’s Social Network is the first Bitcoin Staking Layer 2 on Earth, collaborating with ThreeFold to improve security, scalability, and energy-efficiency.
+        
+
+</div>
+</div>
+
+|||
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_ourworld.png)](/partners/our-world-free-zone/)
+
+<br>
+
+<div class="p-4">
+
+#### **Our World Free Zone**
+
+
+ThreeFold is working with ZICTIA, on behalf of the Zanzibar government, to create the world’s first 100% Digital Free Zone – accessible and affordable for all.
+        
+
+</div>
+</div>
+
+|||
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_sikana.png)](/partners/sikana)
+
+<br>
+
+<div class="p-4">
+
+#### **Sikana**
+
+
+Sikana is on a mission to empower individuals with practical skills through free educational videos – local content in local languages on top of local infrastructure.
+        
+
+</div>
+</div>
+
+
+{% end %}
+
+
+
+
+<!-- section 8 (news) -->
 
 
 {% row( style="mtop") %}
@@ -258,8 +331,7 @@ Cooperatives represent a well-tested form of collective organization and democra
 {% row(style="center mtop between") %}
 
 ## **Join In**
-
-### Connect & Collaborate: Let's Kickstart Your ThreeFold Journey 
+ 
 
 {% end %}
 
@@ -327,4 +399,7 @@ Meet the community and join the conversation
   background-color:#5596f5 !important;
 }
   
+.rounded_img img {
+  border-radius: 8px;
+}
   </style>
