@@ -51,6 +51,15 @@ module.exports = {
           '2xl': '1450px',
           // => @media (min-width: 992px) { ... }
         },
+        animation: {
+          'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+          'infinite-scroll': {
+              from: { transform: 'translateX(0)' },
+              to: { transform: 'translateX(-100%)' },
+          }
+      }                    
       },
   },
   plugins: [], // if we add forms, do it here
