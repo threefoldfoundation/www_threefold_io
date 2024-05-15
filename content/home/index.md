@@ -27,7 +27,7 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 <br>
 
-<span class="blue">**Together we are creating a cloud for everyone, owned by everyone.**</span>
+Together we are creating a cloud for everyone, owned by everyone.
 
 <br>
 
@@ -43,6 +43,8 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 </div>
 
+
+
 <!-- section 2 (logos) -->
 
 {% logo_slider() %}
@@ -51,9 +53,10 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 {% end %}
 
-<div class="container mx-auto">
+
 
 <!-- section 3 (Map) -->
+<div class="container mx-auto">
 
 {% grid_stats() %}
 
@@ -66,12 +69,15 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 {% end %}
 
 
-<!-- section 4 (Host2 Earn) -->
 
+
+<!-- section 4 (Host2 Earn) -->
 
 {% row(style="reverse margin") %}
 
-# **Host2 <span class="blue">Earn</span>**
+<h1 class="big_header">Host2<span class="blue">Earn</span></h1>
+
+<br>
 
 #### **It starts with <span class="green_text">Nodes</span>**
 
@@ -83,8 +89,10 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 Earn TFT by adding capacity to the grid.
 
+<br>
+
 <button class="green">[Host The Cloud](/host)</button>
-<button class="blue_b">[Explore Rewards](/host)</button>
+<button class="blue_b">[Explore Rewards](https://manual.grid.tf/knowledge_base/farming/farming_reward.html)</button>
 
 |||
 
@@ -94,10 +102,10 @@ Earn TFT by adding capacity to the grid.
 
 </div>
 
+
+
 <!-- section 5 (Partners) -->
-
 <div style="background-color:#F6F6F6">
-
 <div class="container mx-auto">
 
 {% row(style="reverse margin") %}
@@ -111,17 +119,14 @@ Earn TFT by adding capacity to the grid.
 
 ### **<span class="green_text">Used For Every Transaction</span>**
 
-
 ## **Powering Our Ecosystem**
 
 TFT powers ThreeFold and the expansion of a truly decentralized infrastructure that can scale any current or future technologies to the edge.
 
 <br>
 
-
-<button class="green">[Learn More](/host)</button>
-<button class="blue_b">[TFT Market Place](/host)</button>
-
+<button class="green">[Learn More](https://manual.grid.tf/documentation/threefold_token/threefold_token.html)</button>
+<button class="blue_b">[TFT Market Price](https://www.coinbase.com/en-gb/price/threefold)</button>
 
 {% end %}
 
@@ -129,6 +134,8 @@ TFT powers ThreeFold and the expansion of a truly decentralized infrastructure t
 </div>
 
 <div class="container mx-auto">
+
+
 
 
 <!-- section 6 (ecentralized) -->
@@ -207,8 +214,10 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 
 {% end %}
 
-<!-- section 7 (Ecosystem) -->
 
+
+
+<!-- section 7 (Ecosystem) -->
 
 {% row( style="center mtop narrow") %}
 
@@ -220,14 +229,14 @@ ThreeFold’s decentralized autonomous cloud will empower many projects and digi
 
 {% end %}
 
-{% row( style="") %}
+{% row( style="semiNarrow") %}
 
 <div class="rounded_img border-2 rounded-lg shadow-lg">
 
 [![Image](partner_social.png)](/partners/veverse)
 
-<br>
-<div class="p-4">
+
+<div class="p-6 lg:p-3 mycard">
 
 #### **Social Network**
 
@@ -244,9 +253,9 @@ Earth Staking’s Social Network is the first Bitcoin Staking Layer 2 on Earth, 
 
 [![Image](partner_ourworld.png)](/partners/our-world-free-zone/)
 
-<br>
 
-<div class="p-4">
+
+<div class="p-6 lg:p-3 mycard">
 
 #### **Our World Free Zone**
 
@@ -263,9 +272,7 @@ ThreeFold is working with ZICTIA, on behalf of the Zanzibar government, to creat
 
 [![Image](partner_sikana.png)](/partners/sikana)
 
-<br>
-
-<div class="p-4">
+<div class="p-6 lg:p-3 mycard">
 
 #### **Sikana**
 
@@ -276,28 +283,37 @@ Sikana is on a mission to empower individuals with practical skills through free
 </div>
 </div>
 
+{% end %}
+
+<br>
+
+{% row( style="center") %}
+
+<button class="blue_b">[Learn More](/partners)</button>
 
 {% end %}
 
+</div>
 
 
+<div style="background-color:#F6F6F6">
+<div class="container mx-auto">
 
 <!-- section 8 (news) -->
 
-
-{% row( style="mtop") %}
+{% row( style="mtop semiNarrow") %}
 
 ## **Latest News**
 
 {% end %}
 
-{% row( style="") %}
+{% row( style="mbottom semiNarrow") %}
 
 [![Image](latest1.png)](/blog/dunia-yetu)
 
 <br>
 
-#### **A Sovereign Internet in Tanzania**
+##### **A Sovereign Internet in Tanzania**
 
 Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania.
 
@@ -307,26 +323,30 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 
 <br>
 
-#### **Cooperative Model is Coming**
+##### **Cooperative Model is Coming**
 
 Cooperatives represent a well-tested form of collective organization and democratic governance.
 
 |||
 
-[![Image](latest3.png)](/blog/threefold-cooperative)
+[![Image](latest3.png)](/newsroom/social-network-mega-space/)
 
 <br>
 
-#### **Cooperative Model is Coming**
+##### **X (Twitter) Space with Social Network**
 
-Cooperatives represent a well-tested form of collective organization and democratic governance.
+Join the Social Network Mega Space featuring Kristof (co-founder) and Florian (biz dev).
 
 {% end %}
 
+</div>
+</div>
 
 
 
-<!-- section 7 (Join In) -->
+
+<!-- section 9 (Join In) -->
+<div class="container mx-auto">
 
 {% row(style="center mtop between") %}
 
@@ -335,28 +355,46 @@ Cooperatives represent a well-tested form of collective organization and democra
 
 {% end %}
 
-{% row(style="center between") %}
 
-[![](join3.png)](https://manual.grid.tf)
+
+{% row(style="center semiNarrow") %}
+
+<div class="border rounded-md mb-4">
+
+[![](join3.png#icon)](https://manual.grid.tf)
+
+</div>
 
 Dive Deeper into ThreeFold Technologies
 
+
+
+
 |||
 
-[![](join2.png)](https://threefoldfaq.crisp.help/en/)
+<div class="border rounded-md mb-4">
+
+[![](join2.png#icon)](https://threefoldfaq.crisp.help/en/)
+
+</div>
+
+
 
 Get assistance from our support team
 
+
+
 |||
 
-[![](join1.png)](https://t.me/threefold)
+<div class="border rounded-md mb-4">
+
+[![](join1.png#icon)](https://t.me/threefold)
+
+</div>
 
 Meet the community and join the conversation
 
-
 {% end %}
-
-
 
  </div>
 

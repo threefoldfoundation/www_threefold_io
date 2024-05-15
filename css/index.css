@@ -134,6 +134,16 @@ h1 {
   background-color: rgb(245 245 244 / var(--tw-bg-opacity));
 }
 
+.big_header{
+  font-size: 6rem !important;
+  font-weight: 500 !important;
+}
+
+.mycard{
+  height: 240px !important;
+}
+
+
 @layer components {
   h1 {
     @apply text-4xl lg:text-6xl font-normal;
@@ -157,7 +167,7 @@ h1 {
     @apply text-xl lg:text-2xl font-normal;
   }
   h5 {
-    @apply text-md my-1 tracking-widest text-zinc-500 font-semibold;
+    @apply text-lg my-1 tracking-normal font-semibold;
   }
   h6 {
     @apply text-md not-italic font-normal my-1;
@@ -204,6 +214,8 @@ h1 {
 
   }
 
+ 
+
 
   .article h2{
     font-size: 2.25rem;
@@ -234,7 +246,7 @@ h1 {
   }
 
   .article li{
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
   .main-title {
     font-family: Lato,sans-serif!important;
@@ -473,6 +485,15 @@ header {
 
   img[src*="#sm_none"] {
     display: none;
+  }
+
+  .big_header{
+    font-size: 4rem !important;
+   
+  }
+
+  .mytest{
+    height: auto;
   }
 }
 

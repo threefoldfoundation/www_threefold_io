@@ -9,8 +9,6 @@ extra:
 ---
 
 <!-- section 1 (header) -->
-
-
 <div class="container mx-auto">
 
 {% row(style="header") %}
@@ -30,8 +28,9 @@ About a decade ago, a group of passionate Internet & cloud veterans came togethe
 </div>
 
 
-<!-- section 2  -->
 
+
+<!-- section 2  -->
 <div style="background-color:#F6F6F6">
 
 <div class="container mx-auto">
@@ -54,8 +53,9 @@ About a decade ago, a group of passionate Internet & cloud veterans came togethe
 </div>
 
 
-<!-- section 3  -->
 
+
+<!-- section 3  -->
 <div class="container mx-auto">
 
 
