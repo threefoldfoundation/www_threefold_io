@@ -30,7 +30,7 @@ About a decade ago, a group of passionate Internet & cloud veterans came togethe
 
 
 
-<!-- section 2  -->
+<!-- section 2 our Story  -->
 <div style="background-color:#F6F6F6">
 
 <div class="container mx-auto">
@@ -41,6 +41,143 @@ About a decade ago, a group of passionate Internet & cloud veterans came togethe
 ## **Our <span class="blue">Story</span>**
 
 ### **Enabling True <span class="green_text">Decentralization</span>**
+
+<hr>
+
+{% end %}
+
+{% row( style="center narrow mbottom") %}
+
+#### **<span class="blue uppercase">Our journey began**</span>
+
+with a realization among a group of Internet and Cloud veterans: the existing Internet infrastructure is unsustainable.
+
+<br>
+<br>
+
+#### **<span class="blue uppercase">In response,**</span>
+
+we came together with a shared mission—to design a revolutionary decentralized, open-source, inclusive, and sustainable Cloud solution for all. 
+
+<br>
+<br>
+
+#### **<span class="blue uppercase">Today**</span>
+
+as we embark on the commercialization phase, the ThreeFold Grid is live in 61+ countries, a significant milestone in our ongoing commitment to redefine the future of the digital landscape.
+
+{% end %}
+
+</div>
+</div>
+
+
+
+
+<!-- section 3  -->
+<div class="container mx-auto">
+
+{% row( style="center mtop") %}
+
+## **<span class="blue">30+ Years</span> Of Technology Development**
+
+{% end %}
+
+<br>
+
+{% row( style="center mbottom") %}
+
+<div class="myscale border rounded-md p-4">
+
+![Image](datacenter.png#mx-auto)
+
+
+
+-------------------
+
+<br>
+
+Market Cap
+<p class="text-3xl blue font-bold">8 Billion $</p>
+
+</div>
+
+|||
+
+<div class="myscale border rounded-md p-4">
+
+![Image](dedigate.png#mx-auto)
+
+-------------------
+
+<br>
+
+Market Cap
+<p class="text-3xl blue font-bold">34 Billion $</p>
+
+</div>
+
+|||
+
+<div class="myscale border rounded-md p-4">
+
+![Image](hostbasket.png#mx-auto)
+
+-------------------
+
+<br>
+
+Market Cap
+<p class="text-3xl blue font-bold">8 Billion $</p>
+
+</div>
+
+|||
+
+<div class="myscale border rounded-md p-4">
+
+![Image](qlayer.png#mx-auto)
+
+-------------------
+
+<br>
+
+Market Cap
+<p class="text-3xl blue font-bold">205 Billion $</p>
+
+</div>
+
+|||
+
+<div class="myscale border rounded-md p-4">
+
+![Image](amplidata.png#mx-auto)
+
+-------------------
+
+<br>
+
+Market Cap
+<p class="text-3xl blue font-bold">25 Billion $</p>
+
+</div>
+
+{% end %}
+
+</div>
+
+
+
+
+<!-- section 4  -->
+<div style="background-color:#F6F6F6">
+
+<div class="container mx-auto">
+
+{% row( style="center narrow mtop") %}
+
+## **Roadmap**
+
 {% end %}
 
 {% roadmap() %}
@@ -55,28 +192,9 @@ About a decade ago, a group of passionate Internet & cloud veterans came togethe
 
 
 
-<!-- section 3  -->
-<div class="container mx-auto">
-
-
-{% row( style="center margin") %}
-
-## **<span class="blue">30+ Years</span> Of Technology Development**
-
-<br>
-
-![Image](tech_development.png#mx-auto)
-
-{% end %}
-
-</div>
-
-
-<div style="background-color:#F6F6F6">
-
-<div class="container mx-auto">
 
 <!-- section 4  -->
+<div class="container mx-auto">
 
 {% row( style="mtop") %}
 
@@ -85,7 +203,6 @@ About a decade ago, a group of passionate Internet & cloud veterans came togethe
 {% end %}
 
 <br>
-
 
 {% row( style="") %}
 
@@ -205,7 +322,7 @@ About a decade ago, a group of passionate Internet & cloud veterans came togethe
 
 
 </div>
-</div>
+
 
 <style>
 
@@ -254,5 +371,14 @@ About a decade ago, a group of passionate Internet & cloud veterans came togethe
   border-radius: 100%;
   max-width:100px;
   
+}
+
+.myscale{
+  transition: transform .5s; 
+}
+
+.myscale:hover{
+  transform: scale(1.2); 
+  background-color: whitesmoke;
 }
   </style>

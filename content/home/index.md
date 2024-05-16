@@ -133,7 +133,69 @@ TFT powers ThreeFold and the expansion of a truly decentralized infrastructure t
 </div>
 </div>
 
+
+
+
+
+<!-- section extra (Deploy) -->
+
 <div class="container mx-auto">
+
+
+{% row( style="center mtop semiNarrow") %}
+
+#### What’s Possible With ThreeFold
+
+<br>
+
+## **<span class="blue">Deploy</span> On The Grid**
+
+{% end %}
+
+{% row( style="center semiNarrow") %}
+
+<div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
+
+
+Anything that runs on Linux can run on the **ThreeFold grid**
+
+</div>
+
+|||
+
+<div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
+
+
+Virtual machines & gateways for easy deploying
+
+</div>
+
+|||
+
+<div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
+
+
+Use our one-click solutions or build your own
+
+</div>
+
+|||
+
+<div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
+
+
+Flexible advanced deployment options for experienced users
+
+</div>
+
+{% end %}
+
+{% row( style="center mbottom semiNarrow") %}
+
+<button class="green">[Deploy Now](https://dashboard.grid.tf)</button>
+<button class="blue_b">[Dive Deeper](/deploy)</button>
+
+{% end %}
 
 
 
@@ -296,10 +358,11 @@ Sikana is on a mission to empower individuals with practical skills through free
 </div>
 
 
-<div style="background-color:#F6F6F6">
-<div class="container mx-auto">
+
 
 <!-- section 8 (news) -->
+<div style="background-color:#F6F6F6">
+<div class="container mx-auto">
 
 {% row( style="mtop semiNarrow") %}
 
@@ -329,13 +392,13 @@ Cooperatives represent a well-tested form of collective organization and democra
 
 |||
 
-[![Image](latest3.png)](/newsroom/social-network-mega-space/)
+[![Image](latest3.png)](/blog/edge-computing/)
 
 <br>
 
-##### **X (Twitter) Space with Social Network**
+##### **ThreeFold: Meeting Digital Demand at the Edge**
 
-Join the Social Network Mega Space featuring Kristof (co-founder) and Florian (biz dev).
+Learn what edge computing means and what it offers compared to centralized cloud infrastructures.
 
 {% end %}
 
@@ -400,6 +463,9 @@ Meet the community and join the conversation
 
 <style>
 
+.card_h{
+  height: 110px !important;
+}
   .green{
 
     background-color:#58CF77 !important;
