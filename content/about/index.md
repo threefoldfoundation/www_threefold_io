@@ -318,13 +318,30 @@ Market Cap
 </div>
 
 </a>
+
 {% end %}
 
+
+
+
+<!-- section 5  -->
+
+
+
+{% hovevision() %}
+
+## **Vision**
+
+{% end %}
 
 </div>
 
 
+
+
 <style>
+
+
 
   .green{
 
