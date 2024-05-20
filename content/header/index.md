@@ -8,6 +8,7 @@ extra:
 ---
 
 - [About]("/about")
+- [Deploy]("/deploy")
 - [Host]("/host")
 - [Utilization]("/utilization")
 - [News]("/newsroom")

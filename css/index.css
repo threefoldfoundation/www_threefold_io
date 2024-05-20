@@ -143,6 +143,12 @@ h1 {
   height: 240px !important;
 }
 
+.key_card{
+
+  height: 200px;
+
+}
+
 
 @layer components {
   h1 {
@@ -493,6 +499,10 @@ header {
   }
 
   .mytest{
+    height: auto;
+  }
+
+  .key_card{
     height: auto;
   }
 }
