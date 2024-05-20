@@ -136,7 +136,6 @@ TFT powers ThreeFold and the expansion of a truly decentralized infrastructure t
 
 
 
-
 <!-- section extra (Deploy) -->
 
 <div class="container mx-auto">
@@ -201,6 +200,7 @@ Flexible advanced deployment options for experienced users
 
 
 <!-- section 6 (ecentralized) -->
+<div style="background-color:#F6F6F6">
 
 {% row( style="mtop center between ") %}
 
@@ -276,6 +276,8 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 
 {% end %}
 
+</div>
+</div>
 
 
 
@@ -386,17 +388,17 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 
 <br>
 
-##### **Cooperative Model is Coming**
+##### **A Cooperative Model is Coming**
 
 Cooperatives represent a well-tested form of collective organization and democratic governance.
 
 |||
 
-[![Image](latest3.png)](/blog/edge-computing/)
+[![Image](latest4.png)](/blog/edge-computing/)
 
 <br>
 
-##### **ThreeFold: Meeting Digital Demand at the Edge**
+##### **Meeting Digital Demand at the Edge**
 
 Learn what edge computing means and what it offers compared to centralized cloud infrastructures.
 
