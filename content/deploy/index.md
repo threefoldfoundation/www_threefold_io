@@ -60,7 +60,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 bg-white">
 
 
-**Anything LINUX can run on the Grid**
+**<span class="blue">ANYTHING LINUX CAN RUN ON THE GRID</span>**
 
 
 <p class="text-base mt-2">Anything that runs on Linux can run on ThreeFold's innovative operating system, guaranteeing compatibility and flexibility.</p>
@@ -73,7 +73,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
 
 
-**VIRTUAL MACHINES & GATEWAY TECHNOLOGY**
+**<span class="blue">VIRTUAL MACHINES & GATEWAY TECHNOLOGY</span>**
 
 
 <p class="text-base mt-1 leading-snug">ThreeFold’s gateway tech allows any node on the grid to obtain a FQDN, secure mesh network traffic, and synced configurations. Coupled with our VMs, the possibilities are endless.</p>
@@ -86,7 +86,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
 
 
-**ONE-CLICK SOLUTION FOR WORKLOADS**
+**<span class="blue">ONE-CLICK SOLUTION FOR WORKLOADS</span>**
 
 
 <p class="text-base mt-2">The Grid offers ready-community solutions to deploy industry-grade workloads in one click. You can also build your own solutions thanks to the open-source nature of the grid.</p>
@@ -101,7 +101,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 bg-white">
 
 
-**OPEN SOURCE LOW LEVEL OPERATING SYSTEM**
+**<span class="blue">OPEN SOURCE LOW LEVEL OPERATING SYSTEM</span>**
 
 
 <p class="text-base mt-2">Enables anyone to become a cloud provider. This operating system supports all required Web2 and Web3 workloads.</p>
@@ -114,7 +114,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
 
 
-**PEER TO PEER MESH NETWORK**
+**<span class="blue">PEER TO PEER MESH NETWORK</span>**
 
 
 <p class="text-base mt-2">The only overlay network which considers locality: routing decisions are based on peer proximity. Offers privacy and redundancy that are currently not possible elsewhere.</p>
@@ -127,7 +127,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
 
 
-**QUANTUM SAFE STORAGE SYSTEM**
+**<span class="blue">QUANTUM SAFE STORAGE SYSTEM</span>**
 
 
 <p class="text-base mt-2">QSSS is capable of storing data in ways that are indestructible, efficient, and ultra-scalable. Storage algorithms fragment and disperse files over multiple nodes.</p>
@@ -144,7 +144,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 bg-white">
 
 
-**TOOLS AVAILABLE  FOR SYSADMINS**
+**<span class="blue">TOOLS AVAILABLE FOR SYSADMINS</span>**
 
 
 <p class="text-base mt-2">Deploy your own workload architectures with tools such as Terraform, Pulumi and Kubernetes.</p>
@@ -158,7 +158,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
 
 
-**AI AND MACHINE LEARNING WORKLOADS WITH GPU**
+**<span class="blue">AI AND MACHINE LEARNING WORKLOADS WITH GPU</span>**
 
 
 
