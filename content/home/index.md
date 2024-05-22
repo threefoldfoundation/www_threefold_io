@@ -156,7 +156,7 @@ TFT powers ThreeFold and the expansion of a truly decentralized infrastructure t
 <div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
 
 
-Anything that runs on Linux can run on the **ThreeFold grid**
+Anything that runs on Linux can run on the ThreeFold grid
 
 </div>
 
@@ -196,11 +196,15 @@ Flexible advanced deployment options for experienced users
 
 {% end %}
 
+</div>
+
 
 
 
 <!-- section 6 (ecentralized) -->
+
 <div style="background-color:#F6F6F6">
+<div class="container mx-auto">
 
 {% row( style="mtop center between ") %}
 
@@ -244,7 +248,7 @@ Empowers emerging markets with local data storage, granting digital sovereignty 
 
 {% end %}
 
-{% row( style="center semiNarrow") %}
+{% row( style="mbottom center semiNarrow") %}
 
 ![Image](performance.png#tft_img#mx-auto)
 
@@ -283,6 +287,8 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 
 <!-- section 7 (Ecosystem) -->
 
+<div class="container mx-auto">
+
 {% row( style="center mtop narrow") %}
 
 ## **Ecosystem**
@@ -297,7 +303,7 @@ ThreeFold’s decentralized autonomous cloud will empower many projects and digi
 
 <div class="rounded_img border-2 rounded-lg shadow-lg">
 
-[![Image](partner_social.png)](/partners/veverse)
+[![Image](partner_social.png)](/partners/social-network)
 
 
 <div class="p-6 lg:p-3 mycard">

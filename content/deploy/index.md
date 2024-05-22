@@ -27,6 +27,8 @@ ThreeFold has developed extensive technology and tools for <span class="blue">de
 
 From decentralized cloud computing and blockchain integration to overseeing infrastructures and optimizing performance, there is a breadth of options for smooth and efficient operations.
 
+<br>
+
 <button class="green">[Developer Documentation](https://www.manual.grid.tf/documentation/developers/developers.html)</button> 
 <button class="blue_b">[Sysadmin Documentation](https://www.manual.grid.tf/documentation/system_administrators/system_administrators.html)</button>
 
@@ -45,38 +47,23 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="container mx-auto">
 
 
-{% row( style="center mtop semiNarrow") %}
+{% row( style="mtop semiNarrow") %}
 
-#### <span class="green_text">Deploy With ThreeFold</span>
-
-<br>
+### **<span class="">Deploy With ThreeFold**
 
 ## **Key Features**
 
 {% end %}
 
-{% row( style="center semiNarrow") %}
+{% row( style="semiNarrow") %}
 
 <div class="key_card rounded_img border-2 rounded-lg p-4 bg-white">
 
 
-**<span class="blue mb-2">Anything LINUX can run on the Grid</span>**
+**Anything LINUX can run on the Grid**
 
 
-<p class="text-base">Anything that runs on Linux can run on ThreeFold's innovative operating system, guaranteeing compatibility and flexibility.</p>
-
-
-</div>
-
-|||
-
-<div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
-
-
-**<span class="blue mb-2">VIRTUAL MACHINES & GATEWAY TECHNOLOGY</span>**
-
-
-<p class="text-base">ThreeFold’s gateway tech allows any node on the grid to obtain a FQDN, secure mesh network traffic, and synced configurations. Coupled with our VMs, the possibilities are endless.</p>
+<p class="text-base mt-2">Anything that runs on Linux can run on ThreeFold's innovative operating system, guaranteeing compatibility and flexibility.</p>
 
 
 </div>
@@ -86,38 +73,38 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
 
 
-**<span class="blue mb-2">ONE-CLICK SOLUTION FOR WORKLOADS</span>**
+**VIRTUAL MACHINES & GATEWAY TECHNOLOGY**
 
 
-<p class="text-base">The Grid offers ready-community solutions to deploy industry-grade workloads in one click. You can also build your own solutions thanks to the open-source nature of the grid.</p>
+<p class="text-base mt-1 leading-snug">ThreeFold’s gateway tech allows any node on the grid to obtain a FQDN, secure mesh network traffic, and synced configurations. Coupled with our VMs, the possibilities are endless.</p>
+
+
+</div>
+
+|||
+
+<div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
+
+
+**ONE-CLICK SOLUTION FOR WORKLOADS**
+
+
+<p class="text-base mt-2">The Grid offers ready-community solutions to deploy industry-grade workloads in one click. You can also build your own solutions thanks to the open-source nature of the grid.</p>
 
 </div>
 
 {% end %}
 
 
-{% row( style="center semiNarrow") %}
+{% row( style="semiNarrow") %}
 
 <div class="key_card rounded_img border-2 rounded-lg p-4 bg-white">
 
 
-**<span class="blue mb-2">OPEN SOURCE LOW LEVEL OPERATING SYSTEM</span>**
+**OPEN SOURCE LOW LEVEL OPERATING SYSTEM**
 
 
-<p class="text-base">Enables anyone to become a cloud provider. This operating system supports all required Web2 and Web3 workloads.</p>
-
-
-</div>
-
-|||
-
-<div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
-
-
-**<span class="blue mb-2">PEER TO PEER MESH NETWORK</span>**
-
-
-<p class="text-base">The only overlay network which considers locality: routing decisions are based on peer proximity. Offers privacy and redundancy that are currently not possible elsewhere.</p>
+<p class="text-base mt-2">Enables anyone to become a cloud provider. This operating system supports all required Web2 and Web3 workloads.</p>
 
 
 </div>
@@ -127,10 +114,23 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
 
 
-**<span class="blue mb-2">QUANTUM SAFE STORAGE SYSTEM</span>**
+**PEER TO PEER MESH NETWORK**
 
 
-<p class="text-base">QSSS is capable of storing data in ways that are indestructible, efficient, and ultra-scalable. Storage algorithms fragment and disperse files over multiple nodes.</p>
+<p class="text-base mt-2">The only overlay network which considers locality: routing decisions are based on peer proximity. Offers privacy and redundancy that are currently not possible elsewhere.</p>
+
+
+</div>
+
+|||
+
+<div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
+
+
+**QUANTUM SAFE STORAGE SYSTEM**
+
+
+<p class="text-base mt-2">QSSS is capable of storing data in ways that are indestructible, efficient, and ultra-scalable. Storage algorithms fragment and disperse files over multiple nodes.</p>
 
 
 </div>
@@ -139,36 +139,37 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 {% end %}
 
 
-{% row( style="center semiNarrow") %}
+{% row( style="semiNarrow") %}
 
 <div class="key_card rounded_img border-2 rounded-lg p-4 bg-white">
 
 
-**<span class="blue mb-2">TOOLS AVAILABLE  FOR SYSADMINS</span>**
+**TOOLS AVAILABLE  FOR SYSADMINS**
 
 
-<p class="text-base">Deploy your own workload architectures with tools such as Terraform, Pulumi and Kubernetes.</p>
+<p class="text-base mt-2">Deploy your own workload architectures with tools such as Terraform, Pulumi and Kubernetes.</p>
 
 
 </div>
 
 |||
 
-
-
-
-|||
 
 <div class="key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
 
 
-**<span class="blue mb-2">AI AND MACHINE LEARNING WORKLOADS WITH GPU</span>**
+**AI AND MACHINE LEARNING WORKLOADS WITH GPU**
 
 
-<p class="text-base">The grid supports GPU nodes enabling artificial intelligence and machine learning workloads within minutes.</p>
+
+<p class="text-base mt-2">The grid supports GPU nodes enabling artificial intelligence and machine learning workloads within minutes.</p>
 
 
 </div>
+
+
+|||
+
 
 {% end %}
 

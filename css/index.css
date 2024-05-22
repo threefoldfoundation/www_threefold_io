@@ -194,7 +194,8 @@ h1 {
   button {
     @apply 
     inline-block
-    lg:text-lg
+    md:text-md
+    text-sm
     lg:mr-3
     py-1
     my-4
@@ -272,7 +273,7 @@ button a {
   line-height: 1.3;
   @apply
   text-black
-  px-12
+  px-8
 }
 
 .long-text a{
