@@ -63,7 +63,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 **<span class="blue">ANYTHING LINUX CAN RUN ON THE GRID</span>**
 
 
-<p class="text-base mt-2">Anything that runs on Linux can run on ThreeFold's innovative operating system, guaranteeing compatibility and flexibility.</p>
+<p class="text-base mt-1 leading-snug">Anything that runs on Linux can run on ThreeFold's innovative operating system, guaranteeing compatibility and flexibility.</p>
 
 
 </div>
@@ -89,7 +89,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 **<span class="blue">ONE-CLICK SOLUTION FOR WORKLOADS</span>**
 
 
-<p class="text-base mt-2">The Grid offers ready-community solutions to deploy industry-grade workloads in one click. You can also build your own solutions thanks to the open-source nature of the grid.</p>
+<p class="text-base mt-1 leading-snug">The Grid offers ready-community solutions to deploy industry-grade workloads in one click. You can also build your own solutions thanks to the open-source nature of the grid.</p>
 
 </div>
 
@@ -104,7 +104,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 **<span class="blue">OPEN SOURCE LOW LEVEL OPERATING SYSTEM</span>**
 
 
-<p class="text-base mt-2">Enables anyone to become a cloud provider. This operating system supports all required Web2 and Web3 workloads.</p>
+<p class="text-base mt-1 leading-snug">Enables anyone to become a cloud provider. This operating system supports all required Web2 and Web3 workloads.</p>
 
 
 </div>
@@ -117,7 +117,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 **<span class="blue">PEER TO PEER MESH NETWORK</span>**
 
 
-<p class="text-base mt-2">The only overlay network which considers locality: routing decisions are based on peer proximity. Offers privacy and redundancy that are currently not possible elsewhere.</p>
+<p class="text-base mt-1 leading-snug">The only overlay network which considers locality: routing decisions are based on peer proximity. Offers privacy and redundancy that are currently not possible elsewhere.</p>
 
 
 </div>
@@ -130,7 +130,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 **<span class="blue">QUANTUM SAFE STORAGE SYSTEM</span>**
 
 
-<p class="text-base mt-2">QSSS is capable of storing data in ways that are indestructible, efficient, and ultra-scalable. Storage algorithms fragment and disperse files over multiple nodes.</p>
+<p class="text-base mt-1 leading-snug">QSSS is capable of storing data in ways that are indestructible, efficient, and ultra-scalable. Storage algorithms fragment and disperse files over multiple nodes.</p>
 
 
 </div>
@@ -147,7 +147,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 **<span class="blue">TOOLS AVAILABLE FOR SYSADMINS</span>**
 
 
-<p class="text-base mt-2">Deploy your own workload architectures with tools such as Terraform, Pulumi and Kubernetes.</p>
+<p class="text-base mt-1 leading-snug">Deploy your own workload architectures with tools such as Terraform, Pulumi and Kubernetes.</p>
 
 
 </div>
@@ -162,7 +162,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 
 
 
-<p class="text-base mt-2">The grid supports GPU nodes enabling artificial intelligence and machine learning workloads within minutes.</p>
+<p class="text-base mt-1 leading-snug">The grid supports GPU nodes enabling artificial intelligence and machine learning workloads within minutes.</p>
 
 
 </div>
@@ -170,6 +170,20 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 
 |||
 
+
+<!-- don't write here -->
+
+<div class="hidden key_card rounded_img border-2 rounded-lg p-4 text-base bg-white">
+
+
+**<span class="blue">AI AND MACHINE LEARNING WORKLOADS WITH GPU</span>**
+
+
+
+<p class="text-base mt-1 leading-snug">The grid supports GPU nodes enabling artificial intelligence and machine learning workloads within minutes.</p>
+
+
+</div>
 
 {% end %}
 
