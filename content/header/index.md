@@ -11,6 +11,7 @@ extra:
 - [Deploy]("/deploy")
 - [Host]("/host")
 - [Utilization]("/utilization")
+- [TFT]("/tft")
 - [News]("/newsroom")
 - [Blog]("/blog")
 - [People]("/people")

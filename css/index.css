@@ -8,9 +8,7 @@
 @import "tailwindcss/components";
 @import "admonition.css";
 @import "tailwindcss/utilities";
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* Custom CSS for header partial */
 .backdrop-blur {
@@ -93,9 +91,7 @@ a img:hover{
   width:200px
 }
 
-h1 {
-  line-height: 3rem;
-}
+
 .blue{
   color:#2E83FF
 }
@@ -154,10 +150,12 @@ h1 {
   h1 {
     @apply text-4xl lg:text-6xl font-normal;
     color: #2b2b2b;
+    font-family: "Lato", sans-serif !important;
   }
   h2 {
     @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
     color: #2b2b2b;
+    font-family: "Lato", sans-serif !important;
   }
   h2 strong {
     @apply font-semibold;
@@ -165,22 +163,27 @@ h1 {
   h3 {
     @apply text-2xl lg:text-3xl my-4 font-extralight;
     color: #2b2b2b;
+    font-family: "Lato", sans-serif !important;
   }
   h3 strong {
     @apply font-normal;
   }
   h4 {
     @apply text-xl lg:text-2xl font-normal;
+    font-family: "Lato", sans-serif !important;
   }
   h5 {
     @apply text-lg my-1 tracking-normal font-semibold;
+    font-family: "Lato", sans-serif !important;
   }
   h6 {
     @apply text-md not-italic font-normal my-1;
+    font-family: "Lato", sans-serif !important;
   }
   p {
     @apply text-lg;
     color: #3d3d3d;
+    font-family: "Lato", sans-serif !important;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
@@ -226,20 +229,20 @@ h1 {
 
   .article h2{
     font-size: 2.25rem;
-    font-family: Lato,sans-serif!important;
+    font-family: "Lato", sans-serif;
     line-height: 1.5;
     font-weight: 700;
     color:#333;
   }
   
   .article h1{
-    font-family: Lato,sans-serif!important;
+    font-family: "Lato", sans-serif;
   }
 
   }
   .article p{
     font-size: 1.125rem;
-    font-family: Lato,sans-serif!important;
+    font-family: "Lato", sans-serif;
     line-height: 1.7;
     color:#333
   }
@@ -256,7 +259,7 @@ h1 {
     font-size: 1rem;
   }
   .main-title {
-    font-family: Lato,sans-serif!important;
+    font-family: "Lato", sans-serif;
   }
 
 
@@ -288,7 +291,7 @@ a {
 }
 
 header {
-  font-family: "Work Sans";
+  font-family: "Lato", sans-serif;
 }
 
 .nav_btn {
@@ -432,15 +435,15 @@ header {
 }
 
 .my-test{
-  font-family: "Work Sans", sans-serif !important;
+  font-family: "Lato", sans-serif;
 } 
 .post-content-text .my-test  {
-  font-family: "Work Sans", sans-serif !important;
+  font-family: "Lato", sans-serif;
   line-height: 1.7;
 }
 
 .post-content-text h2 {
-  font-family: Lato,sans-serif!important;
+  font-family: "Lato", sans-serif;
   line-height: 1.5;
   font-size: 2.25rem;
   font-weight: 700;
@@ -473,6 +476,12 @@ header {
   .banner h2 svg {
     font-size: 30px;
   }
+  .arrow img{
+    -moz-transform:rotate(90deg);
+   -webkit-transform:rotate(90deg);
+   -ms-transform:rotate(90deg);
+   transform: rotate(90deg);   
+   }
 }
 
 @media (max-width: 480px) {
