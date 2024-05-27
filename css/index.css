@@ -52,6 +52,10 @@ img[src*="#social"] {
   margin: auto;
 }
 
+img[src*="#semilarge"] {
+  width: 500px;
+  margin: auto;
+}
 
 img[src*="#large"] {
   width: 700px;
@@ -201,7 +205,7 @@ a img:hover{
     text-sm
     lg:mr-3
     py-1
-    my-4
+    my-2
     border
     rounded
     shadow
