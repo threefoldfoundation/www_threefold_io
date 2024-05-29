@@ -11,46 +11,35 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](header_ecosystem.png)
+
+
+
+
+# **Utilization & Ecosystem**
+
+### **<span class="blue">The First Experiences</span>**
+
+
+
+ThreeFold's decentralized autonomous cloud is in its third generation and ready to go commercial. It will empower many projects and digital experiences as we
+grow.
 
 |||
 
-## **Utilization & <span class="blue">Ecosystem**</span>
-
-ThreeFold’s decentralized autonomous cloud is in its third generation and ready to go commercial. It will empower many projects and digital experiences as we grow.
+![Image](utilities_heder.png#mx-auto)
 
 {% end %}
 
 
 
 
-<!-- section 2 (community utilization) -->
 
-{% row(style="reverse margin") %}
-
-## **Community Utilization**
-
-ThreeFold has developed extensive technology and tools for developers and system administrators. ThreeFold is designed for compatibility. Grid users are provided with familiar ways of deploying and managing resources. From decentralized cloud computing and blockchain integration to overseeing infrastructures and optimizing performance, there is a breadth of options for smooth and efficient operation.
-
-<br>
-
-<button>[Developer Docs](https://www.manual.grid.tf/documentation/developers/developers.html)</button>
-<button>[Sysadmin Docs](https://www.manual.grid.tf/documentation/system_administrators/system_administrators.html)</button>
-
-|||
-
-![Image](utilization_community.png#mx-auto)
-
-{% end %}
-
-
-
-
-<!-- section 3  -->
+<!-- section 2  -->
 
 {% row( style="center between mtop") %}
 
-### Core Partners
+### **<span class="blue">Core Partners</span>**
+
 ## **Building with ThreeFold in 2024**
 
 <br>
@@ -60,147 +49,117 @@ Meet the projects with whom we are working closely this year to drive utilizatio
 {% end %}
 
 
-{% row( style="centerItem mtop") %}
+<br>
 
-<div class="my-2 lg:my-6">
 
-<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+{% row( style="semiNarrow") %}
+
+
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-4 md:p-6 mypartners">
 
 [![Image](social_logo.png#icon#mx-auto)](/partners/social-network)
 
+<br>
+
+**Scaling Bitcoin**
+
+<p class="text-base mt-2">Bitcoin is the clear leader when it comes to the “future of money,” but the network faces key blockchain challenges like scalability, reliability.. </P>
+
+<span class="text-base">[Read More](/partners/social-network)</span>
+
+
+
 </div>
 
-<br>
-
-#### Scaling Bitcoin
-<!-- ### <span class="blue">**Social Network**</span> -->
-
-<br>
-
-Bitcoin is the clear leader when it comes to the “future of money,” but the network faces key blockchain challenges like scalability, reliability, and energy efficiency. We have known the team behind Earth Staking’s Social Network for some years now and have decided to tackle these issues together. [Visit](/partners/social-network)
-
-</div>
-
-<br>
 
 |||
 
-<div class="my-2 lg:my-6">
 
-<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-4 md:p-6 mypartners">
 
 [![Image](ourworld_logo.png#icon#mx-auto)](/partners/our-world-free-zone)
 
-</div>
-
 <br>
 
-#### A Sovereign Economic Zone
-<!-- ### <span class="blue">**OurWorld Free Zone**</span> -->
+**A Sovereign Economic Zone**
 
-<br>
+<p class="text-base">In July 2023, Dr. Hussein Ali Mwinyi, President of Zanzibar, spoke at a summit hosted by ThreeFold to announce our collaboration... </P>
 
-In July 2023, Dr. Hussein Ali Mwinyi, President of Zanzibar, spoke at a summit hosted by ThreeFold to announce our collaboration (via the Zanzibar Communication Corporation) on the OurWorld Digital Free Zone, the first 100% digital free zone in the world. In 2024, the free zone will come alive, with ThreeFold as the underlying infrastructure. [Visit](/partners/our-world-free-zone)
+<span class="text-base">[Read More](/partners/social-network)</span>
 
 </div>
 
-<br>
 
-{% end %}
+|||
 
 
-{% row( style="centerItem") %}
-
-<div class="my-2 lg:my-6">
-
-<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-4 md:p-6 mypartners">
 
 [![Image](ict_logo.png#icon#mx-auto)](/partners/tanzania-sovereign-internet)
 
-</div>
-
 <br>
 
-#### A Sovereign Internet, By and For Tanzania
-<!-- ### <span class="blue">**ICT Commission (TZ)**</span> -->
+**A Sovereign Internet, By and For Tanzania**
 
-<br>
+<p class="text-base">Most countries lose numerous benefits from not owning their own Internet. Digital sovereignty is inexistent and economic gains are lost... </P>
 
-Most countries lose numerous benefits from not owning their own Internet. Digital sovereignty is inexistent and economic gains are lost. Together, with Tanzania's ICT Commission and the tech community in Dar Es Salaam, we will create a sovereign cloud & Internet infrastructure to empower a self-reliant digital ecosystem for Tanzania. [Visit](/partners/tanzania-sovereign-internet)
+<span class="text-base">[Read More](/partners/tanzania-sovereign-internet)</span>
 
 </div>
 
-<br>
+{% end %}
 
-|||
 
-<div class="my-2 lg:my-6">
+{% row( style="semiNarrow") %}
 
-<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-4 md:p-6 mypartners">
 
 [![Image](sikana_logo.png#icon#mx-auto)](/partners/sikana)
 
-</div>
-
 <br>
 
-#### Education For All
-<!-- ### <span class="blue">**Sikana**</span> -->
+**Education For All**
 
-<br>
+<p class="text-base">Sikana has delivered over 400 million lessons via free educational videos but because of this incredible scale they could not afford hosting costs... </P>
 
-Sikana has delivered over 400 million lessons via free educational videos but because of this incredible scale they could not afford hosting costs. With ThreeFold, Sikana will be able to extend their reach, creating and distributing local content in local languages on top of local infrastructure. [Visit](/partners/sikana)
+<span class="text-base">[Read More](/partners/sikana)</span>
 
 </div>
-
-<br>
-
-{% end %}
-
-{% row( style="centerItem") %}
-
-<div class="my-2 lg:my-6">
-
-<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
-
-[![Image](veverse_logo.png#icon#mx-auto)](/partners/veverse)
-
-</div>
-<br>
-
-#### Own Your Metaverse
-<!-- ### <span class="blue">**VeVerse**</span> -->
-
-<br>
-
-We met the founder of VeVerse several years ago, who had the vision to democratize access to art globally through metaverse technology. Together we agreed that we would work to turn that vision into reality in a fair and just way. Now in 2024, we plan to bring VeVerse on top of the ThreeFold Grid. [Visit](/partners/veverse) 
-
-</div>
-
-<br>
 
 |||
 
-<div class="my-2 lg:my-6">
 
-<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-2 lg:p-4 my-0 lg:my-4">
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-4 md:p-6 mypartners">
 
-[![Image](vverse_logo.png#icon#mx-auto)](/partners/vverse)
-
-</div>
-<br>
-
-#### Metaverse Meets Edge Cloud
-<!-- ### <span class="blue">**VVerse**</span> -->
+[![Image](veverse_logo.png#icon#mx-auto)](/partners/veverse)
 
 <br>
 
-VVerse (not to be confused with VeVerse) is one of the most capable metaverse technologies. The ThreeFold Grid will render it in the cloud and use low-latency connection to stream VVerse’s virtual environments with video-like quality. Significant capacity is required to roll out this metaverse. [Visit](/partners/vverse) 
+**Own Your Metaverse**
+
+<p class="text-base">We met the founder of VeVerse several years ago, who had the vision to democratize access to art globally through metaverse technology... </P>
+
+<span class="text-base">[Read More](/partners/veverse)</span>
 
 </div>
 
+|||
+
+<div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-4 md:p-6 mypartners">
+
+[![Image](vverse_logo.png#icon#mx-auto)](/partners/veverse)
+
 <br>
+
+**Metaverse Meets Edge Cloud**
+
+<p class="text-base">VVerse (not to be confused with VeVerse) is one of the most capable metaverse technologies... </P>
+
+<span class="text-base">[Read More](/partners/vverse/)</span>
+
+</div>
+
 {% end %}
 
-
 </div>
+

@@ -143,6 +143,12 @@ a img:hover{
   height: 240px !important;
 }
 
+
+.mypartners{
+  height: 300px !important;
+
+}
+
 .key_card{
 
   height: 210px;
@@ -518,6 +524,11 @@ header {
 
   .key_card{
     height: auto;
+  }
+
+  .mypartners{
+    height: auto;
+  
   }
 }
 
