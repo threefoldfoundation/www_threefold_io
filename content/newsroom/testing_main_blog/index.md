@@ -18,6 +18,7 @@ Testing is a key aspect of maintaining a reliable cloud infrastructure. Because 
 
 **Part I: Ensuring Quality for Users**
 This section covers why testing is important and the three networks used for testing – Devnet, QAnet, and Testnet – before we release anything to mainnet. [Read more](https://www.threefold.io/blog/how-to-test-the-grid-part-one/).
+
 <br/>
 
 **Part II: Overview of Manual & Automation Testing**
