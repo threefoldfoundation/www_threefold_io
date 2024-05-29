@@ -1,5 +1,5 @@
 ---
-id: how to test the grid
+id: how_to_test_the_grid_part_one
 title: ThreeFold Grid Testing - Ensuring Quality for Users
 image_caption: technology
 description: Learn about the testing process on the ThreeFold Grid, covering four networks and utilizing both manual and automated tests for stability and reliability.

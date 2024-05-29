@@ -25,6 +25,10 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 <span class="blue">**Together we are creating a cloud for everyone, owned by everyone.**</span>
 
+<br>
+
+<button>[Host](/host)</button> <button>[Deploy](https://dashboard.grid.tf)</button> <button>[Learn](https://manual.grid.tf)</button>
+
 |||
 
 ![Image](header_new1.png)
