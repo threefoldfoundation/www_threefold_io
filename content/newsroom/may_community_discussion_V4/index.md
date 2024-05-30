@@ -9,7 +9,7 @@ taxonomies:
     tags: [technology,update,threefold_grid,community,news]
     news-category: [foundation]
 extra:
-    imgPath: may_community_discussion_V4.png
+    imgPath: may_community_discussion_2024.png
 
 ---
 
