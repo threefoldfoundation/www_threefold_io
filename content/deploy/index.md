@@ -231,45 +231,6 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 
 <style>
 
-
-
-  .green{
-
-    background-color:#58CF77 !important;
-    color: #fff !important;
-
-  }
-
-.green:hover {
-  background-color:#7ad993 !important;
-}
-  .green a{
-     color: #fff !important;
-  }
- 
-.green:hover {
-  background-color:#7ad993 !important;
-}
-
-.green_text{
-  color: #58CF77 ;
-}
-
-
-    .blue_b{
-
-    background-color:#2E83FF !important;
-    color: #fff !important;
-
-  }
-  .blue_b a{
-     color: #fff !important;
-  }
-
-.blue_b:hover {
-  background-color:#5596f5 !important;
-}
-  
 .rounded_img img {
   border-radius: 8px;
 }
