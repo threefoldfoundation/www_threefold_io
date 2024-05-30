@@ -436,7 +436,7 @@ Learn what edge computing means and what it offers compared to centralized cloud
 
 </div>
 
-Dive Deeper into ThreeFold Technologies
+Dive deeper into our technology
 
 
 
