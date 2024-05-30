@@ -463,7 +463,7 @@ Get assistance from our support team
 
 </div>
 
-Meet the community and join the conversation
+Participate in the conversation
 
 {% end %}
 
