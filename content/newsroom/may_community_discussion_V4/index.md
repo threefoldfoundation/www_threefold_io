@@ -1,5 +1,5 @@
 ---
-id: may_community_discussion_V4
+id: may_community_discussion_v4
 title: 👀 Watch May's Community Discussion on v4
 image_caption: May V4 discussion
 description: A discussion on TF Grid 4 featuring insights from the team, followed by Q&A.
