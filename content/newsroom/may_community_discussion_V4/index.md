@@ -10,6 +10,7 @@ taxonomies:
     news-category: [foundation]
 extra:
     imgPath: may_community_discussion_V4.png
+
 ---
 
 We focused on TF Grid 4 and its implications in May's community discussion. The call featured commentary from Kristof (ThreeFold co-founder) as well as Michael (Green Edge, v4 Team) and Maximilian (v4 team) followed by questions and conversation.
