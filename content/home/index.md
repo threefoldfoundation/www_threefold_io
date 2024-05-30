@@ -303,7 +303,7 @@ ThreeFold’s decentralized autonomous cloud will empower many projects and digi
 
 <div class="rounded_img border-2 rounded-lg shadow-lg">
 
-[![Image](partner_social.png)](/partners/social-network)
+[![Image](partner_social.png)](/partners/social-network/)
 
 
 <div class="p-6 lg:p-3 mycard">
@@ -340,7 +340,7 @@ ThreeFold is working with ZICTIA, on behalf of the Zanzibar government, to creat
 
 <div class="rounded_img border-2 rounded-lg shadow-lg">
 
-[![Image](partner_sikana.png)](/partners/sikana)
+[![Image](partner_sikana.png)](/partners/sikana/)
 
 <div class="p-6 lg:p-3 mycard">
 
