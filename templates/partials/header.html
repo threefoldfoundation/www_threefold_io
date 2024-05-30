@@ -196,7 +196,7 @@
                     {% endfor %}
                     {% set section = get_section(path="footer/_index.md")%}
                     {%- set logoPath = section.extra.logoPath %}
-                    <div class="mx-8 mt-8">
+                    {# <div class="mx-8 mt-8">
                         <div class="space-y-8 lg:max-w-sm xl:max-w-sm lg:mr-8 lg:mb-8 xl:col-span-1">
                           <img class="w-32 h-auto" src="{{get_url(path=logoPath)}}" alt="Company name" />
                           <p class="text-gray-500 text-base leading-6 ">
@@ -205,7 +205,7 @@
                           {% include "partials/socialLinks.html" %}
                       </div>
                     </nav>                    
-                </div>
+                </div> #}
             
         </div>
         

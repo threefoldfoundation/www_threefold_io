@@ -60,7 +60,7 @@ Together we are creating a cloud for everyone, owned by everyone.
 
 {% grid_stats() %}
 
-### Become a cloud & Internet service provider on
+### **Become a cloud & Internet service provider on**
 
 ## **The ThreeFold Grid**
 

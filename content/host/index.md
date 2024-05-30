@@ -182,7 +182,7 @@ The ThreeFold Dashboard is today's <span class="blue">go-to-interface</span> for
 
 <!-- section 5 -->
 
-{% row(style="margin") %}
+{% row(style="mtop") %}
 
 ![Image](people_planet_you.png#mx-auto)
 

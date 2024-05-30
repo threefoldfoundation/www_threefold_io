@@ -159,7 +159,7 @@ Whether you are hosting the cloud or deploying solutions on the Grid you will ea
 
 <br>
 
-{% row( style="mbottom center semiNarrow") %}
+{% row( style="center semiNarrow") %}
 
 <button class="green">[Dive Deeper](https://manual.grid.tf/knowledge_base/cloud/cloud_toc.html)</button> 
 

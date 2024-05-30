@@ -208,7 +208,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 
 <div class="container mx-auto">
 
-{% row( style="narrow margin") %}
+{% row( style="narrow mtop") %}
 
 ## **Ready Community Applications**
 
