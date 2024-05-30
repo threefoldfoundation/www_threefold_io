@@ -21,7 +21,7 @@ Watch the recording [here](https://youtu.be/xg_QnJFXz78?si=MZx3fig-6n28gS0S) and
 
 <br/>
 
-Please note this is an unedited recording of a community discussion. Information and outcomes are subject to change
+*Please note this is an unedited recording of a community discussion. Information and outcomes are subject to change.*
 
 
 
