@@ -10,7 +10,7 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](hero_host.png#semilarge#mx-auto)
+![Image](hero_host3.png#semilarge#mx-auto)
 
 |||
 
