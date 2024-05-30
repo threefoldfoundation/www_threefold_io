@@ -103,7 +103,7 @@ Whether you are hosting the cloud or deploying solutions on the Grid you will ea
 
 {% row( style="mbottom center semiNarrow") %}
 
-<button class="green">[Dive Deeoper](https://manual.grid.tf/documentation/farmers/farmers.html)</button> 
+<button class="green">[Dive Deeper](https://manual.grid.tf/documentation/farmers/farmers.html)</button> 
 
 {% end %}
 
@@ -161,7 +161,7 @@ Whether you are hosting the cloud or deploying solutions on the Grid you will ea
 
 {% row( style="mbottom center semiNarrow") %}
 
-<button class="green">[Dive Deeoper](https://manual.grid.tf/knowledge_base/cloud/cloud_toc.html)</button> 
+<button class="green">[Dive Deeper](https://manual.grid.tf/knowledge_base/cloud/cloud_toc.html)</button> 
 
 {% end %}
 
