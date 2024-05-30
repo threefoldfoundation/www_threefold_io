@@ -26,7 +26,7 @@ grow.
 
 |||
 
-![Image](utilities_heder.png#mx-auto)
+![Image](utilization_section1.png#mx-auto)
 
 {% end %}
 
