@@ -147,7 +147,7 @@ Meet the projects with whom we are working closely this year to drive utilizatio
 
 <div class="shadow-md rounded-md border-solid border-2 border-gray-100 p-4 md:p-6 mypartners">
 
-[![Image](vverse_logo.png#icon#mx-auto)](/partners/veverse)
+[![Image](vverse_logo.png#icon#mx-auto)](/partners/vverse/)
 
 <br>
 
