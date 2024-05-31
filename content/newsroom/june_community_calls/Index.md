@@ -37,14 +37,4 @@ Thu Jun 27 @ 17:00 CEST | 11:00 EDT
 
 <br/>
 
-Find all the details here (https://forum.threefold.io/t/community-call-schedule-for-june-2024/4361). Hope to see you there!
-
-
-
-
-
-
-
-
-
-
+Find all the details [here](https://forum.threefold.io/t/community-call-schedule-for-june-2024/4361). Hope to see you there!
