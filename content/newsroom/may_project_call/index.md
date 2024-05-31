@@ -1,6 +1,6 @@
 ---
 id: may_project_call
-title: 👀 Watch May's Community Discussion on v4
+title: 🍿 Watch May's Project Update- Introducing INCA
 image_caption: May Project call
 description: This month's update covered v3 vs. v4, INCA, tech updates, and news from Zanzibar and Tanzania.
 date: 2024-05-31

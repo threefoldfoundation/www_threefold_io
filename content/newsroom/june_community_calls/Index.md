@@ -1,6 +1,6 @@
 ---
 id: june_community_calls
-title: 👀 Watch May's Community Discussion on v4
+title: 🗓 Announcing- June Community Calls
 image_caption: June Community calls
 description: Check out the schedule for our June community calls and see what's on the agenda. Save the date!
 date: 2024-05-30
