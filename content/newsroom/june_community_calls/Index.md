@@ -1,6 +1,6 @@
 ---
 id: june_community_calls
-title: 🗓 Announcing- June Community Calls
+title: 🗓 Announcing - June Community Calls
 image_caption: June Community calls
 description: Check out the schedule for our June community calls and see what's on the agenda. Save the date!
 date: 2024-05-30
@@ -13,11 +13,11 @@ extra:
 
 ---
 
-Friends, we've got four community calls lined up for June:
+Friends, we've got four community calls lined up for June: 
 
 <br/>
 
-**Discussion & Demo:  Deploying WordPress**
+**Discussion & Demo: Deploying WordPress**
 Tue Jun 04 @ 19:00 CEST | 13:00 EDT
 
 <br/>
