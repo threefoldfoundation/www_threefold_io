@@ -10,10 +10,9 @@ taxonomies:
     news-category: [foundation]
 extra:
     imgPath: june_community_calls.png
-
 ---
 
-Friends, we've got four community calls lined up for June: 
+Friends, we've got four community calls lined up for June:  
 
 <br/>
 
