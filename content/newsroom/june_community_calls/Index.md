@@ -30,16 +30,16 @@ Thu Jun 13 @ 17:00 CEST | 11:00 EDT
 **Discussion & Demo: AI Workloads**
 Tue June 18 @ 19:00 CEST | 13:00 EDT
 
-</br>
+<br/>
 
 **Project Update**
 Thu Jun 27 @ 17:00 CEST | 11:00 EDT
 
-</br>
+<br/>
 
 Find all the details here (https://forum.threefold.io/t/community-call-schedule-for-june-2024/4361). Hope to see you there!
 
-</br>
+<br/>
 
 *We are looking into adding an events plugin for the forum (example [here](https://community.coops.tech/calendar)) which will make it easier to track upcoming events, and where community members can add their own events as well.*
 
