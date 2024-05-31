@@ -19,6 +19,8 @@ extra:
 
 ## Founded by <span class="blue">**Internet 1.0 Pioneers**</span>
 
+<br>
+
 About a decade ago, a group of passionate Internet & cloud veterans came together to build a system which can grow to a scalable, safe, compatible, and co-owned IT infrastructure.
 
 {% end %}
