@@ -21,8 +21,6 @@ extra:
 
 About a decade ago, a group of passionate Internet & cloud veterans came together to build a system which can grow to a scalable, safe, compatible, and co-owned IT infrastructure.
 
-<button class="green">[The Team](/people)</button> 
-
 {% end %}
 
 </div>
