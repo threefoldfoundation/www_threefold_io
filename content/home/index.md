@@ -108,7 +108,7 @@ Earn TFT by adding capacity to the grid.
 <div style="background-color:#F6F6F6">
 <div class="container mx-auto">
 
-{% row(style="reverse margin") %}
+{% row(style="margin") %}
 
 ![Image](power_ecosystem.png#mx-auto)
 

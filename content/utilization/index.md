@@ -9,7 +9,7 @@ insert_anchor_links: "left"
 
 <div class="container mx-auto">
 
-{% row(style="header") %}
+{% row(style="header reverse") %}
 
 
 

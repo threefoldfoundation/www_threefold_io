@@ -11,7 +11,7 @@ extra:
 <!-- section 1 (header) -->
 <div class="container mx-auto">
 
-{% row(style="header") %} 
+{% row(style="header reverse") %} 
 
 <h1 class="leading-none font-semibold"> All Transactions Use One Token: <span class="blue">TFT</span></h1>
 
