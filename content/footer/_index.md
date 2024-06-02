@@ -52,7 +52,7 @@ extra:
 
 <h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/utilization'">Partners</a></h6>
+<h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
