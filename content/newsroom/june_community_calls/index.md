@@ -9,7 +9,8 @@ taxonomies:
     tags: [technology,update,threefold_grid,community,news]
     news-category: [foundation]
 extra:
-    imgPath: june_community_calls.png
+    imgPath: community.png
+
 ---
 
 Friends, we've got four community calls lined up for June:  
@@ -37,3 +38,6 @@ Thu Jun 27 @ 17:00 CEST | 11:00 EDT
 <br/>
 
 Find all the details [here](https://forum.threefold.io/t/community-call-schedule-for-june-2024/4361). Hope to see you there!
+
+
+
