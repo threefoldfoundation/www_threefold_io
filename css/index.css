@@ -80,6 +80,38 @@ a img:hover{
 
 /* new theme */
 
+.dropdown { 
+  @apply
+  lg:text-lg
+  px-6
+  py-1
+  lg:mr-5
+  my-3
+  shadow
+  bg-white
+  border-black
+  capitalize 
+  leading-6 
+  border-transparent 
+  flex 
+  flex-col
+  border-2 
+  w-full 
+  items-start
+  rounded 
+  transition 
+  hover:first:text-gray-500 
+  hover:border-stone-200 
+  hover:bg-stone-100 
+  p-2 
+  text-left
+}
+
+.dropdown a{
+  @apply
+  px-0
+}
+
 .green{
 
   background-color:#58CF77 !important;
@@ -570,36 +602,6 @@ header {
     height: auto;
   
   }
+  
 }
 
-header #menu button { 
-  @apply
-  lg:text-lg
-  px-6
-  py-1
-  lg:mr-5
-  my-3
-  shadow
-  bg-white
-  border-black
-  capitalize 
-  leading-6 
-  border-transparent 
-  flex 
-  flex-col
-  border-2 
-  w-full 
-  items-start
-  rounded 
-  transition 
-  hover:first:text-gray-500 
-  hover:border-stone-200 
-  hover:bg-stone-100 
-  p-2 
-  text-left
-}
-
-header #menu button a{
-  @apply
-  px-0
-}

@@ -17,7 +17,7 @@ extra:
 
 {% row() %}
 
-<button onclick="window.location.href='/newsroom'">
+<button class="dropdown" onclick="window.location.href='/newsroom'">
 
 [Newsroom](/newsroom)
 <br>
@@ -27,7 +27,7 @@ extra:
 
 |||
 
-<button onclick="window.location.href='/blog'">
+<button class="dropdown" onclick="window.location.href='/blog'">
 
 [Blog](/blog)
 <br>
@@ -37,7 +37,7 @@ extra:
 
 |||
 
-<button onclick="window.location.href='/people'">
+<button class="dropdown" onclick="window.location.href='/people'">
 
 [Our People](/people)
 <br>
@@ -47,7 +47,7 @@ extra:
 
 |||
 
-<button onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/')">
+<button class="dropdown" onclick="openInNewTab('https&#58;//library.threefold.me/info/threefold#/')">
 
 [Documentation](https://manual.grid.tf)
 <br>
