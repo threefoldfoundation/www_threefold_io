@@ -1,131 +1,292 @@
 ---
 title: "Home"
-description: "A global movement together building an open-source, community-driven, decentralized Internet – from the ground up." # quotation marks to allow colons where used
+description: "ThreeFold is the world’s first system enabling anyone to become a cloud and internet service provider." # quotation marks to allow colons where used
 date: 2018-09-14T21:00:00-05:00
 updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
   author: Your name here
-  imgPath: images/threefold_globe.png
+  imgPath: home/header_new1.png
 ---
+
 
 <!-- section 1 (header) -->
 
-{% row(style="center narrow") %}
+<div class="container mx-auto">
 
-<br/>
-<br/>
+{% row(style="reverse header") %}
 
-![Image](black_threefold_header.png#medium)
+# **ThreeFold**
+## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
 
-<br/>
-
-## Decentralized Autonomous<br>Internet Infrastructure
-
-ThreeFold is a globally-distributed grid of storage, compute, and network capacity, acting as “no middleman” Internet resources between independent capacity providers and users. Founded by Internet 1.0 Pioneers and supported by a global community.
+ThreeFold’s self-healing autonomous system empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy, sell and use cloud resources autonomously and securely.
 
 <br>
 
-<button>[Get Started](https://manual.grid.tf)</button>
+<span class="blue">**Together we are creating a cloud for everyone, owned by everyone.**</span>
 
 <br>
 
-*Learn about what's happening [in 2024](/next).*
+<button>[Host](/host)</button> <button>[Deploy](https://dashboard.grid.tf)</button> <button>[Learn](https://manual.grid.tf)</button>
+
+|||
+
+![Image](header_new1.png)
 
 {% end %}
+
 
 <!-- section 2 (Map) -->
 
-
 {% grid_stats() %}
 
-### The ThreeFold Grid
+### Become a cloud & Internet service provider on
 
-## **Live and Operational**
+## **The ThreeFold Grid**
 
-#### Mainnet: 3.12 | Testnet: 3.12 | Devnet 3.13
-
-{% end %}
-
-<!-- section 3 (EXPAND) -->
-
-{% row(style="center narrow") %}
-
-## The **Layer Zero** for a New Digital Era
-
-ThreeFold is a peer-to-peer autonomous infrastructure layer designed to deliver ultra secure, scalable, green, deterministic IT workload deployments close to the edge. Our unique technology provides unparalleled sovereignty, scalability and efficiency features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver.
-
-<br>
-
-<button>[Learn About the Grid](/grid)</button>
+Provide cloud and Internet capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
 
 {% end %}
 
-{% row(style="center mtop narrow") %}
 
-## Together **We Build.** Start **Your Journey.**
+<!-- section 3 (3Node) -->
 
-The future is about participation and working together to achieve our goals. As a decentralized movement, we encourage the community to get involved. This new Internet can only succeed if we find ways to collaborate where we together pull this Internet concept forward. Below, please find some of the ways you can join us in building a better Internet. 
 
-{% end %}
+{% row(style="reverse margin") %}
 
-<br>
+## **It Starts with <span class="blue">3Nodes</span>**
 
-{% row(style="center narrow") %}
+**<span class="blue">3Nodes</span>**, powered by our stateless operating system, Zero-OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
 
-![Image](build_.png#medium)
+<button>[Get Started](/host)</button>
 
-### **Deploy** On Top of a **Decentralized Infrastructure.**
+|||
 
-True digital sovereignty for open-source developers and system administrators. The ThreeFold Grid provides limitless possibilities, and brings a playground of industry-compatible easy-to-deploy solutions for developers.
-
-<br>
-
-<button>[Manual](https://manual.grid.tf/)</button>
-<button>[Dashboard](https://dashboard.grid.tf/)</button>
-<button>[Playground](https://playground.grid.tf)</button>
-<button>[Grid Chat](https://t.me/threefoldtesting)</button>
+![Image](node_home.png#mx-auto)
 
 {% end %}
 
-<br>
 
-{% row(style="center narrow") %}
+<!-- section 4 (Partners) -->
 
-![Image](farm_.png#medium)
+{% row( style="center between mtop") %}
 
-### **Expand** the Network. Become a **Farmer.**
+## **Our Partners**
 
-By connecting hardware at your home or office – or anywhere you'd like – you provide Internet capacity for the people around you and earn a digital currency called TFT. We call this process farming.
-
-<br>
-
-*About TFT, we utilize a token as a mechanism for creating and using IT (Internet) capacity, which is essential for enabling our digital lives. For us the token is not an individual product, rather a way to exchange value within the ThreeFold ecosystem.*
-
-<br>
-
-<button>[Learn](https://manual.grid.tf/intro/grid3_howitworks.html)</button>
-<button>[Build a 3Node](https://manual.grid.tf/farmers/3node_building/3node_building.html)</button>
-<button>[Buy a 3Node](http://marketplace.3node.global/)</button>
-<button>[Farmers Chat](https://t.me/threefoldfarmers)</button>
+### Driving utilization on top of our decentralized autonomous cloud
 
 {% end %}
 
+{% row( style="center between") %}
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](social_network.png#mx-auto)](/partners/social-network)
+
+</div>
+
+|||
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](ourworld.png#mx-auto)](/partners/our-world-free-zone)
+
+</div>
+
+|||
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](ict.png#mx-auto)](/partners/tanzania-sovereign-internet)
+
+</div>
+
+{% end %}
+
+
+{% row( style="mbottom center between") %}
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](sikana.png#mx-auto)](/partners/sikana)
+
+</div>
+
+|||
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](vevrse.png#mx-auto)](/partners/veverse)
+
+</div>
+
+|||
+
+<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+
+[![](vverse.png#mx-auto)](/partners/vverse)
+
+</div>
+
+{% end %}
+
+
+{% row( style="center between") %}
+
+<button>[View Partners](/partners)</button>
+
+{% end %}
+
+<!-- section 5 (ecentralized) -->
+
+{% row( style="mtop center between ") %}
+
+## **Why Decentralized Cloud**
+
+### How bringing data closer to the end user is beneficial for everyone
+
+{% end %}
+
+{% row( style="center semiNarrow") %}
+
+![Image](latency_reduction.png#tft_img#mx-auto)
+
 <br>
 
-{% row(style="center narrow") %}
+### **Latency Reduction**
 
-![Image](community_.png#medium)
+For real-time apps, central cloud delay is prohibitive. Edge Cloud cuts latency locally.
 
-### Join the **Community.** Grow the **Movement.**
+|||
 
-If you believe what we believe, then believe us, there is room for you in this movement. Join the community. Ask questions. Bring suggestions – this is *our* project. Tell a friend. Tell many friends! Together we build.
+![Image](privacy_security.png#tft_img#mx-auto)
 
 <br>
 
+### **Privacy & Security**
+
+By processing data locally, edge cloud reduces the exposure to data breaches and cyberattacks.
+
+|||
+
+![Image](data_sovereignity.png#tft_img#mx-auto)
+
+<br>
+
+### **Data Sovereignity**
+
+Empowers emerging markets with local data storage, granting digital sovereignty and autonomy.
+
+{% end %}
+
+{% row( style="center semiNarrow") %}
+
+![Image](performance.png#tft_img#mx-auto)
+
+<br>
+
+### **Performance**
+
+Provides optimized bandwidth, reliability, and real-time processing which streamlines operations.
+
+|||
+
+![Image](cost_efficiency.png#tft_img#mx-auto)
+
+<br>
+
+### **Cost Efficiency**
+
+Minimizes data transmission over networks, cutting costs and reducing central server demand.
+
+|||
+
+![Image](scalability.png#tft_img#mx-auto)
+
+<br>
+
+### **Scalability**
+
+As devices multiply, central data centers face data overload. Edge cloud distributes processing and boosts scalability.
+
+{% end %}
+
+
+
+<!-- section 6 (Ecosystem) -->
+
+
+{% row( style="center between mtop") %}
+
+## **Around the Ecosystem**
+
+### News & Happenings
+
+{% end %}
+
+{% row( style="center between") %}
+
+[![Image](dunia_yetu.png)](/blog/dunia-yetu)
+
+<br>
+
+#### **A Sovereign Internet in Tanzania**
+
+Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania.
+
+|||
+
+[![Image](threefold_cooperative.png)](/blog/threefold-cooperative)
+
+<br>
+
+<<<<<<< HEAD
 <button>[Main Chat](https://t.me/threefold)</button>
 <button>[Our Forum](https://forum.threefold.io)</button>
 <button>[Twitter](https://twitter.com/threefold_io)</button>
 <button>[More Resources](/community)</button>
+=======
+#### **Cooperative Model is Coming**
+
+Cooperatives represent a well-tested form of collective organization and democratic governance.
 
 {% end %}
+
+
+
+
+<!-- section 7 (Join In) -->
+
+{% row(style="center mtop between") %}
+
+## **Join In**
+
+### Connect & Collaborate: Let's Kickstart Your ThreeFold Journey 
+
+{% end %}
+
+{% row(style="center between") %}
+
+[![](join3.png)](https://manual.grid.tf)
+
+Dive Deeper into ThreeFold Technologies
+
+|||
+
+[![](join2.png)](https://threefoldfaq.crisp.help/en/)
+
+Get assistance from our support team
+
+|||
+
+[![](join1.png)](https://t.me/threefold)
+
+Meet the community and join the conversation
+
+
+{% end %}
+
+
+>>>>>>> 6dca5fcee8852eff3ce5475732c8a34c8b97bebd
+
+ </div>

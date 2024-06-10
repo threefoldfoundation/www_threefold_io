@@ -4,7 +4,7 @@ weight: 3
 description: My biggest passion is learning about new technologies.
 taxonomies:
     people: [samir_hosny]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: samir_hosny.jpg

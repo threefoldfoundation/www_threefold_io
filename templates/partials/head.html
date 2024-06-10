@@ -151,15 +151,15 @@
     })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
 
     var ml_account = ml('accounts', '1778010', 'x2d3d9f8n1', 'load');
-    </script>
-    <!-- End MailerLite Universal -->
-    <!-- RSS feed -->
-    {% block rss %}
-    <link
-        rel="alternate"
-        type="application/rss+xml"
-        title="RSS"
-        href="{{ get_url(path='atom.xml', trailing_slash=false) }}"
-    >
-    {% endblock %}
+  </script>
+  <!-- End MailerLite Universal -->
+  <!-- RSS feed -->
+  {% block rss %}
+  <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="{{ get_url(path='atom.xml', trailing_slash=false) }}"
+  >
+  {% endblock %}
 </head>

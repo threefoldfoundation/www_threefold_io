@@ -4,7 +4,7 @@ weight: 3
 description: Software Engineer with passion in new technologies, love every thing that is really new.
 taxonomies:
     people: [ashraf_fouda]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: ashraf_fouda.jpeg

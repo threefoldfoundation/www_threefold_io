@@ -22,7 +22,8 @@ title: "Careers"
 
 {% row(bgPath="team_joinus.jpg" style="center margin") %}
 
-# **Join Our Team**
+
+<h1 class="font-medium text-gray-800">Join Our Team</h1>
 
 
 {% end %}

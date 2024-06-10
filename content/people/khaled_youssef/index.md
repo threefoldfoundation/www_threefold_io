@@ -4,7 +4,7 @@ weight: 4
 description: khaled is a passionate software test engineer with experience in software testing ....
 taxonomies:
     people: [khaled_youssef]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: khaled.jpg

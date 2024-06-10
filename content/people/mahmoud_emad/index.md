@@ -4,7 +4,7 @@ weight: 4
 description: Mahmoud is a young and dynamic Software Engineer who able to work in a multicultural environment with....
 taxonomies:
   people: [mahmoud_emad]
-  memberships: [tech]
+  memberships: [team]
   categories: [foundation]
 extra:
   imgPath: mahmoud_emad.jpg

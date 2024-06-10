@@ -10,6 +10,7 @@ taxonomies:
     news-category: [foundation]
 extra:
     imgPath: depin_hub.png
+    isFeatured: true
 ---
 
 

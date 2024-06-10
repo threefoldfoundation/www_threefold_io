@@ -4,7 +4,7 @@ weight: 4
 description: Software Engineer.
 taxonomies:
     people: [mario_bassem]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: mario.jpg

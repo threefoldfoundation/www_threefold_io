@@ -20,21 +20,23 @@
   loop.first %} {% set_global content=part%} {% else %} {% set_global content=content ~ "threefold.io" ~ part%} {% endif
   %} {% endfor %} {% endif %} <main>
 
-  <div class="container mx-auto mt-10">
+  <div class="container mx-auto mt-16">
 
     <div>
       <article class="article lg:w-4/6 mx-auto">
-        <h1 class="lg:text-5xl text-2xl font-medium leading-none mt-0  text-gray-700">
+        <section class="post-header px-0 mb-4 border-b">
+        <h2 class="md:text-4xl text-3xl font-medium mb-2 leading-none  text-gray-700">
           {{ page.title }}
-        </h1>
+        </h2>
 
-        <h4 class="lg:text-2xl text-base text-gray-600 leading-8">
+        <p class="md:text-lg mb-4 text-base text-gray-600">
           {{ page.description }}
-        </h4>
-        <section class="post-author-list mb-3 mx-0">
+        </p>
+      </section>
+        <section class="post-author-list mb-3 mt-2 mx-0">
           <div class="flex items-center">
             <div class="flex justify-between items-center">
-              <ul class="list-none flex author-list m-0">
+              <ul class="list-none pl-0 flex author-list m-0">
                 <li class="author-list-item">
                   {% if author %}
                   {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') |

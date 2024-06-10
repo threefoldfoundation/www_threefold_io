@@ -14,19 +14,15 @@ extra:
 
 <br>
 
-###### [Manuals](https://manual.grid.tf/)
+###### [Learn](https://manual.grid.tf/)
 
-###### [Buy the Token](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html)
+###### [Host (Farm)](/host)
 
-###### [Start Farming](https://manual.grid.tf/farmers/farmers.html)
+###### [Dashboard](https://dashboard.grid.tf/)
 
-###### [Deploy on the Playground](https://playground.grid.tf/)
+###### [Download TF Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
 
-###### [ThreeFold Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
-
-###### [ThreeFold Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
-
-###### [Governance](https://library.threefold.me/info/threefold#/threefold__governance)
+###### [Download TF Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
 
 |||
 
@@ -36,13 +32,13 @@ extra:
 
 ###### [Main Chat](https://t.me/threefold)
 
-###### [Farming Chat](https://t.me/threefoldfarmers)
+###### [Hosting / Farming Chat](https://t.me/threefoldfarmers)
 
 ###### [Grid User Chat](https://t.me/threefoldtesting)
 
 ###### [Forum](https://forum.threefold.io/)
 
-<h6><a target="_self" onclick="window.location.href='/support'">Support</a></h6>
+###### [Support](https://threefoldfaq.crisp.help/en/)
 
 |||
 
@@ -50,19 +46,14 @@ extra:
 
 <br>
 
-<h6><a target="_self" onclick="window.location.href='/mission'">Mission</a></h6>
-
-<h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
-
-<h6><a target="_self" onclick="window.location.href='/partners'">Partners</a></h6>
-
-<h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
-
-<h6><a target="_self" onclick="window.location.href='/careers'">Careers</a></h6>
-
-<h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
+<h6><a target="_self" onclick="window.location.href='/about'">About</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/newsroom'">NewsRoom</a></h6>
 
+<h6><a target="_self" onclick="window.location.href='/people'">People</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/utilization'">Partners</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
 {% end %}

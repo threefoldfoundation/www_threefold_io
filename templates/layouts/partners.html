@@ -10,7 +10,7 @@ and a side nav for category and featured post navigation
     <!--sets global featured variable as the most recent post with the isFeatured tag-->
     {%- set section = get_section(path="partners/_index.md") %}
     {% include "partials/intro.html" %}
-    <div class="flex flex-row container mx-auto my-10">
+    <div class="flex flex-col md:flex-row container mx-auto my-8">
         {% include "partials/partnersCards.html" %}
         {% include "partials/partnersSidebar.html" %}
     </div>

@@ -4,13 +4,13 @@ weight: 3
 description: Passionate, Outgoing and Enthusiast 
 taxonomies:
     people: [bernadette_amanda_caster]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: bernadette_amanda_caster.jpg
     organizations: [threefold_tech]
-    countries: []
-    cities: []
+    countries: [India]
+    cities: [Bangalore, Chennai]
     private: 0
     socialLinks: {
         LinkedIn: https://www.linkedin.com/in/bernadette-caster-7a11a4b4/,

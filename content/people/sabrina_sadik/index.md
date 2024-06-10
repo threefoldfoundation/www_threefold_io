@@ -4,10 +4,10 @@ weight: 2
 description: Sabrina is a jack of all trades when it comes to ThreeFold.
 taxonomies:
     people: [sabrina_sadik]
-    memberships: [foundation, tech, grid_guardians]
-    categories: [foundation, farming]
+    memberships: [team]
+    categories: [foundation]
 extra:
-    imgPath: sabrina_sadik.jpg
+    imgPath: sabrina_sadik.jpeg
     organizations: [threefold_foundation, threefold_tech]
     countries: [Belgium]
     cities: [Lochristi]
@@ -19,4 +19,4 @@ extra:
     }
 ---
 
-Sabrina is a jack of all trades when it comes to ThreeFold. She handles most of the customer communication, is in charge of the logistic aspects and helps out wherever needed. Sabrina is an outgoing person who loves to laugh and be with friends and family, but she's secretly also a bit of a nerd who loves the calmness of being alone and reading a book while her daughter is asleep.
+Sabrina is the go-to person at ThreeFold for making sure everything runs like clockwork. As the Internal and Grid Operations Lead, she's all about keeping things smooth behind the scenes. With a passion for equality, Sabrina plays a key role in bringing ThreeFold's vision of an accessible internet and reduced digital footprint to life.

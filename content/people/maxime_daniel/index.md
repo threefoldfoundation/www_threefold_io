@@ -4,7 +4,7 @@ weight: 2
 description: C, python and nodejs developer, Gentoo user, Linux and Music addict
 taxonomies:
     people: [maxime_daniel]
-    memberships: [foundation, tech, technology_council]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: maxime_daniel.png

@@ -1,14 +1,14 @@
 
 <div class="mx-8 md:mx-4 flex flex-col">
-    <div class="flex flex-col mb-12 mr-8 lg:mr-24">
-        <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-6"> FILTER POSTS BY</h4>
-        <a id="all" class="mb-3 text-black font-normal" href="/blog">All</a>
+    <div class="flex flex-col mb-12">
+        <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-4"> FILTER POSTS BY</h4>
+        <a id="all" class="mb-2 text-black font-normal" href="/blog">All</a>
         {% set taxonomy = get_taxonomy(kind="categories") %}
         {% set categories = taxonomy.items %}
         {% for category in categories %}
             {% set path = category.name | slugify %}
             {% set fullpath = "/categories/" ~ path %}
-            <a id="{{path}}" class="mb-3 text-black font-normal" href={{fullpath}}> {{category.name}} </a>
+            <a id="{{path}}" class="mb-2 text-black font-normal" href={{fullpath}}> {{category.name}} </a>
         {% endfor %}
     </div>
 

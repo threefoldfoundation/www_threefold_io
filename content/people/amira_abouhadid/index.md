@@ -4,7 +4,7 @@ weight: 4
 description: Msc. Computer & Information Technology , Bsc. Chemical Engineering.
 taxonomies:
     people: [amira_abouhadid]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: amira_abouhadid.jpg

@@ -14,6 +14,8 @@ extra:
 
 ## How would Decentralisation of the Internet help India?
 
+*"This article was originally published by Ashish Bansal, a former member of ThreeFold Foundation."*
+
 *Ashish Bansal has been a member of the ThreeFold support team since October 2021. He was born in India. Ashish believes that we all deserve a better internet which is free, decentralized and equal for all.*
 
 <br>

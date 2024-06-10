@@ -1,9 +1,9 @@
 # The URL the site will be built for
-base_url = "https://www2.threefold.io"
+base_url = "https://dev.threefold.io"
 # Change this to your own URL! Please note this variable **must** be uncommented .
 
 title = "ThreeFold"
-description="Our global digital backbone"
+description = "Our global digital backbone"
 
 # When set to "true", a feed is automatically generated.
 generate_feed = true
@@ -95,7 +95,3 @@ paginate_path = "people/memberships"
 
 [extra]
 # Put all your custom variables here
-
-
-
-

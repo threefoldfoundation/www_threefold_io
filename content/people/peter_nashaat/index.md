@@ -4,7 +4,7 @@ weight: 4
 description: Passionate DevOps Engineer
 taxonomies:
     people: [peter_nashaat]
-    memberships: [tech]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: peter_nashaat.jpg

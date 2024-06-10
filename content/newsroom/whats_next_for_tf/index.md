@@ -10,6 +10,7 @@ taxonomies:
     news-category: [foundation]
 extra:
     imgPath: whats_next_for_tf.png
+    isFeatured: true
 ---
 
 After more than five years of building and expanding the open-source ThreeFold Grid, it’s time to go commercial. Read about [what's next](https://threefold.io/next/).

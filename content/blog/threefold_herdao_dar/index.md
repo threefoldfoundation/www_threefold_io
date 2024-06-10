@@ -1,89 +1,43 @@
 ---
 id: threefold_herdao_dar
-title: ThreeFold X H.E.R. DAO – Cultivating Digital Sovereignty and Inclusive Innovation in Dar Es Salaam
+title: "Embracing Diversity and Inclusion: A Commitment to a More Inclusive Tech Industry"
 image_caption: ThreeFold x H.E.R. DAO
-description: Learn about a developer meetup we co-hosted this week in Dar Es Salaam, and what's upcopming for Dunia Yetu.
+description: ThreeFold and H.E.R DAO joined forces to host a meetup in Dar Es Salaam, attracting over 50 students, developers, and tech enthusiasts.
 date: 2024-02-08
 taxonomies:
     people: [sam_taggart]
     tags: [peer_to_peer,event]
     categories: [foundation]
 extra:
-    imgPath: threefold_herdao_dar.png
+    imgPath: diversitytf.png
 ---
 
-This Monday, ThreeFold, in collaboration with [H.E.R DAO](https://www.her-dao.xyz/), orchestrated a meetup in Dar Es Salaam that brought together a group of more than 50 students, developers, and members of the tech community. The gathering unfolded as a platform for insights, discussions, and actionable steps aimed at fostering digital sovereignty and inclusive innovation in Tanzania.
-
-### **Interactive Workshop and Technical Demos | Deploying a Sovereign Internet Infrastructure**
-
-Kristof De Spiegeleer, co-founder of ThreeFold, shared key insights into deploying a sovereign Internet in Tanzania. He highlighted the necessity of such an infrastructure and outlined actionable steps for the community on how to connect capacity and build on top of this transformative Internet platform.
+In today's rapidly evolving technological landscape, diversity and inclusion are not just buzzwords; they are essential components for driving innovation and progress. As the tech and IT sectors continue to shape the future, it's crucial to recognize the importance of fostering diverse perspectives and creating inclusive environments where everyone feels valued and empowered to contribute.
 
 <br>
 
-![Kristof](./kristof_dar.png)
+At ThreeFold, we are deeply committed to promoting diversity and inclusion within our ecosystem and beyond. We believe that diversity fuels creativity and innovation, bringing us closer to our goal of building a more sustainable and equitable digital future for all. By embracing individuals from diverse backgrounds, cultures, and experiences, we enrich our community and empower voices that might otherwise go unheard.
 
 <br>
 
-Kristof also presented how this vision will be brought to life in Tanzania through the Dunia Yetu initiative - A collaborative movement led by ThreeFold, in partnership with the Tanzanian ICT Commission, Holochain, and the Dar Es Salaam tech community, to reshape the digital landscape in Tanzania and East Africa.
+### ThreeFold x H.E.R DAO
 
-### **Hands-On Demos**
-
-Interested developers and tech-advanced attendees were treated to practical demonstrations of how to connect hardware to a sovereign Internet infrastructure, led by some members of the community and supported by Kristof.
-
-<br>
-
-The session continued with a demonstration of the deployment process for this Internet framework, enabling them to learn and better understand the process, while being able to discuss and ask questions. Some of the attendees were then onboarded with the manual and invited to join our various communication channels for support, as needed.
-
-### **Empowering Diversity and Inclusivity with H.E.R. DAO, “If We Want The Future To Look Like Us, WE Have To Build It.”**
-
-Tracey Bowen (founder) introduced H.E.R. DAO, a dynamic developer DAO with a strong commitment to championing diversity and inclusion in Web3. H.E.R. DAO focuses on increasing diversity in the blockchain ecosystem, especially empowering women that are not represented enough in the field. H.E.R. DAO's objective is to increase diversity in the blockchain ecosystem through hackathons, bootcamps, conferences, and grant programs.
+On Monday, ThreeFold and [H.E.R DAO](https://www.her-dao.xyz/), a women-centered developer DAO with a focus on inclusivity, joined forces to host a meetup in Dar Es Salaam, attracting over 50 students, developers, and tech enthusiasts. 
+Read more about the [event](https://www.threefold.io/newsroom/tfherdaorecap/). 
 
 <br>
 
-Tracey also showcased how attendees could connect with the DAO's offerings, benefit from their educational resources (free online courses, scholarships, etc.) and contribute to the mission of fostering diversity and innovation while building products that generate revenue while enhancing equity for everyone.
+H.E.R DAO has already established a presence in East Africa, aiming to diversify the blockchain ecosystem and uplift marginalized communities through initiatives like Hackathons and conferences. Their mission focuses on fostering WEB 3 adoption and empowering individuals across the continent. Discover [more](https://www.her-dao.xyz/subchapters)
 
 <br>
 
-We're looking forward to collaborating more with Tracey and H.E.R. DAO. In the meantime if you'd like to learn more, you can find info on H.E.R. DAO here : [her-dao.xyz](https://www.her-dao.xyz)
-
-### **Building Momentum, Building Community**
-
-The event drew an excited crowd, including members of the tech community, developers and curious students eager to contribute to the envisioned sovereign digital future in Tanzania.
+This collaboration sent a powerful message that diversity is not just a goal to strive for but a necessity for driving meaningful change in the tech industry. Together, we laid the groundwork for future collaborations and initiatives that will continue to champion diversity, inclusion, and empowerment in the digital space in Tanzania. 
 
 <br>
 
-It enabled participants to network, share ideas, get answers to their many questions and immerse themselves in the project's vision. This community spirit reflected the overall theme of the meeting, highlighting the power of collaborative efforts to shape a new digital landscape for Dar Es Salaam and the wider Tanzania.
+Moreover, our commitment to diversity and inclusion extends beyond partnerships; it is embedded in our initiatives like Dunia Yetu. Through Dunia Yetu, we aim to empower women and youth in Tanzania by providing access to education, opportunities, and resources in the tech sector. By fostering diversity and inclusion in Tanzania's digital ecosystem, we can unlock the untapped potential of women and youth, driving economic growth and innovation.
 
 <br>
 
-![Tracey and Kristof](./tracey_kristof_dar.png)
-
-<br>
-
-The community's interest continues to grow stronger and stronger – 200 members already in [our Whatsapp community group](https://chat.whatsapp.com/DAedmvshxCD850WjJ3mUn8) – and we look forward to collaborating to make this vision a reality.
-
-<br>
-
-Overall, The ThreeFold X H.E.R. DAO meetup was a convergence of minds, ideas, and actions, marking the next step towards cultivating a digital ecosystem that is not only future-facing but also inclusive and accessible. The commitment to building a better sovereign future in Tanzania echoed throughout, setting the stage for collaborative initiatives that will drive positive change in the region.
-
-### **Next Steps**
-
-The team is working to grow Dunia Yetu by expanding the community involvement in the project. This involves creating a robust online presence, organizing further interactive workshops and events, and better defining community roles.
-
-<br>
-
-Tangible next steps include:
-
-<br>
-
-- Launching Dunia Yetu web presence
-- Better defining participation opportunities and gathering interest / feedback from the community
-- Deploying 100 nodes in Dar es Salaam
-- Inviting and empowering developers to deploy on top of this local infrastructure
-- Gathering a Coding Academy team
-- Creating a curriculum for workshops, training sessions, and educational programs as part of the Coding Academy
-- Establishing the first six innovation hubs across Tanzania with the ICT Commission
-
-<br>
-
-*Stay tuned for next steps and events! We will communicate further in the coming weeks on how the community can begin to take action.*
+Each step forward brings us closer to realizing our vision of a more inclusive and equitable technology industry, where everyone has the opportunity to thrive, regardless of background or identity. 
+Discover our [Dunia Yetu initiative](https://www.threefold.io/newsroom/duniayetulaunchdar/)  and follow our latest developments. 

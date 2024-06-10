@@ -4,7 +4,7 @@ weight: 1
 description: I am an optimist and love doing things differently than the norm.
 taxonomies:
     people: [owen_kemp]
-    memberships: [tech, cofounders, wisdom_council, foundation]
+    memberships: [team]
     categories: [foundation]
 extra:
     imgPath: owen_kemp.jpeg
@@ -18,13 +18,9 @@ extra:
     }
 ---
 
-<BR>
-<div class="aspect-w-16 aspect-h-9">
-<iframe src="https://player.vimeo.com/video/413145439" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-<BR>
 
-## Why Threefold?
+
+### Why Threefold?
 
 I believe in decentralisation and democracy in our digital lives.
 

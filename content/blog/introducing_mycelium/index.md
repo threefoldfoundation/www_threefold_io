@@ -1,6 +1,6 @@
 ---
 id: introducing_mycelium
-title: "Introducing Mycelium"
+title: "Introducing Mycelium: A Platform for Conscious Decentralization"
 image_caption: Introducing Mycelium
 description: ThreeFold is implementing a planetary network, aiming to allow efficient, end-to-end encrypted communication with other participants on the network.
 date: 2023-09-19
@@ -9,7 +9,7 @@ taxonomies:
     tags: [technology, grid, peer_to_peer]
     categories: [foundation]
 extra:
-    imgPath: introducing_mycelium.png
+    imgPath: mycelium.png
 ---
 
 *Lee is working on a very exciting new project called Mycelium, our own Ipv6 overlay network. Thanks to him for taking the time to create this short write-up on what it is and why it is needed.*

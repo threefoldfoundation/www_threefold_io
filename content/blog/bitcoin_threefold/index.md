@@ -56,4 +56,4 @@ But what differentiates ThreeFold the most from the crowd is that it’s a proje
 
 <br/>
 
-Stake your claim in the decentralized Internet by [hosting the Internet](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) or [getting TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html) today.
+Stake your claim in the decentralized Internet by [hosting the Internet](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) or [getting TFT](https://www.manual.grid.tf/documentation/threefold_token/buy_sell_tft/tft_lobstr/tft_lobstr_short_guide.html) today.

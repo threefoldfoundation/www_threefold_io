@@ -12,7 +12,11 @@ extra:
     imgPath: farmerbotupdaterecommended.png
 ---
 
+<<<<<<< HEAD
 After much testing, we are recommending all farmers using farmerbot to update to the new and improved version. You can find comprehensive instructions [here](https://www.manual.grid.tf/farmers/farmerbot/farmerbot_intro.html) in the manual.
+=======
+After much testing, we are recommending all farmers using farmerbot to update to the new and improved version. You can find comprehensive instructions [here](https://www.manual.grid.tf/documentation/farmers/farmerbot/farmerbot_intro.html) in the manual.
+>>>>>>> 6dca5fcee8852eff3ce5475732c8a34c8b97bebd
 
 <br/>
 
