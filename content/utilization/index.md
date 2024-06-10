@@ -11,15 +11,9 @@ insert_anchor_links: "left"
 
 {% row(style="header reverse") %}
 
-
-
-
-
-# **Utilization & Ecosystem**
-
 ### **<span class="blue">The First Experiences</span>**
 
-
+# **Utilization & Ecosystem**
 
 ThreeFold's decentralized autonomous cloud is in its third generation and ready to go commercial. It will empower many projects and digital experiences as we
 grow.
@@ -40,7 +34,7 @@ grow.
 
 ### **<span class="blue">Core Partners</span>**
 
-## **Building with ThreeFold in 2024**
+## **Building with ThreeFold**
 
 <br>
 

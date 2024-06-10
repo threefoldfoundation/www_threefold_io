@@ -13,14 +13,13 @@ extra:
 
 {% row(style="header reverse") %} 
 
-<h1 class="leading-none font-semibold"> All Transactions Use One Token: <span class="blue">TFT</span></h1>
+### <span class="blue">**The Medium of Exchange**</span>
 
-#### <span class="blue">No Intermediaries</span>
+<h1 class="leading-none font-semibold"> All Transactions Use One Token: <span class="blue">TFT</span></h1>
 
 <br>
 
-Whether you are hosting the cloud or deploying solutions on the Grid you will earn or use TFT. 
-
+Whether you are hosting the cloud or deploying solutions on the Grid, you will earn or use TFT. Peer-to-peer transactions, no intermediaries.
 
 <br>
 

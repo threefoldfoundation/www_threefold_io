@@ -17,11 +17,11 @@ extra:
 
 |||
 
-### **<span class="blue">Build Your Own Digital Experiences</span>**
+### **<span class="blue">Deploy On The Grid</span>**
 
-## **Deploy On The Grid**
+## **Build <span class="blue">Your Own</span> Digital Experiences**
 
-ThreeFold has developed extensive technology and tools for <span class="blue">developers</span> and system <span class="blue">administrators.</span>
+ThreeFold has developed extensive technology and tools for <span class="blue">developers</span> and <span class="blue">system administrators.</span>
 
 <br>
 
@@ -212,7 +212,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 
 ## **Ready Community Applications**
 
-#### **Easily <span class="blue">deploy</span> your favourite applications on the ThreeFold Grid with a <span class="blue">click of a button</span>**
+#### **Easily <span class="blue">deploy</span> your favorite applications on the ThreeFold Grid with a <span class="blue">click of a button</span>**
 
 <br>
 

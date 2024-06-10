@@ -17,18 +17,15 @@ extra:
 
 |||
 
-## Founded by <span class="blue">**Internet 1.0 Pioneers**</span>
+### **<span class="blue">Meet the Project</span>**
 
-<br>
+## Founded by <span class="blue">**Internet 1.0 Pioneers**</span>
 
 About a decade ago, a group of passionate Internet & cloud veterans came together to build a system which can grow to a scalable, safe, compatible, and co-owned IT infrastructure.
 
 {% end %}
 
 </div>
-
-
-
 
 <!-- section 2 our Story  -->
 
@@ -279,7 +276,7 @@ Market Cap
 
 **FLORIAN FOURNIER** <br>
 
-<p class="blue text-base font-semibold">Co-Founder & Ecosystem Developer</p>
+<p class="blue text-base font-semibold">Ecosystem Developer</p>
 
 <p class="text-base leading-tight">Experienced social entrepreneur and marketing executive with extensive network in the US and Latam. Spearheaded all marketing at Apple in Latam.</p>
 

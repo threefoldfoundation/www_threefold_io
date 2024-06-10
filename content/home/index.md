@@ -17,13 +17,9 @@ extra:
 {% row(style="reverse header") %}
 
 
-## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
+## **<span class="blue">Decentralized</span><br><span class="green_text">Autonomous</span> Cloud**
 
-#### **The <span class="blue">Leading</span> Decentralized Cloud Marketplace**
-
-<br>
-
-ThreeFold’s self-healing autonomous system empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy, sell and use cloud resources autonomously and securely.
+ThreeFold empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy, sell, and use cloud resources autonomously and securely.
 
 <br>
 

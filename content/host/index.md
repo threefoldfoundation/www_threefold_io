@@ -14,9 +14,11 @@ insert_anchor_links: "left"
 
 |||
 
-## **Host <span class="blue">The Cloud,</span><br>Empower Human Potential**
+### **<span class="blue">Host the Cloud</span>**
 
-Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions. We call this process <span class="blue">**farming**</span>.
+## **Host The Cloud,<br><span class="blue">Empower</span> Human Potential**
+
+Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions. We call this process <span class="blue">farming</span>.
 
 <br>
 
