@@ -17,7 +17,7 @@ extra:
 
 |||
 
-### **<span class="blue">Meet the Project</span>**
+### **<span class="green">Meet the Project</span>**
 
 ## Founded by <span class="blue">**Internet 1.0 Pioneers**</span>
 

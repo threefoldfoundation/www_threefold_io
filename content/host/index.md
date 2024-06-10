@@ -14,9 +14,9 @@ insert_anchor_links: "left"
 
 |||
 
-### **<span class="blue">Host the Cloud</span>**
+### **<span class="green">Host the Cloud</span>**
 
-## **Host The Cloud,<br><span class="blue">Empower</span> Human Potential**
+## **<span class="blue">Empower</span> Human Potential**
 
 Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions. We call this process <span class="blue">farming</span>.
 

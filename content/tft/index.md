@@ -13,7 +13,7 @@ extra:
 
 {% row(style="header reverse") %} 
 
-### <span class="blue">**The Medium of Exchange**</span>
+### <span class="green">**The Medium of Exchange**</span>
 
 <h1 class="leading-none font-semibold"> All Transactions Use One Token: <span class="blue">TFT</span></h1>
 

@@ -16,7 +16,6 @@ extra:
 
 {% row(style="reverse header") %}
 
-
 ## **<span class="blue">Decentralized</span><br><span class="green_text">Autonomous</span> Cloud**
 
 ThreeFold empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy, sell, and use cloud resources autonomously and securely.
