@@ -16,18 +16,19 @@ extra:
 
 {% row(style="reverse header") %}
 
-# **ThreeFold**
-## **Decentralized<br>Autonomous <span class="blue">Cloud</span>**
+## **<span class="blue">Decentralized</span><br><span class="green_text">Autonomous</span> Cloud**
 
-ThreeFold’s self-healing autonomous system empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy, sell and use cloud resources autonomously and securely.
-
-<br>
-
-<span class="blue">**Together we are creating a cloud for everyone, owned by everyone.**</span>
+ThreeFold empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy, sell, and use cloud resources autonomously and securely.
 
 <br>
 
-<button>[Host](/host)</button> <button>[Deploy](https://dashboard.grid.tf)</button> <button>[Learn](https://manual.grid.tf)</button>
+Together we are creating a cloud for everyone, owned by everyone.
+
+<br>
+
+<button class="blue_b">[Host The Cloud](/host)</button> <button class="green">[Deploy](https://dashboard.grid.tf)</button> 
+
+<!-- <button>[Learn](https://manual.grid.tf)</button> -->
 
 |||
 
@@ -35,12 +36,26 @@ ThreeFold’s self-healing autonomous system empowers anyone to become a cloud s
 
 {% end %}
 
+</div>
 
-<!-- section 2 (Map) -->
+
+
+<!-- section 2 (logos) -->
+
+{% logo_slider() %}
+
+## **logo**
+
+{% end %}
+
+
+
+<!-- section 3 (Map) -->
+<div class="container mx-auto">
 
 {% grid_stats() %}
 
-### Become a cloud & Internet service provider on
+### **Become a cloud & Internet service provider on**
 
 ## **The ThreeFold Grid**
 
@@ -49,103 +64,152 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 {% end %}
 
 
-<!-- section 3 (3Node) -->
 
+
+<!-- section 4 (Host2 Earn) -->
 
 {% row(style="reverse margin") %}
 
-## **It Starts with <span class="blue">3Nodes</span>**
+<h1 class="big_header">Host2<span class="blue">Earn</span></h1>
 
-**<span class="blue">3Nodes</span>**, powered by our stateless operating system, Zero-OS, allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud. Pre-configured plug and earn 3Nodes for beginners, or do it yourself 3Nodes for builders
+<br>
 
-<button>[Get Started](/host)</button>
+#### **It starts with <span class="green_text">Nodes</span>**
 
-|||
+<br>
 
-![Image](node_home.png#mx-auto)
+3Nodes allow anyone to earn by providing compute, storage, and network capacity to the ThreeFold Cloud: pre-configured plug-and-earn nodes for beginners, or do-it-yourself nodes for builders. 
 
-{% end %}
+<br>
 
+Earn TFT by adding capacity to the grid.
 
-<!-- section 4 (Partners) -->
+<br>
 
-{% row( style="center between mtop") %}
-
-## **Our Partners**
-
-### Driving utilization on top of our decentralized autonomous cloud
-
-{% end %}
-
-{% row( style="center between") %}
-
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
-
-[![](social_network.png#mx-auto)](/partners/social-network)
-
-</div>
+<button class="green">[Host The Cloud](/host)</button>
+<button class="blue_b">[Explore Rewards](https://manual.grid.tf/knowledge_base/farming/farming_reward.html)</button>
 
 |||
 
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+![Image](host2_earn.png#mx-auto)
 
-[![](ourworld.png#mx-auto)](/partners/our-world-free-zone)
+{% end %}
+
+</div>
+
+
+
+<!-- section 5 (Partners) -->
+<div style="background-color:#F6F6F6">
+<div class="container mx-auto">
+
+{% row(style="margin") %}
+
+![Image](power_ecosystem.png#mx-auto)
+
+|||
+
+
+# **TFT**
+
+### **<span class="green_text">Used For Every Transaction</span>**
+
+## **Powering Our Ecosystem**
+
+TFT powers ThreeFold and the expansion of a truly decentralized infrastructure that can scale any current or future technologies to the edge.
+
+<br>
+
+<button class="green">[Learn More](https://manual.grid.tf/documentation/threefold_token/threefold_token.html)</button>
+<button class="blue_b">[TFT Market Price](https://www.coinbase.com/en-gb/price/threefold)</button>
+
+{% end %}
+
+</div>
+</div>
+
+
+
+
+<!-- section extra (Deploy) -->
+
+<div class="container mx-auto">
+
+
+{% row( style="center mtop semiNarrow") %}
+
+#### What’s Possible With ThreeFold
+
+<br>
+
+## **<span class="blue">Deploy</span> On The Grid**
+
+{% end %}
+
+{% row( style="center semiNarrow") %}
+
+<div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
+
+
+Anything that runs on Linux can run on the ThreeFold grid
 
 </div>
 
 |||
 
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
-
-[![](ict.png#mx-auto)](/partners/tanzania-sovereign-internet)
-
-</div>
-
-{% end %}
+<div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
 
 
-{% row( style="mbottom center between") %}
-
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
-
-[![](sikana.png#mx-auto)](/partners/sikana)
+Virtual machines & gateways for easy deploying
 
 </div>
 
 |||
 
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+<div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
 
-[![](vevrse.png#mx-auto)](/partners/veverse)
+
+Use our one-click solutions or build your own
 
 </div>
 
 |||
 
-<div class="shadow-md rounded-md p-2 lg:p-4 my-0 lg:my-4">
+<div class="flex justify-center items-center card_h rounded_img border-2 rounded-lg px-3 py-2 bg-gray-100">
 
-[![](vverse.png#mx-auto)](/partners/vverse)
+
+Flexible advanced deployment options for experienced users
 
 </div>
 
 {% end %}
 
+{% row( style="center mbottom semiNarrow") %}
 
-{% row( style="center between") %}
-
-<button>[View Partners](/partners)</button>
+<button class="green">[Deploy Now](https://dashboard.grid.tf)</button>
+<button class="blue_b">[Dive Deeper](/deploy)</button>
 
 {% end %}
 
-<!-- section 5 (ecentralized) -->
+</div>
+
+
+
+
+<!-- section 6 (ecentralized) -->
+
+<div style="background-color:#F6F6F6">
+<div class="container mx-auto">
 
 {% row( style="mtop center between ") %}
 
 ## **Why Decentralized Cloud**
 
-### How bringing data closer to the end user is beneficial for everyone
+#### <span class="blue">How bringing data closer to the end user is beneficial for everyone</span>
 
 {% end %}
+
+<br>
 
 {% row( style="center semiNarrow") %}
 
@@ -153,7 +217,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <br>
 
-### **Latency Reduction**
+#### **Latency Reduction**
 
 For real-time apps, central cloud delay is prohibitive. Edge Cloud cuts latency locally.
 
@@ -163,7 +227,7 @@ For real-time apps, central cloud delay is prohibitive. Edge Cloud cuts latency 
 
 <br>
 
-### **Privacy & Security**
+#### **Privacy & Security**
 
 By processing data locally, edge cloud reduces the exposure to data breaches and cyberattacks.
 
@@ -173,19 +237,19 @@ By processing data locally, edge cloud reduces the exposure to data breaches and
 
 <br>
 
-### **Data Sovereignity**
+#### **Data Sovereignity**
 
 Empowers emerging markets with local data storage, granting digital sovereignty and autonomy.
 
 {% end %}
 
-{% row( style="center semiNarrow") %}
+{% row( style="mbottom center semiNarrow") %}
 
 ![Image](performance.png#tft_img#mx-auto)
 
 <br>
 
-### **Performance**
+#### **Performance**
 
 Provides optimized bandwidth, reliability, and real-time processing which streamlines operations.
 
@@ -195,7 +259,7 @@ Provides optimized bandwidth, reliability, and real-time processing which stream
 
 <br>
 
-### **Cost Efficiency**
+#### **Cost Efficiency**
 
 Minimizes data transmission over networks, cutting costs and reducing central server demand.
 
@@ -205,41 +269,130 @@ Minimizes data transmission over networks, cutting costs and reducing central se
 
 <br>
 
-### **Scalability**
+#### **Scalability**
 
 As devices multiply, central data centers face data overload. Edge cloud distributes processing and boosts scalability.
 
 {% end %}
 
+</div>
+</div>
 
 
-<!-- section 6 (Ecosystem) -->
 
+<!-- section 7 (Ecosystem) -->
 
-{% row( style="center between mtop") %}
+<div class="container mx-auto">
 
-## **Around the Ecosystem**
+{% row( style="center mtop narrow") %}
 
-### News & Happenings
+## **Ecosystem**
+
+### <span class="blue">**Utilization Partners**</span>
+
+ThreeFold’s decentralized autonomous cloud will empower many projects and digital experiences as we grow. Here are some of the first projects to come alive.
 
 {% end %}
 
-{% row( style="center between") %}
+{% row( style="semiNarrow") %}
 
-[![Image](dunia_yetu.png)](/blog/dunia-yetu)
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_social.png)](/partners/social-network/)
+
+
+<div class="p-6 lg:p-3 mycard">
+
+#### **Social Network**
+
+
+Earth Staking’s Social Network is the first Bitcoin Staking Layer 2 on Earth, collaborating with ThreeFold to improve security, scalability, and energy-efficiency.
+        
+
+</div>
+</div>
+
+|||
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_ourworld.png)](/partners/our-world-free-zone/)
+
+
+
+<div class="p-6 lg:p-3 mycard">
+
+#### **Our World Free Zone**
+
+
+ThreeFold is working with ZICTIA, on behalf of the Zanzibar government, to create the world’s first 100% Digital Free Zone – accessible and affordable for all.
+        
+
+</div>
+</div>
+
+|||
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_sikana.png)](/partners/sikana/)
+
+<div class="p-6 lg:p-3 mycard">
+
+#### **Sikana**
+
+
+Sikana is on a mission to empower individuals with practical skills through free educational videos – local content in local languages on top of local infrastructure.
+        
+
+</div>
+</div>
+
+{% end %}
 
 <br>
 
-#### **A Sovereign Internet in Tanzania**
+{% row( style="center") %}
+
+<button class="blue_b">[Learn More](/partners)</button>
+
+{% end %}
+
+
+<br>
+
+</div>
+
+
+
+
+<!-- section 8 (news) -->
+<div style="background-color:#F6F6F6">
+<div class="container mx-auto">
+
+{% row( style="mtop semiNarrow") %}
+
+## **Latest News**
+
+{% end %}
+
+{% row( style="mbottom semiNarrow") %}
+
+[![Image](latest1.png)](/blog/dunia-yetu)
+
+<br>
+
+##### **A Sovereign Internet in Tanzania**
 
 Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania.
 
 |||
 
-[![Image](threefold_cooperative.png)](/blog/threefold-cooperative)
+[![Image](latest2.png)](/blog/threefold-cooperative)
 
 <br>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <button>[Main Chat](https://t.me/threefold)</button>
 <button>[Our Forum](https://forum.threefold.io)</button>
@@ -247,46 +400,91 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 <button>[More Resources](/community)</button>
 =======
 #### **Cooperative Model is Coming**
+=======
+##### **A Cooperative Model is Coming**
+>>>>>>> development
 
 Cooperatives represent a well-tested form of collective organization and democratic governance.
 
+|||
+
+[![Image](latest4.png)](/blog/edge-computing/)
+
+<br>
+
+##### **Meeting Digital Demand at the Edge**
+
+Learn what edge computing means and what it offers compared to centralized cloud infrastructures.
+
 {% end %}
 
+</div>
+</div>
 
 
 
-<!-- section 7 (Join In) -->
+
+<!-- section 9 (Join In) -->
+<div class="container mx-auto">
 
 {% row(style="center mtop between") %}
 
 ## **Join In**
-
-### Connect & Collaborate: Let's Kickstart Your ThreeFold Journey 
+ 
 
 {% end %}
 
-{% row(style="center between") %}
 
-[![](join3.png)](https://manual.grid.tf)
 
-Dive Deeper into ThreeFold Technologies
+{% row(style="center semiNarrow") %}
+
+<div class="border rounded-md mb-4">
+
+[![](join3.png#icon)](https://manual.grid.tf)
+
+</div>
+
+Dive deeper into our technology
+
+
+
 
 |||
 
-[![](join2.png)](https://threefoldfaq.crisp.help/en/)
+<div class="border rounded-md mb-4">
+
+[![](join2.png#icon)](https://threefoldfaq.crisp.help/en/)
+
+</div>
+
+
 
 Get assistance from our support team
 
+
+
 |||
 
-[![](join1.png)](https://t.me/threefold)
+<div class="border rounded-md mb-4">
 
-Meet the community and join the conversation
+[![](join1.png#icon)](https://t.me/threefold)
 
+</div>
+
+Participate in the conversation
 
 {% end %}
 
-
->>>>>>> 6dca5fcee8852eff3ce5475732c8a34c8b97bebd
-
  </div>
+
+<style>
+
+.card_h{
+  height: 110px !important;
+}
+
+ 
+.rounded_img img {
+  border-radius: 8px;
+}
+  </style>

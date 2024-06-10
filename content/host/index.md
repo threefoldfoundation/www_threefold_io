@@ -10,64 +10,69 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](header_host.png#mx-auto)
+![Image](hero_host3.png#semilarge#mx-auto)
 
 |||
 
-## **Host <span class="blue">The Cloud,</span><br>Empower Human Potential**
+### **<span class="green">Host the Cloud</span>**
 
-Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions. We call this process <span class="blue">**farming**</span>.
+## **<span class="blue">Empower</span> Human Potential**
+
+Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions. We call this process <span class="blue">farming</span>.
+
+<br>
+
+<button class="blue_b">[Get A Node](https://manual.grid.tf/documentation/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
 
 {% end %}
 
-</div>
+
 
 
 
 <!-- section 2 -->
 
-<div class="bg-gray-100">
-
-<div class="container mx-auto">
-
 {% row(style="center narrow mtop") %}
 
 ## How It Works
 
-Three simple steps enabling anyone to become a cloud service provider.
+#### <span class="blue">Three simple steps</span> enabling anyone to become a cloud service provider.
 
 {% end %}
 
 {% row(style="center between") %}
 
-![Image](step1.png#mx-auto)
+<div class="shadow-md rounded-md my-8">
 
-#### Step 1
-### Host a Node
+![Image](host_node.png#mx-auto)
 
-<br>
+</div>
+
+### **Host a Node**
 
 All you need to get started is a modern computer, electricity and network. Once booted with Zero OS, a computer becomes a ThreeFold Node.
 
 |||
 
-![Image](step2.png#mx-auto)
+<div class="shadow-md rounded-md my-8">
 
-#### Step 2
-### Offer Capacity
+![Image](offer_capacity.png#mx-auto)
 
-<br>
+</div>
+
+### **Offer Capacity**
 
 The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized autonomous cloud for users and communities.
 
 |||
 
-![Image](step3.png#mx-auto)
+<div class="shadow-md rounded-md my-8">
 
-#### Step 3
-### Earn Rewards
+![Image](earn_rewards.png#mx-auto)
 
-<br>
+</div>
+
+### **Earn Rewards**
 
 After your node is set up and verified, you’ll be rewarded for the capacity that you provide to the ThreeFold Grid.
 
@@ -75,24 +80,24 @@ After your node is set up and verified, you’ll be rewarded for the capacity th
 
 {% row(style="center between mbottom") %}
 
-<button>[Dive Deeper](https://www.manual.grid.tf/knowledge_base/technology/grid3_howitworks.html)</button>
+<button class="green">[Dive Deeper](https://www.manual.grid.tf/knowledge_base/technology/grid3_howitworks.html)</button>
 
 {% end %}
 
 </div>
-</div>
 
 
-
-<div class="container mx-auto">
 
 <!-- section 3 -->
+
+<div style="background-color:#F6F6F6">
+<div class="container mx-auto">
 
 {% row( style="center between mtop") %}
 
 ## **Kickstart Your Journey**
 
-### Documentation and Knowledge
+### **<span class="blue"> Documentation and Knowledge</span>**
 
 You can become a cloud service provider and bring local capacity <br> to where people need it most while earning for your contributions.
 
@@ -100,25 +105,35 @@ You can become a cloud service provider and bring local capacity <br> to where p
 
 <br>
 
-{% row( style="centerItem center semiNarrow mbottom") %}
+{% row( style="centerItem center narrow mbottom") %}
 
 [![Image](get_a_node.png#mx-auto)](https://marketplace.3node.global/)
 
 <br>
 
-#### **Get a Node**
+<div class="text-left">
 
-Today, the best way to buy a node is from independent vendors serving various geographical regions. Nodes are optimized for performance and rewards across different price points.
+#### **Buy a Node**
+
+The best way to buy a node is from independent vendors serving various regions. Nodes are optimized for performance and rewards across different price points.
 
 <br>
 
-<button>[Get](https://marketplace.3node.global/)</button>
+<span class="blue pt-4"> [Learn More](https://marketplace.3node.global/)</span>
+
+<br>
+
+<!-- <button class="blue_b">[Get](https://marketplace.3node.global/)</button> -->
+
+</div>
 
 |||
 
-[![Image](build_a_node.png#mx-auto)](https://www.manual.grid.tf/documentation/farmers/3node_building/3node_building.html)
+[![Image](build_node.png#mx-auto)](https://www.manual.grid.tf/documentation/farmers/3node_building/3node_building.html)
 
 <br>
+
+<div class="text-left">
 
 #### **Build a Node**
 
@@ -126,21 +141,33 @@ Read our informative guide on how to set up your own 3Node. Optimize your own sp
 
 <br>
 
-<button>[Build](https://www.manual.grid.tf/documentation/farmers/3node_building/3node_building.html)</button>
+<span class="blue pt-4"> [Learn More](https://www.manual.grid.tf/documentation/farmers/3node_building/3node_building.html)</span>
+
+<br>
+
+<!-- <button class="blue_b">[Build](https://www.manual.grid.tf/documentation/farmers/3node_building/3node_building.html)</button> -->
+
+</div>
 
 {% end %}
+
+</div>
+
+</div>
+
+
 
 
 
 
 <!-- section 4 -->
-
+<div class="container mx-auto">
 
 {% row(style="center narrow mtop") %}
 
-## The ThreeFold Dashboard
+## **The ThreeFold <span class="green_text">Dashboard</span>**
 
-The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and grid users. Create, update and monitor your nodes, estimate your potential earnings, explore and find available nodes on the grid, and much more.
+The ThreeFold Dashboard is today's <span class="blue">go-to-interface</span> for hosters (farmers) and grid users. Create, update and monitor your nodes, estimate your potential earnings, explore and find available nodes on the grid, and much more.
 
 {% end %}
 
@@ -150,13 +177,14 @@ The ThreeFold Dashboard is today's go-to-interface for hosters (farmers) and gri
 
 <br>
 
-<button>[Visit the Dashboard](https://dashboard.grid.tf/)</button>
+<button class="green">[Visit the Dashboard](https://dashboard.grid.tf/)</button>
+<button class="blue_b">[Dasboard walkthrough](https://dashboard.grid.tf/)</button>
 
 {% end %}
 
 <!-- section 5 -->
 
-{% row(style="margin") %}
+{% row(style="mtop") %}
 
 ![Image](people_planet_you.png#mx-auto)
 
@@ -177,3 +205,4 @@ By joining us on this cloud journey, you're not just investing in technology –
 {% end %}
 
 </div>
+
