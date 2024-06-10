@@ -392,17 +392,7 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 
 <br>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<button>[Main Chat](https://t.me/threefold)</button>
-<button>[Our Forum](https://forum.threefold.io)</button>
-<button>[Twitter](https://twitter.com/threefold_io)</button>
-<button>[More Resources](/community)</button>
-=======
-#### **Cooperative Model is Coming**
-=======
 ##### **A Cooperative Model is Coming**
->>>>>>> development
 
 Cooperatives represent a well-tested form of collective organization and democratic governance.
 
