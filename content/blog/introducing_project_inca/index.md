@@ -14,8 +14,6 @@ extra:
 
 ThreeFold’s journey over the past years has been one of deep, collaborative commitment, marked by significant technological advancements and milestones in building a new cloud infrastructure from the ground up, as well as the global expansion of the grid to its current state. Throughout this journey, we have learned, adapted, and evolved, and the past months in particular have led us to a strong strategy for the next chapter and achieving our truly global vision.
 
-<br/>
-
 ### **Meet Project Internet Capacity**
 
 We are thrilled to introduce Project Internet Capacity (INCA), a promising new extension of our mission. Building on years of dedicated work by team and community, Project INCA is the fourth generation of the ThreeFold Grid and introduces the INCA token (more on that below). Project INCA aims to be a Layer 0 for the DePIN ecosystem.
@@ -32,8 +30,6 @@ Project INCA is rooted in three major objectives:
 - **Reliability:** Achieving service levels that allow edge and AI workloads to run efficiently.
 - **Community:** Establishing scalable community and communication systems for vast communities at both the farming and user levels.
 
-<br/>
-
 ### **Mission and Vision**
 
 As an extension of ThreeFold, Project INCA promotes a decentralized, community-driven, and inclusive cloud network, providing secure, private, and autonomous access to computing resources for all. The technology ensures a resilient, censorship-resistant infrastructure that protects data integrity and privacy, fostering innovation, digital sovereignty, and a more equitable internet.
@@ -42,20 +38,14 @@ As an extension of ThreeFold, Project INCA promotes a decentralized, community-d
 
 The vision is to provide a cloud engine for a decentralized internet where users control their data and digital interactions. A global network of interconnected servers and nodes known as the grid, will democratize access to computing power and storage, forming the backbone of a new digital era of sovereignty, security, privacy, and inclusivity. The token supports a robust ecosystem, enabling the free exchange of internet capacity among cloud service providers, builders, and users on the grid.
 
-<br/>
-
 ### **What to look forward to with Project INCA?**
 
 Project INCA introduces several exciting features for farmers and users alike. Farmers can now set their own competitive prices within certain limits, enhancing their ability to earn for hosting capacity and selling it in the marketplace. To attract serious users, the project ensures robust uptime and performance guarantees, competitive pricing, and an improved user interface for easy app deployment. A quality-based reward system will motivate farmers to provide reliable service, while the flexible earnings model makes farming more appealing. The most significant advancement is the Mycelium network, offering unbreakable connectivity and efficient routing, which is crucial for scalability.
-
-<br/>
 
 ### **The Team Behind INCA**
 
 An experienced team has been put together for our DePIN launch. This team has a 
 range of backgrounds and a collective understanding of how to bring forward the INCA token. We don't see INCA as a break from the past but simply a continuation of TFT in another form.
-
-<br/>
 
 #### **The Team**
 
@@ -72,13 +62,9 @@ range of backgrounds and a collective understanding of how to bring forward the 
 
 This team is dedicated to delivering INCA as a successful extension of TFT alongside the launch of TF Grid 4.0.
 
-<br/>
-
 ### **The Launch on Solana**
 
 A major focus is on the launch of the INCA token, most likely on the Solana blockchain, which is the most active and prominent blockchain for the DePIN ecosystem. The timing depends on securing sufficient funding for liquidity pools and market making, which is essential for a successful token launch.
-
-<br/>
 
 ### **The INCA Token**
 
