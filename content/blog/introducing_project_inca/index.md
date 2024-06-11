@@ -1,5 +1,5 @@
 ---
-id: Project INCA
+id: project_inca
 title: Project INCA - The Next Chapter in ThreeFold’s Decentralized Cloud Journey
 image_caption: technology
 description: Introducing Project Internet Capacity (INCA), an extension to ThreeFold's mission with a decentralized, user-controlled cloud network, ensuring privacy, security, and empowerment.
@@ -20,11 +20,13 @@ We are thrilled to introduce Project Internet Capacity (INCA), a promising new e
 
 <br/>
 
-On our most recent project update community call, we were grateful to hear from Michael Wellesley-Wesley, the founder of Green Edge and prominent farmer on the ThreeFold Grid since 2017-2018, who introduced Project INCA to the community.
+On [our most recent project update community call](https://youtu.be/tXELhKk9RYg?si=fyz4K7gFQ1yD1PLS), we were grateful to hear from Michael Wellesley-Wesley, the founder of [Green Edge](https://green-edge.net/en) and prominent farmer on the ThreeFold Grid since 2017-2018, who introduced Project INCA to the community.
 
 <br/>
 
 Project INCA is rooted in three major objectives:
+
+<br/>
 
 - **Growth:** Expanding the grid to a million nodes.
 - **Reliability:** Achieving service levels that allow edge and AI workloads to run efficiently.
@@ -51,13 +53,15 @@ range of backgrounds and a collective understanding of how to bring forward the 
 
 **The Team**
 
+<br/>
+
 - **George Oliver**: An expert in the DePIN space with a $50 million investment fund.
 - **Nick Hawkes and Max Gold**: Partners under Gold Hawks, proficient in scaling tokens and deeply connected in the Solana community.
 - **Quentin**: Formerly of OKEx, specializing in liquidity and marketing.
 - **Rob Beeland**: Founder of DePIN Connect, with vast marketing and influencer connections.
 - **Mariza**: A high-powered lawyer overseeing regulatory and legal aspects.
 - **Theo Chapman**: Managing Director of Zonaris, coordinating the group.
-- **Mike Wellesley-Wesley**: The founder of Green Edge and a long-time member of the farming community.
+- **Mike Wellesley-Wesley**: The founder of [Green Edge](https://green-edge.net/en) and a long-time member of the farming community.
 - **Sabrina and Mik**:  Our vital connectors between the INCA and ThreeFold teams.
 
 <br/>
@@ -72,6 +76,8 @@ A major focus is on the launch of the INCA token, most likely on the Solana bloc
 
 Many questions have risen about the introduction of a new token. INCA should be seen as an extension of TFT. It will coexist with TFT, both convertible and usable across TF Grid 3 and TF Grid 4. The primary differences are:
 
+<br/>
+
 - **Higher Profile**: INCA will likely have a more prominent presence, especially on Solana.
 - **Tokenomics**: INCA will support app development, marketing, and community growth grants.
 - **Max Cap**: Both tokens share a four-billion max cap, with INCA providing an opportunity to double TFT holdings (one TFT converts to two INCA).
@@ -80,13 +86,15 @@ Many questions have risen about the introduction of a new token. INCA should be 
 
 For TFT holders, the benefits are clear:
 
+<br/>
+
 - **Swapping**: Each TFT converts to two INCA (during 2024), potentially increasing value significantly.
 - **Market Presence**: INCA's launch in the DePIN sector on Solana positions it in a visible and attractive market.
 - **Limited Supply**: The initial supply of INCA will be limited, likely driving demand and price up.
 
 <br/>
 
-In conclusion, while INCA represents a new chapter, it is really a continuation and amplification of the ThreeFold journey. We anticipate exciting developments as we prepare for the TF Grid 4.0 launch and the introduction of INCA. We are happy to address any questions you may have on our forum or our main chat, keeping in mind that we are still refining many aspects of this project.
+In conclusion, while INCA represents a new chapter, it is really a continuation and amplification of the ThreeFold journey. We anticipate exciting developments as we prepare for the TF Grid 4.0 launch and the introduction of INCA. We are happy to address any questions you may have on [our forum](https://forum.threefold.io) or [our main chat](https://t.me/threefold), keeping in mind that we are still refining many aspects of this project.
 
 
 
