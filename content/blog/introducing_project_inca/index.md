@@ -47,7 +47,9 @@ Project INCA introduces several exciting features for farmers and users alike. F
 An experienced team has been put together for our DePIN launch. This team has a 
 range of backgrounds and a collective understanding of how to bring forward the INCA token. We don't see INCA as a break from the past but simply a continuation of TFT in another form.
 
-#### **The Team**
+<br/> 
+
+**The Team**
 
 - **George Oliver**: An expert in the DePIN space with a $50 million investment fund.
 - **Nick Hawkes and Max Gold**: Partners under Gold Hawks, proficient in scaling tokens and deeply connected in the Solana community.
