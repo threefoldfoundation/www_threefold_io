@@ -1,18 +1,18 @@
 ---
 id: project_inca
-title: Project INCA - The Next Chapter in ThreeFold’s Decentralized Cloud Journey
+title: "Project Internet Capacity: ThreeFold's Next Chapter"
 image_caption: technology
 description: Introducing Project Internet Capacity (INCA), an extension to ThreeFold's mission with a decentralized, user-controlled cloud network, ensuring privacy, security, and empowerment.
 date: 2024-06-11
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,threefold_cloud,community]
+    tags: [technology,community]
     categories: [farming,cloud,foundation]
 extra:
     imgPath: inca.png
 ---
 
-ThreeFold’s journey over the past years has been one of deep, collaborative commitment, marked by significant technological advancements and milestones in building a new cloud infrastructure from the ground up, as well as the global expansion of the grid to its current state. Throughout this journey, we have learned, adapted, and evolved, and the past months in particular have led us to a strong strategy for the next chapter and achieving our truly global vision.
+ThreeFold’s journey over the past years has been one of deep, collaborative commitment, marked by significant technological advancements and milestones in building a new cloud infrastructure from the ground up, as well as the global expansion of the grid to its current state. Throughout this journey, we have learned, adapted, and evolved, leading us to a strong strategy for the next chapter and achieving our collective vision.
 
 ### **Meet Project Internet Capacity**
 
