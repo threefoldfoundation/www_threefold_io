@@ -2,7 +2,7 @@
 id: project_inca
 title: "Project Internet Capacity: ThreeFold's Next Chapter"
 image_caption: technology
-description: Introducing Project Internet Capacity (INCA), an extension to ThreeFold's mission with a decentralized, user-controlled cloud network, ensuring privacy, security, and empowerment.
+description: Introducing Project Internet Capacity (INCA), the fourth generation of ThreeFold's Grid, and our exciting entry into the DePIN ecosystem.
 date: 2024-06-11
 taxonomies:
     people: [bernadette_amanda_caster]
@@ -10,6 +10,7 @@ taxonomies:
     categories: [farming,cloud,foundation]
 extra:
     imgPath: inca.png
+    isFeatured: true
 ---
 
 ThreeFold’s journey over the past years has been one of deep, collaborative commitment, marked by significant technological advancements and milestones in building a new cloud infrastructure from the ground up, as well as the global expansion of the grid to its current state. Throughout this journey, we have learned, adapted, and evolved, leading us to a strong strategy for the next chapter and achieving our collective vision.
@@ -49,20 +50,16 @@ Project INCA introduces several exciting features for farmers and users alike. F
 An experienced team has been put together for our DePIN launch. This team has a 
 range of backgrounds and a collective understanding of how to bring forward the INCA token. We don't see INCA as a break from the past but simply a continuation of TFT in another form.
 
-<br/> 
+#### **The Team**
 
-**The Team**
-
-<br/>
-
-- **George Oliver**: An expert in the DePIN space with a $50 million investment fund.
-- **Nick Hawkes and Max Gold**: Partners under Gold Hawks, proficient in scaling tokens and deeply connected in the Solana community.
-- **Quentin**: Formerly of OKEx, specializing in liquidity and marketing.
-- **Rob Beeland**: Founder of DePIN Connect, with vast marketing and influencer connections.
-- **Mariza**: A high-powered lawyer overseeing regulatory and legal aspects.
-- **Theo Chapman**: Managing Director of Zonaris, coordinating the group.
-- **Mike Wellesley-Wesley**: The founder of [Green Edge](https://green-edge.net/en) and a long-time member of the farming community.
-- **Sabrina and Mik**:  Our vital connectors between the INCA and ThreeFold teams.
+- **George Olver**: An expert in the DePIN space, providing day-to-day leadership.
+- **Nick Hawkes and Max Gold**: Partners under [Gold Hawks](https://goldandhawks.com/), proficient in scaling tokens and deeply connected in the Solana community.
+- **Quentin Issele**: Formerly of OKEx, specializing in liquidity and marketing.
+- **Rob Beland**: Founder of [DePIN Connect](https://www.depinconnect.com/), with vast marketing and influencer connections.
+- **Theo Chapman**: Managing Director of [Zonaris](https://zonaris.io), coordinating the group.
+- **Mariza Wellesley-Wesley**: A well-versed lawyer overseeing regulatory and legal aspects, co-founder of [Green Edge](https://green-edge.net/en).
+- **Mike Wellesley-Wesley**: Co-founder of Green Edge and a long-time member of the farming community.
+- **Sabrina and Mik**: Our vital connectors between the INCA and ThreeFold teams.
 
 <br/>
 
@@ -88,13 +85,17 @@ For TFT holders, the benefits are clear:
 
 <br/>
 
-- **Swapping**: Each TFT converts to two INCA (during 2024), potentially increasing value significantly.
+- **Swapping**: Each TFT converts to two INCA (during 2024), enabling easy entry for token holders.
 - **Market Presence**: INCA's launch in the DePIN sector on Solana positions it in a visible and attractive market.
-- **Limited Supply**: The initial supply of INCA will be limited, likely driving demand and price up.
+- **Limited Supply**: The initial supply of INCA will be limited, which could drive demand and price up.
+
+### **Together We Build**
+
+In conclusion, while INCA brings a new chapter, it is really a continuation and amplification of the ThreeFold journey. We anticipate exciting developments as we prepare for the TF Grid 4.0 launch and the introduction of INCA. We are happy to address any questions you may have on [our forum](https://forum.threefold.io) or [our main chat](https://t.me/threefold), keeping in mind that we are still refining many aspects of this project.
 
 <br/>
 
-In conclusion, while INCA represents a new chapter, it is really a continuation and amplification of the ThreeFold journey. We anticipate exciting developments as we prepare for the TF Grid 4.0 launch and the introduction of INCA. We are happy to address any questions you may have on [our forum](https://forum.threefold.io) or [our main chat](https://t.me/threefold), keeping in mind that we are still refining many aspects of this project.
+Onward! Keep building, friends.
 
 
 

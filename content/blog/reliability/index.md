@@ -10,7 +10,6 @@ taxonomies:
     categories: [foundation]
 extra:
     imgPath: reliability.png
-    isFeatured: true
 ---
 
 In today's digital landscape, the development of a decentralized open-source Internet infrastructure marks a significant leap forward. However, while the foundational structure of this innovation brings promise, its inherent reliability isn't guaranteed. After more than five years of building and expanding the open-source ThreeFold Grid, it's now time we pivot towards commercialization. Ensuring a robust, dependable, and trustworthy offering becomes paramount. In this post, we'll share the various ways that the ThreeFold Grid is and will become reliable.
