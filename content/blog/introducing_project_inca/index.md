@@ -2,7 +2,7 @@
 id: project_inca
 title: "Project Internet Capacity: ThreeFold's Next Chapter"
 image_caption: technology
-description: Introducing Project Internet Capacity (INCA), an extension to ThreeFold's mission with a decentralized, user-controlled cloud network, ensuring privacy, security, and empowerment.
+description: Introducing Project Internet Capacity (INCA), the fourth generation of ThreeFold's Grid, and our exciting entry into the DePIN ecosystem.
 date: 2024-06-11
 taxonomies:
     people: [bernadette_amanda_caster]
