@@ -43,12 +43,24 @@ The vision is to provide a cloud engine for a decentralized internet where users
 
 ### **What to look forward to with Project INCA?**
 
-Project INCA introduces several exciting features for farmers and users alike. Farmers can now set their own competitive prices within certain limits, enhancing their ability to earn for hosting capacity and selling it in the marketplace. To attract serious users, the project ensures robust uptime and performance guarantees, competitive pricing, and an improved user interface for easy app deployment. A quality-based reward system will motivate farmers to provide reliable service, while the flexible earnings model makes farming more appealing. The most significant advancement is the Mycelium network, offering unbreakable connectivity and efficient routing, which is crucial for scalability.
+Project INCA introduces several exciting elements for farmers and users alike:
+
+<br/>
+
+- Farmers will be able to earn on utilization as well as hosting rewards, and set their own competitive prices within certain limits
+- A marketplace of capacity will make it easier for users to find and rent capacity
+- To attract serious users at a commercial level, robust uptime and performance guarantees will be ensured through Service Level Agreements, KYC will be introduced for reliability, competitive pricing will keep customers happy, and simplified products and approach will make for a better user experience
+- A quality-based reward system will motivate farmers to provide reliable service, while the flexible earnings model makes farming more appealing
+- The most significant technological advancement is the Mycelium network, offering unbreakable connectivity and efficient routing, which is crucial for scalability
+- A new token will launch on a high profile blockchain
+
+<br/>
+
+All in all, there are a variety of elements coming together to ensure stakeholders throughout the ecosystem are happy.
 
 ### **The Team Behind INCA**
 
-An experienced team has been put together for our DePIN launch. This team has a 
-range of backgrounds and a collective understanding of how to bring forward the INCA token. We don't see INCA as a break from the past but simply a continuation of TFT in another form.
+An experienced team has been put together for our DePIN launch. This team has a range of backgrounds and a collective understanding of how to bring forward the INCA token. We don't see INCA as a break from the past but simply a continuation of TFT in another form.
 
 #### **The Team**
 
@@ -88,6 +100,10 @@ For TFT holders, the benefits are clear:
 - **Swapping**: Each TFT converts to two INCA (during 2024), enabling easy entry for token holders.
 - **Market Presence**: INCA's launch in the DePIN sector on Solana positions it in a visible and attractive market.
 - **Limited Supply**: The initial supply of INCA will be limited, which could drive demand and price up.
+
+<br/>
+
+ThreeFold continues as the open-source decentralized movement around version 3, and TFT remains the medium of exchange. How the project exists and evolves in a post-INCA world remains to be seen!
 
 ### **Together We Build**
 
