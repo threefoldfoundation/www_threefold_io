@@ -17,7 +17,7 @@ ThreeFold’s journey over the past years has been one of deep, collaborative co
 
 ### **Meet Project Internet Capacity**
 
-We are thrilled to introduce Project Internet Capacity (INCA), a promising new extension of our mission. Building on years of dedicated work by team and community, Project INCA is the fourth generation of the ThreeFold Grid and introduces the INCA token (more on that below). Project INCA is commercially-focused and aims to be a Layer 0 for the DePIN ecosystem.
+We are thrilled to introduce Project Internet Capacity (INCA), a promising new extension of our mission. Building on years of dedicated work by team and community, Project INCA is the fourth generation of the ThreeFold Grid and introduces the INCA token (more on that below). Project INCA is commercially-focused and aims to be a base layer for the DePIN ecosystem.
 
 <br/>
 
