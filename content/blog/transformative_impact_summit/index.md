@@ -24,7 +24,7 @@ A [jam-packed three-day schedule of focused talks](https://www.catalist.network/
 
 <br/>
 
-![Image](./panel.jpg)
+![Image](./panel.JPG)
 
 <br/>
 
@@ -69,7 +69,7 @@ ThreeFold was honored to present on a few different occasions throughout the sum
 
 <br/>
 
-![Image](./kristoftis.jpg)
+![Image](./kristoftis.JPG)
 
 <br/>
 
@@ -81,7 +81,7 @@ In addition, ThreeFold ecosystem developer Florian Fournier spoke on the topic o
 
 <br/>
 
-![Image](./flotis.jpg)
+![Image](./flotis.JPG)
 
 <br/>
 
