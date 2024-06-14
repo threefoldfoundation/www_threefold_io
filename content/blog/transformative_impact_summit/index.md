@@ -61,7 +61,7 @@ While at Zuzalu, with Elliott and others, we often talked about the noticeably l
 
 <br/>
 
-What resulted was a commitment to do our part in bringing these types of conversations to the African continent. ThreeFold partnered with Niklas Anzinger to create the [Africa Regenerative Cities Summit](https://lu.ma/zanzibar_regen) last July and did a follow-up event last November. We’ve hosted and participated in other smaller events in Zanzibar and nearby Dar Es Salaam. And now Elliott has brought the second Transformative Impact Summit to Zanzibar. (Not to mention the team who put together [Zanzalu](https://zanzalu.super.site/), a direct extension of last year’s Zuzalu.)
+What resulted was a commitment to do our part in bringing these types of conversations to the African continent. ThreeFold partnered with Niklas Anzinger to create the [Africa Regenerative Cities Summit](https://lu.ma/zanzibar_regen) last July and did a follow-up event last November. We’ve hosted and participated in other smaller events in Zanzibar and nearby Dar Es Salaam. Now, Elliott has brought the second Transformative Impact Summit to Zanzibar. (And we'd be remiss not to mention the team who put together and hosted [Zanzalu](https://zanzalu.super.site/), a direct spin-off / extension of last year’s Zuzalu.)
 
 ### **ThreeFold at Transformative Impact Summit**
 
