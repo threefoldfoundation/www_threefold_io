@@ -29,11 +29,11 @@ The diverse array of speakers and topics included:
 <br/>
 
 - Kristof, Florian, and Greg from the ThreeFold team (more on this below)
-- Matthew Schutte, co-founder of HoloChain, who talked about HoloChain and their perspective on application development
-- Omrei Abumadi, founder of VVerse (a ThreeFold & OurWorld collaborator), who discussed the metaverse and showcased a virtual environment built just for the event
-- Victor Muhagachi and David Machuche, co-founders of Chatafisha and Dunia Yetu collaborators, who spoke about how FinTech can empower Africa’s waste pickers
-- Dr. Cornelia Wallner-Frisee, co-founder of Africa Amini Life, who presented “Education is Our Strongest Medicine”
-- El Fuego Mutaz, Head of Africa at Refunite, a tech non-profit that uses technology and innovation to provide humanitarian assistance, who spoke about how technology can reconnect families, as well as reshaping the future of aid with local community leadership
+- Matthew Schutte, co-founder of [HoloChain](https://holochain.org), who talked about HoloChain and their perspective on application development
+- Omrei Abumadi, founder of [VVerse](https://www.vverse.co/) (a ThreeFold & OurWorld collaborator), who discussed the metaverse and showcased a virtual environment built just for the event
+- Victor Muhagachi and David Machuche, co-founders of [Chatafisha](https://chatafisha.com/) and [Dunia Yetu](https://forum.threefold.io/t/introducing-dunia-yetu/4147) collaborators, who spoke about how FinTech can empower Africa’s waste pickers
+- Dr. Cornelia Wallner-Frisee, co-founder of [Africa Amini Life](https://www.africaaminilife.com/en), who presented “Education is Our Strongest Medicine”
+- El Fuego Mutaz, Head of Africa at [Refunite](https://refunite.org/), a tech non-profit that uses technology and innovation to provide humanitarian assistance, who spoke about how technology can reconnect families, as well as reshaping the future of aid with local community leadership
 
 <br/>
 
