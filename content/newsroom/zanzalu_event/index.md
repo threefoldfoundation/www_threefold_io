@@ -22,5 +22,8 @@ At Student Weekend, we will show the audience how to deploy workloads on top of 
 
 *An exciting opportunity to interface with local builders and showcase ThreeFold technology!*
 
+<br/>
+
+To know more at what happened Zanzalu click [here](https://www.threefold.io/newsroom/zanzalu-event/)
 
 
