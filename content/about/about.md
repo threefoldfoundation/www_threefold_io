@@ -1,6 +1,5 @@
 <!-- section 1 (header) -->
 
-
 <div class="container mx-auto">
 
 {% row(style="header") %}
@@ -14,9 +13,6 @@
 About a decade ago, a group of passionate Internet & cloud veterans came together to build a system which can grow to a scalable, safe, compatible, and co-owned IT infrastructure.
 
 {% end %}
-
-
-
 
 <!-- section 2  -->
 
@@ -124,10 +120,8 @@ The world needs a safe infrastructure to deploy cutting edge technology, where e
 
 We believe in an Internet where everyone can communicate freely, exchange fairly, access educational information, and own their own data. Our digital experiences should not addict nor manipulate, rather empower.
 
-
 {% end %}
 
 </div>
-
 
 </div>

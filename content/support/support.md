@@ -1,9 +1,3 @@
----
-title: "Support"
-template: "page.html"
-insert_anchor_links: "left"
----
-
 <div class="container mx-auto">
 
 <!-- section 1 -->

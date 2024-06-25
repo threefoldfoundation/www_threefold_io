@@ -1,25 +1,3 @@
----
-title: "Careers"
----
-
-
-<!-- section 1 (join out team) -->
-
-<!-- <div class="relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20">
-  <div class="header section banner">
-      <div class="center">
-        <h2 class="text-8xl font-bold text-black uppercase">
-          Join our Team
-        </h2>
-      </div>
-      <div
-        class="back"
-        style="background-image: url('images//team_joinus.jpg')"
-      ></div>
-    </div>
-     </div> -->
-
-
 {% row(bgPath="team_joinus.jpg" style="center margin") %}
 
 
@@ -37,8 +15,6 @@ title: "Careers"
 {% row(style="center between") %}
 
 ### **JOIN US ON OUR MISSION TO BUILD A PLANET-POSITIVE AND DATA SOVEREIGN INTERNET OWNED BY THE PEOPLE.**
-
-
 
 **ThreeFold** is a global, collaborative movement that is formed by individuals and organizations that connect Internet capacity to the ThreeFold Grid, the world’s most advanced peer-to-peer infrastructure. ThreeFold is powered by our open source, beyond blockchain infrastructure that is incredibly efficient, limitlessly scaleable, planet-positive and affordable to everyone. To empower our ecosystem, we are building applications and hosting emerging technologies with our amazing partners and developer community to nurture the Internet the world needs.
 

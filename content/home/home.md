@@ -33,11 +33,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 {% end %}
 
-
-
-
 <!-- section 3 (3Node) -->
-
 
 {% row(style="reverse margin") %}
 
