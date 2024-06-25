@@ -16,12 +16,7 @@ Let's then add our pages
     name: 'Careers'
     collection: 'content'
     file: 'careers.md'
-
-!!website.page_add
-    name: 'Farm'
-    collection: 'content'
-    file: 'farm.md'
-
+    
 !!website.page_add
     name: 'Host'
     collection: 'content'

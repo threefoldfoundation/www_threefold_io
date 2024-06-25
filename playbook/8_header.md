@@ -4,7 +4,7 @@ Next, we add a header and a footer for our website
 !!website.header_add
     logo: 'images/black_threefold.png'
 
-!!website.add
+!!website.header_link_add
     label: 'About'
     page: 'about'
 
