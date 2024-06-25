@@ -12,9 +12,9 @@ This website is administered by [ThreeFold's Web Admins](https://github.com/orgs
 ## Getting started
 
 1. Install `hero` if you don't have it
+
 ```bash
-curl https://raw.githubusercontent.com/freeflowuniverse/crystallib/development/scripts/installer_hero.sh > /tmp/hero_install.sh
-bash /tmp/hero_install.sh
+curl -sL https://raw.githubusercontent.com/freeflowuniverse/crystallib/development/scripts/installer_hero.sh | bash
 ```
 
 1. Clone repository
@@ -23,7 +23,12 @@ bash /tmp/hero_install.sh
 
 3. run playbook to preview website in browser
 
-`hero zola -u https://github.com/threefoldfoundation/www_threefold_io/tree/development_zola/playbook` or `bash start.sh`
+```bash
+#is using branch development_zola
+hero zola -u https://github.com/threefoldfoundation/www_threefold_io/tree/development_zola/playbook
+#or in this repo, which does above
+start.sh
+```
 
 4. save and publish changes
 
@@ -31,11 +36,13 @@ bash /tmp/hero_install.sh
 
 This website is built with `hero`, using `zola` under the hood. 
 
-Please see 
-
+```bash
+#push changes
+hero git push -f www_threefold_io  -m 'some comment'
+hero git push -f threefold_data  -m 'some comment'
+```
 
 Finally, start a browsable local copy of the site that will respond to changes in the source files like this:
-
 
 Zola will display a local address such as `http://127.0.0.1:1111` which you can click or copy and paste into your browser to view the site on your own machine.
 
