@@ -30,7 +30,7 @@ extra:
 
 ###### **Forum**
 
-<p class="text-base leading-snug">Ask Qestions<p>
+<p class="text-base leading-snug">Ask Questions<p>
 
 |||
 
@@ -40,44 +40,41 @@ extra:
 
 </div>
 
-###### **Github**
+###### **GitHub | Tech**
 
-<p class="text-base leading-snug">Collaborate<p>
-
-|||
-
-<div class="myscale">
-
-[![Image](manual.png#social)](https://manual.grid.tf/)
-
-</div>
-
-###### **Manual**
-
-<p class="text-base leading-snug">Dive In<p>
+<p class="text-base leading-snug">Open-Source Collaboration for Tech Development<p>
 
 |||
 
 <div class="myscale">
 
-[![Image](x.png#social)](https://x.com/threefold_io?mx=2)
+[![Image](gh.png#social)](https://github.com/threefoldtech)
 
 </div>
 
-###### **X(Twitter)**
+###### **GitHub | Foundation**
+
+<p class="text-base leading-snug">Open-source Collaboration for Websites and Online Info<p>
+
+|||
+
+<div class="myscale">
+
+[![Image](x.png#social)](https://x.com/threefold_io)
+
+</div>
+
+###### **X | Twitter**
 
 <p class="text-base leading-snug">"Tweet" With Us<p>
 
 {% end %}
 
-
-
-
 {% row( style="center semiNarrow") %}
 
 <div class="myscale">
 
-[![Image](telegram.png#social)](https://forum.threefold.io/)
+[![Image](telegram.png#social)](https://t.me/threefoldnews)
 
 </div>
 
@@ -89,7 +86,7 @@ extra:
 
 <div class="myscale">
 
-[![Image](telegram.png#social)](https://t.me/threefoldnews)
+[![Image](telegram.png#social)](https://t.me/threefold)
 
 </div>
 
@@ -101,7 +98,7 @@ extra:
 
 <div class="myscale">
 
-[![Image](telegram.png#social)](https://manual.grid.tf/)
+[![Image](telegram.png#social)](https://t.me/threefoldfarmers)
 
 </div>
 
@@ -113,7 +110,7 @@ extra:
 
 <div class="myscale">
 
-[![Image](telegram.png#social)](https://x.com/threefold_io?mx=2)
+[![Image](telegram.png#social)](https://t.me/threefoldtesting)
 
 </div>
 
@@ -147,7 +144,7 @@ extra:
 
 ###### **YouTube**
 
-<p class="text-base leading-snug">Watch things unfold<p>
+<p class="text-base leading-snug">Watch Things Unfold<p>
 
 |||
 
@@ -161,9 +158,9 @@ extra:
 
 </div>
 
-###### **Mailing List**
+###### **E-mail Newsletter**
 
-<p class="text-base leading-snug">Updates in your inbox<p>
+<p class="text-base leading-snug">Updates in Your Inbox<p>
 
 
 |||
