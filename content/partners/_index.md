@@ -1,6 +1,6 @@
 ---
 title: "Our Partners"
-paginate_by: 6
+paginate_by: 9
 
 # paginate_reversed: false
 
