@@ -13,6 +13,10 @@ extra:
     isFeatured: true
 ---
 
+*Please note the information below is subject to change as the project evolves and will be updated as is appropriate.*
+
+<br>
+
 ThreeFold’s journey over the past years has been one of deep, collaborative commitment, marked by significant technological advancements and milestones in building a new cloud infrastructure from the ground up, as well as the global expansion of the grid to its current state. Throughout this journey, we have learned, adapted, and evolved, leading us to a strong strategy for the next chapter and achieving our collective vision.
 
 ### **Meet Project Internet Capacity**

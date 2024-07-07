@@ -54,6 +54,8 @@ extra:
 
 <h6><a target="_self" href="javascript:;" onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')">Newsletter</a></h6>
 
+<h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
+
 
 
 {% end %}
