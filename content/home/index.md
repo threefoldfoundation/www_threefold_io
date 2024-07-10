@@ -457,7 +457,7 @@ Get assistance from our support team
 
 <div class="border rounded-md mb-4">
 
-[![](join1.png#icon)](https://t.me/threefold)
+[![](join1.png#icon)](/community)
 
 </div>
 

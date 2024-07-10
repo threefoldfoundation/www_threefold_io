@@ -5,7 +5,8 @@
             {{body | markdown | safe }}
             <div class="items my-10 block lg:flex lg:flex-wrap justify-center items-center animate-pulse">
                 <!-- capacity -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                    <span class="tooltiptext">The total amount of storage (SSD, HDD, & RAM) on the grid. 1 petabyte equals roughly 1 million gigabytes.</span>
                     <img
                         class="mx-auto p-4"
                         src="images/V3-08.png"
@@ -16,7 +17,8 @@
                     <span class="block text-md mt-4 font-normal capitalize">capacity</span>
                 </div>
                 <!-- cores -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                    <span class="tooltiptext">The total number of Central Processing Unit cores (compute power) available on the grid.</span>
                     <img
                         class="mx-auto p-4"
                         src="images/V3-11.png"
@@ -27,7 +29,8 @@
                     <span class="block text-md mt-4 font-normal capitalize">cores</span>
                 </div>
                 <!-- Nodes -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                    <span class="tooltiptext">The total number of nodes on the grid. A node is a computer server 100% dedicated to the network.</span>
                     <img
                         class="mx-auto p-4"
                         src="images/V3-09.png"
@@ -38,7 +41,8 @@
                     <span class="block text-md mt-4 font-normal capitalize">nodes</span>
                 </div>
                 <!-- countries -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                    <span class="tooltiptext">The total number of countries where at least one node is connected and operational.</span>
                     <img
                         class="mx-auto p-4"
                         src="images/V3-10.png"
@@ -49,7 +53,8 @@
                     <span class="block text-md mt-4 font-normal capitalize">countries</span>
                 </div>
                  <!-- farms -->
-                <div class="item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
+                    <span class="tooltiptext">The total number of farms on the grid. A farm is one or more nodes operated by the same entity / entities.</span>
                     <img
                         class="mx-auto p-4"
                         src="images/farm.png"
@@ -102,6 +107,49 @@
     .blue_b:hover {
       background-color:#5596f5 !important;
     }
+
+ 
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  font-size: 14px;
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 4px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: -50px;
+  right: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media (max-width: 480px) {
+    .tooltip .tooltiptext {
+        position: absolute;
+  z-index: 1;
+  bottom: -50px;
+  right: 0px !important;
+    }
+
+}
+
 
 </style>
 

@@ -51,6 +51,9 @@ external_links_no_referrer = true
 # For example, `...` into `…`, `"quote"` into `“curly”` etc
 smart_punctuation = true
 
+[build]
+not_found = "404.md"
+
 [[taxonomies]]
 name = "categories"
 feed = true
