@@ -13,7 +13,7 @@ extra:
 
 ---
 
-We hosted a general project update this Wednesday covering a range of topics, including: a general state of things and setting the stage for the summer months, grid version 3.14 highlights and a preview of version 3.15, some updates on project Internet Capacity, a couple of demos, and more – all in under 40 minutes. Dig into the latest from the team here (https://youtu.be/Cgak5Zy52vI?si=js1STSiaJNGPk3lA).
+We hosted a general project update this Wednesday covering a range of topics, including: a general state of things and setting the stage for the summer months, grid version 3.14 highlights and a preview of version 3.15, some updates on project Internet Capacity, a couple of demos, and more – all in under 40 minutes. Dig into the latest from the team [here](https://youtu.be/Cgak5Zy52vI?si=js1STSiaJNGPk3lA).
 
 <br/>
 
