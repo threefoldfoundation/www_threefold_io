@@ -19,6 +19,9 @@ Friends, take a look at the line-up of calls for the month of July (plus the fir
 
 **Project Update**
 Wednesday July 03 @ 17:00 CEST | 11:00 EDT
+
+<br/>
+
 *Rescheduled from June 27*
 
 <br/>
@@ -30,6 +33,9 @@ Tuesday July 09 @ 19:00 CEST | 13:00 EDT
 
 **Community Discussion**
 Thursday July 18 @ 17:00 CEST | 11:00 EDT
+
+<br/>
+
 *Pending enough interest from the community*
 
 <br/>
