@@ -6,7 +6,7 @@ description: This month's update covered highlights of Grid v3.14, a preview of 
 date: 2024-07-05
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [tech,grid,community]
     news-category: [foundation]
 extra:
     imgPath: june_project_update.png

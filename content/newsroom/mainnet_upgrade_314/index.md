@@ -6,7 +6,7 @@ description: Calling all farmers to vote on the GEP to bring grid version 3.14 t
 date: 2024-06-24
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [tech,grid,community]
     news-category: [foundation]
 extra:
     imgPath: mainnet_upgrade_314.png
