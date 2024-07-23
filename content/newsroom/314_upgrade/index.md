@@ -1,12 +1,12 @@
 ---
 id: 314_upgrade
-title: 👀 Watch the Nextcloud Demo 
+title: ✅ TF Grid Mainnet Upgraded to V3.14
 image_caption: 314_upgrade
 description: TF Grid 3.14 is now on Mainnet. To know more click here. 
 date: 2024-07-16
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [tech,grid,community]
     news-category: [foundation]
 extra:
     imgPath: 314_upgrade.png
