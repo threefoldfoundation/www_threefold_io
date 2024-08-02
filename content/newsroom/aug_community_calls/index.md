@@ -1,6 +1,6 @@
 ---
 id: aug_community_calls
-title: 🗓 Announcing- August Community Calls
+title: 🗓 Announcing August's Community Calls
 image_caption: August Community calls
 description: Take a look at the schedule for our August community calls and see what's on the agenda. Mark your calendars!
 date: 2024-08-02
@@ -39,7 +39,7 @@ Scott and Mik will present the [Zero-OS Hub and Flist](https://manual.grid.tf/do
 <br/>
 
 **Project Update** <br>
-ThursdayAug 29th @ 17:00 CEST | 11:00 EDT <br>
+Thursday Aug 29th @ 17:00 CEST | 11:00 EDT <br>
 
 The team will update the community on their latest updates on strategy, tech development, partners, on-the-ground activities, and other such topics.
 

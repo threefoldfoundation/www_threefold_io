@@ -2,7 +2,7 @@
 id: tfrobot_demo
 title: ☕️ Watch the TFROBOT Demo
 image_caption: tfrobot_demo
-description: Watch Scott deploy 100 virtual machines in less than five minutes, know more here.
+description: Watch as Scott deploys 100 virtual machines in less than five minutes using an exciting tool developed by ThreeFold.
 date: 2024-07-24
 taxonomies:
     people: [bernadette_amanda_caster]
