@@ -1,6 +1,6 @@
 ---
 id: aug_community_calls
-title: 🗓 Announcing: August Community Calls
+title: 🗓 Announcing- August Community Calls
 image_caption: August Community calls
 description: Take a look at the schedule for our August community calls and see what's on the agenda. Mark your calendars!
 date: 2024-08-02
