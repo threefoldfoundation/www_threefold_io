@@ -10,19 +10,20 @@ insert_anchor_links: "left"
 
 {% row(style="header") %}
 
-![Image](hero_host3.png#semilarge#mx-auto)
+![Image](host_hero.png#mx-auto)
 
 |||
 
-### **<span class="green">Host the Cloud</span>**
+#### <span class="green_text">Host the Cloud</span>
 
-## **<span class="blue">Empower</span> Human Potential**
+## **<span class="blue">Empower</span> Human <br>Potential**
 
 Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions. We call this process <span class="blue">farming</span>.
 
 <br>
 
-<button class="blue_b">[Get A Node](https://manual.grid.tf/documentation/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
+<button class="green">[Get A Node](https://manual.grid.tf/documentation/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
+<button class="blue_b">[Manual](https://manual.grid.tf/)</button>
 
 {% end %}
 
@@ -97,7 +98,7 @@ After your node is set up and verified, you’ll be rewarded for the capacity th
 
 ## **Kickstart Your Journey**
 
-### **<span class="blue"> Documentation and Knowledge</span>**
+#### <span class="blue"> Documentation and Knowledge</span>
 
 You can become a cloud service provider and bring local capacity <br> to where people need it most while earning for your contributions.
 
