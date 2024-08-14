@@ -31,7 +31,7 @@ Together we are creating a cloud for everyone, owned by everyone.
 
 |||
 
-![Image](header_new1.png)
+![Image](home_here.png)
 
 {% end %}
 
@@ -54,9 +54,9 @@ Together we are creating a cloud for everyone, owned by everyone.
 
 {% grid_stats() %}
 
-### **Become a cloud & Internet service provider on**
+#### Become a cloud & Internet service provider on
 
-## **The ThreeFold Grid**
+## **The ThreeFold Cloud**
 
 Provide cloud and Internet capacity in your area and become a part of the largest<br>and most advanced decentralized autonomous cloud network in the world.
 
@@ -74,7 +74,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <h4 class="blue">HOST THE CLOUD</h4>
 
-<h2 class="">It starts with Nodes</h2>
+## **It starts with Nodes**
 
 
 3Nodes are specialized computers running Zero OS, an operating system invented by the ThreeFold team, enabling anyone to provide decentralized compute storage, and network capacity to the ThreeFold Grid – and earn for it. 
@@ -156,7 +156,7 @@ Together, we create, host, and co-own the foundational layer of an upgraded inte
 
 <br>
 
-Our technology operates close to the hardware, enabling most Web2, Web3, and DePIN projects to run on top of the ThreeFold Decentralized Cloud.
+Our technology operates close to the hardware, enabling most Web2, Web3, <br>and DePIN projects to run on top of the ThreeFold Decentralized Cloud.
 
 <br>
 
@@ -374,7 +374,8 @@ Learn what edge computing means and what it offers compared to centralized cloud
 
 
 
-<h2 class="mt-0 font-semibold">JOIN IN</h2>
+<div class="pl-6 road_border">
+<h3 class="mt-0 font-semibold">JOIN IN</h3>
 
   <div class="my-4">
   <a href="https://manual.grid.tf" target="_blank">
@@ -395,7 +396,7 @@ Learn what edge computing means and what it offers compared to centralized cloud
      </a>
      </div>
 
-
+</div>
 
 {% end %}
 
@@ -421,4 +422,11 @@ Learn what edge computing means and what it offers compared to centralized cloud
   
   color: #9f9f9f;
 }
+
+ .road_border{
+    
+      border-left: 1px solid #cbcbcb;
+
+    }
+
   </style>

@@ -92,7 +92,7 @@ We are at the start of a journey to millions of nodes and will launch soon the f
 
 <div class="container mx-auto">
 
-{% row( style="center semiNarrow mtop") %}
+{% row( style="center between margin") %}
 
 #### <span class="green_text uppercase">OUR MISSION & VISION</span>
 
@@ -114,71 +114,6 @@ Through our token, we support an open ecosystem that facilitates the seamless ex
 
 </div>
 
-
-
-
-
-<!-- section 4  -->
-<div class="container mx-auto">
-
-{% row( style="center mtop") %}
-
-
-#### <span class="green_text uppercase">SIX EXITS TO DATE, MULTIPLE WORLD RECORDS</span>
-
-## **<span class="blue">30+ Years</span> Of Technology Development**
-
-{% end %}
-
-<br>
-
-{% row( style="center mbottom") %}
-
-<div class="myscale border rounded-md p-4">
-
-![Image](datacenter.png#mx-auto)
-
-
-</div>
-
-|||
-
-<div class="myscale border rounded-md p-4">
-
-![Image](dedigate.png#mx-auto)
-
-</div>
-
-|||
-
-<div class="myscale border rounded-md p-4">
-
-![Image](hostbasket.png#mx-auto)
-
-
-</div>
-
-|||
-
-<div class="myscale border rounded-md p-4">
-
-![Image](qlayer.png#mx-auto)
-
-
-</div>
-
-|||
-
-<div class="myscale border rounded-md p-4">
-
-![Image](amplidata.png#mx-auto)
-
-
-</div>
-
-{% end %}
-
-</div>
 
 
 
@@ -361,7 +296,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 </div>
 
 <div class="w-1/3 mb-6 md:mb-0 px-2 md:px-12 m-2 lg:m-0 road_border">
-  <h2 class="mt-0 font-semibold">JOIN IN</h2>
+  <h3 class="mt-0 font-semibold">JOIN IN</h3>
   <div class="my-4">
     <a href="https://manual.grid.tf" target="_blank">
      <h4 class="green_text font-normal my-0">Manuals</h4>
