@@ -594,6 +594,10 @@ header {
     height: auto;
   }
 
+  .card_h {
+         height: auto !important;
+  }
+
   .key_card{
     height: auto;
   }
