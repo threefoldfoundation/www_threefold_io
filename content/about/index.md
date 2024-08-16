@@ -50,7 +50,7 @@ Imagine a cloud built by everyone, for everyone—a place where we collectively 
 
 <br>
 
-![Image](about_journey.png#mx-auto)
+![Image](about_journey2.png#mx-auto)
 
 {% end %}
 
@@ -100,15 +100,15 @@ We are at the start of a journey to millions of nodes and will launch soon the f
 
 <br>
 
-Our mission is to empower individuals and organizations with secure, private, and autonomous access to computing resources, ensuring fair cloud access for everyone.
+Our mission is to empower individuals and organizations with secure, private, and <br>autonomous access to computing resources, ensuring fair cloud access for everyone.
 
 <br>
 
-We envision a global, community-driven network of interconnected servers and nodes—the grid—that democratizes computing power and storage. This decentralized infrastructure fosters innovation, digital sovereignty, and an equitable internet, where users fully control their data and interactions. 
+We envision a global, community-driven network of interconnected servers and nodes—the grid—that democratizes <br>computing power and storage. This decentralized infrastructure fosters innovation, digital sovereignty, and an equitable internet, where users fully control their data and interactions. 
 
 <br>
 
-Through our token, we support an open ecosystem that facilitates the seamless exchange of internet capacity, fostering a new digital era of sovereignty, security, privacy, and inclusivity.
+Through our token, we support an open ecosystem that facilitates the seamless exchange of internet capacity, <br>fostering a new digital era of sovereignty, security, privacy, and inclusivity.
 
 {% end %}
 

@@ -17,7 +17,7 @@ extra:
 
 |||
 
-#### <span class="green_text">Deploy On The Grid</span>
+#### <span class="green_text">DEPLOY ON THE GRID</span>
 
 ## **Build <span class="blue">Your Own</span><br> Digital Experiences**
 
@@ -42,7 +42,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 
 {% row( style="center semiNarrow") %}
 
-#### <span class="blue">WHAT’S POSSIBLE WITH THREEFOLD?</span>
+#### <span class="blue">START BUILDING TODAY</span>
 
 ## **Deploy on the Grid**
 
@@ -94,7 +94,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 
 #### <span class="green_text uppercase">APPLICATIONS AND DEPLOYMENTS
 
-## **Endless Possibilities on the Grid**
+## **Endless Possibilities on the Cloud**
 
 The grid offers a wide range of ready-to-use applications and developers can build any type of app! Deployment configurations are endless. Here is a glimpse of the possibilities!
 

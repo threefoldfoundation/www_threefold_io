@@ -180,11 +180,11 @@ Our technology operates close to the hardware, enabling most Web2, Web3, <br>and
 
 {% row( style="center mtop between") %}
 
-<h4 class="blue">Building on a Proven Technology</h4>
+<h4 class="blue">BUILDING ON A PROVEN TECHNOLOGY</h4>
 
 ## **What does it mean to be a truly <span class="blue">Decentralized</span> <span class="green_text">Autonomous</span> Cloud for everyone?**
 
-The ThreeFold Grid is a robust and production-ready ecosystem.
+The ThreeFold Cloud is a robust and production-ready ecosystem.
 
 <br>
 
@@ -346,9 +346,8 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 <br>
 
-##### **A Sovereign Internet in Tanzania**
 
-Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania.
+##### Announcing August's Community Calls
 
 |||
 
@@ -356,19 +355,8 @@ Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the 
 
 <br>
 
-##### **A Cooperative Model is Coming**
+##### From the ground up: Three inventions that make ThreeFold possible
 
-Cooperatives represent a well-tested form of collective organization and democratic governance.
-
-|||
-
-[![Image](latest4.png)](/blog/edge-computing/)
-
-<br>
-
-##### **Meeting Digital Demand at the Edge**
-
-Learn what edge computing means and what it offers compared to centralized cloud infrastructures.
 
 |||
 

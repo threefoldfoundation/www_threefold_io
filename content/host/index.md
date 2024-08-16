@@ -14,7 +14,7 @@ insert_anchor_links: "left"
 
 |||
 
-#### <span class="green_text">Host the Cloud</span>
+#### <span class="green_text">HOST THE CLOUD</span>
 
 ## **<span class="blue">Empower</span> Human <br>Potential**
 
@@ -35,7 +35,7 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 
 {% row(style="center narrow mtop") %}
 
-## How It Works
+## **How It Works**
 
 #### <span class="blue">Three simple steps</span> enabling anyone to become a cloud service provider.
 
@@ -96,11 +96,12 @@ After your node is set up and verified, you’ll be rewarded for the capacity th
 
 {% row( style="center between mtop") %}
 
+
+#### <span class="green_text"> DOCUMENTATION & KNOWLEDGE</span>
+
 ## **Kickstart Your Journey**
 
-#### <span class="blue"> Documentation and Knowledge</span>
-
-You can become a cloud service provider and bring local capacity <br> to where people need it most while earning for your contributions.
+You can become a <span class="blue">cloud service provider</span> and bring local capacity <br> to where people need it most while earning for your contributions.
 
 {% end %}
 
@@ -168,7 +169,7 @@ Read our informative guide on how to set up your own 3Node. Optimize your own sp
 
 ## **The ThreeFold <span class="green_text">Dashboard</span>**
 
-The ThreeFold Dashboard is today's <span class="blue">go-to-interface</span> for hosters (farmers) and grid users. Create, update and monitor your nodes, estimate your potential earnings, explore and find available nodes on the grid, and much more.
+The ThreeFold Dashboard is today's <span class="blue">go-to-interface</span> for hosters (farmers) and grid users. <br>Create, update and monitor your nodes, estimate your potential earnings, explore and find available nodes on the grid, and much more.
 
 {% end %}
 
@@ -191,7 +192,7 @@ The ThreeFold Dashboard is today's <span class="blue">go-to-interface</span> for
 
 |||
 
-## **For <span class="blue">People</span>, For the <span class="blue">Planet</span>, & For <span class="blue">You</span>**
+## **For <span class="blue">People</span>, For the <span class="green_text">Planet</span>, & For <span class="blue">You</span>**
 
 Our global peer-to-peer connected cloud ensures that data is taking the shortest possible route.  It's not just about boosting efficiency; it's about minimizing the environmental impact of data transfer.
 
