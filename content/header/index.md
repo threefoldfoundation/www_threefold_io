@@ -11,7 +11,7 @@ extra:
 - [Technology]("/technology")
 - [Host]("/host")
 - [Deploy]("/deploy") 
-- [TFT]("/tft")
+- [Tokens]("/tokens")
 - Info
 
 
