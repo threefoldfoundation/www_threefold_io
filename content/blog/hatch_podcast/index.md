@@ -12,10 +12,10 @@ extra:
     imgPath: hatch_podcast.png
 ---
 
-### Introduction 
+#### Introduction 
 In a recently published collaborative episode between HATCH, ThreeFold, and Hub Culture's Chronicle Discussions, innovative minds converged in Zanzibar, Tanzania, to delve into the intersections of technology, digital sovereignty, and the evolving landscape of artificial intelligence (AI).
 
-### African Regenerative Futures - Part 1
+#### African Regenerative Futures - Part 1
 Led by Tate Chamberlain, the conversation featured Stan Stalnaker (Founder and CEO of Hub Culture), Kristof de Spiegeleer (co-founder of ThreeFold), and Kalebu Gwalugano (Founder and CEO of Sarufi), each offering unique perspectives on the open-source Internet, the future of digital communities, AI development, and data sovereignty.
 
 <br/>
