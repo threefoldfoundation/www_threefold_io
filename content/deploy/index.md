@@ -92,7 +92,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 
 {% row( style="center mtop narrow") %}
 
-#### <span class="green_text uppercase">APPLICATIONS AND DEPLOYMENTS
+#### <span class="green_text uppercase">APPLICATIONS AND DEPLOYMENTS</span>
 
 ## **Endless Possibilities on the Cloud**
 

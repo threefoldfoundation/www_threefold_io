@@ -65,7 +65,7 @@
 
             <div class="hidden md:inline-block md:order-last">
                 <div class="inline-flex">
-                  <ul class="list-none inline-flex mt-5 mr-4 mx-auto">
+                  {# <ul class="list-none inline-flex mt-5 mr-4 mx-auto">
                     <li class="ml-4">
                       <a href="https://t.me/threefoldnews" target="_blank" class="text-black">
                         <svg
@@ -83,7 +83,7 @@
                       </a>
                     </li>
         
-                    {# <li class="ml-4">
+                    <li class="ml-4">
                       <a
                         href="javascript:;"
                         onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
@@ -105,9 +105,10 @@
                           ></path>
                         </svg>
                       </a>
-                    </li> #}
-                  </ul>
-                  <div class="rounded-full border-2 mt-1 border-gray-400">
+                    </li> 
+                  </ul> #}
+                  <a href="/node"><button class="px-6 green">Get Node</button></a>
+                  {# <div class="rounded-full border-2 mt-1 border-gray-400">
                     <a href="https://www.manual.grid.tf/documentation/threefold_token/buy_sell_tft/tft_lobstr/tft_lobstr_short_guide.html" target="_blank" class="mt-2">
                       <img
                         src="{{ get_url(path=section.extra.button_Path) }}"
@@ -116,7 +117,7 @@
                         alt=""
                       />
                     </a>
-                  </div>
+                  </div> #}
                 </div>
               </div>
             </div>
@@ -203,11 +204,12 @@
                             {{section.description}}
                           </p>
                           {% include "partials/socialLinks.html" %}
-                      </div>
+                      </div> #}
+                      <a class="ml-6" href="/node"><button class="px-6 green">Get Node</button></a>
                     </nav>                    
-                </div> #}
-            
-        </div>
+                </div>
+                
+          </div>
         
         </div>
     </div>
