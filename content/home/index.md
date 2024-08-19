@@ -26,12 +26,12 @@ Together we are creating a cloud for everyone, owned by everyone.
 
 <br>
 
-<!-- <button class="blue_b">[Host The Cloud](/host)</button> <button class="green">[Deploy](https://dashboard.grid.tf)</button>  -->
+<button class="blue_b">[Host The Cloud](/host)</button> <button class="green">[Deploy](https://dashboard.grid.tf)</button> 
 
 
 |||
 
-![Image](home_here.png)
+![Image](home_hero.png)
 
 {% end %}
 
@@ -327,30 +327,115 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 
 
-<!-- section 8 (news) -->
+<!-- section 9 (Ecosystem) -->
+
+<div class="container mx-auto">
+
+{% row( style="center mtop narrow") %}
+
+## **Ecosystem**
+
+### <span class="blue">**Utilization Partners**</span>
+
+ThreeFold’s decentralized autonomous cloud will empower many projects and digital experiences as we grow. Here are some of the first projects to come alive.
+
+{% end %}
+
+{% row( style="semiNarrow") %}
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_social.png)](/partners/social-network/)
+
+
+<div class="p-6 lg:p-3 mycard">
+
+#### **Social Network**
+
+
+Earth Staking’s Social Network is the first Bitcoin Staking Layer 2 on Earth, collaborating with ThreeFold to improve security, scalability, and energy-efficiency.
+        
+
+</div>
+</div>
+
+|||
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_ourworld.png)](/partners/our-world-free-zone/)
+
+
+
+<div class="p-6 lg:p-3 mycard">
+
+#### **Our World Free Zone**
+
+
+ThreeFold is working with ZICTIA, on behalf of the Zanzibar government, to create the world’s first 100% Digital Free Zone – accessible and affordable for all.
+        
+
+</div>
+</div>
+
+|||
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](partner_sikana.png)](/partners/sikana/)
+
+<div class="p-6 lg:p-3 mycard">
+
+#### **Sikana**
+
+
+Sikana is on a mission to empower individuals with practical skills through free educational videos – local content in local languages on top of local infrastructure.
+        
+
+</div>
+</div>
+
+{% end %}
+
+<br>
+
+{% row( style="center") %}
+
+<button class="blue_b">[Learn More](/partners)</button>
+
+{% end %}
+
+
+<br>
+
+</div>
+
+
+
+<!-- section 10 (news) -->
 
 <div class="rounded_img container mx-auto">
 
 {% row( style="mtop semiNarrow") %}
 
 ## **What’s new?**
-#### <span class="blue">Latest ThreeFold Updates</span>
+#### <span class="blue">ThreeFold Top News</span>
 
 {% end %}
 
-<br>
+
 
 {% row( style="mbottom semiNarrow") %}
 
 <div class="rounded_img">
 
-[![Image](aug_community_calls.png)](/newsroom/aug-community-calls/)
+[![Image](sovereigndy.png)](/newsroom/duniayetulaunchdar/)
 
 <br>
 
-<p class="white-gray font-normal">NEWS</p> 
 
-##### Announcing August's Community Calls 
+
+##### Sovereign Internet: A game changer for Tanzania 
 
 </div>
 
@@ -358,13 +443,13 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 
 
-[![Image](evolution_of_the_internet.png)](/blog/eveloution-of-the-internet/)
+[![Image](freezone_anouncement.png)](/newsroom/freezone-anouncement/)
 
 <br>
 
-<p class="white-gray font-normal">BLOG</p>
 
-##### The Evolution of the Internet: From Free to Controlled, and Back Again
+
+##### ThreeFold signs agreement with Zanzibar government for Digital Free Zone
 
 |||
 
