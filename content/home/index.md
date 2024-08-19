@@ -329,7 +329,7 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 <!-- section 8 (news) -->
 
-<div class="container mx-auto">
+<div class="rounded_img container mx-auto">
 
 {% row( style="mtop semiNarrow") %}
 
@@ -342,14 +342,17 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 {% row( style="mbottom semiNarrow") %}
 
+<div class="rounded_img">
+
 [![Image](aug_community_calls.png)](/newsroom/aug-community-calls/)
 
 <br>
 
-<p class="white-gray font-normal">NEWS</p>
+<p class="white-gray font-normal">NEWS</p> 
 
-##### Announcing August's Community Calls
+##### Announcing August's Community Calls 
 
+</div>
 
 |||
 
@@ -367,7 +370,7 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 
 
-<div class="pl-6 road_border">
+<div class="pl-12 road_border">
 <h3 class="mt-0 font-semibold">JOIN IN</h3>
 
   <div class="my-4">
@@ -421,5 +424,20 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
       border-left: 1px solid #cbcbcb;
 
     }
+
+
+
+    @media (max-width: 480px) {
+
+
+ .road_border{
+    
+      border-left: 0px solid #cbcbcb;
+
+    }
+
+    }
+
+
 
   </style>
