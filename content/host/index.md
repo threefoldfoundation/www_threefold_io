@@ -22,7 +22,7 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 
 <br>
 
-<button class="green">[Get A Node](https://manual.grid.tf/documentation/threefold_token/buy_sell_tft/buy_sell_tft.html)</button>
+<button class="green">[Get A Node](/node)</button>
 <button class="blue_b">[Manual](https://manual.grid.tf/)</button>
 
 {% end %}
@@ -180,7 +180,7 @@ The ThreeFold Dashboard is today's <span class="blue">go-to-interface</span> for
 <br>
 
 <button class="green">[Visit the Dashboard](https://dashboard.grid.tf/)</button>
-<button class="blue_b">[Dasboard walkthrough](https://dashboard.grid.tf/)</button>
+<!-- <button class="blue_b">[Dasboard walkthrough](https://dashboard.grid.tf/)</button> -->
 
 {% end %}
 

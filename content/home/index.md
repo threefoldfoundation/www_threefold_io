@@ -82,7 +82,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 <br>
 
 <button class="blue_b">[Get A Node](/node)</button>
-<button class="green">[Build A Node](https://manual.grid.tf/knowledge_base/farming/farming_reward.html)</button>
+<button class="green">[Build A Node](https://manual.grid.tf/documentation/farmers/3node_building/3_set_hardware.html?highlight=diy%20node#introduction)</button>
 
 |||
 
@@ -164,7 +164,7 @@ Our technology operates close to the hardware, enabling most Web2, Web3, <br>and
 
 <br>
 
-<button class="green">[Learn More](https://dashboard.grid.tf)</button>
+<button class="green">[Learn More](/about)</button>
 
 {% end %}
 

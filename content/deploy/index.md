@@ -70,7 +70,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 {% row( style="mbottom center semiNarrow") %}
 
 <button class="green">[Deploy Now](https://dashboard.grid.tf)</button> 
-<button class="blue_b">[Dive Deeper](https://manual.grid.tf/documentation/system_administrators/system_administrators.html)</button>
+<button class="blue_b">[Dive Deeper](https://manual.grid.tf/documentation/dashboard/deploy/applications.html)</button>
 
 
 {% end %}
