@@ -342,21 +342,26 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 {% row( style="mbottom semiNarrow") %}
 
-[![Image](latest1.png)](/blog/dunia-yetu)
+[![Image](aug_community_calls.png)](/newsroom/aug-community-calls/)
 
 <br>
 
+<p class="white-gray font-normal">NEWS</p>
 
 ##### Announcing August's Community Calls
 
+
 |||
 
-[![Image](latest2.png)](/blog/threefold-cooperative)
+
+
+[![Image](evolution_of_the_internet.png)](/blog/eveloution-of-the-internet/)
 
 <br>
 
-##### From the ground up: Three inventions that make ThreeFold possible
+<p class="white-gray font-normal">BLOG</p>
 
+##### The Evolution of the Internet: From Free to Controlled, and Back Again
 
 |||
 
@@ -367,19 +372,19 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
   <div class="my-4">
   <a href="https://manual.grid.tf" target="_blank">
-     <h4 class="green_text font-normal my-0">Manuals</h4>
+     <h4 class="text-xl green_text font-normal my-0">Manuals</h4>
      <p class="white-gray font-normal">Dive deeper into our technology</p>
      </a>
      </div>
       <div class="my-4">
       <a href="https://threefoldfaq.crisp.help/en/" target="_blank">
-     <h4 class="green_text font-normal my-0">Support</h4>
+     <h4 class="text-xl green_text font-normal my-0">Support</h4>
      <p class="white-gray font-normal">Get assistance from our Support Team</p>
      </a>
      </div>
        <div class="my-4">
        <a href="/community" target="_blank">
-     <h4 class="green_text font-normal my-0">Community</h4>
+     <h4 class="text-xl green_text font-normal my-0">Community</h4>
      <p class="white-gray font-normal">Be part of our journey and participate</p>
      </a>
      </div>
