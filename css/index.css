@@ -223,7 +223,7 @@ background-color:#5596f5 !important;
 
 .key_card{
 
-  height: 210px;
+  height: 250px;
 
 }
 
@@ -592,6 +592,10 @@ header {
 
   .mytest{
     height: auto;
+  }
+
+  .card_h {
+         height: auto !important;
   }
 
   .key_card{

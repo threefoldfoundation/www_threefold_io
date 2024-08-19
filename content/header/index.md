@@ -8,10 +8,10 @@ extra:
 ---
 
 - [About]("/about")
-- [Deploy]("/deploy")
+- [Technology]("/technology")
 - [Host]("/host")
-- [Utilization]("/utilization")
-- [TFT]("/tft")
+- [Deploy]("/deploy") 
+- [Tokens]("/tokens")
 - Info
 
 
