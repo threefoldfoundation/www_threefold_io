@@ -170,7 +170,7 @@ per node
 
 {% row( style="center mbottom semiNarrow") %}
 
-<button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button> 
+<!-- <button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button>  -->
 
 {% end %}
 
@@ -178,9 +178,12 @@ per node
 
 </div>
 
+<div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+
+
 
 <!-- section 2 price -->
-
 
 
 <div class="container mx-auto">
