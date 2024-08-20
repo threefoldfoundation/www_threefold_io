@@ -54,7 +54,7 @@ Farming is the act of providing compute, storage and network resources to the gr
 
 <br>
 
-{% row( style="mbottom semiNarrow") %}
+{% row( style="semiNarrow") %}
 
 <div class="rounded_img border-2 rounded-lg p-4 bg-white shadow-sm">
 
@@ -85,7 +85,7 @@ per node
 
 <div class="text-center">
 
-<button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button> 
+
 
 
 </div>
@@ -123,7 +123,7 @@ per node
 
 <div class="text-center">
 
-<button class="blue_b mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button> 
+ 
 
 </div>
 
@@ -160,11 +160,17 @@ per node
 
 <div class="text-center">
 
+
+
+</div>
+
+</div>
+
+{% end %}
+
+{% row( style="center mbottom semiNarrow") %}
+
 <button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button> 
-
-</div>
-
-</div>
 
 {% end %}
 
