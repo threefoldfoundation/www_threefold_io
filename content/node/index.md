@@ -19,7 +19,7 @@ extra:
 
 |||
 
-#### <span class="green_text">FARMING</span>
+#### <span class="text-xl subtitle">FARMING</span>
 
 ## **Become a Cloud <br>Service Provider**
 
@@ -79,12 +79,14 @@ per node
 - 4 Logical CPU Cores
 - Up to 1,500 INCA/month for utilization.
 - For first 5,000 nodes, 250 INCA/month additional for first 24 months
+- Farmers are rewarded by 80% of the fees as paid by the Cloud Users
 
 <br>
 
 <div class="text-center">
 
-<button class="green mt-6">[Get the Nodes](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=www.canva.com)</button> 
+<button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button> 
+
 
 </div>
 
@@ -96,7 +98,7 @@ per node
 
 <div class="text-center">
 
-##### **platinum**
+##### **PLATINUM**
 
 <p class="gray_color">Optimal choice for generic purpose cloud</p>
 
@@ -115,12 +117,13 @@ per node
 - 16 Logical CPU Cores
 - Up to 6,000 INCA/month for utilization.
 - For first 1,000 nodes, 1,000 INCA/month additional for first 24 months
+- Farmers are rewarded by 80% of the fees as paid by the Cloud Users
 
 <br>
 
 <div class="text-center">
 
-<button class="blue_b mt-6">[Get the Nodes](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=www.canva.com)</button> 
+<button class="blue_b mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button> 
 
 </div>
 
@@ -151,12 +154,13 @@ per node
 - RTX 4900 GPU
 - Up to 12,000 INCA/month for utilization.
 - For first 1,000 nodes, 2,000 INCA/month additional for first 24 months
+- Farmers are rewarded by 80% of the fees as paid by the Cloud Users
 
 <br>
 
 <div class="text-center">
 
-<button class="green mt-6">[Get the Nodes](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=www.canva.com)</button> 
+<button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button> 
 
 </div>
 
@@ -179,7 +183,7 @@ per node
 
 ## **Nodes Leading at the Edge**
 
-#### <span class="green_text">Discover how our nodes provide a groundbreaking, reliable and robust technology</span>
+#### <span class="blue">Discover how our nodes provide a groundbreaking, reliable and robust technology</span>
 
 
 {% end %}
@@ -268,6 +272,7 @@ per node
 
 </div>
 
+<div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 <style>
 .gray_color{

@@ -19,9 +19,9 @@ extra:
 
 |||
 
-#### <span class="green_text">MEDIUMS OF EXCHANGE</span>
+#### <span class="text-xl subtitle">MEDIUMS OF EXCHANGE</span>
 
-## **Empowering the Ecosystem**
+## **Compute is the New Currency**
 
 <br>
 
@@ -30,7 +30,7 @@ For hosting the cloud, you earn tokens. For deploying solutions, you use them. W
 <br>
 
 
-<button class="blue_b">[Buy Tokens](https://manual.grid.tf/documentation/threefold_token/threefold_token.html#buy-and-sell-tft)</button>
+<!-- <button class="blue_b">[Buy Tokens](https://manual.grid.tf/documentation/threefold_token/threefold_token.html#buy-and-sell-tft)</button> -->
 
 
 {% end %}

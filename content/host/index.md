@@ -14,7 +14,7 @@ insert_anchor_links: "left"
 
 |||
 
-#### <span class="green_text">HOST THE CLOUD</span>
+#### <span class="text-xl subtitle">HOST THE CLOUD</span>
 
 ## **<span class="blue">Empower</span> Human <br>Potential**
 

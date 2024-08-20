@@ -26,7 +26,7 @@ Together we are creating a cloud for everyone, owned by everyone.
 
 <br>
 
-<button class="blue_b">[Host The Cloud](/host)</button> <button class="green">[Deploy](https://dashboard.grid.tf)</button> 
+<button class="blue_b">[Host The Cloud](/host)</button> <button class="green">[Deploy](/node)</button> 
 
 
 |||
@@ -250,7 +250,7 @@ The ThreeFold Cloud is a robust and production-ready ecosystem.
 
 ## **Advantages of a Decentralized Cloud**
 
-#### <span class="green_text">How is bringing data closer to the end-user beneficial for everyone?</span>
+#### <span class="blue">How is bringing data closer to the end-user beneficial for everyone?</span>
 
 {% end %}
 
@@ -258,7 +258,7 @@ The ThreeFold Cloud is a robust and production-ready ecosystem.
 
 {% row( style="center semiNarrow") %}
 
-![Image](privacy.png#small#mx-auto)
+![Image](privacy_security.png#social#mx-auto)
 
 <br>
 
@@ -268,7 +268,7 @@ Users maintain control over their data and minimize the risk of data breaches by
 
 |||
 
-![Image](sovereignty.png#small#mx-auto)
+![Image](data_sovereignity.png#social#mx-auto)
 
 <br>
 
@@ -278,7 +278,7 @@ Enables nations and individuals to control their Internet capacity, promoting di
 
 |||
 
-![Image](performance.png#small#mx-auto)
+![Image](performance.png#social#mx-auto)
 
 <br>
 
@@ -291,7 +291,7 @@ By processing data closer to users, it reduces latency and improves real-time re
 
 {% row( style="mbottom center semiNarrow") %}
 
-![Image](efficiency.png#small#mx-auto)
+![Image](cost_efficiency.png#social#mx-auto)
 
 <br>
 
@@ -302,7 +302,7 @@ Reduces costs by minimizing data transmission over centralized networks.
 
 |||
 
-![Image](scalability.png#small#mx-auto)
+![Image](scalability.png#social#mx-auto)
 
 <br>
 

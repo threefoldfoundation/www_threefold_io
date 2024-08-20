@@ -5,7 +5,7 @@ template: "page.html"
 insert_anchor_links: "left"
 extra:
   author: Your name here
-  imgPath: about/people.png
+  imgPath: about/about_hero.png
 ---
 
 <!-- section 1 (header) -->
@@ -18,7 +18,7 @@ extra:
 
 |||
 
-#### <span class="green_text uppercase">a credible alternative to centralized clouds</span>
+#### <span class="text-xl subtitle">a credible alternative to centralized clouds</span>
 
 ## **Collaborative & Sovereign**
 
@@ -26,8 +26,8 @@ Imagine a cloud built by everyone, for everyone—a place where we collectively 
 
 <br>
 
-<button class="blue_b">[Host the cloud](/host)</button>
-<button class="green">[Deploy](/deploy)</button>
+<!-- <button class="blue_b">[Host the cloud](/host)</button>
+<button class="green">[Deploy](/deploy)</button> -->
 
 {% end %}
 

@@ -17,7 +17,7 @@ extra:
 
 |||
 
-#### <span class="green_text">DEPLOY ON THE GRID</span>
+#### <span class="text-xl subtitle">DEPLOY ON THE GRID</span>
 
 ## **Build <span class="blue">Your Own</span><br> Digital Experiences**
 

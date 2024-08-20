@@ -11,7 +11,7 @@ insert_anchor_links: "left"
 
 {% row(style="header reverse") %}
 
-#### <span class="green_text uppercase">The First Experiences</span>
+#### <span class="text-xl subtitle">The First Experiences</span>
 
 ## **Utilization & <span class="blue">Ecosystem</span>**
 
