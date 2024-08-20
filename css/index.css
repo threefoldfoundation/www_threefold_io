@@ -260,7 +260,7 @@ background-color:#5596f5 !important;
   h4 {
     @apply text-xl lg:text-2xl font-normal tracking-wider;
     font-family: "Lato", sans-serif !important;
-    font-weight: 600 !important;
+    
   }
   h5 {
     @apply text-lg my-1 tracking-normal font-semibold;
