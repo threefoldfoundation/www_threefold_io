@@ -244,7 +244,7 @@ Our technology operates close to the hardware, enabling most Web2, Web3, <br>and
 
 {% row( style="center semiNarrow") %}
 
-![Image](privacy_security.png#small#mx-auto)
+![Image](icon_privacy.png#tft_img#mx-auto)
 
 <br>
 
@@ -254,7 +254,7 @@ Users maintain control over their data and minimize the risk of data breaches by
 
 |||
 
-![Image](data_sovereignity.png#small#mx-auto)
+![Image](icon_sovereignty.png#tft_img#mx-auto)
 
 <br>
 
@@ -264,7 +264,7 @@ Enables nations and individuals to control their Internet capacity, promoting di
 
 |||
 
-![Image](icon_performance.png#social#mx-auto)
+![Image](icon_performance.png#tft_img#mx-auto)
 
 <br>
 
@@ -277,7 +277,7 @@ By processing data closer to users, it reduces latency and improves real-time re
 
 {% row( style="mbottom center semiNarrow") %}
 
-![Image](cost_efficiency.png#small#mx-auto)
+![Image](icon_cost.png#tft_img#mx-auto)
 
 <br>
 
@@ -288,7 +288,7 @@ Reduces costs by minimizing data transmission over centralized networks.
 
 |||
 
-![Image](scalability.png#social#mx-auto)
+![Image](icon_scalability.png#tft_img#mx-auto)
 
 <br>
 
@@ -298,7 +298,7 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 
 |||
 
-![Image](green.png#social#mx-auto)
+![Image](icon_green.png#tft_img#mx-auto)
 
 <br>
 
