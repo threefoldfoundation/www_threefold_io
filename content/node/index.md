@@ -19,13 +19,13 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">FARMING</span>
+#### <span class="text-xl subtitle">A CLOUD ENGINE FOR THE NEW INTERNET</span>
 
-## **Become a Cloud <br>Service Provider**
+## **Host a Node on <br>TFGrid 4.0.**
 
 <br>
 
-Farming is the act of providing compute, storage and network resources to the grid. By deploying our nodes on the grid, you allow anyone anywhere in the world to deploy workloads on your nodes.
+Becoming a host involves providing compute, storage, and network resources to the grid. By deploying our nodes, you enable anyone, anywhere in the world, to run workloads on your nodes.  
 
 <br>
 
@@ -45,9 +45,14 @@ Farming is the act of providing compute, storage and network resources to the gr
 
 {% row( style="center mtop narrow") %}
 
-## **Internet Capacity Nodes**
+#### <span class="green_text uppercase">HOW TO PARTICATE</span>
 
-#### <span class="green_text uppercase">A Cloud Engine for the New Internet</span>
+## **Host & Earn <span class="blue">$INCA**</span>
+
+The only way to get access to $INCA is to become a hoster on TF Grid v4. 
+Sign up to get a v4 node
+
+
 
 
 {% end %}

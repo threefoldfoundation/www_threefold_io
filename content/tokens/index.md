@@ -21,11 +21,11 @@ extra:
 
 #### <span class="text-xl subtitle">MEDIUMS OF EXCHANGE</span>
 
-## **Compute is the New Currency**
+## **Compute is the <br> Currency of the Future**
 
 <br>
 
-For hosting the cloud, you earn tokens. For deploying solutions, you use them. Within ThreeFold, tokens are vital for facilitating peer-to-peer transactions between participants and catalyzing the growth of the ecosystem.
+For hosting the cloud, you earn tokens. For deploying solutions, you use them. Within ThreeFold, tokens are vital for facilitating peer-to-peer transactions between participants and catalyzing the growth of the ecosystem. Take part in a market worth trillions and join a new digital era today.
 
 <br>
 
@@ -91,7 +91,7 @@ Earn tokens for the capacity you provide to the ThreeFold Cloud.
 
 {% row( style="mbottom center semiNarrow") %}
 
-<button class="green">[Become a Farmer](https://manual.grid.tf/documentation/farmers/farmers.html)</button> 
+<button class="green">[Become a Farmer](https://www.manual.grid.tf/documentation/farmers/farmers.html)</button> 
 
 {% end %}
 
@@ -156,7 +156,7 @@ Users pay utilization fees to rent and use compute, storage and network capacity
 
 {% row( style="mtop center semiNarrow") %}
 
-## **Two Tokens to Enable <span class="blue">One Bold Vision</span>**
+## **Welcome To <span class="blue">$INCA</span>**
 
 {% end %}
 
@@ -168,19 +168,20 @@ Users pay utilization fees to rent and use compute, storage and network capacity
 
 
 
-#### <span class="blue">$TFT | VERSION 3</span>
-
-### **Driving Innovation**
-
-The ThreeFold Token ($TFT) serves as the token for ThreeFold Cloud v3. This token has been pivotal in driving ThreeFold's initial phases, playing a crucial role in both the development of the technology and the grid's initial global rollout. There is a maximum supply of 1 billion tokens which might be reached in 6 months. This milestone underscores the growth and adoption of the ThreeFold ecosystem, reflecting the project's progress since its inception. 
-
-|||
-
-#### <span class="green_text">$INCA | VERSION 4</span>
+#### <span class="blue">$INCA | VERSION 4</span>
 
 ### **Catalyzing Expansion**
 
-ThreeFold aims to expand to 1 million nodes within 2 years, introducing $INCA as the new token to facilitate this growth. $INCA rewards are distributed for capacity usage (80% to farmers), capacity provision, and hosting solutions on the ThreeFold Cloud. This new tokenomics model is designed to incentivize rapid expansion and utilization of the network. 
+**In Q4, we will formally announce TF Grid 4.0 and its corresponding token $INCA.** 
+With version 4, ThreeFold aims to expand to 1 million nodes within two years and $INCA is the token which will facilitate this growth. Its rewards are distributed for capacity usage (80% goes to farmers), capacity provisioning, and hosting solutions on the ThreeFold Cloud. This new tokenomics model is designed to incentivize rapid expansion and utilization of the network. 
+
+|||
+
+#### <span class="green_text">$TFT | VERSION 3</span>
+
+### **Driving Innovation**
+
+The ThreeFold Token ($TFT) serves as the token of our third generation. This token has been pivotal in driving ThreeFold’s initial phases, playing a crucial role in both the development of the technology and the grid’s initial rollout. There is a maximum supply of 1 billion tokens, which might be reached within six months. This milestone underscores the growth and adoption of the ThreeFold ecosystem, reflecting the project’s progress since its inception. 
 
 {% end %}
 
@@ -199,9 +200,34 @@ ThreeFold aims to expand to 1 million nodes within 2 years, introducing $INCA as
 
 
 
+
 <!-- section 5 our token -->
 
+<div class="container mx-auto">
 
+{% row( style="margin center semiNarrow") %}
+
+#### <span class="green_text">HOST TF GRID V4</span>
+ 
+## **Earn<span class="blue"> $INCA</span>**
+
+Do you want to participate?<br> 
+The only way to get access to $INCA is to become a hoster on TF Grid v4.<br>
+Sign up to get a v4 node or build your own.
+
+<br>
+
+<button class="blue_b">[Sign Up](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj)</button> 
+
+{% end %}
+
+</div>
+
+
+
+<!-- section 6 our token -->
+
+<div style="background-color:#F6F6F6">
 <div class="container mx-auto">
 
 {% row( style="mtop semiNarrow") %}
@@ -212,18 +238,19 @@ ThreeFold aims to expand to 1 million nodes within 2 years, introducing $INCA as
 
 <br>
 
-- #### **Will you support currencies like USD or EUR?**
-     In version 4 of the Cloud, users will be able to pay in TFT, INCA and fiat currencies like USD and EUR. The Liquidity pool will take care of the conversion between those currencies. Endusers will not have to understand the specifics of TFT or INCA if they don’t want to
-
-<br>
-
-- #### **Why two tokens?**
-     To rapidly achieve a million nodes, ThreeFold recognizes the importance of optimally rewarding both farmers and solution providers. The most efficient way to accomplish this is through upgraded tokenomics, requiring a new token.
+- #### **Why $INCA?**
+     $INCA is the continuation of $TFT for TF Grid v4. A new tokenomics model and reward system allows us to scale out faster.
 
 <br>
 
 - #### **How as a user can I use my $TFT and $INCA?**
-     TFT and INCA are both usable on both version of the ThreeFold Cloud. The INCA and TFT can be used to fund the INCA liquidity pool which allows conversion between USD, INCA and TFT.
+     TFT and INCA are both usable on both version of the ThreeFold Cloud.
+     The INCA and TFT can be used to fund the INCA liquidity pool which allows conversion between USD, INCA and TFT.
+
+<br>
+
+- #### **Will you support currencies like USD or EUR?**
+     In version 4 of the Cloud, users will be able to pay in TFT, INCA and fiat currencies like USD and EUR. The Liquidity pool will take care of the conversion between those currencies. Endusers will not have to understand the specifics of TFT or INCA if they don’t want to..
 
 <br>
 
@@ -245,4 +272,5 @@ ThreeFold aims to expand to 1 million nodes within 2 years, introducing $INCA as
 
 {% end %}
 
+</div>
 </div>

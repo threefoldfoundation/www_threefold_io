@@ -335,7 +335,9 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 ## **Ecosystem**
 
-### <span class="blue">**Utilization Partners**</span>
+<h4 class="blue mb-4">Utilization Partners</h4>
+
+
 
 ThreeFold’s decentralized autonomous cloud will empower many projects and digital experiences as we grow. Here are some of the first projects to come alive.
 
@@ -418,7 +420,7 @@ Sikana is on a mission to empower individuals with practical skills through free
 
 {% row( style="mtop semiNarrow") %}
 
-## **What’s new?**
+## **What’s New?**
 #### <span class="blue">ThreeFold Top News</span>
 
 {% end %}
