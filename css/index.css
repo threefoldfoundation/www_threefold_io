@@ -116,7 +116,7 @@ a img:hover{
   background-color:#58CF77 !important;
   color: #fff !important;
   text-transform: uppercase;
-  font-weight: 600 !important; 
+  /* font-weight: 600 !important;  */
 }
 
 .green{
