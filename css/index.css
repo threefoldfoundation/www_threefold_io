@@ -63,7 +63,7 @@ img[src*="#large"] {
 }
 
 img[src*="#tft_img"] {
-  width: 150px;
+  width: 100px;
   margin: auto;
 }
 
