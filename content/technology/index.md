@@ -35,7 +35,7 @@ Our unique technology enables a system which can scale to a planetary level, can
 
 #### <span class="green_text">KEY INNOVATIONS</span>
 
-## **Let's together create the <span class="blue">*Unbreakable Internet*</span>.**
+## **Together enabling the <span class="blue">*Unbreakable Internet*</span>.**
 
 {% end %}
 

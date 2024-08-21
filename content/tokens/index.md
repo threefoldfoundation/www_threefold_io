@@ -19,7 +19,7 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">MEDIUMS OF EXCHANGE</span>
+#### <span class="text-xl subtitle">THE FUTURE IS NOW</span>
 
 ## **Compute is the <br> Currency of the Future**
 
@@ -91,7 +91,7 @@ Earn tokens for the capacity you provide to the ThreeFold Cloud.
 
 {% row( style="mbottom center semiNarrow") %}
 
-<button class="green">[Become a Farmer](https://www.manual.grid.tf/documentation/farmers/farmers.html)</button> 
+<button class="green">[Become a Farmer](/host)</button> 
 
 {% end %}
 
@@ -213,11 +213,11 @@ The ThreeFold Token ($TFT) serves as the token of our third generation. This tok
 
 Do you want to participate?<br> 
 The only way to get access to $INCA is to become a hoster on TF Grid v4.<br>
-Sign up to get a v4 node or build your own.
+Sign up to get a v4 node.
 
 <br>
 
-<button class="blue_b">[Sign Up](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj)</button> 
+<div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 {% end %}
 
@@ -238,23 +238,23 @@ Sign up to get a v4 node or build your own.
 
 <br>
 
-- #### **Why $INCA?**
+- #### What is $INCA?
      $INCA is the continuation of $TFT for TF Grid v4. A new tokenomics model and reward system allows us to scale out faster.
 
 <br>
 
-- #### **How as a user can I use my $TFT and $INCA?**
+- #### How as a user can I use my $TFT and $INCA?
      TFT and INCA are both usable on both version of the ThreeFold Cloud.
      The INCA and TFT can be used to fund the INCA liquidity pool which allows conversion between USD, INCA and TFT.
 
 <br>
 
-- #### **Will you support currencies like USD or EUR?**
+- #### Will you support currencies like USD or EUR?
      In version 4 of the Cloud, users will be able to pay in TFT, INCA and fiat currencies like USD and EUR. The Liquidity pool will take care of the conversion between those currencies. Endusers will not have to understand the specifics of TFT or INCA if they don’t want to..
 
 <br>
 
-- #### **How many tokens are there now?**
+- #### How many tokens are there now?
      +-960 Million TFT have been farmed on TFGrid 3.x. We will stop farming once we hit 1 Billion. After the Billion TFT has been minted then all farming will be in $INCA. The exact tokenomics has not been defined yet, but we have multiple variations and are making simulators. We are working with tokenomics and DePIN experts to validate the possibilities.
 
 <br>

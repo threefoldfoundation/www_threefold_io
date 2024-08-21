@@ -21,7 +21,7 @@ extra:
 
 #### <span class="text-xl subtitle">A CLOUD ENGINE FOR THE NEW INTERNET</span>
 
-## **Host a Node on <br>TFGrid 4.0.**
+## **Host a Node on <br>TFGrid 4.0**
 
 <br>
 
@@ -50,10 +50,7 @@ Becoming a host involves providing compute, storage, and network resources to th
 ## **Host & Earn <span class="blue">$INCA**</span>
 
 The only way to get access to $INCA is to become a hoster on TF Grid v4. 
-Sign up to get a v4 node
-
-
-
+Sign up to get a v4 node.
 
 {% end %}
 
@@ -186,18 +183,17 @@ per node
 <div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 
-
-
 <!-- section 2 price -->
 
+<div style="background-color:#F6F6F6">
 
 <div class="container mx-auto">
 
 {% row( style="center mtop semiNarrow") %}
 
-## **Nodes Leading at the Edge**
+<h4 class="blue">GROUNDBREAKING, RELIABLE, & ROBUST TECHNOLOGY</h4>
 
-#### <span class="blue">Discover how our nodes provide a groundbreaking, reliable and robust technology</span>
+## **Nodes Leading at the Edge**
 
 
 {% end %}
@@ -244,8 +240,6 @@ per node
 
 
 |||
-
-
 
 <div class="my-4 flex flex-row items-center">
 

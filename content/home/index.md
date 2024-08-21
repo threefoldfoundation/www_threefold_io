@@ -26,7 +26,7 @@ Together we are creating a cloud for everyone, owned by everyone.
 
 <br>
 
-<button class="blue_b">[Host The Cloud](/host)</button> <button class="green">[Deploy](/node)</button> 
+<button class="blue_b">[Host The Cloud](/host)</button> <button class="green">[Deploy](/deploy)</button> 
 
 
 |||
@@ -54,7 +54,7 @@ Together we are creating a cloud for everyone, owned by everyone.
 
 {% grid_stats() %}
 
-#### Become a cloud & Internet service provider on
+<h4 class="blue">BECOME A CLOUD & INTERNET SERVICE PROVIDER ON</h4>
 
 ## **The ThreeFold Cloud**
 
@@ -93,9 +93,6 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 </div>
 </div>
 
-
-
-
 <!-- section 5 (INCA) -->
 
 <div class="container mx-auto">
@@ -111,8 +108,6 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 <h3 class="font-semibold"><span class="blue">Project IN</span>ternet <span class="blue">CA</span>pacity:
 <br>the fourth generation of the ThreeFold Grid</h3>
-
-
 
 We’ve developed robust technology that enables anyone to become a cloud and internet service provider. Our secure autonomous system is capable of self-healing without human intervention, giving users complete control over where their data and applications are hosted.
 
@@ -131,10 +126,6 @@ This project serves as the foundational layer for AI, Web2, Web3, and DePIN proj
 {% end %}
 
 </div>
-
-
-
-
 
 <!-- section 6 (COLLABORATION) -->
 
@@ -180,11 +171,9 @@ Our technology operates close to the hardware, enabling most Web2, Web3, <br>and
 
 {% row( style="center mtop between") %}
 
-<h4 class="blue">BUILDING ON A PROVEN TECHNOLOGY</h4>
+<h4 class="blue">A ROBUST AND PRODUCTION-READY ECOSYSTEM</h4>
 
 ## **What does it mean to be a truly <span class="blue">Decentralized</span> <span class="green_text">Autonomous</span> Cloud for everyone?**
-
-The ThreeFold Cloud is a robust and production-ready ecosystem.
 
 <br>
 
@@ -216,7 +205,7 @@ The ThreeFold Cloud is a robust and production-ready ecosystem.
 
 <br>
 
-**Owning the cloud has never been so easy.**
+**Participating in the cloud has never been so easy.**
 
 </div>
 
@@ -238,9 +227,6 @@ The ThreeFold Cloud is a robust and production-ready ecosystem.
 
 </div>
 
-
-
-
 <!-- section 8 (Decentralized Cloud) -->
 
 <div style="background-color:#F6F6F6">
@@ -248,9 +234,9 @@ The ThreeFold Cloud is a robust and production-ready ecosystem.
 
 {% row( style="mtop center between ") %}
 
-## **Advantages of a Decentralized Cloud**
+<h4 class="blue">BETTER FOR PEOPLE, BETTER FOR OUR PLANET</h4>
 
-#### <span class="blue">How is bringing data closer to the end-user beneficial for everyone?</span>
+## **Advantages of a Decentralized Cloud**
 
 {% end %}
 
@@ -258,7 +244,7 @@ The ThreeFold Cloud is a robust and production-ready ecosystem.
 
 {% row( style="center semiNarrow") %}
 
-![Image](privacy_security.png#social#mx-auto)
+![Image](privacy_security.png#small#mx-auto)
 
 <br>
 
@@ -268,7 +254,7 @@ Users maintain control over their data and minimize the risk of data breaches by
 
 |||
 
-![Image](data_sovereignity.png#social#mx-auto)
+![Image](data_sovereignity.png#small#mx-auto)
 
 <br>
 
@@ -278,7 +264,7 @@ Enables nations and individuals to control their Internet capacity, promoting di
 
 |||
 
-![Image](performance.png#social#mx-auto)
+![Image](icon_performance.png#social#mx-auto)
 
 <br>
 
@@ -291,7 +277,7 @@ By processing data closer to users, it reduces latency and improves real-time re
 
 {% row( style="mbottom center semiNarrow") %}
 
-![Image](cost_efficiency.png#social#mx-auto)
+![Image](cost_efficiency.png#small#mx-auto)
 
 <br>
 
@@ -312,7 +298,7 @@ As devices multiply, central data centers face data overload. Edge cloud distrib
 
 |||
 
-![Image](green.png#small#mx-auto)
+![Image](green.png#social#mx-auto)
 
 <br>
 
@@ -333,11 +319,9 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 {% row( style="center mtop narrow") %}
 
-## **Ecosystem**
+<h4 class="blue">ECOSYSTEM</h4>
 
-<h4 class="blue mb-4">Utilization Partners</h4>
-
-
+## **Utilization Partners**
 
 ThreeFold’s decentralized autonomous cloud will empower many projects and digital experiences as we grow. Here are some of the first projects to come alive.
 
@@ -420,8 +404,7 @@ Sikana is on a mission to empower individuals with practical skills through free
 
 {% row( style="mtop semiNarrow") %}
 
-## **What’s New?**
-#### <span class="blue">ThreeFold Top News</span>
+## **Top News**
 
 {% end %}
 
