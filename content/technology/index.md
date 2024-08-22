@@ -11,7 +11,7 @@ insert_anchor_links: "left"
 
 {% row(style="header reverse") %}
 
-#### <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
+#### <span class="green_text">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
 
 ## **A decentralized infrastructure stack for any digital workload**
 
@@ -19,7 +19,7 @@ Our unique technology enables a system which can scale to a planetary level, can
 
 <br>
 
-<button class="blue_b">[Dive Deeper](https://threefold.info/tech/)</button>
+<button class="blue_b">[Dive Deeper](https://manual.grid.tf/)</button>
 
 
 |||
@@ -35,13 +35,53 @@ Our unique technology enables a system which can scale to a planetary level, can
 
 #### <span class="green_text">KEY INNOVATIONS</span>
 
-## **Together enabling the <span class="blue">*Unbreakable Internet*</span>.**
+## **Let's together create the <span class="blue">*Unbreakable Internet*</span>.**
 
 {% end %}
 
 {% tabs_tech() %}
 
 # test
+
+{% end %}
+
+
+
+
+<!-- section 3  -->
+
+{% row( style="mtop center semiNarrow") %}
+
+#### <span class="blue">WHAT MAKES US UNIQUE?</span>
+
+## **Key Features**
+
+{% end %}
+
+{% row( style="mbottom center semiNarrow") %}
+
+<div class="rounded_img rounded-lg p-4 bg-gray-100 card_h">
+
+The Bare Metal Operating System can be hosted by everyone on any computer hardware and doesn’t need human intervention.
+
+</div>
+
+|||
+
+<div class="rounded_img rounded-lg p-4 bg-gray-100 card_h">
+
+The Mycelium Network is compatible with any Existing Internet connection and is capable to find the shortest path between participants (apps and people)
+
+</div>
+
+
+|||
+
+<div class="rounded_img rounded-lg p-4 bg-gray-100 card_h">
+
+The Quantum Safe Storage system is upto 10x more efficient, allows data to be stored with full control over locality, data can not be lost nor corrupted.
+
+</div>
 
 {% end %}
 
