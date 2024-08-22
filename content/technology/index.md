@@ -46,46 +46,6 @@ Our unique technology enables a system which can scale to a planetary level, can
 {% end %}
 
 
-
-
-<!-- section 3  -->
-
-{% row( style="mtop center semiNarrow") %}
-
-#### <span class="blue">WHAT MAKES US UNIQUE?</span>
-
-## **Key Features**
-
-{% end %}
-
-{% row( style="mbottom center semiNarrow") %}
-
-<div class="rounded_img rounded-lg p-4 bg-gray-100 card_h">
-
-The Bare Metal Operating System can be hosted by everyone on any computer hardware and doesn’t need human intervention.
-
-</div>
-
-|||
-
-<div class="rounded_img rounded-lg p-4 bg-gray-100 card_h">
-
-The Mycelium Network is compatible with any Existing Internet connection and is capable to find the shortest path between participants (apps and people)
-
-</div>
-
-
-|||
-
-<div class="rounded_img rounded-lg p-4 bg-gray-100 card_h">
-
-The Quantum Safe Storage system is upto 10x more efficient, allows data to be stored with full control over locality, data can not be lost nor corrupted.
-
-</div>
-
-{% end %}
-
-
 </div>
 
 <style>

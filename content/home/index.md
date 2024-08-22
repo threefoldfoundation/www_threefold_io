@@ -54,7 +54,7 @@ Together we are creating a cloud for everyone, owned by everyone.
 
 {% grid_stats() %}
 
-<h4 class="blue">BECOME A CLOUD & INTERNET SERVICE PROVIDER ON</h4>
+#### <span class="blue">BECOME A CLOUD & INTERNET SERVICE PROVIDER ON</span>
 
 ## **The ThreeFold Cloud**
 
@@ -72,7 +72,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 {% row(style="reverse margin") %}
 
-<h4 class="blue">HOST THE CLOUD</h4>
+#### <span class="blue">HOST THE CLOUD</span>
 
 ## **It starts with Nodes**
 
@@ -103,8 +103,7 @@ Provide cloud and Internet capacity in your area and become a part of the larges
 
 |||
 
-
-<h4 class="green_text">A BASE LAYER FOR DEPIN</h4>
+#### <span class="green_text">A BASE LAYER FOR DEPIN</span>
 
 <h3 class="font-semibold"><span class="blue">Project IN</span>ternet <span class="blue">CA</span>pacity:
 <br>the fourth generation of the ThreeFold Grid</h3>
@@ -135,7 +134,7 @@ This project serves as the foundational layer for AI, Web2, Web3, and DePIN proj
 
 {% row( style="center margin between") %}
 
-<h4 class="green_text">COLLABORATION, NOT COMPETITION</h4>
+#### <span class="green_text">COLLABORATION, NOT COMPETITION</span>
 
 ## **A <span class="blue">Decentralized</span> Future for Us All**
 
@@ -171,7 +170,7 @@ Our technology operates close to the hardware, enabling most Web2, Web3, <br>and
 
 {% row( style="center mtop between") %}
 
-<h4 class="blue">A ROBUST AND PRODUCTION-READY ECOSYSTEM</h4>
+#### <span class="blue">A ROBUST AND PRODUCTION-READY ECOSYSTEM</span>
 
 ## **What does it mean to be a truly <span class="blue">Decentralized</span> <span class="green_text">Autonomous</span> Cloud for everyone?**
 
@@ -234,7 +233,7 @@ Our technology operates close to the hardware, enabling most Web2, Web3, <br>and
 
 {% row( style="mtop center between ") %}
 
-<h4 class="blue">BETTER FOR PEOPLE, BETTER FOR OUR PLANET</h4>
+#### <span class="blue">BETTER FOR PEOPLE, BETTER FOR OUR PLANET</span>
 
 ## **Advantages of a Decentralized Cloud**
 
@@ -319,7 +318,7 @@ Uses local resources to cut the carbon footprint and promotes eco-friendly pract
 
 {% row( style="center mtop narrow") %}
 
-<h4 class="blue">ECOSYSTEM</h4>
+<h4 class="green_text">ECOSYSTEM</h4>
 
 ## **Utilization Partners**
 

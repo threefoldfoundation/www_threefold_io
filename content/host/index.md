@@ -97,7 +97,7 @@ After your node is set up and verified, you’ll be rewarded for the capacity th
 {% row( style="center between mtop") %}
 
 
-#### <span class="green_text"> DOCUMENTATION & KNOWLEDGE</span>
+#### <span class="blue"> DOCUMENTATION & KNOWLEDGE</span>
 
 ## **Kickstart Your Journey**
 
