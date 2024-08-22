@@ -11,7 +11,7 @@ insert_anchor_links: "left"
 
 {% row(style="header reverse") %}
 
-#### <span class="green_text">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
+#### <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
 
 ## **A decentralized infrastructure stack for any digital workload**
 
