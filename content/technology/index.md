@@ -19,7 +19,7 @@ Our unique technology enables a system which can scale to a planetary level, can
 
 <br>
 
-<button class="blue_b">[Dive Deeper](https://manual.grid.tf/)</button>
+<button class="blue_b">[Dive Deeper](https://threefold.info/tech/tech/overview.html)</button>
 
 
 |||
