@@ -63,7 +63,7 @@ img[src*="#large"] {
 }
 
 img[src*="#tft_img"] {
-  width: 150px;
+  width: 100px;
   margin: auto;
 }
 
@@ -110,6 +110,13 @@ a img:hover{
 .dropdown a{
   @apply
   px-0
+}
+
+.subtitle {
+  background-color:#58CF77 !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  /* font-weight: 600 !important;  */
 }
 
 .green{
@@ -223,7 +230,7 @@ background-color:#5596f5 !important;
 
 .key_card{
 
-  height: 210px;
+  height: 250px;
 
 }
 
@@ -251,8 +258,9 @@ background-color:#5596f5 !important;
     @apply font-normal;
   }
   h4 {
-    @apply text-xl lg:text-2xl font-normal;
+    @apply text-xl lg:text-2xl font-normal tracking-wider;
     font-family: "Lato", sans-serif !important;
+    
   }
   h5 {
     @apply text-lg my-1 tracking-normal font-semibold;
@@ -305,7 +313,8 @@ background-color:#5596f5 !important;
     color:#2E83FF;
 
   }
-
+  
+ 
  
 
 
@@ -592,6 +601,10 @@ header {
 
   .mytest{
     height: auto;
+  }
+
+  .card_h {
+         height: auto !important;
   }
 
   .key_card{

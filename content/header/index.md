@@ -4,14 +4,15 @@ insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
   logoPath: "images/black_threefold.png"
-  button_Path: "/images/gettft_white.png"
+  button_Path: "/images/gettft_node_2.png"
 ---
 
 - [About]("/about")
-- [Deploy]("/deploy")
+- [Technology]("/technology")
 - [Host]("/host")
-- [Utilization]("/utilization")
-- [TFT]("/tft")
+- [Deploy]("/deploy")
+- [Utilization]("/utilization") 
+- [Tokens]("/tokens")
 - Info
 
 

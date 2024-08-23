@@ -1,0 +1,294 @@
+---
+title: "Node"
+description: "About a decade ago, a group of passionate Internet & Cloud veterans came together to build a system." # quotation marks to allow colons where used
+template: "page.html"
+insert_anchor_links: "left"
+extra:
+  author: Your name here
+  imgPath: tfy/tft_header.png
+---
+
+<!-- section 1 (header) -->
+<div class="container mx-auto">
+
+{% row(style="header") %} 
+
+
+![Image](node_hero.png#mx-auto)
+
+
+|||
+
+#### <span class="text-xl subtitle">A CLOUD ENGINE FOR THE NEW INTERNET</span>
+
+## **Host a Node on <br>TFGrid 4.0**
+
+<br>
+
+Becoming a host involves providing compute, storage, and network resources to the grid. By deploying our nodes, you enable anyone, anywhere in the world, to run workloads on your nodes.  
+
+<br>
+
+
+{% end %}
+
+</div>
+
+
+
+
+<!-- section 2 price -->
+
+<div style="background-color:#F6F6F6">
+
+<div class="container mx-auto">
+
+{% row( style="center mtop narrow") %}
+
+#### <span class="green_text uppercase">HOW TO PARTICATE</span>
+
+## **Host & Earn <span class="blue">$INCA**</span>
+
+The only way to get access to $INCA is to become a hoster on TF Grid v4. 
+Sign up to get a v4 node.
+
+{% end %}
+
+<br>
+
+{% row( style="semiNarrow") %}
+
+<div class="rounded_img border-2 rounded-lg p-4 bg-white shadow-sm">
+
+<div class="text-center">
+
+##### **SILVER**
+
+<p class="gray_color">Optimal choice for end user utilization</p>
+
+<br>
+      
+# <span class="font-black">$499</span>
+
+per node
+
+</div>
+
+<br>
+
+- 16 GB of Memory
+- 1,000 GB of SSD
+- 4 Logical CPU Cores
+- Up to 1,500 INCA/month for utilization.
+- For first 5,000 nodes, 250 INCA/month additional for first 24 months
+- Farmers are rewarded by 80% of the fees as paid by the Cloud Users
+
+<br>
+
+<div class="text-center">
+
+
+
+
+</div>
+
+</div>
+
+|||
+
+<div class="rounded_img border-2 rounded-lg p-4 bg-white shadow-sm">
+
+<div class="text-center">
+
+##### **PLATINUM**
+
+<p class="gray_color">Optimal choice for generic purpose cloud</p>
+
+<br>
+      
+# <span class="font-black">$1999</span>
+
+per node
+
+</div>
+
+<br>
+
+- 64 GB of Memory
+- 2,000 GB of SSD + 10,000 GB of HDD
+- 16 Logical CPU Cores
+- Up to 6,000 INCA/month for utilization.
+- For first 1,000 nodes, 1,000 INCA/month additional for first 24 months
+- Farmers are rewarded by 80% of the fees as paid by the Cloud Users
+
+<br>
+
+<div class="text-center">
+
+ 
+
+</div>
+
+</div>
+
+|||
+
+<div class="rounded_img border-2 rounded-lg p-4 bg-white shadow-sm">
+
+<div class="text-center">
+
+##### **AI**
+
+<p class="gray_color">Optimal choice for AI workloads</p>
+
+<br>
+      
+# <span class="font-black">$3999</span>
+
+per node
+
+</div>
+
+<br>
+
+- 64 GB of Memory
+- 4,000 GB of SSD + 10,000 GB of HDD
+- RTX 4900 GPU
+- Up to 12,000 INCA/month for utilization.
+- For first 1,000 nodes, 2,000 INCA/month additional for first 24 months
+- Farmers are rewarded by 80% of the fees as paid by the Cloud Users
+
+<br>
+
+<div class="text-center">
+
+
+
+</div>
+
+</div>
+
+{% end %}
+
+{% row( style="center mbottom semiNarrow") %}
+
+<!-- <button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button>  -->
+
+{% end %}
+
+</div>
+
+</div>
+
+<div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+
+<!-- section 2 price -->
+
+<div style="background-color:#F6F6F6">
+
+<div class="container mx-auto">
+
+{% row( style="center mtop semiNarrow") %}
+
+<h4 class="blue">GROUNDBREAKING, RELIABLE, & ROBUST TECHNOLOGY</h4>
+
+## **Nodes Leading at the Edge**
+
+
+{% end %}
+
+<br>
+
+{% row( style="semiNarrow") %}
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](zero_icon.png#mx-auto)
+
+#### **Zero-OS Self-Healing Operating System**
+
+</div>
+
+<p class="ml-8">We like things well done and built to last, that’s why we created our own self-healing operating system, Zero-OS.<p> 
+
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](enargy_icon.png#mx-auto)
+
+#### **Energy Efficient**
+
+</div>
+
+<p class="ml-8">No one wants to pay for electricity needlessly. Our sustem uses upto 10x less energy for certain workloads compared to traditional systems.</p> 
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](data.png#mx-auto)
+
+#### **Data Sovereignty**
+
+</div>
+
+<p class="ml-8">You have now complete control over your data placement. Your data is yours, forever.</p>  
+
+
+
+|||
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](quantum.png#mx-auto)
+
+#### **Quantum Safe File System**
+
+</div>
+
+<p class="ml-8">We’re aware of the war for your data. That’s why we made QSFS, so you know your data is safe and future-proof.</p>  
+
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](sovereign.png#mx-auto)
+
+#### **Truly Sovereign and Collaborative**
+
+</div>
+
+<p class="ml-8">It’s simple: everyone can now own their own part of the internet. From the home setup to the datacenter farm.</p> 
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](mycelium.png#mx-auto)
+
+#### **Mycelium Network**
+
+</div>
+
+<p class="ml-8">Cost-efficient, locality aware and peer-to-peer, Mycelium is the network for planetary scale.</p>
+
+{% end %}
+
+</div>
+
+
+
+<style>
+.gray_color{
+     color: #9b9b9b;
+}
+
+h1{
+     margin-bottom: 0px
+}
+
+</style>
