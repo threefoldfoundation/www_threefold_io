@@ -173,7 +173,7 @@ Users pay utilization fees to rent and use compute, storage and network capacity
 ### **Catalyzing Expansion**
 
 **In Q4, we will formally announce TF Grid 4.0 and its corresponding token $INCA.** 
-With version 4, ThreeFold aims to expand to 1 million nodes within two years and $INCA is the token which will facilitate this growth. Its rewards are distributed for capacity usage (80% goes to farmers), capacity provisioning, and hosting solutions on the ThreeFold Cloud. This new tokenomics model is designed to incentivize rapid expansion and utilization of the network. 
+With version 4, ThreeFold aims to expand to a million nodes in the coming years and $INCA is the token which will facilitate this growth. Its rewards are distributed for capacity usage (80% goes to farmers), capacity provisioning, and hosting solutions on the ThreeFold Cloud. This new tokenomics model is designed to incentivize rapid expansion and utilization of the network. 
 
 |||
 
