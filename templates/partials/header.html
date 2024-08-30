@@ -2,7 +2,7 @@
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
 <header id="header-container">
-    <div class="z-10 bg-white fixed w-full top-0">
+    <div class="z-20 bg-white fixed w-full top-0">
         <div class="relative z-50 shadow">
         <div class="mx-auto flex z-50 shadow justify-between items-center px-6 sm:px-4 md:px-6 py-2 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
             <div>
@@ -65,7 +65,7 @@
 
             <div class="hidden md:inline-block md:order-last">
                 <div class="inline-flex">
-                  <ul class="list-none inline-flex mt-5 mr-4 mx-auto">
+                  {# <ul class="list-none inline-flex mt-5 mr-4 mx-auto">
                     <li class="ml-4">
                       <a href="https://t.me/threefoldnews" target="_blank" class="text-black">
                         <svg
@@ -83,7 +83,7 @@
                       </a>
                     </li>
         
-                    {# <li class="ml-4">
+                    <li class="ml-4">
                       <a
                         href="javascript:;"
                         onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
@@ -105,10 +105,11 @@
                           ></path>
                         </svg>
                       </a>
-                    </li> #}
-                  </ul>
+                    </li> 
+                  </ul> #}
+                  {# <a href="/node"><button class="px-6 green">Get Node</button></a> #}
                   <div class="rounded-full border-2 mt-1 border-gray-400">
-                    <a href="https://www.manual.grid.tf/documentation/threefold_token/buy_sell_tft/tft_lobstr/tft_lobstr_short_guide.html" target="_blank" class="mt-2">
+                    <a href="/node" class="mt-2">
                       <img
                         src="{{ get_url(path=section.extra.button_Path) }}"
                         class="mr-5"
@@ -203,11 +204,22 @@
                             {{section.description}}
                           </p>
                           {% include "partials/socialLinks.html" %}
+                      </div> #}
+
+                      <div class="rounded-full border-2 mt-4 mx-8 border-gray-400">
+                        <a href="/node" class="mt-2">
+                          <img
+                            src="/images/gettft_node_2.png"
+                            class="mr-5"
+                            style="max-width: none;"
+                            alt=""
+                          />
+                        </a>
                       </div>
                     </nav>                    
-                </div> #}
-            
-        </div>
+                </div>
+                
+          </div>
         
         </div>
     </div>
