@@ -3,17 +3,17 @@ id: 3.15_notes
 title: 📣 What's Ahead in TF Grid 3.15	
 image_caption: Aleph Event
 description: TF Grid 3.15 is coming soon, with key highlights around  50% utilization rewards for farmers, Mycelium 0.5, and grid stack evolution and more. 
-date: 2024-08-14
+date: 2024-08-29
 taxonomies:
     people: [bernadette_amanda_caster]
     tags: [tech,grid,community,event]
     news-category: [foundation]
 extra:
-    imgPath: 3.15_notes.png
+    imgPath: 315_notes.png
 
 ---
 
-development team is hard at work on version 3.15 of the ThreeFold Grid. Some key highlights are: 
+Our development team is hard at work on version 3.15 of the ThreeFold Grid. Some key highlights are: 
 
 <br/>
 
