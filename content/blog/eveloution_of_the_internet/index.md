@@ -1,5 +1,5 @@
 ---
-id: evolution_of_the_internet
+id: evloution_of_the_internet
 title: "The Evolution of the Internet: From Free to Controlled, and Back Again"
 image_caption: technology
 description: Explore the internet's evolution from a decentralized network to a controlled system, and the emerging movement to reclaim its original vision through ThreeFold.
