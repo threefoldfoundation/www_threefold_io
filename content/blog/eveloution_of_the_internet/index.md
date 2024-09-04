@@ -9,7 +9,7 @@ taxonomies:
     tags: [technology,community]
     categories: [farming,cloud,foundation]
 extra:
-    imgPath: evolution_of_the_internet.png
+    imgPath: evloution_of_the_internet.png
     isFeatured: true
 ---
 
