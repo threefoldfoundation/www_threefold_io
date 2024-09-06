@@ -21,7 +21,7 @@ Omrei introduced OurVerse, a metaverse for creating and exploring 3D environment
 
 <br/>
 
-Mik covered TF Grid updates, focusing on version 3.15 and introduced ThreeFold Docs, a simplified resource with key materials. Scott spoke about recent and upcoming demos, and Sam wrapped up with an update on the team’s on-the-ground efforts.
+Mik covered TF Grid updates, [focusing on version 3.15](https://forum.threefold.io/t/new-features-in-the-upcoming-3-15-version/4401) and introduced [ThreeFold Docs](https://docs.threefold.info/), a simplified resource with key materials. Scott spoke about recent and upcoming demos, and Sam wrapped up with an update on the team’s on-the-ground efforts.
 
 <br/>
 
