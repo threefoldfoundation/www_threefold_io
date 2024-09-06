@@ -2,8 +2,8 @@
 id: sept_5_call
 title: 📺 Watch Yesterday's Project Update
 image_caption: mainnet_upgrade_314
-description: Calling all farmers to vote on the GEP to bring grid version 3.14 to mainnet!
-date: 2024-06-24
+description: This month's update covered recent progress, OurVerse demos, TF Grid version 3.15, and much more.
+date: 2024-09-06
 taxonomies:
     people: [bernadette_amanda_caster]
     tags: [tech,grid,community]
