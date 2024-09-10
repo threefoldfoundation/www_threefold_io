@@ -47,7 +47,7 @@ We are also exploring alternative video platforms and will have updates on this 
 
 <br/>
 
-Find the full details [here](https://forum.threefold.io/t/july-2024-threefold-community-call-schedule/4380). We look forward to seeing you there!
+Find the full details [here](https://forum.threefold.io/t/community-calls-schedule-for-september-2024/4404). We look forward to seeing you there!
 
 <br/>
 
