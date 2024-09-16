@@ -2,7 +2,7 @@
 id: pulumi_demo
 title: 🍿Watch the Pulumi Demo
 image_caption: pulumi
-description: V3.13 is now on Mainnet 
+description: Scott introduces Pulumi on the grid, Mik demonstrates deploying a Micro VM, and the session ends with discussion.
 date: 2024-09-12
 taxonomies:
     people: [bernadette_amanda_caster]
