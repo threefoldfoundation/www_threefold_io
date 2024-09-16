@@ -16,4 +16,4 @@ In this demo, Scott introduces Pulumi – a powerful cloud-native Infrastructure
 
 <br/>
 
-Watch the call [here] (https://www.youtube.com/watch?v=xumrT4lqvCg), with timestamps for simple navigation, and leave your feedback or questions [here] (https://forum.threefold.io/t/watch-deploying-a-micro-vm-on-the-grid-with-pulumi/4406).
+Watch the call [here](https://www.youtube.com/watch?v=xumrT4lqvCg), with timestamps for simple navigation, and leave your feedback or questions [here](https://forum.threefold.io/t/watch-deploying-a-micro-vm-on-the-grid-with-pulumi/4406).
