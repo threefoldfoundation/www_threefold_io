@@ -22,9 +22,9 @@
     <meta property="og:image" content="{{ section.extra.imgPath }}">
     <meta property="twitter:image" content="{{ section.extra.imgPath }}">
     {% elif page.extra.imgPath %}
-    <meta name="image" content="{{page.permalink}}{{ page.extra.imgPath }}">
-    <meta property="og:image" content="{{page.permalink}}{{ page.extra.imgPath }}">
-    <meta property="twitter:image" content="{{page.permalink}}{{ page.extra.imgPath }}">
+    <meta name="image" content="{{ page.extra.imgPath }}">
+    <meta property="og:image" content="{{ page.extra.imgPath }}">
+    <meta property="twitter:image" content="{{ page.extra.imgPath }}">
     {%endif%}
   
   {%if section.description%}
