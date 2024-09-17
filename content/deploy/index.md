@@ -1,11 +1,10 @@
 ---
 title: "Deploy"
-description: "About a decade ago, a group of passionate Internet & Cloud veterans came together to build a system." # quotation marks to allow colons where used
+description: "ThreeFold has developed extensive technology and tools for developers and system administrators." # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"
 extra:
-  author: Your name here
-  imgPath: about/deploy_hero.png
+  imgPath: deploy_hero.png
 ---
 
 <!-- section 1 (header) -->

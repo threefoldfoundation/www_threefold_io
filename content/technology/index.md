@@ -1,7 +1,10 @@
 ---
 title: "Technology"
+description: "Our unique technology enables a system that can scale to a planetary level and store data that can never be corrupted or lost."
 template: "page.html"
 insert_anchor_links: "left"
+extra:
+  imgPath: tech_here.png
 ---
 
 
