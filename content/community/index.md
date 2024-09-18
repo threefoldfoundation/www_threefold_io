@@ -1,11 +1,10 @@
 ---
 title: "community"
-description: "community a decade ago, a group of passionate Internet & Cloud veterans came together to build a system." # quotation marks to allow colons where used
+description: "Join the Community" # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"
 extra:
-  author: Your name here
-  imgPath: about/deploy_hero.png
+  imgPath: community.png
 ---
 
 <!-- section 1 (header) -->

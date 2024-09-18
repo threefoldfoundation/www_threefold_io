@@ -1,11 +1,10 @@
 ---
 title: "Node"
-description: "About a decade ago, a group of passionate Internet & Cloud veterans came together to build a system." # quotation marks to allow colons where used
+description: "Becoming a host involves providing compute, storage, and network resources to the grid." # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"
 extra:
-  author: Your name here
-  imgPath: tfy/tft_header.png
+  imgPath: node_hero.png
 ---
 
 <!-- section 1 (header) -->
@@ -223,7 +222,7 @@ per node
 
 </div>
 
-<p class="ml-8">No one wants to pay for electricity needlessly. Our sustem uses upto 10x less energy for certain workloads compared to traditional systems.</p> 
+<p class="ml-8">No one wants to pay for electricity needlessly. Our system uses upto 10x less energy for certain workloads compared to traditional systems.</p> 
 
 <br>
 
