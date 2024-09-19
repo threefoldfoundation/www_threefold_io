@@ -34,7 +34,7 @@ The internet began as a free, open network for all.
 <br>Now it's controlled by big tech, centralized, and only available to about half of the planet.
 <br>
 <br>**The Internet needs a new plumbing layer: free, private, and secure**. <br><br>
-*ThreeFold has developed a decentralized self healing, secure cloude engine which has the potential to make the Internet available to everyone on this planet.*
+*ThreeFold has developed a decentralized self healing, secure engine which has the potential to make the Internet available to everyone on this planet.*
 <br/>
 
 <br>
