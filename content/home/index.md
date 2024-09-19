@@ -21,15 +21,23 @@ extra:
 {% row(style="reverse header margin") %}
 
 
-#### <span class="text-xl subtitle">HELLO THREEFOLD</span>
+#### <span class="text-xl subtitle">THREEFOLD</span> <br>
 
 
-## **Evolving the Internet, Together**
+## **"BE THE INTERNET"**
 
+**We are not dreaming about a new Internet, we are building it.**
 
-We envision the Internet as a free-flowing, global network of authentic information – connecting everyone, everywhere, and unlocking the unlimited potential of humanity. This vision is within reach and we are building it as we speak. All are welcomed to join.
+<br>
 
+The internet began as a free, open network for all.
+<br>Now it's controlled by big tech, centralized, and only available to about half of the planet.
+<br>
+<br>**The Internet needs a new plumbing layer: free, private, and secure**. <br><br>
+*ThreeFold has developed a decentralized self healing, secure cloude engine which has the potential to make the Internet available to everyone on this planet.*
 <br/>
+
+<br>
 
 <button class="blue_b">[Host](/host)</button><button class="blue_b">[Deploy](/deploy)</button><button class="green">[About](/about)</button> 
 

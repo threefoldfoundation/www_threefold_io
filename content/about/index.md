@@ -27,10 +27,14 @@ extra:
 #### <span class="text-xl subtitle">A STRONG VISION FOR THE FUTURE</span>
 
 
-## **The Internet as Hope for Humanity**
+## **The Internet as <br>Hope for Humanity**
 
 
-The project was started by some Internet & Cloud veterans who believe that the Internet represents an amazing opportunity. We are a group of passionate people building a new foundational layer for a better Internet, more like how the Internet was originally intended to be.
+ThreeFold was started by a group of passionate Internet & Cloud veterans who wants to restore the Internet to its original glory.
+<br><br>
+*The Internet is a network of computers which are typically hosted in large datacenters. These datacenters are owned by a few large corporations. This is not how the Internet was designed. The Internet was designed to be decentralized, open and available to everyone.*
+<br><br>
+**We have invented a new Data, Cloud and Network system <br>as an engine for an upgraded Internet.**
 
 
 <br>
@@ -46,40 +50,31 @@ The project was started by some Internet & Cloud veterans who believe that the I
 </div>
 
 
-<!-- section 3  -->
 
 
+<!-- section 5  -->
 <div style="background-color:#F6F6F6">
 
 
 <div class="container mx-auto">
 
 
-{% row( style="center between margin") %}
+{% row( style="mtop") %}
 
 
-#### <span class="green_text uppercase">OUR MISSION & VISION</span>
+#### <span class="blue uppercase">ROADMAP</span>
 
 
-## **Empowering <span class="blue"> Human Potential</span>**
+## **Expanding ThreeFold**
 
 
-<br>
+{% end %}
 
 
-Our mission is to empower individuals and organizations with secure, private, and <br>autonomous access to computing resources, ensuring fair cloud access for everyone.
+{% roadmap() %}
 
 
-<br>
-
-
-We envision a global, community-driven network of interconnected servers and nodes—the grid—that democratizes <br>computing power and storage. This decentralized infrastructure fosters innovation, digital sovereignty, and an equitable internet, where users fully control their data and interactions.
-
-
-<br>
-
-
-Through our token, we support an open ecosystem that facilitates the seamless exchange of internet capacity, <br>fostering a new digital era of sovereignty, security, privacy, and inclusivity.
+## **roadmap**
 
 
 {% end %}
@@ -87,6 +82,8 @@ Through our token, we support an open ecosystem that facilitates the seamless ex
 
 </div>
 </div>
+
+
 
 
 <!-- section 2 our Story  -->
@@ -142,110 +139,19 @@ In response, we came together with a shared mission- to design a revolutionary d
 <br>
 
 
-As we embark on the expansion and commercialization phase, the ThreeFold Grid is in it’s third generation and live ±60 countries, significant milestones in our ongoing commitment to redefine the future of the digital landscape.
-
-
-<br>
-
-
-We are at the start of a journey to millions of nodes and will launch soon the fourth generation of the Grid- Project Internet Capacity.
-
-
-
-
-{% end %}
-
-
-<!-- section 2 Deploy -->
-
-
-{% row( style="center semiNarrow") %}
-
-
-#### <span class="blue">KEY ACHIEVEMENTS TO DATE</span>
-
-
-## **Milestones in Our Journey**
-
-
-{% end %}
-
-
-{% row( style="semiNarrow mbottom") %}
-
-
-<p class="bg-gray-50 p-2 road_border">The ThreeFold Grid: connected across ±60 countries by independent people and organizations called ThreeFold farmers, live and usable in its third generation technology
-</p>
-
+The ThreeFold Grid is in it’s third generation and live in +50 countries. 
 
 <br>
 
 
-<p class="bg-gray-50 p-2 road_border">Partnerships with the governments of Tanzania, to deploy physical infrastructure and introducing coding academies and innovation hubs across the country, and Zanzibar, to deploy physical infrastructure locally and introduce a digital free zone
-</p>
+We are at the start of a journey to millions of nodes and will launch soon the fourth generation  the ThreeFold grid.
+For this a new token called INCA has been created.
 
-
-<br>
-
-
-<p class="bg-gray-50 p-2 road_border">An extensive community of 1000+ farmers and several thousand others – token holders, grid users, and supporters / advocates of the project
-</p>
-
-
-<br>
-
-
-<p class="bg-gray-50 p-2 road_border">Our strategic partnerships with key DePIN players: more will be announced soon</p>
 
 
 {% end %}
 
-
-</div>
-</div>
-
-
-<!-- section 5  -->
-<div style="background-color:#F6F6F6">
-
-
-<div class="container mx-auto">
-
-
-{% row( style="mtop") %}
-
-
-#### <span class="blue uppercase">ROADMAP</span>
-
-
-## **Expanding ThreeFold**
-
-
-{% end %}
-
-
-{% roadmap() %}
-
-
-## **roadmap**
-
-
-{% end %}
-
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-<!-- section 6  -->
+<!-- section 6 TEAM -->
 <div class="container mx-auto">
 
 
@@ -437,8 +343,108 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 {% end %}
 
 
+<!-- section ACHIEVEMENTS -->
 
 
+{% row( style="center semiNarrow") %}
+
+
+#### <span class="blue">KEY ACHIEVEMENTS TO DATE</span>
+
+
+## **Milestones in Our Journey**
+
+
+{% end %}
+
+
+{% row( style="semiNarrow mbottom") %}
+
+
+<p class="bg-gray-50 p-2 road_border">The ThreeFold Grid: connected across +50 countries by independent people and organizations called ThreeFold farmers, live and usable in its third generation opensource technology.
+</p>
+
+
+<br>
+
+
+<p class="bg-gray-50 p-2 road_border">Partnerships with governments, to deploy physical infrastructure and introducing coding academies and innovation hubs across the country, to deploy physical infrastructure locally.
+</p>
+
+
+<br>
+
+
+<p class="bg-gray-50 p-2 road_border">An extensive community of 1000+ farmers and several thousand others – token holders, grid users, and supporters / advocates of the project
+</p>
+
+
+<br>
+
+
+<p class="bg-gray-50 p-2 road_border">Our strategic partnerships with key DePIN players: more will be announced soon</p>
+
+<br>
+
+
+<p class="bg-gray-50 p-2 road_border">A new token launch called INCA. INCA is the fuel of our ThreeFold Grid.</p>
+
+
+
+
+{% end %}
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- section 3  -->
+
+
+<div style="background-color:#F6F6F6">
+
+
+<div class="container mx-auto">
+
+
+{% row( style="center between margin") %}
+
+
+#### <span class="green_text uppercase">OUR MISSION & VISION</span>
+
+
+## **Empowering <span class="blue"> Human Potential</span>**
+
+
+<br>
+
+
+
+*We believe that the Internet should be affordable, accessible, and available to everyone on the planet.*
+
+
+<br>
+
+
+We envision a global, community-driven network of interconnected computers that democratizes the deployment of the Internet. 
+<br>
+Through a token we support an open ecosystem that facilitates the seamless exchange of internet network, data and cloud capacity.
+
+<br>
+
+**This internet needs to be available in every region, reliable, secure, private, and sustainable.**
+
+{% end %}
+
+
+</div>
+</div>
 
 
 
