@@ -23,7 +23,7 @@ extra:
 
 #### <span class="text-xl subtitle">THREEFOLD</span> <br>
 
-## **BE THE INTERNET** 
+## **Be the Internet** 
 
 **We are not dreaming about a new Internet, we are building it.**
 
