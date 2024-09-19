@@ -1,6 +1,9 @@
 #/bin/bash
 set -ex
 
+BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+cd ${BASE_DIR}
+
 hero installers -n zola
 
 # initialized and configures tailwind if not configured
