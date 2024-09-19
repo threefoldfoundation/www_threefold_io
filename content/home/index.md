@@ -23,19 +23,18 @@ extra:
 
 #### <span class="text-xl subtitle">THREEFOLD</span> <br>
 
-
-## **"BE THE INTERNET"**
+## **BE THE INTERNET** 
 
 **We are not dreaming about a new Internet, we are building it.**
 
 <br>
 
-The internet began as a free, open network for all.
-<br>Now it's controlled by big tech, centralized, and only available to about half of the planet.
+The Internet began as a free and open network for all.
+<br>Now it's centralized, controlled by big tech, and only available to about half of the planet.
 <br>
 <br>**The Internet needs a new plumbing layer: free, private, and secure**. <br><br>
-*ThreeFold has developed a decentralized self healing, secure engine which has the potential to make the Internet available to everyone on this planet.*
-<br/>
+
+#### ThreeFold has developed a decentralized, self-healing, secure system which has the potential to make the Internet available to everyone on this planet.
 
 <br>
 

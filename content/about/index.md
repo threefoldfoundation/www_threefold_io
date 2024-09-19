@@ -34,7 +34,8 @@ ThreeFold was started by a group of passionate Internet & Cloud veterans who wan
 <br><br>
 *The Internet is a network of computers which are typically hosted in large datacenters. These datacenters are owned by a few large corporations. This is not how the Internet was designed. The Internet was designed to be decentralized, open and available to everyone.*
 <br><br>
-**We have invented a new Data, Cloud and Network system <br>as an engine for an upgraded Internet.**
+
+#### We have invented a new Data, Cloud and Network system as an engine for an upgraded Internet.
 
 
 <br>

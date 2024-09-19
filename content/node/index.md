@@ -19,15 +19,11 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">BE THE INTERNET.</span>
+#### <span class="text-xl subtitle">BE THE INTERNET</span>
 
-## **Host a Node on <br>TFGrid 4.0**
+## **Host a Node on TF Grid 4**
 
-<br>
-
-Becoming a host involves providing cloud, data, and network resources to the grid. <br>
-
-By deploying your nodes, you enable anyone, anywhere in the world to host their digital life on your infrastructure in all safety.
+Becoming a host involves providing cloud, data, and network resources to the grid. By deploying your nodes, you enable anyone, anywhere in the world to host their digital life on your infrastructure in all safety.
 
 <br>
 
@@ -51,7 +47,7 @@ By deploying your nodes, you enable anyone, anywhere in the world to host their 
 
 ## **Host & Earn <span class="blue">$INCA**</span>
 
-The only way to get access to $INCA is to become a hoster on TF Grid v4. 
+The only way to get access to [$INCA](/tokens) is to become a hoster on TF Grid v4. 
 Sign up to get a v4 node.
 
 {% end %}
@@ -64,7 +60,7 @@ Sign up to get a v4 node.
 
 <div class="text-center">
 
-##### **SILVER**
+### **SILVER**
 
 <p class="gray_color">Optimal choice for end user utilization</p>
 
@@ -102,7 +98,7 @@ Sign up to get a v4 node.
 
 <div class="text-center">
 
-##### **PLATINUM**
+### **PLATINUM**
 
 <p class="gray_color">Optimal choice for generic purpose cloud</p>
 
@@ -139,7 +135,7 @@ Sign up to get a v4 node.
 
 <div class="text-center">
 
-##### **AI**
+### **AI**
 
 <p class="gray_color">Optimal choice for AI workloads</p>
 
@@ -177,6 +173,7 @@ Sign up to get a v4 node.
 
 </div>
 
+<div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 
 <!-- section 2 price -->
