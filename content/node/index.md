@@ -19,13 +19,15 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">A CLOUD ENGINE FOR THE NEW INTERNET</span>
+#### <span class="text-xl subtitle">BE THE INTERNET.</span>
 
 ## **Host a Node on <br>TFGrid 4.0**
 
 <br>
 
-Becoming a host involves providing compute, storage, and network resources to the grid. By deploying our nodes, you enable anyone, anywhere in the world, to run workloads on your nodes.  
+Becoming a host involves providing cloud, data, and network resources to the grid. <br>
+
+By deploying your nodes, you enable anyone, anywhere in the world to host their digital life on your infrastructure in all safety.
 
 <br>
 
@@ -68,9 +70,9 @@ Sign up to get a v4 node.
 
 <br>
       
-# <span class="font-black">$499</span>
+<!-- # <span class="font-black">$499</span> -->
 
-per node
+<!-- per node -->
 
 </div>
 
@@ -106,9 +108,9 @@ per node
 
 <br>
       
-# <span class="font-black">$1999</span>
+<!-- # <span class="font-black">$1999</span> -->
 
-per node
+<!-- per node -->
 
 </div>
 
@@ -143,9 +145,9 @@ per node
 
 <br>
       
-# <span class="font-black">$3999</span>
+<!-- # <span class="font-black">$3999</span> -->
 
-per node
+<!-- per node -->
 
 </div>
 
@@ -170,17 +172,11 @@ per node
 
 {% end %}
 
-{% row( style="center mbottom semiNarrow") %}
-
-<!-- <button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button>  -->
-
-{% end %}
 
 </div>
 
 </div>
 
-<div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 
 <!-- section 2 price -->

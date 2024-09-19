@@ -13,11 +13,17 @@ insert_anchor_links: "left"
 
 #### <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
 
-### **Decentralized secure, sovereign, plumbing layer.**
+### **A Secure, Sovereign Plumbing Layer for the Internet.**
 
-- Data: data can be stored in a way that it can never be corrupted nor lost, and can be delivered authentic to everywhere in the world.
-- Network: every participant (machine or human) communicate over shortest path in an end2end encrypted manner. Each participant has a unique Internet Address which is linked to a private key.
-- Cloud: a decentralized cloud which can run any workload, from web2, web3, AI, edge, and more.
+- **Data:**
+  - Data can be stored in a way that it can never be corrupted nor lost.
+  - Data can be delivered authentic, over shortest path to everywhere in the world.
+- **Network:**
+  - Every participant (machine or human) communicate over shortest path in an end2end encrypted manner. 
+  - Each participant has a unique Internet Address which is linked to a private key.
+- **Cloud:** 
+  - A decentralized cloud which can run any workload, from web2, web3, AI, edge, and more.
+  - With special attention for security, reliability and affordability.
 
 <br><br>
 
@@ -52,6 +58,8 @@ ThreeFold van be used by any web2, web3 AI or edge IT workload.
 # test
 
 {% end %}
+
+<button class="blue_b">[Dive Deeper](https://threefold.info/tech/tech/overview.html)</button>
 
 </div>
 
