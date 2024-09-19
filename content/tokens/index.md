@@ -1,11 +1,11 @@
 ---
 title: "Tokens"
-description: "About a decade ago, a group of passionate Internet & Cloud veterans came together to build a system." # quotation marks to allow colons where used
+description: "ThreeFold, tokens are vital for facilitating peer-to-peer transactions between participants and catalyzing the growth of the ecosystem." # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"
 extra:
  author: Your name here
- imgPath: tfy/tft_header.png
+ imgPath: tokens/tft_header.png
 ---
 
 

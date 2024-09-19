@@ -1,7 +1,10 @@
 ---
 title: "Host"
+description: "Anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions."
 template: "page.html"
 insert_anchor_links: "left"
+extra:
+  imgPath: host_hero.png
 ---
 
 <div class="container mx-auto">

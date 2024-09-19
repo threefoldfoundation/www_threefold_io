@@ -1,7 +1,10 @@
 ---
 title: "Utilization"
+description: "ThreeFold’s decentralized autonomous cloud is in its third generation and ready to go commercial."
 template: "page.html"
 insert_anchor_links: "left"
+extra:
+  imgPath: utilization_section1.png
 ---
 
 
