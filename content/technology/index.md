@@ -14,11 +14,25 @@ extra:
 
 {% row(style="header reverse") %}
 
-#### <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
+## <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
 
-## **A decentralized infrastructure stack for any digital workload**
+### **A Secure & Sovereign Plumbing Layer for the Internet**
 
-Our unique technology enables a system which can scale to a planetary level, can store data which can never be corrupted nor lost, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, and provide 100% uptime. ThreeFold provides features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver.
+Our unique technology enables a system which can scale to a planetary level, can store data which can never be corrupted nor lost, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, and provide 100% uptime. 
+<br><br>
+ThreeFold can be used by any Web2, Web3 AI, or Edge IT workload.
+
+<br>
+
+**Data:** Data can be stored in a way that it can never be corrupted nor lost. Data can be delivered authentic, over shortest path to everywhere in the world.
+
+<br>
+
+**Network:** Every participant (machine or human) communicate over shortest path in an end-to-end encrypted manner. Each participant has a unique Internet Address which is linked to a private key.
+
+<br>
+
+**Cloud:** A decentralized cloud which can run any workload, from Web2, Web3, AI, Edge, and more. With special attention for security, reliability and affordability.
 
 <br>
 
