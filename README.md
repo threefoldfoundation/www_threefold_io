@@ -10,9 +10,10 @@ Production: [www.threefold.io](https://www.threefold.io) (master branch)
 
 Staging: www2.threefold.io (development branch)
 
-Last Updated: May 2023
+Last Updated: September 2024
 
 ## Administrators
+
 [ThreeFold's Web Admins](https://github.com/orgs/threefoldfoundation/teams/team_web_admin)
 
 ## Contribution Procedure
@@ -47,15 +48,22 @@ To do that, the following prerequisites are needed:
 
 Then clone the repository recursively to also pull in contents of `threefold_data`:
 
-```
-git clone --recursive https://github.com/threefoldfoundation/www_threefold_io.git
-```
+```bash
+#if you don't have hero installed yet, run the following commands
+curl https://raw.githubusercontent.com/freeflowuniverse/crystallib/development/scripts/install_hero.sh > /tmp/hero_install.sh
+bash /tmp/hero_install.sh
 
-Now run `build.sh` to download Tailwind, build the CSS, and also build the site with Zola:
+#install zola & tailwind
+hero installers -n zola
 
-```
-cd www_threefold_io
+#get this repo be careful --pr will remove all local changes (pull reset), -b development means we are on the development branch
+hero git pull -u https://github.com/threefoldfoundation/www_threefold_io -b development -pr
+
+#cd to the directory
+eval $(hero git cd -u https://github.com/threefoldfoundation/www_threefold_io)
+
 bash build.sh
+
 ```
 
 Finally, start a browsable local copy of the site that will respond to changes in the source files like this:
