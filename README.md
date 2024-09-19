@@ -53,10 +53,12 @@ Then clone the repository recursively to also pull in contents of `threefold_dat
 curl https://raw.githubusercontent.com/freeflowuniverse/crystallib/development/scripts/install_hero.sh > /tmp/hero_install.sh
 bash /tmp/hero_install.sh
 
-#get this repo be careful --pr will remove all local changes
+#get this repo be careful --pr will remove all local changes (pull reset)
 hero git pull -u https://github.com/threefoldfoundation/www_threefold_io -b development -pr
+
 #cd to the directory
-eval $(git cd -u https://github.com/threefoldfoundation/www_threefold_io)
+eval $(hero git cd -u https://github.com/threefoldfoundation/www_threefold_io)
+
 
 
 ```
