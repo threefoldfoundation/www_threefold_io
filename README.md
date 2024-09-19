@@ -66,13 +66,6 @@ bash build.sh
 
 ```
 
-Now run `build.sh` to download Tailwind, build the CSS, and also build the site with Zola:
-
-```
-cd www_threefold_io
-bash build.sh
-```
-
 Finally, start a browsable local copy of the site that will respond to changes in the source files like this:
 
 ```

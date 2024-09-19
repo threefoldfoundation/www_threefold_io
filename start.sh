@@ -19,7 +19,10 @@ tailwindcss -i css/index.css -o ./static/css/index.css --watch & zola serve &
 
 # compiles tailwind css for prod & builds project
 tailwindcss -i css/index.css -o ./static/css/index.css --minify
-zola build
+
+killall zola
+
+zola serve
 
 # kills zola and tw bg processes on interrupt
 trap 'kill $(jobs -p); exit 1' INT
