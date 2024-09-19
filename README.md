@@ -10,7 +10,7 @@ Production: [www.threefold.io](https://www.threefold.io) (master branch)
 
 Staging: www2.threefold.io (development branch)
 
-Last Updated: May 2023
+Last Updated: September 2024
 
 ## Administrators
 

@@ -18,13 +18,11 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">A CLOUD ENGINE FOR THE NEW INTERNET</span>
+#### <span class="text-xl subtitle">BE THE INTERNET</span>
 
-## **Host a Node on <br>TFGrid 4.0**
+## **Host a Node on TF Grid 4**
 
-<br>
-
-Becoming a host involves providing compute, storage, and network resources to the grid. By deploying our nodes, you enable anyone, anywhere in the world, to run workloads on your nodes.  
+Becoming a host involves providing cloud, data, and network resources to the grid. By deploying your nodes, you enable anyone, anywhere in the world to host their digital life on your infrastructure in all safety.
 
 <br>
 
@@ -48,7 +46,7 @@ Becoming a host involves providing compute, storage, and network resources to th
 
 ## **Host & Earn <span class="blue">$INCA**</span>
 
-The only way to get access to $INCA is to become a hoster on TF Grid v4. 
+The only way to get access to [$INCA](/tokens) is to become a hoster on TF Grid v4. 
 Sign up to get a v4 node.
 
 {% end %}
@@ -61,15 +59,15 @@ Sign up to get a v4 node.
 
 <div class="text-center">
 
-##### **SILVER**
+### **SILVER**
 
 <p class="gray_color">Optimal choice for end user utilization</p>
 
 <br>
       
-# <span class="font-black">$499</span>
+<!-- # <span class="font-black">$499</span> -->
 
-per node
+<!-- per node -->
 
 </div>
 
@@ -99,15 +97,15 @@ per node
 
 <div class="text-center">
 
-##### **PLATINUM**
+### **PLATINUM**
 
 <p class="gray_color">Optimal choice for generic purpose cloud</p>
 
 <br>
       
-# <span class="font-black">$1999</span>
+<!-- # <span class="font-black">$1999</span> -->
 
-per node
+<!-- per node -->
 
 </div>
 
@@ -136,15 +134,15 @@ per node
 
 <div class="text-center">
 
-##### **AI**
+### **AI**
 
 <p class="gray_color">Optimal choice for AI workloads</p>
 
 <br>
       
-# <span class="font-black">$3999</span>
+<!-- # <span class="font-black">$3999</span> -->
 
-per node
+<!-- per node -->
 
 </div>
 
@@ -169,11 +167,6 @@ per node
 
 {% end %}
 
-{% row( style="center mbottom semiNarrow") %}
-
-<!-- <button class="green mt-6">[Get A Node](https://csnkyhwp8b4.typeform.com/to/SnfEE9pj?typeform-source=github.com)</button>  -->
-
-{% end %}
 
 </div>
 

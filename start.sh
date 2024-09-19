@@ -24,7 +24,7 @@ killall zola
 
 zola serve
 
-# kills zola and tw bg processes on interrupt
-trap 'kill $(jobs -p); exit 1' INT
-wait
+# # kills zola and tw bg processes on interrupt
+# trap 'kill $(jobs -p); exit 1' INT
+# wait
 

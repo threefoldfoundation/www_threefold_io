@@ -17,11 +17,11 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">HOST THE CLOUD</span>
+#### <span class="text-xl subtitle">BE THE INTERNET</span>
 
 ## **<span class="blue">Empower</span> Human <br>Potential**
 
-Regardless of technical knowledge, anyone can now become a cloud service provider, bringing local capacity to where people need it most while earning for your contributions. We call this process <span class="blue">farming</span>.
+Regardless of technical knowledge, anyone can now become a internet and cloud service provider, bringing data, network and cloud capacity to where people need it most while earning for your contributions. We call this process <span class="blue">farming</span>.
 
 <br>
 
@@ -40,7 +40,7 @@ Regardless of technical knowledge, anyone can now become a cloud service provide
 
 ## **How It Works**
 
-#### <span class="blue">Three simple steps</span> enabling anyone to become a cloud service provider.
+#### <span class="blue">Three simple steps</span> enabling anyone to become a data, network and cloud service provider.
 
 {% end %}
 
