@@ -1,5 +1,5 @@
 ---
-title: "Node"
+title: "Get Node"
 description: "Becoming a host involves providing compute, storage, and network resources to the grid." # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"
@@ -20,9 +20,9 @@ extra:
 
 #### <span class="text-xl subtitle">BE THE INTERNET</span>
 
-## **Get a node,<br><span class="blue">Host your community</span>**
+## **Host a Node,<br><span class="blue">Host Sovereignty</span>**
 
-By providing compute, storage, and network resources to the ThreeFold Grid, you enable any individual, organization, community, country, or network society to deploy their own sovereign cloud.
+Provide cloud, data, and network resources to the ThreeFold Grid. By hosting a node, you enable anyone, anywhere in the world to host their digital life on your infrastructure in all safety and sovereignty.
 
 <br>
 
@@ -31,101 +31,7 @@ By providing compute, storage, and network resources to the ThreeFold Grid, you 
 
 </div>
 
-<div data-tf-live="01J87QNSS5RHBZYQ0Q9VKK6WKC"></div><script src="//embed.typeform.com/next/embed.js"></script>
-
-<!-- section 2 price -->
-
-<div style="background-color:#FFFFFF">
-
-<div class="container mx-auto">
-
-{% row( style="center mtop mbottom semiNarrow") %}
-
-<h4 class="blue">GROUNDBREAKING, RELIABLE, & ROBUST TECHNOLOGY</h4>
-
-## **Nodes Leading at the Edge**
-
-{% end %}
-
-{% row( style="semiNarrow") %}
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](zero_icon.png#mx-auto)
-
-#### **Zero-OS Self-Healing Operating System**
-
-</div>
-
-<p class="ml-8">We like things well done and built to last, that’s why we created our own self-healing operating system, Zero-OS.<p> 
-
-
-<br>
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](enargy_icon.png#mx-auto)
-
-#### **Energy Efficient**
-
-</div>
-
-<p class="ml-8">No one wants to pay for electricity needlessly. Our system uses upto 10x less energy for certain workloads compared to traditional systems.</p> 
-
-<br>
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](data.png#mx-auto)
-
-#### **Data Sovereignty**
-
-</div>
-
-<p class="ml-8">You have now complete control over your data placement. Your data is yours, forever.</p>  
-
-
-
-|||
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](quantum.png#mx-auto)
-
-#### **Quantum Safe File System**
-
-</div>
-
-<p class="ml-8">We’re aware of the war for your data. That’s why we made QSFS, so you know your data is safe and future-proof.</p>  
-
-
-<br>
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](sovereign.png#mx-auto)
-
-#### **Truly Sovereign and Collaborative**
-
-</div>
-
-<p class="ml-8">It’s simple: everyone can now own their own part of the internet. From the home setup to the datacenter farm.</p> 
-
-<br>
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](mycelium.png#mx-auto)
-
-#### **Mycelium Network**
-
-</div>
-
-<p class="ml-8">Cost-efficient, locality aware and peer-to-peer, Mycelium is the network for planetary scale.</p>
-
-{% end %}
-
-</div>
+<div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 <!-- section 2 price -->
 
@@ -139,7 +45,8 @@ By providing compute, storage, and network resources to the ThreeFold Grid, you 
 
 ## **Host & Earn**
 
-Become a host on the Threefold INCA Grid and get rewarded. Sign up for the waiting list.
+The only way to get access to [$INCA](/tokens) is to become a hoster on TF Grid v4. 
+Sign up to be one of the first.
 
 {% end %}
 
@@ -259,8 +166,105 @@ Become a host on the Threefold INCA Grid and get rewarded. Sign up for the waiti
 
 {% end %}
 
+</div>
 
 </div>
+
+
+<!-- section 2 price -->
+
+<div style="background-color:#FFFFFF">
+
+<div class="container mx-auto">
+
+{% row( style="center mtop semiNarrow") %}
+
+<h4 class="blue">GROUNDBREAKING, RELIABLE, & ROBUST TECHNOLOGY</h4>
+
+## **Nodes Leading at the Edge**
+
+
+{% end %}
+
+<br>
+
+{% row( style="semiNarrow") %}
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](zero_icon.png#mx-auto)
+
+#### **Zero-OS Self-Healing Operating System**
+
+</div>
+
+<p class="ml-8">We like things well done and built to last, that’s why we created our own self-healing operating system, Zero-OS.<p> 
+
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](enargy_icon.png#mx-auto)
+
+#### **Energy Efficient**
+
+</div>
+
+<p class="ml-8">No one wants to pay for electricity needlessly. Our system uses upto 10x less energy for certain workloads compared to traditional systems.</p> 
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](data.png#mx-auto)
+
+#### **Data Sovereignty**
+
+</div>
+
+<p class="ml-8">You have now complete control over your data placement. Your data is yours, forever.</p>  
+
+
+
+|||
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](quantum.png#mx-auto)
+
+#### **Quantum Safe File System**
+
+</div>
+
+<p class="ml-8">We’re aware of the war for your data. That’s why we made QSFS, so you know your data is safe and future-proof.</p>  
+
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](sovereign.png#mx-auto)
+
+#### **Truly Sovereign and Collaborative**
+
+</div>
+
+<p class="ml-8">It’s simple: everyone can now own their own part of the internet. From the home setup to the datacenter farm.</p> 
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](mycelium.png#mx-auto)
+
+#### **Mycelium Network**
+
+</div>
+
+<p class="ml-8">Cost-efficient, locality aware and peer-to-peer, Mycelium is the network for planetary scale.</p>
+
+{% end %}
 
 </div>
 

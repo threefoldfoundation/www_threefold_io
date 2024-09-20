@@ -165,7 +165,7 @@ ThreeFold enables a true alternative to power-hungry, centralized data centers. 
 <br>
 
 
-<button class="blue_b">[Get A Node](/node)</button>
+<button class="blue_b">[Get A Node](/getnode)</button>
 <button class="green">[Build A Node](https://manual.grid.tf/documentation/farmers/3node_building/3_set_hardware.html?highlight=diy%20node#introduction)</button>
 
 
