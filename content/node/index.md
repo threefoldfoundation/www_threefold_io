@@ -20,7 +20,7 @@ extra:
 
 #### <span class="text-xl subtitle">BE THE INTERNET</span>
 
-## **Get a node,<br>Host your community**
+## **Get a node,<br><span class="blue">Host your community</span>**
 
 By providing compute, storage, and network resources to the ThreeFold Grid, you enable any individual, organization, community, country, or network society to deploy their own sovereign cloud.
 
