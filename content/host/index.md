@@ -19,7 +19,7 @@ extra:
 
 #### <span class="text-xl subtitle">BE THE INTERNET</span>
 
-## **<span class="blue">Empower</span> Human <br>Potential**
+## **<span class="blue">Empower</span> Human Potential**
 
 Regardless of technical knowledge, anyone can now become a internet and cloud service provider, bringing data, network and cloud capacity to where people need it most while earning for your contributions. We call this process <span class="blue">farming</span>.
 

@@ -27,15 +27,15 @@ extra:
 #### <span class="text-xl subtitle">A STRONG VISION FOR THE FUTURE</span>
 
 
-## **The Internet as <br>Hope for Humanity**
+## **The Internet as <br><span class="blue">Hope for Humanity</span>**
 
 
 ThreeFold was started by a group of passionate Internet & Cloud veterans who wants to restore the Internet to its original glory.
 <br><br>
-*The Internet is a network of computers which are typically hosted in large data centers. These data centers are owned by a few large corporations. This is not how the Internet was designed. The Internet was designed to be decentralized, open and available to everyone.*
+*The Internet is a network of computers which are typically hosted in large data centers. These data centers are owned by a few large corporations. This is not how the Internet was designed. The Internet was designed to be decentralized, open, and available to everyone.*
 <br><br>
 
-#### We have invented a new data, cloud, and network system as an engine for an upgraded Internet.
+**We have invented a new data, cloud, and network system as an engine for an upgraded Internet.**
 
 
 <br>

@@ -29,7 +29,7 @@ extra:
 #### <span class="text-xl subtitle">THE FUTURE IS NOW</span>
 
 
-## **Compute is the <br> Currency of the Future**
+## **<span class="blue">Compute</span> is the <br> Currency of the <span class="blue">Future</span>**
 
 
 <br>

@@ -23,7 +23,7 @@ extra:
 
 #### <span class="text-xl subtitle">THREEFOLD</span> <br>
 
-## **Be the Internet** 
+## **<span class="blue">Be</span> the Internet** 
 
 **We are not dreaming about a new Internet, we are building it.**
 
@@ -32,9 +32,9 @@ extra:
 The Internet began as a free and open network for all.
 <br>Now it's centralized, controlled by big tech, and only available to about half of the planet.
 <br>
-<br>**The Internet needs a new plumbing layer: free, private, and secure**. <br><br>
+<br>The Internet needs a new plumbing layer: free, private, and secure. <br><br>
 
-#### ThreeFold has developed a decentralized, self-healing, secure system which has the potential to make the Internet available to everyone on this planet.
+**ThreeFold has developed a decentralized, self-healing, secure system which has the potential to make the Internet available to everyone on this planet.**
 
 <br>
 
@@ -92,7 +92,7 @@ The sum of our collective digital lives requires **a physical infrastructure** t
 <br/>
 
 
-#### But there is a better way forward.
+**But there is a better way forward.**
 
 
 <br/>
@@ -107,7 +107,7 @@ Together, we create, host, and **co-own** the foundational layer of an **upgrade
 <br>
 
 
-#### Our story is a collective story. Let’s write it together.
+**Our story is a collective story. Let’s write it together.**
 
 
 <br>
