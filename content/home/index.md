@@ -23,11 +23,7 @@ extra:
 
 #### <span class="text-xl subtitle">THREEFOLD</span> <br>
 
-## **<span class="blue">Be</span> the Internet** 
-
-**We are not dreaming about a new Internet, we are building it.**
-
-<br>
+## **<span class="blue">Be</span> the Internet**
 
 The Internet began as a free and open network for all.
 <br>Now it's centralized, controlled by big tech, and only available to about half of the planet.
