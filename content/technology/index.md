@@ -10,34 +10,22 @@ extra:
 
 <!-- section 1  -->
 
-<div class="container mx-auto">
+<div class="container mx-auto"> 
 
 {% row(style="header reverse") %}
 
-## <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
+#### <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
 
-### **A Secure & Sovereign Plumbing Layer for the Internet**
+## **A <span class="blue">Secure & Sovereign</span> Plumbing Layer for the Internet**
 
 Our unique technology enables a system which can scale to a planetary level, can store data which can never be corrupted nor lost, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, and provide 100% uptime. 
 <br><br>
-ThreeFold can be used by any Web2, Web3, AI, or Edge IT workload.
 
-<br>
-
-**Data:** Data can be stored in a way that it can never be corrupted nor lost. Data can be delivered authentic, over shortest path to everywhere in the world.
-
-<br>
-
-**Network:** Every participant (machine or human) communicate over shortest path in an end-to-end encrypted manner. Each participant has a unique Internet Address which is linked to a private key.
-
-<br>
-
-**Cloud:** A decentralized cloud which can run any workload, from Web2, Web3, AI, Edge, and more. With special attention for security, reliability and affordability.
+**ThreeFold can be used by any Web2, Web3, AI, or Edge IT workload.**
 
 <br>
 
 <button class="blue_b">[Dive Deeper](https://threefold.info/tech/tech/overview.html)</button>
-
 
 |||
 
@@ -45,14 +33,59 @@ ThreeFold can be used by any Web2, Web3, AI, or Edge IT workload.
 
 {% end %}
 
+</div>
+
+<!-- section 2 -->
+
+<div>
+
+{% row(style="center narrow") %}
+
+## **Re-Imagining Cloud,<br>Network, and Data**
+
+{% end %}
+
+{% row(style="center between mbottom") %}
+
+### **Cloud**
+
+A decentralized cloud capable of running any workload, from Web2 and Web3 to AI and edge computing.
+
+<br>
+
+Built with special attention for security, reliability, and affordability.
+
+|||
+
+### **Network**
+
+Every participant, whether machine or human, communicates via the shortest path with end-to-end encrypted encryption.
+
+<br>
+
+Each has a unique Internet Address tied to a private key for secure interactions.
+
+|||
+
+### **Data**
+
+Data can be stored in a way that ensures it can never be corrupted or lost.
+
+<br>
+
+Data can be delivered authentically and efficiently, via the shortest path, anywhere in the world.
+
+{% end %}
+
+</div>
 
 <!-- section 2  -->
 
-{% row( style="center semiNarrow") %}
+{% row( style="center semiNarrow mtop") %}
 
 #### <span class="green_text">KEY INNOVATIONS</span>
 
-## **Let's together create the <span class="blue">*Unbreakable Internet*</span>.**
+## **Core Components of an <br><span class="blue">*Unbreakable Internet*</span>**
 
 {% end %}
 

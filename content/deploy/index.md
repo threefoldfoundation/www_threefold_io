@@ -18,9 +18,9 @@ extra:
 
 #### <span class="text-xl subtitle">DEPLOY ON THE GRID</span>
 
-## **Build <span class="blue">Your Own</span><br> Digital Experiences**
+## **<span class="blue">Build Your Own</span><br> Digital Experiences**
 
-ThreeFold has developed extensive technology and tools for <span class="blue">developers</span> and <span class="blue">system administrators.</span>
+ThreeFold has developed extensive technology and tools for developers and system administrators.
 
 <br>
 
