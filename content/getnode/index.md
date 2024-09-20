@@ -13,7 +13,7 @@ extra:
 {% row(style="header") %} 
 
 
-![Image](node_hero.png#mx-auto)
+![Image](node_header.png#mx-auto)
 
 
 |||
