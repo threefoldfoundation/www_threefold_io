@@ -197,11 +197,10 @@ ThreeFold enables a true alternative to power-hungry, centralized data centers. 
 |||
 
 
-#### <span class="green_text">A NEW PHASE FOR THREEFOLD</span>
+#### <span class="green_text">THREEFOLD GOES COMMERCIAL
 
 
-<h3 class="font-semibold"><span class="blue">Project IN</span>ternet <span class="blue">CA</span>pacity:
-<br>the fourth generation of the ThreeFold Grid</h3>
+<h3 class="font-semibold"><span class="blue">Meet Project IN</span>ternet <span class="blue">CA</span>pacity</h3>
 
 
 For years, ThreeFold has been quietly and steadily developing its revolutionary technology on mainnet, with a solid foundation of mature infrastructure that is now ready to take the next leap forward.
@@ -210,7 +209,7 @@ For years, ThreeFold has been quietly and steadily developing its revolutionary 
 <br>
 
 
-We are now entering a new phase of the ThreeFold Grid with the Grid 4.0 and Project INCA. As we transition into this next phase, we're enabling commercial entities to seamlessly build on the grid, which requires significant expansion. This phase has the aim to unlock unprecedented growth opportunities for ThreeFold stakeholders.
+We are now entering a new phase of the ThreeFold Grid with the Grid 4.0 and Project Internet Capacity. As we transition into this next phase, we're enabling commercial entities to seamlessly build on the grid.
 
 
 <br>

@@ -145,8 +145,8 @@ The ThreeFold Grid is in it’s third generation and live in +50 countries.
 <br>
 
 
-We are at the start of a journey to millions of nodes and will launch soon the fourth generation  the ThreeFold grid.
-For this a new token called INCA has been created.
+We are at the start of a journey to millions of nodes and will launch soon the fourth generation the ThreeFold Grid.
+For this a token called INCA will been created.
 
 
 
@@ -376,7 +376,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 <br>
 
 
-<p class="bg-gray-50 p-2 road_border">An extensive community of 1000+ farmers and several thousand others – token holders, grid users, and supporters / advocates of the project
+<p class="bg-gray-50 p-2 road_border">An extensive community of 1000+ farmers and several thousand others – grid users and supporters / advocates of the project
 </p>
 
 
@@ -384,11 +384,6 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 
 
 <p class="bg-gray-50 p-2 road_border">Our strategic partnerships with key DePIN players: more will be announced soon</p>
-
-<br>
-
-
-<p class="bg-gray-50 p-2 road_border">A new token launch called INCA. INCA is the fuel of our ThreeFold Grid.</p>
 
 
 
@@ -435,7 +430,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 
 We envision a global, community-driven network of interconnected computers that democratizes the deployment of the Internet. 
 <br>
-Through a token we support an open ecosystem that facilitates the seamless exchange of internet network, data and cloud capacity.
+We support an open ecosystem that facilitates the seamless exchange of Internet network, data and cloud capacity.
 
 <br>
 

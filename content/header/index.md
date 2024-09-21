@@ -12,7 +12,6 @@ extra:
 - [Host]("/host")
 - [Deploy]("/deploy")
 - [Utilization]("/utilization") 
-- [Tokens]("/tokens")
 - Info
 
 
