@@ -18,7 +18,7 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">SOVEREIGN INTERNET
+#### <span class="text-xl subtitle">ENABLE SOVEREIGNTY
 ## **Get a node,<br><span class="blue">Host your community</span>**
 
 By providing compute, storage, and network resources to the ThreeFold Grid, you enable any individual, organization, community, country, or network society to deploy their own sovereign cloud.

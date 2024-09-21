@@ -18,7 +18,7 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">SOVEREIGN INTERNET</span>
+#### <span class="text-xl subtitle">GET A NODE</span>
 
 ## **Host a Node,<br><span class="blue">Host Sovereignty</span>**
 
