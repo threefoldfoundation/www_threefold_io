@@ -23,12 +23,12 @@ extra:
 
 #### <span class="text-xl subtitle">THREEFOLD</span> <br>
 
-## **<span class="blue">Sovereign</span> Internet**
+## **Enabling<span class="blue"><br>Digital Sovereignty</span>**
 
 The Internet began as a free and open network for all.
 <br>Now it's centralized, controlled by big tech, and only available to about half of the planet.
 <br>
-<br>The Internet needs a new plumbing layer: free, private, and secure. <br><br>
+<br>The Internet needs a new "plumbing layer": free, private, and secure. <br><br>
 
 **ThreeFold has developed a decentralized, self-healing, secure system which has the potential to make the Internet available to everyone on this planet.**
 
