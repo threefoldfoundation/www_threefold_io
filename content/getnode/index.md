@@ -18,7 +18,7 @@ extra:
 
 |||
 
-#### <span class="text-xl subtitle">BE THE INTERNET</span>
+#### <span class="text-xl subtitle">SOVEREIGN INTERNET</span>
 
 ## **Host a Node,<br><span class="blue">Host Sovereignty</span>**
 
@@ -32,6 +32,103 @@ Provide cloud, data, and network resources to the ThreeFold Grid. By hosting a n
 </div>
 
 <div data-tf-live="01J5N8ZP43VS372RYFRZCSJ52G"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+<!-- section 2 price -->
+
+<div style="background-color:#FFFFFF">
+
+<div class="container mx-auto">
+
+{% row( style="center mtop semiNarrow") %}
+
+<h4 class="blue">GROUNDBREAKING, RELIABLE, & ROBUST TECHNOLOGY</h4>
+
+## **Nodes Leading at the Edge**
+
+
+{% end %}
+
+<br>
+
+{% row( style="semiNarrow") %}
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](zero_icon.png#mx-auto)
+
+#### **Zero-OS Self-Healing Operating System**
+
+</div>
+
+<p class="ml-8">We like things well done and built to last, that’s why we created our own self-healing operating system, Zero-OS.<p> 
+
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](enargy_icon.png#mx-auto)
+
+#### **Energy Efficient**
+
+</div>
+
+<p class="ml-8">No one wants to pay for electricity needlessly. Our system uses upto 10x less energy for certain workloads compared to traditional systems.</p> 
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](data.png#mx-auto)
+
+#### **Data Sovereignty**
+
+</div>
+
+<p class="ml-8">You have now complete control over your data placement. Your data is yours, forever.</p>  
+
+
+
+|||
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](quantum.png#mx-auto)
+
+#### **Quantum Safe File System**
+
+</div>
+
+<p class="ml-8">We’re aware of the war for your data. That’s why we made QSFS, so you know your data is safe and future-proof.</p>  
+
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](sovereign.png#mx-auto)
+
+#### **Truly Sovereign and Collaborative**
+
+</div>
+
+<p class="ml-8">It’s simple: everyone can now own their own part of the internet. From the home setup to the datacenter farm.</p> 
+
+<br>
+
+<div class="my-4 flex flex-row items-center">
+
+![Image](mycelium.png#mx-auto)
+
+#### **Mycelium Network**
+
+</div>
+
+<p class="ml-8">Cost-efficient, locality aware and peer-to-peer, Mycelium is the network for planetary scale.</p>
+
+{% end %}
+
+</div>
 
 <!-- section 2 price -->
 
@@ -166,104 +263,6 @@ These are some of specs of upcoming models of the ThreeFold Node. Take a look an
 {% end %}
 
 </div>
-
-</div>
-
-
-<!-- section 2 price -->
-
-<div style="background-color:#FFFFFF">
-
-<div class="container mx-auto">
-
-{% row( style="center mtop semiNarrow") %}
-
-<h4 class="blue">GROUNDBREAKING, RELIABLE, & ROBUST TECHNOLOGY</h4>
-
-## **Nodes Leading at the Edge**
-
-
-{% end %}
-
-<br>
-
-{% row( style="semiNarrow") %}
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](zero_icon.png#mx-auto)
-
-#### **Zero-OS Self-Healing Operating System**
-
-</div>
-
-<p class="ml-8">We like things well done and built to last, that’s why we created our own self-healing operating system, Zero-OS.<p> 
-
-
-<br>
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](enargy_icon.png#mx-auto)
-
-#### **Energy Efficient**
-
-</div>
-
-<p class="ml-8">No one wants to pay for electricity needlessly. Our system uses upto 10x less energy for certain workloads compared to traditional systems.</p> 
-
-<br>
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](data.png#mx-auto)
-
-#### **Data Sovereignty**
-
-</div>
-
-<p class="ml-8">You have now complete control over your data placement. Your data is yours, forever.</p>  
-
-
-
-|||
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](quantum.png#mx-auto)
-
-#### **Quantum Safe File System**
-
-</div>
-
-<p class="ml-8">We’re aware of the war for your data. That’s why we made QSFS, so you know your data is safe and future-proof.</p>  
-
-
-<br>
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](sovereign.png#mx-auto)
-
-#### **Truly Sovereign and Collaborative**
-
-</div>
-
-<p class="ml-8">It’s simple: everyone can now own their own part of the internet. From the home setup to the datacenter farm.</p> 
-
-<br>
-
-<div class="my-4 flex flex-row items-center">
-
-![Image](mycelium.png#mx-auto)
-
-#### **Mycelium Network**
-
-</div>
-
-<p class="ml-8">Cost-efficient, locality aware and peer-to-peer, Mycelium is the network for planetary scale.</p>
-
-{% end %}
 
 </div>
 
