@@ -45,8 +45,7 @@ Provide cloud, data, and network resources to the ThreeFold Grid. By hosting a n
 
 ## **Host & Earn**
 
-The only way to get access to [$INCA](/tokens) is to become a hoster on TF Grid v4. 
-Sign up to be one of the first.
+These are some of specs of upcoming models of the ThreeFold Node. Take a look and sign up above if you'd like to reserve.
 
 {% end %}
 
