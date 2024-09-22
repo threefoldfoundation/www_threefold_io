@@ -16,7 +16,7 @@ extra:
 
 #### <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
 
-## **A <span class="blue">Secure & Sovereign</span> Plumbing Layer for the Internet**
+## **A <span class="blue">Secure & Sovereign</span> Infrastructure Layer for the Internet**
 
 Our unique technology enables a system which can scale to a planetary level, can store data which can never be corrupted nor lost, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, and provide 100% uptime. 
 <br><br>
