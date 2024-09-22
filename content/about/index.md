@@ -198,7 +198,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 <p class="blue text-base font-semibold">Co-Founder & CEO</p>
 
 
-<p class="text-base leading-tight">Serial entrepreneur with 30 years of experience in Internet infrastructure and cloud technology. Passionate about tech for good, 500m USD in exits.</p>
+<p class="text-base leading-tight">Serial entrepreneur with 30 years of experience in Internet infrastructure and cloud technology. Passionate about tech for good, 600m USD in exits.</p>
 
 
 </div>
@@ -214,18 +214,18 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 <div class="">
 
 
-![Image](jan_de_landtsheer.jpeg#mx-auto)
+![Image](florian_fournier.jpeg#mx-auto)
 </div>
 <div class="mx-3">
 
 
-**JAN DE LANDTSHEER** <br>
+**FLORIAN FOURNIER** <br>
 
 
-<p class="blue text-base font-semibold">Co-Founder & Master Architect</p>
+<p class="blue text-base font-semibold">Ecosystem Developer</p>
 
 
-<p class="text-base leading-tight">Network guru who has been innovating the internet from the early days and has witnessed the rise of centralization. </p>
+<p class="text-base leading-tight">Ex Apple marketing director, serial entrepreneur, living between Africa and Latin America.</p>
 
 
 </div>
@@ -264,6 +264,31 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 
 {% row( style="mbottom") %}
 
+<div class="person flex md:flex-row flex-col items-start">
+
+
+<div class="">
+
+
+![Image](jan_de_landtsheer.jpeg#mx-auto)
+</div>
+<div class="mx-3">
+
+
+**JAN DE LANDTSHEER** <br>
+
+
+<p class="blue text-base font-semibold">Co-Founder & Master Architect</p>
+
+
+<p class="text-base leading-tight">Network guru who has been innovating the internet from the early days and has witnessed the rise of centralization. </p>
+
+
+</div>
+</div>
+
+
+|||
 
 <div class="person flex md:flex-row flex-col items-start">
 
@@ -292,33 +317,6 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 |||
 
 
-<div class="person flex md:flex-row flex-col items-start">
-
-
-<div class="">
-
-
-![Image](florian_fournier.jpeg#mx-auto)
-</div>
-<div class="mx-3">
-
-
-**FLORIAN FOURNIER** <br>
-
-
-<p class="blue text-base font-semibold">Ecosystem Developer</p>
-
-
-<p class="text-base leading-tight">Experienced social entrepreneur and marketing executive with extensive network in the US and Latam. Spearheaded all marketing at Apple in Latam.</p>
-
-
-</div>
-</div>
-
-
-|||
-
-
 <a href="/people">
 <div class="person flex md:flex-row flex-col items-start">
 
@@ -331,7 +329,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 <div class="mx-3">
 
 
-<p class="font-semibold">Plus over 50+ engineers, developers and other excellent team members</p>
+<p class="font-semibold">Plus over 50 engineers, developers and other team members</p>
 
 
 </div>
