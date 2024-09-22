@@ -12,6 +12,7 @@ and a side nav for category and featured post navigation
 
     <!--sets global featured variable as the most recent post with the isFeatured tag-->
     {%- set section = get_section(path="people/_index.md") %}
+    {% include "partials/intro.html" %}
     <div class="container mx-auto">
       {% include "partials/filter_bar.html" %}
       <div class="text-center main-title px-0 md:w-full">
