@@ -20,9 +20,6 @@ extra:
 
 {% row(style="reverse header margin") %}
 
-
-#### <span class="text-xl subtitle">THREEFOLD</span> <br>
-
 ## **Enabling<span class="blue"><br>Digital Sovereignty</span>**
 
 The Internet began as a free and open network for all.

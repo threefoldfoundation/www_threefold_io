@@ -169,7 +169,7 @@ For this a token called INCA will been created.
 ## **Founded by <span class="green_text">Internet 1.0 Pioneers</span>**
 
 
-We are a dedicated group committed to advancing a new digital era. Some of us have been working on Internet technology since the early days, when it was a decentralized network. Our goal is to help bring that vision to life once more.
+We are a dedicated group committed to advancing a new digital era. Some of us have been working on Internet technology since the early days, when it was a decentralized network. We aim to help bring that vision to life once more. Beyond those below, we have more than 50 engineers, developers, and [other team members](/people) supporting the project.
 
 
 {% end %}
@@ -198,7 +198,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 <p class="blue text-base font-semibold">Co-Founder & CEO</p>
 
 
-<p class="text-base leading-tight">Serial entrepreneur with 30 years of experience in Internet infrastructure and cloud technology. Passionate about tech for good, 600m USD in exits.</p>
+<p class="text-base leading-tight">Serial entrepreneur with 30 years of experience in Internet infrastructure and cloud technology. Passionate about tech for good. +600m $ exits.</p>
 
 
 </div>
@@ -222,10 +222,10 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 **FLORIAN FOURNIER** <br>
 
 
-<p class="blue text-base font-semibold">Ecosystem Developer</p>
+<p class="blue text-base font-semibold">Co-Founder & CMO</p>
 
 
-<p class="text-base leading-tight">Ex Apple marketing director, serial entrepreneur, living between Africa and Latin America.</p>
+<p class="text-base leading-tight">Ex Apple marketing director, serial entrepreneur living between Africa and Latin America.</p>
 
 
 </div>
@@ -249,10 +249,10 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 **ADNAN FATAYERJI** <br>
 
 
-<p class="blue text-base font-semibold">Co-Founder & CEO of TF DMCC</p>
+<p class="blue text-base font-semibold">Co-Founder</p>
 
 
-<p class="text-base leading-tight">Social entrepreneur and startup investor, responsible for driving the ThreeFold Foundation. Built successful grass-root businesses in the UAE for the past 20 years.</p>
+<p class="text-base leading-tight">Tech entrepreneur with multiple exits. Based in Dubai for 20 years. Head of Partnerships and Business Development.</p>
 
 
 </div>
@@ -278,10 +278,10 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 **JAN DE LANDTSHEER** <br>
 
 
-<p class="blue text-base font-semibold">Co-Founder & Master Architect</p>
+<p class="blue text-base font-semibold">Co-Founder & CTO</p>
 
 
-<p class="text-base leading-tight">Network guru who has been innovating the internet from the early days and has witnessed the rise of centralization. </p>
+<p class="text-base leading-tight">40+ years of experience in deep tech, networking, cloud and storage.</p>
 
 
 </div>
@@ -296,18 +296,18 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 <div class="">
 
 
-![Image](sabrina_sadik.jpg#mx-auto)
+![Image](alexandre_hannelas.jpeg#mx-auto)
 </div>
 <div class="mx-3">
 
 
-**SABRINA SADIK** <br>
+**ALEXANDRE HANNELAS** <br>
 
 
-<p class="blue text-base font-semibold">Operations Manager</p>
+<p class="blue text-base font-semibold">CFO</p>
 
 
-<p class="text-base leading-tight">As the Internal and Grid Operations Lead, Sabrina handles customer communications and logistics. Sabrina prioritizes people and fosters and inclusive workplace culture.</p>
+<p class="text-base leading-tight">Finance lead with experience in Investment Banking and Administration.</p>
 
 
 </div>
@@ -316,30 +316,36 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 
 |||
 
-
-<a href="/people">
 <div class="person flex md:flex-row flex-col items-start">
 
 
 <div class="">
 
 
-![Image](plus2.png#mx-auto)
+![Image](sacha_obeegadoo.jpg#mx-auto)
 </div>
 <div class="mx-3">
 
 
-<p class="font-semibold">Plus over 50 engineers, developers and other team members</p>
+**SACHA OBEEGADOO** <br>
+
+
+<p class="blue text-base font-semibold">Business Development & Community</p>
+
+
+<p class="text-base leading-tight">Business development lead with strong network on African continent. </p>
 
 
 </div>
 </div>
 
-
-</a>
-
+</div>
+</div>
 
 {% end %}
+
+<br>
+<br>
 
 
 <!-- section ACHIEVEMENTS -->
