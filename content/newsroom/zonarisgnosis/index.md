@@ -6,7 +6,7 @@ description: Congratulations to Zonaris for launching their second project, now 
 date: 2023-06-27
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,technology,update]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: zonarisgnosis.png

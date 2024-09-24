@@ -6,7 +6,7 @@ description: After more than five years of building and expanding the open-sourc
 date: 2023-12-13
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,technology,update,community,farming]
+    tags: [community, farming, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: whats_next_for_tf.png

@@ -6,7 +6,7 @@ description: The Future Is Now - Kristof De Spiegeleer Of ThreeFold On How Their
 date: 2022-03-25
 taxonomies:
     people: [sam_taggart]
-    tags: [community,update,interview,technology,why,threefold_grid,blockchain]
+    tags: [grid, tech, news]
     news-category: [foundation]
 extra:
     imgPath: threefold_authority_mag.png

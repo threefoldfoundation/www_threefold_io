@@ -6,7 +6,7 @@ description: The newly-upgraded ThreeFold Grid Dashboard – your go-to platform
 date: 2024-01-25
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: newdashboardux.png

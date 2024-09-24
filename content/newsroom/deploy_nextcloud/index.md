@@ -6,7 +6,7 @@ description: Weynand takes us through the steps of deploying a Nextcloud instanc
 date: 2023-03-21
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news, community]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: deploy_nextcloud.png

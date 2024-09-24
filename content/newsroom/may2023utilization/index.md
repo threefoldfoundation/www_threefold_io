@@ -6,7 +6,7 @@ description: Take a look at the utilization statistics around the ThreeFold Grid
 date: 2023-05-11
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,technology,update,community]
+    tags: [community, grid]
     news-category: [foundation]
 extra:
     imgPath: may2023utilization.png

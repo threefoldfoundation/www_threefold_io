@@ -6,7 +6,7 @@ description: Here’s part two in our series of updates about last week’s ICT 
 date: 2022-11-02
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news]
+    tags: [community, event, collaboration]
     news-category: [foundation]
 extra:
     imgPath: ict_tnz_2.png

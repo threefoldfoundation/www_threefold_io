@@ -6,7 +6,7 @@ description: Congratulations to ThreeFold Tech, which was recognized as one of 1
 date: 2020-11-12
 taxonomies:
     people: [sam_taggart]
-    tags: [technology,update]
+    tags: [tech, news]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: tftechdeloittefinalist.jpeg

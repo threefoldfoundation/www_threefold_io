@@ -6,7 +6,7 @@ description: The new UI/UX of our new dashboard is up for testing.
 date: 2024-02-02
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: newdashboardtesting.png

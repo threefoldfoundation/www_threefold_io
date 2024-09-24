@@ -6,7 +6,7 @@ description: There is a new Grid Enhancement Proposal (GEP) around minting and f
 date: 2024-03-29
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, farming, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: minting_and_farming_rewards_updates.png

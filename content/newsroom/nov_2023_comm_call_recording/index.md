@@ -6,7 +6,7 @@ description: Inside our November community call – our plan to go commercial, u
 date: 2023-12-02
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,technology,update,community,farming]
+    tags: [community, farming, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: nov_2023_comm_call_recording.png

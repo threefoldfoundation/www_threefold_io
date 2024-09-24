@@ -6,7 +6,7 @@ description: Stay tuned for the latest team updates from February and mark your 
 date: 2024-02-29
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, farming, grid, collaboration, tech]
     news-category: [foundation]
 extra:
     imgPath: endfeb2024update.png

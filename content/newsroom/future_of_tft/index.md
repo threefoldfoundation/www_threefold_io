@@ -6,7 +6,7 @@ description: As we gear towards commercialization and increased utilization in t
 date: 2023-12-28
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, grid, tech, token]
     news-category: [foundation]
 extra:
     imgPath: future_of_tft.png

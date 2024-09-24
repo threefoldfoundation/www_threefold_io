@@ -6,7 +6,7 @@ description: Join us next week for another review call around the TF Grid 3.12 p
 date: 2023-08-18
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tfgrid312reviewcall2.png

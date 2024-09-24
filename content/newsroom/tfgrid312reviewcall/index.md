@@ -6,7 +6,7 @@ description: Announcing a review call for the TF Grid 3.12 proposal!
 date: 2023-08-03
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tfgrid312reviewcall.png

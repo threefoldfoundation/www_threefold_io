@@ -6,7 +6,7 @@ description: GPU support is now being worked on by the team. Read the latest as 
 date: 2023-06-30
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,technology,update]
+    tags: [grid, tech]
     news-category: [foundation]
 extra:
     imgPath: gpusupportcoming.png

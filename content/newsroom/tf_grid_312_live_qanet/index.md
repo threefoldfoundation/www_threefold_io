@@ -6,7 +6,7 @@ description: TF Grid 3.12 is now live on QANet
 date: 2023-11-03
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid, community, news]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tf_grid_312_live_qanet.png

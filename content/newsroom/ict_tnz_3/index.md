@@ -6,7 +6,7 @@ description: During the conference, ThreeFold announced the development of OurVe
 date: 2022-11-07
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news]
+    tags: [community, event, collaboration]
     news-category: [foundation]
 extra:
     imgPath: ict_tnz_3.png

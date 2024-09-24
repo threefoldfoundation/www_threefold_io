@@ -6,7 +6,7 @@ description: Proud of our achievements and motivated for the future, 2023 was ch
 date: 2023-12-29
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, farming, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: review_2023_2024.png

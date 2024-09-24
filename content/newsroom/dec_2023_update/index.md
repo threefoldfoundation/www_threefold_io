@@ -6,7 +6,7 @@ description: As the year-end nears, we'd like to touch upon key topics. Please r
 date: 2023-12-22
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, tech]
     news-category: [foundation]
 extra:
     imgPath: dec_2023_update.png

@@ -6,7 +6,7 @@ description: The latest version of the grid is now live on testnet!
 date: 2023-08-16
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tfgrid311livetestnet.png

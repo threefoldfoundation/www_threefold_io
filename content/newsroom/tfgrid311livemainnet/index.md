@@ -6,7 +6,7 @@ description: Thanks to all those involved in bringing this release forward!
 date: 2023-09-13
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tfgrid311livemainnet.png

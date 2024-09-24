@@ -6,7 +6,7 @@ description: Take a look at the recording of yesterday's community call for the 
 date: 2023-08-02
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
+    tags: [community, tech]
     news-category: [foundation]
 extra:
     imgPath: aug2023callrecording.png

@@ -6,7 +6,7 @@ description: Thanks to those who joined us earlier in the week for updates from 
 date: 2024-03-15
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: march_community_call_recording_is_live.png

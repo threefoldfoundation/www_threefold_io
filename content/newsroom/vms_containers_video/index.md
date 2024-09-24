@@ -6,7 +6,7 @@ description: Scott is back, this time with an informational / educational presen
 date: 2023-03-02
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news, community]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: vms_containers_video.png

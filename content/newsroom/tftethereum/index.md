@@ -6,7 +6,7 @@ description: A TFT bridge from Stellar to Ethereum is now up and running!
 date: 2023-05-05
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,technology,update,community,threefold_token]
+    tags: [community, tech, token]
     news-category: [foundation]
 extra:
     imgPath: tftethereum.png

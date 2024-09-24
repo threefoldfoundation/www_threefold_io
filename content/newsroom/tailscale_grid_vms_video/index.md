@@ -6,7 +6,7 @@ description: Check out how a VM image with Tailscale integrated can make private
 date: 2023-02-28
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news, community]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tailscale_grid_vms_video.png

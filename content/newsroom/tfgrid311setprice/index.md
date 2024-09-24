@@ -6,7 +6,7 @@ description: Learn about an exciting new feature as part of the TF Grid 3.11 rel
 date: 2023-08-24
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
+    tags: [community, grid, tech, token]
     news-category: [foundation]
 extra:
     imgPath: tfgrid311setprice.png

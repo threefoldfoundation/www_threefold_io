@@ -6,7 +6,7 @@ description: By using easy-to-follow guides shared by our fellow community membe
 date: 2023-01-13
 taxonomies:
     people: [sam_taggart]
-    tags: [update, news, community]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: terraform_spotlight.png

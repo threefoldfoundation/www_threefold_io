@@ -7,7 +7,7 @@ date: 2023-10-16
 taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
-  tags: [farming, update, community, technology]
+    tags: [community, farming, grid, tech]
 extra:
   imgPath: grid_status_dashboard.png
 ---

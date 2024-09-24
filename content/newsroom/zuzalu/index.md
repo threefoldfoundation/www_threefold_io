@@ -6,7 +6,7 @@ description: Some of the team is at the New Cities & Network States event at Zuz
 date: 2023-04-26
 taxonomies:
     people: [sam_taggart]
-    tags: [update, news, community]
+    tags: [community, event]
     news-category: [foundation]
 extra:
     imgPath: zuzalu.png

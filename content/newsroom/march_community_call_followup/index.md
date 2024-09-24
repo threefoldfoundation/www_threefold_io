@@ -6,7 +6,7 @@ description: Answers to all your questions from our March Community call are her
 date: 2024-03-23
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: march_community_call_followup.png

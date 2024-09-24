@@ -6,7 +6,7 @@ description: Read about Terraform, how it works on the TF Grid 3.0, and what it 
 date: 2021-08-31
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,threefold_cloud,update,technology]
+    tags: [grid, tech]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: terraform_grid3.png

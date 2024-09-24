@@ -6,7 +6,7 @@ description: The stricter minting rules are in effect as of this month, for anyo
 date: 2023-11-08
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news,farming]
+    tags: [community, farming, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: stricter_minting_update.png

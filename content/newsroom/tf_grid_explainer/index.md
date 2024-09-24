@@ -6,7 +6,7 @@ description: In this video, Scott goes through an educational presentation about
 date: 2023-02-08
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news, community]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tf_grid_explainer.png

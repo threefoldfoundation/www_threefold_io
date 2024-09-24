@@ -6,7 +6,7 @@ description: For those who missed it, dive into the discussion around 3.12!
 date: 2023-08-12
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tfgrid312callrecording.png

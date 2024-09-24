@@ -6,7 +6,7 @@ description: Calling all farmers to vote on the GEP to bring grid version 3.12 t
 date: 2023-12-01
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,technology,update,community,farming]
+    tags: [community, farming, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: tf_grid_312_mainnet_gep.png

@@ -6,7 +6,7 @@ description: The Planetary Network is a peer-to-peer end-to-end encrypted global
 date: 2021-09-03
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,update,threefold_cloud,technology]
+    tags: [grid, tech]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: planetary_network_intro.png

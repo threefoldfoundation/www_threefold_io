@@ -7,7 +7,7 @@ date: 2023-09-19
 taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
-  tags: [update, community, technology, threefold_grid]
+    tags: [community, tech]
 extra:
   imgPath: mycelium.png
 ---

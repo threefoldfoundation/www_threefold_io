@@ -6,7 +6,7 @@ description: We have kicked off an initiative to deliver a set of tools which wi
 date: 2023-11-28
 taxonomies:
     people: [sam_taggart]
-    tags: [community,technology,update]
+    tags: [community, collaboration]
     news-category: [foundation]
 extra:
     imgPath: dunia_yetu.png

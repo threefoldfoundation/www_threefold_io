@@ -6,7 +6,7 @@ description: Read about where we are and where we are headed in the coming weeks
 date: 2023-09-02
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
+    tags: [community, farming, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: september2023update.png

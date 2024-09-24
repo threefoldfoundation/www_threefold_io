@@ -6,7 +6,7 @@ description: Jakub created a mini video series about using Kubernetes on the Thr
 date: 2023-03-17
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news, community]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: kubernetes_video_series.png

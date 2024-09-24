@@ -6,7 +6,7 @@ description:  Good news! TTF Grid 3.12 is heading to QANet. See what's inside.
 date: 2023-10-30
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [update, technology, news, community]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: whats_coming_tf_grid_312.png

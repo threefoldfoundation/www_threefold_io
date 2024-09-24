@@ -6,7 +6,7 @@ description: We are now listed on DePIN (Decentralized Physical Infrastructure N
 date: 2023-12-15
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, grid, collaboration, tech]
     news-category: [foundation]
 extra:
     imgPath: depin_hub.png

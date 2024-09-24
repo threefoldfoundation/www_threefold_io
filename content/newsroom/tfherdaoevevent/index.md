@@ -6,7 +6,7 @@ description: We're excited to announce our partnership with H.E.R. DAO for a dev
 date: 2024-02-01
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, event, collaboration, tech]
     news-category: [technology]
 extra:
     imgPath: tfherdaoevent.png

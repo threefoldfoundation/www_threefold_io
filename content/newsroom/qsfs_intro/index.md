@@ -6,7 +6,7 @@ description: There's nothing out there like the Quantum Safe Filesystem – see 
 date: 2021-03-03
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_cloud,update,technology]
+    tags: [grid, tech]
     news-category: [foundation,cloud]
 extra:
     imgPath: qsfs_intro.png

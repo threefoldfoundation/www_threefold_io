@@ -6,7 +6,7 @@ description: Learn about the summit we hosted this past weekend in Zanzibar to u
 date: 2023-07-23
 taxonomies:
     people: [sam_taggart]
-    tags: [community,technology,update,event]
+    tags: [community, event, tech]
     news-category: [foundation]
 extra:
     imgPath: africanregensummit.png

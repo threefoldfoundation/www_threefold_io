@@ -6,7 +6,7 @@ description: ThreeFold Set To Disrupt Status Quo With a P2P Internet Powered by 
 date: 2021-06-26
 taxonomies:
     people: [sam_taggart]
-    tags: [news,peer_to_peer]
+    tags: [grid, tech, news]
     news-category: [farming,cloud,foundation]
 extra:
     imgPath: yahoonewsjune21.png

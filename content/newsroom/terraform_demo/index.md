@@ -6,7 +6,7 @@ description: A demo on how easy it is to create, use, and destroy deployments on
 date: 2021-09-01
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,update,threefold_cloud,technology,community]
+    tags: [community, grid, tech]
     news-category: [foundation,cloud,farming]
 extra:
     imgPath: terraform_demo.png

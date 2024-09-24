@@ -6,7 +6,7 @@ description: Here's a recap of everything that happened at our developer meeting
 date: 2024-02-08
 taxonomies:
     people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [community, event, collaboration, tech]
     news-category: [technology]
 extra:
     imgPath: tfherdaorecap.png

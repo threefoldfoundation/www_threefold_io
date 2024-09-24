@@ -6,7 +6,7 @@ description: Is a new decentralized internet, or Web 3.0 possible? Read ThreeFol
 date: 2021-06-10
 taxonomies:
     people: [sam_taggart]
-    tags: [technology,threefold_grid,blockchain,update,peer_to_peer]
+    tags: [grid, tech, news]
     news-category: [farming,cloud,foundation,aci,twin]
 extra:
     imgPath: tfcointelegraphjune2021.png

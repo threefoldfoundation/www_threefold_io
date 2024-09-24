@@ -6,7 +6,7 @@ description: The President of Zanzibar, Dr. Hussein Mwinyi, visited us this week
 date: 2023-07-27
 taxonomies:
     people: [sam_taggart]
-    tags: [partnership,community,technology,update]
+    tags: [community, collaboration, tech, news]
     news-category: [foundation]
 extra:
     imgPath: digitalfreezonezanzibar.png

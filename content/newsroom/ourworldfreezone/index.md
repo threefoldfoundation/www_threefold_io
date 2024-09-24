@@ -6,7 +6,7 @@ description: OurWorld Digital Free Zone received some coverage recently from IPP
 date: 2023-08-01
 taxonomies:
     people: [sam_taggart]
-    tags: [partner,news,community,technology,update]
+    tags: [collaboration, tech, news]
     news-category: [foundation]
 extra:
     imgPath: ourworldfreezone.png

@@ -6,7 +6,7 @@ description: Started by the Green Edge team, Zonaris is a decentralized node dep
 date: 2022-11-25
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, news]
+    tags: [community, grid, tech]
     news-category: [foundation]
 extra:
     imgPath: meet_zonaris.png

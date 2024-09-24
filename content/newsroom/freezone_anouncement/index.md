@@ -6,7 +6,7 @@ description: ThreeFold recently formalized its partnership with ZICTIA, the Zanz
 date: 2023-08-15
 taxonomies:
     people: [emilie_ouwerx]
-    tags: [technology,update,threefold_grid,community,news]
+    tags: [grid, collaboration, tech]
     news-category: [foundation]
 extra:
     imgPath: freezone_anouncement.png

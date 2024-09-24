@@ -6,7 +6,7 @@ description: Over the coming days we’ll be sharing a series of updates about o
 date: 2022-10-31
 taxonomies:
     people: [sam_taggart]
-    tags: [update, technology, community]
+    tags: [community, event, collaboration]
     news-category: [foundation]
 extra:
     imgPath: ict_tnz_1.png

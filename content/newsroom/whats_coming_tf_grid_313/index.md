@@ -6,7 +6,7 @@ description: The upcoming release contains a wide range of UI/UX improvements, m
 date: 2023-11-30
 taxonomies:
     people: [sam_taggart]
-    tags: [threefold_grid,technology,update]
+    tags: [grid, tech]
     news-category: [foundation]
 extra:
     imgPath: whats_coming_tf_grid_313.png
