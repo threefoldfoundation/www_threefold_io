@@ -5,9 +5,9 @@ image_caption: tfrobot_demo
 description: Watch as Scott deploys 100 virtual machines in less than five minutes using an exciting tool developed by ThreeFold.
 date: 2024-07-24
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [tech,grid,community]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [tech,grid,community]
+  news-category: [foundation]
 extra:
     imgPath: tfrobot_demo.png
 ---

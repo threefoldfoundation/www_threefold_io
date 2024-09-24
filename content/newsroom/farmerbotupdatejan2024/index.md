@@ -5,9 +5,9 @@ image_caption: Famerbot 2024
 description: The new version of Farmerbot is here with notable improvements, click here to know more. 
 date: 2024-01-26
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: farmerbotupdatejan2024.png
 ---

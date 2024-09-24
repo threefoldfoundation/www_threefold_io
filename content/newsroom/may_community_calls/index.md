@@ -5,9 +5,9 @@ image_caption: may_community_calls
 description: Looking to when and what will be discussed in May, click here to see the schedule for our community calls. Save the Date. 
 date: 2024-05-02
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: may_community_calls.png
 ---

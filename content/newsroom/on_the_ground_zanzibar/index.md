@@ -5,9 +5,9 @@ image_caption: Zanzalu 2024
 description: From visiting IIT Madras Zanzibar to discussing sovereign infrastructure at Zanzalu, dive in to learn more.
 date: 2024-06-07
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: on_the_ground_zanzibar.png
 ---

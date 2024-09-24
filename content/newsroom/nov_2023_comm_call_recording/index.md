@@ -5,9 +5,9 @@ image_caption: November 2023 Community Call Recording
 description: Inside our November community call – our plan to go commercial, upcoming roadmap, and more.
 date: 2023-12-02
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, farming, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, farming, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: nov_2023_comm_call_recording.png
 ---

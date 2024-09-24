@@ -5,9 +5,9 @@ image_caption: Zonaris Launches with Gnosis
 description: Congratulations to Zonaris for launching their second project, now live with Gnosis validators!
 date: 2023-06-27
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: zonarisgnosis.png
 ---

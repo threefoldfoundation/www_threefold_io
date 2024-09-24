@@ -5,9 +5,9 @@ image_caption: Terraform Demo
 description: A demo on how easy it is to create, use, and destroy deployments on TF Grid 3.0 using Terraform.
 date: 2021-09-01
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation,cloud,farming]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation,cloud,farming]
 extra:
     imgPath: terraform_demo.png
 ---

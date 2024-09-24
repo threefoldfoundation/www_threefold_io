@@ -5,9 +5,9 @@ image_caption: Depin Hub listing
 description: We are now listed on DePIN (Decentralized Physical Infrastructure Networks). Let us know what you think. 
 date: 2023-12-15
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, grid, collaboration, tech]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, collaboration, tech]
+  news-category: [foundation]
 extra:
     imgPath: depin_hub.png
     isFeatured: true

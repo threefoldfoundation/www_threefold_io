@@ -5,9 +5,9 @@ image_caption: May V4 discussion
 description: A discussion on TF Grid 4 featuring insights from the team, followed by Q&A.
 date: 2024-05-17
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: v4_may_community.png
 

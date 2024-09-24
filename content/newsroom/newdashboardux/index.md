@@ -5,9 +5,9 @@ image_caption: New UI/UX Dashboard
 description: The newly-upgraded ThreeFold Grid Dashboard – your go-to platform for managing and deploying on the TF Grid.
 date: 2024-01-25
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: newdashboardux.png
 ---

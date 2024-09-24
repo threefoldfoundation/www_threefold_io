@@ -5,9 +5,9 @@ image_caption: TF Grid 3.11 Updates
 description: Take a look at the latest updates around TF Grid 3.11
 date: 2023-07-28
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tfgrid311updates.png
 ---

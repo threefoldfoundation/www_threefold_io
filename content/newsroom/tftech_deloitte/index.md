@@ -5,9 +5,9 @@ image_caption: ThreeFold Tech recognized by Deloitte Belgium
 description: Congratulations to ThreeFold Tech, which was recognized as one of 10 finalists by Deloitte Belgium in its Rising Star competition! More within.
 date: 2020-11-12
 taxonomies:
-    people: [sam_taggart]
-    tags: [tech, news]
-    news-category: [farming,cloud,foundation]
+  people: [sam_taggart]
+  tags: [tech, news]
+  news-category: [farming,cloud,foundation]
 extra:
     imgPath: tftechdeloittefinalist.jpeg
 ---

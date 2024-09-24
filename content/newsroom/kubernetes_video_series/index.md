@@ -5,9 +5,9 @@ image_caption: Kubernetes on ThreeFold - A Mini Video Series
 description: Jakub created a mini video series about using Kubernetes on the ThreeFold grid. 
 date: 2023-03-17
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: kubernetes_video_series.png
 ---

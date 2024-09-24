@@ -5,9 +5,9 @@ image_caption: social_network_mega_space
 description: Join the Social Network Mega Space featuring Kristof (co-founder) and Florian (biz dev).
 date: 2024-03-25
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, collaboration, tech]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, collaboration, tech]
+  news-category: [foundation]
 extra:
     imgPath: social_network_mega_space.png
 ---

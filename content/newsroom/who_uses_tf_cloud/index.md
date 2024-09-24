@@ -5,9 +5,9 @@ image_caption: who uses tf cloud
 description: Learn more about what the peer-to-peer TF Cloud can already achieve! 
 date: 2021-03-05
 taxonomies:
-    people: [sam_taggart]
-    tags: [grid, tech]
-    news-category: [foundation,cloud]
+  people: [sam_taggart]
+  tags: [grid, tech]
+  news-category: [foundation,cloud]
 extra:
     imgPath: who_uses_tf_cloud.png
 ---

@@ -6,7 +6,7 @@ description: Sasha leads us through some updates released as a part of TFGrid v3
 date: 2023-01-20
 taxonomies:
   people: [sam_taggart]
-    tags: [community, grid, tech]
+  tags: [community, grid, tech]
   news-category: [foundation]
 extra:
   imgPath: tf_prod_focus_nodes.png

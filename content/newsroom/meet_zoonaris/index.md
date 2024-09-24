@@ -5,9 +5,9 @@ image_caption: Meet Zonaris
 description: Started by the Green Edge team, Zonaris is a decentralized node deployment platform built on top of the ThreeFold Grid.
 date: 2022-11-25
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: meet_zonaris.png
 ---

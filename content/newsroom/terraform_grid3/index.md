@@ -5,9 +5,9 @@ image_caption: TF Grid 3.0 Supports Terraform
 description: Read about Terraform, how it works on the TF Grid 3.0, and what it means for grid users.
 date: 2021-08-31
 taxonomies:
-    people: [sam_taggart]
-    tags: [grid, tech]
-    news-category: [foundation,cloud,farming]
+  people: [sam_taggart]
+  tags: [grid, tech]
+  news-category: [foundation,cloud,farming]
 extra:
     imgPath: terraform_grid3.png
 ---

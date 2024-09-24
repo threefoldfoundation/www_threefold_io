@@ -5,9 +5,9 @@ image_caption: Give Feedback on TF Grid 3.12!
 description: Provide feedback on the team's TF Grid 3.12 proposal, a move towards maximum decentralization!
 date: 2023-08-02
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tfgrid312feedback.png
 ---

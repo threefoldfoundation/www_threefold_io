@@ -5,9 +5,9 @@ image_caption: Manual updates
 description: Dive into the latest updates to the ThreeFold Manual.  
 date: 2024-01-08
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: manualupdatesjan2024.png
 ---

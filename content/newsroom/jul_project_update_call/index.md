@@ -5,9 +5,9 @@ image_caption: July Project call
 description: This month's update covered highlights on grid operations, potential tokenomics, Internet Capacity updates, demos, and more.
 date: 2024-08-02
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [tech,grid,community]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [tech,grid,community]
+  news-category: [foundation]
 extra:
     imgPath: jul_project_update_call.jpg
 

@@ -5,9 +5,9 @@ image_caption: mainnet_upgrade_314
 description: Calling all farmers to vote on the GEP to bring grid version 3.14 to mainnet!
 date: 2024-06-24
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [tech,grid,community]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [tech,grid,community]
+  news-category: [foundation]
 extra:
     imgPath: mainnet_upgrade_314.png
 

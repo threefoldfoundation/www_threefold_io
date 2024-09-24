@@ -5,9 +5,9 @@ image_caption: Updated threefold.io
 description: An improved threefold.io is now live!
 date: 2024-03-05
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: updated_threefold_io.png
 ---

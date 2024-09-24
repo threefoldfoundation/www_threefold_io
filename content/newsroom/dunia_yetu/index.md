@@ -5,9 +5,9 @@ image_caption: Introducing Dunia Yetu
 description: We have kicked off an initiative to deliver a set of tools which will allow coders in East Africa to create their own digital sovereign Internet.
 date: 2023-11-28
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, collaboration]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, collaboration]
+  news-category: [foundation]
 extra:
     imgPath: dunia_yetu.png
 ---

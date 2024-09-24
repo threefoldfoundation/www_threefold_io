@@ -5,9 +5,9 @@ image_caption: 📚 Learn About Full VMs, Micro VMs, and Containers on ThreeFold
 description: Scott is back, this time with an informational / educational presentation about full virtual machines, micro virtual machines, and containers. 
 date: 2023-03-02
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: vms_containers_video.png
 ---

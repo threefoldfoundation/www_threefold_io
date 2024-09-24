@@ -5,9 +5,9 @@ image_caption: ICT Tanzania Update 2
 description: Here’s part two in our series of updates about last week’s ICT Conference in Tanzania.
 date: 2022-11-02
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, event, collaboration]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, event, collaboration]
+  news-category: [foundation]
 extra:
     imgPath: ict_tnz_2.png
 ---

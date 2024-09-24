@@ -5,9 +5,9 @@ image_caption: WordPress demo
 description:  Mik and Scott guide us on how to deploy WordPress on the grid in two simple methods
 date: 2024-06-07
 taxonomies:
-    people: [marion_ravarino]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [marion_ravarino]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: wordpress_demo.png
 ---

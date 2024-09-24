@@ -5,9 +5,9 @@ image_caption: ThreeFold Team @ Zuzalu
 description: Some of the team is at the New Cities & Network States event at Zuzalu, where Kristof will be speaking.
 date: 2023-04-26
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, event]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, event]
+  news-category: [foundation]
 extra:
     imgPath: zuzalu.png
 ---

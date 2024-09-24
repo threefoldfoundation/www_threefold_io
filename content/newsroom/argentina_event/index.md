@@ -5,9 +5,9 @@ image_caption: Aleph Event
 description:  Kristof and Florian represented ThreeFold at the Aleph Use-cases Week in Buenos Aires.
 date: 2024-08-14
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [tech,grid,community,event]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [tech,grid,community,event]
+  news-category: [foundation]
 extra:
     imgPath: argentina_event.jpg
 

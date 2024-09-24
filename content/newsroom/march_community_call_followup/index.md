@@ -5,9 +5,9 @@ image_caption: Community call followup
 description: Answers to all your questions from our March Community call are here!
 date: 2024-03-23
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: march_community_call_followup.png
 ---

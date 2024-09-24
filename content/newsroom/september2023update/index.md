@@ -5,9 +5,9 @@ image_caption: September Update from the Team
 description: Read about where we are and where we are headed in the coming weeks and beyond.
 date: 2023-09-02
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, farming, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, farming, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: september2023update.png
 ---

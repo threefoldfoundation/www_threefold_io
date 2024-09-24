@@ -7,7 +7,7 @@ date: 2023-09-19
 taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
-    tags: [community, tech]
+  tags: [community, tech]
 extra:
   imgPath: mycelium.png
 ---

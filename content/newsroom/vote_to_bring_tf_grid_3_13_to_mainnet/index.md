@@ -5,9 +5,9 @@ image_caption: TF grid 3.13 to mainnet
 description: Calling all farmers to vote on the GEP to bring grid version 3.13 to mainnet!
 date: 2024-03-02
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: vote_to_bring_tf_grid_3_13_to_mainnet.png
 ---

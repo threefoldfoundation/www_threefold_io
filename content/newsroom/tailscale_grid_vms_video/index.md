@@ -5,9 +5,9 @@ image_caption: Using Tailscale Inside of Grid VMs
 description: Check out how a VM image with Tailscale integrated can make private networking and SSH super simple on the Grid.
 date: 2023-02-28
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tailscale_grid_vms_video.png
 ---

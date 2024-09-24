@@ -5,9 +5,9 @@ image_caption: GPU Support Coming to the Grid
 description: GPU support is now being worked on by the team. Read the latest as it pertains to this exciting grid feature!
 date: 2023-06-30
 taxonomies:
-    people: [sam_taggart]
-    tags: [grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: gpusupportcoming.png
 ---

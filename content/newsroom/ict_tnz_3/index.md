@@ -5,9 +5,9 @@ image_caption: ICT Tanzania Update 3
 description: During the conference, ThreeFold announced the development of OurVerse – a decentralized and immersive metaverse experience being built on top of the ThreeFold Grid.
 date: 2022-11-07
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, event, collaboration]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, event, collaboration]
+  news-category: [foundation]
 extra:
     imgPath: ict_tnz_3.png
 ---

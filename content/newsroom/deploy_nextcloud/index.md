@@ -5,9 +5,9 @@ image_caption: Tutorial - Deploy Nextcloud on the TF Grid
 description: Weynand takes us through the steps of deploying a Nextcloud instance on top of the ThreeFold Grid, and tries to do the whole deployment in under ten minutes.
 date: 2023-03-21
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: deploy_nextcloud.png
 ---

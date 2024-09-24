@@ -7,7 +7,7 @@ date: 2023-10-01
 taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
-    tags: [community, grid, tech]
+  tags: [community, grid, tech]
 extra:
   imgPath: pulumi_plugin.png
 ---

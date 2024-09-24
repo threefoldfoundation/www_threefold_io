@@ -5,9 +5,9 @@ image_caption: Aleph Event
 description: TF Grid 3.15 is coming soon, with key highlights around  50% utilization rewards for farmers, Mycelium 0.5, and grid stack evolution and more. 
 date: 2024-08-29
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [tech,grid,community,event]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [tech,grid,community,event]
+  news-category: [foundation]
 extra:
     imgPath: 315_notes.png
 

@@ -6,7 +6,7 @@ description: Thanks to Drew for creating this great resource for anyone in the c
 date: 2023-01-03
 taxonomies:
   people: [sam_taggart]
-    tags: [community, grid, tech]
+  tags: [community, grid, tech]
   news-category: [foundation]
 extra:
   imgPath: talk_about_deploying.png

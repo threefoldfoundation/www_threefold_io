@@ -5,9 +5,9 @@ image_caption: Grid 3.11 – Farmers Can Now Set An Extra Fee
 description: Learn about an exciting new feature as part of the TF Grid 3.11 release.
 date: 2023-08-24
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, tech, token]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech, token]
+  news-category: [foundation]
 extra:
     imgPath: tfgrid311setprice.png
 ---

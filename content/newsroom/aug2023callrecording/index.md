@@ -5,9 +5,9 @@ image_caption: August 1 Community Call Recording
 description: Take a look at the recording of yesterday's community call for the latest developments and updates.
 date: 2023-08-02
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, tech]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, tech]
+  news-category: [foundation]
 extra:
     imgPath: aug2023callrecording.png
 ---

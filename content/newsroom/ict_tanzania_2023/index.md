@@ -7,7 +7,7 @@ date: 2023-10-23
 taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
-    tags: [event, tech]
+  tags: [event, tech]
 extra:
   imgPath: ict_tanzania_2023.png
 ---

@@ -5,9 +5,9 @@ image_caption: ThreeFold Authority Mag
 description: The Future Is Now - Kristof De Spiegeleer Of ThreeFold On How Their Technological Innovation Will Shake Up The Tech Scene, via Authority Magazine
 date: 2022-03-25
 taxonomies:
-    people: [sam_taggart]
-    tags: [grid, tech, news]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [grid, tech, news]
+  news-category: [foundation]
 extra:
     imgPath: threefold_authority_mag.png
 ---
