@@ -5,9 +5,9 @@ image_caption: internet farming
 description: We probably don’t need to tell you that the invention of Blockchain technology changed the world dramatically..
 date: 2020-02-03
 taxonomies:
-    people: [sam_taggart]
-    tags: [farming]
-    categories: [farming,threefold_grid,threefold_token]
+  people: [sam_taggart]
+  tags: [farming, grid, token]
+  categories: [farming,threefold_grid,threefold_token]
 extra:
     imgPath: intro_to_farming.png
 ---

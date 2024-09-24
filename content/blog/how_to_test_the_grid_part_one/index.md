@@ -5,9 +5,9 @@ image_caption: technology
 description: Learn about the testing process on the ThreeFold Grid, covering four networks and utilizing both manual and automated tests for stability and reliability.
 date: 2024-05-03
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,threefold_cloud,community]
-    categories: [farming,cloud,foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,threefold_cloud,community]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: testing_main.png
 ---

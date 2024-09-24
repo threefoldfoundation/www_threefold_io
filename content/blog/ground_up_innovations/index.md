@@ -5,9 +5,9 @@ image_caption: Ground Up Innovations
 description: The future of the Internet lies in breaking free from the constraints of outdated, centralized systems and embracing a new paradigm.
 date: 2024-07-24
 taxonomies:
-    people: [sam_taggart]
-    tags: [grid,decentralization,tech,why]
-    categories: []
+  people: [sam_taggart]
+  tags: [grid,decentralization,tech,why]
+  categories: []
 extra:
     imgPath: ground_up_innovations.png
 ---

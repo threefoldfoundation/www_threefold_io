@@ -5,9 +5,9 @@ image_caption: A Journey Into ThreeFold
 description: A conversation with Scott and Sam about Scott's journey into ThreeFold, the tech, the people, and more.
 date: 2021-09-17
 taxonomies:
-    people: [sam_taggart]
-    tags: [update, why, community]
-    categories: [farming, cloud, foundation, aci]
+  people: [sam_taggart]
+  tags: [community, decentralization, why]
+  categories: [farming, cloud, foundation, aci]
 extra:
     imgPath: journey_into_threefold.png
 ---

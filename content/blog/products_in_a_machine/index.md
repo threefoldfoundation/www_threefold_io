@@ -5,9 +5,9 @@ image_caption: Rethinking Our Relationship with the Digital World
 description: The Internet has always been a canvas for human connection and creativity. Yet, there are cracks in the system and massive trade offs for all of us.
 date: 2023-07-15
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, why]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [decentralization, why]
+  categories: [foundation]
 extra:
     imgPath: products_in_a_machine.png
 ---

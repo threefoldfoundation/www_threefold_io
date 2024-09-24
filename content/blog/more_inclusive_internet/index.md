@@ -5,9 +5,9 @@ image_caption: planet internet
 description: Today we are working with partners in the clean energy and network / connectivity to build the solutions that are needed to provide fair and uninterrupted internet access with all corners of the world.
 date: 2021-01-03
 taxonomies:
-    people: [sam_taggart]
-    tags: [farming,why]
-    categories: [farming,cloud,foundation,aci,twin]
+  people: [sam_taggart]
+  tags: [farming, grid, why]
+  categories: [farming,cloud,foundation,aci,twin]
 extra:
     imgPath: more_inclusive_internet.png
 ---

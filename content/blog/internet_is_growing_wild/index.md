@@ -5,9 +5,9 @@ image_caption: planet
 description: The internet is growing at an extremely fast pace, but is that a good thing?
 date: 2019-12-05
 taxonomies:
-    people: [sam_taggart]
-    tags: [technology,why,threefold_grid]
-    categories: [farming,cloud,foundation,aci]
+  people: [sam_taggart]
+  tags: [grid, why, tech]
+  categories: [farming,cloud,foundation,aci]
 extra:
     imgPath: internet_is_growing_wild.png
 ---

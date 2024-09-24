@@ -5,9 +5,9 @@ image_caption: The Internet is Moving to the Edge.
 description: With emerging technologies like IoT, Web 3 and more, computing needs to be pushed from centralized data centers to the edge of the network. Learn why ThreeFold is the ideal foundation for a thriving interconnected future.
 date: 2022-05-10
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid,technology, peer_to_peer, data]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [decentralization, grid, why, cloud, tech]
+  categories: [foundation]
 extra:
     imgPath: internet_at_the_edge.png
 ---

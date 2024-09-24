@@ -6,7 +6,7 @@ description: The Tier S model is designed to exceed the capabilities of traditio
 date: 2024-02-10
 taxonomies:
   people: [sam_taggart]
-  tags: [threefold_grid, technology]
+  tags: [cloud, tech]
   categories: [foundation]
 extra:
   imgPath: tier_s_data_center.png

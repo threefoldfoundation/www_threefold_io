@@ -5,9 +5,9 @@ image_caption: How to stop the Internet from Gobbling the World’s Energy
 description: Oftentimes, the Internet’s significant energy consumption and climate impacts go unnoticed. At ThreeFold, we're leading the way by working on energy-efficient and sustainable solutions for the Internet.
 date: 2022-04-26
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, threefold_farming, farming, why]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [decentralization, farming, grid, why, tech]
+  categories: [foundation]
 extra:
     imgPath: internet_energy_consumption.png
 ---

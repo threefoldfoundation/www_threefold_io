@@ -5,9 +5,9 @@ image_caption: peer to peer
 description: P2P systems are network, not linear or pyramidal hierarchies (though they may share some elements)..
 date: 2020-12-15
 taxonomies:
-    people: [sacha_obeegadoo]
-    tags: [peer_to_peer,why,farming,technology,threefold_grid]
-    categories: [farming,cloud,twin,foundation]
+  people: [sacha_obeegadoo]
+  tags: [decentralization, grid, why]
+  categories: [farming,cloud,twin,foundation]
 extra:
     imgPath: peer_to_peer.png
 ---

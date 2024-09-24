@@ -5,9 +5,9 @@ image_caption: technology
 description: The truth is that ThreeFold is a big project. Here we will try to make things a little simpler for you.
 date: 2020-05-15
 taxonomies:
-    people: [sam_taggart]
-    tags: [technology,why]
-    categories: [farming,cloud,foundation]
+  people: [sam_taggart]
+  tags: [community, decentralization, farming, grid, why, cloud, tech, token]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: how_it_works.png
 ---

@@ -5,9 +5,9 @@ image_caption: Efficiency Explained
 description: Read how ThreeFold technology results in up-to 90% energy savings depending on workloads.
 date: 2023-10-11
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, peer_to_peer, technology, why]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [decentralization, grid, why, tech]
+  categories: [foundation]
 extra:
     imgPath: energy_efficiency_explained.png
 ---

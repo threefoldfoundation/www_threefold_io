@@ -5,9 +5,9 @@ image_caption: ThreeFold Cooperative
 description: Cooperatives represent a tried and tested form of collective organization, emphasizing democratic governance and equitable distribution of benefits among members.
 date: 2023-12-04
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, peer_to_peer, community]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, decentralization]
+  categories: [foundation]
 extra:
     imgPath: threefold_cooperative.png
     isFeatured: true

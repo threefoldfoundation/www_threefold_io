@@ -5,9 +5,9 @@ image_caption: planet
 description: If not now, when? If not us, who?
 date: 2020-04-08
 taxonomies:
-    people: [sam_taggart]
-    tags: [why,threefold_farming]
-    categories: [farming,twin,aci,foundation]
+  people: [sam_taggart]
+  tags: [decentralization, why]
+  categories: [farming,twin,aci,foundation]
 extra:
     imgPath: why_we_do.png
 ---
