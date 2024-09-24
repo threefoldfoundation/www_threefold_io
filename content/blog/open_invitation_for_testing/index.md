@@ -5,9 +5,9 @@ image_caption: "An Open Invitation for Testing"
 description: Now’s the time to start utilizing what we’ve built together and to start deploying the solutions and experiences we want to see in this world.
 date: 2022-10-11
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid,technology,peer_to_peer,threefold_cloud]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, decentralization, grid, cloud, tech]
+  categories: [foundation]
 extra:
     imgPath: open_invitation_for_testing.png
 ---

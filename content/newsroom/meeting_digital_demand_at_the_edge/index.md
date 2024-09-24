@@ -5,9 +5,9 @@ image_caption: meeting_digital_demand_at_the_edge
 description:  Learn about the challenges centralized cloud infrastructures will have with growing digital demand and how edge computing platforms like ThreeFold bring a solution.
 date: 2024-04-23
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: meeting_digital_demand_at_the_edge.png
 ---

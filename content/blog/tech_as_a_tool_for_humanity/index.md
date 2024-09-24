@@ -6,7 +6,7 @@ description: While technology has had an important role in the creation of today
 date: 2022-10-28
 taxonomies:
   people: [sam_taggart]
-  tags: [threefold_grid, technology, peer_to_peer, threefold_cloud, why]
+  tags: [decentralization, why]
   categories: [foundation]
 extra:
   imgPath: tech_as_a_tool_for_humanity.png

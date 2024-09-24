@@ -6,7 +6,7 @@ description: Today, the Internet is a ubiquitous part of our daily lives, and it
 date: 2023-04-11
 taxonomies:
   people: [sam_taggart]
-  tags: [threefold_grid, technology, peer_to_peer, threefold_cloud]
+  tags: [decentralization, why]
   categories: [foundation]
 extra:
   imgPath: internet_evolution.png

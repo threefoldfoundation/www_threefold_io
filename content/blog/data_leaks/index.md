@@ -5,9 +5,9 @@ image_caption: stand up for our data
 description: As consumers, we should be able to trust that our data is truly safe and secure. And today, we cannot. It's time we stand up for what is ours.
 date: 2021-06-17
 taxonomies:
-    people: [sam_taggart]
-    tags: [data, why, peer_to_peer]
-    categories: [farming, cloud, foundation, aci, twin]
+  people: [sam_taggart]
+  tags: [decentralization, why]
+  categories: [farming, cloud, foundation, aci, twin]
 extra:
     imgPath: data_leaks.png
 ---

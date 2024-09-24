@@ -5,9 +5,9 @@ image_caption: Watch the TF Grid 3.12 Call Recording
 description: For those who missed it, dive into the discussion around 3.12!
 date: 2023-08-12
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tfgrid312callrecording.png
 ---

@@ -5,9 +5,9 @@ image_caption: Dunia Yetu
 description: Dunia Yetu (Our World) is a collaborative and co-owned movement to redefine the digital landscape in Tanzania and East Africa, empower coders spur economic development, and build a self-reliant sovereign digital ecosystem for a better digital future. 
 date: 2024-01-26
 taxonomies:
-    people: [sam_taggart]
-    tags: [peer_to_peer,event,partnership]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, decentralization, event, collaboration, why]
+  categories: [foundation]
 extra:
     imgPath: dy.png
 ---

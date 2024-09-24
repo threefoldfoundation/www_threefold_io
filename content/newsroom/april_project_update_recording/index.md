@@ -5,9 +5,9 @@ image_caption: april_project_update_recording
 description: Missed the community call on Tuesday? Watch the recording with discussions and updates from tech to biz dev. 
 date: 2024-05-02
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: april_project_update_recording.png
 ---

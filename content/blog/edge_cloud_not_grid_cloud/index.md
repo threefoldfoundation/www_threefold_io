@@ -5,9 +5,9 @@ image_caption: cloud
 description: The term Edge Cloud or, to be more precise, Edge Computing is one of the most exciting technology terms of these days.
 date: 2018-08-22
 taxonomies:
-    people: [kristof_de_spiegeleer]
-    tags: [threefold_cloud, technology]
-    categories: [tftech, cloud]
+  people: [kristof_de_spiegeleer]
+  tags: [grid, cloud, tech]
+  categories: [tftech, cloud]
 extra:
     imgPath: edge_cloud.png
 ---

@@ -5,9 +5,9 @@ image_caption: technology internet
 description: In this article, we discuss the general concept of a ‘decentralized grid’ and how anyone can plug-in capacity to the ThreeFold Grid.
 date: 2019-08-21
 taxonomies:
-    people: [sam_taggart]
-    tags: [farming,threefold_grid,technology,peer_to_peer]
-    categories: [farming, grid, tech, aci, cloud, foundation]
+  people: [sam_taggart]
+  tags: [decentralization, farming, grid, why, cloud, tech]
+  categories: [farming, grid, tech, aci, cloud, foundation]
 extra:
     imgPath: decentralizing_the_internet.png
 ---

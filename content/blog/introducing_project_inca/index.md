@@ -5,9 +5,9 @@ image_caption: technology
 description: Introducing the Internet Capacity Project, the fourth generation of ThreeFold's Grid, and our exciting entry into the DePIN ecosystem.
 date: 2024-06-11
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,community]
-    categories: [farming,cloud,foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,community]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: inca.png
     isFeatured: true

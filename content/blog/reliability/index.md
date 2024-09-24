@@ -5,9 +5,9 @@ image_caption: Building Reliability
 description: Through a combination of technical and strategic advancements, our journey towards a dependable and trustworthy decentralized Internet infrastructure is underway.
 date: 2023-12-06
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, peer_to_peer]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [decentralization, grid, cloud, tech]
+  categories: [foundation]
 extra:
     imgPath: reliability.png
 ---

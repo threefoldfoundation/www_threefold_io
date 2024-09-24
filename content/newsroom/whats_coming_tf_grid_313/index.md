@@ -5,9 +5,9 @@ image_caption: Coming in TF Grid 3.13
 description: The upcoming release contains a wide range of UI/UX improvements, making it easier than ever to use ThreeFold!
 date: 2023-11-30
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid,technology,update]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: whats_coming_tf_grid_313.png
 ---

@@ -5,9 +5,9 @@ image_caption: technology
 description: Explore the internet's evolution from a decentralized network to a controlled system, and the emerging movement to reclaim its original vision through ThreeFold.
 date: 2024-08-16
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,community]
-    categories: [farming,cloud,foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,community]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: evloution_of_the_internet.png
     isFeatured: true

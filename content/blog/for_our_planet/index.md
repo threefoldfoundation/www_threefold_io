@@ -5,9 +5,9 @@ image_caption: sustainability
 description: We believe IT can be sustainable. Actually, it should be! That's why energy efficiency has always been a key focus of ours..
 date: 2020-12-02
 taxonomies:
-    people: [weynand_kuijpers]
-    tags: [threefold_farming,why]
-    categories: [farming,twin,foundation,cloud,aci]
+  people: [weynand_kuijpers]
+  tags: [why, tech]
+  categories: [farming,twin,foundation,cloud,aci]
 extra:
     imgPath: better_solution.png
 ---

@@ -5,9 +5,9 @@ image_caption: farming
 description: The ThreeFold Foundation is changing the way how "we" as a whole approach the internet and its underlying technology..
 date: 2020-05-03
 taxonomies:
-    people: [sam_taggart]
-    tags: [farming,threefold_grid]
-    categories: [farming, grid]
+  people: [sam_taggart]
+  tags: [decentralization, farming, why]
+  categories: [farming, grid]
 extra:
     imgPath: become_a_farmer.png
 ---

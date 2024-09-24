@@ -5,9 +5,9 @@ image_caption: Gateway domain demo
 description: Discussion and demo on gateways and gateway domains, enabling flexible grid deployments with public Internet access.
 date: 2024-05-09
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: gateway_domain_demo.png
 ---

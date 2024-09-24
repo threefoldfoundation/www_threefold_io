@@ -5,9 +5,9 @@ image_caption: ThreeFold Ecosystem
 description: As we enter the next phase of ThreeFold, the project will move into an even greater level of decentralization, while layers are introduced to make us – and our grid – more resilient and reliable.
 date: 2024-04-15
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, why, peer_to_peer]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, why, peer_to_peer]
+  categories: [foundation]
 extra:
     imgPath: tf_ecosystem_comes_alive.png
 ---

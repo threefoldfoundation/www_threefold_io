@@ -5,9 +5,9 @@ image_caption: Explainer - How the ThreeFold Grid comes to life!
 description: In this video, Scott goes through an educational presentation about data and data sources on the ThreeFold Grid
 date: 2023-02-08
 taxonomies:
-    people: [sam_taggart]
-    tags: [update, technology, news, community]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tf_grid_explainer.png
 ---

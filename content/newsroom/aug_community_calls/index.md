@@ -5,9 +5,9 @@ image_caption: August Community calls
 description: Take a look at the schedule for our August community calls and see what's on the agenda. Mark your calendars!
 date: 2024-08-02
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [tech,grid,community]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [tech,grid,community]
+  news-category: [foundation]
 extra:
     imgPath: aug_community_calls.png
 

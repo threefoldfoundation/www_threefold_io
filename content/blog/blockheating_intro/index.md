@@ -5,9 +5,9 @@ image_caption: Meet Blockheating
 description: Somewhere in the Netherlands, a ThreeFold Farm is supporting the growth of vegetable crops such as tomatoes, peppers and cucumbers.
 date: 2021-07-23
 taxonomies:
-    people: [sam_taggart]
-    tags: [why, peer_to_peer, digital_twin, technology]
-    categories: [farming, cloud, foundation, aci, twin]
+  people: [sam_taggart]
+  tags: [community, decentralization, farming, why]
+  categories: [farming, cloud, foundation, aci, twin]
 extra:
     imgPath: blockheating_intro.png
 ---

@@ -5,9 +5,9 @@ image_caption: Testing blog
 description:  Testing is crucial for a reliable cloud infrastructure; learn about our process and join the testing community.
 date: 2024-05-10
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: testing_main_blog.png
 ---

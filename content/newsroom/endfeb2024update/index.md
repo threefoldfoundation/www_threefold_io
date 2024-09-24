@@ -5,9 +5,9 @@ image_caption: End Of Feb Update
 description: Stay tuned for the latest team updates from February and mark your calendars for our upcoming community call!
 date: 2024-02-29
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, farming, grid, collaboration, tech]
+  news-category: [foundation]
 extra:
     imgPath: endfeb2024update.png
 ---

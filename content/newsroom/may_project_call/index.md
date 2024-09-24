@@ -5,9 +5,9 @@ image_caption: May Project call
 description: This month's update covered v3 vs. v4, INCA, tech updates, and news from Zanzibar and Tanzania.
 date: 2024-05-31
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: may_project_call.png
 

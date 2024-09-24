@@ -5,9 +5,9 @@ image_caption: gep_vote_community_calls_update
 description: We are pleased to share that the vote on last week's proposed GEP is now live. Encouraging all farmers to vote now!
 date: 2024-04-06
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: gep_vote_community_calls_update.png
 ---

@@ -5,9 +5,9 @@ image_caption: Our Quest to Fully Decentralize the Internet
 description: It's our mission to transform the Internet and Cloud. Learn more about the status quo and how we're working on fully decentralizing the entire Internet!
 date: 2021-10-14
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, threefold_cloud, technology, blockchain, peer_to_peer]
-    categories: [foundation, cloud]
+  people: [sam_taggart]
+  tags: [decentralization, grid, why]
+  categories: [foundation, cloud]
 extra:
     imgPath: quest_decentralize_internet.png
 ---

@@ -5,9 +5,9 @@ image_caption: Solar and ThreeFold
 description: Read how the decentralization of the energy and internet industries are empowering individuals and communities.
 date: 2024-03-01
 taxonomies:
-    people: [emilie_ouwerx]
-    tags: [threefold_grid, peer_to_peer, community, farming]
-    categories: [foundation]
+  people: [emilie_ouwerx]
+  tags: [community, decentralization, farming, grid, cloud]
+  categories: [foundation]
 extra:
     imgPath: solar_comparison.png
 ---

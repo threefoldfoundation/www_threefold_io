@@ -5,9 +5,9 @@ image_caption: African Regenerative Cities Summit
 description: Learn about the summit we hosted this past weekend in Zanzibar to unite innovators and investors to support Africa's future.
 date: 2023-07-23
 taxonomies:
-    people: [sam_taggart]
-    tags: [community,technology,update,event]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, event, tech]
+  news-category: [foundation]
 extra:
     imgPath: africanregensummit.png
 ---

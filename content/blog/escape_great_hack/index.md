@@ -5,9 +5,9 @@ image_caption: technology hackers
 description: I can’t help but think how unfair it is that in today’s digital society, people are being treated like products, because there is no such thing as a ‘free’ platform without YOU being the product.
 date: 2019-11-21
 taxonomies:
-    people: [sabrina_sadik]
-    tags: [technology,why]
-    categories: [farming,cloud,twin,foundation,aci]
+  people: [sabrina_sadik]
+  tags: [decentralization, why]
+  categories: [farming,cloud,twin,foundation,aci]
 extra:
     imgPath: escape_great_hack.png
 ---

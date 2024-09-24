@@ -5,9 +5,9 @@ image_caption: Dunia Yetu
 description: This event will unite tech and innovation communities in Dar Es Salaam with representatives from Tanzania's ICT Commission and other agencies.
 date: 2024-01-16
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, event, tech]
+  news-category: [foundation]
 extra:
     imgPath: duniayetujan2024event.png
 ---

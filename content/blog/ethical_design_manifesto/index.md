@@ -5,9 +5,9 @@ image_caption: humanity
 description: Respect Human Rights, Respect Human Effort, Respect Human Experience
 date: 2017-06-06
 taxonomies:
-    people: [kristof_de_spiegeleer]
-    tags: [why]
-    categories: [farming,twin,cloud,foundation,aci]
+  people: [kristof_de_spiegeleer]
+  tags: [decentralization, why]
+  categories: [farming,twin,cloud,foundation,aci]
 extra:
     imgPath: ethical_design_manifesto.png
 ---

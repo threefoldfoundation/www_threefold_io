@@ -5,9 +5,9 @@ image_caption: Africa Regen II
 description: In 2023, we had the pleasure of hosting two summits in Zanzibar – Read about the key outcomes. 
 date: 2023-11-21
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, why]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, event, collaboration, why]
+  categories: [foundation]
 extra:
     imgPath: africa_regen_summit_ii.png
 ---

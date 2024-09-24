@@ -5,9 +5,9 @@ image_caption: Farming Pools
 description: Farming Pools mark a significant step towards ensuring reliability, fairness, and robust governance within our ecosystem.
 date: 2023-12-05
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, farming]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, decentralization, farming]
+  categories: [foundation]
 extra:
     imgPath: farming_pools.png
 ---

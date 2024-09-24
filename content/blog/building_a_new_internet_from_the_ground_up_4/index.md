@@ -5,9 +5,9 @@ image_caption: The ThreeFold Grid Peer-to-Peer Technology
 description: We're (finally) back with part 4, looking at the networking aspects of the ThreeFold Grid.
 date: 2022-02-03
 taxonomies:
-    people: [scott_yeager]
-    tags: [threefold_grid,technology,peer_to_peer]
-    categories: [foundation,farming,cloud]
+  people: [scott_yeager]
+  tags: [decentralization, grid, cloud, tech]
+  categories: [foundation,farming,cloud]
 extra:
     imgPath: building_a_new_internet_pt_4.png
 ---

@@ -5,9 +5,9 @@ image_caption: ThreeFold coverage on Yahoo News!
 description: ThreeFold Set To Disrupt Status Quo With a P2P Internet Powered by the People - via Yahoo! News
 date: 2021-06-26
 taxonomies:
-    people: [sam_taggart]
-    tags: [news,peer_to_peer]
-    news-category: [farming,cloud,foundation]
+  people: [sam_taggart]
+  tags: [grid, tech, news]
+  news-category: [farming,cloud,foundation]
 extra:
     imgPath: yahoonewsjune21.png
 ---

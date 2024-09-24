@@ -6,7 +6,7 @@ description: What’s happening with Twitter is just the latest warning of the d
 date: 2022-11-21
 taxonomies:
   people: [sam_taggart, victoria_obeegadoo]
-  tags: [threefold_grid, technology, peer_to_peer, decentralization]
+  tags: [decentralization, why]
   categories: [foundation]
 extra:
   imgPath: twitter_mastodon.png

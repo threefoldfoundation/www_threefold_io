@@ -5,9 +5,9 @@ image_caption: cloud_service_provider
 description: With ThreeFold, anyone can be a cloud provider. Set up a 3Node, share local capacity, and earn rewards. Learn more in our latest blog.
 date: 2024-04-12
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: cloud_service_provider.png
 ---

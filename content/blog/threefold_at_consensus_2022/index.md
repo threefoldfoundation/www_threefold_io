@@ -5,9 +5,9 @@ image_caption: "ThreeFold at Consensus: A Decentralized World is in Our Hands."
 description: It’s that time of the year when believers and builders of a decentralized tomorrow gather to celebrate the festival for the decentralized world. And ThreeFold is the foundation to realize a truly decentralized world.
 date: 2022-05-17
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, threefold, peer-to-peer, why]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, event]
+  categories: [foundation]
 extra:
     imgPath: threefold_at_consensus_2022.png
 ---

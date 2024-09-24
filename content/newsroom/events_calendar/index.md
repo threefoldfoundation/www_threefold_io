@@ -5,9 +5,9 @@ image_caption: Events Calendar
 description:   A public ThreeFold Events calendar to keep you updated on new calls, meetups, and events.
 date: 2024-05-13
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: events_calendar.png
 ---

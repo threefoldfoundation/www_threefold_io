@@ -5,9 +5,9 @@ image_caption: Second TF Grid 3.12 Call Next Thursday
 description: Join us next week for another review call around the TF Grid 3.12 proposal.
 date: 2023-08-18
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tfgrid312reviewcall2.png
 ---

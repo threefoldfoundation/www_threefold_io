@@ -5,9 +5,9 @@ image_caption: smart contract for IT
 description: The Smart Contract for IT allows you, your company or your community to execute the storage and running of your files and applications securely with consensus and automatic billing.
 date: 2021-05-25
 taxonomies:
-    people: [sacha_obeegadoo]
-    tags: [threefold_grid,technology]
-    categories: [farming,cloud,foundation,aci,twin]
+  people: [sacha_obeegadoo]
+  tags: [decentralization, grid, cloud, tech]
+  categories: [farming,cloud,foundation,aci,twin]
 extra:
     imgPath: smart_contract_blog.png
 
