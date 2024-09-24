@@ -6,7 +6,7 @@ updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
  author: Your name here
- imgPath: home/header_new1.png
+ imgPath: home/autonomous.png
 ---
 
 
@@ -19,9 +19,6 @@ extra:
 
 
 {% row(style="reverse header margin") %}
-
-
-#### <span class="text-xl subtitle">THREEFOLD</span> <br>
 
 ## **Enabling<span class="blue"><br>Digital Sovereignty</span>**
 
