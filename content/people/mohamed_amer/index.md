@@ -1,7 +1,7 @@
 ---
 title: Mohamed Amer
 weight: 4
-description: Software Test Engineer with a passion for learning and exploring.
+description: Software Testing Engineer
 taxonomies:
     people: [mohamed_amer]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 A passionate Software Test Engineer, Started his career at Codescalers, and now has about 1 year experience in software testing and automation.
+
+--!>

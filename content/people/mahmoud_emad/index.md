@@ -1,7 +1,7 @@
 ---
 title: Mahmoud Emad
 weight: 4
-description: Mahmoud is a young and dynamic Software Engineer who able to work in a multicultural environment with....
+description: Development Team
 taxonomies:
   people: [mahmoud_emad]
   memberships: [team]
@@ -20,4 +20,8 @@ extra:
     }
 ---
 
+<!--
+
 Mahmoud is a young and dynamic Software Engineer who able to work in a multicultural environment with the fast ability to learn and expand knowledge & experience to contribute to the overall success of any organization
+
+--!>

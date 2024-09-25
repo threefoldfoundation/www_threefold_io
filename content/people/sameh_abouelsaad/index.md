@@ -1,7 +1,7 @@
 ---
 title: Sameh Abouelsaad
 weight: 5
-description: Sameh is a passionate software engineer with a talent for problem-solving and an unwavering commitment to quality.
+description: Development Team
 taxonomies:
     people: [sameh_abouelsaad]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 Sameh is a passionate software engineer with a talent for problem-solving and an unwavering commitment to quality. Specializing in Python, Golang, and web technologies to build reliable systems that scale. Former experienced educator with a mission to promote knowledge.
+
+--!>

@@ -1,7 +1,7 @@
 ---
 title: Mario Bassem
 weight: 4
-description: Software Engineer.
+description: Software Engineer
 taxonomies:
     people: [mario_bassem]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 Software Engineer.  
+
+--!>

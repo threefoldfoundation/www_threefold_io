@@ -1,7 +1,7 @@
 ---
 title: Amira Abouhadid
 weight: 4
-description: Msc. Computer & Information Technology , Bsc. Chemical Engineering.
+description: Development Team
 taxonomies:
     people: [amira_abouhadid]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 Trilingual (Arabic, English & German) software developer and chemical engineer skilled in remote pair programming and mentoring.  I can use multiple languages, frameworks, and technologies to efficiently achieve a project’s goals. 
+
+--!>

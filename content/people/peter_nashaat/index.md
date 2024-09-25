@@ -1,7 +1,7 @@
 ---
 title: Peter Nashaat
 weight: 4
-description: Passionate DevOps Engineer
+description: DevOps Team
 taxonomies:
     people: [peter_nashaat]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 Passionate DevOps Engineer. Engineer fell in love with Threefold I believe that Threefold will change how to world works, and i want to be part of that, we are building the future.
+
+--!>

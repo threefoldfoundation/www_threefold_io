@@ -1,7 +1,7 @@
 ---
 title: Atef Nazmy
 weight: 3
-description: I Believe that ThreeFold Foundation Drives the world to be Better and Greener.
+description: Development Team
 taxonomies:
     people: [atef_nazmy]
     memberships: [team]
@@ -18,4 +18,8 @@ extra:
     }
 ---
 
+<!--
+
 IT-Telecom & Networking Engineer, having a great passion to learn more about new technologies.
+
+--!>

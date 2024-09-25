@@ -1,7 +1,7 @@
 ---
 title: Omar Abdulaziz
 weight: 3
-description: Golang, Typescript.
+description: Development Team
 taxonomies:
     people: [omar_abdulaziz]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 A software engineer. 
+
+--!>

@@ -1,7 +1,7 @@
 ---
 title: Maxime Daniel
 weight: 2
-description: C, python and nodejs developer, Gentoo user, Linux and Music addict
+description: Development Team
 taxonomies:
     people: [maxime_daniel]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 C, python and nodejs developer, Gentoo user, Linux and Music addict
+
+--!>

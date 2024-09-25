@@ -1,7 +1,7 @@
 ---
 title: Ahmed Hanafy
 weight: 3
-description: Ahmed is an Software Engineer, started his career at Codescalers.
+description: Development Team
 taxonomies:
     people: [ahmed_hanafy]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 Ahmed is an Software Engineer, started his career at Codescalers, and now has about a 5 year experience in Cloud computing software. Engineer fell in love with Threefold I believe that Threefold is changing the world by building the new neutral internet, it's a great experience to be part of this. 
+
+--!>

@@ -1,7 +1,7 @@
 ---
 title: Khaled Mahmoud Youssef
 weight: 4
-description: khaled is a passionate software test engineer with experience in software testing ....
+description: Software Testing Engineer
 taxonomies:
     people: [khaled_youssef]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 khaled is a passionate software test engineer with experience in software testing and automation using terratests , cypress and other technologies. And always curious to learn more.
+
+--!?

@@ -1,7 +1,7 @@
 ---
 title: Evon Yacoub
 weight: 5
-description: Experienced Office Manager with a demonstrated history of working in IT industry.
+description: Office Manager, Cairo
 taxonomies:
     people: [evon_yacoub]
     memberships: [team]
@@ -18,4 +18,8 @@ extra:
     }
 ---
 
+<!--
+
 Experienced Office Manager with a demonstrated history of working in IT industry. Skilled in Human Resources, Management, Office Administration, Administrative Coordination.
+
+--!>
