@@ -1,7 +1,7 @@
 ---
 title: Ahmed Saleh Harby
 weight: 4
-description: Ahmed is a passionate software test engineer with experience in software testing and automation ....
+description: Software Testing Engineer
 taxonomies:
     people: [ahmed_harby]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 Ahmed is a passionate software test engineer with experience in software testing and automation using Selenium, Cypress, and other technologies. And always curious to learn more.   
+
+--!>

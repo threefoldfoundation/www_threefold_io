@@ -5,9 +5,9 @@ image_caption: "Build on ThreeFold’s Open Infrastructure – Part Two: For Exp
 description: This post is part of an ongoing series on building on ThreeFold’s open infrastructure. It’s for the more tech-savvy crowd, as we’ll dive into our cloud solution and everything enabled by the technology and tooling built on top.
 date: 2022-09-21
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid,technology,peer_to_peer]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, decentralization, grid, cloud, tech]
+  categories: [foundation]
 extra:
     imgPath: build_on_threefolds_open_infrastructure_part_two.png
 ---

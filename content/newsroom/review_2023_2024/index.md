@@ -5,9 +5,9 @@ image_caption: The Future of TFT
 description: Proud of our achievements and motivated for the future, 2023 was challenging but productive. Take a look at the year's highlights.
 date: 2023-12-29
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, farming, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: review_2023_2024.png
 ---

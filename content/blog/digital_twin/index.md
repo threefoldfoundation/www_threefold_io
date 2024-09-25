@@ -6,7 +6,7 @@ description: In the current Internet system, each of us exists many times, each 
 date: 2022-10-18
 taxonomies:
   people: [sam_taggart]
-  tags: [threefold_grid, technology, peer_to_peer, threefold_cloud]
+  tags: [decentralization, tech]
   categories: [foundation]
 extra:
   imgPath: digital_twin.png

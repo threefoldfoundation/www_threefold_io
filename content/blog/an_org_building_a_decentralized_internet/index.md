@@ -6,7 +6,7 @@ description: Greetings fellow decentralization lovers, I am in search of people 
 date: 2022-11-09
 taxonomies:
   people: [threefold_community]
-  tags: [threefold_grid, technology, peer_to_peer, threefold_cloud]
+  tags: [community, decentralization, why]
   categories: [foundation]
 extra:
   imgPath: an_org_building_a_decentralized_internet.png

@@ -5,9 +5,9 @@ image_caption: how threefold regenerates
 description: ThreeFold is building the engine for an Internet where people can finally be data sovereign.
 date: 2021-05-23
 taxonomies:
-    people: [sam_taggart]
-    tags: [data,why,threefold_grid,farming]
-    categories: [farming,cloud,foundation,aci,twin]
+  people: [sam_taggart]
+  tags: [decentralization, grid, why, tech]
+  categories: [farming,cloud,foundation,aci,twin]
 extra:
     imgPath: threefold_data_sovereignty.png
 ---

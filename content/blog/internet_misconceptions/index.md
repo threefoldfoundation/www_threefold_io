@@ -5,9 +5,9 @@ image_caption: Internet Misconceptions
 description: In an age where, for better or worse, our online interactions shape much of our daily lives, understanding the true nature of the Internet is more and more important.
 date: 2024-08-30
 taxonomies:
-    people: [sam_taggart]
-    tags: [grid,decentralization,tech,why]
-    categories: []
+  people: [sam_taggart]
+  tags: [grid,decentralization,tech,why]
+  categories: []
 extra:
     imgPath: internet_misconceptions.png
 ---

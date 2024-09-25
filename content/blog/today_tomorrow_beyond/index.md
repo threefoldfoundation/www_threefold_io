@@ -6,7 +6,7 @@ description: There's no other project or technology out there like ThreeFold. Le
 date: 2023-01-11
 taxonomies:
   people: [sam_taggart]
-  tags: [threefold_grid, technology, why, community, update]
+  tags: [community, why]
   categories: [foundation]
 extra:
   imgPath: today_tomorrow_beyond.png

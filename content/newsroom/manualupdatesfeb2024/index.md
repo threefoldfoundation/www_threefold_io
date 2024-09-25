@@ -5,9 +5,9 @@ image_caption: Manual Update
 description: There have been plenty of updates to the manual since our last update in January!
 date: 2024-02-27
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [technology]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [technology]
 extra:
     imgPath: manualupdatesfeb2024.png
 ---

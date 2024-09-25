@@ -5,9 +5,9 @@ image_caption: The ThreeFold Blockchain
 description: The third release of the ThreeFold Grid represents a major step in the decentralization of the People’s Internet with the Smart Contract for IT coming to life on the ThreeFold Blockchain (aka “TF Chain”).
 date: 2021-12-15
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, threefold_cloud, technology, blockchain, update]
-    categories: [foundation, cloud, technology]
+  people: [sam_taggart]
+  tags: [decentralization, tech]
+  categories: [foundation, cloud, technology]
 extra:
     imgPath: tf_chain.png
 ---

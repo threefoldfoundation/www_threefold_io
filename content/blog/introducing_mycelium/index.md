@@ -5,9 +5,9 @@ image_caption: Introducing Mycelium
 description: ThreeFold is implementing a planetary network, aiming to allow efficient, end-to-end encrypted communication with other participants on the network.
 date: 2023-09-19
 taxonomies:
-    people: [lee_smet]
-    tags: [technology, grid, peer_to_peer]
-    categories: [foundation]
+  people: [lee_smet]
+  tags: [decentralization, grid, cloud, tech]
+  categories: [foundation]
 extra:
     imgPath: mycelium.png
 ---

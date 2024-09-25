@@ -5,9 +5,9 @@ image_caption: INCA
 description: Introducing Project Internet Capacity (INCA), the fourth generation of ThreeFold's Grid, and our exciting entry into the DePIN ecosystem.
 date: 2024-06-12
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: intro_inca.png
 ---

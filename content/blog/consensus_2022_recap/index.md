@@ -5,9 +5,9 @@ image_caption: "Consensus 2022 Recap – ThreeFold Community Celebrates the  Int
 description: In June, the ThreeFold Team went to Austin to share our vision for a decentralized Internet as sponsor of Consensus 2022. Throughout an incredible week, we spread the word about ThreeFold, formed meaningful connections and planted the seeds for the first sovereign Regional Internet.
 date: 2022-06-28
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, threefold, peer-to-peer, community]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, event]
+  categories: [foundation]
 extra:
     imgPath: consensus_2022_recap.png
 ---

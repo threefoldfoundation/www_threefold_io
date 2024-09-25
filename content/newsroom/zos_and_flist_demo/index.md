@@ -5,9 +5,9 @@ image_caption: ZOS & Flist Demo
 description: Scott and Mik presented the Zero-OS Hub and Flist, demonstrating how flists streamlined software data management by deploying micro VMs on the TF Grid.
 date: 2024-08-22
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [tech,grid,community]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [tech,grid,community]
+  news-category: [foundation]
 extra:
     imgPath: zos_and_flist_demo.png
 

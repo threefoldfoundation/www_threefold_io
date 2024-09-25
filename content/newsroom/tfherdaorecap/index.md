@@ -5,9 +5,9 @@ image_caption: Dev meetup H.E.R
 description: Here is a recap and on all that happened on our developer meet along side H.E.R DAO in Dar Es Salaam
 date: 2024-02-08
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [technology]
+  people: [bernadette_amanda_caster]
+  tags: [community, event, collaboration, tech]
+  news-category: [technology]
 extra:
     imgPath: tfherdaorecap.png
 ---

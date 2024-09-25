@@ -1,7 +1,7 @@
 ---
 title: Ashraf Fouda
 weight: 3
-description: Software Engineer with passion in new technologies, love every thing that is really new.
+description: Development Team
 taxonomies:
     people: [ashraf_fouda]
     memberships: [team]
@@ -19,6 +19,8 @@ extra:
     }
 ---
 
-
+<!--
 
 Software Engineer with passion in new technologies, love every thing that is really new and challenging. Threefold is changing the world by decentralizing and neutralizing the internet.
+
+--!>

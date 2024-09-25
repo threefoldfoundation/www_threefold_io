@@ -5,9 +5,9 @@ image_caption: ThreeFold x H.E.R. DAO
 description: ThreeFold and H.E.R DAO joined forces to host a meetup in Dar Es Salaam, attracting over 50 students, developers, and tech enthusiasts.
 date: 2024-02-08
 taxonomies:
-    people: [sam_taggart]
-    tags: [peer_to_peer,event]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, event, collaboration, why]
+  categories: [foundation]
 extra:
     imgPath: diversitytf.png
 ---

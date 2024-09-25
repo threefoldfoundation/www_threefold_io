@@ -5,9 +5,9 @@ image_caption: technology
 description: ThreeFold is redefining the internet with decentralized infrastructure, boosting privacy, and sustainability, while empowering people and creating a more secure and equitable digital world.
 date: 2024-09-04
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,community]
-    categories: [farming,cloud,foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,community]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: threefold_impact.png
     isFeatured: true

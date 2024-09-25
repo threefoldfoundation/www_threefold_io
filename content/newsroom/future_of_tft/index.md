@@ -5,9 +5,9 @@ image_caption: The Future of TFT
 description: As we gear towards commercialization and increased utilization in the next phase of ThreeFold, we have major updates starting 2024 right here. 
 date: 2023-12-28
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech, token]
+  news-category: [foundation]
 extra:
     imgPath: future_of_tft.png
 ---

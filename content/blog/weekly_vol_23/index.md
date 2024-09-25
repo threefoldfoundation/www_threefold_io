@@ -5,9 +5,9 @@ image_caption: ThreeFold Weekly! July 5th, 2022 (Vol 23)
 description: Welcome to the 23rd edition of ThreeFold Weekly. Let’s dive into last week’s highlights throughout the ThreeFold ecosystem.
 date: 2022-07-05
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, community, farming, update]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, farming, grid, cloud, tech]
+  categories: [foundation]
 extra:
     imgPath: weekly_vol_23.png
 ---

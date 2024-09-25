@@ -5,9 +5,9 @@ image_caption: Introducing TFRobot
 description: A new and exciting ThreeFold tool has recently been launched!
 date: 2024-02-26
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [technology]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [technology]
 extra:
     imgPath: introducingtfrobot.png
 ---

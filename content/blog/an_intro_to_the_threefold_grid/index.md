@@ -5,9 +5,9 @@ image_caption: The ThreeFold Grid Peer-to-Peer Technology
 description: The first episode in an approachable series on the inner workings of the ThreeFold Grid.
 date: 2021-07-19
 taxonomies:
-    people: [scott_yeager]
-    tags: [threefold_grid,technology,peer_to_peer]
-    categories: [foundation,farming,cloud]
+  people: [scott_yeager]
+  tags: [grid, cloud, tech]
+  categories: [foundation,farming,cloud]
 extra:
     imgPath: an_intro_to_the_threefold_grid.png
 ---

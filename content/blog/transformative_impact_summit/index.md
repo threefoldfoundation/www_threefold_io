@@ -5,9 +5,9 @@ image_caption: Transformative Impact Summit
 description: Learn about the Transformative Impact Summit, held June 7 - 9 in Zanzibar, and how ThreeFold participated.
 date: 2024-06-14
 taxonomies:
-    people: [sam_taggart]
-    tags: [community]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community]
+  categories: [foundation]
 extra:
     imgPath: transformative_impact_summit.png
 ---

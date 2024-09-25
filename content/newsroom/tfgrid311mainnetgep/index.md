@@ -5,9 +5,9 @@ image_caption: Vote – Move TF Grid 3.11 to Mainnet!
 description: We are ready to move TF Grid 3.11 to mainnet, so it's time for a community vote!
 date: 2023-09-04
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tfgrid311mainnetgep.png
 ---

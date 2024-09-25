@@ -1,7 +1,7 @@
 ---
 title: Eslam Nawara
 weight: 2
-description: Passionate software engineer interrested in developing software solutions and problem solving 
+description: Development Team
 taxonomies:
     people: [eslam_nawara]
     memberships: [team]
@@ -17,6 +17,8 @@ extra:
         websites: https://threefold.io/,
     }
 ---
-
+<!--
 
 Eslam is a passionate software engineer focused on crafting innovative solutions and tackling complex challenges through creative problem-solving. With a strong foundation in software development, Eslam excels in designing and implementing robust applications to meet diverse user needs.
+
+--!>

@@ -5,9 +5,9 @@ image_caption: The Building Blocks of the Internet
 description: Learn about the layers of the Internet to understand how digital information is processed, stored, and accessed.
 date: 2024-03-04
 taxonomies:
-    people: [emilie_ouwerx]
-    tags: [threefold_grid, peer_to_peer, technology]
-    categories: [foundation]
+  people: [emilie_ouwerx]
+  tags: [decentralization, grid, cloud, tech]
+  categories: [foundation]
 extra:
     imgPath: img/three_layers.png
     isFeatured: true

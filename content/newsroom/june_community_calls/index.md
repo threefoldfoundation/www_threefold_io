@@ -5,9 +5,9 @@ image_caption: June Community calls
 description: Check out the schedule for our June community calls and see what's on the agenda. Save the date!
 date: 2024-05-30
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,update,threefold_grid,community,news]
+  news-category: [foundation]
 extra:
     imgPath: community.png
 

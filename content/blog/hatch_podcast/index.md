@@ -5,9 +5,9 @@ image_caption: hatch podcast
 description: A collaborative discussion between HATCH, ThreeFold, and Hub Culture explored the intersections of AI, digital sovereignty, highlighting Africa's potential for self-sufficient development and much more.
 date: 2024-06-21
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [community, event, collaboration, why]
-    categories: [farming,cloud,foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, event, collaboration, why]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: hatch_podcast.png
 ---

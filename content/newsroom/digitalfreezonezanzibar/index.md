@@ -5,9 +5,9 @@ image_caption: A Digital Free Zone in Zanzibar – And More!
 description: The President of Zanzibar, Dr. Hussein Mwinyi, visited us this weekend to publicly share our collaborations.
 date: 2023-07-27
 taxonomies:
-    people: [sam_taggart]
-    tags: [partnership,community,technology,update]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, collaboration, tech, news]
+  news-category: [foundation]
 extra:
     imgPath: digitalfreezonezanzibar.png
 ---

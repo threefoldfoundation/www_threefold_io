@@ -5,9 +5,9 @@ image_caption: Decentralised Internet India
 description: While Indian internet usage ranks second in the world today behind China, with 43% of its total population online, this also means that there is still a lot of untapped potential.
 date: 2023-01-03
 taxonomies:
-    people: [ashish_bansal]
-    tags: [threefold_grid,technology,peer_to_peer,threefold_cloud]
-    categories: [foundation]
+  people: [ashish_bansal]
+  tags: [community, decentralization, why]
+  categories: [foundation]
 extra:
     imgPath: decentralised_internet_india.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: Rawda Gastan
 weight: 4
-description: I am a software engineer, always looking for new opportunties and ways to improve.
+description: Development Team
 taxonomies:
     people: [rawda_gastan]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 I am constantly seeking new learning opportunities and relish the chance to expand my skill set, making calcuated risks along the way.   
+
+--!>

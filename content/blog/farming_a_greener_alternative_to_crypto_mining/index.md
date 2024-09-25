@@ -5,9 +5,9 @@ image_caption: Farming – A Greener Alternative to Crypto Mining.
 description: ThreeFold Farming is about so much more than crypto mining. It's a decentralized, energy-efficient and meaningful alternative.
 date: 2022-04-21
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, farming, threefold_token, why]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [decentralization, farming, why]
+  categories: [foundation]
 extra:
     imgPath: farming_a_greener_alternative_to_crypto_mining.png
 ---

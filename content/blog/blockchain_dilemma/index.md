@@ -5,9 +5,9 @@ image_caption: blockchain
 description: Blockchain technology has the power to change the world of IT. There are a huge number of new initiatives using blockchain technology around the world, with countless use cases.
 date: 2018-03-07
 taxonomies:
-    people: [kristof_de_spiegeleer]
-    tags: [technology,threefold_grid,blockchain]
-    categories: [tech, grid]
+  people: [kristof_de_spiegeleer]
+  tags: [decentralization, why, tech]
+  categories: [tech, grid]
 extra:
     imgPath: blockchain_dilemma.png
 ---

@@ -5,9 +5,9 @@ image_caption: zero os
 description: To create a new Internet from scratch, ThreeFold had to start at the operating system level.
 date: 2021-05-18
 taxonomies:
-    people: [sacha_obeegadoo]
-    tags: [threefold_grid,technology,]
-    categories: [farming,cloud,foundation,twin]
+  people: [sacha_obeegadoo]
+  tags: [decentralization, grid, cloud, tech]
+  categories: [farming,cloud,foundation,twin]
 extra:
     imgPath: zero_os_blog.png
 

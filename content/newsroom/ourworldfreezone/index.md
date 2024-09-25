@@ -5,9 +5,9 @@ image_caption: OurWorld Digital Free Zone
 description: OurWorld Digital Free Zone received some coverage recently from IPPMEDIA. Take a look!
 date: 2023-08-01
 taxonomies:
-    people: [sam_taggart]
-    tags: [partner,news,community,technology,update]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [collaboration, tech, news]
+  news-category: [foundation]
 extra:
     imgPath: ourworldfreezone.png
 ---

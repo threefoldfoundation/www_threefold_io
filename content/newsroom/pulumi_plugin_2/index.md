@@ -5,9 +5,9 @@ image_caption: Pulumi Plugin follow-up
 description: Looking for a follow-up on Pulumi plugin, click here for the tutorials.
 date: 2023-11-01
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [update, technology, news, community]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: pulumi_plugin_2.png
 ---

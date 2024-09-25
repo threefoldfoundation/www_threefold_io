@@ -5,9 +5,9 @@ image_caption: Mainnet upgraded to 3.13
 description: V3.13 is now on Mainnet 
 date: 2024-03-11
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tf_grid_mainnet_upgraded_to_v_3_13.jpg
 ---

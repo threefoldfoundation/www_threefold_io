@@ -1,7 +1,7 @@
 ---
 title: Bernadette Amanda Caster
 weight: 3
-description: Passionate, Outgoing and Enthusiast 
+description: Communication Team
 taxonomies:
     people: [bernadette_amanda_caster]
     memberships: [team]
@@ -18,5 +18,8 @@ extra:
     }
 ---
 
+<!--
 
 Amanda loves exploring things, especially at her job. She is proactive in volunteering to help others at her job and personally. She accepts life as it comes but learns what she can along the way. She believes to make a change in this world we need to be the change. 
+
+--!>

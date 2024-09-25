@@ -5,9 +5,9 @@ image_caption: A Power-Saving Feature on the Grid – For Our People and Our Pla
 description: At the heart of ThreeFold’s mission is the benefit of the people & our planet. We aim to have a positive impact in the space of technology while keeping our ecological footprint low. Saving a maximum of energy has always been on our agenda. Now, with the rising bills of our farmers making it harder for them to keep on supporting the project, it became an even greater priority.  
 date: 2023-02-27
 taxonomies:
-    people: [sam_taggart]
-    tags: [community, grid, why]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [community, farming, grid, why, tech]
+  categories: [foundation]
 extra:
     imgPath: power_saving.png
 ---

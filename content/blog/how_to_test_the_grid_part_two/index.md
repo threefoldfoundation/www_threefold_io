@@ -5,9 +5,9 @@ image_caption: technology
 description: Go deeper in the exploration of testing the ThreeFold Grid. Learn about two types of testing which combine to ensure a strong and dependable grid.
 date: 2024-05-09
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,threefold_grid]
-    categories: [farming,cloud,foundation]
+  people: [bernadette_amanda_caster]
+  tags: [technology,threefold_grid]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: how_to_test_the_grid_part_two.png
 ---

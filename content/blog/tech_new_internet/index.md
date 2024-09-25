@@ -5,9 +5,9 @@ image_caption: internet tech
 description: The Edge internet needs a different approach. So, we started as from scratch and shaped a totally new approach..
 date: 2018-05-12
 taxonomies:
-    people: [weynand_kuijpers]
-    tags: [technology,threefold_grid]
-    categories: [farming,cloud,foundation]
+  people: [weynand_kuijpers]
+  tags: [decentralization, grid, cloud, tech]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: tech_new_internet.png
 ---

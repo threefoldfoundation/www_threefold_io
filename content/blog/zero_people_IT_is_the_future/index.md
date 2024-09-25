@@ -5,9 +5,9 @@ image_caption: future
 description: Classic IT infrastructure setup is complex and is not cost-effective. Applications need a specific environment to operate in, built by integrating different technology components from different vendors. Elements of such a setup are operating systems, storage systems, networks, security systems, authentication systems, and more.
 date: 2020-08-17
 taxonomies:
-    people: [weynand_kuijpers]
-    tags: [technology, threefold_cloud]
-    categories: [tech, cloud]
+  people: [weynand_kuijpers]
+  tags: [decentralization, grid, why, cloud, tech]
+  categories: [tech, cloud]
 extra:
     imgPath: zero_people.png
 ---

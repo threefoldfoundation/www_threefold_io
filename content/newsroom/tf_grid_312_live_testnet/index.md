@@ -5,9 +5,9 @@ image_caption: tf grid 312 live on testnet
 description: Looking to help us in testing TF Grid 3.12 on Testnet, know more here. 
 date: 2023-11-09
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tf_grid_312_live_testnet.png
 ---

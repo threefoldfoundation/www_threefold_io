@@ -5,9 +5,9 @@ image_caption: July Community calls
 description: Check out the schedule for our September community calls and see what's on the agenda. Pencil it in!
 date: 2024-09-10
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [tech,grid,community]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [tech,grid,community]
+  news-category: [foundation]
 extra:
     imgPath: sept_community_calls.png
 

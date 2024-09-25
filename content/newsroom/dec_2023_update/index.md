@@ -5,9 +5,9 @@ image_caption: Dec 2023 updates
 description: As the year-end nears, we'd like to touch upon key topics. Please review the latest updates since our last community call.
 date: 2023-12-22
 taxonomies:
-    people: [bernadette_amanda_caster]
-    tags: [technology,update,threefold_grid,community,news]
-    news-category: [foundation]
+  people: [bernadette_amanda_caster]
+  tags: [community, tech]
+  news-category: [foundation]
 extra:
     imgPath: dec_2023_update.png
 ---

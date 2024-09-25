@@ -5,9 +5,9 @@ image_caption: Resolving Problems
 description: By constructing a decentralized, autonomous internet infrastructure from scratch, we're tackling global tech issues head-on.
 date: 2023-11-12
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid, peer_to_peer, technology, why]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [decentralization, grid, why, tech]
+  categories: [foundation]
 extra:
     imgPath: resolving_problems.png
 ---

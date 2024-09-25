@@ -1,7 +1,7 @@
 ---
 title: Mahendra Varma
 weight: 3
-description: Consultant at ThreeFold DMCC
+description: Support Team
 taxonomies:
     people: [mahendra_varma]
     memberships: [team]
@@ -17,5 +17,8 @@ extra:
     }
 ---
 
+<!--
 
 Tech enthusiast with a passion for photography.
+
+--!>

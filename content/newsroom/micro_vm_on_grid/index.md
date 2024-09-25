@@ -5,9 +5,9 @@ image_caption: Working with Micro VM Images on the TF Grid
 description: Take a look at this video where Scott demonstrates how to create and manipulate micro VM images for deployment on the ThreeFold Grid.
 date: 2023-02-22
 taxonomies:
-    people: [sam_taggart]
-    tags: [update, technology, news, community]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: micro_vm_on_grid.png
 ---

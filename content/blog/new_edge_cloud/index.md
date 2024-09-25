@@ -5,9 +5,9 @@ image_caption: technology
 description: Containers, IAAS, Archives, Security, and more..
 date: 2018-09-12
 taxonomies:
-    people: [sam_taggart]
-    tags: [technology,threefold_cloud]
-    categories: [farming,cloud,foundation]
+  people: [sam_taggart]
+  tags: [grid, cloud, tech]
+  categories: [farming,cloud,foundation]
 extra:
     imgPath: new_edge_cloud.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: Omar Kassem
 weight: 4
-description: Software Engineer.
+description: Development Team
 taxonomies:
     people: [omar_kassem]
     memberships: [team]
@@ -19,4 +19,8 @@ extra:
     }
 ---
 
+<!--
+
 A passionate Software Engineer, Started his career at Codescalers.   
+
+--!>

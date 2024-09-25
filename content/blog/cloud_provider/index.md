@@ -5,9 +5,9 @@ image_caption: Cloud Service Providers
 description: Our decentralized solutions empower individuals and promote a more sustainable internet. Learn how you can become a cloud provider and join us in shaping a brighter future.
 date: 2024-04-09
 taxonomies:
-    people: [marion_ravarino]
-    tags: [threefold_grid,technology,peer_to_peer]
-    categories: [cloud]
+  people: [marion_ravarino]
+  tags: [threefold_grid,technology,peer_to_peer]
+  categories: [cloud]
 extra:
     imgPath: cloud_provider.png
 ---

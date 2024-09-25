@@ -5,9 +5,9 @@ image_caption: P2P Web3
 description: The promise of Web3 is tremendous, but there are clear limitations to overcome. How? Peer-to-peer systems and blockchains, side by side. The best of both worlds.
 date: 2022-03-09
 taxonomies:
-    people: [sam_taggart]
-    tags: [peer_to_peer,why,farming,threefold_grid]
-    categories: [foundation]
+  people: [sam_taggart]
+  tags: [decentralization, grid, why, tech]
+  categories: [foundation]
 extra:
     imgPath: p2p_web3.png
 ---

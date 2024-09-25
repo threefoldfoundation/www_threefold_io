@@ -5,9 +5,9 @@ image_caption: TF Grid 3.11 is Live on Testnet!
 description: The latest version of the grid is now live on testnet!
 date: 2023-08-16
 taxonomies:
-    people: [sam_taggart]
-    tags: [threefold_grid,community,technology,update]
-    news-category: [foundation]
+  people: [sam_taggart]
+  tags: [community, grid, tech]
+  news-category: [foundation]
 extra:
     imgPath: tfgrid311livetestnet.png
 ---
