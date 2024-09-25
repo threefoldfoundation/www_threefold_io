@@ -7,7 +7,7 @@ date: 2020-11-12
 taxonomies:
   people: [sam_taggart]
   tags: [tech, news]
-  news-category: [farming,cloud,foundation]
+  news-category: [tech, news]
 extra:
     imgPath: tftechdeloittefinalist.jpeg
 ---

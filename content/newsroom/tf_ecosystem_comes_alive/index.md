@@ -6,8 +6,8 @@ description: Collaborative. Self-organizing. Interconnected. Dynamic. Diverse. R
 date: 2024-04-15
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: tf_ecosystem_comes_alive.png
 ---

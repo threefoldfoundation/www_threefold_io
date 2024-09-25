@@ -7,7 +7,7 @@ date: 2023-01-13
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: terraform_spotlight.png
 ---

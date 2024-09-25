@@ -7,7 +7,7 @@ date: 2021-09-01
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation,cloud,farming]
+  news-category: [community, grid, tech]
 extra:
     imgPath: terraform_demo.png
 ---

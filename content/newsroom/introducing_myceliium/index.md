@@ -8,6 +8,7 @@ taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
   tags: [community, tech]
+  news-category: [community, tech]
 extra:
   imgPath: mycelium.png
 ---

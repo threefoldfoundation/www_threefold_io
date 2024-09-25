@@ -7,7 +7,7 @@ date: 2023-08-15
 taxonomies:
   people: [emilie_ouwerx]
   tags: [grid, collaboration, tech]
-  news-category: [foundation]
+  news-category: [grid, collaboration, tech]
 extra:
     imgPath: freezone_anouncement.png
     isFeatured: true

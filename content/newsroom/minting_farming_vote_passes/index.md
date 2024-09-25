@@ -6,8 +6,8 @@ description: Minting & Farming Rewards GEP has been passed successfully.
 date: 2024-04-16
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: minting_farming_vote_passes.png
 ---

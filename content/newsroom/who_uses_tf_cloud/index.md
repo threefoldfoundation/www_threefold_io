@@ -7,7 +7,7 @@ date: 2021-03-05
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech]
-  news-category: [foundation,cloud]
+  news-category: [grid, tech]
 extra:
     imgPath: who_uses_tf_cloud.png
 ---

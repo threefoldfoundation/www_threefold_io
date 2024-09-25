@@ -7,7 +7,7 @@ date: 2023-11-03
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: tf_grid_312_live_qanet.png
 ---

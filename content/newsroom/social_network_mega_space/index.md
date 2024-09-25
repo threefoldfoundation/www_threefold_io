@@ -7,7 +7,7 @@ date: 2024-03-25
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, collaboration, tech]
-  news-category: [foundation]
+  news-category: [community, collaboration, tech]
 extra:
     imgPath: social_network_mega_space.png
 ---

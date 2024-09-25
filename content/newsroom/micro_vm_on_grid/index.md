@@ -7,7 +7,7 @@ date: 2023-02-22
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: micro_vm_on_grid.png
 ---

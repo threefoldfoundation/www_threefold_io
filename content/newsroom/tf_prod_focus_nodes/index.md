@@ -7,7 +7,7 @@ date: 2023-01-20
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
   imgPath: tf_prod_focus_nodes.png
 ---

@@ -7,7 +7,7 @@ date: 2023-11-01
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: pulumi_plugin_2.png
 ---

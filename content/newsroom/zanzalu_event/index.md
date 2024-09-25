@@ -6,8 +6,8 @@ description:  This weekend, the team will join Student Weekend at Zanzalu, showc
 date: 2024-05-23
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: zanzalu_event.png
 ---

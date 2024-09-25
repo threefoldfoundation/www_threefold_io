@@ -7,7 +7,7 @@ date: 2023-08-24
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech, token]
-  news-category: [foundation]
+  news-category: [community, grid, tech, token]
 extra:
     imgPath: tfgrid311setprice.png
 ---

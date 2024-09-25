@@ -7,7 +7,7 @@ date: 2023-12-28
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, grid, tech, token]
-  news-category: [foundation]
+  news-category: [community, grid, tech, token]
 extra:
     imgPath: future_of_tft.png
 ---

@@ -7,7 +7,7 @@ date: 2023-12-22
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, tech]
-  news-category: [foundation]
+  news-category: [community, tech]
 extra:
     imgPath: dec_2023_update.png
 ---

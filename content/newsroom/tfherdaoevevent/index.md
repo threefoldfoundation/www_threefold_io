@@ -7,7 +7,7 @@ date: 2024-02-01
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, event, collaboration, tech]
-  news-category: [technology]
+  news-category: [community, event, collaboration, tech]
 extra:
     imgPath: tfherdaoevent.png
 ---

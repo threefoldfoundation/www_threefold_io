@@ -8,6 +8,7 @@ taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
   tags: [community, farming, grid, tech]
+  news-category: [community, farming, grid, tech]
 extra:
   imgPath: farmerbot_update_required.png
 ---

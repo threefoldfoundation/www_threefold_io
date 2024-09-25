@@ -7,7 +7,7 @@ date: 2021-03-03
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech]
-  news-category: [foundation,cloud]
+  news-category: [grid, tech]
 extra:
     imgPath: qsfs_intro.png
 ---

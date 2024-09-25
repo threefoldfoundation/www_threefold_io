@@ -7,7 +7,7 @@ date: 2022-11-25
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: meet_zonaris.png
 ---

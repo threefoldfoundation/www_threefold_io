@@ -7,7 +7,7 @@ date: 2024-01-16
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, event, tech]
-  news-category: [foundation]
+  news-category: [community, event, tech]
 extra:
     imgPath: duniayetujan2024event.png
 ---

@@ -7,7 +7,7 @@ date: 2021-08-31
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech]
-  news-category: [foundation,cloud,farming]
+  news-category: [grid, tech]
 extra:
     imgPath: terraform_grid3.png
 ---
