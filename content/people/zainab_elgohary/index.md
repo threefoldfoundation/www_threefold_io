@@ -7,7 +7,7 @@ taxonomies:
     memberships: [team]
     categories: [foundation]
 extra:
-    imgPath: zainab_elgohary.jpeg
+    imgPath: zainab_elgohary.png
     organizations: [threefold_tech]
     countries: [Egypt]
     cities: [Cairo]

@@ -3,7 +3,7 @@
 {%- set section = get_section(path="people/_index.md") %}
 {% include "partials/intro.html" %}
 <div class="mx-auto max-w-screen-lg px-6 lg:px-8">
-    {% include "partials/filter_bar.html" %}
+    {# {% include "partials/filter_bar.html" %} #}
     <div class="text-center main-title px-0 md:w-full">
         {# <h1 class="tracking-tight text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl fw-500 leading-snug font-normal mb-10">
             {% set path_array = current_path | split(pat="/") %}
@@ -12,7 +12,7 @@
         {{category | replace(from='-', to=' ' ) | title}}
         </h1> #}
         <div>
-            <div class="text-center mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
+            <div class="text-center mx-auto mt-6 grid max-w-2xl grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
                 {% for person in section.pages %} 
             {% set page_path = person.path ~ 'index.md' | replace(from='-', to='_') | trim_start_matches(pat="/") %}
             {% set people = get_section(path="people/_index.md") %}
@@ -27,7 +27,7 @@
             {% endif %}
         {% endfor %}
             </div>
-            <hr class="mt-6">
+            {# <hr class="mt-6">
             <p class="text-center text-sm mt-2 mb-16">
                 {% if paginator.previous %}
                 <a class="border-transparent" aria-label="First page" href="{{ paginator.first }}">
@@ -63,7 +63,7 @@
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% include
           "partials/icons/svgLastPageIcon.html" %}{% include
           "partials/icons/svgLastPageIcon.html" %} {% endif %}
-            </p>
+            </p> #}
         </div>
     </div>
 </div>
