@@ -206,13 +206,7 @@ For years, ThreeFold has been quietly and steadily developing its revolutionary 
 <br>
 
 
-We are now entering a new phase of the ThreeFold Grid with the Grid 4.0 and Project Internet Capacity. As we transition into this next phase, we're enabling commercial entities to seamlessly build on the grid.
-
-
-<br>
-
-
-<button class="blue_b">[Learn More](https://threefold.info/projectinca/projectinca/intro.html)</button>
+We are now entering a new phase of the ThreeFold Grid with the Grid 4.0 and Project Internet Capacity. As we transition into this next phase, we're enabling commercial entities to seamlessly build on the grid. Stay tuned as we continue to build towards the commercialization of the grid.
 
 
 {% end %}
