@@ -166,7 +166,7 @@ extra:
 
 <div class="myscale">
 
-[![Image](linkedin.png#social)](https://www.linkedin.com/company/threefold-foundatiooon/)
+[![Image](linkedin.png#social)](https://www.linkedin.com/company/threefold-io/)
 
 </div>
 

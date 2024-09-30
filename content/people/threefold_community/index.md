@@ -13,7 +13,7 @@ extra:
     cities: []
     private: 0
     socialLinks: {
-        LinkedIn: https://www.linkedin.com/company/threefold-foundation,
+        LinkedIn: https://www.linkedin.com/company/threefold-io,
         github: https://github.com/threefoldfoundation/,
         websites: https://threefold.io,
     }
