@@ -7,7 +7,7 @@ date: 2019-12-05
 taxonomies:
   people: [sam_taggart]
   tags: [grid, why, tech]
-  categories: [farming,cloud,foundation,aci]
+  categories: [grid, why, tech]
 extra:
     imgPath: internet_is_growing_wild.png
 ---

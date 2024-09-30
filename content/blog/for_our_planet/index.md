@@ -7,7 +7,7 @@ date: 2020-12-02
 taxonomies:
   people: [weynand_kuijpers]
   tags: [why, tech]
-  categories: [farming,twin,foundation,cloud,aci]
+  categories: [why, tech]
 extra:
     imgPath: better_solution.png
 ---

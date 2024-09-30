@@ -7,7 +7,7 @@ date: 2024-06-21
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, event, collaboration, why]
-  categories: [farming,cloud,foundation]
+  categories: [community, event, collaboration, why]
 extra:
     imgPath: hatch_podcast.png
 ---

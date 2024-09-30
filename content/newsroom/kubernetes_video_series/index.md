@@ -7,7 +7,7 @@ date: 2023-03-17
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: kubernetes_video_series.png
 ---

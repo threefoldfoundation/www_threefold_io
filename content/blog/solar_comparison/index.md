@@ -7,7 +7,7 @@ date: 2024-03-01
 taxonomies:
   people: [emilie_ouwerx]
   tags: [community, decentralization, farming, grid, cloud]
-  categories: [foundation]
+  categories: [community, decentralization, farming, grid, cloud]
 extra:
     imgPath: solar_comparison.png
 ---

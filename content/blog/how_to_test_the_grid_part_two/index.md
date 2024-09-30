@@ -7,7 +7,7 @@ date: 2024-05-09
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [technology,threefold_grid]
-  categories: [farming,cloud,foundation]
+  categories: [technology,threefold_grid]
 extra:
     imgPath: how_to_test_the_grid_part_two.png
 ---

@@ -7,7 +7,7 @@ date: 2023-12-15
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, grid, collaboration, tech]
-  news-category: [foundation]
+  news-category: [community, grid, collaboration, tech]
 extra:
     imgPath: depin_hub.png
     isFeatured: true

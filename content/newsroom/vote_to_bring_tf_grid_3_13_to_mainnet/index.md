@@ -7,7 +7,7 @@ date: 2024-03-02
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: vote_to_bring_tf_grid_3_13_to_mainnet.png
 ---

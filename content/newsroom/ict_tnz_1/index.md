@@ -7,7 +7,7 @@ date: 2022-10-31
 taxonomies:
   people: [sam_taggart]
   tags: [community, event, collaboration]
-  news-category: [foundation]
+  news-category: [community, event, collaboration]
 extra:
     imgPath: ict_tnz_1.png
 ---

@@ -7,7 +7,7 @@ date: 2018-08-22
 taxonomies:
   people: [kristof_de_spiegeleer]
   tags: [grid, cloud, tech]
-  categories: [tftech, cloud]
+  categories: [grid, cloud, tech]
 extra:
     imgPath: edge_cloud.png
 ---

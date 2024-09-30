@@ -6,8 +6,8 @@ description: Featuring Zanzalu Student Weekend, the 8th GenAI Meetup in Dar Es S
 date: 2024-05-28
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: zanzalu_student_weekend.png
 

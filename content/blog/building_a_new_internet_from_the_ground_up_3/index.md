@@ -7,7 +7,7 @@ date: 2021-10-04
 taxonomies:
   people: [scott_yeager]
   tags: [grid, cloud, tech]
-  categories: [foundation,farming,cloud]
+  categories: [grid, cloud, tech]
 extra:
     imgPath: building_a_new_internet_3.png
 ---

@@ -7,7 +7,7 @@ date: 2024-08-14
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community,event]
-  news-category: [foundation]
+  news-category: [tech,grid,community,event]
 extra:
     imgPath: argentina_event.jpg
 

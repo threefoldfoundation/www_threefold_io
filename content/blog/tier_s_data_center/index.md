@@ -7,7 +7,7 @@ date: 2024-02-10
 taxonomies:
   people: [sam_taggart]
   tags: [cloud, tech]
-  categories: [foundation]
+  categories: [cloud, tech]
 extra:
   imgPath: tier_s_data_center.png
 ---

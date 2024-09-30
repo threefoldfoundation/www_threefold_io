@@ -7,7 +7,7 @@ date: 2024-02-20
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, grid, tech]
-  news-category: [technology]
+  news-category: [community, grid, tech]
 extra:
     imgPath: farmerbotupdaterecommended.png
 ---

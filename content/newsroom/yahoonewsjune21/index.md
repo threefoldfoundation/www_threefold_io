@@ -7,7 +7,7 @@ date: 2021-06-26
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech, news]
-  news-category: [farming,cloud,foundation]
+  news-category: [grid, tech, news]
 extra:
     imgPath: yahoonewsjune21.png
 ---

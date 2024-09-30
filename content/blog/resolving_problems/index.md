@@ -7,7 +7,7 @@ date: 2023-11-12
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, grid, why, tech]
-  categories: [foundation]
+  categories: [decentralization, grid, why, tech]
 extra:
     imgPath: resolving_problems.png
 ---

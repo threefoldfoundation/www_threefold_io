@@ -7,7 +7,7 @@ date: 2017-06-06
 taxonomies:
   people: [kristof_de_spiegeleer]
   tags: [decentralization, why]
-  categories: [farming,twin,cloud,foundation,aci]
+  categories: [decentralization, why]
 extra:
     imgPath: ethical_design_manifesto.png
 ---

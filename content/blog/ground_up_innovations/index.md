@@ -7,7 +7,7 @@ date: 2024-07-24
 taxonomies:
   people: [sam_taggart]
   tags: [grid,decentralization,tech,why]
-  categories: []
+  categories: [grid,decentralization,tech,why]
 extra:
     imgPath: ground_up_innovations.png
 ---

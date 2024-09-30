@@ -6,8 +6,8 @@ description: Missed the community call on Tuesday? Watch the recording with disc
 date: 2024-05-02
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: april_project_update_recording.png
 ---

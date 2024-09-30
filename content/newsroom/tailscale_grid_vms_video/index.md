@@ -7,7 +7,7 @@ date: 2023-02-28
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: tailscale_grid_vms_video.png
 ---

@@ -7,7 +7,7 @@ date: 2023-08-01
 taxonomies:
   people: [sam_taggart]
   tags: [collaboration, tech, news]
-  news-category: [foundation]
+  news-category: [collaboration, tech, news]
 extra:
     imgPath: ourworldfreezone.png
 ---

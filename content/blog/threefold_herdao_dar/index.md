@@ -7,7 +7,7 @@ date: 2024-02-08
 taxonomies:
   people: [sam_taggart]
   tags: [community, event, collaboration, why]
-  categories: [foundation]
+  categories: [community, event, collaboration, why]
 extra:
     imgPath: diversitytf.png
 ---

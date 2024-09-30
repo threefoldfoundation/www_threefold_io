@@ -6,8 +6,8 @@ description:   A public ThreeFold Events calendar to keep you updated on new cal
 date: 2024-05-13
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: events_calendar.png
 ---

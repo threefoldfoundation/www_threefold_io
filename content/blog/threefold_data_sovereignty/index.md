@@ -7,7 +7,7 @@ date: 2021-05-23
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, grid, why, tech]
-  categories: [farming,cloud,foundation,aci,twin]
+  categories: [decentralization, grid, why, tech]
 extra:
     imgPath: threefold_data_sovereignty.png
 ---

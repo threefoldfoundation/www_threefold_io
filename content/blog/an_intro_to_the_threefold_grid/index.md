@@ -7,7 +7,7 @@ date: 2021-07-19
 taxonomies:
   people: [scott_yeager]
   tags: [grid, cloud, tech]
-  categories: [foundation,farming,cloud]
+  categories: [grid, cloud, tech]
 extra:
     imgPath: an_intro_to_the_threefold_grid.png
 ---

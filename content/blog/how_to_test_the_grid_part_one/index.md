@@ -7,7 +7,7 @@ date: 2024-05-03
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [technology,threefold_cloud,community]
-  categories: [farming,cloud,foundation]
+  categories: [technology,threefold_cloud,community]
 extra:
     imgPath: testing_main.png
 ---

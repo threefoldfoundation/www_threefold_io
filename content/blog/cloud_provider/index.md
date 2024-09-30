@@ -7,7 +7,7 @@ date: 2024-04-09
 taxonomies:
   people: [marion_ravarino]
   tags: [threefold_grid,technology,peer_to_peer]
-  categories: [cloud]
+  categories: [threefold_grid,technology,peer_to_peer]
 extra:
     imgPath: cloud_provider.png
 ---

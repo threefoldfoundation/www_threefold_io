@@ -7,7 +7,7 @@ date: 2021-09-17
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, why]
-  categories: [farming, cloud, foundation, aci]
+  categories: [community, decentralization, why]
 extra:
     imgPath: journey_into_threefold.png
 ---

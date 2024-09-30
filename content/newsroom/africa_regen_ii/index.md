@@ -7,7 +7,7 @@ date: 2023-11-21
 taxonomies:
   people: [sam_taggart]
   tags: [community, event, collaboration, tech]
-  news-category: [foundation]
+  news-category: [community, event, collaboration, tech]
 extra:
     imgPath: africa_regen_ii.png
 ---

@@ -6,8 +6,8 @@ description:  Mik and Scott explored Mycelium this week, an encrypted IPv6 overl
 date: 2024-05-22
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: mycelium_demo.png
 ---

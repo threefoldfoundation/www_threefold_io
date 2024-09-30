@@ -7,7 +7,7 @@ date: 2022-03-21
 taxonomies:
   people: [sacha_obeegadoo]
   tags: [community, decentralization, why]
-  categories: [foundation]
+  categories: [community, decentralization, why]
 extra:
     imgPath: realizing_the_promise.png
 ---

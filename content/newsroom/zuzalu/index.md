@@ -7,7 +7,7 @@ date: 2023-04-26
 taxonomies:
   people: [sam_taggart]
   tags: [community, event]
-  news-category: [foundation]
+  news-category: [community, event]
 extra:
     imgPath: zuzalu.png
 ---

@@ -7,7 +7,7 @@ date: 2024-07-24
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
-  news-category: [foundation]
+  news-category: [tech,grid,community]
 extra:
     imgPath: tfrobot_demo.png
 ---

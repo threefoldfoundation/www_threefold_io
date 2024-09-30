@@ -7,7 +7,7 @@ date: 2024-03-29
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, farming, grid, tech]
-  news-category: [foundation]
+  news-category: [community, farming, grid, tech]
 extra:
     imgPath: minting_and_farming_rewards_updates.png
 ---

@@ -7,7 +7,7 @@ date: 2023-08-03
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: tfgrid312reviewcall.png
 ---

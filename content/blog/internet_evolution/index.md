@@ -7,7 +7,7 @@ date: 2023-04-11
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, why]
-  categories: [foundation]
+  categories: [decentralization, why]
 extra:
   imgPath: internet_evolution.png
 ---

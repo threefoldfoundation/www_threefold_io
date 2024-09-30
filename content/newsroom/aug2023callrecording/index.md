@@ -7,7 +7,7 @@ date: 2023-08-02
 taxonomies:
   people: [sam_taggart]
   tags: [community, tech]
-  news-category: [foundation]
+  news-category: [community, tech]
 extra:
     imgPath: aug2023callrecording.png
 ---

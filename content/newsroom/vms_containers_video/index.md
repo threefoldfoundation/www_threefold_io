@@ -7,7 +7,7 @@ date: 2023-03-02
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: vms_containers_video.png
 ---

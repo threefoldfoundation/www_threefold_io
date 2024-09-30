@@ -7,7 +7,7 @@ date: 2023-09-19
 taxonomies:
   people: [lee_smet]
   tags: [decentralization, grid, cloud, tech]
-  categories: [foundation]
+  categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: mycelium.png
 ---

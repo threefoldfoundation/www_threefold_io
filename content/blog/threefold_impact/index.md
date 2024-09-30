@@ -7,7 +7,7 @@ date: 2024-09-04
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [technology,community]
-  categories: [farming,cloud,foundation]
+  categories: [technology,community]
 extra:
     imgPath: threefold_impact.png
     isFeatured: true

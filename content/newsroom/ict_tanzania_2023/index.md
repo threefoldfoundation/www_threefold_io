@@ -8,6 +8,7 @@ taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
   tags: [event, tech]
+  news-category: [event, tech]
 extra:
   imgPath: ict_tanzania_2023.png
 ---

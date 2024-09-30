@@ -7,7 +7,7 @@ date: 2021-12-15
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, tech]
-  categories: [foundation, cloud, technology]
+  categories: [decentralization, tech]
 extra:
     imgPath: tf_chain.png
 ---

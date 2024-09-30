@@ -7,7 +7,7 @@ date: 2023-07-23
 taxonomies:
   people: [sam_taggart]
   tags: [community, event, tech]
-  news-category: [foundation]
+  news-category: [community, event, tech]
 extra:
     imgPath: africanregensummit.png
 ---

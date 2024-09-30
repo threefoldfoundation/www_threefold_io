@@ -6,8 +6,8 @@ description: How, why, and for what do I use the TF Dashboard? Click here for a 
 date: 2024-04-25
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: dashboard_recording.png
 ---

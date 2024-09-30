@@ -7,7 +7,7 @@ date: 2022-01-21
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: zero_to_hero_grid3.png
 ---

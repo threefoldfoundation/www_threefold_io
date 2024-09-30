@@ -7,7 +7,7 @@ date: 2023-12-04
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization]
-  categories: [foundation]
+  categories: [community, decentralization]
 extra:
     imgPath: threefold_cooperative.png
     isFeatured: true

@@ -7,7 +7,7 @@ date: 2023-01-03
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
   imgPath: talk_about_deploying.png
 ---
