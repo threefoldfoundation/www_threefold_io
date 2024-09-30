@@ -7,7 +7,7 @@ date: 2021-05-25
 taxonomies:
   people: [sacha_obeegadoo]
   tags: [decentralization, grid, cloud, tech]
-  categories: [farming,cloud,foundation,aci,twin]
+  categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: smart_contract_blog.png
 

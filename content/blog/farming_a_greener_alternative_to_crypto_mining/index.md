@@ -7,7 +7,7 @@ date: 2022-04-21
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, farming, why]
-  categories: [foundation]
+  categories: [decentralization, farming, why]
 extra:
     imgPath: farming_a_greener_alternative_to_crypto_mining.png
 ---

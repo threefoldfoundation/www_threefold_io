@@ -7,7 +7,7 @@ date: 2022-11-09
 taxonomies:
   people: [threefold_community]
   tags: [community, decentralization, why]
-  categories: [foundation]
+  categories: [community, decentralization, why]
 extra:
   imgPath: an_org_building_a_decentralized_internet.png
 ---

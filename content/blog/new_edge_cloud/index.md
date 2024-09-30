@@ -7,7 +7,7 @@ date: 2018-09-12
 taxonomies:
   people: [sam_taggart]
   tags: [grid, cloud, tech]
-  categories: [farming,cloud,foundation]
+  categories: [grid, cloud, tech]
 extra:
     imgPath: new_edge_cloud.png
 ---

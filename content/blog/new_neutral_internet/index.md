@@ -7,7 +7,7 @@ date: 2017-06-01
 taxonomies:
   people: [kristof_de_spiegeleer]
   tags: [decentralization, farming, grid, why, cloud, tech]
-  categories: [farming,cloud,foundation]
+  categories: [decentralization, farming, grid, why, cloud, tech]
 extra:
     imgPath: new_neutral_internet.png
 ---

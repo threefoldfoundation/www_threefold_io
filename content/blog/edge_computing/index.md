@@ -7,7 +7,7 @@ date: 2024-04-18
 taxonomies:
   people: [emilie_ouwerx]
   tags: [threefold_grid, Technology, Peer_to_peer]
-  categories: [foundation]
+  categories: [threefold_grid, Technology, Peer_to_peer]
 extra:
     imgPath: edge_computing.png
     isFeatured: true

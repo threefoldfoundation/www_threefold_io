@@ -7,7 +7,7 @@ date: 2022-05-17
 taxonomies:
   people: [sam_taggart]
   tags: [community, event]
-  categories: [foundation]
+  categories: [community, event]
 extra:
     imgPath: threefold_at_consensus_2022.png
 ---

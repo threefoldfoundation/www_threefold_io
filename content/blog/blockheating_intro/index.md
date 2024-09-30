@@ -7,7 +7,7 @@ date: 2021-07-23
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, farming, why]
-  categories: [farming, cloud, foundation, aci, twin]
+  categories: [community, decentralization, farming, why]
 extra:
     imgPath: blockheating_intro.png
 ---

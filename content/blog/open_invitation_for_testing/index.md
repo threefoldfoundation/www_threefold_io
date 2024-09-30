@@ -7,7 +7,7 @@ date: 2022-10-11
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, grid, cloud, tech]
-  categories: [foundation]
+  categories: [community, decentralization, grid, cloud, tech]
 extra:
     imgPath: open_invitation_for_testing.png
 ---

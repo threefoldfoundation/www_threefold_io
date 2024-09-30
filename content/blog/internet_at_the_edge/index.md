@@ -7,7 +7,7 @@ date: 2022-05-10
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, grid, why, cloud, tech]
-  categories: [foundation]
+  categories: [decentralization, grid, why, cloud, tech]
 extra:
     imgPath: internet_at_the_edge.png
 ---

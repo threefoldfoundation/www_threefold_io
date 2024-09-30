@@ -7,7 +7,7 @@ date: 2017-10-12
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, why, cloud, tech]
-  categories: [farming,cloud,foundation,aci]
+  categories: [decentralization, why, cloud, tech]
 extra:
     imgPath: big_datacenter_myth.png
 ---

@@ -7,7 +7,7 @@ date: 2024-01-26
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, event, collaboration, why]
-  categories: [foundation]
+  categories: [community, decentralization, event, collaboration, why]
 extra:
     imgPath: dy.png
 ---

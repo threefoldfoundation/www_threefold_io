@@ -7,7 +7,7 @@ date: 2020-05-03
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, farming, why]
-  categories: [farming, grid]
+  categories: [decentralization, farming, why]
 extra:
     imgPath: become_a_farmer.png
 ---

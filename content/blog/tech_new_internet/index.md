@@ -7,7 +7,7 @@ date: 2018-05-12
 taxonomies:
   people: [weynand_kuijpers]
   tags: [decentralization, grid, cloud, tech]
-  categories: [farming,cloud,foundation]
+  categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: tech_new_internet.png
 ---

@@ -7,7 +7,7 @@ date: 2021-01-03
 taxonomies:
   people: [sam_taggart]
   tags: [farming, grid, why]
-  categories: [farming,cloud,foundation,aci,twin]
+  categories: [farming, grid, why]
 extra:
     imgPath: more_inclusive_internet.png
 ---

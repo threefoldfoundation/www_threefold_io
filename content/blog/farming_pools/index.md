@@ -7,7 +7,7 @@ date: 2023-12-05
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, farming]
-  categories: [foundation]
+  categories: [community, decentralization, farming]
 extra:
     imgPath: farming_pools.png
 ---

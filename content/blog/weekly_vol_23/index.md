@@ -7,7 +7,7 @@ date: 2022-07-05
 taxonomies:
   people: [sam_taggart]
   tags: [community, farming, grid, cloud, tech]
-  categories: [foundation]
+  categories: [community, farming, grid, cloud, tech]
 extra:
     imgPath: weekly_vol_23.png
 ---

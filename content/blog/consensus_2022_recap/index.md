@@ -7,7 +7,7 @@ date: 2022-06-28
 taxonomies:
   people: [sam_taggart]
   tags: [community, event]
-  categories: [foundation]
+  categories: [community, event]
 extra:
     imgPath: consensus_2022_recap.png
 ---

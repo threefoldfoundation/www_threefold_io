@@ -7,7 +7,7 @@ date: 2024-06-11
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [technology,community]
-  categories: [farming,cloud,foundation]
+  categories: [technology,community]
 extra:
     imgPath: inca.png
     isFeatured: true

@@ -7,7 +7,7 @@ date: 2022-10-18
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, tech]
-  categories: [foundation]
+  categories: [decentralization, tech]
 extra:
   imgPath: digital_twin.png
 ---
