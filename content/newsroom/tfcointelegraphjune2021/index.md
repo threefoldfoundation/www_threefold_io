@@ -7,7 +7,7 @@ date: 2021-06-10
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech, news]
-  news-category: [farming,cloud,foundation,aci,twin]
+  news-category: [grid, tech, news]
 extra:
     imgPath: tfcointelegraphjune2021.png
 ---

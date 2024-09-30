@@ -7,7 +7,7 @@ date: 2023-11-30
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech]
-  news-category: [foundation]
+  news-category: [grid, tech]
 extra:
     imgPath: whats_coming_tf_grid_313.png
 ---

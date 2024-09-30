@@ -7,7 +7,7 @@ date: 2023-11-08
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, farming, grid, tech]
-  news-category: [foundation]
+  news-category: [community, farming, grid, tech]
 extra:
     imgPath: stricter_minting_update.png
 ---

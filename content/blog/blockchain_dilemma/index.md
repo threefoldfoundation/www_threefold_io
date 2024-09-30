@@ -7,7 +7,7 @@ date: 2018-03-07
 taxonomies:
   people: [kristof_de_spiegeleer]
   tags: [decentralization, why, tech]
-  categories: [tech, grid]
+  categories: [decentralization, why, tech]
 extra:
     imgPath: blockchain_dilemma.png
 ---

@@ -7,7 +7,7 @@ date: 2024-04-15
 taxonomies:
   people: [sam_taggart]
   tags: [community, why, peer_to_peer]
-  categories: [foundation]
+  categories: [community, why, peer_to_peer]
 extra:
     imgPath: tf_ecosystem_comes_alive.png
 ---

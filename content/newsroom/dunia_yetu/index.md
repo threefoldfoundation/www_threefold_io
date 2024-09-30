@@ -7,7 +7,7 @@ date: 2023-11-28
 taxonomies:
   people: [sam_taggart]
   tags: [community, collaboration]
-  news-category: [foundation]
+  news-category: [community, collaboration]
 extra:
     imgPath: dunia_yetu.png
 ---

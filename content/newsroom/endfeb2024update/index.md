@@ -7,7 +7,7 @@ date: 2024-02-29
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, farming, grid, collaboration, tech]
-  news-category: [foundation]
+  news-category: [community, farming, grid, collaboration, tech]
 extra:
     imgPath: endfeb2024update.png
 ---

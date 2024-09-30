@@ -7,7 +7,7 @@ date: 2023-07-27
 taxonomies:
   people: [sam_taggart]
   tags: [community, collaboration, tech, news]
-  news-category: [foundation]
+  news-category: [community, collaboration, tech, news]
 extra:
     imgPath: digitalfreezonezanzibar.png
 ---

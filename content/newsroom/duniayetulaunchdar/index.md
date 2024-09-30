@@ -7,7 +7,7 @@ date: 2024-01-29
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, event, tech, news]
-  news-category: [foundation]
+  news-category: [community, event, tech, news]
 extra:
     imgPath: sovereigndy.png
     isFeatured: true

@@ -7,7 +7,7 @@ date: 2019-11-21
 taxonomies:
   people: [sabrina_sadik]
   tags: [decentralization, why]
-  categories: [farming,cloud,twin,foundation,aci]
+  categories: [decentralization, why]
 extra:
     imgPath: escape_great_hack.png
 ---

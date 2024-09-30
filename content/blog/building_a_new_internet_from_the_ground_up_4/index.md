@@ -7,7 +7,7 @@ date: 2022-02-03
 taxonomies:
   people: [scott_yeager]
   tags: [decentralization, grid, cloud, tech]
-  categories: [foundation,farming,cloud]
+  categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: building_a_new_internet_pt_4.png
 ---

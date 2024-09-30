@@ -7,7 +7,7 @@ date: 2020-02-03
 taxonomies:
   people: [sam_taggart]
   tags: [farming, grid, token]
-  categories: [farming,threefold_grid,threefold_token]
+  categories: [farming, grid, token]
 extra:
     imgPath: intro_to_farming.png
 ---

@@ -7,7 +7,7 @@ date: 2023-05-11
 taxonomies:
   people: [sam_taggart]
   tags: [community, grid]
-  news-category: [foundation]
+  news-category: [community, grid]
 extra:
     imgPath: may2023utilization.png
 ---

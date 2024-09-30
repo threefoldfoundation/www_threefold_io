@@ -6,8 +6,8 @@ description: Questions were asked, answers were given, and clarifications were m
 date: 2024-04-12
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: april_2024_discussion.png
 ---

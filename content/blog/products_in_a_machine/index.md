@@ -7,7 +7,7 @@ date: 2023-07-15
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, why]
-  categories: [foundation]
+  categories: [decentralization, why]
 extra:
     imgPath: products_in_a_machine.png
 ---

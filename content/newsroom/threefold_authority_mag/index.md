@@ -7,7 +7,7 @@ date: 2022-03-25
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech, news]
-  news-category: [foundation]
+  news-category: [grid, tech, news]
 extra:
     imgPath: threefold_authority_mag.png
 ---

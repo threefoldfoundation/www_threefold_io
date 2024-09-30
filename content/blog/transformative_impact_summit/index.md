@@ -7,7 +7,7 @@ date: 2024-06-14
 taxonomies:
   people: [sam_taggart]
   tags: [community]
-  categories: [foundation]
+  categories: [community]
 extra:
     imgPath: transformative_impact_summit.png
 ---

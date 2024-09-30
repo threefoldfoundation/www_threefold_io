@@ -6,8 +6,8 @@ description:  Testing is crucial for a reliable cloud infrastructure; learn abou
 date: 2024-05-10
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: testing_main_blog.png
 ---

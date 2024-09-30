@@ -7,7 +7,7 @@ date: 2024-06-24
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
-  news-category: [foundation]
+  news-category: [tech,grid,community]
 extra:
     imgPath: mainnet_upgrade_314.png
 

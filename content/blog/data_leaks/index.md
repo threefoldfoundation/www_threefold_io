@@ -7,7 +7,7 @@ date: 2021-06-17
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, why]
-  categories: [farming, cloud, foundation, aci, twin]
+  categories: [decentralization, why]
 extra:
     imgPath: data_leaks.png
 ---

@@ -6,8 +6,8 @@ description: Introducing Project Internet Capacity (INCA), the fourth generation
 date: 2024-06-12
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: intro_inca.png
 ---

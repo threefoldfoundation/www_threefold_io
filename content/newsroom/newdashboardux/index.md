@@ -7,7 +7,7 @@ date: 2024-01-25
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, grid, tech]
-  news-category: [foundation]
+  news-category: [community, grid, tech]
 extra:
     imgPath: newdashboardux.png
 ---

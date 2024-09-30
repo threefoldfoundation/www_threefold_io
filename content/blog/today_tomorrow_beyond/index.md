@@ -7,7 +7,7 @@ date: 2023-01-11
 taxonomies:
   people: [sam_taggart]
   tags: [community, why]
-  categories: [foundation]
+  categories: [community, why]
 extra:
   imgPath: today_tomorrow_beyond.png
 ---

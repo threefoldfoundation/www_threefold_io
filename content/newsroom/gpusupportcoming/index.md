@@ -7,7 +7,7 @@ date: 2023-06-30
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech]
-  news-category: [foundation]
+  news-category: [grid, tech]
 extra:
     imgPath: gpusupportcoming.png
 ---

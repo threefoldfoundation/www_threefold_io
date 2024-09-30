@@ -6,8 +6,8 @@ description: Partnerships were forged, and friendships were formed at the Transf
 date: 2024-06-14
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: transformative_impact_summit.png
 ---

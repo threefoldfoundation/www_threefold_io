@@ -6,8 +6,8 @@ description: This month's update covered v3 vs. v4, INCA, tech updates, and news
 date: 2024-05-31
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: may_project_call.png
 

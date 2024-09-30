@@ -7,7 +7,7 @@ date: 2023-02-27
 taxonomies:
   people: [sam_taggart]
   tags: [community, farming, grid, why, tech]
-  categories: [foundation]
+  categories: [community, farming, grid, why, tech]
 extra:
     imgPath: power_saving.png
 ---

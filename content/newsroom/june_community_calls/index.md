@@ -6,8 +6,8 @@ description: Check out the schedule for our June community calls and see what's 
 date: 2024-05-30
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: community.png
 

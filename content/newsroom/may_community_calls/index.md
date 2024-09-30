@@ -6,8 +6,8 @@ description: Looking to when and what will be discussed in May, click here to se
 date: 2024-05-02
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: may_community_calls.png
 ---

@@ -7,7 +7,7 @@ date: 2023-05-05
 taxonomies:
   people: [sam_taggart]
   tags: [community, tech, token]
-  news-category: [foundation]
+  news-category: [community, tech, token]
 extra:
     imgPath: tftethereum.png
 ---

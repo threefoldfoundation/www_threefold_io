@@ -7,7 +7,7 @@ date: 2024-08-22
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
-  news-category: [foundation]
+  news-category: [tech,grid,community]
 extra:
     imgPath: zos_and_flist_demo.png
 

@@ -8,6 +8,7 @@ taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
   tags: [community, grid, tech]
+  news-category: [community, grid, tech]
 extra:
   imgPath: pulumi_plugin.png
 ---

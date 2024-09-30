@@ -6,8 +6,8 @@ description: From visiting IIT Madras Zanzibar to discussing sovereign infrastru
 date: 2024-06-07
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: on_the_ground_zanzibar.png
 ---

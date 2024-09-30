@@ -7,7 +7,7 @@ date: 2024-09-06
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
-  news-category: [foundation]
+  news-category: [tech,grid,community]
 extra:
     imgPath: sept_5_call.jpg
 

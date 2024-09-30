@@ -7,7 +7,7 @@ date: 2019-08-21
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, farming, grid, why, cloud, tech]
-  categories: [farming, grid, tech, aci, cloud, foundation]
+  categories: [decentralization, farming, grid, why, cloud, tech]
 extra:
     imgPath: decentralizing_the_internet.png
 ---

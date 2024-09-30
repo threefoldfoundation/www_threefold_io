@@ -7,7 +7,7 @@ date: 2022-04-05
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, why]
-  categories: [foundation]
+  categories: [decentralization, why]
 extra:
     imgPath: in_search_of_a_better_internet.png
 ---

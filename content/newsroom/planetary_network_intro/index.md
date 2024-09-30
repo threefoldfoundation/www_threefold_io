@@ -7,7 +7,7 @@ date: 2021-09-03
 taxonomies:
   people: [sam_taggart]
   tags: [grid, tech]
-  news-category: [foundation,cloud,farming]
+  news-category: [grid, tech]
 extra:
     imgPath: planetary_network_intro.png
 ---
