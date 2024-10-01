@@ -5,7 +5,6 @@ description: Support Team
 taxonomies:
     people: [shangreiyo_awungshi]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: shangreiyo_awungshi.jpg
     organizations: [threefold_tech]

@@ -5,7 +5,6 @@ description: Administrative Assistant
 taxonomies:
     people: [karoline_zizka]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: karoline_zizka.jpeg
     organizations: [threefold_foundation]

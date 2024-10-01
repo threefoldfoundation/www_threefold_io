@@ -5,7 +5,6 @@ description: Software Testing Engineer
 taxonomies:
     people: [khaled_youssef]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: khaled.jpg
     organizations: [threefold_tech]

@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [alaa_mahmoud]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: alaa_mahmoud.jpg
     organizations: [threefold_tech]

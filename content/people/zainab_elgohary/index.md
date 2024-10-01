@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [zainab_elgohary]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: zainab_elgohary.jpeg
     organizations: [threefold_tech]

@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [abdulrahman_elawady]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: abdulrahman_elawady.jpg
     organizations: [threefold_tech]

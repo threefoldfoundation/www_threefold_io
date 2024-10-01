@@ -5,7 +5,6 @@ description: Communication & Community
 taxonomies:
     people: [scott_yeager]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: scott_yeager.jpg
     organizations: [threefold_foundation]

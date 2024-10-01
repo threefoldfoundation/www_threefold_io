@@ -5,7 +5,6 @@ description: General Manager, Cairo
 taxonomies:
     people: [nayer_sobhy]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: nayer_sobhy.jpg
     organizations: [threefold_tech]

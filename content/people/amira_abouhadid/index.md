@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [amira_abouhadid]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: amira_abouhadid.jpg
     organizations: [threefold_tech]

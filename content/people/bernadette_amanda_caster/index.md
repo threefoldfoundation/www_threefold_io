@@ -5,7 +5,6 @@ description: Communication Team
 taxonomies:
     people: [bernadette_amanda_caster]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: bernadette_amanda_caster.jpg
     organizations: [threefold_tech]

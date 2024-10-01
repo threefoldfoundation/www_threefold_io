@@ -5,7 +5,6 @@ description: CFO, TF9
 taxonomies:
     people: [peter_van_der_henst]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: peter_van_der_henst.png
     organizations: [threefold_tech]

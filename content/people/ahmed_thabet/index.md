@@ -5,7 +5,6 @@ description: Development Team Lead
 taxonomies:
     people: [ahmed_thabet]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: ahmed_thabet.jpg
     organizations: [threefold_tech]

@@ -6,7 +6,6 @@ taxonomies:
 
     people: [sam_taggart]
     memberships: [team]
-    categories: [foundation]
 
 extra:
 
