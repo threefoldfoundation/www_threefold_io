@@ -1,5 +1,5 @@
 ---
-id: gep_voting process
+id: gep_voting_process
 title: "🗳 Vote: Proposed Update to the GEP Voting Process"
 image_caption: GEP Voting Process
 description:  A proposal and community vote to update the GEP voting process, to allow all TFT holders to participate in governance of the project
@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: gep_voting process.png
+    imgPath: gep_voting_process.png
 
 ---
 
