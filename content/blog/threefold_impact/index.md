@@ -6,8 +6,8 @@ description: ThreeFold is redefining the internet with decentralized infrastruct
 date: 2024-09-04
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,community]
-  categories: [technology,community]
+  tags: [tech,community]
+  categories: [tech,community]
 extra:
     imgPath: threefold_impact.png
     isFeatured: true
