@@ -6,8 +6,8 @@ description: Our decentralized solutions empower individuals and promote a more 
 date: 2024-04-09
 taxonomies:
   people: [marion_ravarino]
-  tags: [threefold_grid,technology,peer_to_peer]
-  categories: [threefold_grid,technology,peer_to_peer]
+  tags: [grid, tech]
+  categories: [grid, tech]
 extra:
     imgPath: cloud_provider.png
 ---

@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [lee_smet]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: lee_smet.png
     organizations: [threefold_tech]

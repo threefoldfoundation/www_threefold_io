@@ -5,7 +5,6 @@ description: DevOps Team
 taxonomies:
     people: [peter_nashaat]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: peter_nashaat.jpg
     organizations: [threefold_tech]

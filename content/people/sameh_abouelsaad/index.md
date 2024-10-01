@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [sameh_abouelsaad]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: sameh_abouelsaad.jpg
     organizations: [threefold_tech]

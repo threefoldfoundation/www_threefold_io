@@ -5,7 +5,6 @@ description: Co-Founder
 taxonomies:
     people: [owen_kemp]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: owen_kemp.jpeg
     organizations: [threefold_tech]

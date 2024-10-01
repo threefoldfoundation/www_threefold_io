@@ -6,8 +6,8 @@ description: ThreeFold Farmers provide decentralized cloud capacity, shape the g
 date: 2024-04-26
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,threefold_cloud,farming,community]
-  categories: [technology,threefold_cloud,farming,community]
+  tags: [tech,grid,farming,community]
+  categories: [tech,grid,farming,community]
 extra:
     imgPath: the_farming_community.png
 ---

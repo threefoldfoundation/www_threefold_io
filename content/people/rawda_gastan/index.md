@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [rawda_gastan]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: rawda_gastan.jpg
     organizations: [threefold_tech]

@@ -5,7 +5,6 @@ description: Websites
 taxonomies:
     people: [sasha_astiadi]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: sasha_astiadi.png
     organizations: [threefold_foundation, threefold_tech]

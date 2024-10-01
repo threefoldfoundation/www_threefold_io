@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [mayar_osama]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: mayar_osama.jpeg
     organizations: [threefold_tech]

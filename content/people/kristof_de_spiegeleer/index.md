@@ -5,7 +5,6 @@ description: Co-Founder & CEO
 taxonomies:
     people: [kristof_de_spiegeleer]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: kristof_de_spiegeleer.jpeg
     organizations: [threefold_foundation, threefold_tech]

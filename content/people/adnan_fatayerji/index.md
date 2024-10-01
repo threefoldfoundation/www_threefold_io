@@ -5,7 +5,6 @@ description: Co-Founder
 taxonomies:
     people: [adnan_fatayerji]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: adnan_fatayerji.jpg
     organizations: [threefold_foundation]

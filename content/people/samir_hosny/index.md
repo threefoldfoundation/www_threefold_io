@@ -5,7 +5,6 @@ description: DevOps Team
 taxonomies:
     people: [samir_hosny]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: samir_hosny.jpg
     organizations: [threefold_tech]

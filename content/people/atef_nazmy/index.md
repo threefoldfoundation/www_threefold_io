@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [atef_nazmy]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: atef_nazmy.jpg
     organizations: [threefold_tech]

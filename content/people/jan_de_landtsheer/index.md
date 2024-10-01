@@ -5,7 +5,6 @@ description: Co-Founder & CTO
 taxonomies:
     people: [jan_de_landtsheer]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: jan_de_landtsheer.jpeg
     organizations: [threefold_tech]

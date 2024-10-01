@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [ashraf_fouda]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: ashraf_fouda.jpeg
     organizations: [threefold_tech]

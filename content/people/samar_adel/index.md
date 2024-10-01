@@ -5,7 +5,6 @@ description: Web Developer
 taxonomies:
     people: [samar_adel]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: samar_adel.jpg
     organizations: [threefold_tech]

@@ -5,7 +5,6 @@ description: Support Team
 taxonomies:
     people: [mahendra_varma]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: mahendra_varma.jpg
     organizations: [threefold_tech]
