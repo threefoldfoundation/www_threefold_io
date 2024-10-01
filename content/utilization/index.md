@@ -82,7 +82,7 @@ Meet the projects with whom we are working closely this year to drive utilizatio
 
 <p class="text-base">In July 2023, Dr. Hussein Ali Mwinyi, President of Zanzibar, spoke at a summit hosted by ThreeFold to announce our collaboration... </P>
 
-<span class="text-base">[Read More](/partners/social-network)</span>
+<span class="text-base">[Read More](/partners/our-world-free-zone)</span>
 
 </div>
 
