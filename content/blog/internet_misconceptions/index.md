@@ -7,7 +7,7 @@ date: 2024-08-30
 taxonomies:
   people: [sam_taggart]
   tags: [grid,decentralization,tech,why]
-  categories: []
+  categories: [grid,decentralization,tech,why]
 extra:
     imgPath: internet_misconceptions.png
 ---

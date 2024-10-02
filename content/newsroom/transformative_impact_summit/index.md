@@ -1,13 +1,13 @@
 ---
 id: transformative_impact_summit
-title: 💡 Transformative Impact Summit Recap  
+title: Transformative Impact Summit Recap  
 image_caption: Transformative Impact Summit Recap
 description: Partnerships were forged, and friendships were formed at the Transformative Impact Summit, held June 7 - 9 in Zanzibar, dive in to learn more about how ThreeFold participated.
 date: 2024-06-14
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: transformative_impact_summit.png
 ---

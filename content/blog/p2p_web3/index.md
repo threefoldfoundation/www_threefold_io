@@ -7,7 +7,7 @@ date: 2022-03-09
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, grid, why, tech]
-  categories: [foundation]
+  categories: [decentralization, grid, why, tech]
 extra:
     imgPath: p2p_web3.png
 ---

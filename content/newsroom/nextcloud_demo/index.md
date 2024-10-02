@@ -1,13 +1,13 @@
 ---
 id: nextcloud_demo
-title: 👀 Watch the Nextcloud Demo 
+title: Watch the Nextcloud Demo 
 image_caption: nextcloud_demo
 description: Mik and Scott showed how to deploy Nextcloud on ThreeFold, featuring file sync, data control, and more. 
 date: 2024-07-10
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
-  news-category: [foundation]
+  news-category: [tech,grid,community]
 extra:
     imgPath: nextcloud_demo.png
 ---

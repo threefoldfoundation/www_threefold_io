@@ -1,6 +1,6 @@
 ---
 id: introducing_mycelium
-title: "🍄 Exciting Developments in ThreeFold's Network: Mycelium Unveiled"
+title: "Exciting Developments in ThreeFold's Network: Mycelium Unveiled"
 image_caption: Introducing Mycelium
 description: Read about the team's efforts on building our own Ipv6 overlay network.
 date: 2023-09-19
@@ -8,6 +8,7 @@ taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
   tags: [community, tech]
+  news-category: [community, tech]
 extra:
   imgPath: mycelium.png
 ---

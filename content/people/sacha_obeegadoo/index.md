@@ -5,7 +5,6 @@ description: Business Development & Community
 taxonomies:
     people: [sacha_obeegadoo]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: sacha_obeegadoo.jpg
     organizations: [threefold_foundation, twin, aci]

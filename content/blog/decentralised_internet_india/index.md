@@ -7,7 +7,7 @@ date: 2023-01-03
 taxonomies:
   people: [ashish_bansal]
   tags: [community, decentralization, why]
-  categories: [foundation]
+  categories: [community, decentralization, why]
 extra:
     imgPath: decentralised_internet_india.png
 ---

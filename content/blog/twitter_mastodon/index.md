@@ -7,7 +7,7 @@ date: 2022-11-21
 taxonomies:
   people: [sam_taggart, victoria_obeegadoo]
   tags: [decentralization, why]
-  categories: [foundation]
+  categories: [decentralization, why]
 extra:
   imgPath: twitter_mastodon.png
 ---

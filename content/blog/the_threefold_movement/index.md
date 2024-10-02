@@ -7,7 +7,7 @@ date: 2021-07-20
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, why]
-  categories: [farming, cloud, foundation, aci, twin]
+  categories: [community, decentralization, why]
 extra:
     imgPath: the_threefold_movement.png
 ---

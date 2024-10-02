@@ -7,7 +7,7 @@ date: 2022-04-26
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, farming, grid, why, tech]
-  categories: [foundation]
+  categories: [decentralization, farming, grid, why, tech]
 extra:
     imgPath: internet_energy_consumption.png
 ---

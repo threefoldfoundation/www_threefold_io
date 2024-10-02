@@ -7,7 +7,7 @@ date: 2020-04-08
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, why]
-  categories: [farming,twin,aci,foundation]
+  categories: [decentralization, why]
 extra:
     imgPath: why_we_do.png
 ---

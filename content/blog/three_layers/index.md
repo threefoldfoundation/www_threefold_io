@@ -7,7 +7,7 @@ date: 2024-03-04
 taxonomies:
   people: [emilie_ouwerx]
   tags: [decentralization, grid, cloud, tech]
-  categories: [foundation]
+  categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: img/three_layers.png
     isFeatured: true

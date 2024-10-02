@@ -7,7 +7,7 @@ date: 2020-05-15
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, farming, grid, why, cloud, tech, token]
-  categories: [farming,cloud,foundation]
+  categories: [community, decentralization, farming, grid, why, cloud, tech, token]
 extra:
     imgPath: how_it_works.png
 ---

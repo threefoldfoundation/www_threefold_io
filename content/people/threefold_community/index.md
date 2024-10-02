@@ -5,7 +5,6 @@ description: Together we build!
 taxonomies:
     people: [threefold_community]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: threefold_community.png
     organizations: [threefold_foundation]
@@ -13,7 +12,7 @@ extra:
     cities: []
     private: 0
     socialLinks: {
-        LinkedIn: https://www.linkedin.com/company/threefold-foundation,
+        LinkedIn: https://www.linkedin.com/company/threefold-io,
         github: https://github.com/threefoldfoundation/,
         websites: https://threefold.io,
     }

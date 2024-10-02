@@ -7,7 +7,7 @@ date: 2023-12-06
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, grid, cloud, tech]
-  categories: [foundation]
+  categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: reliability.png
 ---

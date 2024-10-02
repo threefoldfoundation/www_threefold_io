@@ -7,7 +7,7 @@ date: 2023-10-11
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, grid, why, tech]
-  categories: [foundation]
+  categories: [decentralization, grid, why, tech]
 extra:
     imgPath: energy_efficiency_explained.png
 ---

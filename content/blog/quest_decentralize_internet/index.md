@@ -7,7 +7,7 @@ date: 2021-10-14
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, grid, why]
-  categories: [foundation, cloud]
+  categories: [decentralization, grid, why]
 extra:
     imgPath: quest_decentralize_internet.png
 ---

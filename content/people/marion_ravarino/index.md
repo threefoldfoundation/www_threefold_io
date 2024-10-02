@@ -5,7 +5,6 @@ description: Communication Team
 taxonomies:
     people: [marion_ravarino]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: marion_ravarino.jpg
     organizations: [threefold_tech]

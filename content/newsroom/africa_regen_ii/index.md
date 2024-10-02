@@ -1,13 +1,13 @@
 ---
 id: africa_regen_ii
-title: 🌍 Africa Regenerative Futures Summit II
+title: Africa Regenerative Futures Summit II
 image_caption: Africa Regen Summit II
 description: Learn about the second edition in our Africa Regen Futures Summit series and some of the key outcomes.
 date: 2023-11-21
 taxonomies:
   people: [sam_taggart]
   tags: [community, event, collaboration, tech]
-  news-category: [foundation]
+  news-category: [community, event, collaboration, tech]
 extra:
     imgPath: africa_regen_ii.png
 ---

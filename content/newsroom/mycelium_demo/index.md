@@ -1,13 +1,13 @@
 ---
 id: mycelium_demo
-title: 📺 Watch the Mycelium Discussion & Demo
+title: Watch the Mycelium Discussion & Demo
 image_caption: Mycelium demo
 description:  Mik and Scott explored Mycelium this week, an encrypted IPv6 overlay network enabling P2P communication at a planetary scale, created by the ThreeFold team.
 date: 2024-05-22
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: mycelium_demo.png
 ---

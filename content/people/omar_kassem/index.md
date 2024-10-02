@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [omar_kassem]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: omar_kassem.jpg
     organizations: [threefold_tech]

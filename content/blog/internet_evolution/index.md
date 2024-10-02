@@ -7,7 +7,7 @@ date: 2023-04-11
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, why]
-  categories: [foundation]
+  categories: [decentralization, why]
 extra:
   imgPath: internet_evolution.png
 ---
@@ -93,5 +93,5 @@ On our side, at ThreeFold, we see that many of the solutions being presented tod
 - Visit our [Forum](https://forum.threefold.io/).
 - Collaborate on [GitHub](https://github.com/threefoldtech).
 - Subscribe to our [Weekly & Monthly Newsletters](https://bit.ly/threefoldweekly).
-- Connect with us on [Twitter](https://twitter.com/threefold_io), [LinkedIn](https://ae.linkedin.com/company/threefold-foundation), & [Reddit](https://www.reddit.com/r/threefold/).
+- Connect with us on [Twitter](https://twitter.com/threefold_io), [LinkedIn](https://linkedin.com/company/threefold-io), & [Reddit](https://www.reddit.com/r/threefold/).
 - Join our [Community Chat](https://t.me/threefold) and [Updates Channel](https://t.me/threefoldnews).

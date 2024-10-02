@@ -6,8 +6,8 @@ description: Explore the internet's evolution from a decentralized network to a 
 date: 2024-08-16
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,community]
-  categories: [farming,cloud,foundation]
+  tags: [tech,community]
+  categories: [tech,community]
 extra:
     imgPath: evloution_of_the_internet.png
     isFeatured: true

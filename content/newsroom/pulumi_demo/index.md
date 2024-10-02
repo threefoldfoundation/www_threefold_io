@@ -1,13 +1,13 @@
 ---
 id: pulumi_demo
-title: 🍿Watch the Pulumi Demo
+title: Watch the Pulumi Demo
 image_caption: pulumi
 description: Scott introduces Pulumi on the grid, Mik demonstrates deploying a Micro VM, and the session ends with discussion.
 date: 2024-09-12
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech, grid,community]
-  news-category: [foundation]
+  news-category: [tech, grid,community]
 extra:
     imgPath: pulumi_demo.png
 ---

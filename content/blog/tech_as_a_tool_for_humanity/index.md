@@ -7,7 +7,7 @@ date: 2022-10-28
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, why]
-  categories: [foundation]
+  categories: [decentralization, why]
 extra:
   imgPath: tech_as_a_tool_for_humanity.png
 ---

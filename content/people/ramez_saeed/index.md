@@ -5,7 +5,6 @@ description: Quality & Operations Team Lead
 taxonomies:
     people: [ramez_saeed]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: ramez_saeed.jpg
     organizations: [threefold_tech]

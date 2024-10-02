@@ -7,7 +7,7 @@ date: 2021-07-08
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, grid, why]
-  categories: [farming, cloud, foundation, aci, twin]
+  categories: [community, decentralization, grid, why]
 extra:
     imgPath: tf_grid_peoples_internet.png
 ---

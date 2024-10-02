@@ -1,13 +1,13 @@
 ---
 id: tf_ecosystem_comes_alive
-title: 🌿 How the ThreeFold Ecosystem Comes Alive
+title: How the ThreeFold Ecosystem Comes Alive
 image_caption: tf_ecosystem_comes_alive
 description: Collaborative. Self-organizing. Interconnected. Dynamic. Diverse. Resilient. Sustainable.
 date: 2024-04-15
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: tf_ecosystem_comes_alive.png
 ---

@@ -7,7 +7,7 @@ date: 2022-10-18
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, tech]
-  categories: [foundation]
+  categories: [decentralization, tech]
 extra:
   imgPath: digital_twin.png
 ---
@@ -98,4 +98,4 @@ Hopefully, by now you will have a better understanding of the Digital Twin conce
  
 <br>
  
-If you would like to see what the current iteration of the Digital Twin looks like, [try it out](https://demo.freeflow.life/) yourself with [FreeFlow Twin](https://freeflow.life/) in its current beta version! Connect with ThreeFold on [Twitter](https://twitter.com/threefold_io), [Telegram](https://t.me/threefold), [LinkedIn](https://www.linkedin.com/company/threefold-foundatiooon/), and [Reddit](https://reddit.com/r/threefold) to join our community and stay updated about evolutions of the ThreeFold project and Digital Twin.
+If you would like to see what the current iteration of the Digital Twin looks like, [try it out](https://demo.freeflow.life/) yourself with [FreeFlow Twin](https://freeflow.life/) in its current beta version! Connect with ThreeFold on [Twitter](https://twitter.com/threefold_io), [Telegram](https://t.me/threefold), [LinkedIn](https://www.linkedin.com/company/threefold-io/), and [Reddit](https://reddit.com/r/threefold) to join our community and stay updated about evolutions of the ThreeFold project and Digital Twin.

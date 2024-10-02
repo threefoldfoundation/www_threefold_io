@@ -1,19 +1,19 @@
 ---
 id: argentina_event
-title: 📣 Rethinking Governance and Infrastructure for Network Societies- Aleph Use-cases Week	
+title: Rethinking Governance and Infrastructure for Network Societies
 image_caption: Aleph Event
-description:  Kristof and Florian represented ThreeFold at the Aleph Use-cases Week in Buenos Aires.
+description:  Kristof and Florian will be representing ThreeFold at the Aleph Use-Cases Week in Buenos Aires.
 date: 2024-08-14
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community,event]
-  news-category: [foundation]
+  news-category: [tech,grid,community,event]
 extra:
     imgPath: argentina_event.jpg
 
 ---
 
-We are excited to announce that Florian and Kristof will be representing ThreeFold at the [Aleph Use-cases Week](https://app.sola.day/event/aleph) in Buenos Aires, showcasing how ThreeFold is revolutionizing the DePIN ecosystem with a global grid of energy-efficient nodes. Don't miss out! ! They're set to discuss how ThreeFold is revolutionizing Internet Infrastructure and powering the DEPIN ecosystem.
+We are excited to announce that Florian and Kristof will be representing ThreeFold at the [Aleph Use-Cases Week](https://app.sola.day/event/aleph) in Buenos Aires, showcasing how ThreeFold is revolutionizing the DePIN ecosystem with a global grid of energy-efficient nodes. Don't miss out! ! They're set to discuss how ThreeFold is revolutionizing Internet Infrastructure and powering the DEPIN ecosystem.
 
 <br/>
 

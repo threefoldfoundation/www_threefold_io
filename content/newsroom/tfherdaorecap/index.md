@@ -1,13 +1,13 @@
 ---
 id:  tfherdaorecap
-title: 🇹🇿 Recap- ThreeFold X H.E.R. DAO Developer Meetup
+title: ThreeFold X H.E.R. DAO – Cultivating Digital Sovereignty and Inclusive Innovation in Dar Es Salaam
 image_caption: Dev meetup H.E.R
 description: Here is a recap and on all that happened on our developer meet along side H.E.R DAO in Dar Es Salaam
 date: 2024-02-08
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, event, collaboration, tech]
-  news-category: [technology]
+  news-category: [community, event, collaboration, tech]
 extra:
     imgPath: tfherdaorecap.png
 ---

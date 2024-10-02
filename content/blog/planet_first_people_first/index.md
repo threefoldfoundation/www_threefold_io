@@ -7,7 +7,7 @@ date: 2022-07-05
 taxonomies:
   people: [sam_taggart]
   tags: [community, why]
-  categories: [foundation]
+  categories: [community, why]
 extra:
     imgPath: planet_first_people_first.png
 ---

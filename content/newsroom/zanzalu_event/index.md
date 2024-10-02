@@ -1,13 +1,13 @@
 ---
 id: zanzalu_event
-title: 🎓 ThreeFold @ Zanzalu
+title: ThreeFold @ Zanzalu
 image_caption: Zanzalu Event
 description:  This weekend, the team will join Student Weekend at Zanzalu, showcasing ThreeFold's decentralized cloud and engaging in an ideathon leading to a mid-June hackathon.
 date: 2024-05-23
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,update,threefold_grid,community,news]
-  news-category: [foundation]
+  tags: [tech,grid,community]
+  news-category: [tech,grid,community]
 extra:
     imgPath: zanzalu_event.png
 ---

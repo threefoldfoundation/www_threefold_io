@@ -1,6 +1,6 @@
 ---
 id: grid_status_dashboard
-title: 💡 TF Grid Status Dashboard
+title: TF Grid Status Dashboard
 image_caption: TF Grid Status Dashboard
 description: A new monitoring dashboard is available for farmers and grid users working with various grid services.
 date: 2023-10-16
@@ -8,6 +8,7 @@ taxonomies:
   people: [sam_taggart]
   news-category: [foundation]
   tags: [community, farming, grid, tech]
+  news-category: [community, farming, grid, tech]
 extra:
   imgPath: grid_status_dashboard.png
 ---

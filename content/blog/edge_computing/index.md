@@ -6,8 +6,8 @@ description: Learn what edge computing means and what it offers compared to cent
 date: 2024-04-18
 taxonomies:
   people: [emilie_ouwerx]
-  tags: [threefold_grid, Technology, Peer_to_peer]
-  categories: [foundation]
+  tags: [grid, tech]
+  categories: [grid, tech]
 extra:
     imgPath: edge_computing.png
     isFeatured: true

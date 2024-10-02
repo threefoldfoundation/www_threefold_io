@@ -5,7 +5,6 @@ description: Office Manager, Cairo
 taxonomies:
     people: [evon_yacoub]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: evon_yacoub.jpg
     organizations: [threefold_tech]

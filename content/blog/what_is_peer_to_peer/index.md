@@ -7,7 +7,7 @@ date: 2020-12-15
 taxonomies:
   people: [sacha_obeegadoo]
   tags: [decentralization, grid, why]
-  categories: [farming,cloud,twin,foundation]
+  categories: [decentralization, grid, why]
 extra:
     imgPath: peer_to_peer.png
 ---

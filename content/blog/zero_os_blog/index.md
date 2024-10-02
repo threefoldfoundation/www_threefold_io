@@ -7,7 +7,7 @@ date: 2021-05-18
 taxonomies:
   people: [sacha_obeegadoo]
   tags: [decentralization, grid, cloud, tech]
-  categories: [farming,cloud,foundation,twin]
+  categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: zero_os_blog.png
 

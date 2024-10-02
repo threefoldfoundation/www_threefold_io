@@ -5,7 +5,6 @@ description: Communication & Community
 taxonomies:
     people: [mik_perreault]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: mik_perreault.jpg
     organizations: [threefold_tech]

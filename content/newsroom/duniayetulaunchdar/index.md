@@ -1,13 +1,13 @@
 ---
 id: duniayetulaunchdar
-title: "🇹🇿 Sovereign Internet: A game changer for Tanzania"
+title: "Sovereign Internet: A game changer for Tanzania"
 image_caption: Dunia Yetu launch in Dar
 description: ThreeFold, in collaboration with the ICT Commission of Tanzania and the tech community of Dar Es Salaam, will begin to deploy a sovereign Internet in Tanzania as part of an initiative called Dunia Yetu. 
 date: 2024-01-29
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [community, event, tech, news]
-  news-category: [foundation]
+  news-category: [community, event, tech, news]
 extra:
     imgPath: sovereigndy.png
     isFeatured: true

@@ -7,7 +7,7 @@ date: 2022-09-21
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, grid, cloud, tech]
-  categories: [foundation]
+  categories: [community, decentralization, grid, cloud, tech]
 extra:
     imgPath: build_on_threefolds_open_infrastructure_part_three.png
 ---

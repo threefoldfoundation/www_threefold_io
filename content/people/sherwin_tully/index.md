@@ -5,7 +5,6 @@ description: Support Team Lead
 taxonomies:
     people: [sherwin_tully]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: sherwin_tully.jpg
     organizations: [threefold_tech]

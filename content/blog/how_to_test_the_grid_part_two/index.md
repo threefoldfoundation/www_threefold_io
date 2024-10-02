@@ -6,8 +6,8 @@ description: Go deeper in the exploration of testing the ThreeFold Grid. Learn a
 date: 2024-05-09
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,threefold_grid]
-  categories: [farming,cloud,foundation]
+  tags: [tech,grid]
+  categories: [tech,grid]
 extra:
     imgPath: how_to_test_the_grid_part_two.png
 ---

@@ -7,7 +7,7 @@ date: 2020-08-17
 taxonomies:
   people: [weynand_kuijpers]
   tags: [decentralization, grid, why, cloud, tech]
-  categories: [tech, cloud]
+  categories: [decentralization, grid, why, cloud, tech]
 extra:
     imgPath: zero_people.png
 ---

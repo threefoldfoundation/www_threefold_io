@@ -7,7 +7,7 @@ date: 2021-10-11
 taxonomies:
   people: [sam_taggart]
   tags: [decentralization, farming, grid, collaboration, cloud, tech]
-  categories: [farming,grid,aci,cloud,foundation]
+  categories: [decentralization, farming, grid, collaboration, cloud, tech]
 extra:
     imgPath: decentralize_blockchain.png
 ---

@@ -6,8 +6,8 @@ description: Learn about the testing process on the ThreeFold Grid, covering fou
 date: 2024-05-03
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,threefold_cloud,community]
-  categories: [farming,cloud,foundation]
+  tags: [tech,grid,community]
+  categories: [tech,grid,community]
 extra:
     imgPath: testing_main.png
 ---

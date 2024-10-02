@@ -7,7 +7,7 @@ date: 2022-01-10
 taxonomies:
   people: [sam_taggart]
   tags: [community, decentralization, tech, token]
-  categories: [foundation, cloud, technology]
+  categories: [community, decentralization, tech, token]
 extra:
     imgPath: bridges_connecting_threefold_ecosystem.png
 ---
