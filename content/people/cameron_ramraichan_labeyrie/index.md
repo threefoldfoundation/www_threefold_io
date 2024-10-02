@@ -5,7 +5,6 @@ description: Support Team
 taxonomies:
     people: [cameron_ramraichan_labeyrie]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: cameron_ramraichan_labeyrie.jpg
     organizations: [threefold_tech]

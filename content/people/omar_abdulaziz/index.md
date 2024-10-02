@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [omar_abdulaziz]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: omar_abdulaziz.jpg
     organizations: [threefold_tech]

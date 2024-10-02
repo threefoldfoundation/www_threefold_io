@@ -6,8 +6,8 @@ description: As we enter the next phase of ThreeFold, the project will move into
 date: 2024-04-15
 taxonomies:
   people: [sam_taggart]
-  tags: [community, why, peer_to_peer]
-  categories: [community, why, peer_to_peer]
+  tags: [community, why]
+  categories: [community, why]
 extra:
     imgPath: tf_ecosystem_comes_alive.png
 ---

@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [eslam_nawara]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: eslam_nawara.jpg
     organizations: [threefold_tech]

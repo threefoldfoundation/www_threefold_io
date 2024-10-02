@@ -5,7 +5,6 @@ description: Software Testing Engineer
 taxonomies:
     people: [ahmed_harby]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: ahmed_harby.jpg
     organizations: [threefold_tech]

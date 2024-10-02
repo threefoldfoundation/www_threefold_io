@@ -5,7 +5,6 @@ description: Community Developer
 taxonomies:
     people: [gregory_flipo]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: gregory_flipo.jpg
     organizations: [threefold_tech]

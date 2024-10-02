@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [ahmed_hanafy]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: ahmed_hanafy.jpg
     organizations: [threefold_tech]

@@ -5,7 +5,6 @@ description: CFO, ThreeFold
 taxonomies:
     people: [alexandre_hannelas]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: alexandre_hannelas.jpeg
     organizations: [threefold_foundation]

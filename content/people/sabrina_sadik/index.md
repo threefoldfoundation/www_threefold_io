@@ -5,7 +5,6 @@ description: Operations Lead
 taxonomies:
     people: [sabrina_sadik]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: sabrina_sadik.jpeg
     organizations: [threefold_foundation, threefold_tech]

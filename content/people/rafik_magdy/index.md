@@ -5,7 +5,6 @@ description: Accounting Manager
 taxonomies:
     people: [rafik_magdy]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: rafik_magdy.jpg
     organizations: [threefold_tech]

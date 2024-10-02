@@ -6,8 +6,8 @@ description: Introducing the Internet Capacity Project, the fourth generation of
 date: 2024-06-11
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [technology,community]
-  categories: [technology,community]
+  tags: [tech,community]
+  categories: [tech,community]
 extra:
     imgPath: inca.png
     isFeatured: true

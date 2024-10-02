@@ -5,7 +5,6 @@ description: Co-Founder & CMO
 taxonomies:
     people: [florian_fournier]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: florian_fournier.jpeg
     organizations: [ootopia, threefold_foundation]

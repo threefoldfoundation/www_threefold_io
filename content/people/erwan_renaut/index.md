@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [erwan_renaut]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: erwan_renaut.jpeg
     organizations: [threefold_tech]

@@ -5,7 +5,6 @@ description: Web Developer
 taxonomies:
     people: [ehab_hassan]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: ehab_hassan.jpg
     organizations: [threefold_tech]

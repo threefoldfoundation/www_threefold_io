@@ -5,7 +5,6 @@ description: Together we build!
 taxonomies:
     people: [threefold_community]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: threefold_community.png
     organizations: [threefold_foundation]

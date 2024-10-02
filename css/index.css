@@ -347,8 +347,17 @@ background-color:#5596f5 !important;
   }
 
   .article li{
-    font-size: 1rem;
+    font-size: 1.125rem;
+    font-family: "Lato", sans-serif;
+    line-height: 1.7;
+    color:#333
   }
+
+  .article h3{
+    font-weight: 400;
+   
+  }
+
   .main-title {
     font-family: "Lato", sans-serif;
   }

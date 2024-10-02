@@ -5,7 +5,6 @@ description: Software Testing Engineer
 taxonomies:
     people: [mohamed_amer]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: mohamed_amer.jpg
     organizations: [threefold_tech]

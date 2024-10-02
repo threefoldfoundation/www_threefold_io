@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [timur_gordon]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: timur_gordon.jpg
     organizations: [threefold_foundation]

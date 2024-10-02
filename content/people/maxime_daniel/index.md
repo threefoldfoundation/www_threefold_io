@@ -5,7 +5,6 @@ description: Development Team
 taxonomies:
     people: [maxime_daniel]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: maxime_daniel.png
     organizations: [threefold_tech]

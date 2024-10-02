@@ -5,7 +5,6 @@ description: Software Engineer
 taxonomies:
     people: [mario_bassem]
     memberships: [team]
-    categories: [foundation]
 extra:
     imgPath: mario.jpg
     organizations: [threefold_tech]
