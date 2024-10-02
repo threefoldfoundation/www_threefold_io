@@ -1,6 +1,6 @@
 ---
 id: social_network_mega_space
-title: 🎙️ X (Twitter) Space with Social Network
+title: X (Twitter) Space with Social Network
 image_caption: social_network_mega_space
 description: Join the Social Network Mega Space featuring Kristof (co-founder) and Florian (biz dev).
 date: 2024-03-25

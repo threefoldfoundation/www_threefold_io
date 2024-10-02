@@ -1,6 +1,6 @@
 ---
 id: events_calendar
-title: 🗓 ThreeFold Events Calendar
+title: ThreeFold Events Calendar
 image_caption: Events Calendar
 description:   A public ThreeFold Events calendar to keep you updated on new calls, meetups, and events.
 date: 2024-05-13

@@ -1,6 +1,6 @@
 ---
 id: network_state_conference
-title: "🌐 ThreeFold @ The Network State Conference"
+title: "ThreeFold @ The Network State Conference"
 image_caption: Updating community call approach
 description: Florian was on stage at the Network State Conference in Singapore, to share a powerful solution for any network state.
 date: 2024-09-25

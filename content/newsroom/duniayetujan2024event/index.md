@@ -1,6 +1,6 @@
 ---
 id: duniayetujan2024event
-title: 🇹🇿 Upcoming Event in Dar Es Salaam
+title: Upcoming Event in Dar Es Salaam
 image_caption: Dunia Yetu
 description: This event will unite tech and innovation communities in Dar Es Salaam with representatives from Tanzania's ICT Commission and other agencies.
 date: 2024-01-16
@@ -24,4 +24,4 @@ Speaking along with ThreeFold co-founder Kristof De Spiegeleer will be Dr. Nkund
 
 <br/>
 
-More info and RSVP [here] (https://lu.ma/ypo3efg4). *Please note we will try for a virtual attendance option but this is not confirmed.*
+More info and RSVP [here](https://lu.ma/ypo3efg4). *Please note we will try for a virtual attendance option but this is not confirmed.*

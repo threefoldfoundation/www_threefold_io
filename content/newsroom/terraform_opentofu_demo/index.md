@@ -1,6 +1,6 @@
 ---
 id: terraform_opentofu_demo
-title: "📺 Watch the Terraform | OpenTofu Demo"
+title: "Watch the Terraform | OpenTofu Demo"
 image_caption: OpenTofu Demo
 description: Scott demonstrates setting up infrastructure on the ThreeFold Grid using Terraform and OpenTofu, suitable for all skill levels.
 date: 2024-09-27    

@@ -1,6 +1,6 @@
 ---
 id: ict_tanzania_2023
-title: 🇹🇿 ThreeFold @ Tanzania ICT Conference
+title: ThreeFold @ Tanzania ICT Conference
 image_caption: ThreeFold at Tanzania ICT 
 description: Some of the team recently attended the Tanzania Annual ICT Conference, where TF co-founder Kristof De Spiegeleer participated in two separate panels.
 date: 2023-10-23

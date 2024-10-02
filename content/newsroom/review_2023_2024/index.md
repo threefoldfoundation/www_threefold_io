@@ -1,6 +1,6 @@
 ---
 id: review_2023_2024
-title: ⏪ Looking Back at 2023 ⏩ Looking Ahead to 2024
+title: Looking Back at 2023, Looking Ahead to 2024
 image_caption: The Future of TFT
 description: Proud of our achievements and motivated for the future, 2023 was challenging but productive. Take a look at the year's highlights.
 date: 2023-12-29

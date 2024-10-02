@@ -1,6 +1,6 @@
 ---
 id: zanzalu_student_weekend
-title: 🇹🇿 On the Ground Activities in Tanzania
+title: On the Ground Activities in Tanzania
 image_caption: Zanzalu student weekend
 description: Featuring Zanzalu Student Weekend, the 8th GenAI Meetup in Dar Es Salaam, and the upcoming Transformative Impact Summit.
 date: 2024-05-28

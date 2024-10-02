@@ -1,6 +1,6 @@
 ---
 id: 314_upgrade
-title: ✅ TF Grid Mainnet Upgraded to V3.14
+title: TF Grid Mainnet Upgraded to V3.14
 image_caption: 314_upgrade
 description: TF Grid 3.14 is now on Mainnet. To know more click here. 
 date: 2024-07-16

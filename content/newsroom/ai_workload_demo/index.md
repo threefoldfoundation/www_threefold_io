@@ -1,6 +1,6 @@
 ---
 id: ai_workload_demo
-title: 🍿 Watch the AI & ML Workloads Demo 
+title: Watch the AI & ML Workloads Demo 
 image_caption: AI workload
 description: Scott and Mik hosted an engaging session on AI, ML, and large language models, highlighting decentralized server benefits and showcasing Llama. Dive-in to know more.
 date: 2024-06-20

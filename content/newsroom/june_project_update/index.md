@@ -1,6 +1,6 @@
 ---
 id: june_project_call
-title: ☕️ Watch June's Project Update
+title: Watch June's Project Update
 image_caption: June Project call
 description: This month's update covered highlights of Grid v3.14, a preview of v3.15, Internet Capacity updates, demos, and more.
 date: 2024-07-05

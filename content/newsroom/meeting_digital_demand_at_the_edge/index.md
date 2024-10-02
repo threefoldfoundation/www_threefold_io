@@ -1,6 +1,6 @@
 ---
 id: meeting_digital_demand_at_the_edge
-title: 💡 Meeting Digital Demand at the Edge
+title: Meeting Digital Demand at the Edge
 image_caption: meeting_digital_demand_at_the_edge
 description:  Learn about the challenges centralized cloud infrastructures will have with growing digital demand and how edge computing platforms like ThreeFold bring a solution.
 date: 2024-04-23

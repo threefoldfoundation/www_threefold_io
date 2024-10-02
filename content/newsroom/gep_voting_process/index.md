@@ -1,6 +1,6 @@
 ---
 id: gep_voting_process
-title: "🗳 Vote: Proposed Update to the GEP Voting Process"
+title: "Vote: Proposed Update to the GEP Voting Process"
 image_caption: GEP Voting Process
 description:  A proposal and community vote to update the GEP voting process, to allow all TFT holders to participate in governance of the project
 date: 2024-09-24

@@ -1,6 +1,6 @@
 ---
 id: zos_and_flist_demo
-title: 👀 Watch the ZOS Hub & Flist Demo
+title: Watch the ZOS Hub & Flist Demo
 image_caption: ZOS & Flist Demo
 description: Scott and Mik presented the Zero-OS Hub and Flist, demonstrating how flists streamlined software data management by deploying micro VMs on the TF Grid.
 date: 2024-08-22

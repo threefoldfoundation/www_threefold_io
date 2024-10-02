@@ -1,6 +1,6 @@
 ---
 id: sept_5_call
-title: 📺 Watch Yesterday's Project Update
+title: Watch Yesterday's Project Update
 image_caption: mainnet_upgrade_314
 description: This month's update covered recent progress, OurVerse demos, TF Grid version 3.15, and much more.
 date: 2024-09-06

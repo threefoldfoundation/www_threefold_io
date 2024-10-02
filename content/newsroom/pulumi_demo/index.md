@@ -1,6 +1,6 @@
 ---
 id: pulumi_demo
-title: 🍿Watch the Pulumi Demo
+title: Watch the Pulumi Demo
 image_caption: pulumi
 description: Scott introduces Pulumi on the grid, Mik demonstrates deploying a Micro VM, and the session ends with discussion.
 date: 2024-09-12

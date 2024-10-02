@@ -1,6 +1,6 @@
 ---
 id: introducingtfrobot
-title: 🤖 Introducing TFRobot
+title: Introducing TFRobot
 image_caption: Introducing TFRobot
 description: A new and exciting ThreeFold tool has recently been launched!
 date: 2024-02-26

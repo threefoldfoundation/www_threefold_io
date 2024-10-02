@@ -1,6 +1,6 @@
 ---
 id: cloud_service_provider
-title: 💡 Be a Cloud Provider, Not Just a Consumer 
+title: Be a Cloud Provider, Not Just a Consumer 
 image_caption: cloud_service_provider
 description: With ThreeFold, anyone can be a cloud provider. Set up a 3Node, share local capacity, and earn rewards. Learn more in our latest blog.
 date: 2024-04-12

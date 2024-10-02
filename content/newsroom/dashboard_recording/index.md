@@ -1,6 +1,6 @@
 ---
 id: dashboard_recording
-title: 👀 ThreeFold Dashboard Demo Recording is Live
+title: ThreeFold Dashboard Demo Recording is Live
 image_caption: dashboard_recording
 description: How, why, and for what do I use the TF Dashboard? Click here for a  demo by Scott & Mik.
 date: 2024-04-25

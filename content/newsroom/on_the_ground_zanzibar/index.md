@@ -1,6 +1,6 @@
 ---
 id: on_the_ground_zanzibar
-title: 🇹🇿 On the Ground in Zanzibar  
+title: On the Ground in Zanzibar  
 image_caption: Zanzalu 2024
 description: From visiting IIT Madras Zanzibar to discussing sovereign infrastructure at Zanzalu, dive in to learn more.
 date: 2024-06-07

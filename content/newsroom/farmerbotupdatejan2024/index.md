@@ -1,6 +1,6 @@
 ---
 id: farmerbotupdatejan2024
-title: 📚Update on the New Farmerbot
+title: Update on the New Farmerbot
 image_caption: Famerbot 2024
 description: The new version of Farmerbot is here with notable improvements, click here to know more. 
 date: 2024-01-26

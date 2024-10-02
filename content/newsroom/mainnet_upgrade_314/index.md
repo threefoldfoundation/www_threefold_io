@@ -1,6 +1,6 @@
 ---
 id: mainnet_upgrade_314
-title: "🗳 Vote: Bring v3.14 to Mainnet"
+title: "Vote: Bring v3.14 to Mainnet"
 image_caption: mainnet_upgrade_314
 description: Calling all farmers to vote on the GEP to bring grid version 3.14 to mainnet!
 date: 2024-06-24

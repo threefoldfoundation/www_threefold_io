@@ -1,6 +1,6 @@
 ---
 id: gateway_domain_demo
-title: 👀️ Watch the Gateway Domain Demo
+title: Watch the Gateway Domain Demo
 image_caption: Gateway domain demo
 description: Discussion and demo on gateways and gateway domains, enabling flexible grid deployments with public Internet access.
 date: 2024-05-09

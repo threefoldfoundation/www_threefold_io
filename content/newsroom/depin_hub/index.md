@@ -1,6 +1,6 @@
 ---
 id: depin_hub
-title: 🌐 ThreeFold Listed on DePIN Hub
+title: ThreeFold Listed on DePIN Hub
 image_caption: Depin Hub listing
 description: We are now listed on DePIN (Decentralized Physical Infrastructure Networks). Let us know what you think. 
 date: 2023-12-15

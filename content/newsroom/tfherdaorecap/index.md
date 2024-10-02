@@ -1,6 +1,6 @@
 ---
 id:  tfherdaorecap
-title: 🇹🇿  ThreeFold X H.E.R. DAO – Cultivating Digital Sovereignty and Inclusive Innovation in Dar Es Salaam
+title: ThreeFold X H.E.R. DAO – Cultivating Digital Sovereignty and Inclusive Innovation in Dar Es Salaam
 image_caption: Dev meetup H.E.R
 description: Here's a recap of everything that happened at our developer meeting with H.E.R DAO in Dar Es Salaam.
 date: 2024-02-08

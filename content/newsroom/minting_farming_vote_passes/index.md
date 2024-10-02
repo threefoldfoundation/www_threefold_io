@@ -1,6 +1,6 @@
 ---
 id: minting_farming_vote_passes
-title: ✅️ Minting & Farming Rewards Vote Passes 
+title: Minting & Farming Rewards Vote Passes 
 image_caption: minting_farming_vote_passes
 description: Minting & Farming Rewards GEP has been passed successfully. 
 date: 2024-04-16
