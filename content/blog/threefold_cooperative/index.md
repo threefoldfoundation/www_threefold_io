@@ -29,7 +29,7 @@ Cooperatives operate under a set of shared principles—voluntary and open membe
 
 ### **The ThreeFold Cooperative**
 
-ThreeFold will establish a 100% owned subsidiary of the Cooperative within a chosen jurisdiction to open the doors to innovative mechanisms. Through this subsidiary, the creation of Farming Pools becomes feasible, providing a controlled environment for token transactions aligned with defined governance protocols unique to each Farming Pool.
+In the future, ThreeFold will establish a 100% owned subsidiary of the Cooperative within a chosen jurisdiction to open the doors to innovative mechanisms. Through this subsidiary, the creation of Farming Pools becomes feasible, providing a controlled environment for token transactions aligned with defined governance protocols unique to each Farming Pool.
 
 <br>
 
@@ -46,7 +46,3 @@ Embracing a cooperative model introduces a well-established framework for decent
 <br>
 
 As we navigate the complex landscape of decentralized technologies, cooperatives stand as a beacon of collaborative and democratic governance, offering a robust foundation for a truly decentralized future.
-
-<br>
-
-*Learn more about [our next phase](/next).*

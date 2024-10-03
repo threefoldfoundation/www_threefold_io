@@ -12,7 +12,7 @@ extra:
     imgPath: farming_pools.png
 ---
 
-With version 4.0 upcoming, and a move towards commercialization, we are embracing several new strategies to ensure more reliability and trust. Farming Pools are an innovative mechanism designed to foster better governance and equitable participation within our network.
+With a long-term focus on version 4.0, and a move towards commercialization, we are embracing several new strategies to ensure more reliability and trust. Farming Pools are an innovative mechanism designed to foster better governance and equitable participation within our network.
 
 <br>
 
@@ -33,7 +33,3 @@ Central to the Farming Pools is a regulated approach. It provides a centralized 
 <br>
 
 Farming Pools, therefore, mark a significant step towards ensuring reliability, fairness, and robust governance within our ecosystem. By uniting Farmers under stringent agreements, empowering them to set prices, and introducing accountability through token staking, we fortify the foundation of a network built upon trust, integrity, and collective responsibility.
-
-<br>
-
-*Learn more about [our next phase](/next).*

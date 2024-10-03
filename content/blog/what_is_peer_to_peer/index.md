@@ -24,7 +24,7 @@ P2P systems are network, not linear or 'pyramidal' hierarchies (though they ma
 
 ## How does ThreeFold relate to peer-to-peer?
 
-ThreeFold's Peer-to-Peer (P2P) computing network is a distributed architecture that splits tasks and workloads between its peers, [ThreeFold Farmers](https://library.threefold.me/info/tfgrid/#/what_is_farming). Farmers are equal participants in the network and together they form a peer-to-peer network of nodes, the ThreeFold Grid.
+ThreeFold's Peer-to-Peer (P2P) computing network is a distributed architecture that splits tasks and workloads between its peers, ThreeFold Farmers. Farmers are equal participants in the network and together they form a peer-to-peer network of nodes, the ThreeFold Grid.
 <br/>
 <br/>
 Farmers make their resources, such as processing power, disk storage or network bandwidth, directly available to other network participants, without the need for central coordination by servers or stable hosts. Farmers are both suppliers and consumers of resources, in contrast to the traditional [client-server](https://en.wikipedia.org/wiki/Client-server) model in which the consumption and supply of resources is divided.
@@ -39,13 +39,14 @@ Everything starts (or should start) from the why, and the ThreeFold story starte
 ## Why does the world needs peer-to-peer? 
 
 By developing the technology, the conviction that peer-to-peer was the best solution for humanity and the planet strengthened itself. Why? Well, put simply, a peer-to-peer system removes all forms of intermediaries, unnecessary steps and complexity from the picture. Therefore, it simplifies the architecture in an incredible way. The benefits are many but here are the most popular benefits:
-<br/>
+
+<br>
 
 - *Privacy*: Our peer-to-peer environment means no middlemen or intermediaries, meaning data travels directly between peers and stored on the nodes of their choice rather than being sent through and stored by a third party.
 - *Security*: Data stored in data centers is susceptible to security breaches. In bypassing data centers and exchanging data directly between peers, we can achieve much greater security as it reduces code and back doors significantly. 
 - *Scalability*: In a many-to-many system, scale is essentially unlimited. There is simply no bottleneck. And hardware (nodes) can be added at ease compared to current data center model.
 - *Cost-efficiency & Sustainability*: End-to-end (direct) connection between peers means a more efficient path for data and less energy is needed. Less energy means less cost, and less harm to our planet.
 
-## In 2021 the world is going peer-to-peer! 
+<br>
 
-We're now in 4 years into the project, and it is clear that ThreeFold holds the most advanced technology and is probably the only tech company in the world that can achieve a peer-to-peer network & digital world as envisioned by the concept authors. The ThreeFold Grid is running and already at it's 2.4 version and 2021 will bring various commercial opportunities for the public to partake in the peer-to-peer network, from hosting IT workloads to experiencing P2P end-user solutions. In other words, in 2021, the world will be able to go peer-to-peer.
+Peer-to-peer systems, like ThreeFold's decentralized network, represent a transformative step towards a more efficient, secure, and equitable digital world. By removing intermediaries and relying on distributed resources, P2P networks offer unmatched privacy, scalability, and sustainability. As the world continues to evolve, embracing peer-to-peer solutions will be essential for building a fairer, more resilient digital infrastructure—one that empowers individuals and communities to thrive without relying on traditional centralized models.

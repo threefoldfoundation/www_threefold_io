@@ -50,7 +50,7 @@ Given stateless systems separate the OS configuration and user data, Zero OS sim
 Conclusively, Zero OS is ultra secure, perfect to develop current and future technologies, and enables anyone to take part in the planet positive and data sovereign Internet brought by ThreeFold.
 <br/>
 <br/>
-Learn more about Zero OS and the grid primitives [here](https://library.threefold.me/info/threefold/#/internet4__tfgrid_primitives).
+Learn more about Zero OS and the grid primitives [here](https://manual.grid.tf/knowledge_base/technology/concepts/zos.html).
 
 
 

@@ -12,7 +12,7 @@ extra:
     imgPath: africa_regen_summit_ii.png
 ---
 
-In 2023, we had the pleasure of hosting two summits in Zanzibar – one in [July](https://www.youtube.com/watch?t=246&si=KYEExcPFHUCU7HKY&v=GIBlmID7g5o&feature=youtu.be) and another in [November](https://www.threefold.io/newsroom/africa-regen-ii/), named the Africa Regenerative Future Summit. These events brought together leading innovators and investors committed to advancing human flourishing, with a specific emphasis on science and technology shaping the trajectory of Africa's future.
+In 2023, we had the pleasure of hosting two summits in Zanzibar – one in July and another in [November](https://www.threefold.io/newsroom/africa-regen-ii/), named the Africa Regenerative Future Summit. These events brought together leading innovators and investors committed to advancing human flourishing, with a specific emphasis on science and technology shaping the trajectory of Africa's future.
 
 <br>
 
@@ -29,6 +29,7 @@ Looking ahead to 2024, our vision includes a continued series of gatherings focu
 <br>
 
 More information: 
+
 <br>
 
 - **Summit I:** Read [Zanzibar Seeks to Become a Digital FreeZone](https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-seeks-to-become-digital-freezone--4316150) (via The Citizen) and [Mwinyi Commits to Improvement of Digital Spaces](https://dailynews.co.tz/mwinyi-commits-to-improvement-of-digital-spaces/) (via Daily News Tanzania) for further details.
