@@ -15,28 +15,31 @@ extra:
 
 ## Edge Cloud, not Grid Cloud?
 
-The term Edge Cloud or, to be more precise, Edge Computing is one of the most exciting technology terms of these days. 
+The term Edge Cloud or, to be more precise, Edge Computing is one of the most exciting technology terms of these days.
+
+<br>
 
 <iframe width="750" height="421" src="https://www.youtube.com/embed/7uA9aoIfMZo" frameborder="0" allow="aautoplay; encrypted-media;" allowfullscreen></iframe>
 
 ## Edge Computing Definition
 
 According to Wikipedia, "**Edge computing** is a distributed computing paradigm in which computation is largely or entirely performed on distributed device nodes known as smart devices or edge devices as opposed to primarily taking place in a centralized cloud environment. 
-<br/>
-<br/>
+
+<br>
+
 In summary, this means that the cloud is divided into smaller pieces and distributed to the edge of the network. 
 
 ## Drivers for Edge Computing
 
 Some latency-sensitive applications require fast response times to work correctly. A good example is self-driving cars. A lot of decisions in autonomous vehicles have to be made instantaneously; the decision to react to the unexpected while driving at high speed cannot afford to be slowed down by data traveling long distances to be processed. To improve the system's reliability, additional hops, and any further points of failure must be eliminated. Moving to compute as far out as possible to the Edge is the logical choice.
-<br/>
-<br/>
+
+<br>
+
 More generically, real-world situations are increasingly relying on an IT component to be involved in some form of decision making where time is of the essence.  The current IT setup is that we have highly concentrated IT setups in data centers connected by fast networks to the rest of the world. This setup is rapidly becoming obsolete as we need to have the fastest possible response for everyday activities, which cannot sustain the time delay caused by (extended) network connections.  Having actual data processing and storage facilities close to these real-world situations is the next IT capacity evolution.
-<br/>
-<br/>
+
+<br>
+
 These thousands of situations are mostly in the IoT area. Still, other killer applications like streaming would greatly benefit from being served from the Edge rather than a distant central location.
-<br/>
-<br/>
 
 ## Edge Computing Market Facts
 

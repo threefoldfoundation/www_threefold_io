@@ -5,13 +5,17 @@ image_caption: The Building Blocks of the Internet
 description: Learn about the layers of the Internet to understand how digital information is processed, stored, and accessed.
 date: 2024-03-04
 taxonomies:
-  people: [emilie_ouwerx]
+  people: [sam_taggart]
   tags: [decentralization, grid, cloud, tech]
   categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: img/three_layers.png
     isFeatured: true
 ---
+
+*This article was originally published by Emilie Ouwerx, a former member of the ThreeFold team.*
+
+<br>
 
 Just as the Earth is made up of layers—from the crust to the core — so too is the Internet, with three key layers: compute & storage, network, and applications. Distinguishing these layers helps us to understand how digital information is currently processed, stored, and accessed across the globe and how ThreeFold technology can transform this model. ThreeFold can be likened to tectonic forces, reshaping the digital landscape by introducing improved ways for these layers to interact. Let’s break down these three layers, their current challenges, and ThreeFold’s approach to each of them.  
 

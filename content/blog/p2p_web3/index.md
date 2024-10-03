@@ -49,13 +49,3 @@ With the rise of emerging technologies, a new technological foundation is needed
 <br/>
 
 By applying blockchain and peer-to-peer technology to the cloud, ThreeFold solves the security and autonomy issues of the Internet and realizes the initial promise of the Internet as an open-source, peer-to-peer, planetary mesh network of nodes owned by the people.
-
-<br/>
-
-Support the realization of a peer-to-peer Internet owned by the people today:
-
-<br/>
-
-- [Get TFT](https://manual.grid.tf/threefold_token/buy_sell_tft/buy_sell_tft.html), the currency of the peer-to-peer Internet.
-- [Connect a computer](https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__farming_intro) to the peer-to-peer Internet and earn monthly rewards.
-- [Build applications](https://library.threefold.me/info/manual/#//manual__manual3_home_new) on the peer-to-peer Internet.

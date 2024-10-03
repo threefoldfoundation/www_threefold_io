@@ -2,7 +2,7 @@
 id: tech_as_a_tool_for_humanity
 title: "Technology as a Tool for Humanity"
 image_caption: "Technology as a Tool for Humanity"
-description: While technology has had an important role in the creation of today’s societies, it might have an even greater role for our future. Two opposite pictures could be painted - a utopia or a dystopia. Technology should not be a tool to extort humanity, but one at the service of humanity.
+description: While technology has had an important role in the creation of today’s societies, it might have an even greater role for our future. Two opposite pictures could be painted - a utopia or a dystopia.
 date: 2022-10-28
 taxonomies:
   people: [sam_taggart]
@@ -12,7 +12,7 @@ extra:
   imgPath: tech_as_a_tool_for_humanity.png
 ---
 
-*"This article was originally published by Victoria Obeegadoo, a former member of ThreeFold Foundation."*
+*This article was originally published by Victoria Obeegadoo, a former member of the ThreeFold team.*
 
 
 ## Technology as a tool for humanity

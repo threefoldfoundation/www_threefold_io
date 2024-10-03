@@ -5,12 +5,16 @@ image_caption: Solar and ThreeFold
 description: Read how the decentralization of the energy and internet industries are empowering individuals and communities.
 date: 2024-03-01
 taxonomies:
-  people: [emilie_ouwerx]
+  people: [sam_taggart]
   tags: [community, decentralization, farming, grid, cloud]
   categories: [community, decentralization, farming, grid, cloud]
 extra:
     imgPath: solar_comparison.png
 ---
+
+*This article was originally published by Emilie Ouwerx, a former member of the ThreeFold team.*\
+
+<br>
 
 In recent years, we've witnessed a transformation in how energy is generated and distributed, marking a shift towards a more sustainable and democratic system. This change has been most notable in the transition from centralized energy production, particularly nuclear power, to decentralized solar energy. The latter empowers individuals and communities to produce their energy locally, an alternative to the traditional approach to power generation.
 

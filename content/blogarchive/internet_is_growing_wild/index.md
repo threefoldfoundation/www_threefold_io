@@ -12,7 +12,7 @@ extra:
     imgPath: internet_is_growing_wild.png
 ---
 
-*"This article was originally published by Andreas Hartl, a former member of ThreeFold Foundation."*
+*This article was originally published by Andreas Hartl, a former member of the ThreeFold team.*
 
 <br>
 
