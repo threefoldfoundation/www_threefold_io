@@ -2,7 +2,7 @@
 id: holochain
 title: Holochain
 description: Holochain is a P2P alternative to the blockchain, giving developers a framework for creating decentralized applications
-template: partnerPage.html
+template:
 taxonomies:
   partners-category: [foundation]
   tags: []
