@@ -22,12 +22,7 @@ extra:
 
 ## **Enabling<span class="blue"><br>Digital Sovereignty</span>**
 
-The Internet began as a free and open network for all.
-<br>Now it's centralized, controlled by big tech, and only available to about half of the planet.
-<br>
-<br>The Internet needs a new "plumbing layer": free, private, and secure. <br><br>
-
-**ThreeFold has developed a decentralized, self-healing, secure system which has the potential to make the Internet available to everyone on this planet.**
+ThreeFold is a scalable, decentralized, bare metal infrastructure layer designed to support any digital workload with greater security, reliability, performance, privacy – and in full sovereignty.
 
 <br>
 
@@ -57,61 +52,6 @@ The Internet began as a free and open network for all.
 
 {% end %}
 
-
-<!-- section 6 (COLLABORATION) -->
-
-
-<div style="background-color:">
-<div class="container mx-auto">
-
-
-
-
-{% row( style="center margin narrow") %}
-
-
-#### <span class="green_text">COLLABORATION, INNOVATION, EVOLUTION</span>
-
-
-## **A <span class="blue">Decentralized</span> Future for Us All**
-
-
-<br>
-
-
-The sum of our collective digital lives requires **a physical infrastructure** to house and connect us all. Today that infrastructure **has been centralized** in the hands of a few powerful entities, leading to **issues around control, privacy, security, accessibility, and impact on the planet**. This often dictates how we interact, store our data, and access information, creating single points of failure and potential misuse.
-
-
-<br/>
-
-
-**But there is a better way forward.**
-
-
-<br/>
-
-
-ThreeFold believes in **open-source collaboration** to **empower human potential**.
-
-
-Together, we create, host, and **co-own** the foundational layer of an **upgraded Internet**.
-
-
-<br>
-
-
-**Our story is a collective story. Let’s write it together.**
-
-
-<br>
-
-
-<button class="green">[Learn More](/about)</button>
-
-
-{% end %}
-
-
 <!-- section 3 (Map) -->
 <div class="container mx-auto">
 
@@ -122,11 +62,10 @@ Together, we create, host, and **co-own** the foundational layer of an **upgrade
 #### <span class="blue">LIVE AND OPERATIONAL</span>
 
 
-## **The ThreeFold Grid**
+## **Proven by a global community**
 
 
-ThreeFold enables a true alternative to power-hungry, centralized data centers. The ThreeFold Grid<br/>is a global network of Cloud capacity connected and owned by people, not big tech.
-
+With ThreeFold, individuals, organizations, communities, countries, and network states deploy their own<br>sovereign infrastructure. The ThreeFold Grid has been live and operational since 2017.
 
 **Version 3.14 is live on Mainnet**
 
@@ -144,33 +83,37 @@ ThreeFold enables a true alternative to power-hungry, centralized data centers. 
 <div style="background-color:#F6F6F6">
 <div class="container mx-auto">
 
+{% row( style="mtop center between ") %}
 
-{% row(style="reverse margin") %}
+#### <span class="blue">THREEFOLD DIFFERENCE</span>
 
+## **A ground-up approach**
 
-#### <span class="blue">HOST THE CLOUD</span>
-
-
-## **It starts with Nodes**
-
-
-
-
-3Nodes are specialized computers running Zero OS, an operating system invented by the ThreeFold team, enabling anyone to provide decentralized compute, storage, and network capacity to the ThreeFold Grid – and earn for it.
-
+ThreeFold is not a protocol. We've developed foundational technology that runs directly on bare metal (the hardware). ThreeFold is likely the only active project with a truly scalable solution addressing the Internet and Cloud's core bottlenecks: data, cloud, and network.
 
 <br>
 
+<button class="blue_b">[Learn More](/technology)</button>
 
-<button class="blue_b">[Get A Node](/getnode)</button>
-<button class="green">[Build A Node](https://manual.grid.tf/documentation/farmers/3node_building/3_set_hardware.html?highlight=diy%20node#introduction)</button>
+{% end %}
 
-
-|||
-
+{% row(style="reverse margin") %}
 
 ![Image](home_nodes.png#mx-auto)
 
+|||
+
+### **Unbreakable Data**
+
+Data cannot be compromised and always remains private, owned by you. A scalable system, to the planetary level. Can be distributed and stored in ways which are at least 10x more efficient and orders of magnitude more secure and reliable.
+
+### **Autonomous Cloud**
+
+Self-healing and self-driving cloud based on an efficient and secure operating system runs directly on the hardware. Can run any Web 2, Web 3, or AI workload at the edge of the Internet, with more scalability and reliability.
+
+### **P2P Network**
+
+End-to-end encrypted overlay network, always looking for the shortest possible path between participants. Logical Internet address securely linked to a private key. Unlimited scale and performance optimizations.
 
 {% end %}
 
@@ -178,12 +121,73 @@ ThreeFold enables a true alternative to power-hungry, centralized data centers. 
 </div>
 </div>
 
-
-<!-- section 5 (INCA) -->
+<!-- section 9 (Ecosystem) -->
 
 
 <div class="container mx-auto">
 
+
+{% row( style="center mtop semiNarrow") %}
+
+
+<h4 class="green_text">REAL-WORLD IMPACT</h4>
+
+
+## **Collaboration, Innovation, Evolution**
+
+ThreeFold’s technological infrastructure will empower many projects and initiatives across sectors. Here are two key projects.
+
+{% end %}
+
+
+{% row( style="semiNarrow mbottom") %}
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+[![Image](freezone_anouncement.png)](/newsroom/freezone-anouncement/)
+
+<div class="p-6 lg:p-3 mycard">
+
+#### **OurWorld Free Zone**
+
+<br>
+
+ThreeFold is working with the Zanzibar Communication Corporation (ZICTIA), on behalf of the Zanzibar government, to create the world’s first 100% Digital Free Zone – accessible and affordable for all. The announcement was made August 2023, and progress has been ongoing behind the scenes since then. Updates expected Q4 2024.
+      
+</div>
+</div>
+
+|||
+
+
+<div class="rounded_img border-2 rounded-lg shadow-lg">
+
+
+[![Image](sovereigndy.png)](/newsroom/duniayetulaunchdar/)
+
+
+
+
+<div class="p-6 lg:p-3 mycard">
+
+
+#### **Tanzanian Sovereign Internet**
+
+<br>
+
+In January 2024, ThreeFold announced in collaboration with The ICT Commission of Tanzania and Holochain a collaboration to deploy sovereign Internet in Tanzania, along with the introduction of coding academies and innovation hubs. The Dunia Yetu cooperative is being set up and efforts will ramp up in 2025.
+
+</div>
+</div>
+
+{% end %}
+
+</div>
+
+<!-- section 5 (INCA) -->
+
+<div style="background-color:#F6F6F6">
+<div class="container mx-auto">
 
 {% row(style="margin") %}
 
@@ -194,285 +198,25 @@ ThreeFold enables a true alternative to power-hungry, centralized data centers. 
 |||
 
 
-#### <span class="green_text">THREEFOLD GOES COMMERCIAL
+#### <span class="green_text">THE NEXT CHAPTER</span>
 
+## **Ready for commercialization**
 
-<h3 class="font-semibold"><span class="blue">Meet Project IN</span>ternet <span class="blue">CA</span>pacity</h3>
-
-
-For years, ThreeFold has been quietly and steadily developing its revolutionary technology on mainnet, with a solid foundation of mature infrastructure that is now ready to take the next leap forward.
-
+For years, ThreeFold has been quietly and steadily developing its innovative technology, with a solid foundation of mature infrastructure that is now ready to take the next leap forward.
 
 <br>
 
-
-We are now entering a new phase of the ThreeFold Grid with the Grid 4.0 and Project Internet Capacity. As we transition into this next phase, we're enabling commercial entities to seamlessly build on the grid. Stay tuned as we continue to build towards the commercialization of the grid.
-
-
-{% end %}
-
-
-</div>
-
-
-<!-- section 8 (Decentralized Cloud) -->
-
-
-<div style="background-color:#F6F6F6">
-<div class="container mx-auto">
-
-
-{% row( style="mtop center between ") %}
-
-
-#### <span class="blue">BETTER FOR PEOPLE, BETTER FOR OUR PLANET</span>
-
-
-## **What We Resolve**
-
-
-{% end %}
-
+We are currently fundraising for the next stage of our project – major commercial expansion. This will involved the launch of the $INCA token on the Solana blockchain. If you are interested in learning more or taking part, please reach out.
 
 <br>
 
-
-{% row( style="center semiNarrow") %}
-
-
-![Image](icon_privacy.png#tft_img#mx-auto)
-
-
-<br>
-
-
-#### **Privacy**
-
-
-Users maintain control over their data and minimize the risk of data breaches by processing information closer to its source.
-
-
-|||
-
-
-![Image](icon_sovereignty.png#tft_img#mx-auto)
-
-
-<br>
-
-
-#### **Sovereignty**
-
-
-Enables nations and individuals to control their Internet capacity, promoting digital independence through an autonomous cloud network.
-
-
-|||
-
-
-![Image](icon_performance.png#tft_img#mx-auto)
-
-
-<br>
-
-
-#### **Performance**
-
-
-By processing data closer to users, it reduces latency and improves real-time responsiveness.
-
-
-
-
-{% end %}
-
-
-{% row( style="mbottom center semiNarrow") %}
-
-
-![Image](icon_cost.png#tft_img#mx-auto)
-
-
-<br>
-
-
-#### **Cost Efficiency**
-
-
-Reduces costs by minimizing data transmission over centralized networks.
-
-
-
-
-|||
-
-
-![Image](icon_scalability.png#tft_img#mx-auto)
-
-
-<br>
-
-
-#### **Scalability**
-
-
-As devices multiply, central data centers face data overload. Edge cloud distributes processing and boosts scalability.
-
-
-|||
-
-
-![Image](icon_green.png#tft_img#mx-auto)
-
-
-<br>
-
-
-#### **Green**
-
-
-Uses local resources to cut the carbon footprint and promotes eco-friendly practices with decentralized hosting.
-
+<button class="blue_b">[Get in Touch](https://calendly.com/florian_threefold/30min)</button>
 
 {% end %}
 
 
 </div>
 </div>
-
-
-
-
-
-
-<!-- section 9 (Ecosystem) -->
-
-
-<div class="container mx-auto">
-
-
-{% row( style="center mtop narrow") %}
-
-
-<h4 class="green_text">ECOSYSTEM</h4>
-
-
-## **Utilization Partners**
-
-
-ThreeFold’s decentralized autonomous cloud will empower many projects and digital experiences as we grow. Here are some of the first projects to come alive.
-
-
-{% end %}
-
-
-{% row( style="semiNarrow") %}
-
-
-<div class="rounded_img border-2 rounded-lg shadow-lg">
-
-
-[![Image](partner_social.png)](/partners/social-network/)
-
-
-
-
-<div class="p-6 lg:p-3 mycard">
-
-
-#### **Social Network**
-
-
-
-
-Earth Staking’s Social Network is the first Bitcoin Staking Layer 2 on Earth, collaborating with ThreeFold to improve security, scalability, and energy-efficiency.
-      
-
-
-</div>
-</div>
-
-
-|||
-
-
-<div class="rounded_img border-2 rounded-lg shadow-lg">
-
-
-[![Image](partner_ourworld.png)](/partners/our-world-free-zone/)
-
-
-
-
-
-
-<div class="p-6 lg:p-3 mycard">
-
-
-#### **Our World Free Zone**
-
-
-
-
-ThreeFold is working with ZICTIA, on behalf of the Zanzibar government, to create the world’s first 100% Digital Free Zone – accessible and affordable for all.
-      
-
-
-</div>
-</div>
-
-
-|||
-
-
-<div class="rounded_img border-2 rounded-lg shadow-lg">
-
-
-[![Image](partner_sikana.png)](/partners/sikana/)
-
-
-<div class="p-6 lg:p-3 mycard">
-
-
-#### **Sikana**
-
-
-
-
-Sikana is on a mission to empower individuals with practical skills through free educational videos – local content in local languages on top of local infrastructure.
-      
-
-
-</div>
-</div>
-
-
-{% end %}
-
-
-<br>
-
-
-{% row( style="center") %}
-
-
-<button class="blue_b">[Learn More](/partners)</button>
-
-
-{% end %}
-
-
-
-
-<br>
-
-
-</div>
-
-
-
-
-
 
 <!-- section 10 (news) -->
 
@@ -483,14 +227,10 @@ Sikana is on a mission to empower individuals with practical skills through free
 {% row( style="mtop semiNarrow") %}
 
 
-## **Top News**
+## **Top Blogs**
 
 
 {% end %}
-
-
-
-
 
 
 {% row( style="mbottom semiNarrow") %}
@@ -499,48 +239,24 @@ Sikana is on a mission to empower individuals with practical skills through free
 <div class="rounded_img">
 
 
-[![Image](sovereigndy.png)](/newsroom/duniayetulaunchdar/)
+[![Image](ground_up.png)](/blog/ground-up-innovations/)
 
 
 <br>
 
-
-
-
-
-
-##### Sovereign Internet: A game changer for Tanzania
-
+##### From the ground up: Three inventions that make ThreeFold possible
 
 </div>
 
-
 |||
 
-
-
-
-
-
-[![Image](freezone_anouncement.png)](/newsroom/freezone-anouncement/)
-
+[![Image](evolution_of_the_internet.png)](/blog/evolution-of-the-internet)
 
 <br>
 
-
-
-
-
-
-##### ThreeFold signs agreement with Zanzibar government for Digital Free Zone
-
+##### The Evolution of the Internet: From free to controlled, and back again
 
 |||
-
-
-
-
-
 
 <div class="pl-12 road_border">
 <h3 class="mt-0 font-semibold">JOIN IN</h3>

@@ -35,53 +35,9 @@ Our unique technology enables a system which can scale to a planetary level, can
 
 </div>
 
-<!-- section 2 -->
-
-<div>
-
-{% row(style="center narrow") %}
-
-## **Re-Imagining Cloud,<br>Network, and Data**
-
-{% end %}
-
-{% row(style="center between mbottom") %}
-
-### **Cloud**
-
-A decentralized cloud capable of running any workload, from Web2 and Web3 to AI and edge computing.
-
-<br>
-
-Built with special attention for security, reliability, and affordability.
-
-|||
-
-### **Network**
-
-Every participant, whether machine or human, communicates via the shortest path with end-to-end encrypted encryption.
-
-<br>
-
-Each has a unique Internet Address tied to a private key for secure interactions.
-
-|||
-
-### **Data**
-
-Data can be stored in a way that ensures it can never be corrupted or lost.
-
-<br>
-
-Data can be delivered authentically and efficiently, via the shortest path, anywhere in the world.
-
-{% end %}
-
-</div>
-
 <!-- section 2  -->
 
-{% row( style="center semiNarrow mtop") %}
+{% row( style="center semiNarrow") %}
 
 #### <span class="green_text">KEY INNOVATIONS</span>
 
@@ -97,7 +53,130 @@ Data can be delivered authentically and efficiently, via the shortest path, anyw
 
 </div>
 
+<!-- section 8 (Decentralized Cloud) -->
 
+
+<div style="background-color:#F6F6F6">
+<div class="container mx-auto">
+
+
+{% row( style="mtop center between ") %}
+
+
+#### <span class="blue">BETTER FOR PEOPLE, BETTER FOR OUR PLANET</span>
+
+
+## **What We Resolve**
+
+
+{% end %}
+
+
+<br>
+
+
+{% row( style="center semiNarrow") %}
+
+
+![Image](icon_privacy.png#tft_img#mx-auto)
+
+
+<br>
+
+
+#### **Privacy**
+
+
+Users maintain control over their data and minimize the risk of data breaches by processing information closer to its source.
+
+
+|||
+
+
+![Image](icon_sovereignty.png#tft_img#mx-auto)
+
+
+<br>
+
+
+#### **Sovereignty**
+
+
+Enables nations and individuals to control their Internet capacity, promoting digital independence through an autonomous cloud network.
+
+
+|||
+
+
+![Image](icon_performance.png#tft_img#mx-auto)
+
+
+<br>
+
+
+#### **Performance**
+
+
+By processing data closer to users, it reduces latency and improves real-time responsiveness.
+
+
+
+
+{% end %}
+
+
+{% row( style="mbottom center semiNarrow") %}
+
+
+![Image](icon_cost.png#tft_img#mx-auto)
+
+
+<br>
+
+
+#### **Cost Efficiency**
+
+
+Reduces costs by minimizing data transmission over centralized networks.
+
+
+
+
+|||
+
+
+![Image](icon_scalability.png#tft_img#mx-auto)
+
+
+<br>
+
+
+#### **Scalability**
+
+
+As devices multiply, central data centers face data overload. Edge cloud distributes processing and boosts scalability.
+
+
+|||
+
+
+![Image](icon_green.png#tft_img#mx-auto)
+
+
+<br>
+
+
+#### **Green**
+
+
+Uses local resources to cut the carbon footprint and promotes eco-friendly practices with decentralized hosting.
+
+
+{% end %}
+
+
+</div>
+</div>
 
 <style>
 
