@@ -5,7 +5,7 @@ image_caption: Edge Computing
 description: Learn what edge computing means and what it offers compared to centralized cloud infrastructures.
 date: 2024-04-18
 taxonomies:
-  people: [emilie_ouwerx]
+  people: [sam_taggart]
   tags: [grid, tech]
   categories: [grid, tech]
 extra:
