@@ -145,8 +145,8 @@ The ThreeFold Grid is in its third generation technology and live in +50 countri
 <br>
 
 
-We are at the start of a journey to millions of nodes and will soon launch the fourth generation the ThreeFold Grid.
-For this, a token called INCA will been created.
+We are at the start of a journey to millions of nodes and will soon launch the fourth generation of the ThreeFold Grid.
+For this, a token called $INCA will been created.
 
 
 
