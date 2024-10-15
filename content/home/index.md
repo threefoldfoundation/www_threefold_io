@@ -209,7 +209,7 @@ For years, ThreeFold has been quietly and steadily developing its innovative tec
 
 <br>
 
-We are currently fundraising for the next stage of our project – major commercial expansion. This will involved the launch of the $INCA token on the Solana blockchain. If you are interested in learning more or taking part, please reach out.
+We are currently fundraising for the next stage of our project – major commercial expansion. This will involve the launch of the $INCA token on the Solana blockchain. If you are interested in learning more or taking part, please reach out.
 
 <br>
 
