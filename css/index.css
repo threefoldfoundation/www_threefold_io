@@ -219,7 +219,7 @@ background-color:#5596f5 !important;
 }
 
 .mycard{
-  height: 240px !important;
+  height: 300px !important;
 }
 
 
@@ -562,8 +562,18 @@ header {
 @media (min-width: 1024px){
   h2 {
     font-size: 3.5rem;
-  }  
+  } 
+  
 }
+
+@media (max-width: 1024px) {
+
+  .mycard{
+    height: auto !important;
+  }
+
+}
+
 @media (max-width: 640px) {
   .banner h2 {
     font: 600 7vw/10vw;
@@ -582,6 +592,10 @@ header {
    -ms-transform:rotate(90deg);
    transform: rotate(90deg);   
    }
+
+   .mycard{
+    height: auto !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -614,6 +628,10 @@ header {
 
   .card_h {
          height: auto !important;
+  }
+
+  .mycard{
+    height: auto !important;
   }
 
   .key_card{

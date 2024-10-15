@@ -181,7 +181,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 {% row( style="") %}
 
 
-<div class="person flex md:flex-row flex-col items-start">
+<div class="person flex md:flex-row flex-col items-start mb-4">
 
 
 <div class="">
@@ -208,7 +208,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 |||
 
 
-<div class="person flex md:flex-row flex-col items-start">
+<div class="person flex md:flex-row flex-col items-start mb-4">
 
 
 <div class="">
@@ -235,7 +235,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 |||
 
 
-<div class="person flex md:flex-row flex-col items-start">
+<div class="person flex md:flex-row flex-col items-start mb-4">
 
 
 <div class="">
@@ -264,7 +264,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 
 {% row( style="mbottom") %}
 
-<div class="person flex md:flex-row flex-col items-start">
+<div class="person flex md:flex-row flex-col items-start mb-4">
 
 
 <div class="">
@@ -290,7 +290,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 
 |||
 
-<div class="person flex md:flex-row flex-col items-start">
+<div class="person flex md:flex-row flex-col items-start mb-4">
 
 
 <div class="">
@@ -316,7 +316,7 @@ We are a dedicated group committed to advancing a new digital era. Some of us ha
 
 |||
 
-<div class="person flex md:flex-row flex-col items-start">
+<div class="person flex md:flex-row flex-col items-start mb-4">
 
 
 <div class="">
