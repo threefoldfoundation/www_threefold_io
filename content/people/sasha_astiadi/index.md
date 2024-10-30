@@ -1,7 +1,7 @@
 ---
 title: Sasha Astiadi
 weight: 2
-description: Websites
+description: Web Operations
 taxonomies:
     people: [sasha_astiadi]
     memberships: [team]

@@ -42,7 +42,7 @@ Parameters:
 
 <!-- Splits body to columns -->
 {% set columns = body | safe | markdown | split(pat="|||") %}
-{% set row_class =  "relative lg:p-4 p-1 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row"%}
+{% set row_class =  "relative lg:p-4 p-1 flex flex-col xl:flex xl:flex-row"%}
 
 <!-- aligns columns depending on col number-->
 {% if 2 < columns | length %}
@@ -51,7 +51,7 @@ Parameters:
     {% set row_class = row_class ~ " lg:items-center" %}
 {% endif %}
 
-{% set col_class = "flex-1 mb-6 md:mb-0 px-2 md:px-4" %}
+{% set col_class = "flex-1 mb-6 md:mb-0 px-2 md:px-4 w-full" %}
 {% set row_id = '' %}
 
 {% if id %}
@@ -74,7 +74,7 @@ Parameters:
 
     {% if "center" in style %}
         {% set row_class = row_class ~ " text-center mx-auto justify-center" %}
-        {% set col_class = col_class ~ " flex-1 m-2 lg:m-0" %}
+        {% set col_class = col_class ~ " m-2 lg:m-0" %}
     {% endif %}
 
     {% if "text-white" in style %}
@@ -84,23 +84,23 @@ Parameters:
     <!-- makes row with margins -->
     {% if "margin" in style %}
         {% set row_class = row_class ~ " lg:py-24 py-10" %}
-        {% set col_class = col_class ~ " flex-1 m-2 lg:m-0" %}
+        {% set col_class = col_class ~ " m-2 lg:m-0" %}
     {% endif %}
 
     <!-- makes row with margins -->
     {% if "header" in style %}
-        {% set row_class = row_class ~ " h-auto md:h-screen mt-4 lg:mt-0" %}
+        {% set row_class = row_class ~ " h-auto xl:h-screen md:h-auto mt-4 lg:mt-0" %}
         {% set col_class = col_class ~ " mt-3" %}
     {% endif %}
 
     {% if "mtop" in style %}
         {% set row_class = row_class ~ " lg:pt-24 pt-2" %}
-        {% set col_class = col_class ~ " flex-1 m-2 lg:m-0" %}
+        {% set col_class = col_class ~ " m-2 lg:m-0" %}
     {% endif %}
 
     {% if "mbottom" in style %}
         {% set row_class = row_class ~ " lg:pb-24" %}
-        {% set col_class = col_class ~ " flex-1 m-2 lg:m-0" %}
+        {% set col_class = col_class ~ " m-2 lg:m-0" %}
     {% endif %}
 
     <!-- makes row full screen width, strips margins -->

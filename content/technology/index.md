@@ -14,6 +14,8 @@ extra:
 
 {% row(style="header reverse") %}
 
+<br>
+
 #### <span class="text-xl subtitle">ENABLING A GLOBAL NETWORK OF INTERCONNECTED NODES</span>
 
 ## **A <span class="blue">Secure & Sovereign</span> Infrastructure Layer for the Internet**
