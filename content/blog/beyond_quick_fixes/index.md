@@ -55,7 +55,7 @@ With quantum computing on the horizon, how we secure our Internet infrastructure
 <br/>
 
 Decentralization can only resolve the imbalance caused by today’s centralized cloud giants. By enabling anyone to host their own infrastructure, ThreeFold’s network levels the playing field and distributes power and opportunity more fairly across the globe. In ThreeFold’s vision, communities, businesses, and individuals can become Internet farmers, contributing to the global network and benefiting from it equally.
-#### Moving Beyond the InterNOT: Building a Better Internet
+#### Moving Beyond Band-Aid Solutions: Building a Better Internet
 The current Internet is broken, and temporary fixes won’t solve the underlying issues. What’s needed is a complete transformation that returns control to the people, reduces environmental impact, and creates a more equitable, accessible digital economy. We must move beyond the the quick fixes and embrace an Internet that is decentralized, sustainable, and secure for all.
 
 <br/>
