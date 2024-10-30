@@ -17,8 +17,10 @@ The Internet is a crucial part of our daily lives, yet it faces many challenges.
 <br/>
 
 To secure an Internet that is equitable, sustainable, and resilient for all, we need a complete transformation – one that decentralizes control, reduces environmental impact, and empowers people and communities to take ownership of the digital world.
-### A System Held Together by Temporary Fixes
+
+#### A System Held Together by Temporary Fixes
 The current Internet relies on "quick fixes" that offer temporary relief but fail to address deeper systemic problems. Security tools like firewalls and antivirus software only guard against known threats and require constant updates. Content delivery networks and bandwidth boosts improve performance but don't fix the limitations of the core infrastructure. Even regulations like GDPR protect privacy, but they don’t fundamentally change how data is managed or secured. Meanwhile, advances like 5G and fiber optics speed up connectivity but don’t solve the root issue of centralization.
+
 #### Centralization at the Root of Many Issues
 Centralization is at the heart of many persistent issues, such as rising cybersecurity threats. Concentrating data in a few locations increases vulnerabilities, leading to more frequent data breaches and malicious attacks. Big tech companies keep building energy-hungry data centers to meet growing demand, but these are unsustainable and expensive to build.
 
@@ -29,6 +31,7 @@ While energy-efficient hardware is coming to market, it does little to solve the
 <br/>
 
 At the same time, new technologies like the Internet of Things (IoT) and augmented and virtual reality (AR/VR) demand fast data processing at the edge. Still, centralized cloud platforms are too slow and inefficient to meet their needs.
+
 #### A Long-Term Cure: ThreeFold’s Solution
 To truly fix a system as broken as the current Internet, we need more than temporary solutions – we need a complete transformation that attacks the problem at the root.
 
