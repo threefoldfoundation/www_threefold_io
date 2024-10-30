@@ -152,7 +152,8 @@ ThreeFold’s technological infrastructure will empower many projects and initia
 
 <br>
 
-ThreeFold is working with the Zanzibar Communication Corporation (ZICTIA), on behalf of the Zanzibar government, to create the world’s first 100% Digital Free Zone – accessible and affordable for all. The announcement was made August 2023, and progress has been ongoing behind the scenes since then. Updates expected Q4 2024.
+<span class="text-md truncate ..." >ThreeFold is working with the Zanzibar Communication Corporation (ZICTIA), on behalf of the Zanzibar government, to create the world’s first 100% Digital Free Zone – accessible and affordable for all. The announcement was made August 2023, and progress has been ongoing behind the scenes since then. Updates expected Q4 2024.
+</span>
       
 </div>
 </div>
@@ -174,8 +175,10 @@ ThreeFold is working with the Zanzibar Communication Corporation (ZICTIA), on be
 #### **Tanzanian Sovereign Internet**
 
 <br>
-
+<span class="text-md truncate ..." >
 In January 2024, ThreeFold announced in collaboration with The ICT Commission of Tanzania and Holochain a collaboration to deploy sovereign Internet in Tanzania, along with the introduction of coding academies and innovation hubs. The Dunia Yetu cooperative is being set up and efforts will ramp up in 2025.
+
+</span>
 
 </div>
 </div>
@@ -206,7 +209,7 @@ For years, ThreeFold has been quietly and steadily developing its innovative tec
 
 <br>
 
-We are currently fundraising for the next stage of our project – major commercial expansion. This will involved the launch of the $INCA token on the Solana blockchain. If you are interested in learning more or taking part, please reach out.
+We are currently fundraising for the next stage of our project – major commercial expansion. This will involve the launch of the $INCA token on the Solana blockchain. If you are interested in learning more or taking part, please reach out.
 
 <br>
 
