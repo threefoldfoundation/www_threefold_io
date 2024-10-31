@@ -112,7 +112,7 @@ You can become a <span class="blue">cloud service provider</span> and bring loca
 
 {% row( style="centerItem center narrow mbottom") %}
 
-[![Image](get_a_node.png#mx-auto)](https://marketplace.3node.global/)
+[![Image](get_a_node.png#mx-auto)](/getnode)
 
 <br>
 
@@ -124,7 +124,7 @@ The best way to buy a node is from independent vendors serving various regions. 
 
 <br>
 
-<span class="blue pt-4"> [Learn More](https://marketplace.3node.global/)</span>
+<span class="blue pt-4"> [Learn More](/getnode)</span>
 
 <br>
 
