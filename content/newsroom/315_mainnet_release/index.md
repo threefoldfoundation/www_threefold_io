@@ -3,7 +3,7 @@ id: 315_mainnet_release
 title: 🗳 Vote- Bring TF Grid 3.15 to Mainnet
 image_caption: 315_mainnet_release
 description:  Calling all farmers to vote on the GEP to bring grid version 3.15 to mainnet! 
-date: 2024-07-16
+date: 2024-11-06
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
