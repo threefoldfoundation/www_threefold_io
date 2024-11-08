@@ -20,9 +20,9 @@ extra:
 
 {% row(style="reverse header margin") %}
 
-## **Enabling<span class="blue"><br>Digital Sovereignty</span>**
+## **Self-Healing Data, Network, and Cloud Platform>**
 
-ThreeFold is a scalable, decentralized, bare metal infrastructure layer designed to support any digital workload with greater security, reliability, performance, privacy – and in full sovereignty.
+Imagine a system which can scale to a planetary level, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, provides 100% uptime, and allows any machine and human to communicate over the shortest, most direct path.
 
 <br>
 
