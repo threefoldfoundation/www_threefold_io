@@ -20,7 +20,7 @@ extra:
 
 {% row(style="reverse header margin") %}
 
-## **Self-Healing Data, Network, and Cloud Platform>**
+## **Self-Healing Data, Network, and Cloud Platform**
 
 Imagine a system which can scale to a planetary level, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, provides 100% uptime, and allows any machine and human to communicate over the shortest, most direct path.
 
