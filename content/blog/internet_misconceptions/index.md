@@ -86,4 +86,4 @@ Dive in to learn more and how to get involved:
 
 - [From the ground up: Three inventions that make ThreeFold possible](https://www.threefold.io/blog/ground-up-innovations/)
 - [The evolution of the Internet: From free to controlled, and back again](https://www.threefold.io/blog/eveloution-of-the-internet/)
-- [ThreeFold Docs: Litepaper, Tokenomics, Node Guide, & More](https://docs.threefold.info/)
+- [ThreeFold Manual](https://manual.grid.tf)
