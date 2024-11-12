@@ -10,8 +10,7 @@ extra:
 - [About]("/about")
 - [Technology]("/technology")
 - [Host]("/host")
-- [Deploy]("/deploy")
-- [Utilization]("/utilization") 
+- [Deploy]("/deploy") 
 - Info
 
 

@@ -44,13 +44,6 @@ Imagine a system which can scale to a planetary level, is compatible with AI, Cl
 <!-- section 2 (logos) -->
 
 
-{% logo_slider() %}
-
-
-## **logo**
-
-
-{% end %}
 
 <!-- section 3 (Map) -->
 <div class="container mx-auto">
