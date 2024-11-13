@@ -15,24 +15,19 @@ extra:
 <div class="container mx-auto">
 
 
-{% row(style="header") %}
+{% row(style="header center") %}
 
 
-![Image](about_hero.png#mx-auto)
+<div class="max-w-none lg:max-w-4xl leading-normal mx-auto">
 
 
-|||
+# **The Internet as <br><span class="blue">Hope for Humanity</span>**
 
 
-#### <span class="text-xl subtitle">A STRONG VISION FOR THE FUTURE</span>
-
-
-## **The Internet as <br><span class="blue">Hope for Humanity</span>**
-
-
-ThreeFold was started by a group of passionate Internet & Cloud veterans who wants to restore the Internet to its original glory.
+ThreeFold was started by a group of passionate Internet & Cloud veterans<br> 
+who wants to restore the Internet to its original glory
 <br><br>
-*The Internet is a network of computers which are typically hosted in large data centers. These data centers are owned by a few large corporations. This is not how the Internet was designed. The Internet was designed to be decentralized, open, and available to everyone.*
+*The Internet is a network of computers which are typically hosted in large data centers. These data centers are owned by a few large corporations. **This is not how the Internet was designed**. The Internet was designed to be decentralized, open, and available to everyone.*
 <br><br>
 
 **We have invented a new data, cloud, and network system as an engine for an upgraded Internet.**
@@ -44,6 +39,7 @@ ThreeFold was started by a group of passionate Internet & Cloud veterans who wan
 <!-- <button class="blue_b">[Host the cloud](/host)</button>
 <button class="green">[Deploy](/deploy)</button> -->
 
+</div>
 
 {% end %}
 

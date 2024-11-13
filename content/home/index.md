@@ -18,9 +18,11 @@ extra:
 <div class="container mx-auto">
 
 
-{% row(style="reverse header margin") %}
+{% row(style=" center header margin") %}
 
-## **Self-Healing Data, Network, and Cloud Platform**
+<div class="max-w-none lg:max-w-4xl leading-normal mx-auto">
+
+# **Self-Healing Data, Network, <br>and Cloud Platform**
 
 Imagine a system which can scale to a planetary level, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, provides 100% uptime, and allows any machine and human to communicate over the shortest, most direct path.
 
@@ -28,20 +30,12 @@ Imagine a system which can scale to a planetary level, is compatible with AI, Cl
 
 <button class="blue_b">[Host](/host)</button><button class="blue_b">[Deploy](/deploy)</button><button class="green">[About](/about)</button> 
 
-
-|||
-
-
-![Image](autonomous.png#mx-auto)
-
+</div>
 
 {% end %}
 
 
 </div>
-
-
-<!-- section 2 (logos) -->
 
 
 

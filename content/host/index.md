@@ -11,22 +11,20 @@ extra:
 
 <!-- section 1 -->
 
-{% row(style="header") %}
+{% row(style="header center") %}
 
-![Image](host_hero.png#mx-auto)
+<div class="max-w-none lg:max-w-4xl leading-normal mx-auto">
 
-|||
+# **<span class="blue">Empower Human Potential</span> <br>Host the Cloud**
 
-#### <span class="text-xl subtitle">BE THE INTERNET</span>
-
-## **<span class="blue">Empower</span> Human Potential**
-
-Regardless of technical knowledge, anyone can now become an Internet and cloud service provider, bringing data, network and cloud capacity to where people need it most while earning for your contributions. We call this process <span class="blue">farming</span>.
+Regardless of technical knowledge, anyone can now become an Internet and cloud service provider, bringing data, network and cloud capacity to where people need it most while earning for your contributions. <br>We call this process <span class="blue">farming</span>.
 
 <br>
 
 <button class="green">[Get A Node](/getnode)</button>
 <button class="blue_b">[Manual](https://manual.grid.tf/)</button>
+
+</div>
 
 {% end %}
 
@@ -36,7 +34,7 @@ Regardless of technical knowledge, anyone can now become an Internet and cloud s
 
 <!-- section 2 -->
 
-{% row(style="center narrow mtop") %}
+{% row(style="center narrow") %}
 
 ## **How It Works**
 

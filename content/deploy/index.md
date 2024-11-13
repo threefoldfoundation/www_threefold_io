@@ -10,17 +10,15 @@ extra:
 <!-- section 1 (header) -->
 <div class="container mx-auto">
 
-{% row(style="header") %} 
+{% row(style="header center") %} 
 
-![Image](deploy_hero.png#mx-auto)
+<div class="max-w-none lg:max-w-4xl leading-normal mx-auto">
 
-|||
 
-#### <span class="text-xl subtitle">DEPLOY ON THE GRID</span>
 
-## **<span class="blue">Build Your Own</span><br> Digital Experiences**
+# **Build<span class="blue"> Your Own</span><br> Digital Experiences**
 
-ThreeFold has developed extensive technology and tools for developers and system administrators.
+ThreeFold has developed extensive technology and tools for <span class="blue">developers</span> and <span class="blue">system administrators.</span>
 
 <br>
 
@@ -31,6 +29,7 @@ From decentralized cloud computing and blockchain integration to overseeing infr
 <button class="green">[Developer Documentation](https://manual.grid.tf/documentation/developers/developers.html)</button> 
 <button class="blue_b">[Sysadmin Documentation](https://manual.grid.tf/documentation/system_administrators/system_administrators.html)</button>
 
+</div>
 
 {% end %}
 

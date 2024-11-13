@@ -10,26 +10,24 @@ extra:
 <!-- section 1 (header) -->
 <div class="container mx-auto">
 
-{% row(style="header") %} 
+{% row(style="header center") %} 
 
 
-![Image](node_header.png#mx-auto)
+<div class="max-w-none lg:max-w-4xl leading-normal mx-auto">
 
-
-|||
-
-#### <span class="text-xl subtitle">GET A NODE</span>
-
-## **Host a Node,<br><span class="blue">Host Sovereignty</span>**
-
-Provide cloud, data, and network resources to the ThreeFold Grid. By hosting a node, you enable anyone, anywhere in the world to host their digital life on your infrastructure in all safety and sovereignty.
+# **Provide<span class="blue"> Cloud, Data, and Network</span> resources to the ThreeFold Grid**
 
 <br>
 
+By hosting ThreeFold nodes, you expand the ThreeFold Platform <br>and contribute to the growth of a decentralized peer-to-peer Internet.
+
+</div>
 
 {% end %}
 
 </div>
+
+
 
 <div data-tf-live="01J87QNSS5RHBZYQ0Q9VKK6WKC"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
@@ -245,7 +243,7 @@ These are some of specs of upcoming models of the ThreeFold Node. Take a look an
 
 - 64 GB of Memory
 - 4,000 GB of SSD + 10,000 GB of HDD
-- RTX 4900 GPU
+- RTX 4090 GPU
 - Up to 12,000 INCA/month for utilization.
 - For first 1,000 nodes, 2,000 INCA/month additional for first 24 months
 - Farmers are rewarded by 80% of the fees as paid by the Cloud Users

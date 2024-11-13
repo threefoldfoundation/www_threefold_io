@@ -242,9 +242,10 @@ background-color:#5596f5 !important;
     font-family: "Lato", sans-serif !important;
   }
   h2 {
-    @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
+    @apply text-3xl lg:text-4xl my-4 font-normal leading-tight;
     color: #2b2b2b;
     font-family: "Lato", sans-serif !important;
+    line-height: 1.25 !important;
   }
   h2 strong {
     @apply font-semibold;
