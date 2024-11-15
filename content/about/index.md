@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "Our mission is to empower individuals and organizations with secure, private, and autonomous access to computing resources, ensuring fair cloud access for everyone." # quotation marks to allow colons where used
-template: "page.html"
+template: "layouts/why.html"
 insert_anchor_links: "left"
 extra:
  author: Your name here
