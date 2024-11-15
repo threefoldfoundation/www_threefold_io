@@ -3,15 +3,12 @@ title: "Header"
 insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
-  logoPath: "images/black_threefold.png"
-  button_Path: "/images/gettft_node_2.png"
+  logoPath: "images/white_threefold.png"
+
 ---
 
-- [About]("/about")
-- [Technology]("/technology")
-- [Host]("/host")
-- [Deploy]("/deploy")
-- [Utilization]("/utilization") 
+- [Why]("/about")
+- [Product]("/product")
 - Info
 
 

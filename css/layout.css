@@ -38,11 +38,11 @@ code {
   @apply text-gray-500;
 }
 
-.text-blue-dark {
+  /*.text-blue-dark {
   /* for dark mode 
   @apply text-blue-200;
-  */
-}
+
+}*/
 
 .text-shadow-titles {
   text-shadow: 4px 4px 2px #000;
@@ -85,7 +85,7 @@ a:active {
 }
 
 h5 a {
-  @apply text-gray-900 font-normal;
+  @apply text-gray-200 font-normal;
 }
 
 /*
@@ -381,7 +381,7 @@ blockquote {
   }
   & ol li {
     margin-bottom: 0.5rem;
-    font-size: $pokey;
+    font-size: 75%;
   }
   & li p {
     font-size: 100%;
@@ -463,4 +463,9 @@ footer {
   .container-comments {
     width: 40%;
   }
+}
+
+.bg-dark {
+  background: rgb(15,15,15);
+  background: radial-gradient(circle, rgba(15,15,15,1) 0%, rgb(24, 24, 24) 50%, rgba(15,15,15,1) 100%);
 }

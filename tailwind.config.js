@@ -4,6 +4,27 @@ module.exports = {
   content: [
       './templates/**/*.html'
   ],
+  safelist: [
+    {
+      pattern: /(-|)(ml|mr)-(4|8|12|16|20|24|28)/,
+      variants: [
+        'sm', 'md', 'lg', 
+        'first', 'first:sm', 'first:md', 'first:lg', 
+        'last', 'last:sm', 'last:md', 'last:lg'
+      ],
+    },
+    {
+      pattern: /(pt|pb)-(0)/,
+      variants: [
+        '!', 'lg', 
+        'first', 'first:sm', 'first:md', 'first:lg', 
+        'last', 'last:sm', 'last:md', 'last:lg'
+      ],
+    },
+    {
+      pattern: /bg-teal-(50|100|200|300|400|500|600|700|800|900)/,  // Added teal color safelist
+    }
+  ],
   darkMode: false,
   important: true,
   theme: {
@@ -59,8 +80,13 @@ module.exports = {
               from: { transform: 'translateX(0)' },
               to: { transform: 'translateX(-100%)' },
           }
-      }                    
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },                    
       },
   },
-  plugins: [], // if we add forms, do it here
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ], // if we add forms, do it here
 }

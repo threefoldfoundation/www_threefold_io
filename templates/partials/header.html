@@ -2,12 +2,12 @@
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
 <header id="header-container">
-    <div class="z-20 bg-white fixed w-full top-0">
-        <div class="relative z-50 shadow">
-        <div class="mx-auto flex z-50 shadow justify-between items-center px-6 sm:px-4 md:px-6 py-2 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
+    <div class="z-20 bg-black2 fixed w-full top-0">
+        <div class="relative z-50">
+        <div class="mx-auto flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-2 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
             <div>
                 <a href="{{get_url(path='/')}}" class="flex">
-                    <img class="w-16 h-auto sm:w-15" style="max-width: none;" src="{{ get_url(path=section.extra.logoPath)}}" alt="ThreeFold Logo" />
+                    <img class="w-12 h-auto sm:w-15" style="max-width: none;" src="{{ get_url(path=section.extra.logoPath)}}" alt="ThreeFold Logo" />
                 </a>
             </div>
             <div class="-mr-2 -my-2 lg:hidden">
@@ -36,25 +36,25 @@
                     {% set current = get_url(path=link_path[1]) ~ "/" %}
                     {% if header_label is containing("http") %}
                         {% if header_label is not containing("threefold") %}
-                        <a href="{{link_path[1]}}" target="_blank" class="text-lg py-3 leading-6 font-medium text-gray-900 hover:text-gray-500 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                        <a href="{{link_path[1]}}" target="_blank" class="text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white hover:text-gray-200 focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                             {{link_label}}
                         </a>
                         {% endif %}
                       {% elif current_url and current == current_url %}
-                          <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal active hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                          <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white hover:text-gray-200 focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                             {{link_label}}
                           </a>
                       {% else %}
-                        <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                        <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal text-white hover:text-gray-200 focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                           {{link_label}}
                         </a>
                       {% endif %}
                 {% else %}
                     <div class="relative">
                         {% set button_id = header_label ~ "-menu-btn" | slugify %}
-                    <button type="button" id="{{button_id}}" class="nav_btn py-3  text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-500 focus:outline-none transition ease-in-out duration-150">
+                    <button type="button" id="{{button_id}}" class="nav_btn py-3  text-white group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-200 focus:outline-none transition ease-in-out duration-150">
                         <span>{{ header_label }}</span>
-                        <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
+                        <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                     </button>
                     </div>
 
@@ -67,7 +67,7 @@
                 <div class="inline-flex">
                   {# <ul class="list-none inline-flex mt-5 mr-4 mx-auto">
                     <li class="ml-4">
-                      <a href="https://t.me/threefoldnews" target="_blank" class="text-black">
+                      <a href="https://t.me/threefoldnews" target="_blank" class="text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18"
@@ -87,7 +87,7 @@
                       <a
                         href="javascript:;"
                         onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
-                        class="text-black"
+                        class="text-white"
                       >
                         <svg
                           aria-hidden="true"
@@ -107,17 +107,8 @@
                       </a>
                     </li> 
                   </ul> #}
-                  {# <a href="/getnode"><button class="px-6 green">Get Node</button></a> #}
-                  <div class="rounded-full border-2 mt-1 border-gray-400">
-                    <a href="/getnode" class="mt-2">
-                      <img
-                        src="{{ get_url(path=section.extra.button_Path) }}"
-                        class="mr-5"
-                        style="max-width: none;"
-                        alt=""
-                      />
+                    <a href="/getnode" class=" rounded-2xl bg-white px-4 py-1 text-sm font-semibold text-black shadow-sm hover:bg-gray-300 hover:text-gray-800">Get 3Nodes
                     </a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -132,7 +123,7 @@
 
 <nav>
     <div id="{{menu_id}}" class="nav_menu mt-0 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
-        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+        <div class="bg-black">
             <div id="menu" class="mx-8 lg:mx-10 xl:mx-10 px-6 sm:p-6 md:p-8">
                 {{header_menu | safe }}
             </div>
@@ -176,13 +167,13 @@
                                     </a>
                                     {% endif %}
                                 {% else %}
-                                <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-white hover:text-white focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                     {{link_label}}
                                 </a>
                                 {% endif %}
                             {% else %}
                                 {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
-                                    <button type="button" id="{{button_id}}" class="flex flex px-8 py-3 items-start text-left text-gray-900 group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    <button type="button" id="{{button_id}}" class=" px-8 py-3 items-start text-left text-white group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-200 focus:outline-none focus:text-white transition ease-in-out duration-150">
                                         {{ header_label }}
                                         <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                                     </button>
@@ -207,14 +198,7 @@
                       </div> #}
 
                       <div class="rounded-full border-2 mt-4 mx-8 border-gray-400">
-                        <a href="/getnode" class="mt-2">
-                          <img
-                            src="/images/gettft_node_2.png"
-                            class="mr-5"
-                            style="max-width: none;"
-                            alt=""
-                          />
-                        </a>
+                        <a href="/getnode" class="mt-2 rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get Node</a>
                       </div>
                     </nav>                    
                 </div>

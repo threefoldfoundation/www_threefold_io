@@ -806,7 +806,7 @@ h5,
 .h5, 
 h6, 
 .h6{
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 1.25;
   letter-spacing: -0.025em;
 }
@@ -1395,14 +1395,14 @@ button{
 
 .article h2{
   font-size: 2.25rem;
-  font-family: Lato,sans-serif!important;
+  font-family: Inter,sans-serif!important;
   line-height: 1.5;
   font-weight: 700;
   color:#333;
 }
 
 .article h1{
-  font-family: Lato,sans-serif!important;
+  font-family: Inter,sans-serif!important;
 }
 
 :root {
@@ -2267,6 +2267,10 @@ details[open] > summary::after {
 
 .w-12{
   width: 3rem !important;
+}
+
+.w-13{
+  width: 4rem !important;
 }
 
 .w-64{
@@ -3442,7 +3446,7 @@ details[open] > summary::after {
 }
 
 * {
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .bg-semi-white {
@@ -3540,7 +3544,7 @@ h1 {
 
 .article p{
   font-size: 1.125rem;
-  font-family: Lato,sans-serif!important;
+  font-family: Inter,sans-serif!important;
   line-height: 1.7;
   color:#333
 }
@@ -3558,7 +3562,7 @@ h1 {
 }
 
 .main-title {
-  font-family: Lato,sans-serif!important;
+  font-family: Inter,sans-serif!important;
 }
 
 button:hover :is(:where(a)) {
@@ -3725,7 +3729,7 @@ header {
 }
 
 .post-content-text h2 {
-  font-family: Lato,sans-serif!important;
+  font-family: Inter,sans-serif!important;
   line-height: 1.5;
   font-size: 2.25rem;
   font-weight: 700;

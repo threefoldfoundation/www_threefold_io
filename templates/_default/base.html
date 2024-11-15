@@ -3,7 +3,7 @@
 {% include "partials/head.html" %}
 {% include "partials/header.html" %}
 
-<body>
+<body class="">
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7PNMFH" height="0" width="0"
@@ -42,10 +42,10 @@
   <!-- End Twitter universal website tag code -->
 
   {% include "partials/header.html" %}
-  <div id="content" class="px-4 lg:px-0 pt-12 overflow-hidden">
+  <div id="content" class="px-4 lg:px-0 pt-12 overflow-hidden bg-dark-gradient">
     {% block content %}{% endblock %}
   </div>
-  <div class="px-4 md:px-8">
+  <div class="px-4 md:px-8  overflow-hidden  bg-dark-gradient">
     {% include "partials/footer.html" %}
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
@@ -53,3 +53,10 @@
 </body>
 
 </html>
+
+<style>
+.bg-dark-gradient {
+  background: rgb(15,15,15);
+  background: radial-gradient(circle, rgba(15,15,15,1) 0%, rgb(24, 24, 24) 50%, rgba(15,15,15,1) 100%);
+}
+</style>
