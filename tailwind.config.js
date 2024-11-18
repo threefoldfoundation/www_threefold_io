@@ -87,6 +87,7 @@ module.exports = {
       },
   },
   plugins: [
-    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/aspect-ratio'), 
+    require("flyonui"),
   ], // if we add forms, do it here
 }
