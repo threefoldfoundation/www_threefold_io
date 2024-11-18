@@ -8,7 +8,7 @@ extra:
 ---
 
 - [Why]("/about")
-- [Product]("/product")
+- [Products]("/products")
 - Info
 
 
