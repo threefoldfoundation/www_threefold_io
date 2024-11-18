@@ -26,7 +26,7 @@ extra:
 
 |||
 
-##### TALK TO HUMANS
+##### <span class="text-gray-100">TALK TO HUMANS</span>
 
 <br>
 

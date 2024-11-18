@@ -281,6 +281,7 @@ background-color:#5596f5 !important;
   h5 {
     @apply text-lg my-1 tracking-normal font-medium;
     font-family: "Inter", sans-serif !important;
+    color: #fff !important
   }
   h6 {
     @apply text-md not-italic font-normal my-1;
