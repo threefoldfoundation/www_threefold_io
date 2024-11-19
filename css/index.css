@@ -256,7 +256,7 @@ background-color:#5596f5 !important;
 @layer components {
   h1 {
     @apply text-4xl lg:text-6xl font-normal;
-    color: #2b2b2b;
+    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
   h2 {
@@ -269,7 +269,7 @@ background-color:#5596f5 !important;
   }
   h3 {
     @apply text-2xl lg:text-3xl my-4 font-extralight;
-    color: #2b2b2b;
+    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
   h3 strong {
@@ -324,12 +324,12 @@ background-color:#5596f5 !important;
   }
 
   h3 a{
-    color:#2b2b2b;
+    color:#ffffff;
 
   }
 
   h3 a:hover{
-    color:#2E83FF;
+    color:#b6b6b6;
 
   }
   
@@ -342,7 +342,7 @@ background-color:#5596f5 !important;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-weight: 700;
-    color:#333;
+    color:#e2e2e2;
   }
   
   .article h1{
@@ -354,7 +354,7 @@ background-color:#5596f5 !important;
     font-size: 1.125rem;
     font-family: "Inter", sans-serif;
     line-height: 1.7;
-    color:#333
+    color:#e2e2e2
   }
   
   .post-content-text a, .article a{
@@ -369,7 +369,7 @@ background-color:#5596f5 !important;
     font-size: 1.125rem;
     font-family: "Inter", sans-serif;
     line-height: 1.7;
-    color:#333
+    color:#e2e2e2
   }
 
   .article h3{
