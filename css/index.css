@@ -358,11 +358,11 @@ background-color:#5596f5 !important;
   }
   
   .post-content-text a, .article a{
-    color: #4ec48f;
+    color: #a5a5a5;
   }
   
   .post-content-text a:hover, .article a:hover{
-    color: #2e9969;
+    color: #c6c9c8;
   }
 
   .article li{
@@ -374,6 +374,11 @@ background-color:#5596f5 !important;
 
   .article h3{
     font-weight: 400;
+   
+  }
+
+  .article h4{
+    color: #fff !important;
    
   }
 
