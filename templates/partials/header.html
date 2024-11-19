@@ -52,9 +52,9 @@
                 {% else %}
                     <div class="relative">
                         {% set button_id = header_label ~ "-menu-btn" | slugify %}
-                    <button type="button" id="{{button_id}}" class="bg-black1 nav_btn py-3  text-white group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-200 focus:outline-none transition ease-in-out duration-150">
+                    <button type="button" id="{{button_id}}" class="nav_btn py-3  text-white group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-200 focus:outline-none transition ease-in-out duration-150">
                         <span>{{ header_label }}</span>
-                        <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
+                        <div class="-rotate-90 transition-transform text-white"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                     </button>
                     </div>
 
@@ -107,7 +107,7 @@
                       </a>
                     </li> 
                   </ul> #}
-                    <a href="/getnode" class=" rounded-2xl bg-white px-4 py-1 text-sm font-semibold text-black shadow-sm hover:bg-gray-300 hover:text-gray-800">Get 3Nodes
+                    <a href="/getnode" class=" rounded-full px-4 py-2 text-sm font-semibold border border-gray-50 text-white shadow-sm  hover:text-gray-300">Get 3Nodes
                     </a>
                 </div>
               </div>
@@ -148,7 +148,7 @@
         -->
     <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
         <div>
-            <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
+            <div class="shadow-xs h-screen bg-gray-900 divide-y-2 divide-gray-50">
                 <div class="pb-6 sm:px-12 md:px-16 mt-0 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
 
                     <nav class="flex flex-col justify-around pb-12">
@@ -162,12 +162,12 @@
                                 {% set link_path = header_label | split(pat="%22") | safe%}
                                 {% if header_label is containing("http") %}
                                     {% if header_label is not containing("threefold") %}
-                                    <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-50 hover:text-gray-200 focus:outline-none focus:text-gray-50 transition ease-in-out duration-150">
                                         {{link_label}}
                                     </a>
                                     {% endif %}
                                 {% else %}
-                                <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-white hover:text-white focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-white hover:text-white focus:outline-none focus:text-gray-100 transition ease-in-out duration-150">
                                     {{link_label}}
                                 </a>
                                 {% endif %}
@@ -197,8 +197,8 @@
                           {% include "partials/socialLinks.html" %}
                       </div> #}
 
-                      <div class="rounded-full border-2 mt-4 mx-8 border-gray-400">
-                        <a href="/getnode" class="mt-2 rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get Node</a>
+                      <div class="rounded-full border-2 my-4 border-gray-400 py-2 mx-4">
+                        <a href="/getnode" class="mt-2 rounded-md px-4 py-2.5 text-lg font-semibold text-white shadow-sm hover:text-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get 3Node</a>
                       </div>
                     </nav>                    
                 </div>
