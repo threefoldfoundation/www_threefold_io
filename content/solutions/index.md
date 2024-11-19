@@ -1,7 +1,7 @@
 ---
-title: "Products"
-description: "ThreeFold's products." # quotation marks to allow colons where used
-template: "layouts/products.html"
+title: "Solutions"
+description: "ThreeFold's Solutions." # quotation marks to allow colons where used
+template: "layouts/solutions.html"
 insert_anchor_links: "left"
 extra:
  author: Your name here
