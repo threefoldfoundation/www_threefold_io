@@ -25,7 +25,7 @@ Regardless of technical knowledge, anyone can now become an Internet and cloud s
 
 <br>
 
-<button class="green">[Get A Node](/getnode)</button>
+<button class="green">[Get A Node](https://marketplace.3node.global/index.php)</button>
 <button class="blue_b">[Manual](https://manual.grid.tf/)</button>
 
 {% end %}
