@@ -24,12 +24,12 @@
 
     <div>
       <article class="article lg:w-4/6 mx-auto">
-        <section class="post-header px-0 mb-4 border-b">
-        <h2 class="md:text-4xl text-3xl font-medium mb-2 leading-none  text-gray-700">
+        <section class="post-header px-0 mb-4 border-b border-gray-600">
+        <h2 class="md:text-4xl text-3xl font-medium mb-2 leading-none  text-gray-100">
           {{ page.title }}
         </h2>
 
-        <p class="md:text-lg mb-4 text-base text-gray-600">
+        <p class="md:text-lg mb-4 text-base text-gray-300">
           {{ page.description }}
         </p>
       </section>
@@ -48,7 +48,7 @@
                         sm:w-10
                         rounded-full
                         bg-gray-200
-                        border-2 border-white
+                        border border-gray-600
                       " />
                 </li>
                 {% endif %}
@@ -57,9 +57,9 @@
 
             <div class="pl-3 flex flex-col text-xs leading-none uppercase">
               {% if author %}
-              <a href="{{author.permalink}}" class="text-gray-700 text-xs">{{ author.title }}</a>
+              <a href="{{author.permalink}}" class="text-gray-400 text-xs">{{ author.title }}</a>
               {% endif %}
-              <p class="text-gray-700 text-xs">
+              <p class="text-gray-400 text-xs">
                 <time datetime="{{ page.date }}"> {{ page.date | date(format="%B %e, %Y", timezone="America/Chicago")
                   }}</time><br />
                   <span id="time"
@@ -80,14 +80,14 @@
           <button class="
           text-xs
           bg-transparent
-          hover:text-blue-700
+          hover:text-gray-100
           py-2
           px-4
           mr-2
           border
-          hover:border-blue-500
+          hover:border-gray-100
           border-gray-600
-          text-gray-700
+          text-gray-400
           rounded-full
         "><a href="{{fullpath}}">{{ tag }}</a></button>
 

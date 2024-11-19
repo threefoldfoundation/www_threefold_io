@@ -97,6 +97,8 @@ a img:hover{
 /* new theme */
 
 .dropdown { 
+
+  background-color: rgb(0 0 0 / 50%);
   @apply
   lg:text-lg
   px-6
@@ -104,7 +106,6 @@ a img:hover{
   lg:mr-5
   my-3
   shadow
-  bg-white
   border-black
   capitalize 
   leading-6 
@@ -115,17 +116,18 @@ a img:hover{
   w-full 
   items-start
   rounded 
-  transition 
-  hover:first:text-gray-500 
-  hover:border-stone-200 
-  hover:bg-stone-100 
+  transition  
+  hover:border-stone-700 
+  /* hover:bg-stone-100  */
   p-2 
   text-left
+  text-white
 }
 
 .dropdown a{
   @apply
   px-0
+  text-white
 }
 
 .subtitle {
@@ -254,12 +256,12 @@ background-color:#5596f5 !important;
 @layer components {
   h1 {
     @apply text-4xl lg:text-6xl font-normal;
-    color: #2b2b2b;
+    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
   h2 {
     @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
-    color: #2b2b2b;
+    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
   h2 strong {
@@ -267,7 +269,7 @@ background-color:#5596f5 !important;
   }
   h3 {
     @apply text-2xl lg:text-3xl my-4 font-extralight;
-    color: #2b2b2b;
+    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
   h3 strong {
@@ -322,12 +324,12 @@ background-color:#5596f5 !important;
   }
 
   h3 a{
-    color:#2b2b2b;
+    color:#ffffff;
 
   }
 
   h3 a:hover{
-    color:#2E83FF;
+    color:#b6b6b6;
 
   }
   
@@ -340,7 +342,7 @@ background-color:#5596f5 !important;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-weight: 700;
-    color:#333;
+    color:#e2e2e2;
   }
   
   .article h1{
@@ -352,26 +354,31 @@ background-color:#5596f5 !important;
     font-size: 1.125rem;
     font-family: "Inter", sans-serif;
     line-height: 1.7;
-    color:#333
+    color:#e2e2e2
   }
   
   .post-content-text a, .article a{
-    color: #4ec48f;
+    color: #a5a5a5;
   }
   
   .post-content-text a:hover, .article a:hover{
-    color: #2e9969;
+    color: #c6c9c8;
   }
 
   .article li{
     font-size: 1.125rem;
     font-family: "Inter", sans-serif;
     line-height: 1.7;
-    color:#333
+    color:#e2e2e2
   }
 
   .article h3{
     font-weight: 400;
+   
+  }
+
+  .article h4{
+    color: #fff !important;
    
   }
 
@@ -380,12 +387,12 @@ background-color:#5596f5 !important;
   }
 
 
-button:hover :is(:where(a)) {
+/* button:hover :is(:where(a)) {
   color: #5e5e5e;
-}
+} */
 
 button :is(:where(p)) {
-  color: #3d3b39;
+  color: #ddd;
   font-weight: 400;
 }
 

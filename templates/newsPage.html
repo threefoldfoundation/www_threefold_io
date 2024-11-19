@@ -37,11 +37,11 @@
   <div class="article lg:w-4/6 mx-auto">
 
     <div>
-      <section class="post-header px-0 mb-4 border-b">
-        <h2 class="md:text-4xl text-3xl font-medium mb-2 leading-none  text-gray-700">
+      <section class="post-header px-0 mb-4 border-b border-gray-600">
+        <h2 class="md:text-4xl text-3xl font-medium mb-2 leading-none  text-gray-100">
           {{ page.title }}
         </h2>
-        <p class="md:text-lg mb-4 text-base text-gray-600">
+        <p class="md:text-lg mb-4 text-base text-gray-300">
           {{ page.description }}
         </p>
       </section>
@@ -66,7 +66,7 @@
                     sm:w-10
                     rounded-full
                     bg-gray-200
-                    border-2 border-white
+                    border border-gray-600
                   " />
                 </a>
               </li>
@@ -87,13 +87,13 @@
                 {% set author = get_page(path=author_path) %}
                 {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
               <span class="text-xs leading-none uppercase">
-                <a href="{{author.permalink}}" tooltip="{{author.title}}" class="hover:underline text-gray-800">{{ author.title }}</a>
+                <a href="{{author.permalink}}" tooltip="{{author.title}}" class="hover:underline text-gray-400">{{ author.title }}</a>
               </span>
               {% endif %}
                 {% endfor %}
             {% endif %}
             </p>
-            <p class="text-gray-700 text-xs leading-none uppercase">
+            <p class="text-gray-400 text-xs leading-none uppercase">
               <time datetime="{{page.date}}">
                 {{ page.date | date(format="%B %e, %Y", timezone="America/Chicago") }}
               </time>
@@ -118,7 +118,7 @@
           mx-auto
           relative
           font-serif
-          text-gray-700
+          text-gray-300
         ">
         <div class="post-content-text text-xl">{{ content | safe }}</div>
       </section>
@@ -127,17 +127,17 @@
         {% for tag in page.taxonomies.tags %}
         {% set fullpath = "/tags/" ~ tag | replace(from='_', to='-' ) %}
         <a href="{{fullpath}}" class="
-            text-xs
-            bg-transparent
-            hover:text-blue-700
-            py-2
-            px-4
-            mr-2
-            border
-            hover:border-blue-500
-            border-gray-600
-            text-gray-700
-            rounded-full
+        text-xs
+        bg-transparent
+        hover:text-gray-100
+        py-2
+        px-4
+        mr-2
+        border
+        hover:border-gray-100
+        border-gray-600
+        text-gray-400
+        rounded-full
           ">{{ tag }}</a>
         {% endfor %}
       </section>
