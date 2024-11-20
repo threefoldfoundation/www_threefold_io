@@ -9,7 +9,7 @@ taxonomies:
   tags: [grid, tech]
   categories: [grid, tech]
 extra:
-    imgPath: edge_computing.png
+    imgPath: meeting_digital_demands1.png
     isFeatured: true
 ---
 

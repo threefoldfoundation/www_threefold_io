@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, decentralization, event, collaboration, why]
   categories: [community, decentralization, event, collaboration, why]
 extra:
-    imgPath: dy.png
+    imgPath: dunia_yetu1.png
 ---
 
 ### Vision of Collective Empowerment 

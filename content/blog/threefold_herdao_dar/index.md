@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, event, collaboration, why]
   categories: [community, event, collaboration, why]
 extra:
-    imgPath: diversitytf.png
+    imgPath: embracing_diversity1.png
 ---
 
 In today's rapidly evolving technological landscape, diversity and inclusion are not just buzzwords; they are essential components for driving innovation and progress. As the tech and IT sectors continue to shape the future, it's crucial to recognize the importance of fostering diverse perspectives and creating inclusive environments where everyone feels valued and empowered to contribute.
