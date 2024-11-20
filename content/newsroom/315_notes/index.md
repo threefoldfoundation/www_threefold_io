@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community,event]
   news-category: [tech,grid,community,event]
 extra:
-    imgPath: 315_notes.png
+    imgPath: 315_announcement.png
 
 ---
 

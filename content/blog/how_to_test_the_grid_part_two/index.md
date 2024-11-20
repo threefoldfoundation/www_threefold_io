@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid]
   categories: [tech,grid]
 extra:
-    imgPath: how_to_test_the_grid_part_two.png
+    imgPath: manual_auto_testing.png
 ---
 
 In our [last post](https://www.threefold.io/blog/how-to-test-the-grid-part-one/), we started to explore what it means to test the ThreeFold Grid by highlighting the key processes and the benefits or reasons. Now, we continue our discovery path through the detailed testing process. In this post, we go deeper into two different ways of testing: Manual and Automation. Each is important, combining to ensure a strong and dependable TF Grid.

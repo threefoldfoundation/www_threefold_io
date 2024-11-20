@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, why]
   categories: [community, why]
 extra:
-    imgPath: tf_ecosystem_comes_alive.png
+    imgPath: tf_ecosystem1.png
 ---
 
 Collaborative. Self-organizing. Interconnected. Dynamic. Diverse. Resilient. Sustainable.

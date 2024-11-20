@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: 315_mainnet_release.png
+    imgPath: 315_vote.png
 ---
 
 We are currently testing TF Grid version 3.15 on testnet and preparing to release on mainnet. Farmers, please vote by Tuesday November 12th at 10am CET on the [dashboard](https://dashboard.grid.tf/) under ‘TFChain - DAO.'

@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: sept_5_call.jpg
+    imgPath: sept_call.png
 
 ---
 

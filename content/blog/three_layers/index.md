@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, grid, cloud, tech]
   categories: [decentralization, grid, cloud, tech]
 extra:
-    imgPath: img/three_layers.png
+    imgPath: building_blocks_internet1.png
     isFeatured: true
 ---
 

@@ -12,7 +12,7 @@ fi
 
 # checks os and architecture for correct release
 # https://stackoverflow.com/a/8597411 
-echo "Installing & building tailwind..."
+echo "Download tailwind..."
 ASSET="tailwindcss"
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
@@ -27,6 +27,15 @@ elif [[ "$(uname -m)" == "arm64"* ]]; then
 fi
 
 curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/${ASSET}"
+
+# Check if the download size is greater than 20MB
+if [[ $(stat -c%s "$ASSET") -lt 20000000 ]]; then
+    echo "Error: Downloaded file size is less than 20MB, download not ok."
+    echo "Download url was:$ASSET" 
+    rm "$ASSET"
+    exit 1
+fi
+
 chmod +x $ASSET
 mv $ASSET tailwindcss
 
@@ -45,4 +54,4 @@ rm -rf public static/css
 ./tailwindcss -i css/index.css -o ./static/css/index.css --minify
 zola --root $ABS_DIR_OF_SCRIPT build
 
-
+open public/index.html

@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: mainnet_upgrade_314.png
+    imgPath: 314_vote.png
 
 ---
 
