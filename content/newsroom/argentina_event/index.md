@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community,event]
   news-category: [tech,grid,community,event]
 extra:
-    imgPath: governance_infrastructure.png
+    imgPath: argentina_event.png
 
 ---
 
