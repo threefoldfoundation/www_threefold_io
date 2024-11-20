@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, grid, why, tech]
   categories: [decentralization, grid, why, tech]
 extra:
-    imgPath: energy_efficiency_explained.png
+    imgPath: energy_efficiency1.png
 ---
 
 At ThreeFold, we [believe](/mission) that everything we do should benefit people and our planet. The emergence of a decentralized Internet grid not only reshapes the digital landscape but helps to pioneer a more sustainable future. At the core of this evolution lies a series of innovative strategies poised to revolutionize the way we perceive and utilize digital infrastructure.

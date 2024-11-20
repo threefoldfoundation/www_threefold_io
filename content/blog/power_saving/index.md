@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, farming, grid, why, tech]
   categories: [community, farming, grid, why, tech]
 extra:
-    imgPath: power_saving.png
+    imgPath: power_saving_grid1.png
 ---
 
 *This article was originally published by Victoria Obeegadoo, a former member of the ThreeFold team.*

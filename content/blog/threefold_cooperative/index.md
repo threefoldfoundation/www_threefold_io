@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, decentralization]
   categories: [community, decentralization]
 extra:
-    imgPath: threefold_cooperative.png
+    imgPath: decentralized_governance.png
     isFeatured: true
 ---
 

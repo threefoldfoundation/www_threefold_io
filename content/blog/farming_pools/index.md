@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, decentralization, farming]
   categories: [community, decentralization, farming]
 extra:
-    imgPath: farming_pools.png
+    imgPath: farming_pools1.png
 ---
 
 With a long-term focus on version 4.0, and a move towards commercialization, we are embracing several new strategies to ensure more reliability and trust. Farming Pools are an innovative mechanism designed to foster better governance and equitable participation within our network.
