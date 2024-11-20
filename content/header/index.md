@@ -8,7 +8,7 @@ extra:
 ---
 
 - [Why]("/about")
-- [What]("/what")
+- [What]("/solutions")
 - [12.12.24]("/action")
 - Info
 
