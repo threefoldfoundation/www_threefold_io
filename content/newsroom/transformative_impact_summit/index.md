@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: transformative_impact_summit.png
+    imgPath: transformative_impact.png
 ---
 
 *By bringing together those dedicating their lives to making the world a better place, and empowering them with exposure, support, connection, and funding, we not only celebrate transformative impact, we create it.*
