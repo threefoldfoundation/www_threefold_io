@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, grid, why]
   categories: [decentralization, grid, why]
 extra:
-    imgPath: peer_to_peer.png
+    imgPath: peer-to-peer1.png
 ---
 
 ## What is Peer-to-Peer?

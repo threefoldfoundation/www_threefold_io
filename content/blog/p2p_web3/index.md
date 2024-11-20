@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, grid, why, tech]
   categories: [decentralization, grid, why, tech]
 extra:
-    imgPath: p2p_web3.png
+    imgPath: peer_to_peer.png
 ---
 
 First coined in 2014, Web3 is now one of the hottest and overused buzzwords in the digital space – the idea of a new iteration of the web, a decentralized environment based on blockchain technology that incorporates token-based economics. The promise of Web3 – decentralization of control and authority from big tech, data security, scalability, and privacy for users – is tremendous. But what is a promise without delivery? Is it possible that we will see major adoption soon?

@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, grid, cloud, tech]
   categories: [decentralization, grid, cloud, tech]
 extra:
-    imgPath: zero_os_blog.png
+    imgPath: scalable_secure_OS.png
 
 
 ---

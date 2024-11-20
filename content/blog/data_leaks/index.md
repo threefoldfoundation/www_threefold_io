@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, why]
   categories: [decentralization, why]
 extra:
-    imgPath: data_leaks.png
+    imgPath: stand_up_for_our_data.png
 ---
 
 Do a quick search for "data leak" on your search engine of choice, and you'll likely see headlines like this:

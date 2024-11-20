@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, grid, cloud, tech]
   categories: [decentralization, grid, cloud, tech]
 extra:
-    imgPath: building_a_new_internet_pt_4.png
+    imgPath: building_a_new_internet_4_1.png
 ---
 
 After introducing the ThreeFold Grid in [part one](https://threefold.io/blog/an_intro_to_the_threefold_grid/) and diving deep into [storage](https://threefold.io/blog/building_a_new_internet_from_the_ground_up_pt2/) and [compute](https://threefold.io/blog/building_a_new_internet_from_the_ground_up_3/), we’re back with part 4 to look at the networking aspects of the ThreeFold Grid.
