@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, farming, grid, why, cloud, tech]
   categories: [decentralization, farming, grid, why, cloud, tech]
 extra:
-    imgPath: decentralizing_the_internet.png
+    imgPath: decentralized_internet.png
 ---
 
 *This article was originally published by Roel Van Sabben, a former member of the ThreeFold team.*
