@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, why]
   categories: [decentralization, why]
 extra:
-    imgPath: in_search_of_a_better_internet.png
+    imgPath: internet1.png
 ---
 
 *This article was originally published by Hannah Cordes, a former member of the ThreeFold team.*

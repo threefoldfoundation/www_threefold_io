@@ -9,7 +9,7 @@ taxonomies:
   tags: [grid, cloud, tech]
   categories: [grid, cloud, tech]
 extra:
-    imgPath: an_intro_to_the_threefold_grid.png
+    imgPath: building_a_new_internet_1_1.png
 ---
 
 ## An Intro to the ThreeFold Grid
