@@ -1,7 +1,7 @@
 ---
-title: "12.12.24"
-description: "f" # quotation marks to allow colons where used
-template: "layouts/121224.html"
+title: "Solutions"
+description: "Take actions" # quotation marks to allow colons where used
+template: "layouts/action.html"
 insert_anchor_links: "left"
 extra:
  author: Your name here
