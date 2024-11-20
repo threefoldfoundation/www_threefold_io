@@ -9,7 +9,7 @@ taxonomies:
   tags: [community]
   categories: [community]
 extra:
-    imgPath: creating_transformative_impact1.png
+    imgPath: creating_tranformative1.png
 ---
 
 *“By bringing together those dedicating their lives to making the world a better place, and empowering them with exposure, support, connection, and funding, we not only celebrate transformative impact, we create it.”*
