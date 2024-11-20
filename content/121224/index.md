@@ -1,6 +1,6 @@
 ---
 title: "12.12.24"
-description: "12.12.24" # quotation marks to allow colons where used
+description: "f" # quotation marks to allow colons where used
 template: "layouts/121224.html"
 insert_anchor_links: "left"
 extra:
