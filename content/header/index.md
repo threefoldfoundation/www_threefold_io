@@ -45,9 +45,9 @@ extra:
 
 |||
 
-<button class="dropdown" onclick="openInNewTab('https&#58;//manual.grid.tf/')">
+<button class="dropdown" onclick="openInNewTab('https&#58;//https://docs.threefold.io/')">
 
-[Documentation](https://manual.grid.tf)
+[Documentation](https://docs.threefold.io/)
 <br>
 <p class="text-sm">Explore the Documentation</p>
 
