@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   categories: [tech,grid,community]
 extra:
-    imgPath: testing_main.png
+    imgPath: grid_testing1.png
 ---
 
 Hi there and welcome to ThreeFold Grid Testing: Part One!

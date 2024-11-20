@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,community]
   categories: [tech,community]
 extra:
-    imgPath: threefold_impact.png
+    imgPath: impacting_the_future1.png
     isFeatured: true
 ---
 
