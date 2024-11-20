@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, event, collaboration, why]
   categories: [community, event, collaboration, why]
 extra:
-    imgPath: hatch_podcast.png
+    imgPath: collaborative_innovations1.png
 ---
 
 #### Introduction 

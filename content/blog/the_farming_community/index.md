@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,farming,community]
   categories: [tech,grid,farming,community]
 extra:
-    imgPath: the_farming_community.png
+    imgPath: spotlight_farming1.png
 ---
 
 The ThreeFold community consists of many different roles creating a whole [ecosystem](https://www.threefold.io/blog/tf-ecosystem-comes-alive/) that contributes to the growth of the ThreeFold Grid and makes it more reliable and stable. Today, we're spotlighting the farming community, the backbone of the ThreeFold Grid.
