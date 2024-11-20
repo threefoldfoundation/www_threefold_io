@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 template: "partials/footer.html"
 extra:
   logoPath: "images/new_logo_tft.png"
-  socialLinks: { Github: "https://github.com/threefoldfoundation", Github2: "https://github.com/threefoldtech", Twitter: "https://twitter.com/threefold_io", Telegram: "https://t.me/threefoldnews"  }
+  socialLinks: { Twitter: "https://twitter.com/threefold_io", Telegram: "https://t.me/threefoldnews", Github: "https://github.com/threefoldfoundation", Github2: "https://github.com/threefoldtech"}
 ---
 
 {% row(style="lean") %}
@@ -26,7 +26,7 @@ extra:
 
 |||
 
-##### <span class="text-gray-100">TALK TO HUMANS</span>
+##### <span class="text-gray-100">COMMUNITY</span>
 
 <br>
 
