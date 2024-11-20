@@ -1,187 +1,255 @@
-<div class="bg-transparent">
-    <div class="mx-auto max-w-7xl px-6 pb-32 pt-12fa lg:px-8">
-        <div class="mx-auto max-w-4xl divide-y divide-white/10">
-            <h2 class="text-3xl font-normal tracking-tight text-white sm:text-4xl">Frequently Asked Questions</h2>
-            <dl class="mt-10 space-y-6 divide-y divide-white/10">
 
-                <!-- FAQ 1 -->
-                <div class="pt-6">
-                    <dt>
-                        <button type="button" class="flex w-full border-transparent items-start justify-between text-left text-white px-6 bg-transparent border-none" aria-controls="faq-0" aria-expanded="false">
-                            <span class="text-base font-semibold">Is this a separate new Internet?</span>
-                            <span class="ml-6 flex h-7 items-center">
-                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-expand">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-collapse">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                                </svg>
-                            </span>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <main class="relative flex flex-col justify-center overflow-hidden">
+        <div class="w-full max-w-7xl mx-auto px-4 md:px-6 py-20">
+
+            <h1 class="text-3xl font-normal tracking-tight text-white sm:text-4xl">Frequently Asked Questions</h1>
+
+            <!-- Accordion component -->
+            <div class="divide-y divide-white/50 my-10">
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-01"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-01"
+                        >
+                            <span class="text-xl">Is this a separate new Internet?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
                         </button>
-                    </dt>
-                    <dd class="mt-2 hidden pr-12 text-white" id="faq-0">
-                        <p class="text-base text-white">No, ThreeFold is a complementary Internet and works alongside the current Internet. It allows you to continue accessing and interacting with the current Internet while offering additional capabilities.</p>
-                    </dd>
+                    </h2>
+                    <div
+                        id="faqs-text-01"
+                        role="region"
+                        aria-labelledby="faqs-title-01"
+                        class="grid text-sm text-slate-200 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                            <p class="pb-3 text-gray-300 text-lg">
+                                No, ThreeFold is a complementary Internet and works alongside the current Internet. It allows you to continue accessing and interacting with the current Internet while offering additional capabilities.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-
-                <!-- FAQ 2 -->
-                <div class="pt-6">
-                    <dt>
-                        <button type="button" class="flex w-full items-start border-transparent justify-between text-left text-white px-6 bg-transparent border-none" aria-controls="faq-1" aria-expanded="false">
-                            <span class="text-base font-semibold">Why do we need a new Internet?</span>
-                            <span class="ml-6 flex h-7 items-center">
-                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-expand">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-collapse">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                                </svg>
-                            </span>
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-02"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-02"
+                        >
+                            <span>Why do we need a new Internet?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
                         </button>
-                    </dt>
-                    <dd class="mt-2 hidden pr-12 text-white" id="faq-1">
-                        <p class="text-base text-white">The Internet has become fragile and overly centralized. Issues like authenticity, privacy, security, and sustainability necessitate a fundamental new approach to rebuild its foundation.</p>
-                    </dd>
-                </div>
-
-                <!-- FAQ 3 -->
-                <div class="pt-6">
-                    <dt>
-                        <button type="button" class="flex w-full items-start border-transparent justify-between text-left text-white px-6 bg-transparent border-none" aria-controls="faq-2" aria-expanded="false">
-                            <span class="text-base font-semibold">This seems too big to be true. Is this real?</span>
-                            <span class="ml-6 flex h-7 items-center">
-                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-expand">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-collapse">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                                </svg>
-                            </span>
+                    </h2>
+                    <div
+                        id="faqs-text-02"
+                        role="region"
+                        aria-labelledby="faqs-title-02"
+                        class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                            <p class="pb-3 text-gray-300 text-lg">
+                                The Internet has become fragile and overly centralized. Issues like authenticity, privacy, security, and sustainability necessitate a fundamental new approach to rebuild its foundation.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-03"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-03"
+                        >
+                            <span>This seems too big to be true. Is this real?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
                         </button>
-                    </dt>
-                    <dd class="mt-2 hidden pr-12 text-white" id="faq-2">
-                        <p class="text-base text-white">For over 30 years, we’ve worked toward this vision. ThreeFold is the culmination of our journey, offering a fully operational product and a growing community of users, farmers, and partners. This is real and here to stay.</p>
-                    </dd>
-                </div>
-
-                <!-- FAQ 4 -->
-                <div class="pt-6">
-                    <dt>
-                        <button type="button" class="flex w-full items-start border-transparent justify-between text-left text-white px-6 bg-transparent border-none" aria-controls="faq-3" aria-expanded="false">
-                            <span class="text-base font-semibold">You have 2 tokens, TFT and INCA, why?</span>
-                            <span class="ml-6 flex h-7 items-center">
-                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-expand">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-collapse">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                                </svg>
-                            </span>
+                    </h2>
+                    <div
+                        id="faqs-text-03"
+                        role="region"
+                        aria-labelledby="faqs-title-03"
+                        class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                            <p class="pb-3 text-gray-300 text-lg">
+                                For over 30 years, we’ve worked toward this vision. ThreeFold is the culmination of our journey, offering a fully operational product and a growing community of users, farmers, and partners. This is real and here to stay.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-04"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-04"
+                        >
+                            <span>You have 2 tokens, TFT and INCA, why?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
                         </button>
-                    </dt>
-                    <dd class="mt-2 hidden pr-12 text-white" id="faq-3">
-                        <p class="text-base text-white">TFT is our token which was used to build generation 1, 2 and 3 of the ThreeFold Grid of capacity. TFT is the reward for our loyal community. There can never be more than 1 billion TFT. We are now building generation 4 of the ThreeFold Grid of capacity and we need a new token to build this new generation. There will never be more than 3 billion INCA. Our partners will start selling new ThreeFold Nodes end Nov 2024 with a new reward scheme and ready to grow to millions of nodes.</p>
-                    </dd>
-                </div>
-
-                <!-- FAQ 5 -->
-                <div class="pt-6">
-                    <dt>
-                        <button type="button" class="flex w-full items-start border-transparent justify-between text-left text-white px-6 bg-transparent border-none" aria-controls="faq-4" aria-expanded="false">
-                            <span class="text-base font-semibold">How can I participate?</span>
-                            <span class="ml-6 flex h-7 items-center">
-                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-expand">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-collapse">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                                </svg>
-                            </span>
+                    </h2>
+                    <div
+                        id="faqs-text-04"
+                        role="region"
+                        aria-labelledby="faqs-title-04"
+                        class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                             <p class="pb-3 text-gray-300 text-lg">
+                                TFT is our token which was used to build generation 1, 2 and 3 of the ThreeFold Grid of capacity. TFT is the reward for our loyal community. There can never be more than 1 billion TFT. We are now building generation 4 of the ThreeFold Grid of capacity and we need a new token to build this new generation. There will never be more than 3 billion INCA. Our partners will start selling new ThreeFold Nodes end Nov 2024 with a new reward scheme and ready to grow to millions of nodes.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-05"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-05"
+                        >
+                            <span>How can I participate?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
                         </button>
-                    </dt>
-                    <dd class="mt-2 hidden pr-12 text-white" id="faq-4">
-                        <p class="text-base text-white">You can participate by becoming a farmer, a user, a partner or by developing a web4 app. Provide capacity to the ThreeFold Grid, Use capacity, build solutions, develop applications for Web4, and many more.</p>
-                    </dd>
-                </div>
-
-                <!-- FAQ 6 -->
-                <div class="pt-6">
-                    <dt>
-                        <button type="button" class="flex w-full items-start border-transparent justify-between text-left text-white px-6 bg-transparent border-none" aria-controls="faq-5" aria-expanded="false">
-                            <span class="text-base font-semibold">What is Web4?</span>
-                            <span class="ml-6 flex h-7 items-center">
-                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-expand">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-collapse">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                                </svg>
-                            </span>
+                    </h2>
+                    <div
+                        id="faqs-text-05"
+                        role="region"
+                        aria-labelledby="faqs-title-05"
+                        class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                             <p class="pb-3 text-gray-300 text-lg">
+                                You can participate by becoming a farmer, a user, a partner or by developing a web4 app. Provide capacity to the ThreeFold Grid, Use capacity, build solutions, develop applications for Web4, and many more.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-06"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-06"
+                        >
+                            <span>What is Web4?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
                         </button>
-                    </dt>
-                    <dd class="mt-2 hidden pr-12 text-white" id="faq-5">
-                        <p class="text-base text-white">Web4 is our evolution towards a decentralized, user-controlled, and secure Internet that respects privacy and minimizes environmental impact.</p>
-                    </dd>
-                </div>
-
-                <!-- FAQ 7 -->
-                <div class="pt-6">
-                    <dt>
-                        <button type="button" class="flex w-full items-start border-transparent justify-between text-left text-white px-6 bg-transparent border-none" aria-controls="faq-6" aria-expanded="false">
-                            <span class="text-base font-semibold">Is this another blockchain?</span>
-                            <span class="ml-6 flex h-7 items-center">
-                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-expand">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon-collapse">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                                </svg>
-                            </span>
+                    </h2>
+                    <div
+                        id="faqs-text-06"
+                        role="region"
+                        aria-labelledby="faqs-title-06"
+                        class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                             <p class="pb-3 text-gray-300 text-lg">
+                                Web4 is our evolution towards a decentralized, user-controlled, and secure Internet that respects privacy and minimizes environmental impact.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-07"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-07"
+                        >
+                            <span>Is this another blockchain?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
                         </button>
-                    </dt>
-                    <dd class="mt-2 hidden pr-12 text-white" id="faq-6">
-                        <p class="text-base text-white">No, we are NOT blockchain. We are using our own technology: Zero State technology combined with Quantum Safe Internetworking.</p>
-                    </dd>
-                </div>
+                    </h2>
+                    <div
+                        id="faqs-text-07"
+                        role="region"
+                        aria-labelledby="faqs-title-07"
+                        class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                             <p class="pb-3 text-gray-300 text-lg">
+                                No, we are NOT blockchain. We are using our own technology: Zero State technology combined with Quantum Safe Internetworking.
+                            </p>
+                        </div>
+                    </div>
+                </div>                                                                                                
+            </div>
+            <!-- End: Accordion component -->
 
-            </dl>
         </div>
-    </div>
-</div>
+    </main>
 
-<script>
-    // Select all FAQ buttons
-const faqButtons = document.querySelectorAll("dt button");
 
-// Add click event listeners to each button
-faqButtons.forEach(button => {
-  button.addEventListener("click", () => {
-    const currentFaq = button.closest("div");
-    const answer = currentFaq.querySelector("dd");
-    const isExpanded = button.getAttribute("aria-expanded") === "true";
 
-    // Collapse all other FAQs
-    faqButtons.forEach(btn => {
-      if (btn !== button) {
-        const otherFaq = btn.closest("div");
-        const otherAnswer = otherFaq.querySelector("dd");
-        btn.setAttribute("aria-expanded", "false");
-        otherAnswer.classList.add("hidden");
-        otherAnswer.classList.remove("block");
-      }
-    });
-
-    // Toggle current FAQ
-    if (isExpanded) {
-      button.setAttribute("aria-expanded", "false");
-      answer.classList.add("hidden");
-      answer.classList.remove("block");
-    } else {
-      button.setAttribute("aria-expanded", "true");
-      answer.classList.remove("hidden");
-      answer.classList.add("block");
-    }
-  });
-});
-
-</script>
+   
