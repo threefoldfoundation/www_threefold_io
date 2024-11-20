@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, why]
   categories: [decentralization, why]
 extra:
-    imgPath: escape_great_hack.png
+    imgPath: great_hack.png
 ---
 
 ## The neutrality of the current Internet is in danger.
