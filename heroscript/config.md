@@ -1,58 +1,38 @@
 # www.threefold.io development script
 
-We first define our website and add a zola template for it
+We first define our website.
 
 ```js
 !!website.define name:'www_threefold' title:'Threefold' 
-
-!!website.template_add url:'https://github.com/threefoldfoundation/www_threefold_io/tree/development_zola'
-```
-
-Then we add the doctree's we will use for the website.
-We use `threefoldfoundation/threefold_data` for blogs, people and news. We use `threefoldfoundation/www_threefold_io` for site content for pages.
-
-```js
-!!website.doctree_add url:'https://github.com/threefoldfoundation/www_threefold_io/tree/development_zola/content'
-
-add collections to the website
-!!website.doctree_add url:'https://github.com/threefoldfoundation/threefold_data/tree/development_zola/content'
+description: 'Threefold website'
 ```
 
 Next, we add a header and a footer for our website
 
 ```js
 !!website.header_add 
-    collection: 'content'
-    file: 'header.md'
+    name: 'header.md'
 
 !!website.footer_add 
-    collection: 'content'
-    file: 'footer.md'
+    name: 'footer.md'
 ```
 
 Let's then add our pages
 
 ```js
 !!website.page_add 
-    name: 'Home'
-    collection: 'content'
+    name: 'home'
+    description: 'ThreeFold empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy sell, and use cloud resources autonomously and securely.'
     file: 'home.md'
     homepage: true
 
 !!website.page_add
     name: 'About'
-    collection: 'content'
     file: 'about.md'
 
 !!website.page_add
-    name: 'Careers'
-    collection: 'content'
-    file: 'careers.md'
-
-!!website.page_add
-    name: 'Farm'
-    collection: 'content'
-    file: 'farm.md'
+    name: 'solutions.md'
+    title: 'Solutions'
 
 !!website.page_add
     name: 'Support'

@@ -1,4 +1,0 @@
-[submodule "threefold_data"]
-	path = threefold_data
-	url = https://github.com/threefoldfoundation/threefold_data.git
-    ignore = dirty
