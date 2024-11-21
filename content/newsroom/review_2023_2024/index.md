@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, farming, grid, tech]
   news-category: [community, farming, grid, tech]
 extra:
-    imgPath: review_2023_2024.png
+    imgPath: 2023_2024.png
 ---
 
 
