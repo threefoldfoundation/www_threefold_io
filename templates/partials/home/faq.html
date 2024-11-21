@@ -47,7 +47,7 @@
                         >
                         <div class="overflow-hidden">
                             <p class="pb-3 text-gray-300 text-base font-light">
-                                No, ThreeFold is a complementary Internet and works alongside the current Internet. It allows you to continue accessing and interacting with the current Internet while offering additional capabilities.
+                                No, ThreeFold is a complementary Internet and works alongside the current Internet. It allows you to continue accessing and interacting with the current Internet.
                             </p>
                         </div>
                     </div>
@@ -79,8 +79,7 @@
                         >
                         <div class="overflow-hidden">
                             <p class="pb-3 text-gray-300 text-base font-light">
-                                The Internet has become fragile and overly centralized. Issues like authenticity, privacy, security, and sustainability necessitate a fundamental new approach to rebuild its foundation.
-                            </p>
+                                The Internet used to be a peer to peer network, but has become fragile and too centralized. There are so many problems with the current Internet, such as authenticity, privacy, security, and sustainability that we believe a fundamental new approach is needed.
                         </div>
                     </div>
                 </div> 
@@ -95,7 +94,7 @@
                             :aria-expanded="expanded"
                             aria-controls="faqs-text-03"
                         >
-                            <span>This seems too big to be true. Is this real?</span>
+                            <span>This sounds too big, are you guys are faking it?</span>
                             <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                                 <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
                                 <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
@@ -111,8 +110,7 @@
                         >
                         <div class="overflow-hidden">
                             <p class="pb-3 text-gray-300 text-base  font-light">
-                                For over 30 years, we’ve worked toward this vision. ThreeFold is the culmination of our journey, offering a fully operational product and a growing community of users, farmers, and partners. This is real and we are here to stay.
-                            </p>
+                                We have been working on this for over 30 years and ThreeFold is the result of that work. We have a working product and a growing community of farmers, users, and partners. We are real and we are here to stay.
                         </div>
                     </div>
                 </div> 
@@ -207,8 +205,7 @@
                         >
                         <div class="overflow-hidden">
                              <p class="pb-3 text-gray-300 text-base font-light">
-                                Web4 is our evolution towards a decentralized, user-controlled, and secure Internet that respects privacy and minimizes environmental impact.
-                            </p>
+                                Web 4 represents the natural evolution of the Internet, where humans and artificial intelligence collaborate to develop a new paradigm aimed at advancing planetary well-being while making sure everyone has equal chances. This Internet can be sovereign & decentralized, while being totally secure and private. This phase of the Internet can scale indefinitely, is green, self-healing, cost effective and ultra-reliable.
                         </div>
                     </div>
                 </div> 
@@ -223,7 +220,7 @@
                             :aria-expanded="expanded"
                             aria-controls="faqs-text-07"
                         >
-                            <span>Is this another blockchain?</span>
+                            <span>How secure and private is my data?</span>
                             <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
                                 <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
                                 <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
@@ -239,11 +236,44 @@
                         >
                         <div class="overflow-hidden">
                              <p class="pb-3 text-gray-300 text-base font-light">
-                                No, we are NOT blockchain. We are using our own technology: Zero State technology combined with Quantum Safe Internetworking.
+                                ThreeFold is designed to be secure and private by default. We use end-to-end encryption to protect your data and ensure that only you have access to your data.
                             </p>
                         </div>
                     </div>
-                </div>                                                                                                
+                </div>     
+                      <!-- Accordion item -->
+                      <div x-data="{ expanded: false }" class="py-2">
+                        <h2>
+                            <button
+                                id="faqs-title-07"
+                                type="button"
+                                class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                                @click="expanded = !expanded"
+                                :aria-expanded="expanded"
+                                aria-controls="faqs-text-07"
+                            >
+                                <span>Who should use the ThreeFold Grid ?</span>
+                                <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                    <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                </svg>
+                            </button>
+                        </h2>
+                        <div
+                            id="faqs-text-07"
+                            role="region"
+                            aria-labelledby="faqs-title-07"
+                            class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                            :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                            >
+                            <div class="overflow-hidden">
+                                 <p class="pb-3 text-gray-300 text-base font-light">
+                                    Individuals, businesses, and organizations who want to be sovereign and have full control over their data and applications. Security is a very big problem today, Technology as used by ThreeFold has the potential to resolve this if used properly. We are building a channel of solution providers and integrators who want to build on top of ThreeFold.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>                                                                                              
             </div>
             <!-- End: Accordion component -->
 
