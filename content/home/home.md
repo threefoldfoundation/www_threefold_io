@@ -31,6 +31,38 @@ To build Web 4, we need +1,000,000 Nodes
 
 <br/>
 
+## Powering the Grid Together
+
+Regardless of technical expertise, anyone can now provide data, network, and cloud resources to where they’re needed most while earning rewards for their contributions. We call this process "farming”.
+
+<div class="grid">
+<article>
+
+### 1. HOST A NODE
+
+All you need to get started is a modern computer, electricity and network. Once booted with Zero OS, a computer becomes a ThreeFold Node.
+
+</article>
+<article>
+
+### 2. OFFER CAPACITY
+
+The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized autonomous cloud for users and communities.
+
+</article>
+<article>
+
+### 3. EARN REWARDS
+
+After your node is set up and verified, you’ll be rewarded for the capacity that you provide to the ThreeFold Grid.
+
+</article>
+</div>
+
+<a class="contrast" role="button">Become a farmer</a>
+
+<br/>
+
 <section class="grid">
 <div>
 
