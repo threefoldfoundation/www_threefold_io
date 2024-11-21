@@ -2,9 +2,9 @@
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
 <header id="header-container">
-    <div class="z-20 bg-black2 absolute w-full">
+    <div class="z-20 absolute w-full">
         <div class="relative z-50">
-        <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-2 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
+        <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-4 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
             <div>
                 <a href="{{get_url(path='/')}}" class="flex">
                     <img class="w-36 h-auto" style="max-width: none;" src="{{ get_url(path=section.extra.logoPath)}}" alt="ThreeFold Logo" />
@@ -113,12 +113,12 @@
             </div>
         </div>
         </div>
-{% for header_item in header_items %}
-{% if not loop.first %}
-    {% set header_arr = header_item | split(pat="</li>") %}
-    {% set header_label = header_arr[0] %}
-    {% set header_menu = header_arr[1] %}
-    {% set menu_id = header_label ~ "-menu" | slugify %}
+                        {% for header_item in header_items %}
+                          {% if not loop.first %}
+                              {% set header_arr = header_item | split(pat="</li>") %}
+                              {% set header_label = header_arr[0] %}
+                              {% set header_menu = header_arr[1] %}
+                              {% set menu_id = header_label ~ "-menu" | slugify %}
 
 <nav>
     <div id="{{menu_id}}" class="nav_menu mt-0 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
