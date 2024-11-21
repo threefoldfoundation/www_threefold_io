@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: minting_farming_vote_passes.png
+    imgPath: minitin_farming_rewards_passes.png
 ---
 
 The recent vote on minting and farming rewards has been completed and was successful, with ±75% of the votes cast as "yes." The timing of implementation is to be determined and will be communicated. 
