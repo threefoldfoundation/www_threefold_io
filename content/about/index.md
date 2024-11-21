@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Why"
 description: "Our mission is to empower individuals and organizations with secure, private, and autonomous access to computing resources, ensuring fair cloud access for everyone." # quotation marks to allow colons where used
 template: "layouts/why.html"
 insert_anchor_links: "left"
