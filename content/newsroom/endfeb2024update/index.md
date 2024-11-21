@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, farming, grid, collaboration, tech]
   news-category: [community, farming, grid, collaboration, tech]
 extra:
-    imgPath: endfeb2024update.png
+    imgPath: feb_update_team.png
 ---
 
 Follow the link below to find an update from the ThreeFold team!

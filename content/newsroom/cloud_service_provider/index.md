@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: cloud_service_provider.png
+    imgPath: cloud_provider_consumer.png
 ---
 
 Traditionally, we've been mere consumers of cloud services, relinquishing control over our data and infrastructure to large companies. However, with ThreeFold's autonomous technology, the paradigm shifts. Now, individuals can host their cloud infrastructure with ease, without the need for technical expertise.

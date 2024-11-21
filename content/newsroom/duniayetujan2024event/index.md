@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, event, tech]
   news-category: [community, event, tech]
 extra:
-    imgPath: duniayetujan2024event.png
+    imgPath: dar_es_salaam_event.png
 ---
 
 This Friday, we are pleased to co-organize an event on "how to redefine the digital landscape in East Africa, empower coders, and build a self-reliant digital ecosystem for a better digital future," under the umbrella of [Dunia Yetu](https://forum.threefold.io/t/introducing-dunia-yetu/4147).
