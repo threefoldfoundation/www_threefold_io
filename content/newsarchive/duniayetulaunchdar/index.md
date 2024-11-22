@@ -10,7 +10,6 @@ taxonomies:
   news-category: [community, event, tech, news]
 extra:
     imgPath: sovereigndy.png
-    isFeatured: true
 ---
 
 Last Friday, we were pleased to formally and publicly announce Dunia Yetu, together with Dr. Nkundwe M. Mwasaga, the Director General of Tanzania’s ICT Commission, and Arthur Brock, co-founder of Holochain. The announcement was made in front of an audience of representatives from the Tanzanian Government and the tech community of Dar Es Salaam. More than 200 people have signed up, expressing their interest in taking part.
