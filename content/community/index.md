@@ -15,57 +15,61 @@ extra:
 {% row( style="center mtop semiNarrow") %}
 
 
-## **Join the <span class="blue">Community</span>**
+<h2 class="text-balance font-normal tracking-tight text-white lg:text-6xl text-3xl fade-in visible">Join the Community</h2>
 
 {% end %}
 
+
+<br>
+
 {% row( style="center semiNarrow") %}
 
-<div class="myscale">
+<div class="myscale text-white">
 
-[![Image](discourse.png#social)](https://forum.threefold.io/)
+[![Image](discourse_dark.png#social)](https://forum.threefold.io/)
 
 </div>
 
-###### **Forum**
 
-<p class="text-base leading-snug">Ask Questions<p>
+<h6 class="text-white mt-4 font-semibold">Forum</h6>
+
+<p class="text-base text-white  leading-snug">Ask Questions<p>
 
 |||
 
 <div class="myscale">
 
-[![Image](gh.png#social)](https://github.com/threefoldfoundation)
+[![Image](github_dark.png#social)](https://github.com/threefoldfoundation)
 
 </div>
 
-###### **GitHub | Tech**
+<h6 class="text-white mt-4 font-semibold">GitHub | Tech</h6>
 
-<p class="text-base leading-snug">Open-Source Collaboration for Tech Development<p>
+<p class="text-base text-white  leading-snug">Open-Source Collaboration for Tech Development<p>
 
 |||
 
 <div class="myscale">
 
-[![Image](gh.png#social)](https://github.com/threefoldtech)
+[![Image](github_dark.png#social)](https://github.com/threefoldtech)
 
 </div>
 
-###### **GitHub | Foundation**
+<h6 class="text-white mt-4 font-semibold">GitHub | Foundation</h6>
 
-<p class="text-base leading-snug">Open-source Collaboration for Websites and Online Info<p>
+<p class="text-base text-white  leading-snug">Open-source Collaboration for Websites and Online Info<p>
 
 |||
 
 <div class="myscale">
 
-[![Image](x.png#social)](https://x.com/threefold_io)
+[![Image](twitter.png#social)](https://x.com/threefold_io)
 
 </div>
 
-###### **X | Twitter**
+<h6 class="text-white mt-4 font-semibold">X | Twitter</h6>
 
-<p class="text-base leading-snug">"Tweet" With Us<p>
+<p class="text-base text-white  leading-snug">"Tweet" With Us<p>
 
 {% end %}
 
@@ -77,9 +81,9 @@ extra:
 
 </div>
 
-###### **Telegram News**
+<h6 class="text-white mt-4 font-semibold">Telegram News</h6>
 
-<p class="text-base leading-snug">Stay Updated<p>
+<p class="text-base text-white  leading-snug">Stay Updated<p>
 
 |||
 
@@ -89,9 +93,9 @@ extra:
 
 </div>
 
-###### **Telegram Main Chat**
+<h6 class="text-white mt-4 font-semibold">Telegram Main Chat</h6>
 
-<p class="text-base leading-snug">Community Conversation<p>
+<p class="text-base text-white  leading-snug">Community Conversation<p>
 
 |||
 
@@ -101,9 +105,9 @@ extra:
 
 </div>
 
-###### **Telegram Farmers Chat**
+<h6 class="text-white mt-4 font-semibold">Telegram Farmers Chat</h6>
 
-<p class="text-base leading-snug">Farming Community<p>
+<p class="text-base text-white  leading-snug">Farming Community<p>
 
 |||
 
@@ -113,9 +117,9 @@ extra:
 
 </div>
 
-###### **Telegram Grid User Chat**
+<h6 class="text-white mt-4 font-semibold">Telegram Grid User Chat</h6>
 
-<p class="text-base leading-snug">Grid User Community<p>
+<p class="text-base text-white  leading-snug">Grid User Community<p>
 
 {% end %}
 
@@ -125,13 +129,13 @@ extra:
 
 <div class="myscale">
 
-[![Image](reddit.png#social)](https://www.reddit.com/r/threefold/)
+[![Image](reddit_dark.png#social)](https://www.reddit.com/r/threefold/)
 
 </div>
 
-###### **Reddit**
+<h6 class="text-white mt-4 font-semibold">Reddit</h6>
 
-<p class="text-base leading-snug">Join In<p>
+<p class="text-base text-white  leading-snug">Join In<p>
 
 |||
 
@@ -141,9 +145,9 @@ extra:
 
 </div>
 
-###### **YouTube**
+<h6 class="text-white mt-4 font-semibold">YouTube</h6>
 
-<p class="text-base leading-snug">Watch Things Unfold<p>
+<p class="text-base text-white  leading-snug">Watch Things Unfold<p>
 
 |||
 
@@ -151,28 +155,28 @@ extra:
 
 <a target="_self" href="javascript:;" onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')">
 
-![Image](mail.png#social)
+![Image](mail_dark.png#social)
 
 </a>
 
 </div>
 
-###### **E-mail Newsletter**
+<h6 class="text-white mt-4 font-semibold">E-mail Newsletter</h6>
 
-<p class="text-base leading-snug">Updates in Your Inbox<p>
+<p class="text-base text-white  leading-snug">Updates in Your Inbox<p>
 
 
 |||
 
 <div class="myscale">
 
-[![Image](linkedin.png#social)](https://www.linkedin.com/company/threefold-io/)
+[![Image](linkedin_dark.png#social)](https://www.linkedin.com/company/threefold-io/)
 
 </div>
 
-###### **LinkedIn**
+<h6 class="text-white mt-4 font-semibold">LinkedIn</h6>
 
-<p class="text-base leading-snug">Lets Network<p>
+<p class="text-base text-white  leading-snug">Lets Network<p>
 
 {% end %}
 
@@ -180,7 +184,7 @@ extra:
 {% row( style="center mtop semiNarrow") %}
 
 
-## **Keep up with <span class="blue">ThreeFold Events</span>**
+<h2 class="fade-in text-balance text-4xl font-normal tracking-tight text-white sm:text-5xl">Keep up with ThreeFold Events</h2>
 
 {% end %}
 
@@ -193,6 +197,16 @@ extra:
 
 
 <style>
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .myscale{
   transition: transform .5s; 

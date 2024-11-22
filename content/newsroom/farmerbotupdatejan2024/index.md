@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, grid, tech]
   news-category: [community, grid, tech]
 extra:
-    imgPath: farmerbotupdatejan2024.png
+    imgPath: new_farmerbot_update.png
 ---
 
 We are pleased to share the release of the [new version of the Farmerbot](https://forum.threefold.io/t/update-on-new-farmerbot/4203). Thanks to everyone in the community using Farmerbot, your feedback has led us to evolve the tool. 

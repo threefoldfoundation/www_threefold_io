@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, grid, tech]
   news-category: [community, grid, tech]
 extra:
-    imgPath: introducingtfrobot.png
+    imgPath: tf_robot_introduction.png
 ---
 
  Meet tfrobot, designed to help you quickly deploy many VMs on the ThreeFold Grid at once.

@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, farming, grid, tech]
   news-category: [community, farming, grid, tech]
 extra:
-    imgPath: minting_and_farming_rewards_updates.png
+    imgPath: minting_farming_update.png
 ---
 
 We're excited to announce the release of a new Grid Enhancement Proposal (GEP). This proposal is shaped by insightful feedback we've received from the community. Our aim with this proposal is to bolster the reliability and fairness of the ThreeFold Grid, while ensuring fair value is achieved for all participants.

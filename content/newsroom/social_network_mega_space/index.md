@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, collaboration, tech]
   news-category: [community, collaboration, tech]
 extra:
-    imgPath: social_network_mega_space.png
+    imgPath: x_space_social_network.png
 ---
 
 Join the Social Network Mega Space at 5pm UTC.

@@ -16,7 +16,7 @@ extra:
 
 ###### [Learn](https://manual.grid.tf/)
 
-###### [Host (Farm)](https://docs.threefold.io/docs/nodes/guides/create_farm)
+###### [Host (Farm)](https://manual.grid.tf/documentation/farmers/farmers.html)
 
 ###### [Dashboard](https://dashboard.grid.tf/)
 
@@ -46,7 +46,7 @@ extra:
 
 <br>
 
-<h6><a target="_self" onclick="window.location.href='/about'">Why</a></h6>
+<h6><a target="_self" onclick="window.location.href='/why'">Why</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
