@@ -1,11 +1,11 @@
 ---
 title: "What"
-description: "What ThreeFold has built." # quotation marks to allow colons where used
+description: "TF offers a secure, sovereign infrastructure layer for Web 4, delivering unparalleled scalability, incorruptible and permanent data storage, AI and Web2/Web3/Edge compatibility, and 100% uptime for a resilient digital future." # quotation marks to allow colons where used
 template: "layouts/what.html"
 insert_anchor_links: "left"
 extra:
- author: Your name here
- imgPath: about/about_hero.png
+ author: ThreeFold
+ imgPath: tf.png
 ---
 
 

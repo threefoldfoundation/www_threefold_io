@@ -1,11 +1,11 @@
 ---
-title: "Solutions"
-description: "Take actions" # quotation marks to allow colons where used
+title: "Take actions"
+description: "Take actions and become a part of a pioneering Web4 movement with ThreeFold on 12.12.2024" # quotation marks to allow colons where used
 template: "layouts/action.html"
 insert_anchor_links: "left"
 extra:
- author: Your name here
- imgPath: about/about_hero.png
+ author: ThreeFold
+ imgPath: tf.png
 ---
 
 
