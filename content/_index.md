@@ -1,11 +1,11 @@
 ---
-title: "Home"
+title: "ThreeFold"
 description: "ThreeFold empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy sell, and use cloud resources autonomously and securely." # quotation marks to allow colons where used
 date: 2018-09-14T21:00:00-05:00
 updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
-  author: Your name here
+  author: ThreeFold
   imgPath: home/autonomous.png
 ---
 
