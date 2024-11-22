@@ -4,7 +4,7 @@ description: "Our unique technology enables a system that can scale to a planeta
 template: "page.html"
 insert_anchor_links: "left"
 extra:
-  imgPath: tech_here.png
+  imgPath: tf.png
 ---
 
 
