@@ -86,13 +86,13 @@ paginate_path = "tags"
 
 [[taxonomies]]
 name = "people"
-feed = true
+feed = false
 paginate_by = 9
 paginate_path = "people"
 
 [[taxonomies]]
 name = "memberships"
-feed = true
+feed = false
 paginate_by = 8
 paginate_path = "people/memberships"
 

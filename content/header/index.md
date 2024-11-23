@@ -35,16 +35,6 @@ extra:
 
 |||
 
-<button class="dropdown" onclick="window.location.href='/people'">
-
-[Our People](/people)
-<br>
-<p class="text-sm">Team, stories, & more</p>
-
-</button>
-
-|||
-
 <button class="dropdown" onclick="openInNewTab('https&#58;//https://docs.threefold.io/')">
 
 [Documentation](https://docs.threefold.io/)
