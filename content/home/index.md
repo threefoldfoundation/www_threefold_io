@@ -22,7 +22,7 @@ extra:
 
 ## **Self-Healing Data, Network, and Cloud Platform**
 
-Imagine a system which can scale to a planetary level, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, provides 100% uptime, and allows any machine and human to communicate over the shortest, most direct path.
+Imagine a system which can scale to a planetary level, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, capable to provide 100% uptime, and allows any machine and human to communicate over the shortest, most direct path.
 
 <br>
 
@@ -31,8 +31,6 @@ Imagine a system which can scale to a planetary level, is compatible with AI, Cl
 
 |||
 
-
-![Image](autonomous.png#mx-auto)
 
 
 {% end %}
@@ -65,7 +63,7 @@ Imagine a system which can scale to a planetary level, is compatible with AI, Cl
 ## **Proven by a global community**
 
 
-With ThreeFold, individuals, organizations, communities, countries, and network states deploy their own<br>sovereign infrastructure. The ThreeFold Grid has been live and operational since 2017.
+With ThreeFold, individuals, organizations, communities, countries, and network states deploy their own<br>sovereign infrastructure. Our Proof of Concept Network with 50,000 vCPUs is live and operational.
 
 **Version 3.14 is live on Mainnet**
 
