@@ -87,37 +87,6 @@
                 <div x-data="{ expanded: false }" class="py-2">
                     <h2>
                         <button
-                            id="faqs-title-03"
-                            type="button"
-                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
-                            @click="expanded = !expanded"
-                            :aria-expanded="expanded"
-                            aria-controls="faqs-text-03"
-                        >
-                            <span>This sounds too big, are you guys faking it?</span>
-                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
-                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
-                            </svg>
-                        </button>
-                    </h2>
-                    <div
-                        id="faqs-text-03"
-                        role="region"
-                        aria-labelledby="faqs-title-03"
-                        class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
-                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
-                        >
-                        <div class="overflow-hidden">
-                            <p class="pb-3 text-gray-300 text-base  font-light">
-                                We have been working on this for over 30 years and ThreeFold is the result of that work. We have a working product and a growing community of farmers, users, and partners. We are real and we are here to stay.
-                        </div>
-                    </div>
-                </div> 
-                <!-- Accordion item -->
-                <div x-data="{ expanded: false }" class="py-2">
-                    <h2>
-                        <button
                             id="faqs-title-04"
                             type="button"
                             class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
