@@ -104,7 +104,7 @@ function hideMenu(menuName) {
 function showHamburger() {
   document.getElementById("header-container").className = "overflow-hidden";
   document.getElementById("hamburger").className =
-    "fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right";
+    "fixed mt-14 z-20 top-0 inset-x-0 transition transform origin-top-right";
   document.getElementById("hamburger-btn").className =
     "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
   document.getElementById("close-hamburger-btn").className =

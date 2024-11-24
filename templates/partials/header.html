@@ -2,7 +2,7 @@
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
 <header id="header-container">
-    <div class="z-20 absolute w-full">
+    <div class="z-20 fixed top-0 left-0 right-0 bg-black lg:bg-transparent lg:absolute w-full">
         <div class="relative z-50">
         <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-4 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
             <div>
@@ -145,7 +145,7 @@
             From: "opacity-100 scale-100"
             To: "opacity-0 scale-95"
         -->
-    <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
+    <div id="hamburger" class="hidden fixed mt-14 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
         <div>
             <div style="background-color: rgba(34 34 34);" class="shadow-xs h-screen divide-y-2 divide-gray-50">
                 <div class="pb-6 sm:px-12 md:px-16 mt-0 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
