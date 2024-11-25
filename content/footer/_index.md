@@ -14,9 +14,9 @@ extra:
 
 <br>
 
-###### [Learn](https://manual.grid.tf/)
+###### [Learn](https://docs.threefold.io/docs/introduction)
 
-###### [Host (Farm)](https://manual.grid.tf/documentation/farmers/farmers.html)
+###### [Host (Farm)](https://docs.threefold.io/docs/category/become-a-farmer)
 
 ###### [Dashboard](https://dashboard.grid.tf/)
 
