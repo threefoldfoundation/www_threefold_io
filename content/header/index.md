@@ -35,13 +35,24 @@ extra:
 
 |||
 
-<button class="dropdown" onclick="openInNewTab('https&#58;//https://docs.threefold.io/')">
+<button class="dropdown" onclick="openInNewTab('https&#58;//docs.threefold.io/docs/introduction')">
 
-[Documentation](https://docs.threefold.io/)
+[More Info](https://docs.threefold.io/docs/introduction)
 <br>
-<p class="text-sm">Explore the Documentation</p>
+<p class="text-sm">Go here first.</p>
 
 </button>
+
+|||
+
+<button class="dropdown" onclick="openInNewTab('https&#58;//manual.grid.tf/')">
+
+[Documentation](https://manual.grid.tf/)
+<br>
+<p class="text-sm">Explore the Documentation (big)</p>
+
+</button>
+
 
 
 {% end %}

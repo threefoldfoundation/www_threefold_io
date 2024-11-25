@@ -209,41 +209,74 @@
                             </p>
                         </div>
                     </div>
-                </div>     
-                      <!-- Accordion item -->
-                      <div x-data="{ expanded: false }" class="py-2">
-                        <h2>
-                            <button
-                                id="faqs-title-07"
-                                type="button"
-                                class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
-                                @click="expanded = !expanded"
-                                :aria-expanded="expanded"
-                                aria-controls="faqs-text-07"
-                            >
-                                <span>Who should use the ThreeFold Grid ?</span>
-                                <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
-                                    <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
-                                </svg>
-                            </button>
-                        </h2>
-                        <div
-                            id="faqs-text-07"
-                            role="region"
-                            aria-labelledby="faqs-title-07"
-                            class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
-                            :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
-                            >
-                            <div class="overflow-hidden">
-                                 <p class="pb-3 text-gray-300 text-base font-light">
-                                    Individuals, businesses, and organizations who want to be sovereign and have full control over their data and applications. Security is a very big problem today, Technology as used by ThreeFold has the potential to resolve this if used properly. We are building a channel of solution providers and integrators who want to build on top of ThreeFold.
-
-                                </p>
-                            </div>
+                </div>    
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-07"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-07"
+                        >
+                            <span>What can I do with the Threefold Grid?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div
+                        id="faqs-text-07"
+                        role="region"
+                        aria-labelledby="faqs-title-07"
+                        class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                             <p class="pb-3 text-gray-300 text-base font-light">
+                                ThreeFold grid can be used to host any web2, web3 and web4 (future) workload.
+                                For more details see <a href="https://docs.threefold.io/docs/use" target="_blank" rel="noopener noreferrer">our ebook</a>
+                            </p>
                         </div>
-                    </div>                                                                                              
-            </div>
+                    </div>
+                </div>                   
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                <h2>
+                    <button
+                        id="faqs-title-07"
+                        type="button"
+                        class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                        @click="expanded = !expanded"
+                        :aria-expanded="expanded"
+                        aria-controls="faqs-text-07"
+                    >
+                        <span>Who should use the ThreeFold Grid ?</span>
+                        <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                        </svg>
+                    </button>
+                </h2>
+                <div
+                    id="faqs-text-07"
+                    role="region"
+                    aria-labelledby="faqs-title-07"
+                    class="grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out"
+                    :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                    >
+                    <div class="overflow-hidden">
+                            <p class="pb-3 text-gray-300 text-base font-light">
+                            Individuals, businesses, and organizations who want to be sovereign and have full control over their data and applications. Security is a very big problem today, Technology as used by ThreeFold has the potential to resolve this if used properly. We are building a channel of solution providers and integrators who want to build on top of ThreeFold.
+
+                        </p>
+                    </div>
+                </div>
+            </div>                                                                                              
+    </div>
             <!-- End: Accordion component -->
 
         </div>
