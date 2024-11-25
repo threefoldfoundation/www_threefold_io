@@ -4,7 +4,7 @@ description: "TF offers a secure, sovereign infrastructure layer for Web 4, deli
 insert_anchor_links: "left"
 extra:
  author: ThreeFold
- imgPath: tf.png
+ imgPath: home/tf.png
 ---
 
 
