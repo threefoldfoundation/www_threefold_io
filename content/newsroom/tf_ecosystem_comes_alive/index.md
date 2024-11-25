@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: tf_ecosystem_comes_alive.png
+    imgPath: tf_ecosystem_alive.png
 ---
 
 As we enter the next phase of ThreeFold, the project moves into an even greater level of decentralization, with layers being introduced to make us – and our grid – more resilient and reliable.

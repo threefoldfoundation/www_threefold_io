@@ -1,0 +1,57 @@
+<div class="bg-transparent fade-in pb-24 flex items-center justify-center">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:max-w-7xl items-center text-center">
+            <p class="fade-in mx-auto text-pretty lg:text-2xl leading-tight text-xl font-normal text-gray-200">Announcements</p>
+           <p class="fade-in mx-auto text-pretty lg:text-5xl leading-tight text-4xl font-normal text-white">Coming Soon on 12.12.24</p> 
+           <p class="max-w-4xl mt-4 fade-in mx-auto text-pretty lg:text-xl mb-12 leading-tight text-lg font-light text-gray-200"></p> 
+
+        </div>
+        <div class="-mx-6 grid grid-cols-2 gap-2 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-2">
+            <div class="grid-item bg-white/5 p-2 lg:p-12">
+                <h2 class="text-white lg:text-3xl text-xl text-center font-semibold">A Roadmap to <br>Web 4</h2>
+            </div>
+            <div class="grid-item bg-white/5 p-2 lg:p-12">
+                <h2 class="text-white lg:text-3xl text-xl text-center font-semibold">Web 4 <br>Phone</h2>
+            </div>
+            <div class="grid-item bg-white/5 p-2 lg:p-12">
+                <h2 class="text-white lg:text-3xl text-xl text-center font-semibold">Web 4 <br>Router</h2>
+            </div>
+            <div class="grid-item bg-white/5 p-2 lg:p-12">
+                <h2 class="text-white lg:text-3xl text-xl text-center font-semibold">Web 4 <br>Node</h2>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // JavaScript to control the blinking effect
+    const items = document.querySelectorAll('.grid-item');
+    let currentIndex = 0;
+
+    function blinkItem() {
+        // Remove the 'blink' class from all items
+        items.forEach(item => item.classList.remove('blink'));
+
+        // Add the 'blink' class to the current item
+        items[currentIndex].classList.add('blink');
+
+        // Move to the next item in a clockwise manner
+        currentIndex = (currentIndex + 1) % items.length;
+    }
+
+    // Start the blinking effect
+    setInterval(blinkItem, 1000); // Change every second
+</script>
+
+<style>
+    /* CSS for the blinking effect */
+    .blink {
+        animation: blink-animation 1s infinite;
+    }
+
+    @keyframes blink-animation {
+        0%, 100% { background-color: rgba(255, 255, 255, 0.1); }
+        50% { background-color: rgba(255, 255, 255, 0.5); }
+    }
+</style>

@@ -3,14 +3,13 @@ title: "Header"
 insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
-  logoPath: "images/black_threefold.png"
-  button_Path: "/images/gettft_node_2.png"
+  logoPath: "images/new_logo_tft.png"
+
 ---
 
-- [About]("/about")
-- [Technology]("/technology")
-- [Host]("/host")
-- [Deploy]("/deploy") 
+- [Why]("/why")
+- [What]("/what")
+- [12.12.24]("/action")
 - Info
 
 
@@ -36,11 +35,11 @@ extra:
 
 |||
 
-<button class="dropdown" onclick="window.location.href='/people'">
+<button class="dropdown" onclick="openInNewTab('https&#58;//docs.threefold.io/docs/introduction')">
 
-[Our People](/people)
+[More Info](https://docs.threefold.io/docs/introduction)
 <br>
-<p class="text-sm">Team, stories, & more</p>
+<p class="text-sm">Go here first.</p>
 
 </button>
 
@@ -48,11 +47,12 @@ extra:
 
 <button class="dropdown" onclick="openInNewTab('https&#58;//manual.grid.tf/')">
 
-[Documentation](https://manual.grid.tf)
+[Documentation](https://manual.grid.tf/)
 <br>
-<p class="text-sm">Explore the Documentation</p>
+<p class="text-sm">Explore the Documentation (big)</p>
 
 </button>
+
 
 
 {% end %}

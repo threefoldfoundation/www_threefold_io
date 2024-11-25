@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, why]
   categories: [decentralization, why]
 extra:
-    imgPath: products_in_a_machine.png
+    imgPath: digital_world1.png
 ---
 
 In an ever-expanding and evolving digital world, our relationship with the Internet is generally underdiscussed. We've come to rely on platforms that promise connection, information, and entertainment. Yet, there are cracks in the system and massive trade offs for all of us, the "users." Let's pause for a moment and consider, is today's Internet truly serving us?

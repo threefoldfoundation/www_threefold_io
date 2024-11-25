@@ -9,7 +9,7 @@ taxonomies:
   tags: [grid,decentralization,tech,why]
   categories: [grid,decentralization,tech,why]
 extra:
-    imgPath: internet_misconceptions.png
+    imgPath: truth_behind_misconceptions.png
 ---
 
 It’s been years that the ThreeFold team has been at this work of evolving the Internet in a fair and just way. We know how the Internet works and the challenges it faces, and because of this, we have been able to do the work of upgrading the Internet with a ground-up solution.
@@ -86,4 +86,4 @@ Dive in to learn more and how to get involved:
 
 - [From the ground up: Three inventions that make ThreeFold possible](https://www.threefold.io/blog/ground-up-innovations/)
 - [The evolution of the Internet: From free to controlled, and back again](https://www.threefold.io/blog/eveloution-of-the-internet/)
-- [ThreeFold Manual](https://manual.grid.tf)
+- [ThreeFold Docs: Litepaper, Tokenomics, Node Guide, & More](https://docs.threefold.io/)

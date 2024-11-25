@@ -1,0 +1,82 @@
+<div class="bg-transparent">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-16 gap-y-16 px-8 pt-12 mt-12 pb-24 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+      <div class="max-w-3xl px-0 lg:px-16 lg:pb-10 pb-4">
+        <h2 class="fade-in text-balance lg:text-5xl text-4xl leading-snug font-normal tracking-tight text-white sm:text-5xl">What You Can Do With It
+        </h2>
+        <p class="mx-auto mt-6 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">Today, ThreeFold is primarily focused on empowering developers to create innovative cloud solutions.</p>
+        <p class="mx-auto mt-4 mb-6 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">On 12-12-24, we will unveil exciting news about how Web4 will soon become accessible to everyone, opening up endless possibilities for all users.</p>
+        <a href="/action" class="mt-4 border border-white px-6 py-2 fade-in lg:text-3xl text-2xl rounded-2xl tracking-normal font-medium text-white hover:text-gray-400 blinking-effect"><span aria-hidden="true">→ </span>12.12.24</a>
+      </div>
+      <div class="lg:px-16 fade-in"> <!-- Added padding to the right side for more spacing -->
+        <dl class="fade-in grid grid-cols-1 mx-auto gap-x-8 sm:grid-cols-2 lg:gap-y-10 gap-y-6">
+          <div class="">
+            <dt class="font-medium text-gray-200">Communicate securely</dt>
+            <dd class="mt-1 font-light text-gray-300 text-sm mb-4">Experience end-to-end encrypted communication in the shortest possible path, ensuring messages remain private and unalterable—even during disasters.</dd> 
+          </div>
+          <div class="">
+            <dt class="font-medium text-gray-200">Store effortlessly</dt>
+            <dd class="mt-1 ont-light text-gray-300 text-sm mb-4">Securely share and store information with ease, scaling seamlessly from personal use to billions of users. </dd>
+          </div>
+          <div class="">
+            <dt class="font-medium text-gray-200">Restore authenticity</dt>
+            <dd class="font-light text-gray-300 text-sm mb-4">Determine which information can be trusted, bringing clarity and confidence back to the digital space. </dd>
+         </div>
+         <div class="">
+            <dt class="font-medium text-gray-200">Unlock limitless insights</dt>
+            <dd class="font-light text-gray-300 text-sm mb-4">Discover, analyze, and find information with no boundaries, aided by a powerful personal AI assistant. </dd>
+         </div>
+         <div class="">
+            <dt class="font-medium text-gray-200">Streamline your interactions</dt>
+            <dd class="font-light text-gray-300 text-sm mb-4">Keep track of all your connections and simplify your life with an AI that optimizes your daily tasks and interactions. </dd>
+         </div>
+         <div class="">
+            <dt class="font-medium text-gray-200">Take control of your digital presence</dt>
+            <dd class="font-light text-gray-300 text-sm mb-4">Own and manage your data, identity, and interactions across platforms, ensuring transparency and sovereignty in the digital world.</dd>
+         </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Define the slow blinking animation */
+    @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    
+      /* Apply the fade-in animation to elements with the 'fade-in' class */
+      .fade-in {
+        animation: fadeIn 4s ease-in-out forwards; /* Adjust the duration (2s) to make it slower or faster */
+      }
+    
+      /* Optional: Delay the animation for a more staggered effect */
+      h2 {
+        animation-delay: 0.5s; /* Delay for header */
+      }
+    
+      p {
+        animation-delay: 1s; /* Delay for paragraphs */
+      }
+      
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.4;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    /* Apply the blinking animation to the link */
+    .blinking-effect {
+      animation: blink 3s infinite; /* Adjust the speed here (1.5s for slow blinking) */
+    }
+  </style>

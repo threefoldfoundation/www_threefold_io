@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, why]
   categories: [decentralization, why]
 extra:
-  imgPath: tech_as_a_tool_for_humanity.png
+  imgPath: tool_for_humanity1.png
 ---
 
 *This article was originally published by Victoria Obeegadoo, a former member of the ThreeFold team.*

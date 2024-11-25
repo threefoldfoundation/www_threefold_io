@@ -9,7 +9,7 @@ taxonomies:
   tags: [grid,decentralization,tech,why]
   categories: [grid,decentralization,tech,why]
 extra:
-    imgPath: ground_up_innovations.png
+    imgPath: from_the_ground_up1.png
 ---
 
 Building a cloud and internet infrastructure from the ground up is no easy, or quick, task. But if we want a truly different way forward, there is no other way, really. We do what we do, the way we do it, because we cannot continue to put “band-aids” on problems which require a much deeper and thoughtful approach.

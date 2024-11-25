@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: gep_voting_process.png
+    imgPath: voting_process_gep.png
 
 ---
 

@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, grid, cloud, tech]
   categories: [decentralization, grid, cloud, tech]
 extra:
-    imgPath: mycelium.png
+    imgPath: mycelium1.png
 ---
 
 *Lee is working on a very exciting new project called Mycelium, our own Ipv6 overlay network. Thanks to him for taking the time to create this short write-up on what it is and why it is needed.*

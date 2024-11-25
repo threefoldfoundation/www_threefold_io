@@ -9,7 +9,7 @@ taxonomies:
   tags: [grid, tech]
   categories: [grid, tech]
 extra:
-    imgPath: cloud_provider.png
+    imgPath: cloud_internet_provider1.png
 ---
 
 Cloud and Internet service providers form the backbone of our digital experiences. They host data and applications, and facilitate connectivity. Major corporations have long dominated this space. When the Internet started to become mainstream, it was necessary to scale the infrastructure quickly to meet growing demand. Thus, with their vast amounts of resources, big companies were the ones to build this infrastructure and offer services on top.

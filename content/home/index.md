@@ -1,12 +1,12 @@
 ---
-title: "Home"
-description: "ThreeFold empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy sell, and use cloud resources autonomously and securely." # quotation marks to allow colons where used
+title: "ThreeFold"
+description: "TF offers a secure, sovereign infrastructure layer for Web 4, delivering unparalleled scalability, incorruptible and permanent data storage, AI and Web2/Web3/Edge compatibility, and 100% uptime for a resilient digital future." # quotation marks to allow colons where used
 date: 2018-09-14T21:00:00-05:00
 updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
- author: Your name here
- imgPath: home/autonomous.png
+ author: ThreeFold
+ imgPath: tf.png
 ---
 
 
@@ -24,13 +24,16 @@ extra:
 
 # **Self-Healing Data, Network, <br>and Cloud Platform**
 
-Imagine a system which can scale to a planetary level, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, provides 100% uptime, and allows any machine and human to communicate over the shortest, most direct path.
+Imagine a system which can scale to a planetary level, is compatible with AI, Cloud, Web2, Web3 and Edge IT workloads, has the potential to recover from unforeseen events, capable to provide 100% uptime, and allows any machine and human to communicate over the shortest, most direct path.
 
 <br>
 
 <button class="blue_b">[Host](/host)</button><button class="blue_b">[Deploy](/deploy)</button><button class="green">[About](/about)</button> 
 
-</div>
+
+|||
+
+
 
 {% end %}
 
@@ -52,7 +55,7 @@ Imagine a system which can scale to a planetary level, is compatible with AI, Cl
 ## **Proven by a global community**
 
 
-With ThreeFold, individuals, organizations, communities, countries, and network states deploy their own<br>sovereign infrastructure. The ThreeFold Grid has been live and operational since 2017.
+With ThreeFold, individuals, organizations, communities, countries, and network states deploy their own<br>sovereign infrastructure. Our Proof of Concept Network with 50,000 vCPUs is live and operational.
 
 **Version 3.14 is live on Mainnet**
 

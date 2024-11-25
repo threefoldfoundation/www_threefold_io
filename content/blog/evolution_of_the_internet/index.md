@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,community]
   categories: [tech,community]
 extra:
-    imgPath: evloution_of_the_internet.png
+    imgPath: evolution_of_the_internet1.png
     isFeatured: true
 ---
 
