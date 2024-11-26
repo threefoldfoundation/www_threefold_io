@@ -7,22 +7,30 @@
           <p class="mx-auto mt-6 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">With ThreeFold, individuals, organizations, communities, countries, and network states have the potential to deploy their own sovereign infrastructure. Our Proof of Concept Network with 56,000 vCPUs is operational for years.</p>
           <p class="mx-auto mt-6 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">Version 3.15 is live on Mainnet.</p>
         </div>
-        <dl class="mt-16 grid grid-cols-1 gap-2 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
-            <div class="fade-in flex flex-col bg-white/5 p-8">
+        <dl class="items mt-16 grid grid-cols-1 gap-2 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+            <!-- capacity -->
+          <div class="tooltip fade-in flex flex-col bg-white/5 p-8">
+              <span class="tooltiptext">The total amount of storage (SSD, HDD, & RAM) on the grid. 1 petabyte equals roughly 1 million gigabytes.</span>
               <dt class="text-sm/6 font-light text-gray-300">CAPACITY</dt>
-              <dd class="order-first text-3xl font-semibold tracking-tight text-white">24.73 PB</dd>
+              <dd id="capacity" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
             </div>
-            <div class="fade-in flex flex-col bg-white/5 p-8">
+            <!-- cores -->
+            <div class="tooltip fade-in flex flex-col bg-white/5 p-8">
+              <span class="tooltiptext">The total number of Central Processing Unit cores (compute power) available on the grid.</span>
               <dt class="text-sm/6 font-light text-gray-300">CORES</dt>
-              <dd class="order-first text-3xl font-semibold tracking-tight text-white">56,114</dd>
+              <dd id="cores" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
             </div>
-            <div class="fade-in flex flex-col bg-white/5 p-8">
+            <!-- Nodes -->
+            <div class="tooltip fade-in flex flex-col bg-white/5 p-8">
+              <span class="tooltiptext">The total number of nodes on the grid. A node is a computer server 100% dedicated to the network.</span>
               <dt class="text-sm/6 font-light text-gray-300">NODES</dt>
-              <dd class="order-first text-3xl font-semibold tracking-tight text-white">2053</dd>
+              <dd id="nodes" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
             </div>
-            <div class="fade-in flex flex-col bg-white/5 p-8">
+            <!-- countries -->
+            <div class="tooltip fade-in flex flex-col bg-white/5 p-8">
+              <span class="tooltiptext">The total number of countries where at least one node is connected and operational.</span>
               <dt class="text-sm/6 font-light text-gray-300">COUNTRIES</dt>
-              <dd class="order-first text-3xl font-semibold tracking-tight text-white">52</dd>
+              <dd id="countries" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
             </div>
           </dl>
       </div>
@@ -71,5 +79,46 @@
     p {
       animation-delay: 1s; /* Delay for paragraphs */
     }
+
+    /* Tooltip container */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  font-size: 12px;
+  visibility: hidden;
+  width: 250px;
+  background-color: rgb(26 26 26 / 90%);
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 4px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 4px;
+  /* right: -60px; */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media (max-width: 480px) {
+    .tooltip .tooltiptext {
+        position: absolute;
+  z-index: 1;
+  bottom: -50px;
+  right: 0px !important;
+    }
+
+}
   </style>
   
