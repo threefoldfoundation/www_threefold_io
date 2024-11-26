@@ -69,7 +69,7 @@ And the best thing about the [playground](https://library.threefold.me/info/manu
 
 <br/>
 
-We’ve entered the [third phase of our journey](https://www.threefold.io/blog/four-phases-of-threefold/) towards our ultimate vision of a better future – the phase of Web 4. In addition to fully comprehensive decentralized edge cloud solutions, the ThreeFold ecosystem is also developing a range of applications and experiences across IoT, metaverse, blockchain, DeFi, banking, education and beyond.
+We’ve entered the [third phase of our journey](https://www.threefold.io/blog/four-phases-of-threefold/) towards our ultimate vision of a better future – the phase of Web4. In addition to fully comprehensive decentralized edge cloud solutions, the ThreeFold ecosystem is also developing a range of applications and experiences across IoT, metaverse, blockchain, DeFi, banking, education and beyond.
 
 <br/>
 

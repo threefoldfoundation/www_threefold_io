@@ -1,6 +1,6 @@
 ---
 title: "ThreeFold"
-description: "TF offers a secure, sovereign infrastructure layer for Web 4, delivering unparalleled scalability, incorruptible and permanent data storage, AI and Web2/Web3/Edge compatibility, and 100% uptime for a resilient digital future." 
+description: "TF offers a secure, sovereign infrastructure layer for Web4, delivering unparalleled scalability, incorruptible and permanent data storage, AI and Web2/Web3/Edge compatibility, and 100% uptime for a resilient digital future." 
 insert_anchor_links: "left"
 extra:
  author: ThreeFold

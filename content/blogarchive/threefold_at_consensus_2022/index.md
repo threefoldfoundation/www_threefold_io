@@ -36,7 +36,7 @@ It’s no secret that many projects in the space still rely on centralized infra
 
 ## A decentralized world needs a decentralized foundation
 
-I think we’ve already come to Consensus that decentralization has to start at the foundational level. See what I did there? The ThreeFold co-founders have more than 20 years of experience in setting world records in Internet storage and cloud automation technologies. With ThreeFold, they started from scratch to build a fully decentralized Internet infrastructure that’s peer-to-peer and open source. We’re realizing the promise of an Internet built and owned by the people, back to the vision of Web 1 through the implementation of Web 4 technology. For us, it’s obvious that we simply cannot build a fair and equal digital world on top of today's old-world infrastructure which is owned by the few. 
+I think we’ve already come to Consensus that decentralization has to start at the foundational level. See what I did there? The ThreeFold co-founders have more than 20 years of experience in setting world records in Internet storage and cloud automation technologies. With ThreeFold, they started from scratch to build a fully decentralized Internet infrastructure that’s peer-to-peer and open source. We’re realizing the promise of an Internet built and owned by the people, back to the vision of Web 1 through the implementation of Web4 technology. For us, it’s obvious that we simply cannot build a fair and equal digital world on top of today's old-world infrastructure which is owned by the few. 
 
 <br/>
 
