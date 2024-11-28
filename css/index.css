@@ -12,6 +12,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+.dashboard:hover {
+
+  background: #74ddc3 !important;
+}
+
+
 /* Custom CSS for header partial */
 .backdrop-blur {
   -webkit-backdrop-filter: blur(40px);
@@ -37,6 +43,7 @@
 .bg-transparent {
   background-color: transparent;
 }
+
 
 
 /* Custom css allowing image styling in markdown */
@@ -181,7 +188,7 @@ background-color:#5596f5 !important;
 }
 
 .footer-cust a:hover {
-  color: rgb(65, 65, 65); 
+  color: #74ddc3; 
 }
 
 .footer-cust h6{
