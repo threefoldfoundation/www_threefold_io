@@ -1,7 +1,7 @@
 ---
-id: next_demo_grid_server
+id: 315-live
 title: TF Grid 3.15 Live on Mainnet
-image_caption: next_demo_grid_server
+image_caption: 315-live
 description:  TF Grid 3.15 is now on Mainnet. To know more click here. 
 date: 2024-11-14
 taxonomies:
