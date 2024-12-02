@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, decentralization, farming, grid, cloud]
   categories: [community, decentralization, farming, grid, cloud]
 extra:
-    imgPath: solar_comparison.png
+    imgPath: decentralized_internet.png
 ---
 
 *This article was originally published by Emilie Ouwerx, a former member of the ThreeFold team.*\

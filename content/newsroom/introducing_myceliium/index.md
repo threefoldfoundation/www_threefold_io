@@ -10,7 +10,7 @@ taxonomies:
   tags: [community, tech]
   news-category: [community, tech]
 extra:
-  imgPath: mycelium.png
+  imgPath: mycelium_unveiled.png
 ---
 
 ThreeFold is implementing a planetary network, aiming to allow efficient, end-to-end encrypted communication with other participants on the network

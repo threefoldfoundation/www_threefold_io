@@ -9,7 +9,7 @@ taxonomies:
   tags: [decentralization, grid, why, tech]
   categories: [decentralization, grid, why, tech]
 extra:
-    imgPath: resolving_problems.png
+    imgPath: golbal_tech_issues1.png
 ---
 
 Imagine this: two friends in East Africa trying to connect via a video call. Instead of a direct link, their data embarks on a round trip to far-off data centers, consuming resources and adding costs. It's a snippet of a larger issue—how centralized infrastructure is holding back progress in connectivity.

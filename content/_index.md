@@ -1,12 +1,12 @@
 ---
-title: "Home"
-description: "ThreeFold empowers anyone to become a cloud service provider – no technical expertise required – allowing people and organizations to buy sell, and use cloud resources autonomously and securely." # quotation marks to allow colons where used
+title: "ThreeFold"
+description: "TF offers a secure, sovereign infrastructure layer for Web4, delivering unparalleled scalability, incorruptible and permanent data storage, AI and Web2/Web3/Edge compatibility, and 100% uptime for a resilient digital future." # quotation marks to allow colons where used
 date: 2018-09-14T21:00:00-05:00
 updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
-  author: Your name here
-  imgPath: home/autonomous.png
+  author: ThreeFold
+  imgPath: home/tf.png
 ---
 
 
@@ -17,7 +17,7 @@ extra:
 <br/>
 <br/>
 
-![Image](images/black_threefold_header.png#mx-auto#medium)
+![Image](images/white_threefold_header.png#mx-auto#medium)
 
 <br/>
 

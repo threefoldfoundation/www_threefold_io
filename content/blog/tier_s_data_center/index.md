@@ -9,7 +9,7 @@ taxonomies:
   tags: [cloud, tech]
   categories: [cloud, tech]
 extra:
-  imgPath: tier_s_data_center.png
+  imgPath: data_centre_tiers1.png
 ---
 
 In an era where artificial intelligence is reshaping our technological landscape, it is imperative to reconsider how we design and operate data centers. With decades of experience in the Internet and Cloud space and in response to technological evolutions, ThreeFold is proposing a new approach.

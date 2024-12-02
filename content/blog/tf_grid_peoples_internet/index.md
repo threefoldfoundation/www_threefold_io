@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, decentralization, grid, why]
   categories: [community, decentralization, grid, why]
 extra:
-    imgPath: tf_grid_peoples_internet.png
+    imgPath: by_and_for_the_people.png
 ---
 
 What do you think of when you hear the word Internet? For many, it's the websites and applications we consume online as end users. But the Internet is much more than this. And ultimately, every action we take online goes through a complex set of automated processes and protocols to store, run, and transmit data (e.g. photos, videos, messages, other files) across the global Internet infrastructure.

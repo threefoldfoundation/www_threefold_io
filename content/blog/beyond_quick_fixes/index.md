@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   categories: [tech,grid,community]
 extra:
-    imgPath: beyond_quick_fixes.png
+    imgPath: beyond_quick_fixes1.png
 ---
 
 The Internet is a crucial part of our daily lives, yet it faces many challenges. To name a few, about half of the global population doesn’t have fair or reliable access, data privacy, and cybersecurity threats are greater than ever before, and the current model is unsustainable for our planet. Despite advancements in technology, the Internet has been stuck in a cycle of quick fixes and patchwork solutions, unable to address these fundamental issues truly.

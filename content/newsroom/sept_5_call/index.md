@@ -1,6 +1,6 @@
 ---
 id: sept_5_call
-title: Watch Yesterday's Project Update
+title: Watch September's Project Update
 image_caption: mainnet_upgrade_314
 description: This month's update covered recent progress, OurVerse demos, TF Grid version 3.15, and much more.
 date: 2024-09-06
@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: sept_5_call.jpg
+    imgPath: sept_call.png
 
 ---
 
@@ -21,7 +21,7 @@ Omrei introduced OurVerse, a metaverse for creating and exploring 3D environment
 
 <br/>
 
-Mik covered TF Grid updates, [focusing on version 3.15](https://forum.threefold.io/t/new-features-in-the-upcoming-3-15-version/4401). Scott spoke about recent and upcoming demos, and Sam wrapped up with an update on the team’s on-the-ground efforts.
+Mik covered TF Grid updates, [focusing on version 3.15](https://forum.threefold.io/t/new-features-in-the-upcoming-3-15-version/4401) and introduced [ThreeFold Docs](https://docs.threefold.io/), a simplified resource with key materials. Scott spoke about recent and upcoming demos, and Sam wrapped up with an update on the team’s on-the-ground efforts.
 
 <br/>
 

@@ -9,7 +9,7 @@ taxonomies:
   tags: [grid, cloud, tech]
   categories: [grid, cloud, tech]
 extra:
-    imgPath: building_a_new_internet_2.png
+    imgPath: building_a_new_internet_2_1.png
 ---
 
 Welcome back for the second part of this introductory series on ThreeFold Grid technology. [Last time](https://threefold.io/blog/an_intro_to_the_threefold_grid/) we took a high level view of all that the Grid offers. This time, we'll be zooming in on storage, covering the low level components and how they can provide a familiar experience like the cloud "drives" and "boxes" we use today.

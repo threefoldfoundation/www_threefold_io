@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: meeting_digital_demand_at_the_edge.png
+    imgPath: meeting_digital_demand.png
 ---
 
 Edge computing offers a solution to traditional centralized cloud infrastructure challenges by processing data closer to its source. This approach reduces latency, conserves energy, and enhances bandwidth efficiency. By distributing processing tasks closer to the data source, edge computing improves scalability and efficiently handles increasing workloads. 

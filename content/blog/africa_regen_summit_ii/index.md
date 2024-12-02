@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, event, collaboration, why]
   categories: [community, event, collaboration, why]
 extra:
-    imgPath: africa_regen_summit_ii.png
+    imgPath: africa_future_summit1.png
 ---
 
 In 2023, we had the pleasure of hosting two summits in Zanzibar – one in July and another in [November](https://www.threefold.io/newsroom/africa-regen-ii/), named the Africa Regenerative Future Summit. These events brought together leading innovators and investors committed to advancing human flourishing, with a specific emphasis on science and technology shaping the trajectory of Africa's future.

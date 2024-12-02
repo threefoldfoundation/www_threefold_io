@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: 314_upgrade.png
+    imgPath: 314_upgrade1.png
 ---
 
 TF Grid 3.14 is now on Mainnet. This release is focused on stability and reliability and includes improvements and upgrades to Zero OS, TF Chain, Grid-Proxy, Farmerbot, Pulumi, and SDK-Go. Find the details [here](https://forum.threefold.io/t/gep-tf-grid-mainnet-release-3-14/4372).

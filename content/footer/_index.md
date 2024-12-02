@@ -4,8 +4,8 @@ description: ""
 insert_anchor_links: "left"
 template: "partials/footer.html"
 extra:
-  logoPath: "images/black_threefold.png"
-  socialLinks: { Github: "https://github.com/threefoldfoundation", Github2: "https://github.com/threefoldtech", Twitter: "https://twitter.com/threefold_io", Telegram: "https://t.me/threefoldnews"  }
+  logoPath: "images/new_logo_tft.png"
+  socialLinks: { Twitter: "https://twitter.com/threefold_io", Telegram: "https://t.me/threefoldnews", Github: "https://github.com/threefoldfoundation", Github2: "https://github.com/threefoldtech"}
 ---
 
 {% row(style="lean") %}
@@ -14,9 +14,9 @@ extra:
 
 <br>
 
-###### [Learn](https://manual.grid.tf/)
+###### [Learn](https://docs.threefold.io/docs/introduction)
 
-###### [Host (Farm)](/host)
+###### [Host (Farm)](https://docs.threefold.io/docs/category/become-a-farmer)
 
 ###### [Dashboard](https://dashboard.grid.tf/)
 
@@ -26,7 +26,7 @@ extra:
 
 |||
 
-##### TALK TO HUMANS
+##### <span class="text-gray-100">COMMUNITY</span>
 
 <br>
 
@@ -46,7 +46,7 @@ extra:
 
 <br>
 
-<h6><a target="_self" onclick="window.location.href='/about'">About</a></h6>
+<h6><a target="_self" onclick="window.location.href='/why'">Why</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 

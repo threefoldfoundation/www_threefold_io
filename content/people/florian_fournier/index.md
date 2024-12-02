@@ -1,6 +1,6 @@
 ---
 title: Florian Fournier
-weight: 2
+weight: 1
 description: Co-Founder & CMO
 taxonomies:
     people: [florian_fournier]

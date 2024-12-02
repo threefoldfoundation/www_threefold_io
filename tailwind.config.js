@@ -4,7 +4,28 @@ module.exports = {
   content: [
       './templates/**/*.html'
   ],
-  darkMode: false,
+  safelist: [
+    {
+      pattern: /(-|)(ml|mr)-(4|8|12|16|20|24|28)/,
+      variants: [
+        'sm', 'md', 'lg', 
+        'first', 'first:sm', 'first:md', 'first:lg', 
+        'last', 'last:sm', 'last:md', 'last:lg'
+      ],
+    },
+    {
+      pattern: /(pt|pb)-(0)/,
+      variants: [
+        '!', 'lg', 
+        'first', 'first:sm', 'first:md', 'first:lg', 
+        'last', 'last:sm', 'last:md', 'last:lg'
+      ],
+    },
+    {
+      pattern: /bg-teal-(50|100|200|300|400|500|600|700|800|900)/,  // Added teal color safelist
+    }
+  ],
+ 
   important: true,
   theme: {
     fontSize: {
@@ -26,6 +47,7 @@ module.exports = {
       transparent: 'transparent',
       white: '#ffffff',
       black: '#000000',
+      green: '#74ddc3 ',
       gray: colors.gray,
       slate: colors.slate,
       stone: colors.stone,
@@ -59,8 +81,14 @@ module.exports = {
               from: { transform: 'translateX(0)' },
               to: { transform: 'translateX(-100%)' },
           }
-      }                    
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },                    
       },
   },
-  plugins: [], // if we add forms, do it here
+  plugins: [
+    require('@tailwindcss/aspect-ratio'), 
+    // require("flyonui"),
+  ], // if we add forms, do it here
 }
