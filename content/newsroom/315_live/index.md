@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: next_demo_grid_server.png
+    imgPath: 315-live.png
 ---
 
 Our next demo & discussion will be held this upcoming Tuesday November 19th at 19:00 CET (13:00 EST) – this time an Introduction to grid_http_server.
