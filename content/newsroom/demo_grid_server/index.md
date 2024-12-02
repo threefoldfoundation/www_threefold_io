@@ -1,8 +1,8 @@
 ---
 id: 315_mainnet_release
-title: Our Next Demo- Introduction to grid_http_server
+title: "Our Next Demo: Introduction to grid_http_server"
 image_caption: 315_mainnet_release
-description:  Join Mik to learn how to set up a Docker container running the grid HTTP server.
+description: Join Mik to learn how to set up a Docker container running the grid HTTP server.
 date: 2024-11-15
 taxonomies:
   people: [bernadette_amanda_caster]
