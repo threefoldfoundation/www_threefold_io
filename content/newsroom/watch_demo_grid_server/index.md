@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: watch_demo_grid_server
+    imgPath: watch_demo_grid_server.png
 ---
 
 In this video, Mik will guide you through setting up a Docker container running the grid HTTP server. The grid HTTP server provides an API for interacting with the ThreeFold Grid, which can be quite useful when developing apps on the grid.
