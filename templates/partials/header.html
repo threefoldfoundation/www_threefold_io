@@ -11,13 +11,13 @@
                 </a>
             </div>
             <div class="-mr-2 -my-2 lg:hidden">
-                <button id="hamburger-btn" type="button" class="bg-black1 inline-flex items-center justify-center p-2 border-gray-100 rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-200 ease-in-out">
+                <button id="hamburger-btn" type="button" class="bg-black1 inline-flex items-center justify-center p-2 border-gray-100 rounded-md text-gray-400  focus:outline-none focus:text-gray-500 transition duration-200 ease-in-out">
                     <!-- Heroicon name: menu -->
                     <svg class="h-6 w-6 text-gray-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
-            <button id="close-hamburger-btn" type="button" class="bg-black1 hidden lg:hidden items-center justify-center p-2 border-gray-100 rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-250 ease-in-out">
+            <button id="close-hamburger-btn" type="button" class="bg-black1 hidden lg:hidden items-center justify-center p-2 border-gray-100 rounded-md text-gray-400  focus:outline-none focus:text-gray-500 transition duration-250 ease-in-out">
                 <!-- Heroicon name: x -->
                 <svg class="h-6 w-6 text-gray-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -36,23 +36,23 @@
                     {% set current = get_url(path=link_path[1]) ~ "/" %}
                     {% if header_label is containing("http") %}
                         {% if header_label is not containing("threefold") %}
-                        <a href="{{link_path[1]}}" target="_blank" class="text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white hover:text-gray-200 focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                        <a href="{{link_path[1]}}" target="_blank" class="text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                             {{link_label}}
                         </a>
                         {% endif %}
                       {% elif current_url and current == current_url %}
-                          <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white hover:text-gray-200 focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                          <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-light active text-pretty tracking-wide transition ease-in-out duration-150">
                             {{link_label}}
                           </a>
                       {% else %}
-                        <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal text-white hover:text-gray-200 focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                        <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                           {{link_label}}
                         </a>
                       {% endif %}
                 {% else %}
                     <div class="relative">
                         {% set button_id = header_label ~ "-menu-btn" | slugify %}
-                    <button type="button" id="{{button_id}}" class="bg-black1 nav_btn py-3  text-white group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-gray-200 focus:outline-none transition ease-in-out duration-150">
+                    <button type="button" id="{{button_id}}" class="bg-black1 nav_btn py-3  text-white group inline-flex items-center space-x-2 text-lg leading-6 font-normal focus:outline-none transition ease-in-out duration-150">
                         <span>{{ header_label }}</span>
                         <div class="-rotate-90 transition-transform transform origin-center duration-200 ease-out"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                     </button>
@@ -107,7 +107,7 @@
                       </a>
                     </li> 
                   </ul> #}
-                    <a href="https://docs.threefold.io/" target="_blank" class=" rounded-2xl bg-white px-4 py-1 text-sm font-semibold text-black shadow-sm hover:bg-gray-300 hover:text-gray-800">TF Docs</a>
+                    <a href="https://docs.threefold.io/" target="_blank" class="dashboard rounded-2xl bg-white px-4 p-2 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green">TF Docs</a>
                 </div>
               </div>
             </div>
@@ -197,7 +197,7 @@
                       </div> #}
 
                       <div class="rounded-full border-2 my-4 border-gray-400 py-2 mx-4">
-                        <a href="https://docs.threefold.io/" target="_blank" class="mt-2 rounded-md px-4 py-2.5 text-lg font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">TF Docs</a>
+                        <a href="https://docs.threefold.io/" target="_blank" class="mt-2 rounded-md px-4 py-2.5 text-lg font-semibold text-white shadow-sm hover:text-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">TF Docs</a>
                       </div>
                     </nav>                    
                 </div>
@@ -209,3 +209,18 @@
 
 
 </header>
+
+<style>
+
+  nav a:hover{
+  color: #c7c7c7 !important;
+}
+
+.active{
+  color: #c7c7c7 !important;
+}
+.nav_btn:hover {
+  color: #c7c7c7 !important;
+}
+
+</style>
