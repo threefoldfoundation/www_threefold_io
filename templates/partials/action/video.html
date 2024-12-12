@@ -1,16 +1,28 @@
 <div class="flex bg-transparent pt-16 pb-10 justify-center">
-    <div class="max-w-7xl p-8 mx-auto text-center">
-        <h2 class="fade-in text-pretty lg:text-6xl text-5xl leading-tight font-normal tracking-tight text-white">Join the Web4 Revolution</h2>
+    <div class="lg:max-w-7xl max-w-2xl p-8 mx-auto text-center">
+        <!-- Main Heading -->
+        <h2 class="fade-in text-pretty lg:text-6xl text-4xl leading-tight font-normal tracking-tight text-white">
+            Join the Web4 Revolution
+        </h2>
+        
+        <!-- Subtext -->
         <p class="mx-auto mt-6 max-w-2xl text-pretty lg:text-xl text-base font-light text-gray-200 fade-in fade-in-delay">
             Join us on our journey to the decentralized internet. Watch the video below to learn more about our mission and products.
         </p>
+
+        <br>
+        
         <!-- Embed YouTube Video -->
         <div class="mt-8 flex justify-center">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/vK78zZT85_4?si=f8oP57g-i2zsnpi_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/64mbEewI0Ag?si=I0m_ShxlTUk3mok-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <!-- Embed YouTube Video -->
-        <div class="mt-16 fade-in flex items-center justify-center gap-x-6">
-            <a href="/signup" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 blinking-effect">Pre-register Now</a>
+        
+        <!-- Call to Action Button -->
+        <div class="mt-12 fade-in flex items-center justify-center gap-x-6">
+            <a href="/signup" target="_blank" 
+               class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 blinking-effect">
+                Pre-register Now
+            </a>
         </div>
     </div>
 </div>
@@ -32,10 +44,37 @@
     }
   }
 
-  /* Ensure video is centered */
+  /* Responsive iframe for YouTube video */
+  .responsive-iframe {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    position: relative;
+    border: none;
+  }
+  .responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Ensure content aligns properly */
   .flex.justify-center {
     display: flex;
     justify-content: center;
+  }
+
+  /* Style for the button */
+  .blinking-effect {
+    animation: blink 1.5s step-start infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0.5;
+    }
   }
 </style>
 
