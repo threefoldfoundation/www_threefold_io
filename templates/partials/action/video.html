@@ -1,0 +1,54 @@
+<div class="flex bg-transparent pt-16 pb-10 justify-center">
+    <div class="max-w-7xl p-8 mx-auto text-center">
+        <h2 class="fade-in text-pretty lg:text-6xl text-5xl leading-tight font-normal tracking-tight text-white">Join the Web4 Revolution</h2>
+        <p class="mx-auto mt-6 max-w-2xl text-pretty lg:text-xl text-base font-light text-gray-200 fade-in fade-in-delay">
+            Join us on our journey to the decentralized internet. Watch the video below to learn more about our mission and products.
+        </p>
+        <!-- Embed YouTube Video -->
+        <div class="mt-8 flex justify-center">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/vK78zZT85_4?si=f8oP57g-i2zsnpi_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- Embed YouTube Video -->
+        <div class="mt-16 fade-in flex items-center justify-center gap-x-6">
+            <a href="/signup" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 blinking-effect">Pre-register Now</a>
+        </div>
+    </div>
+</div>
+
+<style>
+  /* Fade-in animation */
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  /* Fade-in keyframe */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Ensure video is centered */
+  .flex.justify-center {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+
+<script>
+  // JavaScript to add 'visible' class after loading
+  window.addEventListener('DOMContentLoaded', () => {
+    const fadeInElements = document.querySelectorAll('.fade-in');
+
+    fadeInElements.forEach((element, index) => {
+      // Adding a delay for each fade-in effect (increasing delay with index)
+      setTimeout(() => {
+        element.classList.add('visible');
+      }, index * 1000); // 1000ms delay between each element
+    });
+  });
+</script>
