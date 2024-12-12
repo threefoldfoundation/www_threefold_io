@@ -1,26 +1,31 @@
-<div class="flex bg-transparent pt-16 pb-10 justify-center">
-    <div class="lg:max-w-7xl max-w-2xl p-8 mx-auto text-center">
+<div class="flex bg-transparent pt-16 pb-10 justify-center relative isolate overflow-hidden">
+    <div class="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <!-- Main Heading -->
-        <h2 class="fade-in text-pretty lg:text-6xl text-4xl leading-tight font-normal tracking-tight text-white">
+        <h2 class="fade-in text-pretty text-3xl sm:text-4xl lg:text-6xl leading-tight font-normal tracking-tight text-white">
             Join the Web4 Revolution
         </h2>
         
         <!-- Subtext -->
-        <p class="mx-auto mt-6 max-w-2xl text-pretty lg:text-xl text-base font-light text-gray-200 fade-in fade-in-delay">
-            Join us on our journey to the decentralized internet. Watch the video below to learn more about our mission and products.
+        <p class="mx-auto mt-6 max-w-xl text-pretty text-xl lg:text-2xl font-light text-gray-200 fade-in fade-in-delay">
+            Join us on our journey to the decentralized internet. <br>Watch the video below to learn more about our mission and products.
         </p>
-
+        
         <br>
         
         <!-- Embed YouTube Video -->
         <div class="mt-8 flex justify-center">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/64mbEewI0Ag?si=I0m_ShxlTUk3mok-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="responsive-iframe">
+                <iframe src="https://www.youtube.com/embed/64mbEewI0Ag?si=I0m_ShxlTUk3mok-" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
         </div>
         
         <!-- Call to Action Button -->
-        <div class="mt-12 fade-in flex items-center justify-center gap-x-6">
+        <div class="mt-12 fade-in flex items-center justify-center gap-x-4">
             <a href="/signup" target="_blank" 
-               class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 blinking-effect">
+               class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm sm:text-base font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 blinking-effect">
                 Pre-register Now
             </a>
         </div>
@@ -46,11 +51,12 @@
 
   /* Responsive iframe for YouTube video */
   .responsive-iframe {
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     position: relative;
-    border: none;
+    width: 100%;
+    max-width: 800px; /* Max width for large screens */
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
   }
   .responsive-iframe iframe {
     position: absolute;
@@ -64,6 +70,16 @@
   .flex.justify-center {
     display: flex;
     justify-content: center;
+  }
+
+  /* Responsive text and spacing */
+  .text-pretty {
+    word-wrap: break-word;
+  }
+  @media (max-width: 640px) {
+    .text-pretty {
+      padding: 0 1rem;
+    }
   }
 
   /* Style for the button */
