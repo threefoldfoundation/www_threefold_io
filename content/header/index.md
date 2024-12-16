@@ -9,7 +9,7 @@ extra:
 
 - [Why]("/why")
 - [What]("/what")
-- [Take Actions]("/action")
+- [Take Action]("/action")
 - Info
 
 
