@@ -28,15 +28,17 @@ We have now demonstrated that an autonomous self-healing cloud can be built, whi
 
 On that note, today we announce the following new features that will prepare us for our commercial launch in 2025:
 
-**[3Phone 5](https://docs.threefold.io/docs/components/3phone/)**: A secure phone, based on the [Volla Phone](https://volla.online/en/) 4 platform, offering a robust solution for a protected digital life. 3Phones are available for pre-order [now](https://threefold.io/signup)
+<br/>
+
+**[3Phone 5](https://docs.threefold.io/docs/components/3phone/)**: A secure phone, based on the [Volla Phone](https://volla.online/en/) 4 platform, offering a robust solution for a protected digital life. 3Phones are available for pre-order [now](https://threefold.io/signup).
 
 <br/>
 
-**3Bot**: 3Bot is your AI-driven virtual system administrator. With it you can manage decentralized applications effortlessly with 100% uptime, empowering users with complete control over their digital ecosystem. 3Bot is pre-installed on every 3Phone. Learn more about 3Bot [here](https://docs.threefold.io/docs/components/3bot)/
+**3Bot**: 3Bot is your AI-driven virtual system administrator. With it you can manage decentralized applications effortlessly with 100% uptime, empowering users with complete control over their digital ecosystem. 3Bot is pre-installed on every 3Phone. Learn more about 3Bot [here](https://docs.threefold.io/docs/components/3bot).
 
 <br/>
 
-**3AI**: 3AI is an AI-driven agent (leveraging Morpheus AI) designed to empower individuals with a private, secure, and decentralized AI experience on the 3Phone. Learn more about 3AI [here](https://docs.threefold.io/docs/components/3AI) 
+**3AI**: 3AI is an AI-driven agent (leveraging Morpheus AI) designed to empower individuals with a private, secure, and decentralized AI experience on the 3Phone. Learn more about 3AI [here](https://docs.threefold.io/docs/components/3AI).
 
 <br/>
 
