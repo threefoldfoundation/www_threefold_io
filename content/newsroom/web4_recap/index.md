@@ -35,7 +35,7 @@ To achieve our Web4 vision, we’ve announced several new components. (If you’
 - **[3AI](https://docs.threefold.io/docs/components/3AI)**: Decentralized AI assistant for private, secure use.
 - **[3Router](https://docs.threefold.io/docs/components/3router)**: Powered by Mycelium technology for seamless, secure global communication.
 - **[3Node V4](https://docs.threefold.io/docs/components/3node)**: Available now via trusted partners for decentralized cloud capacity.
-- **[BTC Integration](https://docs.threefold.io/docs/components/bitcoin)**: Bitcoin adopted as the native payment mechanism.
+- **[BTC Integration](https://docs.threefold.io/docs/components/bitcoin)**: Bitcoin adopted as a native payment mechanism.
 - **TFT** availability on multiple blockchains, starting with Solana.
 
 ### What This Means
