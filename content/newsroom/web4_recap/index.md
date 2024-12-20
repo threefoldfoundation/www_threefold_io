@@ -2,7 +2,7 @@
 id: web4_recap
 title: Recapping last week’s Web4 announcements
 image_caption: web4_recap
-description: ThreeFold is laying the foundation for Web4, the next generation of the Internet.
+description: Last week, ThreeFold announced its Web4 vision and roadmap.
 date: 2024-12-19
 taxonomies:
   people: [bernadette_amanda_caster]
@@ -18,7 +18,11 @@ Last week, ThreeFold made several announcements including the introduction of ou
 
 The story of the Internet is one of ongoing evolution. The Internet began as a decentralized ecosystem and became centralized over time. This has led to many challenges around security, efficiency and sustainability, misinformation and disinformation, and the loss of control over our data. Now with artificial intelligence, a new paradigm is emerging. Soon, we will all interact with AI agents to manage our digital lives. If we continue down the centralized path, these AI agents will also be out of our control, posing some alarming possibilities for our collective future. ThreeFold, amongst others, envisions a new way forward – where a decentralized infrastructure enables a digital world owned and operated by all of us, not just the few. Learn more by watching this video or reading our Web4 roadmap.
 
+<br/>
+
 ![Image](./1212_recap.png)
+
+<br/>
 
 ### Web4 Components
 
