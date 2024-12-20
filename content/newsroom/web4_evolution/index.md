@@ -70,6 +70,7 @@ Please dive into our [Roadmap to Web4](https://threefold.io/blog/roadmap-to-web4
 
 Today we make these announcements to our wonderful community, so you can provide your feedback and be amongst the first to register. In the coming weeks, after the new year, we will begin to spread this vision further. And this is only the beginning of our Web4 journey. Every three months, on 03.03, 06.06, 09.09, and 12.12 of next year we will continue to unveil major aspects of the Web4 vision. Of course there will be plenty of discussion and updates as we go, as well.
 
+<br/>
 
 #### Remarks
 - These announcements are made by the ThreeFold Technology creation team. Our job is to create the best possible products together with the community.
