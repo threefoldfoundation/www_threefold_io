@@ -3,7 +3,7 @@ id: web4_evolution
 title: ThreeFold’s Web4- The next evolution of the Internet 
 image_caption: web4_infrastructure
 description: Web4 is the next generation of the Internet. Click here to know more. 
-date: 2024-11-27
+date: 2024-12-12
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
