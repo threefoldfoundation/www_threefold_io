@@ -1,6 +1,6 @@
 ---
 id: flist_cli_demo
-title: 📺 Watch the Flist CLI(Converting Dockerfiles into Flist on TF Flist Hub)
+title: Watch the Flist CLI Demo (Converting Dockerfiles into Flist on TF Flist Hub)
 image_caption: Flist ClI
 description: Join Mik and Scott as they introduce the Flist CLI, a tool for converting Docker files and images into Flists on the TF Flist Hub. 
 date: 2024-10-11

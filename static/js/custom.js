@@ -180,7 +180,7 @@ async function getStats() {
 function formatStatsData(stats) {
   let items = document.querySelector(".items");
   items.classList.remove("animate-pulse");
-  document.getElementById("capacity").innerHTML = stats.capacity;
+  document.getElementById("ssd").innerHTML = stats.ssd;
   document.getElementById("nodes").innerHTML = stats.nodes;
   document.getElementById("countries").innerHTML = stats.countries;
   document.getElementById("cores").innerHTML = stats.cores

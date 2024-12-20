@@ -16,7 +16,7 @@ In this video, Mik will guide you through setting up a Docker container running 
 
 <br/>
 
-Watch the call [here] (https://youtu.be/Ec2NdhuoIc4) with timestamps for simple navigation, and leave your feedback or questions [here] (https://github.com/Mik-TF/grid_http_server_docker).
+Watch the call [here](https://youtu.be/Ec2NdhuoIc4) with timestamps for simple navigation, and leave your feedback or questions [here](https://github.com/Mik-TF/grid_http_server_docker).
 
 <br/>
 

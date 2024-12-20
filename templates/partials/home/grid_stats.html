@@ -8,12 +8,12 @@
           <p class="mx-auto mt-6 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">Version 3.15 is live on Mainnet.</p>
         </div>
         <dl class="items mt-16 grid grid-cols-1 gap-2 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
-            <!-- capacity -->
+            <!-- ssd -->
           <div class="fade-in flex flex-col justify-center items-center bg-white/5 p-6">
             <div class="tooltip">
               <span class="tooltiptext">The total amount of storage (SSD, HDD, & RAM) on the grid. 1 petabyte equals roughly 1 million gigabytes.</span>
-              <dt class="text-sm/6 font-light text-gray-300">CAPACITY</dt>
-              <dd id="capacity" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
+              <dt class="text-sm/6 font-light text-gray-300">SSD CAPACITY</dt>
+              <dd id="ssd" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
             </div>
           </div>
             <!-- cores -->
@@ -54,7 +54,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Initialize the countUp for each of the numbers
-      new CountUp('capacity', 0, 1910, 0, 2.5).start();
+      new CountUp('ssd', 0, 1910, 0, 2.5).start();
       new CountUp('cores', 0, 46934, 0, 2.5).start();
       new CountUp('nodes', 0, 1596, 0, 2.5).start();
       new CountUp('countries', 0, 40, 0, 2.5).start();

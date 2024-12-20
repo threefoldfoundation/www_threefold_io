@@ -1,8 +1,8 @@
 ---
 id: 315_mainnet_release
-title: 🗳 Vote- Bring TF Grid 3.15 to Mainnet
+title: "Vote: Bring TF Grid 3.15 to Mainnet"
 image_caption: 315_mainnet_release
-description:  Calling all farmers to vote on the GEP to bring grid version 3.15 to mainnet! 
+description: Calling all farmers to vote on the GEP to bring grid version 3.15 to mainnet! 
 date: 2024-11-06
 taxonomies:
   people: [bernadette_amanda_caster]
@@ -14,10 +14,9 @@ extra:
 
 We are currently testing TF Grid version 3.15 on testnet and preparing to release on mainnet. Farmers, please vote by Tuesday November 12th at 10am CET on the [dashboard](https://dashboard.grid.tf/) under ‘TFChain - DAO.'
 
-
 <br/>
 
-Read the details of this GEP and the release [here] (https://forum.threefold.io/t/gep-tf-grid-mainnet-release-3-15/4435).
+Read the details of this GEP and the release [here](https://forum.threefold.io/t/gep-tf-grid-mainnet-release-3-15/4435).
 
 <br/>
 
