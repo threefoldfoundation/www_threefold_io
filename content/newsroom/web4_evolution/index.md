@@ -2,7 +2,7 @@
 id: web4_evolution
 title: ThreeFold’s Web4 - The next evolution of the Internet 
 image_caption: web4_infrastructure
-description: ThreeFold V4 powers Web4 with a decentralized, self-healing ecosystem for secure data, peer-to-peer networking, and autonomous cloud.
+description: TThreeFold announces its Web4 vision and roadmap along with several core components to help Web4 come alive.
 date: 2024-12-12
 taxonomies:
   people: [bernadette_amanda_caster]
