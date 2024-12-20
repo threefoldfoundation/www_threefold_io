@@ -2,7 +2,7 @@
 id: web4_recap
 title: Recapping last week’s Web4 announcements
 image_caption: web4_recap
-description: Last week, ThreeFold announced its Web4 vision and roadmap.
+description: Last week, ThreeFold announced its Web4 vision and roadmap. Learn more about what it means and how to participate.
 date: 2024-12-19
 taxonomies:
   people: [bernadette_amanda_caster]
