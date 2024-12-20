@@ -1,8 +1,8 @@
 ---
 id: web4_evolution
-title: ThreeFold’s Web4- The next evolution of the Internet 
+title: ThreeFold’s Web4 - The next evolution of the Internet 
 image_caption: web4_infrastructure
-description: Web4 is the next generation of the Internet. Click here to know more. 
+description: ThreeFold V4 powers Web4 with a decentralized, self-healing ecosystem for secure data, peer-to-peer networking, and autonomous cloud.
 date: 2024-12-12
 taxonomies:
   people: [bernadette_amanda_caster]
@@ -21,6 +21,8 @@ We have now demonstrated that an autonomous self-healing cloud can be built, whi
 <br/>
 
 We have now demonstrated that an autonomous self-healing cloud can be built, which needs minimal human intervention to keep it up and running. We have also successfully showcased that this system is a perfect DePIN (Decentralized Physical Infrastructure Network) case – thousands of farmers have provided capacity, and many are actively using it.
+
+<br/>
 
 <iframe width="866" height="487" src="https://www.youtube.com/embed/64mbEewI0Ag" title="Web4: The Next Evolution Of The Internet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -60,11 +62,14 @@ TFT will be made available on multiple blockchains – Solana is the first one.
 
 Please dive into our [Roadmap to Web4](https://threefold.io/blog/roadmap-to-web4/) post and [Web4 docs](https://docs.threefold.io/) to learn more.
 
+<br/>
+
 <iframe width="866" height="487" src="https://www.youtube.com/embed/Z3TRrwxOIz0" title="Web4 Discussion with the ThreeFold Team" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br/>
 
 Today we make these announcements to our wonderful community, so you can provide your feedback and be amongst the first to register. In the coming weeks, after the new year, we will begin to spread this vision further. And this is only the beginning of our Web4 journey. Every three months, on 03.03, 06.06, 09.09, and 12.12 of next year we will continue to unveil major aspects of the Web4 vision. Of course there will be plenty of discussion and updates as we go, as well.
+
 
 #### Remarks
 - These announcements are made by the ThreeFold Technology creation team. Our job is to create the best possible products together with the community.
