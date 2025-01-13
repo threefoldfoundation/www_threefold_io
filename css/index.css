@@ -12,6 +12,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Default Light Mode */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
 .dashboard:hover {
 
   background: #74ddc3 !important;
@@ -263,12 +276,10 @@ background-color:#5596f5 !important;
 @layer components {
   h1 {
     @apply text-4xl lg:text-6xl font-normal;
-    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
   h2 {
     @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
-    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
   h2 strong {
@@ -276,7 +287,6 @@ background-color:#5596f5 !important;
   }
   h3 {
     @apply text-2xl lg:text-3xl my-4 font-extralight;
-    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
   h3 strong {
@@ -290,7 +300,6 @@ background-color:#5596f5 !important;
   h5 {
     @apply text-lg my-1 tracking-normal font-medium;
     font-family: "Inter", sans-serif !important;
-    color: #fff !important
   }
   h6 {
     @apply text-md not-italic font-normal my-1;
@@ -298,7 +307,6 @@ background-color:#5596f5 !important;
   }
   p {
     @apply text-lg;
-    color: #3d3d3d;
     font-family: "Inter", sans-serif !important;
   }
   blockquote {
@@ -492,7 +500,6 @@ header {
 .banner h2,
 .header h1 {
   margin: auto;
-  color: #fff;
   position: relative;
   transition: 0.3s;
   z-index: 1;
@@ -500,7 +507,6 @@ header {
 }
 
 .header h1 {
-  color: #000;
   transition: none;
 }
 

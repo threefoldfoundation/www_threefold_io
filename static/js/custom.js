@@ -191,3 +191,29 @@ function formatStatsData(stats) {
 readingTime();
 getStats();
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
+
+// Get the toggle switch
+const toggleSwitch = document.getElementById('darkModeSwitch');
+
+// Apply the saved theme on load
+document.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark') {
+    document.body.classList.add('dark-mode');
+    toggleSwitch.checked = true;
+  }
+});
+
+// Toggle dark mode
+toggleSwitch.addEventListener('change', () => {
+  if (toggleSwitch.checked) {
+    document.body.classList.add('dark-mode');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    document.body.classList.remove('dark-mode');
+    localStorage.setItem('theme', 'light');
+  }
+});
+
