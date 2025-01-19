@@ -194,26 +194,36 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 
-// Get the toggle switch
-const toggleSwitch = document.getElementById('darkModeSwitch');
-
-// Apply the saved theme on load
 document.addEventListener('DOMContentLoaded', () => {
+  const toggleSwitch = document.getElementById('darkModeSwitch');
+  const logo = document.getElementById('logo');
+
+  // Log the current state for debugging
+  console.log('Light logo:', logo.getAttribute('data-light-logo'));
+  console.log('Dark logo:', logo.getAttribute('data-dark-logo'));
+
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === 'dark') {
-    document.body.classList.add('dark-mode');
-    toggleSwitch.checked = true;
-  }
-});
-
-// Toggle dark mode
-toggleSwitch.addEventListener('change', () => {
-  if (toggleSwitch.checked) {
-    document.body.classList.add('dark-mode');
-    localStorage.setItem('theme', 'dark');
+      document.body.classList.add('dark-mode');
+      toggleSwitch.checked = true;
+      logo.src = logo.getAttribute('data-dark-logo');
+      console.log('Loaded dark mode with dark logo.');
   } else {
-    document.body.classList.remove('dark-mode');
-    localStorage.setItem('theme', 'light');
+      logo.src = logo.getAttribute('data-light-logo');
+      console.log('Loaded light mode with light logo.');
   }
-});
 
+  toggleSwitch.addEventListener('change', () => {
+      if (toggleSwitch.checked) {
+          document.body.classList.add('dark-mode');
+          localStorage.setItem('theme', 'dark');
+          logo.src = logo.getAttribute('data-dark-logo');
+          console.log('Switched to dark mode. Updated logo to dark.');
+      } else {
+          document.body.classList.remove('dark-mode');
+          localStorage.setItem('theme', 'light');
+          logo.src = logo.getAttribute('data-light-logo');
+          console.log('Switched to light mode. Updated logo to light.');
+      }
+  });
+});

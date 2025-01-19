@@ -18,10 +18,18 @@ body {
   color: #000000;
 }
 
+body .semigray {
+  color: #424242 !important;
+}
+
 /* Dark Mode */
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
+}
+
+body.dark-mode .semigray {
+  color: #bbbbbb !important;
 }
 
 
@@ -109,10 +117,10 @@ img[src*="#absolute"] {
   top: 0;
 }
 
-a img:hover{
+/* a img:hover{
   opacity: 0.5 !important;
   cursor: pointer;
-}
+} */
 
 /* new theme */
 
