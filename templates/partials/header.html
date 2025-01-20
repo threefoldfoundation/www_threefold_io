@@ -6,16 +6,15 @@
         <div class="relative z-50">
         <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-4 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
           <a href="{{ get_url(path='/') }}" class="flex">
-            <img
-                id="logo"
-                class="w-36 h-auto"
-                style="max-width: none;"
-                src="{{ get_url(path=section.extra.logoPathLight) }}"
-                data-light-logo="{{ get_url(path=section.extra.logoPathLight) }}"
-                data-dark-logo="{{ get_url(path=section.extra.logoPathDark) }}"
-                alt="ThreeFold Logo"
-            />
-        </a>
+            <img 
+              id="site-logo" 
+              class="w-36 h-auto" 
+              style="max-width: none;" 
+              src="{{ get_url(path=section.extra.logoPathLight) }}" 
+              data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
+              data-dark="{{ get_url(path=section.extra.logoPathDark) }}" 
+              alt="ThreeFold Logo" />
+          </a>
         
         </a>
         
