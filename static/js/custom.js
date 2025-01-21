@@ -204,10 +204,11 @@ document.addEventListener('DOMContentLoaded', () => {
   if (savedTheme === 'dark') {
     document.body.classList.add('dark-mode');
     toggleSwitch.checked = true;
-    siteLogo.src = siteLogo.getAttribute('data-dark');
+    siteLogo.src = siteLogo.getAttribute('data-dark'); // Use dark mode logo
   } else {
     document.body.classList.remove('dark-mode');
-    siteLogo.src = siteLogo.getAttribute('data-light');
+    toggleSwitch.checked = false;
+    siteLogo.src = siteLogo.getAttribute('data-light'); // Use light mode logo
   }
 });
 
@@ -216,10 +217,11 @@ toggleSwitch.addEventListener('change', () => {
   if (toggleSwitch.checked) {
     document.body.classList.add('dark-mode');
     localStorage.setItem('theme', 'dark');
-    siteLogo.src = siteLogo.getAttribute('data-dark');
+    siteLogo.src = siteLogo.getAttribute('data-light'); // Switch to dark mode logo
   } else {
     document.body.classList.remove('dark-mode');
     localStorage.setItem('theme', 'light');
-    siteLogo.src = siteLogo.getAttribute('data-light');
+    siteLogo.src = siteLogo.getAttribute('data-dark'); // Switch to light mode logo
   }
 });
+

@@ -7,20 +7,15 @@
         <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-4 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
           <a href="{{ get_url(path='/') }}" class="flex">
             <img 
-              id="site-logo" 
-              class="w-36 h-auto" 
-              style="max-width: none;" 
-              src="{{ get_url(path=section.extra.logoPathLight) }}" 
-              data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
-              data-dark="{{ get_url(path=section.extra.logoPathDark) }}" 
-              alt="ThreeFold Logo" />
+            id="site-logo" 
+            class="w-36 h-auto" 
+            style="max-width: none;" 
+            src="{{ get_url(path=section.extra.logoPathLight) }}" 
+            data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
+            data-dark="{{ get_url(path=section.extra.logoPathDark) }}" 
+            alt="ThreeFold Logo" />
           </a>
         
-        </a>
-        
-      
-      
-        </a>
             <div class="-mr-2 -my-2 lg:hidden">
                 <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 border-gray-100 rounded-md text-gray-400  focus:outline-none focus:text-gray-500 transition duration-200 ease-in-out">
                     <!-- Heroicon name: menu -->
@@ -119,9 +114,10 @@
                     </li> 
                   </ul>  -->
                   <button class="theme-toggle px-2 mx-2">
-                    <label class="" for="darkModeSwitch">Dark Mode:</label>
+                    <label for="darkModeSwitch">Dark Mode:</label>
                     <input type="checkbox" id="darkModeSwitch">
-                </button>
+                  </button>
+                  
                 
                   
                     <a href="/signup" target="_blank" class="blinking-effect dashboard rounded-2xl bg-white px-4 p-2 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green">Join the Web4 Revolution</a>

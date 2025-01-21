@@ -22,6 +22,14 @@ body .semigray {
   color: #424242 !important;
 }
 
+body .semigray2 {
+  color: #424242 !important;
+}
+
+body .icon {
+  fill: #424242 !important;
+}
+
 /* Dark Mode */
 body.dark-mode {
   background-color: #121212;
@@ -29,9 +37,20 @@ body.dark-mode {
 }
 
 body.dark-mode .semigray {
-  color: #bbbbbb !important;
+  color: #e5e7eb !important;
 }
 
+body.dark-mode .semigray2 {
+  color: #d1d5db !important;
+}
+
+body.dark-mode .icon {
+  fill: #ffffff !important;
+}
+
+.double_bg {
+  background-color: rgb(100 100 100 / 0.2);
+}
 
 .dashboard:hover {
 
