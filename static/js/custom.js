@@ -195,33 +195,33 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 // Get the toggle switch and the logo element
-const toggleSwitch = document.getElementById('darkModeSwitch');
+const toggleSwitch = document.getElementById('lightModeSwitch');
 const siteLogo = document.getElementById('site-logo');
 
 // Apply the saved theme on load
 document.addEventListener('DOMContentLoaded', () => {
   const savedTheme = localStorage.getItem('theme');
-  if (savedTheme === 'dark') {
-    document.body.classList.add('dark-mode');
+  if (savedTheme === 'light') {
+    document.body.classList.add('light-mode');
     toggleSwitch.checked = true;
-    siteLogo.src = siteLogo.getAttribute('data-dark'); // Use dark mode logo
-  } else {
-    document.body.classList.remove('dark-mode');
-    toggleSwitch.checked = false;
     siteLogo.src = siteLogo.getAttribute('data-light'); // Use light mode logo
+  } else {
+    document.body.classList.remove('light-mode');
+    toggleSwitch.checked = false;
+    siteLogo.src = siteLogo.getAttribute('data-dark'); // Use dark mode logo
   }
 });
 
-// Toggle dark mode
+// Toggle light mode
 toggleSwitch.addEventListener('change', () => {
   if (toggleSwitch.checked) {
-    document.body.classList.add('dark-mode');
-    localStorage.setItem('theme', 'dark');
-    siteLogo.src = siteLogo.getAttribute('data-light'); // Switch to dark mode logo
-  } else {
-    document.body.classList.remove('dark-mode');
+    document.body.classList.add('light-mode');
     localStorage.setItem('theme', 'light');
     siteLogo.src = siteLogo.getAttribute('data-dark'); // Switch to light mode logo
+  } else {
+    document.body.classList.remove('light-mode');
+    localStorage.setItem('theme', 'dark');
+    siteLogo.src = siteLogo.getAttribute('data-light'); // Switch to dark mode logo
   }
 });
 

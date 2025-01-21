@@ -12,40 +12,43 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Default Light Mode */
+/* Default Dark Mode */
 body {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-body .semigray {
-  color: #424242 !important;
-}
-
-body .semigray2 {
-  color: #424242 !important;
-}
-
-body .icon {
-  fill: #424242 !important;
-}
-
-/* Dark Mode */
-body.dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
 
-body.dark-mode .semigray {
+body .semigray {
   color: #e5e7eb !important;
 }
 
-body.dark-mode .semigray2 {
+body .semigray2 {
   color: #d1d5db !important;
 }
 
-body.dark-mode .icon {
+body .icon {
   fill: #ffffff !important;
+}
+
+/* lightMode */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.light-mode .semigray {
+  
+  color: #424242 !important;
+}
+
+body.light-mode .semigray2 {
+  
+  color: #424242 !important;
+}
+
+body.light-mode .icon {
+  
+  fill: #424242 !important;
 }
 
 .double_bg {
