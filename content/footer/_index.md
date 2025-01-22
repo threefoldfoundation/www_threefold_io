@@ -26,7 +26,7 @@ extra:
 
 |||
 
-##### <span class="text-gray-100">COMMUNITY</span>
+##### COMMUNITY
 
 <br>
 

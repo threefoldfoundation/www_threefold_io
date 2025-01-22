@@ -5,7 +5,7 @@
     <div class="z-20 fixed top-0 left-0 right-0 bg-black lg:bg-transparent lg:absolute w-full">
         <div class="relative z-50">
         <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-4 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
-          <a href="{{ get_url(path='/') }}" class="flex">
+          {# <a href="{{ get_url(path='/') }}" class="flex">
             <img 
             id="site-logo" 
             class="w-36 h-auto" 
@@ -14,6 +14,14 @@
             data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
             data-dark="{{ get_url(path=section.extra.logoPathDark) }}" 
             alt="ThreeFold Logo" />
+          </a> #}
+          <a href="{{ get_url(path='/') }}" class="flex">
+            <img 
+            id="site-logo" 
+            class="w-36 h-auto" 
+            style="max-width: none;" 
+            data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
+            data-dark="{{ get_url(path=section.extra.logoPathDark) }}" />
           </a>
         
             <div class="-mr-2 -my-2 lg:hidden">
@@ -120,7 +128,7 @@
                   
                 
                   
-                    <a href="/signup" target="_blank" class="blinking-effect dashboard rounded-2xl bg-white px-4 p-2 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green">Join the Web4 Revolution</a>
+                    <a href="/signup" target="_blank" class="blinking-effect border-gray-500 border-2 dashboard rounded-2xl bg-white px-4 p-2 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-gray-100">Join the Web4 Revolution</a>
                 </div>
               </div>
             </div>
@@ -210,7 +218,7 @@
                       </div> #}
 
                       <div class="rounded-full border-2 my-4 border-gray-400 py-2 mx-4">
-                        <a href="/signup" target="_blank" class="mt-2 rounded-md px-4 py-2.5 text-lg font-semibold shadow-sm hover:text-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Join the Web4 Revolution</a>
+                        <a href="/signup" target="_blank" class="mt-2 border-gray-500 border-2 rounded-md bg-white px-4 py-2.5 text-sm font-semibold shadow-sm hover:bg-gray-100 hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Join the Web4 Revolution</a>
                       </div>
                     </nav>                    
                 </div>
