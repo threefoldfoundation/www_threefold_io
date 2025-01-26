@@ -5,24 +5,24 @@
     <div class="z-20 fixed top-0 left-0 right-0 bg-black lg:bg-transparent lg:absolute w-full">
         <div class="relative z-50">
         <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-4 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
-          {# <a href="{{ get_url(path='/') }}" class="flex">
-            <img 
-            id="site-logo" 
-            class="w-36 h-auto" 
-            style="max-width: none;" 
-            src="{{ get_url(path=section.extra.logoPathLight) }}" 
-            data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
-            data-dark="{{ get_url(path=section.extra.logoPathDark) }}" 
-            alt="ThreeFold Logo" />
-          </a> #}
           <a href="{{ get_url(path='/') }}" class="flex">
             <img 
             id="site-logo" 
             class="w-36 h-auto" 
             style="max-width: none;" 
             data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
-            data-dark="{{ get_url(path=section.extra.logoPathDark) }}" />
+            data-dark="{{ get_url(path=section.extra.logoPathDark) }}"
+            src="{{ get_url(path=section.extra.logoPathLight) }}" 
+            alt="ThreeFold Logo" />
           </a>
+          {# <a href="{{ get_url(path='/') }}" class="flex">
+            <img 
+            id="site-logo" 
+            class="w-36 h-auto" 
+            style="max-width: none;" 
+            data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
+            data-dark="{{ get_url(path=section.extra.logoPathDark) }}" />
+          </a> #}
         
             <div class="-mr-2 -my-2 lg:hidden">
                 <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 border-gray-100 rounded-md text-gray-400  focus:outline-none focus:text-gray-500 transition duration-200 ease-in-out">
@@ -122,8 +122,12 @@
                     </li> 
                   </ul>  -->
                   <button class="theme-toggle px-2 mx-2">
-                    <label for="lightModeSwitch">Dark Mode:</label>
-                    <input type="checkbox" id="lightModeSwitch">
+                    <label for="lightModeSwitch" class="switch">
+                      <i class="fa-solid fa-sun" id="lightIcon"></i>
+                      <input type="checkbox" id="lightModeSwitch">
+                      <span class="slider"></span>
+                      <i class="fas fa-moon" id="darkIcon"></i>
+                    </label>
                   </button>
                   
                 
@@ -242,6 +246,70 @@
 }
 .nav_btn:hover {
   color: #c7c7c7 !important;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Icons */
+#lightIcon, #darkIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: white;
+}
+
+#lightIcon {
+  left: 10px;
+  display: none; /* Hide by default */
+}
+
+#darkIcon {
+  right: 10px;
 }
 
 </style>
