@@ -26,7 +26,7 @@ elif [[ "$(uname -m)" == "arm64"* ]]; then
     ASSET="$ASSET-arm64"
 fi
 
-curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/${ASSET}"
+curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.17/${ASSET}"
 chmod +x $ASSET
 mv $ASSET tailwindcss
 
