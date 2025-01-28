@@ -42,7 +42,7 @@ if [[ ! -f "$HOME/hero/bin/tailwindcss" ]]; then
     pushd /tmp
     rm -f $ASSET
     rm -f tailwindcss
-    curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/${ASSET}"
+    curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.17/${ASSET}"
 
     FILE_SIZE=$(get_file_size "$ASSET")
     if [[ $FILE_SIZE -lt 20000000 ]]; then
