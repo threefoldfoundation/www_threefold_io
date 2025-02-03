@@ -9,7 +9,9 @@
             <div class="max-w-screen-2xl mx-auto py-12 px-4 sm:px-6">
                 <div class="xl:flex xl:gap-4">
                     <div class="space-y-8 lg:max-w-sm xl:max-w-sm lg:mr-8 lg:mb-8 xl:col-span-1">
-                        <img class="w-36 h-auto" src="{{ get_url(path=logoPath)}}" alt="ThreeFold Logo" />
+                        {# <img class="w-36 h-auto" src="images/logolight.png" alt="ThreeFold Logo" /> #}
+                        <img id="lightLogo" src="images/logolight.png" alt="Light Logo" class="logo light w-36 h-auto" style="max-width: none;">
+                        <img id="darkLogo" src="images/logodark.png" alt="Dark Logo" class="logo dark w-36 h-auto" style="max-width: none;">
                         <p class="text-gray-200 text-base font-light leading-6">
                             {{section.description}}
                         </p>
@@ -31,5 +33,24 @@
                 </div>
             </div>
         </footer>
+        <style>
+            .light {
+  
+                display: block; /* Show dark logo by default */
+              }
+              .dark {
+                 
+                display: none; /* Hide light logo by default */
+              }
+              
+              .light-mode .light {
+                
+                display: none; /* Hide dark logo in light mode */
+              }
+              .light-mode .dark {
+              
+                display: block;/* Show light logo in light mode */
+              }
+        </style>
     </body>
 </html>

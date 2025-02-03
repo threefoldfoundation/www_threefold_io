@@ -194,34 +194,34 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 
-// Get the toggle switch and the logo element
+// Get elements
 const toggleSwitch = document.getElementById('lightModeSwitch');
-const siteLogo = document.getElementById('site-logo');
+const body = document.body;
 
 // Apply the saved theme on load
 document.addEventListener('DOMContentLoaded', () => {
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme === 'light') {
-    document.body.classList.add('light-mode');
-    toggleSwitch.checked = true;
-    siteLogo.src = siteLogo.getAttribute('data-light'); // Use light mode logo
-  } else {
-    document.body.classList.remove('light-mode');
-    toggleSwitch.checked = false;
-    siteLogo.src = siteLogo.getAttribute('data-dark'); // Use dark mode logo
-  }
+    const savedTheme = localStorage.getItem('theme') || 'dark'; // Default to dark mode
+
+    if (savedTheme === 'light') {
+        body.classList.add('light-mode');
+        body.classList.remove('dark-mode');
+        toggleSwitch.checked = true;
+    } else {
+        body.classList.add('dark-mode');
+        body.classList.remove('light-mode');
+        toggleSwitch.checked = false;
+    }
 });
 
-// Toggle light mode
+// Toggle between light and dark mode
 toggleSwitch.addEventListener('change', () => {
-  if (toggleSwitch.checked) {
-    document.body.classList.add('light-mode');
-    localStorage.setItem('theme', 'light');
-    siteLogo.src = siteLogo.getAttribute('data-dark'); // Switch to light mode logo
-  } else {
-    document.body.classList.remove('light-mode');
-    localStorage.setItem('theme', 'dark');
-    siteLogo.src = siteLogo.getAttribute('data-light'); // Switch to dark mode logo
-  }
+    if (toggleSwitch.checked) {
+        body.classList.add('light-mode');
+        body.classList.remove('dark-mode');
+        localStorage.setItem('theme', 'light');
+    } else {
+        body.classList.add('dark-mode');
+        body.classList.remove('light-mode');
+        localStorage.setItem('theme', 'dark');
+    }
 });
-
