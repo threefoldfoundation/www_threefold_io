@@ -116,14 +116,14 @@
                       </a>
                     </li> 
                   </ul>  -->
-                  <button class="theme-toggle px-2 mx-2">
+                  <button class="theme-toggle mx-4">
                     <label for="lightModeSwitch" class="switch">
-                      <i class="fa-solid fa-sun" id="lightIcon"></i>
-                      <input type="checkbox" id="lightModeSwitch">
-                      <span class="slider"></span>
-                      <i class="fas fa-moon" id="darkIcon"></i>
+                        <i class="fa-solid fa-sun" id="lightIcon"></i>
+                        <input type="checkbox" id="lightModeSwitch">
+                        <span class="slider"></span>
+                        <i class="fas fa-moon" id="darkIcon"></i>
                     </label>
-                  </button>
+                </button>
                   
                 
                   
@@ -236,6 +236,20 @@
   color: #c7c7c7 !important;
 }
 
+.active{
+  color: #c7c7c7 !important;
+}
+.nav_btn:hover {
+  color: #c7c7c7 !important;
+}
+
+.theme-toggle {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* logo image */
+
 .light {
   
   display: block; /* Show dark logo by default */
@@ -254,80 +268,63 @@
   display: block;/* Show light logo in light mode */
 }
 
-.theme-toggle {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.active{
-  color: #c7c7c7 !important;
-}
-.nav_btn:hover {
-  color: #c7c7c7 !important;
-}
-
-
+/* Styling for the switch container */
 .switch {
   position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  background: #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
 
+/* Hide the default checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
+/* Slider (toggle button) */
 .slider {
   position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  transition: .4s;
-  border-radius: 34px;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
+  top: 2px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: white;
   border-radius: 50%;
-  transition: .4s;
+  transition: transform 0.3s ease-in-out;
 }
 
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
-
-/* Icons */
-#lightIcon, #darkIcon {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 16px;
+/* Show moon by default (dark mode) */
+#lightIcon {
+  display: block;
+  margin-left: 5px;
   color: white;
 }
-
-#lightIcon {
-  left: 10px;
-  display: none; /* Hide by default */
-}
-
 #darkIcon {
-  right: 10px;
+  display: inline-block;
+  margin-left: 5px;
 }
+
+/* When light mode is active */
+.light-mode .switch {
+  background: #111; /* Dark background in light mode */
+}
+.light-mode .slider {
+  transform: translateX(25px); /* Move slider to the right */
+}
+.light-mode #lightIcon {
+  display: inline-block;
+  color: white;
+}
+.light-mode #darkIcon {
+  display: none;
+}
+
 
 </style>

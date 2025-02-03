@@ -198,16 +198,14 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 const toggleSwitch = document.getElementById('lightModeSwitch');
 const body = document.body;
 
-// Apply the saved theme on load
+// Apply saved theme on load
 document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme') || 'dark'; // Default to dark mode
+    const savedTheme = localStorage.getItem('theme') || 'dark'; // Default is dark mode
 
     if (savedTheme === 'light') {
         body.classList.add('light-mode');
-        body.classList.remove('dark-mode');
         toggleSwitch.checked = true;
     } else {
-        body.classList.add('dark-mode');
         body.classList.remove('light-mode');
         toggleSwitch.checked = false;
     }
@@ -217,10 +215,8 @@ document.addEventListener('DOMContentLoaded', () => {
 toggleSwitch.addEventListener('change', () => {
     if (toggleSwitch.checked) {
         body.classList.add('light-mode');
-        body.classList.remove('dark-mode');
         localStorage.setItem('theme', 'light');
     } else {
-        body.classList.add('dark-mode');
         body.classList.remove('light-mode');
         localStorage.setItem('theme', 'dark');
     }
