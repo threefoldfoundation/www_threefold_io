@@ -214,9 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Toggle light mode
 toggleSwitch.addEventListener('change', () => {
-  console.log('Hellon');
   if (toggleSwitch.checked) {
-    
     document.body.classList.add('light-mode');
     localStorage.setItem('theme', 'light');
     siteLogo.src = siteLogo.getAttribute('data-dark'); // Switch to light mode logo
