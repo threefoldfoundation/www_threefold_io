@@ -30,6 +30,21 @@ body .icon {
   fill: #ffffff !important;
 }
 
+body .dropdown a{
+  @apply
+  px-0
+  text-white
+}
+
+body .dropdown{
+  background-color: rgb(0 0 0 / 50%);
+  color: #fff;
+}
+
+body .d_menu {
+  background-color: rgba(34 34 34);
+}
+
 /* lightMode */
 body.light-mode {
   background-color: #ffffff;
@@ -44,6 +59,21 @@ body.light-mode .semigray {
 body.light-mode .semigray2 {
   
   color: #424242 !important;
+}
+
+body.light-mode .dropdown a{
+  @apply
+  px-0
+  text-black
+}
+
+body.light-mode .dropdown{
+  background-color: rgb(255 255 255 / 100%);
+  color: #121212;
+}
+
+body.light-mode .d_menu {
+  background-color: #e5e5e5;
 }
 
 body.light-mode .icon {
@@ -150,7 +180,7 @@ img[src*="#absolute"] {
 
 .dropdown { 
 
-  background-color: rgb(0 0 0 / 50%);
+  
   @apply
   lg:text-lg
   px-6
@@ -176,11 +206,7 @@ img[src*="#absolute"] {
   text-white
 }
 
-.dropdown a{
-  @apply
-  px-0
-  text-white
-}
+
 
 .subtitle {
   background-color:#58CF77 !important;
