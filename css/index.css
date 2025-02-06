@@ -4,7 +4,7 @@
 /*! purgecss end ignore */
 
 @import "tailwindcss/base";
-@import "layout.css";
+
 @import "tailwindcss/components";
 @import "admonition.css";
 @import "tailwindcss/utilities";
@@ -363,7 +363,7 @@ background-color:#5596f5 !important;
     shadow
     border-gray-400
     capitalize
-    bg-gray-200
+    /* bg-gray-200 */
   }
   .my-header h4{
     color:#9f9f9f;
@@ -439,7 +439,7 @@ background-color:#5596f5 !important;
 } */
 
 button :is(:where(p)) {
-  color: #ddd;
+  /* color: #ddd; */
   font-weight: 400;
 }
 

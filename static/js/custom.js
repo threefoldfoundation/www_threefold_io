@@ -6,7 +6,7 @@ var isMobile = width < 1024;
 function toggleMenu(button) {
   if (displayedMenu === button.id.split("-")[0]) {
     button.className = button.className.replace(
-      " text-gray-800 bg-stone-200 sm:bg-transparent",
+      " text-gray-800 sm:bg-transparent",
       " text-gray-900"
     );
     hideMenu(button.id.split("-")[0]);
@@ -23,7 +23,7 @@ function toggleMenu(button) {
     );
     button.className = button.className.replace(
       " text-gray-900",
-      " text-gray-800 bg-stone-200 sm:bg-transparent"
+      " text-gray-800 sm:bg-transparent"
     );
     displayedMenu = button.id.split("-")[0];
   }
