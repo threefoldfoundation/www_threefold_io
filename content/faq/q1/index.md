@@ -3,6 +3,8 @@ id: q1
 title: What is ThreeFold?
 ---
 
+<p class="text-gray-200 font-light">
+
 The ThreeFold Foundation is a not-for-profit organization based in Ghent, Belgium that oversees the research and development centers in Belgium, Switzerland, Egypt and the UAE as well as teams in India, Brazil, and the United States. 
 <br/>
 <br/>
@@ -17,3 +19,5 @@ ThreeFold is committed to making all it's peer-to-peer technologies open-source 
 <br/>
 
 [Learn More](https://library.threefold.me/info/threefold#/tfgrid/grid/threefold__grid_home)
+
+</p>
