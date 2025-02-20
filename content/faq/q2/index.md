@@ -3,6 +3,7 @@ id: q2
 title: What is the ThreeFold Grid?
 ---
 
+<p class="text-gray-200 font-light">
 The ThreeFold Grid is the world’s most advanced peer-to-peer Internet infrastructure. It can scale limitlessly, and brings a more performant, secure and sustainable Internet to host humanity’s data and workloads.
 <br/>
 <br/>
@@ -22,3 +23,4 @@ ThreeFold, is the only project that started from scratch at the infrastructure l
 <br/>
 <br/>
 We believe it is the only way to a liberalized Internet as imagined by it's initial creators.
+</p>
