@@ -297,8 +297,7 @@ background-color:#5596f5 !important;
     font-family: "Inter", sans-serif !important;
   }
   p {
-    @apply text-lg;
-    color: #3d3d3d;
+    @apply text-lg text-gray-200 font-light;
     font-family: "Inter", sans-serif !important;
   }
   blockquote {
