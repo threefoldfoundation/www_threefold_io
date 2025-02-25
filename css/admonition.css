@@ -62,8 +62,8 @@ html :is(.admonition) > :last-child {
   padding-block: 0.8rem;
   padding-inline: 4rem 1.2rem;
   font-weight: 700;
-  background-color: rgba(68, 138, 255, 0.1);
-  border: 0 solid #448aff;
+  background-color: hsla(0,0%,100%,.05)!important;
+  border: 0 solid #c9c9c9;
   border-inline-start-width: 0.4rem;
   border-start-start-radius: 0.2rem;
   display: flex;
@@ -343,7 +343,7 @@ html :is(.admonition-title, summary):last-child {
 }
 
 :is(summary)::after {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   mask-image: var(--md-details-icon);
   -webkit-mask-image: var(--md-details-icon);
   mask-repeat: no-repeat;

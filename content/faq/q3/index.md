@@ -3,6 +3,8 @@ id: q3
 title: Is the ThreeFold Grid live already? 
 ---
 
+<p class="text-gray-200 font-light">
+
 Answer here is a definite Yes!
 <br/>
 <br/>
@@ -14,3 +16,5 @@ As of today, the ThreeFold Grid is present across more than 30 countries and con
 <br/>
 
 [See our live explorer](https://explorer.threefold.io/all)
+
+</p

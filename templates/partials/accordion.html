@@ -3,39 +3,39 @@
 {% set tftFaq = get_section(path="tftfaq/_index.md") %}
 
 {% if current_path == '/faq/' %}
-<h2 class="text-center mt-10">{{ tfFaq.title }}</h2>
+<h2 class="text-center mt-10 text-white">{{ tfFaq.title }}</h2>
 <div class="lg:max-w-5xl mx-auto px-8 space-y-2 mt-10">
     {% for page in tfFaq.pages %}
     <details class="p-4 rounded-lg">
-        <summary class="font-semibold">{{ page.title }}</summary>
+        <summary class="font-semibold text-white">{{ page.title }}</summary>
         <div class="mt-3">
-            <p class="text-gray-600 text-sm leading-6">{{ page.content | safe }}</p>
+            <p class="text-gray-200 text-sm leading-6">{{ page.content | safe }}</p>
         </div>
     </details>
     {% endfor %}
 </div>
 
 {% elif current_path == '/farmfaq/' %}
-<h2 class="text-center mt-10">{{ farmFaq.title }}</h2>
+<h2 class="text-center text-white mt-10">{{ farmFaq.title }}</h2>
 <div class="lg:max-w-5xl mx-auto px-8 space-y-2 mt-10">
     {% for page in farmFaq.pages %}
     <details class="p-4 rounded-lg">
         <summary class="font-semibold">{{ page.title }}</summary>
         <div class="mt-3">
-            <p class="text-gray-600 text-sm leading-6">{{ page.content | safe }}</p>
+            <p class="text-gray-200 text-sm leading-6">{{ page.content | safe }}</p>
         </div>
     </details>
     {% endfor %}
 </div>
 
 {% elif current_path == '/tftfaq/' %}
-<h2 class="text-center mt-10">{{ tftFaq.title }}</h2>
+<h2 class="text-center text-white mt-10">{{ tftFaq.title }}</h2>
 <div class="lg:max-w-5xl mx-auto px-8 space-y-2 mt-10">
     {% for page in tftFaq.pages %}
     <details class="p-4 rounded-lg">
         <summary class="font-semibold">{{ page.title }}</summary>
         <div class="mt-3">
-            <p class="text-gray-600 text-sm leading-6">{{ page.content | safe }}</p>
+            <p class="text-gray-200 text-sm leading-6">{{ page.content | safe }}</p>
         </div>
     </details>
     {% endfor %}
@@ -43,6 +43,6 @@
 {% endif %}
 <style>
     a {
-        color: #4ec48f
+        color: #979797
     }
 </style>
