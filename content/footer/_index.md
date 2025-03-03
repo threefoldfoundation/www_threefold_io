@@ -20,9 +20,9 @@ extra:
 
 ###### [Dashboard](https://dashboard.grid.tf/)
 
-###### [Download TF Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
+###### [Download TF Connect](https://manual.grid.tf/documentation/tfconnect/tfconnect_installation.html)
 
-###### [Download TF Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
+###### [Download Mycelium](https://manual.grid.tf/documentation/system_administrators/mycelium/mycelium_app.html)
 
 |||
 

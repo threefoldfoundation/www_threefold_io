@@ -1,3 +1,4 @@
+
 export NAME='threefoldio'
 
 SOURCE=${BASH_SOURCE[0]}
@@ -59,6 +60,8 @@ if [[ ! -f "$HOME/hero/bin/tailwindcss" ]]; then
     popd
 fi
 
+
+# Zola version and platform-specific binaries are handled in the install functions below
 check_zola() {
     if command -v zola &> /dev/null; then
         echo "Zola is already installed."
@@ -88,12 +91,37 @@ install_zola_arch() {
 # Function to install Zola on macOS
 install_zola_macos() {
     echo "Installing Zola on macOS..."
-    if command -v brew &> /dev/null; then
-        brew install zola
+    ZOLA_VERSION="v0.18.0"
+    
+    # Determine architecture
+    if [[ "$(uname -m)" == "arm64" ]]; then
+        ZOLA_ARCH="aarch64"
     else
-        echo "Homebrew is not installed. Please install Homebrew first."
+        ZOLA_ARCH="x86_64"
+    fi
+    
+    ZOLA_FILE="zola-${ZOLA_VERSION}-${ZOLA_ARCH}-apple-darwin.tar.gz"
+    ZOLA_URL="https://github.com/getzola/zola/releases/download/${ZOLA_VERSION}/${ZOLA_FILE}"
+    
+    echo "Downloading Zola ${ZOLA_VERSION} for ${ZOLA_ARCH}..."
+    pushd /tmp
+    curl -sLO "${ZOLA_URL}"
+    
+    # Check file size (should be around 8-9MB)
+    FILE_SIZE=$(get_file_size "$ZOLA_FILE")
+    if [[ $FILE_SIZE -lt 7000000 ]]; then
+        echo "Error: Downloaded file size is less than 7MB, download may be incomplete."
+        rm "$ZOLA_FILE"
+        popd
         exit 1
     fi
+    
+    # Extract and install
+    tar -xzf "$ZOLA_FILE"
+    chmod +x zola
+    mv zola "$HOME/hero/bin/"
+    rm "$ZOLA_FILE"
+    popd
 }
 
 if ! check_zola; then
@@ -131,6 +159,6 @@ fi
 # Compile tailwindcss for prod & build project
 echo "Compiling tailwindcss and building zola project..."
 rm -rf public static/css
+
+set +e
 tailwindcss -i css/index.css -o ./static/css/index.css --minify
-
-
