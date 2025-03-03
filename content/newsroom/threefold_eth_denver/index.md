@@ -6,7 +6,7 @@ description: ThreeFold is at ETH Denver and will showcase its DePIN infrastructu
 date: 2025-02-24
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [tech,grid,community]
+  tags: [tech,news,community,event]
   news-category: [community,news, tech, event]
 extra:
     imgPath: threefold_eth_denver.png
