@@ -178,6 +178,8 @@ Last week, some of the team attended the ETH Denver conference last week, one of
 
 ![Image](img/team_eth.jpeg#mx-auto)
 
+<br/>
+
 ### **Looking Ahead**
 
 This week:
