@@ -12,7 +12,7 @@ extra:
     imgPath: mycelium_future.png
 ---
 
-Every time you send a message, stream a video, or browse the web, your data passes through centralized servers – exposing you to surveillance, data breaches, and corporate control. What is the Internet worked more like nature – decentralized, resilient, and free?
+Every time you send a message, stream a video, or browse the web, your data passes through centralized servers – exposing you to surveillance, data breaches, and corporate control. What if the Internet worked more like nature – decentralized, resilient, and free?
 
 <br/>
 
@@ -44,10 +44,6 @@ How Mycelium works:
 - **End-to-End Encryption:** All connections are secured, preventing man-in-the-middle attacks and ensuring complete privacy.
 - **Proof of Authenticity (PoA):** Identity verification strengthens trust between users and prevents malicious actors from infiltrating the network.
 - **Optimized Routing:** Smart algorithms minimize latency and optimize traffic flow, delivering faster, more efficient connectivity.
-
-<br/>
-
-Unlike traditional networks, Mycelium bypasses centralized controls and eliminates the need for them. With transfer rates of up to 1 Gbps per Network Agent, users can enjoy high-speed, private, and censorship-resistant communication.
 
 <br/>
 
