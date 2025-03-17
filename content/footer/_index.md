@@ -56,7 +56,7 @@ extra:
 
 <h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
 
-<h6><a target="_self" onclick="window.location.href='/media'">Media kit</a></h6>
+<h6><a target="_self" onclick="window.location.href='/media'">Media Kit</a></h6>
 
 
 
