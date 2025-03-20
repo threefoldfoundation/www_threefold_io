@@ -2,7 +2,7 @@
 id: Watch- Mycelium + Mycelium App + Open WebUI Demo
 title:  Watch - Mycelium + Mycelium App + Open WebUI Demo
 image_caption: mycelium demo
-description: Discover Mycelium, ThreeFold’s encrypted IPv6 overlay. Join Scott and Mik to set it up, connect apps, and deploy a secure Open WebUI on the ThreeFold Grid.
+description: Join Scott and Mik to set it up, connect apps, and deploy a secure Open WebUI on the ThreeFold Grid using Mycelium.
 date: 2025-03-11
 taxonomies:
   people: [bernadette_amanda_caster]
