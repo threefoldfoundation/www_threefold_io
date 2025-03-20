@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,news,community,event]
   news-category: [community,news, tech, event]
 extra:
-    imgPath: 316_upgrade_vote.png
+    imgPath: 316_mainnet_vote.png
 ---
 
 After much work from our tireless developers and a successful testing period, TF Grid 3.16 is ready for mainnet release. 🎉

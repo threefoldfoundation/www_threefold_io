@@ -1,6 +1,6 @@
 ---
 id: ev3_report
-title: ev3_report
+title: EV3 - 'ThreeFold- Rearchitecting the Internet'
 image_caption: ev3_report
 description: By redefining IT infrastructure from its core, we can reshape the internet into what it was meant to be. It’s time to build for the next century—and ThreeFold offers a promising solution.
 date: 2025-03-11
