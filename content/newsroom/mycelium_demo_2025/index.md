@@ -7,7 +7,7 @@ date: 2025-03-11
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,news,community,event]
-  news-category: [community,news, tech, event]
+  news-category: [community,news, techs]
 extra:
     imgPath: mycelium_demo.png
 ---
@@ -21,7 +21,3 @@ In this demo, Scott and Mik take you through an introduction to Mycelium and sho
 <br/>
 
 Watch the demo [here](https://www.youtube.com/watch?v=4oq15lxvkts) with timestamps for easy navigation, and leave your feedback or questions [here](https://forum.threefold.io/t/watch-mycelium-mycelium-app-deploying-open-webui-demo/4518).
-
-
-
-
