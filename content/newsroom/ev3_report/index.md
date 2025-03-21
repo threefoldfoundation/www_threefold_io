@@ -1,6 +1,6 @@
 ---
 id: ev3_report
-title: EV3 - 'ThreeFold- Rearchitecting the Internet'
+title: "Via EV3: 'ThreeFold - Rearchitecting the Internet'"
 image_caption: ev3_report
 description: By redefining IT infrastructure from its core, we can reshape the internet into what it was meant to be. It’s time to build for the next century—and ThreeFold offers a promising solution.
 date: 2025-03-18
@@ -11,6 +11,10 @@ taxonomies:
 extra:
     imgPath: ev3_report.png
 ---
+
+EV3 released about ThreeFold earlier this week!
+
+<br/>
 
 **What if Australia depended on Russia for electricity?**
 
@@ -24,7 +28,7 @@ What if Australia depended on Russia for electricity? It would present a major v
 
 <br/>
 
-Read their full report [here](http://bit.ly/4ixMoI0).
+Read the full report [here](http://bit.ly/4ixMoI0).
 
 <br/>
 
