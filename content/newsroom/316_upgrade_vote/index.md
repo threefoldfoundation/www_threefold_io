@@ -7,7 +7,7 @@ date: 2025-03-18
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,news,community,event]
-  news-category: [community,news, techs]
+  news-category: [community,news, tech]
 extra:
     imgPath: 316_mainnet_vote.png
 ---
