@@ -3,7 +3,7 @@ id: 316-live
 title: TF Grid 3.16 Live on Mainnet
 image_caption: 316-live
 description:  TF Grid 3.16 is now on Mainnet. To know more click here. 
-date: 2024-04-03
+date: 2025-04-03
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
