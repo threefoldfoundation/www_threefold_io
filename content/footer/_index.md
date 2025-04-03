@@ -20,6 +20,10 @@ extra:
 
 ###### [Dashboard](https://dashboard.grid.tf/)
 
+###### [Mycelium](https://mycelium.threefold.io/)
+
+###### [AIBOX](https://aibox.threefold.io/)
+
 ###### [Download TF Connect](https://manual.grid.tf/documentation/tfconnect/tfconnect_installation.html)
 
 ###### [Download Mycelium](https://manual.grid.tf/documentation/system_administrators/mycelium/mycelium_app.html)
