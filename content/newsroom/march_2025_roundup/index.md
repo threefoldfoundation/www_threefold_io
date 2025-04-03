@@ -37,6 +37,8 @@ Take a look at [this post](https://forum.threefold.io/t/gep-tf-grid-mainnet-rele
 
 ![Image](img/ev3report.jpeg#mx-auto)
 
+<br/>
+
 ### **Escape Velocity (EV3) Reports on ThreeFold**
 
 [Escape Velocity](https://ev3.xyz/) 🚀(EV3) has been doing research in the DePIN space about what true digital autonomy is and has shared their findings. Recently, they released a report entitled ‘ThreeFold: Rearchitecting the Internet.” The report covered several themes including:
@@ -50,9 +52,13 @@ Take a look at [this post](https://forum.threefold.io/t/gep-tf-grid-mainnet-rele
 
 <br/>
 
-We’re proud of what we have built – and are building towards – and we’re pleased EV3 took the time to report on it. You can find the full coverage [here])(https://paragraph.xyz/@ev3news/threefold-rearchitecting-the-internet).
+We’re proud of what we have built – and are building towards – and we’re pleased EV3 took the time to report on it. You can find the full coverage [here](https://paragraph.xyz/@ev3news/threefold-rearchitecting-the-internet).
+
+<br/>
 
 ![Image](img/depinsummit.png#mx-auto)
+
+<br/>
 
 ### **We’re Co-Hosting This Year’s DePIN Summit**
 
@@ -82,7 +88,11 @@ The results have now been [consolidated and synthesized](https://forum.threefold
 
 *Speaking of community, have you seen the [Shortcut Telegram bot](https://forum.threefold.io/t/community-created-shortcut-telegram-bot-is-live-feedback/4537/2) created by SwissFold? Check it out and leave your comments so the tool can become even more valuable!*
 
+<br/>
+
 ![Image](img/demotime.png#mx-auto)
+
+<br/>
 
 ### **Demo Time: Mycelium and AIBox**
 
@@ -102,7 +112,7 @@ This month, we’ll host demos on Quantum Safe Filesystem and Kubernetes. Dates 
 
 ### **Looking Ahead**
 
-The team is getting to work on TF Grid 3.17 and the features of that release will be communicated as soon as possible. This month you can also expect some more demos from Scott and Mik, as shared above! We’ll also share more on the DePIN Summit as new speakers and details are announced. Stay tuned via our [news channel](https://t.me/threefoldnews) for more as it unfolds. 🔮
+The team is getting to work on TF Grid 3.17 and the features of that release will be communicated as soon as possible. This month you can also expect some more demos from Scott and Mik, as shared above! We’ll also share more on the DePIN Summit as new speakers and details are announced. Stay tuned via our [news channel](https://t.me/threefoldnews) as things unfold. 🔮
 
 <br/>
 
