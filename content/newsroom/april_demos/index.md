@@ -1,6 +1,6 @@
 ---
 id: april_demos
-title: Announcing - April 2025 Demo Sessions
+title: "Announcing: April 2025 Demo Sessions"
 image_caption: april_demos
 description:  We have 2 exciting demos coming up this month. Save the date! 
 date: 2025-04-07
