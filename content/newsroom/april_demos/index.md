@@ -15,19 +15,11 @@ extra:
 
 We’re pleased to share that live demos are making a comeback!
 
-<br/>
-
-### Thu April 10: Quantum Safe Storage w. Pulumi
-
-<br/>
+### **Thu April 10: Quantum Safe Storage w. Pulumi**
 
 Join Scott as he takes you through how to deploy QSFS using Pulumi in just a few steps – bringing the power of automated infrastructure as code to cutting-edge storage.
 
-<br/>
-
-### Thu April 24: Multi-Control Plane Kubernetes Cluster
-
-<br/>
+### **Thu April 24: Multi-Control Plane Kubernetes Cluster**
 
 During this session, Mik will demonstrate how to deploy a high-availability, multi-control-plane Kubernetes cluster on the ThreeFold Grid – in just a few lines!
 

@@ -1,6 +1,6 @@
 ---
 id: surge_tank
-title: Today - ThreeFold Joins SURGE TANK!
+title: "Today: ThreeFold Joins SURGE TANK!"
 image_caption: surge_tank
 description:  Florian goes live today on SURGE TANK’s DePIN Builders episode by Surgence Labs!
 date: 2025-04-10
