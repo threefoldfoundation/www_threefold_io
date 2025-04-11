@@ -3,7 +3,7 @@ id: surge_tank
 title: Today - ThreeFold Joins SURGE TANK!
 image_caption: surge_tank
 description:  We have 2 exciting demos coming up this month. Save the date! 
-date: 2025-04-07
+date: 2025-04-10
 taxonomies:
   people: [bernadette_amanda_caster]
   tags: [tech,grid,community]
