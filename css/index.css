@@ -366,11 +366,11 @@ background-color:#5596f5 !important;
   }
   
   .post-content-text a, .article a{
-    color: #a5a5a5;
+    color: #a1debd;
   }
   
   .post-content-text a:hover, .article a:hover{
-    color: #c6c9c8;
+    color: #57d391;
   }
 
   .article li{

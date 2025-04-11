@@ -1,8 +1,8 @@
 ---
-id: DEPIN Summit
-title: Announcing- DePIN Summit 2025!
+id: depin_summit_2025
+title: "Announcing: DePIN Summit!"
 image_caption: DEPIN Summit
-description: We're excited to co-host this year's DePIN Summit with EV3 Ventures and Share, gathering decentralized infrastructure pioneers in East Africa to collaborate with local industry and government leaders.
+description: We're thrilled to co-host this year's DePIN Summit with EV3 Ventures and Share, bringing decentralized infrastructure pioneers to East Africa to collaborate with local industry and government leaders.
 date: 2025-04-02
 taxonomies:
   people: [bernadette_amanda_caster]
@@ -44,8 +44,7 @@ The DePIN Summit 2025 promises to deliver high-impact keynotes, panel discussion
 
 <br/>
 
-For more information and to secure your spot, visit www.depinsummit.xyz
-
+For more information and to secure your spot, visit [depinsummit.xyz](https://www.depinsummit.xyz)
 
 
 
