@@ -10,6 +10,7 @@ taxonomies:
   news-category: [community,news, tech]
 extra:
     imgPath: depin_summit_2025.png
+    isFeatured: true
 ---
 
 We’re thrilled to co-host this year’s DePIN Summit with EV3 Ventures and Share! Please find the official details below:

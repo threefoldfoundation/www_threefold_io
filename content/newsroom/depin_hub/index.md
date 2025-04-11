@@ -10,7 +10,7 @@ taxonomies:
   news-category: [community, grid, collaboration, tech]
 extra:
     imgPath: depin_hub.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 
