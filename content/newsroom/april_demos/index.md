@@ -17,7 +17,7 @@ We’re pleased to share that live demos are making a comeback!
 
 <br/>
 
-**Thu April 10: Quantum Safe Storage w. Pulumi**
+### Thu April 10: Quantum Safe Storage w. Pulumi
 
 <br/>
 
@@ -25,7 +25,7 @@ Join Scott as he takes you through how to deploy QSFS using Pulumi in just a few
 
 <br/>
 
-**Thu April 24: Multi-Control Plane Kubernetes Cluster**
+### Thu April 24: Multi-Control Plane Kubernetes Cluster
 
 <br/>
 
