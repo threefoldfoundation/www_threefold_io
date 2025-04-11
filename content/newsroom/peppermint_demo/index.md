@@ -1,6 +1,6 @@
 ---
 id: peppermint_demo
-title: Watch the Peppermint-ThreeFold New Minting Visualizer Demo
+title: Watch the Peppermint (ThreeFold's New Minting Visualizer) Demo
 image_caption: peppermint
 description: Scott and Mik introduce Peppermint, an open-source tool for visualizing ThreeFold minting receipts. It’s user-friendly, with sorting, filtering, and CSV downloads—test it out.
 date: 2024-10-31

@@ -1,6 +1,6 @@
 ---
-id: Vote- Bring TF Grid 3.16 to Mainnet
-title:  Vote - Bring TF Grid 3.16 to Mainnet
+id: 316_upgrade_vote
+title:  "Vote: Bring TF Grid 3.16 to Mainnet"
 image_caption: 316_vote
 description: Calling all farmers to vote on the GEP to bring grid version 3.16 to mainnet!
 date: 2025-03-18

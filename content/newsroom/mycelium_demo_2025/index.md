@@ -1,6 +1,6 @@
 ---
-id: Watch- Mycelium + Mycelium App + Open WebUI Demo
-title:  Watch - Mycelium + Mycelium App + Open WebUI Demo
+id: mycelium_demo_2025
+title: "Watch: Mycelium + Mycelium App + Open WebUI Demo"
 image_caption: mycelium demo
 description: Learn how to download Mycelium, connect apps, and deploy a secure Open WebUI on the ThreeFold Grid using Mycelium.
 date: 2025-03-11
