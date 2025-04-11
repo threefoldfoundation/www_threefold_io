@@ -21,17 +21,13 @@ We’re also implementing a new release strategy where we’ll work on smaller r
 
 <br/>
 
-**Mycelium Improvements**
-
-<br/>
+## Mycelium Improvements
 
 Upcoming work on Mycelium is mostly centered on ensuring the network can scale effectively to support tens and hundreds of thousands of users. Alongside this, the team is working on the UI/UX of the Mycelium clients to enhance usability and accessibility. A slew of new features are planned for Mycelium in 3.18 and beyond – but the team has first decided to focus on foundational elements of scalability and user experience.
 
 <br/>
 
-**Quantum Safe Storage**
-
-<br/>
+## Quantum Safe Storage
 
 There are some notable updates to Quantum Safe Storage (QSFS) including improvements to the code and a Pulumi deployment option. In addition, users are now able to visualize the data by connecting a Grafana instance and importing a basic dashboard (a first version, to be improved). 3.17 will bring forward these updates along with clear documentation on how to deploy and operate QSFS. The community has asked for an easy way to QSFS and we’re happy to bring this forward in 3.17!
 
