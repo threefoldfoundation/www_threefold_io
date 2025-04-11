@@ -10,7 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: april_demos.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 We’re pleased to share that live demos are making a comeback!

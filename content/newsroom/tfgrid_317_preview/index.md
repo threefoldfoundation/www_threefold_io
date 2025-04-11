@@ -10,7 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: tfgrid_317_preview.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 With TF Grid 3.16 live on mainnet as of last week, we’re pleased to share what’s coming with version 3.17. Here are just a couple of highlights – follow the link below for more.

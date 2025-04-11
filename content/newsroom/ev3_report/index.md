@@ -10,6 +10,7 @@ taxonomies:
   news-category: [community,news, tech]
 extra:
     imgPath: ev3_report.png
+    isFeatured: true
 ---
 
 EV3 released about ThreeFold earlier this week!
