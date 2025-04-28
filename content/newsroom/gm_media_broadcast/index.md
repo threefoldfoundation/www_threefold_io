@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech, grid,community]
   news-category: [tech, grid,community]
 extra:
-    imgPath: surge_tank1.jpg
+    imgPath: gm_media.jpg
 ---
 
 At ETHDenver 2025, Melena from [Genzio Media](https://www.genzio.co/) sat down with ThreeFold co-founder Florian Fournier to explore how ThreeFold is rebuilding the internet from the ground up.

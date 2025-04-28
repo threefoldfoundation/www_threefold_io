@@ -9,10 +9,10 @@ taxonomies:
   tags: [tech, grid,community]
   news-category: [tech, grid,community]
 extra:
-    imgPath: surge_tank1.jpg
+    imgPath: surge_tank1.png
 ---
 
-Last Thursday, ThreeFold co-founder Florian Fournier joined SURGE TANK by [Surgence Labs](https://www.surgence.io/), as they explored the topic of DePIN. He was joined by Rykz and Vinh from Surgence along with Léonie, co-founder of [Kaisar Network}(https://kaisar.io/), and KaizerGaming88, head of biz dev at [Aethir](https://aethir.com/). (Full broadcast link at the bottom.)
+Last Thursday, ThreeFold co-founder Florian Fournier joined SURGE TANK by [Surgence Labs](https://www.surgence.io/), as they explored the topic of DePIN. He was joined by Rykz and Vinh from Surgence along with Léonie, co-founder of [Kaisar Network](https://kaisar.io/), and KaizerGaming88, head of biz dev at [Aethir](https://aethir.com/). (Full broadcast link at the bottom.)
 
 <br/>
 
@@ -22,5 +22,5 @@ Florian opened with a clear vision for DePIN’s potential:
 
 <br/>
 
-📚 Read our [recap] (https://forum.threefold.io/t/surge-tank-depin-builders-broadcast-recap/4568)
-📺 Watch the broadcast on [X] (https://x.com/i/broadcasts/1yNGaLRlRDNKj)
+📚 Read our [recap](https://forum.threefold.io/t/surge-tank-depin-builders-broadcast-recap/4568)
+📺 Watch the broadcast on [X](https://x.com/i/broadcasts/1yNGaLRlRDNKj)

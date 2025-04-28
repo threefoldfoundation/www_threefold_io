@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech, grid,community]
   news-category: [tech, grid,community]
 extra:
-    imgPath: building_web3_news.jpg
+    imgPath: buliding_web3_news.jpg
 ---
 
 The team at BlockTelegraph asked, "what's the most valuable piece of advice you've received about building in the Web3 space?"
@@ -20,4 +20,4 @@ ThreeFold co-founder Florian Fournier had this to say, "It’s easy to get caugh
 
 <br/>
 
-Full quote and article [here] (https://blocktelegraph.io/building-in-web3-top-advice-from-the-experts/).
+Full quote and article [here](https://blocktelegraph.io/building-in-web3-top-advice-from-the-experts/).
