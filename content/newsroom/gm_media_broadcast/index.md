@@ -26,8 +26,5 @@ This is what we are trying to solve. Florian went deeper, explaining that the on
 
 <br/>
 
-📚 Read our [recap](https://forum.threefold.io/t/genzio-media-how-threefold-is-reshaping-the-internet/4576)
-
-<br/>
-
+📚 Read our [recap](https://forum.threefold.io/t/genzio-media-how-threefold-is-reshaping-the-internet/4576)<br/>
 📺 Watch the broadcast on [X](https://x.com/i/status/1912955296206434675)
