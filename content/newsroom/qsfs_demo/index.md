@@ -1,6 +1,6 @@
 ---
 id: qsfs_demo
-title: Watch - Quantum Safe Filesystem with Pulumi
+title: "Watch: Quantum Safe Filesystem with Pulumi"
 image_caption: qsfs
 description: Scott shows how to deploy ThreeFold's Quantum Safe Filesystem (QSFS) with the new Pulumi-based deployer.
 date: 2025-04-14

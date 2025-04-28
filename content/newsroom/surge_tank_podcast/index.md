@@ -10,7 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: surge_tank.png
-    isFeatured: true
+    
 ---
 
 Tune in today at 11am UTC (1pm CEST) for the DePIN Builders episode of the SURGE TANK broadcast by Surgence Labs.

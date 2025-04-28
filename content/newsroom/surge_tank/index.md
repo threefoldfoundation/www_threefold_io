@@ -1,6 +1,6 @@
 ---
 id: surge_tank
-title: SURGE TANK - DePIN Builders Episode Recap
+title: "SURGE TANK: DePIN Builders Episode Recap"
 image_caption: surge_tank
 description: Florian Fournier joined SURGE TANK with Léonie and Kaizer for a powerful conversation.
 date: 2025-04-16
@@ -10,6 +10,7 @@ taxonomies:
   news-category: [tech, grid,community]
 extra:
     imgPath: surge_tank1.png
+    isFeatured: true
 ---
 
 Last Thursday, ThreeFold co-founder Florian Fournier joined SURGE TANK by [Surgence Labs](https://www.surgence.io/), as they explored the topic of DePIN. He was joined by Rykz and Vinh from Surgence along with Léonie, co-founder of [Kaisar Network](https://kaisar.io/), and KaizerGaming88, head of biz dev at [Aethir](https://aethir.com/). (Full broadcast link at the bottom.)

@@ -1,6 +1,6 @@
 ---
 id: gm_media
-title: Genzio Media - How ThreeFold Is Reshaping The Internet Episode Recap
+title: "Genzio Media: How ThreeFold Is Reshaping The Internet Episode Recap"
 image_caption: gm_media
 description: Genzio Media sat down with ThreeFold co-founder Florian Fournier to discuss how ThreeFold is rebuilding the internet, in a clear, relatable conversation.
 date: 2025-04-22

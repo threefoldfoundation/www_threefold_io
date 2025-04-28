@@ -1,6 +1,6 @@
 ---
 id: block_telegraph
-title: BlockTelegraph - Advice from the Experts
+title: "BlockTelegraph: Advice from the Experts"
 image_caption: blocktelegraph
 description: "What's the most valuable piece of advice you've received about building in the Web3 space?"
 date: 2025-04-15
