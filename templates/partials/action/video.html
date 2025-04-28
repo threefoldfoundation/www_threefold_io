@@ -1,0 +1,109 @@
+<div class="relative isolate overflow-hidden bg-transparent">
+    <div class="mx-auto max-w-4xl text-center px-2 pt-12 lg:px-8">
+        <!-- Main Heading -->
+        <h2 class="fade-in text-pretty text-3xl sm:text-4xl lg:text-6xl leading-tight font-normal tracking-tight text-white capitalize">
+          Building a new Internet for Everyone
+        </h2>
+        
+        <!-- Subtext -->
+        <p class="mx-auto mt-8 max-w-3xl text-pretty text-lg font-light text-gray-200 fade-in fade-in-delay">
+          The internet is a trillion-dollar industry, and we believe it should be built and owned by everyone—an internet created by all, for all.
+        <br>
+        Let’s make this vision a reality.
+        </p>
+        
+        <!-- Embed YouTube Video -->
+        <div class="py-10 flex justify-center mx-auto" style="max-width: 500px; height: auto;">
+            <div class="responsive-iframe" >
+                <iframe src="https://www.youtube.com/embed/64mbEewI0Ag?si=I0m_ShxlTUk3mok-" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        
+        <!-- Call to Action Button -->
+        <div class="mt-2 fade-in flex items-center justify-center gap-x-6">
+            <a href="/signup" target="_blank" 
+               class="rounded-2xl bg-white px-4 py-2.5 text-sm sm:text-base font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 blinking-effect">
+                Take Action
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+  /* Fade-in animation */
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  /* Fade-in keyframe */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Responsive iframe for YouTube video */
+  .responsive-iframe {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Max width for large screens */
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  .responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Ensure content aligns properly */
+  .flex.justify-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Responsive text and spacing */
+  .text-pretty {
+    word-wrap: break-word;
+  }
+  @media (max-width: 640px) {
+    .text-pretty {
+      padding: 0 1rem;
+    }
+  }
+
+  /* Style for the button */
+  .blinking-effect {
+    animation: blink 1.5s step-start infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0.5;
+    }
+  }
+</style>
+
+<script>
+  // JavaScript to add 'visible' class after loading
+  window.addEventListener('DOMContentLoaded', () => {
+    const fadeInElements = document.querySelectorAll('.fade-in');
+
+    fadeInElements.forEach((element, index) => {
+      // Adding a delay for each fade-in effect (increasing delay with index)
+      setTimeout(() => {
+        element.classList.add('visible');
+      }, index * 1000); // 1000ms delay between each element
+    });
+  });
+</script>

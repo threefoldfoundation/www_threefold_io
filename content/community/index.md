@@ -69,7 +69,7 @@ extra:
 
 <h6 class="text-white mt-4 font-semibold">X | Twitter</h6>
 
-<p class="text-base text-white  leading-snug">"Tweet" With Us<p>
+<p class="text-base text-white  leading-snug">Connect With Us<p>
 
 {% end %}
 
@@ -176,7 +176,7 @@ extra:
 
 <h6 class="text-white mt-4 font-semibold">LinkedIn</h6>
 
-<p class="text-base text-white  leading-snug">Lets Network<p>
+<p class="text-base text-white  leading-snug">Let's Network<p>
 
 {% end %}
 

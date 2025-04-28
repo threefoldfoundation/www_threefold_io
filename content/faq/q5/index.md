@@ -3,6 +3,8 @@ id: q5
 title: Does the ThreeFold use consensus?
 ---
 
+<p class="text-gray-200 font-light">
+
 ThreeFold uses blockchain technology only for what it's good for - Smart Contracts and Transactions. 
 <br/>
 <br/>
@@ -16,3 +18,6 @@ For instance, on the ThreeFold Grid, every user is able to store, run and access
 <br/>
 <br/>
 Put simply, instead of using consensus, peer-to-peer technology is used to provide true data sovereignty.
+
+
+</p>

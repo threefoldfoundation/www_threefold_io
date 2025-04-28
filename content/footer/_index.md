@@ -20,9 +20,13 @@ extra:
 
 ###### [Dashboard](https://dashboard.grid.tf/)
 
-###### [Download TF Connect: iOS](https://apps.apple.com/us/app/3bot-login/id1459845885)
+###### [Mycelium](https://mycelium.threefold.io/)
 
-###### [Download TF Connect: Android](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en_US)
+###### [AIBOX](https://aibox.threefold.io/)
+
+###### [Download TF Connect](https://manual.grid.tf/documentation/tfconnect/tfconnect_installation.html)
+
+###### [Download Mycelium](https://manual.grid.tf/documentation/system_administrators/mycelium/mycelium_app.html)
 
 |||
 
@@ -55,6 +59,8 @@ extra:
 <h6><a target="_self" href="javascript:;" onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')">Newsletter</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/community'">Community</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/media'">Media Kit</a></h6>
 
 
 

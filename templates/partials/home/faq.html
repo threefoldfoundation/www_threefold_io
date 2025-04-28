@@ -14,9 +14,9 @@
         };
     </script>
     <main class="relative flex flex-col justify-center overflow-hidden">
-        <div class="w-full max-w-7xl mx-auto px-4 md:px-6 py-20">
+        <div class="w-full max-w-7xl mx-auto px-4 md:px-6 lg:py-24 py-12">
 
-            <h1 class="text-3xl font-normal tracking-tight text-white">Frequently Asked Questions</h1>
+            <h1 class="lg:text-4xl text-3 font-normal tracking-tight text-white">Frequently Asked Questions</h1>
 
             <!-- Accordion component -->
             <div class="divide-y divide-white/50 my-10">
@@ -110,7 +110,73 @@
                         >
                         <div class="overflow-hidden">
                              <p class="pb-3 text-gray-300 text-base font-light">
-                                TFT is our token which was used to build generation 1, 2 and 3 of the ThreeFold Grid capacity. From the start, ThreeFold had 4 billion tokens planned. The ThreeFold community decided to stop minting at 1 billion tokens on Stellar via a DAO vote. TFT is the reward for our loyal community. There can never be more than 1 billion TFT. <br><br>We are now building generation 4 of the ThreeFold Grid capacity, and we need a new token to build this new generation. There will be 3 billion new INCA tokens and all TFT holders can transfer their TFT into INCA (one-way bridge). <br><br>This means that we keep the community decision to have 4 billion tokens in total and to mint maximum 1 billion on Stellar. Our partners will start selling new ThreeFold Nodes mid December 2024 with a new reward scheme and ready to grow to millions of nodes.
+                                TFT is our token which was used to build generation 1, 2 and 3 of the ThreeFold Grid capacity. From the start, ThreeFold had 4 billion tokens planned. The ThreeFold community decided to stop minting at 1 billion tokens on Stellar via a DAO vote. TFT is the reward for our loyal community. There can never be more than 1 billion TFT. <br><br>We are now building generation 4 of the ThreeFold Grid capacity, and we need a new token to build this new generation. There will be 3 billion new INCA tokens and all TFT holders can transfer their TFT into INCA (one-way bridge).
+
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-04"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-04"
+                        >
+                            <span style="color: #fff;">What can I do with the Threefold Grid?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div
+                        id="faqs-text-04"
+                        role="region"
+                        aria-labelledby="faqs-title-04"
+                        class="grid text-sm text-gray-200 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                             <p class="pb-3 text-gray-300 text-base font-light">
+                                ThreeFold grid can be used to host any web2 and web3 workloads.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Accordion item -->
+                <div x-data="{ expanded: false }" class="py-2">
+                    <h2>
+                        <button
+                            id="faqs-title-04"
+                            type="button"
+                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
+                            @click="expanded = !expanded"
+                            :aria-expanded="expanded"
+                            aria-controls="faqs-text-04"
+                        >
+                            <span style="color: #fff;">How can I get V4 nodes?                                ?</span>
+                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div
+                        id="faqs-text-04"
+                        role="region"
+                        aria-labelledby="faqs-title-04"
+                        class="grid text-sm text-gray-200 overflow-hidden transition-all duration-300 ease-in-out"
+                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
+                        >
+                        <div class="overflow-hidden">
+                             <p class="pb-3 text-gray-300 text-base font-light">
+                                
+                            Our partners are selling V4 nodes with a new reward scheme and ready to grow to millions of nodes. <A href="docs.threefold.io/docs/become-a-farmer/get_started">Click here</a> to get V4 nodes.
                             </p>
                         </div>
                     </div>
@@ -142,39 +208,8 @@
                         >
                         <div class="overflow-hidden">
                              <p class="pb-3 text-gray-300 text-base font-light">
-                                You can participate by becoming a farmer, a user, a partner or by developing a web4 app. Provide capacity to the ThreeFold Grid, Use capacity, build solutions, develop applications for Web4, and many more.
+                                You can participate by becoming a farmer, a user, a partner or by developing apps. Provide capacity to the ThreeFold Grid, Use capacity, build solutions, develop applications, and many more.
                             </p>
-                        </div>
-                    </div>
-                </div> 
-                <!-- Accordion item -->
-                <div x-data="{ expanded: false }" class="py-2">
-                    <h2>
-                        <button
-                            id="faqs-title-06"
-                            type="button"
-                            class="flex items-center justify-between w-full text-left font-semibold py-2 border-none"
-                            @click="expanded = !expanded"
-                            :aria-expanded="expanded"
-                            aria-controls="faqs-text-06"
-                        >
-                            <span style="color: #fff;">What is Web4?</span>
-                            <svg class="fill-white shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
-                                <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
-                            </svg>
-                        </button>
-                    </h2>
-                    <div
-                        id="faqs-text-06"
-                        role="region"
-                        aria-labelledby="faqs-title-06"
-                        class="grid text-sm text-gray-200 overflow-hidden transition-all duration-300 ease-in-out"
-                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
-                        >
-                        <div class="overflow-hidden">
-                             <p class="pb-3 text-gray-300 text-base font-light">
-                                Web4 represents the natural evolution of the Internet, where humans and artificial intelligence collaborate to develop a new paradigm aimed at advancing planetary well-being while making sure everyone has equal chances. This Internet can be sovereign & decentralized, while being totally secure and private. This phase of the Internet can scale indefinitely, is green, self-healing, cost effective and ultra-reliable.
                         </div>
                     </div>
                 </div> 
@@ -237,8 +272,8 @@
                         >
                         <div class="overflow-hidden">
                              <p class="pb-3 text-gray-300 text-base font-light">
-                                ThreeFold grid can be used to host any web2, web3 and web4 (future) workload.
-                                For more details see <a href="https://docs.threefold.io/docs/use" target="_blank" rel="noopener noreferrer">our docs</a>
+                                ThreeFold grid can be used to host any web2, web3 and future workload.
+                                For more details see <a href="https://docs.threefold.io/docs/category/how-to-use" target="_blank" rel="noopener noreferrer">our docs</a>.
                             </p>
                         </div>
                     </div>
@@ -270,7 +305,7 @@
                     >
                     <div class="overflow-hidden">
                             <p class="pb-3 text-gray-300 text-base font-light">
-                            Individuals, businesses, and organizations who want to be sovereign and have full control over their data and applications. Security is a very big problem today, Technology as used by ThreeFold has the potential to resolve this if used properly. We are building a channel of solution providers and integrators who want to build on top of ThreeFold.
+                            Individuals, businesses, and organizations who want to be autonomous and have full control over their data and applications. Security is a very big problem today, Technology as used by ThreeFold has the potential to resolve this if used properly. We are building a channel of solution providers and integrators who want to build on top of ThreeFold.
 
                         </p>
                     </div>
