@@ -23,4 +23,7 @@ Florian opened with a clear vision for DePIN’s potential:
 <br/>
 
 📚 Read our [recap](https://forum.threefold.io/t/surge-tank-depin-builders-broadcast-recap/4568)
+
+<br/>
+
 📺 Watch the broadcast on [X](https://x.com/i/broadcasts/1yNGaLRlRDNKj)

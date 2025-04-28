@@ -16,4 +16,4 @@ In this demo, Scott shows how to deploy ThreeFold's Quantum Safe Filesystem (QSF
 
 <br/>
 
-Watch the demo [here](https://youtu.be/Ho4HJh0DtxM) with timestamps for easy navigation, and leave your feedback of questions [here] (https://forum.threefold.io/t/watch-quantum-safe-filesystem-with-pulumi-deployer/4567).
+Watch the demo [here](https://youtu.be/Ho4HJh0DtxM) with timestamps for easy navigation, and leave your feedback of questions [here](https://forum.threefold.io/t/watch-quantum-safe-filesystem-with-pulumi-deployer/4567).
