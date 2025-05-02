@@ -32,7 +32,7 @@ This foundation also enables a new era of decentralized artificial intelligence 
 
 #### From a Global Perspective
 
-ThreeFold envisions a new internet and to make this a reality, the ThreeFold Grid needs to reach a million (or millions of) nodes. A world with a million nodes ...
+ThreeFold envisions a new internet, an alternative to the internet of today. To make this a reality, the ThreeFold Grid needs to reach a million (or millions of) nodes. A world with a million nodes ...
 
 </br>
 
@@ -111,11 +111,11 @@ From AI development to sustainable farming, digital education to climate science
 
 </br>
 
-For years, the ThreeFold team and community have been quietly building the foundation. The grid today is a clear collective demonstration that all of this is possible. The technology is proven. The network is live. And the momentum is growing.
+For years, the ThreeFold team and community have been quietly building the foundation. The technology is proven. The network is live. And the world needs what we have been building.
 
 </br>
 
-Scaling to a million nodes is an ambitious goal – but it’s also an invitation. An invitation to co-create a digital world where power is distributed, opportunity is shared, and progress belongs to everyone.
+The grid today is a clear collective demonstration that all of this is possible. Scaling to a million nodes is an ambitious goal – but it’s also an invitation. An invitation to co-create a digital world where power is distributed, opportunity is shared, and progress belongs to everyone.
 
 </br>
 
