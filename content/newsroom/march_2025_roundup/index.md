@@ -10,7 +10,7 @@ taxonomies:
   news-category: [community, grid, tech]
 extra:
     imgPath: march_2025_roundup.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 March (and the first days of April) was packed with progress – from exciting updates to the ThreeFold Grid to coverage by EV3 and the announcement of the DePIN summit to new demos and community discussions. Let’s look at the highlights!

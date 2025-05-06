@@ -10,6 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: peaq_partnership.png
+    isFeatured: true
     
 ---
 
