@@ -85,7 +85,7 @@ Co-founders Kristof De Spiegeleer, Adnan Fatayerji, Florian Fournier, and Weynan
 
 <br/>
 
-![Image](img/machineeconomy.png#mx-auto)
+![Image](img/machineeconomy.jpeg#mx-auto)
 
 <br/>
 
