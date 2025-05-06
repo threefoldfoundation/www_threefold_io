@@ -18,6 +18,8 @@ At ETHDenver 2025, Melena from [Genzio Media](https://www.genzio.co/) sat down w
 
 The conversation was simple, clear, and resonated with anyone who’s ever felt the internet just isn’t working the way it should. When asked, “What is ThreeFold and why does it matter to everyday people?”, Florian gave a super relatable analogy:
 
+<br/>
+
 > “If you think of energy, having one country produce it for another makes no sense–yet that’s exactly how the internet works.”
 
 <br/>

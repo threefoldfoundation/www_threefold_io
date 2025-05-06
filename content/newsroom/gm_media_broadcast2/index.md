@@ -24,8 +24,5 @@ He reflected on the early days when the internet was a collaborative, peer-to-pe
 
 <br/>
 
-📚 Read our [recap](https://forum.threefold.io/t/genzio-media-how-the-internet-has-evolved/4587) 
-
-<br/>
-
+📚 Read our [recap](https://forum.threefold.io/t/genzio-media-how-the-internet-has-evolved/4587) <br/>
 📺 Watch the broadcast on [X](https://x.com/i/status/1914495473009721731)
