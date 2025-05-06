@@ -10,7 +10,6 @@ taxonomies:
   news-category: [tech, grid,community]
 extra:
     imgPath: surge_tank1.png
-    isFeatured: true
 ---
 
 Last Thursday, ThreeFold co-founder Florian Fournier joined SURGE TANK by [Surgence Labs](https://www.surgence.io/), as they explored the topic of DePIN. He was joined by Rykz and Vinh from Surgence along with Léonie, co-founder of [Kaisar Network](https://kaisar.io/), and KaizerGaming88, head of biz dev at [Aethir](https://aethir.com/). (Full broadcast link at the bottom.)
