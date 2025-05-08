@@ -2,7 +2,7 @@
 id: Peaq_partnership
 title: "Partnership: ThreeFold x peaq"
 image_caption: Peaq_partnership
-description:  Announcing a transformative partnership between ThreeFold and peaq to advance a decentralized, sustainable machine economy.
+description: Announcing an exciting partnership between ThreeFold and peaq to build a decentralized, sustainable machine economy.
 date: 2025-04-30
 taxonomies:
   people: [bernadette_amanda_caster]
@@ -10,6 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: peaq_partnership.png
+    isFeatured: true
     
 ---
 
@@ -17,7 +18,7 @@ extra:
 
 <br/>
 
-Together, we’ll build a more inclusive, sustainable, scalable, and sovereign machine economy.
+peaq is a layer-1 blockchain powering the machine economy, already with an impressive and extensive ecosystem of DePIN partners. Together, we’ll build a more inclusive, sustainable, scalable, and sovereign machine economy.
 
 <br/>
 
