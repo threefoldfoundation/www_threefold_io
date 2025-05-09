@@ -1,8 +1,8 @@
 ---
-id: reclaiming the internet
+id: reclaiming_the_internet
 title: "Reclaiming the Internet: How ThreeFold is Giving Power Back to the People"
-image_caption: Introducing Mycelium
-description: ThreeFold is building what Web3 promised but never delivered: a peer-to-peer, user-owned internet. ThreeFold creates an open, resilient, and sovereign digital future free from Big Tech control by starting from the infrastructure layer.
+image_caption: Reclaiming the Internet
+description: "ThreeFold is building what Web3 promised but never delivered: a peer-to-peer, user-owned internet. ThreeFold creates an open, resilient, and sovereign digital future free from Big Tech control by starting from the infrastructure layer."
 date: 2025-05-08
 taxonomies:
   people: [bernadette_amanda_caster]
