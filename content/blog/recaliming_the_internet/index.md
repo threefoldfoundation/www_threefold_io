@@ -2,7 +2,7 @@
 id: reclaiming_the_internet
 title: "Reclaiming the Internet: How ThreeFold is Giving Power Back to the People"
 image_caption: Reclaiming the Internet
-description: "ThreeFold is building what Web3 promised but never delivered: a peer-to-peer, user-owned internet. ThreeFold creates an open, resilient, and sovereign digital future free from Big Tech control by starting from the infrastructure layer."
+description: "ThreeFold is building what Web3 promised but has not delivered: a peer-to-peer, user-owned internet. ThreeFold creates an open, resilient, and sovereign digital future free from Big Tech control by starting from the infrastructure layer."
 date: 2025-05-08
 taxonomies:
   people: [raj_mitra]
@@ -12,7 +12,7 @@ extra:
     imgPath: reclaiming_the_internet.png
 ---
 
-In a world where access to the internet is increasingly mediated by tech giants, ThreeFold is delivering on the original promise of Web3: a truly user-owned, peer-to-peer internet. Instead of building on someone else’s servers, ThreeFold started from the ground up with infrastructure, compute, storage, and network – to make the internet what it was supposed to be. Open. Resilient. Owned by the people.
+In a world where access to the internet is increasingly mediated by tech giants, ThreeFold is delivering on what Web3 promised but has not delivered: a truly user-owned, peer-to-peer internet. Instead of building on someone else’s servers, ThreeFold started from the ground up with infrastructure, compute, storage, and network – to make the internet what it was supposed to be. Open. Resilient. Owned by the people.
 
 #### The Problem: Centralized Internet, Fragile Foundations
 
