@@ -21,8 +21,6 @@ ThreeFold offers a radically different answer: a decentralized, sovereign, and s
 ### The Structural Bias Toward Centralization in AI
 Modern AI development is deeply centralized. Today’s most advanced models are created, hosted, and controlled by a small group of corporations with vast computational resources and privileged access to proprietary data. This isn’t mere conjecture by the way. It is the most obvious outcome of how modern machine learning works:
 
-<br/>
-
 #### Scale Rewards Capital
 The most capable AI models are those trained on vast datasets, using enormous compute, for extended durations. That means:
 
@@ -36,8 +34,6 @@ The most capable AI models are those trained on vast datasets, using enormous co
 
 Only a handful of companies, OpenAI, Google DeepMind, Meta, Anthropic, Microsoft, can compete. Startups, researchers, and sovereign nations without this infrastructure are locked out of cutting-edge development.
 
-<br/>
-
 #### AIs Are Easier to Control Than Humans
 Artificial intelligences are orders of magnitude easier to control than humans:
 
@@ -49,8 +45,6 @@ Artificial intelligences are orders of magnitude easier to control than humans:
 <br/>
 
 Owning AI infrastructure doesn’t just mean “owning compute,” it means governing cognition. This is why the question of who builds and owns the infrastructure for AI is a question of societal structure and potential freedom. 
-
-<br/>
 
 #### Regulation Often Entrenches Power
 Even well-meaning AI governance initiatives can entrench centralized players if access to model development, compute, or deployment is limited by regulatory red tape.
@@ -69,8 +63,6 @@ Without a course correction, we risk entering a world where a small elite contro
 <br/>
 
 Centralization has given these companies the ability to mass-produce aligned, intelligent agents at scale. This transforms how propaganda, surveillance, and even individual behavior manipulation can be conducted.
-
-<br/>
 
 #### Extreme Scenarios Are Plausible
 - In authoritarian states, AI systems can monitor, evaluate, and punish dissent in real-time across all digital communication.
@@ -104,8 +96,6 @@ The ThreeFold Grid is a peer-to-peer compute and storage network spanning over 5
 
 Here’s why it’s uniquely suited for AI:
 
-<br/>
-
 #### Decentralized Compute at the Edge
 AI inference workloads, especially those requiring low latency, are increasingly moving to the edge. The ThreeFold Grid is inherently edge-native. It allows inference to happen where data is generated, reducing both latency and exposure.
 
@@ -118,12 +108,8 @@ ThreeFold’s [AIBox](https://aibox.threefold.io/) lets users own and operate pe
 
 Users can run fine-tuned models locally and earn by monetizing excess capacity.
 
-<br/>
-
 #### Privacy-First, Always-On Intelligence with 3AI
 The 3AI assistant runs natively on the 3Phone, processing all data locally. No cloud, no spying. It learns your habits, manages your tasks, and connects securely to decentralized apps powered entirely by the ThreeFold Grid.
-
-<br/>
 
 #### Run AI Workloads Today with 3Nodes and Full VM Rentals
 AIBox and 3AI are incredibly exciting innovations. They are not in production yet but they are a critical part of our next stage. However, you don’t need to wait to interact with ThreeFold.
@@ -142,8 +128,6 @@ You can:
 - Spin up environments for model training, inference, or fine-tuning with full data control ([OpenWeb UI deployment](https://youtu.be/4oq15lxvkts?si=kQrO74J_2-aooAwV&t=424) is coming to the Dashboard as part of TF Grid 3.17)
 - Take advantage of up to 50% discounts when renting a full dedicated 3Node for long-term use
 
-<br/>
-
 #### The Ideal Platform For Augmented Collective Intelligence
 [Augmented Collective Intelligence (ACI)](https://threefold.info/tech/docs/internet_reinvented/aci/) is the next evolution of the internet. In this phase we are not just connecting people, but amplifying our collective capacity to think, decide, and act. When people can run their own models, control their data, and contribute to shared knowledge, we get smarter together. 
 
@@ -153,8 +137,6 @@ ThreeFold’s infrastructure is uniquely positioned to bring ACI to life. By pro
 
 #### Verifiability and Transparency
 ThreeFold integrates blockchain primitives for auditable deployments and transparent governance. This makes it ideal for regulatory compliance without sacrificing openness or privacy.
-
-<br/>
 
 #### Built for AI, Not Repurposed for It
 Unlike legacy infrastructure patched to support AI, ThreeFold was built from the ground up to enable distributed, compute-intensive workloads. Its composable architecture, GPU-ready fabric, and local-first design make it the ideal substrate for the AI era.
