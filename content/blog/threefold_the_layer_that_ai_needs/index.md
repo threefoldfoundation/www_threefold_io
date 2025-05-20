@@ -5,7 +5,7 @@ image_caption: layer ai needs
 description: Explore why ThreeFold's decentralized infrastructure is pivotal for AI, offering sovereignty, sustainability, and accessibility in a centralized AI landscape.
 date: 2025-05-20
 taxonomies:
-  people: [bernadette_amanda_caster]
+  people: [raj_mitra]
   tags: [decentralization, grid, tech]
   categories: [decentralization, grid, tech]
 extra:
