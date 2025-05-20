@@ -26,8 +26,6 @@ Modern AI development is deeply centralized. Today’s most advanced models are 
 
 ##### Scale Rewards Capital
 
-<br/>
-
 The most capable AI models are those trained on vast datasets, using enormous compute, for extended durations. That means:
 
 <br/>
