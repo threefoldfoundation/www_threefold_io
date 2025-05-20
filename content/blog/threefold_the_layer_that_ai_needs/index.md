@@ -18,13 +18,13 @@ The rise of AI as the defining force in modern computing demands a fundamental s
 
 ThreeFold offers a radically different answer: a decentralized, sovereign, and sustainable infrastructure built for the age of intelligent machines. It is the foundational layer for a future where AI is owned, governed, and operated by everyone.
 
-#### The Structural Bias Toward Centralization in AI
+### The Structural Bias Toward Centralization in AI
 
 Modern AI development is deeply centralized. Today’s most advanced models are created, hosted, and controlled by a small group of corporations with vast computational resources and privileged access to proprietary data. This isn’t mere conjecture by the way. It is the most obvious outcome of how modern machine learning works:
 
 <br/>
 
-##### Scale Rewards Capital
+#### Scale Rewards Capital
 
 The most capable AI models are those trained on vast datasets, using enormous compute, for extended durations. That means:
 
