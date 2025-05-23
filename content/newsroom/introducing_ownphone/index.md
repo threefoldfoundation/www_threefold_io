@@ -51,6 +51,8 @@ You’re first in line to get the OwnPhone! Future features like 3Bot and 3AI wi
 
 Discover how OwnPhone is redefining digital privacy and ownership!
 
+<br/>
+
 Thursday, May 29 2025<br/>
 8:00pm CEST | 2:00pm EDT<br/>
 Register @ [ownphone.net](http://ownphone.net)
