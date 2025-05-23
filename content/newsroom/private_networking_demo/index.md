@@ -9,7 +9,7 @@ taxonomies:
   tags: [community, grid, tech]
   news-category: [community, grid, tech]
 extra:
-    imgPath: private_networking_demo2.png
+    imgPath: private_networking_demo.png
     isFeatured: false
 ---
 
