@@ -45,7 +45,7 @@ You can find YourData Network’s full announcement [here](https://ownphone.net/
 
 ### **Already Pre-ordered a 3Phone?**
 
-You’re first in line to get the OwnPhone! Future features like 3Bot and 3AI will be available as free upgrades as they are released. Stay tuned as we’ll send more info via email in the coming days – and we invite you to attend the launch event to learn more.
+You’re first in line to get the OwnPhone! Future features like 3Bot and 3AI will be available as free upgrades as they are released. Stay tuned as we’ll send more info / context via email in the coming days – and we invite you to attend the launch event or watch the recording to learn more.
 
 ### **Join the Launch Event**
 
