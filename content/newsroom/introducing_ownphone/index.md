@@ -20,14 +20,13 @@ At ThreeFold, we're on a mission to give people control over their digital lives
 Today, we're thrilled to share some great news with you: [OwnPhone](https://ownphone.net/), the first release in the 3Phone family, is being brought to life by our partner [YourData Network](https://yourdata.network/).
 
 
-
 ### **What is the OwnPhone?**
 
 OwnPhone isn’t just another smartphone. It's a new way of thinking about digital privacy and ownership.
 
 <br/>
 
-Here’s what sets it apart:
+Here’s what sets it apart: 
 
 <br/>
 
@@ -46,7 +45,7 @@ You can find YourData Network’s full announcement [here](https://ownphone.net/
 
 ### **Already Pre-ordered a 3Phone?**
 
-You’re first in line to get an OwnPhone! Future features like 3Bot and 3AI will be available as free upgrades as they are released. Stay tuned as we’ll send more info via email in the coming days – and we invite you to attend the launch event to learn more.
+You’re first in line to get the OwnPhone! Future features like 3Bot and 3AI will be available as free upgrades as they are released. Stay tuned as we’ll send more info via email in the coming days – and we invite you to attend the launch event to learn more.
 
 ### **Join the Launch Event**
 
