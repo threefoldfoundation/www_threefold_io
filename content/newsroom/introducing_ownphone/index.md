@@ -57,4 +57,4 @@ These upcoming features will continue to expand what’s possible:
 
 ### **Already Pre-ordered a 3Phone?**
 
-OwnPhone is the first device in the 3Phone family and future announced features like 3Bot and 3AI will be made available as software upgrades as they are released. If you’ve pre-ordered a 3Phone, we’ll be in touch by email with details on your options – and we invite you to tune in for the launch event to learn more!
+OwnPhone is the first device in the 3Phone family and features like 3Bot and 3AI will be made available as software upgrades as they are released. If you’ve pre-ordered a 3Phone, we’ll be in touch by email with details on your options – and we invite you to tune in for the launch event to learn more!
