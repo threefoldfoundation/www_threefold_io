@@ -2,7 +2,7 @@
 id: introducing_ownphone
 title: "Say Hello to OwnPhone from YourData Network: The First Device in the 3Phone Family"
 image_caption: Introducing OwnPhone
-description: OwnPhone is highly secure and designed to work seamlessly with the ThreeFold Grid.
+description: OwnPhone is highly secure and designed to work seamlessly with the ThreeFold Grid. Launch event May 29th.
 date: 2025-05-26
 taxonomies:
   people: [sam_taggart]
