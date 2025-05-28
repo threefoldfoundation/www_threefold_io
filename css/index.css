@@ -264,7 +264,7 @@ background-color:#5596f5 !important;
 
 @layer components {
   h1 {
-    @apply text-4xl lg:text-6xl font-normal;
+    @apply font-normal tracking-tight leading-tight text-white lg:text-6xl text-3xl;
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
@@ -277,7 +277,7 @@ background-color:#5596f5 !important;
     @apply font-semibold;
   }
   h3 {
-    @apply text-2xl lg:text-3xl my-4 font-extralight;
+    @apply  lg:text-2xl text-xl leading-tight font-normal tracking-tight 
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
