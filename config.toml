@@ -6,12 +6,12 @@ title = "ThreeFold"
 description = "Our global digital backbone"
 
 # When set to "true", a feed is automatically generated.
-generate_feed = true
+#generate_feed = true
 
 # The filename to use for the feed. Used as the template filename, too.
 # Defaults to "atom.xml", which has a built-in template that renders an Atom 1.0 feed.
 # There is also a built-in template "rss.xml" that renders an RSS 2.0 feed.
-feed_filename = "atom.xml"
+#feed_filename = "atom.xml"
 
 # The number of articles to include in the feed. All items are included if
 # this limit is not set (the default).
@@ -51,8 +51,8 @@ external_links_no_referrer = true
 # For example, `...` into `…`, `"quote"` into `“curly”` etc
 smart_punctuation = true
 
-[build]
-not_found = "404.md"
+#[build]
+#not_found = "404.md"
 
 [[taxonomies]]
 name = "categories"
