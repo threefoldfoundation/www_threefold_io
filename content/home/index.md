@@ -34,9 +34,9 @@ extra:
 
   {{ left_text( 
     title="ThreeFold is a Decentralized Infrastructure Layer for The Internet",
-      description="We have built a foundational platform that runs directly on bare metal, offering a scalable solution focused on the essential building blocks of the Internet and Cloud: compute, data, and network.",
-      button_text="Discover How It Works",
-      button_link="/what"
+    description_1="We have built a foundational platform that runs directly on bare metal, offering a scalable solution focused on the essential building blocks of the Internet and Cloud: compute, data, and network.",
+    button_text="Discover How It Works",
+    button_link="/what"
 
   ) }}
 
@@ -155,8 +155,45 @@ extra:
 
 <!-- section 5 -->
 
-{{ farmers() }}
+<div class="container mx-auto lg:max-w-7xl lg:py-24 py-12">
 
+  {{ left_text( 
+      title="How it works",
+      description_1="At the base, nodes form the physical foundation—distributed computers that provide processing power, storage, and networking capabilities. These nodes work together to create a global, community-powered infrastructure.",
+      description_2="Regardless of technical expertise, anyone can deploy nodes from their homes or offices, and participate in a decentralized alternative to corporate-owned data centers – while earning rewards for their contributions. We call this process 'farming.'",
+      button_text="",
+      button_link=""
+
+  ) }}
+
+<div class="max-w-6xl mx-4 md:mx-10 lg:mx-20 xl:mx-auto">
+  
+<dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
+
+{{ farm_steps(
+    title="1. HOST A NODE",
+    description="All you need to get started is a modern computer, electricity and network. Once booted with Zero OS, a computer becomes a ThreeFold Node."    
+) }}
+
+{{ farm_steps(
+    title="2. OFFER CAPACITY",
+    description="After your node is set up and verified, you’ll be rewarded for the capacity that you provide to the ThreeFold Grid."    
+) }}
+
+{{ farm_steps(
+    title="3. EARN REWARDS",
+    description="The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized autonomous cloud."    
+) }}
+
+
+   </dl>
+</div>
+
+  <div class="mt-6 flex items-center justify-center gap-x-6">
+        <a href="https://docs.threefold.io/docs/category/become-a-farmer" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mt-8">Become a Farmer</a>
+      </div>
+      
+</div>
 
 <!-- section 6 -->
 
