@@ -155,7 +155,7 @@ extra:
 
 <!-- section 5 -->
 
-<div class="container mx-auto lg:max-w-7xl lg:py-24 py-12">
+<div class="container mx-auto lg:max-w-7xl lg:py-24 py-12 px-4 lg:px-0">
 
   {{ left_text( 
       title="How it works",
@@ -192,7 +192,7 @@ extra:
   <div class="mt-6 flex items-center justify-center gap-x-6">
         <a href="https://docs.threefold.io/docs/category/become-a-farmer" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mt-8">Become a Farmer</a>
       </div>
-      
+
 </div>
 
 <!-- section 6 -->
