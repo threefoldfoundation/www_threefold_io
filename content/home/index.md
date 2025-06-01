@@ -38,7 +38,7 @@ extra:
       button_text="Discover How It Works",
       button_link="/what"
 
-) }}
+  ) }}
 
  <div class="lg:px-16 fade-in">
 
@@ -94,7 +94,63 @@ extra:
 
 <!-- section 4 -->
 
-{{ use_cases() }}
+<div class="lg:py-24 py-12">
+
+{{ center_text(
+    title="Anything That Runs on Linux Can Run on ThreeFold",
+    description="The new internet infrastructure can be used by any Web2, Web3, AI, or Edge IT workload – enabling a world of possibilities.", 
+    button_text="",
+    button_link=""
+
+) }}
+
+<div class="max-w-6xl mx-4 md:mx-10 lg:mx-20 mt-16 xl:mx-auto">
+    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
+
+{{ use_cases(
+    image_src="/images/tft_logo.png",
+    image_alt="ThreeFold Cloud",
+    title="ThreeFold Cloud",
+    description="ThreeFold is open for developers and system administrators. Deploy virtual machines, containers, Kubernetes clusters, web gateways, and more on top of a best-effort decentralized open source cloud.",
+    subtitle ="Open-Source Cloud",
+    button_text_1="Dashboard",
+    button_link_1="https://dashboard.grid.tf/#/tf-grid/node-statistics/",
+    button_text_2="Manual",
+    button_link_2="https://manual.grid.tf/"
+) }}
+
+{{ use_cases(
+    image_src="/images/mycelium_logo.png",
+    image_alt="Mycelium",
+    title="Mycelium",
+    description="An adaptive and resilient network solution that not only keeps your data safe but also guarantees uninterrupted and efficient communication. The Mycelium Network is the backbone of a new era of connectivity, prioritizing speed, security, and reliability for all users.",
+    button_text_1="Website",
+    button_link_1="https://mycelium.threefold.io/",
+    button_text_2="Docs",
+    button_link_2="https://threefold.info/mycelium/docs/"
+) }}
+
+{{ use_cases(
+    image_src="/images/aibox_logo.png",
+    image_alt="AIBOX",
+    title="AIBOX",
+    description="A decentralized AI solution that enables anyone to run, train, and use AI models locally, keeping their data private while sharing unused computing power with the network—eliminating the need for centralized data centers.",
+    subtitle ="Decentralized AI",
+    button_text_1="Website",
+    button_link_1="https://aibox.threefold.io/",
+    button_text_2="Docs",
+    button_link_2="https://threefold.info/aibox/docs/"
+) }}
+
+
+   </dl>
+</div>
+
+</div>
+</div>
+
+
+
 
 
 <!-- section 5 -->

@@ -244,13 +244,13 @@ a img:hover {
 
 @layer components {
   h1 {
-    @apply text-4xl lg:text-6xl font-normal;
+    @apply text-4xl lg:text-6xl font-normal text-white;
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
 
   h2 {
-    @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
+    @apply lg:text-5xl text-3xl leading-snug font-normal tracking-tight text-white capitalize;
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
@@ -578,10 +578,7 @@ header {
 }
 
 @media (min-width: 1024px) {
-  h2 {
-    font-size: 3.5rem;
-  }
-
+ 
 }
 
 @media (max-width: 1024px) {
