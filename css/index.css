@@ -34,12 +34,12 @@
 }
 
 .bg-dark-gradient {
-  background: rgb(15,15,15);
-  background: radial-gradient(circle, rgba(15,15,15,1) 0%, rgb(24, 24, 24) 50%, rgba(15,15,15,1) 100%);
+  background: rgb(15, 15, 15);
+  background: radial-gradient(circle, rgba(15, 15, 15, 1) 0%, rgb(24, 24, 24) 50%, rgba(15, 15, 15, 1) 100%);
 }
 
 .bg-black1 {
-  background-color: rgba(15,15,15,1);
+  background-color: rgba(15, 15, 15, 1);
 }
 
 .bg-transparent {
@@ -98,115 +98,95 @@ img[src*="#absolute"] {
   top: 0;
 }
 
-a img:hover{
+a img:hover {
   opacity: 0.5 !important;
   cursor: pointer;
 }
 
 /* new theme */
 
-.dropdown { 
+.dropdown {
 
   background-color: rgb(0 0 0 / 50%);
-  @apply
-  lg:text-lg
-  px-6
-  py-1
-  lg:mr-5
-  my-3
-  shadow
-  border-black
-  capitalize 
-  leading-6 
-  border-transparent 
-  flex 
-  flex-col
-  border-2 
-  w-full 
-  items-start
-  rounded 
-  transition  
-  hover:border-stone-700 
+  @apply lg:text-lg px-6 py-1 lg:mr-5 my-3 shadow border-black capitalize leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:border-stone-700
   /* hover:bg-stone-100  */
-  p-2 
-  text-left
-  text-white
+  p-2 text-left text-white
 }
 
-.dropdown a{
-  @apply
-  px-0
-  text-white
+.dropdown a {
+  @apply px-0 text-white
 }
 
 .subtitle {
-  background-color:#58CF77 !important;
+  background-color: #58CF77 !important;
   color: #fff !important;
   text-transform: uppercase;
   /* font-weight: 600 !important;  */
 }
 
-.green{
+.green {
 
-  background-color:#58CF77 !important;
+  background-color: #58CF77 !important;
   color: #fff !important;
 
 }
 
 .green:hover {
-background-color:#7ad993 !important;
+  background-color: #7ad993 !important;
 }
-.green a{
-   color: #fff !important;
+
+.green a {
+  color: #fff !important;
 }
 
 .green:hover {
-background-color:#7ad993 !important;
+  background-color: #7ad993 !important;
 }
 
-.green_text{
-color: #58CF77 ;
+.green_text {
+  color: #58CF77;
 }
 
 
-  .blue_b{
+.blue_b {
 
-  background-color:#2E83FF !important;
+  background-color: #2E83FF !important;
   color: #fff !important;
 
 }
-.blue_b a{
-   color: #fff !important;
+
+.blue_b a {
+  color: #fff !important;
 }
 
 .blue_b:hover {
-background-color:#5596f5 !important;
+  background-color: #5596f5 !important;
 }
 
 
-.footer-cust a{
-  color: #999; 
+.footer-cust a {
+  color: #999;
   cursor: pointer;
 }
 
 .footer-cust a:hover {
-  color: #c7c7c7; 
+  color: #c7c7c7;
 }
 
-.footer-cust h6{
+.footer-cust h6 {
   margin-bottom: 15px;
 }
 
-.logo_size{
-  width:200px
+.logo_size {
+  width: 200px
 }
 
 
-.blue{
-  color:#2E83FF
+.blue {
+  color: #2E83FF
 }
 
-.nav p > a {
+.nav p>a {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -233,29 +213,29 @@ background-color:#5596f5 !important;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
-.nav p > a:hover {
+.nav p>a:hover {
   --tw-border-opacity: 1;
   border-color: rgb(231 229 228 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 244 / var(--tw-bg-opacity));
 }
 
-.big_header{
+.big_header {
   font-size: 6rem !important;
   font-weight: 500 !important;
 }
 
-.mycard{
+.mycard {
   height: 300px !important;
 }
 
 
-.mypartners{
+.mypartners {
   height: 300px !important;
 
 }
 
-.key_card{
+.key_card {
 
   height: 250px;
 
@@ -264,135 +244,139 @@ background-color:#5596f5 !important;
 
 @layer components {
   h1 {
-    @apply font-normal tracking-tight leading-tight text-white lg:text-6xl text-3xl;
+    @apply text-4xl lg:text-6xl font-normal;
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
+
   h2 {
     @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
+
   h2 strong {
     @apply font-semibold;
   }
+
   h3 {
-    @apply  lg:text-2xl text-xl leading-tight font-normal tracking-tight 
+    @apply text-2xl lg:text-3xl my-4 font-extralight;
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
+
   h3 strong {
     @apply font-normal;
   }
+
   h4 {
     @apply text-xl lg:text-2xl font-normal tracking-wider;
     font-family: "Inter", sans-serif !important;
-    
+
   }
+
   h5 {
     @apply text-lg my-1 tracking-normal font-medium;
     font-family: "Inter", sans-serif !important;
     color: #fff !important
   }
+
   h6 {
     @apply text-md not-italic font-normal my-1;
     font-family: "Inter", sans-serif !important;
   }
+
   p {
     @apply text-lg text-gray-200 font-light;
     font-family: "Inter", sans-serif !important;
   }
+
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
   }
+
   li {
     @apply text-base lg:text-base font-normal;
   }
+
   li li {
     @apply text-sm lg:text-sm font-light;
   }
+
   button {
-    @apply 
-    inline-block
-    md:text-md
-    text-sm
-    lg:mr-3
-    py-1
-    my-2
-    border
-    rounded
-    shadow
-    border-gray-400
-    capitalize
-    bg-gray-200
+    @apply inline-block md:text-md text-sm lg:mr-3 py-1 my-2 border rounded shadow border-gray-400 capitalize bg-gray-200
   }
-  .my-header h4{
-    color:#9f9f9f;
+
+  .my-header h4 {
+    color: #9f9f9f;
 
   }
 
-  h3 a{
-    color:#ffffff;
+  h3 a {
+    color: #ffffff;
 
   }
 
-  h3 a:hover{
-    color:#b6b6b6;
+  h3 a:hover {
+    color: #b6b6b6;
 
   }
-  
- 
- 
 
 
-  .article h2{
+
+
+
+  .article h2 {
     font-size: 2.25rem;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-weight: 700;
-    color:#e2e2e2;
+    color: #e2e2e2;
   }
-  
-  .article h1{
+
+  .article h1 {
     font-family: "Inter", sans-serif;
   }
 
-  }
-  .article p{
-    font-size: 1.125rem;
-    font-family: "Inter", sans-serif;
-    line-height: 1.7;
-    color:#e2e2e2
-  }
-  
-  .post-content-text a, .article a{
-    color: #a1debd;
-  }
-  
-  .post-content-text a:hover, .article a:hover{
-    color: #57d391;
-  }
+}
 
-  .article li{
-    font-size: 1.125rem;
-    font-family: "Inter", sans-serif;
-    line-height: 1.7;
-    color:#e2e2e2
-  }
+.article p {
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.7;
+  color: #e2e2e2
+}
 
-  .article h3{
-    font-weight: 400;
-   
-  }
+.post-content-text a,
+.article a {
+  color: #a1debd;
+}
 
-  .article h4{
-    color: #fff !important;
-   
-  }
+.post-content-text a:hover,
+.article a:hover {
+  color: #57d391;
+}
 
-  .main-title {
-    font-family: "Inter", sans-serif;
-  }
+.article li {
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.7;
+  color: #e2e2e2
+}
+
+.article h3 {
+  font-weight: 400;
+
+}
+
+.article h4 {
+  color: #fff !important;
+
+}
+
+.main-title {
+  font-family: "Inter", sans-serif;
+}
 
 
 /* button:hover :is(:where(a)) {
@@ -406,12 +390,10 @@ button :is(:where(p)) {
 
 button a {
   line-height: 1.3;
-  @apply
-  text-black
-  px-8
+  @apply text-black px-8
 }
 
-.long-text a{
+.long-text a {
   padding-left: 2rem;
   padding-right: 2rem;
   --tw-text-opacity: 1;
@@ -447,6 +429,7 @@ header {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+
 .quicklinks img {
   height: auto;
   max-width: 200px;
@@ -455,7 +438,7 @@ header {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
-  
+
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   opacity: 0.5;
@@ -566,10 +549,11 @@ header {
   transform: none;
 }
 
-.my-test{
+.my-test {
   font-family: "Inter", sans-serif;
-} 
-.post-content-text .my-test  {
+}
+
+.post-content-text .my-test {
   font-family: "Inter", sans-serif;
   line-height: 1.7;
 }
@@ -580,6 +564,7 @@ header {
   font-size: 2.25rem;
   font-weight: 700;
 }
+
 .container-fluid {
   width: 100%;
   /* padding-right: 15px;
@@ -591,16 +576,17 @@ header {
 .zola-anchor {
   display: none;
 }
-@media (min-width: 1024px){
+
+@media (min-width: 1024px) {
   h2 {
     font-size: 3.5rem;
-  } 
-  
+  }
+
 }
 
 @media (max-width: 1024px) {
 
-  .mycard{
+  .mycard {
     height: auto !important;
   }
 
@@ -618,25 +604,27 @@ header {
   .banner h2 svg {
     font-size: 30px;
   }
-  .arrow img{
-    -moz-transform:rotate(90deg);
-   -webkit-transform:rotate(90deg);
-   -ms-transform:rotate(90deg);
-   transform: rotate(90deg);   
-   }
 
-   .mycard{
+  .arrow img {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .mycard {
     height: auto !important;
   }
 }
 
 @media (max-width: 480px) {
+
   .banner,
   .header {
     padding: 80px 0;
   }
 
-  .article h2{
+  .article h2 {
     font-size: 1.5rem;
   }
 
@@ -649,31 +637,30 @@ header {
     display: none;
   }
 
-  .big_header{
+  .big_header {
     font-size: 4rem !important;
-   
+
   }
 
-  .mytest{
+  .mytest {
     height: auto;
   }
 
   .card_h {
-         height: auto !important;
-  }
-
-  .mycard{
     height: auto !important;
   }
 
-  .key_card{
+  .mycard {
+    height: auto !important;
+  }
+
+  .key_card {
     height: auto;
   }
 
-  .mypartners{
+  .mypartners {
     height: auto;
-  
+
   }
-  
+
 }
-
