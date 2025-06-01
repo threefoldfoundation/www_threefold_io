@@ -24,29 +24,6 @@ extra:
 ) }}
 
 
-<!-- section 2 -->
-
-{{ features(
-    title="ThreeFold is a Decentralized Infrastructure Layer for The Internet",
-    description="We have built a foundational platform that runs directly on bare metal, offering a scalable solution focused on the essential building blocks of the Internet and Cloud: compute, data, and network.",
-    button_text="Discover How It Works",
-    button_link="/what",
-    title_2="Three Inventions at the Core of Our System",
-    subtitle_1 ="COMPUTE",
-    header1="Bare Metal Operating System",
-    description1_1="Zero OS, an efficient and secure operating system, runs directly on the hardware – enabling an autonomous cloud.",
-    description1_2="Can run any Web2, Web3, or AI workload at the edge of the Internet, with more scalability and reliability.",
-    subtitle_2="DATA",
-    header2="Unbreakable Data",
-    description2_1="Data cannot be compromised and always remains private, owned by you. A scalable system, to the planetary level.",
-    description2_2="Can be distributed and stored in ways which are at least 10x more efficient and orders of magnitude more secure and reliable.",
-    subtitle_3="NETWORK",
-    header3="Unbreakable Network",
-    description3_1="End-to-end encrypted overlay network, always looking for the shortest possible path between participants.",
-    description3_2="Logical Internet address securely linked to a private key. Unlimited scale and performance optimizations."
-) }}
-
-
 
 <!-- section 2 -->
 
@@ -69,22 +46,24 @@ extra:
 
    ### Three Inventions at the Core of Our System
 
+<br>
+
   <dl class="grid grid-cols-1 mx-auto lg:gap-x-8 sm:grid-cols-2 lg:gap-y-8 gap-y-4">
-   {{ features_2(
+   {{ right_content(
     subtitle ="COMPUTE",
     header="Bare Metal Operating System",
     description1="Zero OS, an efficient and secure operating system, runs directly on the hardware – enabling an autonomous cloud.",
     description2="Can run any Web2, Web3, or AI workload at the edge of the Internet, with more scalability and reliability." 
 ) }}
 
-   {{ features_2(
+   {{ right_content(
     subtitle="DATA",
     header="Unbreakable Data",
     description1="Data cannot be compromised and always remains private, owned by you. A scalable system, to the planetary level.",
     description2="Can be distributed and stored in ways which are at least 10x more efficient and orders of magnitude more secure and reliable."
 ) }}
 
-   {{ features_2(
+   {{ right_content(
     subtitle="NETWORK",
     header="Unbreakable Network",
     description1="End-to-end encrypted overlay network, always looking for the shortest possible path between participants.",
@@ -95,6 +74,45 @@ extra:
 </div>
 </div>
 </div>
+
+
+
+<!-- section 3 -->
+
+{{ grid_stats(
+    title_1="Powered by",
+    title_2="A Global Community",
+    description_1="ThreeFold’s groundbreaking technology enables anyone – individuals, organizations, and communities – to deploy their own Internet infrastructure.",
+    description_2="Today, our proof-of-concept network is live and operational worldwide, running on version 3.16 technology.",
+    subtitle="As we expand, we may need millions of nodes to support this growing ecosystem to build a truly decentralized and resilient infrastructure",
+    button_text="Explore Grid Capacity",
+    button_link="https://dashboard.grid.tf/#/tf-grid/node-statistics/"
+
+) }}
+
+
+
+<!-- section 4 -->
+
+{{ use_cases() }}
+
+
+<!-- section 5 -->
+
+{{ farmers() }}
+
+
+<!-- section 6 -->
+
+{{ self_healing() }}
+
+<!-- section 7 -->
+
+{{ web4() }}
+
+<!-- section 8 -->
+
+{{ cta() }}
 
 
 

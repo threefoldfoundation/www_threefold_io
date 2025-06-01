@@ -260,7 +260,7 @@ a img:hover {
   }
 
   h3 {
-    @apply text-2xl lg:text-3xl my-4 font-extralight;
+    @apply lg:text-2xl text-xl leading-tight font-normal tracking-tight ;
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
