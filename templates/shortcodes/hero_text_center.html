@@ -15,11 +15,11 @@
     <div class="mx-auto max-w-3xl text-center">
       <h1 class="fade-in">
         {{ title }}</h1>
-      <p class="mx-auto mt-8 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">{{ description }}</p>
+      <p class="mx-auto mt-8 max-w-3xl fade-in">{{ description }}</p>
       <!-- <h2 class="text-balance font-normal tracking-tight text-white lg:text-6xl text-6xl fade-in">Web4</h2>  -->
       <br>
   
-      <div class="mt-6 flex items-center justify-center gap-x-8">
+      <div class="mt-6 flex lg:flex-row flex-col items-center justify-center gap-x-8 gap-y-8">
         {% if button1_link %}
         <a href="{{ button1_link }}"
           class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">{{ button1_text }}</a>

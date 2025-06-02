@@ -9,7 +9,6 @@ extra:
 
 <!-- section 1 (header) -->
 
-
 {{ hero_text_center(
     title="Built for Everyone by Everyone, Everywhere",
     subtitle="Unleashing the Power of Decentralized Networks",
@@ -49,9 +48,11 @@ extra:
 <br>
 
   <dl class="grid grid-cols-1 mx-auto lg:gap-x-8 sm:grid-cols-2 lg:gap-y-8 gap-y-4">
+
    {{ right_content(
     subtitle ="COMPUTE",
-    header="Bare Metal Operating System",
+    header="Bare Metal",
+    sub_header="Operating System",
     description1="Zero OS, an efficient and secure operating system, runs directly on the hardware – enabling an autonomous cloud.",
     description2="Can run any Web2, Web3, or AI workload at the edge of the Internet, with more scalability and reliability." 
 ) }}
@@ -77,7 +78,7 @@ extra:
 
 
 
-<!-- section 3 -->
+<!-- section 3 (stats) -->
 
 {{ grid_stats(
     title_1="Powered by",
@@ -98,9 +99,9 @@ extra:
 
 {{ center_text(
     title="Anything That Runs on Linux Can Run on ThreeFold",
-    description="The new internet infrastructure can be used by any Web2, Web3, AI, or Edge IT workload – enabling a world of possibilities.", 
-    button_text="",
-    button_link=""
+    description_1="The new internet infrastructure can be used by any Web2, Web3, AI, or Edge IT workload – enabling a world of possibilities.", 
+    button_text_1="",
+    button_link_1=""
 
 ) }}
 
@@ -142,14 +143,10 @@ extra:
     button_link_2="https://threefold.info/aibox/docs/"
 ) }}
 
-
    </dl>
 </div>
-
 </div>
 </div>
-
-
 
 
 
@@ -160,9 +157,8 @@ extra:
   {{ left_text( 
       title="How it works",
       description_1="At the base, nodes form the physical foundation—distributed computers that provide processing power, storage, and networking capabilities. These nodes work together to create a global, community-powered infrastructure.",
-      description_2="Regardless of technical expertise, anyone can deploy nodes from their homes or offices, and participate in a decentralized alternative to corporate-owned data centers – while earning rewards for their contributions. We call this process 'farming.'",
-      button_text="",
-      button_link=""
+      description_2="Regardless of technical expertise, anyone can deploy nodes from their homes or offices, and participate in a decentralized alternative to corporate-owned data centers – while earning rewards for their contributions. We call this process 'farming.'"
+
 
   ) }}
 
@@ -185,27 +181,125 @@ extra:
     description="The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized autonomous cloud."    
 ) }}
 
-
    </dl>
 </div>
-
-  <div class="mt-6 flex items-center justify-center gap-x-6">
-        <a href="https://docs.threefold.io/docs/category/become-a-farmer" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mt-8">Become a Farmer</a>
-      </div>
-
+<div class="mt-6 lg:mt-10 flex items-center justify-center gap-x-6">
+        <a href="https://docs.threefold.io/docs/category/become-a-farmer" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Become a Farmer</a>
+  </div>
 </div>
+
+
 
 <!-- section 6 -->
 
-{{ self_healing() }}
+<div class="lg:py-24 py-12">
+
+{{ center_text(
+    title="A Self-Healing Internet Infrastructure",
+    subtitle="Scalable globally, Green, Unbreakable & Secure",
+    description_1="",
+    image_src ="/images/selfhealing.png",
+    image_alt="selfhealin", 
+    button_text_1="",
+    button_link_1=""
+
+) }}
+
+</div>
+</div>
+
+
 
 <!-- section 7 -->
 
-{{ web4() }}
+<div class="lg:py-24 py-12 text-center">
 
-<!-- section 8 -->
+# More Resilient, More Powerful, <br> More Diverse With You
 
-{{ cta() }}
+{{ center_text(
+    title="",
+    description_1="Unlike the corporate internet, where users are the product, in the new internet, participants are the owners and beneficiaries.",
+    description_2="By participating, you're not just using the technology, you're also helping to build a digital world that protects privacy, promotes fairness, and returns control to the people.",
+    button_text_1="Join ThreeFold",
+    button_link_1="/action",
+    button_text_2="",
+    button_link_2=""
+
+) }}
+
+</div>
+</div>
+
+
+
+<!-- section 8 (Faq) -->
+
+<div class="lg:max-w-7xl container mx-auto lg:py-24 py-12">
+
+## Frequently Asked Questions
+
+<br>
+
+{{ accordion(
+    id_accordion="accordion1"
+    question="Is this a separate new Internet?",
+    description="No, ThreeFold is a complementary Internet and works alongside the current Internet. It allows you to continue accessing and interacting with the current Internet."
+) }}
+
+{{ accordion(
+    id_accordion="accordion2"
+    question="Why do we need a new Internet?",
+    description="The Internet used to be a peer to peer network, but has become fragile and too centralized. There are so many problems with the current Internet, such as authenticity, privacy, security, and sustainability that we believe a fundamental new approach is needed."
+) }}
+
+{{ accordion(
+    id_accordion="accordion3"
+    question="How can I participate?",
+    description="You can participate by becoming a farmer, a user, a partner or by developing apps. Provide capacity to the ThreeFold Grid, Use capacity, build solutions, develop applications, and many more."
+) }}
+
+{{ accordion(
+    id_accordion="accordion4"
+    question="How can I get V4 nodes?",
+    description="Our partners are selling V4 nodes with a new reward scheme and ready to grow to millions of nodes."
+) }}
+
+{{ accordion(
+    id_accordion="accordion5"
+    question="What can I do with the ThreeFold Grid?",
+    description="ThreeFold grid can be used to host any web2, web3 and future workload. For more details see our docs."
+) }}
+
+{{ accordion(
+    id_accordion="accordion6"
+    question="How secure and private is my data?",
+    description="ThreeFold is designed to be secure and private by default. We use end-to-end encryption to protect your data and ensure that only you have access to your data."
+    )
+    }}
+
+{{ accordion(
+    id_accordion="accordion7"
+    question="Who should use the ThreeFold Grid ?",
+    description="Individuals, businesses, and organizations who want to be autonomous and have full control over their data and applications. Security is a very big problem today, Technology as used by ThreeFold has the potential to resolve this if used properly. We are building a channel of solution providers and integrators who want to build on top of ThreeFold."
+    )
+    }}
+
+</div>
+
+
+
+<!-- section 9 Cta -->
+
+
+{{ cta(
+    title_1="Build the",
+    title_2="Internet of Tomorrow,",
+    title_3="Today",  
+    button_text_1="Take the Next Step",
+    button_link_1="/signup",
+    button_text_2="Learn More",
+    button_link_2="/action"
+) }}
 
 
 

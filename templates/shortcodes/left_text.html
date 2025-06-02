@@ -4,16 +4,12 @@
 {% set button_text = button_text | default(value="") %}
 {% set button_link = button_link | default(value="") %}
 
-
-
-
-
     <div class="max-w-3xl lg:px-16 px-0 lg:pb-12 pb-6">
       <h2 class="fade-in text-balance lg:text-5xl text-3xl leading-tight font-normal tracking-tight text-white">{{ title }}
       </h2>
-      <p class="mx-auto mt-6 mb-6 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">{{ description_1 }}</p>
+      <p class="mx-auto mt-6 mb-6 max-w-3xl fade-in">{{ description_1 }}</p>
 
-      <p class="mx-auto mt-6 mb-6 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">{{ description_2 }}</p>
+      <p class="mx-auto mt-6 mb-2 max-w-3xl fade-in">{{ description_2 }}</p>
 
       {% if button_link %}
 

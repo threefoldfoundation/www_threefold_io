@@ -1,5 +1,6 @@
 {% set subtitle = subtitle | default(value="") %}
 {% set header = header | default(value="") %}
+{% set sub_header = sub_header | default(value="") %}
 {% set description1 = description1 | default(value="") %}
 {% set description2 = description2 | default(value="") %}
 
@@ -7,6 +8,7 @@
         <div class="pt-0">
           <dt class="font-normal text-sm text-gray-200">{{ subtitle }}</dt>
           <dt class="mt-1 font-semibold text-base text-gray-200">{{ header }} </dt>
+          <dt class="mt-1 font-semibold text-base text-gray-200">{{ sub_header }} </dt>
         </div>
         <div class="pt-0">
           <dd class="font-light text-gray-300 text-sm mb-2">{{ description1 }} </dd>

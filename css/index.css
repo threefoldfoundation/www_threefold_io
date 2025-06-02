@@ -287,7 +287,7 @@ a img:hover {
   }
 
   p {
-    @apply text-lg text-gray-200 font-light;
+    @apply text-pretty lg:text-xl text-lg font-light text-gray-200;
     font-family: "Inter", sans-serif !important;
   }
 
