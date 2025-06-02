@@ -1,13 +1,11 @@
 {% extends "_default/base.html" %}
 {% block content %}
 
-{% include "partials/why/hero.html" %}
-{% include "partials/why/reason.html" %}
-{% include "partials/why/ai_decentralized.html" %}
-{% include "partials/why/web4.html" %}
-{% include "partials/why/timeline.html" %}
-{% include "partials/why/values.html" %}
-{% include "partials/why/team.html" %}
-{% include "partials/home/cta.html" %}
+
+<div>
+    {% set page = get_page(path="why/index.md") %}
+    {{page.content | safe}}
+</div>
+
 
 {% endblock content %}

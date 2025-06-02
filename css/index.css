@@ -250,7 +250,7 @@ a img:hover {
   }
 
   h2 {
-    @apply lg:text-5xl text-3xl leading-snug font-normal tracking-tight text-white capitalize;
+    @apply lg:text-5xl text-3xl leading-snug font-normal tracking-tight my-2 text-white capitalize;
     color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
@@ -287,7 +287,7 @@ a img:hover {
   }
 
   p {
-    @apply text-pretty lg:text-xl text-lg font-light text-gray-200;
+    @apply text-pretty lg:text-xl text-lg font-light text-gray-200 my-2;
     font-family: "Inter", sans-serif !important;
   }
 
