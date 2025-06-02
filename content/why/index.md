@@ -88,7 +88,7 @@ This makes ThreeFold uniquely decentralized at the physical layer, eliminating s
 
 
 
-<!-- section 5 (Road Map) -->
+<!-- section 5 (timeline) -->
 
  <div class="px-4 mt-12 lg:py-24 py-12 lg:px-8">
  <div class="mx-auto max-w-3xl text-center fade-in">
@@ -133,6 +133,38 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
  ) }}
 
  </div>
+
+
+
+<!-- section 6 (Values) -->
+
+{{ values(
+
+  title_1="Open Source.",
+  title_2="Authenticity.",
+  title_3="Simplicity."
+
+) }}
+
+
+
+<!-- section 7 (Team) -->
+
+<div class="lg:py-24 py-12 text-center">
+
+{{ center_text(
+    title="Founded by Internet 1.0 Pioneers and All of You",
+    description_1="The founders have been working in Internet technology since its early days when it operated as a decentralized, peer-to-peer network. ThreeFold is an open-source movement driven by a dedicated team and a vibrant community of contributors helping to bring our shared vision to life.",
+    description_2="The project is supported by over 50 full-time active developers.",
+    button_text_1="Meet the Team",
+    button_link_1="/people"
+
+) }}
+
+</div>
+</div>
+
+
 
 
 
