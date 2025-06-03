@@ -2,7 +2,7 @@
 id: may_demo
 title: "Announcing: May 2025 Demo Session"
 image_caption: May Demo
-description: Discover a new way to use WireGuard 2 with ThreeFold VMs for creating private, stable, and scalable connections, ideal for clusters and high availability setups.
+description: Discover a new way to use WireGuard with ThreeFold VMs for creating private, stable, and scalable connections, ideal for clusters and high availability setups.
 date: 2025-05-14
 taxonomies:
   people: [bernadette_amanda_caster]
@@ -13,7 +13,7 @@ extra:
     isFeatured: false
 ---
 
-Mik and Scott are back this month with a demo! You can find all of our previously recorded demos here.
+Mik and Scott are back this month with a demo! You can find all of our previously recorded demos [here](https://www.youtube.com/playlist?list=PLTGQlepPqwUUhbtKZW2okEszK3AkDgC4Y).
 
 ### **Thursday, 15th May 2025: Private Networking with IPv6 and WireGuard**
 
@@ -21,7 +21,7 @@ This demo will present an alternative way of using [WireGuard](https://www.wireg
 
 <br/>
 
-The demo session will be held at 7 pm CEST / 1 pm EDT at [this link](https://bit.ly/tfcommunitycall) 
+The demo session will be held at 7 pm CEST / 1 pm EDT at [this link](https://bit.ly/tfcommunitycall).
 
 <br/>
 
