@@ -5,7 +5,7 @@ image_caption: Back to the future
 description: The internet was meant to empower, not control. ThreeFold is bringing the original peer-to-peer vision back to life, decentralized, open, and owned by all.
 date: 2025-06-03
 taxonomies:
-  people: [bernadette_amanda_caster]
+  people: [raj_mitra]
   tags: [tech,grid,community]
   categories: [tech,grid,community]
 extra:
