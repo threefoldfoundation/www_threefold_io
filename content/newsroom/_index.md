@@ -12,7 +12,7 @@ insert_anchor_links: "left"
 template: "layouts/newsroom.html"
 page_template: "newsPage.html"
 #transparent: true
-#generate_feed: true
+generate_feed: true
 extra:
   imgPath: newsroom.png
 ---
