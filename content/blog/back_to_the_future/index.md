@@ -64,6 +64,8 @@ This was not at all the vision that the early pioneers had.
 
 **Marc Andreessen (Netscape co-founder):**
 
+<br/>
+
 *“We thought we were building a publishing platform. Instead, we built the rails for an entirely new economy.”*
 
 <br/>
