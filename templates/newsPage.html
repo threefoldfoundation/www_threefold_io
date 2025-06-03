@@ -58,7 +58,7 @@
                         {% set author = get_page(path=author_path) %}
                         {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
               <li class="author-list-item">
-                <a href="{{author.permalink}}" tooltip="{{author.title}}">
+                <!-- <a href="{{author.permalink}}" tooltip="{{author.title}}"> -->
                   <img src="{{author_img}}" alt="{{ author.title }}" class="
                     w-8
                     h-8
@@ -68,7 +68,7 @@
                     bg-gray-200
                     border border-gray-600
                   " />
-                </a>
+                <!-- </a> -->
               </li>
               {% endif %}
               {% endfor %}
@@ -86,8 +86,8 @@
             {% if pages_str is containing(person) %}
                 {% set author = get_page(path=author_path) %}
                 {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
-              <span class="text-xs leading-none uppercase">
-                <a href="{{author.permalink}}" tooltip="{{author.title}}" class="hover:underline text-gray-400">{{ author.title }}</a>
+              <span class="text-xs leading-none uppercase">{{ author.title }}
+                <!-- <a href="{{author.permalink}}" tooltip="{{author.title}}" class="hover:underline text-gray-400">{{ author.title }}</a> -->
               </span>
               {% endif %}
                 {% endfor %}
