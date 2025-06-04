@@ -55,9 +55,10 @@
               </ul>
             </div>
 
-            <div class="pl-3 flex flex-col text-xs leading-none uppercase">
+            <div class="pl-3 flex flex-col text-xs leading-none uppercase text-gray-400">
               {% if author %}
-              <a href="{{author.permalink}}" class="text-gray-400 text-xs">{{ author.title }}</a>
+              {{ author.title }}
+              <!-- <a href="{{author.permalink}}" class="text-gray-400 text-xs">{{ author.title }}</a> -->
               {% endif %}
               <p class="text-gray-400 text-xs">
                 <time datetime="{{ page.date }}"> {{ page.date | date(format="%B %e, %Y", timezone="America/Chicago")
