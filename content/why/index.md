@@ -152,7 +152,7 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
 
 <div class="lg:py-24 py-12 text-center">
 
-{{ center_text(
+{{ text_center(
     title="Founded by Internet 1.0 Pioneers and All of You",
     description_1="The founders have been working in Internet technology since its early days when it operated as a decentralized, peer-to-peer network. ThreeFold is an open-source movement driven by a dedicated team and a vibrant community of contributors helping to bring our shared vision to life.",
     description_2="The project is supported by over 50 full-time active developers.",

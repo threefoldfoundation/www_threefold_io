@@ -11,9 +11,11 @@
           </dt>
           <dd class="mt-4 flex flex-auto flex-col">
             <p class="flex-auto leading-normal font-light text-gray-200 text-md">{{ description }}</p>
+            {% if button_link %}
             <p class="mt-6">
               <a href="{{ button_link }}" target="_blank" class="text-sm/6 font-semibold text-white hover:text-gray-300">{{ button_text }} <span aria-hidden="true">→</span></a>
             </p>
+            {% endif %}
           </dd>
         </div>
 

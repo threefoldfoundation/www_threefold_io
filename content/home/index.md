@@ -97,7 +97,7 @@ extra:
 
 <div class="lg:py-24 py-12">
 
-{{ center_text(
+{{ text_center(
     title="Anything That Runs on Linux Can Run on ThreeFold",
     description_1="The new internet infrastructure can be used by any Web2, Web3, AI, or Edge IT workload – enabling a world of possibilities.", 
     button_text_1="",
@@ -194,7 +194,7 @@ extra:
 
 <div class="lg:py-24 py-12">
 
-{{ center_text(
+{{ text_center(
     title="A Self-Healing Internet Infrastructure",
     subtitle="Scalable globally, Green, Unbreakable & Secure",
     description_1="",
@@ -216,7 +216,7 @@ extra:
 
 # More Resilient, More Powerful, <br> More Diverse With You
 
-{{ center_text(
+{{ text_center(
     title="",
     description_1="Unlike the corporate internet, where users are the product, in the new internet, participants are the owners and beneficiaries.",
     description_2="By participating, you're not just using the technology, you're also helping to build a digital world that protects privacy, promotes fairness, and returns control to the people.",
