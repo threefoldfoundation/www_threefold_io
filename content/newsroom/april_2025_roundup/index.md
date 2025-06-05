@@ -10,7 +10,6 @@ taxonomies:
   news-category: [community, grid, tech]
 extra:
     imgPath: april_2025_roundup.png
-    isFeatured: true
 ---
 
 April brought great progress across the ThreeFold ecosystem! ⚡ We announced the TF Grid 3.17 release and a new exciting partnership with peaq, visited the UAE for Token 2049, made appearances on podcasts, conducted powerful demos of what’s possible on the grid, and more. Here’s a look at what moved us forward. 

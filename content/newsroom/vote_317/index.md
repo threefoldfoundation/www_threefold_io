@@ -1,12 +1,12 @@
 ---
 id: 317_upgrade_vote
-title:  "Vote: Bring TF Grid 3.16 to Mainnet"
+title:  "Vote: Bring TF Grid 3.17 to Mainnet"
 image_caption: 316_vote
 description: Calling all farmers to vote on the GEP to bring grid version 3.17 to mainnet!
 date: 2025-05-27
 taxonomies:
   people: [bernadette_amanda_caster]
-  tags: [tech,news,community,event]
+  tags: [tech,news,community]
   news-category: [community,news, tech]
 extra:
     imgPath: 317_vote.png
