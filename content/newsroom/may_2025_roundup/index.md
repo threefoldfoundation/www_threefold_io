@@ -2,7 +2,7 @@
 id: may_2025_roundup
 title: "Unfolding ThreeFold: May 2025 Roundup"
 image_caption: May 2025 Roundup
-description: May was a month of strong progress for the ThreeFold ecosystem, including a new version of the grid and the first device in the 3Phone family.
+description: May was a month of strong developments for the ThreeFold ecosystem, including a new version of the grid and the first device in the 3Phone family.
 date: 2025-06-05
 taxonomies:
   people: [sam_taggart]
@@ -13,7 +13,7 @@ extra:
     isFeatured: true
 ---
 
-May was a month of strong progress for the ThreeFold ecosystem 🧱 bringing a new version of the grid, the first device in the 3Phone family, important DAO proposals, and an exciting demo. Here’s a quick look at what’s been happening and what’s ahead!
+May was a month of strong developments for the ThreeFold ecosystem 🧱 bringing a new version of the grid, the first device in the 3Phone family, important DAO proposals, and an exciting demo. Here’s a quick look at what’s been happening and what’s ahead!
 
 ### **TF Grid 3.17 is Live on Mainnet!**
 
