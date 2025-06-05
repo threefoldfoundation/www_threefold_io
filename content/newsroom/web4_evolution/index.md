@@ -10,6 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: web4_evolution.png
+    isFeatured: true
 ---
 
 Over the years, ThreeFold has joined hands with people across the world forming a dedicated community. We are very grateful to the community for your time, energy, resources, and overall commitment – together we have built a decentralized cloud that is now available across more than 50 countries.
