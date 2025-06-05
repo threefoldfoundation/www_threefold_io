@@ -23,23 +23,17 @@ In April, we announced TF Grid 3.17 – and last week a [proposal](https://forum
 
 #### Mycelium
 
-<br/>
-
 The latest Mycelium release delivered major improvements in routing and overall performance. For example, routes now refresh automatically, peer activity is tracked, and route caching helps avoid duplicate messages. Several fixes also improved network stability and tools like traceroute.
 
 <br/>
 
 #### QSFS
 
-<br/>
-
 This release includes expanded documentation, an automated deployer using Pulumi, and also some improvements to the Zstor component of QSFS. The changes to Zstor include better metrics reporting and more efficient use of backend storage when rebuilding files.
 
 <br/>
 
 #### ThreeFold Connect
-
-<br/>
 
 This update brought a new Market feature which allows people to swap USDC for TFT directly within the app. It also fixed duplicated wallets and contacts, improved transactions pagination, and added new signing methods for a smoother user experience. 💡
 
@@ -64,8 +58,6 @@ At the end of May we had three DAO votes 🗳️ passed by the community, includ
 <br/>
 
 #### Extra TFT Minting
-
-<br/>
 
 Some time ago, a proposal was approved to adjust the minting code and remove the token allocation previously reserved for the carbon offset initiative. Following the proposal, the allocation was removed and the private keys to the associated wallet were deleted, permanently removing ~14.5 million TFT from circulation.
 
