@@ -81,7 +81,7 @@ Watch 📺 the full demo [here](https://youtu.be/TlJSmryxRrk?si=tSYeaS9uoQonz_YR
 
 ### **DePIN Summit Reminder**
 
-Happening on July 2nd in Mombasa :kenya: and July 4th and 5th in Zanzibar :tanzania:, DePIN Summit 2025 will bring together global experts and builders to explore how decentralized infrastructure is shaping the future. Hosted by EV3, Share, and ThreeFold, the event will focus on real-world solutions and innovation with a special focus on the global south.
+Happening on July 2nd in Mombasa 🇰🇪 and July 4th and 5th in Zanzibar 🇹🇿, DePIN Summit 2025 will bring together global experts and builders to explore how decentralized infrastructure is shaping the future. Hosted by EV3, Share, and ThreeFold, the event will focus on real-world solutions and innovation with a special focus on the global south.
 
 <br/>
 
