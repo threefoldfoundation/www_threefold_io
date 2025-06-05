@@ -29,7 +29,7 @@ The Internet brings the world together, yet much of it is now concentrated in th
 
 <!-- section 2 -->
 
-{{ desciption_blockquote(
+{{ description_blockquote(
     title="The Reason Behind It All",
 
     description_1="The Internet started as a peer-to-peer network, but over time it has become fragile and overly centralized. This shift has led to serious issues: data centers are extremely expensive to build and maintain, privacy and security are compromised, misinformation is rampant, and half the world remains poorly connected.",

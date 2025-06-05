@@ -31,7 +31,7 @@ extra:
 
   <!-- left section -->
 
-  {{ left_text( 
+  {{ text_left( 
     title="ThreeFold is a Decentralized Infrastructure Layer for The Internet",
     description_1="We have built a foundational platform that runs directly on bare metal, offering a scalable solution focused on the essential building blocks of the Internet and Cloud: compute, data, and network.",
     button_text="Discover How It Works",
@@ -154,7 +154,7 @@ extra:
 
 <div class="container mx-auto lg:max-w-7xl lg:py-24 py-12 px-4 lg:px-0">
 
-  {{ left_text( 
+  {{ text_left( 
       title="How it works",
       description_1="At the base, nodes form the physical foundation—distributed computers that provide processing power, storage, and networking capabilities. These nodes work together to create a global, community-powered infrastructure.",
       description_2="Regardless of technical expertise, anyone can deploy nodes from their homes or offices, and participate in a decentralized alternative to corporate-owned data centers – while earning rewards for their contributions. We call this process 'farming.'"
