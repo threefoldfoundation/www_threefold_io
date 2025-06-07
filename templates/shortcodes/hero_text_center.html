@@ -1,0 +1,72 @@
+{% set title = title | default(value="Built") %}
+{% set image_src = image_src | default(value="") %}
+{% set image_alt = image_alt | default(value="") %}
+{% set description = description | default(value="") %}
+{% set button1_text = button1_text | default(value="") %}
+{% set button1_link = button1_link | default(value="") %}
+{% set button2_text = button2_text | default(value="") %}
+{% set button2_link = button2_link | default(value="") %}
+{% set button3_text = button3_text | default(value="") %}
+{% set button3_link = button3_link | default(value="") %}
+
+<div class="relative flex justify-center items-center isolate overflow-hidden h-screen">
+  
+  <div class="px-4 lg:px-8">
+
+  
+    <div class="mx-auto max-w-3xl text-center">
+      <h1 class="fade-in">
+        {{ title }}</h1>
+      <p class="mx-auto mt-8 max-w-3xl fade-in">{{ description }}</p>
+      <!-- <h2 class="text-balance font-normal tracking-tight text-white lg:text-6xl text-6xl fade-in">Web4</h2>  -->
+      
+      <div class="mx-auto max-w-7xl px-4 py-8">
+        <img src="{{ image_src }}" alt="{{ image_alt }}" class="w-full fade-in">
+      </div>
+  
+      <div class="mt-6 flex lg:flex-row flex-col items-center justify-center gap-x-8 gap-y-8">
+        {% if button1_link %}
+        <a href="{{ button1_link }}"
+          class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">{{ button1_text }}</a>
+        {% endif %}
+        {% if button3_link %}
+          <a href="{{ button2_link }}" class="fade-in text-base font-semibold text-white hover:text-green mr-1 ">{{ button2_text }}<span class="ml-2"
+            aria-hidden="true">→</span></a>
+        {% endif %}
+        {% if button3_link %}
+        <a href="{{ button3_link }}" target="_blank" class="fade-in text-base font-semibold text-white hover:text-green ">{{ button3_text }}<span class="ml-2" aria-hidden="true">→</span></a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Define the fade-in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Apply the fade-in animation to elements with the 'fade-in' class */
+  .fade-in {
+    animation: fadeIn 4s ease-in-out forwards;
+    /* Adjust the duration (2s) to make it slower or faster */
+  }
+
+  /* Optional: Delay the animation for a more staggered effect */
+  h2 {
+    animation-delay: 0.5s;
+    /* Delay for header */
+  }
+
+  p {
+    animation-delay: 1s;
+    /* Delay for paragraphs */
+  }
+</style>

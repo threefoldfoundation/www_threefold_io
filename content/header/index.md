@@ -3,8 +3,7 @@ title: "Header"
 insert_anchor_links: "left"
 template: "partials/header.html"
 extra:
-  logoPathLight: "images/logolight.png"
-  logoPathDark: "images/logodark.png"
+  logoPath: "images/new_logo_tft.png"
 
 ---
 

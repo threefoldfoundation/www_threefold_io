@@ -10,7 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: 315_live.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 We are pleased to announce that ThreeFold's mainnet has now been upgraded to version 3.15. A few notes:

@@ -1,0 +1,76 @@
+{% set title = title | default(value="") %}
+{% set subtitle = subtitle | default(value="") %}
+{% set image_src = image_src | default(value="") %}
+{% set image_alt = image_alt | default(value="") %}
+{% set description_1 = description_1 | default(value="") %}
+{% set description_2 = description_2 | default(value="") %}
+{% set button_text_1 = button_text_1 | default(value="") %}
+{% set button_link_1 = button_link_1 | default(value="") %}
+{% set button_text_2 = button_text_2 | default(value="") %}
+{% set button_link_2 = button_link_2 | default(value="") %}
+
+
+<div class="text-center mx-auto lg:max-w-7xl lg:px-8">
+  <div class="mx-auto max-w-2xl lg:max-w-7xl lg:px-8">
+    <h2 class="mx-auto max-w-3xl fade-in">{{ title }}</h2>
+    {% if subtitle %}
+    <h3 class="fade-in mt-2">{{ subtitle }}</h3>
+
+    {% endif %}
+    <p class="my-4 mx-auto max-w-3xl fade-in">
+      {{ description_1 }}
+    </p>
+
+    <p class="my-2 mx-auto max-w-3xl fade-in">
+      {{ description_2 }}
+    </p>
+
+    {% if image_src %}
+    <div class="fade-in relative -mx-4 my-8" aria-hidden="true">
+      <img class="fade-in blinking-effect relative mx-auto" src="{{ image_src }}" alt="{{ image_alt }}">
+  </div>
+  {% endif %}
+   <div class="lg:mt-4 flex items-center justify-center gap-x-6">
+    {% if button_link_1 %}
+    <a href="{{ button_link_1 }}" class="fade-in rounded-2xl bg-white lg:my-6 my-4 px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">{{ button_text_1 }}</a>
+    {% endif %}
+
+    {% if button_link_2 %}
+    <a href="{{ button_link_2 }}" class="blinking-effect fade-in lg:text-xl text-lg font-semibold text-white hover:text-gray-400">{{ button_text_2 }} <span aria-hidden="true">→</span></a>
+    {% endif %}
+  </div>
+</div>
+
+
+<style>
+  /* Define the fade-in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Apply the fade-in animation to elements with the 'fade-in' class */
+  .fade-in {
+    animation: fadeIn 4s ease-in-out forwards; /* Adjust the duration (2s) to make it slower or faster */
+  }
+
+  /* Optional: Delay the animation for a more staggered effect */
+  h2 {
+    animation-delay: 0.5s; /* Delay for header */
+  }
+
+  p {
+    animation-delay: 1s; /* Delay for paragraphs */
+  }
+
+    
+  /* Apply the blinking animation to the link */
+  .blinking-effect {
+    animation: blink 3s infinite; /* Adjust the speed here (1.5s for slow blinking) */
+  }
+
+</style>

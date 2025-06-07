@@ -1,6 +1,6 @@
 ---
 id: web4_evolution
-title: ThreeFold’s Web4 - The next evolution of the Internet 
+title: "ThreeFold’s Web4: The next evolution of the Internet"
 image_caption: web4_infrastructure
 description: ThreeFold announces its Web4 vision and roadmap along with several core components to help Web4 come alive.
 date: 2024-12-12
@@ -10,6 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: web4_evolution.png
+    isFeatured: true
 ---
 
 Over the years, ThreeFold has joined hands with people across the world forming a dedicated community. We are very grateful to the community for your time, energy, resources, and overall commitment – together we have built a decentralized cloud that is now available across more than 50 countries.

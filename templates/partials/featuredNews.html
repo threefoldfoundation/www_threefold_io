@@ -19,7 +19,8 @@
         {% set author_path = 'people/' ~ author ~ '/index.md' %}
         {% set author = get_page(path=author_path) %}
         {% set author_img = get_url(path='/' ~ author.relative_path | replace(from='_', to='-') | replace(from='index.md', to=author.extra.imgPath)) %}
-        <a href="{{author.permalink}}" tooltip="{{author.title}}" class="capitalize	text-gray-200"> <img
+        <!-- <a href="{{author.permalink}}" tooltip="{{author.title}}" class="capitalize	text-gray-200"> -->
+          <img
             src="{{ author_img }}" alt="{{ author.title }}" class="
             inline-flex 
           w-8
@@ -27,7 +28,8 @@
           rounded-full
           bg-gray-200
           border-2 border-white
-        " /> {{ author.title }}</a>
+        " /> {{ author.title }}
+      <!-- </a> -->
         {% endfor %}
       </h4>
 

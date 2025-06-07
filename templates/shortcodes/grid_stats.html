@@ -1,128 +1,116 @@
-{% set styles = "background-image: url('images/V3.png');" %}
-<section class="px-2 h-auto bg-center lg:py-40 p-12 bg-cover bg-no-repeat" style="{{styles}}">
-    <div class="relative mx-auto">
-        <div class="text-center rounded lg:px-6 mt-10 lg:mt-0 mx-auto">
-            {{body | markdown | safe }}
-            <div class="items my-10 block lg:flex lg:flex-wrap justify-center items-center animate-pulse">
-                <!-- capacity -->
-                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
-                    <span class="tooltiptext">The total amount of storage (SSD, HDD, & RAM) on the grid.</span>
-                    <img
-                        class="mx-auto p-4"
-                        src="images/V3-08.png"
-                        width="130"
-                        alt=""
-                    >
-                    <div id="capacity" class="leading-none font-extrabold text-xl"></div>
-                    <span class="block text-md mt-4 font-normal capitalize">capacity</span>
-                </div>
-                <!-- cores -->
-                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
-                    <span class="tooltiptext">The total number of Central Processing Unit cores (compute power) available on the grid.</span>
-                    <img
-                        class="mx-auto p-4"
-                        src="images/V3-11.png"
-                        width="130"
-                        alt=""
-                    >
-                    <div id="cores" class="leading-none font-extrabold text-xl"></div>
-                    <span class="block text-md mt-4 font-normal capitalize">cores</span>
-                </div>
-                <!-- Nodes -->
-                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
-                    <span class="tooltiptext">The total number of nodes on the grid. A node is a computer server 100% dedicated to the network.</span>
-                    <img
-                        class="mx-auto p-4"
-                        src="images/V3-09.png"
-                        width="130"
-                        alt=""
-                    >
-                    <div id="nodes" class="leading-none font-extrabold text-xl"></div>
-                    <span class="block text-md mt-4 font-normal capitalize">nodes</span>
-                </div>
-                <!-- countries -->
-                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
-                    <span class="tooltiptext">The total number of countries where at least one node is connected and operational.</span>
-                    <img
-                        class="mx-auto p-4"
-                        src="images/V3-10.png"
-                        width="130"
-                        alt=""
-                    >
-                    <div id="countries" class="leading-none font-extrabold text-xl"></div>
-                    <span class="block text-md mt-4 font-normal capitalize">countries</span>
-                </div>
-                 <!-- farms -->
-                <div class="tooltip item flex flex-col border border-gray-50 shadow-lg bg-white mx-4 p-6 my-4">
-                    <span class="tooltiptext">The total number of farms on the grid. A farm is one or more nodes operated by the same entity / entities.</span>
-                    <img
-                        class="mx-auto p-4"
-                        src="images/farm.png"
-                        width="130"
-                        alt=""
-                    >
-                    <div id="farms" class="leading-none font-extrabold text-xl">900+</div>
-                    <span class="block text-md mt-4 font-normal capitalize">farms</span>
-                </div>
-            </div>
-            <button class="my-8 blue_b">
-                <a href="https://dashboard.grid.tf/#/tf-grid/node-statistics/" target="_blank">
-                    Explore Grid Capacity
-                </a>
-            </button>
-            {# <button class="my-8">
-                <a href="/host" target="_self">
-                    Become a Cloud Provider
-                </a>
-            </button> #}
+{% set title_1 = title_1 | default(value="") %}
+{% set title_2 = title_2 | default(value="") %}
+{% set description_1 = description_1 | default(value="") %}
+{% set description_2 = description_2 | default(value="") %}
+{% set subtext = subtext | default(value="") %}
+{% set button_link = button_link | default(value="") %}
+{% set button_text = button_text | default(value="") %}
+
+
+<div class="bg-transparent relative isolate overflow-hidden lg:py-24 py-12">
+    <img src="images/map_white.png" alt="" class="fade-in absolute inset-0 -z-10 size-full object-cover md:block hidden">
+    <div class="mx-auto max-w-7xl px-4 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:max-w-none">
+        <div class="text-center">
+          <h2 class="fade-in">{{ title_1 }}
+            <br>{{ title_2 }}</h2>
+          <p class="mx-auto mt-6 max-w-3xl fade-in">{{ description_1 }}</p>
+          <p class="mx-auto mt-6 max-w-3xl fade-in">{{ description_2 }}</p>
         </div>
+        <dl class="items mt-16 grid grid-cols-1 gap-2 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+            <!-- ssd -->
+          <div class="fade-in flex flex-col justify-center items-center bg-white/5 p-6">
+            <div class="tooltip">
+              <span class="tooltiptext">The total amount of storage (SSD, HDD, & RAM) on the grid.</span>
+              <dt class="text-sm/6 font-light text-gray-300">SSD CAPACITY</dt>
+              <dd id="ssd" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
+            </div>
+          </div>
+            <!-- cores -->
+            <div class="fade-in flex flex-col bg-white/5 p-6">
+              <div class="tooltip">
+              <span class="tooltiptext">The total number of Central Processing Unit cores (compute power) available on the grid.</span>
+              <dt class="text-sm/6 font-light text-gray-300">CORES</dt>
+              <dd id="cores" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
+            </div>
+            </div>
+            <!-- Nodes -->
+            <div class="fade-in flex flex-col bg-white/5 p-6">
+              <div class="tooltip">
+              <span class="tooltiptext">The total number of nodes on the grid. A node is a computer server 100% dedicated to the network.</span>
+              <dt class="text-sm/6 font-light text-gray-300">NODES</dt>
+              <dd id="nodes" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
+            </div>
+            </div>
+            <!-- countries -->
+            <div class="fade-in flex flex-col bg-white/5 p-6">
+              <div class="tooltip">
+              <span class="tooltiptext">The total number of countries where at least one node is connected and operational.</span>
+              <dt class="text-sm/6 font-light text-gray-300">COUNTRIES</dt>
+              <dd id="countries" class="order-first text-3xl font-semibold tracking-tight text-white"></dd>
+            </div>
+            </div>
+          </dl>
+      </div>
+      <div class="max-w-4xl items-center mx-auto">
+      <p class="items-center text-center justify-center mt-10 text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">{{ subtext }}</p>
     </div>
-</section>
-<style>
-    dd {
-        display: inline-block;
-        margin: auto;
-        border-radius: 50%;
-        line-height: 100px;
-    }
-
-    .bg-green {
-        background-color: #70dfc9;
-    }
-
-    .bg-pink {
-        background-color: #ea1ff7;
-    }
-
-    .blue_b{
+    </div>
+    <div class="mt-6 flex items-center justify-center gap-x-6">
+      <a href="{{ button_link }}" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mt-8">{{ button_text }}</a>
+    </div>
+  </div>
   
-        background-color:#2E83FF !important;
-        color: #fff !important;
-    
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Initialize the countUp for each of the numbers
+      new CountUp('ssd', 0, 1910, 0, 2.5).start();
+      new CountUp('cores', 0, 46934, 0, 2.5).start();
+      new CountUp('nodes', 0, 1596, 0, 2.5).start();
+      new CountUp('countries', 0, 40, 0, 2.5).start();
+      new CountUp('farms', 0, 900, 0, 2.5).start();
+    });
+  </script>
+  
+
+<style>
+    /* Define the fade-in animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
       }
-      .blue_b a{
-         color: #fff !important;
+      100% {
+        opacity: 1;
       }
-    
-    .blue_b:hover {
-      background-color:#5596f5 !important;
+    }
+  
+    /* Apply the fade-in animation to elements with the 'fade-in' class */
+    .fade-in {
+      animation: fadeIn 4s ease-in-out forwards; /* Adjust the duration (2s) to make it slower or faster */
+    }
+  
+    /* Optional: Delay the animation for a more staggered effect */
+    h2 {
+      animation-delay: 0.5s; /* Delay for header */
+    }
+  
+    p {
+      animation-delay: 1s; /* Delay for paragraphs */
     }
 
- 
+    /* Tooltip container */
 
-/* Tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  width: 100%;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
-  font-size: 14px;
+  font-size: 12px;
   visibility: hidden;
-  width: 250px;
-  background-color: black;
+  background-color: rgb(26 26 26 / 90%);
   color: #fff;
   text-align: center;
   padding: 5px 10px;
@@ -131,8 +119,11 @@
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  bottom: -50px;
-  right: -60px;
+  bottom: -7px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  /* right: -60px; */
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -144,19 +135,12 @@
     .tooltip .tooltiptext {
         position: absolute;
   z-index: 1;
-  bottom: -50px;
+  bottom: -7px !important;
   right: 0px !important;
+  top: 0px !important;
+  left: 0px !important;
     }
 
 }
-
-
-</style>
-
-
-
- 
+  </style>
   
-
-    
-   

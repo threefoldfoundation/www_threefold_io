@@ -1,8 +1,8 @@
 ---
 id: threefold_data_sovereignty
-title: How ThreeFold offers Data Sovereignty
+title: How ThreeFold offers Data Autonomy
 image_caption: how threefold regenerates
-description: ThreeFold is building the engine for an Internet where people can finally be data sovereign.
+description: ThreeFold is building the engine for an Internet where people can finally be data autonomy.
 date: 2021-05-23
 taxonomies:
   people: [sam_taggart]
@@ -20,7 +20,7 @@ Personal data is used by algorithms to make incredible important decisions, like
 
 <br>
 
-That’s the scary part. The good news is that things don’t have to be this way. ThreeFold is building the engine for an Internet where people can finally be data sovereign.
+That’s the scary part. The good news is that things don’t have to be this way. ThreeFold is building the engine for an Internet where people can finally be autonomous with their data.
 
 <br>
 
@@ -32,4 +32,4 @@ In ThreeFold’s model, those servers are called 3Nodes, and rather than sitting
 
 <br>
 
-Thus, people can finally be data sovereign, knowing their data is safe, and truly theirs.
+Thus, people can finally have data autonomy, knowing their data is safe, and truly theirs.

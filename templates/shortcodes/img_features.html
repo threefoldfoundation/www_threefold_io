@@ -1,0 +1,69 @@
+{% set image_src = image_src | default(value="") %}
+{% set image_alt = image_alt | default(value="") %}
+{% set title_1 = title_1 | default(value="") %}
+{% set description_1 = description_1 | default(value="") %}
+{% set button_text_1 = button_text_1 | default(value="") %}
+{% set button_link_1 = button_link_1 | default(value="") %}
+{% set title_2 = title_2 | default(value="") %}
+{% set title_3 = title_3 | default(value="") %}
+{% set title_4 = title_4 | default(value="") %}
+{% set description_2 = description_2 | default(value="") %}
+{% set description_3 = description_3 | default(value="") %}
+{% set description_4 = description_4 | default(value="") %}
+{% set button_text_2 = button_text_2 | default(value="") %}
+{% set button_link_2 = button_link_2 | default(value="") %}
+{% set button_text_3 = button_text_3 | default(value="") %}
+{% set button_link_3 = button_link_3 | default(value="") %}
+{% set button_text_4 = button_text_4 | default(value="") %}
+{% set button_link_4 = button_link_4 | default(value="") %}
+
+<div class="relative mt-10 mx-auto max-w-xl px-4 lg:max-w-7xl lg:px-8">
+    <div class="relative lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+        <!-- Image on the left and text on the right -->
+        <div class="fade-in relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
+            <img class="blinking-effect relative mx-auto" width="490" src="{{ image_src }}" alt="{{ image_alt }}">
+        </div>
+
+        <!-- Text on the left -->
+        <div class="relative lg:p-4"> <!-- Add padding here for all sides -->
+            <div class="gap-y-4">
+                <div class="fade-in relative p-6 bg-white/5 rounded-lg my-4"> <!-- Add padding inside this div -->
+                    <dt class="mt-2 lg:text-xl text-lg font-medium tracking-tight text-white">{{ title_1 }}</dt>
+                    <dd class="my-2 max-w-lg text-sm/6 text-gray-400 font-light leading-tight">{{ description_1 }}</dd>
+                    <a href="{{ button_link_1 }}" target="_blank" class="text-sm/6 font-semibold text-white hover:text-gray-200">{{ button_text_1 }} <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="fade-in relative p-6 bg-white/5 rounded-lg my-4"> <!-- Add padding inside this div -->
+                    <dt class="mt-2 lg:text-xl text-lg font-medium tracking-tight text-white">{{ title_2 }}</dt>
+                    <dd class="my-2 max-w-lg text-sm/6 text-gray-400 font-light leading-tight">{{ description_2 }}</dd>
+                    <a href="{{ button_link_2 }}" target="_blank" class="text-sm/6 font-semibold text-white hover:text-gray-200">{{ button_text_2 }} <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="fade-in relative p-6 bg-white/5 rounded-lg my-4"> <!-- Add padding inside this div -->
+                    <dt class="mt-2 lg:text-xl text-lg font-medium tracking-tight text-white">{{ title_3 }}</dt>
+                    <dd class="my-2 max-w-lg text-sm/6 text-gray-400 font-light leading-tight">{{ description_3 }}</dd>
+                    <a href="{{ button_link_3 }}" target="_blank" class="text-sm/6 font-semibold text-white hover:text-gray-200">{{ button_text_3 }} <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="fade-in relative p-6 bg-white/5 rounded-lg my-4"> <!-- Add padding inside this div -->
+                    <dt class="mt-2 lg:text-xl text-lg font-medium tracking-tight text-white">{{ title_4 }}</dt>
+                    <dd class="my-2 max-w-lg text-sm/6 text-gray-400 font-light leading-tight">{{ description_4 }}</dd>
+                    <a href="{{ button_link_4 }}" target="_blank" class="text-sm/6 font-semibold text-white hover:text-gray-200">{{ button_text_4 }} <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </div>            
+    </div>
+</div>
+
+<style>
+ /* Apply the blinking animation to the link */
+.blinking-effect {
+animation: blink 2s infinite; /* Adjust the speed here (1.5s for slow blinking) */
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+</style>

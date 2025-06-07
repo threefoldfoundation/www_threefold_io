@@ -12,7 +12,7 @@ insert_anchor_links: "left"
 template: "layouts/blog.html"
 page_template: "blogPage.html"
 #transparent: true
-generate_feed: true
+#generate_feed: true
 extra:
   imgPath: tf.png
 ---

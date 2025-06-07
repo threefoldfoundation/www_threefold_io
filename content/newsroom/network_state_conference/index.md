@@ -10,7 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: network_state_conference.png
-    isFeatured: true
+    isFeatured: false
 
 ---
 

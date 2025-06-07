@@ -75,3 +75,15 @@ zola serve
 Zola will display a local address such as `http://127.0.0.1:1111` which you can click or copy and paste into your browser to view the site on your own machine.
 
 That's it—have fun!
+
+
+# Guidelines for Editing Blog, News, and Team Images
+
+### General:
+Ensure all images are optimized to be less than 1MB for faster loading and better performance.
+
+### Blog & News:
+Use a resolution of **1200 x 600** pixels or maintain the same aspect ratio to fit seamlessly with placeholders.
+
+### Team:
+Keep images square with a resolution of **640 x 640** pixels for consistent appearance.

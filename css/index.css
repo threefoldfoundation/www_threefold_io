@@ -4,88 +4,15 @@
 /*! purgecss end ignore */
 
 @import "tailwindcss/base";
-
+@import "layout.css";
 @import "tailwindcss/components";
 @import "admonition.css";
 @import "tailwindcss/utilities";
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* Default Dark Mode */
-body {
-  background-color: #121212;
-  color: #ffffff;
-}
-
-body .semigray {
-  color: #e5e7eb !important;
-}
-
-body .semigray2 {
-  color: #d1d5db !important;
-}
-
-body .icon {
-  fill: #ffffff !important;
-}
-
-body .dropdown a{
-  @apply
-  px-0
-  text-white
-}
-
-body .dropdown{
-  background-color: rgb(0 0 0 / 50%);
-  color: #fff;
-}
-
-body .d_menu {
-  background-color: rgba(34 34 34);
-}
-
-/* lightMode */
-body.light-mode {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-body.light-mode .semigray {
-  
-  color: #424242 !important;
-}
-
-body.light-mode .semigray2 {
-  
-  color: #424242 !important;
-}
-
-body.light-mode .dropdown a{
-  @apply
-  px-0
-  text-black
-}
-
-body.light-mode .dropdown{
-  background-color: rgb(255 255 255 / 100%);
-  color: #121212;
-}
-
-body.light-mode .d_menu {
-  background-color: #e5e5e5;
-}
-
-body.light-mode .icon {
-  
-  fill: #424242 !important;
-}
-
-
-
-.double_bg {
-  background-color: rgb(100 100 100 / 0.2);
-}
 
 .dashboard:hover {
 
@@ -107,12 +34,12 @@ body.light-mode .icon {
 }
 
 .bg-dark-gradient {
-  background: rgb(15,15,15);
-  background: radial-gradient(circle, rgba(15,15,15,1) 0%, rgb(24, 24, 24) 50%, rgba(15,15,15,1) 100%);
+  background: rgb(15, 15, 15);
+  background: radial-gradient(circle, rgba(15, 15, 15, 1) 0%, rgb(24, 24, 24) 50%, rgba(15, 15, 15, 1) 100%);
 }
 
 .bg-black1 {
-  background-color: rgba(15,15,15,1);
+  background-color: rgba(15, 15, 15, 1);
 }
 
 .bg-transparent {
@@ -171,111 +98,95 @@ img[src*="#absolute"] {
   top: 0;
 }
 
-/* a img:hover{
+a img:hover {
   opacity: 0.5 !important;
   cursor: pointer;
-} */
+}
 
 /* new theme */
 
-.dropdown { 
+.dropdown {
 
-  
-  @apply
-  lg:text-lg
-  px-6
-  py-1
-  lg:mr-5
-  my-3
-  shadow
-  border-black
-  capitalize 
-  leading-6 
-  border-transparent 
-  flex 
-  flex-col
-  border-2 
-  w-full 
-  items-start
-  rounded 
-  transition  
-  hover:border-stone-700 
+  background-color: rgb(0 0 0 / 50%);
+  @apply lg:text-lg px-6 py-1 lg:mr-5 my-3 shadow border-black capitalize leading-6 border-transparent flex flex-col border-2 w-full items-start rounded transition hover:border-stone-700
   /* hover:bg-stone-100  */
-  p-2 
-  text-left
-  text-white
+  p-2 text-left text-white
 }
 
-
+.dropdown a {
+  @apply px-0 text-white
+}
 
 .subtitle {
-  background-color:#58CF77 !important;
+  background-color: #58CF77 !important;
   color: #fff !important;
   text-transform: uppercase;
   /* font-weight: 600 !important;  */
 }
 
-.green{
+.green {
 
-  background-color:#58CF77 !important;
+  background-color: #58CF77 !important;
   color: #fff !important;
 
 }
 
 .green:hover {
-background-color:#7ad993 !important;
+  background-color: #7ad993 !important;
 }
-.green a{
-   color: #fff !important;
+
+.green a {
+  color: #fff !important;
 }
 
 .green:hover {
-background-color:#7ad993 !important;
+  background-color: #7ad993 !important;
 }
 
-.green_text{
-color: #58CF77 ;
+.green_text {
+  color: #58CF77;
 }
 
 
-  .blue_b{
+.blue_b {
 
-  background-color:#2E83FF !important;
+  background-color: #2E83FF !important;
   color: #fff !important;
 
 }
-.blue_b a{
-   color: #fff !important;
+
+.blue_b a {
+  color: #fff !important;
 }
 
 .blue_b:hover {
-background-color:#5596f5 !important;
+  background-color: #5596f5 !important;
 }
 
 
-.footer-cust a{
-  color: #999; 
+.footer-cust a {
+  color: #999;
   cursor: pointer;
 }
 
 .footer-cust a:hover {
-  color: #c7c7c7; 
+  color: #c7c7c7;
 }
 
-.footer-cust h6{
+.footer-cust h6 {
   margin-bottom: 15px;
 }
 
-.logo_size{
-  width:200px
+.logo_size {
+  width: 200px
 }
 
 
-.blue{
-  color:#2E83FF
+.blue {
+  color: #2E83FF
 }
 
-.nav p > a {
+.nav p>a {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -302,29 +213,29 @@ background-color:#5596f5 !important;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
-.nav p > a:hover {
+.nav p>a:hover {
   --tw-border-opacity: 1;
   border-color: rgb(231 229 228 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 244 / var(--tw-bg-opacity));
 }
 
-.big_header{
+.big_header {
   font-size: 6rem !important;
   font-weight: 500 !important;
 }
 
-.mycard{
+.mycard {
   height: 300px !important;
 }
 
 
-.mypartners{
+.mypartners {
   height: 300px !important;
 
 }
 
-.key_card{
+.key_card {
 
   height: 250px;
 
@@ -333,131 +244,139 @@ background-color:#5596f5 !important;
 
 @layer components {
   h1 {
-    @apply text-4xl lg:text-6xl font-normal;
+    @apply text-4xl lg:text-6xl font-bold text-white;
+    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
+
   h2 {
-    @apply text-3xl lg:text-4xl my-4 font-normal leading-none;
+    @apply lg:text-5xl text-3xl leading-snug font-semibold tracking-tight my-2 text-white capitalize;
+    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
+
   h2 strong {
     @apply font-semibold;
   }
+
   h3 {
-    @apply text-2xl lg:text-3xl my-4 font-extralight;
+    @apply lg:text-2xl text-xl leading-tight font-normal tracking-tight ;
+    color: #ffffff;
     font-family: "Inter", sans-serif !important;
   }
+
   h3 strong {
     @apply font-normal;
   }
+
   h4 {
     @apply text-xl lg:text-2xl font-normal tracking-wider;
     font-family: "Inter", sans-serif !important;
-    
+
   }
+
   h5 {
     @apply text-lg my-1 tracking-normal font-medium;
     font-family: "Inter", sans-serif !important;
+    color: #fff !important
   }
+
   h6 {
     @apply text-md not-italic font-normal my-1;
     font-family: "Inter", sans-serif !important;
   }
+
   p {
-    @apply text-lg;
+    @apply text-pretty lg:text-xl text-lg font-light text-gray-200 my-2;
     font-family: "Inter", sans-serif !important;
   }
+
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
   }
+
   li {
     @apply text-base lg:text-base font-normal;
   }
+
   li li {
     @apply text-sm lg:text-sm font-light;
   }
+
   button {
-    @apply 
-    inline-block
-    md:text-md
-    text-sm
-    lg:mr-3
-    py-1
-    my-2
-    border
-    rounded
-    shadow
-    border-gray-400
-    capitalize
-    /* bg-gray-200 */
+    @apply inline-block md:text-md text-sm lg:mr-3 py-1 my-2 border rounded shadow border-gray-400 capitalize bg-gray-200
   }
-  .my-header h4{
-    color:#9f9f9f;
+
+  .my-header h4 {
+    color: #9f9f9f;
 
   }
 
-  h3 a{
-    color:#ffffff;
+  h3 a {
+    color: #ffffff;
 
   }
 
-  h3 a:hover{
-    color:#b6b6b6;
+  h3 a:hover {
+    color: #b6b6b6;
 
   }
-  
- 
- 
 
 
-  .article h2{
+
+
+
+  .article h2 {
     font-size: 2.25rem;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     font-weight: 700;
-    color:#e2e2e2;
+    color: #e2e2e2;
   }
-  
-  .article h1{
+
+  .article h1 {
     font-family: "Inter", sans-serif;
   }
 
-  }
-  .article p{
-    font-size: 1.125rem;
-    font-family: "Inter", sans-serif;
-    line-height: 1.7;
-    color:#e2e2e2
-  }
-  
-  .post-content-text a, .article a{
-    color: #a5a5a5;
-  }
-  
-  .post-content-text a:hover, .article a:hover{
-    color: #c6c9c8;
-  }
+}
 
-  .article li{
-    font-size: 1.125rem;
-    font-family: "Inter", sans-serif;
-    line-height: 1.7;
-    color:#e2e2e2
-  }
+.article p {
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.7;
+  color: #e2e2e2
+}
 
-  .article h3{
-    font-weight: 400;
-   
-  }
+.post-content-text a,
+.article a {
+  color: #a1debd;
+}
 
-  .article h4{
-    color: #fff !important;
-   
-  }
+.post-content-text a:hover,
+.article a:hover {
+  color: #57d391;
+}
 
-  .main-title {
-    font-family: "Inter", sans-serif;
-  }
+.article li {
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.7;
+  color: #e2e2e2
+}
+
+.article h3 {
+  font-weight: 400;
+
+}
+
+.article h4 {
+  color: #fff !important;
+
+}
+
+.main-title {
+  font-family: "Inter", sans-serif;
+}
 
 
 /* button:hover :is(:where(a)) {
@@ -465,18 +384,16 @@ background-color:#5596f5 !important;
 } */
 
 button :is(:where(p)) {
-  /* color: #ddd; */
+  color: #ddd;
   font-weight: 400;
 }
 
 button a {
   line-height: 1.3;
-  @apply
-  text-black
-  px-8
+  @apply text-black px-8
 }
 
-.long-text a{
+.long-text a {
   padding-left: 2rem;
   padding-right: 2rem;
   --tw-text-opacity: 1;
@@ -512,6 +429,7 @@ header {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+
 .quicklinks img {
   height: auto;
   max-width: 200px;
@@ -520,7 +438,7 @@ header {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
-  
+
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   opacity: 0.5;
@@ -558,6 +476,7 @@ header {
 .banner h2,
 .header h1 {
   margin: auto;
+  color: #fff;
   position: relative;
   transition: 0.3s;
   z-index: 1;
@@ -565,6 +484,7 @@ header {
 }
 
 .header h1 {
+  color: #000;
   transition: none;
 }
 
@@ -629,10 +549,11 @@ header {
   transform: none;
 }
 
-.my-test{
+.my-test {
   font-family: "Inter", sans-serif;
-} 
-.post-content-text .my-test  {
+}
+
+.post-content-text .my-test {
   font-family: "Inter", sans-serif;
   line-height: 1.7;
 }
@@ -643,6 +564,7 @@ header {
   font-size: 2.25rem;
   font-weight: 700;
 }
+
 .container-fluid {
   width: 100%;
   /* padding-right: 15px;
@@ -654,16 +576,14 @@ header {
 .zola-anchor {
   display: none;
 }
-@media (min-width: 1024px){
-  h2 {
-    font-size: 3.5rem;
-  } 
-  
+
+@media (min-width: 1024px) {
+ 
 }
 
 @media (max-width: 1024px) {
 
-  .mycard{
+  .mycard {
     height: auto !important;
   }
 
@@ -681,25 +601,27 @@ header {
   .banner h2 svg {
     font-size: 30px;
   }
-  .arrow img{
-    -moz-transform:rotate(90deg);
-   -webkit-transform:rotate(90deg);
-   -ms-transform:rotate(90deg);
-   transform: rotate(90deg);   
-   }
 
-   .mycard{
+  .arrow img {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .mycard {
     height: auto !important;
   }
 }
 
 @media (max-width: 480px) {
+
   .banner,
   .header {
     padding: 80px 0;
   }
 
-  .article h2{
+  .article h2 {
     font-size: 1.5rem;
   }
 
@@ -712,31 +634,30 @@ header {
     display: none;
   }
 
-  .big_header{
+  .big_header {
     font-size: 4rem !important;
-   
+
   }
 
-  .mytest{
+  .mytest {
     height: auto;
   }
 
   .card_h {
-         height: auto !important;
-  }
-
-  .mycard{
     height: auto !important;
   }
 
-  .key_card{
+  .mycard {
+    height: auto !important;
+  }
+
+  .key_card {
     height: auto;
   }
 
-  .mypartners{
+  .mypartners {
     height: auto;
-  
+
   }
-  
+
 }
-

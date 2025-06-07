@@ -1,0 +1,56 @@
+{% set title = title | default(value="") %}
+{% set description_1 = description_1 | default(value="") %}
+{% set description_2 = description_2 | default(value="") %}
+{% set description_3 = description_3 | default(value="") %}
+{% set description_4 = description_4 | default(value="") %}
+
+
+
+<div class="lg:py-24 py-12 relative  isolate overflow-hidden">
+    <div class="mx-auto container lg:max-w-7xl px-4">
+        <div>
+            <h2 class="fade-in my-2">{{ title }}
+            </h2>
+        </div>
+        <div class="relative grid lg:grid-cols-12 lg:gap-8">
+            <!-- Left Content -->
+            <div class="lg:col-span-6">
+                <div class="mx-auto max-w-2xl lg:mx-0">
+                    <p class="fade-in mt-2 text-lg lg:text-xl font-light">
+                        {{ description_1 }}
+                        <br><br>
+                        {{ description_2 }}
+                        <br><br>
+                        {{ description_3 }}
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right Blockquote -->
+            <div class="lg:col-span-6">
+                <figure class=" mt-2 pl-8">
+                    <blockquote class=" fade-in px-6">
+                        <p class=" font-semibold">{{ description_4 }}
+
+                            <p class="fade-in my-6 mx-auto text-xl font-semibold tracking-tight lg:text-2xl transition-opacity duration-1000" data-observer>
+                                Planet First. People First.
+                            </p>
+                    </blockquote>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    .blockquote::before {
+        content: open-quote;
+        font-size: 4rem;
+        position: absolute;
+        top: -1rem;
+        left: -1rem;
+        color: #8d1212;
+    }
+</style>

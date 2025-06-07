@@ -5,28 +5,19 @@
     <div class="z-20 fixed top-0 left-0 right-0 bg-black lg:bg-transparent lg:absolute w-full">
         <div class="relative z-50">
         <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-4 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
-          <a href="{{ get_url(path='/') }}" class="flex">
-
-            <img id="lightLogo" src="{{ get_url(path=section.extra.logoPathLight) }}" alt="Light Logo" class="logo light w-36 h-auto" style="max-width: none;">
-            <img id="darkLogo" src="{{ get_url(path=section.extra.logoPathDark) }}" alt="Dark Logo" class="logo dark w-36 h-auto" style="max-width: none;">
-          </a>
-          {# <a href="{{ get_url(path='/') }}" class="flex">
-            <img 
-            id="site-logo" 
-            class="w-36 h-auto" 
-            style="max-width: none;" 
-            data-light="{{ get_url(path=section.extra.logoPathLight) }}" 
-            data-dark="{{ get_url(path=section.extra.logoPathDark) }}" />
-          </a> #}
-        
+            <div>
+                <a href="{{get_url(path='/')}}" class="flex">
+                    <img class="w-36 h-auto" style="max-width: none;" src="{{ get_url(path=section.extra.logoPath)}}" alt="ThreeFold Logo" />
+                </a>
+            </div>
             <div class="-mr-2 -my-2 lg:hidden">
-                <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 border-gray-100 rounded-md text-gray-400  focus:outline-none focus:text-gray-500 transition duration-200 ease-in-out">
+                <button id="hamburger-btn" type="button" class="bg-black1 inline-flex items-center justify-center p-2 border-gray-100 rounded-md text-gray-400  focus:outline-none focus:text-gray-500 transition duration-200 ease-in-out">
                     <!-- Heroicon name: menu -->
                     <svg class="h-6 w-6 text-gray-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
-            <button id="close-hamburger-btn" type="button" class="hidden lg:hidden items-center justify-center p-2 border-gray-100 rounded-md text-gray-400  focus:outline-none focus:text-gray-500 transition duration-250 ease-in-out">
+            <button id="close-hamburger-btn" type="button" class="bg-black1 hidden lg:hidden items-center justify-center p-2 border-gray-100 rounded-md text-gray-400  focus:outline-none focus:text-gray-500 transition duration-250 ease-in-out">
                 <!-- Heroicon name: x -->
                 <svg class="h-6 w-6 text-gray-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -45,7 +36,7 @@
                     {% set current = get_url(path=link_path[1]) ~ "/" %}
                     {% if header_label is containing("http") %}
                         {% if header_label is not containing("threefold") %}
-                        <a href="{{link_path[1]}}" target="_blank" class="text-lg py-3 leading-6 font-light text-pretty tracking-wide  focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                        <a href="{{link_path[1]}}" target="_blank" class="text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                             {{link_label}}
                         </a>
                         {% endif %}
@@ -54,14 +45,14 @@
                             {{link_label}}
                           </a>
                       {% else %}
-                        <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal  focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                        <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-normal text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                           {{link_label}}
                         </a>
                       {% endif %}
                 {% else %}
                     <div class="relative">
                         {% set button_id = header_label ~ "-menu-btn" | slugify %}
-                    <button type="button" id="{{button_id}}" class="nav_btn py-3   group inline-flex items-center space-x-2 text-lg leading-6 font-normal focus:outline-none transition ease-in-out duration-150">
+                    <button type="button" id="{{button_id}}" class="bg-black1 nav_btn py-3  text-white group inline-flex items-center space-x-2 text-lg leading-6 font-normal focus:outline-none transition ease-in-out duration-150">
                         <span>{{ header_label }}</span>
                         <div class="-rotate-90 transition-transform transform origin-center duration-200 ease-out"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                     </button>
@@ -74,9 +65,9 @@
 
             <div class="hidden md:inline-block md:order-last">
                 <div class="inline-flex">
-                 <!-- <ul class="list-none inline-flex mt-5 mr-4 mx-auto">
+                  {# <ul class="list-none inline-flex mt-5 mr-4 mx-auto">
                     <li class="ml-4">
-                      <a href="https://t.me/threefoldnews" target="_blank" class="">
+                      <a href="https://t.me/threefoldnews" target="_blank" class="text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18"
@@ -96,7 +87,7 @@
                       <a
                         href="javascript:;"
                         onclick="ml_account('webforms', '3562741', 'n7q9l7', 'show')"
-                        class=""
+                        class="text-white"
                       >
                         <svg
                           aria-hidden="true"
@@ -115,19 +106,8 @@
                         </svg>
                       </a>
                     </li> 
-                  </ul>  -->
-                  <button class="theme-toggle mx-4">
-                    <label for="lightModeSwitch" class="switch">
-                        <i class="fa-solid fa-sun" id="lightIcon"></i>
-                        <input type="checkbox" id="lightModeSwitch">
-                        <span class="slider"></span>
-                        <i class="fas fa-moon" id="darkIcon"></i>
-                    </label>
-                </button>
-                  
-                
-                  
-                    <a href="/signup" target="_blank" class="blinking-effect border-gray-500 border-2 dashboard rounded-2xl bg-white px-4 p-2 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-gray-100">Join the Web4 Revolution</a>
+                  </ul> #}
+                    <a href="/signup" target="_blank" class="blinking-effect dashboard rounded-2xl bg-white px-4 p-2 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green">PARTICIPATE</a>
                 </div>
               </div>
             </div>
@@ -142,7 +122,7 @@
 
 <nav>
     <div id="{{menu_id}}" class="nav_menu mt-0 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
-        <div class="d_menu">
+        <div style="background-color: rgba(34 34 34);">
             <div id="menu" class="conatiner mx-auto">
                 {{header_menu | safe }}
             </div>
@@ -186,13 +166,13 @@
                                     </a>
                                     {% endif %}
                                 {% else %}
-                                <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal focus:outline-none focus:text-gray-100 transition ease-in-out duration-150">
+                                <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-white hover:text-white focus:outline-none focus:text-gray-100 transition ease-in-out duration-150">
                                     {{link_label}}
                                 </a>
                                 {% endif %}
                             {% else %}
                                 {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
-                                    <button style="background-color: transparent; border:none" type="button" id="{{button_id}}" class=" px-8 py-3 items-start text-left group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-200 focus:outline-none focus: transition ease-in-out duration-150">
+                                    <button style="background-color: transparent; border:none" type="button" id="{{button_id}}" class=" px-8 py-3 items-start text-left text-white group inline-flex space-x-2 text-lg leading-6 font-normal hover:text-gray-200 focus:outline-none focus:text-white transition ease-in-out duration-150">
                                         {{ header_label }}
                                         <div class="-rotate-90 transition-transform transform origin-center duration-200 ease-out"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                                     </button>
@@ -217,7 +197,7 @@
                       </div> #}
 
                       <div class="rounded-full border-2 my-4 border-gray-400 py-2 mx-4">
-                        <a href="/signup" target="_blank" class="mt-2 border-gray-500 border-2 rounded-md bg-white px-4 py-2.5 text-sm font-semibold shadow-sm hover:bg-gray-100 hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Join the Web4 Revolution</a>
+                        <a href="/signup" target="_blank" class="mt-2 rounded-md px-4 py-2.5 text-lg font-semibold text-white shadow-sm hover:text-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">PARTICIPATE</a>
                       </div>
                     </nav>                    
                 </div>
@@ -242,89 +222,5 @@
 .nav_btn:hover {
   color: #c7c7c7 !important;
 }
-
-.theme-toggle {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-/* logo image */
-
-.light {
-  
-  display: block; /* Show dark logo by default */
-}
-.dark {
-   
-  display: none; /* Hide light logo by default */
-}
-
-.light-mode .light {
-  
-  display: none; /* Hide dark logo in light mode */
-}
-.light-mode .dark {
-
-  display: block;/* Show light logo in light mode */
-}
-
-/* Styling for the switch container */
-.switch {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  width: 50px;
-  height: 25px;
-  background: #ccc;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background 0.3s ease-in-out;
-}
-
-/* Hide the default checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* Slider (toggle button) */
-.slider {
-  position: absolute;
-  top: 2px;
-  left: 3px;
-  width: 20px;
-  height: 20px;
-  background: white;
-  border-radius: 50%;
-  transition: transform 0.3s ease-in-out;
-}
-
-/* Show moon by default (dark mode) */
-#lightIcon {
-  display: block;
-  margin-left: 5px;
-  color: white;
-}
-#darkIcon {
-  display: inline-block;
-  margin-left: 5px;
-}
-
-/* When light mode is active */
-.light-mode .switch {
-  background: #111; /* Dark background in light mode */
-}
-.light-mode .slider {
-  transform: translateX(25px); /* Move slider to the right */
-}
-.light-mode #lightIcon {
-  display: inline-block;
-  color: white;
-}
-.light-mode #darkIcon {
-  display: none;
-}
-
 
 </style>

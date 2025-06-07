@@ -1,7 +1,6 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  darkMode: 'class',
   content: [
       './templates/**/*.html'
   ],
@@ -22,9 +21,6 @@ module.exports = {
         'last', 'last:sm', 'last:md', 'last:lg'
       ],
     },
-    {
-      pattern: /bg-teal-(50|100|200|300|400|500|600|700|800|900)/,  // Added teal color safelist
-    }
   ],
  
   important: true,

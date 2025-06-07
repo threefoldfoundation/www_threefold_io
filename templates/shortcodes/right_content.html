@@ -1,0 +1,60 @@
+{% set subtitle = subtitle | default(value="") %}
+{% set header = header | default(value="") %}
+{% set sub_header = sub_header | default(value="") %}
+{% set description1 = description1 | default(value="") %}
+{% set description2 = description2 | default(value="") %}
+
+        
+        <div class="pt-0">
+          <dt class="font-normal text-sm text-gray-200">{{ subtitle }}</dt>
+          <dt class="mt-1 font-semibold text-base text-gray-200">{{ header }} </dt>
+          <dt class="mt-1 font-semibold text-base text-gray-200">{{ sub_header }} </dt>
+        </div>
+        <div class="pt-0">
+          <dd class="font-light text-gray-300 text-sm mb-2">{{ description1 }} </dd>
+          <dd class="font-light text-gray-300 text-sm mb-4">{{ description2 }}</dd>
+        </div>
+
+
+<style>
+  /* Define the slow blinking animation */
+  @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    /* Apply the fade-in animation to elements with the 'fade-in' class */
+    .fade-in {
+      animation: fadeIn 4s ease-in-out forwards; /* Adjust the duration (2s) to make it slower or faster */
+    }
+  
+    /* Optional: Delay the animation for a more staggered effect */
+    h2 {
+      animation-delay: 0.5s; /* Delay for header */
+    }
+  
+    p {
+      animation-delay: 1s; /* Delay for paragraphs */
+    }
+    
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Apply the blinking animation to the link */
+  .blinking-effect {
+    animation: blink 3s infinite; /* Adjust the speed here (1.5s for slow blinking) */
+  }
+</style>

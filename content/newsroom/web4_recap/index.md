@@ -56,10 +56,6 @@ We also need to get the word out. We are employing several strategies on our sid
 
 <br/>
 
-We know many of you still have questions about INCA. As shared in last week’s announcements, there is a separate team who will launch ThreeFold in the DePIN space and they will share updates when ready.
-
-<br/>
-
 Additionally, you can expect our next major round of announcements on 03.03 of next year, with regular milestone announcements every three months – on 06.06, 09.09, and 12.12. That being said, there may be some additional big announcements before March – stay tuned.
 
 ### How to Support

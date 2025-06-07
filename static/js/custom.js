@@ -6,7 +6,7 @@ var isMobile = width < 1024;
 function toggleMenu(button) {
   if (displayedMenu === button.id.split("-")[0]) {
     button.className = button.className.replace(
-      " text-gray-800 sm:bg-transparent",
+      " text-gray-800 bg-stone-200 sm:bg-transparent",
       " text-gray-900"
     );
     hideMenu(button.id.split("-")[0]);
@@ -23,7 +23,7 @@ function toggleMenu(button) {
     );
     button.className = button.className.replace(
       " text-gray-900",
-      " text-gray-800 sm:bg-transparent"
+      " text-gray-800 bg-stone-200 sm:bg-transparent"
     );
     displayedMenu = button.id.split("-")[0];
   }
@@ -191,33 +191,3 @@ function formatStatsData(stats) {
 readingTime();
 getStats();
 document.getElementById("year").innerHTML = new Date().getFullYear();
-
-
-
-// Get elements
-const toggleSwitch = document.getElementById('lightModeSwitch');
-const body = document.body;
-
-// Apply saved theme on load
-document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme') || 'dark'; // Default is dark mode
-
-    if (savedTheme === 'light') {
-        body.classList.add('light-mode');
-        toggleSwitch.checked = true;
-    } else {
-        body.classList.remove('light-mode');
-        toggleSwitch.checked = false;
-    }
-});
-
-// Toggle between light and dark mode
-toggleSwitch.addEventListener('change', () => {
-    if (toggleSwitch.checked) {
-        body.classList.add('light-mode');
-        localStorage.setItem('theme', 'light');
-    } else {
-        body.classList.remove('light-mode');
-        localStorage.setItem('theme', 'dark');
-    }
-});

@@ -15,7 +15,7 @@ extra:
 {% row( style="center mtop semiNarrow") %}
 
 
-<h2 class="text-balance font-normal tracking-tight text-white lg:text-6xl text-3xl fade-in visible">Join the Community</h2>
+# Join the Community
 
 {% end %}
 
@@ -69,7 +69,7 @@ extra:
 
 <h6 class="text-white mt-4 font-semibold">X | Twitter</h6>
 
-<p class="text-base text-white  leading-snug">"Tweet" With Us<p>
+<p class="text-base text-white  leading-snug">Connect With Us<p>
 
 {% end %}
 
@@ -176,7 +176,7 @@ extra:
 
 <h6 class="text-white mt-4 font-semibold">LinkedIn</h6>
 
-<p class="text-base text-white  leading-snug">Lets Network<p>
+<p class="text-base text-white  leading-snug">Let's Network<p>
 
 {% end %}
 
@@ -184,7 +184,7 @@ extra:
 {% row( style="center mtop semiNarrow") %}
 
 
-<h2 class="fade-in text-balance text-4xl font-normal tracking-tight text-white sm:text-5xl">Keep up with ThreeFold Events</h2>
+## Keep up with ThreeFold Events
 
 {% end %}
 
