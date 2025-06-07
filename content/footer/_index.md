@@ -12,7 +12,7 @@ extra:
 
 ##### TAKE ACTION
 
-<br>
+
 
 ###### [Learn](https://docs.threefold.io/docs/introduction)
 
@@ -32,7 +32,6 @@ extra:
 
 ##### COMMUNITY
 
-<br>
 
 ###### [Main Chat](https://t.me/threefold)
 
@@ -48,7 +47,7 @@ extra:
 
 ##### ABOUT US
 
-<br>
+
 
 <h6><a target="_self" onclick="window.location.href='/why'">Why</a></h6>
 
@@ -65,3 +64,4 @@ extra:
 
 
 {% end %}
+
