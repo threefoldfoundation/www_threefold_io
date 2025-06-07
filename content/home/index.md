@@ -153,14 +153,17 @@ extra:
 <!-- section 5 -->
 
 <div class="container mx-auto lg:max-w-7xl lg:py-24 py-12 px-4 lg:px-0">
+  <div class="max-w-4xl lg:px-8 px-0 lg:pb-12 pb-6">
 
-  {{ text_left( 
-      title="How it works",
-      description_1="At the base, nodes form the physical foundation—distributed computers that provide processing power, storage, and networking capabilities. These nodes work together to create a global, community-powered infrastructure.",
-      description_2="Regardless of technical expertise, anyone can deploy nodes from their homes or offices, and participate in a decentralized alternative to corporate-owned data centers – while earning rewards for their contributions. We call this process 'farming.'"
+  ## How It Works
 
+  At the base, nodes form the physical foundation—distributed computers that provide processing power, storage, and networking capabilities. These nodes work together to create a global, community-powered infrastructure.
+  
+  <br>
 
-  ) }}
+  Regardless of technical expertise, anyone can deploy nodes from their homes or offices, and participate in a decentralized alternative to corporate-owned data centers – while earning rewards for their contributions. We call this process 'farming.'
+
+</div>
 
 <div class="max-w-6xl mx-4 md:mx-10 lg:mx-20 xl:mx-auto">
   
