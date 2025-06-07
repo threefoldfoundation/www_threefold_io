@@ -1,5 +1,5 @@
 ---
-id: 316-live
+id: 316_live
 title: TF Grid 3.16 Live on Mainnet
 image_caption: 316-live
 description: TF Grid 3.16 is now live on Mainnet. Take a look at what's inside of this release.
@@ -10,7 +10,6 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: 316_live.png
-    isFeatured: true
 ---
 
 We are pleased to announce that ThreeFold’s mainnet has now been upgraded to version 3.16! A quick look at what's inside:
