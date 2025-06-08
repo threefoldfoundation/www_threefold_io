@@ -18,6 +18,7 @@ extra:
     description="Our unique technology enables anyone to become a provider of network, storage and compute capacity.",
     button1_text="Dive Deeper",
     button1_link="https://docs.threefold.io/docs/introduction"
+    target="_blank"
   
 
 ) }}

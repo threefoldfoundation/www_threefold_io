@@ -27,7 +27,7 @@ The Internet brings the world together, yet much of it is now concentrated in th
 
 
 
-<!-- section 2 -->
+<!-- section 2 (reason) -->
 
 {{ description_blockquote(
     title="The Reason Behind It All",
@@ -76,7 +76,7 @@ We must not repeat mistakes of the past. Without decentralization, AI will remai
 
 <div class="max-w-3xl">
 
-Unlike traditional internet infrastructure, which relies on centralized data centers and corporate control, ThreeFold is built on a global mesh of independent cloud providers—individuals and organizations who contribute data, cloud and network power directly to the ecosytem.
+Unlike traditional internet infrastructure, which relies on centralized data centers and corporate control, ThreeFold is built on a global mesh of independent cloud providers—individuals and organizations who contribute data, cloud and network power directly to the ecosystem.
 
 <br>
 
@@ -103,15 +103,15 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
   subtitle_1="Phase I",
   title_1="Creation of Core Technology",
   point_1_1="Open Source Development.",
-  point_1_2="Built decentralized, autonomous, edge internet technology",
-  point_1_3="Self-funded and private investment from founders, community, and TF Tech investors",
+  point_1_2="Built decentralized, autonomous, edge internet technology.",
+  point_1_3="Self-funded and private investment from founders, community, and TF Tech investors.",
 
   subtitle_2="Phase II",
-  title_2="Global Proof Of Concept",
+  title_2="Global Proof Of Concept.",
   point_2_1="Open Source Development.",
   point_2_2="50+ Countries.",
   point_2_3="50,000+ Cores.",
-  point_2_4="25,000,000 GB of Storage",
+  point_2_4="25,000,000 GB of Storage.",
   point_2_5="Thousands of enthusiasts actively engage with and contribute to the evolution of the ThreeFold Network.",
   point_2_6="Decentralized reliable compute, network and storage layer for Web 2-3.",
   point_2_7="Commitments from wonderful projects to build on top of us.",

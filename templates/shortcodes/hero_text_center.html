@@ -4,6 +4,7 @@
 {% set description = description | default(value="") %}
 {% set button1_text = button1_text | default(value="") %}
 {% set button1_link = button1_link | default(value="") %}
+{% set target = target | default(value="") %}
 {% set button2_text = button2_text | default(value="") %}
 {% set button2_link = button2_link | default(value="") %}
 {% set button3_text = button3_text | default(value="") %}
@@ -26,7 +27,7 @@
   
       <div class="mt-6 flex lg:flex-row flex-col items-center justify-center gap-x-8 gap-y-8">
         {% if button1_link %}
-        <a href="{{ button1_link }}"
+        <a href="{{ button1_link }}" target="{{ target }}"
           class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">{{ button1_text }}</a>
         {% endif %}
         {% if button3_link %}
