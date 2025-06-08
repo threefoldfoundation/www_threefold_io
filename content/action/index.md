@@ -96,11 +96,6 @@ Discover the key products that bring us closer to our vision of the new internet
   button_text_2="Learn More",
   button_link_2="https://docs.threefold.io/docs/components/3phone/",
 
-  title_3="3Bot",
-  description_3="An AI-powered virtual system administrator helps deploy and manage your digital life.",
-  button_text_3="Learn More",
-  button_link_3="https://docs.threefold.io/docs/components/3bot",
-
   title_4="3Router",
   description_4="Smart routers ensure shortest-path connections between nodes and phones with end-to-end encryption. Unlocked after 10,000 pre-orders.",
   button_text_4="Learn More",
