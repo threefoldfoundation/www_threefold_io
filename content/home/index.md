@@ -24,7 +24,7 @@ extra:
 
 
 
-<!-- section 2 -->
+<!-- section 2 (Infrastructure) -->
 
 <div class="lg:pb-24 pb-12">
   <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-y-16 px-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
@@ -85,7 +85,7 @@ extra:
     title_2="A Global Community",
     description_1="ThreeFold’s groundbreaking technology enables anyone – individuals, organizations, and communities – to deploy their own Internet infrastructure.",
     description_2="Today, our proof-of-concept network is live and operational worldwide, running on version 3.16 technology.",
-    subtitle="As we expand, we may need millions of nodes to support this growing ecosystem to build a truly decentralized and resilient infrastructure",
+    subtext="As we expand, we may need millions of nodes to support this growing ecosystem to build a truly decentralized and resilient infrastructure",
     button_text="Explore Grid Capacity",
     button_link="https://dashboard.grid.tf/#/tf-grid/node-statistics/"
 
@@ -93,15 +93,13 @@ extra:
 
 
 
-<!-- section 4 -->
+<!-- section 4 (TF products)-->
 
 <div class="lg:py-24 py-12">
 
 {{ text_center(
     title="Anything That Runs on Linux Can Run on ThreeFold",
-    description_1="The new internet infrastructure can be used by any Web2, Web3, AI, or Edge IT workload – enabling a world of possibilities.", 
-    button_text_1="",
-    button_link_1=""
+    description_1="The new internet infrastructure can be used by any Web2, Web3, AI, or Edge IT workload – enabling a world of possibilities." 
 
 ) }}
 
@@ -124,6 +122,7 @@ extra:
     image_src="/images/mycelium_logo.png",
     image_alt="Mycelium",
     title="Mycelium",
+    subtitle ="Unbreakable Network",
     description="An adaptive and resilient network solution that not only keeps your data safe but also guarantees uninterrupted and efficient communication. The Mycelium Network is the backbone of a new era of connectivity, prioritizing speed, security, and reliability for all users.",
     button_text_1="Website",
     button_link_1="https://mycelium.threefold.io/",
@@ -150,7 +149,7 @@ extra:
 
 
 
-<!-- section 5 -->
+<!-- section 5 (How it works)-->
 
 <div class="container mx-auto lg:max-w-7xl lg:py-24 py-12 px-4 lg:px-0">
   <div class="max-w-4xl lg:px-8 px-0 lg:pb-12 pb-6">
@@ -193,7 +192,7 @@ extra:
 
 
 
-<!-- section 6 -->
+<!-- section 6 (self-healing) -->
 
 <div class="lg:py-24 py-12">
 
@@ -213,7 +212,7 @@ extra:
 
 
 
-<!-- section 7 -->
+<!-- section 7 (More Resilient)-->
 
 <div class="lg:py-24 py-12 text-center">
 

@@ -3,21 +3,21 @@
 {% set description = description | default(value="") %}
 
 <div class="rounded-lg overflow-hidden my-2 border border-gray-500">
-            <input type="checkbox" id="{{ id_accordion }}" class="peer hidden">
-            <label for="{{ id_accordion }}" class="accordion flex items-center justify-between p-4 cursor-pointer transition-colors">
-                <span class="text-lg font-medium text-white">{{ question }}</span>
-                <svg class="w-6 h-6 text-white transition-transform peer-checked:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-            </label>
-            <div class="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-screen">
-                <div class="p-4">
-                    {% if description %} 
-                    <p class="text-lg">{{ description }} </p>
-                    {% endif %}
-                </div>
-            </div>
+    <input type="checkbox" id="{{ id_accordion }}" class="peer hidden">
+    <label for="{{ id_accordion }}" class="accordion flex items-center justify-between p-4 cursor-pointer transition-colors">
+        <span class="text-lg font-medium text-white">{{ question }}</span>
+        <svg class="w-6 h-6 text-white transition-transform peer-checked:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+    </label>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-screen">
+        <div class="p-4">
+            {% if description %} 
+            <p class="text-lg">{{ description }} </p>
+            {% endif %}
         </div>
+    </div>
+</div>
 
         <style>
 
