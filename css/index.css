@@ -304,7 +304,7 @@ a img:hover {
   }
 
   button {
-    @apply inline-block md:text-md text-sm lg:mr-3 py-1 my-2 border rounded shadow border-gray-400 capitalize bg-gray-200
+    @apply inline-block md:text-md text-sm lg:mr-3 py-1 my-2 border rounded shadow border-gray-400 capitalize;
   }
 
   .my-header h4 {
