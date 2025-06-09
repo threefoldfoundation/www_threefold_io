@@ -1,8 +1,8 @@
 {%- set section = get_page(path="header/index.md") %}
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
-<header id="header-container">
-    <div class="z-20 fixed top-0 left-0 right-0 bg-black lg:bg-transparent lg:absolute w-full">
+<header id="header-container bg-dark-gradient">
+    <div class="z-20 fixed top-0 left-0 right-0 lg:absolute w-full">
         <div class="relative z-50">
         <div class="mx-auto container flex z-50 justify-between items-center px-6 sm:px-4 md:px-6 py-4 lg:px-5 lg:justify-start space-x-10 sm:space-x-4 ">
             <div>
