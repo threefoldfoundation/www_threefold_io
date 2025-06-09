@@ -25,7 +25,7 @@ Today, we’re thrilled to announce the **ThreeFold Marketplace**.
 
 ### **What is the ThreeFold Marketplace?**
 
-The ThreeFold Marketplace is an **all-in-one platform that connects providers and users peer-to-peer**, enabling the discovery, exchange, and management of compute resources, applications, and services within the ThreeFold ecosystem. It also enables commercial opportunities for participants, allowing them to monetize offerings and engage in business within the ecosystem.
+The ThreeFold Marketplace is an **all-in-one platform that connects providers and users peer-to-peer**, enabling the discovery, exchange, and management of compute resources, applications, and services within the ThreeFold ecosystem. It enables commercial opportunities for participants, allowing them to monetize offerings and engage in business within the ecosystem.
 
 <br/>
 
