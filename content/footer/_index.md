@@ -14,7 +14,9 @@ extra:
 
 <br>
 
-###### [Learn](https://docs.threefold.io/docs/introduction)
+###### [Docs (V4)](https://docs.threefold.io/docs/introduction)
+
+###### [Grid Manual](https://manual.grid.tf/)
 
 ###### [Host (Farm)](https://docs.threefold.io/docs/category/become-a-farmer)
 
@@ -24,9 +26,9 @@ extra:
 
 ###### [AIBOX](https://aibox.threefold.io/)
 
-###### [Download TF Connect](https://manual.grid.tf/documentation/tfconnect/tfconnect_installation.html)
+###### [Download TF Connect](https://manual.grid.tf/labs/documentation/tfconnect_toc/tfconnect_installation)
 
-###### [Download Mycelium](https://manual.grid.tf/documentation/system_administrators/mycelium/mycelium_app.html)
+###### [Download Mycelium](https://manual.grid.tf/labs/documentation/system_administrators/mycelium_toc/mycelium_app)
 
 |||
 
