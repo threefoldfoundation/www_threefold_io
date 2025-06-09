@@ -92,7 +92,7 @@ And then there are **[3Routers](https://docs.threefold.io/docs/components/3route
 
 <br>
 
-<iframe width="896" height="504" src="https://www.youtube.com/embed/Z3TRrwxOIz0?si=fCnX1D1uHnU4k411" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="866" height="487" src="https://www.youtube.com/embed/Z3TRrwxOIz0?si=fCnX1D1uHnU4k411" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br>
 
