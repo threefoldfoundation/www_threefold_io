@@ -75,7 +75,7 @@ As reported [last month](https://forum.threefold.io/t/unfolding-threefold-februa
 
 <br/>
 
-If you haven’t already, you can order a v4 3Node from either [DuckFarmData](https://duckfarmdata.com/) (Americas) or [HostService](https://hostservice.nl/en/) (Rest of World) and take part in the expansion of the fourth generation of ThreeFold.
+If you haven’t already, you can order a v4 3Node from either [DuckFarmData](https://duckfarmdata.com/) (Americas) or [YourData Network](https://yourdata.network/) (Rest of World) and take part in the expansion of the fourth generation of ThreeFold.
 
 ### **Community Discussions & Feedback**
 

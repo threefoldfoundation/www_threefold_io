@@ -49,7 +49,7 @@ On that note, today we announce the following new features that will prepare us 
 
 <br/>
 
-3Node: V4 nodes are available now and you can buy them directly via our official partners – [HostService](https://hostservice.nl/en/) (Europe, Asia, Africa, and Australia) and [Duck Farm Data](https://duckfarmdata.com/) (Americas), both long-time participants of the ThreeFold community.
+3Node: V4 nodes are available now and you can buy them directly via our official partners – [YourData Network](https://yourdata.network/) (Europe, Asia, Africa, and Australia) and [Duck Farm Data](https://duckfarmdata.com/) (Americas), both long-time participants of the ThreeFold community.
 
 <br/>
 
