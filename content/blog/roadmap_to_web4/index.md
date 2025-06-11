@@ -80,7 +80,7 @@ Today, we are pleased to announce the next step in the roadmap to Web4: V4 3Node
 
 <br>
 
-**3Nodes** are a familiar concept in the ThreeFold ecosystem, now also entering their fourth generation. Nodes provide capacity to the network, and in exchange generate rewards. Today, in collaboration with ThreeFold community vendors HostServiceNL in Europe and DuckFarmData in North America, we are announcing three different models of the V4 3Node. You can find more info and how to place orders [here](https://docs.threefold.io/docs/become-a-farmer/get_started).
+**3Nodes** are a familiar concept in the ThreeFold ecosystem, now also entering their fourth generation. Nodes provide capacity to the network, and in exchange generate rewards. Today, in collaboration with ThreeFold community vendors YourData Network in Europe and DuckFarmData in North America, we are announcing three different models of the V4 3Node. You can find more info and how to place orders [here](https://docs.threefold.io/docs/become-a-farmer/get_started).
 
 <br>
 
