@@ -36,6 +36,8 @@ extra:
 
 <br>
 
+###### [News Channel](https://t.me/threefoldnews)
+
 ###### [Main Chat](https://t.me/threefold)
 
 ###### [Hosting / Farming Chat](https://t.me/threefoldfarmers)
