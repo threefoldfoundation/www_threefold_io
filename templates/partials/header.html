@@ -35,11 +35,11 @@
                     {% set link_path = header_label | split(pat="%22") | safe%}
                     {% set current = get_url(path=link_path[1]) ~ "/" %}
                     {% if header_label is containing("http") %}
-                        
+                    {# {% if header_label is not containing("threefold") %}  #}
                         <a href="{{link_path[1]}}" target="_blank" class="text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                             {{link_label}}
                         </a>
-                       
+                        {# {% endif %} #}
                       {% elif current_url and current == current_url %}
                           <a href="{{ get_url(path=link_path[1])}}" class="text-lg py-3 leading-6 font-light active text-pretty tracking-wide transition ease-in-out duration-150">
                             {{link_label}}
@@ -108,10 +108,10 @@
                     </li> 
                   </ul> #}
                   <div class="mx-4">
-                    <a href="https://mycelium.threefold.io/" target="_blank" class="text-lg py-3 mx-2 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                    <a href="https://mycelium.threefold.io/" target="_blank" class="mx-2 text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                       Mycelium Network
                   </a>
-                  <a href="https://aibox.threefold.io/" target="_blank" class="text-lg py-3 mx-2 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                  <a href="https://aibox.threefold.io/" target="_blank" class="mx-2 text-lg py-3 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
                     AIBox
                 </a>
                 </div>
@@ -169,11 +169,11 @@
                                 {% set link_label = header_label | striptags %}
                                 {% set link_path = header_label | split(pat="%22") | safe%}
                                 {% if header_label is containing("http") %}
-                                    
+                                {# {% if header_label is not containing("threefold") %} #}
                                     <a href="{{link_path[1]}}" target="_blank" class="text-lg px-8 py-3 leading-6 font-normal text-gray-50 hover:text-gray-200 focus:outline-none focus:text-gray-50 transition ease-in-out duration-150">
                                         {{link_label}}
                                     </a>
-                                    
+                                    {# {% endif %}   #}
                                 {% else %}
                                 <a href="{{ get_url(path=link_path[1])}}" class="text-lg px-8 py-3 leading-6 font-normal text-white hover:text-white focus:outline-none focus:text-gray-100 transition ease-in-out duration-150">
                                     {{link_label}}
