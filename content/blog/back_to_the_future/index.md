@@ -10,6 +10,7 @@ taxonomies:
   categories: [tech,grid,community]
 extra:
     imgPath: back_to_the_future.png
+    isFeatured: true
 ---
 
 In 1989, Tim Berners-Lee envisioned a World Wide Web where people everywhere could create, access, and share knowledge freely. It was a bold and beautiful idea: an open, decentralized platform where humanity could collaborate. Born in the halls of CERN and rooted in academia and scientific generosity, the early web was peer-to-peer in spirit and architecture. But somewhere along the way, we lost the plot.

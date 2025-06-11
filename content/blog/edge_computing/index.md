@@ -10,7 +10,6 @@ taxonomies:
   categories: [grid, tech]
 extra:
     imgPath: meeting_digital_demands1.png
-    isFeatured: true
 ---
 
 *This article was originally published by Emilie Ouwerx, a former member of the ThreeFold team.*
