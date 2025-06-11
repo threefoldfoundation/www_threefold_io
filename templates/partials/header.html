@@ -64,7 +64,7 @@
             </nav>
 
             <div class="hidden md:inline-block md:order-last">
-                <div class="inline-flex">
+                <div class="inline-flex items-center">
                   {# <ul class="list-none inline-flex mt-5 mr-4 mx-auto">
                     <li class="ml-4">
                       <a href="https://t.me/threefoldnews" target="_blank" class="text-white">
@@ -107,7 +107,16 @@
                       </a>
                     </li> 
                   </ul> #}
-                    <a href="/signup" target="_blank" class="blinking-effect dashboard rounded-2xl bg-white px-4 p-2 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green">PARTICIPATE</a>
+                  <div class="mx-4">
+                    <a href="https://mycelium.threefold.io/" target="_blank" class="text-lg py-3 mx-2 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                      Mycelium
+                  </a>
+                  <a href="https://aibox.threefold.io/" target="_blank" class="text-lg py-3 mx-2 leading-6 font-light text-pretty tracking-wide text-white focus:outline-none focus:text-gray-200 transition ease-in-out duration-150">
+                    AIBox
+                </a>
+                </div>
+             
+                      <a href="/signup" class="blinking-effect dashboard rounded-2xl bg-white px-4 p-2 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green">PARTICIPATE</a>
                 </div>
               </div>
             </div>
@@ -196,7 +205,10 @@
                           {% include "partials/socialLinks.html" %}
                       </div> #}
 
+                      
+
                       <div class="rounded-full border-2 my-4 border-gray-400 py-2 mx-4">
+                        
                         <a href="/signup" target="_blank" class="mt-2 rounded-md px-4 py-2.5 text-lg font-semibold text-white shadow-sm hover:text-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">PARTICIPATE</a>
                       </div>
                     </nav>                    
