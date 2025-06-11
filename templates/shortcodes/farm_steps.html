@@ -1,0 +1,60 @@
+{% set image_src = image_src | default(value="") %}
+{% set image_alt = image_alt | default(value="") %}
+{% set title = title | default(value="") %}
+{% set subtitle = subtitle | default(value="") %}
+{% set description = description | default(value="") %}
+{% set button_text_1 = button_text_1 | default(value="") %}
+{% set button_link_1 = button_link_1 | default(value="") %}
+{% set button_text_2 = button_text_2 | default(value="") %}
+{% set button_link_2 = button_link_2 | default(value="") %}
+
+
+
+        <div class="fade-in-box flex flex-col p-8 rounded-2xl mb-6  bg-white/5">
+          <img class="fade-in blinking-effect relative mx-auto mb-4" width="30%" src="{{ image_src }}" alt="{{ image_alt }}">
+          <dt class="flex items-center gap-x-3 text-lg rounded-2xl font-semibold text-white">
+            {{ title }}
+          </dt>          
+          <dt class="text-lg font-normal text-white">{{ subtitle }}<dt>
+          <dd class="mt-4 flex flex-auto flex-col">
+            <p class="flex-auto leading-normal font-light text-gray-200 text-md">{{ description }}</p>
+            <div class="flex mt-6 justify-center fade-in">
+              {% if button_link_1 %}
+              <a href="{{ button_link_1 }}" class="mr-2 fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">{{ button_text_1 }}</a>
+              {% endif %}
+              {% if button_link_1 %}
+              <a href="{{ button_link_2 }}" class="fade-in rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">{{ button_text_2 }}</a>
+              {% endif %}
+            </div>
+          </dd>
+        </div>
+
+
+
+<style>
+  /* Fade-in animation for the grid items */
+  .fade-in-box {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-in-out forwards;
+  }
+
+  /* Fading in each grid item with a slight delay */
+  .fade-in-box:nth-child(1) { animation-delay: 0s; }
+  .fade-in-box:nth-child(2) { animation-delay: 0.2s; }
+  .fade-in-box:nth-child(3) { animation-delay: 0.4s; }
+  .fade-in-box:nth-child(4) { animation-delay: 0.6s; }
+  .fade-in-box:nth-child(5) { animation-delay: 0.8s; }
+  .fade-in-box:nth-child(6) { animation-delay: 1s; }
+  .fade-in-box:nth-child(7) { animation-delay: 1.2s; }
+  .fade-in-box:nth-child(8) { animation-delay: 1.4s; }
+  .fade-in-box:nth-child(9) { animation-delay: 1.6s; }
+  .fade-in-box:nth-child(10) { animation-delay: 1.8s; }
+  .fade-in-box:nth-child(11) { animation-delay: 2s; }
+  .fade-in-box:nth-child(12) { animation-delay: 2.2s; }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+</style>

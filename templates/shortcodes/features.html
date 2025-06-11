@@ -1,0 +1,107 @@
+{% set title = title | default(value="Built") %}
+{% set description = description | default(value="") %}
+{% set button_text = button_text | default(value="") %}
+{% set button_link = button_link | default(value="") %}
+{% set title_2 = title_2 | default(value="") %}
+{% set subtitle_1 = subtitle_1 | default(value="") %}
+{% set header1 = header1 | default(value="") %}
+{% set description1_1 = description1_1 | default(value="") %}
+{% set description1_2 = description1_2 | default(value="") %}
+{% set subtitle_2 = subtitle_2 | default(value="") %}
+{% set header2 = header2 | default(value="") %}
+{% set description2_1 = description2_1 | default(value="") %}
+{% set description2_2 = description2_2 | default(value="") %}
+{% set subtitle_3 = subtitle_3 | default(value="") %}
+{% set header3 = header3 | default(value="") %}
+{% set description3_1 = description3_1 | default(value="") %}
+{% set description3_2 = description3_2 | default(value="") %}
+
+
+<div class="bg-transparent lg:pb-24 pb-12">
+  <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-y-16 px-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+    <div class="max-w-3xl lg:px-16 px-0 lg:pb-12 pb-6">
+      <h2 class="fade-in text-balance lg:text-5xl text-3xl leading-tight font-normal tracking-tight text-white">{{ title }}
+      </h2>
+      <p class="mx-auto mt-6 mb-6 max-w-3xl text-pretty lg:text-xl text-lg font-light text-gray-200 fade-in">{{ description }}</p>
+      <a href="{{ button_link }}" class="blinking-effect fade-in lg:text-xl text-lg font-semibold text-white hover:text-gray-400">{{ button_text }} <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="lg:px-16 fade-in"> <!-- Added padding to the right side for more spacing -->
+      <h3 class="mb-6 lg:mb-8 lg:text-2xl text-xl leading-tight font-normal tracking-tight text-white">{{ title_2 }}
+      </h3>
+      <dl class="grid grid-cols-1 mx-auto lg:gap-x-8 sm:grid-cols-2 lg:gap-y-8 gap-y-4">
+        
+        <div class="pt-0">
+          <dt class="font-normal text-sm text-gray-200">{{ subtitle_1 }}</dt>
+          <dt class="mt-1 font-semibold text-base text-gray-200">{{ header1 }} </dt>
+        </div>
+        <div class="pt-0">
+          <dd class="font-light text-gray-300 text-sm mb-2">{{ description1_1 }} </dd>
+          <dd class="font-light text-gray-300 text-sm mb-4">{{ description1_2 }}</dd>
+        </div>
+
+
+        <div class="pt-0">
+          <dt class="font-normal text-sm text-gray-200">{{ subtitle_2 }}</dt>
+          <dt class="mt-1 font-semibold text-base text-gray-200">{{ header2 }} </dt>
+        </div>
+        <div class="pt-0">
+          <dd class="font-light text-gray-300 text-sm mb-2">{{ description2_1 }} </dd>
+          <dd class="font-light text-gray-300 text-sm mb-4">{{ description2_2 }}</dd>
+        </div>
+
+
+        <div class="pt-0">
+          <dt class="font-normal text-sm text-gray-200">{{ subtitle_3 }}</dt>
+          <dt class="mt-1 font-semibold text-base text-gray-200">{{ header3 }} </dt>
+        </div>
+        <div class="pt-0">
+          <dd class="font-light text-gray-300 text-sm mb-2">{{ description3_1 }} </dd>
+          <dd class="font-light text-gray-300 text-sm mb-4">{{ description3_2 }}</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Define the slow blinking animation */
+  @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    /* Apply the fade-in animation to elements with the 'fade-in' class */
+    .fade-in {
+      animation: fadeIn 4s ease-in-out forwards; /* Adjust the duration (2s) to make it slower or faster */
+    }
+  
+    /* Optional: Delay the animation for a more staggered effect */
+    h2 {
+      animation-delay: 0.5s; /* Delay for header */
+    }
+  
+    p {
+      animation-delay: 1s; /* Delay for paragraphs */
+    }
+    
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Apply the blinking animation to the link */
+  .blinking-effect {
+    animation: blink 3s infinite; /* Adjust the speed here (1.5s for slow blinking) */
+  }
+</style>

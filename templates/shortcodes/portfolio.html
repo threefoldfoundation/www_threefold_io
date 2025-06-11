@@ -1,0 +1,49 @@
+{% set title = title | default(value="Built") %}
+{% set description = description | default(value="") %}
+{% set button_text = button_text | default(value="") %}
+{% set button_link = button_link | default(value="") %}
+
+
+
+        <div class="fade-in-box flex flex-col p-8 rounded-2xl bg-white/5">
+          <dt class="flex items-center gap-x-3 text-base/7 rounded-2xl font-semibold text-white">
+            {{ title }}
+          </dt>
+          <dd class="mt-4 flex flex-auto flex-col">
+            <p class="flex-auto leading-normal font-light text-gray-200 text-md">{{ description }}</p>
+            {% if button_link %}
+            <p class="mt-6">
+              <a href="{{ button_link }}" target="_blank" class="text-sm/6 font-semibold text-white hover:text-gray-300">{{ button_text }} <span aria-hidden="true">→</span></a>
+            </p>
+            {% endif %}
+          </dd>
+        </div>
+
+
+<style>
+  /* Fade-in animation for the grid items */
+  .fade-in-box {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-in-out forwards;
+  }
+
+  /* Fading in each grid item with a slight delay */
+  .fade-in-box:nth-child(1) { animation-delay: 0s; }
+  .fade-in-box:nth-child(2) { animation-delay: 0.2s; }
+  .fade-in-box:nth-child(3) { animation-delay: 0.4s; }
+  .fade-in-box:nth-child(4) { animation-delay: 0.6s; }
+  .fade-in-box:nth-child(5) { animation-delay: 0.8s; }
+  .fade-in-box:nth-child(6) { animation-delay: 1s; }
+  .fade-in-box:nth-child(7) { animation-delay: 1.2s; }
+  .fade-in-box:nth-child(8) { animation-delay: 1.4s; }
+  .fade-in-box:nth-child(9) { animation-delay: 1.6s; }
+  .fade-in-box:nth-child(10) { animation-delay: 1.8s; }
+  .fade-in-box:nth-child(11) { animation-delay: 2s; }
+  .fade-in-box:nth-child(12) { animation-delay: 2.2s; }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+</style>

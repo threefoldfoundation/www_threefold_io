@@ -56,3 +56,8 @@ extra:
 
 
 {% end %}
+
+
+
+- [Mycelium]("https://www.mycelium.threefold.io/")
+- [AIBox]("https://aibox.threefold.io/")

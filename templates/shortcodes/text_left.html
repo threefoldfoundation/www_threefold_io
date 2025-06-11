@@ -1,0 +1,65 @@
+{% set title = title | default(value="Built") %}
+{% set description_1 = description_1 | default(value="") %}
+{% set description_2 = description_2 | default(value="") %}
+{% set button_text = button_text | default(value="") %}
+{% set button_link = button_link | default(value="") %}
+
+    <div class="max-w-3xl lg:px-16 px-0 lg:pb-12 pb-6">
+      <h2 class="fade-in">{{ title }}
+      </h2>
+      <p class="mx-auto mt-6 mb-6 max-w-3xl fade-in">{{ description_1 }}</p>
+
+      <p class="mx-auto mt-6 mb-2 max-w-3xl fade-in">{{ description_2 }}</p>
+
+      {% if button_link %}
+
+      <a href="{{ button_link }}" class="blinking-effect fade-in lg:text-xl text-lg font-semibold text-white hover:text-gray-400">{{ button_text }} <span aria-hidden="true">→</span></a>
+
+      {% endif %}
+
+    </div>
+   
+
+
+<style>
+  /* Define the slow blinking animation */
+  @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    /* Apply the fade-in animation to elements with the 'fade-in' class */
+    .fade-in {
+      animation: fadeIn 4s ease-in-out forwards; /* Adjust the duration (2s) to make it slower or faster */
+    }
+  
+    /* Optional: Delay the animation for a more staggered effect */
+    h2 {
+      animation-delay: 0.5s; /* Delay for header */
+    }
+  
+    p {
+      animation-delay: 1s; /* Delay for paragraphs */
+    }
+    
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Apply the blinking animation to the link */
+  .blinking-effect {
+    animation: blink 3s infinite; /* Adjust the speed here (1.5s for slow blinking) */
+  }
+</style>

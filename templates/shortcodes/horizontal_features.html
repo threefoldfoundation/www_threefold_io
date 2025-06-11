@@ -1,0 +1,104 @@
+{% set title_1 = title_1 | default(value="") %}
+{% set point_1_1 = point_1_1 | default(value="") %}
+{% set point_1_2 = point_1_2 | default(value="") %}
+{% set point_1_3 = point_1_3 | default(value="") %}
+{% set point_1_3 = point_1_4 | default(value="") %}
+{% set title_2 = title_2 | default(value="") %}
+{% set point_2_1 = point_2_1 | default(value="") %}
+{% set point_2_2 = point_2_2 | default(value="") %}
+{% set point_2_3 = point_2_3 | default(value="") %}
+{% set title_3 = title_3 | default(value="") %}
+{% set point_3_1 = point_3_1 | default(value="") %}
+{% set point_3_2 = point_3_2 | default(value="") %}
+{% set point_3_3 = point_3_3 | default(value="") %}
+{% set point_3_4 = point_3_4 | default(value="") %}
+{% set point_3_5 = point_3_5 | default(value="") %}
+{% set point_3_6 = point_3_6 | default(value="") %}
+{% set point_3_7 = point_3_7 | default(value="") %}
+
+
+<section class="bg-transparent">
+  <div class="max-w-6xl">
+    <div class="mx-auto max-w-2xl mt-16  lg:max-w-none">
+      <dl class="grid max-w-xl gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-2">
+        <dl class="grid max-w-xl gap-x-8 gap-y-8 lg:max-w-none">
+                <div class="fade-in-box flex flex-col p-4 lg:p-6 rounded-2xl  bg-white/5">
+                  <dt class="flex gap-x-3 text-lg rounded-2xl font-semibold text-white px-6">
+                    {{ title_1}}
+                  </dt>
+                  <dd class="mt-4 flex flex-auto flex-col">
+                    <ul class="text-white fade-in space-y-4">
+                      <li class="text-sm text-gray-200 mb-2">{{ point_1_1 }}</li>
+                      <li class="text-sm text-gray-200 mb-2">{{ point_1_2 }}</li>
+                      <li class="text-sm text-gray-200 mb-2">{{ point_1_3 }}</li>
+                      <li class="text-sm text-gray-200 mb-2">{{ point_1_4 }}</li>
+                    </ul>
+                  </dd>
+                </div>
+                <div class="fade-in-box flex flex-col p-4 lg:p-6 rounded-2xl  bg-white/5">
+                  <dt class="flex gap-x-3 text-lg rounded-2xl font-semibold text-white px-6">
+                    {{ title_2 }}
+                  </dt>
+                  <dd class="mt-4 flex flex-auto flex-col">
+                    <ul class="text-white fade-in">
+                      <li class="text-sm text-gray-200 mb-2">{{ point_2_1 }}</li>
+                      <li class="text-sm text-gray-200 mb-2">{{ point_2_2 }}</li>
+                      <li class="text-sm text-gray-200 mb-2">{{ point_2_3 }}</li>
+                    </ul>
+                  </dd>
+                </div>
+        </dl>
+          
+        <div class="fade-in-box flex flex-col p-4 lg:p-6 rounded-2xl  bg-white/5">
+          <dt class="flex gap-x-3 text-lg rounded-2xl font-semibold text-white px-6">
+            {{ title_3 }}
+          </dt>
+          <dd class="mt-4 flex flex-auto flex-col">
+            <ul class="text-white fade-in">
+              <li class="text-sm text-gray-200 mb-3">{{ point_3_1 }}</li>
+              <li class="text-sm text-gray-200 mb-3">{{ point_3_2 }}</li>
+              <li class="text-sm text-gray-200 mb-3">{{ point_3_3 }}</li>
+              <li class="text-sm text-gray-200 mb-3">{{ point_3_4 }}</li>
+              
+                <ul class="text-white fade-in">
+                  <li class="text-sm">{{ point_3_5 }}</li>
+                  <li class="text-sm">{{ point_3_6 }}</li>
+                  <li class="text-sm">{{ point_3_7 }}</li>
+                </ul>
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+
+<style>
+  /* Fade-in animation for the grid items */
+  .fade-in-box {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-in-out forwards;
+  }
+
+  /* Fading in each grid item with a slight delay */
+  .fade-in-box:nth-child(1) { animation-delay: 0s; }
+  .fade-in-box:nth-child(2) { animation-delay: 0.2s; }
+  .fade-in-box:nth-child(3) { animation-delay: 0.4s; }
+  .fade-in-box:nth-child(4) { animation-delay: 0.6s; }
+  .fade-in-box:nth-child(5) { animation-delay: 0.8s; }
+  .fade-in-box:nth-child(6) { animation-delay: 1s; }
+  .fade-in-box:nth-child(7) { animation-delay: 1.2s; }
+  .fade-in-box:nth-child(8) { animation-delay: 1.4s; }
+  .fade-in-box:nth-child(9) { animation-delay: 1.6s; }
+  .fade-in-box:nth-child(10) { animation-delay: 1.8s; }
+  .fade-in-box:nth-child(11) { animation-delay: 2s; }
+  .fade-in-box:nth-child(12) { animation-delay: 2.2s; }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+</style>

@@ -1,7 +1,7 @@
 name: www3.threefold_io
 on: 
   push:
-    branches: [ development_sasha ]
+    branches: [ development_light_mode ]
 
 jobs:
   deploy:
@@ -18,8 +18,8 @@ jobs:
         script: |
           cd websites/tmp/www_threefold_io/
           git log -1
-          git restore .
-          git pull
+          git fetch
+          git reset --hard origin/development_light_mode
           sed -i "s/https:\/\/dev.threefold.io/https:\/\/dev2.threefold.io/g" config.toml
           bash build.sh
           
