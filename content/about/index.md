@@ -171,13 +171,15 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
 <!-- section 8 Cta -->
 
 {{ cta(
-    title_1="Build the",
-    title_2="Internet of Tomorrow,",
-    title_3="Today",  
-    button_text_1="Take the Next Step",
-    button_link_1="/signup",
-    button_text_2="Learn More",
-    button_link_2="/action"
+    title_1="Building a",
+    title_2="New Internet,",
+    title_3="Together",  
+    button_text_1="Participate",
+    button_link_1="https://form.typeform.com/to/GO9G8ZBa",
+    button_text_2="Stay Updated",
+    button_link_2="https://t.me/threefoldnews",
+    button_text_3="Chat",
+    button_link_3="https://t.me/threefold"
 ) }}
 
 
