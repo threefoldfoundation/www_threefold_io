@@ -11,13 +11,13 @@ extra:
 <!-- section 1 (header) -->
 
 {{ hero_text_center(
-    image_src="/images/become_farmer.png",
-    image_alt="Become a Farmer",
-    title="Decentralized Internet Infrastructure",
+    image_src="",
+    image_alt="",
+    title=" Build on a Decentralized Internet Infrastructure",
     subtitle="",
     description="Our unique technology enables anyone to become a provider of network, storage and compute capacity.",
     button1_text="Dive Deeper",
-    button1_link="https://docs.threefold.io/docs/introduction"
+    button1_link="https://docs.threefold.io/docs/introduction/"
     target="_blank"
   
 
