@@ -150,6 +150,8 @@ extra:
 
 {{ header_section() }}
 
+<div class="lg:mt-8 border-t border-gray-700"></div>
+
 <div class="mt-12 flex items-center justify-center gap-x-6">
           <a href="/deploy" class="mr-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Start Deploing</a>
           <a href="https://dashboard.grid.tf/#/tf-grid/node-statistics/" class="mr-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">Explore Dashboard</a>
