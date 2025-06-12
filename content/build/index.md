@@ -24,9 +24,9 @@ extra:
 ) }}
 
 
-<!--section 22 (tabs)-->
+<!--section 2 (tabs)-->
 
-<div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 lg:px-8">
+<div class="lg:pb-24 pb-12 mx-auto max-w-7xl px-4 lg:px-8">
 
 
 
@@ -49,7 +49,7 @@ extra:
 
  <!--section 2 (horizontal_features)-->
 
-<div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 g:px-8">
+<!-- <div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 g:px-8">
 
 
 
@@ -89,7 +89,7 @@ extra:
 
 ) }}
 
-</div>
+</div> -->
 
 
 <!--section 3 (Portfolio)-->
@@ -97,9 +97,9 @@ extra:
 
 <div class="lg:py-24 py-12 mx-auto max-w-7xl lg:px-8">
 
-  ## What We’ve Built
+  ## The ThreeFold Stack
 
-  At ThreeFold, we've created products that embody innovation, authenticity, and simplicity. Each solution is crafted to empower individuals and communities, blending cutting-edge technology with practical usability.
+ Products designed to power a decentralized, sustainable digital future.
 
 
 
@@ -178,14 +178,17 @@ extra:
 <!-- section 8 Cta -->
 
 {{ cta(
-    title_1="Build the",
-    title_2="Internet of Tomorrow,",
-    title_3="Today",  
-    button_text_1="Take the Next Step",
-    button_link_1="/signup",
-    button_text_2="Learn More",
-    button_link_2="/action"
+    title_1="Building a",
+    title_2="New Internet,",
+    title_3="Together",  
+    button_text_1="Participate",
+    button_link_1="https://form.typeform.com/to/GO9G8ZBa",
+    button_text_2="Stay Updated",
+    button_link_2="https://t.me/threefoldnews",
+    button_text_3="Chat",
+    button_link_3="https://t.me/threefold"
 ) }}
+
 
 
 
