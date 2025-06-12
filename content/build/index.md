@@ -24,9 +24,32 @@ extra:
 ) }}
 
 
+<!--section 22 (tabs)-->
+
+<div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 lg:px-8">
+
+
+
+  ## Building for Web2, Web3, AI, and Beyond
+
+  ThreeFold builds the infrastructure to power today’s and tomorrow’s digital world, across Web2, Web3, AI, and Edge IT workloads.
+
+  <br>
+
+  We are currently running **V3.16.0**, a large-scale Proof-of-Concept Network, while simultaneously preparing for **V4.0.0**, our upcoming production-ready release, delivering a fully operational, self-sustaining internet infrastructure built on three foundational pillars.
+
+
+{{ tabs() }}
+
+</div>
+
+
+
+
+
  <!--section 2 (horizontal_features)-->
 
-<div class="lg:py-24 py-12 mx-auto max-w-7xl lg:px-8">
+<div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 g:px-8">
 
 
 

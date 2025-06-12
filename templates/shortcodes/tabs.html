@@ -1,0 +1,103 @@
+<div class="">
+    <section aria-labelledby="features-heading" class="mx-auto max-w-7xl py-4">
+      <div class="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
+        <div class="mt-4">
+          <div class="-mx-4 flex overflow-x-auto sm:mx-0">
+            <div class="flex-auto border-b border-gray-200 px-4 sm:px-0">
+              <div class="-mb-px flex space-x-10" aria-orientation="horizontal" role="tablist">
+                <!-- Current: "border-indigo-400 text-indigo-400", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+                <button id="features-tab-1" class="whitespace-nowrap border-b-2 border-transparent py-6 text-base font-medium text-gray-400 hover:text-indigo-200" aria-controls="features-panel-1" role="tab" type="button">Compute</button>
+
+                <button id="features-tab-2" class="whitespace-nowrap border-b-2 border-transparent py-6 text-base font-medium text-gray-400 hover:text-indigo-200" aria-controls="features-panel-2" role="tab" type="button">Data</button>
+                <button id="features-tab-3" class="whitespace-nowrap border-b-2 border-transparent py-6 text-base font-medium text-gray-400 hover:text-indigo-200" aria-controls="features-panel-3" role="tab" type="button">Network</button>
+               
+              </div>
+            </div>
+          </div>
+  
+          <div id="features-panel-1" class="bg-white/5 space-y-16 p-2 lg:p-6 rounded-sm" aria-labelledby="features-tab-1" role="tabpanel" tabindex="0">
+            
+              <div class="mt-6 lg:mt-0">
+                <h3>Compute</h3>
+                <p class="mt-2 text-xl">A self-healing compute fabric designed for resilience, decentralization, and scale.
+                </p>
+                <ul class="mt-6 space-y-4">
+                      <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">Autonomous Workload Management</span> – Workloads automatically migrate to healthy nodes to ensure fault tolerance and high availability.</li>
+                      <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">P2P Compute Marketplace</span> – Individuals and enterprises can monetize spare compute and GPU resources through a decentralized network.</li>
+                      <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">AI & Web3 Ready</span> – Run LLMs, autonomous agents, blockchain nodes, and immersive metaverse apps at the edge.</li>
+                      <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">Zero-OS (ZOS)</span> – Our custom-built, stateless, immutable OS that powers:
+                        <ul style="list-style: circle;">
+                          <li class="mt-2 text-lg text-gray-100">MicroVMs & containerized environments (Kubernetes, Docker, Firecracker).</li>
+                          <li class="mt-2 text-lg text-gray-100">AI inference and training workloads.</li>
+                          <li class="mt-2 text-lg text-gray-100">Web3 infrastructure and federated learning models.</li>
+                        </ul>
+                      </li>
+                      <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">No Hyperscalers</span> – Fully independent infrastructure managed by intelligent agents on bare metal.</li>
+                  </ul>
+              </div>
+          </div>
+          <div id="features-panel-2" class="bg-white/5 space-y-16 p-6 rounded-sm" aria-labelledby="features-tab-2" role="tabpanel" tabindex="0">
+            <div class="mt-6 lg:mt-0">
+              <h3>Data</h3>
+              <p class="mt-2 text-xl">Private, distributed, and AI-native storage with user sovereignty at its core.
+              </p>
+              <ul class="mt-6 space-y-4">
+                    <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">Privacy-First </span> – End-to-end encryption and redundancy, with no central control.</li>
+                    <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">10x Efficient</span> – Optimized for performance and sustainability, far surpassing traditional cloud.</li>
+                    <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">Geo-Aware & Compliant </span> – Data stays where it’s supposed to, satisfying regional policies and privacy standards.</li>
+                </ul>
+            </div>
+          </div>
+          <div id="features-panel-3" class="bg-white/5 space-y-16 p-6 rounded-sm" aria-labelledby="features-tab-3" role="tabpanel" tabindex="0">
+            <div class="mt-6 lg:mt-0">
+              <h3>Network</h3>
+              <p class="mt-2 text-xl"> A secure, peer-to-peer internet backbone, self-sustaining, censorship-resistant, and optimized for performance.
+              </p>
+              <ul class="mt-6 space-y-4">
+                    <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">End-to-End Encryption</span> – All communications are secured by design.</li>
+                    <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">Shortest-Path Routing</span> – Dynamically finds the most efficient path across the network, reducing latency and cost.</li>
+                    <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">No Middlemen </span> – Fully peer-to-peer, removing reliance on centralized ISPs or DNS providers.</li>
+                    <li class="mt-2 text-lg text-gray-100"><span class="font-semibold">Censorship Resistance </span> – Built to thrive under pressure, even in restricted or controlled regions.</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const tabs = document.querySelectorAll('[role="tab"]');
+    const panels = document.querySelectorAll('[role="tabpanel"]');
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', function () {
+        tabs.forEach(t => {
+          t.classList.remove('text-white');
+          t.classList.add('text-gray-400');
+        });
+
+        panels.forEach(panel => panel.style.display = 'none');
+
+        tab.classList.remove('text-gray-400');
+        tab.classList.add('text-white');
+
+        const panelId = tab.getAttribute('aria-controls');
+        document.getElementById(panelId).style.display = 'block';
+      });
+
+      // Initial setup
+      if (index === 0) {
+        tab.classList.add('text-white');
+        tab.classList.remove('text-gray-400');
+        panels[index].style.display = 'block';
+      } else {
+        tab.classList.add('text-gray-400');
+        panels[index].style.display = 'none';
+      }
+    });
+  });
+</script>
+
+    

@@ -191,3 +191,4 @@ function formatStatsData(stats) {
 readingTime();
 getStats();
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
