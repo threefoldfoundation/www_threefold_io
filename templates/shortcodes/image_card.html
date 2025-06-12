@@ -1,0 +1,47 @@
+{% set image_src = image_src | default(value="") %}
+{% set image_alt = image_alt | default(value="") %}
+{% set title = title | default(value="") %}
+{% set card_link = card_link | default(value="") %}
+
+
+
+
+
+        <a href="{{ card_link }}" class="flex-1 mx-2 mb-8" target="_blank">
+        <div class="fade-in-box flex flex-col p-6 rounded-2xl  bg-white/5">
+          <img class="fade-in blinking-effect relative mx-auto mb-4" width="60%" src="{{ image_src }}" alt="{{ image_alt }}">
+        </div>
+        <div class="flex justify-center my-4 items-center gap-x-3 lg:text-xl text-lg  font-semibold text-white">
+          {{ title }}
+        </div>
+      </a>
+
+
+
+<style>
+  /* Fade-in animation for the grid items */
+  .fade-in-box {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-in-out forwards;
+  }
+
+  /* Fading in each grid item with a slight delay */
+  .fade-in-box:nth-child(1) { animation-delay: 0s; }
+  .fade-in-box:nth-child(2) { animation-delay: 0.2s; }
+  .fade-in-box:nth-child(3) { animation-delay: 0.4s; }
+  .fade-in-box:nth-child(4) { animation-delay: 0.6s; }
+  .fade-in-box:nth-child(5) { animation-delay: 0.8s; }
+  .fade-in-box:nth-child(6) { animation-delay: 1s; }
+  .fade-in-box:nth-child(7) { animation-delay: 1.2s; }
+  .fade-in-box:nth-child(8) { animation-delay: 1.4s; }
+  .fade-in-box:nth-child(9) { animation-delay: 1.6s; }
+  .fade-in-box:nth-child(10) { animation-delay: 1.8s; }
+  .fade-in-box:nth-child(11) { animation-delay: 2s; }
+  .fade-in-box:nth-child(12) { animation-delay: 2.2s; }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+</style>

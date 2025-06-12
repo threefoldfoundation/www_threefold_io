@@ -7,8 +7,8 @@ extra:
 
 ---
 
-- [Why]("/why")
-- [What]("/what")
+- [About]("/about")
+- [Build]("/build")
 - [Take Action]("/action")
 - Info
 

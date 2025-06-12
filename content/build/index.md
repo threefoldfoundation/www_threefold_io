@@ -1,5 +1,5 @@
 ---
-title: "What"
+title: "Build"
 description: "TF offers a secure, sovereign infrastructure layer for Web4, delivering unparalleled scalability, incorruptible and permanent data storage, AI and Web2/Web3/Edge compatibility, and 100% uptime for a resilient digital future." # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"

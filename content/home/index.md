@@ -13,10 +13,10 @@ extra:
     title="Built for Everyone by Everyone, Everywhere",
     subtitle="Unleashing the Power of Decentralized Networks",
     description="ThreeFold is a fully operational, decentralized internet infrastructure – deployed locally, scalable globally, and owned and powered by the people.",
-    button1_text="What We've Built",
-    button1_link="/what"
-    button2_text="Why We Do It",
-    button2_link="/why"
+    button1_text="Start Building",
+    button1_link="/build"
+    button2_text="Start Farming",
+    button2_link="/farm"
     button3_text="Read EV3's Report",
     button3_link="https://paragraph.com/@ev3news/threefold-rearchitecting-the-internet"
 
@@ -93,63 +93,7 @@ extra:
 
 
 
-<!-- section 4 (TF products)-->
-
-<div class="lg:py-24 py-12">
-
-{{ text_center(
-    title="Anything That Runs on Linux Can Run on ThreeFold",
-    description_1="The new internet infrastructure can be used by any Web2, Web3, AI, or Edge IT workload – enabling a world of possibilities." 
-
-) }}
-
-<div class="max-w-6xl mx-4 md:mx-10 lg:mx-20 mt-16 xl:mx-auto">
-    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
-
-{{ use_cases(
-    image_src="/images/tft_logo.png",
-    image_alt="ThreeFold Cloud",
-    title="ThreeFold Cloud",
-    description="ThreeFold is open for developers and system administrators. Deploy virtual machines, containers, Kubernetes clusters, web gateways, and more on top of a best-effort decentralized open source cloud.",
-    subtitle ="Open-Source Cloud",
-    button_text_1="Dashboard",
-    button_link_1="https://dashboard.grid.tf/#/tf-grid/node-statistics/",
-    button_text_2="Manual",
-    button_link_2="https://manual.grid.tf/"
-) }}
-
-{{ use_cases(
-    image_src="/images/mycelium_logo.png",
-    image_alt="Mycelium",
-    title="Mycelium",
-    subtitle ="Unbreakable Network",
-    description="An adaptive and resilient network solution that not only keeps your data safe but also guarantees uninterrupted and efficient communication. The Mycelium Network is the backbone of a new era of connectivity, prioritizing speed, security, and reliability for all users.",
-    button_text_1="Website",
-    button_link_1="https://mycelium.threefold.io/",
-    button_text_2="Docs",
-    button_link_2="https://threefold.info/mycelium/docs/"
-) }}
-
-{{ use_cases(
-    image_src="/images/aibox_logo.png",
-    image_alt="AIBOX",
-    title="AIBOX",
-    description="A decentralized AI solution that enables anyone to run, train, and use AI models locally, keeping their data private while sharing unused computing power with the network—eliminating the need for centralized data centers.",
-    subtitle ="Decentralized AI",
-    button_text_1="Website",
-    button_link_1="https://aibox.threefold.io/",
-    button_text_2="Docs",
-    button_link_2="https://threefold.info/aibox/docs/"
-) }}
-
-   </dl>
-</div>
-</div>
-</div>
-
-
-
-<!-- section 5 (How it works)-->
+<!-- section 4 (How it works)-->
 
 <div class="container mx-auto lg:max-w-7xl lg:py-24 py-12 px-4 lg:px-0">
   <div class="max-w-4xl lg:px-8 px-0 lg:pb-12 pb-6">
@@ -192,7 +136,115 @@ extra:
 
 
 
-<!-- section 6 (self-healing) -->
+
+<!-- section 5 (TF products)-->
+
+<div class="lg:py-24 py-12 container max-w-7xl mx-auto">
+
+{{ text_center(
+    title="Anything That Runs on Linux Can Run on ThreeFold",
+    description_1="The new internet infrastructure can be used by any Web2, Web3, AI, or Edge IT workload – enabling a world of possibilities." 
+
+) }}
+
+
+{{ header_section() }}
+
+<div class="mt-12 flex items-center justify-center gap-x-6">
+          <a href="/deploy" class="mr-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Start Deploing</a>
+          <a href="https://dashboard.grid.tf/#/tf-grid/node-statistics/" class="mr-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">Explore Dashboard</a>
+          
+</div>
+
+<!-- <div class="max-w-7xl mx-4 md:mx-10 lg:mx-20 mt-16">
+    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-2">
+
+{{ use_cases(
+    image_src="/images/tft_logo.png",
+    image_alt="ThreeFold Cloud",
+    title="ThreeFold Cloud",
+    description="ThreeFold is open for developers and system administrators. Deploy virtual machines, containers, Kubernetes clusters, web gateways, and more on top of a best-effort decentralized open source cloud.",
+    subtitle ="Open-Source Cloud",
+    button_text_1="Manual",
+    button_link_1="https://manual.grid.tf/"
+)}}
+   
+
+<img class="fade-in blinking-effect relative mx-auto" src="/images/app.png" alt="app">
+   </dl>
+</div> -->
+</div>
+
+
+
+
+<!-- section 6 (Join the Movement) -->
+
+<div class="lg:py-24 py12 ">
+<div class="container max-w-7xl mx-auto">
+
+ 
+
+## Join the Movement to Build a New Internet
+
+<div class="max-w-4xl">
+
+There are many ways to be part of our mission to create a more open, autonomous, and interconnected digital world. Farming is just one pillar of our ecosystem.
+<br>
+plore all the products that are driving this transformation.
+
+</div>
+
+<div class="max-w-7xl mx-4 md:mx-10 lg:mx-20 mt-16 xl:mx-auto">
+    <div class="flex lg:flex-row flex-col">
+
+{{ image_card(
+    image_src="/images/3node.png",
+    image_alt="3node",
+    title="3Node",
+    card_link="Dashboard"
+) }}
+
+{{ image_card(
+    image_src="/images/mycelium.png",
+    image_alt="mycelium",
+    title="MYCELIUM",
+    card_link="Dashboard"
+) }}
+
+{{ image_card(
+    image_src="/images/aibox.png",
+    image_alt="aibox",
+    title="AIBOX",
+    card_link="Dashboard"
+) }}
+
+{{ image_card(
+    image_src="/images/3phone.png",
+    image_alt="3phone",
+    title="3PHONE",
+    card_link="Dashboard"
+) }}
+
+{{ image_card(
+    image_src="/images/3router.png",
+    image_alt="ThreeFold Cloud",
+    title="3ROUTER",
+    card_link="Dashboard"
+) }}
+</div>
+</div>
+
+<div class="mt-6 lg:mt-10 flex items-center justify-center gap-x-6">
+        <a href="https://docs.threefold.io/docs/category/become-a-farmer" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Join ThreeFold’s Ecosystem</a>
+  </div>
+</div>
+</div>
+
+
+
+
+<!-- section 7 (self-healing) -->
 
 <div class="lg:py-24 py-12">
 
@@ -222,8 +274,8 @@ extra:
     title="",
     description_1="Unlike the corporate internet, where users are the product, in the new internet, participants are the owners and beneficiaries.",
     description_2="By participating, you're not just using the technology, you're also helping to build a digital world that protects privacy, promotes fairness, and returns control to the people.",
-    button_text_1="Join ThreeFold",
-    button_link_1="/action",
+    button_text_1="",
+    button_link_1="",
     button_text_2="",
     button_link_2=""
 
@@ -294,13 +346,15 @@ extra:
 
 
 {{ cta(
-    title_1="Build the",
-    title_2="Internet of Tomorrow,",
-    title_3="Today",  
-    button_text_1="Take the Next Step",
+    title_1="Building a",
+    title_2="New Internet,",
+    title_3="Together",  
+    button_text_1="Participate",
     button_link_1="/signup",
-    button_text_2="Learn More",
-    button_link_2="/action"
+    button_text_2="Stay Updated",
+    button_link_2="/action",
+    button_text_3="Chat",
+    button_link_3="/action"
 ) }}
 
 
