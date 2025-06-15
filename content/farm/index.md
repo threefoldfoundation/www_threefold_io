@@ -17,7 +17,7 @@ extra:
     subtitle="",
     description="and provide storage, compute & network capacity to the ThreeFold Grid",
     button1_text="Get Started",
-    button1_link="hhttps://docs.threefold.io/docs/category/become-a-farmer"
+    button1_link="https://docs.threefold.io/docs/category/become-a-farmer"
     target="_blank"
 ) }}
 
@@ -202,7 +202,7 @@ Farming is just one core part of our ecosystem, here are all the products drivin
 </div>
 </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 6 Cta -->
 
@@ -217,7 +217,6 @@ Farming is just one core part of our ecosystem, here are all the products drivin
     button_text_3="Chat",
     button_link_3="https://t.me/threefold"
 ) }}
-
 
 
 <style>

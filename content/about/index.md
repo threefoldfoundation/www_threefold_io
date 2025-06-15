@@ -24,8 +24,7 @@ The Internet brings the world together, yet much of it is now concentrated in th
  </div>
  </div>
  
-
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 2 (reason) -->
 
@@ -38,12 +37,10 @@ The Internet brings the world together, yet much of it is now concentrated in th
 
     description_3="For +30 years, we’ve dedicated ourselves to this vision, and ThreeFold is the culmination of that journey. Today, we have a fully operational product (V3) and a thriving community of farmers, users, and partners.",
 
-    description_4="Therefore we believe the Internet needs a fresh start—one that addresses these challenges with a focus on authenticity, equality, and sustainability for everyone."
-
-    
+    description_4="Therefore we believe the Internet needs a fresh start—one that addresses these challenges with a focus on authenticity, equality, and sustainability for everyone."  
 ) }}
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 3 (AI) -->
 
@@ -65,7 +62,7 @@ We must not repeat mistakes of the past. Without decentralization, AI will remai
  </div>
  </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
  <!-- section 4 (web4) -->
 
@@ -86,7 +83,7 @@ This makes ThreeFold uniquely decentralized at the physical layer, eliminating s
  </div>
  </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 5 (timeline) -->
 
@@ -134,7 +131,7 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
 
  </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 6 (Values) -->
 
@@ -146,7 +143,7 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
 
 ) }}
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 7 (Team) -->
 
@@ -164,9 +161,7 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
 </div>
 </div>
 
-
-
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 8 Cta -->
 

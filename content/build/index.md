@@ -19,11 +19,9 @@ extra:
     button1_text="Dive Deeper",
     button1_link="https://docs.threefold.io/docs/introduction/"
     target="_blank"
-  
-
 ) }}
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!--section 2 (tabs)-->
 
@@ -39,12 +37,11 @@ extra:
 
   We are currently running **V3.16.0**, a large-scale Proof-of-Concept Network, while simultaneously preparing for **V4.0.0**, our upcoming production-ready release, delivering a fully operational, self-sustaining internet infrastructure built on three foundational pillars.
 
-
 {{ tabs() }}
 
 </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 3 (Build With ThreeFold) -->
 
@@ -88,7 +85,7 @@ extra:
 </div>
 </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!--section 4 (Deploy with ThreeFold)-->
 
@@ -109,10 +106,9 @@ extra:
 </div> 
 </div>
 
+<!----------------------------------------------------------------------------------------->
 
-
-
- <!--section 2 (horizontal_features)-->
+<!--section 2 (horizontal_features)-->
 
 <!-- <div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 g:px-8">
 
@@ -156,7 +152,7 @@ extra:
 
 </div> -->
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!--section 5 (ThreeFold Stack)-->
 
@@ -234,6 +230,7 @@ extra:
 </dl>
 </div>
 
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 6 Cta -->
 

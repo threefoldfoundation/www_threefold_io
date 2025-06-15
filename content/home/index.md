@@ -22,7 +22,7 @@ extra:
 
 ) }}
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 2 (Infrastructure) -->
 
@@ -76,7 +76,7 @@ extra:
 </div>
 </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 3 (stats) -->
 
@@ -91,7 +91,7 @@ extra:
 
 ) }}
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 4 (How it works)-->
 
@@ -134,8 +134,7 @@ extra:
   </div>
 </div>
 
-
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 5 (TF products)-->
 
@@ -153,14 +152,12 @@ extra:
 </div>
 
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 6 (Join the Movement) -->
 
 <div class="lg:py-24 py12 ">
 <div class="container max-w-7xl mx-auto">
-
- 
 
 ## Join the Movement to Build a New Internet
 
@@ -216,15 +213,13 @@ plore all the products that are driving this transformation.
 ) }}
 </div>
 </div>
-
 <div class="mt-6 lg:mt-10 flex items-center justify-center gap-x-6">
         <a href="https://docs.threefold.io/docs/category/become-a-farmer" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Join ThreeFold’s Ecosystem</a>
   </div>
 </div>
 </div>
 
-
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 7 (self-healing) -->
 
@@ -244,7 +239,7 @@ plore all the products that are driving this transformation.
 </div>
 </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 7 (More Resilient)-->
 
@@ -266,7 +261,7 @@ plore all the products that are driving this transformation.
 </div>
 </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 8 (Faq) -->
 
@@ -322,10 +317,9 @@ plore all the products that are driving this transformation.
 
 </div>
 
-
+<!----------------------------------------------------------------------------------------->
 
 <!-- section 9 Cta -->
-
 
 {{ cta(
     title_1="Building a",
