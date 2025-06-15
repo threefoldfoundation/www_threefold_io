@@ -3,23 +3,35 @@
 {% set title = title | default(value="") %}
 {% set card_link = card_link | default(value="") %}
 {% set tooltip = tooltip | default(value="") %}
+{% set target = target | default(value="") %}
+{% set header = header | default(value="") %}
 
 
 
 
 
-        <a href="{{ card_link }}" class="flex-1 mx-2 mb-8" target="_blank">
-          {% if tooltip %}
+        <a href="{{ card_link }}" class="flex-1 mx-2 mb-8" target="{{ target }}">
+         
           <div class="tooltip">
+            {% if tooltip %}
             <span class="tooltiptext">{{ tooltip }}</span>
           {% endif %}
+         
         <div class="fade-in-box flex flex-col p-6 rounded-2xl  bg-white/5">
+          {% if header %}
+          <h2 class="flex justify-center items-center text-white">{{ header }}</h2>
+          {% endif %}
+
+          {% if image_src %}
           <img class="fade-in blinking-effect relative mx-auto mb-4" width="60%" src="{{ image_src }}" alt="{{ image_alt }}">
+          {% endif %}
         </div>
         </div>
+        {% if title %}
         <div class="flex justify-center my-4 items-center gap-x-3 lg:text-xl text-lg  font-semibold text-white">
           {{ title }}
         </div>
+        {% endif %}
       </a>
 
 
