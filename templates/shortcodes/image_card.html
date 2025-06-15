@@ -2,14 +2,20 @@
 {% set image_alt = image_alt | default(value="") %}
 {% set title = title | default(value="") %}
 {% set card_link = card_link | default(value="") %}
+{% set tooltip = tooltip | default(value="") %}
 
 
 
 
 
         <a href="{{ card_link }}" class="flex-1 mx-2 mb-8" target="_blank">
+          {% if tooltip %}
+          <div class="tooltip">
+            <span class="tooltiptext">{{ tooltip }}</span>
+          {% endif %}
         <div class="fade-in-box flex flex-col p-6 rounded-2xl  bg-white/5">
           <img class="fade-in blinking-effect relative mx-auto mb-4" width="60%" src="{{ image_src }}" alt="{{ image_alt }}">
+        </div>
         </div>
         <div class="flex justify-center my-4 items-center gap-x-3 lg:text-xl text-lg  font-semibold text-white">
           {{ title }}
@@ -44,4 +50,52 @@
       opacity: 1;
     }
   }
+
+      /* Tooltip container */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  font-size: 12px;
+  visibility: hidden;
+  background-color: rgb(26 26 26 / 70%);
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 4px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media (max-width: 480px) {
+    .tooltip .tooltiptext {
+        position: absolute;
+  z-index: 1;
+  bottom: -7px !important;
+  right: 0px !important;
+  top: 0px !important;
+  left: 0px !important;
+    }
+  }
+
 </style>

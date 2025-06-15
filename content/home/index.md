@@ -179,6 +179,7 @@ plore all the products that are driving this transformation.
     image_src="/images/3node.png",
     image_alt="3node",
     title="3Node",
+    tooltip="The backbone of storage and infrastructure, providing compute and data resources.",
     card_link="Dashboard"
 ) }}
 
@@ -186,6 +187,7 @@ plore all the products that are driving this transformation.
     image_src="/images/mycelium.png",
     image_alt="mycelium",
     title="MYCELIUM",
+    tooltip="End-to-end encrypted overlay network, always looking for the shortest possible path between participants ",
     card_link="Dashboard"
 ) }}
 
@@ -193,6 +195,7 @@ plore all the products that are driving this transformation.
     image_src="/images/aibox.png",
     image_alt="aibox",
     title="AIBOX",
+    tooltip="A self-hosted AI compute solution powered by ThreeFold. ",
     card_link="Dashboard"
 ) }}
 
@@ -200,6 +203,7 @@ plore all the products that are driving this transformation.
     image_src="/images/3phone.png",
     image_alt="3phone",
     title="3PHONE",
+    tooltip="OwnPhone is the first secure device in the 3Phone family designed to work seamlessly with the ThreeFold Grid.",
     card_link="Dashboard"
 ) }}
 
@@ -207,6 +211,7 @@ plore all the products that are driving this transformation.
     image_src="/images/3router.png",
     image_alt="ThreeFold Cloud",
     title="3ROUTER",
+    tooltip="Smart routers ensure shortest-path connections between nodes and phones with end-to-end encryption.",
     card_link="Dashboard"
 ) }}
 </div>
