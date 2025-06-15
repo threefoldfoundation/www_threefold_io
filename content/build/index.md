@@ -24,6 +24,7 @@ extra:
 ) }}
 
 
+
 <!--section 2 (tabs)-->
 
 <div class="lg:pb-24 pb-12 mx-auto max-w-7xl px-4 lg:px-8">
@@ -45,16 +46,12 @@ extra:
 
 
 
-
 <!-- section 3 (Build With ThreeFold) -->
 
 <div class="lg:py-24 py12 ">
 <div class="container max-w-7xl mx-auto">
 
- 
-
 ## Build with ThreeFold
-
 
 <div class="max-w-7xl mx-4 md:mx-10 lg:mx-20 mt-16 xl:mx-auto">
     <div class="flex lg:flex-row flex-col">
@@ -93,8 +90,7 @@ extra:
 
 
 
-
-<!--section 2 (horizontal_features)-->
+<!--section 4 (Deploy with ThreeFold)-->
 
  <div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 g:px-8">
 
@@ -110,10 +106,11 @@ extra:
 
 <div class="mt-6 lg:mt-10 flex items-center justify-center gap-x-6">
         <a href="https://dashboard.grid.tf/#/deploy/labs/" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Discover Labs</a>
-  </div>
-
-  
+</div> 
 </div>
+
+
+
 
  <!--section 2 (horizontal_features)-->
 
@@ -160,8 +157,8 @@ extra:
 </div> -->
 
 
-<!--section 5 (ThreeFold Stack)-->
 
+<!--section 5 (ThreeFold Stack)-->
 
 <div class="lg:py-24 py-12 mx-auto max-w-7xl lg:px-8">
 
@@ -238,7 +235,7 @@ extra:
 </div>
 
 
-<!-- section 8 Cta -->
+<!-- section 6 Cta -->
 
 {{ cta(
     title_1="Building a",
