@@ -132,6 +132,30 @@ Start providing capacity to others and join our Farmers community
 
 The upcoming ThreeFold Marketplace (expected late Summer 2025) introduces a new chapter for farmers in the ecosystem, making it easier to share resources and earn through a transparent, peer-to-peer platform.
 
+<br>
+
+
+<div class="w-full h-12 my-4 gradient-bar rounded-sm"></div>
+
+<br>
+
+<div class="grid max-w-xl grid-cols-1 gap-x-12 gap-y-8 lg:max-w-none lg:grid-cols-4 text-center">
+
+        
+<p class="text-base">List and manage <br>their 3Nodes</p>
+      
+<p class="text-base">Offer available capacity directly<br> to users and developers</p>
+     
+<p class="text-base">Earn rewards based on<br> real resource usage</p> 
+       
+<p class="text-base">Contribute to a growing <br>ecosystem of decentralized services</p>
+
+</div>
+
+<br>
+
+This evolution introduces clearer commercial opportunities and a more accessible path for farmers to support and benefit from the growth of the decentralized internet.
+
 </div>
 </div>
 
@@ -232,6 +256,10 @@ Farming is just one core part of our ecosystem, here are all the products drivin
         left: -1rem;
         color: #8d1212;
     }
+
+   .gradient-bar {    /* equivalent to h-12 */
+    background-image: linear-gradient(to right, #000000, #9ca3af); /* black to gray-400 */
+  }
 </style>
 
 
