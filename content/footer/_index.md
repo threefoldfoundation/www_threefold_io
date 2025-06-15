@@ -53,7 +53,7 @@ extra:
 
 
 
-<h6><a target="_self" onclick="window.location.href='/why'">Why</a></h6>
+<h6><a target="_self" onclick="window.location.href='/about'">About</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
