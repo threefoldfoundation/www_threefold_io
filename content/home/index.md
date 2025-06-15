@@ -150,31 +150,6 @@ extra:
 
 {{ header_section() }}
 
-
-
-<div class="mt-12 flex items-center justify-center gap-x-6">
-          <a href="/deploy" class="mr-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Start Deploying</a>
-          <a href="https://dashboard.grid.tf/#/tf-grid/node-statistics/" class="mr-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">Explore Dashboard</a>
-          
-</div>
-
-<!-- <div class="max-w-7xl mx-4 md:mx-10 lg:mx-20 mt-16">
-    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-2">
-
-{{ use_cases(
-    image_src="/images/tft_logo.png",
-    image_alt="ThreeFold Cloud",
-    title="ThreeFold Cloud",
-    description="ThreeFold is open for developers and system administrators. Deploy virtual machines, containers, Kubernetes clusters, web gateways, and more on top of a best-effort decentralized open source cloud.",
-    subtitle ="Open-Source Cloud",
-    button_text_1="Manual",
-    button_link_1="https://manual.grid.tf/"
-)}}
-   
-
-<img class="fade-in blinking-effect relative mx-auto" src="/images/app.png" alt="app">
-   </dl>
-</div> -->
 </div>
 
 

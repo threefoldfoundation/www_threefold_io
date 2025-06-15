@@ -1,29 +1,30 @@
-<!-- component -->
 <div class="">
   <div class="mx-auto max-w-7xl px-4 mt-8 lg:px-0">
-    <div class="bg-white/5 relative isolate overflow-hidden bg-red-700 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 lg:items-center">
-      {# <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
-        <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
-        <defs>
-          <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-            <stop stop-color="#7775D6" />
-            <stop offset="1" stop-color="#E935C1" />
-          </radialGradient>
-        </defs>
-      </svg> #}
-      <div class="mx-auto max-w-md lg:mx-0 lg:flex-auto  text-left">
-        <img class="fade-in" width="30%" src="/images/tft_logo.png" alt="TF logo">
+    <div class="bg-white/5 rounded-md relative isolate overflow-hidden bg-red-700 lg:flex lg:items-center lg:gap-x-20 ">
+      
+      <!-- Text Column -->
+      <div class="max-w-md lg:max-w-xl text-left px-4 lg:px-16">
+        <img class="fade-in mb-4" width="30%" src="/images/tft_logo.png" alt="TF logo">
         <h2 class="text-3xl font-bold tracking-tight text-white">ThreeFold Cloud</h2>
         <dt class="text-lg font-normal text-white">Open-Source Cloud</dt>
-        <p class="mt-2 text-base">ThreeFold is open for developers and system administrators. Deploy virtual machines, containers, Kubernetes clusters, web gateways, and more on top of a best-effort decentralized open source cloud.</p>
-        <div class="mt-6 flex items-center justify-center gap-x-6 lg:justify-start">
-          <a href="https://manual.grid.tf/" class="mr-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank" rel="noopener">Manual</a>
-          
+        <p class="mt-2 text-base text-white">ThreeFold is open for developers and system administrators. Deploy virtual machines, containers, Kubernetes clusters, web gateways, and more on top of a best-effort decentralized open source cloud.</p>
+        <div class="mt-6 flex items-center gap-x-6">
+          <a href="https://manual.grid.tf/" class="fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">Manual</a>
         </div>
       </div>
-      <div class="relative py-16 lg:py-24 lg:flex-1">
-        <img class="w-full h-auto max-w-2xl rounded-md bg-white/5 ring-1 ring-white/10 object-contain" src="/images/app.png" alt="App screenshot">
+
+      <!-- Image Column -->
+      <div class="w-full lg:w-1/2 mt-12 lg:mt-0">
+        <img class="w-full h-auto rounded-md" src="/images/app.png" alt="App screenshot">
       </div>
+
     </div>
   </div>
+</div>
+
+
+<div class="mt-12 flex flex-col lg:flex-row items-center justify-center gap-x-6">
+  <a href="/deploy" class="mr-2 my-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Start Deploying</a>
+  <a href="https://dashboard.grid.tf/#/tf-grid/node-statistics/" class="mr-2 my-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">Explore Dashboard</a>
+  
 </div>
