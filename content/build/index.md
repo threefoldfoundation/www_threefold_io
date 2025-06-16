@@ -46,7 +46,7 @@ extra:
 <!-- section 3 (Build With ThreeFold) -->
 
 <div class="lg:py-24 py12 ">
-<div class="container max-w-7xl mx-auto">
+<div class="container max-w-7xl mx-auto  px-4 lg:px-8">
 
 ## Build with ThreeFold
 
@@ -89,7 +89,7 @@ extra:
 
 <!--section 4 (Deploy with ThreeFold)-->
 
- <div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 g:px-8">
+ <div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 lg:px-8">
 
   ## Deploy with ThreeFold
 
@@ -110,7 +110,7 @@ extra:
 
 <!--section 2 (horizontal_features)-->
 
-<!-- <div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 g:px-8">
+<!-- <div class="lg:py-24 py-12 mx-auto max-w-7xl px-4 lg:px-8">
 
 
 
@@ -156,7 +156,7 @@ extra:
 
 <!--section 5 (ThreeFold Stack)-->
 
-<div class="lg:py-24 py-12 mx-auto max-w-7xl lg:px-8">
+<div class="lg:py-24 py-12 mx-auto max-w-7xl  px-4 lg:px-8">
 
   ## The ThreeFold Stack
 

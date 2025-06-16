@@ -44,7 +44,7 @@ ThreeFold Farming is a unique concept in the ThreeFold ecosystem where individua
 
 <!-- section 3 (The Farming Process ) -->
 
-<div class="lg:py-24 py12 ">
+<div class="lg:py-24 py-12 px-4 lg:px-8">
 <div class="container max-w-7xl mx-auto">
 
 ## The Farming Process 
@@ -86,7 +86,7 @@ Mycelium can look for the shortest path, has a built-in naming & CDN (Content De
 
 <!-- section 4 (Get Started) -->
 
-<div class="lg:py-24 py12 ">
+<div class="lg:py-24 py12 px-4 lg:px-8">
 <div class="container max-w-7xl mx-auto">
 
 ## Get Started
@@ -125,7 +125,7 @@ Start providing capacity to others and join our Farmers community
 
 <!-- section 5 (The Evolution of Farming) -->
 
-<div class="lg:py-24 py12 ">
+<div class="lg:py-24 py-12 px-4 lg:px-8">
 <div class="container max-w-7xl mx-auto">
 
 ## The Evolution of Farming
@@ -161,9 +161,9 @@ This evolution introduces clearer commercial opportunities and a more accessible
 
 <!----------------------------------------------------------------------------------------->
 
-<!-- section 6 (Join the Movement) -->
+<!-- section 6 (Discover ThreeFold’s Ecosystem) -->
 
-<div class="lg:py-24 py12 ">
+<div class="lg:py-24 py-12 px-4 lg:px-8">
 <div class="container max-w-7xl mx-auto">
 
 ## Discover ThreeFold’s Ecosystem
@@ -235,7 +235,7 @@ Farming is just one core part of our ecosystem, here are all the products drivin
     title_2="New Internet,",
     title_3="Together",  
     button_text_1="Participate",
-    button_link_1="https://form.typeform.com/to/GO9G8ZBa",
+    button_link_1="/signup",
     button_text_2="Stay Updated",
     button_link_2="https://t.me/threefoldnews",
     button_text_3="Chat",

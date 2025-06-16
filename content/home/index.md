@@ -156,7 +156,7 @@ extra:
 
 <!-- section 6 (Join the Movement) -->
 
-<div class="lg:py-24 py12 ">
+<div class="lg:py-24 py-12 px-4">
 <div class="container max-w-7xl mx-auto">
 
 ## Join the Movement to Build a New Internet
@@ -264,8 +264,8 @@ plore all the products that are driving this transformation.
 <!----------------------------------------------------------------------------------------->
 
 <!-- section 8 (Faq) -->
-
-<div class="lg:max-w-7xl container mx-auto lg:py-24 py-12">
+<div class="lg:py-24 py-12 px-6">
+<div class="lg:max-w-7xl container mx-auto">
 
 ## Frequently Asked Questions
 
@@ -316,6 +316,7 @@ plore all the products that are driving this transformation.
     }}
 
 </div>
+</div>
 
 <!----------------------------------------------------------------------------------------->
 
@@ -326,7 +327,7 @@ plore all the products that are driving this transformation.
     title_2="New Internet,",
     title_3="Together",  
     button_text_1="Participate",
-    button_link_1="https://form.typeform.com/to/GO9G8ZBa",
+    button_link_1="/signup",
     button_text_2="Stay Updated",
     button_link_2="https://t.me/threefoldnews",
     button_text_3="Chat",

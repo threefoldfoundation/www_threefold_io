@@ -170,7 +170,7 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
     title_2="New Internet,",
     title_3="Together",  
     button_text_1="Participate",
-    button_link_1="https://form.typeform.com/to/GO9G8ZBa",
+    button_link_1="/signup",
     button_text_2="Stay Updated",
     button_link_2="https://t.me/threefoldnews",
     button_text_3="Chat",
