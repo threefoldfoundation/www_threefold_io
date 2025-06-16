@@ -183,7 +183,8 @@ Farming is just one core part of our ecosystem, here are all the products drivin
     image_alt="3node",
     title="3Node",
     tooltip="The backbone of storage and infrastructure, providing compute and data resources.",
-    card_link="Dashboard"
+    target="_blank",
+    card_link="https://docs.threefold.io/docs/components/3node"
 ) }}
 
 {{ image_card(
@@ -191,15 +192,17 @@ Farming is just one core part of our ecosystem, here are all the products drivin
     image_alt="mycelium",
     title="MYCELIUM",
     tooltip="End-to-end encrypted overlay network, always looking for the shortest possible path between participants ",
-    card_link="Dashboard"
+    target="_blank",
+    card_link="https://mycelium.threefold.io/"
 ) }}
 
 {{ image_card(
     image_src="/images/aibox.png",
     image_alt="aibox",
     title="AIBOX",
-    tooltip="A self-hosted AI compute solution powered by ThreeFold. ",
-    card_link="Dashboard"
+    tooltip="A self-hosted AI compute solution powered by ThreeFold.",
+    target="_blank",
+    card_link="https://www.aibox.threefold.io/"
 ) }}
 
 {{ image_card(
@@ -207,7 +210,8 @@ Farming is just one core part of our ecosystem, here are all the products drivin
     image_alt="3phone",
     title="3PHONE",
     tooltip="OwnPhone is the first secure device in the 3Phone family designed to work seamlessly with the ThreeFold Grid.",
-    card_link="Dashboard"
+    target="_blank",
+    card_link="https://docs.threefold.io/docs/components/3phone/"
 ) }}
 
 {{ image_card(
@@ -215,13 +219,14 @@ Farming is just one core part of our ecosystem, here are all the products drivin
     image_alt="ThreeFold Cloud",
     title="3ROUTER",
     tooltip="Smart routers ensure shortest-path connections between nodes and phones with end-to-end encryption.",
-    card_link="Dashboard"
+    target="_blank",
+    card_link="https://docs.threefold.io/docs/components/3router"
 ) }}
 </div>
 </div>
 
 <div class="mt-6 lg:mt-10 flex items-center justify-center gap-x-6">
-        <a href="https://docs.threefold.io/docs/category/become-a-farmer" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Join ThreeFold’s Ecosystem</a>
+        <a href="/signup" target="_black" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Join ThreeFold’s Ecosystem</a>
   </div>
 </div>
 </div>

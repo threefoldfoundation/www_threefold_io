@@ -219,7 +219,7 @@ plore all the products that are driving this transformation.
 </div>
 </div>
 <div class="mt-6 lg:mt-10 flex items-center justify-center gap-x-6">
-        <a href="/signup" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Join ThreeFold’s Ecosystem</a>
+        <a href="/signup" target="_black" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Join ThreeFold’s Ecosystem</a>
   </div>
 </div>
 </div>
