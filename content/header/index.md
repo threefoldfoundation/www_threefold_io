@@ -10,7 +10,6 @@ extra:
 - [About]("/about")
 - [Build]("/build")
 - [Farm]("/farm")
-- [Take Action]("/action")
 - Info
 
 
