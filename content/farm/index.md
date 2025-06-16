@@ -121,6 +121,7 @@ Start providing capacity to others and join our Farmers community
 </div>
 </div>
 
+
 <!----------------------------------------------------------------------------------------->
 
 <!-- section 5 (The Evolution of Farming) -->
@@ -132,10 +133,10 @@ Start providing capacity to others and join our Farmers community
 
 The upcoming ThreeFold Marketplace (expected late Summer 2025) introduces a new chapter for farmers in the ecosystem, making it easier to share resources and earn through a transparent, peer-to-peer platform.
 
-<br>
 
+{{ horizontal_roadmap() }}
 
-<div class="w-full h-12 my-4 gradient-bar rounded-sm"></div>
+<!-- <div class="w-full h-12 my-4 gradient-bar rounded-sm"></div>
 
 <br>
 
@@ -150,9 +151,9 @@ The upcoming ThreeFold Marketplace (expected late Summer 2025) introduces a new 
        
 <p class="text-base">Contribute to a growing <br>ecosystem of decentralized services</p>
 
-</div>
+</div> -->
 
-<br>
+<!-- <br> -->
 
 This evolution introduces clearer commercial opportunities and a more accessible path for farmers to support and benefit from the growth of the decentralized internet.
 
