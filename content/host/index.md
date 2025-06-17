@@ -58,10 +58,16 @@ Anyone can become a ThreeFold Farmer by running nodes that contribute capacity t
 The ThreeFold Nodes are self-healing and autonomous. They provide data, network and cloud resources to the ThreeFold Platform, becoming active contributors to a decentralized digital infrastructure. 
 While rewards are now based on actual usage, each node still delivers a powerful combination of modern technology and thoughtfully crafted design.
 
-<br>
 
-<div class="px-4 lg:px-16">
+<div class="flex flex-col lg:flex-row justify-center items-center my-6 lg:my-10">
 
+<div class="w-60 px-6 grayscale mx-auto">
+
+![Deploy with ThreeFold](/images/3node_big2.png)
+
+</div>
+
+<div class="node_text">
 <blockquote class=" fade-in px-6">
 
 **A new bare metal operating system**
@@ -78,6 +84,7 @@ The Quantum Safe Storage System is capable of storing data indestructible, effic
 Mycelium can look for the shortest path, has a built-in naming & CDN (Content Delivery) system, can survive disaster and network cuts much more efficiently as is possible today.
 
 </blockquote>
+</div>
 </div>
 </div>
 </div>
@@ -249,6 +256,11 @@ Farming is just one core part of our ecosystem, here are all the products drivin
         left: -1rem;
         color: #8d1212;
     }
+
+.node_text p {
+    font-size: 1rem !important;
+    color: rgb(229 231 235);
+}
 
    .gradient-bar {    /* equivalent to h-12 */
     background-image: linear-gradient(to right, #000000, #9ca3af); /* black to gray-400 */
