@@ -15,8 +15,8 @@ extra:
     description="ThreeFold is a fully operational, decentralized internet infrastructure – deployed locally, scalable globally, and owned and powered by the people.",
     button1_text="Start Building",
     button1_link="/build"
-    button2_text="Start Farming",
-    button2_link="/farm"
+    button2_text="Start Hosting",
+    button2_link="/host"
     button3_text="Read EV3's Report",
     button3_link="https://paragraph.com/@ev3news/threefold-rearchitecting-the-internet"
 
@@ -96,15 +96,19 @@ extra:
 <!-- section 4 (How it works)-->
 
 <div class="container mx-auto lg:max-w-7xl lg:py-24 py-12 px-4 lg:px-0">
-  <div class="max-w-4xl lg:px-8 px-0 lg:pb-12 pb-6">
+  <div class="max-w-6xl lg:px-8 px-0 lg:pb-12 pb-6">
 
   ## How It Works
 
-  At the base, nodes form the physical foundation—distributed computers that provide processing power, storage, and networking capabilities. These nodes work together to create a global, community-powered infrastructure.
-  
-  <br>
+At the base, nodes form the physical foundation. These are distributed computers that provide processing power, storage, and networking capabilities. Together, they create a global, community-powered infrastructure.
 
-  Regardless of technical expertise, anyone can deploy nodes from their homes or offices, and participate in a decentralized alternative to corporate-owned data centers – while earning rewards for their contributions. We call this process 'farming.'
+<br>
+
+Until now, anyone could deploy nodes from their home or office and earn rewards simply for hosting and take part in a decentralized alternative to corporate-owned data centers. In return for their contributions, participants earn rewards. We call this process “farming.”
+
+<br>
+
+Starting this summer, farming is evolving. With the launch of the ThreeFold Marketplace, rewards will be based on actual usage. This shift unlocks new commercial potential and supports a more sustainable and dynamic decentralized network.
 
 </div>
 
@@ -119,18 +123,18 @@ extra:
 
 {{ farm_steps(
     title="2. OFFER CAPACITY",
-    description="After your node is set up and verified, you’ll be rewarded for the capacity that you provide to the ThreeFold Grid."    
+    description="The capacity of the node gets verified, registered and secured on the ThreeFold Blockchain. Farmers can then list their resources on the ThreeFold Marketplace, making them available directly to users."    
 ) }}
 
 {{ farm_steps(
     title="3. EARN REWARDS",
-    description="The capacity of the node gets verified and registered in the ThreeFold Blockchain, securing access to a decentralized autonomous cloud."    
+    description="Farmers earn rewards when their resources are used through the Marketplace, enabling a fair and transparent peer-to-peer economy."    
 ) }}
 
    </dl>
 </div>
 <div class="mt-6 lg:mt-10 flex items-center justify-center gap-x-6">
-        <a href="/farm" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Become a Farmer</a>
+        <a href="/host" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Become a Farmer</a>
   </div>
 </div>
 

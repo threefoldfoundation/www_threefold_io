@@ -61,9 +61,9 @@ extra:
 ) }}
 
 {{ image_card(
-    header="Farm",
+    header="Host",
     tooltip=" ",
-    card_link="/farm"
+    card_link="/host"
 ) }}
 
 {{ image_card(

@@ -1,5 +1,5 @@
 ---
-title: "Farm"
+title: "Host"
 description: "TF offers a secure, sovereign infrastructure layer for Web4, delivering unparalleled scalability, incorruptible and permanent data storage, AI and Web2/Web3/Edge compatibility, and 100% uptime for a resilient digital future." # quotation marks to allow colons where used
 template: "page.html"
 insert_anchor_links: "left"
@@ -131,29 +131,16 @@ Start providing capacity to others and join our Farmers community
 
 ## The Evolution of Farming
 
-The upcoming ThreeFold Marketplace (expected late Summer 2025) introduces a new chapter for farmers in the ecosystem, making it easier to share resources and earn through a transparent, peer-to-peer platform.
+### **A new chapter for capacity providers in the decentralized internet**
+
+With the upcoming ThreeFold Marketplace (expected late Summer 2025), farming is evolving. 
+It’s now easier than ever to share resources and earn based on real usage through a transparent, peer-to-peer platform.
 
 
 {{ horizontal_roadmap() }}
 
-<!-- <div class="w-full h-12 my-4 gradient-bar rounded-sm"></div>
 
-<br>
-
-<div class="grid max-w-xl grid-cols-1 gap-x-12 gap-y-8 lg:max-w-none lg:grid-cols-4 text-center">
-
-        
-<p class="text-base">List and manage <br>their 3Nodes</p>
-      
-<p class="text-base">Offer available capacity directly<br> to users and developers</p>
-     
-<p class="text-base">Earn rewards based on<br> real resource usage</p> 
-       
-<p class="text-base">Contribute to a growing <br>ecosystem of decentralized services</p>
-
-</div> -->
-
-<!-- <br> -->
+### **Why It Matters** 
 
 This evolution introduces clearer commercial opportunities and a more accessible path for farmers to support and benefit from the growth of the decentralized internet.
 
