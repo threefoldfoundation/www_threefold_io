@@ -179,7 +179,7 @@ plore all the products that are driving this transformation.
 {{ image_card(
     image_src="/images/3node.png",
     image_alt="3node",
-    title="3Node",
+    title="3NODE",
     tooltip="The backbone of storage and infrastructure, providing compute and data resources.",
     target="_blank",
     card_link="https://docs.threefold.io/docs/components/3node"

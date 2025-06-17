@@ -85,7 +85,7 @@ Discover the key products that bring us closer to our vision of the new internet
   image_src="/images/web4_tools3.png",
   image_alt="TF_products ",
 
-  title_1="3Node",
+  title_1="3NODE",
   description_1="The backbone of storage and infrastructure, providing compute and data resources. Order today.
 ",
   button_text_1="Learn More",

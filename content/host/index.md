@@ -176,7 +176,7 @@ Farming is just one core part of our ecosystem, here are all the products drivin
 {{ image_card(
     image_src="/images/3node.png",
     image_alt="3node",
-    title="3Node",
+    title="3NODE",
     tooltip="The backbone of storage and infrastructure, providing compute and data resources.",
     target="_blank",
     card_link="https://docs.threefold.io/docs/components/3node"
