@@ -203,7 +203,7 @@ extra:
   title="GATEWAY NODES",
   description="Specialized nodes that provide secure access points to the ThreeFold Grid, enabling decentralized networking, private data communication, and seamless interaction between users and applications.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/documentation/dashboard/deploy/node_finder.html?highlight=gateway%20nodes#gateway-nodes"
+  button_link="https://manual.grid.tf/labs/documentation/dashboard/deploy/node_finder"
 )}}
 
 {{ portfolio(
