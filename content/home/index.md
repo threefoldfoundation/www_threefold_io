@@ -17,8 +17,8 @@ extra:
     button1_link="/build"
     button2_text="Start Hosting",
     button2_link="/host"
-    button3_text="Read EV3's Report",
-    button3_link="https://paragraph.com/@ev3news/threefold-rearchitecting-the-internet"
+    button3_text="TF Marketplace: Soon",
+    button3_link="/newsroom/threefold-marketplace"
 
 ) }}
 
