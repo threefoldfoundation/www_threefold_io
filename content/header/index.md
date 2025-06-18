@@ -7,9 +7,9 @@ extra:
 
 ---
 
-- [Why]("/why")
-- [What]("/what")
-- [Take Action]("/action")
+- [About]("/about")
+- [Build]("/build")
+- [Host]("/host")
 - Info
 
 
@@ -56,3 +56,5 @@ extra:
 
 
 {% end %}
+
+

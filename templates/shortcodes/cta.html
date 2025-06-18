@@ -1,0 +1,34 @@
+{% set title_1 = title_1 | default(value="") %}
+{% set title_2 = title_2 | default(value="") %}
+{% set title_3 = title_3 | default(value="") %}
+{% set button_text_1 = button_text_1 | default(value="") %}
+{% set button_link_1 = button_link_1 | default(value="") %}
+{% set button_text_2 = button_text_2 | default(value="") %}
+{% set button_link_2 = button_link_2 | default(value="") %}
+{% set button_text_3 = button_text_3 | default(value="") %}
+{% set button_link_3 = button_link_3 | default(value="") %}
+{% set button_text_4 = button_text_4 | default(value="") %}
+{% set button_link_4 = button_link_4 | default(value="") %}
+
+<div class="bg-transparent pt-12 pb-12">
+    <div class="mx-auto rounded-2xl bg-white/5 max-w-7xl px-6 py-12 lg:flex lg:items-center lg:justify-between lg:px-20">
+      <h2 class="lg:text-balance max-w-xl leading-tight items-start lg:text-left text-center fade-in">
+        {{ title_1 }} <br>{{ title_2 }}<br> {{ title_3 }}
+      </h2>
+      <div class="mt-10 flex items-center 0 gap-x-6 lg:mt-0 lg:shrink-0 flex-wrap justify-center lg:justify-start">
+        <a href="{{ button_link_1 }}" target="_blank" class="blinking-effect rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-200 hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mb-4 lg:mb-0">
+          {{ button_text_1 }}
+        </a>
+        <a href="{{ button_link_2 }}" target="_blank" class="blinking-effect rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-200 hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mb-4 lg:mb-0">
+          {{ button_text_2 }}
+        </a>
+        <a href="{{ button_link_3 }}" target="_blank" class="blinking-effect rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-200 hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mb-4 lg:mb-0">
+          {{ button_text_3 }}
+        </a>
+        {% if button_link_4 %}
+        <a href="{{ button_link_4 }}" class="fade-in text-sm/6 font-semibold text-white">{{ button_text_4 }}<span aria-hidden="true">→</span></a>
+         {% endif%}
+      </div>
+    </div>
+</div>
+

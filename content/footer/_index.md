@@ -4,7 +4,7 @@ description: ""
 insert_anchor_links: "left"
 template: "partials/footer.html"
 extra:
-  logoPath: "images/new_logo_tft.png"
+  logoPath: "images/logolight.png"
   socialLinks: { Twitter: "https://twitter.com/threefold_io", Telegram: "https://t.me/threefoldnews", Github: "https://github.com/threefoldfoundation", Github2: "https://github.com/threefoldtech"}
 ---
 
@@ -12,7 +12,7 @@ extra:
 
 ##### TAKE ACTION
 
-<br>
+
 
 ###### [Docs (V4)](https://docs.threefold.io/docs/introduction)
 
@@ -32,9 +32,10 @@ extra:
 
 |||
 
-##### <span class="text-gray-100">COMMUNITY</span>
+##### COMMUNITY
 
-<br>
+
+###### [News Channel](https://t.me/threefoldnews)
 
 ###### [Main Chat](https://t.me/threefold)
 
@@ -50,9 +51,9 @@ extra:
 
 ##### ABOUT US
 
-<br>
 
-<h6><a target="_self" onclick="window.location.href='/why'">Why</a></h6>
+
+<h6><a target="_self" onclick="window.location.href='/about'">About</a></h6>
 
 <h6><a target="_self" onclick="window.location.href='/blog'">Blog</a></h6>
 
@@ -67,3 +68,4 @@ extra:
 
 
 {% end %}
+

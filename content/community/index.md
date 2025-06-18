@@ -15,7 +15,7 @@ extra:
 {% row( style="center mtop semiNarrow") %}
 
 
-<h2 class="text-balance font-normal tracking-tight text-white lg:text-6xl text-3xl fade-in visible">Join the Community</h2>
+# Join the Community
 
 {% end %}
 
@@ -184,7 +184,7 @@ extra:
 {% row( style="center mtop semiNarrow") %}
 
 
-<h2 class="fade-in text-balance text-4xl font-normal tracking-tight text-white sm:text-5xl">Keep up with ThreeFold Events</h2>
+## Keep up with ThreeFold Events
 
 {% end %}
 

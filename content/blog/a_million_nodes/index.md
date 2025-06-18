@@ -10,6 +10,7 @@ taxonomies:
   categories: [tech,grid,community]
 extra:
     imgPath: a_million_nodes.png
+    isFeatured: true
 ---
 
 Imagine a digital world where control isn't dictated by centralized entities but by the collective power of a million interconnected nodes. This vision is more than just a technological advancement – it embodies a paradigm shift towards re-decentralizing the Internet and putting control back into the hands of its users, as it was originally intended to be.
