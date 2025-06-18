@@ -169,7 +169,7 @@ Starting this summer, farming is evolving. With the launch of the ThreeFold Mark
 
 There are many ways to be part of our mission to create a more open, autonomous, and interconnected digital world. Farming is just one pillar of our ecosystem.
 <br>
-plore all the products that are driving this transformation.
+Explore all the products that are driving this transformation.
 
 </div>
 
