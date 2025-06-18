@@ -102,7 +102,7 @@ extra:
 <br>
 
 <div class="mt-6 lg:mt-10 flex items-center justify-center gap-x-6">
-        <a href="https://dashboard.grid.tf/#/deploy/labs/" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Discover Labs</a>
+        <a href="https://manual.grid.tf/labs/documentation/dashboard/deploy/applications/" target="_blank" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Discover Labs</a>
 </div> 
 </div>
 
@@ -168,63 +168,63 @@ extra:
   title="ZERO-OS V3",
   description="A stateless and lightweight operating system that allows for an improved efficiency of up to 10x for certain workloads.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/knowledge_base/technology/concepts/zos.html?highlight=zero-os#overview-of-zero-os"
+  button_link="https://manual.grid.tf/labs/knowledge_base/technology_toc/concepts_readme/zos"
 )}}
 
 {{ portfolio(
   title="MYCELIUM NETWORK",
   description="Decentralized communication layer of TF Grid that connects and coordinates nodes on the ThreeFold Grid, enabling secure and efficient peer-to-peer interactions.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/documentation/system_administrators/mycelium/overview.html"
+  button_link="https://manual.grid.tf/users/category/mycelium/"
 )}}
 
 {{ portfolio(
   title="QUANTUM SAFE STORAGE",
   description="QSS is a decentralized, globally distributed data storage system. It is unbreakable, self-healing, append-only, and immutable.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/knowledge_base/technology/qsss/qsss_home.html"
+  button_link="https://manual.grid.tf/labs/knowledge_base/technology_toc/qsss_home"
 )}}
 
 {{ portfolio(
   title="TF CHAIN",
   description="n application-specific blockchain customized for the operation of a single application – provisioning decentralized compute, storage, and network capacity.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/knowledge_base/technology/concepts/tfchain.html"
+  button_link="https://manual.grid.tf/labs/knowledge_base/technology_toc/concepts_readme/tfchain/"
 )}}
 
 {{ portfolio(
   title="3NODES",
   description="ecentralized, user-owned hardware devices that provides computing, storage, and networking resources to power the TF Grid.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/documentation/developers/tfchain/tfchain.html?highlight=nodes#nodes"
+  button_link="https://docs.threefold.io/docs/components/3node"
 )}}
 
 {{ portfolio(
   title="GATEWAY NODES",
   description="Specialized nodes that provide secure access points to the ThreeFold Grid, enabling decentralized networking, private data communication, and seamless interaction between users and applications.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/documentation/dashboard/deploy/node_finder.html?highlight=gateway%20nodes#gateway-nodes"
+  button_link="https://manual.grid.tf/labs/documentation/dashboard/deploy/node_finder"
 )}}
 
 {{ portfolio(
   title="TF DASHBOARD",
   description="A user-friendly interface for monitoring, managing, and deploying resources on the ThreeFold Grid.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/documentation/dashboard/dashboard.html"
+  button_link="https://manual.grid.tf/labs/documentation/dashboard/"
 )}}
 
 {{ portfolio(
   title="TF DAO",
   description="A community-driven governance model that allows token holders to participate in decision-making processes related to the development and direction of the ThreeFold ecosystem.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/documentation/dashboard/tfchain/tf_dao.html"
+  button_link="https://manual.grid.tf/labs/documentation/tfconnect_toc/tfconnect_dao"
 )}}
 
 {{ portfolio(
   title="TF CONNECT APP",
   description="A mobile app that serves as a gateway to the ThreeFold ecosystem and its various ThreeFold products and services.",
   button_text="Learn More",
-  button_link="https://manual.grid.tf/documentation/tfconnect/tfconnect_toc.html"
+  button_link="https://manual.grid.tf/labs/documentation/tfconnect_toc/"
 )}}
 
 </dl>
