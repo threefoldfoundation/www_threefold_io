@@ -42,12 +42,12 @@ ThreeFold Farming is a unique concept in the ThreeFold ecosystem where individua
 
 <!-- ------------------------------------------------------------------------------------- -->
 
-<!-- section 3 (The Farming Process ) -->
+<!-- section 3 (The Power of 3Node ) -->
 
 <div class="lg:py-24 py-12 px-4 lg:px-8">
 <div class="container max-w-7xl mx-auto">
 
-## The Farming Process 
+## The Power of 3Node 
 
 Anyone can become a ThreeFold Farmer by running nodes that contribute capacity to the grid. 
 
@@ -56,7 +56,7 @@ Anyone can become a ThreeFold Farmer by running nodes that contribute capacity t
 ### **3NODES**
 
 The ThreeFold Nodes are self-healing and autonomous. They provide data, network and cloud resources to the ThreeFold Platform, becoming active contributors to a decentralized digital infrastructure. 
-While rewards are now based on actual usage, each node still delivers a powerful combination of modern technology and thoughtfully crafted design.
+Each node still delivers a powerful combination of modern technology and thoughtfully crafted design.
 
 
 <div class="flex flex-col lg:flex-row justify-center items-center my-6 lg:my-10">
