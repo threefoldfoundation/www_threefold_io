@@ -65,7 +65,7 @@ Instead of exposing bloated APIs or fully fledged orchestration platforms, Zero 
 
 <br/>
 
-| **Primitive**     | **Functionality**                                                                 |
+| Primitive     | Functionality                                                                |
 |-------------------|------------------------------------------------------------------------------------|
 | **VM**            | Stateless KVM-based virtual machines with declarative configuration               |
 | **ZeroDB (ZDB)**  | A lightweight key-value store with optional encryption                            |
@@ -121,12 +121,12 @@ Here’s how the networks work:
 
 <br/>
 
-| **Network** | **Description** |
+| Network | Description |
 | ----- | ----- |
-| Production | This is the live network used in the real world. It’s stable, fully audited, and cannot be reset. Only proven, trusted features are allowed here. |
-| Test | Used to test new features at scale. It’s close to production quality, but some releases might still contain bugs. Resets are possible though very rare. |
-| QA | For early-stage features still being tested. It may lag behind active development and can be reset if needed. |
-| Dev | A temporary network just for developers to experiment and debug new code. It can be reset at any time. |
+| **Production** | This is the live network used in the real world. It’s stable, fully audited, and cannot be reset. Only proven, trusted features are allowed here. |
+| **Test** | Used to test new features at scale. It’s close to production quality, but some releases might still contain bugs. Resets are possible though very rare. |
+| **QA** | For early-stage features still being tested. It may lag behind active development and can be reset if needed. |
+| **Dev** | A temporary network just for developers to experiment and debug new code. It can be reset at any time. |
 
 <br/>
 
