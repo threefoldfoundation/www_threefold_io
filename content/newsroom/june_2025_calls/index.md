@@ -26,7 +26,7 @@ With the recent 3.17 upgrade, the TF Connect app has introduced some powerful ne
 
 <br/>
 
-*This call was rescheduled from June 17 due to the .tf domain outage.*
+*This call was rescheduled from June 17 due to the [].tf domain outage](https://forum.threefold.io/t/tf-domain-outage-action-plan/4607).*
 
 <br/>
 
