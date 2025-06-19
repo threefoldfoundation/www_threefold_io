@@ -1,8 +1,8 @@
 ---
 id: june_2025_calls
-title: "Announcing: June 2025 Community Calls"
+title: "Announcing: June & July 2025 Community Calls"
 image_caption: June 2025 Calls
-description: We have two demos and a community call scheduled for this month. Join in!
+description: We are lining up a series of demos and community calls this June and July. Join in!
 date: 2025-06-13
 taxonomies:
   people: [sam_taggart]
@@ -12,12 +12,7 @@ extra:
     imgPath: june_2025_calls.png
 ---
 
-Another month brings more ThreeFold demos from Mik and Scott, plus a community discussion!
-
-<br/>
-
-**Thu June 19: ThreeFold Marketplace Discussion** <br/>
-Earlier this week, [we announced](https://forum.threefold.io/t/the-threefold-marketplace-discover-exchange-build-the-future-of-the-internet/4604) the ThreeFold Marketplace. Now we'd like to host a call with the community to discuss what was announced already, share a bit further, and get your feedback. *Please leave any feedback or questions you might have already as comments on the above forum post.*
+We are lining up a series of demos and community calls this June and July. Here’s what we have so far, and we’ll add / share updates as they come:
 
 <br/>
 
@@ -26,12 +21,21 @@ With the recent 3.17 upgrade, the TF Connect app has introduced some powerful ne
 
 <br/>
 
-*This call was rescheduled from June 17 due to the [.tf domain outage](https://forum.threefold.io/t/tf-domain-outage-action-plan/4607).*
+*Note: This call was rescheduled from June 17 due to the [.tf domain outage](https://forum.threefold.io/t/tf-domain-outage-action-plan/4607).*
 
 <br/>
 
 **Tue July 01: Node Status Bot High Availability Deployment** <br/>
 In this demo, Scott will show the latest developments in the Node Status Bot, which provides an example of creating resilient applications on the ThreeFold Grid.
+
+<br/>
+
+**Wed July 09: ThreeFold Marketplace Discussion** <br/>
+[We recently announced](https://forum.threefold.io/t/the-threefold-marketplace-discover-exchange-build-the-future-of-the-internet/4604) the ThreeFold Marketplace. Now we'd like to host a call with the community to discuss what was announced already, share a bit further, and get your feedback. *Please leave any feedback or questions you might have already as comments on the above forum post.*
+
+<br/>
+
+*Note: This call was postponed from Thursday June 19.*
 
 <br/>
 
