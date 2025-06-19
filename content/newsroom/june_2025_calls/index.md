@@ -35,7 +35,7 @@ In this demo, Scott will show the latest developments in the Node Status Bot, wh
 
 <br/>
 
-*Note: This call was postponed from Thursday June 19.* 
+*Note: This call was rescheduled from Thursday June 19.* 
 
 <br/>
 
