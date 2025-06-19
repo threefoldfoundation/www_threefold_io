@@ -2,7 +2,7 @@
 id: threefold_marketplace
 title: "The ThreeFold Marketplace: Discover, Exchange, & Build the Future of the Internet"
 image_caption: threefold_marketplace
-description: Built by the people, for the people — say hello to a marketplace for a truly inclusive digital future.
+description: Built by the people, for the people – say hello to a marketplace for a truly inclusive digital future.
 date: 2025-06-09
 taxonomies:
   people: [sam_taggart]
