@@ -65,13 +65,14 @@ Instead of exposing bloated APIs or fully fledged orchestration platforms, Zero 
 
 <br/>
 
-| **Primitive** | **Functionality** |
-| ----- | ----- |
-| VM | Stateless KVM-based virtual machines with declarative configuration |
-| ZeroDB (ZDB) | A lightweight key-value store with optional encryption |
-| Mycelium | Mesh-based overlay network with IPv6, E2E encryption, and NAT traversal |
-| Network Setup | Create private networks, web gateways, public IP exposure |
-| Filesystem | Encrypted, snapshot-based persistent volumes using ZFS |
+| **Primitive**     | **Functionality**                                                                 |
+|-------------------|------------------------------------------------------------------------------------|
+| **VM**            | Stateless KVM-based virtual machines with declarative configuration               |
+| **ZeroDB (ZDB)**  | A lightweight key-value store with optional encryption                            |
+| **Mycelium**      | Mesh-based overlay network with IPv6, E2E encryption, and NAT traversal           |
+| **Network Setup** | Create private networks, web gateways, public IP exposure                         |
+| **Filesystem**    | Encrypted, snapshot-based persistent volumes using ZFS                            |
+
 
 <br/>
 
@@ -188,3 +189,4 @@ Start building sovereignty today.
 <br/>
 
 **[Explore how Zero OS](https://github.com/threefoldtech/zos)** and the **[ThreeFold Grid](https://docs.threefold.io/docs/introduction)** can power your next step.
+

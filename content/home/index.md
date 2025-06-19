@@ -151,7 +151,19 @@ Starting this summer, farming is evolving. With the launch of the ThreeFold Mark
 ) }}
 
 
-{{ header_section() }}
+{{ card_with_image(
+    image_src="/images/tft_logo.png",
+    image_alt="TF logo",
+    title="ThreeFold Cloud",
+    subtitle="Open-Source Cloud",
+    description="ThreeFold is open for developers and system administrators. Deploy virtual machines, containers, Kubernetes clusters, web gateways, and more on top of a best-effort decentralized open source cloud.",
+    button_link="https://manual.grid.tf/",
+    button_text="Manual",
+    image_src_right="/images/app.png",
+    image_alt_right="App screenshot"
+
+
+) }}
 
 </div>
 
@@ -250,7 +262,7 @@ Explore all the products that are driving this transformation.
 
 <!----------------------------------------------------------------------------------------->
 
-<!-- section 7 (More Resilient)-->
+<!-- section 8 (More Resilient)-->
 
 <div class="lg:py-24 py-12 text-center">
 
@@ -272,7 +284,7 @@ Explore all the products that are driving this transformation.
 
 <!----------------------------------------------------------------------------------------->
 
-<!-- section 8 (Faq) -->
+<!-- section 9 (Faq) -->
 <div class="lg:py-24 py-12 px-6">
 <div class="lg:max-w-7xl container mx-auto">
 
@@ -334,7 +346,7 @@ Explore all the products that are driving this transformation.
 
 <!----------------------------------------------------------------------------------------->
 
-<!-- section 9 Cta -->
+<!-- section 10 Cta -->
 
 {{ cta(
     title_1="Building a",
