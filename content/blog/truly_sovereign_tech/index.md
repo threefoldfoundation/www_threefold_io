@@ -65,13 +65,14 @@ Instead of exposing bloated APIs or fully fledged orchestration platforms, Zero 
 
 <br/>
 
-| **Primitive** | **Functionality** |
-| ----- | ----- |
-| VM | Stateless KVM-based virtual machines with declarative configuration |
-| ZeroDB (ZDB) | A lightweight key-value store with optional encryption |
-| Mycelium | Mesh-based overlay network with IPv6, E2E encryption, and NAT traversal |
-| Network Setup | Create private networks, web gateways, public IP exposure |
-| Filesystem | Encrypted, snapshot-based persistent volumes using ZFS |
+| Primitive     | Functionality                                                                |
+|-------------------|------------------------------------------------------------------------------------|
+| **VM**            | Stateless KVM-based virtual machines with declarative configuration               |
+| **ZeroDB (ZDB)**  | A lightweight key-value store with optional encryption                            |
+| **Mycelium**      | Mesh-based overlay network with IPv6, E2E encryption, and NAT traversal           |
+| **Network Setup** | Create private networks, web gateways, public IP exposure                         |
+| **Filesystem**    | Encrypted, snapshot-based persistent volumes using ZFS                            |
+
 
 <br/>
 
@@ -120,12 +121,12 @@ Here’s how the networks work:
 
 <br/>
 
-| **Network** | **Description** |
+| Network | Description |
 | ----- | ----- |
-| Production | This is the live network used in the real world. It’s stable, fully audited, and cannot be reset. Only proven, trusted features are allowed here. |
-| Test | Used to test new features at scale. It’s close to production quality, but some releases might still contain bugs. Resets are possible though very rare. |
-| QA | For early-stage features still being tested. It may lag behind active development and can be reset if needed. |
-| Dev | A temporary network just for developers to experiment and debug new code. It can be reset at any time. |
+| **Production** | This is the live network used in the real world. It’s stable, fully audited, and cannot be reset. Only proven, trusted features are allowed here. |
+| **Test** | Used to test new features at scale. It’s close to production quality, but some releases might still contain bugs. Resets are possible though very rare. |
+| **QA** | For early-stage features still being tested. It may lag behind active development and can be reset if needed. |
+| **Dev** | A temporary network just for developers to experiment and debug new code. It can be reset at any time. |
 
 <br/>
 
@@ -188,3 +189,4 @@ Start building sovereignty today.
 <br/>
 
 **[Explore how Zero OS](https://github.com/threefoldtech/zos)** and the **[ThreeFold Grid](https://docs.threefold.io/docs/introduction)** can power your next step.
+
