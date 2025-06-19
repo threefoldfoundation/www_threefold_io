@@ -301,7 +301,9 @@ Explore all the products that are driving this transformation.
 {{ accordion(
     id_accordion="accordion4"
     question="How can I get V4 nodes?",
-    description="Our partners are selling V4 nodes with a new reward scheme and ready to grow to millions of nodes."
+    description="Our partners are selling V4 nodes with a new reward scheme and ready to grow to millions of nodes.",
+    link="https://docs.threefold.io/docs/become-a-farmer/get_started/",
+    text_link="Click here to get V4 nodes."
 ) }}
 
 {{ accordion(

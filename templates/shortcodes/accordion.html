@@ -1,6 +1,8 @@
 {% set question = question | default(value="") %}
 {% set id_accordion = id_accordion | default(value="") %}
 {% set description = description | default(value="") %}
+{% set link = link | default(value="") %}
+{% set text_link = text_link | default(value="") %}
 
 <div class="rounded-lg overflow-hidden my-2 border border-gray-500">
     <input type="checkbox" id="{{ id_accordion }}" class="peer hidden">
@@ -11,9 +13,12 @@
         </svg>
     </label>
     <div class="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-screen">
-        <div class="p-4">
+        <div class="p-4 flex">
             {% if description %} 
-            <p class="text-lg">{{ description }} </p>
+            <p class="text-lg">{{ description }}
+                {% if link %}
+            <a class="ml-1 text-white font-semibold"href="{{ link }}" target="_blank">{{ text_link }}</a> </p>
+            {% endif %}
             {% endif %}
         </div>
     </div>
