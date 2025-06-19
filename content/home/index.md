@@ -309,7 +309,10 @@ Explore all the products that are driving this transformation.
 {{ accordion(
     id_accordion="accordion5"
     question="What can I do with the ThreeFold Grid?",
-    description="ThreeFold grid can be used to host any web2, web3 and future workload. For more details see our docs."
+    description="ThreeFold grid can be used to host any web2, web3 and future workload. For more details see ",
+    link="https://docs.threefold.io/docs/category/how-to-use/",
+    text_link="our docs."
+
 ) }}
 
 {{ accordion(
