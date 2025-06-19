@@ -131,6 +131,28 @@ a img:hover {
 
 }
 
+
+
+table{
+  @apply table-auto text-white border border-gray-700 text-left w-full;
+}
+
+thead{
+  @apply bg-gray-800 text-white;
+}
+
+th{
+  @apply border border-gray-600 px-4 py-2;
+}
+
+tbody{
+  @apply bg-black text-gray-100;
+}
+
+td{
+  @apply border border-gray-600 px-4 py-2;
+}
+
 .green:hover {
   background-color: #7ad993 !important;
 }
