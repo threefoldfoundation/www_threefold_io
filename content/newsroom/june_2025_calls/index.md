@@ -1,7 +1,7 @@
 ---
 id: june_2025_calls
 title: "Announcing: June & July 2025 Community Calls"
-image_caption: June 2025 Calls
+image_caption: June & July 2025 Community Calls
 description: We are lining up a series of demos and community calls this June and July. Join in!
 date: 2025-06-13
 taxonomies:
@@ -35,7 +35,7 @@ In this demo, Scott will show the latest developments in the Node Status Bot, wh
 
 <br/>
 
-*Note: This call was postponed from Thursday June 19.*
+*Note: This call was postponed from Thursday June 19.* 
 
 <br/>
 
