@@ -16,12 +16,12 @@ We are lining up a series of demos and community calls this June and July. Here�
 
 <br/>
 
-**Tue June 24: TF Connect App** <br/>
+**New Upcoming Date: TF Connect App** <br/>
 With the recent 3.17 upgrade, the TF Connect app has introduced some powerful new features, and we’re excited to walk you through them. Join Mik for a live demo session to explore what’s new and how to make the most of the app.
 
 <br/>
 
-*Note: This call was rescheduled from Tuesday June 17 due to the [.tf domain outage](https://forum.threefold.io/t/tf-domain-outage-action-plan/4607).*
+*Note: This call has been postponed from June 24 due to technical isues. A new date will be announed shortly.*
 
 <br/>
 
