@@ -21,7 +21,7 @@ With the recent 3.17 upgrade, the TF Connect app has introduced some powerful ne
 
 <br/>
 
-*Note: This call has been postponed from June 24 due to technical isues. A new date will be announed shortly.*
+*Note: This call has been postponed from June 24 due to technical issues. A new date will be announced shortly.*
 
 <br/>
 
