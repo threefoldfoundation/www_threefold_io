@@ -97,7 +97,12 @@ extra:
 
   <br>
 
-![Deploy with ThreeFold](/images/all_apps.png)
+
+  <!-- Mobile image -->
+<img class="image-mobile" src="/images/app.png" alt="Deploy with ThreeFold">
+
+<!-- Desktop image -->
+<img class="image-desktop" src="/images/all_apps.png" alt="Deploy with ThreeFold">
 
 <br>
 
@@ -247,7 +252,23 @@ extra:
 ) }}
 
 
+<style>
+.image-mobile {
+  display: block;
+}
+.image-desktop {
+  display: none;
+}
 
+@media (min-width: 1024px) {
+  .image-mobile {
+    display: none;
+  }
+  .image-desktop {
+    display: block;
+  }
+}
+</style>
 
 
 
