@@ -84,7 +84,7 @@ extra:
     title_1="Powered by",
     title_2="A Global Community",
     description_1="ThreeFold’s groundbreaking technology enables anyone – individuals, organizations, and communities – to deploy their own Internet infrastructure.",
-    description_2="Today, our proof-of-concept network is live and operational worldwide, running on version 3.16 technology.",
+    description_2="Today, our proof-of-concept network is live and operational worldwide, running on version 3.17 technology.",
     subtext="As we expand, we may need millions of nodes to support this growing ecosystem to build a truly decentralized and resilient infrastructure",
     button_text="Explore Grid Capacity",
     button_link="https://dashboard.grid.tf/#/tf-grid/node-statistics/"
