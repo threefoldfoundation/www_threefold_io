@@ -86,6 +86,54 @@ Mycelium can look for the shortest path, has a built-in naming & CDN (Content De
 </blockquote>
 </div>
 </div>
+<div class="container max-w-5xl">
+
+<br>
+<br>
+<br>
+
+## Build your own: DIY 3Node
+
+ThreeFold makes it easy to become part of the network by setting up your own node. With compatible hardware, a stable internet connection, and a few simple steps, you can get started quickly and start contributing to the network and earning utilization rewards.
+
+<br>
+<br>
+
+
+### HOW IT WORKS
+
+
+ <br>
+
+<ol class="relative text-gray-500 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400">                  
+    <li class="mb-10 ms-6">            
+        <h3 class="font-medium leading-tight">Create a Farm</h3>
+        <p class="text-sm lg:text-base">Simply download the <a href="https://docs.threefold.io/docs/become-a-farmer/create_a_farm#download-the-app" class="text-white font-semibold">ThreeFold Connect App</a>, create an account and then create a farm.</p>
+    </li>
+    <li class="mb-10 ms-6">
+        <h3 class="font-medium leading-tight">Create a Zero-OS bootstrap image</h3>
+        <p class="text-sm lg:text-base">Download the Zero-OS bootstrap image and flash it to a USB drive using a tool like balenaEtcher.
+</p>
+    </li>
+    <li class="mb-10 ms-6">
+        <h3 class="font-medium leading-tight">Choose Your Hardware</h3>
+        <p class="text-sm lg:text-base">Plug in the USB, power on your device, and follow the setup instructions.</p>
+    </li>
+    <li class="mb-10 ms-6">
+        <h3 class="font-medium leading-tight">Register Your Node</h3>
+        <p class="text-sm">Once it’s running, register your node and assign it to your farm via the ThreeFold Connect App.</p>
+    </li>
+     <li class="mb-10 ms-6">
+        <h3 class="font-medium leading-tight">Go Live</h3>
+        <p class="text-sm">After it’s connected, list your node on the Marketplace and start sharing your capacity.</p>
+    </li>
+</ol>
+
+<div class="mt-6 lg:mt-16 flex items-lefy justify-left">
+        <a href="https://manual.grid.tf/farmers/category/build-a-3node" target="_black" class="fade-in rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-black shadow-sm hover:bg-green hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Step-by-Step Guide</a>
+  </div>
+
+</div>
 </div>
 </div>
 
@@ -93,7 +141,7 @@ Mycelium can look for the shortest path, has a built-in naming & CDN (Content De
 
 <!-- section 4 (Get Started) -->
 
-<div class="lg:py-24 py12 px-4 lg:px-8">
+<div class="lg:py-24  px-4 lg:px-8">
 <div class="container max-w-7xl mx-auto">
 
 ## Get Started
@@ -115,6 +163,13 @@ Start providing capacity to others and join our Farmers community
         target="_blank",
     tooltip=" ",
     card_link="https://docs.threefold.io/docs/become-a-farmer/get_started"
+) }}
+
+{{ image_card(
+    header="Build a 3Node",
+        target="_blank",
+    tooltip=" ",
+    card_link="https://manual.grid.tf/farmers/category/build-a-3node"
 ) }}
 
 {{ image_card(
