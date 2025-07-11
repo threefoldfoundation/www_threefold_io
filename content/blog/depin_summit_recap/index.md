@@ -26,13 +26,11 @@ The summit unfolded in two acts: Mombasa, Kenya and Zanzibar, Tanzania, with som
 
 ![Mombasa Opening](./opening.jpg)
 
-<br/>
-
-#### **Sunday June 29: Day Zero: Arrival & Alignment**
+#### Sunday June 29: Day Zero: Arrival & Alignment
 
 As the sun set over the Kenyan coast, founders, speakers, and project leads touched down in Mombasa. The [Share](https://share.inc) team, on-the-ground co-organizers of the first leg of the summit, hosted an informal gathering at their HQ, setting the tone for what would be a high-trust, high-purpose summit experience.
 
-#### **Monday June 30: Day One: Learning from the Ground Up**
+#### Monday June 30: Day One: Learning from the Ground Up
 
 ![Mombasa School Visit](bridge1.png)
 
@@ -58,13 +56,13 @@ During our visit, some students showed off local song and dance while others eve
 
 <br/>
 
-![Networking Dinner](giraffe.jpg)
+![Networking Dinner](giraffe.jpeg)
 
 <br/>
 
 *Do you spot our tall friends in the background? An epic photobomb and overall experience at [Nguuni Nature Sanctuary](https://www.nguuninaturesanctuary.org/).*
 
-#### **Tuesday July 01: Day Two: Build on the Beach & Dine on a Dhow**
+#### Tuesday July 01: Day Two: Build on the Beach & Dine on a Dhow
 
 As a pre-summit kickoff, [**Beach & Build**](https://lu.ma/4gcze4zw?tk=C6ULfS) offered a relaxed afternoon on the Mombasa shoreline, designed for connection, collaboration, and casual networking, setting the tone for the week ahead.
 
@@ -72,7 +70,7 @@ As a pre-summit kickoff, [**Beach & Build**](https://lu.ma/4gcze4zw?tk=C6ULfS) o
 
 Later in the evening, we enjoyed “DePIN on Deck,” aboard a traditional Swahili coast dhow boat. With stunning coastal views, fresh seafood, and vibrant conversations, guests enjoyed a relaxed, intimate setting to connect and unwind.
 
-#### **Wednesday July 02: Day Three: DePIN Summit Launches**
+#### Wednesday July 02: Day Three: DePIN Summit Launches
 
 The first official summit day featured a full agenda of talks, demos, and showcases. Hosted at the headquarters of [Swahilipot Hub](https://www.swahilipothub.co.ke/), a foundation focused on nurturing youth talent through tech, arts, and entrepreneurship, the summit opened with EV3 and Share explaining why and why now for the summit to be held in Africa and introducing Share as a project.
 
@@ -100,7 +98,7 @@ The other projects that gave keynotes included [DeCharge](https://decharge.netwo
 
 ![Time for Zanzibar](zanzibarreg.jpg)
 
-#### **Thursday July 03: Day Zero: Crossing to Zanzibar**
+#### Thursday July 03: Day Zero: Crossing to Zanzibar
 
 Some speakers and attendees took a chartered flight from Mombasa to Zanzibar, bringing the summit spirit over the Indian Ocean to Spice Island.
 
@@ -112,7 +110,7 @@ Some speakers and attendees took a chartered flight from Mombasa to Zanzibar, br
 
 We were joined by new attendees and warmly welcomed with a sunset session to set intentions for the second leg of the summit.
 
-#### **Friday July 04: Day One: Public Infrastructure Meets Policy**
+#### Friday July 04: Day One: Public Infrastructure Meets Policy
 
 The first official day of the Zanzibar summit was held at the Madinat Al Bahr. The event brought together global builders and Zanzibar's local ecosystem, including Eng. Shukuru Awadh Suleiman, Director General of [Zanzibar Communication Corporation](https://zictia.go.tz/) (ZICTIA), our partner on the ground on the island.
 
@@ -122,7 +120,7 @@ ThreeFold co-founder Kristof De Spiegeleer started with a presentation on ThreeF
 
 <br/>
 
-![Kristof Keynote](kristofkeynote.png)
+![Kristof Keynote](kristofkeynote.jpg)
 
 <br/>
 
@@ -153,7 +151,7 @@ Following a long but inspiring day, the guests enjoyed Swahili BBQ with live mus
 
 ![Tryphon](tryphon.png)
 
-#### **Saturday July 05: Day Two: Demo Day & Closing Ceremony**
+#### Saturday July 05: Day Two: Demo Day & Closing Ceremony
 
 At the historic Mbweni Ruins, DePIN builders showcased their hardware, software, and product experiences. Florian led a visit to the land of [Dunia Cyber City and Zanzibar Free Zone](https://ourworld.tf/ventures/).  
 
@@ -168,6 +166,8 @@ At the historic Mbweni Ruins, DePIN builders showcased their hardware, software,
 <br/>
 
 Builders from around the world presented real-world solutions for emerging markets.
+
+<br/>
 
 ![Light DAO](lightdao.jpeg)
 
