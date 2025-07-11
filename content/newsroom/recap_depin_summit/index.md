@@ -18,4 +18,4 @@ DePIN Summit 2025 brought global builders, investors, and policymakers to East A
 
 <br/>
 
-Read all about it [here](/blog/depin_summit_recap).
+Read all about it [here](/blog/depin-summit-recap).
