@@ -10,6 +10,7 @@ taxonomies:
   categories: [decentralization, event, why]
 extra:
     imgPath: depin_summit_recap.png
+    isFeatured: true
 ---
 
 *Recapping an incredible DePIN Summit 2025: Africa Edition. Thanks to [EV3](https://ev3.xyz/) for bringing DePIN Summit to East Africa, [Share](https://www.share.inc/), [Singularity Venture Hub](https://www.singularityventurehub.ai/), our own team, all of the organizers, venues, various staff and execution teams, speakers, and participants for being a part of this. Thanks as well to [Proof of Coverage](https://x.com/Proof_Coverage) for some of the photos included in this post. Others are my own (see if you can spot the quality difference!).*
