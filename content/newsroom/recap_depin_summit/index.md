@@ -2,7 +2,7 @@
 id: recap_depin_summit
 title: "Recapping DePIN Summit Africa"
 image_caption: DePIN Summit Africa
-description: From Mombasa to Zanzibar, DePIN Summit 2025 showcased the future of decentralized infrastructure on the ground in Africa
+description: From Mombasa to Zanzibar, DePIN Summit 2025 showcased the future of decentralized infrastructure on the ground in Africa.
 date: 2025-07-11
 taxonomies:
   people: [sam_taggart]

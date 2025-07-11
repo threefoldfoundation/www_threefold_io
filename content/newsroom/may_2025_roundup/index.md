@@ -10,7 +10,6 @@ taxonomies:
   news-category: [community, grid, tech]
 extra:
     imgPath: may_2025_roundup.png
-    isFeatured: true
 ---
 
 May was a month of strong developments for the ThreeFold ecosystem 🧱 bringing a new version of the grid, the first device in the 3Phone family, important DAO proposals, and an exciting demo. Here’s a quick look at what’s been happening and what’s ahead!
