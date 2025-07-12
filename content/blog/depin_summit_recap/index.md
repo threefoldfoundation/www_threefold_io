@@ -53,7 +53,7 @@ Share will soon equip the school with unlimited WiFi access, using its innovativ
 
 <br/>
 
-During our visit, some students showed off local song and dance while others even prepared and performed spoken word poetry on the theme of the Internet while. Later, that evening, a community dinner allowed conversations to deepen among builders, speakers, and local partners.
+During our visit, some students showed off local song and dance while others even prepared and performed spoken word poetry on the theme of the Internet. Later, that evening, a community dinner allowed conversations to deepen among builders, speakers, and local partners.
 
 <br/>
 
@@ -207,7 +207,7 @@ Then, nearly twenty of us returned to Zanzibar to reunite with other summit atte
 
 ### Final Reflections
 
-What an unforgettable experience. We were honored to co-host this landmark event along with EV3 and Sahre, and deeply proud to have showcased a diverse range of groundbreaking DePIN projects while spotlighting Africa as a powerful hub for emerging technology and innovation.
+What an unforgettable experience. We were honored to co-host this landmark event along with EV3 and Share, and deeply proud to have showcased a diverse range of groundbreaking DePIN projects while spotlighting Africa as a powerful hub for emerging technology and innovation.
 
 <br/>
 
