@@ -2,7 +2,7 @@
 id: vote_june_gep
 title: "Vote: GEP June's Minting"
 image_caption: Vote June GEP
-description: Calling all farmers to vote on our lates grid enhancement proposal.
+description: Calling all farmers to vote on our latest grid enhancement proposal.
 date: 2025-07-02
 taxonomies:
   people: [marion_ravarino]
