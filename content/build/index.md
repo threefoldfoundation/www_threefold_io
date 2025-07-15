@@ -220,7 +220,7 @@ extra:
 
 {{ portfolio(
   title="TF DAO",
-  description="A community-driven governance model that allows token holders to participate in decision-making processes related to the development and direction of the ThreeFold ecosystem.",
+  description="A community-driven governance model that allows farmers to participate in decision-making processes related to the development and direction of the ThreeFold ecosystem.",
   button_text="Learn More",
   button_link="https://manual.grid.tf/labs/documentation/tfconnect_toc/tfconnect_dao"
 )}}
