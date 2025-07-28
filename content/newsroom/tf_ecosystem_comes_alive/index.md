@@ -31,7 +31,7 @@ Join our [main chat](https://t.me/threefold), talk to humans</li>
 
 <li>
 
-[Buy and hold](https://manual.grid.tf/documentation/threefold_token/buy_sell_tft/buy_sell_tft.html) the token to provide fuel to the ecosystem</li>
+[Buy and hold](https://manual.grid.tf/users/buy-tft) the token to provide fuel to the ecosystem</li>
 
 <li>
 

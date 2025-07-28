@@ -16,7 +16,7 @@ extra:
 The centralization of today’s Internet raises a slew of challenges around privacy, security, and sustainability – creating some negative impact for people and our planet. Meanwhile, ThreeFold is leading a vital movement towards a decentralized IT infrastructure and ecosystem to enable a more open, secure, and sustainable digital future. Let’s break down the type of positive impact ThreeFold can have.
 
 #### Autonomous Tech to Empower Individuals & Communities
-ThreeFold’s technology is designed to run autonomously, without the need for experts to manage it. The [Zero-OS operating system](https://threefold.info/tech/tech/zos_innovation.html) directly interfaces with the hardware, automating complex tasks like server maintenance, security updates, and system management. This allows anyone to easily set up and run a cloud service, contributing to a global network of servers and nodes without requiring advanced technical skills.
+ThreeFold’s technology is designed to run autonomously, without the need for experts to manage it. The Zero-OS operating system directly interfaces with the hardware, automating complex tasks like server maintenance, security updates, and system management. This allows anyone to easily set up and run a cloud service, contributing to a global network of servers and nodes without requiring advanced technical skills.
 
 <br/>
 
@@ -27,7 +27,7 @@ By automating these processes, ThreeFold opens the door for more people to parti
 This means people and communities can own and control their data, applications, and online identities without relying on centralized providers. By equipping communities with these tools, ThreeFold fosters inclusivity, privacy, and digital independence for all.
 
 #### Solutions for Privacy and Security
-In an era plagued by data breaches and privacy concerns that dominate headlines globally, ThreeFold stands out with a comprehensive approach to digital security that includes a [Quantum Safe Storage system](https://threefold.info/tech/tech/zstor_innovation.html) and [Mycelium](https://threefold.info/tech/tech/mycelium_inno.html), a peer-to-peer overlay network developed by our team. And inherently, ThreeFold ensures that your data remains yours and is untampered with by third parties.
+In an era plagued by data breaches and privacy concerns that dominate headlines globally, ThreeFold stands out with a comprehensive approach to digital security that includes a Quantum Safe Storage system and Mycelium, a peer-to-peer overlay network developed by our team. And inherently, ThreeFold ensures that your data remains yours and is untampered with by third parties.
 
 <br/>
 

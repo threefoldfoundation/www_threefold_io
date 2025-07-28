@@ -84,7 +84,7 @@ Today, we are pleased to announce the next step in the roadmap to Web4: V4 3Node
 
 <br>
 
-**[3Phones](https://docs.threefold.io/docs/components/3phone)** are a portal into the Web4 world. We are pleased to share that we will be offering several models of 3Phones into the market based on the [Volla Phone](https://volla.online/en/) platform. 3Phones will be equipped with your own decentralized AI agent called **[3Bot](https://docs.threefold.io/docs/components/3bot)**. You can pre-order a 3Phone [here](https://threefold.io/signup).
+**[3Phones](https://docs.threefold.io/docs/components/3phone)** are a portal into the Web4 world. We are pleased to share that we will be offering several models of 3Phones into the market based on the [Volla Phone](https://volla.online/en/) platform. 3Phones will be equipped with your own decentralized AI agent called **3Bot**. You can pre-order a 3Phone [here](https://threefold.io/signup).
 
 <br>
 

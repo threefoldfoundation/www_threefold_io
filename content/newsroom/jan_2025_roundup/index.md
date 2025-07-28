@@ -54,7 +54,7 @@ The initial [V4 3Nodes](https://docs.threefold.io/docs/components/3node/) are cu
 
 <br/>
 
-[3Phones](https://docs.threefold.io/docs/components/3phone) come with [built-in decentralized apps](https://docs.threefold.io/docs/components/3bot) and seamlessly integrate with the ThreeFold Grid. The team expects a Q2 release for the 3Phone.
+[3Phones](https://docs.threefold.io/docs/components/3phone) come with built-in decentralized apps and seamlessly integrate with the ThreeFold Grid. The team expects a Q2 release for the 3Phone.
 
 <br/>
 
