@@ -40,7 +40,7 @@ It is challenging to use current Linux-based operating systems safely and effici
 
 <br/>
 
-[Zero OS](https://threefold.info/tech/tech/zos_innovation.html) is an innovative operating system, retaining the Linux kernel but fundamentally redesigned for heightened security, efficiency, and support for true peer-to-peer and decentralized workloads. This unique operating system doesn't require installation on hard disks or SSDs; it remains stateless, consistently up to date, and autonomously managed without human intervention. Its design enables scalability to millions of nodes and self-healing application delivery, opening new possibilities in system resilience and reliability.
+[Zero OS](https://manual.grid.tf/labs/knowledge_base/technology_toc/concepts_readme/zos) is an innovative operating system, retaining the Linux kernel but fundamentally redesigned for heightened security, efficiency, and support for true peer-to-peer and decentralized workloads. This unique operating system doesn't require installation on hard disks or SSDs; it remains stateless, consistently up to date, and autonomously managed without human intervention. Its design enables scalability to millions of nodes and self-healing application delivery, opening new possibilities in system resilience and reliability.
 
 ### **A quantum safe storage system**
 
@@ -52,7 +52,7 @@ Newer generation storage systems such as protocol-driven or blockchain-based sol
 
 <br/>
 
-[Quantum Safe Storage](https://threefold.info/tech/tech/zstor_innovation.html) is an ultra-scalable system capable of storing data indestructibly and efficiently. Previous versions of this system created by our team are widely used to store Zetabytes of information by large organizations.
+[Quantum Safe Storage](https://manual.grid.tf/labs/knowledge_base/technology_toc/qsss_home) is an ultra-scalable system capable of storing data indestructibly and efficiently. Previous versions of this system created by our team are widely used to store Zetabytes of information by large organizations.
 
 ### **A quantum safe network system**
 
@@ -60,7 +60,7 @@ The current centralized state of the internet poses significant security risks, 
 
 <br/>
 
-[Mycelium](https://threefold.info/tech/tech/mycelium_inno.html) is an overlay network layer designed to enhance the existing internet infrastructure while remaining compatible with all current applications. It empowers true peer-to-peer communication. Mycelium can look for the shortest path, has a built-in naming and CDN (Content Delivery) system, and can survive disaster and network cuts much more efficiently as is possible today.
+[Mycelium](https://mycelium.threefold.io) is an overlay network layer designed to enhance the existing internet infrastructure while remaining compatible with all current applications. It empowers true peer-to-peer communication. Mycelium can look for the shortest path, has a built-in naming and CDN (Content Delivery) system, and can survive disaster and network cuts much more efficiently as is possible today.
 
 ### **The only way**
 

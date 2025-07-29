@@ -70,7 +70,7 @@ There are many ways to get involved:
 
 - Join our [main chat](https://t.me/threefold), talk to humans
 - [Learn](https://manual.grid.tf/) about expanding the grid or deploying on top of it
-- [Buy and hold](https://manual.grid.tf/documentation/threefold_token/buy_sell_tft/buy_sell_tft.html) the token to provide fuel to the ecosystem
+- [Buy and hold](https://manual.grid.tf/users/buy-tft) the token to provide fuel to the ecosystem
 - [Stay tuned](https://t.me/threefoldnews) for news, updates, and community calls
 - Take part in the [feedback](https://forum.threefold.io/t/feedback-on-our-tfgrid-3-14/4276) about the next steps for ThreeFold
 
