@@ -42,6 +42,8 @@ This update brought a new Market feature which allows people to swap USDC for TF
 
 The SDK update introduced a Stellar/Solana bridge package and support for multiple SSH keys in deployments. Logged out visitors can now easily explore the apps and services available for decentralized deployment on the grid, which now includes the Open WebUI App , a new addition in this release.
 
+<br/>
+
 ### **OwnPhone: The First Device in the 3Phone Family**
 
 On May 29, 2025, YourData Network launched the [OwnPhone](https://ownphone.net/) – the first smartphone to bring the 3Phone vision to life. Powered by ThreeFold infrastructure, the OwnPhone is designed to give users full control over their data and privacy, marking a major leap forward for decentralized mobile technology.
@@ -49,6 +51,8 @@ On May 29, 2025, YourData Network launched the [OwnPhone](https://ownphone.net/)
 <br/>
 
 As OwnPhone is the first device in the 3Phone family 📱, features like 3Bot and 3AI will be made available as software upgrades as they are released. Until additional devices are released, anyone interested in 3Phone will be directed exclusively towards OwnPhone. If you’ve pre-ordered a 3Phone through ThreeFold, we’ll be in touch by email in the coming days to explain what this means for you. And our website and documentation will be updated soon to make this clear and easy to navigate.
+
+<br/>
 
 ### **Three DAO Votes Passed by the Community**
 
@@ -70,6 +74,8 @@ As we near the final phase of Grid V3 and 1 billion TFT minted, a [new proposal]
 
 Due to incidents in April that impacted uptime tracking and triggered Farmerbot violations, some farmers lost rewards. A [DAO vote](https://forum.threefold.io/t/dao-minting-april/4595) was held to propose removing those periods from April’s minting calculations and passed.
 
+<br/>
+
 ### **Demo Time: Private Networking with IPv6 and WireGuard**
 
 In this hands-on session, Scott showed how to set up private, peer-to-peer IPv6 networks using WireGuard on the ThreeFold Grid. The demo highlighted WireGuard’s speed, security, and simplicity, making it an ideal solution for creating modern, decentralized VPNs.
@@ -77,6 +83,8 @@ In this hands-on session, Scott showed how to set up private, peer-to-peer IPv6 
 <br/>
 
 Watch 📺 the full demo [here](https://youtu.be/TlJSmryxRrk?si=tSYeaS9uoQonz_YR).
+
+<br/>
 
 ### **DePIN Summit Reminder**
 
@@ -89,6 +97,8 @@ With co-founders Kristof De Spiegeleer and Florian Fournier speaking, they'll br
 <br/>
 
 There’s still time to secure your attendance if you’d like to join! Visit [depinsummit.xyz](https://depinsummit.xyz)
+
+<br/>
 
 ### **Looking Ahead** 
 Stay tuned tomorrow for a special update from the team! In addition, you can expect more information on the next version of the grid, 3.18, in the coming days. And we’ll have two more demos coming for you later in June as well. Stay tuned via our [news channel](https://t.me/threefoldnews) for more as it unfolds. 🔮
