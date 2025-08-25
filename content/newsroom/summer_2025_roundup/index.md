@@ -41,7 +41,11 @@ Bringing TF Grid 4 live with Zero OS 4 is an essential step in enabling the comm
 
 The team has been working on a simple but powerful platform to provision Kubernetes clusters with low friction of onboarding to the ThreeFold Grid. A marketplace view makes it easy for users to find what they need and credit card payments make it easy to get started.
 
+<br/>
+
 ![Image](img/kubernetes_end_aug.jpeg#mx-auto)
+
+<br/>
 
 Kubernetes delivers standard, cloud-native deployment models, empowering developers and DevOps engineers to deploy resilient, scalable workloads using familiar tools, while maintaining sovereignty over compute, storage, and networking.
 
