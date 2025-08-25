@@ -21,15 +21,15 @@ We hope your summer (or winter, depending on your hemisphere) is going well. For
 
 Let’s dive into the highlights, but before we do:
 
-***We invite you to join us for a community call with Kristof and some of the team this Friday August 29 at 16:00 CEST to go deeper into what’s shared below including: the marketplace and commercial model, the idea of a credit currency in the marketplace and how it might positively impact the ThreeFold Token, HERO, and the decentralized Kubernetes offering. Stay tuned for the link, we are planning to use a WebRTC-based solution.***
+***We invite you to join us for a community call with Kristof and some of the team this Friday August 29 at 16:00 CEST to go deeper into what’s shared below including: the marketplace and commercial model, the idea of a credit currency in the marketplace and how it might positively impact the ThreeFold Token, HERO, and the decentralized Kubernetes offering. Stay tuned for the link, we are planning to use a WebRTC-based solution.*** <br/>
 
 ### **Developing for Utilization & Revenue Generation**
 
-We are focused on delivering concrete commercial projects which have the potential to drive utilization on a large scale. For this, we needed to deliver some more technical elements.
+We are focused on delivering concrete commercial projects which have the potential to drive utilization on a large scale. For this, we needed to deliver some more technical elements. <br/>
 
 #### TF Grid 4
 
-Bringing TF Grid 4 live with Zero OS 4 is an essential step in enabling the commercialization of our network. It’s been a huge job, but we hope to have an early non-complete version by September.
+Bringing TF Grid 4 live with Zero OS 4 is an essential step in enabling the commercialization of our network. It’s been a huge job, but we hope to have an early non-complete version by September. <br/>
 
 #### Commercial Kubernetes Offering
 
