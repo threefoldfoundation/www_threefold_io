@@ -32,7 +32,7 @@ The introduction of KubeCloud is part of the greater ongoing commercialization o
 
 <br/>
 
-![Image](img/kubecloud_home#mx-auto)
+![Image](img/kubecloud_home.png#mx-auto)
 
 <br/>
 

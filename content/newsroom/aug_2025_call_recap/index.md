@@ -2,7 +2,7 @@
 id: aug_2025_call_recap
 title: "Recapping August 29 2025 Community Commercialization Discussion"
 image_caption: Recap Aug 29 2025
-description: 
+description: Read about some of our latest developments, what's launching next, and how the ecosystem is evolving.
 date: 2025-09-02
 taxonomies:
   people: [sam_taggart]
