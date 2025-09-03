@@ -20,7 +20,7 @@ In last week’s Summer/Winter 2025 Roundup, we shared a bit about KubeCloud:
 
 <br/>
 
-Kubernetes delivers standard, cloud-native deployment models, empowering developers and DevOps engineers to deploy resilient, scalable workloads using familiar tools, while maintaining sovereignty over compute, storage, and networking.**
+*Kubernetes delivers standard, cloud-native deployment models, empowering developers and DevOps engineers to deploy resilient, scalable workloads using familiar tools, while maintaining sovereignty over compute, storage, and networking.*
 
 <br/>
 
