@@ -17,8 +17,6 @@ extra:
     button1_link="/build"
     button2_text="Start Hosting",
     button2_link="/host"
-    button3_text="TF Marketplace: Soon",
-    button3_link="/newsroom/threefold-marketplace"
 
 ) }}
 
