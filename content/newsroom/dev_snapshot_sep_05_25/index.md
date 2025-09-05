@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,news]
   news-category: [news, tech]
 extra:
-    imgPath: .png
+    imgPath: dev_snapshot_sep_05_25.png
 ---
 
 The team is advancing commercialization with necessary enhancements in security, scalability, and usability across our stack – paving the way for real-world decentralized workloads. Let's take a look at recent development activities across some of our various priority projects.
