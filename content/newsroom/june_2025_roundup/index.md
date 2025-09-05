@@ -10,7 +10,6 @@ taxonomies:
   news-category: [community, grid, tech]
 extra:
     imgPath: june_2025_roundup.png
-    isFeatured: true
 ---
 
 June brought major development across the ThreeFold ecosystem! 🌟 We announced one of our  most exciting project, the ThreeFold Marketplace, prepared for the upcoming DePIN Summit Africa, shared a demo walkthrough, and more. Let’s look at the highlights!

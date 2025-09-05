@@ -10,6 +10,7 @@ taxonomies:
   news-category: [community, grid, tech]
 extra:
     imgPath: kubecloud.png
+    isFeatured: true
 ---
 
 In last week’s Summer/Winter 2025 Roundup, we shared a bit about KubeCloud:

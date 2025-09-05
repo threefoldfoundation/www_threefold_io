@@ -10,6 +10,7 @@ taxonomies:
   news-category: [community, grid, tech]
 extra:
     imgPath: summer_2025_roundup.png
+    isFeatured: true
 ---
 
 We hope your summer (or winter, depending on your hemisphere) is going well. For us, this stretch has been defined by:
