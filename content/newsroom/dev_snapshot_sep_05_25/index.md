@@ -5,7 +5,7 @@ image_caption: ThreeFold September 05 Development Snapshot
 description: A digest of the latest development activities around some of our core grid and commercial projects.
 date: 2025-09-05
 taxonomies:
-  people: [sam taggart]
+  people: [sam_taggart]
   tags: [tech,news]
   news-category: [news, tech]
 extra:
