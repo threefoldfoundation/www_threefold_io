@@ -7,6 +7,9 @@ extra:
  imgPath: home/tf.png
 ---
 
+
+{{ banner()}}
+
 <!-- section 1 (header) -->
 
 {{ hero_text_center(
