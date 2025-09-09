@@ -105,7 +105,7 @@ At the base, nodes form the physical foundation. These are distributed computers
 
 <br>
 
-Anyone can deploy nodes from their home or office and take part in hosting a decentralized alternative to corporate-owned data centers. Rewards are based on utilization, with 80% of earnings going to the hoster and 20% going to the ThreeFold Treasury.
+Anyone can deploy nodes from their home or office and take part in hosting a decentralized alternative to corporate-owned data centers. Rewards are based on utilization, with 80% of earnings going to the hoster.
 
 </div>
 
@@ -120,12 +120,12 @@ Anyone can deploy nodes from their home or office and take part in hosting a dec
 
 {{ farm_steps(
     title="2. OFFER CAPACITY",
-    description="The capacity of the node gets verified, registered and secured on the ThreeFold Blockchain. Hosters can then list their resources on the ThreeFold Marketplace, making them available directly to users."    
+    description="The capacity of the node gets verified, registered and secured on the ThreeFold Blockchain. Capacity is now available for usage. Hosters (farmers, in our ecosystem) can then list their resources on the ThreeFold Marketplace (soon), making them available directly to users."
 ) }}
 
 {{ farm_steps(
     title="3. EARN REWARDS",
-    description="Hosters earn rewards when their resources are used through the Marketplace, enabling a fair and transparent peer-to-peer economy."    
+    description="Hosters earn rewards when their resources are utilized, enabling a fair and transparent peer-to-peer economy."    
 ) }}
 
    </dl>

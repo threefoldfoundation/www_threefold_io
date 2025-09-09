@@ -15,7 +15,7 @@ extra:
     image_alt="",
     title="Become a Farmer",
     subtitle="",
-    description="and provide storage, compute & network capacity to the ThreeFold Grid",
+    description="and provide storage, compute & network capacity to the ThreeFold Grid.",
     button1_text="Get Started",
     button1_link="https://docs.threefold.io/docs/category/become-a-farmer"
     target="_blank"
@@ -191,7 +191,7 @@ Start providing capacity to others and join our Farmers community
 
 ### **A new chapter for capacity providers in the decentralized internet**
 
-With the upcoming ThreeFold Marketplace (expected late Summer 2025), farming is evolving. 
+With the upcoming ThreeFold Marketplace (expected end September 2025), farming is evolving. 
 It’s now easier than ever to share resources and earn based on real usage through a transparent, peer-to-peer platform.
 
 
