@@ -35,7 +35,7 @@ ThreeFold Farming is a unique concept in the ThreeFold ecosystem where individua
  
 - Deploy nodes (3Nodes) that connect to the ThreeFold Grid
 - Contribute computing resources (data, cloud and network) to the decentralized ThreeFold Grid
-- Earn rewards whenever your nodes provide capacity and are actively utilized on the grid.
+- Earn rewards whenever your nodes are actively utilized on the grid
 - Support a peer-to-peer cloud infrastructure alternative to centralized providers
 
 </div>
@@ -56,8 +56,7 @@ Anyone can become a ThreeFold Farmer by running nodes that contribute capacity t
 
 ### **3NODES**
 
-The ThreeFold Nodes are self-healing and autonomous. They provide data, network and cloud resources to the ThreeFold Platform, becoming active contributors to a decentralized digital infrastructure. 
-Each node still delivers a powerful combination of modern technology and thoughtfully crafted design.
+The ThreeFold Nodes are self-healing and autonomous. They provide data, network and cloud resources to the ThreeFold Platform, becoming active contributors to a decentralized digital infrastructure. Each node still delivers a powerful combination of modern technology and thoughtfully crafted design.
 
 
 <div class="flex flex-col lg:flex-row justify-center items-center my-6 lg:my-10">
@@ -72,7 +71,7 @@ Each node still delivers a powerful combination of modern technology and thought
 <blockquote class=" fade-in px-6">
 
 **A new bare metal operating system**
-Zero-OS supports all required Web2 and Web3 workloads and allows millions of nodes to operate in full autonomous mode providing lower cost, better energy efficiency, more reliability and security.
+Zero-OS supports all required Web2, Web3, and AI workloads and allows millions of nodes to operate in full autonomous mode providing lower cost, better energy efficiency, more reliability and security.
 
 <br>
 
