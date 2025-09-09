@@ -8,7 +8,7 @@ extra:
 ---
 
 
-{{ banner()}}
+
 
 <!-- section 1 (header) -->
 
