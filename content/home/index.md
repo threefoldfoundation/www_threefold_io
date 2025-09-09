@@ -13,7 +13,7 @@ extra:
 <!-- section 1 (header) -->
 
 {{ hero_text_center(
-    title="Internet Built for Everyone, By Everyone, Everywhere",
+    title="Internet Built for Everyone By Everyone, Everywhere",
     subtitle="Unleashing the Power of Decentralized Networks",
     description="ThreeFold is a fully operational, decentralized internet infrastructure – deployed locally, scalable globally, and owned and powered by the people.",
     button1_text="Start Building",
