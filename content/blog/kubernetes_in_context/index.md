@@ -10,6 +10,7 @@ taxonomies:
   categories: [decentralization, grid, tech, cloud, why]
 extra:
     imgPath: kubernetes_in_context.png
+    isFeatured: true
 ---
 
 Kubernetes (aka K8S) has become the backbone of modern software. Teams use it to deploy, scale, and operate apps and platforms across clouds, data centers, and the edge, from banking to streaming to AI.
@@ -21,8 +22,6 @@ However, despite its huge utility, most of Kubernetes still relies on centralize
 <br/>
 
 That’s exactly what our team is building with [KubeCloud](https://github.com/codescalers/kubecloud), a platform that brings Kubernetes to the decentralized ThreeFold Grid with simplicity, sovereignty, and scale.
-
-<br/>
 
 ### **So, What Exactly Does Kubernetes Do?**
 
@@ -43,19 +42,13 @@ At its core, Kubernetes helps teams run applications smoothly, no matter where t
 
 In short, Kubernetes takes the chaos out of running modern applications. That’s why it’s become the global standard.
 
-<br/>
-
 ### **Why the World Adopted K8s**
 
 K8s didn’t become the de facto standard by accident. Kubernetes adoption was fueled by two converging technology shifts: the rise of containers and the rise of the cloud.
 
-<br/>
-
 #### The Rise of Containers
 
 Containers changed how software was built and shipped. These are lightweight “boxes” that package an app with everything it needs to run. They’re faster and more portable than traditional software setups. But once teams started running hundreds or thousands of containers, they needed a smart system to organize them. Kubernetes became that system.
-
-<br/>
 
 #### The Rise of Cloud
 
@@ -64,8 +57,6 @@ Cloud computing redefined infrastructure. These platforms allow everyone to rent
 <br/>
 
 This combination made Kubernetes the go-to tool for modern infrastructure.
-
-<br/>
 
 ### **Limitations of the Centralized Kubernetes Model**
 
@@ -93,13 +84,9 @@ For AI and next-generation applications that demand both performance and soverei
 
 This is where KubeCloud comes in.
 
-<br/>
-
 ### **KubeCloud: Decentralized Kubernetes on Steroids**
 
 KubeCloud is designed to make decentralized Kubernetes both real and accessible. Instead of relying on centralized cloud providers, it provides clusters directly on the [ThreeFold Grid (TFGrid)](https://github.com/threefoldtech/tfgrid-sdk-go). The TFGrid is a decentralized, peer-to-peer cloud made up of independent capacity providers distributed worldwide. The Grid offers compute, storage, and networking resources contributed by individuals and organizations.
-
-<br/>
 
 #### What Powers KubeCloud
 
@@ -123,13 +110,9 @@ Key capabilities include:
 
 For observability, users can track cluster health through integrated Prometheus and Grafana dashboards. Exposing applications to the public internet is equally streamlined. A simplified web gateway replaces the usual complexity of ingress controllers with built-in domain and prefix-based routing.
 
-<br/>
-
 ### **What It Means for Users**
 
 So, how does KubeCloud help users? Let’s take a look.
-
-<br/>
 
 #### For Developers and DevOps
 
@@ -137,14 +120,10 @@ So, how does KubeCloud help users? Let’s take a look.
 - Runs in a decentralized environment, not a centralized vendor cloud
 - Users retain full control of compute, storage, and networking
 
-<br/>
-
 #### For Enterprises
 
 - Production-grade Kubernetes, without lock-in. Run clusters confidently, free from dependence on a single vendor.
 - Made for data-heavy teams. Tap into next-gen hardware on the ThreeFold Grid, built for AI and high-performance workloads.
-
-<br/>
 
 ### **In Closing**
 
