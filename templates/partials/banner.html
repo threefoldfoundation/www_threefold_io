@@ -1,11 +1,14 @@
 <style>
 @keyframes blink {
-  from { opacity: 1; }
-  to { opacity: 0.8; }
+  0%   { opacity: 1; }
+  50%  { opacity: 0.4; }
+  100% { opacity: 1; }
 }
+
 .blink {
-  animation: blink 2s infinite alternate;
+  animation: blink 1s infinite ease-in-out;
 }
+
 </style>
 <div id="banner" class="relative isolate flex items-center gap-x-6 overflow-hidden mt-4 bg-gray-50 px-6 py-2 sm:before:flex-1 dark:bg-gray-800/50 dark:after:pointer-events-none dark:after:absolute dark:after:inset-x-0 dark:after:bottom-0 dark:after:h-px dark:after:bg-white/10" style="background: #E6F5EC; background: radial-gradient(circle, rgba(204, 232, 217, 1) 0%, rgba(172, 193, 232, 1) 100%);">
   <p class="text-sm/6 text-gray-900 dark:text-gray-100 blink">
