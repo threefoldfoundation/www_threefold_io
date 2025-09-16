@@ -2,7 +2,7 @@
 id: QSS
 title: "The Quantum Age Is Coming: Will Your Data Survive?"
 image_caption: QSS
-description: The quantum era is here, threatening encryption, blockchains, and security. ThreeFold’s Quantum Safe Storage delivers sovereign, resilient, and unbreakable protection for data in a post-quantum world.
+description: The quantum era is approaching fast, threatening encryption, blockchains, and security. ThreeFold’s Quantum Safe Storage delivers sovereign, resilient, and unbreakable protection for data in a post-quantum world.
 date: 2025-09-16
 taxonomies:
   people: [raj_mitra]
