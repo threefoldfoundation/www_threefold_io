@@ -213,8 +213,10 @@ A subset of functionality is already implemented, with heavy changes expected as
 For step-by-step installation and deployment instructions, [see the official deployment guide](https://github.com/threefoldtech/quantum-storage/blob/master/docs/03_deployment.md).
 
 ### Comparing QSS With Traditional Storage Solutions
+
 Here is a comparison between QSS and traditional storage to show how it outperforms conventional systems.
 
+<br/>
 
 | | **QSS** | **Traditional Storage Solutions** |
 | --- | --- | --- |
@@ -228,5 +230,4 @@ Here is a comparison between QSS and traditional storage to show how it outperfo
 | **Post-Quantum Readiness** | Implements post-quantum cryptographic algorithms | Not designed with quantum resistance |
 
 ### In Closing
-ZDBFS, ZSTOR, and ZDB form a storage stack that balances performance, sovereignty, and quantum resistance. Whether deployed for simple file storage, global applications, or blockchain-grade data integrity, QSS offers enterprises and governments a way to move beyond the vulnerabilities of conventional storage and prepare for the quantum era.
-
+ZDBFS, ZSTOR, and ZDB form a storage stack that balances performance, sovereignty, and quantum resistance. Whether deployed for simple file storage, global applications, or blockchain-grade data integrity, QSS empowers organizations, developers, and individuals alike to move beyond the vulnerabilities of conventional storage and embrace a future where security, resilience, and sovereignty go hand in hand.
