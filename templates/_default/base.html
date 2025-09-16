@@ -42,10 +42,22 @@
   <!-- End Twitter universal website tag code -->
 
   {% include "partials/header.html" %}
-  <div id="content" class="px-4 lg:px-0 pt-12 overflow-hidden">
+ <div id="content" class="px-4 lg:px-0 pt-12 mt-4 overflow-hidden">
+    {# Show banner on all pages except /newsroom paths #}
+    {% set show_banner = true %}
+    {% if current_path is defined and current_path is starting_with("/newsroom") %}
+      {% set show_banner = false %}
+    {% endif %}
+    {% if show_banner %}
+      {% include "partials/banner.html" %}
+    {% endif %}
     {% block content %}{% endblock %}
 
   </div>
+
+
+
+
   <div class="px-4 md:px-8  overflow-hidden">
     {% include "partials/footer.html" %}
   </div>

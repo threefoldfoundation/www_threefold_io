@@ -25,13 +25,3 @@ The second summit saw the birth of Dunia Yetu (meaning "Our World" in Swahili), 
 <br>
 
 Looking ahead to 2024, our vision includes a continued series of gatherings focused on OurWorld, ThreeFold, and other projects and individuals prioritizing a planet-first, people-first approach to support Tanzania and the broader African continent.
-
-<br>
-
-More information: 
-
-<br>
-
-- **Summit I:** Read [Zanzibar Seeks to Become a Digital FreeZone](https://www.thecitizen.co.tz/tanzania/zanzibar/zanzibar-seeks-to-become-digital-freezone--4316150) (via The Citizen) and [Mwinyi Commits to Improvement of Digital Spaces](https://dailynews.co.tz/mwinyi-commits-to-improvement-of-digital-spaces/) (via Daily News Tanzania) for further details.
-- **Summit II:** Learn more about [Dunia Yetu](https://www.threefold.io/newsroom/duniayetulaunchdar/) 
-- **Dunia Yetu:** Read [Sovereign Internet - A game changer for Tanzania](https://www.thecitizen.co.tz/tanzania/news/national/sovereign-internet-a-game-changer-to-tanzania-startups-ecosystem-growth-449806) (via The Citizen)

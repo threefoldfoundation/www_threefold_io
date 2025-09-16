@@ -24,7 +24,7 @@ Please note that the initial v4 nodes will be reserved exclusively for testing a
 
 <br/>
 
-If you haven’t already, you can order a v4 3Node from either [DuckFarmData](https://duckfarmdata.com/) (Americas) or [HostService](https://hostservice.nl/en/) (Rest of World)!
+If you haven’t already, you can order a v4 3Node from either [DuckFarmData](https://duckfarmdata.com/) (Americas) or [YourData Network](https://yourdata.network) (Rest of World)!
 
 ### **3Phone**
 

@@ -142,10 +142,10 @@ window.onload = function () {
     });
   });
 
-  document.getElementById("filter-btn").addEventListener("click", toggleFilter);
-  document
-    .getElementById("mobile-learn-btn")
-    .addEventListener("click", toggleMenu);
+  // document.getElementById("filter-btn").addEventListener("click", toggleFilter);
+  // document
+  //   .getElementById("mobile-learn-btn")
+  //   .addEventListener("click", toggleMenu);
 };
 
 function openInNewTab(url) {
@@ -191,3 +191,4 @@ function formatStatsData(stats) {
 readingTime();
 getStats();
 document.getElementById("year").innerHTML = new Date().getFullYear();
+

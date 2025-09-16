@@ -1,0 +1,31 @@
+{% set title_1 = title_1 | default(value="") %}
+{% set title_2 = title_2 | default(value="") %}
+{% set title_3 = title_3 | default(value="") %}
+
+<div class="lg:py-24 py-12">
+    <div class="mx-auto max-w-7xl px-4 lg:px-8">
+      <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+          <dd class="fade-in order-first text-3xl font-semibold tracking-tight text-white sm:text-4xl transition-opacity duration-1000" data-observer>
+            {{ title_1 }}
+          </dd>
+        </div>
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+          <dd class="fade-in order-first text-3xl font-semibold tracking-tight text-white sm:text-4xl transition-opacity duration-1000" data-observer>
+            {{ title_2 }}
+          </dd>
+        </div>
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+          <dd class="fade-in order-first text-3xl font-semibold tracking-tight text-white sm:text-4xl transition-opacity duration-1000" data-observer>
+            {{ title_3 }}
+          </dd>
+        </div>
+      </dl>
+    </div>
+</div>
+
+
+
+  
+
+  

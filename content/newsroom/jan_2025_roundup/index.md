@@ -50,11 +50,11 @@ In December, we announced the Web4 components: V4 3Node, 3Phone (+ 3Bot), and 3R
 
 <br/>
 
-The initial [V4 3Nodes](https://docs.threefold.io/docs/components/3node/) are currently being sold by two vendors from the community – HostService and Duck Farm Data! 🤝 The development team is actively working on v4 infrastructure and one of our primary goals for 2025 is to expand the v4 grid – substantially . We’re building a node sale campaign 🌏 as we speak and this will ramp up in the coming months.
+The initial [V4 3Nodes](https://docs.threefold.io/docs/components/3node/) are currently being sold by two vendors from the community – YourData Network and Duck Farm Data! 🤝 The development team is actively working on v4 infrastructure and one of our primary goals for 2025 is to expand the v4 grid – substantially . We’re building a node sale campaign 🌏 as we speak and this will ramp up in the coming months.
 
 <br/>
 
-[3Phones](https://docs.threefold.io/docs/components/3phone) come with [built-in decentralized apps](https://docs.threefold.io/docs/components/3bot) and seamlessly integrate with the ThreeFold Grid. The team expects a Q2 release for the 3Phone.
+[3Phones](https://docs.threefold.io/docs/components/3phone) come with built-in decentralized apps and seamlessly integrate with the ThreeFold Grid. The team expects a Q2 release for the 3Phone.
 
 <br/>
 

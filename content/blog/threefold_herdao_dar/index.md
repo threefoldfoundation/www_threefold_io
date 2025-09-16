@@ -22,8 +22,7 @@ At ThreeFold, we are deeply committed to promoting diversity and inclusion withi
 
 ### ThreeFold x H.E.R DAO
 
-On Monday, ThreeFold and [H.E.R DAO](https://www.her-dao.xyz/), a women-centered developer DAO with a focus on inclusivity, joined forces to host a meetup in Dar Es Salaam, attracting over 50 students, developers, and tech enthusiasts. 
-Read more about the [event](https://www.threefold.io/newsroom/tfherdaorecap/). 
+On Monday, ThreeFold and [H.E.R DAO](https://www.her-dao.xyz/), a women-centered developer DAO with a focus on inclusivity, joined forces to host a meetup in Dar Es Salaam, attracting over 50 students, developers, and tech enthusiasts.
 
 <br>
 
@@ -40,4 +39,3 @@ Moreover, our commitment to diversity and inclusion extends beyond partnerships;
 <br>
 
 Each step forward brings us closer to realizing our vision of a more inclusive and equitable technology industry, where everyone has the opportunity to thrive, regardless of background or identity. 
-Discover our [Dunia Yetu initiative](https://www.threefold.io/newsroom/duniayetulaunchdar/)  and follow our latest developments. 

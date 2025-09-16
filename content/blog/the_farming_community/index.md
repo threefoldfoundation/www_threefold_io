@@ -40,7 +40,7 @@ ThreeFold Farmers not only provide capacity but also take the opportunity of Thr
 
 </br>
 
-The ThreeFold farming community is an integral part of our [decentralized autonomous organization (DAO)](https://manual.grid.tf/documentation/dashboard/tfchain/tf_dao.html). A farmer's participation in the DAO discussions and proposals is pivotal as we chart the course for the grid's evolution, from our current version 3.14 release and beyond. Together, we're actively building the grid's future, thanks to our dedicated farmers' collaborative efforts. Join us, share your ideas, and let's shape the future of the ThreeFold Grid together.
+The ThreeFold farming community is an integral part of our decentralized autonomous organization (DAO). A farmer's participation in the DAO discussions and proposals is pivotal as we chart the course for the grid's evolution, from our current version 3.14 release and beyond. Together, we're actively building the grid's future, thanks to our dedicated farmers' collaborative efforts. Join us, share your ideas, and let's shape the future of the ThreeFold Grid together.
 
 ### **The Future of the Farming Community**
 

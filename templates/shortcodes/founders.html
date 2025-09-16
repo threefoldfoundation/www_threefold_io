@@ -1,0 +1,75 @@
+{% set name = name | default(value="") %}
+{% set title = title | default(value="") %}
+{% set linkedin_link = linkedin_link | default(value="") %}
+{% set description_1 = description_1 | default(value="") %}
+{% set description_2 = description_2 | default(value="") %}
+{% set image_src = image_src | default(value="") %}
+{% set image_alt = image_alt | default(value="") %}
+
+
+    <section class="max-w-7xl px-4 mx-auto flex items-center justify-center isolate overflow-hidden py-8">
+      <div class="flex flex-col lg:flex-row items-center">
+        <!-- Left Content -->
+        <div class="w-full lg:w-1/2 flex justify-center">
+          <img src="{{ image_src }}" alt="{{ image_alt }}" 
+               class="fade-in w-full lg:w-2/3 rounded-lg grayscale">
+        </div>       
+      
+        <!-- Right Content -->
+        <div class="w-full lg:mt-0 mt-6 lg:w-1/2 lg:text-left">
+          <div class="flex items-center gap-3 fade-in">
+            <h2 class="text-balance font-bold tracking-tight text-white text-xl lg:text-4xl">
+              {{ name }}
+            </h2>
+            <a href="{{ linkedin_link }}" target="_blank" 
+               class="mx-2 bg-white hover:gray-500 text-white p-2 rounded-lg transition">
+              <svg class="w-5 h-5" fill="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.98 3.5C4.98 4.60457 4.08557 5.5 2.98 5.5C1.87443 5.5 0.98 4.60457 0.98 3.5C0.98 2.39543 1.87443 1.5 2.98 1.5C4.08557 1.5 4.98 2.39543 4.98 3.5ZM1 7H5V21H1V7ZM8 7H12V9.26C12.6325 8.2665 13.878 7 16 7C19.3125 7 21 9.006 21 12.94V21H17V13.71C17 11.587 16.5045 10.5 15.022 10.5C13.5395 10.5 13 11.79 13 13.71V21H9V7H8Z"/>
+              </svg>
+            </a>
+          </div>
+          <p class="mx-auto text-pretty text-lg lg:text-2xl font-medium text-gray-200 fade-in">{{ title }}</p>
+          <p class="mx-auto mt-6 text-pretty text-base font-normal text-gray-200 fade-in">
+           {{ description_1 }}
+           <br>
+           {{ description_2 }}
+          </p>
+        </div>
+      </div>  
+    </section>
+
+
+
+<style>
+
+      /* Apply the blinking animation to the link */
+ .blinking-effect {
+  animation: blink 2s infinite; /* Adjust the speed here (1.5s for slow blinking) */
+}
+
+  /* Define the fade-in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Apply the fade-in animation to elements with the 'fade-in' class */
+  .fade-in {
+    animation: fadeIn 4s ease-in-out forwards; /* Adjust the duration (2s) to make it slower or faster */
+  }
+
+  /* Optional: Delay the animation for a more staggered effect */
+  h2 {
+    animation-delay: 0.5s; /* Delay for header */
+  }
+
+  p {
+    animation-delay: 1s; /* Delay for paragraphs */
+  }
+</style> 
+
+  

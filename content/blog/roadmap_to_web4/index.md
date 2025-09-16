@@ -80,11 +80,11 @@ Today, we are pleased to announce the next step in the roadmap to Web4: V4 3Node
 
 <br>
 
-**3Nodes** are a familiar concept in the ThreeFold ecosystem, now also entering their fourth generation. Nodes provide capacity to the network, and in exchange generate rewards. Today, in collaboration with ThreeFold community vendors HostServiceNL in Europe and DuckFarmData in North America, we are announcing three different models of the V4 3Node. You can find more info and how to place orders [here](https://docs.threefold.io/docs/become-a-farmer/get_started).
+**3Nodes** are a familiar concept in the ThreeFold ecosystem, now also entering their fourth generation. Nodes provide capacity to the network, and in exchange generate rewards. Today, in collaboration with ThreeFold community vendors YourData Network in Europe and DuckFarmData in North America, we are announcing three different models of the V4 3Node. You can find more info and how to place orders [here](https://docs.threefold.io/docs/become-a-farmer/get_started).
 
 <br>
 
-**[3Phones](https://docs.threefold.io/docs/components/3phone)** are a portal into the Web4 world. We are pleased to share that we will be offering several models of 3Phones into the market based on the [Volla Phone](https://volla.online/en/) platform. 3Phones will be equipped with your own decentralized AI agent called **[3Bot](https://docs.threefold.io/docs/components/3bot)**. You can pre-order a 3Phone [here](https://threefold.io/signup).
+**[3Phones](https://docs.threefold.io/docs/components/3phone)** are a portal into the Web4 world. We are pleased to share that we will be offering several models of 3Phones into the market based on the [Volla Phone](https://volla.online/en/) platform. 3Phones will be equipped with your own decentralized AI agent called **3Bot**. You can pre-order a 3Phone [here](https://threefold.io/signup).
 
 <br>
 
@@ -92,7 +92,7 @@ And then there are **[3Routers](https://docs.threefold.io/docs/components/3route
 
 <br>
 
-<iframe width="896" height="504" src="https://www.youtube.com/embed/Z3TRrwxOIz0?si=fCnX1D1uHnU4k411" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="866" height="487" src="https://www.youtube.com/embed/Z3TRrwxOIz0?si=fCnX1D1uHnU4k411" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br>
 

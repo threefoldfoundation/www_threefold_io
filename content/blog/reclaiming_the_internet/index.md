@@ -10,6 +10,7 @@ taxonomies:
   categories: [decentralization, grid, tech]
 extra:
     imgPath: reclaiming_the_internet.png
+    isFeatured: true
 ---
 
 In a world where access to the internet is increasingly mediated by tech giants, ThreeFold is delivering on what Web3 promised but has not delivered: a truly user-owned, peer-to-peer internet. Instead of building on someone else’s servers, ThreeFold started from the ground up with infrastructure, compute, storage, and network – to make the internet what it was supposed to be. Open. Resilient. Owned by the people.

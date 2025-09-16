@@ -10,6 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: web4_evolution.png
+    isFeatured: true
 ---
 
 Over the years, ThreeFold has joined hands with people across the world forming a dedicated community. We are very grateful to the community for your time, energy, resources, and overall commitment – together we have built a decentralized cloud that is now available across more than 50 countries.
@@ -36,11 +37,11 @@ On that note, today we announce the following new features that will prepare us 
 
 <br/>
 
-**3Bot**: 3Bot is your AI-driven virtual system administrator. With it you can manage decentralized applications effortlessly with 100% uptime, empowering users with complete control over their digital ecosystem. 3Bot is pre-installed on every 3Phone. Learn more about 3Bot [here](https://docs.threefold.io/docs/components/3bot).
+**3Bot**: 3Bot is your AI-driven virtual system administrator. With it you can manage decentralized applications effortlessly with 100% uptime, empowering users with complete control over their digital ecosystem. 3Bot is pre-installed on every 3Phone.
 
 <br/>
 
-**3AI**: 3AI is an AI-driven agent (leveraging Morpheus AI) designed to empower individuals with a private, secure, and decentralized AI experience on the 3Phone. Learn more about 3AI [here](https://docs.threefold.io/docs/components/3AI).
+**3AI**: 3AI is an AI-driven agent (leveraging Morpheus AI) designed to empower individuals with a private, secure, and decentralized AI experience on the 3Phone.
 
 <br/>
 
@@ -48,15 +49,7 @@ On that note, today we announce the following new features that will prepare us 
 
 <br/>
 
-3Node: V4 nodes are available now and you can buy them directly via our official partners – [HostService](https://hostservice.nl/en/) (Europe, Asia, Africa, and Australia) and [Duck Farm Data](https://duckfarmdata.com/) (Americas), both long-time participants of the ThreeFold community.
-
-<br/>
-
-**BTC**: The ThreeFold ecosystem will fully embrace Bitcoin (BTC) as a native payment and reward mechanism. Users will seamlessly utilize BTC to access any product or service within the ThreeFold ecosystem, from deploying workloads to paying for services. Learn more [here](https://docs.threefold.io/docs/components/bitcoin).
-
-<br/>
-
-TFT will be made available on multiple blockchains – Solana is the first one.
+**3Node**: V4 nodes are available now and you can buy them directly via our official partners – [YourData Network](https://yourdata.network/) (Europe, Asia, Africa, and Australia) and [Duck Farm Data](https://duckfarmdata.com/) (Americas), both long-time participants of the ThreeFold community.
 
 <br/>
 

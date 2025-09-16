@@ -1,0 +1,39 @@
+{% set title = title | default(value="") %}
+{% set image_src = image_src | default(value="") %}
+{% set image_alt = image_alt | default(value="") %}
+{% set description = description | default(value="") %}
+{% set subtitle = subtitle | default(value="") %}
+{% set button_link = button_link | default(value="") %}
+{% set button_text = button_text | default(value="") %}
+{% set image_src_right = image_src_right | default(value="") %}
+{% set image_alt_right = image_alt_right | default(value="") %}
+
+
+  <div class="mx-auto max-w-7xl mt-8 lg:px-0">
+    <div class="bg-white/5 rounded-md relative isolate overflow-hidden bg-red-700 lg:flex lg:items-center lg:gap-x-20 ">
+      
+      <!-- Text Column -->
+      <div class="max-w-md lg:max-w-xl text-left px-4 lg:px-16">
+        <img class="fade-in mb-4" width="30%" src="{{ image_src }}" alt="{{ image_alt }}">
+        <h2 class="text-3xl font-bold tracking-tight text-white">{{ title }}</h2>
+        <dt class="text-lg font-normal text-white">{{ subtitle }}</dt>
+        <p class="mt-2 text-base text-white">{{ description }}</p>
+        <div class="mt-6 flex items-center gap-x-6">
+          <a href="{{ button_link }}" class="fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">{{ button_text }}</a>
+        </div>
+      </div>
+
+      <!-- Image Column -->
+      <div class="w-full lg:w-1/2 mt-12 lg:mt-0">
+        <img class="w-full h-auto rounded-md" src="{{ image_src_right }}" alt="{{ image_alt_right }}">
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="mt-6 lg:mt-12 flex flex-col lg:flex-row items-center justify-center gap-x-6">
+  <a href="/build" class="mr-2 my-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Start Deploying</a>
+  <a href="https://dashboard.grid.tf/#/tf-grid/node-statistics/" class="mr-2 my-2 fade-in rounded-2xl bg-white px-8 py-2.5 text-sm font-semibold text-black shadow-sm hover:text-gray-800 hover:bg-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" target="_blank">Explore Dashboard</a>
+  
+</div>

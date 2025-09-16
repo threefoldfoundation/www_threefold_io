@@ -38,6 +38,8 @@
     {%endif%}
     <meta name="twitter:card" content="summary">
     {% endblock title %}
+    <!-- CSS/SCSS -->
+    <link rel="stylesheet" href="{{ get_url(path='css/index.css', trailing_slash=false, cachebust=true) | safe }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
     <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
@@ -97,8 +99,6 @@
     <!-- Windows 8, IE 10 -->
     <!-- Windows 8.1 and up, IE 11 -->
     <!-- **** CONCLUSION, favicons **** -->
-    <!-- CSS/SCSS -->
-    <link rel="stylesheet" href="{{ get_url(path='css/index.css', trailing_slash=false, cachebust=true) | safe }}">
     <style>
     .space-x-10>:not([hidden])~:not([hidden]){
       margin-left: calc(1.5rem*calc(1 - var(--tw-space-x-reverse)))!important;
