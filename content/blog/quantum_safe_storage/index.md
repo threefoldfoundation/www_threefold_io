@@ -6,7 +6,7 @@ description: The quantum era is here, threatening encryption, blockchains, and s
 date: 2024-06-21
 taxonomies:
   people: [raj_mitra]
-  tags: [tech,grid,community
+  tags: [tech,grid,community]
   categories: [tech,grid,community]
 extra:
     imgPath: QSS_blog.png
