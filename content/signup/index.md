@@ -9,7 +9,7 @@ extra:
 ---
 
 
-<div class="w-screen h-screen">
+<div class="h-screen">
   <iframe
     src="https://signup.threefold.io/"
     class="w-full h-full border-0"
