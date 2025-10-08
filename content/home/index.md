@@ -352,9 +352,7 @@ Explore all the products that are driving this transformation.
     button_text_1="Participate",
     button_link_1="/signup",
     button_text_2="Stay Updated",
-    button_link_2="https://t.me/threefoldnews",
-    button_text_3="Chat",
-    button_link_3="https://t.me/threefold"
+    button_link_2="https://t.me/threefoldnews"
 ) }}
 
 

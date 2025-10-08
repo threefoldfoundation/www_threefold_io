@@ -22,9 +22,11 @@
         <a href="{{ button_link_2 }}" target="_blank" class="blinking-effect rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-200 hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mb-4 lg:mb-0">
           {{ button_text_2 }}
         </a>
+        {% if button_link_3 %}
         <a href="{{ button_link_3 }}" target="_blank" class="blinking-effect rounded-2xl bg-white px-4 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-200 hover:text-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mb-4 lg:mb-0">
           {{ button_text_3 }}
         </a>
+        {% endif%}
         {% if button_link_4 %}
         <a href="{{ button_link_4 }}" class="fade-in text-sm/6 font-semibold text-white">{{ button_text_4 }}<span aria-hidden="true">→</span></a>
          {% endif%}

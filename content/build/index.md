@@ -246,9 +246,7 @@ extra:
     button_text_1="Participate",
     button_link_1="https://form.typeform.com/to/GO9G8ZBa",
     button_text_2="Stay Updated",
-    button_link_2="https://t.me/threefoldnews",
-    button_text_3="Chat",
-    button_link_3="https://t.me/threefold"
+    button_link_2="https://t.me/threefoldnews"
 ) }}
 
 

@@ -168,11 +168,6 @@ Start providing capacity to others and join our Farmers community
     card_link="https://manual.grid.tf/farmers/category/build-a-3node"
 ) }}
 
-{{ image_card(
-    header="Farmers community",
-    tooltip=" ",
-    card_link="/community"
-) }}
 
 </div>
 </div>
@@ -288,9 +283,8 @@ Farming is just one core part of our ecosystem, here are all the products drivin
     button_text_1="Participate",
     button_link_1="/signup",
     button_text_2="Stay Updated",
-    button_link_2="https://t.me/threefoldnews",
-    button_text_3="Chat",
-    button_link_3="https://t.me/threefold"
+    button_link_2="https://t.me/threefoldnews"
+
 ) }}
 
 

@@ -172,9 +172,7 @@ Over the past decades, we’ve tackled complex challenges in areas such as data 
     button_text_1="Participate",
     button_link_1="/signup",
     button_text_2="Stay Updated",
-    button_link_2="https://t.me/threefoldnews",
-    button_text_3="Chat",
-    button_link_3="https://t.me/threefold"
+    button_link_2="https://t.me/threefoldnews"
 ) }}
 
 
