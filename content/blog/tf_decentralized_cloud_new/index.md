@@ -1,6 +1,6 @@
 ---
 id: tf_decentralized_cloud_newthreefold_impact
-title: "ThreeFold’s Decentralized Cloud: Turning Infrastructure into Real Products"
+title: "How ThreeFold's Decentralized Cloud Empowers Builders – and End Users"
 image_caption: technology
 description: ThreeFold isn’t just a vision for the future. It’s a functioning, decentralized infrastructure already in production.
 date: 2025-10-08
