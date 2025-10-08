@@ -73,7 +73,7 @@ If you’re a developer or small company wanting to launch a product in a secure
 
 <br/>
 
-- Explore the [ThreeFold Grid](https://docs.threefold.io/docs/howitworks/how_it_works/)
+- Explore the [ThreeFold Grid](https://dashboard.grid.tf/#/)
 - Read through [our manual](https://manual.grid.tf/)
 - Join the [forum](https://forum.threefold.io/)
 
