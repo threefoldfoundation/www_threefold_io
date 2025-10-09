@@ -49,8 +49,6 @@ Below is a summary of the team’s outputs on key products and features over the
 
 #### KubeCloud (Active Development – v0.1.0 base)
 
-<br/>
-
 - Rapid progress on edge Kubernetes platform with multi-master K8s cluster support, automated scaling (CRDs), integrated Stripe billing with millicent precision, EWF workflow engine with Gorm store, robust node management (resource-based filtering, KYC verification, maintenance mode), and real-time updates via SSE
 - Frontend enhancements include cluster editing, SSH key management, and admin announcements, currently in active development toward production readiness.
 
@@ -141,6 +139,8 @@ We also hosted a demo on Quantum Safe Filesystem and Quantumd although we ran in
 <br/>
 
 ### **Blogs Published**
+Several blogs were published in the past weeks centered on grid commercialization:
+
 - [Kubernetes in Context](https://threefold.io/blog/kubernetes-in-context/): Kubernetes has reshaped how the world builds and runs software but faces key challenges because of centralization. ThreeFold has a solution.
 - [The Quantum Age is Coming](https://www.threefold.io/blog/quantum-safe-storage/): The quantum era is approaching fast, threatening encryption, blockchains, and security. ThreeFold’s Quantum Safe Storage delivers sovereign, resilient, and unbreakable protection for data in a post-quantum world.
 - [Decentralization in Production](https://www.threefold.io/blog/tf-decentralized-cloud-new/): A network of decentralized nodes around the world power live workloads for developers and independent projects. This isn’t a vision for the future. It’s a functioning, decentralized infrastructure already in production.
