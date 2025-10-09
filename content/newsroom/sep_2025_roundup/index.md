@@ -27,12 +27,16 @@ TF Tech is advancing commercial discussions and ecosystem collaborations, while 
 
 Regarding current traction, we now have more than five major channels ready to offtake grid capacity, but we are in a chicken and egg situation. We need more nodes, especially in highly connected locations, to support the needs of these partners. Here are some items which we are working on addressing to improve the situation and reduce friction for grid users:
 
+<br/>
+
 - Implement new utilization based rewards system
 - Minimal implementation of marketplace (farmers set own price, etc)
 - Launch Kubernetes Cloud offering (tech ready, requires above bullet to be resolved)
 - More high-quality high-performance nodes, and many more GPUs
 - V4 of of the grid with ZOS V4 (2-3 months till production; for now we can use V3)
 - End-user applications on top of the grid for some of these channels to sell
+
+<br/>
 
 Tomorrow, we will share more information on the above and announce a community call to discuss further. Now, as for your September recap:
 
@@ -44,8 +48,13 @@ Below is a summary of the team’s outputs on key products and features over the
 <br/>
 
 #### KubeCloud (Active Development – v0.1.0 base)
+
+<br/>
+
 - Rapid progress on edge Kubernetes platform with multi-master K8s cluster support, automated scaling (CRDs), integrated Stripe billing with millicent precision, EWF workflow engine with Gorm store, robust node management (resource-based filtering, KYC verification, maintenance mode), and real-time updates via SSE
 - Frontend enhancements include cluster editing, SSH key management, and admin announcements, currently in active development toward production readiness.
+
+<br/>
 
 *This is one of our commercial products in development. From a technical perspective, it is more or less complete but needs minimal implementation of the marketplace.*
 
@@ -57,6 +66,8 @@ Below is a summary of the team’s outputs on key products and features over the
 - Improved key management with a dedicated generate-keys command.
 - Strengthened RPC API error handling for cleaner message polling
 - Builds on v0.6.1 improvements such as better route handling, new peer discovery metrics, and critical security fixes.
+
+<br/>
 
 *A team is currently working on the Mycelium Network experience layer. This is one of the above-mentioned end user products in development.*
 
@@ -86,6 +97,8 @@ Below is a summary of the team’s outputs on key products and features over the
 #### TFGrid Gateway
 - A complete solution for deploying IPv4 gateway VMs on the ThreeFold Grid, leveraging Terraform/OpenTofu for infrastructure provisioning and automated configuration to ensure secure, reliable network connectivity.
 
+<br/>
+
 *Check out the demo on this offering from September, link down below.*
 
 <br/>
@@ -104,11 +117,15 @@ As announced in September, the last round of minting of TFT will be this month, 
 ### **Community Call**
 We hosted a call with some of our more active community members to share transparent progress. As mentioned above, we’ll be hosting a similar call next week. Some highlights from our last call:
 
+<br/>
+
 - Marketplace: Soft launch very soon; first commercialization step with farmer-set prices, buy/sell resources, and transparent revenue.
 - Decentralized Kubernetes: One-click deployments with scaling, redundancy, and discounts for full-node use. Product nearly ready.
 - AI Agents: Becoming the main user interface for the grid – autonomy, memory, and personal data control.
 - Token & Governance: Minting ends in October; TFT capped at 1B. Cooperative model with open dashboards and governance.
 - Community Requests: Messenger app in development; other asks include email, backups, and clearer communication.
+
+<br/>
 
 Read full recap [here](https://forum.threefold.io/t/recapping-august-29-community-call/4630).
 
