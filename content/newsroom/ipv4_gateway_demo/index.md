@@ -32,7 +32,7 @@ It’s more than a proof of concept; it is a template for builders to play with,
 
 <br/>
 
-Watch the demo [here](https://www.youtube.com/watch?v=L36FbD3oY2s) with timestamps for easy navigation, and leave your feedback [here] (https://forum.threefold.io/t/watch-tf-grid-ipv4-gateway-demo/4640).
+Watch the demo [here](https://www.youtube.com/watch?v=L36FbD3oY2s) with timestamps for easy navigation, and leave your feedback [here](https://forum.threefold.io/t/watch-tf-grid-ipv4-gateway-demo/4640).
 
 <br/>
 
