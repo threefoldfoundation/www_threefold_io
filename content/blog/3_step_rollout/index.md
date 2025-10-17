@@ -1,8 +1,8 @@
 ---
 id: 3_step_rollout
-title: The Three Step Rollout Towards a Sovereign Agentic Cloud
+title: The Three Step Rollout to a Sovereign Agentic Cloud
 image_caption: technology
-description: "ThreeFold’s three step rollout builds a Sovereign Agentic Cloud through three architectural layers: Cloud, Network, and Agents – enabling a new generation of cloud and AI infrastructure."
+description: "ThreeFold is enabling a Sovereign Agentic Cloud through three architectural layers: Cloud, Network, and Agents – a new generation of cloud and AI infrastructure."
 date: 2025-10-17
 taxonomies:
   people: [raj_mitra]
@@ -32,15 +32,15 @@ This is not just another version of the internet, it’s the necessary foundatio
 
 </br>
 
-Our roadmap to this future unfolds in three phases:
+Our rollout to this future is unfolding now in three phases:
 
-- The Cloud
-- The Network
-- The Agents
+- The Cloud: Live
+- The Network: Live
+- The Agents: January 2026
 
 </br>
 
-Each phase builds on the one before it, sequentially creating the architecture for a truly sovereign agentic cloud.
+Each layer builds on the one before it, sequentially creating the architecture for a truly sovereign agentic cloud.
 
 </br>
 
@@ -71,7 +71,7 @@ The result is a production-grade environment that offers the usability of conven
 
 </br>
 
-While ThreeFold’s community-driven open-source cloud has been live for years, this new Kubernetes-based solution marks a major evolution: simplified, commercial-ready, and purpose-built to host the next generation of autonomous agents. It’s the necessary foundation for the sovereign agentic cloud.
+While ThreeFold’s community-driven open-source cloud has been live for years with [builders already commercializing its resources](/blog/tf-decentralized-cloud-new/), this new Kubernetes-based solution marks a major evolution: simplified, commercial-ready, and purpose-built to host the next generation of autonomous agents. It’s the necessary foundation for the sovereign agentic cloud.
 
 <br/>
 
