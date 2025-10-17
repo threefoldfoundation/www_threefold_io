@@ -2,10 +2,10 @@
 id: 3_step_rollout
 title: The Three Step Rollout Towards a Sovereign Agentic Cloud
 image_caption: technology
-description: "ThreeFold’s Three Step Rollout builds the Sovereign Agentic Cloud through three phases: Cloud, Network, and Agents, creating a decentralized, intelligent, and user-owned internet."
+description: "ThreeFold’s three step rollout builds a Sovereign Agentic Cloud through three phases: Cloud, Network, and Agents – creating a decentralized, intelligent, and user-owned internet."
 date: 2025-10-17
 taxonomies:
-  people: [sam_taggart, raj_mitra]
+  people: [raj_mitra]
   tags: [tech,grid,community]
   categories: [tech,grid,community]
 extra:
@@ -13,7 +13,7 @@ extra:
     isFeatured: true
 ---
 
-The internet is evolving once again, but this time, not through new social networks or smarter chatbots. What we’re witnessing is the emergence of an agentic internet, where autonomous digital agents will become the foundation of online life.
+The internet is evolving once again – but this time, not through the types of platforms or services that defined past waves. What we’re witnessing is the emergence of an **agentic internet**, where autonomous digital agents will become the foundation of online life.
 
 </br>
 
@@ -54,7 +54,7 @@ But capacity alone means little without coordination. That’s where the **Netwo
 
 With computation and connectivity in place, the system becomes ready for cognition – the **Agents**. These self-owned AI agents emerge as the logical extension of the architecture, using the Cloud for processing and the Network for communication. Together, they form the first generation of decentralized, autonomous intelligence.
 
-#### The Cloud
+### **The Cloud**
 The Cloud forms the foundation, a 100% Kubernetes-compatible compute and storage layer that operates as a global, distributed cloud.
 
 </br>
@@ -73,8 +73,11 @@ The result is a production-grade environment that offers the usability of conven
 
 While ThreeFold’s community-driven open-source cloud has been live for years, this new Kubernetes-based solution marks a major evolution: simplified, commercial-ready, and purpose-built to host the next generation of autonomous agents. It’s the necessary foundation for the sovereign agentic cloud.
 
-#### The Network
+<br/>
 
+Stay tuned this month for the release of the Kubernetes Cloud.
+
+### **The Network**
 The next step extends this foundation into a living, intelligent network layer.
 
 </br>
@@ -101,8 +104,7 @@ What sets this network apart is not just its autonomy, but its evolutionary beha
 
 Parts of the network are already operational, with ongoing developments making it ever more powerful, efficient, and resource-rich.
 
-#### The Agents
-
+### **The Agents**
 The final phase brings the architecture to life: the Agent Layer, the cognitive and operational tier of the Sovereign Agentic Cloud.
 
 </br>
@@ -117,8 +119,7 @@ These personal agents can coordinate networks of "Worker Agents," each capable o
 
 Supporting them is a secure foundation of semantic search, private active memory, and long-term, zero-knowledge storage, allowing agents to learn, reason, and operate within encrypted, self-contained sandboxes. 
 
-##### Agent Layer Evolution: From AGI to ACI
-
+#### Agent Layer Evolution: From AGI to ACI
 While much of the world is racing toward AGI (Artificial General Intelligence) – massive centralized systems aiming to replicate human cognition – we’re charting a different course.
 
 </br>
@@ -133,10 +134,8 @@ ThreeFold’s approach is rooted in Augmented Collective Intelligence (ACI). Not
 
 There’s no hidden monetization model, no surveillance layer, no opaque black box where your information disappears. Each agent learns locally, contributes globally, and respects the sovereignty of its user. It’s a model of intelligence that grows organically, not hierarchically.
 
-#### Building The Vision
-
+### **Building The Vision**
 That is the vision of what we call the Sovereign Agentic Cloud: a fully decentralized ecosystem where the Cloud provides resilient compute and storage, the Network connects nodes into an intelligent, self-healing mesh, and the Agent layer brings autonomous, personal intelligence to life. Together these layers form a self-sovereign foundation for the next generation of digital life.
-
 
 </br>
 
