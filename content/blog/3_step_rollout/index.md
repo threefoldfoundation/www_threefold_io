@@ -2,7 +2,7 @@
 id: 3_step_rollout
 title: The Three Step Rollout Towards a Sovereign Agentic Cloud
 image_caption: technology
-description: ThreeFold’s Three Step Rollout builds the Sovereign Agentic Cloud through three phases: Cloud, Network, and Agents, creating a decentralized, intelligent, and user-owned internet.
+description: "ThreeFold’s Three Step Rollout builds the Sovereign Agentic Cloud through three phases: Cloud, Network, and Agents, creating a decentralized, intelligent, and user-owned internet."
 date: 2025-10-17
 taxonomies:
   people: [sam_taggart, raj_mitra]
