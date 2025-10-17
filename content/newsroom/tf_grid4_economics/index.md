@@ -29,6 +29,9 @@ What happens next: community review, refinement, community call (to be announced
 </br>
 
 ❗️ [Read the Ebook](https://threefold.info/economics/)
+
+</br>
+
 ✍️ [Provide Feedback](https://forum.threefold.io/t/tf-grid-4-economics-community-e-book/4647)
 
 
