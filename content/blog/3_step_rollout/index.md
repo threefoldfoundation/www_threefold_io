@@ -28,7 +28,7 @@ At ThreeFold, we believe the decentralized path requires a new kind of digital f
 
 </br>
 
-This is not just another version of the internet, it’s the necessary foundation for a decentralized digital ecosystem built for the future: a new generation of cloud and AI infrastructure that is faster, greener, and smarter.
+This is not just another version of the internet, it’s the necessary foundation for a decentralized digital ecosystem built for the future: a new generation of cloud and AI infrastructure that is faster, greener, smarter, private, and secure.
 
 </br>
 
