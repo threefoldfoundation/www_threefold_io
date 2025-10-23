@@ -28,7 +28,7 @@ At ThreeFold, we believe the decentralized path requires a new kind of digital f
 
 </br>
 
-This is not just another version of the internet, it’s the necessary foundation for a decentralized digital ecosystem built for the future: a new generation of cloud and AI infrastructure that is faster, greener, and smarter.
+This is not just another version of the internet, it’s the necessary foundation for a decentralized digital ecosystem built for the future: a new generation of cloud and AI infrastructure that is faster, greener, smarter, private, and secure.
 
 </br>
 
@@ -86,7 +86,7 @@ This step introduces a full suite of decentralized network services – includin
 
 </br>
 
-These gateways transform ordinary grid nodes into public-facing endpoints, solving one of the hardest problems in decentralized hosting: achieving global accessibility without dependence on scarce IPv4 addresses or centralized ISPs. 
+These gateways transform ordinary grid nodes into public-facing endpoints, solving one of the hardest problems in decentralized hosting: achieving global accessibility while providing greater independence from scarce IPv4 addresses and centralized ISPs.
 
 </br>
 
@@ -94,7 +94,7 @@ Traffic moves dynamically across the mesh. Every connection is encrypted end-to-
 
 </br>
 
-When a node or connection goes down, the network self-heals, rerouting traffic in real time to maintain uptime. This allows workloads running anywhere on the grid, even on devices without public IPs, to communicate securely and perform as if they were hosted in a single, unified data center. 
+When a node or connection goes down, the network self-heals, rerouting traffic in real time to maintain uptime. This allows workloads running anywhere on the grid, even on devices without public IPs, to communicate securely and act as if they were hosted in a single, unified data center. 
 
 </br>
 
