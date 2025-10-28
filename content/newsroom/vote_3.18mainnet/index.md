@@ -1,7 +1,7 @@
 ---
-id: vote_3.18
+id: vote_318
 title: "Vote Now: TF Grid 3.18 Mainnet Release"
-image_caption: tf_commeecialization
+image_caption: tf_commercialization
 description: ThreeFold Grid 3.18 is ready for Mainnet release! This version brings major improvements in performance, stability, and user experience across the entire ThreeFold stack, including TFChain, ZOS, RMB, Mycelium, and MyceliumFlut.
 date: 2025-10-24
 taxonomies:
