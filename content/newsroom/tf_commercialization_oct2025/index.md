@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: tf_commeecialization.png
+    imgPath: tf_commercialization.png
 ---
 
 In case you missed it (unlikely, if you’re reading this post), today’s AWS outage, which took out much of the Internet, is a perfect reminder of why we do what we do – and why a decentralized, more resilient infrastructure like ours is needed.

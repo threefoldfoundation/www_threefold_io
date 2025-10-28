@@ -9,7 +9,7 @@ taxonomies:
   tags: [tech,grid,community]
   news-category: [tech,grid,community]
 extra:
-    imgPath: vote_3.18.png
+    imgPath: vote_318.png
 ---
 
 We’re thrilled to announce that TF Grid 3.18 is ready to move to Mainnet. Huge thanks to the team for their hard work and to everyone who contributed to a smooth testing phase.
