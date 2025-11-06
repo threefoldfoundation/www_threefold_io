@@ -10,7 +10,6 @@ taxonomies:
   news-category: [community, grid, tech]
 extra:
     imgPath: sep_2025_roundup.png
-    isFeatured: true
 ---
 
 We’re pleased to share with you key highlights from the past month or so. First, to set the stage:

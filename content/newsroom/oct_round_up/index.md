@@ -10,6 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: oct_round_up.png
+    isFeatured: true
 ---
 
 October marked another strong step forward in ThreeFold’s journey. From new Mycelium Network capabilities to progress in commercialization and economics, every initiative is converging toward one clear goal: building a better Internet – decentralized, sustainable, and owned by the people.

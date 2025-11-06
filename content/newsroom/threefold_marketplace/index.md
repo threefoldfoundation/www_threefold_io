@@ -10,7 +10,6 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: threefold_marketplace.png
-    isFeatured: true
 ---
 
 As we advance toward our mission of delivering a truly-global Internet built for everyone by everyone everywhere, we continue to evolve and refine the ThreeFold experience – making it more simple, more accessible, more cohesive, and more empowering for all who join our journey.
