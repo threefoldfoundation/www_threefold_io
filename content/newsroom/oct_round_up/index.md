@@ -18,6 +18,8 @@ October marked another strong step forward in ThreeFold’s journey. From new My
 
 As we move toward commercial utilization, the foundation is being set for farmers (hosters), builders, and partners to thrive in an open and resilient internet economy, one powered by collaboration, innovation, and shared value.
 
+<br/>
+
 #### TF Grid 3.18 Mainnet Release
 We’re thrilled to announce that TF Grid 3.18 is ready for Mainnet release. This version brings significant upgrades to TFChain, ZOS, RMB, and Mycelium, enhancing performance, stability, and user experience across the board.
 
