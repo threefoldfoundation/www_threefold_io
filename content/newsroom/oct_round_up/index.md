@@ -2,7 +2,7 @@
 id: oct_round_up
 title: "Unfolding ThreeFold: October 2025 Roundup"
 image_caption: oct_round_up
-description: ThreeFold moves toward a decentralized Internet with the TF Grid 3.18 release, new Mycelium features, and progress on TF Grid 4 Economics.
+description: Highlights from October include the TF Grid 3.18 release, updates on Grid 4 economics, and commercialization.
 date: 2025-11-06
 taxonomies:
   people: [bernadette_amanda_caster]
