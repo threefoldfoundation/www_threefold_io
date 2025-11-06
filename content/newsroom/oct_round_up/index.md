@@ -18,6 +18,9 @@ October marked another strong step forward in ThreeFold’s journey. From new My
 
 As we move toward commercial utilization, the foundation is being set for farmers (hosters), builders, and partners to thrive in an open and resilient internet economy, one powered by collaboration, innovation, and shared value.
 
+#### TF Grid 3.18 Mainnet Release
+We’re thrilled to announce that TF Grid 3.18 is ready for Mainnet release. This version brings significant upgrades to TFChain, ZOS, RMB, and Mycelium, enhancing performance, stability, and user experience across the board.
+
 </br>
 
 New features include a twin ownership transfer flow, improved proxy and connectivity support, an updated UI, and VPN functionality for macOS and Windows.
@@ -64,4 +67,3 @@ There is a lot of information to read and digest [here](https://threefold.info/m
 
 #### Looking Ahead
 It’s time to make 2026 the breakthrough year for ThreeFold. As we transition towards Project Mycelium, we’re focused on protecting the token economy and creating real commercial traction. Let’s keep momentum and collaboration strong! Thank you all for your continued belief and support.
-
