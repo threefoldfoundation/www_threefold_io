@@ -2,7 +2,7 @@
 id: oct_round_up
 title: "Unfolding ThreeFold: October 2025 Roundup"
 image_caption: oct_round_up
-description: ThreeFold moves toward a decentralized Internet with the TF Grid 3.18 release, new Mycelium features, and progress on TF Grid 4 Economics.
+description: Highlights from October include the TF Grid 3.18 release, updates on Grid 4 economics, and commercialization.
 date: 2025-11-06
 taxonomies:
   people: [bernadette_amanda_caster]
@@ -10,6 +10,7 @@ taxonomies:
   news-category: [tech,grid,community]
 extra:
     imgPath: oct_round_up.png
+    isFeatured: true
 ---
 
 October marked another strong step forward in ThreeFold’s journey. From new Mycelium Network capabilities to progress in commercialization and economics, every initiative is converging toward one clear goal: building a better Internet – decentralized, sustainable, and owned by the people.
@@ -17,6 +18,11 @@ October marked another strong step forward in ThreeFold’s journey. From new My
 <br/>
 
 As we move toward commercial utilization, the foundation is being set for farmers (hosters), builders, and partners to thrive in an open and resilient internet economy, one powered by collaboration, innovation, and shared value.
+
+<br/>
+
+#### TF Grid 3.18 Mainnet Release
+We’re thrilled to announce that TF Grid 3.18 is ready for Mainnet release. This version brings significant upgrades to TFChain, ZOS, RMB, and Mycelium, enhancing performance, stability, and user experience across the board.
 
 </br>
 
@@ -64,4 +70,3 @@ There is a lot of information to read and digest [here](https://threefold.info/m
 
 #### Looking Ahead
 It’s time to make 2026 the breakthrough year for ThreeFold. As we transition towards Project Mycelium, we’re focused on protecting the token economy and creating real commercial traction. Let’s keep momentum and collaboration strong! Thank you all for your continued belief and support.
-
