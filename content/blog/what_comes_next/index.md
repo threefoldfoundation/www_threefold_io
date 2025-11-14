@@ -81,7 +81,6 @@ So, as a company today, you really have three paths in front of you:
 - **Run Your Own Servers**: What DHH’s Basecamp chose. You buy and maintain physical hardware.
 - **Decentralized Cloud**: Shared, decentralized infrastructure that combines the resilience of self-hosting with the accessibility of the cloud. (In this article we specifically focus on ThreeFold.)
 
-
 <br/>
 
 | | **Centralized Cloud** | **Run Your Own Servers** | **ThreeFold** |
