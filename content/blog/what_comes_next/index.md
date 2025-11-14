@@ -31,8 +31,6 @@ It wasn’t the first time, and it most certainly won’t be the last.
 
 Zero OS has been specifically designed to ensure that:
 
-<br/>
-
 ### **The Cracks in the Cloud**
 
 The irony of modern computing is that we’ve built the most advanced infrastructure in human history, yet it’s still held together by a handful of companies. When one of them sneezes, the entire web stumbles.
@@ -60,7 +58,6 @@ And...he is right. For the most part. Centralization does indeed breed dependenc
 <br/>
 
 Not every company can afford to buy, house, and maintain its own servers across multiple continents. Wasn’t that the whole point of the cloud in the first place? For most organizations, the choice still feels binary: go cloud or go home.
-
 
 ### **Enter ThreeFold’s Solution**
 
