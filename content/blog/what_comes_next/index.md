@@ -1,8 +1,8 @@
 ---
 id: what_comes_next
-title: When the Cloud Stopped Working, and What Comes Next?
+title: When the Cloud Stopped Working, and What Comes Next
 image_caption: what_comes_next
-description: ThreeFold’s decentralized infrastructure offers a stronger, more reliable path for the future of the internet, a reality made even clearer by the recent AWS outage and the growing risks of centralized cloud models.
+description: ThreeFold’s decentralized infrastructure offers a stronger, more reliable path for the future of the internet, a reality highlighted by the recent AWS outage.
 date: 2025-11-04
 taxonomies:
   people: [raj_mitra]
@@ -103,7 +103,3 @@ The choice to consume or provide capacity doesn't have to be binary either. Thre
 <br/>
 
 The ThreeFold Grid shows that a different kind of internet is not only possible, it’s already working. The future doesn’t belong to data centers. It belongs to people.
-
-<br/>
-
-The next step is simple. Become part of it. Run a node. Deploy an app. Help rebuild the web as it was meant to be, open, resilient, and human.
