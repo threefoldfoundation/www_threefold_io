@@ -96,7 +96,7 @@ This entire stack is powered by SPORE, representing the Yang energy of expansion
 
 <br/>
 
-###### **Core Characteristics:**
+##### **Core Characteristics:**
 
 <br/>
 
