@@ -96,6 +96,7 @@ Fixing configuration files is not the solution. Rebuilding the foundation is.
 Instead of patching over the centralization crisis, ThreeFold rebuilds the foundation entirely.  
 
 <br/>
+
 Instead of a few hyperscale providers powering the world, ThreeFold utilizes thousands of independent capacity providers to contribute compute, storage, and bandwidth to a unified, autonomous grid. Its Sovereign Agentic Cloud is designed around decentralization, autonomy, and distribution. The exact qualities today’s internet has lost.
 
 <br/>
