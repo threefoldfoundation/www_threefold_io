@@ -127,4 +127,4 @@ ThreeFold’s work is aimed at rebuilding the web from the ground up. This is no
 
 <br/>
 
-Do you want to join our mission? [Start here](https://docs.threefold.io/docs/introduction/) and [stay tuned](https://t.me/threefoldnews).
+Do you want to join our mission? [Start here](https://threefold.info/mycelium_meet_4nov/docs/) and [stay tuned](https://t.me/threefoldnews).
