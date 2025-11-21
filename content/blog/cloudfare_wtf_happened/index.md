@@ -7,7 +7,7 @@ date: 2025-11-19
 taxonomies:
   people: [raj_mitra]
   tags: [tech,grid,community]
-  categories: [tech,grid,community]
+  categories: [tech,grid,cloud]
 extra:
     imgPath: cloudfare_wtf_happened.png
     

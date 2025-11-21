@@ -6,10 +6,11 @@ description: Project Mycelium is reshaping its tokenomics around a Yin–Yang in
 date: 2025-11-14
 taxonomies:
   people: [raj_mitra]
-  tags: [tech,grid,community]
-  categories: [tech,grid,community]
+  tags: [why,decentralization,community]
+  categories: [why,decentralization,community]
 extra:
     imgPath: yin_yang.png
+    isFeatured: true
     
 ---
 

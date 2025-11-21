@@ -10,7 +10,7 @@ taxonomies:
   categories: [tech,community]
 extra:
     imgPath: impacting_the_future1.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 The centralization of today’s Internet raises a slew of challenges around privacy, security, and sustainability – creating some negative impact for people and our planet. Meanwhile, ThreeFold is leading a vital movement towards a decentralized IT infrastructure and ecosystem to enable a more open, secure, and sustainable digital future. Let’s break down the type of positive impact ThreeFold can have.

@@ -10,7 +10,7 @@ taxonomies:
   categories: [tech,community]
 extra:
     imgPath: evolution_of_the_internet1.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 The internet has undergone a remarkable transformation since its inception in the 1960s. What started as a small, decentralized network designed for sharing knowledge and fostering collaboration has evolved into a vast, complex system that influences almost every aspect of modern life. However, this journey has been marked by significant shifts in the structure and nature of the internet, leading us to a critical juncture today.
