@@ -33,16 +33,16 @@ ThreeFold (and upcoming Project Mycelium, version 4 of the grid) taps into the i
 
 <br/>
 
-1. **The power to run your own infrastructure (again)**
+1. **The power to run your own infrastructure (again)** <br/>
 No single company controls the grid. Just like the early days, anyone can plug in capacity and participate, returning ownership to the edges.
 
-2. **The joy of tinkering – at modern scale**
+2. **The joy of tinkering – at modern scale** <br/>
 Set up a node, plug in capacity, experiment, build, break, fix, repeat. The hands-on creativity of the early Internet meets today’s possibilities.
 
-3. **A community-powered digital commons**
+3. **A community-powered digital commons** <br/>
 Each node strengthens the whole grid. Every contributor helps build a healthier, more neutral Internet, one owned by the people who run it.
 
-4. **A privacy-first alternative to Big Cloud**
+4. **A privacy-first alternative to Big Cloud** <br/>
 Decentralized, energy-efficient, and secure. Your data stays yours, your infrastructure stays in your hands.
 
 ### **The Future Looks a Lot Like the Past (In a Good Way)**
