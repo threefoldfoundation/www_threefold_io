@@ -7,7 +7,7 @@ date: 2025-10-17
 taxonomies:
   people: [raj_mitra]
   tags: [tech,grid,community]
-  categories: [tech,grid,community]
+  categories: [tech,grid,cloud]
 extra:
     imgPath: 3_step_rollout.png
     isFeatured: true

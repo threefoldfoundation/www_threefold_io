@@ -6,8 +6,8 @@ description: ThreeFold’s decentralized infrastructure offers a stronger, more 
 date: 2025-11-07
 taxonomies:
   people: [raj_mitra]
-  tags: [tech,grid,community]
-  categories: [tech,grid,community]
+  tags: [tech,cloud,why]
+  categories: [tech,cloud,why]
 extra:
     imgPath: what_comes_next.png
     

@@ -10,7 +10,7 @@ taxonomies:
   categories: [community, decentralization, farming, grid, cloud]
 extra:
     imgPath: roadmap_to_web4.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 ### **Part I: A Natural Evolution**
