@@ -1,13 +1,13 @@
 ---
-id: tf_decentralized_cloud_newthreefold_impact
+id: tf_decentralized_cloud_new
 title: "How ThreeFold's Decentralized Cloud Empowers Builders – and End Users"
 image_caption: technology
 description: ThreeFold isn’t just a vision for the future. It’s a functioning, decentralized infrastructure already in production.
 date: 2025-10-08
 taxonomies:
   people: [raj_mitra]
-  tags: [tech,community]
-  categories: [tech,community]
+  tags: [tech,cloud,community]
+  categories: [tech,cloud,community]
 extra:
     imgPath: tf_decentralized_cloud_new.png
     isFeatured: true

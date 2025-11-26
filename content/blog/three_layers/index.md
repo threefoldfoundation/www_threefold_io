@@ -10,7 +10,7 @@ taxonomies:
   categories: [decentralization, grid, cloud, tech]
 extra:
     imgPath: building_blocks_internet1.png
-    isFeatured: true
+    isFeatured: false
 ---
 
 *This article was originally published by Emilie Ouwerx, a former member of the ThreeFold team.*
